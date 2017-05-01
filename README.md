@@ -12,3 +12,4 @@ But, our facilitation_guide branch now has 3 learning loop exercises adapted fro
 * Building Shared Vision
 * Graphs Over Time
 * Eliciting Causal Loop Diagrams
+* Ratio Exercise
