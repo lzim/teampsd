@@ -3,11 +3,11 @@ title: "Systems Icon Facilitation Guide"
 output: github_document
 ---
 
-```{echo=FALSE}# to save file to root user menu must set wd at the beginning of working on the file 
+```{echo=FALSE# to save file to root user menu must set wd at the beginning of working on the file 
 
 setwd("/Users/alexandraballinger/r")
 
-getwd()```
+getwd()}```
 
 ##Session: Systems
 
