@@ -1,0 +1,136 @@
+---
+title: "Graphs Over Time"
+author: "Lindsey Zimmerman, PhD adapted from Scriptapedia 4.0.6"
+date: "May 1, 2017"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+  mode: self-contained
+---
+
+### Participatory System Dynamics Resources in R Markdown 
+
+This is an R Markdown presentation for the "Graphs Over Time" learning loop exercise from the participatory learning session of the Team PSD Facilitation Guide. 
+
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. 
+
+We use R and R Markdown so that our materials are open source/free, transparent for collaboration, reproducible by others and can be used repeatedly over time for local sustainability or for adaptation to another local health care system.
+
+### Context
+
+This learning loop exercise is used at the beginning of the project as a springboard for discussion about the problem to be modeled. 
+
+### Purpose
+
+This exercise helps to frame the implementation problem as a system problem.
+
+* This exercise is designed to help stakeholder begin to consider their quality or implementation problem as an emergent system behavior. 
+
+* This exercise helps to engage stakeholders around a shared understanding of the system 'reference mode(s).'
+
+* This is the first exercise in the facilitation guide that elicits and maps stakeholders' mental models.
+
+### Primary Nature of the Group Task
+
+Divergent
+
+### Time
+
+Preparation time by facilitators: 15 minutes
+
+Stakeholder time required during session: 45 minutes
+
+### Matierals Needed
+
+Projector connected to a computer, whiteboard and markers, or flipcharts and markers for creating and editing modeling project description
+
+* Camera or other method to capture the graphs
+* Stacks of 8.5x11 white paper with X and Y axes drawn on them
+* Large blank wall (8'x 10')
+* Thick markers
+* Painter's tap
+
+### Inputs
+
+None
+
+### Ouputs
+
+Candidate variables for the dynamic model or the map. 
+
+### Roles
+
+- Facilitator works with the grou pand has some experience with system dynamcs modeling
+- Modeler listens to what is being graphed and the way peole are talking about the grpahs. This person must be able to conceptualize early seeds of system structure.
+- Wall builder to cluster graphs and talk about themes; doesn't necessarily require experience with system dynamics.
+- Runner (optional) to bring the graphs from the facilitator if it is a large team
+- Recorder to document the session and photograph the clustered graphs
+
+### Steps to Graphs Over Time
+
+#### STEP ONE 
+####  Based on group size, decide whehter to break participants into smaller groups of less then 10.  If it is a team of less than 10, then allow individuals to work and present independently.
+
+##### The modeling team hands out sheets of white paper to each individual or team**
+
+##### The facilitator gives and example of how to draw a graph over time, carefully labeling x-axis "Time" with start tie, end time, and now indicated with a vertical dashed line.  The Y-axis is labeled with a variable name.  The facilitator then sketches the behavior over time.
+
+* Below are examples from the first session of local observational data.
+
+###### Slide with Local Data 
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+###### Plot of the Reference Mode for Local System from Local Data
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+###### Alternative plot of the Reference Mode for Local System from an Image
+
+[![](<img src="https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true)"
+      width="720" height="540">](https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true)
+
+* https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg
+* This image file is located on GitHub.  To help the R Markdown to find it, add '?raw=true/ to the end of the path:   https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true
+
+#### STEP ONE 
+##### The facilitator asks stakeholders to draw one variable over time per piece of paper.  *The stakeholders should be given the option of including hoped for behavior, expected behavior, and feared behavior on the same graph.* 
+
+##### The facilitator and wall-builder walk around and help participants with the task if they need it.  Allow 15 minutes or until the group runs out of steam to complete the task. 
+
+#### STEP TWO 
+##### Reconvene as a large group
+
+* If the group is less than ten people, the facilitator takes one graph at a time from each participant, holds it up in front of the entire group and asks him/her to talk about it.  As for participants to share the "best stuff" first.  Clarify timescale, variable names, etc.
+* If the group is more than ten people, instruct the teams to share their graphs with each other and choose the ones they think are most important.  The facilitator then goes to each team and holds the first grah they have selected up in front of the entire group.  The team spokesperson talks about the graph.  As teams to share the "best stuff" first.  Clarify timescale, variable names, etc.
+
+##### The facilitator then hands the graph to the wall builder.
+
+* The facilitator repeats the graph presentation steps with each stakeholder or team, one graph at a time until all graphs are shown or time has run out.  Finish by asking if any stakeholer has something else that really ought to be shown.
+* During steps 7-8, each graph is posted on the wall.  *The wall build tries to cluster the graphs meaningfully on the fly based on themes and variables.*
+
+#### STEP THREE 
+##### The facilitator asks the wall builder to expalin the clusters of graphs on the wall.  The wall builder tries to summarize dynamics that help to characterize the problem that emerges from the stakeholders' graphs.
+
+* The facilitator enables the stakeholders to talk about the clusters and the characterization of the problem they imply.
+* Consider labeling the clusters based on themes or related variables.  *There is potential for the modeler to close by highlighting the beginnings of feedback thinking in the dynamic problem.*
+
+### Evaluation criteria:
+
+* Interesting, self-sustaining group discussion after clusters described by the wall builder
+* Meaningful clusters identified
+* Graphs tend to converge to a clear dynamic problem
+* Some key dynamic variables emerge from reflecting on the graphs and thematic clusters
+* Modeling team can begin to see key stocks and perhaps important feedback loops
+* Members of the group appear to have better understanding of an emergent system behavior
+
+### Attribution
+This is adapted from Scriptapedia 4.0.6 (2013).
+Original authors are George P. Richardson and David F. Andersen.  See also Luna-Reyes et al., 2006.
+
+### Citation
+Andersen, D. F. & Richardson, G. P. (1997). Scripts for group model building. *System Dynamics Review, 13*(2), 107-129.

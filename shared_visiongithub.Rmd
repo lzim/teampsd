@@ -1,0 +1,120 @@
+---
+title: "Creating a Shared Vision of Modeling Project"
+author: "Lindsey Zimmerman, PhD adapted from Scriptapedia 4.0.6"
+date: "May 1, 2017"
+output: github_document
+---
+
+### Participatory System Dynamics Resources in R Markdown 
+
+This is an R Markdown presentation for the "Creating a Shared Vision of a Modeling Project" learning loop exercise from the participatory learning session of the Team PSD Facilitation Guide. 
+
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. 
+
+We use R and R Markdown so that our materials are open source/free, transparent for collaboration, reproducible by others and can be used repeatedly over time for local sustainability or for adaptation to another local health care system.
+
+### Context
+
+This learning loop exercise is used at the beginning of the project or as a means of revision for long-term project.
+
+### Purpose
+
+To help the team create a vision and understanding of the "modeling to learn" project process and goals together.
+
+### Primary Nature of the Group Task
+
+Convergent
+
+### Time
+
+Preparation time by facilitators: 45 minutes
+
+Stakeholder time required during session: 45 minutes
+
+### Matierals Needed
+
+Projector connected to a computer, whiteboard and markers, or flipcharts and markers for creating and editing modeling project description
+
+### Inputs
+
+None
+
+### Ouputs
+
+Individual visions synthesized into a shared vision for the modeling project 
+
+### Roles
+
+- Facilitator with moderate skills and facilitation who is familiar with stakeholders in the room
+- Gate keeper or 'champion' who is advocating for the team participation in the particiatory system dynamics modeling process and the value of the model to the team
+
+### Steps to Building a Shared Vision
+
+#### STEP ONE 
+#### The facilitator presents the elements of a modeling project description, and if available, a draft modeling project description. A modeling project description has the following elements:
+
+##### Name of modeling project - for example, 'Modeling to Learn'**
+
+##### Describe the background
+
+* What's the reference mode (in words or graph)?
+* Why is this problem important?
+
+###### Slide with Local Data 
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+###### Plot of the Reference Mode for Local System from Local Data
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+###### Alternative plot of the Reference Mode for Local System from an Image
+
+[![](<img src="https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true)"
+      width="720" height="540">](https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true)
+
+* https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg
+* This image file is located on GitHub.  To help the R Markdown to find it, add '?raw=true/ to the end of the path:   https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true
+
+##### Problem type
+
+* What is the main barrier to solving the problem (e.g., learning, coordination, analysis, restructuring)?
+* Why?
+
+##### System insights
+
+* What kind of system insights would be an improvement or contribution over 'business as usual'?
+* What would be the contriution of participatory system dynamics over alternative quality improvement strategies?
+
+##### Define the primary users of the of model
+
+* Who is the primary audience for the work done in this project?
+* Our aim with Team PSD is to empower local decision-makers.
+
+##### Resources
+
+* How much time will be dedicated to the PSD process.
+* What types of skills and human resources are needed for this?
+
+##### Values
+
+* What are the expectations and aspirations (e.g., provide opportunities to build general capacity for quality improvement among program staff, involve frontlien mental health stakeholders who can use this procrss and tools toward their aims)?
+
+#### STEP TWO:  
+#### The facilitator leads a discussion of the description and assists in editing the modeling project description to better reflect the focus of the modeling project based on stakeholder (i.e., team) input.
+
+#### Repeat steps one and two as necessary, moving on when consensus has been reached.
+
+### Evaluation criteria:
+
+* Stakeholders from the are engaging in the discussion, contributing, and indicate understanding of the terms of the modeling exercise, motivation, and purpose
+* Clarity of the shared vision (i.e., the modeling project description) that is developed
+* Consensus on the modeling project description
+
+### Attribution
+This is adapted from Scriptapedia 4.0.6 (2013)
+Original authors are the Foundation for Ecological Security, Gautam Yadama, and Peter Hovmand, 2010
