@@ -1,5 +1,5 @@
 ---
-output: word_document
+output: github_document
 ---
 ```{echo=FALSE}# to save file to root user menu must set wd at the beginning of working on the file 
 
