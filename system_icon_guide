@@ -1,0 +1,51 @@
+---
+output: word_document
+---
+```{echo=FALSE}# to save file to root user menu must set wd at the beginning of working on the file 
+
+setwd("/Users/alexandraballinger/r")
+
+getwd()```
+
+---
+title: "Facilitation Guide"
+output: html_document
+---
+##Session: Systems
+
+###Key Idea Icon
+*	A system's structure determines it's behavior 
+* A system is a whole with properities that none of it's parts has 
+* System parts are defined by their relationship to the whole. It is not effective to focus on solving problems in isolation
+* Zooming out and in is the key skill of systems thinking 
+
+
+###Definitions- Book Icon
+
+* System: A system is "an interconnected set of elements, coherently organized in a way that achieves something"
+* System Behavior: Emerges from the dynamic interactions of system components.
+    + We define limited EBP reach as a system behavior-an undesirable product of the interaction of system elements  
+
+###Dialogue- Hexagon Icon
+
+* Discuss Illustrative Exercises- Slinky and Car parts 
+* Briefly describe how each relates to equifinality and multifinality
+
+###Learning Loop (Practice/ Exercise)
+
+* Discuss the concept of mental models adressed by Dominique 
+* In this exercise we will make mental models explicit 
+
+* **Graphs Over Time Exercise**
+    + Facilitate stakeholders choosing a variable of interest and diagramming its change over time
+    + Begin posting graphs up and facilitating discussion of how the various graphs are related, beginning to talk about them as a system  
+    
+##Hexagon Molecule (Lesson Overview) "Putting it Together"
+
+* In order to change an undesirable system behavior (like limited EBP reach) we need to understand the system that produces it. We do this by zooming in to understand elements in detail and zooming out to contextualize them in the whole (iteratively). 
+
+* **Coming Up**
+    + We will make the dynamics between the system elements we modeled today more explicit
+    + We will explore feedback in-depth
+    + Stakeholders will explore their own data to see those feedback dynamics at work 
+    
