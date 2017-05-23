@@ -51,11 +51,6 @@ Developing a System Story
 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_full-network_674171_003F72.svg" width="720" height="540">
 
-Traffic
--------
-
-<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_traffic_924177_003F72.svg width="720" height="540">
-
 Positive Feedback
 -----------------
 
@@ -65,6 +60,16 @@ Negative Feedback
 -----------------
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="720" height="540">
+
+Role of Delays - Time
+---------------------
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_redo_993290_003F72.svg width="720" height="540">
+
+Traffic
+-------
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_traffic_924177_003F72.svg width="720" height="540">
 
 Static Observation
 ------------------
@@ -90,11 +95,6 @@ System Behavior– Oscillation
 ----------------------------
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_sine-wave_385866_003F72.svg width="720" height="540">
-
-Role of Delays - Time
----------------------
-
-<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_redo_993290_003F72.svg width="720" height="540">
 
 Exercise- Graphs Over Time
 --------------------------
