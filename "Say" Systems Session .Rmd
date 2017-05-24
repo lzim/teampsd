@@ -1,0 +1,105 @@
+---
+title: "Participatory System Dynmaics Modeling: Facilitation Guide"
+author: "Team PSD"
+date: "May 23rd, 2017"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  github_document: default
+---
+## Session: Systems
+
+### Key Ideas 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+*	A system's structure determines it's behavior 
+* A system is a whole with properities that none of it's parts has 
+* System parts are defined by their relationship to the whole. It is not effective to focus on solving problems in isolation
+* Zooming out and in is the key skill of systems thinking 
+
+
+### Terms
+
+* System: "an interconnected set of elements, coherently organized in a way that achieves something"
+* System Behavior: Emerges from the dynamic interactions of system components.
+    + We define limited EBP reach as a system behavior  
+
+### Dialogue- Hexagon Icon
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Discuss slinky and Car parts, briefly describe how each relates to equifinality and multifinality
+
+### Learning Loop 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+* Reintroduce mental models from participatory session- in this exercise we will make mental models explicit 
+
+* **Graphs Over Time Exercise**
+    + Facilitate stakeholders choosing a variable of interest and diagramming its change over time
+    + Post graphs and facilitate discussion of how the various graphs are related, beginning to talk about them as a system  
+    
+### Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+* In order to change an undesirable system behavior (like limited EBP reach) we need to understand the system that produces it. We do this by zooming in to understand elements in detail and zooming out to contextualize them in the whole (iteratively). 
+
+* **Coming Up**
+    + We will make the dynamics between the system elements we modeled today more explicit
+    + We will explore feedback in-depth
+    + Stakeholders will explore their own data to see those feedback dynamics at work 
+
+## Complex
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">
+
+Introduce system thinking by discussing how the problem that we're attempting to address (in this case limited EBP reach) persists because it is complex- there isn't a linear cause and effect. It is the result of multiple interrlated variables with levels that change dynamiclly over time.
+
+
+## Interconnected 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg" width="240" height="180">
+
+We define limited EBP reach as a system behavior, a product of the interaction of system components. Each part of the system is dependent for effect on other parts, no part works in isolation. The complexity and interconnectedness of the clinic system means we cannot possibly understand it intuitively. It is impossible to hold the rates, states and interactions of all of the relevant variables in our heads, especially as they change over time. one of the value adds of the PSDM approach is that we move to a model, an external representation of the system that can display complexity and interconnectedness of these variables in a coherant way.
+     
+
+## Structure Determines Behavior 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_000000.svg" width="240" height="180">
+
+One of the teaching examples commonly used to illustrate systems thinking is the slinky. Hold a slinky from the top and bottom then release your bottom hand so it drops and bounces up and down until it is stil. Then ask the group: why did that happen to the slinky? Why did it bounce up and down? Some common answers might be- "because you released your bottom hand" or "because of gravity". If these answers are given point out that if you did the same thing with a notebook it wouldn't bounce back it would simply hit the ground. Then explain that the structure of the slinky, its coils, causes the physical behavior of it bouncing up and down. Similarly, the structure of the clinical setting (the way all interreltated components interact) produces the behavior of limited EBP reach.The system structure determines how it reacts to outside forces (like national change efforts), similarly to how the slinky structure determines how it reacts to gravity. Because the behavior we want to change is determined by the system structure, change efforts need to target that structure. We must understand the underlying structure in order to find points of levarage to target. In this session we hope to help frontline staff come to a more "systems" understanding of their setting.
+
+
+## Function of a System 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_roofless-car_564275_003F72.svg" 
+      width="240" height="180">
+      
+## System Components 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-tire_811766_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-battery_811720_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-keys_811748_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_steering-wheel_167223_003F72.svg">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_roofless-car_564275_003F72.svg" width="240" height="180">
+
+## Multifinality and Interconnectedness
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="240" height="180">
+
+## Purpose of the Session: Eliciting Mental Models 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">
+      
+## Zooming in and out 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg" width="240" height="180"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg" width="240" height="180">
+
+## Developing a System Story 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_full-network_674171_003F72.svg" width="240" height="180">
+
+## Exercise- Graphs Over Time 
+
+Split into 6 groups, on the paper provided please draw a simple graph with time on the horizonal axis and level of the following variables on the verticle. 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg" width="240" height="180">
+
+* Group 1: Morale
+* Group 2: Turnover
+* Group 3: Providers Trained in EBPs
+* Group 4: Students in Clinic 
+* Group 5: Provider Availability to start EBPs
+* Group 6: No Shows 
