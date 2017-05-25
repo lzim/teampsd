@@ -11,8 +11,8 @@ For more information about using the CFIR please go to http://cfirguide.org/
 
 * Building Shared Vision
 * Graphs Over Time 
-* Eliciting Causal Loop Diagrams* 
-* Ratio Exercise*
+* Eliciting Causal Loop Diagrams
+* Ratio Exercise
 
 These exercises are adapted from https://en.wikibooks.org/wiki/Scriptapedia
 More work to turn this into Facilitation Guide resources is ongoing https://github.com/LZIM/teampsd/tree/facilitation_guide
@@ -20,4 +20,5 @@ More work to turn this into Facilitation Guide resources is ongoing https://gith
 * Our first team issue was developing our style sheets for formatting consistency when using rMarkdown.
 
 We are still working on that...But, we have added several resources that we are using to create a consistent "loook and feel" for Team PSD resources that is consistent with the VHA Graphics and Style reporting requirements.
-https://github.com/LZIM/teampsd/tree/hexagon_icons
+
+These resources are growing here: https://github.com/LZIM/teampsd/tree/hexagon_icons
