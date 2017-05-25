@@ -7,10 +7,11 @@ We are just getting started on our CFIR coding branch https://github.com/LZIM/te
 For more information about using the CFIR please go to http://cfirguide.org/
 
 **Our facilitation_guide branch now has 4 learning loop exercises adapted from https://en.wikibooks.org/wiki/Scriptapedia
-•Building Shared Vision
-•Graphs Over Time
-•Eliciting Causal Loop Diagrams
-•Ratio Exercise
+
+*Building Shared Vision
+*Graphs Over Time
+*Eliciting Causal Loop Diagrams
+*Ratio Exercise
 
 More work to turn this into Facilitation Guide resources is ongoing https://github.com/LZIM/teampsd/tree/facilitation_guide
 
