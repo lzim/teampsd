@@ -1,0 +1,47 @@
+---
+title: 'Operations: Facilitating Frontline Staff Understanding of Limited EBP Reach
+  – “See File”'
+author: "Joyce Yang, M.S."
+date: "May 24th, 2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+## Data Dialogue 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
+
+     
+## Mental Model 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+## Dialogue 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" 
+      width="720" height="540">
+      
+## PSD Process 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+## Data Visualization
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="720" height="540">
+
+## Purpose of the Session: Become familiar with our data
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+      
+
+## Learning Loop Exercise
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg" width="720" height="540">
+
+credit score simulator: https://www.creditkarma.com/tools/credit-score-simulator
+
+
+## Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="720" height="540">
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
