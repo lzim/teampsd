@@ -1,0 +1,90 @@
+---
+title: "Modeling – “See File”"
+author: "Melissa London"
+date: "May 30, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+## Traffic Jam 
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_traffic_924177_003F72.svg" width="720" height="540">
+
+-	Use traffic jam analogy to reintroduce stocks and flows
+-	“In the same way we ask ourselves, what is causing this traffic jam, we may be asking ourselves what is driving these state measures in our clinics?”
+
+     
+## Valve/Flow; Flow/Faucet
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_valve_911279_003F72.svg" width="720" height="540">
+
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_tap_603244_003F72.svg" width="720" height="540">
+
+-	Clarify definitions of stock/flow (use the following two icons as well to understand rates versus drivers)
+
+## Static Observation 
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" 
+      width="720" height="540">
+      
+## Dynamic Observation Over Time
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg" width="720" height="540">
+
+## Modeling to Learn
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+-	By this point, we understand that we all have different mental models of what we think is driving the stocks
+-	We need to elicit and make explicit these models by making hypotheses 
+
+
+## Data Dialogue
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_546911_003F72.svg" width="720" height="540">
+
+-	The first step is model specification, which occurs through a dialogue about what variables and relationships appear most important
+-	We may go from less specific to more specific to determine 
+
+
+## Data Visualization
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_visualization_741760_003F72.svg" width="720" height="540">
+
+-	As we get more specific, we conduct model reviews and clean up the model
+-	During the review, we pay specific attention to variables and linkages that involved changes or were questionable
+-	There may be several model reviewing sessions prior to moving on
+
+
+## System Behavior
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_source-sine_634684_003F72.svg" width="720" height="540">
+
+-	As we simplify the model, we make sure we are using a system dynamics approach 
+
+## Sliders/Mixer
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_settings_339117_003F72.svg" width="720" height="540">
+
+-	Currently operating under the equfinality assumtpion that diverse initial conditions and organizational pathways may result in the same outcome
+-	However, a focus on local determinants of system behavior may be more appropriate to develop successful implementation plans
+
+
+## Feedback
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
+
+-	We then identify major feedback loops as well as major stocks in system that will be needed for our formal simulation model
+
+## Synthesis
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="720" height="540">     
+
+-	Formulate and test the model 
+
+## Learning Loop Exercise : Modeling to Learn
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
+
+- Group model building exercise
+
+## Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="720" height="540">
+
+
+-	The main role of simulation is to test hypotheses about the relationship between the system structure and system behavior using local data and local expertise.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
