@@ -1,0 +1,58 @@
+---
+title: "Modeling – “See File”"
+author: "Melissa London"
+date: "May 30, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+## Traffic Jam 
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_traffic_924177_003F72.svg" width="720" height="540">
+
+     
+## Valve/Flow; Flow/Faucet
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_valve_911279_003F72.svg" width="720" height="540">
+
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_tap_603244_003F72.svg" width="720" height="540">
+
+## Static Observation 
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" 
+      width="720" height="540">
+      
+## Dynamic Observation Over Time
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg" width="720" height="540">
+
+## Modeling to Learn
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+## Data Dialogue
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_546911_003F72.svg" width="720" height="540">
+
+## Data Visualization
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_visualization_741760_003F72.svg" width="720" height="540">
+
+## System Behavior
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_source-sine_634684_003F72.svg" width="720" height="540">
+
+## Sliders/Mixer
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_settings_339117_003F72.svg" width="720" height="540">
+
+## Feedback
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
+
+## Synthesis
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="720" height="540">     
+
+## Learning Loop Exercise : Modeling to Learn
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
+
+## Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="720" height="540">
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
