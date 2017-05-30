@@ -1,0 +1,34 @@
+---
+title: 'Session: Dynamics'
+author: "Myra Altman"
+date: "May 30th, 2017"
+output:
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+## Policy Resistance 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg" width="240" height="180">
+
+## Quality Improvement Often Fails
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg " width="240" height="180">
+
+## Alternative Approach
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/ np_idea_884671_003F72.svg" width="240" height="180">
+## Zooming in and out 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg" width="240" height="180"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg" width="240" height="180">
+
+## Tradeoffs
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_settings_339117_003F72.svg  " width="240" height="180">
+## Increasing general and specific capacity
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">
+
+## Exercise- Causal Loop Diagrams 
+
+
