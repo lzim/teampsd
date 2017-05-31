@@ -1,0 +1,49 @@
+---
+title: "Participatory_Overview"
+author: "Dmalebranche"
+date: "5/29/2017"
+output: html_document
+---
+
+## Session: Participatory
+
+### Key Ideas 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+*	Modeling to learn includes making mental models explicit 
+* Co-creating a shared vision for utilizing modeling to learn process will help individual visions fit together with other colleagues 
+* Making mental models explicit includes formulating a model that will help with specific quality improvement strategies to improve EBP reach
+
+
+### Terms
+
+* Model to Learn: 
+* Mental Model: images, assumptions and stories which we carry in our minds of ourselves, other people, institutions, and every aspect of the world (i.e., internal pictures of the world)
+* Shared Vision: building sense of commitment in a group by developing shared images of the future sought to create and principles guiding practices by which we hope to get there
+* Participatory:
+
+### Dialogue- Hexagon Icon
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Discuss modeling to learn and shared vision to develop a co-created understanding of the problem together
+
+### Learning Loop 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+* Circles exercise: Introduce modeling to learn, given that individual perspectives of the problem are incomplete
+* Elephant metaphor: Introduce shared vision for the project of using modeling
+
+* **Shared Vision Exercise**
+    + Facilitate stakeholders process of creating a vision and understanding of the modeling to learn project process and goals together
+    + Facilitate discussion to revise long-term project goals
+    
+### Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+* In order to address needs for learning and coordination for limited EBP reach, a participatory approach is necessary to connect individuals, a PSD process elicits mental models and dialogue together makes them explicit
+
+* **Coming Up**
+    + We will discuss system structures and its influence on behavior
+    + We will explore system dynamics that will help with developing a model further in the PSD process
+
