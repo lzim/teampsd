@@ -27,12 +27,6 @@ output:
 ## Modeling to Learn
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
 
-## Data Dialogue
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_546911_003F72.svg" width="720" height="540">
-
-## Data Visualization
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_visualization_741760_003F72.svg" width="720" height="540">
-
 ## System Behavior
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_source-sine_634684_003F72.svg" width="720" height="540">
 
