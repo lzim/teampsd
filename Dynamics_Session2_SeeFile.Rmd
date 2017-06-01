@@ -1,0 +1,41 @@
+---
+title: 'Dynamics: See_file'
+author: "Swap Mushiana, M.S."
+date: "May, 2017"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  github_document: default
+---
+## Positive Feedback
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="720" height="540">
+
+## Negative Feedback
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="720" height="540">
+
+## Role of Delays - Time 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_redo_993290_003F72.svg width="720" height="540">
+
+## Traffic 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_traffic_924177_003F72.svg width="720" height="540"> 
+
+## Static Observation 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_interactive-bar-chart_151004_003F72.svg width="720" height="540">
+
+## Dynamic Observation
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg width="720" height="540">
+
+## Nonlinear System Behavior- Exponential Growth
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg width="720" height="540">
+
+## Nonlinear System Behavior- Steady State
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_88002_003F72.svg width="720" height="540">
+
+## System Behavior– Oscillation
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_sine-wave_385866_003F72.svg width="720" height="540">
+
+## Ratio Exercise 
+### Using the stock and flow diagram presented earlier, ask stakeholders to tell feedback stories that account for ratio of variables being mapped.
