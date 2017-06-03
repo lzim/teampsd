@@ -1,0 +1,64 @@
+---
+title: "Participatory_SEE"
+author: "Dmalebranche"
+date: "6/3/2017"
+output: html_document
+---
+
+## Session: Participatory
+
+## Complexity
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
+
+
+## Mental Model
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+
+## Learning Loop
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg">
+
+
+## Participatory: Individuals mental models are incomplete [[ICON NEEDED]]
+
+
+## Participatory: Modeling to Learn (1)
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="720" height="540">
+
+
+## Participatory: Modeling to Learn (2)
+<img src="https://cdn.rawgit.com/LZIM/teampsd/np_communication_884666_003F72.svg" width="720" height="540">
+
+
+##Participatory: Modeling to Learn (3)
+<img src="https://cdn.rawgit.com/LZIM/teampsd/np_share_884712_003F72.svg" width="720" height="540">
+
+
+##Participatory: Modeling to Learn (4)
+<img src="https://cdn.rawgit.com/LZIM/teampsd/np_idea_884671_003F72.svg" width="720" height="540">
+
+
+## Teaching Story: Elephant
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/np_elephant_287094_003F72.svg" width="720" height="540">
+
+
+
+## Shared Vision
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+
+#Putting it Together
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+
+## Synthesis
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="720" height="540">
+
+
+## Policy Resistance
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg" width="240" height="180">

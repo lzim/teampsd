@@ -1,0 +1,153 @@
+---
+title: "Participatory_SAY"
+author: "Dmalebranche"
+date: "6/3/2017"
+output: html_document
+---
+
+## Session: Participatory
+
+### Key Ideas 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+* We each have individual incomplete mental models 
+* We need to learn from each other to have a more complete shared vision 
+* This mutual learning PSD process will help us coordinate and manage the complexity of the health care system
+* Without learning and coordination, we may have unintended policy resistance and ineffective strategies
+
+
+### Terms [[ICON NEEDED]]
+
+* Model to Learn: 
+* Mental Model: images, assumptions and stories which we carry in our minds of ourselves, other people, institutions, and every aspect of the world (i.e., internal pictures of the world)
+* Shared Vision: building sense of commitment in a group by developing shared images of the future sought to create and principles guiding practices by which we hope to get there
+* Participatory:
+
+### Dialogue- Hexagon Icon
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Discuss modeling to learn and shared vision to develop a co-created understanding of the problem together
+
+### Learning Loop 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+* Circles exercise: Introduce modeling to learn, given that individual perspectives of the problem are incomplete
+* Elephant metaphor: Introduce shared vision for the project of using modeling
+
+* **Shared Vision Exercise**
+    + Facilitate stakeholders process of creating a vision and understanding of the modeling to learn project process and goals together
+    + Facilitate discussion to revise long-term project goals
+    
+### Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+* In order to address needs for learning and coordination for limited EBP reach, a participatory approach is necessary to connect individuals, a PSD process elicits mental models and dialogue together makes them explicit
+
+* **Coming Up**
+    + We will discuss system structures and its influence on behavior
+    + We will explore system dynamics that will help with developing a model further in the PSD process
+
+## Complexity
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
+
+*We need models because our health care system is complex
+*We can increase willingness to come together with a new, more complete, model for problem-solving
+
+
+## Mental Model
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+*We come into the room with individual mental models
+*It is necessary for us to reflect upon, and continually clarify and improve our models, given that internal pictures of the world determine what we see (Senge, 1990)
+*Often our mental models are untested and unexamined and our core task is to help make them visible, bringing mental models to the surface to explore and talk about them with minimal defensiveness
+
+
+## Learning Loop
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg">
+
+*Circles Exercise
+
+
+## Participatory: Individuals mental models are incomplete [[ICON NEEDED]]
+
+*The differences between mental models explain why two people can observe the same event and describe it differently; they are paying attention to different details
+*In essence, mental models shape how we act (Senge, 1990)
+
+
+## Participatory: Modeling to Learn (1)
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="720" height="540">
+
+*We are interconnected
+
+
+## Participatory: Modeling to Learn (2)
+<img src="https://cdn.rawgit.com/LZIM/teampsd/np_communication_884666_003F72.svg" width="720" height="540">
+
+*PSD process elicits mental models of system problems and makes…
+
+
+##Participatory: Modeling to Learn (3)
+<img src="https://cdn.rawgit.com/LZIM/teampsd/np_share_884712_003F72.svg" width="720" height="540">
+
+*…dialogue of mental models
+*Elicitation makes our models explicit
+
+
+##Participatory: Modeling to Learn (4)
+<img src="https://cdn.rawgit.com/LZIM/teampsd/np_idea_884671_003F72.svg" width="720" height="540">
+
+*This mutual learning process allow stakeholders to see new possibilities
+*It is a dynamic, ongoing process where iterative learning has the potential to facilitate empowerment, capacity-building and shared ownership
+
+
+## Teaching Story: Elephant
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/np_elephant_287094_003F72.svg" width="720" height="540">
+
+*[[Insert A systems Story video]]
+*Individual mental models are incomplete
+*The whole has properties that none of the parts have
+
+
+## Shared Vision
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+*Purpose: help people see how their individual visions fit together with colleagues and fit into a shared vision for modeling to learn process
+*Goals: 
+    + Elicit individual’s model/vision of PSD process and find themes that align with one another
+    + Co-create vision for modeling to learn project (e.g., why PSD process, consistent with zooming in-part/zooming out-whole)
+*It is important to formally acknowledge everyone’s place in the room (i.e., mutual respect, invoke other’s potential by our willingness to see essence of others) (Senge, 1990).
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Discuss modeling to learn and shared vision to develop a co-created understanding of the problem together
+
+
+#Putting it Together
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+*What is the shared vision for the PSD modeling project?
+
+
+## Synthesis
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="720" height="540">
+
+*Everyone’s contribution should be increasingly brought into the whole
+*Reflecting everyone’s aspirations, a creative synthesis can emerge
+*This process will continue throughout the PSD process
+
+
+## Policy Resistance
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg" width="240" height="180">
+*If we are not engaging in zooming in in/out process, there will be inevitable resistance to policy changes
+*PSD process helps us to understand, rather than undermine,  each other’s models and visions
+
+
+## Lesson Complete
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.svg" width="720" height="540">
+* **Coming Up**
+    + We will discuss system structures and its influence on behavior
+    + We will explore system dynamics that will help with developing a model further in the PSD process
