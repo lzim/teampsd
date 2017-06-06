@@ -33,6 +33,7 @@ output:
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
 
 * **Ratio Exercise**
+    + Following our discussion about key conecpts about dynamics, we will map variables proposed by stakeholders and thier ratio or differences in relation to one another. 
     + Using the stock and flow diagram presented earlier, ask stakeholders to tell feedback stories that account for the ratio of the variables being mapped.
     
 ### Lesson Overview "Putting it Together"
@@ -47,7 +48,7 @@ Positive feedback loops amplify or reinforce a variable in the system. They gene
 ### Negative Feedback
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="240" height="180">
 
-Negative feedback loops are goal-seeking and drive the system towards equilibrium. They are sources of stability, control, and resistance to change within a system. (Cite: Meadows) 
+Negative feedback loops are goal-seeking and drive the system towards equilibrium. They are sources of stability, control, and resistance to change within a system. (Cite: Meadows). Later on, we will map out variables and designate thier differneces using positive and negative feedback loops. 
 
 ### Role of Delays  
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_redo_993290_003F72.svg width="240" height="180">
@@ -58,9 +59,7 @@ For example, stakeholders are challgned to appreciate the delays between thier a
 ### Traffic 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_traffic_924177_003F72.svg width="240" height="180"> 
 
-
 The example of traffic during rush hour is a great example of how something seemingly ahead of us is impacting our ability to act, in this case get home from work. Regardless of how fast you want to get to your destination, there is a feedback process that is slowing the speed at which you want to get on to the freeway. In systems, the stock can impact the flow, and the flow can impact the stock. In the traffic example, the cars on the road or the stock influences the rate in which the driver can get on to the freeway or the flow. This means that the stock is dictating the flow, the rate at which cars can get on to the freeway. Humans are linear cause and effect thinkers. We typically see the happenings of the world as a series of events, and rarely account for feedback. (cite: Meadows) We can apply what happens during traffic hour to the clinics. The state of the clinic or stock impacts the rate of patient referrals or flow into and out of the clinic. 
-
 
 ### Static Observation 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_interactive-bar-chart_151004_003F72.svg width="240" height="180">
@@ -87,7 +86,6 @@ Similar to exponential growth, a nonlinear relationship has inputs that are not 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_sine-wave_385866_003F72.svg width="240" height="180">
 
 Oscillations occur as a result of delays throughout the system. These delays occur in multiple feedback interactions at different ratios. Stakeholders often undershoot or overshoot when attempting to adjust behaviors to correct system oscillations, ultimately making matters worse. For example, referral rates within a clinic can create oscillations in system behavior. The delays in the referral rate to the clinic are based on the feedback from the providers. When the providers’ schedules are at max capacity, the frontline staff stop referring. The rate of referral has dropped to zero at that moment in time. Slowly, providers get through their patient panel, and have more time where they are not seeing patients. The frontline staff is informed and start to refer patients again. There is a delay in the feedback of information between the providers and frontline staff that creates a stop and start rate of referrals into the stock. This causes oscillation in the clinic where providers are maxed out in one instance, and then have idle time as they wait for referrals in an another instance. 
-
 
 ### Ratio Exercise 
 <img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="240" height="180">
