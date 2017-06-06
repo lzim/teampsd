@@ -39,7 +39,7 @@ output:
 
 * Initiating and elaborating a causal loop diagram. Developing a dynamic hypothesis for “limited EBP reach” 
 
-    
+    
 ## Lesson Overview "Putting it Together"		
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
 
@@ -52,7 +52,7 @@ output:
 
 ### Narrative
 
-## Quality Improvement Strategies often lead to Burnout, etc.  
+## Quality Improvement Efforts Often Fail 
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg width="240" height="180">
 
@@ -63,7 +63,7 @@ Previously used QI strategies and data may not feel valid or useful because they
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_000000.svg width="240" height="180">
 
 
-## Quality Improvement Often Fails
+## Success is Dependent on the System 
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_full-network_674171_003F72.svg width="240" height="180">
 
@@ -81,14 +81,17 @@ Introduce/Show Red Bead Video?
 How performance is measured varies by the type of team you are on. For example, if we were part of a bowling team our performance is defined by our individual scores that get added to the team score. If we are part of a band, though, our performance is determined by how we play together. Thinking about how a whole system functions together is a very different approach than what has previously been done with performance measures, etc, when data can be used against providers. 
  
 ## Alternative Approach
+
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg width="240" height="180">
 In this approach, we will take a totally different approach, with a focus on learning together and prioritizing the things that frontline staff care most about. 
 
 ## Zooming in and out 
+
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg width="240" height="180"> 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg width="240" height="180">
 
 To do this, we will need to be able to look at data in a way that is not punishing, for example, when we think data looks very clear – “bad numbers” v “good numbers” – but may not be providing the information we think it is.  We need to look at the whole system that you are working in, which means we can’t just look at at any one part of data because we only see a snapshot – we need to make sure we zoom out to optimize parts in terms of the whole.
+
 ## Tradeoffs
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg width="240" height="180">
