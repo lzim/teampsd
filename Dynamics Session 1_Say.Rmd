@@ -46,47 +46,61 @@ output:
 * The greater the interdependence of the system, the greater the need for learning and coordination. In order to model to learn, we need participation and to elicit mental models and make them explicit 
 * The data used in this approach emerge out of the interactions of the whole system. Want stakeholders to see the whole system behavior and its parts in new ways. Want them to be able to zoom in and zoom out.
 
-* **Coming Up**
+* Coming Up
 
-+ ???
-+ ???
+
 
 ### Narrative
 
 ## Policy Resistance 
 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg" width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg width="240" height="180">
 
 “Have you ever felt frustrated that they system would not let you do your work and you felt powerless to change it? Have you felt that the numbers or data weren’t valid or useful for your questions?”
 
-Previously used QI strategies and data may not feel valid or useful because they do not address the fundamental dynamics at play in the system and can be used to punish or reward, which can lead to policy resistance. Success is directly tied to and limited by the system you are working in.
+Previously used QI strategies and data may not feel valid or useful because they do not address the fundamental dynamics at play in the system and can be used to punish or reward, which can lead to policy resistance. Success is directly tied to and limited by the system you are working in. Remember the slinky?
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_000000.svg width="240" height="180">
+
 
 ## Quality Improvement Often Fails
 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_full-network_674171_003F72.svg width="240" height="180">
 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg " width="240" height="180">
+Many quality improvement efforts that are selected fail because they lead to policy resistance, burnout, turnover, low morale, etc. These approaches are unsuccessful because they do not take into account the fundamental dynamics at play in the system. They fail to take into account the feedback in the system. 
 
-Many quality improvement efforts that are selected fail because they lead to burnout, turnover, low morale, etc. These approaches are unsuccessful because they do not take into account the fundamental dynamics at play in the system. 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="240" height="180">
 
-**Introduce/Show Red Bead Video? 
+Introduce/Show Red Bead Video? 
 
 ## Measuring Performance
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/ np_team-building_1016130_003F72.svg" width="240" height="180">
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg width="240" height="180">
 
 How performance is measured varies by the type of team you are on. For example, if we were part of a bowling team our performance is defined by our individual scores that get added to the team score. If we are part of a band, though, our performance is determined by how we play together. Thinking about how a whole system functions together is a very different approach than what has previously been done with performance measures, etc, when data can be used against providers. 
+ 
 ## Alternative Approach
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/ np_idea_884671_003F72.svg" width="240" height="180">
-In this approach, we will take a totally different approach, with a focus on learning together and prioritizing the things that frontline staff care most about.
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg width="240" height="180">
+In this approach, we will take a totally different approach, with a focus on learning together and prioritizing the things that frontline staff care most about. 
+
 ## Zooming in and out 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg" width="240" height="180"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg" width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg width="240" height="180"> 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg width="240" height="180">
 
 To do this, we will need to be able to look at data in a way that is not punishing, for example, when we think data looks very clear – “bad numbers” v “good numbers” – but may not be providing the information we think it is.  We need to look at the whole system that you are working in, which means we can’t just look at at any one part of data because we only see a snapshot – we need to make sure we zoom out to optimize parts in terms of the whole.
 ## Tradeoffs
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_settings_339117_003F72.svg  " width="240" height="180">
-To do this, we need to understand the tradeoffs between the quality improvement strategies selected and how these strategies impact staff. 
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_settings_339117_003F72.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hospital_547435_0083BE.svg width="240" height="180">
+
+To do this, we need to understand the tradeoffs between the quality improvement strategies selected and how these strategies impact staff.  
+Given the interdependencies in the system, processes should be optimized in a way that leads to the benefit of the whole system to meet the needs of the Veteran. 
+
 ## Increasing general and specific capacity
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg width="240" height="180">
 By using this approach, we hope to not only increase the capacity of staff to improve EBP reach, but generally to increase capacity to look at a whole system and make meaningful changes to the system. 
 
 ## Understanding causal loops
