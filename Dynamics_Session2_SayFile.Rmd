@@ -21,14 +21,13 @@ output:
 * An enhanced understanding of the dynamics that exist system behaviors will empower stakeholders to make informed change initiatives within their system.
 
 ### Key Terms
-* Feedback
-* 
+
 ### Dialogue- Hexagon Icon
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
 
-* Assists stakeholders to understand the dynamic relationships that are constantly interacting within their highly complex systems. 
-* Expand mental models that go beyond linear cause and effect relationships in order to make informed clinic decisions. 
-
+* A central focus of our discussion will be to understand the implications of feedbacks that occur as a result from our decisions. 
+* We want to assist each other to understand the dynamic relationships that exist within the systems, and learn about the structure in which we are embedded.
+* Through this process, we will expand our mental models of the boundaries of a system, and go beyond linear cause and effect relationships in order to make informed clinic decisions. 
 
 ### Learning Loop 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
@@ -59,6 +58,10 @@ For example, stakeholders are challgned to appreciate the delays between thier a
 ### Traffic 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_traffic_924177_003F72.svg width="240" height="180"> 
 
+
+The example of traffic during rush hour is a great example of how something seemingly ahead of us is impacting our ability to act, in this case get home from work. Regardless of how fast you want to get to your destination, there is a feedback process that is slowing the speed at which you want to get on to the freeway. In systems, the stock can impact the flow, and the flow can impact the stock. In the traffic example, the cars on the road or the stock influences the rate in which the driver can get on to the freeway or the flow. This means that the stock is dictating the flow, the rate at which cars can get on to the freeway. Humans are linear cause and effect thinkers. We typically see the happenings of the world as a series of events, and rarely account for feedback. (cite: Meadows) We can apply what happens during traffic hour to the clinics. The state of the clinic or stock impacts the rate of patient referrals or flow into and out of the clinic. 
+
+
 ### Static Observation 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_interactive-bar-chart_151004_003F72.svg width="240" height="180">
 
@@ -68,17 +71,17 @@ Static observations provide limited information for stakeholders about how varia
 ### Dynamic Observation
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg width="240" height="180">
 
-Observation that provides information about the system’s past, present, and future behavior. Using dynamic observations, stakeholders are able to identify leverage points within the system and make informed decisions about change-efforts moving forward. 
+Observation that provides information about the system’s past, present, and future behavior. Using dynamic observations, stakeholders are able to identify leverage points within the system and make informed decisions about change-efforts. 
 
 ### Nonlinear System Behavior- Exponential Growth
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg width="240" height="180">
 
-A nonlinear relationship can be defined as an interaction where the input is disproportional to the output. The changes in a stock produce shifts in the relationships between variables that are not proportional. (meadows) Exponential growth of a variable occurs when positive or reinforcing feedback loop of a given stock becomes dominant within a system over time. Growth can occur suddenly after a long period of little or no change. 
+A nonlinear relationship can be defined as an interaction where the input is disproportional to the output. The changes in a stock produce shifts in the relationships between variables that are not proportional. (meadows) Exponential growth of a variable occurs when positive or reinforcing feedback loop of a given stock becomes dominant within a system over time. Growth can occur suddenly after a long period of little or no change. Using PSD, stakeholders may be able to forecast that over time, change initiatives will take-off exponenetially. 
 
 ### Nonlinear System Behavior- Steady State
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_88002_003F72.svg width="240" height="180">
 
-Similar to exponential growth, the nonlinear relationship whereby the inputs are not proportionate the outputs is at play. Instead of growth, a steady state refers to the negative feedback loops resisting growth to create a system behavior of equilibrium. 
+Similar to exponential growth, a nonlinear relationship has inputs that are not proportionate the outputs that cause system behaviors that may be difficult to understand or forsee. Instead of growth, a steady state refers to the negative feedback loops resisting growth to create a system behavior of equilibrium. A steady state can provide stakeholders with valuable infromation to help understand leverage points to affect change. Soemtimes, it may demonstrate that the clinic is performing at max capicty with the current amount of resources.
 
 ### System Behavior– Oscillation
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_sine-wave_385866_003F72.svg width="240" height="180">
