@@ -15,19 +15,22 @@ output:
 ### Key Ideas 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
 
+* Have you ever 
 * Systems are composed of a web of interrelated stocks, flows, and feedback processes that occur over time.
 * Systems tend to are goal-seekg or drift toward a “normal state” because of the dynamic relationship between positive and negative feedback loops (CITE: Gosh) 
 * Unexpected system behaviors occur frequently in systems. These unintended consequences are often the result of delays in feedback or nonlinear system behaviors. 
 * An enhanced understanding of the dynamics that exist system behaviors will empower stakeholders to make informed change initiatives within their system.
+
 
 ### Key Terms
 
 ### Dialogue- Hexagon Icon
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
 
-* A central focus of our discussion will be to understand the implications of feedbacks that occur as a result from our decisions. 
+* Have you ever made a small change and it had a huge effect? Conversely, have you ever made a huge effort to make a change only to have make a small impact?
+* A central focus of our discussion will be to understand the implications of feedbacks and nonlinearities to help understand how some change-decisions can have such varying impacts on a system. 
 * We want to assist each other to understand the dynamic relationships that exist within the systems, and learn about the structure in which we are embedded.
-* Through this process, we will expand our mental models of the boundaries of a system, and go beyond linear cause and effect relationships in order to make informed clinic decisions. 
+* Through this process, we will expand our mental models of the boundaries of a system, and go beyond linear cause and effect relationships in order to make informed clinic decisions.
 
 ### Learning Loop 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
