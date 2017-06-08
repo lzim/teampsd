@@ -86,16 +86,17 @@ plot(pressure)
 * This image file is located on GitHub.  To help the R Markdown to find it, add '?raw=true/ to the end of the path:   https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true
 
 #### STEP TWO 
-##### The facilitator asks the learners to name the ratio or difference (e.g., patient panel size; staff turnover rate).  The facilitator addes the ratio or difference variable using the language provided by the team.  
+##### The facilitator asks the learners to name the ratio or difference (e.g., patient panel size; staff turnover rate).  The facilitator adds the ratio or difference variable using the language provided by the team.  
 
-* Different teams use different reminology for similar concepts. 
-* Some teams use differences and some use ratiors (e.g., "no show rate" vs. "# of intakes")
+* Different teams use different terminology for similar concepts. 
+* Some teams use differences and some use ratios (e.g., "no show rate" vs. "# of intakes")
 
 #### STEP THREE 
-##### The facilitator maps the ratio (or difference variable) with the incoming arros marked with "+" or "-" as is causally appropriate.
+##### The facilitator maps the ratio (or difference variable) with the incoming arrows marked with "+" or "-" as is causally appropriate.
+
 
 #### STEP FOUR
-##### The facilitator asks the question, "What would happen if this ratio were to go to zero or gen unusually small" or "what would happen if this ratior where to become very large- how would the system react?"
+##### The facilitator asks the question, "What would happen if this ratio were to go to zero or gen unusually small" or "what would happen if this ratio where to become very large- how would the system react?"
 
 * The stakeholders then start to tell feedback stories about how the system reacts when this key ratio (or difference) gets out of whack.  When loops are completed, the facilitator traces them out for the group adding appropriate "+" or "-," telling the stories of the loops.  *These loops are almost always balancing loops.*
 
@@ -115,4 +116,5 @@ Original authors are David F. Andersen and George P. Richardson.
 ### Notes
 This script will further develop 'off-line.' Working iteratively with VHA mental health stakeholders, Team PSD has worked to identify a clear set of stocks and flows, and patient flow 'aging chains' that undergird the dynamics of the outpatient mental health system.  
 
-* Given there is already a 'seed' stock and flow diagram that can be worked with in future sessions, the goal is to help the stakeholders to see how service loads (i.e., Veterans' needs or patient 'demand' for services) can be linked to mental health resource stocks (e.g., providers, scheduling hours, etc.) so that the pairings make sense.  
+* Given there is already a 'seed' stock and flow diagram that can be worked with in future sessions, the goal is to help the stakeholders to see how service loads (i.e., Veterans' needs or patient 'demand' for services) can be linked to mental health resource stocks (e.g., providers, scheduling hours, etc.) so that the pairings make sense.
+```{r}
