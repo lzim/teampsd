@@ -29,20 +29,20 @@ output: html_document
 
 
 ## Participatory: Modeling to Learn (2)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/np_communication_884666_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
 
 
 ##Participatory: Modeling to Learn (3)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/np_share_884712_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_share_884712_003F72.svg" width="720" height="540">
 
 
 ##Participatory: Modeling to Learn (4)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/np_idea_884671_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
 
 
 ## Teaching Story: Elephant
 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/np_elephant_287094_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
 
 
 
