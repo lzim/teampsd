@@ -84,20 +84,20 @@ output: html_document
 
 
 ## Participatory: Modeling to Learn (2)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/np_communication_884666_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
 
 *PSD process elicits mental models of system problems and makes…
 
 
 ##Participatory: Modeling to Learn (3)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/np_share_884712_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_share_884712_003F72.svg" width="720" height="540">
 
 *…dialogue of mental models
 *Elicitation makes our models explicit
 
 
 ##Participatory: Modeling to Learn (4)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/np_idea_884671_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
 
 *This mutual learning process allow stakeholders to see new possibilities
 *It is a dynamic, ongoing process where iterative learning has the potential to facilitate empowerment, capacity-building and shared ownership
@@ -105,7 +105,7 @@ output: html_document
 
 ## Teaching Story: Elephant
 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/np_elephant_287094_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
 
 *[[Insert A systems Story video]]
 *Individual mental models are incomplete
