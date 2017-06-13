@@ -2,10 +2,10 @@
 title: "Participatory_SAY"
 author: "Dmalebranche"
 date: "6/3/2017"
-output: html_document
-output: github_document
-output: slidy_presentation
-output: ioslides_presentation
+  output: html_document
+  output: github_document
+  output: slidy_presentation
+  output: ioslides_presentation
 ---
 
 ## Session: Participatory
