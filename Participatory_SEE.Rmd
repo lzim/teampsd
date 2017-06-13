@@ -2,7 +2,12 @@
 title: "Participatory_SEE"
 author: "Dmalebranche"
 date: "6/3/2017"
-output: html_document
+output:  pdf_document: default  
+  html_document: default  
+  ioslides_presentation: default  
+  github_document: default  
+  slidy_presentation: default  
+  word_document: default
 ---
 
 ## Session: Participatory
