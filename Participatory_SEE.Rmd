@@ -1,3 +1,4 @@
+
 ---
 title: "Participatory_SEE"
 author: "Dmalebranche"
@@ -8,6 +9,7 @@ output:  pdf_document: default 
   github_document: default  
   slidy_presentation: default  
   word_document: default
+
 ---
 
 ## Session: Participatory
