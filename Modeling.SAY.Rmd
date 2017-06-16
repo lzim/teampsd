@@ -98,8 +98,8 @@ depending on the picture we use). The amount of water flowing- the stock- is dep
 have an equal rate of water flowing into and out of the sink, then the level of the water in the sink is stabilized. If we have more water flowing in than out, our sink overflows. If we have more water flowing out than in, we will never be able to fill the sink.
 
 ## Static Observation 
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" 
-      width="720" height="540">
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" width="720" height="540">
+
 - Without system dynamics we often make hypotheses focused on the amount of water in the sink at a single time, the stock.  Similarly, quarterly reports of clinic performances are stocks, they provide some information but not the whole story.
 
 
@@ -147,6 +147,7 @@ the system behavior.
 
 
 ## Learning Loop Exercise : Modeling to Learn
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
 
 - Group model building exercise
