@@ -92,8 +92,6 @@ Oscillations occur as a result of delays throughout the system. These delays occ
 ### Ratio Exercise 
 <img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="240" height="180">
 
-<img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.svg width="240" height="180">
-
 ### Participatory System Dynamics Resources in R Markdown 
 
 This is an R Markdown presentation for the "Ratio Exercise" learning loop exercise from the participatory learning session of the Team PSD Facilitation Guide. 
@@ -203,6 +201,8 @@ Original authors are David F. Andersen and George P. Richardson.
 This script will further develop 'off-line.' Working iteratively with VHA mental health stakeholders, Team PSD has worked to identify a clear set of stocks and flows, and patient flow 'aging chains' that undergird the dynamics of the outpatient mental health system.  
 
 * Given there is already a 'seed' stock and flow diagram that can be worked with in future sessions, the goal is to help the stakeholders to see how service loads (i.e., Veterans' needs or patient 'demand' for services) can be linked to mental health resource stocks (e.g., providers, scheduling hours, etc.) so that the pairings make sense.
+
+<img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.svg width="240" height="180">
 
 * **Coming Up**
     + We will view clinic data to explore how stakeholders can address issues that are unique to that setting. 
