@@ -1,5 +1,5 @@
 ---
-title: "Modeling – “See File”"
+title: "Modeling – “Say File”"
 author: "Melissa London"
 date: "May 30, 2017"
 output:
@@ -8,26 +8,106 @@ output:
 ---
 
 
+### Lesson Hexagon- Key Ideas 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+
+- Model simulations provide a means to make mental models
+more explicit and test assumptions, particularly surrounding implementation plans.
+
+- Assist stakeholders in evaluating implementation plans by
+using model simulation to visualize dynamic relationships.
+
+- Increase stakeholder EBP-specific capacity by
+understanding the impact of system factors, such as intake referral rate, on
+the level of state measures, such as amount of patients pending intake
+scheduling.
+
+
+### Definitions 
+
+- Static observation/Stock
+
+- Dynamic observation
+
+- Flows
+
+- Feedback
+
+
+
+### Dialogue- Hexagon 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+- What thoughts do providers have on variables in the model?
+
+- What are some hypotheses about what is driving the rates of those variables?
+
+- Discuss major stocks, feedback loops, and dynamics
+
+
+
+### Learning Loop 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+ 
+-Group Model Building exercise: split up into groups and discuss 1) major stocks, 2) hypotheses about what is driving those stocks
+
+
+
+### Lesson Overview 
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+- The main role of simulation is to test hypotheses about the relationship between the system structure and system behavior using local
+data and local expertise.
+
+
+
+## Healthcare
+
+<img src= "https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_hospital_547435_0083BE.svg" width="720" height="540"> 
+
+- So you’ve learned a lot about the system structure and processes that impact system behavior. Is anyone thinking “what now?” 
+- What would you want to do next? (Hope people say test some ideas about why the system is acting this way)
+- In this last session we are going to start to talk about modeling as simulation guided. Through this process we can actually test and
+observe dynamic hypotheses. 
+
+
+
 ## Traffic Jam 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_traffic_924177_003F72.svg" width="720" height="540">
 
--	Use traffic jam analogy to reintroduce stocks and flows
--	“In the same way we ask ourselves, what is causing this traffic jam, we may be asking ourselves what is driving these state measures in our clinics?”
+- Lets take a look again at the traffic during rush hour metaphor that was brought up in the dynamics session. When you are
+stuck in a traffic jam, I’m sure many hypotheses come up about what is going on- “someone is moving too slow,” “everyone just got out of
+work,” etc. etc.
+- In the same way we ask ourselves, what is causing this traffic jam, we may be asking ourselves what is driving these
+[performance] measures in our clinics?
 
-     
-## Valve/Flow; Flow/Faucet
+   
+## Valve/Flow; Flow/Faucet - NEED NEW IMAGE OF A BATHTUB OR SINK
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_valve_911279_003F72.svg" width="720" height="540">
 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_tap_603244_003F72.svg" width="720" height="540">
 
--	Clarify definitions of stock/flow (use the following two icons as well to understand rates versus drivers)
+-  To delve further into the dynamic relationships in a system, we must understand stocks and flows. 
+- Imagine how water flows into a sink from a faucet (OR how water flows from a pitcher into a glass; or a faucet into a tub
+depending on the picture we use). The amount of water flowing- the stock- is dependent upon how much you open or close the valve - the flow. However, the relationship is dynamic because we have to monitor the rate of water flowing into and out of the sink as well.  If we
+have an equal rate of water flowing into and out of the sink, then the level of the water in the sink is stabilized. If we have more water flowing in than out, our sink overflows. If we have more water flowing out than in, we will never be able to fill the sink.
 
 ## Static Observation 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" 
-      width="720" height="540">
-      
+      width="720" height="540">
+- Without system dynamics we often make hypotheses focused on the amount of water in the sink at a single time, the stock.  Similarly, quarterly reports of clinic performances are stocks, they provide some information but not the whole story.
+
+
 ## Dynamic Observation Over Time
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg" width="720" height="540">
+
+- With a systems thinking approach, we propose dynamic hypotheses that take into account the complexity in the structure that determines
+the system behavior. 
 
 ## Modeling to Learn
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
@@ -35,55 +115,52 @@ output:
 -	By this point, we understand that we all have different mental models of what we think is driving the stocks
 -	We need to elicit and make explicit these models by making hypotheses 
 
-
-## Data Dialogue
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_546911_003F72.svg" width="720" height="540">
-
--	The first step is model specification, which occurs through a dialogue about what variables and relationships appear most important
--	We may go from less specific to more specific to determine 
-
-
-## Data Visualization
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_visualization_741760_003F72.svg" width="720" height="540">
-
--	As we get more specific, we conduct model reviews and clean up the model
--	During the review, we pay specific attention to variables and linkages that involved changes or were questionable
--	There may be several model reviewing sessions prior to moving on
-
-
-## System Behavior
+## System Behavior - NEED NEW IMAGE FOR MODEL
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_source-sine_634684_003F72.svg" width="720" height="540">
 
--	As we simplify the model, we make sure we are using a system dynamics approach 
+-	 The first step is model specification, determining what variables and relationships appear most important
 
-## Sliders/Mixer
+## Local Data
+
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_slinky_48148_000000.svg" width="720" height="540"> 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_settings_339117_003F72.svg" width="720" height="540">
 
--	Currently operating under the equfinality assumtpion that diverse initial conditions and organizational pathways may result in the same outcome
--	However, a focus on local determinants of system behavior may be more appropriate to develop successful implementation plans
+-Additionally, it is important that we are using local data and focusing on local systems. Remember that without system dynamics we tend to operate under the equifinality assumption that diverse initial conditions and organizational pathways may result in the same outcome. 
+
+- But let’s think back to the slinky metaphor. Why did that slinky bounce up and down? (The structure of the slinky, its coils, causes the physical behavior of it bouncing up and down). The structure determines the behavior with the slinky, and with the clinical setting. National change efforts targeted at limited EBP reach are not accounting for local system structure. We have to understand the local structure to understand the behavior of limited EBP reach.
 
 
 ## Feedback
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
+ - In coming to a “systems” understanding of the clinical setting, we must remember to identify major feedback loops as well as major stocks in the system.
+ - Point to graphs over time exercise and the understanding of what feedback loops appear important for their system.  
 
--	We then identify major feedback loops as well as major stocks in system that will be needed for our formal simulation model
+
 
 ## Synthesis
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="720" height="540">     
 
--	Formulate and test the model 
+- As we get more specific, we conduct model reviews and clean up the model
+- During the review, we pay specific attention to variables and linkages that needed changes or were questionable
+- There may be several model reviewing sessions prior to moving on
+- Throughout this process, particularly as we simplify the model, we make sure we are using a system dynamics approach 
+
 
 ## Learning Loop Exercise : Modeling to Learn
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
 
 - Group model building exercise
+- At this point, we would like participants to engage in a model building exercise. 
+- People should break up into groups and come up with at least 5 hypotheses about what is driving their clinic measures. 
 
-## Lesson Overview "Putting it Together"
+## Lesson Overview/Debrief
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="720" height="540">
-
-
--	The main role of simulation is to test hypotheses about the relationship between the system structure and system behavior using local data and local expertise.
+ - Review with participants the hypotheses they came up with
+ - What mental models were made explicit? Were there differences in mental models? Did people come to
+a consensus? What feedback loops were identified? What questions remain?
+-	Recall that the main role of simulation is to test hypotheses about the relationship between the system structure and system behavior using local data and local expertise. We
+will continue to conduct modeling sessions to simplify and test the model.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
