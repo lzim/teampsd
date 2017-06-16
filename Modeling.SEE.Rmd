@@ -6,13 +6,13 @@ output:
   html_document: default
   pdf_document: default
 ---
-
+## Healthcare
+<img src= "https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_hospital_547435_0083BE.svg" width="720" height="540">
 
 ## Traffic Jam 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_traffic_924177_003F72.svg" width="720" height="540">
-
      
-## Valve/Flow; Flow/Faucet
+## Valve/Flow; Flow/Faucet ---  NEED NEW IMAGE OF A BATHTUB OR SINK
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_valve_911279_003F72.svg" width="720" height="540">
 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_tap_603244_003F72.svg" width="720" height="540">
@@ -27,10 +27,12 @@ output:
 ## Modeling to Learn
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
 
-## System Behavior
+## System Behavior --- NEED NEW IMAGE OF MODEL
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_source-sine_634684_003F72.svg" width="720" height="540">
 
-## Sliders/Mixer
+## Local Data
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_slinky_48148_000000.svg" width="720" height="540">
+
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_settings_339117_003F72.svg" width="720" height="540">
 
 ## Feedback
