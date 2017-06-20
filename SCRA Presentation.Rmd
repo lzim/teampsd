@@ -11,7 +11,8 @@ date: "June 22nd, 2017"
 ---
 
 # Session: Participatory
-Written by Dominique Malebranche  Presented by McKenzie Javorka
+McKenzie Javorka
+Dominique Malebranche
 
 
 ## Complexity
@@ -23,11 +24,13 @@ Written by Dominique Malebranche  Presented by McKenzie Javorka
 
 
 ## Learning Loop
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg" width="360" height="270"><img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="360" height="270">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg" width="360" height="270">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="360" height="270">
 
 
 ## Participatory: Individual's mental models are incomplete 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_team-building_1016130_003F72.svg" width="600" height="450">
+
 
 ## Participatory: Modeling to Learn (1)
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="720" height="540">
@@ -46,15 +49,12 @@ Written by Dominique Malebranche  Presented by McKenzie Javorka
 
 
 ## Teaching Story: Elephant
-
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
 
-## Systems Story Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rDxOyJxgJeA" frameborder="0" allowfullscreen></iframe>
 
 ## Shared Vision
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="360" height="270"><img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg "width="360" height="270">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="360" height="270">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg "width="360" height="270">
 
 
 ## Putting it Together
@@ -67,6 +67,7 @@ Written by Dominique Malebranche  Presented by McKenzie Javorka
 
 ## Policy Resistance
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg" width="720" height="540">
+
 
 # Session: Systems
 **Alexandra Ballinger**
