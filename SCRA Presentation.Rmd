@@ -28,7 +28,7 @@ Dominique Malebranche
 
 
 ## Participatory: Individual's mental models are incomplete 
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_team-building_1016130_003F72.svg" width="600" height="450">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team-building_1016130_003F72.svg" width="600" height="450">
 
 
 ## Participatory: Modeling to Learn (1)
@@ -52,7 +52,7 @@ Dominique Malebranche
 
 
 ## Shared Vision
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="360" height="270"><img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg "width="360" height="270">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="360" height="270"><img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg" "width="360" height="270">
 
 
 ## Putting it Together
