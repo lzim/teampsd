@@ -75,6 +75,15 @@ Examples?
 
 *Circles Exercise
 
+## Teaching Story: Elephant
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
+
+*[[Insert A systems Story video]]
+*To illustrate how our individual mental models do not tell the full story, I'll refer to the well-known parable of the Elephant and the Blind Men. In the story, a group of blind men hear that an unfamiliar animal called an elephant has been brought to town. To learn about what an elephant is, they each touch different parts of the animal. One man touches the trunk and says, "This animal is like a big snake." Another touches its ear, and thinks it reminds him of a fan. A third touches the tail and describes it as a rope. Another feels the elephant's tusk and says the elephant is hard and pointy, like a spear.
+
+*This story demonstrates how each of our individual mental models are incomplete, and only tell part of the story of what makes up a whole elephant, or phenomenon. In our participatory process, we realize that our individual perspectives are not everything- each is not complete, and one is not more "correct" than another.
+*The story of the elephant also demonstrates that the whole has properties that none of the parts have- an elephant is more than the sum of a tusk, a tail, an ear, and a trunk. In the next session, we will hear more about how systems are more than the sum of their parts.
 
 ## Participatory: Individuals mental models are incomplete [[ICON NEEDED]]
 
@@ -106,16 +115,6 @@ Examples?
 *This mutual learning process allows stakeholders to see new possibilities, recognize differences in our mental models, and put together our individual "pieces of the puzzle" to create a model that reflects the complexity of real-life problems.
 *The PSDM process that we will participate in together over the next few months is a dynamic, ongoing process involving iterative learning. Through this process, we hope to facilitate empowerment, capacity-building and shared ownership of this work as we partner with our stakeholders.
 
-
-## Teaching Story: Elephant
-
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
-
-*[[Insert A systems Story video]]
-*To illustrate how our individual mental models do not tell the full story, I'll refer to the well-known parable of the Elephant and the Blind Men. In the story, a group of blind men hear that an unfamiliar animal called an elephant has been brought to town. To learn about what an elephant is, they each touch different parts of the animal. One man touches the trunk and says, "This animal is like a big snake." Another touches its ear, and thinks it reminds him of a fan. A third touches the tail and describes it as a rope. Another feels the elephant's tusk and says the elephant is hard and pointy, like a spear.
-
-*This story demonstrates how each of our individual mental models are incomplete, and only tell part of the story of what makes up a whole elephant, or phenomenon. In our participatory process, we realize that our individual perspectives are not everything- each is not complete, and one is not more "correct" than another.
-*The story of the elephant also demonstrates that the whole has properties that none of the parts have- an elephant is more than the sum of a tusk, a tail, an ear, and a trunk. In the next session, we will hear more about how systems are more than the sum of their parts.
 
 
 ## Shared Vision
