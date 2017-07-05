@@ -8,6 +8,15 @@ output:
   pdf_document: default
 ---
 
+If you show up to work in your clinic on Monday and first thing in the morning huddle or team meeting, you hear the words: "leadership wants us to start using data early and often to measure progress in our clinic", how does that make you feel?
+
+For many of us, this might elicit emotions of worry and anxiety, perhaps apprehension or fear, maybe even frustration and irritation. This is likely all with good reason, based on our previous experiences with how data has been used in a sense against us as performance measures, but with punitive consequences if we don't meet a particular, potentially arbitrary, benchmark artificially designated by people who are not involved in day to day operations and realities of our particular clinics. 
+
+At VA, we have an incredible amount of data being collected and stored in real time, on a moment-to-moment basis. For example, any time CPRS or any part of the electronic medical record is used to look up a provider's open grid, schedule a patient, either check the pt in or mark them as no shows for a therapy appointment, create an encounter and write a note for session 6 of their evidence-based trauma focused treatment, etc., all of that data is collected. 
+
+So, what about another way to think about, relate to, and use this wealth of data that I'm referring to? Specifically, what if there was a way to for frontline staff to use data for purposes that you decide on as a team and not from a leadership mandate; use data in a way that helps your day to day operations? 
+
+This session will explore what that might look like.
 
 ## Data Dialogue 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
@@ -17,13 +26,14 @@ Collaboratively learn about interactive data exploration, seeing and visualizing
 ## Mental Model 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
 
-People may have mental models that data is difficult to understand or work with. Or even worse, people may have experiences when data was used by leadership or administrators to “punish” staff based on them not meeting artificially set goals that are not feasible within system structure.
+People may have mental models that data is difficult to understand or work with. Or even worse, people may have experiences when data was used by leadership or administrators to “punish” staff based on them not meeting artificially set goals that are not feasible within system structure. We want to work together to make these mental models that each person has explicit, lay them out on the table so we have a sense of what we're all collectively working with, and where each person is coming from.
 
 
 ## Dialogue 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" 
       width="720" height="540">
-      
+
+A key word here is Dialogue; mutual exchange of communication in order to discuss the mental models and approach a problem by sitting shoulder-to-shoulder with your team members, examining a problem that is here on the table, rather than sitting across from each other with the problem resting in between team members. 
 ## PSD Process 
 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
