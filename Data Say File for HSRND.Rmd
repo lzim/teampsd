@@ -1,0 +1,117 @@
+---
+title: 'A Participatory System Dynamics Approach to Examining Data with Stakeholders'
+  – “Say File”'
+author: "Joyce Yang, M.S."
+date: "May 24th, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+##Introduction
+
+My name is Joyce Yang and I have been working with Dr. Lindsey Zimmerman's Team Participatory System Dynamics (Team PSD) for my intern research rotation. I'd like to take a minute to situate what I'm about to present to you in the context of the work I have been involved in over the last 6 months as well as Dr. Zimmerman and the team's ongoing work.
+
+Participatory System Dynamics (PSD) is an approach we take to understand the nonlinear behavior of complex systems such as our VA healthcare system or facilities or clinics, where **system dynamics** refer to mathematical functions such as stocks, flows, internal feedback loops, and time delays to model system behavior and **participatory** reflects our enagagement of stakeholders in every part of the process in order to ultimately empower stakeholders to sustain and eventually initiate and carry out quality improvement, change, and research efforts on their own.  Our purpose of using the PSD modeling process is to better conceptualize and understand the problem of limited EBP reach as an emerging system behavior in order to improve patient care.
+
+One project we have been working on is creating a facilitation guide for the scaling of the PSD process and each of us have been taking the lead on a session, beginning with the introduction of the **Participatory** session to understand the utility of creating shared vision with each stakeholder feeling heard and invested in the process, the **System** session to appreciate the complexity of a whole host of variables at work, in balance, in feedback loops, affecting each other in non-linear ways that serve to maintain limited EBP reach, the **Dynamics** sessions help us to see how to understand these variables as in flux over time, not as static snapshots of information, but moving and changing based on each other as well as exogenous factors. My session, the 5th one in the process, known as the **Data** section focuses on helping stakeholders to ground this process within their own data, concrete information about their individual clinic's day-to-day operations, and it points forward to a future session of **Modeling** where stakeholders examine a visual model represents how the variables in the data section are related to each other. It's important to note that what we are working to scale up in creating this facilitation guide is not scaling the specific model as may be traditionally done but rather how to scale understanding problems like limited EBP reach through a PSD process. In other words, we are working to scale up the PSD process of presenting nomothetic theory that's locally tailored in idiographic data and a local model. Taking this PSD workshop will allow frontline staff to get QI continuing education credits nationally.
+
+The data session was important for me to work on, especially examining the enterprise-wide SQL database/the CDW in R and live uploading code to GitHub in the spirit of working towards open, transparent, and reproducible resources. This was ideal for my independent research goals of examining mental health equity, which I will continue to pursue in my research post-doc with NCPTSD next year. Gaining skills in facilitating reviewing health data with stakeholders will be an important part of that ongoing work.
+
+So I would like to run a demonstration of the Data session for you today and have you all participate as staff in a clinic might. Recall that this is the 5th session in the workshop and will be occuring several months into the process, so I will be pointing back to some things that staff will be familiar with from previous sessions.
+
+
+##Session Content
+
+So you show up to work at your clinic and during the morning huddle or team meeting, you hear "Leadership is planning to evaluate us on _______ in order to measure progress in our clinic". This is probably somewhat familiar; what are some measures you've been told that you'll be evaluated on before?  [E.g., # of patients seen each quarter? # of successful discharges?]
+
+Another experience you might be familiar with is spending a lot of time entering data into CPRS, other EHR/EMR, for research or for performance evaluation, etc.  It's also likely that you're inputting a lot of data, but potentially not getting to use it yourself. The data isn't getting analyzed and communicated back to you, for frontline staff or the clinic to use in daily decision making to actually help you make decisions and affect patient care.
+
+This means that for many of us, thinking about "data" might elicit emotions of frustration and irritation with the time sink, or perhaps even worry or anxiety about performance measures. This is likely all with good reason, based on our previous experiences with how data has been used in a sense against us with punitive consequences if we don't meet a particular, potentially arbitrary, benchmark artificially designated by people who are not involved in day to day operations and realities of our particular clinics. 
+
+At VA, we have an incredible amount of data being collected and stored in real time, on a moment-to-moment basis. For example, any time CPRS or any part of the electronic medical record is used to look up a provider's open grid, schedule a patient, either check the pt in or mark them as no shows for a therapy appointment, create an encounter and write a note for session 6 of their evidence-based trauma focused treatment, etc., all of that data is collected. 
+
+So, what about another way to think about, relate to, and use this wealth of data that I'm referring to? Specifically, what would it be like if frontline staff were able to use data for purposes that you decide on as a team and not from a leadership mandate; use data in a way that helps your day to day operations? 
+
+This session will explore what that might look like.
+
+## Purpose of the Session: Become familiar with our data 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+## Mental Model 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+As you learned about in Swap's session on dynamics, we each have our own mental model of what's going on. For example the parable about several blind people encountering an elephant for the first time, and describing it based on the part they're touching. One woman might describe it as a creature that's sharp and hard because she's feeling the tusks. Another man might describe it as thin and floppy because he's feeling the ears. We see from this that people's mental models are not inaccurate; they are however incomplete.
+
+Similarly, people may have mental models that data is difficult to understand or work with. Or even worse, people may have experiences when data was used by leadership or administrators to “punish” staff based on them not meeting artificially set goals that are not feasible within system structure. We want to work together to make these mental models that each person has explicit, lay them out on the table so we have a sense of what we're all collectively working with, and where each person is coming from. We want to move from independent mental models to a shared vision of what's going on, that's going to be much more complete. 
+
+
+## Dialogue 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg"width="720" height="540">
+
+Another key word here is Dialogue; a mutual exchange of communication in order to discuss the mental models and approach a problem by sitting shoulder-to-shoulder with your team members, examining a problem that is here on the table, rather than sitting across from each other with the problem resting in between team members. Here, we enter into the process of dialogue with a shared vision.
+
+## Data Dialogue 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
+
+Collaboratively learn about interactive data exploration, seeing and visualizing data, and dialoguing about data within the team. 
+
+
+## PSD Process 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+We will familiarize ourselves with clinic and patient data that is available, understand the dynamic relationships contributing to EBP reach, and grow increasingly comfortable with using the data to engage in the participatory system dynamics process. We want to think about the problem of mental health service delays and how that contributes to limited reach of evidence-based mental health care. We want each of us as stakeholders to feel familiar and empowered to use the data to make optimized quality improvement decisions. We also sharpen our skills of zooming in and out, like the elephant example, to be able to see each individual part in detail, while also examining how it fits within the larger structure, or the whole. 
+
+Another example that was presented in a previous session about the PSD process and this framework of understanding, is the following sports analogy. Think about being on a swim team: you practice together and go through workouts together; however your performance on meet day is typically your own swim time within each heat, how you contribute to the team is specifically how fast you swim. Each person or each relay's individual swim time is what counts. Contrast this with being on a soccer team, where each individual's performance is going to be evaluated in the dynamic context of what else is going on in the soccer field at that time. Your position is relative to everything else that's going on, and the collaboration, cooperation, movement, within the on-going game. So, you may be zooming in on your own individual footwork, while having to zoom out and see where all the other players are on the field, where the ball is in relation to your goal and the opponents' goal.
+
+
+## Data Visualization
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="720" height="540">
+
+Describe, examine, and interact with key clinic and patient variables.
+
+Here is an example of a model that will be tailored in the next session after the data session from your clinic. __insert model image here?__
+
+An important paradigm in this data visualization and exploration is to see that historically, we may have been more familiar with static data, which is a single snapshot in time, typically backwards looking and retrospective. It doesn't allow for non-linearity; for example, have you had the experience of where a very small QI change you make can initiate a ripple effect nad have a large impact, or conversely, the staff make a lot of effort and engage in big change, only to find that it leads to very little improvement in outcome, in a way that's not linearly commensurate with the effort? Examining and visualizing the data will allow for us to see these dynamics play out, in a way that we couldn't possibly just hold in our minds.
+
+
+## Learning Loop Exercise
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg" width="720" height="540">
+
+An example that might help us think about this process of visualizing variables working together non-linearly, is thinking about a mortgage/savings calculator.
+
+http://www.bankrate.com/calculators/mortgages/mortgage-payment-calculator.aspx
+
+Here, we see that we can ask the question, “What Might Happen If I …” For example … set my initial down payment as X dollars? What happens if I increase from a 15 year to a 30 year mortgage? How does this affect how much money I have when I retire if I want to retire at 65 versus 70?
+
+In the same way that we use this calculator to visualize the non-linear interaction and results from these different variables such as time, interest, principal, etc., we also want to understand the variables within our own clinics. 
+
+We want to look at these clinic and patient variables such as screening appointments are conducted each day, clinic appointment capacity, average wait times to first therapy appointment, average time to complete an evidence-based treatment, etc. in order to zoom in and zoom out to examine how they dynamically contribute to the emerging system behavior of limited EBP reach.
+
+Based on this example, can a few participants share some questions you think might be pertinent to your clinic operations that you don't currently have the answer to, but can imagine that accessing the data might be able to help you answer?
+
+What are some variables that you would like to visualize?
+
+We also want to make sure that we clarify that the variables that we're looking at, that we are vetting together, are variables that we collectively think are appropriate to read into a model to represent your clinic's operations. We want to address quality and validity issues; as you toggle through these data and visualize these variables, do they look correct? Do they look like they actually come out of your clinic?
+
+It's important to keep in mind 3 principles of PSD as we review the data:
+1. Transparent not opaque (let's check the data that is going into the model)
+2. Local vs. scaling (local data and model, scaling the process)
+3. Iterative process (continuous checking, opportunities for feedback and pivoting, adjusting as needed as we model to learn together)
+
+
+## Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="720" height="540">
+
+Data does not have to be scary. How we use the data, who gets to use it, and what questions we try to answer with the data can completely change how we feel and relate to data. 
+
+If you think about the example of a car which was presented in a previous session, the purpose of a car is to get you from Point A to Point B. It's useful to look in depth at the car to see the different parts like the exceptional power steering or the goodyear tires, or the top of the line V12 5 liter engine. However, what makes a good car is not just getting "the best" of each of these individual parts; what makes a car good is how well they work together, in relation to each other.  Again, it's a system. 
+
+So we want to keep in mind that what we're NOT trying to do is model what Team A is doing well in Clinic A and take those strategies and go straight to try to implement them on Team B in Clinic B. Instead, we use our zoom in and out skills to use local data to understand how specifics work in the larger context.
+
+I hope we can see that there are different ways to use data early and often that will help us as frontline staff to make decisions in day to day clinic operations that will improve patient care and our experience of the workplace.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
