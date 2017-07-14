@@ -13,10 +13,10 @@ output:
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_traffic_924177_003F72.svg" width="720" height="540">
      
 ## Stock and Flow
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_washing_514155_003F72.svg" width="720" height="540"
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_washing_514155_003F72.svg" width="720" height="540">
 
 ## Static Observation 
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_washing_514155_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" width="720" height="540">
       
 ## Dynamic Observation Over Time
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg" width="720" height="540">
