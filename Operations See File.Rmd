@@ -42,5 +42,5 @@ http://www.bankrate.com/calculators/mortgages/mortgage-payment-calculator.aspx
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
 ```
