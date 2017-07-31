@@ -29,8 +29,7 @@ date: "June 21, 2017"
 
 
 ## Systems Story Video
-<![A Systems Story](https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg)
-(http://www.youtube.com/watch?v=https://youtu.be/rDxOyJxgJeA "A Systems Story")>
+<a href="http://www.youtube.com/watch?v=https://youtu.be/rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="720" height="540">
 
 
 ## Individuals' mental models are incomplete 
