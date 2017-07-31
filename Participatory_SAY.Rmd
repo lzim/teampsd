@@ -91,7 +91,7 @@ Examples?
 ## Systems Story Video
 <a href="http://www.youtube.com/watch?v=rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="240" height="180">
 
-(If time: play systems story video)
+* (If time: play systems story video)
 * This video of A Systems Story provides another illustration of the parable of the Elephant, and also introduces us to some ideas about systems thinking and vocabulary, which will be covered more in the next session on Systems.
 * [NEED TO ADD MORE EXPLANATION OF VIDEO?]
 
@@ -153,6 +153,7 @@ To elicit our mental models of system problems and makes…
 
 ## Lesson Complete
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.svg" width="240" height="180">
+
 * **Coming Up**
     + We will discuss system structures and their influence on system behavior
     + We will explore system dynamics that will help with developing a model further in the PSD process
