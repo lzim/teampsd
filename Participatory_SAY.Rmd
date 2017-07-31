@@ -23,15 +23,11 @@ date: "June 21, 2017"
 
 ### Terms
 
-* Model to Learn: 
+* Model to Learn: [needs definition]
 * Mental Model: images, assumptions and stories which we carry in our minds of ourselves, other people, institutions, and every aspect of the world (i.e., internal pictures of the world)
 * Shared Vision: building sense of commitment in a group by developing shared images of the future sought to create and principles guiding practices by which we hope to get there
-* Participatory:
+* Participatory: approach that seeks to involve key stakeholders, or those who are directly involved in/affected by the problem or system at hand
 
-### Dialogue- Hexagon Icon
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
-
-* Discuss modeling to learn and shared vision to develop a co-created understanding of the problem together
 
 ### Learning Loop 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
@@ -42,6 +38,13 @@ date: "June 21, 2017"
 * **Shared Vision Exercise**
     + Facilitate stakeholders process of creating a vision and understanding of the modeling to learn project process and goals together
     + Facilitate discussion to revise long-term project goals
+
+
+### Dialogue- Hexagon Icon
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Discuss modeling to learn and shared vision to develop a co-created understanding of the problem together
+    
     
 ### Lesson Overview "Putting it Together"
 
@@ -53,81 +56,85 @@ date: "June 21, 2017"
     + We will discuss system structures and its influence on behavior
     + We will explore system dynamics that will help with developing a model further in the PSD process
 
+
 ## Complexity
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">
 
-*Have you ever struggled to deal with a problem that seemed very complex? Or, have you ever struggled to get on the same page about a problem with your colleagues?
+* Have you ever struggled to deal with a problem that seemed very complex? Or, have you ever struggled to get on the same page about a problem with your colleagues?
 Examples?
-*We need models because systems, such as a clinic within a health care system, are complex. Today, we will talk about how eliciting our individual mental models about a system can help us get on the same page about a problem and deal with complex systems that none of us can fully grasp individually.
-*Through participatory processes, we can increase willingness to come together with a new, more complete, model for problem-solving
+* We need models because systems, such as a clinic within a health care system, are complex. Today, we will talk about how eliciting our individual mental models about a system can help us get on the same page about a problem and deal with complex systems that none of us can fully grasp individually.
+* Through participatory processes, we can increase willingness to come together with a new, more complete, model for problem-solving
 
 
 ## Mental Model
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">
 
-*We come into the room with individual mental models; for example, we each have our own model for how a process like patient intake in a clinic works.
-*It is necessary for us to reflect upon, and continually clarify and improve our models, given that our internal pictures of the world determine what we see (Senge, 1990).
-*Often our mental models are untested and unexamined and our core task is to help make them visible, bringing mental models to the surface to explore and talk about them with minimal defensiveness.
+* We come into the room with individual mental models; for example, we each have our own model for how a process like patient intake in a clinic works.
+* It is necessary for us to reflect upon, and continually clarify and improve our models, given that our internal pictures of the world determine what we see (Senge, 1990).
+* Often our mental models are untested and unexamined and our core task is to help make them visible, bringing mental models to the surface to explore and talk about them with minimal defensiveness.
 
 
 ## Learning Loop
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
 
-*Circles Exercise
+* Circles Exercise
 
 ## Teaching Story: Elephant
 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="240" height="180">
 
-*To illustrate how our individual mental models do not tell the full story, I'll refer to the well-known parable of the Elephant and the Blind Men. In the story, a group of blind men hear that an unfamiliar animal called an elephant has been brought to town. To learn about what an elephant is, they each touch different parts of the animal. One man touches the trunk and says, "This animal is like a big snake." Another touches its ear, and thinks it reminds him of a fan. A third touches the tail and describes it as a rope. Another feels the elephant's tusk and says the elephant is hard and pointy, like a spear.
+* To illustrate how our individual mental models do not tell the full story, I'll refer to the well-known parable of the Elephant and the Blind Men. In the story, a group of blind men hear that an unfamiliar animal called an elephant has been brought to town. To learn about what an elephant is, they each touch different parts of the animal. One man touches the trunk and says, "This animal is like a big snake." Another touches its ear, and thinks it reminds him of a fan. A third touches the tail and describes it as a rope. Another feels the elephant's tusk and says the elephant is hard and pointy, like a spear.
 
-*This story demonstrates how each of our individual mental models are incomplete, and only tell part of the story of what makes up a whole elephant, or phenomenon. In our participatory process, we realize that our individual perspectives are not everything- each is not complete, and one is not more "correct" than another.
-*The story of the elephant also demonstrates that the whole has properties that none of the parts have- an elephant is more than the sum of a tusk, a tail, an ear, and a trunk. In the next session, we will hear more about how systems are more than the sum of their parts.
+* This story demonstrates how each of our individual mental models are incomplete, and only tell part of the story of what makes up a whole elephant, or phenomenon. In our participatory process, we realize that our individual perspectives are not everything- each is not complete, and one is not more "correct" than another.
+* The story of the elephant also demonstrates that the whole has properties that none of the parts have- an elephant is more than the sum of a tusk, a tail, an ear, and a trunk. In the next session, we will hear more about how systems are more than the sum of their parts.
 
 ## Systems Story Video
 <a href="http://www.youtube.com/watch?v=rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="240" height="180">
 
+(If time: play systems story video)
+* This video of A Systems Story provides another illustration of the parable of the Elephant, and also introduces us to some ideas about systems thinking and vocabulary, which will be covered more in the next session on Systems.
+* [NEED TO ADD MORE EXPLANATION OF VIDEO?]
 
 ## Individuals' mental models are incomplete
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team-building_1016130_003F72.svg" width="240" height="180">
 
-*The differences between mental models explain why two people can observe the same event and describe it differently; they are paying attention to different details
-*In essence, mental models shape how we act (Senge, 1990) and understand complex problems.
+* The differences between mental models explain why two people can observe the same event and describe it differently; they are paying attention to different details
+* In essence, mental models shape how we act (Senge, 1990) and understand complex problems.
 
 
 ## Mental Models are Interconnected
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="240" height="180">
 
-*The participatory process we are beginning today allows stakeholders who are interconnected...
+The participatory process we are beginning today allows stakeholders who are interconnected...
 
 
 ## Dialogue in a Modeling Process
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">
 
-*To elicit our mental models of system problems and makes…
+To elicit our mental models of system problems and makes…
 
 
 ## Make Dynamics Explicit
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_share_884712_003F72.svg" width="240" height="180">
 
-*…our mental models explicit in an external model that allows for more complexity than each of us could individually hold in our heads, or understand.
+…our mental models explicit in an external model that allows for more complexity than each of us could individually hold in our heads, or understand.
 
 
 ## Develop New Shared System Insights
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="240" height="180">
 
-*This mutual learning process allows stakeholders to see new possibilities, recognize differences in our mental models, and put together our individual "pieces of the puzzle" to create a model that reflects the complexity of real-life problems.
-*The PSDM process that we will participate in together over the next few months is a dynamic, ongoing process involving iterative learning. Through this process, we hope to facilitate empowerment, capacity-building and shared ownership of this work as we partner with our stakeholders.
+* This mutual learning process allows stakeholders to see new possibilities, recognize differences in our mental models, and put together our individual "pieces of the puzzle" to create a model that reflects the complexity of real-life problems.
+* The PSDM process that we will participate in together over the next few months is a dynamic, ongoing process involving iterative learning. Through this process, we hope to facilitate empowerment, capacity-building and shared ownership of this work as we partner with our stakeholders.
 
 
 ## Shared Vision Exercise
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">
 
-*Purpose: helping people see how their individual visions fit together with colleagues and fit into a shared vision for modeling to learn process
-*Goals: 
+* Purpose: helping people see how their individual visions fit together with colleagues and fit into a shared vision for modeling to learn process
+* Goals: 
     + Elicit individual’s model/vision of PSD process and find themes that align with one another
     + Co-create vision for modeling to learn project (e.g., why PSD process, consistent with zooming in-part/zooming out-whole)
-*It is important to formally acknowledge everyone’s place in the room (i.e., mutual respect, invoke other’s potential by our willingness to see essence of others) (Senge, 1990).
+* It is important to formally acknowledge everyone’s place in the room (i.e., mutual respect, invoke other’s potential by our willingness to see essence of others) (Senge, 1990).
 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
 
@@ -138,9 +145,9 @@ Examples?
 ## Synthesis
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="240" height="180">
 
-*So to summarize, through the PSDM process, everyone’s contribution should be increasingly brought into the whole
-*Reflecting everyone’s aspirations, a creative synthesis can emerge, and we can create a formal, explicit model of a problem (such as reach of evidence based practices in a mental health clinic) that is more complete and complex than what each of us could individually understand.
-*This participatory process of creating a shared vision will continue throughout the PSD process
+* So to summarize, through the PSDM process, everyone’s contribution should be increasingly brought into the whole
+* Reflecting everyone’s aspirations, a creative synthesis can emerge, and we can create a formal, explicit model of a problem (such as reach of evidence based practices in a mental health clinic) that is more complete and complex than what each of us could individually understand.
+* This participatory process of creating a shared vision will continue throughout the PSD process
 
 
 
