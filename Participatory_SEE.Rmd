@@ -29,7 +29,8 @@ date: "June 21, 2017"
 
 
 ## Systems Story Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rDxOyJxgJeA" frameborder="0" allowfullscreen></iframe>
+[![A Systems Story](https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg)]
+(http://www.youtube.com/watch?v=https://youtu.be/rDxOyJxgJeA "A Systems Story")
 
 
 ## Individuals' mental models are incomplete 
@@ -58,7 +59,7 @@ date: "June 21, 2017"
 
 
 ## Putting it Together
-<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="720" height="540">
 
 
 ## Synthesis
