@@ -1,14 +1,16 @@
 ---
 title: "Participatory_SAY"
-author: "Dmalebranche"
-date: "6/3/2017"
-  output: html_document
-  output: github_document
-  output: slidy_presentation
-  output: ioslides_presentation
+output:
+  ioslides_presentation: default
+  html_document: default
+  github_document: default
+  pdf_document: default
+  slidy_presentation: default
+  word_document: default
+date: "June 21, 2017"
 ---
 
-## Session: Participatory
+## Participatory
 
 ### Key Ideas 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
@@ -19,7 +21,7 @@ date: "6/3/2017"
 * Without learning and coordination, we may have unintended policy resistance and ineffective strategies
 
 
-### Terms [[ICON NEEDED]]
+### Terms
 
 * Model to Learn: 
 * Mental Model: images, assumptions and stories which we carry in our minds of ourselves, other people, institutions, and every aspect of the world (i.e., internal pictures of the world)
@@ -52,7 +54,7 @@ date: "6/3/2017"
     + We will explore system dynamics that will help with developing a model further in the PSD process
 
 ## Complexity
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">
 
 *Have you ever struggled to deal with a problem that seemed very complex? Or, have you ever struggled to get on the same page about a problem with your colleagues?
 Examples?
@@ -61,7 +63,7 @@ Examples?
 
 
 ## Mental Model
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">
 
 *We come into the room with individual mental models; for example, we each have our own model for how a process like patient intake in a clinic works.
 *It is necessary for us to reflect upon, and continually clarify and improve our models, given that our internal pictures of the world determine what we see (Senge, 1990).
@@ -71,56 +73,56 @@ Examples?
 ## Learning Loop
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg">
-
 *Circles Exercise
 
 ## Teaching Story: Elephant
 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="240" height="180">
 
-*[[Insert A systems Story video]]
 *To illustrate how our individual mental models do not tell the full story, I'll refer to the well-known parable of the Elephant and the Blind Men. In the story, a group of blind men hear that an unfamiliar animal called an elephant has been brought to town. To learn about what an elephant is, they each touch different parts of the animal. One man touches the trunk and says, "This animal is like a big snake." Another touches its ear, and thinks it reminds him of a fan. A third touches the tail and describes it as a rope. Another feels the elephant's tusk and says the elephant is hard and pointy, like a spear.
 
 *This story demonstrates how each of our individual mental models are incomplete, and only tell part of the story of what makes up a whole elephant, or phenomenon. In our participatory process, we realize that our individual perspectives are not everything- each is not complete, and one is not more "correct" than another.
 *The story of the elephant also demonstrates that the whole has properties that none of the parts have- an elephant is more than the sum of a tusk, a tail, an ear, and a trunk. In the next session, we will hear more about how systems are more than the sum of their parts.
 
-## Participatory: Individuals mental models are incomplete [[ICON NEEDED]]
+## Systems Story Video
+<a href="http://www.youtube.com/watch?v=rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="240" height="180">
+
+
+## Individuals' mental models are incomplete
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team-building_1016130_003F72.svg" width="240" height="180">
 
 *The differences between mental models explain why two people can observe the same event and describe it differently; they are paying attention to different details
 *In essence, mental models shape how we act (Senge, 1990) and understand complex problems.
 
 
-## Participatory: Modeling to Learn (1)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="720" height="540">
+## Mental Models are Interconnected
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="240" height="180">
 
 *The participatory process we are beginning today allows stakeholders who are interconnected...
 
 
-## Participatory: Modeling to Learn (2)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+## Dialogue in a Modeling Process
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">
 
 *To elicit our mental models of system problems and makes…
 
 
-##Participatory: Modeling to Learn (3)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_share_884712_003F72.svg" width="720" height="540">
+## Make Dynamics Explicit
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_share_884712_003F72.svg" width="240" height="180">
 
 *…our mental models explicit in an external model that allows for more complexity than each of us could individually hold in our heads, or understand.
 
 
-##Participatory: Modeling to Learn (4)
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
+## Develop New Shared System Insights
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="240" height="180">
 
 *This mutual learning process allows stakeholders to see new possibilities, recognize differences in our mental models, and put together our individual "pieces of the puzzle" to create a model that reflects the complexity of real-life problems.
 *The PSDM process that we will participate in together over the next few months is a dynamic, ongoing process involving iterative learning. Through this process, we hope to facilitate empowerment, capacity-building and shared ownership of this work as we partner with our stakeholders.
 
 
+## Shared Vision Exercise
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">
 
-## Shared Vision
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
-
-*For SCRA: in this section, we would move into a longer exercise related to shared vision, which involves...
 *Purpose: helping people see how their individual visions fit together with colleagues and fit into a shared vision for modeling to learn process
 *Goals: 
     + Elicit individual’s model/vision of PSD process and find themes that align with one another
@@ -134,7 +136,7 @@ Examples?
 
 
 ## Synthesis
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="240" height="180">
 
 *So to summarize, through the PSDM process, everyone’s contribution should be increasingly brought into the whole
 *Reflecting everyone’s aspirations, a creative synthesis can emerge, and we can create a formal, explicit model of a problem (such as reach of evidence based practices in a mental health clinic) that is more complete and complex than what each of us could individually understand.
@@ -143,7 +145,7 @@ Examples?
 
 
 ## Lesson Complete
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.svg" width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.svg" width="240" height="180">
 * **Coming Up**
     + We will discuss system structures and their influence on system behavior
     + We will explore system dynamics that will help with developing a model further in the PSD process
