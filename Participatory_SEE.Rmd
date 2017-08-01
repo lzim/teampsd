@@ -55,7 +55,7 @@ date: "August 1, 2017"
 ## Shared Vision
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="360" height="270">
 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg" "width="360" height="270">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg" width="360" height="270">
 
 
 ## Synthesis
