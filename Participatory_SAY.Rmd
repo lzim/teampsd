@@ -91,7 +91,7 @@ Examples?
 ## Systems Story Video
 <a href="http://www.youtube.com/watch?v=rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="240" height="180">
 
-# (If time: play systems story video)
+### (If time: play systems story video)
 * This video of A Systems Story provides another illustration of the parable of the Elephant, and also introduces us to some ideas about systems thinking and vocabulary, which will be covered more in the next session on Systems.
 * [NEED TO ADD MORE EXPLANATION OF VIDEO?]
 
