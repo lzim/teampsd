@@ -20,7 +20,7 @@ output:
 * Unexpected system behaviors occur frequently in systems. These unintended consequences are often the result of delays in feedback or nonlinear system behaviors. 
 * An enhanced understanding of the dynamics that exist system behaviors will empower stakeholders to make informed change decisions within their system.
 
-### Dialogue- Hexagon Icon
+### Dialogue
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
 
 * Have you ever made a small change and it had a huge effect in your setting? Conversely, have you ever made a huge effort to make a change only to have make a small impact?
