@@ -40,4 +40,3 @@ output:
 ## Ratio Exercise 
 <img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="540" height="360">
 
-### Using the stock and flow diagram presented earlier, ask stakeholders to tell feedback stories that account for ratio of variables being mapped.
