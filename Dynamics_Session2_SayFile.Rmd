@@ -16,54 +16,60 @@ output:
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
 
 * Systems are composed of a web of interrelated stocks, flows, and feedback processes that occur over time.
-* Systems are goal-seekg and tend to drift towards a “normal state” because of the dynamic relationships between positive and negative feedback loops (Gosh, 2017)
-* Unexpected system behaviors occur frequently in systems. These unintended consequences are often the result of delays in feedback or nonlinear system behaviors. 
+* Systems are goal-seekg and tend to drift towards a state of “equillibrium” because of the dynamic relationships between positive and negative feedback loops (Gosh, 2017). 
+* Unexpected system behaviors occur frequently in systems. These unintended consequences are often the result of delays in feedback 
+nonlinear system behaviors. 
 * An enhanced understanding of the dynamics that exist system behaviors will empower stakeholders to make informed change decisions within their system.
 
 ### Dialogue
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
 
-* Have you ever made a small change and it had a huge effect in your setting? Conversely, have you ever made a huge effort to make a change only to have make a small impact?
-* A central focus of our discussion will be to understand the implications of feedbacks and nonlinearities to help understand how some change-decisions can have such varying impacts in a system. 
-* We want to assist each other to increase our understanding of the dynamic relationships that exist within the systems, and learn about the structure in which we are embedded.
+* Have you ever made a small change and it had a huge effect in your setting? Conversely, have you ever made a huge effort, only to have it make a small impact in your setting?
+* A focus of our discussion will be to understand how the concepts of feedback and nonlinearity to help cause varying outcomes when during change-efforts.
+* We want to increase our understanding of the dynamic relationships that exist within the systems, and learn about the structure in which we are embedded.
 
 ### Learning Loop 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
 
 * **Ratio Exercise**
-    + Following our discussion about key conecpts about dynamics, we will map variables proposed by stakeholders and the ratios or differences in relation to one another. 
-    + Using the stock and flow diagram presented earlier, ask stakeholders to tell feedback stories that account for the ratio of the variables being mapped.
+    + Following our discussion about key conecpts of Dynamics, we will map variables proposed by stakeholders and their ratios in relation to one another. 
+    + Using the stock and flow diagram presented earlier, we will tell feedback stories that account for the ratio of the variables being mapped.
     
 ### Lesson Overview "Putting it Together"
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
     + The hallmark for dynamics are the feedback loops that occur throughout the system. 
-    + Systems are a web of interconnected feedback processes that occur over time that dictated by the structure.
+    + Systems are a web of interconnected feedback processes that occur over time within a system.
 
 ### Reinforcing Feedback
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="240" height="180">
 
-A reinforcing loop is a process that feedbacks on itself over time, causing growth or decay. Using two variables from our Graphs Over Time exercise: morale and productivity; in a clinic setting, if morale goes up, it would cause productivity to increase. As productivity increases, that would cause morale to further increase, causing growth. Reinforcing loops can also feedback to cause decay. For example, if morale is down, it causes productivity to decrease. A decrease in productivity would then feedback and cause a morale to go down further.  
+A reinforcing loop is a process that feedbacks on itself over time, causing growth or decay. Using the two variables from our Graphs Over Time exercise: morale and productivity; in a clinic setting, if morale goes up, it would cause productivity to increase. As productivity increases, that would cause morale to further increase, causing growth. 
+Reinforcing loops can cause decay. For example, if morale is down, it causes productivity to decrease. A decrease in productivity would then feedback onto morale, causing morale to go down further.  
 
 ### Blanacing Feedback
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="240" height="180">
 
-A balancing loop is process that feedbacks in a system that drives behavior towards homeostasis or an equilibrium. Using two variables from our Graphs Over Time exercise: referrals and provider availability; In a clinic setting, if the rate of referrals increases, then provider availability to see patients would decrease. As the availability of providers to see patients decreases, the rate of referrals would also decrease. Over time, the rate of referrals would slow down and balance out as the system accommodates for the constraints on provider availability.  
+A balancing loop is process that drives behavior towards homeostasis or an equilibrium. Using two variables from our Graphs Over Time exercise: referrals and provider availability; In a clinic setting, if the rate of referrals increases, then provider availability to see patients would decrease. As the availability of providers to see patients decreases, the rate of referrals would also decrease. Over time, the rate of referrals would slow down and balance out as the system accommodates for the constraints on provider availability.  
 
 ### Role of Delays  
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_redo_993290_003F72.svg width="240" height="180">
 
-Each feedback process has a delay, and they occur throughout the system. For example, there is a delay of information in the clinic between the rate of referrals and provider availability. As providers are reaching capacity to see patients, they tell frontline staff to slow the rate of refferals to the clinic, when the front line staff get the message they reduce the number of patients they refer. There is a delay of information that occurs, and they delays all vary. 
+Each feedback process has a delay, and they occur throughout the system. 
+For example, there is a delay of information in the clinic between the rate of referrals and provider availability to see patients. As providers reach thier capacity to see patients, they inform frontline staff to slow the rate of refferals to the clinic, when the front line staff get the message they reduce the number of patients they refer.
+Where do you envision a delay occuring in the example between referral rates and provider availability? There is a delay of information when the providers inform the frontline staff to slow the rate of referrals. There is also a time delay from when the frontline staff receive the message to slow the rate of referral and act on that information. As you can imagine, the amount of delay may vary tremendously. 
 
 ### Traffic 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_traffic_924177_003F72.svg width="240" height="180"> 
 
-I would venture to guess that we all have sat in traffic during rush hour or when there is an accident on the freeway. Regardless of how fast you want to get to your destination, there is a feedback process that is slowing you from getting onto the freeway. The freeway is near cacpacity and the speed at which cars can get on is slowed. A future event that is seemingly ahead of us is impacting us in the present moment. Similarly, in the clinic, as the capacity for the clinic to see patients fills up, it feedbacks and slows the rate at which patients are referred to treatment. There are also delays that occur during traffic. After an accident is cleared and all lanes are open several miles ahead, for an amount of time, the feedback that slows your rate may persist. 
+I would venture to guess that we all have sat in traffic during rush hour, or when there is an accident on the freeway. Regardless of how fast you want to get to your destination, there is a feedback process that is slowing you down on the freeway. The freeway is near cacpacity, and the speed at which cars can get on is slowed. A future event that is seemingly ahead of us is impacting us in the present moment. Similarly, in the clinic, as the capacity for the clinic to see patients fills up, it feedbacks and slows the rate at which patients are referred to treatment. 
+There is also a delay that occurs during traffic hour that will continue to slow your rate after the accident is cleared. Suppose the accident that is slowing traffic down is several miles ahead of you. After the accident has been cleared and all lanes are open, for an amount of time you rate will remain slowed. 
+Later on, we will use the model to quantify delays or the aforementioned "specific amount of time" to help stakeholders make informed decisions about thier clinic. 
 
 ### Static Observation 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_interactive-bar-chart_151004_003F72.svg width="240" height="180">
 
-Static observations provide limited information for stakeholders about how variables within thier system interact, change, and evolve over time. A quarterly reports of clinic performance is an example of static observations. While these snapshots of the clinic may provide some information, they do not tell the whole story. 
+Static observations provide limited information for stakeholders about the manner in which variables interact, change, and evolve over time within the system. A quarterly reports of clinic performance is an example of static observations. While these snapshots of the clinic may provide some information, they do not tell the whole story. 
 
 ### Dynamic Observation
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg width="240" height="180">
@@ -73,13 +79,13 @@ Dynamic observation yield information about system behavior overt time. It provi
 ### Nonlinear System Behavior- Exponential Growth
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg width="240" height="180">
 
-A nonlinear relationship can be defined as an interaction where the input is disproportional to the output. This image can represent the exponential growth of productivity in the clinic. The reinforcing loop between morale and productivity caused sudden and rapid growth in a system. Thinking back to the first question about small changes having big impacts; it may be difficult to pinpoint or measure what input created such growth with a model. Using a model, we can learn about dynamic system behaviors and empower stakeholders to make informed decisions. 
+A nonlinear relationship can be defined as an interaction where the input is disproportional to the output. This image can represent the exponential growth of productivity in the clinic. The reinforcing loop between morale and productivity caused sudden and rapid growth in a system. Thinking back to the first question about small changes having big impacts; it may be difficult to pinpoint or measure what exactly created such growth within a system. Using a model, we can identify which changes will lead the growth or change that stakeholders desire. 
 
 
 ### Nonlinear System Behavior- Steady State
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_88002_003F72.svg width="240" height="180">
 
-This image can represent the steady state of rate of referrals in the clinic. The balancing loop between rate of referrals and provider availability causes a state of equilibrium over time. As mentioned earlier, stakeholders may have varying perspectives about why the system is behaving this way. The PSD process uses the model to ellicit and makes explicit stakeholders' mental models about system behavior. The model can then be used to learn about the system and reach concensus about steps to solve the problem. 
+As balancing loops interact with reinforcing loops, the system moves towards a steady state or an equillibrium.This image can represent the steady state of rate of referrals in the clinic. The balancing loop between the rate of referrals and provider availability causes a state of equilibrium over time. As mentioned earlier, stakeholders may have varying perspectives about what is driving system behavior. The PSD process uses the model to ellicit and makes explicit stakeholders' mental models about system behavior. The model can then be used to learn about system behavior and reach concensus about next steps to address a shared goal. 
 
 
 ### System Behavior– Oscillation
