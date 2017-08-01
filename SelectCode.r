@@ -5,7 +5,6 @@ rm(list=ls())
 ##install.packages("devtools")
 ##install.packages("Rcpp")
 
-
 setwd('//vhapalmpncptsd1/Shared Research/TeamPSD/Model Code/ICC')
 
 getwd()
@@ -75,7 +74,6 @@ summary(comparator.df)
 attach(comparator.df)
 
 ##to check rows or columns
-
 nrow(comparator.df)
 ncol(comparator.df)
 
@@ -112,8 +110,6 @@ subset(comparator.df, quarter=Q5)
 subset(comparator.df, stopcode=ALL)
 subset(comparator.df, stopcode=PTSD)
 subset(comparator.df, stopcode=SUD)
-
-
 
 
 #if we want to clarify NULL code
