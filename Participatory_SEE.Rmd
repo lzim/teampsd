@@ -7,7 +7,7 @@ output:
   pdf_document: default
   slidy_presentation: default
   word_document: default
-date: "June 21, 2017"
+date: "August 1, 2017"
 ---
 
 # Participatory
@@ -54,11 +54,8 @@ date: "June 21, 2017"
 
 ## Shared Vision
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="360" height="270">
+
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg" "width="360" height="270">
-
-
-## Putting it Together
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="720" height="540">
 
 
 ## Synthesis
