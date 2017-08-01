@@ -16,12 +16,9 @@ output:
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
 
 * Systems are composed of a web of interrelated stocks, flows, and feedback processes that occur over time.
-* Systems are goal-seekg and tend to drift towards a “normal state” because of the dynamic relationships between positive and negative feedback loops (CITE: Gosh) 
+* Systems are goal-seekg and tend to drift towards a “normal state” because of the dynamic relationships between positive and negative feedback loops (Gosh, 2017)
 * Unexpected system behaviors occur frequently in systems. These unintended consequences are often the result of delays in feedback or nonlinear system behaviors. 
 * An enhanced understanding of the dynamics that exist system behaviors will empower stakeholders to make informed change decisions within their system.
-
-
-### Key Terms
 
 ### Dialogue- Hexagon Icon
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
