@@ -34,24 +34,6 @@ nonlinear system behaviors.
 * **Ratio Exercise**
     + Following our discussion about key conecpts of Dynamics, we will map variables proposed by stakeholders and their ratios in relation to one another. 
     + Using the stock and flow diagram presented earlier, we will tell feedback stories that account for the ratio of the variables being mapped.
-    
-### Lesson Overview "Putting it Together"
-
-<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
-The hallmark for dynamics are the feedback loops that occur throughout the system. 
-Systems are a web of interconnected feedback processes that occur over time within a system.
-
-<a href="http://youtu.be/inVZoI1AkC8" target="_blank"><img src="https://img.youtu.be/inVZoI1AkC8/0.jpg" alt="Feedback Loops" width="240" height="180">
-
-
-### Feedback Loops: How nature gets its rhythms
-
-<a href="http://www.youtube.com/watch?v=inVZoI1AkC8" target="_blank"><img src="https://img.youtube.com/vi/inVZoI1AkC8/0.jpg" alt="Feedback Loops" width="240" height="180">
-
-
-
-<a href="http://youtu.be/inVZoI1AkC8" target="_blank"><img src="https://img.http://youtu.be/vi/inVZoI1AkC8.jpg" alt="Feedback Loops" width="240" height="180">
-
 
 ### Reinforcing Feedback
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="240" height="180">
@@ -91,7 +73,7 @@ Dynamic observation yield information about system behavior overt time. It provi
 ### Nonlinear System Behavior- Exponential Growth
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg width="240" height="180">
 
-A nonlinear relationship can be defined as an interaction where the input is disproportional to the output. This image can represent the exponential growth of productivity in the clinic. The reinforcing loop between morale and productivity caused sudden and rapid growth in a system. Thinking back to the first question about small changes having big impacts; it may be difficult to pinpoint or measure what exactly created such growth within a system. Using a model, we can identify which changes will lead the growth or change that stakeholders desire. 
+A nonlinear relationship can be defined as an interaction where the input is disproportional to the output. This image represents exponential growth of productivity in the clinic. The reinforcing loop between morale and productivity caused sudden and rapid growth in a system. Thinking back to the first question about small changes having big impacts; it may be difficult to pinpoint or measure what exactly created such growth within a system. Using a model, we can identify which changes will lead the growth or change that stakeholders desire. 
 
 
 ### Nonlinear System Behavior- Steady State
@@ -105,6 +87,16 @@ As balancing loops interact with reinforcing loops, the system moves towards a s
 
 As mentioned earlier, delays exists throughout a system and account for oscillations in a system. Referring back to the rate of refferals and provider availibity, the infromation delay between frontline staff and providers is common example of system oscillation. Providers reach capacity and tell frontline staff (delay) to slow referrals, the rate of referrals is decrease. The providers work through thier patient panels, as the rate of referrals is unchanged. The providers then are not seeing as many patients as they can be, and tell frontline staff (delay) that they should refer more patients. There are several delays that occured in that interaction that brief example, can you point them out? 
 Stakeholders often undershoot or overshoot when attempting to adjust behaviors to correct system oscillations by focusing on the wrong variable or not understanding the correct ratio; ultimately making matters worse. This is why we need a model to learn about what is drivers the up and down time in the clinics. 
+
+### Lesson Overview 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+    + The hallmark for dynamics are the feedback loops that occur throughout the system. 
+    + Systems are a web of interconnected feedback processes that occur over time within a system.
+    + Nonlinear system behavior occur when inputs are not proportional to outputs causing exponential growth or decay. 
+
+### Feedback Loops: How nature gets its rhythms
+
+<a href="http://www.youtube.com/watch?v=inVZoI1AkC8" target="_blank"><img src="https://img.youtube.com/vi/inVZoI1AkC8/0.jpg" alt="Feedback Loops" width="240" height="180">
 
 ### Ratio Exercise 
 <img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="240" height="180">
