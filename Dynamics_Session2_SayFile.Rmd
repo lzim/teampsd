@@ -13,7 +13,7 @@ output:
 ## Session: Dynamics
 
 ### Key Ideas 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg>
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
 
 * Systems are composed of a web of interrelated stocks, flows, and feedback processes that occur over time.
 * Systems are goal-seekg and tend to drift towards a state of “equillibrium” because of the dynamic relationships between positive and negative feedback loops (Gosh, 2017). 
@@ -22,14 +22,14 @@ nonlinear system behaviors.
 * An enhanced understanding of the dynamics that exist system behaviors will empower stakeholders to make informed change decisions within their system.
 
 ### Dialogue
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg width="240" height="180">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
 
 * Have you ever made a small change and it had a huge effect in your setting? Conversely, have you ever made a huge effort, only to have it make a small impact in your setting?
 * A focus of our discussion will be to understand how the concepts of feedback and nonlinearity to help cause varying outcomes when during change-efforts.
 * We want to increase our understanding of the dynamic relationships that exist within the systems, and learn about the structure in which we are embedded.
 
 ### Learning Loop 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg width="240" height="180">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
 
 * **Ratio Exercise**
     + Following our discussion about key conecpts of Dynamics, we will map variables proposed by stakeholders and their ratios in relation to one another. 
@@ -80,7 +80,6 @@ A nonlinear relationship can be defined as an interaction where the input is dis
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_88002_003F72.svg width="240" height="180">
 
 As balancing loops interact with reinforcing loops, the system moves towards a steady state or an equillibrium.This image can represent the steady state of rate of referrals in the clinic. The balancing loop between the rate of referrals and provider availability causes a state of equilibrium over time. As mentioned earlier, stakeholders may have varying perspectives about what is driving system behavior. The PSD process uses the model to ellicit and makes explicit stakeholders' mental models about system behavior. The model can then be used to learn about system behavior and reach concensus about next steps to address a shared goal. 
-
 
 ### System Behavior– Oscillation
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_sine-wave_385866_003F72.svg width="240" height="180">
