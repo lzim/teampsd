@@ -13,7 +13,7 @@ output:
 ## Session: Dynamics
 
 ### Key Ideas 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg width="240" height="180">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg>
 
 * Systems are composed of a web of interrelated stocks, flows, and feedback processes that occur over time.
 * Systems are goal-seekg and tend to drift towards a state of “equillibrium” because of the dynamic relationships between positive and negative feedback loops (Gosh, 2017). 
