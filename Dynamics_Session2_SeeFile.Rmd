@@ -37,6 +37,12 @@ output:
 ## System Behavior– Oscillation
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_sine-wave_385866_003F72.svg width="720" height="540">
 
+## Lesson Overview 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="720" height="540">
+
+## Feedback Loop Video - How nature gets its rhythms - Anje-Magriet Neutel
+<a href="http://www.youtube.com/watch?v=inVZoI1AkC8" target="_blank"><img src="https://img.youtube.com/vi/inVZoI1AkC8/0.jpg" alt="Feedback Loops" width="720" height="540">
+
 ## Ratio Exercise 
-<img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="540" height="360">
+<img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="720" height="540">
 
