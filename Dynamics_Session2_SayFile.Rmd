@@ -41,6 +41,13 @@ nonlinear system behaviors.
 The hallmark for dynamics are the feedback loops that occur throughout the system. 
 Systems are a web of interconnected feedback processes that occur over time within a system.
 
+<a href="http://www.youtube.com/watch?v=rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="240" height="180">
+
+### Feedback Loops: How nature gets its rhythms
+
+<a href="https://www.youtube.com/watch?v=inVZoI1AkC8" target="_blank"><img src="https://www.youtube.com/watch?v=inVZoI1AkC8/0.jpg" alt="Feedback Loops" width="240" height="180">
+
+
 ### Reinforcing Feedback
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="240" height="180">
 
