@@ -97,10 +97,9 @@ Stakeholders often undershoot or overshoot when attempting to adjust behaviors t
 ### Feedback Loops: How nature gets its rhythms
 
 <a href="http://www.youtube.com/watch?v=inVZoI1AkC8" target="_blank"><img src="https://img.youtube.com/vi/inVZoI1AkC8/0.jpg" alt="Feedback Loops" width="240" height="180">
+ The video does an excellent job of depicting positive and negative feedback loops, the concept of nonlinearity, oscillations, and equilibrium. Depending on the system, the feedback loop interactions develop and change over time, as in each habitat. The video uses the terms positive and negative to describe feedback loops. The terms “positive” is synonymous with “reinforcing”, and “negative” is synonymous with “balancing.” 
 
-The video does an excellent job of depicting positive and negative feedback loops, the concept of nonlinearity, oscillations, and equilibrium. Depending on the system, the feedback loop interactions develop and change over time, as in each habitat. The video uses the terms positive and negative to describe feedback loops. The terms “positive” is synonymous with “reinforcing”, and “negative” is synonymous with “balancing.” 
-
-Do you have any questions or comments about the video or anything we have covered so far?
+ Do you have any questions or comments about the video or anything we have covered so far?
 
 ### Ratio Exercise 
 <img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="240" height="180">
