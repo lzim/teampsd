@@ -13,7 +13,7 @@ output:
 ## Session: Dynamics
 
 ### Key Ideas 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg width="240" height="180">
 
 * Systems are composed of a web of interrelated stocks, flows, and feedback processes that occur over time.
 * Systems are goal-seekg and tend to drift towards a state of “equillibrium” because of the dynamic relationships between positive and negative feedback loops (Gosh, 2017). 
@@ -22,14 +22,14 @@ nonlinear system behaviors.
 * An enhanced understanding of the dynamics that exist system behaviors will empower stakeholders to make informed change decisions within their system.
 
 ### Dialogue
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg width="240" height="180">
 
 * Have you ever made a small change and it had a huge effect in your setting? Conversely, have you ever made a huge effort, only to have it make a small impact in your setting?
 * A focus of our discussion will be to understand how the concepts of feedback and nonlinearity to help cause varying outcomes when during change-efforts.
 * We want to increase our understanding of the dynamic relationships that exist within the systems, and learn about the structure in which we are embedded.
 
 ### Learning Loop 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg width="240" height="180">
 
 * **Ratio Exercise**
     + Following our discussion about key conecpts of Dynamics, we will map variables proposed by stakeholders and their ratios in relation to one another. 
@@ -90,9 +90,9 @@ Stakeholders often undershoot or overshoot when attempting to adjust behaviors t
 
 ### Lesson Overview 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
-    + The hallmark for dynamics are the feedback loops that occur throughout the system. 
-    + Systems are a web of interconnected feedback processes that occur over time within a system.
-    + Nonlinear system behavior occur when inputs are not proportional to outputs causing exponential growth or decay. 
+* The hallmark for dynamics are the feedback loops that occur throughout the system. 
+* Systems are a web of interconnected feedback processes that occur over time within a system.
+* Nonlinear system behavior occur when inputs are not proportional to outputs causing exponential growth or decay. 
 
 ### Feedback Loops: How nature gets its rhythms
 
