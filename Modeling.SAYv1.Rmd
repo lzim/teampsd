@@ -1,5 +1,5 @@
 ---
-title: "Modeling – “Say File”"
+title: "Modeling – “Say File Version 1”"
 author: "Melissa London"
 date: "May 30, 2017"
 output:
@@ -85,17 +85,16 @@ stuck in a traffic jam, I’m sure many hypotheses come up about what is going o
 work,” etc. etc.
 - In the same way we ask ourselves, what is causing this traffic jam, we may be asking ourselves what is driving these
 [performance] measures in our clinics?
-
+- The same way we now understand that there is an interdependence between the rate at which traffic moves, the capacity of the highway, and the occurrence of accidents and delays, we understand that there is a dynamic relationship between the capacity of our local clinics, the rates at which people are being referred, being seen, and delay.
    
-## Valve/Flow; Flow/Faucet - NEED NEW IMAGE OF A BATHTUB OR SINK
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_valve_911279_003F72.svg" width="720" height="540">
+## Stock and Flow
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_washing_514155_003F72.svg" width="720" height="540">
 
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_tap_603244_003F72.svg" width="720" height="540">
+- To delve further into the dynamic relationships in a system, we must understand stocks and flows. 
+- Stocks are the levels or states of variables. Many clinic managers have this data- quarterly reports are a prime example of a stock. If you freeze the clinic at any given time, you can report the level of patients getting referred in, patients getting seen, discharged etc. 
+- Managers typically don't have is what is driving those levels, which is the flow. An understanding of the flows, the ability to manipulate and test out what is affecting those flows, would promote QI by testing out those hypotheses about our performance measures before restructuring the entire clinic.
+- A metaphor that is used to illustrate the relationship between stocks and flows would have us imagine we were trying to fill a sink, perhaps to do our dishes. The amount of water flowing- the stock- is dependent upon how much you open or close the valve - the flow. However, the relationship is dynamic because we have to monitor the rate of water flowing into and out of the sink as well.  If we have an equal rate of water flowing into and out of the sink, then the level of the water in the sink is stabilized. If we have more water flowing in than out, our sink overflows. If we have more water flowing out than in, we will never be able to fill the sink. 
 
--  To delve further into the dynamic relationships in a system, we must understand stocks and flows. 
-- Imagine how water flows into a sink from a faucet (OR how water flows from a pitcher into a glass; or a faucet into a tub
-depending on the picture we use). The amount of water flowing- the stock- is dependent upon how much you open or close the valve - the flow. However, the relationship is dynamic because we have to monitor the rate of water flowing into and out of the sink as well.  If we
-have an equal rate of water flowing into and out of the sink, then the level of the water in the sink is stabilized. If we have more water flowing in than out, our sink overflows. If we have more water flowing out than in, we will never be able to fill the sink.
 
 ## Static Observation 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" width="720" height="540">
@@ -115,20 +114,18 @@ the system behavior.
 -	By this point, we understand that we all have different mental models of what we think is driving the stocks
 -	We need to elicit and make explicit these models by making hypotheses 
 
-## System Behavior - NEED NEW IMAGE FOR MODEL
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_source-sine_634684_003F72.svg" width="720" height="540">
+## System Behavior -
+<img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.22.JPG width="720" height="540">
 
--	 The first step is model specification, determining what variables and relationships appear most important
+-	 The first step is model specification, determining what variables and relationships appear most important.
 
 ## Local Data
 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_slinky_48148_000000.svg" width="720" height="540"> 
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_settings_339117_003F72.svg" width="720" height="540">
 
--Additionally, it is important that we are using local data and focusing on local systems. Remember that without system dynamics we tend to operate under the equifinality assumption that diverse initial conditions and organizational pathways may result in the same outcome. 
-
 - But let’s think back to the slinky metaphor. Why did that slinky bounce up and down? (The structure of the slinky, its coils, causes the physical behavior of it bouncing up and down). The structure determines the behavior with the slinky, and with the clinical setting. National change efforts targeted at limited EBP reach are not accounting for local system structure. We have to understand the local structure to understand the behavior of limited EBP reach.
-
+-While we are using administrative data that everyone has, and common procedural technology, the question of "why would that work here" can only be understood by using our local data and focusing on local systems. Remember that without system dynamics we tend to operate under the equifinality assumption that diverse initial conditions and organizational pathways may result in the same outcome. 
 
 ## Feedback
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
