@@ -83,11 +83,15 @@ We also want to make sure that we clarify that the variables that we're looking 
 
 
 ##Understanding system behavior as a function of its components
+
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-tire_811766_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-battery_811720_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-keys_811748_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_steering-wheel_167223_003F72.svg">
 
 
 
+
+
 How we use the data, who gets to use it, and what questions we try to answer with the data can completely change how we feel and relate to data.
+
 If you think about the example of a car which was presented in a previous session, the purpose of a car is to get you from Point A to Point B. It's useful to look in depth at the car to see the different parts like the exceptional power steering or the goodyear tires, or the top of the line V12 5 liter engine. However, what makes a good car is not just getting "the best" of each of these individual parts; what makes a car good is how well they work together, in relation to each other. Again, it's a system.
 
 So we want to keep in mind that what we're NOT trying to do is model what Team A is doing well in Clinic A and take those strategies and go straight to try to implement them on Team B in Clinic B. Instead, we use our zoom in and out skills to use local data to understand how specifics work in the larger context.
