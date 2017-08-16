@@ -734,7 +734,7 @@ Data does not have to be scary. How we use the data, who gets to use it, and wha
 
 # Session 6: Data 
 
-##Data Session: Making our data actionable to inform clinical decisions
+## Data Session: Making our data actionable to inform clinical decisions
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg width="240" height="180">      
 
@@ -751,7 +751,7 @@ This session will explore what that might look like.
 
 
 
-##Mental models of data need to be made explicit
+## Mental models of data need to be made explicit
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">      
 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="240" height="180">      
@@ -763,7 +763,7 @@ Similarly, people may have mental models that data is difficult to understand or
 
 
 
-##Participatory System Dynamics Process - Learning to zoom in and out
+## Participatory System Dynamics Process - Learning to zoom in and out
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg width="240" height="180">      
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg width="240" height="180">    
 
@@ -775,7 +775,7 @@ Another example that was presented in a previous session about the PSD process a
 
 
 
-##Visualize variables interacting dynamically over time and non-linearly
+## Visualize variables interacting dynamically over time and non-linearly
 Link to mortgage/savings calculator: http://www.bankrate.com/calculators/index-of-mortgage-calculators.aspx
 
 An example that might help us think about this process of visualizing variables working together non-linearly, is thinking about a mortgage/savings calculator.
@@ -783,7 +783,7 @@ An example that might help us think about this process of visualizing variables 
 Here, we see that we can ask the question, “What Might Happen If I …” For example … set my initial down payment as X dollars? What happens if I increase from a 15 year to a 30 year mortgage? How does this affect how much money I have when I retire if I want to retire at 65 versus 70?
 
 
-##Modeling to learn with local data
+## Modeling to learn with local data
 <img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.41.jpg width="240" height="180">      
 
 
@@ -803,7 +803,7 @@ We also want to make sure that we clarify that the variables that we're looking 
 
 
 
-##Understanding system behavior as a function of its components
+## Understanding system behavior as a function of its components
 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-tire_811766_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-battery_811720_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-keys_811748_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_steering-wheel_167223_003F72.svg">
 
@@ -818,7 +818,7 @@ If you think about the example of a car which was presented in a previous sessio
 So we want to keep in mind that what we're NOT trying to do is model what Team A is doing well in Clinic A and take those strategies and go straight to try to implement them on Team B in Clinic B. Instead, we use our zoom in and out skills to use local data to understand how specifics work in the larger context.
 
 
-##Limited EBP reach is a complex problem
+## Limited EBP reach is a complex problem
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">      
 
 The emerging system behavior of limited EBP reach is a complex problem.
