@@ -9,11 +9,9 @@ output:
   ioslides_presentation: default
   slidy_presentation: default
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
 
-#Session 1: Participatory
+
+# Session 1: Participatory
 
 ### Key Ideas 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
