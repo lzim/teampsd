@@ -9,9 +9,6 @@ output:
   ioslides_presentation: default
   slidy_presentation: default
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
 
 # Session 1: Participatory
 
