@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Session 1: Participatory
 
-##Complexity
+## Complexity
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
 
 
@@ -244,35 +244,35 @@ http://www.bankrate.com/calculators/mortgages/mortgage-payment-calculator.aspx
 
 # Session 6: Data 
 
-#Data Session: Making our data actionable to inform clinical decisions
+## Data Session: Making our data actionable to inform clinical decisions
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg width="720" height="540">
 
 
-##Mental models of data need to be made explicit
+## Mental models of data need to be made explicit
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
 
 
-##Participatory System Dynamics Process - Learning to zoom in and out
+## Participatory System Dynamics Process - Learning to zoom in and out
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg width="365" height="305">
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg width="365" height="305">
 
 
-##Visualize variables interacting dynamically over time and non-linearly
+## Visualize variables interacting dynamically over time and non-linearly
 Link to mortgage/savings calculator: http://www.bankrate.com/calculators/index-of-mortgage-calculators.aspx
 
 
-##Modeling to learn with local data
+## Modeling to learn with local data
 <img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.41.jpg width="720" height="540">
 
 
-##Understanding system behavior as a function of its components
+## Understanding system behavior as a function of its components
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-tire_811766_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-battery_811720_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-keys_811748_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_steering-wheel_167223_003F72.svg">
 
 
-##Limited EBP reach is a complex problem
+## Limited EBP reach is a complex problem
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
 
 
