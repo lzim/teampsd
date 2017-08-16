@@ -13,48 +13,48 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-#Session 1: Participatory
+# Session 1: Participatory
 
 ##Complexity
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
 
 
-##Mental Model
+## Mental Model
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
 
 
-##Circles
+## Circles
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg" width="720" height="450">
 
 
-##Elephant
+## Elephant
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
 
 
-##Systems Story Video
+## Systems Story Video
 <a href="http://www.youtube.com/watch?v=rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="720" height="540">
 
-##Individuals' mental models are incomplete 
+## Individuals' mental models are incomplete 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team-building_1016130_003F72.svg" width="600" height="450">
 
 
-##Mental Models are Interconnected
+## Mental Models are Interconnected
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="720" height="540">
 
 
-##Dialogue in a Modeling Process
+## Dialogue in a Modeling Process
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
 
 
-##Make Dynamics Explicit
+## Make Dynamics Explicit
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_share_884712_003F72.svg" width="720" height="540">
 
 
-##Develop New Shared System Insights
+## Develop New Shared System Insights
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
 
 
-##Shared Vision
+## Shared Vision
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="365" height="305">
 
 <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg" width="365" height="305">
