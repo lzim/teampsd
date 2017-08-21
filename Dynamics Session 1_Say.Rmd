@@ -56,7 +56,7 @@ output:
 
 <img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg width="240" height="180">
 
-“How many of you have ever felt frustrated that they system would not let you do your work? What agency did you feel like you had to change that? How many of you have had data or numbers used for performance improvement initiatives? How were the data used?"
+“How many of you have ever felt frustrated that the system would not let you do your work? What agency did you feel like you had to change that? How many of you have had data or numbers used for performance improvement initiatives? How were the data used?"
 
 Often, previously used QI strategies and data may not feel valid or useful because they do not address the fundamental dynamics at play in the system. There can be significant side effects to selecting an ineffective QI strategy, including policy resistance, burnout, etc. Data can also be used to punish or reward, which can lead to policy resistance, and does not make sense if the data don't address the full dynamics of the system. Not only can QI be difficult because of the impact it has on individuals within the system, the system itself can also be resistant to change. In this approach, we view success as being directly tied to and limited by the system you are working in. Does anyone remember what we learned from the idea of the slinky? (Structure determines behavior).  
 
