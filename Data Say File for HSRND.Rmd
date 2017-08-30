@@ -46,7 +46,7 @@ Similarly, people may have mental models that data is difficult to understand or
 
 
 ## Dialogue 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg"width="720" height="540">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
 
 Another key word here is Dialogue; a mutual exchange of communication in order to discuss the mental models and approach a problem by sitting shoulder-to-shoulder with your team members, examining a problem that is here on the table, rather than sitting across from each other with the problem resting in between team members. Here, we enter into the process of dialogue with a shared vision.
 
