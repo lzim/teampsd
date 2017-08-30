@@ -7,7 +7,7 @@ output:
   html_document: default
   pdf_document: default
 ---
-##Introduction
+## Introduction
 
 My name is Joyce Yang and I have been working with Dr. Lindsey Zimmerman's Team Participatory System Dynamics (Team PSD) for my intern research rotation. I'd like to take a minute to situate what I'm about to present to you in the context of the work I have been involved in over the last 6 months as well as Dr. Zimmerman and the team's ongoing work.
 
@@ -20,7 +20,7 @@ The data session was important for me to work on, especially examining the enter
 So I would like to run a demonstration of the Data session for you today and have you all participate as staff in a clinic might. Recall that this is the 5th session in the workshop and will be occuring several months into the process, so I will be pointing back to some things that staff will be familiar with from previous sessions.
 
 
-##Session Content
+## Session Content
 
 So you show up to work at your clinic and during the morning huddle or team meeting, you hear "Leadership is planning to evaluate us on _______ in order to measure progress in our clinic". This is probably somewhat familiar; what are some measures you've been told that you'll be evaluated on before?  [E.g., # of patients seen each quarter? # of successful discharges?]
 
