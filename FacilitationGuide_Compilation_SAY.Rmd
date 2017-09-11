@@ -217,7 +217,7 @@ We define limited EBP reach as a system behavior, a product of the interaction o
      
 
 ## Structure Determines Behavior 
-<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_000000.svg" width="240" height="180">
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_003F72.svg" width="240" height="180">
 
 One of the teaching examples commonly used to illustrate systems thinking is the slinky. Hold a slinky from the top and bottom then release your bottom hand so it drops and bounces up and down until it is stil. Then ask the group: why did that happen to the slinky? Why did it bounce up and down? Some common answers might be- "because you released your bottom hand" or "because of gravity". If these answers are given point out that if you did the same thing with a notebook it wouldn't bounce back it would simply hit the ground. Then explain that the structure of the slinky, its coils, causes the physical behavior of it bouncing up and down. Similarly, the structure of the clinical setting (the way all interreltated components interact) produces the behavior of limited EBP reach.The system structure determines how it reacts to outside forces (like national change efforts), similarly to how the slinky structure determines how it reacts to gravity. Because the behavior we want to change is determined by the system structure, change efforts need to target that structure. We must understand the underlying structure in order to find points of levarage to target. In this session we hope to help frontline staff come to a more "systems" understanding of their setting.
 
@@ -323,7 +323,7 @@ Split into 6 groups, on the paper provided please draw a simple graph with time 
 
 Often, previously used QI strategies and data may not feel valid or useful because they do not address the fundamental dynamics at play in the system. There can be significant side effects to selecting an ineffective QI strategy, including policy resistance, burnout, etc. Data can also be used to punish or reward, which can lead to policy resistance, and does not make sense if the data don't address the full dynamics of the system. Not only can QI be difficult because of the impact it has on individuals within the system, the system itself can also be resistant to change. In this approach, we view success as being directly tied to and limited by the system you are working in. Does anyone remember what we learned from the idea of the slinky? (Structure determines behavior).  
 
-<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_000000.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_003F72.svg width="240" height="180">
 
 
 ## Success is Dependent on the System 
@@ -940,7 +940,7 @@ understanding the impact of system factors, such as intake referral rate, on the
 
 ## Local Data
 
-<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_slinky_48148_000000.svg" width="240" height="180">  
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_slinky_48148_003F72.svg" width="240" height="180">  
 <img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_settings_339117_003F72.svg" wwidth="240" height="180">      
 
 - But let’s think back to the slinky metaphor. Why did that slinky bounce up and down? (The structure of the slinky, its coils, causes the physical behavior of it bouncing up and down). The structure determines the behavior with the slinky, and with the clinical setting. National change efforts targeted at limited EBP reach are not accounting for local system structure. We have to understand the local structure to understand the behavior of limited EBP reach. The question of "why would that work here" can only be understood by using our local data and focusing on local systems. Remember that without system dynamics we tend to operate under the equifinality assumption that diverse initial conditions and organizational pathways may result in the same outcome.
