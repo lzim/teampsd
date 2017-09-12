@@ -8,6 +8,7 @@ output:
   html_document: default
   ioslides_presentation: default
   slidy_presentation: default
+  pdf_document: default
 ---
 
 
