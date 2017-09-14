@@ -1,0 +1,857 @@
+{UTF-8}
+"% of Hours per Service"[service]=
+	Official Hours Available for Service[service]/Total Official Team Clinical Hours
+	~	Dmnl
+	~		|
+
+"% of Patients who Resume Care"[service]=
+	0.1
+	~	Dmnl
+	~	The fraction of patients who start any service after ending a previous one.
+	|
+
+Actual Hours Available for Service[service]=
+	Official Hours Available for Service[service]*Effect of Work Pressure on Overtime[service\
+		]
+	~	hour/Week
+	~	The clinician time available for a service depends on the total clinical \
+		hours available, the relative increase in hours due to overtime, and the % \
+		allocated to a service.
+	|
+
+Patients in Service[service]= INTEG (
+	Resuming Care[service]+Starting Service[service]-Service Quit Rate[service],
+		Initial Patients[service])
+	~	patient
+	~	Total number of patients in treatment, initial value set to start in \
+		equilibrium, with no patients restarting a service.
+	|
+
+Effect of Fatigue on Appointment Completion Rate=
+	IF THEN ELSE( Fatigue Switch=1, Table for Effect of Fatigue on Appointment Completion\
+		(Difference between Total Official Hours and Actual Hours),1)
+	~	Dmnl
+	~	Long workweeks relative to normal team hours reduce employee productivity.
+	|
+
+"Team Data on % of New Patients Starting Service"[service]=
+	Team Data on Patient Starts[service]/Team Data on Total New Patient Starts
+	~	Dmnl
+	~		~	:SUPPLEMENTARY 
+	|
+
+Effect of Work Pressure on RVI[service]=
+	SMOOTHI(IF THEN ELSE(Extend RVI Switch=1,Table for Effect of Work Pressure on RVI(Work Pressure\
+		[service]),1),Time to Change Scheduled RVI,1)
+	~	Dmnl
+	~	High schedule pressure increases the time between appointments.
+	|
+
+Baseline Hours Available for Appointments[service]=
+	8,8,8,8,8
+	~	hour/Week
+	~	The baseline clinical hours allocated to each service, taken from the \
+		team's data.
+	|
+
+Productivity[service]=
+	Time per Appointment[service]
+	~	hour/appt
+	~	The amount of clinician time used for an appointment.
+	|
+
+Endogenous Patient Start Rate[service]=
+	Endogenous New Patients Referred to Team[service]
+	~	patient/Week
+	~		|
+
+Endogenous Total New Patients Referred to Team=
+	SUM(Endogenous New Patients Referred to Team[service!])
+	~	patient/Week
+	~	The sum of all new patient starts in all services.
+	|
+
+Exogenous Patient Start Rate[service]=
+	Team Data on Patient Starts[service]*Change to Patient Start Rate[service]
+	~	patient/Week
+	~		|
+
+Change Missed Opportunities Percentage[service]=
+	0,0,0,0,0
+	~	Dmnl
+	~		|
+
+Change to Patient Start Rate[service]=
+	0
+	~	Dmnl
+	~		|
+
+Total Initial Patients=
+	SUM(Initial Patients[service!])
+	~	patient
+	~	The sum of all patients in all services.
+	~	:SUPPLEMENTARY 
+	|
+
+Initial Completion Rate[service]=
+	Service Capacity[service]/Productivity[service]
+	~	appt/Week
+	~	The initial completion rate is the rate at which appointments would be \
+		completed in each service by the current team at the standard allocation \
+		of hours and hours lost to appointment re-scheduling for each service. \
+		Used to initialize the patients in equilibrium.
+	|
+
+Demand per Patient per Week[service]=
+	1/Patients per Appointment[service]/Standard Return Visit Interval[service]
+	~	appt/(Week*patient)
+	~	Baseline number of appointments generated per patient per week for a \
+		service.
+	|
+
+True Missed Appointment Rate[service]=
+	Completing Appts[service]*(Baseline True Missed Opportunities Percentage[service]+(STEP\
+		(Change Missed Opportunities Percentage[service],10)))
+	~	appt/Week
+	~	The number of appointments that must be re-scheduled, as either the \
+		clinician or the patient missed the appointment.
+	|
+
+Team Data on Total New Patient Starts=
+	SUM(Team Data on Patient Starts[service!])
+	~	patient/Week
+	~		|
+
+"Difference between Actual and Supply-based Patient Starts"[service]=
+	Team Data on Patient Starts[service]-Endogenous Patient Start Rate[service]
+	~	patient/Week
+	~		~	:SUPPLEMENTARY 
+	|
+
+Difference between Total Official Hours and Actual Hours=
+	Recent Actual Team Hours/Total Official Team Clinical Hours
+	~	Dmnl
+	~	Ratio of the team's acutal hours worked to their total official hours.
+	|
+
+Patient Starts Switch=
+	0
+	~	Dmnl
+	~	Switch to control if patient starts are based on team current state \
+		(default set to ignore current state, and instead match patient starts to \
+		allocation of clinican hours).
+	|
+
+Initial Patients[service]= INITIAL(
+	Initial Completion Rate[service]/Demand per Patient per Week[service])
+	~	patient
+	~	The initial number of patients seen by the team is determined by the \
+		initial appointment completion rate and the demand per patient.  Note that \
+		the equation type is INITIAL, which ensures that the initial patient load \
+		remains constant even if the appointment completion rate varies.  By \
+		setting this initial patient load, we ensure that appointments are booked \
+		at exactly the rate the team can handle, given the team size and standard \
+		values for time per appoitment, return visit interval, missed \
+		opportunities, and % team time allocated to each service.
+	|
+
+Service Capacity[service]=
+	"% of Hours per Service"[service]*Total Official Team Clinical Hours*(1-Baseline True Missed Opportunities Percentage\
+		[service])
+	~	hour/Week
+	~	The effective total hours of clinical time available, based on the \
+		percentage of the total team hours allocated to each service, and the \
+		missed appointment percentage for each service.  This assumes that all \
+		missed appointments are eventually rescheduled.
+	|
+
+Time to Change Scheduled RVI=
+	1
+	~	Week
+	~	Takes 1 week to recognize work pressure and change scheduled return visit \
+		interval.
+	|
+
+"Endogenous % of New Patients Starting Service"[service]=
+	Endogenous New Patients Referred to Team[service]/Endogenous Total New Patients Referred to Team
+	~	Dmnl
+	~	The % of all new patients triaged into a service, based solely on their \
+		needs.
+	~	:SUPPLEMENTARY 
+	|
+
+Total Official Team Clinical Hours=
+	SUM(Official Hours Available for Service[service!])
+	~	hour/Week
+	~	The sum of all clinical hours allocated to patient appointments. It must \
+		be less than 40 hrs/week/clinician, due to administrative duties, sick \
+		leave, annual leave, training, etc.
+	|
+
+Team Data on Patient Starts[service]=
+	1,0.5,2,1,1
+	~	patient/Week
+	~		|
+
+Starting Service[service]=
+	IF THEN ELSE( Patient Starts Switch=1, Exogenous Patient Start Rate[service],Endogenous Patient Start Rate\
+		[service])*Percieved Care Delays[service]
+	~	patient/Week
+	~	The number of patients starting a service is a function the team's time allocated to \
+		that service, allowing the model to start in equilibrium.
+		If the patient starts switch is active, then the start rate is based \
+		instead on the current state data of patient starts for the team \
+		(presumably based on patient characteristics and percieved delays in \
+		receiving care in that service).
+	|
+
+Official Hours Available for Service[service]=
+	MAX(Baseline Hours Available for Appointments[service]+STEP(Change in Actual Hours Available for Appointments\
+		[service],10),0)
+	~	hour/Week
+	~	The hours available for patient appointments in each service.  It is \
+		prevented from going below zero.
+	|
+
+Actual Return Visit Interval[service]=
+	ZIDZ(Appointments[service],Completing Appts[service])
+	~	Week
+	~	The average time to between appointments is determined by Little's Law as \
+		the ratio of the appointment backlog to completion rate.
+	|
+
+Appointments to Reschedule[service]= INTEG (
+	True Missed Appointment Rate[service]-Rescheduling Appointments[service],
+		True Missed Appointment Rate[service]*Time to Reschedule)
+	~	appt
+	~	The number of appointments to be rescheduled. This assumes that all missed \
+		appointments are eventually rescheduled.
+	|
+
+Appointments[service]= INTEG (
+	Booking Appts[service]+Rescheduling Appointments[service]-Completing Appts[service],
+		(Booking Appts[service])*(Standard Return Visit Interval[service])
+		+ (
+		(((Actual Hours Available for Service[service]/Time per Appointment[service])*Baseline True Missed Opportunities Percentage\
+		[service])*Standard Return Visit Interval[service])
+		))
+	~	appt
+	~	The initial backlog is set to the equilibrium value determined by the \
+		arrival rate and target return interval (following Little's Law), along \
+		with the "rework" from rescheduling missed appointments.
+	|
+
+Avg Time in Service[service]=
+	30,10,50,50,25
+	~	Week
+	~	These estimated service durations do not include patients who only come \
+		for one visit ("one-n-dones" are a significant portion of all patient \
+		visits).
+	|
+
+Booking Appts[service]=
+	"Current Pt Appts / week"[service]
+	~	appt/Week
+	~	The booking appointment rate depends on the number of patients seen by the \
+		team.
+	|
+
+Scheduled Return Visit Interval[service]=
+	Standard Return Visit Interval[service]*Effect of Work Pressure on RVI[service]
+	~	Week
+	~	The actual scheduled return visit interval is the standard interval \
+		modified by the effect of work pressure.  High pressure increases the \
+		interval between appointments.
+	|
+
+Change in Actual Hours Available for Appointments[service]=
+	0
+	~	hour/Week
+	~	Adjust the clinical hours allocated to a service in time 10.
+	|
+
+Completing Appts[service]=
+	MIN(Maximum Completion Rate[service], Potential Completion Rate[service])
+	~	appt/Week
+	~	The rate at which patient appointments are completed is the lesser of the \
+		maximum rate or the potential rate, which in turn is determined by labor, \
+		workday, and the time spent on each appointment.
+	|
+
+"Current Pt Appts / week"[service]=
+	((Patients in Service[service]/Scheduled Return Visit Interval[service])/Patients per Appointment\
+		[service])
+	~	appt/Week
+	~		|
+
+Desired Clinical Hours[service]=
+	Desired Completion Rate[service]*Time per Appointment[service]
+	~	hour/Week
+	~	This is the desired service capacity based on the desired appoinutment \
+		completion rate and the standard time per appointment.
+	|
+
+Desired Completion Rate[service]=
+	Appointments[service]/Standard Return Visit Interval[service]
+	~	appt/Week
+	~	To complete recurring appointments in the target return interval, the \
+		completion rate must be equal to the appointment backlog divided by the \
+		target return time interval.
+	|
+
+Effect of Care Delay on Starts[service]=
+	IF THEN ELSE( Care Delays Switch=1,(Actual Return Visit Interval[service]/Standard Return Visit Interval\
+		[service])^Sensitivity of Starts to Delays
+	,1)
+	~	Dmnl
+	~	The deviation from the target delivery delay is adjusted by an exponent \
+		that reflects how sensitive providers' triage decisions are to these \
+		deviations.
+	|
+
+Effect of Work Pressure on Overtime[service]=
+	SMOOTHI(IF THEN ELSE(Overtime Switch=1,Table for Effect of Work Pressure on Overtime\
+		(Work Pressure[service]),1),Time to Change Staff Hours,1)
+	~	Dmnl
+	~	High schedule pressure leads to overtime; low pressure to a slight \
+		reduction in hours worked.
+	|
+
+Standard Return Visit Interval[service]=
+	2,1,8,4,4
+	~	Week
+	~	The VA's goal is to see each patient every x weeks.
+	|
+
+Time per Appointment[service]=
+	1,1,0.5,0.5,1
+	~	hour/appt
+	~	The appointment length for a service.
+	|
+
+Resuming Care[service]=
+	Patients Waiting to Resume Care[service]/Time to Resume Care
+	~	patient/Week
+	~	The number of patients who resume care each week is a function of the \
+		total patients waiting to resume and the time to reach them for scheduling.
+	|
+
+Maximum Completion Rate[service]=
+	Appointments[service]/Minimum RVI[service]
+	~	appt/Week
+	~	The maximum completion rate is determined by the appointment backlog and \
+		minimum time between patient appointments.
+	|
+
+Minimum RVI[service]=
+	0.1
+	~	Week
+	~	The fastest possible completion time between patient appointments.
+	|
+
+"Triaging \"Finished\" Patients"[service]=
+	(Service Quit Rate[service]*"% of Patients who Resume Care"[service])*Resume Care Switch
+	~	patient/Week
+	~	The number of patients that must be re-started in care, either into the \
+		same service, or another.
+	|
+
+Patients per Appointment[service]=
+	1
+	~	patient/appt
+	~	Would be >1, if a group visit clinic.
+	|
+
+Patients Waiting to Resume Care[service]= INTEG (
+	"Triaging \"Finished\" Patients"[service]-Resuming Care[service],
+		0)
+	~	patient
+	~	Total number of patients who have ended treatment in one service, but who \
+		should resume care (either in the same service, or another). Initial value \
+		set to start with no patients in this status.
+	|
+
+Percieved Care Delays[service]=
+	SMOOTH(Effect of Care Delay on Starts[service],Time to Percieve Delays)
+	~	Dmnl
+	~	Clinicians' perception of care delays for services.
+	|
+
+Potential Completion Rate[service]=
+	(Actual Hours Available for Service[service]/Time per Appointment[service])*Effect of Fatigue on Appointment Completion Rate
+	~	appt/Week
+	~	The potential completion rate depends on the net available clinical hours, \
+		the time per apppointment, and the effect of fatigue due to accumulated \
+		long hours.
+	|
+
+Recent Actual Team Hours=
+	SMOOTHI(SUM(Actual Hours Available for Service[service!]),Fatigue Onset Time,Total Official Team Clinical Hours\
+		)
+	~	hour/Week
+	~	Exponential smoothing of the workweek over the period for the onset of \
+		fatigue. The 'recent' label refers to the fact that the burnout onset time \
+		is much longer than the fatigue onset time.
+	|
+
+Rescheduling Appointments[service]=
+	Appointments to Reschedule[service]/Time to Reschedule
+	~	appt/Week
+	~	The rate at which appointments are rescheduled. First order delay from the \
+		Appointments to Reschedule stock.
+	|
+
+Service Quit Rate[service]=
+	Patients in Service[service]/Avg Time in Service[service]
+	~	patient/Week
+	~	The number of patients ending a service is a function of the average \
+		duration.
+	|
+
+service:
+	Psych, EBPsych, CC, MM, Adjunctive
+	~	
+	~		|
+
+Work Pressure[service]=
+	Desired Clinical Hours[service]/Actual Hours Available for Service[service]
+	~	Dmnl
+	~	Work pressure is the ratio of the desired to actual clinical hours \
+		available for a service.
+	|
+
+Baseline True Missed Opportunities Percentage[service]=
+	0.1
+	~	Dmnl
+	~	The fraction of appointments for a service missed by either the clinician \
+		or the patient.
+	|
+
+Time to Change Staff Hours=
+	2
+	~	Week
+	~	Takes 2 weeks to recognize work pressure and change staff hours.
+	|
+
+Time to Percieve Delays=
+	4
+	~	Week
+	~	Time to measure, report, and respond to differences between desired and \
+		actual Return Visit Interval for a service. Set to 4 weeks, i.e., a \
+		monthly staff meeting update.
+	|
+
+Time to Reschedule=
+	2
+	~	Week
+	~	Average time to contact the patient and negotiate a make-up appointment.
+	|
+
+Table for Effect of Work Pressure on Overtime(
+	[(-0.3,0)-(5,2)],(-0.25,0.75),(0,0.75),(0.25,0.78),(0.5,0.82),(0.75,0.88),(1,1),(1.35\
+		,1.13),(1.75,1.25),(2.25,1.35),(3,1.45),(3.7,1.49),(4.5,1.5),(5,1.5))
+	~	Dmnl
+	~	High schedule pressure leads to longer hours.
+	|
+
+Resume Care Switch=
+	0
+	~	Dmnl
+	~	Switch to control if patients are allowed to restart a service, or start a \
+		new service after ending another service, is active.
+	|
+
+Fatigue Onset Time=
+	3
+	~	Week
+	~	Time for the extended workweeks to have an impact on employee fatigue and \
+		capability to keep appointments (from Oliva).
+	|
+
+Fatigue Switch=
+	0
+	~	Dmnl
+	~	Switch to control if fatigue response to working long hours is active.
+	|
+
+Overtime Switch=
+	0
+	~	Dmnl
+	~	Switch to control if the overtime response is active.
+	|
+
+Time to Resume Care=
+	8
+	~	Week
+	~	Average time to contact a patient and negotiate a "first" appointment.
+	|
+
+Table for Effect of Fatigue on Appointment Completion(
+	[(0,0)-(3,1.3)],(0,1.1),(0.5,1.07),(1,1),(1.1,0.95),(1.25,0.8),(1.5,0.4),(1.75,0.12)\
+		,(2,0.03),(2.5,0.01),(3,0))
+	~	Dmnl
+	~	Extended workweeks leads to reduced productivity.
+	|
+
+Endogenous New Patients Referred to Team[service]=
+	Patients in Service[service]/Avg Time in Service[service]
+	~	patient/Week
+	~	... defined to maintain equilibrium, if no switches are "on"...
+		
+		-
+		(SUM(Patients Waiting to Resume Care[service!]/Time to Resume Care))
+	|
+
+Care Delays Switch=
+	0
+	~	Dmnl
+	~	Switch to control if care delay effect on new patient start rates is \
+		active.
+	|
+
+Sensitivity of Starts to Delays=
+	-0.3
+	~	Dmnl
+	~	Exponent to the effect of care delay on service attractiveness. The \
+		negative sign indicates that this is inversely coded, i.e., attractiveness \
+		drops as care delay increases.
+	|
+
+Extend RVI Switch=
+	0
+	~	Dmnl
+	~	Switch to control if the extend RVI response is active.
+	|
+
+Table for Effect of Work Pressure on RVI(
+	[(0,0)-(2.6,3)],(0,0.9),(0.2,0.9),(0.4,0.92),(0.6,0.93),(0.8,0.95),(1,1),(1.2,1.15),\
+		(1.4,1.5),(1.6,2),(1.8,2.4),(2,2.65),(2.2,2.8),(2.4,2.87),(2.6,2.9))
+	~	Dmnl
+	~	High schedule pressure leads to more time between appointments. Return \
+		Visit Interval never drops below 90% of the target, regardless of schedule \
+		pressure, but can increase to  3x the target, when there are  2x as many \
+		clinical hours needed as available.
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 50
+	~	Week
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Week
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Week [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.03125
+	~	Week [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Appointments
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,Appointments,418,305,57,23,3,131,0,0,0,0,0,0
+12,2,48,206,303,10,8,0,3,0,0,-1,0,0,0
+1,3,5,1,4,0,0,22,0,0,0,-1--1--1,,1|(322,303)|
+1,4,5,2,100,0,0,22,0,0,0,-1--1--1,,1|(243,303)|
+11,5,48,277,303,6,8,34,3,0,0,1,0,0,0
+10,6,Booking Appts,277,322,48,11,40,3,0,0,-1,0,0,0
+12,7,48,632,303,10,8,0,3,0,0,-1,0,0,0
+1,8,10,7,4,0,0,22,0,0,0,-1--1--1,,1|(590,303)|
+1,9,10,1,100,0,0,22,0,0,0,-1--1--1,,1|(511,303)|
+11,10,48,553,303,6,8,34,3,0,0,1,0,0,0
+10,11,Completing Appts,553,330,57,11,40,3,0,0,-1,0,0,0
+10,12,"Current Pt Appts / week",136,438,59,19,8,3,0,0,0,0,0,0
+1,13,12,6,1,0,43,13,2,192,0,-1--1--1,|12||0-0-0,1|(155,385)|
+10,14,Scheduled Return Visit Interval,164,539,57,19,8,3,0,0,0,0,0,0
+1,15,14,12,1,0,45,13,2,192,0,-1--1--1,|12||0-0-0,1|(132,493)|
+10,16,Patients in Service,115,592,37,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,12,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(98,515)|
+10,18,Patients per Appointment,95,356,42,19,8,3,0,0,0,0,0,0
+1,19,18,12,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(112,382)|
+10,20,Total Official Team Clinical Hours,977,643,61,19,8,131,0,0,0,0,0,0
+10,21,Potential Completion Rate,667,404,54,19,8,3,0,0,0,0,0,0
+1,22,21,11,1,0,43,13,2,192,0,-1--1--1,|12||0-0-0,1|(638,365)|
+10,23,Effect of Work Pressure on RVI,269,607,51,24,3,131,0,0,0,0,0,0
+1,24,23,14,1,0,43,13,2,192,0,-1--1--1,|12||0-0-0,1|(188,575)|
+10,25,Standard Return Visit Interval,335,515,60,19,8,3,0,0,0,0,0,0
+1,26,25,14,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(262,555)|
+10,27,Table for Effect of Work Pressure on RVI,269,698,74,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||0-128-0
+1,28,27,23,0,0,0,0,0,128,0,-1--1--1,,1|(269,662)|
+10,29,Work Pressure,407,572,35,17,8,131,0,0,0,0,0,0
+1,30,29,23,1,0,43,13,2,192,0,-1--1--1,|12||0-0-0,1|(363,600)|
+10,31,Desired Completion Rate,479,398,54,19,8,3,0,0,0,0,0,0
+1,32,1,31,1,0,43,13,2,192,0,-1--1--1,|12||0-0-0,1|(456,339)|
+1,33,25,31,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(366,443)|
+10,34,Desired Clinical Hours,448,488,47,19,8,131,0,0,0,0,0,0
+1,35,31,34,1,0,43,13,2,192,0,-1--1--1,|12||0-0-0,1|(491,435)|
+1,36,34,29,1,0,43,13,2,64,0,-1--1--1,|12||0-0-0,1|(456,511)|
+10,38,Minimum RVI,581,193,45,11,8,3,0,0,0,0,0,0
+10,39,Maximum Completion Rate,520,242,54,19,8,3,0,0,0,0,0,0
+1,40,38,39,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(558,220)|
+1,41,1,39,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(448,256)|
+1,42,39,10,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(554,276)|
+10,43,Extend RVI Switch,145,664,51,19,8,3,0,2,-1,0,0,0,-1--1--1,0-0-0,|12||255-0-255
+1,44,43,23,0,0,0,0,0,64,0,-1--1--1,,1|(195,640)|
+10,45,Time per Appointment,560,456,42,19,8,3,0,0,0,0,0,0
+1,46,45,21,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(575,405)|
+1,47,45,34,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(516,497)|
+10,48,"% of Hours per Service",1044,717,50,19,8,131,0,0,0,0,0,0
+10,50,Change in Actual Hours Available for Appointments,791,749,70,25,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-255
+10,51,Actual Hours Available for Service,698,577,67,19,8,131,0,0,0,0,0,0
+1,52,51,29,1,0,45,13,2,64,0,-1--1--1,|12||0-0-0,1|(575,541)|
+1,53,51,21,1,0,43,13,2,192,0,-1--1--1,|12||0-0-0,1|(721,504)|
+12,54,0,439,61,59,19,8,7,0,2,-1,0,0,0,-1--1--1,0-0-0,|12||255-0-255
+Pink = Experiment levers
+12,55,0,581,64,59,19,8,7,0,2,-1,0,0,0,-1--1--1,0-0-0,|12||0-128-0
+Green = must be validated with user
+12,56,0,736,63,75,19,8,7,0,2,-1,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+Red = exogenous variable from team data
+10,57,Effect of Work Pressure on Overtime,569,691,53,23,3,131,0,0,0,0,0,0
+1,58,29,57,1,0,43,13,2,192,0,-1--1--1,|12||0-0-0,1|(451,649)|
+10,59,Overtime Switch,488,757,53,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-255
+1,60,59,57,0,0,0,0,0,128,0,-1--1--1,,1|(515,734)|
+10,61,Table for Effect of Work Pressure on Overtime,631,759,79,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||0-128-0
+1,62,61,57,0,0,0,0,0,128,0,-1--1--1,,1|(606,732)|
+1,63,57,51,1,0,43,13,2,64,0,-1--1--1,|12||0-0-0,1|(677,645)|
+12,64,0,543,595,15,15,5,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+B
+12,65,0,543,625,62,15,8,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+Overtime releaves work pressure quickly
+12,66,0,283,393,15,15,4,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+B
+12,67,0,280,433,54,22,8,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+Extend Return Visit Interval = Cutting Corners
+12,68,0,283,393,15,15,4,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+B
+12,69,0,280,433,54,22,8,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+Extend Return Visit Interval = Cutting Corners
+10,70,Time to Change Staff Hours,424,714,51,19,8,3,0,2,-1,0,0,0,-1--1--1,0-0-0,|0||0-128-0
+1,71,70,57,0,0,45,0,2,64,0,-1--1--1,|12||0-0-0,1|(488,703)|
+10,72,Appointments to Reschedule,571,131,48,23,3,131,0,0,0,0,0,0
+1,73,75,1,4,0,0,22,0,0,0,-1--1--1,,1|(417,236)|
+1,74,75,72,100,0,0,22,0,0,0,-1--1--1,,1|(417,131)|
+11,75,316,417,183,6,8,34,3,0,0,2,0,0,0
+10,76,Rescheduling Appointments,366,183,45,19,40,3,0,0,-1,0,0,0
+10,77,Time to Reschedule,259,183,37,19,8,3,0,0,0,0,0,0
+1,78,77,76,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(301,148)|
+1,79,72,75,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(476,171)|
+12,80,48,753,132,10,8,0,3,0,0,-1,0,0,0
+1,81,83,72,4,0,0,22,0,0,0,-1--1--1,,1|(650,130)|
+1,82,83,80,100,0,0,22,0,0,0,-1--1--1,,1|(718,130)|
+11,83,48,688,130,6,8,34,3,0,0,1,0,0,0
+10,84,True Missed Appointment Rate,688,157,58,19,40,3,0,0,-1,0,0,0
+1,85,10,84,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(659,236)|
+10,86,Baseline True Missed Opportunities Percentage,782,227,81,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+1,87,86,84,0,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(740,196)|
+1,88,25,1,0,0,0,0,0,64,1,-1--1--1,,1|(372,418)|
+1,89,77,72,0,0,0,0,0,64,1,-1--1--1,,1|(402,159)|
+12,90,0,1002,142,117,117,6,135,0,0,-1,0,0,0
+Does clinician fatigue increase MOs? -- either as quality declines, patients get less out of each appointment, so they increase their likilood of missing an appointment? Or, clinicians are more stressed, and thus more likely to miscommunicate with MSAs or not plan for schedule conflicts
+10,91,Official Hours Available for Service,781,643,67,19,8,3,0,0,0,0,0,0
+10,95,Fatigue Onset Time,800,538,45,19,8,3,0,0,0,0,0,0
+10,96,Recent Actual Team Hours,907,556,40,24,3,131,0,0,0,0,0,0
+1,97,95,96,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(829,566)|
+1,98,51,96,1,0,43,13,2,192,0,-1--1--1,|0||-1--1--1,1|(811,607)|
+1,99,20,96,1,0,0,0,0,128,0,-1--1--1,,1|(976,581)|
+10,100,Effect of Fatigue on Appointment Completion Rate,814,371,67,29,8,131,0,0,0,0,0,0
+10,101,Table for Effect of Fatigue on Appointment Completion,978,314,60,37,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|12||0-128-0
+1,102,96,130,1,0,43,13,2,128,0,-1--1--1,|12||0-0-0,1|(947,507)|
+1,103,100,21,1,0,45,13,2,192,0,-1--1--1,|12||0-0-0,1|(725,358)|
+1,104,101,100,1,0,0,0,0,128,0,-1--1--1,,1|(896,321)|
+12,105,0,798,478,15,15,5,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+R
+12,106,0,800,455,22,9,8,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+Fatigue
+10,107,Fatigue Switch,809,291,47,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-255
+1,108,107,100,1,0,0,0,0,128,0,-1--1--1,,1|(808,315)|
+1,109,20,130,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(1002,509)|
+1,110,51,1,0,0,0,0,0,64,1,-1--1--1,,1|(565,447)|
+1,111,45,1,0,0,0,0,0,64,1,-1--1--1,,1|(495,387)|
+1,112,86,1,0,0,0,0,0,64,1,-1--1--1,,1|(594,266)|
+10,113,Change Missed Opportunities Percentage,844,156,50,28,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|0||255-0-255
+1,114,113,84,0,0,0,0,0,128,0,-1--1--1,,1|(777,156)|
+12,115,0,635,483,15,15,5,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+B
+12,116,0,637,512,60,15,8,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+Overtime releaves work pressure slowly
+1,117,91,51,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(740,621)|
+1,118,50,91,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(804,690)|
+10,120,Baseline Hours Available for Appointments,927,746,48,28,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|0||255-0-0
+1,122,120,91,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(874,704)|
+1,124,91,20,0,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(875,643)|
+1,126,20,48,0,0,45,0,2,192,0,-1--1--1,|0||-1--1--1,1|(1005,674)|
+1,127,91,48,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(918,686)|
+10,128,Time to Change Scheduled RVI,394,670,51,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|0||0-128-0
+1,129,128,23,0,0,45,0,2,192,0,-1--1--1,|0||-1--1--1,1|(342,644)|
+10,130,Difference between Total Official Hours and Actual Hours,934,454,81,28,8,3,0,0,0,0,0,0
+1,131,130,100,1,0,43,14,2,192,0,-1--1--1,|0||-1--1--1,1|(928,397)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Patients
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,110,0
+10,1,Patients in Service,449,408,40,20,3,3,0,0,0,0,0,0
+12,2,48,236,404,10,8,0,3,0,0,-1,0,0,0
+1,3,5,1,4,0,0,22,0,0,0,-1--1--1,,1|(365,405)|
+1,4,5,2,100,0,0,22,0,0,0,-1--1--1,,1|(278,405)|
+11,5,48,316,405,6,8,34,3,0,0,1,0,0,0
+10,6,Starting Service,316,424,50,11,40,3,0,0,-1,0,0,0
+12,7,48,637,404,10,8,0,3,0,0,-1,0,0,0
+1,8,10,7,4,0,0,22,0,0,0,-1--1--1,,1|(602,401)|
+1,9,10,1,100,0,0,22,0,0,0,-1--1--1,,1|(527,401)|
+11,10,48,572,401,6,8,34,3,0,0,1,0,0,0
+10,11,Service Quit Rate,572,420,56,11,40,3,0,0,-1,0,0,0
+1,12,1,10,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(516,377)|
+10,13,Avg Time in Service,606,488,39,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+1,14,13,11,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(558,446)|
+10,15,Endogenous New Patients Referred to Team,431,491,83,19,8,3,0,0,0,0,0,0
+10,16,"Endogenous % of New Patients Starting Service",441,694,77,19,8,3,0,0,0,0,0,0
+10,17,Effect of Care Delay on Starts,230,190,49,19,8,3,0,0,0,0,0,0
+10,18,Standard Return Visit Interval,263,86,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,19,18,17,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(219,136)|
+10,20,Sensitivity of Starts to Delays,121,124,61,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||64-160-98
+1,21,20,17,0,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(169,153)|
+1,22,17,33,1,0,43,14,2,192,0,-1--1--1,|12||0-0-0,1|(198,237)|
+10,23,Care Delays Switch,91,189,40,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-255
+1,24,23,17,0,0,0,0,0,128,0,-1--1--1,,1|(149,189)|
+12,25,0,317,234,15,15,4,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|10||0-0-0
+B
+12,26,0,318,262,37,12,8,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|8||0-0-0
+Care Delays = Market Response
+10,27,Actual Return Visit Interval,377,126,60,19,8,131,0,0,0,0,0,0
+1,28,27,17,1,0,43,14,2,192,0,-1--1--1,|12||0-0-0,1|(301,124)|
+10,29,Appointments,512,154,53,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,30,29,27,1,0,43,14,2,64,0,-1--1--1,|12||0-0-0,1|(468,123)|
+10,31,Completing Appts,449,58,42,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,32,31,27,1,0,45,0,2,64,0,-1--1--1,|12||0-0-0,1|(401,75)|
+10,33,Percieved Care Delays,226,311,40,20,3,3,0,0,0,0,0,0
+10,34,Time to Percieve Delays,134,251,47,22,8,131,0,0,0,0,0,0
+1,35,34,33,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(167,291)|
+10,36,Patients Waiting to Resume Care,448,236,53,25,3,131,0,0,0,0,0,0
+12,37,48,642,227,10,8,0,3,0,0,-1,0,0,0
+1,38,40,36,4,0,0,22,0,0,0,-1--1--1,,1|(528,225)|
+1,39,40,37,100,0,0,22,0,0,0,-1--1--1,,1|(600,225)|
+11,40,48,562,225,6,8,34,3,0,0,1,0,0,0
+10,41,"Triaging \"Finished\" Patients",562,258,38,25,40,131,0,0,-1,0,0,0
+10,42,"% of Patients who Resume Care",704,260,58,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+12,43,0,909,208,113,113,6,135,0,0,-1,0,0,0
+Does clinician fatigue reduce patients' duration in a service? -- as the more fatigued the clinicians become, the less benefit patients get from each appointment, increasing the likelihood that they end care earlier?
+1,44,46,1,4,0,0,22,0,0,0,-1--1--1,,1|(446,354)|
+1,45,46,36,100,0,0,22,0,0,0,-1--1--1,,1|(446,284)|
+11,46,0,446,314,8,6,33,3,0,0,2,0,0,0
+10,47,Resuming Care,400,314,38,17,40,131,0,0,-1,0,0,0
+10,48,Time to Resume Care,529,340,46,19,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|12||0-128-0
+1,49,48,46,0,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(475,323)|
+1,50,36,47,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(409,274)|
+1,51,11,41,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(601,314)|
+1,52,42,41,0,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(629,259)|
+10,53,Resume Care Switch,709,189,44,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-255
+1,54,53,40,0,0,0,0,0,128,0,-1--1--1,,1|(622,209)|
+1,55,13,15,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(534,474)|
+1,56,1,15,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(462,441)|
+10,57,Patients per Appointment,976,481,46,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,58,Standard Return Visit Interval,976,423,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,59,Actual Hours Available for Service,449,447,71,19,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
+10,60,Effect of Fatigue on Appointment Completion Rate,449,447,80,28,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
+10,61,Time per Appointment,449,447,46,19,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
+10,62,"% of Hours per Service",779,687,57,21,8,130,0,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
+10,63,Time per Appointment,976,550,46,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
+10,64,Total Official Team Clinical Hours,988,626,50,22,8,130,0,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
+10,65,Productivity,845,551,38,11,8,3,0,0,0,0,0,0
+10,66,Demand per Patient per Week,831,483,64,19,8,3,0,0,0,0,0,0
+10,67,Service Capacity,845,627,54,11,8,3,0,0,0,0,0,0
+1,68,63,65,0,0,45,0,2,192,0,-1--1--1,|0||-1--1--1,1|(913,550)|
+1,69,64,67,0,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(925,626)|
+1,70,62,67,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(849,646)|
+1,71,58,66,1,0,45,0,2,192,0,-1--1--1,|0||-1--1--1,1|(914,457)|
+1,72,57,66,0,0,45,0,2,192,0,-1--1--1,|0||-1--1--1,1|(919,481)|
+10,73,Initial Completion Rate,719,579,56,19,8,3,0,0,0,0,0,0
+1,74,65,73,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(805,575)|
+1,75,67,73,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(809,600)|
+10,76,Initial Patients,721,512,41,18,8,131,0,0,0,0,0,0
+10,77,Total Initial Patients,721,432,36,19,8,3,0,0,0,0,0,0
+1,78,76,77,0,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(721,479)|
+1,79,76,1,0,0,0,0,0,64,1,-1--1--1,,1|(591,462)|
+10,80,Endogenous Total New Patients Referred to Team,589,629,83,19,8,3,0,0,0,0,0,0
+1,81,15,80,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(503,521)|
+1,82,15,16,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(486,623)|
+1,83,80,16,1,0,45,0,2,192,0,-1--1--1,|0||-1--1--1,1|(553,677)|
+1,84,33,5,1,0,45,14,2,192,0,-1--1--1,|0||-1--1--1,1|(257,364)|
+10,85,Baseline True Missed Opportunities Percentage,931,687,85,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
+1,86,85,67,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(887,648)|
+1,87,66,76,0,0,0,0,0,128,1,-1--1--1,,1|(770,497)|
+1,88,73,76,0,0,0,0,0,128,1,-1--1--1,,1|(719,551)|
+10,89,Endogenous Patient Start Rate,245,485,63,19,8,3,0,0,0,0,0,0
+10,90,Exogenous Patient Start Rate,137,443,59,19,8,3,0,0,0,0,0,0
+1,91,89,6,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(278,434)|
+10,92,Team Data on Patient Starts,134,556,49,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|0||255-0-0
+10,93,"Difference between Actual and Supply-based Patient Starts",352,604,89,26,8,131,0,0,0,0,0,0
+1,94,90,6,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(214,431)|
+10,95,Patient Starts Switch,183,366,43,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|0||255-0-255
+1,96,95,5,0,0,0,0,2,192,0,-1--1--1,|0||-1--1--1,1|(261,388)|
+10,97,Change to Patient Start Rate,71,387,57,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|0||255-0-255
+1,98,97,90,0,0,0,0,0,128,0,-1--1--1,,1|(98,410)|
+1,99,15,89,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(328,526)|
+10,100,Team Data on Total New Patient Starts,84,643,64,19,8,3,0,0,0,0,0,0
+1,101,92,100,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(96,588)|
+10,102,"Team Data on % of New Patients Starting Service",273,694,81,19,8,3,0,0,0,0,0,0
+1,103,100,102,1,0,45,0,2,192,0,-1--1--1,|0||-1--1--1,1|(154,681)|
+1,104,92,102,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(203,642)|
+1,105,92,93,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(217,564)|
+1,106,92,90,1,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(81,510)|
+1,107,89,93,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(260,541)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Clinicians
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,110,0
+12,1,0,492,271,78,78,6,135,0,0,-1,0,0,0
+To add? Fatigue increases burnout, which increases quit rate
+12,2,0,492,425,99,99,6,135,0,0,-1,0,0,0
+To add? Quit rate effects new hire rate, which effects average experience, which effects appointment "quality," which effects service attractiveness, which effects duration in service
+///---\\\
+:GRAPH Return_Visit_Interval
+:TITLE Return Visit Interval
+:SCALE
+:VAR Standard Return Visit Interval
+:VAR Scheduled Return Visit Interval
+:VAR Actual Return Visit Interval
+:L<%^E!@
+1:Sept12-test_wMOs+DropHrs+CareDelays.vdf
+9:Sept12-test_wMOs+DropHrs+CareDelays
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+4:Time
+5:Change Missed Opportunities Percentage[service]
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:3
+41:0
+42:1
+24:1
+25:50
+26:50
+6:Adjunctive
+6:CC
+6:EBPsych
+6:MM
+6:Psych
