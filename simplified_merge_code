@@ -1,0 +1,22 @@
+#clear memory
+rm(list=ls())
+
+setwd('//Vhapalmpncptsd1/Shared Research/CPT_PSD Collaboration/Data Resources/Data for Analyses/Joyce')
+
+file="comparatorsites_nov23_16.csv"
+data=read.csv(file,header=TRUE)
+
+comparator.df <- read.csv("comparatorsites_nov23_16.csv")
+
+file2="dropout.csv"
+data2=read.csv(file,header=TRUE)
+
+dropout2.df <- data2
+
+#using merge commands
+newdata.df = merge(comparator.df,dropout2.df, by.y='sta6a')
+
+head(newdata.df)
+dim(newdata.df)
+save(newdata.df,file="mergeddata.rda")
+write.csv(newdata.df,'mergeddata.csv')
