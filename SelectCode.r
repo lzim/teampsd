@@ -5,19 +5,37 @@ rm(list=ls())
 ##install.packages("devtools")
 ##install.packages("Rcpp")
 
-setwd('//vhapalmpncptsd1/Shared Research/TeamPSD/Model Code/ICC')
+#setwd('//vhapalmpncptsd1/Shared Research/TeamPSD/Model Code/ICC')
+
+setwd('//Vhapalmpncptsd1/Shared Research/CPT_PSD Collaboration/Data Resources/Data for Analyses/Joyce')
 
 getwd()
 
-file="comparatorsites_nov23_16.csv"
+#to be able to read spss files
+library(foreign)
+library(tidyverse)
+install.packages("dplyr")
+library(diplyr)
 
+dataset = read.spss("CPTDATA_DROPOUTFACTORS_6-26-17_IndividualOnly_NoResidential.sav", to.data.frame = TRUE)
+
+file="comparatorsites_nov23_16.csv"
 data=read.csv(file,header=TRUE)
 
-#comparator.df <- read.csv("comparatorsites_nov23_16.csv",  
-                        header = TRUE) 
+comparator.df <- read.csv("comparatorsites_nov23_16.csv")  
+dropout.df <- read.spss("CPTDATA_DROPOUTFACTORS_6-26-17_IndividualOnly_NoResidential.sav", to.data.frame = TRUE)                      
+
+#checks
 head(comparator.df) 
 dim(comparator.df) 
 str(comparator.df) 
+head(data)
+head(dataset)
+dim(data)
+dim(dataset)
+head(dropout.df)
+dim(dropout.df)
+
 
 comparator.df <- within(comparator.df, {
   level <- factor(level, 0:1, c("sta3n","sta6a"))
@@ -64,8 +82,34 @@ comparator.df <- within(comparator.df, {
   aud_ebpharm_numer <- as.numeric(AUD_RX)
 })
 
+
+dropout.df <- within(dropout.df, {
+  sta6a <- factor(STA6A, 0:4471)})
+
+dropout.df <- within(dropout.df, {
+  pt_last <- as.numeric(PT_LAST)
+  setting_other <- as.numeric(SETTING_OTHER)
+  multiple_era_specified <- as.numeric(MULTIPLE_ERA_SPECIFIED)
+  other_era <- as.numeric(OTHER_ERA)
+  other_military <- as.numeric(OTHER_MILITARY)
+  other_trauma <- as.numeric(OTHER_TRAUMA)
+  diagnosis_specify <- as.numeric(DIAGNOSIS_SPECIFY)
+  other_race <- as.numeric(OTHER_RACE)
+  multiple_races_specified <- as.numeric(MULTIPLE_RACES_SPECIFIED)
+  dropout_reason <- as.numeric(DROPOUT_REASON)
+  discipline <- as.numeric(Discipline)
+  sta_name <- as.numeric(STA_NAME)
+  va_work_setting <- as.numeric(VA_Work_Setting)
+  workshop_type <- as.numeric(Workshop_Type)
+  consultation_status <- as.numeric(Consultation_Status)
+  })
+
+dropout.df <- within(dropout.df, {
+  sta6a <- as.numeric(STA6A)})
+
 # lowercase names
 names(comparator.df) <- tolower(names(comparator.df))
+names(dropout.df) <- tolower(names(dropout.df))
 
 # describe data
 summary(comparator.df)
@@ -74,13 +118,14 @@ summary(comparator.df)
 attach(comparator.df)
 
 ##to check rows or columns
+
 nrow(comparator.df)
 ncol(comparator.df)
 
 #to examine names within the data
 names(comparator.df)
 
-#to show first 3 rows of data or any varialbe
+#to show first 3 rows of data or any variable
 head(comparator.df)
 head(divisionname)
 
@@ -112,6 +157,14 @@ subset(comparator.df, stopcode=PTSD)
 subset(comparator.df, stopcode=SUD)
 
 
+
+
 #if we want to clarify NULL code
 ##data[data==NULL] <-NA 
 ##data <- na.omit(data)
+
+
+#another attempt using dropout as a .csv file
+
+file2="dropout.csv"
+data2=read.csv(file,header=TRUE)
