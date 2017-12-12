@@ -1,0 +1,17 @@
+## Project: CPT Collaboration
+## Purpose: Merge CDW administrative data and CPT dropout data
+## Author: Joyce Yang
+## Date: 2017/12/12
+## Notes: 
+########################################################################################
+
+library (tidyverse)
+## unable to load tidyverse
+
+data1 <- data.frame(A= rep(c("Tim", "Susan", "Bob"), each= 3), B= rep(c(1:3), each =3))
+data2 <- data.frame(A= c("Tim","Bob","C", "D","D"), C= c(2:6))
+          
+## Attempt to try Demo 1: combine two columns together --> unsuccessful because %>% magrittr operator does not work without magrittr package
+## which cannot be installed! https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html 
+## https://www.r-statistics.com/2014/08/simpler-r-coding-with-pipes-the-present-and-future-of-the-magrittr-package/
+data1a <- data1 %>%  mutate(A = as.character(A),     C = paste0(A, B)) 
