@@ -6,7 +6,11 @@
 ########################################################################################
 
 library (tidyverse)
-## unable to load tidyverse
+## other libraries required
+
+library (magrittr)
+library (rlang)
+library (reshape2)
 
 data1 <- data.frame(A= rep(c("Tim", "Susan", "Bob"), each= 3), B= rep(c(1:3), each =3))
 data2 <- data.frame(A= c("Tim","Bob","C", "D","D"), C= c(2:6))
@@ -15,3 +19,8 @@ data2 <- data.frame(A= c("Tim","Bob","C", "D","D"), C= c(2:6))
 ## which cannot be installed! https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html 
 ## https://www.r-statistics.com/2014/08/simpler-r-coding-with-pipes-the-present-and-future-of-the-magrittr-package/
 data1a <- data1 %>%  mutate(A = as.character(A),     C = paste0(A, B)) 
+
+## to concatenate columns together: 
+data1a <- data1 %>%
+  +   mutate(A= as.character(A),
+             +          C = paste0(A,B))
