@@ -29,11 +29,9 @@ visit <- visit %>%
   group_by(patientsid) %>%
   mutate(visitdate = as.Date(visitdatetime)) %>%
   arrange(patientsid,visitdatetime) %>%
-  mutate(visitcount = 1:n()) %>%
-  dplyr::mutate(
-    first = dplyr::first(visitdate),
-    last = dplyr::last(visitdate)
-  ) %>%
+  mutate(visitcount = 1:n(),
+         visittotal = n(),
+    first = first(visitdate)) %>%
   mutate(ThreeMonDate = AddMonths(first, 3),
          three_months = 1*(visitdate <= ThreeMonDate) + # 1 within 3 months, 
                         2*(visitdate >ThreeMonDate) # 2 after 3 months
@@ -117,7 +115,37 @@ visit_nodes <- data.frame(ID = unique(c(visit_edges$N1, visit_edges$N2)),x =1,
          col = replace(col, ID == "Back After Three Months", "red"),
          col = replace(col, ID == "Done Forever", "green")) 
   
-  
+# N Visit by Transitional Group  
+visit_slots <- visit_sum %>%
+  mutate(Flow_group = "One and Done",
+         Flow_group = replace(Flow_group,is.na(within3months2_7) & 
+                                is.na(within3months7pls) & terminal == "Back After Three Months",
+                              "One and Back"),
+         Flow_group = replace(Flow_group, within3months2_7=="2-7 Within Three Months" & 
+                                is.na(within3months7pls) & terminal == "Back After Three Months",
+                              "2-7 and Back"),
+         Flow_group = replace(Flow_group, within3months2_7=="2-7 Within Three Months" & 
+                                is.na(within3months7pls) & terminal == "Done Forever",
+                              "2-7 and Done"),
+         Flow_group = replace(Flow_group, within3months7pls =="8+ Within Three Months" & 
+                                terminal == "Back After Three Months",
+                              "8+ and Back"),
+         Flow_group = replace(Flow_group,within3months7pls =="8+ Within Three Months" & 
+                                terminal == "Done Forever",
+                              "8+ and Done") ,
+         Flow_group = factor(Flow_group, levels = c("One and Done","2-7 and Done","8+ and Done",
+                                                     "One and Back", "2-7 and Back", "8+ and Back"))
+         ) %>%
+  mutate(total_visit = rowSums(.[c("Back After Three Months","WithinThreeMonths")], na.rm= TRUE)) %>%
+  group_by(Flow_group) %>%
+  summarise( Npatients = n(), median_visit = round(median(total_visit),1), 
+             mean_visit = round(mean(total_visit),1) ) %>%
+  arrange(Flow_group) %>%
+  mutate( w = cumsum(Npatients),
+          wm = w - Npatients,
+          wt = wm + (w - wm)/2,
+          slots_med = Npatients * median_visit,
+          slots_mn = Npatients * mean_visit)
   
 
 
@@ -171,3 +199,22 @@ plot(visit_graph3, main = "Sample Sanekey", plot_area = 0.95)
 
 dev.off()
 
+# Patients Slots
+
+ggplot(visit_slots, aes(ymin = 0)) +
+  geom_rect(aes(xmin= w, xmax= wm, ymax = median_visit, fill = Flow_group)) +
+  geom_text(aes(x = wt, y = 3.5, label = paste0(slots_med, " slots"))) +
+  labs(x = "N Patients", y = "Number of Visits (Median)", fill ="Flow Group") +
+  coord_flip() +
+  scale_x_reverse() +
+  ggtitle("Median Number of Appointment Slots by Patient's Alluvian Flow Group") +
+  ggsave("Appointment-Slots-median.jpeg")
+
+ggplot(visit_slots, aes(ymin = 0)) +
+  geom_rect(aes(xmin= w, xmax= wm, ymax = mean_visit, fill = Flow_group)) +
+  geom_text(aes(x = wt, y = 3.5, label = paste0(slots_mn, " slots"))) +
+  labs(x = "", y = "Number of Visits (Mean)", fill ="Flow Group") +
+  coord_flip() +
+  scale_x_reverse() +
+  ggtitle("Mean Number of Appointment Slots by Patient's Alluvian Flow Group") +
+  ggsave("Appointment-Slots-mean.jpeg")
