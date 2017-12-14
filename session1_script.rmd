@@ -62,6 +62,9 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 * Can we address them all (bearing in mind our resources and time)?
 * If not, which would we most like to address (align around), and why?
 
+/*Learning Objectives icon*/
+<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
+         height = "130" width = "500">    
 ## Putting it Together - Overall “Modeling to Learn” Objectives (10 minutes)  
 1.	Meaningful for you that aligns your learning goals with your team
 2.	Systems thinking skills help to see how several things fit together, and understand causes hard to see without data and modeling resources.
