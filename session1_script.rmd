@@ -10,8 +10,7 @@ slidy_presentation: default
 pdf_document: default
 ---
 
-# Modeling to Learn Session 1  
-## Shared Interim Vision (TOTAL time 20 minutes)
+# Modeling to Learn Session 1: Shared Interim Vision (TOTAL time 20 minutes)
 
 We all learn best when we seek to accomplish things that matter to us. Today we want to clarify what we are trying to accomplish together with “Modeling to Learn.” We want this learning process to be something you can commit to because it reflects a key part your own vision for care in this team.  
 
@@ -27,8 +26,7 @@ With a shared vision everyone has a common destination and a common picture. The
 
 Team lead and a facilitation team to figure our “What’s better?” in a way that reflects common team aspirations.  
 
-## We want to set ground rules for our learning sessions too:  
-## Prior Team Learning Prompt (5 minutes)  
+## Prior Team Learning Prompt (5 minutes) - We want to set ground rules for our learning sessions too:  
 
 Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when your learned a clinic procedure, and idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an ‘aha!’ or something finally made sense, or you could finally do something your couldn’t before.  
 
@@ -46,9 +44,7 @@ Jot down on scratch paper what it was that made it a good learning experience. W
 * The experience helped the learner understand him or herself
 * The learner had success and accomplishment with challenging work
 
-## Best Case Scenario
-### Create team language for learning, aligning team decisions when there are roadblocks to consensus.  
-
+## Best Case Scenario - Create team language for learning, aligning team decisions when there are roadblocks to consensus:
 Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings, think about the key people you rely on outside the team, the information and data you use to coordinate care plans, and the feelings you associate with it.  
 
 Now picture the team learning between now and March in a ‘best case’ scenario, where things are happening in the team the way that you would ideally like them to be. This is your “dream team” situation.  
@@ -66,7 +62,7 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 * Can we address them all (bearing in mind our resources and time)?
 * If not, which would we most like to address (align around), and why?
 
-## Putting it Together - Overall “Modeling to Learn” objectives (10 minutes)  
+## Putting it Together - Overall “Modeling to Learn” Objectives (10 minutes)  
 1.	Meaningful for you that aligns your learning goals with your team
 2.	Systems thinking skills help to see how several things fit together, and understand causes hard to see without data and modeling resources.
 3.	Transparent to you how this fits with VA data, initiatives and standards 
@@ -83,8 +79,8 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 * Data selected for simulation 
 
 
-Team Data Sharepoint
+### Team Data Sharepoint
 https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
 
-Adobe Connect
+### Adobe Connect
 https://va-eerc-ees.adobeconnect.com/team_psd/
