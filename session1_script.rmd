@@ -62,28 +62,41 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 * Can we address them all (bearing in mind our resources and time)?
 * If not, which would we most like to address (align around), and why?
 
-/*Learning Objectives icon*/
-<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
-         height = "130" width = "500">    
+<!--Learning Objectives icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
+     height = "150" width = "150">   
 ## Putting it Together - Overall “Modeling to Learn” Objectives (10 minutes)  
 1.	Meaningful for you that aligns your learning goals with your team
 2.	Systems thinking skills help to see how several things fit together, and understand causes hard to see without data and modeling resources.
 3.	Transparent to you how this fits with VA data, initiatives and standards 
 4.	Empowers you to realize ongoing improvements in team quality of care and team quality of work life
 
+<!--Done List icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "135" width = "135">
 ### Done   
 * Team lead 
 * Team folder 
 * Team meeting - schedule, links, course outline
 
+<!--Do List icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "150" width = "150">	
 ### Do  
 * Team learning goal 
 * Clinical case
 * Data selected for simulation 
 
 
+<!--SharePoint icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
+     height = "75" width = "75" style = "border: 0;">
 ### Team Data Sharepoint
 https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
 
+
+<!--Adobe Connect icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png"
+     height = "75" width = "75" style = "border: 0;">
 ### Adobe Connect
 https://va-eerc-ees.adobeconnect.com/team_psd/
