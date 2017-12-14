@@ -11,7 +11,7 @@ pdf_document: default
 ---
 
 # Modeling to Learn Session 1  
-# Shared Interim Vision (TOTAL time 20 minutes)
+Shared Interim Vision (TOTAL time 20 minutes)
 
 We all learn best when we seek to accomplish things that matter to us. Today we want to clarify what we are trying to accomplish together with “Modeling to Learn.” We want this learning process to be something you can commit to because it reflects a key part your own vision for care in this team.  
 
