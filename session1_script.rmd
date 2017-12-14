@@ -71,15 +71,21 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 3.	Transparent to you how this fits with VA data, initiatives and standards 
 4.	Empowers you to realize ongoing improvements in team quality of care and team quality of work life
 
-<!--Done and Do List Icons-->
+<!--Done List Icon-->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
-     height = "135" width = "135"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "135" width = "135">  
+### Done List
+* Team lead
+* Team folder
+* Team meeting - schedule, links, course outline
+     
+<!--Do List Icon-->     
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
      height = "150" width = "150">
----|---
-Team lead | Team learning goal 
-Team folder | Clinical case
-Team meeting - schedule, links, course outline | Data selected for simulation 
-
+### Do List
+* Team learning goal
+* Clinical case
+* Data selected for simulation
 
 
 <!--SharePoint icon-->
