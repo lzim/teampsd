@@ -76,13 +76,10 @@ Now picture the team learning between now and March in a ‘best case’ scenari
      height = "135" width = "135"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
      height = "150" width = "150">
 ---|---
-* Team lead 
-* Team folder 
-* Team meeting - schedule, links, course outline | 
+Team lead | Team learning goal 
+Team folder | Clinical case
+Team meeting - schedule, links, course outline | Data selected for simulation 
 
-* Team learning goal 
-* Clinical case
-* Data selected for simulation 
 
 
 <!--SharePoint icon-->
