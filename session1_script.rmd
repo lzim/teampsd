@@ -73,9 +73,8 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 
 <!--Done and Do List Icons-->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
-     height = "135" width = "135"> ### Done |  
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
-     height = "150" width = "150"> ### Do
+     height = "135" width = "135"> Done | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "150" width = "150"> Do
 ---|---
 * Team lead 
 * Team folder 
