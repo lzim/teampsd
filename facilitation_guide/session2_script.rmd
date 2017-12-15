@@ -1,0 +1,77 @@
+---
+title: "Session 2 Script"
+author: "Stacey Park"
+date: "December 14, 2017"
+output: 
+  github_document: default
+html_document: default
+ioslides_presentation: default
+slidy_presentation: default
+pdf_document: default
+---
+
+<!--MTL Logo -->
+<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
+     height = "130" width = "500">  
+# Modeling to Learn Session 2
+# Case and Data Selection (TOTAL time 25 minutes)
+
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
+     height = "150" width = "150">   
+## Modeling to Learn objectives include activities and competencies that…
+1.	…are meaningful for you and align your learning goals with your team.
+2.	…develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.
+3.	…make VA data, initiatives and standards transparent to you. 
+4.	…empower you to realize ongoing improvements in team quality of care and team quality of work life.
+
+<!-- Done List Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "135" width = "135">
+### Done 
+* Team Lead
+* Team Data Sharepoint
+* Team Meeting 
+
+<!-- Do List Icon -->     
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "150" width = "150">
+### Do
+* Team Learning Goal (10 minutes) 
+* Clinical Case (5 minutes) 
+* Data Selected for Simulation (10 minutes)
+
+## We want to set ground rules for our learning sessions by aligning our individual learning goals with the team.
+Let’s review the times team learning led to an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.  What were the characteristics of the experience?  
+
+## Team Best Case Scenario – We want to create team language for learning, aligning team decisions when there are roadblocks to consensus. Together we will identify:  
+“What would be better?” in a way that reflects common team aspirations.
+
+Identifying a shared purpose can be deeply motivating, it requires mutual respect to find common ground and it is something to be created over time together, not just one time. Team learning is all about ‘alignment’ and getting people working in synch with one another to meet the needs of our Veteran patients.
+
+Let’s review the team ideals for team learning between now and March in a ‘best case’ scenario, where things are happening in the team the way that you would ideally like them to be. This is your “dream team” situation.
+
+
+## Review and Align Personal Visions across the Team:
+• What is team communication like?
+• How does the team relate to one another?
+• How is VA data used?
+• How are decisions, plans and changes made?
+• What stands out to you?
+• Why did we choose these?
+• What makes them so relevant or important to us?
+• Can we address them all (bearing in mind our resources and time)?
+• If not, which would we most like to address (align around), and why?
+
+<!--SharePoint icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
+     height = "75" width = "75" style = "border: 0;">
+### Team Data Sharepoint
+https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
+
+
+<!--Adobe Connect icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png"
+     height = "75" width = "75" style = "border: 0;">
+### Adobe Connect
+https://va-eerc-ees.adobeconnect.com/team_psd/
