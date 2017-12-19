@@ -3,7 +3,7 @@
 # Concatonate Sta6, Year, and Date
 
 # Update 12/14/2017- Base code was from Savet, Joyce adapted for PSD/CPT Collaboration
-# Lindsey added working directory and package instructions to resolve an error
+
 
 # Packages required to use Savet's code for merging CDW and CPT
 
@@ -17,6 +17,8 @@ require(magrittr)
 # For example: setwd("//r01palhsm07.r01.med.va.gov/homedir$/VHAPALZIMMEL2/My Documents/R/win-library/3.4")
 setwd()
 getwd()
+
+# Joyce see if this resolves the library(magrittr) issue
 
 ########################################################################################
 
