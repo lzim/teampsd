@@ -1,62 +1,72 @@
 
 # Comparator Dataset
-# Concatonate Sta6, Year, and Date
+# Concatonate Sta6a, Year, and Date
 
-# Update 12/14/2017- Base code was from Savet, Joyce adapted for PSD/CPT Collaboration
+# Update 12/28/2017 - Code debugged and runs
 
-
-# Packages required to use Savet's code for merging CDW and CPT
-
-library(tidyverse)
-
-# Recommend require magrittr if error related to pipe operator is produced
-require(magrittr)
-
-# Set working directory to My Documents location 
-# where tidyverse packages should be installed. 
-# For example: setwd("//r01palhsm07.r01.med.va.gov/homedir$/VHAPALZIMMEL2/My Documents/R/win-library/3.4")
-setwd()
+## Project: CPT Collaboration
+## Purpose: Merge CDW administrative data and CPT dropout data
+## Author: Joyce Yang
+## Date: 2017/12/28
+## Notes:
+##
+######################################################################################
+ 
+#set working directory
+setwd("//vhapalmpncptsd1/Shared Research/TeamPSD/R")
+ 
+#check working directory
 getwd()
-
-# Joyce see if this resolves the library(magrittr) issue
-
-########################################################################################
-
-data1 <- data.frame(A= rep(c("Tim", "Susan", "Bob"), each= 3), B= rep(c(1:3), each =3))
-data2 <- data.frame(A= c("Tim","Bob","C", "D","D"), C= c(2:6))
-
-data1a <- data1 %>%  mutate(A = as.character(A),     C = paste0(A, B)) 
-
-## to concatenate columns together: 
-data1a <- data1 %>%
-  +   mutate(A= as.character(A),
-             +          C = paste0(A,B))
-
-## in CDW data, concatenate Quarter and Year variable)
-
+ 
+# Packages required for merging CDW and CPT
+library(tidyverse)
+library(magrittr)
+library(rlang)
+library (reshape2)
+library(lubridate)
+ 
+########################################################################
+ 
+#set up both files as dataframes
+ 
 file="comparatorsites_nov23_16.csv"
 data=read.csv(file,header=TRUE)
-
-comparator.df <- read.csv("comparatorsites_nov23_16.csv")
-
-comparator.df <- comparator.df %>%
-  mutate(Year_Q  = paste0(year, "-", quarter),
-         site_YQ = paste0(sta6a,"-",Year_Q))
-
+ 
 file2="dropout.csv"
-data2=read.csv(file,header=TRUE)
-
+data2=read.csv(file2,header=TRUE)
+ 
+summary(data)
+summary(data2)
+ 
+comparator.df <- data
+ 
 dropout2.df <- data2
-
-## use lubridate library to manage date information. commands like year and quarter are embedded
-library(lubridate)
-
+ 
+#create combined variable in comparator df
+ 
+comparator.df <- comparator.df %>%
+  mutate(year_q  = paste0(year, "-", quarter),
+         site_yq = paste0(sta6a,"-",year_q))
+ 
+#check comparator.df to make sure new variables have been created
+summary(comparator.df)
+ 
+#create combined variable in dropout2.df
+ 
 dropout2.df <- data2 %>%
-  mutate(Year = year(Date1),
-         Quarter = quarter(Date1),
-         Year_Q = paste0(Year, "-", Quarter)) %>%
-  group_by(sta6a,Year_Q) %>%
-  summarise(obs = n()) %>% ## you may also want to consider using mutate instead of summarise
-  mutate(site_YQ = paste0(sta6a,"-",Year_Q))
-
-newdf <- merge.data.frame(comparator.df, dropout2.df, by = "site_YQ")
+  mutate(DATE_1 = as.character(DATE_1),
+         DATE_1 = as.Date(DATE_1, "%m/%d/%Y"),
+    year = year(DATE_1),
+                    quarter = quarter(DATE_1),
+                    quarter = paste0("Q", quarter),
+                   year_q = paste0(year, "-", quarter)) %>%
+mutate(site_yq = paste0(STA6A,"-",year_q))
+ 
+#create new dataframe that merges the two datasets on the site_yq variable
+newdf <- merge.data.frame(comparator.df, dropout2.df, by = "site_yq")
+ 
+summary (newdf)
+ 
+str(newdf)
+ 
+summary(comparator.df)
