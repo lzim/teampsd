@@ -37,7 +37,7 @@ visit <- visit %>%
                         2*(visitdate >ThreeMonDate) # 2 after 3 months
          )  
 
-# Add variables to identify the number of visit timeframe  
+# Add variables to identify the number of visit within timeframe  
 visit_sum <- visit %>%
   group_by(patientsid, three_months) %>%
   summarise(Nvisits = n()) %>%
@@ -61,12 +61,13 @@ visit_alluv <- visit_sum %>%
   replace_na(list(within3months2_7 = " ", within3months7pls =" "))
 
 ##ggalluvial
-visit_graph2 <- visit_alluv %>%
-  gather(VisitCat, visitType, -Freq) %>%
-  mutate( VisitCat = factor(VisitCat, levels =c ("initialVisit", "within3months2_7",
-                                                    "within3months7pls", "terminal")),
-          visitType = as.factor(visitType))
-
+visit_graph2 <- visit_sum %>%
+  gather(key = timeframe, value = VisitStatus, - patientsid, - `Back After Three Months`, -WithinThreeMonths) %>%
+  mutate(VisitStatus = factor(VisitStatus, levels = c("One Visit", "2-7 Within Three Months",
+                                                      "8+ Within Three Months", "Back After Three Months",
+                                                      "Done Forever")),
+         timeframe = factor(timeframe, levels = c("initialVisit","within3months2_7",
+                                                  "within3months7pls","terminal")))
 
 ## riverplot data
 visit_edges <- visit_sum %>%
@@ -104,16 +105,16 @@ visit_edges <- visit_sum %>%
 visit_edges <- as.data.frame(visit_edges)
 
 visit_nodes <- data.frame(ID = unique(c(visit_edges$N1, visit_edges$N2)),x =1, 
-                          col = "dark blue", srt = 0, 
+                          col = "#003F72", srt = 0, 
                           stringsAsFactors= FALSE) %>%
   mutate(x = replace(x, ID == "2-7 Within Three Months", 2),
          x = replace(x, ID == "8+ Within Three Months", 3),
          x = replace(x, ID == "Back After Three Months", 4),
          x = replace(x, ID == "Done Forever", 4),
-         col = replace(col, ID == "2-7 Within Three Months", "light blue"),
-         col = replace(col, ID == "8+ Within Three Months", "orange"),
-         col = replace(col, ID == "Back After Three Months", "red"),
-         col = replace(col, ID == "Done Forever", "green")) 
+         col = replace(col, ID == "2-7 Within Three Months", "#f7955b"),
+         col = replace(col, ID == "8+ Within Three Months", "#f3cf45"),
+         col = replace(col, ID == "Back After Three Months", "#C4262E"),
+         col = replace(col, ID == "Done Forever", "#598527")) 
   
 # N Visit by Transitional Group  
 visit_slots <- visit_sum %>%
@@ -153,10 +154,12 @@ visit_slots <- visit_sum %>%
 #############
 # Graph Data
 #############
+vacol <- c("#003F72", "#772432", "#f7955b", "#0083BE", "#C4262E", "#f3cf45" )
+
 pdf("sankey_alluvian.pdf")
 alluvial(visit_alluv[6:1,1:4], freq = visit_alluv$Freq,
-         col = ifelse(visit_alluv$terminal == "Done Forever", "green", "brown"),
-         #border = ifelse(visit_alluv$terminal == "Done Forever", "green", "yellow"),
+         col = vacol,
+         border = ifelse(visit_alluv$terminal == "Done Forever", "#003F72", "#dcddde"),
          cex = 0.8,
          alpha = 0.8,
          xw = 0.2,
@@ -169,34 +172,24 @@ dev.off()
 
 library(ggalluvial)
 ggplot(visit_graph2,
-       aes(x = VisitCat, stratum = visitType, alluvium = Freq,
-           label = visitType)) +
-  geom_alluvium(fill = "darkgrey", na.rm = FALSE) +
-  geom_stratum(aes(fill = visitType), color = NA, na.rm = FALSE) +
-  theme_bw()
-
-
-ggplot(visit_alluv, aes(weight = Freq, 
-                        axis1 = initialVisit, axis2 = within3months2_7,
-                        axis3 = within3months7pls, axis4 = terminal)) +
-  geom_alluvium(aes(fill = terminal), width = 0, knot.pos = 0, reverse = FALSE) +
-  guides(fill = FALSE) +
-  geom_stratum(width = 1/8, reverse = FALSE) +
-  geom_text(stat = "stratum", label.strata = TRUE, reverse = FALSE) +
-  scale_x_continuous(breaks = 1:4, labels = c("Initial", "","", "Terminal")) +
-  scale_fill_brewer(type = "qual", palette = "Dark2") +
+       aes(x = timeframe, stratum = VisitStatus, alluvium = patientsid, 
+           fill = VisitStatus, label = VisitStatus)) +
+  geom_flow(stat = "alluvium", lode.guidance = "rightleft", color = "#f3cf45") +
+  geom_stratum() +
+  scale_fill_manual(values = vacol) +
+  geom_text(stat = "stratum", size = 3) +
+  theme_bw() +
+  theme(legend.position = "none") 
   ggsave("sankey_ggplot.pdf")
 
-# Create Small text
+# Create RiverPlot
 library(riverplot)
 custom.style <- riverplot::default.style()
 custom.style$textcex <- 0.5
-
 visit_graph3 <- makeRiver(visit_nodes, visit_edges)
-pdf("sankey_river.pdf") # originally named sankey_ex.pdf
-#plot(visit_graph3, main = "Sample Sanekey", plot_area = 0.95, default.style = custom.style) 
-plot(visit_graph3, main = "Sample Sanekey", plot_area = 0.95) 
 
+pdf("sankey_river.pdf") # originally named sankey_ex.pdf
+plot(visit_graph3, main = "Sample Sanekey", plot_area = 0.95) 
 dev.off()
 
 # Patients Slots
@@ -207,6 +200,7 @@ ggplot(visit_slots, aes(ymin = 0)) +
   labs(x = "N Patients", y = "Number of Visits (Median)", fill ="Flow Group") +
   coord_flip() +
   scale_x_reverse() +
+  scale_fill_manual(values = vacol) +
   ggtitle("Median Number of Appointment Slots by Patient's Alluvian Flow Group") +
   ggsave("Appointment-Slots-median.jpeg")
 
@@ -216,5 +210,7 @@ ggplot(visit_slots, aes(ymin = 0)) +
   labs(x = "", y = "Number of Visits (Mean)", fill ="Flow Group") +
   coord_flip() +
   scale_x_reverse() +
+  scale_fill_manual(values = vacol) +
   ggtitle("Mean Number of Appointment Slots by Patient's Alluvian Flow Group") +
   ggsave("Appointment-Slots-mean.jpeg")
+  
