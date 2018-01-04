@@ -25,6 +25,8 @@ pdf_document: default
 3.	…make VA data, initiatives and standards transparent to you. 
 4.	…empower you to realize ongoing improvements in team quality of care and team quality of work life.
 
+This model shows how a variety of team decisions interact to impact multiple operational outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
+
 <!-- Done List Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
      height = "135" width = "135">
