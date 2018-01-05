@@ -17,6 +17,17 @@ pdf_document: default
 # Shared Vision (TOTAL time 20 minutes)
 
 INSERT FACILITATOR ICON
+iNTRODUCTIONS
+ Who's in attendance
+ Technology check
+ 
+### Done 
+* Team Lead Established
+* Team Meeting 
+
+### Do
+* Team Learning Goal
+* Shared Vision
 
 INSERT FACILITATOR BACKGROUND TEXT
 
