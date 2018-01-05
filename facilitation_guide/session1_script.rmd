@@ -14,7 +14,11 @@ pdf_document: default
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
      height = "130" width = "500">  
 # Modeling to Learn Session 1
-# Shared Interim Vision (TOTAL time 20 minutes)
+# Shared Vision (TOTAL time 20 minutes)
+
+INSERT FACILITATOR ICON
+
+INSERT FACILITATOR BACKGROUND TEXT
 
 We all learn best when we seek to accomplish things that matter to us. Today we want to clarify what we are trying to accomplish together with “Modeling to Learn.” We want this learning process to be something you can commit to because it reflects a key part your own vision for care in this team.  
 
