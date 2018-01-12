@@ -1,3 +1,19 @@
+---
+title: "Facilitator Manual"
+author: "Jane Branscomb"
+date: "January 12, 2018"
+output: 
+  github_document: default
+html_document: default
+ioslides_presentation: default
+slidy_presentation: default
+pdf_document: default
+---
+
+<!--MTL Logo -->
+<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
+     height = "130" width = "500">  
+
 MODELING TO LEARN FACILITATOR MANUAL
 
 # TABLE OF CONTENTS
