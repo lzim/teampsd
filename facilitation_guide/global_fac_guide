@@ -1,0 +1,169 @@
+MODELING TO LEARN
+FACILITATOR GUIDE
+TABLE OF CONTENTS
+
+I.	Preface
+Introduction
+Acknowledgments
+II.	Course Guidance
+Staffing and Roles
+Target Audience
+Technology and Mechanics
+Course Schedule
+Session Guides
+Continuing Education Credits
+Communications
+III.	Session Guides
+Session 1. Shared Vision
+Session 2. Our Data
+Session 3. System Dynamics
+Session 4. Care Coordination, Part 1
+Session 5. Care Coordination, Part 2
+Session 6. Medication Management, Part 1
+Session 7. Medication Management, Part 2
+Session 8. Psychotherapy, Part 1
+Session 9. Psychotherapy, Part 2
+Session 10. Aggregate Model, Part 1
+Session 11. Aggregate Model, Part 2
+Session 12. Future Decision-Making
+IV.	Additional Resources
+V.	References
+VI.	Appendices
+Appendix A. Icon Glossary
+Appendix B. Terms and Acronyms
+Appendix C. Using the Data Interface in SharePoint
+Appendix D. Using the Model Interface in Forio
+PAGE BREAK
+Preface
+a)	Introduction
+
+Providers, patients, policy makers and scientists each have a stake in ensuring all patients with opioid use disorder (OUD), alcohol use disorder (AUD), depression and posttraumatic stress disorder (PTSD), receive timely, evidence-based care. In the Veterans Health Administration (VA), these common, costly conditions comprise the majority of outpatient addiction/mental health needs (1–3). But highly effective treatments such as evidence-based psychotherapy (EBPsy) and evidence-based pharmacotherapy (EBPharm) reach only 3-28% of patients (4–6). National evidence-based practice (EBP) dissemination programs (7–11), policies (12–14), incentivized quality measures (15, 16), and EBP-focused electronic health records (17) have been insufficient to realize greater EBP reach (18–20), key to preventing chronic impairment, relapse, overdose, (21–23) and suicide (24–26) among Veterans.
+Like most health systems (27–29), VA uses team huddles and audit-and-feedback (AF) processes to coordinate and improve EBPsy/EBPharm care. But AF outcomes vary widely (30), with the least success for complex tasks like multidisciplinary EBP continuity and coordination (31). Research suggests that solving complex, multidisciplinary challenges such as team EBP delivery requires addressing system-level causes (35–40). Participatory System Dynamics (PSD) offers a method of active group learning, using system diagrams and simulation models (41, 42), that builds capacity for understanding and managing causal system dynamics (43, 44). Simulation modeling overcomes cognitive limitations (45, 46) to prospectively restructure delay and feedback dynamics that influence EBP reach over time (47). Using such models lets teams test their hypotheses and gain shared insights about how decisions within their control interact to affect outcomes they care about.
+
+The Modeling to Learn course leads front-line clinic staff, working together in their teams, through a progressive PSD process designed to:
+•	Enhance VA team members’ knowledge and skill in systems thinking; 
+•	Make VA data, initiatives and standards transparent to clinic staff;
+•	Help teams understand complex interactions among factors – including decisions within their control and resource limitations that constrain them – that are difficult, if not impossible, to see without data and models; and
+•	Empower teams to generate ongoing quality improvements in both patient care and work life.
+Four system dynamics models of limited EBP reach were developed by a team of stakeholders and other experts.
+•	Lindsey Zimmerman, PhD, Implementation Scientist, National Center for PTSD, Dissemination & Training Division (NCPTSD-DT) – Team PSD Project Lead and Principal Investigator
+•	Stacey Park, BA, Team PSD Project Administrator, NCPTSD-DT
+The models help explain “reach as a function of local front-line staff decisions and available resources (48, 49). Three focus on specific services: Care Coordination (CC), Medication Management (MM), and Psychotherapy (Psy). A fourth, Aggregate (Agg) model looks at combined services across a local VA mental/behavioral health clinic. 
+Existing VA health system data was extracted using standard definitions for diagnoses, appointments, visits and EBPs, and calculated model parameter values for local teams  (15, 50). Models define mechanisms identified by stakeholders using systems theory and calculus, which are validated against historical data (51). PSD learning is via real-time visual emergence of local causes of EBP reach in virtual experiments (52–54). Simulations are a safe way to build systems thinking into EBP decisions (44, 55, 56).
+b)	Acknowledgments
+
+The following individuals provided valuable time, wisdom, and perspective in the development of the four SD models and the Modeling to Learn course:
+Veterans Advisory Partnership for Operations and Research (VAPOR) board members
+•	Tammy Thompson, BS, Certified Peer Support Specialist; Air Force Veteran
+•	Donald “DC” Barlow, Certified Peer Support Specialist; Marine Veteran
+•	Reynold “Ren” Kramer, Certified Peer Support Specialist; Air Force Veteran 
+•	Erik Ontiveros, Certified Peer Support Specialist; Marine Veteran
+•	Trent Van Dyke, Certified Peer Support Specialist; Air Force Veteran
+•	Leroy Edwards, Certified Peer Support Specialist; Army Veteran Retired 
+VAPAHCS Peer Support Specialist Supervisors
+•	Jill Hudson, LCSW, VAPAHCS Chief of Social Work
+•	Soni Adams, LCSW, VAPAHCS Director, Peer Support and MHICM (detailed to GA)
+•	Ryan Gardner, LCSW, VAPAHCS Director, Veterans Recovery Center and Peer Support Supervisor
+Financial support for the development and piloting of this course has been provided by… [required grant acknowledgement and disclaimer language]
+
+PAGE BREAK
+
+I.	Course Guidance
+a)	Staffing and Roles
+Lead Facilitator
+Assistant Facilitator
+Invited Guest
+Logistics and Communications Coordinator
+Team Lead
+
+b)	Target Audience
+
+c)	Technology and Mechanics
+Adobe Connect – application, computer requirements, webcam, VOIP or phone recommended?
+Data interface in SharePoint – software?, browser specs, login, other?
+Model interface in Forio – browser specs, login, other? 
+
+d)	Course Schedule
+
+The course is designed to be delivered in twelve, 60-minute sessions. For many teams that have weekly huddles, every other week’s session will be devoted to MTL, so the course will take place over a period of 6 months.
+
+While the course progresses through increasingly complex concepts and models, each session stands alone to the extent possible, so that someone who misses a session or joins the course in-progress can participate with minimal extra coaching.
+
+The course at-a-glance is shown below. [add Overview paragraph and Learning objectives]
+Session 1. Shared Vision
+Session 2. Team Data
+Session 3. System Dynamics
+Session 4. Care Coordination, Part 1
+Session 5. Care Coordination, Part 2
+Session 6. Medication Management, Part 1
+Session 7. Medication Management, Part 2
+Session 8. Psychotherapy, Part 1
+Session 9. Psychotherapy, Part 2
+Session 10. Aggregate Model, Part 1
+Session 11. Aggregate Model, Part 2
+Session 12. Actualizing Shared Vision
+
+e)	Session Guides
+
+Resources and scripts for each session are provided in detailed Session Guides. These follow a consistent outline:
+a)	Overview: A short description of the session to orient the facilitator
+b)	Learning Objectives: Unique learning objectives (2-3) for each session that will be assessed in the evaluation and post-test for CEUs
+c)	Resources: List of materials, links, software, handouts, etc., needed for the session
+d)	Preparation: Things to review, set up, confirm, or communicate in advance of the session
+e)	At-A-Glance Agenda: High-level, participant agenda
+f)	Detailed Agenda: Facilitator scripts, timings, and guidance notes for conducting the session
+g)	Follow-up: Actions and messages to communicate after the session
+
+The agenda for each session also follows a general pattern:
+1.	DONEs and Dos: Review recent accomplishments and things to be accomplished in this session (i.e., learning objectives and high-level agenda)
+2.	Inform: Present new concepts and information
+3.	Act: Facilitate participating teams in interactive exercises
+4.	Discuss: Facilitate conversation on observations, learnings
+5.	DONEs and Dos: Review session accomplishments and next steps, including evaluation and post-test for CEUs as well as offline tasks (required or optional) 
+
+f)	Continuing Education Credit
+
+Participants in six disciplines may earn CEU credit for each session through the VA’s Employee Education Services office. The disciplines and accrediting bodies are: 
+•	Psychiatry: ___
+•	Psychology: ___
+•	Social Work: ___
+•	Nursing: ___
+•	Certified Peer Support: ___
+•	Counseling: ___
+
+[How to receive credit; how many credits of each type for each session; etc.]
+
+g)	Communications
+•	Scheduling
+•	Pre-session communications
+•	In-session record-keeping
+•	Post-session communications
+
+II.	Session Guides [SEE separate GitHub files]
+PAGE BREAK
+III.	Additional Resources
+Literature
+Books
+Websites
+Software/Apps
+
+IV.	References
+
+V.	Appendices
+
+Appendix A. Icon Glossary
+
+Appendix B. Terms and Acronyms
+[starter list]
+PSD = Participatory Systems Dynamics
+EBP = Evidence-based Practice
+CC = care coordination model
+MM = medication management model
+Psy = psychotherapy model
+Agg = aggregate model
+CPRS = Computerized Patient Record System
+ATS = Addiction Treatment Services
+EES = VA Employee Education Services 
+
+Appendix C. Using the Data Interface in SharePoint
+Appendix D. Using the Modeling to Learn Interface in Forio
