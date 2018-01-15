@@ -2,6 +2,8 @@
 # Comparator Dataset
 # Concatonate Sta6a, Year, and Date
 
+# Update 1/14/2018 - Quarter updated to fiscal quarter
+
 # Update 12/28/2017 - Code debugged and runs
 
 ## Project: CPT Collaboration
@@ -54,14 +56,25 @@ summary(comparator.df)
 #create combined variable in dropout2.df
  
 dropout2.df <- data2 %>%
+
   mutate(DATE_1 = as.character(DATE_1),
+
          DATE_1 = as.Date(DATE_1, "%m/%d/%Y"),
+
     year = year(DATE_1),
-                    quarter = quarter(DATE_1),
+
+                    quarter = quarter(DATE_1, with_year = FALSE, fiscal_start = 10),
+
                     quarter = paste0("Q", quarter),
+
                    year_q = paste0(year, "-", quarter)) %>%
+
+#group_by(STA6A,year_q) %>%
+
+#summarise(obs = n()) %>%
+
 mutate(site_yq = paste0(STA6A,"-",year_q))
- 
+
 #create new dataframe that merges the two datasets on the site_yq variable
 newdf <- merge.data.frame(comparator.df, dropout2.df, by = "site_yq")
  
