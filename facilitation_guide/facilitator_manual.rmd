@@ -18,7 +18,7 @@ pdf_document: default
 
 
 
-# TABLE OF CONTENTS
+# Table of Contents
 
 ## Preface
     Introduction
@@ -114,9 +114,11 @@ PAGE BREAK
 
 ## Technology and Mechanics
 
-    Adobe Connect – application, computer requirements, webcam, VOIP or phone recommended? *Q4Stacey*
-    Data interface in SharePoint – software?, browser specs, login, other? *Q4Andrew*
-    Model interface in Forio – browser specs, login, other? *Q4Tom*
+    Adobe Connect – application, computer requirements, webcam, VOIP or phone recommended? *Q4Stacey* 
+    
+    Data interface in SharePoint – software?, browser specs, login, other? *Q4Andrew* (Detailed instructions in Appendix C.)
+    
+    Model interface in Forio – browser specs, login, other? *Q4Tom* (Detailed instructions in Appendix D.)
 
 ## Course Schedule
 
@@ -140,21 +142,19 @@ PAGE BREAK
 
 ## Session Guides *DK creating 12 templates per below, will import content from existing Scripts and re-save as current version of working documents*
 
-    Resources and scripts for each session are provided in detailed Session Guides. These follow a consistent outline:
-    a)	Overview: A short description of the session to orient the facilitator
-    b)	Learning Objectives: Unique learning objectives (2-3) for each session that will be assessed in the evaluation and post-test for CEUs
-    c)	Resources: List of materials, links, software, handouts, etc., needed for the session
-    d)	Preparation: Things to review, set up, confirm, or communicate in advance of the session
-    e)	At-A-Glance Agenda: High-level, participant agenda
-    f)	Detailed Agenda: Facilitator scripts, timings, and guidance notes for conducting the session
-    g)	Follow-up: Actions and messages to communicate after the session
-
-    The agenda for each session also follows a general pattern:
-    1.	DONEs and Dos: Review recent accomplishments and things to be accomplished in this session (i.e., learning objectives and high-level agenda)
-    2.	Inform: Present new concepts and information
-    3.	Act: Facilitate participating teams in interactive exercises
-    4.	Discuss: Facilitate conversation on observations, learnings
-    5.	DONEs and Dos: Review session accomplishments and next steps, including evaluation and post-test for CEUs as well as offline tasks (required or optional) 
+    Resources and scripts for each session are provided in detailed Session Guides. These follow a common outline:
+    Preparation
+    - Overview: A short description of the session to orient the facilitator
+    - Learning Objectives: Unique learning objectives (2-3) for each session that will be assessed in the evaluation and post-test for CEUs
+    - Agenda At-A-Glance: High-level, participant agenda
+    - Resources: List of materials, links, software, handouts, etc., needed for the session
+    - Preparation: Things to review, set up, confirm, or communicate in advance of the session
+    Facilitation
+    - Dones and Dos: Accomplishments since last update; Learning Objectives and high-level Agenda for current session
+    - Learning content and activities: Facilitator scripts, timings, and guidance notes
+    - Dones and Dos: Accomplishments in current session; Tasks for next session
+    Follow-up
+    - Actions and messages to communicate after this session and before the next session
 
 ## Continuing Education Credit
 
