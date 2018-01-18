@@ -14,7 +14,9 @@ pdf_document: default
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
      height = "130" width = "500">  
 
-MODELING TO LEARN FACILITATOR MANUAL
+# FACILITATOR MANUAL
+
+
 
 # TABLE OF CONTENTS
 
