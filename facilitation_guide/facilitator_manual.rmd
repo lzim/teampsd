@@ -34,9 +34,9 @@ pdf_document: default
     Communications
 
 ## Session Guides
-    Session 1. Shared Vision
+    Session 1. Our Vision
     Session 2. Our Data
-    Session 3. System Dynamics
+    Session 3. Our Systems
     Session 4. Care Coordination, Part 1
     Session 5. Care Coordination, Part 2
     Session 6. Medication Management, Part 1
@@ -45,7 +45,7 @@ pdf_document: default
     Session 9. Psychotherapy, Part 2
     Session 10. Aggregate Model, Part 1
     Session 11. Aggregate Model, Part 2
-    Session 12. Future Decision-Making
+    Session 12. Our Decisions
 
 ## Additional Resources
 
@@ -101,7 +101,7 @@ PAGE BREAK
 
 # Course Guidance
 
-## Staffing and Roles *DK working on short descriptions*
+## Staffing and Roles
 
     Lead Facilitator
     Assistant Facilitator
@@ -110,15 +110,15 @@ PAGE BREAK
     Communications Coordinator
     Team Lead
 
-## Target Audience  *DK pulling in existing text*
+## Target Audience
 
 ## Technology and Mechanics
 
-    Adobe Connect – application, computer requirements, webcam, VOIP or phone recommended? *Q4Stacey* 
+    Adobe Connect – application, computer requirements, webcam, VOIP or phone recommended?
     
-    Data interface in SharePoint – software?, browser specs, login, other? *Q4Andrew* (Detailed instructions in Appendix C.)
+    Data interface in SharePoint – software?, browser specs, login, other? (Detailed instructions in Appendix C.)
     
-    Model interface in Forio – browser specs, login, other? *Q4Tom* (Detailed instructions in Appendix D.)
+    Model interface in Forio – browser specs, login, other? (Detailed instructions in Appendix D.)
 
 ## Course Schedule
 
@@ -127,32 +127,35 @@ PAGE BREAK
     While the course progresses through increasingly complex concepts and models, each session stands alone to the extent possible, so that someone who misses a session or joins the course in-progress can participate with minimal extra coaching.
 
     The course at-a-glance is shown below. [add Overview paragraph and Learning objectives]
-    Session 1. Shared Vision
-    Session 2. Team Data
-    Session 3. System Dynamics
+    Session 1. Our Vision
+    Session 2. Our Data
+    Session 3. Our Systems
     Session 4. Care Coordination, Part 1
     Session 5. Care Coordination, Part 2
     Session 6. Medication Management, Part 1
     Session 7. Medication Management, Part 2
     Session 8. Psychotherapy, Part 1
     Session 9. Psychotherapy, Part 2
-    Session 10. Aggregate Model, Part 1
-    Session 11. Aggregate Model, Part 2
-    Session 12. Actualizing Shared Vision
+    Session 10. Aggregate, Part 1
+    Session 11. Aggregate, Part 2
+    Session 12. Our Decisions
 
-## Session Guides *DK creating 12 templates per below, will import content from existing Scripts and re-save as current version of working documents*
+## Session Guides
 
     Resources and scripts for each session are provided in detailed Session Guides. These follow a common outline:
+    
     Preparation
     - Overview: A short description of the session to orient the facilitator
     - Learning Objectives: Unique learning objectives (2-3) for each session that will be assessed in the evaluation and post-test for CEUs
     - Agenda At-A-Glance: High-level, participant agenda
     - Resources: List of materials, links, software, handouts, etc., needed for the session
     - Preparation: Things to review, set up, confirm, or communicate in advance of the session
+    
     Facilitation
     - Dones and Dos: Accomplishments since last update; Learning Objectives and high-level Agenda for current session
     - Learning content and activities: Facilitator scripts, timings, and guidance notes
     - Dones and Dos: Accomplishments in current session; Tasks for next session
+    
     Follow-up
     - Actions and messages to communicate after this session and before the next session
 
@@ -166,7 +169,7 @@ PAGE BREAK
     •	Certified Peer Support: ___
     •	Counseling: ___
 
-[How to receive credit; how many credits of each type for each session; etc.] *A&U will see that accurate and required text is here*
+[How to receive credit; how many credits of each type for each session; etc.] 
 
 ## Communications
     •	Scheduling
