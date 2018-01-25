@@ -32,9 +32,9 @@ pdf_document: default
 
 ## What are 4 ways to get help?
 1. Click on the guide icon in the Team Email  
-  + It links to a help page w/vidoes, handouts, etc.
+    + It links to a help page w/vidoes, handouts, etc.
 2. Click on the contact us icon in the Team Email  
-  + It immediately opens an email to Lindsey and Stacey
+    + It immediately opens an email to Lindsey and Stacey
 3. Use Skype screen sharing live to set-up/hand-off  
-  + Ping Lindsey or Stacey for live help (oten only takes 5 min)
+    + Ping Lindsey or Stacey for live help (oten only takes 5 min)
 4. Ask your team for help  
