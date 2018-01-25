@@ -27,4 +27,10 @@ pdf_document: default
 1. Look at clinic trends on the splash page  
 2. Use the most recently saved data file  
 3. Save a file with your preferred filters  
-4. Open the excel file in the morning, check it when you have 5-10 minutes throughout the day (lock computer in-between use)  
+4. Open the excel file in the morning, check it when you have 5-10 minutes throughout the day (lock computer in-between use) 
+
+## What are 4 ways to get help?
+1. Click on the guide icon in the Team Email  
+2. Click on the contact us icon in the Team Email  
+3. Use Skype screen sharing live to set-up/hand-off  
+4. Ask your team for help  
