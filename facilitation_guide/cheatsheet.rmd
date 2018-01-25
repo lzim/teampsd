@@ -31,6 +31,7 @@ pdf_document: default
 
 ## What are 4 ways to get help?
 1. Click on the guide icon in the Team Email  
++ test
 2. Click on the contact us icon in the Team Email  
 3. Use Skype screen sharing live to set-up/hand-off  
 4. Ask your team for help  
