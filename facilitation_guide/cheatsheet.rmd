@@ -18,7 +18,7 @@ pdf_document: default
 
 <!-- SharePoint icon -->
 <img src = "https://rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png">
-## How do I get to the data?
+## How do I get to the data?  
 1. When you follow the SharePoint link, then... use Internet Explorer  
 2. When you get to the Splash Page, then... open your team folder  
 3. When you open the team folder, then... open the most recent Excel file  
@@ -33,6 +33,9 @@ pdf_document: default
 3. Save a file with your preferred filters  
 4. Open the excel file in the morning, check it when you have 5-10 minutes throughout the day (lock computer in-between use) 
 
+
+<!-- Guide icon -->
+<img src = "https://rawgit.com/lzim/teampsd/hexagon_icons/np_book_853869_598527.svg">
 ## What are 4 ways to get help?
 1. Click on the guide icon in the Team Email  
     + It links to a help page w/vidoes, handouts, etc.
