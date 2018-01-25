@@ -112,6 +112,8 @@ PAGE BREAK
 
 ## Target Audience
 
+Modeling to Learn is designed for teams of multidisciplinary staff in VAHS outpatient mental health, including psychiatrists, psychologists, social workers, nurses, counselors, certified peer-support specialists, other professional disciplines, and trainees (e.g., practica, interns, residents and fellows).
+
 ## Technology and Mechanics
 
     Adobe Connect – application, computer requirements, webcam, VOIP or phone recommended?
