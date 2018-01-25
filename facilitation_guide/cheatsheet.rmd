@@ -17,7 +17,8 @@ pdf_document: default
      height = "130" width = "500">  
 
 <!-- SharePoint icon -->
-<img src = "https://rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png">
+<img src = "https://rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png">  
+
 ## How do I get to the data?  
 1. When you follow the SharePoint link, then... use Internet Explorer  
 2. When you get to the Splash Page, then... open your team folder  
@@ -35,8 +36,9 @@ pdf_document: default
 
 
 <!-- Guide icon -->
-<img src = "https://rawgit.com/lzim/teampsd/hexagon_icons/np_book_853869_598527.svg">
-## What are 4 ways to get help?
+<img src = "https://rawgit.com/lzim/teampsd/hexagon_icons/np_book_853869_598527.svg">  
+
+## What are 4 ways to get help?  
 1. Click on the guide icon in the Team Email  
     + It links to a help page w/vidoes, handouts, etc.
 2. Click on the contact us icon in the Team Email  
