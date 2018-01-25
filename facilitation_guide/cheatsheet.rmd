@@ -16,6 +16,9 @@ pdf_document: default
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
      height = "130" width = "500">  
 
+<!-- SharePoint icon -->
+<img src = "https://rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png">
+## How do I get to the data?
 1. When you follow the SharePoint link, then... use Internet Explorer  
 2. When you get to the Splash Page, then... open your team folder  
 3. When you open the team folder, then... open the most recent Excel file  
