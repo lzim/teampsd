@@ -10,11 +10,12 @@ slidy_presentation: default
 pdf_document: default
 ---
 
+# Accessing the Data Simulation - Cheatsheet  
+
 <!--MTL Logo -->
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
      height = "130" width = "500">  
 
-# Accessing the Data Simulation - Cheatsheet  
 1. When you follow the SharePoint link, then... use Internet Explorer  
 2. When you get to the Splash Page, then... open your team folder  
 3. When you open the team folder, then... open the most recent Excel file  
@@ -31,7 +32,9 @@ pdf_document: default
 
 ## What are 4 ways to get help?
 1. Click on the guide icon in the Team Email  
-  + test
+  + It links to a help page w/vidoes, handouts, etc.
 2. Click on the contact us icon in the Team Email  
+  + It immediately opens an email to Lindsey and Stacey
 3. Use Skype screen sharing live to set-up/hand-off  
+  + Ping Lindsey or Stacey for live help (oten only takes 5 min)
 4. Ask your team for help  
