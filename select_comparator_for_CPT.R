@@ -20,6 +20,8 @@ library(magrittr)
 library(rlang)
 library (reshape2)
 library(lubridate)
+library(ggplot2)
+library(gmodels)
 
 
 ########################################################################
@@ -50,9 +52,9 @@ head(dropout.df)
 dim(dropout.df)
 str(dropout.df)
 
-##Assigning the data structure from Lindsey's original code (I don't always run this part because I do the selections and numeric assignments after, on the variables that I call)
+##Assigning the data structure from Lindsey's original code (I don't always run this part because I do the selections and numeric assignments after, on the variables that I call, but I wanted to include it here so you'd have it)
 
-comparator.df <- within(comparator.df, {
+#comparator.df <- within(comparator.df, {
   level <- factor(level, 0:1, c("sta3n","sta6a"))
   stopcode <- factor(stopcode, 0:2, c("All Mental Health Stop Codes",
                                       "PTSD", "SUD"))
@@ -97,10 +99,10 @@ comparator.df <- within(comparator.df, {
   aud_ebpharm_numer <- as.numeric(AUD_RX)
 })
 
-dropout.df <- within(dropout.df, {
+#dropout.df <- within(dropout.df, {
   sta6a <- factor(STA6A, 0:4471)})
 
-dropout.df <- within(dropout.df, {
+#dropout.df <- within(dropout.df, {
   pt_last <- as.numeric(PT_LAST)
   setting_other <- as.numeric(SETTING_OTHER)
   multiple_era_specified <- as.numeric(MULTIPLE_ERA_SPECIFIED)
@@ -117,6 +119,7 @@ dropout.df <- within(dropout.df, {
   workshop_type <- as.numeric(Workshop_Type)
   consultation_status <- as.numeric(Consultation_Status)
 })
+
 
 #create combined variable in comparator.df based on the variable 'year' and the variable 'quarter'
 
@@ -160,85 +163,119 @@ tabulate(comparator.df$site_yq)
 tabulate(dropout.df$site_yq)
 tabulate(compsub.df$site_yq)
 
+
+#check site_yq from different datasets
+tabulate(comparator.df$site_yq)
+tabulate(dropout.df$site_yq)
+tabulate(compsub.df$site_yq)
+
+#check frequencies and concordance between subsetted dataset and original comparator
+xtabs(~site_yq, data=comparator.df)
+xtabs(~site_yq, data=dropout.df)
+xtabs(~site_yq, data=compsub.df)
+
+xtabs(~patients, data=comparator.df)
+xtabs(~patients, data=compsub.df)
+
+xtabs(~providers, data=comparator.df)
+xtabs(~providers, data=compsub.df)
+
+xtabs(~psychiatrists, data=comparator.df)
+xtabs(~psychiatrists, data=compsub.df)
+
+xtabs(~psychologists, data=comparator.df)
+xtabs(~psychologists, data=compsub.df)
+
+xtabs(~socialworkers, data=comparator.df)
+xtabs(~socialworkers, data=compsub.df)
+
+xtabs(~nurses, data=comparator.df)
+xtabs(~nurses, data=compsub.df)
+
+xtabs(~intake, data=comparator.df)
+xtabs(~intake, data=compsub.df)
+
+xtabs(~psychotherapy, data=comparator.df)
+xtabs(~psychotherapy, data=compsub.df)
+
+xtabs(~ptsd_ebpsy_denom, data=comparator.df)
+xtabs(~ptsd_ebpsy_denom, data=compsub.df)
+
+xtabs(~cpt_initial, data=comparator.df)
+xtabs(~cpt_initial, data=compsub.df)
+
+##also possible to examine this using Cross Table to see the correlations between the variable in the two datasets
+install.packages(gmodels)
+library(gmodels)
+
+CrossTable(comparator.df$site_yq, compsub.df$site_yq)
+CrossTable(comparator.df$patients, compsub.df$patients)
+CrossTable(comparator.df$providers, compsub.df$providers)
+CrossTable(comparator.df$psychiatrists, compsub.df$psychiatrists)
+CrossTable(comparator.df$psychologists, compsub.df$psychologists)
+CrossTable(comparator.df$socialworkers, compsub.df$socialworkers)
+CrossTable(comparator.df$nurses, compsub.df$nurses)
+CrossTable(comparator.df$intake, compsub.df$intake)
+CrossTable(comparator.df$psychotherapy, compsub.df$psychotherapy)
+CrossTable(comparator.df$ptsd_ebpsy_denom, compsub.df$ptsd_ebpsy_denom)
+CrossTable(comparator.df$cpt_initial, compsub.df$cpt_initial)
+
+
 #descriptives of variables in original and merged datasets for checks
 
 ##in comparator
 attach(comparator.df)
 
-mean(patientPanel)
-sd(patientPanel)
+mean(patients)
+sd(patients)
 
-providerPanel <- as.numeric(providerPanel) #if original data structure assignment is not run
-mean(providerPanel)
-sd(providerPanel)
+mean(providers)
+sd(providers)
 
-psychiatrists <- as.numeric(psychiatrists)
 mean(psychiatrists)
 sd(psychiatrists)
 
-psychologists <- as.numeric(psychologists)
 mean(psychologists)
 sd(psychologists)
 
-socialWorkers <- as.numeric(socialWorkers)
-mean(socialWorkers)
-sd(socialWorkers)
+mean(socialworkers)
+sd(socialworkers)
 
-nursePractitioners <- as.numeric(nursePractitioners)
-mean(nursePractitioners)
-sd(nursePractitioners)
+mean(nursepractitioners)
+sd(nursepractitioners)
 
-mean(totalEncounters)
-sd(totalEncounters)
-
-psychEncounter <- as.numeric(psychEncounter)
-mean(psychEncounter)
-sd(psychEncounter)
-
-CPT_initial_appoints <- as.numeric(CPT_initial_appoints)
-mean(CPT_initial_appoints)
-sd(CPT_initial_appoints)
+mean(cpt_initial)
+sd(cpt_initial)
 
 detach(comparator.df)
 
 ##Descriptives of from merged dataframe
 attach(compsub.df)
 
-mean(patientPanel)
-sd(patientPanel)
+mean(patients)
+sd(patients)
 
-providerPanel <- as.numeric(providerPanel) 
-mean(providerPanel)
-sd(providerPanel)
+mean(providers)
+sd(providers)
 
-psychiatrists <- as.numeric(psychiatrists)
 mean(psychiatrists)
 sd(psychiatrists)
 
-psychologists <- as.numeric(psychologists)
 mean(psychologists)
 sd(psychologists)
 
-socialWorkers <- as.numeric(socialWorkers)
-mean(socialWorkers)
-sd(socialWorkers)
+mean(socialworkers)
+sd(socialworkers)
 
-nursePractitioners <- as.numeric(nursePractitioners)
-mean(nursePractitioners)
-sd(nursePractitioners)
+mean(nursepractitioners)
+sd(nursepractitioners)
 
-mean(totalEncounters)
-sd(totalEncounters)
-
-psychEncounter <- as.numeric(psychEncounter)
-mean(psychEncounter)
-sd(psychEncounter)
-
-CPT_initial_appoints <- as.numeric(CPT_initial_appoints)
-mean(CPT_initial_appoints)
-sd(CPT_initial_appoints)
+mean(cpt_initial)
+sd(cpt_initial)
 
 detach(compsub.df)
+
+
 
 #Visualizations of variables in original and merged datasets
 library(ggplot2)
