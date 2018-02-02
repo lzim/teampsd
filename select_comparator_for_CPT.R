@@ -22,6 +22,7 @@ library (reshape2)
 library(lubridate)
 library(ggplot2)
 library(gmodels)
+library(dplyr)
 
 
 ########################################################################
@@ -205,7 +206,7 @@ xtabs(~cpt_initial, data=comparator.df)
 xtabs(~cpt_initial, data=compsub.df)
 
 ##also possible to examine this using Cross Table to see the correlations between the variable in the two datasets
-install.packages(gmodels)
+install.packages("gmodels")
 library(gmodels)
 
 CrossTable(comparator.df$site_yq, compsub.df$site_yq)
@@ -283,7 +284,7 @@ library(ggplot2)
 attach(comparator.df)
 
 #scatterplots
-plot(year_q, patientPanel, main="Patient Panel", xlab="Year Quarter", ylab="Patient Panel", )
+plot(year_q, patientPanel, main="Patient Panel", xlab="Year Quarter", ylab="Patient Panel")
 
 #bar graphs
 barplot(patientPanel, names.arg = year_q, xlab = "Year Quarter", ylab = "Patient panel")
