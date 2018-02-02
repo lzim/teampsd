@@ -118,7 +118,7 @@ dropout.df <- within(dropout.df, {
   consultation_status <- as.numeric(Consultation_Status)
 })
 
-#create combined variable in comparator df based on the variable 'year' and the variable 'quarter'
+#create combined variable in comparator.df based on the variable 'year' and the variable 'quarter'
 
 comparator.df <- comparator.df %>% 
   mutate(year_q  = paste0(year, "-", quarter), 
@@ -127,7 +127,7 @@ comparator.df <- comparator.df %>%
 #check comparator.df to make sure new variables have been created
 summary(comparator.df)
 
-#create combined variable in dropout2.df; note that quarters in comparator are fiscal year quarters with Oct 1 start
+#create combined variable in dropout.df; note that quarters in comparator are fiscal year quarters with Oct 1 start
 
 dropout.df <- data2 %>% 
   mutate(DATE_1 = as.character(DATE_1),
@@ -138,27 +138,27 @@ dropout.df <- data2 %>%
          year_q = paste0(year, "-", quarter)) %>% 
          mutate(site_yq = paste0(STA6A,"-",year_q)) 
 
-#select the subset we want to work with; can add more variables here if we need to
-compqsub.df <- comparator.df %>%
+#select the subset of comparator that we want to work with; can add more variables here if we need to
+compsub.df <- comparator.df %>%
   filter(quarter != "Q5") %>%
   filter(level == "sta6a") %>%
   filter(stopcode == "ALL") %>% 
   select(level, stopcode, quarter, year, sta6a, totalencounters, patients, providers, psychiatrists, psychologists, socialworkers, nurses, intake, psychotherapy, ptsd_ebpsy_denom, cpt_initial)
 
 #create new dataframe that merges the two datasets on the site_yq variable
-newdf <- merge.data.frame(compqsub.df, dropout.df, by = "site_yq")
+newdf <- merge.data.frame(compsub.df, dropout.df, by = "site_yq")
 
 #examine new dataframe
-summary (newdf)
+summary (compsub.df)
 
-str(newdf)
+str(compsub.df)
 
-View (newdf)
+View (compsub.df)
 
 #check site_yq from different datasets
 tabulate(comparator.df$site_yq)
 tabulate(dropout.df$site_yq)
-tabulate(compqsub.df$site_yq)
+tabulate(compsub.df$site_yq)
 
 #descriptives of variables in original and merged datasets for checks
 
@@ -202,7 +202,7 @@ sd(CPT_initial_appoints)
 detach(comparator.df)
 
 ##Descriptives of from merged dataframe
-attach(compqsub.df)
+attach(compsub.df)
 
 mean(patientPanel)
 sd(patientPanel)
@@ -238,7 +238,7 @@ CPT_initial_appoints <- as.numeric(CPT_initial_appoints)
 mean(CPT_initial_appoints)
 sd(CPT_initial_appoints)
 
-detach(compqsub.df)
+detach(compsub.df)
 
 #Visualizations of variables in original and merged datasets
 library(ggplot2)
@@ -267,7 +267,7 @@ detach(comparator.df)
 
 
 #Visualizations of variables in original and merged datasets
-attach(compqsub.df)
+attach(compsub.df)
 
 #scatterplots
 plot(year_q, patientPanel, main="Patient Panel", xlab="Year Quarter", ylab="Patient Panel", )
@@ -287,5 +287,5 @@ qplot(x=year_q, y=socialWorkers, data=comparator.df, geom = "point")
 
 qplot(x=year_q, y=nursePractictioners, data=comparator.df, geom = "point")
 
-detach(compqsub.df)
+detach(compsub.df)
 
