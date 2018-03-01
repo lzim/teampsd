@@ -1,8 +1,8 @@
 Session 1 - Our Vision  
-1.	Explain how Modeling to Learn seeks to align the health care team in working together to improve quality of care.  
+1.	Explain how Modeling to Learn (MTL) seeks to promote team work to improve quality of care.  
 2.	Articulate a team need that MTL will address.  
-3.	Recognize the interdependence of quality of work life and quality of care.  
-4.	Describe how MTL helps providers see and understand their work within VA data, standards and initiatives.  
+3.	Recognize trade offs in quality of work life and quality of care.  
+4.	Describe how MTL uses patient and provider data to support VA standards and initiatives.  
 
 Session 2. Our Data  
 1.	Demonstrate how to access and update the team’s patient data on the SharePoint site.  
