@@ -6,24 +6,24 @@ Session 1 - Our Vision
 
 Session 2. Our Data  
 1.	Demonstrate how to access and update the team’s patient data on the SharePoint site.  
-2.	Identify a patient in the team data.  
-3.	Describe how the team data is categorized in to visits (CPT Codes).  
+2.	Identify a specific patient in the team data.  
+3.	Describe how the team data are categorized into visits by CPT Codes.  
 4.	Specify the team’s preferred data for Modeling to Learn.  
-5.	Recognize the limits of retrospective data review for guiding change.  
+5.	Describe the limits of retrospective data review for guiding change.  
 
 Session 3. Our System  
-1.	Describe the strengths of simulation for guiding team decision making.  
-2.	Name the two major units or "stocks" in the clinic.  
-3.	Specify the relationship between stocks and flows in a stock and flow diagram.  
+1.	Describe the strengths of simulation modeling for improving team decision-making.  
+2.	Define "stock" and "flow" as used in system dynamics.
+3.  Name the two major units, or "stocks", in the Care Coordination model.   
 4.	Identify six team parameters or data inputs for Care Coordination.  
-5.	Describe two primary types of dynamic relationships that cause systems to change over time.  
 
 Session 4. Care Coordination I  
-1.	Describe the feedback loop that governs the relationship between existing and new patients.  
-2.	Describe the factors controlling the relationship between the number of patients in care and the backlog of appointments on the schedule.  
-3.	Describe two team decisions that affect how many care coordination appointments are available for new patients.  
-4.	Name two team-influenced factors that affect the care coordination missed appointment rate.  
-5.	Explain how a team’s choice to overbook can have unintended consequences for scheduling of care coordination appointments.  
+1.	Describe two primary types of dynamic relationships that cause systems to change over time.  
+2.	Describe the feedback loop that governs the relationship between existing and new patients.  
+3.	Describe the factors controlling the relationship between the number of patients in care and the backlog of appointments on the schedule.  
+4.	Describe two team decisions that affect how many care coordination appointments are available for new patients.  
+5.	Name two team-influenced factors that affect the care coordination missed appointment rate.  
+6.	Explain how a team’s choice to overbook can have unintended consequences for scheduling of care coordination appointments.  
 
 Session 5. Care Coordination II  
 1.	Describe trade-offs between allocating appointments for new versus existing patients in terms quality versus access, and for whom.  
