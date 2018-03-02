@@ -33,22 +33,19 @@ Session 6. Med Management I
 1.	Describe team decisions that affect the number of appointments available for existing medication management patients by diagnostic cohort.  
 2.	Describe how return visit intervals can be used by the team to adjust the balance between new and existing medication management patients across diagnostic cohorts.  
 3.	Explore how differences in desired average return visit intervals, missed appointment rates, and overbooked appointments across four main diagnostic cohorts affect the team’s ability to provide evidence-based medication management services.  
-4.	Apply lessons learned from Care Coordination sessions to optimizing the delivery of Med Management across four main diagnostic cohorts.  
-5.	Develop new inferences based on the successes and failures of heuristics developed for managing care coordination delivery in the more complicated context of Med Management.  
 
 Session 7. Med Management II  
-1.	Describe decisions within a team’s control to optimize its delivery of evidence-based medication management services to veterans.  
-2.	Evaluate SMART clinic management changes that would enable the team to meet historic new patient demand for each diagnostic cohort with their current capacity and training.  
-3.	Evaluate trade-offs in timeliness and quality when setting specific return visit intervals for patients based on diagnosis.   
+1.	Describe decisions teams can make to optimize their delivery of evidence-based medication management services.  
+2.	Evaluate trade-offs in timeliness and quality when setting specific return visit intervals for patients based on diagnosis.   
+3.	Explain how teams could effectively manage new patient demand for each diagnostic cohort, given current staffing and training.  
 
 Session 8. Psychotherapy I  
-1.	Estimate how much time is spent per week on patients who “will never” receive a complete, timely dose of psychotherapy.  
-2.	Describe the impact of patients who remain in psychotherapy beyond three months on a team’s overall reach of evidence-based psychotherapy services to veterans.   
-3.	Experiment with patient care “step-up/down” decisions at key points in the patient pathway to see effects on the team’s ability to provide all patients with a complete, timely dose of psychotherapy.   
-4.	Distinguish between external and team-based drivers of patient scheduling and understand how these are connected to care quality and the ability to start new patients in psychotherapy.  
+1.	Estimate time spent per week on patients who will not receive a complete, timely dose of psychotherapy.  
+2.	Describe how patients who remain in psychotherapy beyond three months impact a team’s overall reach of evidence-based psychotherapy.  3.	Use the model to experiment with patient care “step-up/down” decisions to see effects on dose of psychotherapy to veterans.   
+4.	Distinguish between external and team-based drivers of patient scheduling and how they can impact the deliveyr of psychotherapy.  
 
 Session 9. Psychotherapy II  
-1.	Analyze the effects of team’s decisions to graduate patients after they receive a complete dose of psychotherapy on new patient starts.  
+1.	Analyze the effect of "graduating" patients who have completed a full dose of psychotherapy on new patient starts.  
 2.	Evaluate SMART changes to care “step-up/down” thresholds that would enable the team to increase their overall reach of evidence-based psychotherapy with their current capacity across the four main diagnostic cohorts (AUD, depression, OUD, and PTSD).  
 3.	Develop heuristics around the relative impact of changes in supply versus care “step-up/down” decisions on the ability of the team to provide patients with a complete, timely dose of psychotherapy.  
 4.	Evaluate trade-offs between new patient access and quality for existing patients when setting specific “step-up/down” thresholds.  
