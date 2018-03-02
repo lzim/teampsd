@@ -14,23 +14,20 @@ Session 2. Our Data
 Session 3. Our System  
 1.	Describe the strengths of simulation modeling for improving team decision-making.  
 2.	Define "stock" and "flow" as used in system dynamics.
-3.  Name the two major units, or "stocks", in the Care Coordination model.   
-4.	Identify six team parameters or data inputs for Care Coordination.  
+3.  Name the two primary "stocks" that are included in Care Coordination model.   
+4.	Identify key parameters (data inputs) in the Care Coordination model.  
 
 Session 4. Care Coordination I  
-1.	Describe two primary types of dynamic relationships that cause systems to change over time.  
+1.	Compare and contrast "balancing" and "reinforcing" feedback loops.
 2.	Describe the feedback loop that governs the relationship between existing and new patients.  
-3.	Describe the factors controlling the relationship between the number of patients in care and the backlog of appointments on the schedule.  
-4.	Describe two team decisions that affect how many care coordination appointments are available for new patients.  
-5.	Name two team-influenced factors that affect the care coordination missed appointment rate.  
-6.	Explain how a team’s choice to overbook can have unintended consequences for scheduling of care coordination appointments.  
+3.	Describe two team decisions that affect the availablity of care coordination appointments for new patients.  
+4.	Name two team-influenced factors that affect the care coordination missed appointment rate.  
+6.	Describe an unintended consequence of overbooking care coordination appointments.
 
 Session 5. Care Coordination II  
-1.	Describe trade-offs between allocating appointments for new versus existing patients in terms quality versus access, and for whom.  
-2.	Distinguish between external and team-based drivers for new patient referrals and understand how these are connected to wait times and the ability to start patients in care coordination.  
-3.	Name two decisions within a team’s control to optimize its delivery of care coordination services to veterans.  
-4.	Experiment with changing the average return visit interval and number of new patient carve-outs to develop heuristics around how these clinical and operational changes affect new patient wait times.   
-5.	Evaluate SMART clinic management changes that would enable the team to meet historic new patient demand, given the current supply of providers.  
+1.	Describe trade-offs in allocating appointments for new versus existing patients.  
+2.	Distinguish between external and team-based drivers affecting wait times and capacity to start new care coordination patients.  
+3.  Demonstrate how the Care Coordination model can be used to inform management of new patient wait times.
 
 Session 6. Med Management I  
 1.	Describe team decisions that affect the number of appointments available for existing medication management patients by diagnostic cohort.  
