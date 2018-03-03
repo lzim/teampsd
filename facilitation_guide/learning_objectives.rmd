@@ -1,12 +1,14 @@
-testing branch
+Session 1 - Our Vision 
+CORE OBJECTIVE: To understand Modeling to Learn (MTL) as a way to address a team's needs in meeting VA standards and initiatives using localized patient and provider data.
 
-Session 1 - Our Vision  
 1.	Explain how Modeling to Learn (MTL) seeks to promote team work to improve quality of care.  
 2.	Articulate a team need that MTL will address.  
 3.	Recognize trade offs in quality of work life and quality of care.  
 4.	Describe how MTL uses patient and provider data to support VA standards and initiatives.  
 
 Session 2. Our Data  
+CORE OBJECTIVE: To develop familiarity in accessing localized team data.
+
 1.	Demonstrate how to access and update the team’s patient data on the SharePoint site.  
 2.	Identify a specific patient in the team data.  
 3.	Describe how the team data are categorized into visits by CPT Codes.  
@@ -14,12 +16,16 @@ Session 2. Our Data
 5.	Describe the limits of retrospective data review for guiding change.  
 
 Session 3. Our System  
+CORE OBJECTIVE: To simulate clinic units (stocks: e.g., appointments available, and flows: e.g., booking rate) in the Care Coordination model in order to improve team decision making.
+
 1.	Describe the strengths of simulation modeling for improving team decision-making.  
 2.	Define "stock" and "flow" as used in system dynamics.
 3.  Name the two primary "stocks" that are included in Care Coordination model.   
 4.	Identify key parameters (data inputs) in the Care Coordination model.  
 
 Session 4. Care Coordination I  
+CORE OBJECTIVE: To compare and contrast "balancing" and reinforcing" feedback loops affecting patient flow through care coordination appointments.
+
 1.	Compare and contrast "balancing" and "reinforcing" feedback loops.
 2.	Describe the feedback loop that governs the relationship between existing and new patients.  
 3.	Describe two team decisions that affect the availablity of care coordination appointments for new patients.  
@@ -27,16 +33,19 @@ Session 4. Care Coordination I
 6.	Describe an unintended consequence of overbooking care coordination appointments.
 
 Session 5. Care Coordination II  
+CORE OBJECTIVE: To examine external and team-based factors as well as trade-offs affecting appointments for new versus existing patients in care coordination.
 1.	Describe trade-offs in allocating appointments for new versus existing patients.  
 2.	Distinguish between external and team-based drivers affecting wait times and capacity to start new care coordination patients.  
 3.  Demonstrate how the Care Coordination model can be used to inform management of new patient wait times.
 
 Session 6. Med Management I  
+CORE OBJECTIVE: To examine the impact of return visit intervals on patient flow through medication management appointments. 
 1.	Describe team decisions that affect the number of appointments available for existing medication management patients by diagnostic cohort.  
 2.	Describe how return visit intervals can be used by the team to adjust the balance between new and existing medication management patients across diagnostic cohorts.  
 3.	Explore how differences in desired average return visit intervals, missed appointment rates, and overbooked appointments across four main diagnostic cohorts affect the team’s ability to provide evidence-based medication management services.  
 
 Session 7. Med Management II  
+
 1.	Describe decisions teams can make to optimize their delivery of evidence-based medication management services.  
 2.	Evaluate trade-offs in timeliness and quality when setting specific return visit intervals for patients based on diagnosis.   
 3.	Explain how teams could effectively manage new patient demand for each diagnostic cohort, given current staffing and training.  
