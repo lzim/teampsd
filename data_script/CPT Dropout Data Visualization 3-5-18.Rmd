@@ -345,4 +345,4 @@ CPT appointments
 
 plot(encountersub.df$quarteryear, encountersub.df$cpt_initial_appoints, col='blue')
 ```
-##I am not that clear on how to interpret this box/whisker plot at the moment with the data prior to 2014Q3 so 
+##I am not that clear on how to interpret this box/whisker plot at the moment with the data prior to 2014Q3 so I will pause here to resume tomorrow.
