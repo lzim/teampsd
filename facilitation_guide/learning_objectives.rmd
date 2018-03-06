@@ -1,5 +1,3 @@
--- Primary objectives marked with "--" --
-
 -Session 1 - Our Vision  
 1.	Explain how Modeling to Learn seeks to align the health care team in working together to improve quality of care.  
 2.	Articulate a team need that MTL will address.  
@@ -16,55 +14,40 @@ Session 2. Our Data
 Session 3. Our System  
 1.	Describe the strengths of simulation for guiding team decision making.  
 2.	Name the two major units or "stocks" in the clinic.  
---3.	Specify the relationship between stocks and flows in a stock and flow diagram.  
+*3.	Specify the relationship between stocks and flows in a stock and flow diagram.*  
 4.	Identify six team parameters or data inputs for Care Coordination.  
 5.	Describe two primary types of dynamic relationships that cause systems to change over time.  
 
 Session 4. Care Coordination I  
 1. Describe the factors controlling the relationship between the number of patients in care and the backlog of appointments on the schedule.
-          The model has no "appiontment calendar," so there can be some difficulty understanding and accepting how the model keeps track of appointments. In the real world, usually each patient only has one appiontment in the calendar at any given time.  Each appointment is created as soon as their current appointment has passed, at the desired return visit interval.  Since the model is of the entire patient cohort, it doesn't track individual patients, or their individual appointments.  Instead, the entire cohort generates a certain number of appointments each week, based on the RVI. So, if the RVI is every week, then the entire cohort will get an appointment booked for them every week. If the RVI is every month, then only 1/4 of the cohort will get an appointment booked each week.  These appointments accumulate in the backlog of appointments to be seen, or more simply "Appointment Backlog." The same logic applies to appiontment completions: if the RVI is 1 week, then the team will complete all appointments in the backlog each week (if there is enough supply to do it).  If the RVI is 1 month, then the team will only complete 1/4 of the appointments in the backlog each week (again, if there is enough supply).
-
---2.	Describe the feedback loop that governs the relationship between existing and new patients.  
-          Walk through the formulas in that loop, so the logic is crystal clear (existing patients take slots before new patients), and the way team data are used makes sense.  In both systems, providers can only see new patients if there are slots in their schedule that are unfilled by their current patients.  In the real world, this occurs when patients are booked far enough into the future that there are open slots in the near term.  In the model, this occurs when the average number of existing patient appiontments completed each week (based on the number of appointments to be done (the appointment backlog) and the desired return visit interval) is less than the total available supply each week. 
-          Do thought experiment on how a change propigates around the loop, including relative changes (e.g., if you double capacity, then...; if you double RVI, then...).  
-   
+*2.	Describe the feedback loop that governs the relationship between existing and new patients.*  
 3.	Describe two team decisions that affect how many care coordination appointments are available for new patients.  
-          The obvious answer is "add more new patient slots," but what else can they do?  What will happen if they do the straightforward thing of "add more new patient slots"?  Run that experiment, check the "Actual RVI," and then explain that seeing more new patients just fills up their schedules (as depicted by the backlog of appointments to be seen), and prevents them from seeing patients at the interval they want to /is evidence-based best practice. Teams can then experiment with what amount of supply they would need to maintain the standard of care (i.e., Actual RVI = Desired RVI), if they were to keep these new patient carve-outs.  Watch out for running out of "New Patients Waiting to Start CC" (e.g., not being able to fill all their new patient slots).  If necessary, manually adjust the new patient referral rate so referrals don't become a bottleneck. 
-
 4.	Name two team-influenced factors that affect the care coordination missed appointment rate.  
-          Usually, people will focus on the factors that are outside of their control (e.g., patients don't show up when it's snowing, patients just don't care about their visit, referrals were placed without enthusiastic concent). Lead them to things that are in their control, like reminder calls, how they interact with patients when they book visits, how they influence pateints' perceptions of quality/value of visits, etc.).  Ask the team to provide a couple of reasons how their fatigue could impact missed appointments (no-shows, cancel by patient, and cancel by clinic).
 5.	Explain how a team’s choice to overbook can have unintended consequences for scheduling of care coordination appointments.  
-          Experiment with overbooking and sensitivity of missed-appointments and overbooks.  Ask them to estimate how strong they think the connection is in real life.
 
 Session 5. Care Coordination II  
 1.	Describe trade-offs between allocating appointments for new versus existing patients in terms quality versus access, and for whom. 
-          Review their take-aways from their experiments in sesson 4 with adding slots for new patients, RVI, and increasing total supply.  Focus on impacts to new vs. existing patients.  Discuss real-world implications of these trade-offs.  
-          
 2.	Distinguish between external and team-based drivers for new patient referrals and understand how these are connected to wait times and the ability to start patients in care coordination.  
-          Again, push them to name drivers that are within their control, or are at least generated by their own actions.  To keep the  learning from the model actionable, the model excludes all external drivers of new patient referrals.  This is the equivalent of assuming that all these external factors are constant (not that they don't exist, but we're just holding them constant so we can clearly see the effects of team actions/decisions on referrals).  Referrals in the model are influenced by referring providers perceptions of new patient wait time (which is something the team should feel is something they can influence...depending on how they manage the trade-offs discussed in #1).   Discuss how information about their clinic (new patient wait times, sudden openings in the scheulde, etc.) is communicated to referring providers.  If they opened up more slots, would anyone know?
-          
 3.	Name two decisions within a team’s control to optimize its delivery of care coordination services to veterans.  
           Discuss what "optimize" means, given the trade-offs they've been experimenting with.  Discuss short-term vs long-term (sustainable) improvement.
-          
---4.	Experiment with changing the average return visit interval and number of new patient carve-outs to develop heuristics around how these clinical and operational changes affect new patient wait times.   
-          
+*4.	Experiment with changing the average return visit interval and number of new patient carve-outs to develop heuristics around how these clinical and operational changes affect new patient wait times.*   
 5.	Evaluate SMART clinic management changes that would enable the team to meet historic new patient demand, given the current supply of providers.  
 
 Session 6. Med Management I  
 1.	Describe team decisions that affect the number of appointments available for existing medication management patients by diagnostic cohort.  
 2.	Describe how return visit intervals can be used by the team to adjust the balance between new and existing medication management patients across diagnostic cohorts.  
---3.	Explore how differences in desired average return visit intervals, missed appointment rates, and overbooked appointments across four main diagnostic cohorts affect the team’s ability to provide evidence-based medication management services.  
+*3.	Explore how differences in desired average return visit intervals, missed appointment rates, and overbooked appointments across four main diagnostic cohorts affect the team’s ability to provide evidence-based medication management services.*  
 4.	Apply lessons learned from Care Coordination sessions to optimizing the delivery of Med Management across four main diagnostic cohorts.  
 5.	Develop new inferences based on the successes and failures of heuristics developed for managing care coordination delivery in the more complicated context of Med Management.  
 
 Session 7. Med Management II  
 1.	Describe decisions within a team’s control to optimize its delivery of evidence-based medication management services to veterans.  
 2.	Evaluate SMART clinic management changes that would enable the team to meet historic new patient demand for each diagnostic cohort with their current capacity and training.  
---3.	Evaluate trade-offs in timeliness and quality when setting specific return visit intervals for patients based on diagnosis.   
+*3.	Evaluate trade-offs in timeliness and quality when setting specific return visit intervals for patients based on diagnosis.*   
 
 Session 8. Psychotherapy I  
 1.	Estimate how much time is spent per week on patients who “will never” receive a complete, timely dose of psychotherapy.  
---2.	Describe the impact of patients who remain in psychotherapy beyond three months on a team’s overall reach of evidence-based psychotherapy services to veterans.   
+*2.	Describe the impact of patients who remain in psychotherapy beyond three months on a team’s overall reach of evidence-based psychotherapy services to veterans.*   
 3.	Experiment with patient care “step-up/down” decisions at key points in the patient pathway to see effects on the team’s ability to provide all patients with a complete, timely dose of psychotherapy.   
 4.	Distinguish between external and team-based drivers of patient scheduling and understand how these are connected to care quality and the ability to start new patients in psychotherapy.  
 
@@ -72,11 +55,11 @@ Session 9. Psychotherapy II
 1.	Analyze the effects of team’s decisions to graduate patients after they receive a complete dose of psychotherapy on new patient starts.  
 2.	Evaluate SMART changes to care “step-up/down” thresholds that would enable the team to increase their overall reach of evidence-based psychotherapy with their current capacity across the four main diagnostic cohorts (AUD, depression, OUD, and PTSD).  
 3.	Develop heuristics around the relative impact of changes in supply versus care “step-up/down” decisions on the ability of the team to provide patients with a complete, timely dose of psychotherapy.  
---4.	Evaluate trade-offs between new patient access and quality for existing patients when setting specific “step-up/down” thresholds.  
+*4.	Evaluate trade-offs between new patient access and quality for existing patients when setting specific “step-up/down” thresholds.*  
 
 Session 10. Aggregate Model I  
 1.	Describe how the allocation of supply among all services provided by the team (Intake, Care Coord, Med Mgmt, Psych, Group, Adjunct) contributes to overall team performance.  
---2.	Describe the multiple effects overtime has on available appointment supply over the short and long term, and evaluate the relative impact of these effects on performance.  
+*2.	Describe the multiple effects overtime has on available appointment supply over the short and long term, and evaluate the relative impact of these effects on performance.*  
 3.	Analyze differences between the appropriate patient start and referral rates given current supply and service characteristics versus the team’s actual start and referral rates.  
 4.	Understand how differences across individual service characteristics (e.g., target return visit interval, patients per appointment, appointment length, patient engagement time, etc.) influence the relative impact of changes to clinical decision thresholds or operations in any service on overall team performance.   
 5.	Analyze the short and long-term effects of the team’s real-world reactions to a growing appointment backlog (e.g., changing the target return visit interval for service(s) versus working overtime for service(s) versus shifting supply to service(s)) on their ability to start new patients.  
