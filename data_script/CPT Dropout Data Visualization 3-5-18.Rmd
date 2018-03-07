@@ -13,27 +13,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Setting up the R environment and datasets
 ```{r}
-#clear memory 
+#clear memory - this helps to remove the environment before beginning each session in case there are objects etc. already stored
 rm(list=ls()) 
 
-#set working directory
+#set working directory - this is the team PSD R folder that the packages are stored in; helps with being able to load packages on VA computers for me
 setwd("//vhapalmpncptsd1/Shared Research/TeamPSD/R")
 
-#check working directory
+#check working directory - ensure that the working directory was accurately set
 getwd()
 
-# Packages required for merging CDW and CPT
+# Packages required for merging CDW and CPT - although it would be good to load tidyverse, i have been unable to do that on VA computers; also ggplot2 is having a hard time as well
 
 library(magrittr)
 library(lubridate)
 library(dplyr)
 library(psych)
 
-#set up both files as dataframes
+#set up both files as dataframes - this comparator file is the main comparator file from November 23, 2016. The dropout file is the CPT dropout data from our collaboration
+
 comparator.df <-read.csv(file="comparatorsites_nov23_16.csv", header=TRUE) 
 dropout.df <- read.csv(file="dropout.csv",header=TRUE) 
 
-#set all variable names as lower case
+#set all variable names as lower case - this assists in coding later on in order to not have confusion about whether the variable names are upper or lower case. especially an issue in the comparator dataset where some variables are named things like socialWorkers (random capital W)
+
 names(comparator.df) <- tolower(names(comparator.df))
 variable.names(comparator.df)
 
@@ -67,7 +69,8 @@ dropout.df <- dropout.df %>%
   mutate(site_yq = paste0(sta6a,"-",year_q)) 
 ```
 
-##select the subset of comparator that we want to work with
+##select the subset of comparator that we want to work with. this is the place to add more variables in the select statement easily based on what we want to work with afterwards.
+
 ```{r}
 
 compsub.df <- comparator.df %>%
