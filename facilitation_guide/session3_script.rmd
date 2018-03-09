@@ -80,7 +80,10 @@ We aim to learn from modeling simulations to improve the day-to-day care coordin
 
 ## Care Coordination Introduction
 **when cpt.CPTCode in ('t1016','90832','90839') then 'Care or support'**
+
 We start with care coordination visits to begin to examine causal dynamics in care and start our learning with a service that all disciplines can equally understand.
+
+The Care Coordination model shows how a variety of team decisions interact to impact multiple operational outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
 
 **1. Care Coordination Patient and Appointment States and Rates (Stock and Flow Diagram)**
 *States/Stocks (rectangles)* depict and calculate where material or informational resources in the clinic accumulate over time. This accumulation creates system lags or delays. In the figure below, there are two stocks “Appointments in CC” (units = # of CC appointments in the team’s clinics/grids) and “Patients in CC” (units = # of CC patients in the team). 
