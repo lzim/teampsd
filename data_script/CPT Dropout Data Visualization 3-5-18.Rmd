@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 rm(list=ls()) 
 
 #set working directory
-setwd("//vhapalmpncptsd1/Shared Research/TeamPSD/R")
+setwd("set this to your working directory")
 
 #check working directory
 getwd()
@@ -30,8 +30,8 @@ library(dplyr)
 library(psych)
 
 #set up both files as dataframes
-comparator.df <-read.csv(file="comparatorsites_nov23_16.csv", header=TRUE) 
-dropout.df <- read.csv(file="dropout.csv",header=TRUE) 
+comparator.df <-read.csv(file="insert name of file number one.csv", header=TRUE) 
+dropout.df <- read.csv(file="insert name of file number two.csv",header=TRUE) 
 
 #set all variable names as lower case
 names(comparator.df) <- tolower(names(comparator.df))
