@@ -3,11 +3,11 @@ title: "Session 4 Script"
 author: "Jane Branscomb, Stacey Park"
 date: "March 2017"
 output: 
-github_document: default
-html_document: default
-ioslides_presentation: default
-slidy_presentation: default
-pdf_document: default
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
 ---
 
 <!--MTL Logo -->
