@@ -24,6 +24,10 @@ pdf_document: default
 ### Overview
 In this session, we walk through the flows and feedbacks related to ________, ________, and _________ in the Care Coordination model. This model shows how a variety of team decisions interact to affect multiple outcomes simultaneously. It lets you explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking, and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.  
 
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
+     height = "150" width = "150"> 
+     
 ### Learning Objectives  
 1.	Identify at least three critical operating decisions that affect a team’s EBP reach given existing staffing.
 2.	Explain the mechanisms by which a team’s choice to work more CC hours through overbooking can potentially produce two opposite effects on appointments scheduled.	
@@ -43,8 +47,16 @@ In this session, we walk through the flows and feedbacks related to ________, __
 
 ## FACILITATION SCRIPT
 
+<!-- Done List Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "135" width = "135">
+
 ### Done
 Let’s go over decisions and actions completed since last review. {insert for each session}
+
+<!-- Do List Icon -->     
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "150" width = "150">
 
 ### Do
 [Go over the session Overview, Learning Objectives, and Agenda.]
@@ -58,7 +70,15 @@ Let’s go over decisions and actions completed since last review. {insert for e
 ### {Icon/topic, instructor, duration}
 	{script} [any explanatory notes for facilitator] 
 
+<!-- Done List Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "135" width = "135">
+
 ### Done
+
+<!-- Do List Icon -->     
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "150" width = "150">
 
 ### Do
 [Go over what is to be done next.]
