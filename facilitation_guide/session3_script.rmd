@@ -4,10 +4,10 @@ author: "Stacey Park"
 date: "December 14, 2017"
 output: 
   github_document: default
-html_document: default
-ioslides_presentation: default
-slidy_presentation: default
-pdf_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
 ---
 
 <!--MTL Logo -->
