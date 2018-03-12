@@ -16,7 +16,7 @@ output:
 
 # Session1: Shared Vision 
 ## FACILITATOR PREP & FOLLOW-UP
-# Shared Vision (TOTAL time 20 minutes)
+
 
 INSERT FACILITATOR ICON
 iNTRODUCTIONS
@@ -32,6 +32,10 @@ iNTRODUCTIONS
 * Team Lead Established
 * Team Meeting 
 
+<!-- Do List Icon -->     
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "150" width = "150">
+     
 ### Do
 * Team Learning Goal
 * Shared Vision
@@ -40,6 +44,17 @@ iNTRODUCTIONS
 
 ### Resources
 	{Insert list of materials, links, software, handouts, etc., needed for the session}
+<!--SharePoint icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
+     height = "75" width = "75" style = "border: 0;">
+### Team Data Sharepoint
+https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
+
+<!--Adobe Connect icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png"
+     height = "75" width = "75" style = "border: 0;">
+### Adobe Connect
+https://va-eerc-ees.adobeconnect.com/team_psd/
 
 ### Preparation
 {Insert things to review, set up, confirm, or communicate in advance of the session}
