@@ -13,14 +13,21 @@ output:
 <!--MTL Logo -->
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
      height = "130" width = "500">  
-# Modeling to Learn Session 1
+
+# Session1: Shared Vision 
+## FACILITATOR PREP & FOLLOW-UP
 # Shared Vision (TOTAL time 20 minutes)
 
 INSERT FACILITATOR ICON
 iNTRODUCTIONS
  Who's in attendance
  Technology check
- 
+
+
+<!-- Done List Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "135" width = "135">
+
 ### Done 
 * Team Lead Established
 * Team Meeting 
@@ -29,7 +36,17 @@ iNTRODUCTIONS
 * Team Learning Goal
 * Shared Vision
 
-INSERT FACILITATOR BACKGROUND TEXT
+### Agenda At-A-Glance {Insert for each session: Icon/topic; Instructor; Duration}
+
+### Resources
+	{Insert list of materials, links, software, handouts, etc., needed for the session}
+
+### Preparation
+{Insert things to review, set up, confirm, or communicate in advance of the session}
+
+### Follow-up
+
+##FACILITATION SCRIPT
 
 We all learn best when we seek to accomplish things that matter to us. Today we want to clarify what we are trying to accomplish together with “Modeling to Learn.” We want this learning process to be something you can commit to because it reflects a key part your own vision for care in this team.  
 
@@ -93,6 +110,7 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 <!-- Done List Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
      height = "135" width = "135">
+
 ### Done 
 * Team Lead
 * Team Data Sharepoint
