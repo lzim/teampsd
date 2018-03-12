@@ -17,7 +17,7 @@ output:
 { } Signifies content to be added by Team PSD for the final Manual.  
 [ ] Signifies explanatory notes and instructions for the facilitator; i.e. things they do not say out loud during session. This content stays in final Manual. How it will be designated/formatted is tbd; GHPC recommendation is that it be in RED font vs. black for script.
 
-# Session1: Shared Vision 
+# Session 1: Shared Vision 
 ## FACILITATOR PREP & FOLLOW-UP
 ### Overview
 We all learn best when we seek to accomplish things that matter to us. Today we want to clarify what we are trying to accomplish together with “Modeling to Learn.” We want this learning process to be something you can commit to because it reflects a key part your own vision for care in this team.  
