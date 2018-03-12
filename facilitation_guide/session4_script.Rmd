@@ -1,6 +1,6 @@
 ---
 title: "Session 4 Script"
-author: "Jane Branscomb, Stacey Park
+author: "Jane Branscomb, Stacey Park"
 date: "March 2017"
 output: 
 github_document: default
@@ -9,6 +9,10 @@ ioslides_presentation: default
 slidy_presentation: default
 pdf_document: default
 ---
+
+<!--MTL Logo -->
+<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
+     height = "130" width = "500">  
 
 { } Signifies content to be added by Team PSD for the final Manual.
 [ ] Signifies explanatory notes and instructions for the facilitator; i.e. things they do not say out loud during session. This content stays in final Manual. How it will be designated/formatted is tbd; GHPC recommendation is that it be in RED font vs. black for script.
