@@ -21,7 +21,7 @@ output:
 ## FACILITATOR PREP & FOLLOW-UP
 
 ### Overview
-	{insert}
+In this session, we walk through the flows and feedbacks related to ________, ________, and _________ in the Psychotherapy model.  This model shows how team psychotherapy decisions interact and depicts patterns of psychotherapy engagement in your team.  You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy.  Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.
 
 ### Learning Objectives  
 1.	{Tbd}
