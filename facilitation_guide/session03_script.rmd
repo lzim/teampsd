@@ -1,7 +1,7 @@
 ---
 title: "Session 3 Script"
 author: "Stacey Park"
-date: "December 14, 2017"
+date: "March 2018"
 output: 
   github_document: default
   html_document: default
@@ -12,18 +12,46 @@ output:
 
 <!--MTL Logo -->
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
-     height = "130" width = "500">  
-# Modeling to Learn Session 3
-# Reviewing Case and Data Selection for Care Coordination Simulation (TOTAL time 30 minutes)
+     height = "130" width = "500"> 
+     
+{ } Signifies content to be added by Team PSD for the final Manual.  
+[ ] Signifies explanatory notes and instructions for the facilitator; i.e. things they do not say out loud during session. This content stays in final Manual. How it will be designated/formatted is tbd; GHPC recommendation is that it be in RED font vs. black for script.
+
+# Session 3: Reviewing Case and Data Selection for Care Coordination Simulation
+## FACILITATOR PREP & FOLLOW-UP
+### Overview
 
 <!-- Learning Objectives Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
      height = "150" width = "150">   
-## Modeling to Learn objectives include activities and competencies that…
-1.	…are meaningful for you and align your learning goals with your team.
-2.	…develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.
-3.	…make VA data, initiatives and standards transparent to you. 
-4.	…empower you to realize ongoing improvements in team quality of care and team quality of work life.
+### Learning Objectives
+1.
+2.
+3.
+4.
+5.
+
+### Agenda At-A-Glance {Insert for each session: Icon/topic; Instructor; Duration}
+
+### Resources
+{Insert list of materials, links, software, handouts, etc., needed for the session}
+
+<!--SharePoint icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
+     height = "75" width = "75" style = "border: 0;">  
+Team Data Sharepoint: https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
+
+<!--Adobe Connect icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png"
+     height = "75" width = "75" style = "border: 0;">  
+Adobe Connect: https://va-eerc-ees.adobeconnect.com/team_psd/
+
+### Preparation
+{Insert things to review, set up, confirm, or communicate in advance of the session}
+
+### Follow-up
+
+## FACILITATION SCRIPT
 
 <!-- Done List Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
@@ -78,7 +106,7 @@ When you explore scenarios like this, you run the simulation to better understan
 
 We aim to learn from modeling simulations to improve the day-to-day care coordination and quality improvement decisions in this team.   
 
-## Care Coordination Introduction
+### Care Coordination Introduction
 **when cpt.CPTCode in ('t1016','90832','90839') then 'Care or support'**
 
 We start with care coordination visits to begin to examine causal dynamics in care and start our learning with a service that all disciplines can equally understand.
@@ -116,20 +144,20 @@ Hint: Here is the equation for calculating the “Ending CC Rate” = Patients i
 
 <img src = https://raw.githubusercontent.com/lzim/teampsd/facilitation_guide/cc_session3_image.png>
 
-<!--Guide Icon-->
-<img src = >
-### Data Tips 'How to' Guide Video
-https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
+<!-- Done List Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "135" width = "135">
 
-<!--SharePoint Icon-->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
-     height = "75" width = "75" style = "border: 0;">
-### Team Data Sharepoint
-https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
+### Done 
+* Team Lead
+* Team Data Sharepoint
+* Team Meeting 
 
+<!-- Do List Icon -->     
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "150" width = "150">
+### Do
+* Team Learning Goal (10 minutes) 
+* Clinical Case (5 minutes) 
+* Data Selected for Simulation (10 minutes)
 
-<!--Adobe Connect Icon-->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png"
-     height = "75" width = "75" style = "border: 0;">
-### Adobe Connect
-https://va-eerc-ees.adobeconnect.com/team_psd/

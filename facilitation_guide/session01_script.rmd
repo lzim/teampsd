@@ -1,7 +1,7 @@
 ---
 title: "Session 1 Script"
 author: "Stacey Park"
-date: "December 2017"
+date: "March 2018"
 output: 
   github_document: default
   html_document: default
@@ -13,24 +13,13 @@ output:
 <!--MTL Logo -->
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
      height = "130" width = "500">  
-# Modeling to Learn Session 1
-# Shared Vision (TOTAL time 20 minutes)
 
-INSERT FACILITATOR ICON
-iNTRODUCTIONS
- Who's in attendance
- Technology check
- 
-### Done 
-* Team Lead Established
-* Team Meeting 
+{ } Signifies content to be added by Team PSD for the final Manual.  
+[ ] Signifies explanatory notes and instructions for the facilitator; i.e. things they do not say out loud during session. This content stays in final Manual. How it will be designated/formatted is tbd; GHPC recommendation is that it be in RED font vs. black for script.
 
-### Do
-* Team Learning Goal
-* Shared Vision
-
-INSERT FACILITATOR BACKGROUND TEXT
-
+# Session 1: Shared Vision 
+## FACILITATOR PREP & FOLLOW-UP
+### Overview
 We all learn best when we seek to accomplish things that matter to us. Today we want to clarify what we are trying to accomplish together with “Modeling to Learn.” We want this learning process to be something you can commit to because it reflects a key part your own vision for care in this team.  
 
 Identifying a shared purpose can be deeply motivating, it requires mutual respect to find common ground and it is something to be created over time together, not just one time.  
@@ -45,7 +34,57 @@ With a shared vision everyone has a common destination and a common picture. The
 
 Team lead and a facilitation team to figure our “What’s better?” in a way that reflects common team aspirations.  
 
-## Prior Team Learning Prompt (5 minutes) - We want to set ground rules for our learning sessions too:  
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
+     height = "150" width = "150">   
+
+### Learning Objectives
+
+1.
+2.
+3.
+4.
+5.
+
+### Agenda At-A-Glance {Insert for each session: Icon/topic; Instructor; Duration}
+
+### Resources
+{Insert list of materials, links, software, handouts, etc., needed for the session}
+
+<!--SharePoint icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
+     height = "75" width = "75" style = "border: 0;">  
+Team Data Sharepoint: https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
+
+<!--Adobe Connect icon-->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png"
+     height = "75" width = "75" style = "border: 0;">  
+Adobe Connect: https://va-eerc-ees.adobeconnect.com/team_psd/
+
+### Preparation
+{Insert things to review, set up, confirm, or communicate in advance of the session}
+
+### Follow-up
+
+## FACILITATION SCRIPT
+
+<!-- Done List Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "135" width = "135">
+
+### Done 
+* Team Lead Established
+* Team Meeting 
+
+<!-- Do List Icon -->     
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
+     height = "150" width = "150">
+     
+### Do
+* Team Learning Goal
+* Shared Vision
+
+### Prior Team Learning Prompt (5 minutes) - We want to set ground rules for our learning sessions too:  
 
 Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when your learned a clinic procedure, and idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an ‘aha!’ or something finally made sense, or you could finally do something your couldn’t before.  
 
@@ -63,28 +102,25 @@ Jot down on scratch paper what it was that made it a good learning experience. W
 * The experience helped the learner understand him or herself
 * The learner had success and accomplishment with challenging work
 
-## Best Case Scenario - Create team language for learning, aligning team decisions when there are roadblocks to consensus:
+### Best Case Scenario - Create team language for learning, aligning team decisions when there are roadblocks to consensus:
 Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings, think about the key people you rely on outside the team, the information and data you use to coordinate care plans, and the feelings you associate with it.  
 
 Now picture the team learning between now and March in a ‘best case’ scenario, where things are happening in the team the way that you would ideally like them to be. This is your “dream team” situation.  
 
-## Personal Vision (5 minutes)  
+### Personal Vision (5 minutes)  
 * What is team communication like?
 * How does the team relate to one another?
 * How is VA data used?
 * How are decisions, plans and changes made?
 
-## Review in Team (5 minutes)  
+### Review in Team (5 minutes)  
 * What stands out to you?
 * Why did we choose these?
 * What makes them so relevant or important to us?
 * Can we address them all (bearing in mind our resources and time)?
 * If not, which would we most like to address (align around), and why?
 
-<!-- Learning Objectives Icon -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
-     height = "150" width = "150">   
-## Putting it Together (10 minutes) - Overall "Modeling to Learn" objectives include activities and competencies that…
+### Putting it Together (10 minutes) - Overall "Modeling to Learn" objectives include activities and competencies that…
 1.	…are meaningful for you and align your learning goals with your team.
 2.	…develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.
 3.	…make VA data, initiatives and standards transparent to you. 
@@ -93,6 +129,7 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 <!-- Done List Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
      height = "135" width = "135">
+
 ### Done 
 * Team Lead
 * Team Data Sharepoint
@@ -106,15 +143,3 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 * Clinical Case (5 minutes) 
 * Data Selected for Simulation (10 minutes)
 
-<!--SharePoint icon-->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
-     height = "75" width = "75" style = "border: 0;">
-### Team Data Sharepoint
-https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/640.aspx
-
-
-<!--Adobe Connect icon-->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png"
-     height = "75" width = "75" style = "border: 0;">
-### Adobe Connect
-https://va-eerc-ees.adobeconnect.com/team_psd/
