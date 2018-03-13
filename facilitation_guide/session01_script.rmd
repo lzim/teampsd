@@ -9,6 +9,7 @@ output:
   slidy_presentation: default
   pdf_document: default
 ---
+**I AM MAKING EDITS***
 
 <!--MTL Logo -->
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
