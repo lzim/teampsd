@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 rm(list=ls()) 
 
 #set working directory
-setwd("//vhapalmpncptsd1/Shared Research/TeamPSD/R")
+setwd("set to your own WD; masked for safety")
 
 #check working directory
 getwd()
@@ -46,8 +46,8 @@ The R version running on my computer is 3.4.2; is it possible that this has some
 
 ```{r}
 #set up both files as dataframes
-comparator.df <- read.csv(file="comparatorsites_nov23_16.csv", header=TRUE) 
-dropout.df <- read.csv(file="dropout.csv",header=TRUE) 
+comparator.df <- read.csv(file="ENTER ACTUAL FILE NAME.csv", header=TRUE) 
+dropout.df <- read.csv(file="ENTER ACTUAL FILE NAME.csv",header=TRUE) 
 
 #set all variable names as lower case
 names(comparator.df) <- tolower(names(comparator.df))
