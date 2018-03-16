@@ -58,8 +58,55 @@ Let’s go over decisions and actions completed since last review. {insert for e
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
      height = "150" width = "150">
 
-### Do
+### Do (30 minutes)
 [Go over the session Overview, Learning Objectives, and Agenda.]
+ 
+
+Describe the factors controlling the relationship between the number of patients in care and the backlog of appointments on the schedule. (5 minutes)
+
+In a discussion, get the group to delve into:
+
+Decision process for booking a current patient’s next visit (who, when, how, why, etc.)
+How far out are they booking right now (look for any conflict between provider’s desired time for their patient’s next visit and the actual time of that next visit)
+
+Facilitator Goal: Group understands the difference between the number of patients they have in care (stock), and the number of appointments they see per week (flow), so even if every patient has an appointment on the schedule, not every patient is seen every week. 
+
+In-depth explanation: There is a key simplifying difference between the model and reality -- The model has no "appointment calendar," so there can be some difficulty understanding and accepting how the model keeps track of appointments. In the real world, usually each patient only has one appointment in the calendar at any given time.  Each appointment is created as soon as their current appointment has passed, at the desired return visit interval.  Since the model is of the entire patient cohort, it doesn't track individual patients, or their individual appointments.  Instead, the entire cohort generates a certain number of appointments each week, based on the RVI. So, if the RVI is every week, then the entire cohort will get an appointment booked for them every week. If the RVI is every month, then only 1/4 of the cohort will get an appointment booked each week.  These appointments accumulate in the backlog of appointments to be seen, or more simply "Appointment Backlog." The same logic applies to appointment completions: if the RVI is 1 week, then the team will complete all appointments in the backlog each week (if there is enough supply to do it).  If the RVI is 1 month, then the team will only complete 1/4 of the appointments in the backlog each week (again, if there is enough supply).
+
+
+Describe the feedback loop that governs the relationship between existing and new patients (10 minutes) 
+
+Break into pairs: Now that the group has a shared understanding of their current process,  have each walk through the formulas in the “Balancing Current and New Patients” loop, so the logic is crystal clear, then ask each pair to explain how one variable works back to the group.  
+
+Next, pairs discuss “thought experiment” on how a change propagates around the loop, including relative changes (e.g., if you double capacity, then...; if you double RVI, then...).  
+
+Facilitator goals: The team understands why and how existing patients take slots before new patients and the way team data are used to individualize the model, and accepts that even though the model is abstract, it captures the important parts of the real-world process.
+
+Namely, that providers can only see new patients if there are slots in their schedule that are unfilled by their current patients.  In the real world, this occurs when patients are booked far enough into the future that there are open slots in the near term.  In the model, this occurs when the average number of existing patient appointments completed each week (based on the number of appointments to be done (the appointment backlog) and the desired return visit interval) is less than the total available supply each week. 
+
+Brainstorm team decisions that will affect how many care coordination appointments are available for new patients, and run experiments testing these decisions (15 minutes) 
+
+Facilitator goals:  Push them to identify what they can do that is under their control.  Ask them to think through the consequences of any decision before they conduct any experiments.  
+ 
+In-depth notes: The obvious solution is to "add more new patient slots,” but this, in fact, will not improve care.  Run that experiment, check the "Actual RVI," and then explain that seeing more new patients just fills up their schedules (as depicted by the backlog of
+appointments to be seen), and prevents them from seeing patients at the interval they want to /is evidence-based best practice.  This is the trade-off between new patient access and quality of care for existing patients.
+
+Teams can then experiment with what amount of supply they would need to maintain the standard of care (i.e., when Actual RVI = Desired RVI), if they were to keep these new patient carve-outs.  Watch out for the teams running out of "New Patients Waiting to Start CC" (e.g., not being able to fill all their new patient slots).  If necessary, manually adjust the new patient referral rate so referrals don't become a bottleneck. This shows how just making changes within their team is often not enough – referring providers need
+to know that they are making more time for new patients, if they want those new carve-outs to be used.
+
+
+Homework?
+
+Name two provider-influenced factors that affect the missed appointment rate in care coordination.   
+
+Facilitator goals: Usually, people will focus on the factors that are outside of their control (e.g., blame the weather - patients don't show up when it's snowing, blame the patients - patients just don't care about their visit, blame the MSAs - referrals were placed without enthusiastic consent). Lead them to things that are in their control, like reminder calls, how they interact with patients when they book visits, how they influence patients’' perceptions of quality/value of visits, etc.).  Ask the team to provide a couple of reasons how their fatigue could impact missed appointments (no-shows, cancel by patient, and cancel by clinic). 
+
+Explain how a team’s choice to overbook can have unintended consequences for scheduling of care coordination appointments.   
+
+Have the learners experiment with overbooking and changing the sensitivity of missed-appointments to overbooks.  Ask them to estimate how strong they think the connection is in real life.
+
+ 
+
 
 ### {Icon/topic, instructor, duration}
 	{script} [any explanatory notes for facilitator] 
