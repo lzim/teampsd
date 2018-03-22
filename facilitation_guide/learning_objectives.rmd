@@ -34,10 +34,9 @@ Session 7. Med Management II
 3. Discuss team strategies for optimizing delivery of evidence-based Medication Management services across four diagnostic cohorts.
 
 Session 8. Psychotherapy I  
-1. Estimate time spent per week on patients who will not receive a complete, timely dose of psychotherapy.
-2. Describe how patients who remain in psychotherapy beyond three months impact a team’s overall reach of evidence-based psychotherapy. 
-3.	Experiment with patient care “step-up/down” decisions at key points in the patient pathway to see effects on the team’s ability to provide all patients with a complete, timely dose of psychotherapy.  
-4.	Distinguish between external and team-based drivers of patient scheduling and how they impact care quality and the ability to start new patients.  
+1.	State what portion of the team’s patients complete psychotherapy within three months.
+2.	Identify what percent of the team’s patients have an EBP template.
+3.	Describe how changing the median engagement time of patients beyond 3 months impacts a team’s overall reach of evidence-based psychotherapy.
 
 Session 9. Psychotherapy II  
 1.	Analyze the effect of "graduating" patients who have completed a full dose of psychotherapy on new patient starts.  
