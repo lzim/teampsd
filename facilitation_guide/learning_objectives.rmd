@@ -24,16 +24,14 @@ Session 5. Care Coordination II
 3.	Discuss clinic management strategies for optimizing delivery of Care Coordination to new and existing patients with current resources. 
 
 Session 6. Med Management I  
-1.	Describe team decisions that affect the number of appointments available for existing medication management patients by diagnostic cohort. 
-2.	Describe how return visit intervals can be used by the team to adjust the balance between new and existing medication management patients across diagnostic cohorts.  
-3.	*Explore how differences in desired average return visit intervals, missed appointment rates, and overbooked appointments across four main diagnostic cohorts affect the team’s ability to provide evidence-based medication management services.*  
-4.  Apply lessons learned from Care Coordination sessions to optimizing delivery of Med Management across the four main diagnostic cohorts.
-5. Develop new inferences based on the successes and failures of "rules-of-thumb" developed for managing Care Coordination in the more complicated context of Med Management.
+1. Name two decisions teams can make that affect their balance of appointments between new and existing Medication Management patients.
+2. Describe how changing the target return visit interval for existing Medication Management patients has different effects for the different diagnostic cohorts (AUD, OUD, depression).
+3. Discuss observations from a MTL experiment in balancing existing and new Medication Management patients across four diagnostic cohorts.
 
 Session 7. Med Management II  
-1.	Describe decisions teams can make to optimize their delivery of evidence-based Medication Management services.  
-2.	*Evaluate trade-offs in timeliness and quality when setting specific return visit intervals for patients based on diagnosis.*   
-3.	Explain how teams could effectively manage new patient demand for each diagnostic cohort, given current staffing and training.  
+1. Describe a potential downside to a team’s use of over-booking in response to high demand for Medication Management appointments.
+2. Discuss the pros and cons for overall team goals of having more current team members obtain x-waivers so they can provide Medication Management for OUD patients.
+3. Discuss team strategies for optimizing delivery of evidence-based Medication Management services across four diagnostic cohorts.
 
 Session 8. Psychotherapy I  
 1. Estimate time spent per week on patients who will not receive a complete, timely dose of psychotherapy.
