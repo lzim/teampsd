@@ -1,37 +1,27 @@
 Session 1 - Our Vision  
-1.	Explain how Modeling to Learn (MTL) seeks to promote team work to improve quality of care.  
-2.	Articulate a team need that MTL will address.  
-3.	Recognize trade offs in quality of work life and quality of care.  
-4.	Describe how MTL uses patient and provider data to support VA standards and initiatives.  
+1.	Articulate an initial, shared vision for quality of care for veterans, including delivery of evidence-based psychotherapies and pharmacotherapies (EBPs), and quality work life for team members.
+2.	Explain how Modeling to Learn (MTL) seeks to help the team move toward its vision for care and work life.
+3.	Describe agreed-upon roles and expectations of team members for MTL.
 
 Session 2. Our Data  
-1.	Demonstrate how to access and update the team’s patient data on the SharePoint site.  
-2.	Identify a specific patient in the team data.  
-3.	Describe how the team data are categorized into visits by CPT Codes.  
-4.	Specify the team’s preferred data for Modeling to Learn. 
-Gather opinions about the type of data that is most salient for provider disciplines (...then in future sessions can draw a link between daviergent types of data needs per provider group in the context of the system. 
-5.	Describe the limits of retrospective data review for guiding change.  
+1.	Navigate the team’s patient data on the MTL tool accessed through SharePoint. 
+2.	Describe the patient and provider data used in MTL to support VA standards and initiatives.
+3.	Outline the limits of reviewing past team data in guiding change.
 
 Session 3. Our System  
-1.	Describe the strengths of simulation modeling for improving team decision-making.  
-2.	*Define "stock" and "flow" as used in system dynamics.*
-3.  Name the two primary "stocks" that are included in Care Coordination model.   
-4.	Identify key parameters (data inputs) in the Care Coordination model.
-5.  Compare and contrast "balancing" and "reinforcing" feedback loops.
+1.	Describe the strengths of experimenting with system models for guiding change.
+2.	Define the terms and symbols of a system dynamics diagram.
+3.	Describe two types of dynamic relationships that drive systems’ behavior over time.
 
 Session 4. Care Coordination I  
-1.	Describe the factors controlling the relationship between the number of patients in care and the backlog of appointments on the team's schedule.
-2.	*Describe the feedback loop that governs the relationship between existing and new patients.*  
-3.	Describe two team decisions that affect the availablity of care coordination appointments for new patients.  
-4.	Name two team-influenced factors that affect the care coordination missed appointment rate.  
-6.	Describe an unintended consequence of overbooking care coordination appointments.
+1.	Navigate the MTL online interface.
+2.	Describe how scheduling decisions for existing and new patients are interrelated.
+3.	Discuss observations from an MTL experiment in balancing existing and new Care Coordination patients.
 
 Session 5. Care Coordination II  
-1.	Describe trade-offs between allocating appointments for new versus existing patients in terms quality versus access, and for whom.  
-2.	Distinguish between external and team-based drivers affecting new patient referrals and understand how these are connected to wait times and the ability to start patients in care coordination.  
-3.	Name two decisions within a team’s control to optimize its delivery of care coordination services to veterans.  
-4.	*Experiment with changing the average return visit interval and number of new patient carve-outs to develop rules-of-thumb around how these clinical and operational changes affect new patient wait times.*   
-5.	Evaluate SMART clinic management changes that would enable the team to meet historic new patient demand, given the current supply of providers.  
+1.	Explain how a team’s decision to over-book in response to scheduling demands can affect patient no-shows.
+2.	Describe how the patient return visit interval a team targets can affect new patient wait times. 
+3.	Discuss clinic management strategies for optimizing delivery of Care Coordination to new and existing patients with current resources. 
 
 Session 6. Med Management I  
 1.	Describe team decisions that affect the number of appointments available for existing medication management patients by diagnostic cohort. 
