@@ -1,23 +1,17 @@
-Session 1 - Our Vision  
-1.	Explain how Modeling to Learn (MTL) seeks to promote team work to improve quality of care.  
-2.	Articulate a team need that MTL will address.  
-3.	Recognize trade offs in quality of work life and quality of care.  
-4.	Describe how MTL uses patient and provider data to support VA standards and initiatives.  
+Session 1 - Team Vision  
+1.	Articulate the team’s vision of quality care for veterans – including delivery of evidence-based psychotherapies and pharmacotherapies (EBPs) – with quality work-life for team members.
+2.	Reflect on how the individual’s goals for professional service and work life align with the team’s vision.
+3.	Summarize how Modeling to Learn (MTL) will empower the team to make ongoing improvements in team quality of care and team quality of work-life 
 
-Session 2. Our Data  
-1.	Demonstrate how to access and update the team’s patient data on the SharePoint site.  
-2.	Identify a specific patient in the team data.  
-3.	Describe how the team data are categorized into visits by CPT Codes.  
-4.	Specify the team’s preferred data for Modeling to Learn. 
-Gather opinions about the type of data that is most salient for provider disciplines (...then in future sessions can draw a link between daviergent types of data needs per provider group in the context of the system. 
-5.	Describe the limits of retrospective data review for guiding change.  
+Session 2. Team Data  
+1.	Describe the individual and aggregated patient data made accessible to the team through the MTL data tool.
+2.	Reflect on the implications for quality care or quality work-life of an observed trend in team data. 
+3.	Use the MTL data tool to identify individual patients who make up observed team-level trends.  
 
-Session 3. Our System  
-1.	Describe the strengths of simulation modeling for improving team decision-making.  
-2.	*Define "stock" and "flow" as used in system dynamics.*
-3.  Name the two primary "stocks" that are included in Care Coordination model.   
-4.	Identify key parameters (data inputs) in the Care Coordination model.
-5.  Compare and contrast "balancing" and "reinforcing" feedback loops.
+Session 3. Team Need and Plan 
+1.	Identify a trend in service delivery or outcomes (e.g., new patient wait times; provider overwork; etc.) that the team would like to improve.
+2.	Describe why this trend is important within the context of the team’s vision for quality care for veterans and quality work-life for team members.
+3.	Outline the team’s plan to focus on the identified need using MTL.
 
 Session 4. Care Coordination I  
 1.	Describe the factors controlling the relationship between the number of patients in care and the backlog of appointments on the team's schedule.
