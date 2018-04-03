@@ -28,17 +28,16 @@ Session 4. Care Coordination I
 
 Session 5. Care Coordination II  
 1.	Describe trade-offs between allocating appointments for new versus existing patients in terms quality versus access, and for whom.  
-2.	Distinguish between external and team-based drivers affecting new patient referrals and understand how these are connected to wait times and the ability to start patients in care coordination.  
+2.	Distinguish between external and team-based drivers affecting new patient referrals and understand how these explain wait times and the ability to start patients in care coordination.  
 3.	Name two decisions within a team’s control to optimize its delivery of care coordination services to veterans.  
 4.	*Experiment with changing the average return visit interval and number of new patient carve-outs to develop rules-of-thumb around how these clinical and operational changes affect new patient wait times.*   
 5.	Evaluate SMART clinic management changes that would enable the team to meet historic new patient demand, given the current supply of providers.  
 
 Session 6. Med Management I  
-1.	Describe team decisions that affect the number of appointments available for existing medication management patients by diagnostic cohort. 
-2.	Describe how return visit intervals can be used by the team to adjust the balance between new and existing medication management patients across diagnostic cohorts.  
-3.	*Explore how differences in desired average return visit intervals, missed appointment rates, and overbooked appointments across four main diagnostic cohorts affect the team’s ability to provide evidence-based medication management services.*  
-4.  Apply lessons learned from Care Coordination sessions to optimizing delivery of Med Management across the four main diagnostic cohorts.
-5. Develop new inferences based on the successes and failures of "rules-of-thumb" developed for managing Care Coordination in the more complicated context of Med Management.
+1.	Describe team decisions about return visit intervals can help to optimize the number of appointments available for existing medication management patients by diagnostic cohort. 
+2.	*Explore how differences in desired average return visit intervals, missed appointment rates, and overbooked appointments across four main diagnostic cohorts affect the team’s ability to provide evidence-based medication management services.*  
+3.  Apply lessons learned from Care Coordination sessions to optimizing delivery of Med Management across the four main diagnostic cohorts.
+4. Specify useful inferences derived from the team's successes and failures of "rules-of-thumb" for managing Care Coordination in the more complicated context of Med Management.
 
 Session 7. Med Management II  
 1.	Describe decisions teams can make to optimize their delivery of evidence-based Medication Management services.  
@@ -48,7 +47,7 @@ Session 7. Med Management II
 Session 8. Psychotherapy I  
 1. Estimate time spent per week on patients who will not receive a complete, timely dose of psychotherapy.
 2. Describe how patients who remain in psychotherapy beyond three months impact a team’s overall reach of evidence-based psychotherapy. 
-3.	Experiment with patient care “step-up/down” decisions at key points in the patient pathway to see effects on the team’s ability to provide all patients with a complete, timely dose of psychotherapy.  
+3. Experiment with patient care “step-up/down” decisions at key points in the patient pathway to see effects on the team’s ability to provide all patients with a complete, timely dose of psychotherapy.  
 4.	Distinguish between external and team-based drivers of patient scheduling and how they impact care quality and the ability to start new patients.  
 
 Session 9. Psychotherapy II  
