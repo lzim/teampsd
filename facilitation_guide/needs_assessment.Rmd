@@ -1,30 +1,20 @@
-**1. Our team needs insights on what contributes to backlog in Care Coordination appointment**  
-4 = Yes, a very high priority given our team's needs right now  
-3 = Yes, a moderately high priority given our team's needs right now  
-2 = Neutral, may be important, but is not a top priority given our team's needs right now  
-1 = no, low priority given our team's needs right now  
-0 = No, not at all a priority given our team's needs right now  
-
-**2. Our team needs insights on clinic limitations to starting new patients in Care Coordination**  
 4 = Yes, a very high priority given our tema's needs right now  
 3 = Yes, a moderately high priority given our team's needs right now  
 2 = Neutral, may be important, but is not a top priority given our team's needs right now  
 1 = no, low priority given our team's needs right now  
 0 = No, not at all a priority given our team's needs right now  
+**Please rate the following statements based on the scale above**  
 
-**3. Our team needs insights on the average return to clinic interval we need to target to meet new patient demand in Care Coordination**   
-4 = Yes, a very high priority given our team's needs right now  
-3 = Yes, a moderately high priority given our team's needs right now  
-2 = Neutral, may be important, but is not a top priority given our team's needs right now  
-1 = no, low priority given our team's needs right now  
-0 = No, not at all a priority given our team's needs right now  
-
-**4. Our team needs insights on how many appointment sons to starting new patients in Care Coordination**  
-4 = Yes, a very high priority given our tema's needs right now  
-3 = Yes, a moderately high priority given our team's needs right now  
-2 = Neutral, may be important, but is not a top priority given our team's needs right now  
-1 = no, low priority given our team's needs right now  
-0 = No, not at all a priority given our team's needs right now  
-
-
+1. Our team needs insights on what contributes to backlog in Care Coordination appointment  
+2. Our team needs insights on clinic limitations to starting new patients in Care Coordination  
+3. Our team needs insights on the average return to clinic interval we need to target to meet new patient demand in Care Coordination   
+4. Our team needs insights about how many appointment slots the team needs to allocate for new Care Coordination patients in order to balance new and existing patients  
+5. Our team needs insights about how overbooking Care Coordination staff can negatively impact quality of care for veterans  
+6. Our team needs insights on the impact of missed Care Coordination appointments on wait times for new patients  
+7. Our team needs insights about how to determine the feasibility of meeting all new patient demand in Care Coordination without adding staff or compromising quality  
+8. Our team needs insights about how to develop rules for setting the target average return to clinic interval and number of appointment slots allocated for new Care Coordination patients  
+9. Our team needs insights on how new patient wait times in Care Coordination affect future referrals  
+10. Our team needs insights  
+11. Our team needs insights about how to test hypotheses through modeling to see if they produce effective and sustainable results  
+12. Our team needs insights on how to manage the trade-off between providing timely access to care for new patients in Care Coordination and maintaining quality care for veterans currently in care  
 
