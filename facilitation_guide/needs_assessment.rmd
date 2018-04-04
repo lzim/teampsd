@@ -28,8 +28,31 @@
 19. Our team needs insights about how to determine the feasibility of meeting all new patient demand across the diagnostic cohorts in Medication Management without adding staff or compromising quality.  
 20. Our team needs insights about how to develop rules for setting the target average return to clinic interval and number of appointment slots allocated for new patients across the diagnostic cohorts in Medication Management.  
 21. Our team needs insights on how new patient wait times across the diagnostic cohorts in Medication Management affect future referrals.  
-22. Our team needs insights on how to formulate hypotheses about potential clinic improvements the team could implement in Medication Management.
-23. Our team needs insights about how to test hypotheses through modeling to see if they produce effective and sustainable results in Medication Management.   
+22. Our team needs insights on how to formulate hypotheses about potential clinic improvements the team could implement in Medication Management.  
+23. Our team needs insights about how to test hypotheses through modeling to see if they produce effective and sustainable results in Medication Management.  
 24. Our team needs insights on how to manage the trade-off between providing timely access to care for new patients across the diagnostic cohorts in Medication Management and maintaining quality care for veterans currently in care.  
-13.
+25. Our team needs insights on variation in patients' visit frequency and psychotherapy treatment duration.  
+26. Our team needs insights on how much provider time is spent on patients who never receive a complete, timely dose of psychotherapy.
+27. Our team needs insights about how patients who remain in psychotherapy beyond three months impact the team's overall EBP reach.  
+28. Our team needs insights about how many appointment slots the team needs to allocate for new patients in Psychotherapy in order to balance new and existing patients.  
+29. Our team needs insights about how changing the percentage of patients who graduate after a complete dose of Psychotherapy impacts slots available for new patients to start.  
+30. Our team needs insights about the effect of stepping patients up/down in care on the team's ability to provide all patients with a complete, timely dose of Psychotherapy.
+31. Our team needs insights about how to determine the feasibility of meeting all new patient demand in Psychotherapy without adding staff or compromising quality.  
+32. Our team needs insights about how to develop rules for setting the target average return to clinic interval and number of appointment slots allocated for new patients in Psychotherapy.  
+33. Our team needs insights about the impact of decisions to step patients up/down in care across diagnostic cohorts.
+34. Our team needs insights on how to formulate hypotheses about potential clinic improvements the team could implement in Psychotherapy.  
+35. Our team needs insights about how to test hypotheses through modeling to see if they produce effective and sustainable results in Psychotherapy.     
+36. Our team needs insights on how to manage the trade-off between providing timely access to care for new patients in Psychotherapy and maintaining quality care for veterans currently in care.  
+37. Our team needs insights on what contributes to backlog in Medication Management patients across the diagnostic cohorts.
+38. Our team needs insights on clinic limitations to starting new patients across the diagnostic cohorts in Medication Management.
+39. Our team needs insights on the average return to clinic interval we need to target to meet new patient demand across the diagnostic cohorts in Medication Management.  
+40. Our team needs insights about how many appointment slots the team needs to allocate for new patients across the diagnostic cohorts in Medication Management in order to balance new and existing patients.  
+41. Our team needs insights about how overbooking Medication Management staff can negatively impact quality of care for veterans.  
+42. Our team needs insights on the impact of missed Medication Management appointments on wait times for new patients.  
+43. Our team needs insights about how to determine the feasibility of meeting all new patient demand across the diagnostic cohorts in Medication Management without adding staff or compromising quality.  
+44. Our team needs insights about how to develop rules for setting the target average return to clinic interval and number of appointment slots allocated for new patients across the diagnostic cohorts in Medication Management.  
+45. Our team needs insights on how new patient wait times across the diagnostic cohorts in Medication Management affect future referrals.  
+46. Our team needs insights on how to formulate hypotheses about potential clinic improvements the team could implement in Medication Management.
+47. Our team needs insights about how to test hypotheses through modeling to see if they produce effective and sustainable results in Medication Management.   
+48. Our team needs insights on how to manage the trade-off between providing timely access to care for new patients across the diagnostic cohorts in Medication Management and maintaining quality care for veterans currently in care.  
 
