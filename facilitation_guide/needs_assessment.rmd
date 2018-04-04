@@ -43,16 +43,15 @@
 34. Our team needs insights on how to formulate hypotheses about potential clinic improvements the team could implement in Psychotherapy.  
 35. Our team needs insights about how to test hypotheses through modeling to see if they produce effective and sustainable results in Psychotherapy.     
 36. Our team needs insights on how to manage the trade-off between providing timely access to care for new patients in Psychotherapy and maintaining quality care for veterans currently in care.  
-37. Our team needs insights on what contributes to backlog in Medication Management patients across the diagnostic cohorts.
-38. Our team needs insights on clinic limitations to starting new patients across the diagnostic cohorts in Medication Management.
-39. Our team needs insights on the average return to clinic interval we need to target to meet new patient demand across the diagnostic cohorts in Medication Management.  
+37. Our team needs insights on what contributes to backlog across all services.
+38. Our team needs insights about how the allocation of supply across all services provided by the team determins patient access to care.
+39. Our team needs insights on the average return to clinic interval we need to target to meet new patient demand across all services.
 40. Our team needs insights about how many appointment slots the team needs to allocate for new patients across the diagnostic cohorts in Medication Management in order to balance new and existing patients.  
-41. Our team needs insights about how overbooking Medication Management staff can negatively impact quality of care for veterans.  
-42. Our team needs insights on the impact of missed Medication Management appointments on wait times for new patients.  
-43. Our team needs insights about how to determine the feasibility of meeting all new patient demand across the diagnostic cohorts in Medication Management without adding staff or compromising quality.  
-44. Our team needs insights about how to develop rules for setting the target average return to clinic interval and number of appointment slots allocated for new patients across the diagnostic cohorts in Medication Management.  
-45. Our team needs insights on how new patient wait times across the diagnostic cohorts in Medication Management affect future referrals.  
-46. Our team needs insights on how to formulate hypotheses about potential clinic improvements the team could implement in Medication Management.
-47. Our team needs insights about how to test hypotheses through modeling to see if they produce effective and sustainable results in Medication Management.   
-48. Our team needs insights on how to manage the trade-off between providing timely access to care for new patients across the diagnostic cohorts in Medication Management and maintaining quality care for veterans currently in care.  
-
+41. Our team needs insights about how overbooking staff across all services can negatively impact quality of care for veterans.  
+42. Our team needs insights on the impact of missed appointments across all services on wait times for new patients.  
+43. Our team needs insights about how to determine the feasibility of meeting all new patient demand across all services provided by the team without adding staff or compromising quality.  
+44. Our team needs insights about how to develop rules for setting the target average return to clinic interval and allocating appointment slots across all services.  
+45. Our team needs insights on how new patient wait times across all services affect future referrals both within and to the team.  
+46. Our team needs insights on how to formulate hypotheses about potential clinic improvements the team could implement across all services.
+47. Our team needs insights about how to test hypotheses through modeling to see if they produce effective and sustainable results across all services.   
+48. Our team needs insights on how to manage the trade-off between providing timely access to care for new patients across all services and maintaining quality care for veterans currently in care.  
