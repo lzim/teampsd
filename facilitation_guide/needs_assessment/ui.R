@@ -1,0 +1,32 @@
+library(shiny)
+
+# Define UI for slider demo application
+shinyUI(pageWithSidebar(
+  
+  #  Application title
+  headerPanel("Team PSD Needs Assessment v.01"),
+  
+  sidebarPanel(
+      # This is intentionally an empty object.
+      h6(textOutput("save.results")),
+      h5("Created by:"),
+         tags$a("Stacey Park based on Francis Smart's Econometrics by Simulation", 
+                href="http://www.econometricsbysimulation.com"),
+      h5("Team PSD GitHub Repository:"),
+         tags$a("Needs Assessment Survey Code", 
+                href=paste0("https://github.com/lzim/teampsd/tree/master/facilitation_guide/needs_assessment")),
+
+      # Display the page counter text.
+      h5(textOutput("counter"))
+      ),
+
+  
+  # Show a table summarizing the values entered
+  mainPanel(
+    # Main Action is where most everything is happenning in the
+    # object (where the welcome message, survey, and results appear)
+    uiOutput("MainAction"),
+    # This displays the action putton Next.
+    actionButton("Click.Counter", "Next")    
+    )
+))
