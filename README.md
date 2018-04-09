@@ -19,9 +19,8 @@ More work to turn this into Facilitation Guide resources is ongoing https://gith
 
 * Our first team issue was developing our style sheets for formatting consistency when using rMarkdown.
 
-We are still working on that...But, we have added several resources that we are using to create a consistent "loook and feel" for Team PSD resources that is consistent with the VHA Graphics and Style reporting requirements.
+We are still working on that...But, we have added several resources that we are using to create a consistent "look and feel" for Team PSD resources that is consistent with the VHA Graphics and Style reporting requirements.
 
 These resources are growing here: https://github.com/LZIM/teampsd/tree/hexagon_icons
 
-testtest
 
