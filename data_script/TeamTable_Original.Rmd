@@ -11,8 +11,10 @@ output: html_document
 library(readxl)
 library(dplyr)
 library(tibble)
+library(tidyr)
 library(knitr)
 library(kableExtra)
+library(htmlTable)
 
 ```
 
@@ -81,7 +83,7 @@ kable(mmpar.table[,-6], col.names = c(rep("",5)), caption = "Team Data" ) %>%
 
 ```{r mm_table_NOdef, echo=FALSE}
 
-htmlTable::htmlTable(mmpar.table[,-6], header = c(rep("",5)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrr")
+htmlTable(mmpar.table[,-6], header = c(rep("",5)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrr")
 
 ```
 
@@ -90,7 +92,7 @@ htmlTable::htmlTable(mmpar.table[,-6], header = c(rep("",5)), rnames = FALSE, cs
 ```{r mm_table_def, echo=FALSE}
 #kable(mmpar.table, col.names = c(rep("",6)), caption = "Team Data" )
 
-htmlTable::htmlTable(mmpar.table, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrrl")
+htmlTable(mmpar.table, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrrl")
 
 ```
 
@@ -137,14 +139,14 @@ agg_def <- aggpar[c(6,2,1,5,3,4),c(1,9)]
 #kable(aggpar.table.body.shrt, booktabs = TRUE, caption = "Team Data")  
 #htmlTable::htmlTable(aggpar.table.body.shrt, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "rrrrr")
 
-htmlTable::htmlTable(aggpar.test, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrr")
+htmlTable(aggpar.test, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrr")
 
 
 ```
 #### Aggregate Table Definition
 
 ```{r agg_table_def, echo=FALSE}
-htmlTable::htmlTable(agg_def, header = c("Concept", "Definition"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data: Aggregate Table Concept Definition", align = "ll")
+htmlTable(agg_def, header = c("Concept", "Definition"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data: Aggregate Table Concept Definition", align = "ll")
 
 ```
 
@@ -157,9 +159,17 @@ psypar1b <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", c
 
 flow <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B3:D7")
 
+rvi <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B8:D12")
+
+med <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B13:D14")
+
+rvi_after <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:D23")
+
+med_after <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B24:D32")
 ```
 
 ```{r psy_setup, include=FALSE}
+# Team Data Table/Appointment Supply columns
 ord1 <- c("Appt. Supply", "% AUD", "% DEP", "% OUD", "% PTSD")
 psypar1 <- rbind.data.frame(psypar1a[1,], psypar1b) %>%
   mutate(X__1 = replace(X__1, X__1 == "PctPTSD", "% PTSD"),
@@ -169,17 +179,103 @@ psypar1 <- rbind.data.frame(psypar1a[1,], psypar1b) %>%
          X__1 = replace(X__1, X__1 == "Baseline Appointment Supply", 
                         "Appt. Supply")) %>%
   mutate_if(is.numeric, funs(as.character)) %>%
-  slice(match(ord1, X__1)) %>%
-  mutate(X__2 == replace(X__2, X__1 == "Appt. Supply", 
-                         paste0(X__2[which(X__1 == "Appt. Supply")], 
-                                " Slots/Week")))
-  
-pflow <- flow
+  slice(match(ord1, X__1))
+
+psypar1$X__2[which(psypar1$X__1 == "Appt. Supply")] <-  
+                         paste0(psypar1$X__2[which(psypar1$X__1 == "Appt. Supply")], 
+                                " Slots/Week")
+#Patient Flow 
+flow.order <- c("Starters who Initiate","Starters who Return Later", "Starters who Quit", "Initiators who Complete","Initiators who Return Later", "Initiators who Quit Early", "Completers who Graduate","Completers who Return")
+
+## Need to calculate
+## Starters who Quit
+## Initiators who Return Later
+## Completers who Return
+flow1 <- flow %>%
+  add_row(X__1 = "Starters who Quit") %>% 
+  add_row(X__1 = "Initiators who Return Later") %>%
+  add_row(X__1 = "Completers who Return") %>%
+  mutate( X__2 = replace(X__2, X__1 == "Starters who Quit", 1 - 
+            (X__2[which(X__1 == "Starters who Initiate")] + 
+               X__2[which(X__1 == "Starters who Return Later")])),
+          X__2 = replace(X__2, X__1 == "Initiators who Return Later", 1 - 
+            (X__2[which(X__1 == "Initiators who Complete")] + 
+               X__2[which(X__1 == "Initiators who Quit Early")])),
+          X__2 = replace(X__2, X__1 == "Completers who Return", 1 - 
+            (X__2[which(X__1 == "Completers who Graduate")]))) %>%
+  slice(match(flow.order, X__1)) %>%
+  mutate(X__2 = paste0(round(X__2, 2)*100, "%"))
+          
+# Return Visit Interval less than 3months
+rvi1 <- c("N/A", "See table below", "N/A", 
+          round(rvi$X__2[which(rvi$X__1 == "Frequency <3mo - 2-7Visits-n-More<3mo")],2) ,
+          "See table below",
+          round(rvi$X__2[which(rvi$X__1 == "Frequency <3mo - 2-7Visits-n-done")],2), 
+          round(rvi$X__2[which(rvi$X__1 == "8plusfreq")],2),
+          "See table below")
+
+# Median Engagement Duration less than 3months
+med1 <- c("Always 1 week", "See table below", "Always 1 week",
+          round(med$X__2[which(med$X__1 == "Avg Time in Visit 2-7-n-Done")], 2),
+          "See table below", 
+          round(med$X__2[which(med$X__1 == "Avg Time in Visit 2-7-More<3mo")],2),
+          "12weeks", "See table below")
+
+
+# Return Visit Interval after than 3months
+visit.order <- c("From 1 Visit", "From 2 to 7 Visits", "From 8 or More Visits")
+rvi2 <- rvi_after %>%
+  mutate(X__3 = sub(".*-(.*)$", "\\1", X__1),
+         Visit = sub(".*-(.*Visit.*)-.*$","\\1", X__1)) %>%
+  select(-X__1) %>%
+  spread(X__3, X__2) %>%
+  mutate(Visit = replace(Visit, Visit ==" 1Visit", "From 1 Visit"),
+         Visit = replace(Visit, Visit =="12Visits", "From 2 to 7 Visits"),
+         Visit = replace(Visit, Visit =="7Visits", "From 8 or More Visits")) %>%
+  slice(match(visit.order, Visit)) %>%
+  select(Visit, LowD, MidD, HighD) %>%
+  rename(`First Quartile` = LowD, Mean = MidD, `4th Quartile` = HighD) %>%
+  mutate_if(is.numeric, funs(round(.,2)))
+
+
+# Median Engagement Duration after than 3months
+med2 <- med_after %>%
+  mutate(X__3 = sub(".* (.* Q.*)$", "\\1", X__1),
+         Visit = sub("^(.*mo).*","\\1", X__1)) %>%
+  select(-X__1) %>%
+  spread(X__3, X__2) %>%
+  mutate(Visit = replace(Visit, Visit =="From1-PL3mo", "From 1 Visit"),
+         Visit = replace(Visit, Visit =="From2-7-PL3mo", "From 2 to 7 Visits"),
+         Visit = replace(Visit, Visit =="From8PL-PL3mo", "From 8 or More Visits"))%>%
+  slice(match(visit.order, Visit)) %>%
+  mutate_if(is.numeric, funs(round(.,2)))
+
+         
+# Upper Table without Definition
+psy1 <- psypar1[,-3] %>%
+  rename(AppSupply = X__1, rate = X__2) %>%
+  add_row(AppSupply = "", rate = "") %>%
+  add_row(AppSupply = "", rate = "") %>%
+  add_row(AppSupply = "", rate = "") %>%
+  cbind(.,flow1[,-3], rvi1, med1)
+
+# Lower Table without Definition
+psy2 <- merge.data.frame(rvi2, med2, by = "Visit") %>%
+  add_row(`First Quartile` = "First Quartile", Mean = "Mean", 
+          `4th Quartile` = "4th Quartile", `Lower Q` = "First Quartile",
+          `Mid Qs` = "Mean", `Upper Q` = "4th Quartile", .before = 1)
 
 ```
 
 #### Psy Table without definition (similar to the UI)
-```{r psy_table, echo=FALSE, include=FALSE}
-# htmlTable::htmlTable(, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "rrrrr")
+```{r psy_table, echo=FALSE}
+htmlTable(psy1, header = c(rep("",2), "Patient Flow", "", "Return Visit \nInterval (weeks)", "Median Engagement \nDuration"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lllrcc")
+
+
+htmlTable(psy2, header = c("", "Return Visit", "Interval after 3", "Months (weeks)",
+                           "Engagement", "Time after 3", "Months (weeks)"),
+          rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", 
+          #caption ="Team Data", 
+          align = "lcccccc" )
 
 ```
