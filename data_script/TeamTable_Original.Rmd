@@ -6,14 +6,21 @@ output: html_document
      
 ---
 
-```{r setup, include=FALSE}
+To use the code in this Rmarkdown for each Model in separate Rmarkdown, please do as follow:
+
+- ensure that all library packages (as listed in the library chunk) are installed
+- copy chuck containing R libraries 
+- copy section of code for each model
+    + setup for each model
+    + table with and/or without definition
+- include "ModelParameters.xlsx" in the same folder, if not then change file pathway to the data source    
+
+```{r library, include=FALSE}
 
 library(readxl)
 library(dplyr)
 library(tibble)
 library(tidyr)
-library(knitr)
-library(kableExtra)
 library(htmlTable)
 
 ```
@@ -30,23 +37,15 @@ ccpar.table$X__2 <- formatC(ccpar.table$X__2, digits = 2, format = "f")
 
 #### CC Table without definition (similar to the UI)
 
-```{r cc_table, echo=FALSE, include=FALSE}
-
-kable(ccpar.table[,-3], col.names = c("",""), booktabs = TRUE, caption = "Team Data")  
-
-```
-
 ```{r cc_table_NOdef, echo=FALSE}
 
-htmlTable::htmlTable(ccpar.table[,-3], header = c("",""), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lr")
+htmlTable(ccpar.table[,-3], header = c("",""), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lr")
 ```
 
 #### CC Table with definition
 
 ```{r cc_table_def, echo=FALSE}
-#kable(ccpar.table, col.names = c("","",""), caption = "Team Data")  
-
-htmlTable::htmlTable(ccpar.table, header = c("","",""), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrl")
+htmlTable(ccpar.table, header = c("","",""), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrl")
 ```
 
 ## Medication Management Model
@@ -57,7 +56,6 @@ mmpar <- read_excel("ModelParameters.xlsx", sheet = "MMParams", col_names = FALS
 
 mmpar.table1 <- mmpar[c(10, 15, 12, 5, 3, 1, 13, 14), c(1,3,2,4:6)] 
               # Missing "Target Wait Time"
-
 
 mmpar.table <- mmpar.table1 %>%
   mutate(X__5 = replace(X__5, X__1 == "Appointment Supply", 
@@ -75,12 +73,6 @@ mmpar.table <- mmpar.table1 %>%
 
 #### MM Table without definition (similar to the UI)
 
-```{r mm_table, echo=FALSE, include= FALSE}
-options(knitr.table.format = "html")
-kable(mmpar.table[,-6], col.names = c(rep("",5)), caption = "Team Data" ) %>%
-  kable_styling(bootstrap_options = "striped", full_width = F)
-```
-
 ```{r mm_table_NOdef, echo=FALSE}
 
 htmlTable(mmpar.table[,-6], header = c(rep("",5)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrr")
@@ -90,7 +82,6 @@ htmlTable(mmpar.table[,-6], header = c(rep("",5)), rnames = FALSE, css.cell = "p
 #### MM Table with definition
 
 ```{r mm_table_def, echo=FALSE}
-#kable(mmpar.table, col.names = c(rep("",6)), caption = "Team Data" )
 
 htmlTable(mmpar.table, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrrl")
 
@@ -136,11 +127,7 @@ agg_def <- aggpar[c(6,2,1,5,3,4),c(1,9)]
 
 ```{r agg_table, echo=FALSE}
 
-#kable(aggpar.table.body.shrt, booktabs = TRUE, caption = "Team Data")  
-#htmlTable::htmlTable(aggpar.table.body.shrt, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "rrrrr")
-
 htmlTable(aggpar.test, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrr")
-
 
 ```
 #### Aggregate Table Definition
@@ -155,17 +142,17 @@ htmlTable(agg_def, header = c("Concept", "Definition"), rnames = FALSE, css.cell
 ```{r psy_datafiles, include=FALSE}
 psypar1a <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B35:D36")
 
-psypar1b <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B40:D43")
+psypar1b <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B40:D43")
 
-flow <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B3:D7")
+flow <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B3:D7")
 
-rvi <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B8:D12")
+rvi <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B8:D12")
 
-med <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B13:D14")
+med <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B13:D14")
 
-rvi_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:D23")
+rvi_after <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:D23")
 
-med_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B24:D32")
+med_after <- read_excel("./original/modelparameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B24:D32")
 ```
 
 ```{r psy_setup, include=FALSE}
