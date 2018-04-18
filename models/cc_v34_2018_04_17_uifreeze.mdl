@@ -1,0 +1,1124 @@
+{UTF-8}
+Referrals after Experiment Week=
+	EQ Referrals Necessary to Maintain Wait Time
+	~	Patient/Week
+	~	Sets the base referral rate after Week 0 to the equilibrium value.  This \
+		allows the user to see the relative effects of their policy experiments \
+		(all conducted after Week 0) on new patient wait time.
+	|
+
+EQ Current Appointment Supply=
+	EQ Baseline Appointment Supply
+	~	Appointment/Week
+	~	The appointments available for patient care depends on the baseline number \
+		of appointments offered and the additional appointments squeezed into the \
+		schedule through overbooking.
+	|
+
+EQ Desired Appointment Completion Rate=
+	EQ Appointments in CC/EQ Return Visit Interval used when Booking
+	~	Appointment/Week
+	~	The desired completion rate depends on the number of appointments to \
+		complete and the desired return visit interval.
+	|
+
+EQ Ending CC Rate=
+	EQ Patients in CC/EQ Median Engagement Time in CC
+	~	Patient/Week
+	~	The number of patients finishing the service is a function the number of \
+		patients in treatment and their median time in treatment.
+	|
+
+EQ Maximum Start Rate=
+	EQ Patients Waiting to Start CC/EQ Minimum Time to Schedule
+	~	Patient/Week
+	~	The maximum new patient start rate is determined by the new patient \
+		waiting list and minimum time to schedule patient appointments.
+	|
+
+EQ Median Engagement Time in CC=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B12')
+	~	Week
+	~	Median engagement time estimated from the team's own data.
+	|
+
+EQ Minimum Time to Schedule=
+	0.1
+	~	Week
+	~	The fastest possible time to schedule a new patient appointment.
+	|
+
+EQ Patients in CC= INTEG (
+	EQ Starting CC Rate-EQ Ending CC Rate,
+		1)
+	~	Patient
+	~	Total number of patients in treatment, initial value set 1, to show how \
+		the clinic fills up as the model comes to equilibrium.
+	|
+
+EQ Patients per Appointment=
+	1
+	~	Patient/Appointment
+	~	Always 1 patient per appointment, except for group visits.
+	|
+
+EQ Patients Waiting to Start CC= INTEG (
+	EQ Referrals to CC Rate-EQ Starting CC Rate,
+		EQ Appointments Available for New Patients*EQ Patients per Appointment*EQ Team Data on New Patient Wait Time\
+		)
+	~	Patient
+	~	Total number of patients waiting to start the service, initial value set \
+		to provide the desired wait time in equilibrium.
+	|
+
+EQ Referrals Necessary to Maintain Wait Time=
+	MIN((EQ Patients Waiting to Start CC/EQ Team Data on New Patient Wait Time)*((ZIDZ(EQ Team Data on New Patient Wait Time\
+		,EQ Actual New Patient Wait Time
+	))^10),100)
+	~	Patient/Week
+	~	Endogenously generated referral rate to maintain the new patient wait time \
+		goal.  It is capped at 100; exponent makes it very sensitive to changes in \
+		start rate.
+	|
+
+EQ Referrals to CC Rate=
+	EQ Referrals Necessary to Maintain Wait Time
+	~	Patient/Week
+	~	The number of referrals is currently unmeasurable, and is thus \
+		endogeneously generated to maintain the new patient wait time (either as \
+		measured from the team's data, or using their desired new patient wait \
+		time) during initialization.  After week 0, that base referral rate is \
+		held, but can be affected by both the "Effect of Care Delays on Referrals" \
+		and any user experiments with additional referrals. This allows the user \
+		to observe relative changes in the new patient wait time.
+	|
+
+EQ Rescheduling Appointments Rate=
+	EQ Appointments to Reschedule/EQ Time to Reschedule
+	~	Appointment/Week
+	~	The rescheduling rate depends on the total number of appointments to \
+		reschedule and the average time it takes to reschedule them.
+	|
+
+EQ Starting CC Rate=
+	MIN(
+	EQ Maximum Start Rate, 
+	EQ Appointments Available for New Patients*EQ Patients per Appointment
+	)
+	~	Patient/Week
+	~	The number of patients starting the service is a function the team's time \
+		allocated to that service, allowing the model to start in equilibrium. The \
+		user can also set the start rate to instead be based on the team's data, \
+		which can be helpful in assessing the supply and RVI needed to meet their \
+		real-world demand.
+	|
+
+EQ Team Data on New Patient Wait Time=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B7')
+	~	Week
+	~	New patients' mean wait time based on team's own data.
+	|
+
+EQ Team Data on RVI=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B5')
+	~	Week
+	~	Actual median return visit interval, based on team's own data.
+	|
+
+EQ Team Data on True Missed Appointment Percentage=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B3')
+	~	Dmnl
+	~	The missed appointment rate based on team's own data.
+	|
+
+EQ Actual New Patient Wait Time=
+	MIN(IF THEN ELSE(EQ Patients Waiting to Start CC<0.05, 0.01, XIDZ(EQ Patients Waiting to Start CC\
+		,EQ Starting CC Rate, 24)),24)
+	~	Week
+	~	By Little's Law, the average wait time for new patients is the quotient of the \
+		number of patients waiting and the rate at which they start service.
+		This wait time is only useful when testing the effects of Care Delays on \
+		Referrals, or the effect of Additional Referrals. Otherwise, the model \
+		will adjust the number of referrals to maintain the desired new patient \
+		wait time (i.e., the team will only get as many referrals as they can \
+		handle).  If the new patient start rate drops to zero, then the wait is \
+		technically infinite, as no patients are leaving the queue. In the model, \
+		referrals are never discontinued due to high wait times, but for ease of \
+		display, new patient wait time is capped at 6 months (24 weeks). It is \
+		also constrained from going to zero as the number of patients waiting to \
+		start approaches zero.
+	|
+
+EQ Actual RVI=
+	MIN(XIDZ(EQ Appointments in CC,EQ Completing CC Rate, 52),52)
+	~	Week
+	~	By Little's Law, the average time between appointments for existing \
+		patients is the quotient of the number of appointments and the rate at \
+		which they are completed.  If there is more demand for completing \
+		appointments than there is available capacity, then actual return visit \
+		interval will increase, even if the desired RVI doesn't change.  If the \
+		completing appointment rate drops to zero, then the wait is technically \
+		infinite. In the model, appointments are never cancelled due to high wait \
+		times, but for ease of display, Actual RVI is capped at 12 months (52 \
+		weeks).
+	~	:SUPPLEMENTARY 
+	|
+
+EQ Appointments Available for New Patients=
+	MAX(EQ Current Appointment Supply-EQ Appointments Used for Existing Patients,0)
+	~	Appointment/Week
+	~	Appointments available for new patients is the remaining supply of \
+		appointments, after demand from existing patients is satisfied.  The team \
+		can also set aside appointments specifically for new patients.  It is \
+		constrained from going below zero.
+	|
+
+EQ Appointments in CC= INTEG (
+	EQ Booking CC Rate+EQ Rescheduling Appointments Rate-EQ Completing CC Rate,
+		1)
+	~	Appointment
+	~	Total number of appointments booked, initial value set 1, to show how the \
+		schedule fills up as the model comes to equilibrium.
+	|
+
+EQ Appointments to Reschedule= INTEG (
+	EQ True Missed Appointment Rate-EQ Rescheduling Appointments Rate,
+		EQ True Missed Appointment Rate*EQ Time to Reschedule)
+	~	Appointment
+	~	The number of appointments to be rescheduled. This assumes that all missed \
+		appointments are eventually rescheduled.
+	|
+
+EQ Appointments Used for Existing Patients=
+	MIN(EQ Desired Appointment Completion Rate,EQ Current Appointment Supply)
+	~	Appointment/Week
+	~	Appointments for current patients consume appointment supply. The number \
+		of appointments used each week is the lesser of the existing patient \
+		demand (based on the number of appointments booked and the desired return \
+		visit interval) or the supply of available appointments per week.
+	|
+
+EQ Baseline Appointment Supply=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B10')
+	~	Appointment/Week
+	~	The baseline number of the appointments offered each week, taken from the \
+		team's data. However, the number of appointments offered specifically for \
+		this service is currently unmeasurable.  We estimate the available supply \
+		from the upper quartile of appointments completed each week for this \
+		service.
+	|
+
+EQ Booking CC Rate=
+	(EQ Starting CC Rate/EQ Patients per Appointment)
+	+
+	(EQ Patients in CC/EQ Patients per Appointment/EQ Return Visit Interval used when Booking\
+		)
+	~	Appointment/Week
+	~	The booking appointment rate depends on the number of existing patients \
+		seen by the team (i.e., the quotent of the total patients in care and \
+		their average return visit interval) and the number of new patients booked \
+		each week.
+	|
+
+EQ Completing CC Rate=
+	EQ Appointments Used for Existing Patients
+	~	Appointment/Week
+	~	The rate at which appointments are completed is the lesser of the existing \
+		patient demand for care (driven by the number of booked appointments and \
+		the revisit interval) or current supply of appointments per week.
+	|
+
+EQ Return Visit Interval used when Booking=
+	EQ Team Data on RVI
+	~	Week
+	~	The team's goal to see each patient in this service once in every x weeks. \
+		The default value for return visit interval is based on the team'a data. \
+		If the user inputs their desired RVI, then the model uses that value \
+		instead.
+	|
+
+EQ True Missed Appointment Rate=
+	MAX(
+	EQ Completing CC Rate*EQ Team Data on True Missed Appointment Percentage
+	,0)
+	~	Appointment/Week
+	~	The number of appointments that must be re-scheduled, as either the \
+		clinician or the patient missed the appointment.  These missed \
+		appointments are affected by the baseline rate and changes in the time the \
+		team allocates to non-patient-facing care.  It is constrained from going \
+		below zero.
+	|
+
+Target New Patient Wait Time=
+	IF THEN ELSE(Desired New Patient Wait Time=0, Team Data on New Patient Wait Time, IF THEN ELSE\
+		(Time<Experiment Week,Team Data on New Patient Wait Time,Desired New Patient Wait Time\
+		))
+	~	Week
+	~	The acceptable average wait time for new patients to start Care \
+		Coordination, based on the team's data. The user can also enter their own \
+		new patient wait time goal.
+	|
+
+EQ Time to Reschedule=
+	2
+	~	Week
+	~	Average time to reschedule an appointment that was missed is estimated at \
+		2 weeks, accounting for large variation in time to make productive contact \
+		with the patient and their availability.
+	|
+
+Return Visit Interval used when Booking=
+	IF THEN ELSE(Desired RVI=0,Team Data on RVI,IF THEN ELSE(Time<Experiment Week, Team Data on RVI\
+		,Desired RVI))
+	~	Week
+	~	The team's goal to see each patient in this service once in every x weeks. \
+		The default value for return visit interval is based on the team'a data. \
+		If the user inputs their desired RVI, then the model uses that value \
+		instead.
+	|
+
+Relative Time Available for Other CC Tasks=
+	MAX(XIDZ(Official Appointment Supply,Current Appointment Supply,1),0.01)
+	~	Dmnl
+	~	This represents the relative change in time available for other CC-related \
+		tasks consumed by overbooking patient visits. We assume that these "extra" \
+		appointments come at the expense of "other CC related tasks," such as , \
+		team coordination, patient reminder calls, chart review and other \
+		appointment prep, etc. It is constrained from going to zero, even if \
+		official appointment supply is zero.
+	|
+
+Official Appointment Supply=
+	IF THEN ELSE("User-defined Appointment Supply"<0, Baseline Appointment Supply, 
+	
+	IF THEN ELSE(Time<Experiment Week,Baseline Appointment Supply,"User-defined Appointment Supply"\
+		))
+	~	Appointment/Week
+	~	The number of official appointments offered each week.
+	|
+
+Appointments Available for New Patients=
+	MAX(Current Appointment Supply-Appointments Used for Existing Patients,0)
+	+STEP(Additional Appt Supply for New CC Patients,Experiment Week)
+	~	Appointment/Week
+	~	Appointments available for new patients is the remaining supply of \
+		appointments, after demand from existing patients is satisfied.  The user \
+		can also set aside ADDITIONAL appointments specifically for new patients.  \
+		It is constrained from going below zero.
+	|
+
+Experiment Week=
+	0
+	~	Week [0,200,25]
+	~	The time when user changes to experiment parameters take effect.
+	|
+
+Current Appointment Supply=
+	Official Appointment Supply+STEP("Overbook Appointments / Week",Experiment Week)
+	~	Appointment/Week
+	~	The appointments available for patient care depends on the baseline number \
+		of appointments offered and the additional appointments squeezed into the \
+		schedule through overbooking.
+	|
+
+Starting CC Rate=
+	MIN(
+	Maximum Start Rate, 
+	
+	IF THEN ELSE(Time<Experiment Week, (Appointments Available for New Patients*Patients per Appointment\
+		), 
+	
+	IF THEN ELSE(Use Team Data on Patients Starts=1, 
+	
+	Team Data on Patient Starts
+	
+	,(Appointments Available for New Patients*Patients per Appointment)))
+	
+	)
+	~	Patient/Week
+	~	The number of patients starting the service is a function the team's time \
+		allocated to that service, allowing the model to start in equilibrium. The \
+		user can also set the start rate to instead be based on the team's data, \
+		which can be helpful in assessing the supply and RVI needed to meet their \
+		real-world demand.
+	|
+
+True Missed Appointment Rate=
+	MAX(Completing CC Rate*"Effect of \"Other CC Tasks Time\" on Missed Appointments"*
+	IF THEN ELSE("User-defined True Missed Appointments"<0,Team Data on True Missed Appointment Percentage\
+		,
+	IF THEN ELSE(Time<Experiment Week,Team Data on True Missed Appointment Percentage, "User-defined True Missed Appointments"\
+		)
+	)
+	,0)
+	~	Appointment/Week
+	~	The number of appointments that must be re-scheduled, as either the \
+		clinician or the patient missed the appointment.  These missed \
+		appointments are affected by the baseline rate and changes in the time the \
+		team allocates to non-patient-facing care.  It is constrained from going \
+		below zero.
+	|
+
+Referrals to CC Rate=
+	IF THEN ELSE(Time<Experiment Week,Referrals Necessary to Maintain Wait Time,
+	
+	IF THEN ELSE("User-defined Referral Rate"<0,Referrals after Experiment Week, "User-defined Referral Rate"\
+		))
+	
+	*Effect of Wait Time on Referrals
+	~	Patient/Week
+	~	The number of referrals is currently unmeasurable, and is thus \
+		endogeneously generated to maintain the new patient wait time (either as \
+		measured from the team's data, or using their desired new patient wait \
+		time) during initialization.  After week 0, that base referral rate is \
+		held, but can be affected by both the "Effect of Wait Time on Referrals" \
+		and any user experiments with additional referrals. This allows the user \
+		to observe relative changes in the new patient wait time.
+	|
+
+Use Team Data on Patients Starts=
+	0
+	~	Dmnl [0,1,1]
+	~	Switch to control if patient starts are based on team current state \
+		(default set to ignore current state, and instead match patient starts to \
+		allocation of appointment capacity).  "Zero" = if all existing patients \
+		can be seen at the desired RVI, then only start new patients if there are \
+		available appointment slots, 1 = patient start rate set by the team's \
+		data, regardless of whether or not there is enough supply.
+	|
+
+Team Data on Patient Starts=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B1')
+	~	Patient/Week
+	~	New patients scheduling rate based on team's own data (default is to use \
+		model-derived new patient start rate, to ensure that the RVI matches the \
+		Actual RVI).
+	|
+
+Effect of Wait Time on Referrals=
+	MIN((Perceived Wait Time/Target New Patient Wait Time)^-Sensitivity of Referrals to Wait Time\
+		,1)
+	~	Dmnl
+	~	The effect wait time has on referral rates. The deviation from the target \
+		delivery delay is adjusted by an exponent that reflects how sensitive \
+		providers' triage decisions are to these deviations. The negative sign on \
+		the exponent indicates that this is inversely coded, i.e., attractiveness \
+		drops as care delay increases. It is constrained from going above 1 (our \
+		assumption is that lower than expected new patient wait times do not \
+		increase referrals).
+	|
+
+Referrals Necessary to Maintain Wait Time=
+	MIN((Patients Waiting to Start CC/Target New Patient Wait Time)*((ZIDZ(Target New Patient Wait Time\
+		,Actual New Patient Wait Time))^10),100)
+	~	Patient/Week
+	~	Endogenously generated referral rate to maintain the new patient wait time \
+		goal.  It is capped at 100; exponent makes it very sensitive to changes in \
+		start rate.
+	|
+
+Perceived Wait Time=
+	SMOOTH(Actual New Patient Wait Time,Time to Perceive Wait Time)
+	~	Week
+	~	Clinicians' perception of care delays for starting new patients.
+	|
+
+Desired New Patient Wait Time=
+	0
+	~	Week [0,16,0.5]
+	~	The team's desired average wait time for new patients to Care Coordination \
+		(default is to use team's data instead).
+	|
+
+Sensitivity of Referrals to Wait Time=
+	0
+	~	Dmnl [0,2,0.1]
+	~	Exponent to the effect of care delay on service attractiveness. A value of \
+		"1" implies the assumption that a doubling of the new patient wait time \
+		over the desired wait time will cut the referral rate in half.  For the \
+		same situation, a value of "0.5" would reduce the referral rate to 71% of \
+		its original value, and a value of "1.5" would reduce the referral rate to \
+		35%.
+	|
+
+"Effect of \"Other CC Tasks Time\" on Missed Appointments"=
+	MAX(
+	
+	SMOOTHI(Relative Time Available for Other CC Tasks^-Sensitivity of Changes in Other CC Tasks Time on Missed Appointments\
+		,
+	Overbook Downside Onset Time, Relative Time Available for Other CC Tasks)
+	
+	,1)
+	~	Dmnl
+	~	The deviation from the the base case missed appointment rate is adjusted \
+		by an exponent that reflects how sensitive both patients and providers are \
+		to provider fatigue. The negative sign on the exponent indicates that this \
+		is inversely coded, i.e., decreasing time spent on other CC tasks (e.g., \
+		appointment prep, follow-up, reminder calls) increases the missed \
+		appointment rate. Patients start to experience this reduced quality by \
+		their next appointment, which occurs after the teams actual return visit \
+		interval. The effect is restricted from going below 1, as lower than \
+		official work hours do not influence providers or patients to come more \
+		regularly to their appointments.
+	|
+
+Time to Perceive Wait Time=
+	4
+	~	Week
+	~	Time to measure, report, and respond to differences between desired and \
+		actual Return Visit Interval for a service. Set to 4 weeks, i.e., a \
+		monthly staff meeting update.
+	|
+
+Actual RVI=
+	MIN(IF THEN ELSE(Appointments in CC<0.05,0.01, XIDZ(Appointments in CC,Completing CC Rate\
+		, 52)),52)
+	~	Week
+	~	By Little's Law, the average time between appointments for existing \
+		patients is the quotient of the number of appointments and the rate at \
+		which they are completed.  If there is more demand for completing \
+		appointments than there is available capacity, then actual return visit \
+		interval will increase, even if the desired RVI doesn't change.  If the \
+		completing appointment rate drops to zero, then the wait is technically \
+		infinite. In the model, appointments are never cancelled due to high wait \
+		times, but for ease of display, Actual RVI is capped at 12 months (52 \
+		weeks) and is also constrained from going to zero as the number of \
+		appointments approaches zero.
+	|
+
+"User-defined Referral Rate"=
+	-0.5
+	~	Patient/Week [-0.5,30,0.5]
+	~	Manually adjust the new patient referrals, replacing the original referral \
+		rate which was calculated endogenously to ensure the team only received as \
+		many referrals as they could see while maintaining the desired new patient \
+		wait time.
+	|
+
+Appointments in CC= INTEG (
+	Booking CC Rate+Rescheduling Appointments Rate-Completing CC Rate,
+		1)
+	~	Appointment
+	~	Total number of appointments booked, initial value set 1, to show how the \
+		schedule fills up as the model comes to equilibrium.
+	|
+
+Appointments to Reschedule= INTEG (
+	True Missed Appointment Rate-Rescheduling Appointments Rate,
+		True Missed Appointment Rate*Time to Reschedule)
+	~	Appointment
+	~	The number of appointments to be rescheduled. This assumes that all missed \
+		appointments are eventually rescheduled.
+	|
+
+Appointments Used for Existing Patients=
+	MIN(Desired Appointment Completion Rate,Current Appointment Supply)
+	~	Appointment/Week
+	~	Appointments for current patients consume appointment supply. The number \
+		of appointments used each week is the lesser of the existing patient \
+		demand (based on the number of appointments booked and the desired return \
+		visit interval) or the supply of available appointments per week.
+	|
+
+Median Engagement Time in CC=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B12')
+	~	Week
+	~	Median engagement time estimated from the team's own data.
+	|
+
+Baseline Appointment Supply=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B10')
+	~	Appointment/Week
+	~	The baseline number of the appointments offered each week, estimated from \
+		the team's data. However, the number of appointments offered specifically \
+		for this service is currently unmeasurable.  We estimate the available \
+		supply from the upper quartile of appointments completed each week for \
+		this service.
+	|
+
+Booking CC Rate=
+	(Starting CC Rate/Patients per Appointment)
+	+
+	(Patients in CC/Patients per Appointment/Return Visit Interval used when Booking)
+	~	Appointment/Week
+	~	The booking appointment rate depends on the number of existing patients \
+		seen by the team (i.e., the quotent of the total patients in care and \
+		their average return visit interval) and the number of new patients booked \
+		each week.
+	|
+
+"User-defined True Missed Appointments"=
+	-0.01
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually adjust the proportion of total appointments that are missed and \
+		rescheduled (i.e., rework).  This value replaces the base case value, \
+		which is estimated from the team's data.
+	|
+
+Completing CC Rate=
+	Appointments Used for Existing Patients
+	~	Appointment/Week
+	~	The rate at which appointments are completed is the lesser of the existing \
+		patient demand for care (driven by the number of booked appointments and \
+		the revisit interval) or current supply of appointments per week.
+	|
+
+Desired Appointment Completion Rate=
+	Appointments in CC/Return Visit Interval used when Booking
+	~	Appointment/Week
+	~	The desired completion rate depends on the number of appointments to \
+		complete and the desired return visit interval.
+	|
+
+Desired RVI=
+	0
+	~	Week [0,16,1]
+	~	Desired return visit interval, regardless of whether or not the team has \
+		enough supply for the patient demand or the effect on new patient starts \
+		(default is to use team's data instead).
+	|
+
+Ending CC Rate=
+	Patients in CC/Median Engagement Time in CC
+	~	Patient/Week
+	~	The number of patients finishing the service is a function the number of \
+		patients in treatment and their median time in treatment.
+	|
+
+Maximum Start Rate=
+	Patients Waiting to Start CC/Minimum Time to Schedule
+	~	Patient/Week
+	~	The maximum new patient start rate is determined by the new patient \
+		waiting list and minimum time to schedule patient appointments.
+	|
+
+Minimum Time to Schedule=
+	0.1
+	~	Week
+	~	The fastest possible time to schedule a new patient appointment.
+	|
+
+Actual New Patient Wait Time=
+	MIN(IF THEN ELSE(Patients Waiting to Start CC<0.05, 0.01, XIDZ(Patients Waiting to Start CC\
+		,Starting CC Rate, 24)),24)
+	~	Week
+	~	By Little's Law, the average wait time for new patients is the quotient of the \
+		number of patients waiting and the rate at which they start service.
+		This wait time is only useful when testing the effects of Care Delays on \
+		Referrals, or the effect of Additional Referrals. Otherwise, the model \
+		will adjust the number of referrals to maintain the desired new patient \
+		wait time (i.e., the team will only get as many referrals as they can \
+		handle).  If the new patient start rate drops to zero, then the wait is \
+		technically infinite, as no patients are leaving the queue. In the model, \
+		referrals are never discontinued due to high wait times, but for ease of \
+		display, new patient wait time is capped at 6 months (24 weeks). It is \
+		also constrained from going to zero as the number of patients waiting to \
+		start approaches zero.
+	|
+
+"Overbook Appointments / Week"=
+	0
+	~	Appointment/Week [0,100,1]
+	~	Manually adjust the number of additional appointments offered each week \
+		(over the official appointment capacity), with the assumption that these \
+		additional appointments come at the expense of non-patient facing care \
+		(e.g., team coordination, reminder calls, treatment planning, etc.).
+	|
+
+Overbook Downside Onset Time=
+	Actual RVI
+	~	Week
+	~	The time for sacrificing team coordination time and patient reminder calls \
+		for more face-to-face patient time to affect the missed appointment rate.
+	|
+
+Patients in CC= INTEG (
+	Starting CC Rate-Ending CC Rate,
+		1)
+	~	Patient
+	~	Total number of patients in treatment, initial value set 1, to show how \
+		the clinic fills up as the model comes to equilibrium.
+	|
+
+Patients per Appointment=
+	1
+	~	Patient/Appointment
+	~	Always 1 patient per appointment, except for group visits.
+	|
+
+Patients Waiting to Start CC= INTEG (
+	Referrals to CC Rate-Starting CC Rate,
+		Appointments Available for New Patients*Patients per Appointment*Target New Patient Wait Time\
+		)
+	~	Patient
+	~	Total number of patients waiting to start the service, initial value set \
+		to provide the desired wait time in equilibrium.
+	|
+
+Additional Appt Supply for New CC Patients=
+	0
+	~	Appointment/Week [0,30,0.5]
+	~	Manually increase the clinical hours allocated specifically to new \
+		patients, with the assumption that these appointments come from reducing \
+		appointment hours in other services.
+	|
+
+"User-defined Appointment Supply"=
+	-1
+	~	Appointment/Week [-1,200,1]
+	~	Manually adjust the number of official appointments offered for Care \
+		Coordination, with the assumption that these appoints come at the expense \
+		of appointments offered for other services.
+	|
+
+Rescheduling Appointments Rate=
+	Appointments to Reschedule/Time to Reschedule
+	~	Appointment/Week
+	~	The rescheduling rate depends on the total number of appointments to \
+		reschedule and the average time it takes to reschedule them.
+	|
+
+Sensitivity of Changes in Other CC Tasks Time on Missed Appointments=
+	0
+	~	Dmnl [0,2,0.1]
+	~	Exponent controlling the effect of changes in relative time available for \
+		other CC tasks on the likilihood of patients or providers missing an \
+		appointment. A value of "zero" implies that there is no relationship \
+		between overbooks and missed appointments. A value below 1 indicates that \
+		patients are not sensitive to small changes in other CC task time; an \
+		exponent greater than 1 indicates that patients are very sensitive to \
+		small changes. Example: if a team is putting in 20% more hours per week \
+		than their official supply, then an exponent of "1" would indicate that \
+		the ratio of missed appointments to all appointments would also be 20% \
+		higher than the base case. A value of 0.5 would cause that same 20% \
+		increase in hours worked would only cause a 9.5% increase in the missed \
+		appointment ratio.  A value of 2 would cause that 20% increase to increase \
+		the missed appointment rate by 44% over the base case.
+	|
+
+Team Data on New Patient Wait Time=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B7')
+	~	Week
+	~	New patients' mean wait time based on team's own data.
+	|
+
+Team Data on RVI=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B5')
+	~	Week
+	~	Actual median return visit interval, based on team's own data.
+	|
+
+Time to Reschedule=
+	2
+	~	Week
+	~	Average time to reschedule an appointment that was missed is estimated at \
+		2 weeks, accounting for large variation in time to make productive contact \
+		with the patient and their availability.
+	|
+
+Team Data on True Missed Appointment Percentage=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B3')
+	~	Dmnl
+	~	The missed appointment rate based on team's own data.
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 104
+	~	Week
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = -500
+	~	Week
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Week [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.03125
+	~	Week [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Model
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,90,0
+10,1,Patients in CC,633,534,49,23,3,131,0,0,0,0,0,0
+10,2,Appointments in CC,734,266,48,22,3,131,1,0,0,0,0,0
+10,3,Patients Waiting to Start CC,364,534,47,23,3,131,5,0,0,0,0,0
+12,4,48,141,535,10,8,0,3,5,0,-1,0,0,0
+1,5,7,3,4,5,0,22,0,0,0,-1--1--1,,1|(265,534)|
+1,6,7,4,100,5,0,22,0,0,0,-1--1--1,,1|(176,534)|
+11,7,48,208,534,6,8,34,3,5,0,1,0,0,0
+10,8,Referrals to CC Rate,208,560,48,18,40,131,5,0,-1,0,0,0
+1,9,11,1,4,0,0,22,0,0,0,-1--1--1,,1|(542,534)|
+1,10,11,3,100,0,0,22,0,0,0,-1--1--1,,1|(450,534)|
+11,11,1212,495,534,6,8,34,3,0,0,1,0,0,0
+10,12,Starting CC Rate,495,553,55,11,40,3,0,0,-1,0,0,0
+12,13,48,865,534,10,8,0,3,0,0,-1,0,0,0
+1,14,16,13,4,0,0,22,0,0,0,-1--1--1,,1|(814,534)|
+1,15,16,1,100,0,0,22,0,0,0,-1--1--1,,1|(722,534)|
+11,16,48,768,534,6,8,34,3,0,0,1,0,0,0
+10,17,Ending CC Rate,768,553,52,11,40,3,0,0,-1,0,0,0
+12,18,48,477,266,10,8,0,3,1,0,-1,0,0,0
+1,19,21,2,4,1,0,22,0,0,0,-1--1--1,,1|(639,266)|
+1,20,21,18,100,1,0,22,0,0,0,-1--1--1,,1|(533,266)|
+11,21,48,586,266,6,8,34,3,1,0,1,0,0,0
+10,22,Booking CC Rate,586,292,56,11,40,131,1,0,-1,0,0,0
+12,23,48,995,266,10,8,0,3,1,0,-1,0,0,0
+1,24,26,23,4,1,0,22,0,0,0,-1--1--1,,1|(933,266)|
+1,25,26,2,100,1,0,22,0,0,0,-1--1--1,,1|(825,266)|
+11,26,48,875,266,6,8,34,3,1,0,1,0,0,0
+10,27,Completing CC Rate,875,292,50,20,40,131,1,0,-1,0,0,0
+10,28,Appointments to Reschedule,842,140,49,22,3,131,3,0,0,0,0,0
+12,29,48,1014,140,10,8,0,3,3,0,-1,0,0,0
+1,30,32,28,4,3,0,22,0,0,0,-1--1--1,,1|(921,140)|
+1,31,32,29,100,3,0,22,0,0,0,-1--1--1,,1|(983,140)|
+11,32,48,957,140,6,8,34,3,3,0,1,0,0,0
+10,33,True Missed Appointment Rate,957,168,61,20,40,3,3,0,-1,0,0,0
+1,34,36,2,4,3,0,22,0,0,0,-1--1--1,,1|(726,196)|
+1,35,36,28,100,3,0,22,0,0,0,-1--1--1,,1|(762,140)|
+11,36,1132,726,140,6,8,34,3,3,0,2,0,0,0
+10,37,Rescheduling Appointments Rate,656,140,64,21,40,131,3,0,-1,0,0,0
+10,38,Return Visit Interval used when Booking,774,436,67,20,8,3,1,0,0,0,0,0
+10,39,Desired Appointment Completion Rate,948,436,71,20,8,3,2,0,0,0,0,0
+1,40,38,39,1,2,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(850,468)|
+10,41,Appointments Used for Existing Patients,975,617,76,20,8,3,2,0,0,0,0,0
+10,42,Current Appointment Supply,957,737,68,20,8,3,2,0,0,0,0,0
+10,43,Appointments Available for New Patients,761,690,79,20,8,3,2,0,0,0,0,0
+1,44,39,41,1,2,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(993,519)|
+1,45,42,41,1,2,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(939,661)|
+1,46,41,43,1,2,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(894,669)|
+1,47,1,22,1,1,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(546,417)|
+1,48,2,39,1,2,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(878,337)|
+1,49,11,22,1,1,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(482,399)|
+1,50,42,43,1,2,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(876,706)|
+10,51,Patients per Appointment,426,370,44,20,8,3,7,0,0,0,0,0
+1,52,51,22,1,7,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(493,325)|
+1,53,38,22,1,1,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(740,371)|
+1,54,41,27,1,2,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1021,434)|
+10,55,Median Engagement Time in CC,809,616,69,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,56,55,17,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(767,577)|
+1,57,1,17,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(718,579)|
+10,58,Time to Reschedule,509,139,39,20,8,3,3,0,0,0,0,0
+1,59,58,37,1,3,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(563,139)|
+1,60,28,37,1,3,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(707,109)|
+1,61,26,33,1,3,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(935,234)|
+10,62,Team Data on True Missed Appointment Percentage,1124,167,70,26,8,131,3,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,63,62,33,0,3,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1043,167)|
+10,64,Additional Appt Supply for New CC Patients,761,771,75,20,8,3,2,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,65,Actual RVI,839,208,36,11,8,3,2,0,0,0,0,0
+1,66,2,65,1,2,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(804,243)|
+1,67,27,65,1,2,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(840,239)|
+1,68,58,28,0,3,0,0,0,64,1,-1--1--1,,1|(663,139)|
+12,69,0,639,382,67,20,8,7,2,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Balancing Existing and New Patients
+12,70,0,638,347,16,16,4,135,2,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,71,"User-defined True Missed Appointments",1115,93,71,20,8,3,3,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,72,71,32,0,3,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1011,123)|
+10,73,"Effect of \"Other CC Tasks Time\" on Missed Appointments",1082,325,70,27,3,131,4,0,0,0,0,0
+10,74,"Overbook Appointments / Week",959,815,48,27,8,131,4,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,75,Baseline Appointment Supply,1186,670,68,20,8,3,2,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,76,Sensitivity of Changes in Other CC Tasks Time on Missed Appointments,1160,244,102,30,8,131,4,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,77,Overbook Downside Onset Time,1074,414,51,31,8,131,7,0,-1,0,0,0
+10,78,Relative Time Available for Other CC Tasks,1119,559,78,20,8,131,4,0,0,0,0,0
+1,79,76,73,1,4,0,0,0,128,0,-1--1--1,,1|(1130,284)|
+10,80,"User-defined Appointment Supply",1121,813,68,20,8,131,2,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,81,80,82,0,2,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1121,785)|
+10,82,Official Appointment Supply,1121,744,68,20,8,3,2,0,0,0,0,0
+1,83,75,82,0,2,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1158,701)|
+1,84,82,42,1,2,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1053,737)|
+10,85,Team Data on RVI,867,495,68,15,8,131,2,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,86,85,38,1,2,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(796,475)|
+10,87,Actual New Patient Wait Time,422,675,65,20,8,131,5,0,0,0,0,0
+1,88,3,87,1,5,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(386,575)|
+1,89,12,87,1,5,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(448,579)|
+10,90,"User-defined Referral Rate",265,481,45,20,8,131,6,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,91,90,7,0,6,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(233,510)|
+10,92,Team Data on New Patient Wait Time,339,808,66,20,8,3,5,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,93,Maximum Start Rate,365,444,51,20,8,3,7,0,-1,0,0,0
+1,94,93,11,1,7,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(449,480)|
+10,95,Minimum Time to Schedule,291,372,58,20,8,3,7,0,0,0,0,0
+1,96,95,93,1,7,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(370,408)|
+1,97,3,93,1,7,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(349,488)|
+10,98,Desired RVI,678,472,40,11,8,3,2,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,99,98,38,1,2,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(740,468)|
+1,100,65,77,1,7,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(972,315)|
+1,101,78,73,1,4,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(1138,425)|
+1,102,73,33,1,4,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1037,240)|
+1,103,77,73,1,7,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(1070,378)|
+1,104,74,42,1,4,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(963,777)|
+1,105,64,43,1,2,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(761,737)|
+10,106,Effect of Wait Time on Referrals,181,795,64,20,8,3,5,0,0,0,0,0
+10,107,Sensitivity of Referrals to Wait Time,314,892,73,20,8,3,5,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,108,Time to Perceive Wait Time,464,885,56,20,8,3,5,0,0,0,0,0
+10,109,Perceived Wait Time,466,813,40,20,3,3,5,0,0,0,0,0
+1,110,109,106,1,5,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(252,846)|
+1,111,107,106,1,5,0,0,0,128,0,-1--1--1,,1|(195,844)|
+1,112,108,109,0,5,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(464,855)|
+1,113,106,8,1,5,45,13,2,192,0,-1--1--1,|10||0-0-0,1|(128,650)|
+1,114,87,109,1,5,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(489,746)|
+10,115,Target New Patient Wait Time,350,731,66,20,8,3,5,0,0,0,0,0
+1,116,92,115,1,5,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(367,793)|
+10,117,Desired New Patient Wait Time,573,731,69,20,8,3,6,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,118,117,115,1,6,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(467,731)|
+1,119,115,106,1,5,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(240,758)|
+1,120,43,3,0,5,0,0,0,64,1,-1--1--1,,1|(567,613)|
+1,121,115,3,0,5,0,0,0,64,1,-1--1--1,,1|(356,640)|
+1,122,51,3,0,7,0,0,0,64,1,-1--1--1,,1|(398,443)|
+1,123,3,124,1,6,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(301,571)|
+10,124,Referrals Necessary to Maintain Wait Time,290,618,75,20,8,3,6,0,0,0,0,0
+1,125,124,8,1,6,43,0,2,128,0,-1--1--1,|10||0-0-0,1|(258,585)|
+1,126,115,124,1,6,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(303,721)|
+1,127,87,124,1,6,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(321,655)|
+12,128,0,198,703,63,27,8,135,5,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Wait Time Reduces Referrals
+12,129,0,198,660,16,16,4,135,5,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,130,Time,112,579,28,11,8,2,8,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,131,130,8,0,8,0,0,0,64,0,-1--1--1,,1|(143,573)|
+12,132,0,248,193,87,87,6,135,0,0,-1,0,0,0
+Click "Hide" below to navigate through model explanation (Depths 0-6)
+10,133,Time,833,383,28,11,8,2,8,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,134,133,38,0,8,0,0,0,64,0,-1--1--1,,1|(813,400)|
+10,135,Referrals after Experiment Week,131,476,38,31,8,131,7,0,0,0,0,0
+1,136,135,8,0,7,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(170,519)|
+10,137,Experiment Week,117,74,58,11,8,3,8,0,0,0,0,0
+1,138,137,8,0,8,0,0,0,128,0,-1--1--1,,1|(160,306)|
+1,139,137,38,0,8,0,0,0,128,0,-1--1--1,,1|(430,247)|
+1,140,137,33,0,8,0,0,0,128,0,-1--1--1,,1|(528,119)|
+1,141,137,42,0,8,0,0,0,128,0,-1--1--1,,1|(525,396)|
+1,142,137,43,0,8,0,0,0,128,0,-1--1--1,,1|(428,372)|
+10,143,Team Data on Patient Starts,622,588,48,20,8,3,6,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,144,Use Team Data on Patients Starts,495,629,62,20,8,131,6,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,145,43,12,1,2,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(605,638)|
+1,146,137,12,0,8,0,0,0,64,0,-1--1--1,,1|(301,308)|
+10,147,Time,527,505,28,11,8,2,8,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,148,147,12,0,8,0,0,0,64,0,-1--1--1,,1|(514,523)|
+1,149,51,12,0,7,0,0,0,64,0,-1--1--1,,1|(459,459)|
+1,150,143,12,0,6,0,0,0,64,0,-1--1--1,,1|(560,571)|
+1,151,144,12,0,6,0,0,0,64,0,-1--1--1,,1|(495,593)|
+1,152,137,82,0,8,0,0,0,128,0,-1--1--1,,1|(606,400)|
+1,153,82,78,1,4,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1100,674)|
+1,154,42,78,1,4,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(1049,646)|
+10,155,Time,967,83,28,11,8,2,8,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,156,155,33,0,8,0,0,2,64,0,-1--1--1,|10||0-0-0,1|(963,114)|
+1,157,137,115,0,8,0,0,0,64,0,-1--1--1,,1|(228,391)|
+10,158,Time,350,771,28,11,8,2,8,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,159,158,115,0,8,0,0,0,64,0,-1--1--1,,1|(350,762)|
+10,160,Time,1225,784,28,11,8,2,8,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,161,160,82,0,8,0,0,0,64,0,-1--1--1,,1|(1191,771)|
+10,162,EQ Referrals Necessary to Maintain Wait Time,130,398,83,20,8,2,7,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,163,162,135,0,7,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(130,424)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Interface
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,90,0
+12,1,0,180,239,80,20,3,124,0,0,0,0,0,0
+Additional Appt Supply for New CC Patients,0,50,1
+12,2,0,180,856,80,20,3,124,0,0,0,0,0,0
+"User-defined Referral Rate",-0.5,30,0.5
+12,3,0,180,550,80,20,3,124,0,0,0,0,0,0
+"User-defined True Missed Appointments",-0.01,1,0.01
+12,4,0,180,783,80,20,3,124,0,0,0,0,0,0
+Desired New Patient Wait Time,0,16,0.5
+12,5,0,180,473,80,20,3,124,0,0,0,0,0,0
+Desired RVI,0,16,1
+12,6,0,180,317,80,20,3,124,0,0,0,0,0,0
+"Overbook Appointments / Week",0,100,1
+12,7,0,180,160,80,20,3,124,0,0,0,0,0,0
+"User-defined Appointment Supply",-1,200,1
+12,8,0,180,703,80,20,3,124,0,0,0,0,0,0
+Use Team Data on Patients Starts,0,1,1
+12,9,0,817,213,432,193,3,188,0,0,1,0,0,0
+Existing_Patients
+12,10,0,93,120,67,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+Supply Experiments:
+12,11,0,138,430,112,11,0,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+Engagement Pattern Experiments:
+12,12,0,897,779,80,20,3,252,0,0,0,0,0,0
+Sensitivity of Changes in Other CC Tasks Time on Missed Appointments,0,2,0.1
+12,13,0,899,857,80,20,3,124,0,0,0,0,0,0
+Sensitivity of Referrals to Wait Time,0,2,0.1
+12,14,0,789,743,78,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+Sensitivity Experiments:
+12,15,0,1117,774,136,19,8,135,0,0,-1,0,0,0
+= How much losing time for non-patient facing CC task affects no-show rate
+12,16,0,1089,857,105,25,8,135,0,0,-1,0,0,0
+= How much new patient wait time affects referrals to CC
+12,17,0,368,474,103,23,8,135,0,0,-1,0,0,0
+= Replace real-world RVI (calculated from team's data) with user input
+12,18,0,357,548,95,18,8,135,0,0,-1,0,0,0
+= Proportionally change the missed appointment %
+12,19,0,417,696,157,30,8,135,0,0,-1,0,0,0
+= Replace "new pt start rate that allows team to maintain desired RVI" with real-world new pt start rate (calculated from team's data)
+12,20,0,391,782,129,24,8,135,0,0,-1,0,0,0
+= Replace real-world new pt wait time (calculated from team's data) with user input
+12,21,0,409,860,146,28,8,135,0,0,-1,0,0,0
+= Proportional change to referral rate. Base Rate set to allow team to meet new pt wait time goal before any experiments.
+12,22,0,154,655,129,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+New Patient and Referrals Experiments:
+12,23,0,920,561,329,151,3,188,0,0,1,0,0,0
+New_Patients
+12,24,0,179,40,80,20,3,124,0,0,0,0,0,0
+Experiment Week,0,150,25
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*w/o experiments
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,90,0
+10,1,EQ Patients in CC,633,498,49,23,3,131,0,0,0,0,0,0
+10,2,EQ Appointments in CC,734,230,48,22,3,131,0,0,0,0,0,0
+10,3,EQ Patients Waiting to Start CC,364,498,47,23,3,131,0,0,0,0,0,0
+12,4,48,141,499,10,8,0,3,0,0,-1,0,0,0
+1,5,7,3,4,0,0,22,0,0,0,-1--1--1,,1|(265,498)|
+1,6,7,4,100,0,0,22,0,0,0,-1--1--1,,1|(176,498)|
+11,7,48,208,498,6,8,34,3,0,0,1,0,0,0
+10,8,EQ Referrals to CC Rate,208,524,50,19,40,131,0,0,-1,0,0,0
+1,9,11,1,4,0,0,22,0,0,0,-1--1--1,,1|(542,498)|
+1,10,11,3,100,0,0,22,0,0,0,-1--1--1,,1|(450,498)|
+11,11,444,495,498,6,8,34,3,0,0,1,0,0,0
+10,12,EQ Starting CC Rate,495,517,52,19,40,3,0,0,-1,0,0,0
+12,13,48,865,498,10,8,0,3,0,0,-1,0,0,0
+1,14,16,13,4,0,0,22,0,0,0,-1--1--1,,1|(814,498)|
+1,15,16,1,100,0,0,22,0,0,0,-1--1--1,,1|(722,498)|
+11,16,48,768,498,6,8,34,3,0,0,1,0,0,0
+10,17,EQ Ending CC Rate,768,517,49,19,40,3,0,0,-1,0,0,0
+12,18,48,477,230,10,8,0,3,0,0,-1,0,0,0
+1,19,21,2,4,0,0,22,0,0,0,-1--1--1,,1|(639,230)|
+1,20,21,18,100,0,0,22,0,0,0,-1--1--1,,1|(533,230)|
+11,21,48,586,230,6,8,34,3,0,0,1,0,0,0
+10,22,EQ Booking CC Rate,586,256,54,19,40,131,0,0,-1,0,0,0
+12,23,48,995,230,10,8,0,3,0,0,-1,0,0,0
+1,24,26,23,4,0,0,22,0,0,0,-1--1--1,,1|(933,230)|
+1,25,26,2,100,0,0,22,0,0,0,-1--1--1,,1|(825,230)|
+11,26,48,875,230,6,8,34,3,0,0,1,0,0,0
+10,27,EQ Completing CC Rate,875,256,50,19,40,131,0,0,-1,0,0,0
+10,28,EQ Appointments to Reschedule,842,104,49,22,3,131,0,0,0,0,0,0
+12,29,48,1014,104,10,8,0,3,0,0,-1,0,0,0
+1,30,32,28,4,0,0,22,0,0,0,-1--1--1,,1|(921,104)|
+1,31,32,29,100,0,0,22,0,0,0,-1--1--1,,1|(983,104)|
+11,32,48,957,104,6,8,34,3,0,0,1,0,0,0
+10,33,EQ True Missed Appointment Rate,957,132,58,19,40,3,0,0,-1,0,0,0
+1,34,36,2,4,0,0,22,0,0,0,-1--1--1,,1|(726,160)|
+1,35,36,28,100,0,0,22,0,0,0,-1--1--1,,1|(762,104)|
+11,36,764,726,104,6,8,34,3,0,0,2,0,0,0
+10,37,EQ Rescheduling Appointments Rate,656,104,61,19,40,131,0,0,-1,0,0,0
+10,38,EQ Return Visit Interval used when Booking,774,400,77,19,8,3,0,0,0,0,0,0
+10,39,EQ Desired Appointment Completion Rate,948,400,54,28,8,3,0,0,0,0,0,0
+1,40,38,39,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(850,432)|
+10,41,EQ Appointments Used for Existing Patients,975,581,77,19,8,3,0,0,0,0,0,0
+10,42,EQ Current Appointment Supply,957,701,66,19,8,3,0,0,0,0,0,0
+10,43,EQ Appointments Available for New Patients,761,654,59,28,8,3,0,0,0,0,0,0
+1,44,39,41,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(993,483)|
+1,45,42,41,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(939,625)|
+1,46,41,43,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(894,633)|
+1,47,1,22,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(546,381)|
+1,48,2,39,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(878,301)|
+1,49,11,22,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(482,363)|
+1,50,42,43,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(876,670)|
+10,51,EQ Patients per Appointment,426,334,51,19,8,3,0,0,0,0,0,0
+1,52,51,22,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(493,289)|
+1,53,38,22,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(740,335)|
+1,54,41,27,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1021,398)|
+10,55,EQ Median Engagement Time in CC,859,563,78,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,56,55,17,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(780,553)|
+1,57,1,17,1,0,43,0,2,128,0,-1--1--1,|10||0-0-0,1|(718,543)|
+10,58,EQ Time to Reschedule,509,103,38,19,8,3,0,0,0,0,0,0
+1,59,58,37,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(564,103)|
+1,60,28,37,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(707,73)|
+1,61,26,33,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(935,198)|
+10,62,EQ Team Data on True Missed Appointment Percentage,1124,135,75,28,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,63,62,33,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1038,133)|
+10,64,EQ Actual RVI,839,172,49,11,8,3,0,0,0,0,0,0
+1,65,2,64,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(804,207)|
+1,66,27,64,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(840,203)|
+1,67,58,28,0,0,0,0,0,64,1,-1--1--1,,1|(663,103)|
+12,68,0,639,346,67,20,8,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Balancing Existing and New Patients
+12,69,0,638,311,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,70,EQ Baseline Appointment Supply,957,771,66,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,71,EQ Team Data on RVI,867,459,49,19,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,72,71,38,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(796,439)|
+10,73,EQ Actual New Patient Wait Time,422,639,57,19,8,131,0,0,0,0,0,0
+1,74,3,73,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(386,539)|
+1,75,12,73,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(448,543)|
+10,76,EQ Team Data on New Patient Wait Time,339,772,77,19,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,77,EQ Maximum Start Rate,365,408,45,19,8,3,0,0,-1,0,0,0
+1,78,77,11,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(449,444)|
+10,79,EQ Minimum Time to Schedule,291,336,61,19,8,3,0,0,0,0,0,0
+1,80,79,77,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(370,372)|
+1,81,3,77,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(349,452)|
+1,82,3,83,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(301,535)|
+10,83,EQ Referrals Necessary to Maintain Wait Time,290,582,78,19,8,3,0,0,0,0,0,0
+1,84,83,8,1,0,43,0,2,128,0,-1--1--1,|10||0-0-0,1|(258,549)|
+1,85,73,83,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(321,619)|
+1,86,43,12,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(605,602)|
+1,87,51,12,0,0,0,0,0,64,0,-1--1--1,,1|(457,418)|
+1,88,76,83,1,0,0,0,0,128,0,-1--1--1,,1|(245,726)|
+1,89,70,42,1,0,0,0,0,128,0,-1--1--1,,1|(957,743)|
+1,90,43,3,0,0,0,0,0,64,1,-1--1--1,,1|(563,576)|
+1,91,51,3,0,0,0,0,0,64,1,-1--1--1,,1|(398,407)|
+1,92,76,3,0,0,0,0,0,64,1,-1--1--1,,1|(349,643)|
+///---\\\
+:GRAPH Existing_Patients
+:TITLE Existing Patients
+:SCALE
+:VAR Actual RVI
+:SCALE
+:VAR Booking CC Appts Rate
+:VAR Completing CC Appts Rate
+:VAR True Missed Appointment Rate
+:VAR Current Appointment Supply
+:SCALE
+:VAR Patients in CC
+
+:GRAPH New_Patients
+:TITLE New Patients
+:SCALE
+:VAR Actual New Patient Wait Time
+:SCALE
+:VAR Referrals to CC Rate
+:VAR Starting CC Rate
+:VAR Patients Waiting to Start CC
+:SCALE
+:VAR Appts Available for New Patients
+
+:GRAPH EQvreg
+:TITLE EQvreg
+:SCALE
+:VAR Referrals to CC Rate
+:VAR EQReferrals to CC Rate
+:L<%^E!@
+1:Feb17--test5.vdf
+1:Feb17--test4.vdf
+9:Feb17--test5
+23:0
+15:0,0,0,0,0,0
+19:90,0
+27:2,
+34:0,
+4:Time
+5:Actual RVI
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:3
+41:0
+42:1
+24:-13
+25:104
+26:104
