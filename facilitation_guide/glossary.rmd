@@ -11,7 +11,7 @@ output:
 
 <!--MTL Logo -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/ModelingtoLearn_logo_testdontguess.png"
-     height = "130" width = "500">  
+     height = "200" width = "500">  
 
 
 # MTL Glossary of Terms
