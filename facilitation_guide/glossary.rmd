@@ -1,5 +1,5 @@
 ---
-title: "Facilitator Manual"
+title: "MTL Glossary"
 date: "May 4, 2018"
 output: 
   github_document: default
