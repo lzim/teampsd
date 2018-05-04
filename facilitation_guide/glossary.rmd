@@ -1,7 +1,22 @@
+---
+title: "Facilitator Manual"
+date: "May 4, 2018"
+output: 
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
+---
+
+<!--MTL Logo -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/ModelingtoLearn_logo_testdontguess.png"
+     height = "130" width = "500">  
+
+
 # MTL Glossary of Terms
 
 ### *A ‘holy smokes’ definition of...*
-
 
 **Action:** We don’t have time to sit around a conference room all day considering actions that we never take. Modeling to Learn helps us to save time and money arriving at consensus and coordinating a change by analyzing the causes and local conditions that give rise to gaps in quality and restructuring those dynamics for a better pay off for Veterans.  
 
