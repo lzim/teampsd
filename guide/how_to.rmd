@@ -1,6 +1,6 @@
 ---
 title: "MTL 'How to' Guide Information"
-date: "May 4, 2018"
+date: "March 29, 2018"
 output: 
   github_document: default
   html_document: default
@@ -14,6 +14,40 @@ output:
      height = "200" width = "500">  
 
 
-**Purpose:** *Modeling to Learn (MTL)** ‘How to’ guide Information
-*Style Note to italicize *Modeling to Learn* (MTL)
+**Purpose:** *Modeling to Learn (MTL)** ‘How to’ guide Information  
+*Style Note to italicize *Modeling to Learn* (MTL)  
+
+**Project:**
+1.	*Modeling to Learn – Live* (MTL Live)  
+2.	*Modeling to Learn – Video* (MTL Video)  
+3.	*Modeling to Learn – Facilitate* (MTL Facilitate)  
+
+**Next Steps:**
+1.	Fill these details in the speech balloons for visual learners in the publisher files of each Forio UI.  
+2.	Fill these details in the relevant Cheatsheets, Emails, or GitHub.  
+3.	Goal for Guides: fill in with small .gifs showing the major actions next to the text.  
+4.	Fill in the bulleted narrative with the relevant MTL icon or .gif to the left.  
+5.	Create these for each of 8 modules, so that they stand alone. So folks can start with any module.  
+
+**Modeling to Learn has 8 Modules**
+1.	Team Vision  
+2.	Team Data  
+3.	Team Needs and Plan  
+4.	Care Coordination (CC)  
+5.	Medication Management (MM)  
+6.	Psychotherapy (Psy)  
+7.	Aggregate (Agg)  
+8.	Measurement-based Stepped Care for Suicide Prevention - Coming fall 2018  
+
+**MTL Components**
+*Modeling to Learn* has three components: data interface, a simulation user interface and virtual facilitation.  
+
+The data is behind the VA firewall and includes patient level reports of diagnoses services and clinical info on suicide risk and EBPs.  
+
+**1. ADD: MTL Vision Module**
+
+
+
+
+
 
