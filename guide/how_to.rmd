@@ -1,0 +1,18 @@
+---
+title: "MTL 'How to' Guide Information"
+date: "May 4, 2018"
+output: 
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
+---
+
+<!--MTL Logo -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/ModelingtoLearn_logo_testdontguess.png"
+     height = "200" width = "500">  
+
+
+**Purpose:** *Modeling to Learn (MTL)** ‘How to’ guide Information
+
