@@ -15,4 +15,5 @@ output:
 
 
 **Purpose:** *Modeling to Learn (MTL)** ‘How to’ guide Information
+*Style Note to italicize *Modeling to Learn* (MTL)
 
