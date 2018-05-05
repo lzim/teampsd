@@ -29,7 +29,7 @@ output:
 4.	Fill in the bulleted narrative with the relevant MTL icon or .gif to the left.  
 5.	Create these for each of 8 modules, so that they stand alone. So folks can start with any module.  
 
-**Modeling to Learn has 8 Modules**
+***Modeling to Learn* has 8 Modules**
 1.	Team Vision  
 2.	Team Data  
 3.	Team Needs and Plan  
@@ -98,9 +98,9 @@ These output tile graphs can plot three simulated scenarios for comparison. Best
 Icons at the top of the ‘outputs’ tile provide options to see the simulated trends in a ‘table view,’ or to ‘copy’ or ‘export’ the simulation results to share with others.  
 
 **Expanded Output Tile**  
-The ‘expand’ icon at the top of the expanded output tile plays a key role in facilitating Modeling to Learn. Clicking on this icon opens resources for team learning and decision-making, including a four part, text entry dialogue at the top, and a ‘Results Dashboard’ at the bottom, for reviewing the ‘base case’ against two alternatives for six variables at once. The alternatives may be used to compare and contrast different experiments (all models), different patient cohorts (medication management model and psychotherapy model) and different services (aggregate model).  
+The ‘expand’ icon at the top of the expanded output tile plays a key role in facilitating *Modeling to Learn*. Clicking on this icon opens resources for team learning and decision-making, including a four part, text entry dialogue at the top, and a ‘Results Dashboard’ at the bottom, for reviewing the ‘base case’ against two alternatives for six variables at once. The alternatives may be used to compare and contrast different experiments (all models), different patient cohorts (medication management model and psychotherapy model) and different services (aggregate model).  
 
-The goal of the Modeling to Learn session is facilitating team experiential learning via experimentation. The team begins with ‘Our Question: Briefly describe what your team wants to learn from this experiment.’ Then the team enters ‘Our Hypothesis: outline the systems story your team believes will cause the outcomes you expect to observe.’ Team members are more likely to learn and remain engaged if they stake a claim about what they expect to find, which can be either confirmed or refuted with the experiment. The facilitator will encourage framing the teams’ expectation using systems thinking, which includes ‘dynamic hypotheses’ about causal feedback in that service system.  
+The goal of the *Modeling to Learn* session is facilitating team experiential learning via experimentation. The team begins with ‘Our Question: Briefly describe what your team wants to learn from this experiment.’ Then the team enters ‘Our Hypothesis: outline the systems story your team believes will cause the outcomes you expect to observe.’ Team members are more likely to learn and remain engaged if they stake a claim about what they expect to find, which can be either confirmed or refuted with the experiment. The facilitator will encourage framing the teams’ expectation using systems thinking, which includes ‘dynamic hypotheses’ about causal feedback in that service system.  
 
 The last two dialog boxes are, ‘Our Findings: Describe your team’s findings, insights and conclusions from this experiment.’ And, ‘Our Decisions: Based on what was learned in this experiment, what changes is the team ready to make in their practice?’ The team is encouraged to identify changes they can make, or new decision rules (i.e., heuristics or rules or thumb) they can apply in their day-to-day clinical care.  
 
