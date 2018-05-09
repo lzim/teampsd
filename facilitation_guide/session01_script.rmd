@@ -10,7 +10,7 @@ output:
   pdf_document: default
 ---
 
-<!--MTL Logo -->
+<!-- MTL Logo, HTML img tag -->
 <img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
      height = "130" width = "500">  
 
