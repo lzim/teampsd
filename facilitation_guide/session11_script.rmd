@@ -9,9 +9,8 @@ output:
   slidy_presentation: default
   pdf_document: default
 ---
-
-<!--MTL Logo -->
-<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
+<!-- MTL Logo, HTML img tag -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
      
 { } Signifies content to be added by Team PSD for the final Manual.  
