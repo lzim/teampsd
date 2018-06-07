@@ -11,24 +11,14 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_knit$set(root.dir = normalizePath("//vhapalmpncptsd1/Shared Research/TeamPSD/R"))
+#knitr::opts_knit$set(root.dir = normalizePath("//vhapalmpncptsd1/Shared Research/TeamPSD/R"))
 ```
 
 
 
 ## Setting up the R environment and datasets
-```{r}
-#clear memory 
-rm(list=ls()) 
-
-#set working directory
-setwd("//vhapalmpncptsd1/Shared Research/TeamPSD/R")
-
-#check working directory
-getwd()
-
-# Packages required for merging CDW and CPT
-
+```{r, include=FALSE}
+library(readxl)
 library(magrittr)
 library(lubridate)
 library(dplyr)
@@ -36,59 +26,38 @@ library(psych)
 ```
 
 
-```{r}
+```{r, include=FALSE}
 #set up both files as dataframes
-comparator.df <- read.csv(file="comparatorsites_nov23_16.csv", header=TRUE) 
-dropout.df <- read.csv(file="dropout.csv",header=TRUE) 
+comparator.df <- read.csv("Original Data/comparatorsites_nov23_16.csv", header=TRUE) 
+dropout.df <- read.csv(file="Original Data/dropout.csv",header=TRUE) 
 
 #set all variable names as lower case
 names(comparator.df) <- tolower(names(comparator.df))
-variable.names(comparator.df)
 
 names(dropout.df) <- tolower(names(dropout.df))
-variable.names(dropout.df)
 
 variable.names(comparator.df)
 variable.names(dropout.df)
 
 ```
 
-```{r}
+
+## Setup the Comparator Data
+
+```{r numeric, include=TRUE}
 ##Set variables as numeric in order to manipulate later
 #set up in original CDW 
-
-comparator.df$totalencounters<-as.numeric(comparator.df$totalencounters)
-comparator.df$patientpanel<-as.numeric(comparator.df$patientpanel)
-comparator.df$providerpanel<-as.numeric(comparator.df$providerpanel)
-comparator.df$psychiatrists<-as.numeric(comparator.df$psychiatrists)
-comparator.df$psychologists<-as.numeric(comparator.df$psychologists)
-comparator.df$socialworkers<-as.numeric(comparator.df$socialworkers)
-comparator.df$evalencounter<-as.numeric(comparator.df$evalencounter)
-comparator.df$psychencounter<-as.numeric(comparator.df$psychencounter)
-comparator.df$ptsd_ebpsyeligible<-as.numeric(comparator.df$ptsd_ebpsyeligible)
-comparator.df$pe_initial_appoints<-as.numeric(comparator.df$pe_initial_appoints)
-comparator.df$cpt_initial_appoints<-as.numeric(comparator.df$cpt_initial_appoints)
-comparator.df$sta6acomplexity<-as.numeric(comparator.df$sta6acomplexity)
-comparator.df$tmh<-as.numeric(comparator.df$tmh)
-comparator.df$psychmmencounter<-as.numeric(comparator.df$psychmmencounter)
-comparator.df$groupencounter<-as.numeric(comparator.df$groupencounter)
-comparator.df$mmencounter<-as.numeric(comparator.df$mmencounter)
-comparator.df$casemanagement<-as.numeric(comparator.df$casemanagement)
-comparator.df$telephoneencounter<-as.numeric(comparator.df$telephoneencounter)
-comparator.df$otherencounter<-as.numeric(comparator.df$otherencounter)
-comparator.df$depression_ebpsyeligible<-as.numeric(comparator.df$depression_ebpsyeligible)
-comparator.df$cbt_d_initial_appoints<-as.numeric(comparator.df$cbt_d_initial_appoints)
-comparator.df$act_initial_appoints<-as.numeric(comparator.df$act_initial_appoints)
-comparator.df$ipt_initial_appoints<-as.numeric(comparator.df$ipt_initial_appoints)
-```
-
-
 ##create combined variable in comparator.df based on the variable 'year' and the variable 'quarter'
-```{r}
-comparator.df <- comparator.df %>% 
+
+comparator.df <- comparator.df %>%
+  mutate_at(vars(totalencounters:x._cbt_sud_sessions), as.numeric) %>%
   mutate(year_q  = paste0(year, "-", quarter), 
          site_yq = paste0(sta6a,"-",year_q))
+
 ```
+
+
+
 
 ##create combined variable in dropout.df; note that quarters in comparator are fiscal year quarters with Oct 1 start
 
@@ -99,8 +68,13 @@ dropout.df <- dropout.df %>%
          year = year(date_1), 
          quarter = quarter(date_1, with_year = FALSE, fiscal_start = 10),
          quarter = paste0("Q", quarter),
-         year_q = paste0(year, "-", quarter)) %>% 
-  mutate(site_yq = paste0(sta6a,"-",year_q)) 
+         year_q = paste0(year, "-", quarter),
+         site_yq = paste0(sta6a,"-",year_q)) 
+
+table(dropout.df$year, useNA = 'ifany')
+  ## Where are there 3 obs whose year is beyond 2016?
+  ## About 40% of the data doesn't have any year record. Will this impact the analysis?
+
 ```
 
 
