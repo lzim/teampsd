@@ -1,0 +1,268 @@
+---
+title: "Team Data Table"
+author: "Savet Hong"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
+output: html_document
+
+---
+  
+To use the code in this Rmarkdown for each Model in separate Rmarkdown, please do as follow:
+  
+- ensure that all library packages (as listed in the library chunk) are installed
+- copy chuck containing R libraries 
+- copy section of code for each model
++ setup for each model
++ table with and/or without definition
+- include "ModelParameters.xlsx" in the same folder, if not then change file pathway to the data source    
+
+```{r library, include=FALSE}
+
+library(readxl)
+library(dplyr)
+library(tibble)
+library(tidyr)
+library(htmlTable)
+
+```
+
+## Care Coordination Model
+
+
+```{r cc_setup, include=FALSE}
+ccpar <- read_excel("ModelParameters.xlsx", sheet = "CCParams", col_names = FALSE)
+ccpar.table <- ccpar[c(12,10,5,3,1,7),] # Select row and order to match UI
+ccpar.table$X__2 <- formatC(ccpar.table$X__2, digits = 2, format = "f")
+
+```
+
+#### CC Table without definition (similar to the UI)
+
+```{r cc_table_NOdef, echo=FALSE}
+
+htmlTable(ccpar.table[,-3], header = c("",""), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lr")
+```
+
+#### CC Table with definition
+
+```{r cc_table_def, echo=FALSE}
+htmlTable(ccpar.table, header = c("","",""), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrl")
+```
+
+## Medication Management Model
+
+
+```{r mm_setup, include=FALSE}
+mmpar <- read_excel("ModelParameters.xlsx", sheet = "MMParams", col_names = FALSE, range = "A1:F16")
+
+mmpar.table1 <- mmpar[c(10, 15, 12, 5, 3, 1, 13, 14), c(1,3,2,4:6)] 
+# Missing "Target Wait Time"
+
+mmpar.table <- mmpar.table1 %>%
+  mutate(X__5 = replace(X__5, X__1 == "Appointment Supply", 
+                        X__2[which(X__1 == "Appointment Supply")]),
+         X__2 = replace(X__2, X__1 == "Appointment Supply", NA),
+         X__3 = replace(X__3, X__1 == "Appointment Supply", NA),
+         X__4 = replace(X__4, X__1 == "Appointment Supply", NA),
+         X__5 = replace(X__5, X__1 == "% Appointment Slots (has X-Waiver)",
+                        X__2[which(X__1 == "% Appointment Slots (has X-Waiver)")]),
+         X__2 = replace(X__2, X__1 == "% Appointment Slots (has X-Waiver)", NA)) %>%
+  mutate_at(vars(2:5), funs(formatC(as.numeric(.),digits = 2, format = "f"))) %>%
+  add_row(X__3 = "AUD", X__2 = "DEP", X__4 = "OUD", X__5 = "OTHER", .before = 3)
+
+```
+
+#### MM Table without definition (similar to the UI)
+
+```{r mm_table_NOdef, echo=FALSE}
+
+htmlTable(mmpar.table[,-6], header = c(rep("",5)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrr")
+
+```
+
+#### MM Table with definition
+
+```{r mm_table_def, echo=FALSE}
+
+htmlTable(mmpar.table, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrrl")
+
+```
+
+
+## Aggregate Model
+
+```{r agg_setup, include=FALSE}
+aggpar <- read_excel("ModelParameters.xlsx", sheet = "AggParams", col_names = FALSE, range = "A1:I12")
+
+#Table data setup
+aggpar.table.head <- aggpar[c(6,2),]
+aggpar.table.body <- aggpar[c(2,1,5,3,4),] %>%
+  mutate_at(vars(2:8), funs(formatC(as.numeric(.),digits = 2, format = "f"))) %>%
+  rename(Intake = X__2, Psy = X__3, EBPsy = X__4, CC = X__5, MM = X__6, 
+         Adjunctive = X__7, Group = X__8, Variable = X__1, Definition = X__9)
+
+aggpar.table.body.shrt <- t(aggpar.table.body[,2:8]) 
+colnames(aggpar.table.body.shrt) <- aggpar.table.body$Variable
+
+aggpar.test <- as.data.frame(aggpar.table.body.shrt) %>%
+  mutate(X__1 = row.names(.)) %>%
+  select(X__1, everything()) %>%
+  mutate_if(is.factor,funs(as.character)) %>%
+  add_row(X__1 = as.character(aggpar[6,1]), `Appointment Supply` =
+            as.character(aggpar[6,2]), 
+          `True Missed Appointment %` = "Patients/Week",.before = 1) %>%
+  add_row(`Appointment Supply` = "Appointment", `True Missed Appointment %` = 
+            "True Missed",`Return Visit Interval` = "Return Visit", 
+          `Median Engagement` = "Median", `Referral Percentage` = "Referral",
+          .before = 2) %>%
+  add_row(`Appointment Supply` = "Supply", `True Missed Appointment %` = 
+            "Appointments %",`Return Visit Interval` = "Interval", 
+          `Median Engagement` = "Engagement", `Referral Percentage` = "Percentage",
+          .before = 3)
+
+#Table definition
+agg_def <- aggpar[c(6,2,1,5,3,4),c(1,9)]
+```
+
+#### Aggregate Table without definition (similar to the UI)
+
+```{r agg_table, echo=FALSE}
+
+htmlTable(aggpar.test, header = c(rep("",6)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrrrr")
+
+```
+#### Aggregate Table Definition
+
+```{r agg_table_def, echo=FALSE}
+htmlTable(agg_def, header = c("Concept", "Definition"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data: Aggregate Table Concept Definition", align = "ll")
+
+```
+
+## Psy Model
+
+```{r psy_datafiles, include=FALSE}
+psypar1a <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B35:D36")
+
+psypar1b <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B40:D43")
+
+flow <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B3:D7")
+
+rvi <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B8:D12")
+
+med <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B13:D14")
+
+rvi_after <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:D23")
+
+med_after <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B24:D32")
+```
+
+```{r psy_setup, include=FALSE}
+# Team Data Table/Appointment Supply columns
+ord1 <- c("Appt. Supply", "% AUD", "% DEP", "% OUD", "% PTSD")
+psypar1 <- rbind.data.frame(psypar1a[1,], psypar1b) %>%
+  mutate(X__1 = replace(X__1, X__1 == "PctPTSD", "% PTSD"),
+         X__1 = replace(X__1, X__1 == "PctDep", "% DEP"),
+         X__1 = replace(X__1, X__1 == "PctAUD", "% AUD"),
+         X__1 = replace(X__1, X__1 == "PctOUD", "% OUD"),
+         X__1 = replace(X__1, X__1 == "Baseline Appointment Supply", 
+                        "Appt. Supply")) %>%
+  mutate_if(is.numeric, funs(as.character)) %>%
+  slice(match(ord1, X__1))
+
+psypar1$X__2[which(psypar1$X__1 == "Appt. Supply")] <-  
+  paste0(psypar1$X__2[which(psypar1$X__1 == "Appt. Supply")], 
+         " Slots/Week")
+#Patient Flow 
+flow.order <- c("Starters who Initiate","Starters who Return Later", "Starters who Quit", "Initiators who Complete","Initiators who Return Later", "Initiators who Quit Early", "Completers who Graduate","Completers who Return")
+
+## Need to calculate
+## Starters who Quit
+## Initiators who Return Later
+## Completers who Return
+flow1 <- flow %>%
+  add_row(X__1 = "Starters who Quit") %>% 
+  add_row(X__1 = "Initiators who Return Later") %>%
+  add_row(X__1 = "Completers who Return") %>%
+  mutate( X__2 = replace(X__2, X__1 == "Starters who Quit", 1 - 
+                           (X__2[which(X__1 == "Starters Who Initiate")] + 
+                              X__2[which(X__1 == "Starters Who Return Later")])),
+          X__2 = replace(X__2, X__1 == "Initiators Who Return Later", 1 - 
+                           (X__2[which(X__1 == "Initiators Who Complete")] + 
+                              X__2[which(X__1 == "Initiators Who Quit Early")])),
+          X__2 = replace(X__2, X__1 == "Completers Who Return", 1 - 
+                           (X__2[which(X__1 == "Completers Who Graduate")]))) %>%
+  slice(match(flow.order, X__1)) %>%
+  mutate(X__2 = paste0(round(X__2, 2)*100, "%"))
+
+# Return Visit Interval less than 3months
+rvi1 <- c("N/A", "See table below", "N/A", 
+          round(rvi$X__2[which(rvi$X__1 == "Frequency <3mo - 2-7Visits-n-More<3mo")],2) ,
+          "See table below",
+          round(rvi$X__2[which(rvi$X__1 == "Frequency <3mo - 2-7Visits-n-done")],2), 
+          round(rvi$X__2[which(rvi$X__1 == "8plusfreq")],2),
+          "See table below")
+
+# Median Engagement Duration less than 3months
+med1 <- c("Always 1 week", "See table below", "Always 1 week",
+          round(med$X__2[which(med$X__1 == "Avg Time in Visit 2-7-n-Done")], 2),
+          "See table below", 
+          round(med$X__2[which(med$X__1 == "Avg Time in Visit 2-7-More<3mo")],2),
+          "12weeks", "See table below")
+
+
+# Return Visit Interval after than 3months
+visit.order <- c("From 1 Visit", "From 2 to 7 Visits", "From 8 or More Visits")
+rvi2 <- rvi_after %>%
+  mutate(X__3 = sub(".*-(.*)$", "\\1", X__1),
+         Visit = sub(".*-(.*Visit.*)-.*$","\\1", X__1)) %>%
+  select(-X__1) %>%
+  spread(X__3, X__2) %>%
+  mutate(Visit = replace(Visit, Visit ==" 1Visit", "From 1 Visit"),
+         Visit = replace(Visit, Visit =="12Visits", "From 2 to 7 Visits"),
+         Visit = replace(Visit, Visit =="7Visits", "From 8 or More Visits")) %>%
+  slice(match(visit.order, Visit)) %>%
+  select(Visit, LowD, MidD, HighD) %>%
+  rename(`First Quartile` = LowD, Mean = MidD, `4th Quartile` = HighD) %>%
+  mutate_if(is.numeric, funs(round(.,2)))
+
+
+# Median Engagement Duration after than 3months
+med2 <- med_after %>%
+  mutate(X__3 = sub(".* (.* Q.*)$", "\\1", X__1),
+         Visit = sub("^(.*mo).*","\\1", X__1)) %>%
+  select(-X__1) %>%
+  spread(X__3, X__2) %>%
+  mutate(Visit = replace(Visit, Visit =="From1-PL3mo", "From 1 Visit"),
+         Visit = replace(Visit, Visit =="From2-7-PL3mo", "From 2 to 7 Visits"),
+         Visit = replace(Visit, Visit =="From8PL-PL3mo", "From 8 or More Visits"))%>%
+  slice(match(visit.order, Visit)) %>%
+  mutate_if(is.numeric, funs(round(.,2)))
+
+
+# Upper Table without Definition
+psy1 <- psypar1[,-3] %>%
+  rename(AppSupply = X__1, rate = X__2) %>%
+  add_row(AppSupply = "", rate = "") %>%
+  add_row(AppSupply = "", rate = "") %>%
+  add_row(AppSupply = "", rate = "") %>%
+  cbind(.,flow1[,-3], rvi1, med1)
+
+# Lower Table without Definition
+psy2 <- merge.data.frame(rvi2, med2, by = "Visit") %>%
+  add_row(`First Quartile` = "First Quartile", Mean = "Mean", 
+          `4th Quartile` = "4th Quartile", `Lower Q` = "First Quartile",
+          `Mid Qs` = "Mean", `Upper Q` = "4th Quartile", .before = 1)
+
+```
+
+#### Psy Table without definition (similar to the UI)
+```{r psy_table, echo=FALSE}
+htmlTable(psy1, header = c(rep("",2), "Patient Flow", "", "Return Visit \nInterval (weeks)", "Median Engagement \nDuration"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lllrcc")
+
+
+htmlTable(psy2, header = c("", "Return Visit", "Interval after 3", "Months (weeks)",
+                           "Engagement", "Time after 3", "Months (weeks)"),
+          rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", 
+          #caption ="Team Data", 
+          align = "lcccccc" )
+
+```
