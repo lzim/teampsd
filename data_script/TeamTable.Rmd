@@ -212,28 +212,30 @@ med1 <- c("Always 1 week", "See table below", "Always 1 week",
 # Return Visit Interval after than 3months
 visit.order <- c("From 1 Visit", "From 2 to 7 Visits", "From 8 or More Visits")
 rvi2 <- rvi_after %>%
-  mutate(X__3 = sub(".*-(.*)$", "\\1", X__1),
-         Visit = sub(".*-(.*Visit.*)-.*$","\\1", X__1)) %>%
+  mutate(Visit = sub("^(.*) Who .*", "\\1", X__1),
+         X__3 = sub(".* (.*) Frequency$", "\\1", X__1)) %>%
   select(-X__1) %>%
   spread(X__3, X__2) %>%
-  mutate(Visit = replace(Visit, Visit ==" 1Visit", "From 1 Visit"),
-         Visit = replace(Visit, Visit =="12Visits", "From 2 to 7 Visits"),
-         Visit = replace(Visit, Visit =="7Visits", "From 8 or More Visits")) %>%
+  mutate(Visit = replace(Visit, Visit =="Starters", "From 1 Visit"),
+         Visit = replace(Visit, Visit =="Initiators", "From 2 to 7 Visits"),
+         Visit = replace(Visit, Visit =="Completers", "From 8 or More Visits")) %>%
   slice(match(visit.order, Visit)) %>%
-  select(Visit, LowD, MidD, HighD) %>%
-  rename(`First Quartile` = LowD, Mean = MidD, `4th Quartile` = HighD) %>%
+  select(Visit, Low, Medium, High) %>%
+  rename(`First Quartile` = Low, Mean = Medium, `4th Quartile` = High) %>%
   mutate_if(is.numeric, funs(round(.,2)))
 
 
 # Median Engagement Duration after than 3months
 med2 <- med_after %>%
-  mutate(X__3 = sub(".* (.* Q.*)$", "\\1", X__1),
-         Visit = sub("^(.*mo).*","\\1", X__1)) %>%
+  # mutate(X__3 = sub(".* (.* Q.*)$", "\\1", X__1),
+  #        Visit = sub("^(.*mo).*","\\1", X__1)) %>%
+  mutate(X__3 = sub(".* (.*) Duration$", "\\1", X__1),
+         Visit = sub("^(.*) Who.*","\\1", X__1)) %>%
   select(-X__1) %>%
   spread(X__3, X__2) %>%
-  mutate(Visit = replace(Visit, Visit =="From1-PL3mo", "From 1 Visit"),
-         Visit = replace(Visit, Visit =="From2-7-PL3mo", "From 2 to 7 Visits"),
-         Visit = replace(Visit, Visit =="From8PL-PL3mo", "From 8 or More Visits"))%>%
+  mutate(Visit = replace(Visit, Visit =="Starters", "From 1 Visit"),
+         Visit = replace(Visit, Visit =="Initiators", "From 2 to 7 Visits"),
+         Visit = replace(Visit, Visit =="Completers", "From 8 or More Visits"))%>%
   slice(match(visit.order, Visit)) %>%
   mutate_if(is.numeric, funs(round(.,2)))
 
