@@ -108,7 +108,7 @@ aggpar.test <- as.data.frame(aggpar.table.body.shrt) %>%
   select(X__1, everything()) %>%
   mutate_if(is.factor,funs(as.character)) %>%
   add_row(X__1 = as.character(aggpar[6,1]), `Appointment Supply` =
-            as.character(aggpar[6,2]), 
+            as.character(round(as.numeric(aggpar[6,2]), 1)), 
           `True Missed Appointment %` = "Patients/Week",.before = 1) %>%
   add_row(`Appointment Supply` = "Appointment", `True Missed Appointment %` = 
             "True Missed",`Return Visit Interval` = "Return Visit", 
@@ -140,31 +140,32 @@ htmlTable(agg_def, header = c("Concept", "Definition"), rnames = FALSE, css.cell
 ## Psy Model
 
 ```{r psy_datafiles, include=FALSE}
-psypar1a <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B35:D36")
+psypar1a <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B35:D36")
 
-psypar1b <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B40:D43")
+psypar1b <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B40:D43")
 
-flow <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B3:D7")
+flow <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B3:D7")
 
-rvi <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B8:D12")
+rvi <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B8:D12")
 
-med <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B13:D14")
+med <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B13:D14")
 
-rvi_after <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:D23")
+rvi_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:D23")
 
-med_after <- read_excel("./original/ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "B24:D32")
+med_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B24:D32")
 ```
 
 ```{r psy_setup, include=FALSE}
 # Team Data Table/Appointment Supply columns
 ord1 <- c("Appt. Supply", "% AUD", "% DEP", "% OUD", "% PTSD")
-psypar1 <- rbind.data.frame(psypar1a[1,], psypar1b) %>%
-  mutate(X__1 = replace(X__1, X__1 == "PctPTSD", "% PTSD"),
-         X__1 = replace(X__1, X__1 == "PctDep", "% DEP"),
-         X__1 = replace(X__1, X__1 == "PctAUD", "% AUD"),
-         X__1 = replace(X__1, X__1 == "PctOUD", "% OUD"),
-         X__1 = replace(X__1, X__1 == "Baseline Appointment Supply", 
+psypar1 <- rbind.data.frame(psypar1a[2,], psypar1b) %>%
+  mutate(X__1 = replace(X__1, X__1 == "%PTSD", "% PTSD"),
+         X__1 = replace(X__1, X__1 == "%Dep", "% DEP"),
+         X__1 = replace(X__1, X__1 == "%AUD", "% AUD"),
+         X__1 = replace(X__1, X__1 == "%OUD", "% OUD"),
+         X__1 = replace(X__1, X__1 == "Appointment Supply", 
                         "Appt. Supply")) %>%
+  mutate_if(is.numeric, funs(round(.,1))) %>%
   mutate_if(is.numeric, funs(as.character)) %>%
   slice(match(ord1, X__1))
 
@@ -172,40 +173,40 @@ psypar1$X__2[which(psypar1$X__1 == "Appt. Supply")] <-
   paste0(psypar1$X__2[which(psypar1$X__1 == "Appt. Supply")], 
          " Slots/Week")
 #Patient Flow 
-flow.order <- c("Starters who Initiate","Starters who Return Later", "Starters who Quit", "Initiators who Complete","Initiators who Return Later", "Initiators who Quit Early", "Completers who Graduate","Completers who Return")
+flow.order <- c("Starters Who Initiate","Starters Who Return Later", "Starters Who Quit", "Initiators Who Complete","Initiators Who Return Later", "Initiators Who Quit Early", "Completers Who Graduate","Completers Who Return")
 
 ## Need to calculate
 ## Starters who Quit
 ## Initiators who Return Later
 ## Completers who Return
 flow1 <- flow %>%
-  add_row(X__1 = "Starters who Quit") %>% 
-  add_row(X__1 = "Initiators who Return Later") %>%
-  add_row(X__1 = "Completers who Return") %>%
-  mutate( X__2 = replace(X__2, X__1 == "Starters who Quit", 1 - 
+  add_row(X__1 = "Starters Who Quit") %>% 
+  add_row(X__1 = "Initiators Who Return Later") %>%
+  add_row(X__1 = "Completers Who Return") %>%
+  mutate( X__2 = replace(X__2, X__1 == "Starters Who Quit", 1 - 
                            (X__2[which(X__1 == "Starters Who Initiate")] + 
                               X__2[which(X__1 == "Starters Who Return Later")])),
           X__2 = replace(X__2, X__1 == "Initiators Who Return Later", 1 - 
                            (X__2[which(X__1 == "Initiators Who Complete")] + 
                               X__2[which(X__1 == "Initiators Who Quit Early")])),
-          X__2 = replace(X__2, X__1 == "Completers Who Return", 1 - 
+          X__2 = replace(X__2, X__1 =="Completers Who Return", 1 - 
                            (X__2[which(X__1 == "Completers Who Graduate")]))) %>%
   slice(match(flow.order, X__1)) %>%
   mutate(X__2 = paste0(round(X__2, 2)*100, "%"))
 
 # Return Visit Interval less than 3months
 rvi1 <- c("N/A", "See table below", "N/A", 
-          round(rvi$X__2[which(rvi$X__1 == "Frequency <3mo - 2-7Visits-n-More<3mo")],2) ,
+          round(rvi$X__2[which(rvi$X__1 == "Initiators Who Complete Frequency")],2) ,
           "See table below",
-          round(rvi$X__2[which(rvi$X__1 == "Frequency <3mo - 2-7Visits-n-done")],2), 
-          round(rvi$X__2[which(rvi$X__1 == "8plusfreq")],2),
+          round(rvi$X__2[which(rvi$X__1 == "Initiators Who Quit Early Frequency")],2), 
+          round(rvi$X__2[which(rvi$X__1 == "Completers Frequency")],2),
           "See table below")
 
 # Median Engagement Duration less than 3months
 med1 <- c("Always 1 week", "See table below", "Always 1 week",
-          round(med$X__2[which(med$X__1 == "Avg Time in Visit 2-7-n-Done")], 2),
+          round(med$X__2[which(med$X__1 == "Initiators Who Quit Early Frequency")], 2),
           "See table below", 
-          round(med$X__2[which(med$X__1 == "Avg Time in Visit 2-7-More<3mo")],2),
+          round(med$X__2[which(med$X__1 == "Initators Who Graduate Duration")],2),
           "12weeks", "See table below")
 
 
@@ -227,8 +228,6 @@ rvi2 <- rvi_after %>%
 
 # Median Engagement Duration after than 3months
 med2 <- med_after %>%
-  # mutate(X__3 = sub(".* (.* Q.*)$", "\\1", X__1),
-  #        Visit = sub("^(.*mo).*","\\1", X__1)) %>%
   mutate(X__3 = sub(".* (.*) Duration$", "\\1", X__1),
          Visit = sub("^(.*) Who.*","\\1", X__1)) %>%
   select(-X__1) %>%
@@ -237,6 +236,8 @@ med2 <- med_after %>%
          Visit = replace(Visit, Visit =="Initiators", "From 2 to 7 Visits"),
          Visit = replace(Visit, Visit =="Completers", "From 8 or More Visits"))%>%
   slice(match(visit.order, Visit)) %>%
+  select(Visit, Low, Medium, High) %>%
+  #rename(`First Quartile` = Low, Mean = Medium, `4th Quartile` = High) %>%
   mutate_if(is.numeric, funs(round(.,2)))
 
 
@@ -251,8 +252,8 @@ psy1 <- psypar1[,-3] %>%
 # Lower Table without Definition
 psy2 <- merge.data.frame(rvi2, med2, by = "Visit") %>%
   add_row(`First Quartile` = "First Quartile", Mean = "Mean", 
-          `4th Quartile` = "4th Quartile", `Lower Q` = "First Quartile",
-          `Mid Qs` = "Mean", `Upper Q` = "4th Quartile", .before = 1)
+          `4th Quartile` = "4th Quartile", `Low` = "First Quartile",
+          `Medium` = "Mean", `High` = "4th Quartile", .before = 1)
 
 ```
 
