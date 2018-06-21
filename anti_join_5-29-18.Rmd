@@ -74,6 +74,8 @@ dropout.df <- dropout.df %>%
 table(dropout.df$year, useNA = 'ifany')
   ## Where are there 3 obs whose year is beyond 2016?
   ## About 40% of the data doesn't have any year record. Will this impact the analysis?
+  ## Note that the  year available in the dropout data only overlaps with part of the  year in the comparator data. Is that okay?
+
 
 ```
 
@@ -102,14 +104,22 @@ summary (merge.df)
 
 ##Because our collaborators requested a merged dataset to work with on their own, I have also saved a merged dataset in our folder, so occasionally I shortcut to this step of the process and read in the merged dataset:
 ```{r}
-merge.df <- read.csv(file="merge.csv", header=TRUE)
+write.csv(merge.df, "Mod Data/merged.csv")
+#merge.df <- read.csv(file="merge.csv", header=TRUE)
+
+##  If you created  a csv file within this batch of code, then it should be written into your script, and it should be saved into the "Mod Data" folder to ensure that others know that this is not an original source file
+
 ```
 
 
 ##Generate another dataframe that is the comparator.df minus the selection that was merged (with the CPT dataset), in order to compare the CPT sites with other sites (i.e., CDW minus CPT; compare X with 1 - X)
 
 ```{r}
-cdw_minus_merge.df <- anti_join(comparator.df, merge.df, by= "site_yq")
+#cdw_minus_merge.df <- anti_join(comparator.df, merge.df, by= "site_yq")
+cdw_minus_merge.df <- anti_join(compsub.df, dropout.df, by= "site_yq")
+  ## Isn't the comparator data used to create the merged the compsub?
+  ## Why use the full comparator instead of the filtered version?
+  ## Why do the anti_join with merged.df instead of the dropout.df?
 ```
 
 ## Examine the several datasets:
