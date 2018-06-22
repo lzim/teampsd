@@ -24,7 +24,7 @@ pdf_document: default
     Introduction <teampsd/facilitation_guide/manual_intro.rmd> 
     Acknowledgments <teampsd/facilitation_guide/manual_acknowledgments.rmd>
 
-## Course Guidance
+## Course Guidance <teampsd/facilitation_guide/manual_courseguidance.rmd>
     Staffing and Roles
     Target Audience
     Technology and Mechanics
