@@ -53,6 +53,6 @@ pdf_document: default
 
 ## Appendices
     Appendix A. Icon Glossary
-    Appendix B. Terms and Acronyms
+    Appendix B. Terms and Acronyms <teampsd/facilitation_guide/manual_termsandacronyms.rmd>
     Appendix C. Using the Data Interface in SharePoint
     Appendix D. Using the Model Interface in Forio
