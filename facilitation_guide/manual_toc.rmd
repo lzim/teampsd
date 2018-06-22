@@ -21,7 +21,7 @@ pdf_document: default
 # Table of Contents
 
 ## Preface
-    Introduction
+    Introduction <teampsd/facilitation_guide/manual_intro.rmd> 
     Acknowledgments
 
 ## Course Guidance
