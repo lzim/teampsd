@@ -22,7 +22,7 @@ pdf_document: default
 
 ## Preface
     Introduction <teampsd/facilitation_guide/manual_intro.rmd> 
-    Acknowledgments
+    Acknowledgments <teampsd/facilitation_guide/manual_acknowledgments.rmd>
 
 ## Course Guidance
     Staffing and Roles
