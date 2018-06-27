@@ -25,17 +25,28 @@ pdf_document: default
     Acknowledgments <teampsd/facilitation_guide/manual_acknowledgments.rmd>
 
 ## Course Guidance <teampsd/facilitation_guide/manual_courseguidance.rmd>
+    
     Staffing and Roles
     -Pre-meeting emails
     -Pre-meeting checklist
     -During-meeting checklist
     -Post-meeting debrief
     -Post-meeting emails
+    
     Target Audience
+    
     Technology and Mechanics
+    -How to phone in to VANTS line; troubleshooting
+    -How to login to AdobeConnect; troubleshooting
+    -How to login to DataUI; troubleshooting
+    -How to login to SimUI; troubleshooting
+    
     Course Schedule
+    
     Session Guides
+    
     Continuing Education Credits
+    
     Communications
 
 ## Session Guides
