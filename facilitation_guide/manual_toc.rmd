@@ -26,6 +26,11 @@ pdf_document: default
 
 ## Course Guidance <teampsd/facilitation_guide/manual_courseguidance.rmd>
     Staffing and Roles
+    -Pre-meeting emails
+    -Pre-meeting checklist
+    -During-meeting checklist
+    -Post-meeting debrief
+    -Post-meeting emails
     Target Audience
     Technology and Mechanics
     Course Schedule
