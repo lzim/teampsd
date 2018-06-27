@@ -34,6 +34,7 @@ pdf_document: default
     -Post-meeting emails
     
     Target Audience
+    -Team rosters
     
     Technology and Mechanics
     -How to phone in to VANTS line; troubleshooting
