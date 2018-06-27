@@ -1,0 +1,7 @@
+Team 6  
+2018.05.30  
+Aggregate  
+
+Question: How many more patients would we be able to see if we limited total treatment period to 6 months?  
+
+Hypothesis: We could see more patients because we would be graduating people faster (stopped at trying to tie to booking rate)  
