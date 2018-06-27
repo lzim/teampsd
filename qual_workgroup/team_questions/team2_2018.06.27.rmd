@@ -10,5 +10,5 @@ findings:
 
 decisions:   
 Decision #1: We would like to work with a parameter file that includes practicum student grids (50% of them).   
-Decision #2: Interim team lead will be Dr. Sakai.  
-Decision #3: Explore inclusion of Bruce Linenberg for psychotherapy and  possibly attending team meetings.
+Decision #2: Interim team lead decided 
+Decision #3: Explore inclusion of psychiatrist from another team for psychotherapy and  possibly attending team meetings.
