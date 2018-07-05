@@ -1,0 +1,70 @@
+Team 3 
+8:17am
+31tlead and 37 join (same computer and phone line)
+
+31tlead logging into mtl.how/live
+
+lz: i'll show some things and drive, but if you want to open a second screen to share and follow along, you can do that. in the chat of the adobe connect i put the mtl.how/sim. i've already started a world for us you can just click join current simulation and play simulation
+
+31tlead: on my screen or yours?
+
+lz: if you go to mtl.how/sim, you can toggle between two windows
+
+31tlead: should i use chrome for that as well?
+
+31tlead: what is password?
+
+lz: use va email and sp what is password?
+
+sp: tele1234
+
+31tlead: should i join current session?
+
+lz: i will have tr quickly reintroduce yourself. we have 31tlead and 37 today
+
+8:23am
+
+lz: we have sp and I, and 31tlead and 37 - do you want to introduce yourself?
+
+31tlead: telemental health director
+
+37: telemental health coordinator
+
+tom: I work at a VA in boston and am one of the systems modelers for this project
+
+lz: looking at adobe connect window where you see sim. can you see mouse wiggling? we are in telehealth world. based on mtl menu there was wish of looking at psychotx services but within overall services, so we have agg open. main three things to orient are, hey im in agg world, im in the right team. I have the data.  what we planned to do in this agg world was focus on the data. we weren't sure the sim model would be reading the data. I've cued up actual data file that we've loaded here. appt supply here 10.44 is matching appt supply here. does that make sense that when we spoke at process improvement we weren't sure that data was reading into sim properly and now we're increasingly sure?
+
+31tlead: yes
+
+8:26am
+lz: with some teams, we've been reviewing how to get into data. we've done same thing with explorer that we've done with other links. you can type in mtl.how/data which will take you directly to SharePoint and you can drill down to Telehealth folder. you will see 2 folders. one is data ui, which is this tool (in SharePoint). the reason we call it a userinterface, is because this is where you can update and get pt level data and generate model. we call it a ui bc there are many things you can sort to see. you can also click to generate model parameter file which you will use in the sim ui. does that make sense as a quick walk back of the 2 types of data files
+
+8:29am
+lz: if you don't remember mtl.how/data to get into the data, you can also type in mtl.how - no need for www. or http - it will take you to list of resources. let's move into thinking about data and sim in relation to question you have. to do that we will go into expanded outputs tile. we ran basecase about a month ago, which is what will happen when you change nothing at all - which isn't realistic, but this is to have a clean test. a basecase is what if we had a full staff vs. the change of not having 33 for the interim.  today we will flesh out question, look at data, look at sim, what team wants to learn from sim, and we will start to frame out more concrete and specific tests you want to look at . i know you have questions related to based on mtl menu, loss of staff throughout healthcare system, of course we know 33is out on maternity leave. could you guys help frame a question here and we will help you test and understand the question.
+
+8:32am
+31tlead: impact on numbers or productivity in relation to multiple steps of departure within the cboc as well as within our own team
+
+lz: very succintly put. can you say more about what kinds of impacts i.e. number of pts seen
+
+31tlead: number of pts seen, time to treatment, appropriateness for referral? we are getting a lot of inappropriate referrals because they're short staffed in each of the cboc's. main one's we're thinking about.
+
+8:34am
+lz: on telehealth team, is 33 half time?
+
+31tlead: no, she's full time.
+
+lz: when is she anticipated to be back?
+
+31tlead: august? I think end of august. she's out may, june, july, and probably early august.
+
+lz: and loss of staff, are there specific discipline?
+
+31tlead: it's kind of everyone. a lot of psychiatrists, therapy, sw, and a lot of specialty staff like pct and ats, but i would say biggest is psychologists and sw
+
+8:36am
+lz: next step we want to look at with data and model, when we say hypothesis, system dynamics has the word dynamic to clarify that there's a lot of variables in the question and we want to think about what kinds of variables we want to experiment with/manipulate and what kinds of variables we would look at as outcome. you started talking about the outcome is impact - how many pts getting see, etc. more variables with loss of supply to meet pts needs, but even not across all disciplines. there may be specific disciplines we want to look at. we want to start filling out question.
+
+8:38am
+lz: already covered how the data table here is genereated. later today i will upload one that says 21 jun and one that's no webb, because we want to explore with data. we want to think about interplay between values of team data (in red) and how they correspond to values in model. for example, when I click on psychotherapy, values adjusted to what is typical for team. again with MM. if I scroll down, I can see what is typical for patients. so right now, for example, you would see, 8.8 pts are seen in this service in a typical week.
+

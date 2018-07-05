@@ -1,0 +1,19 @@
+1/4/18 Team 3 Team – Session 3
+Attendees
+- 31tlead
+- 33
+- 37
+- 32 (late)
+- lz
+- sp
+8:15am
+sp: **Asks whether people received/saw HTML email and whether there were any questions or confusing aspects about it.
+31tlead: We already did team goal and picked a case to discuss (in do/done list).  We picked one of 32’s patients and gave last name + last four to lz.  Otherwise, everything was good.
+33: I saw the HTML email too and did not have any questions about it.
+sp: Have you tried looking at the data on the SharePoint?  Did you run into any issues?  Did you save the spreadsheet?
+31tlead: Yes, started looking at data.  Did not save the spreadsheet – what do you mean by that?
+sp: **Shows that when looking at excel data there is a “workbook version” and a “web app” version.  Begins to explain that once you pick which grids to include/exclude, it will take 15-20mins for the spreadsheet to pull everything up since it’s pulling up two years of data.  Explains that if you save it once, you don’t have to re-pull data every time depending on what’s the most recent file you need.
+8:20am
+lz: **Walks through SharePoint.  Explains to use excel workbook instead of web app due to limited functionalities.  Points out “filter icons” at column heads and shows why/how to remove them.  Explains how to save spreadsheet and why the team wants to do that.  Walks through selecting grids and which buttons to press to generate file.
+8:34am
+lz: Next time… we will generate and export model parameters.

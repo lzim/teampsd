@@ -1,0 +1,15 @@
+team 3 02/15/2018
+Attendees: 31tlead, 32, 32, 32, 33,  
+Facilitator: lz
+Coder: sp
+
+8:20am
+32: Is there a key for the colors and shapes in the user interface? The user interface looks more complicated than the VENSIM diagram.
+31tlead: Traffic example
+8:25am
+32: Number of cars getting on versus off size of highway
+31tlead: Accidents 
+32: We don’t do care coordination. We only do psychotherapy. 
+8:30am
+32: I do CPT 90832 defined as 30min psychotherapy appointment occasionally. Data will mostly be mine. 
+32: We only use 90832 if session ends early or needs to be shortened etc.
