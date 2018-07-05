@@ -1,0 +1,209 @@
+
+Modeling to Learn Session 3 – Care Coordination Simulation (TOTAL 30 min)
+Team and Date: _Team 6 2/27/18___________________________________________________
+Time Spent: _9:02am____________________________________________________________________
+Attendees: _63tlead, 61, 63, 63, 64, 65________________________________
+Facilitator: _lz__________________________________________________________________
+Coders: sp, dl______________________________________________________
+Review
+Content
+Covered?
+How well? (+/-/0)
+Interim vision/Team learning goal
+
+
+Simulation data inclusion and exclusion criteria
+
+
+Access team data Sharepoint and troubleshooting
+
+
+
+Retrospective Data Review and Simulation Data
+Content
+Covered?
+How well? (+/-/0)
+Introduce all four models
+x
+0
+Limits to retrospective data review
+
+
+Reason for simulating data
+Ex: retirement, weight loss, touching hot stove (real-time feedback)
+x
+0
+Making goals that are SMART vs. SMT (Specific, Measurable, Achievable, Relevant, and Time-bound)
+x
+0
+
+Care Coordination Introduction
+Content
+Covered?
+How well? (+/-/0)
+CPT codes
+
+
+Discuss patients and appointments as stocks with limited supply
+Ex. physics – conservation of matter
+x
+
+Discuss flows of patients/week and appointments/week
+x
+
+Explain color coding of models
+x
+
+Explain shapes in models
+
+
+Explain team data input variables
+x
+
+Explain reinforcing loop
+Ex. microphone 
+
+
+Explain balancing loop
+Ex. thermostat, traffic
+
+
+Balancing new vs. existing patients with the return visit interval
+x
+
+Interaction of median engagement time in CC and ending CC rate
+x
+
+
+Other Content:
+Content
+Covered?
+How well? (+/-/0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Comments:
+Time/Speaker
+Comment
+CFIR Code
+Systems Thinking Code
+9:07am 
+lz
+What do people remember about last time?
+
+
+63tlead
+We went over the fancy diagrams about how patients are getting booked
+
+
+63tlead
+We went over the helpful hints handout
+
+
+63tlead
+We went over the Care Coordination model as far as trying to find out what it is that we want to figure out what is useful for us.  What we think will happen and our findings based on our thoughts.
+
+
+65
+How to find the information in the data base.  What is filtered out – how to turn these on/off. Using Excel as a better way of getting into the information.
+
+
+63tlead
+We don’t have to open up the report every time but can use what you saved last time.
+
+
+9:12am
+64
+Database had a lot of providers minus the peer support, so you showed us how to get to certain providers
+
+
+9:17am
+lz
+(Showing Vensim diagram complexity 2) Does anyone know what this is showing?
+
+
+9:18am
+64
+Start is intake or assessment part, patients in CC, and then they discharge?
+
+
+9:25am
+63tlead
+Does CC end mean discharged note or if patient stops coming?
+
+
+9:27am
+64
+What about drop-in clinics?  How are they reflected in the data?
+
+
+9:32am
+lz
+What is your baseline return to clinic interval?
+
+
+63
+If treating for anxiety and doing EBT, then every two weeks.  If doing PTSD treatment, then every week.
+
+
+63
+If they’re stable and don’t want anything else, I tell them to call me when they want to see me or either 6 mo/1 year out depending on what pt wants
+
+
+63
+In above scenario, I do telephone appointments every 6 months.
+
+
+
+
+
+
+
+
+
+
+Were any of the following adaptations made to today’s session? Please check all that apply and describe as necessary:
+Lengthening/extending session time
+
+Shortening/condensing session time
+
+Moving ahead of session script
+
+Missing parts of session script
+
+Technical difficulties 
+x
+Virtual facilitation
+
+
+
+
+Facilitator/team dynamic:
+What percentage of the session did the facilitator talk?
+<10%		25%		50%		75% 		>90%
+What percentage of the session did the team talk?
+<10%		25%		50%		75% 		>90%
+
+Comments/Notes:
+What is impact of 1 week vs. 1 year as the RVI on getting veterans into treatment?

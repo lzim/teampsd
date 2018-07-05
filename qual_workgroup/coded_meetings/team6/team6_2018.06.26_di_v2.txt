@@ -1,0 +1,119 @@
+Team 6
+2018.06.26
+
+Facilitators: Lz and Tr
+Coders: Sp, Jb, Dk, Dl
+Attendees: 63tlead, 61, 63, 65, 61
+
+Start Time: 9:05a
+End Time: 10:01a 
+
+question:
+hypothesis:
+findings:
+decisions:
+
+LZ: If you are on the VANTS line but have not gotten into the Adobe connect screen, that can be accessed by mtl.how/live.  If you want to drive along in the simulation, that is accessible at mtl.how/sim. I think I heard a question in the background about mtl.how/sim. When we're meeting with the team, our login is the email.  Review password.  Review what is the e
+
+How much time to we have today 63tlead?
+
+63tlead: Full hour
+Lz: Team 6 team introductions
+LZ: Is everyone in mtl.how/live and mtl.how/sim to follow along?
+
+9:14a
+LZ: You will see I'm logged into Team 6 team world.  Use Chrome for this.  Whereas in VA, all our systems play best with Microsoft - does anyone remember?
+
+63tlead: Explorer
+
+LZ: You only see "join current session" unless you're team lead which is 63tlead and 63 Hall as backup.  If you were to login to individual world, you would use vhapal login, but today, you're using VA email.
+
+Pressure to do same day access clinics.  Made a lot of sense to start with aggregate model. Can everyone seem me circling aggregate tile?
+
+65: Yes, I do.
+
+LZ: Is that 65? Thank you for engagement. Really appreciate it.  If you look on left side, you see the data pull uploaded which I ran a fresh data pull yesterday.  Last meeting, we were struggling to get team data read in. Agenda today is recapping reading in team data and develop how to manage schedule into specific hypothesis to test to see improvements and address challenges.  If you were to toggle to mtl.how/data instead... does everyone see this?
+
+Everyone: Yes
+
+9:18a
+LZ: As a reminder of time savers, if you want to see aggregate data, you can click on Team 6.  You can look at it by encounters.  Lot of group therapy.  You can also drill down to HF. This was brought up in last team meeting on template use.  Team has had 6 fold increase in March in relation to CBT.
+
+In 640a_team 6, you see two folder, for the data ui and model parameters.  Uploaded fresh one for both.  What's the difference between data ui and sim params? Can anyone take a stab at that? 
+
+63tlead: Data UI is actual data from our workload/productivity and sim is we can play with that/experiment.
+
+9:21a
+LZ: In the sim ui, you can get upload the parameters file for use. Whereas data ui is tool which puts you in driver seat where you can select which clinics you look at pull fresh data if you need to. You can also look at other team trends. You could select to look at one individual clinic to look at if you want to.  (Pivot table error comes up) Does anyone remember what to do for this error?
+
+63tlead: Just click ok..?
+
+LZ: You can go to Analyze or Data and refresh data. Reminder that tool is for visualization and pt level data that goes underneath it. You can also go through team list and find all the pts you're looking for or pick a specific HF i.e. suicide safety plan. These things are carrying over choices made elsewhere. If you're thinking I'm not seeing everything I should see, keep in mind to look for filters and clear if you're not seeing everything you expect to see.
+
+9:25a
+LZ: When choosing pt level data, you can also choose to generate and export model params. To make things easy, we uploaded all the visualization data and sim params into these two folders yesterday. Last time, we were just looking at simulation params for agg. I was surprised at the number for adjunct, which is where recreational therapy, peer support, etc. get grouped.  Does everyone remember this from last time?
+
+63tlead: It looks a little familiar.
+
+LZ: We have noticed a few things. We have a tool to follow up on questions 63 had last time. Notice there's a get CPT codes for Team 6 function. For example, part of the reason there's so many visits for adjunct, is that there's 15 min visits. One of first fixes is to correctly adjust for the fact that it's not that you saw 4 pts, buts did 4 15 min visits. There's also phone calls, and other things like injections.  We wanted to look at specific CPT codes being binned. We won't spend too much time on adjunct, but explains why so many weekly hours in adjunct.
+
+9:29a
+LZ: Appt supply for ebpsy seemed to be low.  2 appts/week did not seem consistent with what 63 and 63 were doing. 63 pulled up report on it. 
+
+Sp: Seeing hashmarks.
+
+LZ: For all facilitators, if you accidentally click on taskbar, you will get the hashmarks. You have to actually be in excel.
+
+9:32a
+LZ: You can see 5 fold increase. Sim helps explore more recent changes and project plausible future. If no changes made, what happens 6mos - 1 yr.  Or if we see specific changes, the sim params are meant to be stable estimates to experiment with in simulation to get better sense of what is driving sim. Estimate for ebpsy may be lagging the dramatic increase.  If there is estimate in params file that is inaccurate, we can adjust it in the sim.
+
+LZ: Think about median engagement. (LZ reads definition of median engagement). We go backward in time to get full 2 year interval.  If we only looked at last 6 months, we would not get valid engagement numbers, because it would make everyone's estimates look short. We would look at patients seen in 2017, and go backwards in time to their first visits.
+
+63tlead: No questions
+
+LZ: Was it clear or did I put you to sleep
+
+61: Ready to move forward!
+
+LZ: Goal today is to take general question and move to a more specific dynamic hypothesis. Who on team is willing to draft up question of what you would like to learn?
+
+9:39a
+LZ: Are most pressing issues related to staffing changes
+
+63: Frequently trying to have us have to 30 min appts instead of 60 minute ebpsy.  Is it more beneficial to see more pts for less time or less pts for more time? I would like better pt outcome. Rather than keeping them longer with shorter appts, can we see them for shorter amount of time with longer appts? Are we seeing the same number of veterans either way?
+
+LZ: Do you have expectations on team about longer app
+
+63: If we do EBPsy 60 min, we would see less veterans and they would get better faster vs. not getting better with 30 minute. We would have better numbers with 60 minutes
+
+LZ: Does anyone have more impact they would like to look at or something they want to observe in relation with this? Another priority?
+
+65: I would ask when we think of EBP in EBPsy, if there is difference between PTSD and DEP diagnosis.  Sometimes we get a little of each.  If someone is diagnosed with just DEP, if there is better outcome at having 60 min visits for shorter period than 30 min. Whether or not diagnosis makes difference in how long we're treating these patients?
+
+63tlead: Another controversy with 60 min to 30 min, is access. If we fill up spots with EBP, we're choicing out a lot of veterans into community after a certain amount of time.
+
+63: Is there way to maximize 30 min appt to EBPsy and what would prop need to be in normal 40 hr work week
+
+LZ: Expectations of proportions? 
+
+(Silence)
+
+LZ:How much of grids allocated to EBPSy, etc.?
+
+63tlead: 5 EBP's/week, and more case management. We balance with group and some of us have admin duties, committees, chairs, etc.
+
+9:51a
+LZ: Enters a decision.  As you guys can see, everytime I save you see a scenario that says I saved successfully.  We would want to setup exp that helps understand how any changes to appt supply.  BC comes from team data. If you look up here at appt supply, approx there are 12 appts/week that include reviewing pts to see whether they should start new service, 25 hrs on psychotx. Giving us estimates here for CC.  17 hrs/week for CC. 10 hrs/week for appt supply. First move is to run bc, so what would happen if we changed nothing at all.
+
+9:54a
+LZ: I'm going to hit run. If you look in experiment tile, all sliders are all the way to the left and all say bc, meaning I haven't changed anything yet. Trying to get a sense of what no change looks like in this scenario. Then in output tile, shows flat line as if nothing were changing. Tr, you pointed out that it's not realistic that nothing is changing, we just saw major improvements and change in data tool.  BC helps us think through if we remove all the noise and just project out 2 yrs, if we run exp we can see impact of exp's relative to bc.  This will become increasingly clear.  Right now in bc scenario, we see how appt supply affects pt services. Referrals to team will say just service props.  We want to think about what % of total pt services, what is prop at which pts start these new services.  If appt supply were to increase, it would increase pt start...
+
+9:58a
+LZ: In team data table, for bc we see difference in how frequently they come back, difference in engagement... not only how long they're engaged but also rvi interval. ebpsy tends to come back every week whereas cc comes back every 23 weeks. We will start picking up at and exploring values against team data so we can compare and explore experiments against bc.
+
+63tlead: We will meetg again, not the 3rd, but the 10th? And we will be at our desk again right?
+
+LZ: When we meet next time, 63tlead I'll have you drive and please join from own computers again. If you have any other feedbacks or thoughts to pass on, please do, since we are preparing for the team.
+
+10:01a end
+

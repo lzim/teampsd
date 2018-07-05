@@ -1,0 +1,20 @@
+01/23/2018 Team 6 
+9:06p
+lz: How much time do we have?
+63tlead: About 30 minutes
+lz: Ok, we will look end around 9:35a then.    Hopping in our session 6 script, everyone knows the team learning goal. Which is why our interim vision or team learning goal is…?
+63tlead: Strength in numbers?
+lz: Yes.  My understanding of this goal is that the team feels innovative and supported by each other, but the data is not always reflecting that.  We will be sending an email afterwards, which will include your ongoing goal.  We will also be learning to think in a systems way.  Were there issues in troubleshooting related to the data?  The first thing I heard, is that people had trouble opening up the video. (lz shows how to get to/open the video).
+63tlead: Can we label that as “video” so that makes sense?
+lz: f2, let’s create a folder for videos that will have all the how-to videos. (lz continues clarifying how to access video).  What other issues have come up?  Did other people try to hop in there?
+63tlead: I think time is the issue.  If I have an hour, I’m doing other tasks i.e. returning phone calls, writing consults, etc.
+lz: Two suggestions.  We had the programmer look at the data pull when we didn’t see as much action for Team 6 as we see on the landing page.  One quick estimate of what’s going on is to check the splash page for the facility.  Yes, it is not Team 6 specific but, it can still be a good quick estimate.  The programmer has checked the data, because last time we felt like there was data missing.  Data should be accessible and transparent to you if you spend so much time charting.
+9:16a
+lz: (Goes through splash page) I’m now in encounter tab.  Now in health factor tab.  There’s a scroll bar on the side to click on different items and there’s a table on the bottom as well.  We are working on getting more templates in, but this is what we have so far…  We will also be adding suicide flags, drug monitoring screens, etc.
+provider: I have a question.  I wasn’t sure what the labels on the splash page represent?
+lz:  That’s a great question.  We will make sure to send the table of CPT codes.
+9:21a
+lz: Ok, that was my first shortcut.  The second one is to filter by division and location name on the excel web chart under “data.”  You can also sort by time.  The other time saver that has come up a lot – people don’t necessarily want to pull a brand new data file for their team each time.  For most of you, the file that I generated two weeks ago, should still be fine.  (lz walks through steps to getting to excel workbook and teaches to use in IE not Chrome). (lz walks through different excel tabs and what they mean; how to read data and use filters).  The reason we want you to look at your specific veteran is because we want you to be able to picture a specific veteran’s care.
+9:35a
+lz: We are out of time and have not moved into simulations, but if this has helped people figure out how to walk through data with limited time, that’s great.  You can use any of the shortcuts I just showed you.  I often only have 15 minutes as well, so I understand.  Any questions?  Keep in mind, we really consider you guys as partners, so don’t be shy in asking if something is missing or useful.  All feedback is useful to us.  Follow-up, we will label the video folder, add the hand out from today, and send out the table of CPT codes.
+

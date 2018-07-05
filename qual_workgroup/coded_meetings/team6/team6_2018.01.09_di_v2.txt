@@ -1,0 +1,23 @@
+Team 6
+ 01/09/2018
+Attendees: 62, 62, 63, and 61 out
+Facilitator: lz
+Coder: sp
+
+9:07a
+lz: Did everyone get the HTML email?  Follows handout starting with team goal.  You will be getting weekly emails to keep updated with what’s going on.
+
+9:12a
+lz: Walks through each of MTL objectives, explains them, and how it relates to the Team 4 on team.  Did you guys settle on a vet to look at?  We will look at said vet in the data today and want to think about how “typical” he is.  We tend to use the recency effect or outlier because stands out most in our mind, but want “typical” case.  Looking at the SharePoint, the Splash page still has glitches and we are still working on fixing it.  We want and welcome all feedback at every point.  Our goal is to find all these kinds of glitches and fix them.  The SplashPage and data tool programmer are completely different so don’t worry.  Has anyone tried looking at the data?
+
+9:17a
+63: Got to the Splash page.  Picked that the data wasn’t correct/missing iteams and didn’t know where to go from there.
+
+9:19a
+lz: Open up the Excel file and use the workbook instead of the app.  The tool gives VA national data to the team.  Running a query for the national level data takes time.  It pulls from 2 years go to most recently closed encounter.  Not something to do often. Run this and go to lunch.
+
+9:24a
+lz: If you’re missing data, try clicking on “clear filter” or select all.  Once you’ve selected grids, you click the arrow and it’ll move it over to the left.  Then hit “get pt level data.”  There are 2 types of tabs.  Raw data tab which is “data” and visualization tab which is “viz”.  Looking at data is important for knowing where it comes from, what we’re good/bad at, etc. but not how to improve.  Individually later, look at the vet you chose.  Right now we will look at retro data though.
+
+9:31a
+lz: You can save Excel workbook to the SharePoint.  If you’re missing data, recheck what you’ve selected.  You can change this with filters.  Until next week, look at the data and see if some grids are missing or if you want to take anything out.

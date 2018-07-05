@@ -1,0 +1,51 @@
+Team 4 03/13/2018
+Coders – dl and sp
+Facilitators – lz
+Attendees - 65, 63, 64, 63tlead, 61, 62 
+Time: 9:05am – 9:30a
+9:05a
+lz – Let me show you updates and improvements to the tool.  Review SharePoint and trends over time.  When you go to the SharePoint, try to look at patients, any permissions you have on your PIV card will translate to this page.
+Another time saver is to open most recent data file.
+Couple other things to alert you to – language up here to add clinics.  Based on error we were getting.  People were filtering but not adding data to the left before clicking get patient data or generate parameters.
+lz demonstrate how to add the clinics.
+9:11a 
+lz – All the clinics used by Team 4 in the last two years that have been deactivated.  Since our local VA system has recently changed their clinic names, we wanted everyone to be able to show activated and deactivated.
+63tlead – woohoo!
+lz – Last improvement, is about restricted access to record for folks like VA employees that are also pts that have requested restricted access to their records.  So, information is asterisked out but in column called “L4” or last four, it will have last initial and last four digits of SSI.
+9:14a
+lz – We currently have resources and support to make improvements, so make sure to let us know what would make tool good for you while we can.
+9:15a 
+lz – We’ve spent a  lot of time with get pts level data.  When we click generate and export model params button, we’re calculating data that goes in model based on data you collect.  You get file that shows you medians or averages based on team data. 
+Explain team data variables.
+New patients per week is around 7!
+63tlead – That’s very validating. Thank you
+lz – What’s one and done?
+63tlead – They come for an intake and that’s it?
+lz – for CC, it means they get one CC visit and don’t come back again.  It’s a little bit less than a third.
+63tlead – We don’t track them after they go to community for community care?
+lz – No.  
+63tlead – that should account for some we see, but they want more frequent visits than we can accommodate so we refer them out to the community.
+9:20a
+lz – Missed opportunity rate = no show rate.  A true missed opportunity is neither one cancelled by pt or clinic in time for someone else to have taken the spot.
+63tlead – We have a goal we’re trying to meet.  Like 18%?  Seems like it might be a national goal… or a VISN goal.  That might be old news?
+lz – In general, we all want to lower no show rate.
+lz – Does anyone remember why we use median instead of mean?
+63tlead – One is average and the other one is where most people fall under?
+9:22a
+lz – Mean is average, everyone is right about that.  Median is middle value.  Bay area example – we use median instead of mean because it skews.  Mean in health care data is usually skewed toward super users.
+9:25a
+Median engagement time in CC is what I was pointing to.  Mean says on average it’s about 70 weeks but median is a bit
+lz – What is other unit we account for besides patients?
+63tlead – new vs. existing?
+lz – No, other unit is appointments
+63tlead – If median engagement goes up, if you start more pts you’ll have more f/u and if you don’t start more pts, you won’t have much?
+65 - People aren’t really ending service 
+63 – Not much control on number of intakes.  If we have openings, it just gets scheduled.
+lz – We are showing the issue of if pts are starting to be in engagement care and don’t graduate, it basically does not let us start the service.  Counterbalanced by other things like no shows and one and done.   Keep in mind we are only looking at CC right now.  On 63’s point about intakes – also important to looks at how long we’re engaging.  Also, you can control appt supply – not just by hiring more, but also return visit interval.
+9:34a 
+lz shows how changed number of appts per week can change a lot
+lz – RVI is how many weeks out are you asking people to come back for return clinic.  They have mental heuritics but people don’t actually know.
+This impact of balancing new and existing is oblivious to us.  We have to figure out right allocation between the two and what is impact of RVI in helping us to balance.
+We can expand out and look at how no show and overbooking affect these variables for next time.
+
+

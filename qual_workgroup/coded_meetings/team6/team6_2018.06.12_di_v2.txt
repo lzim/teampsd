@@ -1,0 +1,159 @@
+team 6 
+2018.06.12
+
+Facilitators: Lz and Tr
+Coders: Sp
+Attendees: 63, 63tlead, 64, Willetta, 61, 61
+
+Start Time: 9:12a
+End Time: 10:02a
+
+
+9:12a - Tr review agenda
+Lz - Everybody at the Adobe connect screen should now seen that Tr is logged into the sim.  Everyone 
+
+9:14a
+Sp mentioned in email yesterday that there's two ways you can learn.  That has a different log in - vhapal.  Also, have one for the team learning.
+
+63 - So, which link do we go into?
+
+Lz - mtl.how/live will take you to the Adobe Connect
+
+If you want to learn on your own time during your tour, the login is your vhapal.  To see what Tr is doing in the Stockton team world today, then you can 
+
+Troubleshoot and orient team into logging into Adobe Connect, UI sim, and VANTS line
+
+63 - We were given our long login in the email, why were we given that?
+
+Your vhapal login is to learn on your own.
+Your VA email is to get into the team world.
+
+9:24a - Does everyone feel like they're catching up to where we are? Or does anyone feel behind?
+
+Tr - This is the main page for the Aggregate model.  Includes all possible services team could provide.  Calibrated to your team's data - your team name is up here (point) and your team data file is here (point).
+
+Showing experiments tile - Another check is to look at team data here in the team data table.  This tells me we're still working with this in prototype phase
+Based on clinics you selected with our engineer, ring a bell?
+
+Lz - It doesn't look like it's linking to the sim.  The one that's on your SharePoint.  Does everyone remember how to get there?  Lz walk through quick review of how to get to SharePoint with new mtl.how link and team folder/file naming convention.  Two folders in SharePoint with data UI and model parameters.  We will get the newest file uploaded as well.
+
+Tr was explaining that when we get kinks worked out, it will show your data in
+What everyone is seeing right now is "stylized data" but you should see team data table that you can 
+
+Tr - If you're ever wondering where the information is coming from, you can click on the i.  There is description of where the data is coming from and how they are calculated.
+
+9:30a
+Lz - Remember that there are two i.  The one at the top tells you where that data is coming from. Down below when it's on an experiment slider, those i's tell you what you're changing when you change that variable in the experiment.
+
+64 - But I don't know what I'm clicking so I'm just gonna watch Tr.
+
+Tr - This shows appointment flow. Have you guys seen this?
+
+Lz - We showed two weeks ago, but psychiatrists weren't on it.
+
+Tr - for those on two weeks ago, can anyone
+
+63 - Showing in graphics form that if you change one thing, it's oging to 
+
+if you reduce no shows, whats going to happen to availablity. if you increase intake, what's going to happen to access and avaiabltity.  If you spread appts out further, what's oging to happen there.
+
+Tr - Arrows show how all different pieces are connected to each other.  MOre than jus trelated.  Not correlation but causation.  Dials are rates - how things change over time - things htat hpapen per week.  Rectangles are tanks - accumulation of things.  You can think of this tank as filling up - appts on calendar.  
+
+Same true with missed appts.  Appts get missed and they have to be rescheduled, and then they get added to calendar and get taken off calendar.
+
+9:35a
+Lz - If it's red in the diagram, you can find on red team data on the right.  You can compare that with what you usually do on the right.  In the future, it will have exact return visit interval in weeks for each of the servies.  YOu'll be able to make adjustments up/down for the typical value of that team by scrolling down.  You can adjust here to see what the impact is.  Picture on the left shows you where it fits in, this is where you would change it for an experiment, and up at the top it shows you what is typical for stockton right now.
+
+Tr - What aobut when we're looking at pts?  What story is this diagram trying to tell? Can I lean on the same person who narrated the appts?
+
+ 
+
+64 - Patient wait time
+
+63 - I'm not sure what it means - waiting for a tx decisions.
+
+Tr - in this model, pts (they are your pts) get reviewed every so often.  are they in right service?  now that they've finished course of psychotx, can they start med?  # of pts per week are reviewed by team, during that review they are waiting for tx decision, and then you make tx decision  for them - i.e. 
+
+64 - Does that number 9 represent how many patients are being reviewed?
+
+Tr - yes on a weekly basis
+
+61 - If a patient only sees you, does it need to reviewed by the whole team?
+
+Tr - This means they are being reviewed by anyone on the team
+
+61 - For example, pt is stable and only wants to see you for medication and you are booked for more urgent matters, do they need to be reviewed by the team?
+
+Lz - 
+
+I understand your concern Cecile.  Whoever provider is is making tx decision or plan with pt, If you decide they are stable and don't need to be seen quarterly and do recall 6 mo or year, that will affect your grids.
+
+Cecile - Does team need to review the pt?
+
+Doesn't have anything to do with review with team.  If you decide to see them less often, that will free your grid to see other people.
+
+Lz- I think you would be most interested in seeing typical rvi for med managmenet and seeing how many pts are in this state.  And there's a rate in pts/week at which those decisions are made.  And rate  where they start it and rate at whi
+
+Return to clinic interval at the top.  63tlead was intuitively linking this.  Those things are connnected.  With your qustion here you were implying a should, we're trying to give you a way to understand how things are going and improve quality of work life, or continue providing high standard of care.  Not trying to imply a should with anything in the model but rather give you a way.
+
+63tlead - Anyway we could look at current stockton data and go from there.
+
+9:45a
+
+Lz - We thought your data would be in here based on what we learned from uesr interface developers.  But, if you go to sim_parameters, that does show all the red variables in the model are listed here.  We are in Aggregate learning module so that is Agg.  tr can you show where in sim they are in the aggregate world?  Tr already showed where you can check that you're in the team and model file.  you can also see 
+
+That's why we picked the aggregate model, based on concerns of folks leaving
+
+9:48a Lz walk through how to read model parameters file.  Telling you what prop of pt in each service come in with that need.  i.e. in intake seeing high level of ptsd. and carrying over in psy and ebpsy.
+
+63tlead - But looking at this data, what areas does it look like we're falling short or need areas of improvement?  We don't see data of other teams in VISN... How do we use this data to improve areas of weaknesses?
+
+Tr - Not purpose of this data.  Not using htis data to compare you guys against each other.  Data here for you so you can see what your team has been doing over the past. i.e. for ebspy, there's 1 week between visits, but regular psychotx, there's 17 weeks between visits.  The model and us are judgement free about that.  Model will take inputs and put them in as basecase.  You can adjust all of them.  If you decide this rvi isn't what you like and want to do what if scenario, i.e. 12 weeks, then what would happen?
+
+63tlead - Can you bring us to diagram on how you would play with that?
+
+Lz - Tr is focusing on the rvi.  but when we go back to the diagram
+notice psy and ebpsy vary not only in rvi, but also in referral percentage and engagement, etc.  what diagram and simulation do helps us interpret what impact of all those things are.  Again not trying to compare you with other teams, but want to see Where you guys feel constrained and see how to improve that.
+
+If you want ot look at any o fthe specific services, you can click on radio buttons there.  It will adjust in real time how all those things relate to one another in model and you can experiment with sliders how changing any one of them influences all of them.
+
+63 - I see already a problem bc we have many more than 1.5 ebpsy slots a week.  I have more than one a day and Aimee comstock has many more.  1.5 is not accurate.
+
+Lz - We can have you f/u with Andrew.
+
+Tr - We don't use the appts grid bc so many diff types of services can be done in grid.  We are looking at completed appts that are done.
+
+63 - Looking at Aimee Comstock's grid on Visual Aid,she has average of 3/week completed and I had average of 2/week completed.  So I think that's not right.
+
+Tr - Cons of being prototype group. You get to see everything early, but you also see problems.
+
+61 - Can i ask you to walk us through med management in this diagram?
+
+lz - 63 would you be willing to print visual report of what you saw in May with Aimee and I'll dig into it with Andrew.
+
+Dr. 61, Tr's aalreay toggled to screen.  I fyou want to see MM, you would click on this and you would see all the values populate.
+
+61 - is it doing it right now?
+
+Lz - It is using stylized data right now.  If you want to see your team data, you can get to it by using mtl.how/data.
+
+61 - what does that stuff mean? 65?
+
+Lz - Appt supply if you look 
+Another possible answer to 63's question is what CPT codes you're using.
+
+63tlead - It is 10 o clock
+
+61 - Maybe we can continue next time.
+
+63tlead - Lz when should we continue this?  Hope you're not leaving us in the driver's seat right now.  What do you recommend?  
+
+Lz - our normally scheduled meeting is on the 26th?  
+
+63tlead - that sounds good
+
+lz - we will be putting out how to sheets
+
+63tlead - When we log in, Will the true numbers show up for stockton?  
+
+Lz - The truth is, we thought your data was going to be in today.  It's catching us off guard that it's not there.  We will get to the bottr of that and the ebpsy question.
