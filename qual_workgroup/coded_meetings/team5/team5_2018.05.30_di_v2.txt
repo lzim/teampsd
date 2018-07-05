@@ -1,0 +1,68 @@
+team 5
+2018.05.30
+
+Facilitator:tr, dk, dl
+Coder: sp
+
+8:03-8:08 - Introductions
+8:09 - 52tlead open user-interface simulation and join current session
+
+(Model diagram has errors/missing things)
+
+tr - My apologies not really knowing where you guys are in learning the model.  Can I just ask you looking at the main tile, what the arrows and boxes mean.
+
+52tlead - There were different arrows that demonstrated that based on the rate we had how many people in initial visit, and dropping out, or 
+
+tr - Yeah 
+
+
+52tlead - Are the little clouds... not even going to try...
+
+dl - You were wondering what the clouds represent
+
+52tlead - Isn't that a number that is no longer being accounted in the system? Like people graduating or dropping out
+
+dl - The analogy is they are coming from somewhere outside and passing outside into another model/cloud.  You see that first box, some patients transition from first visit to 2 to 7 visits and some get even more than that.  This is significant because we 
+
+tr - Some of the cloud are dropping out, but the cloud at the end of the graduation rate arrow are people It's neutral.  It means they are leaving but doesn't tell you why.
+
+dl - It's getting people to transition to the third level of stock and getting them to graduate
+
+
+tr - We have another set of arrows and boxes at the top. This is much simpler. Instead of patients, now we're talking about appointments.  You book appointments at some rate.  And then those appointments go on the books.  And then you complete visit at some rate, based on schedule and availability, how many patient hours you're scheduling per week.  We're trying to keep the individual pieces as simple as possible.  Did you guys talk about last time how these two concepts/units were related - patients and appts?
+
+52tlead - I think we talked last time about how all these things are connected and clicked around on the complexities.
+
+
+tr - What we were looking at before were concrete things. Booking rate, number of referrals you get, number of patient visits you get.  With the squiggly arrows we're talking about other connections - informational.  going to show you what is determining or controlling all those different rates.  See where it says booking rt?  All those arrows are pointing at nothing - there was a dial there.  This diagram is saying the booking rt is set by these different numbers of patients, arrow coming out of each stock of patient, and coming from starting rate.  There's also this return visit interval - does that name make sense to you?
+
+52tlead - Yeah that's what we talked about last time in terms of frequency... I wrote it down somewhere...a higher return rate interval ... it's the time between visits.
+
+
+dl - What's the standard practice for your return visit interval
+
+52tlead - We try to make it weekly.  We know it's the most effective.
+
+tr - In theory, because we   I can show you the data and 
+
+
+Also, starting rate - every new patient has a visit so we're going to count that one to one.  What about other stuff? supply, existing patients, etc.
+
+52tlead - Our understanding of it?
+
+tr - What do these symbols mean to you? 
+
+52tlead - I know we made the analogy of a correlation but it was stronger.  The + sign means they increase together. Basically you don't have an infinite supply.  Like scales, if you have more in one you have to take it from another.  If you take one thing from the system, it has to be taken from another.  If you have increase appts with existing patients, you have less appts for new patients.
+
+tr - Right, you only have fixed number of appts,
+
+Rate How likely it's going to happen.  These are calculated using your team's data which is why they are red in the model.    There's a second possibility from all of these that they can go into patients engaged in care for more than 3 months.
+
+Then we have outflow because eventually patients are going to leave.  Looking at your team's data, we are able to see what the engagement duration is for patients staying longer than 3 months.  Initially, we were going to use one number - median engagement time.  But realized that number is not very representative.  We disaggregated it.  It looks like one here, but if you go to team data table, you would see different quartiles for RVI and engagement time in nine different groups to make sim more accurate.  Only two things that control outflow rate - number of pts and average duration.  And then, that box that says change in engagement time, that says even though we pulled information from patients' histories, it's something we want you to adjust and change/experiment on.  This is the overall pattern, but maybe you don't like it.  This is true for all icons with sliders underneath it.  Either you can change it because the data aren't right or you want to see, "what if we did a project on that" to see the effect, before putting time into making real changes in the clinic.
+
+
+What makes sense and what doesn't about story and how the pieces fit together?
+
+52tlead- 
+
+53 - I'm not confident it makes sense.  I think I know what I'm thinking.

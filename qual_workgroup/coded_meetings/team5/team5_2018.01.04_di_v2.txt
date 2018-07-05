@@ -1,0 +1,30 @@
+TEAM 5 01/04/2018
+Attendees: 53, 57, 55, 53
+Facilitator: lz
+Coder: sp
+
+1:43p
+lz: Hard to learn in the real world due to cause and effect patterns because it takes a long time and other stuff happens.  Benefit of going past retrospective data is to create models where you have a safe isolated environment for making decisions.  When opening the data, use the excel instead of the web app.  
+
+1:48p
+lz: You can click on the funnel icon to clear filters.  On the bottom tabs, anything that says “data” is real drop down data.  Let’s take a look at the veteran you guys picked.  When you see error with the underlying data, use the refresh data command.  Anyone else want to drive?
+
+53: No, it would be too confusing / take too much time.
+
+1:57p
+lz: Explains what “health factors” means from clinician standpoint.  Refresh error data happened again – anyone know how to resolve it?
+
+53: You click on the refresh data command at the top.
+
+lz: Treat the excel like a user interface for now.  There’s a giant psychotherapy peak in June with 180 TEAM 6 encounters of 900 for MPD.  Contrary to what people think, we chart a lot with templates.
+
+2:01p
+lz: We haven’t moved onto simulations yet but let’s do a brief walkthrough.  What are limitations in retrospective review?  Why modeling?
+
+53: If we don’t code correctly, then the data doesn’t reflect correctly.
+
+lz: Goal is to give empowerment in change.
+
+57: What is an example of that?
+
+lz: Whole fundamental in systems thinking is system is causing itself i.e. we may know that scheduling is allocated in different ways.  But what is the right balance?  Even if the data shows where the gap is, it’s hard to figure out what explains it.

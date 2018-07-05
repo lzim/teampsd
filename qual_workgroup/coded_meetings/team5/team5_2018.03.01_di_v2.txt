@@ -1,0 +1,21 @@
+TEAM 5 03/01/2018
+Attendees: 52tlead, 53, 53, 57, X, 57, 
+Facilitator: lz
+Coder: sp
+
+1:43 pm
+lz: Have you guys talked about the challenges with when patients should return? is this something you guys have figured out?
+52tlead: No. sufficiently does of treatment for women seems to be higher than women in general are using VHA.
+53: Oscillations in the number of referrals we have depending on how many patients the women’s clinic sees cause a “feast or famine.”
+1:50pm
+53: myths in the system that we are only place that can do treatment. We have to refer patients somewhere else, but there’s resistance in our system. 
+lz: How many more patients would you have to allocate to be able to start more individuals?
+lz: User interface will be done by end of the month. We are wondering if someone could drive?
+1:55pm
+lz: What is your usual mental model for creating more slots?
+53: More slots, more clinicians.
+lz: But staff hiring is not something you can control and it feels disempowering.
+1:58pm
+53: I overbook all the time to handle the issues sometimes patients hand out in group treatment for a while hoping to get into individual therapy.
+lz: What in the clinic is like the thermostat? How do you keep things balanced?
+You refer out, switch services, or change when you see them again. The goal is not to come up with a rule, but to have more data on making the decisions.

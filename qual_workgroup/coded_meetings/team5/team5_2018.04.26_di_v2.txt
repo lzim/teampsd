@@ -1,0 +1,65 @@
+team 5
+2018.04.26
+
+Attendees: 52tlead, 53
+
+8:23a - Begin review of MTL menu responses
+
+52tlead - I rated EBPsy low becuase we are doing it well - Don't fix what's not broken.
+
+53 - We work intermittently with Pacific Art Service but have no dedicated PSS.
+
+(Looking at new patients question)
+
+52tlead - Just in terms of keeping the flow.  Our vets tend to stay in care longer.  Trying to ensure we don't have a wait list.
+
+53 - Lots of fluctuations with and without students.  It can double. Also, lots of changes with 52tlead moving and katie on maternity leave.
+
+lz - What about the practicuum students?
+
+52tlead - Affects how many people we can see but it's not as abrupt as MHC.  They are more integrated in the team.
+
+(Looking at RTC question)
+
+53 - I guess I didn't understand how RTC could be a tool?
+
+52tlead - Being able to hold a specific slot for a patient
+
+lz - Explains RTC
+
+52tlead - Doesn't seem like a good use of our time (in response to RTC manipulation)
+
+(Looking at overbook question)
+
+53 - Not sure what the question is about but I definitely feel overbooked.  Also, interested in relationship betweeen overbook and no show
+
+52tlead - Thinking about email that Ann sent out about sechduling through MyHealthyVet, brought up concerns.  I was thinking if modeling could help us see effects of same day slots being filled.
+
+52tlead - Same day things tend to be more intensive concerns than something handled in 30 minutes. 
+
+53 - I know it's a counterintuitive relationship for me.  I'll book during lunch but people don't show.  Maybe this sticks more in my head because I gave up time.
+
+lz - Why is psychotherapy high but EBPsy not?
+
+53 - We have folks in EBPsy and have good track record but we can always improve.
+
+52tlead - Patients are accustomed to supportive therapy.  How we ensure we get people in EBtreatment is to get them better faster instead of doing acclimation too long.
+
+(Thinking about how to use tool/what has been helpful)
+
+52tlead - Using my departure as a way to make changes from TRP to IOP.  Using the tool to make those decisions.
+
+52tlead - When we thought of a specific patient that one time.
+
+lz - What are some questions you would like to explore?
+
+52tlead - What is average number of service patient is engaged in?  Making decisions on if it is necessary or creating barriers?
+
+(Looking at burnout)
+53 - I'ts here and it's real.  
+
+lz - Our userinterface simulation is ready for testing.  Would you guys be interested?
+
+53 - I think our data is different so wiating until we have our team data
+
+52tlead - Yes, I'm happy to play around

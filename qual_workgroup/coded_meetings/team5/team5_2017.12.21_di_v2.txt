@@ -1,0 +1,36 @@
+TEAM 65 
+12/21/2017
+Attendees: 52tlead, 55, 57, 53, 57
+Facilitator: lz
+Coder: sp
+
+1:48p
+lz: Reviews team learning goal.
+
+52tlead says it.
+
+lz: Did anyone review the data?
+
+52tlead: Tried it but it kept running.
+
+lz: yeah it takes up to 30 min to pull up because 2 years of grids.
+
+1:54p
+lz drives SharePoint.
+
+lz: We’re received feedback that the language “health factors” is confusing.
+
+52tlead: Are we supposed to saving our file in the SharePoint.
+
+lz: Yes, not to your desktop because it’s PHI, but to any place that you can save PHI.  You can just save it back to the SharePoint (default).
+
+1:56p
+lz: If you don’t see something you’re expecting to see, you can clear the filters by clicking on the funnel icon.
+
+2:01p
+lz: There are questions on the handouts about things to look for in the data.  There’s screenshots for you if you have questions.
+
+2:05p
+53: It says median engagement but what is the unit?
+lz: It’s in weeks.
+
