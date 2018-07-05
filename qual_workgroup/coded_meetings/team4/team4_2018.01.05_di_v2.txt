@@ -1,0 +1,34 @@
+Team 4 01/05/2018
+Attendees: 41tlead, 43, 45, 42
+Facilitator: lz
+Coder: sp
+
+8:39a
+lz: What are the drawbacks to retrospective data?
+
+45: So many things we do that there’s no way to demonstrate we’re doing them i.e. phone calls, emails, unmeasured time
+
+42: Reviewing processes no longer in use
+
+41tlead: Causes are hidden
+
+lz: In systems thinking, you look at cause and effect.  You can look at the data and come away with what the team is really good at one thing or bad at another.  When we use models to think about changes, we use “effortful thinking.”  But you guys make decisions everyday.  Modeling with explicit goal to learn something we otherwise would not.  System modelers would say we are causing on some level the issues hurting us in the system.  We want to look at both the values and the interrelationship between those values between your unique team.  The goal of the simulation is to look at future impact like in retirement calculator example.
+
+8:53a
+lz: Begins CC model.  We will always provide CPT codes.  What are the two main rates that matter in prevalence in public health terms?
+
+41tlead: Population?
+
+lz: i.e. in ebola?
+
+42: Incidence rate
+
+41tlead: Death rate
+
+lz: Recovery rate.  We can’t serve more patients than appoints to see.  Always showing something like supply and demand.  The basecase is always 2 yr 75th percentile for slot usage.  Model is way of showing how improvements vary based on what you have to work with.
+
+8:58a
+lz: Increased rate of booking and rate of completion.  What determines number of appoints in CC.  The number of patients is determined by how long people engaged in CC and how many in CC.  When we leave, lz will post data file on SharePoint.  See if you can get into the data and we’ll pick up from that.  Questions?
+42: Can you send us an email with link to the data?
+
+lz: Yes, sp will send follow up.

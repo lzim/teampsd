@@ -1,0 +1,40 @@
+Team 4 12/01/2017
+Attendees: 41tlead, 43, 45, 42, 41
+Facilitator: lz
+Coder: sp
+
+8:33a
+lz: Let’s think of a team goal
+41: Our team’s goal is to expand Team 1’s reach for EBP and med therapy.  I mean it’s something we aim to do anyways.
+lz: We want something more like a motto
+41: Caring for our patients and each other?
+lz: What do you guys think?
+41: I think this gives us the best chance at achieving the goals of the model.
+43: Streamlining care effectively? Implies doesn’t need to be “right.”  Implies choosing “effective” over “right”
+42: How about we drop the phrase “EBP” because not everyone does that
+lz: How about “effectively streamlining our team”?
+45: Effectively streamlining patients access to treatment
+42: I would prefer something straightforward that I can anchor to than something catchy
+lz: Effectively streamlining our patients’ treatment”
+42: What about RESPECT – Really effectively streamlining patients’ evidence-based clinical treatment
+
+8:43a
+lz: Going to skip the clinical case for now.  Has anyone accessed the team data since August?  
+All: No
+lz: Why? Is there an access issue?
+43: Not remembering
+42: Would I be accessing the data?  What’s in it for me?  Sell me on it.
+lz: One aspect is looking at retrospective data.  Even with this data, it’s hard to know what to with that.  Second aspect is playing and experiment with the data.  If people haven’t accessed the data, I will set it up as a “straw man” (something you know will have problems/prototype) and will ask you to let us know what’s wrong.  Also to rephrase what 751 said at the staff meeting, the suicide plan is still very much in line with the goals we’ve been previously pursuing.  If you felt like the administration is throwing new directives down, don’t.
+
+8:51a
+lz: Walks through SharePoint – facility level data, how to filter data, etc.
+
+8:59a
+43: Can you see other providers’ data?
+42: For example, I share patients with another social worker.
+lz: You’ll often be able to see all visits a patient had that day with different providers.  Toggle and see how this works out.
+41: Give it to me as a “homework” task and I will do it.
+45: Give us an example of what you want us to do with the data.
+lz: For example, what defines clinics you want to have in the data set when you run it? i.e. including Losch grids or not.  This is choosing which data you want to run in the model.  
+
+

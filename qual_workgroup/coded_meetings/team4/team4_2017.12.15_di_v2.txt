@@ -1,0 +1,30 @@
+Team 4 12/15/2017
+Attendees: 42, 41tlead, 41, 45, 41
+Facilitator: lz
+Coder: sp
+
+8:43a
+lz: Starts walking through data tool.  Asks for volunteers to “drive”
+42: I can do it
+lz: Shows different functions on Splash page
+
+8:45a
+lz: What are health factors?
+All: Seem to be confused
+lz: “Health factors” are what physicians enter in CPRS
+41: we don’t see that?
+lz: It must be called something different, but on the backend it’s called “health factors” i.e. suicide flags, MST., etc.
+All: We call this “reminders”
+
+8:48a
+42: Drives excel and opens up the data
+lz: It takes awhile to pull the data because it’s pulling 2 years of data.  So once you have it, save it until you need the most recent encounter again.  Do you want to choose clinics or providers?
+42: Should we do all of us or one person?  
+lz: Since most people joined the team in June, it might be better to do the whole team
+**Tech issue: Encountering issues with selecting physicians.  The filters are pre-applied which is making it hard to “teach”.  Need to bring it up with Andrew.  This is meant to be an advantage because once you apply filters, you don’t need to reset it.
+
+8:55a
+lz: You can edit through the web app, but that makes it super slow.  Saving with specific filters means you can’t bring back other items.  You can search too if you want to spot checks on specific grids.
+
+8:58a
+lz: To recap, pull the file, and then I would choose all clinics, apply filters, etc. and then save it.  I think our engineer did this to save people time when working with the facilition team. I will make an excel file for you and you can play with it.  Who should we include? – everyone except (including peer support).
