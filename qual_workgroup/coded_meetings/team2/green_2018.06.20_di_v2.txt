@@ -1,0 +1,132 @@
+team name: 2
+date: 2018.06.20
+
+modeling to learn session: aggregate session 2
+
+team members in attendance: 21, 21, 22, 21 (22 & 21 on one computer)
+team lead*: 23tlead
+facilitator(s): lz, tr
+coder(s): sp, jb, dl
+
+scheduled meeting length: 30
+start time: 11:35am
+end time: 12:06am
+
+question:
+hypothesis: 
+findings:
+decision:
+
+
+
+time: 11:36am
+lz: introduce who is on call.
+tr: VA employee from another state for 2 years and one of the model builders for the project
+
+jb: im in non local state and going to be taking notes
+
+dl: im at a non local college and will be taking notes as well
+
+lz: tr, jb, dl, and myself are all working to be equally proficient facilitators of mtl
+
+while we haven't solved every problem in project yet, we are trying to make it simpler. mtl.how/live gets you into adobe connect. mtl.how/sim gets you into sim. mtl.how/data gets you into your data. in there, two types of files - data files where you can query your data and model parameters files for the sim. last time we met with you guys, we were unable to make model parameters file speak to the sim, but we have got it to work. what you are seeing is model parameters file we uploaded this morning jun 20, and you're seeing it in here (sim) as well. on avg week, at 75 percentile, there's about 3 completed... shoot tr, still has intake in adjunct. an error we noticed last week working with stockton cboc, why is vast majority of what team is doing is adjunct.  it's because it was binning cpt codes for intake into adjunct. how's the team doing following what i just said.
+
+team - okay/good
+
+lz: model simulation ui is reading team data but we still need to get this fixed so intake is reading intake and not into adjunct. the question we understand this team to be working on is something we can use as concrete anchor to walk through these tools. we can open up expanded outputs screen at top and type in what team came up with at last meeting. team is focused on recent loss of two psychotherapists on team - is that still the primary question?
+
+22: i dont know if other people are also interested in how it relates to burnout
+
+lz: can you say more? is there something specific you're trying to think about in relation to loss of 23tlead and lz? is there specific service you're concerned about?
+
+22: psychotx and tx coordination in general
+
+21: and intakes
+
+22: and crises. when we have high risk patients
+
+lz: what is the impact of the loss of two psychotherapists (a psychologist and social worker) on team services, specifically intake, treatment coordination, psychotherapy, managing crises, and the associated team fatigue and burnout
+
+let me start there and save this as a question
+
+11:47a
+
+lz: if i were to try to move this from general question to something more specific, if we go back to models, main way we meet patients needs is through management of appt supply, how frequently they come back to see us, of course while accounting for no shows. if i were to turn this into a more testable hypothesis, of those three variables, which are you interested in exploring and experimenting with? i'll give you a hint. a major factor is appt supply.  how much do you think that is reducing your appt supply across the different services?
+
+21: i would think more than 60% because we had 3 clinicians and now we only have 1. so logically, it would be 60%
+
+lz: for all?
+
+21: no
+
+22: for mhtc
+
+lz: we expect that the appt supply is reduced by ~60% across psychotherapy, care coordination, and intakes
+
+21: there may be more because the students are also on break
+
+lz: we talked a bit about this on thursday. team blue is reading a certain prop of the practicum students along with their team. do you want to experiment with as a team start with practicum students?
+
+22: i think for ebpsy that would make sense. Bruce has also seen a number of psychotx for 2 team
+
+lz: so what percent of psychotx students grids, do you think it makes sense to read in?
+
+22: i don't know how much other providers are referring to them
+
+21: i started referring to them, but this week i started to pull, because it's their last week, until the fall. 
+
+lz: team 4 is doing 50% so we can start with that. we can prepare that for you guys this time, but if someone wants to be the new team lead, they can take on that. we need to think about getting a new team lead. team lead is point person. 22 and 21 since you are in process improvement group would you consider being team lead?
+
+21: im not good with computers. we are interviewing a 23tlead replacement right now...
+
+lz: we can just have interim team lead..
+
+22: i can do it
+
+lz:
+
+22: it's complicated. because i know he schedules ebp's in both of his grids. I just know he's been seeing some of the patients.
+
+lz: we can even ask if he wants to join this team meeting, because he's been wanting to join for some time.
+
+21: what is the process for getting pts to a provider on different team? do we talk to him directly...?
+
+22: right now bc we're so slow, we're not doing direct orders. once he gets to full, he might open it up again
+
+lz: you expect loss of staff will reduce appt supply which we saw here. we will want to adjust bc from appt supply to account for that. if you think about how supply affects pt services, do you have a sense of how that would impact how pts are reviewed, etc.? what do you expect will happen to these services based on reduction of supply?
+
+22: are you interested? bc much harder to find resource if they say yes. makes provider more stressed because we don't have things ready to give them.
+
+lz: because the appt supply for these services is reduced it will increase the number of pts waiting to start these services. as we exp with reducing down appt supply, as appt supply goes down, its going to reduce the appropriate pt start rt and reduce rt at which service the team should start. it will increase pts waiting to start the service. we would expect this stock - level of pts waiting to start service - to increase.  we would not expect increase in every service. as 21 was saying, she is hoping pts won't say psychotx, because they would be waiting for some time.
+
+21: practicum does intake over 3 times. that was good because at least pt has 3 visits with someone other than me and now patient is on waiting list, but it was helpful during gap
+
+lz: you also want to experiment with a variety of adjustments? you may want to experiment not only with referring to students, but within team referrals to services to find the right balance between group, practicum students, etc.
+
+lz: what we will need to do is adjust appt supply to each of the services and think about what percentage of referrals go to each service and adjust sweet spot to figure out how to adjust for reduction of services in the summer
+
+22: psychotx reduction might be outcome instead of predictor. 
+
+lz: can you explain further?
+
+22: intakes might affect psychotx appts rather than psychotx appts affecting.. I don't know how to explain it. intakes is a starting point from where we typically make referrals where as therapy appointments are typically result of referrals.
+
+lz: we are going to be adjusting wording here to distinguish between intake and whether 
+
+next meeting, would typically be 4th of july which would be a federal holiday. does that mean we would just pick up july 18th?
+
+team - that makes sense
+
+lz: we'll prepare for meeting next time.
+
+21: it might almost work out better for doctors to have it on the alternate weeks. because we are missing half of our meetings
+
+22: around mid-july I'll be back in on wednesday morning meetings. that might be a possibility - it might be on the 18th. 
+
+lz: so either switching to 2nd/4th weeks or switching to morning time for full hour?
+
+22: can't do full hour because we still need to have time for clinic stuff
+
+lz: why don't I let you guys brainstorm that within the team and we can sort that out through email.
+
+Wrap up and end.
