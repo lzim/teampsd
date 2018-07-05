@@ -1,0 +1,41 @@
+team 1
+2018.05.16
+
+Attendees: 12, 17, 12, 17, 13tlead, 13tlead, 12, 13tlead, 11tlead
+Facilitator: lz
+Coders: sp and dl
+Notes: Missing notes due to technical facilitation in the background - 12 had difficulties logging into sim	
+
+10:31am lz - We have a circular gauge and this time we are in the unit of patients.  The unit of the starting rate will be patients per… (13tlead) week. As more patients start psychotx, they move into getting their first visit of psychotx.	
+
+13tlead - Can you tell me if the first visit is the assessment, first visit of psychotx, or what is it?	
+	
+10:51am lz - In experiment tile, there are two kinds of "I"'s.  "I" in team data table tells you how the variable is calculated from your team data.  Where it comes from in CPRS, CPT codes, etc.  If I want to understand how the appt supply is calculated, I can see here... You can see that definition is defining how it was calculated from VA data. Whereas down below when I click on the "I" in the variable, I can see what is changing when I change that variable.
+
+11tlead - I have a question -  in regards to additional appts available, if I understand your definition, you guys don't pull from people's grids on their availability.
+
+lz - Yes, this is correct.  There is a number of issues you can run into from using VISTA alone.  That's why there's a slider, so you can experiment with it on your own.  And that's why there's two 'I''s, there's a number it calculates from your data and you can experiment up/down if you feel like it's not representatitve.
+
+75th percentile of psychotx visits from the last two years.  With the idea that it should not be 100% maximum because it's too high, and it should not be too low.  75% percentile seemed like a good starting point.
+
+10:56am lz - Last thing I wanted to do as we close out is one more thing about the base case.  Base case as a reminder is taking what you see now (even though it's calculated  over the last 2 years of data), just tells you what has been/what is.  Just tells you if you changed nothing in the PCT, what would happen over the next 2 months, or 2 years.  It's 'business as usual'.  What we want to do is see how we can change things over time compared to the base case.
+
+lz - I know this is a lot of information up front, but we've got some experience that people learn it quickly.	We're trying to think about what would happen in the future so we can make better decisions now.  In this experiment tile over here, we haven't changed anything yet, so it's at "0" or "base case" reading from your team data. In each module, there will be a team data table up at the top, and experiments you can make with the supply	13tlead you can click "run" and what it should do is produce an estimate of the likely future trends based on the status quo of the team for the whole model. We will always record it as "bc" for base case.  This will allow us to run things next time and compare it against experiments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

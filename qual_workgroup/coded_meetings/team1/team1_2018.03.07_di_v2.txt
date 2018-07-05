@@ -1,0 +1,276 @@
+Modeling to Learn Session 3 – Care Coordination Simulation (TOTAL 30 min)
+Team and Date: _Team 1 3/7/2018__________________________________________________________
+Time Spent: _10a-11a____________________________________________________________________
+Attendees: __13tlead, 13tlead (step out 10:29a), 12, 12, 12; 13tlead 12 and 17 
+Facilitator: _lz__________________________________________________________________
+Coders: sp and dl_______________________________________________________________
+
+Review
+Content
+Covered?
+How well? (+/-/0)
+Interim vision/Team learning goal
+
+
+Simulation data inclusion and exclusion criteria
+
+
+Access team data Sharepoint and troubleshooting
+
+
+
+Retrospective Data Review and Simulation Data
+Content
+Covered?
+How well? (+/-/0)
+Introduce all four models
+
+
+Limits to retrospective data review
+
+
+Reason for simulating data
+Ex: retirement, weight loss, touching hot stove (real-time feedback)
+
+
+
+Care Coordination Introduction
+Content
+Covered?
+How well? (+/-/0)
+CPT codes
+
+
+Discuss patients and appointments as stocks with limited supply
+Ex. physics – conservation of matter
+
+
+Discuss flows of patients/week and appointments/week
+
+
+Explain color coding of models
+
+
+Explain shapes in models
+
+
+Explain team data input variables
+
+
+Explain reinforcing loop
+Ex. microphone 
+
+
+Explain balancing loop
+Ex. thermostat, traffic
+
+
+Balancing new vs. existing patients with the return visit interval
+
+
+
+Other Content:
+Content
+Covered?
+How well? (+/-/0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comments:
+Time/Speaker
+Comment
+CFIR Code
+Systems Thinking Code
+10:13a
+lz
+
+We have started everyone on CC to introduce the model, even though this may not be 1 specific, and we know you all have some ideas/projects for moving forward.
+Anyone have thoughts on why we would start with CC with all the teams?
+
+
+12
+Easier format to teach us how to use this model
+
+
+10:15a
+lz
+We want to teach you the building blocks of the model. Want to get you guys fluent and comfortable with the model.  Other thing is, you guys have very limited time.  Looking at the team vision, does this still resonate with you guys?
+
+
+13tlead
+I think so
+
+
+lz
+What does this team vision help encourage? What is the hope that this will do?
+
+
+13tlead
+Exploring best practices and using these tools will help us see what the data supports and help us to move on from reliance on anecdotes to better use the data to see what is and is not working.  This way, we can help Veterans live their best lives. 
+
+
+lz
+G
+
+
+10:21a
+LZ
+Another update.  Does anyone know why that might have been the name change?
+
+
+lz
+1 has had a lot of changes over the past few years. We want to look at not only the typical trend but also the base case.  We want to explore alternatives in relation to the status quo or the best case.  Looking at historical data can also be really important.
+
+
+
+There’s a low spike in October for non local clinic.  12, do you know why?
+
+
+
+I was on medical leave in October
+
+
+
+I have a question. What you’re showing 12 – Is this just 1 or all of mental health?
+
+
+
+Just one non local clinic clinic and not all of 1.
+
+
+10:28a
+lz
+Great thing about simulation is the ability to see how decisions we make day to day accumulate into a variety of outcomes.  The goal is to provide new insights about your data. Major insight is trying to understand future impact of decisions you make now.  Usually in clinic, you do not get immediate feedback.
+
+
+
+Remember, anything in red in model is from the team data.  It maps back to the CPT codes you use for your encounters.
+
+
+
+The number of pts in CC is defined at the most simple level by the number of pts starting and ending CC like the traffic jam example of cars getting on/off.  What would happen if more pts were starting than stopping?
+
+
+13tlead
+You would get too full
+
+
+
+Right, so we look at the median number
+
+
+10:33a
+lz
+If median time in service increased, what would happen to the number of new pts who start? (LZ shows on VenSim model how the trends change as median time increases/decreases)
+
+
+
+So you know this intuitively – this is during your meeting when you say, I know I have x number of pts right now, so I think I can start someone new next week.  With the simulation, instead of guessing, you can use typical numbers for your team to figure out that number.
+
+
+
+
+
+
+10:35a
+12
+Time
+
+
+
+We can’t make improvements for the 1 without accounting for your limited time
+
+
+
+Need to account for this limit and how it reflects in booking pts and number of pts in CC are 
+
+
+
+Rates are in appts/week and pts/week.
+
+
+
+
+
+
+13tlead
+ It’s not easy.
+
+
+lz
+We really want to empower frontline staff to make better decisions.  We aer=e=rrepoit ta
+
+
+
+
+
+
+10:46a
+lz
+Have you guys ever deviated from weekly psychotherapy when doing CBT to see people more/less often based on pt needs? (Yes) One thing we’ve noticed is that most people don’t have insight on how these decisions impact getting new patient started.
+
+
+
+
+
+
+10:50a
+lz
+You make return to clinic decisions with every pt you see.  What would happen if we tried to run some simulations in relation to the 1? Let’s think about the differences in coming back after 1 week or 2 weeks for psychotherapy.
+
+
+
+What would you be interested in seeing the impact of when changing the RVI? Looking at the number of pts in CC, you can see how these relate.
+
+
+13tlead
+When we made RVI two weeks, starting CC rate went down significantly.
+
+
+10:57a
+lz
+We looked at RVI of coming in more than once a week, coming in once a week, coming in every two weeks, As we move on, we’ll show you guys how to look at data table and how to compare multiple runs against each other.
+
+
+13tlead
+It’s better to actually walk through it.  Still overwhelming, but more understandable.
+
+
+12
+Individual format is a lot more clear.  I think it will be a lot more clear once we use our own data.
+
+
+Were any of the following adaptations made to today’s session? Please check all that apply and describe as necessary:
+Lengthening/extending session time
+
+Shortening/condensing session time
+
+Moving ahead of session script
+
+Missing parts of session script
+
+Technical difficulties – spent first 13 minutes getting everyone connected
+x
+Virtual facilitation
+X
+
+
+
+Facilitator/team dynamic:
+What percentage of the session did the facilitator talk?
+<10%		25%		50%		75% 		>90%
+What percentage of the session did the team talk?
+<10%		25%		50%		75% 		>90%
+
+Comments/Notes:

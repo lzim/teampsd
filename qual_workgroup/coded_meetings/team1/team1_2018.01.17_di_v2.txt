@@ -1,0 +1,78 @@
+Team 1 All Site Meeting 01/17/2018
+Attendees: 13tlead, 17, 17, 12, 13tlead, 13tlead, 11tlead, 17, 12
+Facilitator: lz
+Coder: sp
+
+10:25a
+lz: Apologies for tech difficulties and we hear your frustration. We are meeting to discuss goals and clarify questions.  What are we trying to do by carving out time for this?  Looking at Session 3 script, what is our goals?  11tlead was saying last week that she felt that everyone was doing great on the team but it was hard to see.  Goals all around were very data focused - the mismatch/perceived mismatch of data.
+
+17: Identifying strengths and weaknesses in working collaboratively, and how to be more efficient.
+
+12: We also discussed individual team goals and the dream team looks like.
+
+lz: Earlier last year, we discussed how to support each other and how to be multidisciplinary team.  We want to focus on data during this time.  17 said once, a “glitch hunt, not a witch hunt”
+
+17: It’s from a VA newsletter.
+
+lz: 11tlead and 13tlead were saying that we want to be able to look at answers to questions of vet care easily.  We clarified leads last time.
+
+10:35a
+lz: Can someone put the learning goal in a concise manner?  
+
+13tleadi: I feel like that “witch hunt” doesn’t happen within the team.  I first need to understand about ourselves, how we’re doing, and the look at the team.
+
+12: Is this what you’re asking for?
+
+lz: Yes, kind of.  Gives other team motto examples.
+
+17: So like a motto?
+
+lz: Sort of.  Something to orient us together and unite us for potential challenges later down.
+
+17: I can say when I look at the data I’m always looking for best practices.
+
+13tlead: I look for whether the veteran is getting best course of treatment and that looks like completing a treatment for me.
+
+12: Looking at getting vets back to “normal life”
+
+11tlead: Agree with 17.  Using data for best practices.
+
+13tlead: I think we have such a focus in Team 3 on doing EB treatment so we focus on best practices.  And also shining a light on our data.
+
+lz: I really like the metaphor of shining a light.
+
+11tlead: Practicing in progress. Practice to progress… something like that?
+
+13tlead: Live your best life with best practice?
+
+lz: All the laugher is great! It means we’re getting close.  What do you guys think about that motto?
+
+13tlead: maybe live your best life through best practice?
+
+17: expland?
+
+lz: Live your best life.  Se and expand your best practices…?
+
+12: Ensuring best practice? Live your best life by seeing and ensuring best practices?
+
+lz: Is everyone ok with freezing the vision there?  Let’s move onto the data. 
+
+10:47a
+lz: Can everyone see the screen? We are using the Excel file as a user interface page.  Splash page is there to help you see trends.  Meat of project is that you have team tools to use the data.  Does anoyone know wha thte first thing you do is?
+
+12: Edit in workbook
+
+lz: Yes, we want to use the workbook and not the web app.
+
+13tleadi: Hold on.  Can I make edits without saving and not making changes to the actual file?
+
+lz: You haven’t done anything until you save a new copy.  Default is to save in the Team 3 folder.  Up to us to make sure you’re saving it either a) in Team 3 folder or b) you’re saving it in another firewall protected PHI allowed folder.  There are 6 columns.  Can anyone see which is filtered and which is not?
+
+10:53a
+lz: You can clear and select filters to pick files.  “Get patient level data” gives you the overall trends, pt data, etc.  “Get params” picks certain variables i.e. CPT code that it pulls data from.  We will go through this further next time and in MM.
+
+10:57a
+lz: In “vizDiag,” you can filter data by different clinics.  If you want to look at something more specific, you can look at “vizHF.”  When PivotTable error comes up, there’s two ways to resolve the error message.
+
+11:00a
+lz wraps up meeting.

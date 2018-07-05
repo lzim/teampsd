@@ -1,0 +1,143 @@
+team name: 1
+date: 2018.06.20
+
+modeling to learn session: psychotherapy session 2
+
+team members in attendance: 13tlead, 17 (1013), 12 (1017), 11tlead (1017), 13tlead (1021)
+facilitator(s): lz, tr
+coder(s): sp
+
+scheduled meeting length:
+start time:
+end time: 11:03am
+
+question:
+hypothesis: 
+findings:
+decision:
+
+
+
+time: 10:17a
+
+LZ: our normal next meeting would be the 4th of July.  Do we need to reschedule or skip and meet on the 18th?
+
+13tlead: Most likely meet on the 18th.
+
+LZ: I want to reintroduce you from 
+
+Tr: VA employee at VA Boston for 10 years.  PhD in System dynamics.  One of the systems modelers on the project.
+
+LZ: 13tlead were you at team meeting?
+
+13tlead: yes, I believe so
+
+LZ: I will do my best to pickup from  primary goal of helping you see how data reads into model and how to use model to explore questions you have.  last time, goal was to get more patients to complete ebpsy. there were questions about how frequently they came in.  looking at how to get more pts to complete ebspy. we will try to shape that question into more testable hypotheses. if you've go the sim login on your chrome window... are you seeing what im showing on adobe connect?  go ahead and click join current session.  you see I uploaded brand new model parameter file.
+
+13tlead: just to let you know, i have to leave around 10:35am.
+
+lz: that's okay thanks for the heads up.
+
+multiple people join session after we figure out that folks had joined skype. facilitate team in shift from skype to adobe connect and vants. 11tlead and 17 could not get logged into sim due to browser and username issues.
+
+10:28a
+Lz: mtl.how/data.  there is fresh data in there as of today. this is tool to use to query data and pull in fresh data. right now, i pulled any clinics in last two years that have team 1in their name.  but there may be other criteria people want to look at.  for example, there have been a lot of staffing changes. one cool thing is we have been able to prepare for upcoming staffing changes.
+
+lz; the other i here is telling you what you're changing when you change that variable 
+anything in model with red slider means it's coming from team data because it's red and something you can experiment with because it has a slider.  that's a recap of how team 1data reads into sim and we want to dive into question.
+
+10:35a
+lz: we want to move from a general question to more specific hypotheses tests or dynamic hypotheses tests.
+does it make sense to keep the same question? a team goal is to get more patients to complete a full course of ebpsy.  so the question is - you guys want to start  building us from here as we move to a set of testable hypotheses?  do you have specific contributors that you're interested in exploring or things you're wondering about.
+
+(radio silence)
+lz: let me check, did I drop off the call
+
+11tlead: so many boxes. do you want to go through each of the ones there? or do you want a brand new question.
+
+lz: maybe it makes more sense to say, how do we get more patients to complete a full course of ebspy? (lz saves in expanded outputs tile). what you guys want to do next is think about how many pts are in ebpsy now and how to move them through the model. im going to run bc of model.
+
+13tlead: I want to double check, the numbers here are not numbers we want to be looking at?
+
+lz: thanks for bringing that up
+
+13tlead: now we can definitely look at the numbers and estimate from those numbers
+
+lz: now you can see that for appt supply, 61 slots/weeks are being allocated for clinics we pulled
+
+tr: you are also seeing that in the booking rt and completing rt.
+
+lz; its saying up here in appts part of model, when we estimate booking rt in appts/week, there's 61 visits/week that are completed. if you want more details, you can click on the i. as 13tlead noticed a month ago, what we estimated is based on 75% of team, so not absolute max or low.  this is whole bathtub analogy, where there is rt where people go on books, rt where that goes down or appts completed, and number of people currently on the books.  you're seeing there is 3.9 pts/week starting psychotx for the first time.  again, if you want to look at data definitions - also in data userinterface as well - you can see about 50% of pts who get first psychotx visit are ending after that visit. tr, is that right? is that a percent?
+
+tr: no, that's a pts/week
+
+lz: on a typical week there's 28 pts, that are on 2-7 visits of pyschotx. in a given week, 1 pt/week will go on from 7th visit to get 7 or more.  this is all within first 3 months.  what we wanted to do was estimate what was typical for cohort of pts themselves rather than an arbitrary quarter or something.
+
+13tlead; lz can i stop you for a minute. my brain hurts so i want to make sure im gettng this correct. if we start out at 3.9 starting rt, this is new pts per week coming in new? per week right? out of those 4, less than half is not coming back? not even 1?
+
+lz: no, i said that wrong. all of those rate that look like a speedometer are in rates per week. so it's saying around half pt/week will not move on.
+
+13tlead: yes that is week then we come down to initiation rate.  why is that the same if we have about .49 drop out per week.
+
+tr: after pt has first visit, in our simplified model has 3 options for them.  they can not come back.  they can initiate care. or third option is they can get more visits, but after initial 3 months window.
+
+lz: they get a visit, but they don't stick around for first round of visits, but do come back eventually.
+
+13tlead: that's why 3.91 stays the same?
+one last question - then you look at pt in visit 2-7 and you have 28.46. is that in weeks? or is it in months?
+
+tr: any number in rectangles is a static number? no. it's literally number of patients who are in there. now that you ran bc, 104 weeks in the future, in that last week, there's 28 pts who are in visit 2, 3, 4, 5, 6, or 7.
+
+lz: right now, we are looking at a snapshot. we can also look at what would happen in the clinic of nothing was changed. at a  typical week at end of 2 years, if we didn't change anything in Team 1, there would be 28.46 pts who are in their 2+
+
+for a typical week, at the end of the run, number of pts in that state. are we answering your question 13tlead?
+
+13tlead: you are answering but im still stuck. my mind frame is that we're following 4 people throughout - don't know where we're getting 28 from.
+
+tr: not that we're only following 4 people in the week. in this week we have 4 people who started, and 4 people who initiatied, and ... all of these were happening at the same time.  pts that started the prior week are also in the model. over course of 2 years running model, you will get a lot more than 28 people who have initiated care, just in this particular snapshot, there are only 28.
+
+13tlead: thank you that clarifies it
+
+lz: model is trying to clarify what happens in typical week for team. most clinics organize themselves around a week. too short to think about typical day and too much changes to use a month.  it's looking in aggregate at all pts in typical week, how many pts in state are doing this, how many are in transitions, so you can start experimenting with those.  its also important to think about as you're starting to build experiments, there's also management of typical week appt supply
+did that help or did it make it confusing?
+
+13tlead: little more confusing. lightbulb went on and had it go off. but it's a lot of data. just basic one opening up window with all the options and arrows, that I barely get before we start throwing in all the other arrows.
+
+12: I really appreciate 13tlead's question too. I think it's clicking better for me. is it possible to pull up similar snapshot of data for all our clients not doing ebp or is that a completely different hypothesis?
+
+lz: that's in agg model. you can do to some degree in data ui file.  you can look at data and may be confusing  but is an option for you to log into individual world, if you want to explore agg model on your own, other teams are looking at mix of services 
+
+12: I get what you're saying, but there's a number of vets getting what we call psychotx, but we're not using evidence based template
+
+tr: I think it's the other way around. everyone who gets round of psychotx, regardless of whether its ebpsy or not.
+
+13tlead: based on cpt codes?
+
+lz: of which is ebpsy is only a subset.
+
+12: thanks for clarification
+
+lz: looking at data, lot more time is dedicated to "regular psychotx" and only a few are getting ebpsy. let's think about how this went and thinking about not meeting for several weeks. appreciate you guys working with us as we work out those kinks. is there something you guys want to test specifically? 
+
+13tlead: I think I'm not in a hypothesis because I'm barely trying to understand this module/chart. for me, I can't even hypothesize because I need to understand this.  Getting familiar with this for me, then I can start looking at how these hypotheses test out.
+
+12: you can experiment with changing appt supply, ebp template, pts who stay after 3 months, adjust prop of pts who move between states,... sense of questions that are high priority?
+
+12: I agree with 13tlead that every single time we go through this, I realize I'm not getting it, but don't know until 
+one thing is as - if we do take in more initial sessions, how does that influence what we're able to do in terms of number of people? if we flood our gates, what happens to completion, dropout rate, etc.
+
+lz: if we start more pts, what happens to downstream service states? initiate, complete, etc.
+
+12: I think I might be able to figure out how to do it on my own, but I want to know if what you would adjust is the same as what i would adjust.
+
+lz: do you have an idea of what you would expect?
+
+12: we wouldn't be able to see people as frequently because we wouldn't have slots to see them. im assuming we might have more drop out because of that.
+
+lz: tr - anything else? wante
+
+12: im open to hearing other hypotheses too. but I have to run
+
+lz: thanks you guys, we'll log off.
+
+next time - clarify for folks between team login and individual login

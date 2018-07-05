@@ -1,0 +1,63 @@
+TEAM 1
+2018.05.30
+
+Attendees: 17, 12, 17, 12, 13tlead
+Facilitator: Tr, Jb
+
+10:00am-10:06am Intro
+10:06-10:09 Ask for volunteers to drive and no one wants to.  Tr pulls up model
+
+Tr - What comes to mind from this picture?
+
+13tlead - Representing flow of our clients through our clinic relying on our template use
+
+Tr - Flow of clients through their first 3 months in psychotherapy.  But what we're looking at here is all of their visits regardless of whether there's a template or not.  what details about their engagement do you get from this picture?
+
+13tlead - Could you elaborate on that question?  I'm not sure I understand what you're asking.
+
+
+Tr - You have patients moving through care and we have details on that tracking.  Starting rate is new patients entering your clinic.  They are coming from this cloud, coming from somewhere that we're not concerned about - referral from other teams, etc.  After their first intake, they're in their first psychotx visit.  From there, they can not come back/they can end.  Or they can initiate care.  Same thing can happen in 2 to 7 visits.  They can complete and not come back or go to 8, 9, 10 visit.  Do these buckets make sense?
+
+13tlead - yes
+
+Tr - We have very simplified view of what pateitns can do in first three months.  Up at the top you have the same concept, there's a rt you book appts each week.  Those get put in calendar/appts in psychotx.  Those appts are completed at a certain rt.  That depends on you guys, on how many appts you're completing.  Any questions?
+
+12 - Nope
+
+Tr - How do you think they're connected?  Given what they look like in the diagram here?  The booking rt has to depend on something.
+
+12 - The number of appts you schedule?
+
+Tr - Number of appts you schedule depends on other things.  There are 5 arrows pointing at the booking rate
+
+12 - How many clients we have, how many appts are available, how often we see clients
+
+Tr - If you had 100 pts and brought them back every week, you'd have 100 pts per week.  If you brought them back every other week, the booking rate would be 50 pts per week.  Existing pts need appts and new pts need appts.  Signs on arrows show direction of relationship.  As number of pts in panel goes up, the more appts you'll book each week.  On the inverse, if you extend the return visit interval, the booking rate goes down.  Does this cap make sense?
+
+13tlead - What does appointment available mean?
+
+Tr - You have a number of hours each week you have available to complete appointments.  Those hours can either be used by existing patients or they can be used by new patients.  That's why there is a tradeoff here.  The more appts existing pts use, the fewer number of appts you have for new patients.
+
+13tlead - So that's just for new patients, not existing ones
+
+Tr - We built the model with assumption that existing patients come first.  If you only have 100 slots per week and existing patients need all of them, then there will be 100 slots for existing patients.  You can see that in diagram in arrow that connects appts available for new patients to starting rate --- only thing that determines starting rate/appts available each week for new patients.
+
+
+Tr - So far this matches what happens in clinic?
+
+13tlead - I guess I'm still trying to understand the three arrows attached to patient in 1st visit, 2 to 7, 8, that connect to the booking rate.
+
+
+13tlead - All I remember is talking about the blue boxes at the bottr and understanding what that box is first.
+
+Tr - So when there's a sign on one of these arrows, the number of patients (from 1st 3 month three stock boxes), when that goes up, the booking rate goes up.  It does not mean they're correlated - like in general as one goes up, the other goes up most of the time and we don't understand the dynamics. No, there's specific arithmetic there.  The number of patients divided by the return visit interval.  If that number of patients goes up and RVI hasn't changed, you have to book 200 appts per week.
+
+Jb - More patients you have, more you have to book them
+
+Tr:
+It's hard for me to go from this table (designed to be read by computer not human) to go back to this (designed to be read by human)
+
+All of these are pathways in a patients' first three months.  This is what we found looking at your patients' history.  If you've done at least one visit, this is the proportion of visits who get 2+ visits in first 3 months.
+
+
+
