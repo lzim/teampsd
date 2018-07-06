@@ -1,1 +1,10 @@
+Prep Checklist
+1. Log into mtl.how/facilitate (Admin Forio Epicenter) to map all facilitators/coders as team leads to the relevant team world and upload the most recent model file as necessary  
 
+2. Log into mtl.how/sim (Sim UI) to make sure the model file reads into sim correctly and  
+
+3. Log into mtl.how/data (Data UI) to 
+
+4. Log into mtl.how/live (Adobe Connect) and dial into 1-800-767-1750; Code 27379 (VANTS phone line) to join the meeting  
+
+5. Prepare notes on team question, hypothesis, findings, and decisions for discussion. (https://github.com/lzim/teampsd/tree/master/qual_workgroup/team_questions)
