@@ -1,0 +1,146 @@
+---
+title: "RVI Engagement"
+author: "Savet Hong"
+date: "July 5, 2018"
+output: html_document
+
+---
+
+# Psy Model
+```{r library, include=FALSE}
+
+library(readxl)
+library(tidyverse)
+library(plotly)
+
+# NOTE: tabsetting feature is part of new rmarkdown package, which is not on VA machine
+# Shiny appears to fail on VA machine. Is it permission issue?
+
+```
+
+
+```{r psy_datafiles, include=FALSE}
+vacolor <- c("#003F72", "#0083BE", "#C4262E", "#772432", "#598527", "#f3cf45","#f7955b","#839097", "#dcddde", "#cccc99", "#bec292")
+rvi <- read_excel("ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "A15:C32")
+
+# Expand Column A as vector
+unique_Appointment_Group <- rvi$X__1[which(!is.na(rvi$X__1))] #unique `Appointment Group` (in order)
+Appointment_Group_pos <- diff(which(!is.na(rvi$X__1))) # position/rows between `Appointment Group`
+max.pos <- length(unique_Appointment_Group) 
+Appointment_Group_vec <- c(rep(unique_Appointment_Group[-max.pos], Appointment_Group_pos),
+                 rep(unique_Appointment_Group[max.pos], 3)) # repeat values until next occurance 
+
+rvi_mod <- rvi %>%
+  mutate(`Appointment Group` = Appointment_Group_vec,
+         Type = ifelse(grepl("Freq", X__2), "Freq", "Time"),
+         `Appointment Group` = sub("vis", "visit", `Appointment Group`),
+         `Appointment Group` = sub("27", "2-7", `Appointment Group`)) %>%
+  rename(`Flow Group` = X__2, rate = X__3) %>%
+  select(Type,`Appointment Group`, `Flow Group`, rate)
+
+eng <- rvi_mod %>%
+  filter(Type == "Freq") %>%
+  mutate(`Flow Group` = gsub(" Frequency","", `Flow Group`),
+         `Appointment Group` = gsub(" freq", "", `Appointment Group`))
+
+rvi_only <- rvi_mod %>%
+  filter(Type == "Time") %>%
+  mutate(`Flow Group` = gsub(" Duration","", `Flow Group`),
+         `Appointment Group` = gsub(" time", "", `Appointment Group`))
+
+group_lev1 <- eng$`Flow Group`
+group_lev2 <- rvi_only$`Flow Group`
+
+eng <- eng %>%
+  mutate(`Flow Group` = factor(`Flow Group`, levels = group_lev1))
+```
+
+## Engagement {.tabset .tabset-fade .tabset-pills}
+
+### Graph Option: Interactive
+
+```{r engage1, echo= FALSE, warning=FALSE, message=FALSE}
+
+  ## Need to figure out why plotly is not working
+
+p <- ggplot(eng, aes(`Appointment Group`, rate, fill = `Flow Group`)) +
+  geom_bar( position = "dodge",stat = "identity") +
+  scale_fill_manual(values = vacolor, name=element_blank()) +
+  labs(x = "", y= "Weeks in Care") +
+  theme_bw() +
+  theme(legend.position='none')
+
+ggplotly(p)
+```
+
+
+### Graph Option: Appointment
+
+```{r engage2, echo= FALSE, warning=FALSE, message=FALSE, fig.align= "center"}
+
+ggplot(eng, aes(`Appointment Group`, rate, fill = factor(`Flow Group`, levels = group_lev1))) +
+  geom_bar( position = "dodge",stat = "identity") +
+  scale_fill_manual(values = vacolor, name=element_blank()) +
+  labs(x = "", y= "Weeks in Care") +
+  theme_bw()
+
+```
+
+### Graph Option: Group
+
+```{r engage3, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
+
+ggplot(eng, aes(factor(`Flow Group`, levels = group_lev1), rate, fill = `Appointment Group`)) +
+  geom_bar( stat = "identity") +
+  scale_fill_manual(values = vacolor, name=element_blank()) +
+  labs(x = "", y= "Weeks in Care") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        plot.margin = unit(c(1, 0, 0, 2), "cm"))
+  
+
+```
+
+## Duration {.tabset .tabset-fade .tabset-pills}
+
+### Graph Option: Interactive
+
+```{r duration1, echo= FALSE, warning=FALSE, message=FALSE}
+
+p <- ggplot(rvi_only, aes(`Appointment Group`, rate, fill = `Flow Group`)) +
+  geom_bar( position = "dodge",stat = "identity") +
+  scale_fill_manual(values = vacolor, name=element_blank()) +
+  labs(x = "", y= "Weeks in Care") +
+  theme_bw() +
+  theme(legend.position='none')
+
+ggplotly(p)
+```
+
+###  Graph Option: Appointment
+
+```{r duration2, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
+ggplot(rvi_only, aes(`Appointment Group`, rate, fill = factor(`Flow Group`, 
+                                                  levels = group_lev2))) +
+  geom_bar( position = "dodge",stat = "identity") +
+  scale_fill_manual(values = vacolor, name=element_blank()) +
+  labs(x = "", y= "Weeks in Care") +
+  theme_bw()
+
+```
+
+### Graph Option: Flow
+
+```{r duration3, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
+
+ggplot(rvi_only, aes(factor(`Flow Group`, levels = group_lev2), 
+                     rate, fill = `Appointment Group`)) +
+  geom_bar( stat = "identity") +
+  scale_fill_manual(values = vacolor, name=element_blank()) +
+  labs(x = "", y= "Weeks in Care") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        plot.margin = unit(c(1, 0, 0, 2), "cm"))
+  
+
+```
