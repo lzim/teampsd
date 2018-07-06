@@ -17,3 +17,5 @@ Debriefing checklist:
 8. Things that Team PSD should know - problems with UI, data, upcoming issues  
 
 9. Team Emails: 1) Done, 2) Do, 3) Decided  
+
+10. Post team meeting notes here: https://github.com/lzim/teampsd/tree/master/qual_workgroup/coded_meetings/unformatted_files
