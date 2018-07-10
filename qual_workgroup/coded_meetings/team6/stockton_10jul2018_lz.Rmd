@@ -1,0 +1,169 @@
+Team 6
+
+10 Jul 2018
+
+Team PSD Member Attending
+TR - Lead co-facilitator
+LZ - Secondary co-facilitator
+DL 
+DK
+
+Present:
+SW #1 (team Lead)
+SW #2 (co-team Lead)
+MD
+MD
+
+Four Staff members out for training.
+
+We have the full hour.
+
+1. Question - hypotheses
+2. Data
+3. Other questions/things?
+
+Jennifer - Don't think we're coding our encounters the way that others are?
+
+If we're charting EBPsy encounters.
+
+TR: EBPsy lower than they expected?
+
+SW #2 - yes
+
+TR: Is one of you willing to share/drive? (9:09)
+
+SW #1 - yes
+
+Until 9:18AM
+
+DK points out how to share full screen in Adobe Connect
+
+mtl.how - LZ explains the difference between the team data tools (data UI) and the simulation data (sim UI) - 
+
+9:21 - we should just move on
+
+9:21-9:25 Adjunctive Services
+
+LZ: 15 minute encounters for peer support & adjunctive services
+
+9:27 - 12 June data - adjunctive services
+
+TR - Some need to be re-classified 
+**LZ note: Intake need to be out of there.
+
+LZ mentioned the CPT code table - described what they are - stated it will be included in a future iteration of the data UI
+
+LZ - what do they "i" mean?
+SW #1 - Where the data come from?
+LZ - Yes, in the team data table that's what it means. In the sliders, it's what you're changing when you change in an experiment.
+
+Team data - use sliders to adjust
+
+
+TR - use the arrow keys to make smaller adjustments
+TR - What do you think will happen?
+
+SW #1 - Ran it; No data because it's looking at today.
+
+DK - Can you explain what the base case/BC means?
+
+TR - Get the current state for every day for two years if you changed nothing.  It's so you have something to compare your experiments to.
+
+SW #1 - Wouldn't be any change if I use 98 it's the same as the team data.
+
+TR - In the expanded outputs screen, where would you find out what we ran?  
+
+LZ - Go to the "?" in the Select Experiment area of the Control Panel. Shows what the values were that you 
+
+DK - Would she need to make an adjustment from somewhere else?
+
+TR Changing Patient Cohort Views - shows the last run for different services.
+
+SW #2 - We have 25 EBPsy in Visual Aid
+
+**LZ Note: Need to check the 30 minute 
+
+Clinics/grids we have:
+- Intakes 60-min
+- Case managment 30-min
+- EBP 60-min
+- Groups 60-90 min
+- Phone appointment 
+- Same day 30-min
+
+Psy
+SW #3 50/50 
+SW #1 50/50 - "Not as good at wrangling people about their homework"
+Another SW mentioned = 100%
+
+SW #1 - Change Psy to EBPsy - just swap them out, so we don't create more time.
+
+TR - Can't run it; so go to Expanded outputs screen - save or resent & discard
+
+TR - Hover over "run" and can see it has reset
+
+TR - Before you hit run, the whole point of this tool is to challenge your thinking. It's not an oracle. It's not perfect, we're using estimates that aren't that fine grained. We want you to have  stable foundation for your to experiment from. What do you think the outcome will be from making that shift.
+
+SW #1 - This is what we're doing now right?  Using
+
+How long the patient stays engaged, so patients in service?
+
+TR - The patients are in review, once they have a treatment decision, they are in a service.
+
+SW #1 - Okay, so I'll choose EBPsy. 
+
+TR - If it were true, you'd only see one patient per week in EPsy. 1 hour/week, then 1 pt/week. 
+
+SW #1 - Should change to about 25 patients in EBPsy.
+
+LZ - Let's run it and save it since it's the top of the hour.
+
+TR - Since we don't want to lose our thought process. I'd type in what you did and save it.  
+
+SW #1 typed in: "We changed EBPsy to 25 hr/wk and decreased Psy to 1hr/week. We expect to increase 25 pts in EBPsy care/wk vs. 1/wk.
+
+TR - Do you want to look at the findings? I ask because we're a few minutes over.
+
+SW #1 - How long will it take? 5 min?
+
+TR - What's the thing we want to look at?  It's showing Patients Waiting for Treatment Decision now.
+
+TR - showing that even though you changed the hours around. You're still only 
+
+SW #1 - But how long would they stay in service?
+
+LZ - Wait save it first! "25EBPsyvs1hrPsy"
+
+TR - Two things:
+1. Team Data - Median Engagement - Psy = 52 weeks; EBPsy = 15 weeks - The median time is 52 weeks.
+2. Our theory was that we'd make this change in our clinics, and it would change the number of patients in service. Everything stayed the same.
+**I will tell you, I'm logged in like a team member.
+
+LZ - You can look at it by select Psy - 
+
+TR - This is the one change we made, but are there other changes we need to make? You have to change the proportion of patients that need EBPsy or Psy hasn't changed. The team has to make changes in which services the patients started.
+
+LZ - Just because you start a new group and set aside the clinics, doesn't mean Veterans start it unless you also get referrals to the group.
+
+SW #1 - Having the service - and then referring to that service.
+
+TR - All the patients I see on average, where do I send them? Normally, just think
+
+SW #1 - How long will this keep going?
+
+LZ - As always we want to partner with you, but also we don't want to keep going forever. I thought we might wind down toward the end of the summer so that you have your feet under you and can use these tools without us. How does that sound to you?
+
+SW #1 - We've been neglecting a lot of other things, to accomodate this research. Instead, of dropping off a cliff. The skills we've learned, and using these resources in our team decisions. Maybe we could check in with you every 3 months our so.
+
+LZ - That sounds good. It seems like you're getting more comfortable and familiar with these resources.
+
+SW #1 - Yes, I like that we're follwing Amy's question through.
+
+LZ - Okay, we'll keep going our next team meeting is July 24th, so if we wrap up in August that's right around the corner, in about 3 team meetings.
+
+TR - Last 90 seconds - Didn't actually run an experiment, we just ran another base case.
+
+Ended at abou 11:15AM.
+
+
+
