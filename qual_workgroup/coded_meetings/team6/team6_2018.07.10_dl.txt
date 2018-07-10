@@ -1,0 +1,79 @@
+Team 6 
+July 10, 2018 at 9:00am to 10 am PST 
+60 min (15 minutes to get started with actual session)
+
+Research team:
+LZ (Co)
+TR (Lead)
+DK (Coder)
+DL (Coder)
+
+Team members:
+SW1 (team lead)
+SW2 
+
+TR: Welcomed everyone and asked for brief introductions.
+
+SW1: Expressed being ready to drive. 
+
+SW2: Raised some concerns about the data used to support the model. Some service data is inflated. Would like to do a run that would correct for this. 
+
+SW1: Had some challenges sharing screen. The key is to select applications, not windows (Lindsey says). 
+
+SW2: Is it the software that creates the data, or is it a template?
+
+LZ: Great question. Yes, there is a program that pulls xxx codes and a template that displays it.
+
+LZ: RT members, can we use the sliders to adjust EBPSY to account for the increase in EBPSY? I think that the model parameters file is capturing the data, but there is a lag because we are using a couple of years of data to come up with these estimates. The data being read into the model is a two-year steady estimate. But we can change this in the model.  Does that make sense?
+
+TR: To check to see if the data is reflective, we need to go to the DUI and drill down and check the encounter data, to see that a particular pt is being documented. 
+
+LZ: Would you like to look at the data tool now? Or go with the sliders in the model to adjust for the rapid increase in EBPSY over the last 12 months? 
+
+SW2: Let’s continue on as planned for today. 
+
+TR: We had similar questions about adjunctive serve hours. We have looked into that issue, and we have been able to address that, by reclassifying some of the team data. We are still looking at this issue.
+
+LZ:  Your question is very important, because all teams are interested in how the data is being ‘binned.’
+
+SW1: I like that slider. I see how it works.
+
+TR: Okay, now what do you think the results of this experiment will be?
+SW1: I do not know
+
+DK: TR, can you explain ‘basecase’ run again?
+
+TR: Yes, it means that when we are using the basecase, it will show a steady state. No changes over time. 
+
+SW2: So you have to change something in the Experiments panel to see a change? 
+
+TR: Correct.
+
+SW2: I see, nothing is changed yet. And the runs show this. The lines are overlapping. 
+
+TR: you can see better in the expanded output window. Oh. There are different runs here!
+
+SW1: Recaps experiment. 
+
+SW1: I think we need to change the EPBPSY to about 25 per week, from 1.5 per week. It would pull away from care coordination. 
+
+SW2: See the data table values? That is crazy.
+
+TR: That’s way we want to try different allocations.
+
+SW1: So we need to adjust the hours, but do so without adding appointment capacity. 
+
+SW1: Are these all 30 minute visits? 
+
+TR: yes
+
+SW1: Okay, we can take away from that. Okay. I see. 
+
+SW1 and SW2: Ok. Let’s pretend that .  .. [DL: I think they are getting it!]
+
+DL: [great probing questions about the various parameters. Great navigating and facilitating, Tom and Lindsey].
+
+DL had to drop off at this point! 12:56pm So sorry.
+
+
+
