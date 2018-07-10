@@ -1,0 +1,54 @@
+2.	Time management & trouble-shooting 
+
+	started on time, took a few minutes for TL to share screens (first time)
+
+
+
+3.	Attendance and engagement 
+
+	missing many people, only had Vhee and Janet really participate
+
+
+
+4.	How did the co-facilitation model go? 
+
+	TR ran ~60% (intro, UI use, results explanation), and LZ ran ~40% (clarifying 	data issues and crafting hypothesis)
+
+
+5.	What was covered during the meeting? 
+
+	validated pt data and model params, TL took control of UI, developed 	experiment, and ran it
+
+
+6.	What were the team's questions? (what did they ask?) 
+
+	why don't these parameters look like our current reality?
+	What does it mean to set the hours to x with the slider? Do we need to move 	other supply sliders, too?
+
+
+7.	What is the team's guiding question and hypotheses? (what are they testing?) 
+
+	o	Add these items to the agenda for Wednesday facilitation meetings 
+
+	"increase hrs in EBPsy from 1 to 25, and decrease hrs in Psy from 25 to 1 -->
+	1 to 25 patients in care in EBPsy"
+
+
+
+8.	Facilitator needs/questions (need for training, problems) 
+
+	figure out how to get the team familiar with their data params before running 	any experiments (too much clicking back and forth)
+
+
+9.	Things that Team PSD should know - problems with UI, data, upcoming issues
+
+	Don't assume that the teams have fully understood what a slider does! (e.g., that they can "create" hours accidentally, if they don't keep track of the total hours in their heads...it would be nice if there was a widget that kept track of the total hours in real time)
+ 
+
+10.	Team Emails: 1) Done, 2) Do, 3) Decided 
+
+1-validated pt data and model params, built hands-on familarity with UI, developed experiment and huypothesis, and ran it
+
+2- re-run experiment (swap hours for PSY and PBPSY), view results
+
+3- next experiment will include changes to both supply AND referral % to see desired impact
