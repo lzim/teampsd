@@ -1,0 +1,116 @@
+VA Stockton Team Meeting
+July 10, 2018 – 12 noon EST; 9 am PST
+Attendance: Two social workers (SW); two doctors; 3 other staff identified as absent
+Engagement:  Team Lead serves as driver of computer use - logged in to data and to simulation and shared screen in Adobe Connect
+Cofacilitation: 
+  TR – Introductions completed; overview of last session; discussed questions and hypothesis on the output screen; we discussed questions about the team’s data
+	Asked for team input: What other questions or topics would like you like to discuss today? 
+Q from SW – asked if the Stockton team was coding encounters the same as other teams?; Are we charting EB psychotherapy encounters correctly as the number of EBPsy appointments was lower than expected? Is this data driven by a template or by a code?
+
+Cofacilitation:
+   LZ – answered both – the 90832 to 90837 CPT codes plus a template – together this generates the EBPsy data
+   LZ - Need a couple of years of data to generate an estimate for the team; Data being read into the model is a stable 2 year estimate; the disadvantage – it doesn’t reflect that dramatic increase in EBPsy in the past year but this increase can be modeled in the simulation
+   TR – We can adjust sliders in the experiment to account for increase in MH EB-PSY 
+
+   LZ – The team’s input review and feedback on the data is critical; may be potential homework for the team is to check to be sure data is reflecting the actual work of the clinic
+Reviewed “Adjunctive Services” question from last meeting and why it looks like in the team data that the team is putting a great deal of hours on this service; 
+
+   Explanation given by TR/LZ -- we have drilled into this data and have narrowed it to reclassify some of the adjunctive services; we have found that 15 minute encounters (we looked at CPT codes table) were driving the high Adjunctive hours. We have shifted about 20% of these services (from 100 hours per week to 80 hours per week). This still seems a little high and so we are trying to identify how we adjust. 
+   TR - The simulation is very flexible. We show now 98 hours a week for adjunctive (because we are counting 15 minute visits as hour visits), you can change the slider in the Experiments tile under SUPPLY and change the Adjunctive slider downward.
+
+SW comment - Adjunctive is the miscellaneous catch-all category; we do have scheduled telephone appointments – Q – is this different then returning a phone call? Scheduled or unscheduled? This is about “completed” appointments or visits;
+
+LZ - If we look at the CPT codes for the team the most common are:
+* Peer support
+* Telehealth facility fees
+* Mental Health services, not otherwise specified
+* The next few relate to telephone calls
+We can put this table so you can see how the CPT codes for the team are binning
+
+Q posed to Stockton team -- What are the “i’s” -- SW answered it’s where the data comes from. LZ response “Yes, in part.”
+       Explanation -- up top in the team data table the “I” means where the data is being pulled from (the data from your team); when an “I” is on an experiment slider it tells you what happens when you change that value in the experiment you run a simulation
+TR - asked team lead to run a simulation – base case from the team data table is 98; TR asked what do you think your change is actually going to do? On the Team Data Table, you can see the base case is 98 for Adjunctive services – when we ran it last time; we did the base case, and hit run, you get the current state for the next 2 years.
+SW -- “So, if you don’t’ change anything, nothing in the model is going to change. Is that what you’re trying to say?”. 
+TR - This gives you something to compare all of your experiments to. If you don’t run the base case first, you won’t have anything to compare it to. 
+So if we swapped the base case for Adjunctive Services for the same number using the slider this is how we test the interface to make sure it works; putting 98 in adjunctive services should produce the same result as the base case.
+The way to know what we’ve changed in the model is to click on the Output Services tile and click on the question mark.  If you click on the “?” [question mark] by Select Experiment  – it will show you the information you put in last time when you ran a scenario; as you keep scrolling down you can see all the values that you changed.
+You can also scroll through the “Current Run Experiment Values” on the output screen and see what numbers have been changed
+
+Guiding Question & Hypothesis:
+  TR - The “Our Question”; the “Our Hypothesis” and the “Our Findings” are summarized in the box when you click on the Question Mark noted above.
+  SW read the Hypothesis aloud – last sentence “We expect that we do 5 EBPsy per week.” 
+
+Q from SW -- So we could set the appointment supply to 5 providers per week? Would it be 5 providers x 5 appointments per week? So this would be 25 hours per week.
+TR - Where would you pull the time from looking at your team data?
+SW comment - So if you move EBPsy Supply to 25 it could be pulled away from Care Coordination but it only has 16 hours per week available.
+
+Q from SW –- is this for PSY for psychotherapy or psychiastrist? Is the CC and PSY both 30 minute visits? A - CC is 30 minutes and PSY are 60 minutes. 
+Q from SW -- Is the PSY line the intakes? A -- No, that is in “Review” – changing top line so it will say Appointment Review – Intakes.
+SW comments -- We have Intakes in 60 minutes; Case management 30 mins; EBP 60 minutes; Groups 60-90 minutes; Same Days – 30 minutes
+
+Co-facilitation:
+We are separating Psychotherapy 60 minutes not using the template and EBP using the template; if you are doing Psychotherapy is it with a template or not a template. For A it is 100% for EBPsy but for me it’s about 50/50 to Psy vs. EBPsy.
+Let’s just do the ideal of 5 hours x 5 care providers to get 25 hours
+
+Take the regular Psychotherapy to 1 (we just swapped it out); so we don’t have to create more time. Change CC back to the baseline of 16 hours like it says in the team data table
+When you hover over the run you can see it won’t let you run because you haven’t saved the last run. So you can go over to Reset and Discard or Save the Run you’ve just tested.
+Now we’re at a blank slate. 
+Right so you can click on the Experiments tab; and input the numbers you discussed 5 clinicians x 5 hours. Before you click on run, the whole purpose is to hypothesize what will happen. We’re going to swap out Psychotherapy for EBPsy so what do you think will happen?
+We’re focused on patients – so if you look at the rate on the model screen on the left. You can click on the services tile at the top and see the different numbers for each of the services.
+So if we change it to the opposite this would change to 25.
+LZ – we should run it and save it. Go into the outputs
+
+SW types in hypothesis – we changed EBP to 25 hr/wk and decreased the PSY to 1 h/wk and we expect to increase 25 patients in EBPsy care/week vs. 1/wk.
+Looked for 
+TR -- sim results - Even though you changed the hours around and added more hours to EBPsy – you are still only seeing 1.2 patients 
+
+Naming of run by SW / team lead – doesn’t like spaces or dots in the name
+TR - two things
+How long are they in case management? In the team data table on the right side under median engagement, it shows Psy the median time is 52 weeks (1 year) and in EBPsy the median time is 15 weeks.
+Because things stayed the same we disproved the hypothesis; this would not affect Psychotherapy.
+Q to group - tell you the answer or explore further?  SW answer: go ahead, just tell us so we don’t have to wait another 2 weeks.
+
+So we changed the hours on what the team is doing but the referral rates haven’t changed so even though we’re not going to give that many hours to PSY, the number of patients the team decides needs EBPsy or Psy hasn’t changed. As a team you need to decide how and where patients go and there is another slider for that process. If you just changed sending more patients to EBPsy and didn’t change the hours available, it wouldn’t change anything.
+Making sure there is enough total hours to cover the proposed change, and as a team, guide how are we making the decisions as a team.
+So basically having the service is one thing and then who is going to be referred or how many is going to be referred needs to be changed.
+
+TR - The are in different units – one is in hours set aside for different services but the other one is a percentage of appointments.
+TR Asked - would you know that off the top of your head? 
+SW - No, I don’t. 
+TW -- This is why it's important to have the model so you can change both things  -- how much do you have to change your intake decisions to match the changes to the hours.
+
+Q from SW - Is there any timeline for how long this project is going to go? 
+LZ – my hope is that by the end of the summer you would feel comfortable with the tool and you could run experiments on your own. Don’t want to leave you high or dry but we want to support. We’ve been neglecting other things to accommodate this research so if after August we could check in every 3 months? To make sure we’re using the skills and making team decisions for the Stockton clinic. 
+I haven’t thought about a 3-month booster;  August is right around the corner.
+The next meeting is on the 24th – that gives us 3 more team meetings. Let’s think about how to most efficiently use the time.
+We like the fact that we are using the question that Amy proposed in the model.
+TR – wanted to let the team know that the lines in charts are totally flat not because we accidentally didn't save the base case run so we will address that on the next call. 
+
+Debrief Notes - LZ, TR, DK:
+
+Vocabulary -- Reviewing the model with a team – what we call each part of the simulation
+1. Left side of screen – the “main tile”; model tile; model diagram; systems map
+
+2. This is the 2nd team that has been asking about how long this pilot will go; we need to examine among ourselves; we need to be efficient in how we use each teams time going forth. 
+Let them explore experiments that could possibly change their mental model;  so knowing as a facilitator what the counterintuitive issues would be important – facilitate them to the most efficient things they could do;
+	Pick between major lessons and the minor lessons
+3. Positive -- No tech fails, no late start; full hour available; the team lead was ready to drive; we still ran 15 minutes over. 
+4. Challenge - We really didn’t get into an experiment of consequence;
+5. Booster Option -- Meeting with them again in 3 months is a different design then in our grant;
+6. Meta Theme: it is crippling us that we don’t have the data tools finalized; continue to have to give caveats; we were solid half hour into it on data questions; having the little “I” may help and we can assign as a homework.
+7. Still explaining stuff that is not relevant to critical decision making.
+    Q - Is it possible to have a team lead 1 on 1 time to orient them to model use prior to the team calls? Model diagram, sliders, outputs – not exactly right 
+
+Need MTL Live Session Guide – having something visual that they can open or have on another screen that clarifies our agenda; have MTL checklist for the session – it will anchor people as to what is going to happen during the session. This has been put on hold while models and user interfaces have continued to be change. Having a very clear plan would be very orienting for team members. This would be a consistent list – strike the balance between being responsive to the questions they ask while making sure everybody is getting the same clear content. We thought this would happen in the do-done format, the team emails and the guides.
+When we first started we did a session guide every time and we emailed it in advance and followed up with the team afterwards. Having unstable migrated resources has been challenging and impacts expectations. Consider moving back to this format and using our Wednesday time.
+Simpler, clearer and less demanding on people – LZ agrees; some of the things will be clearer when the models are fixed.
+Was there other team leads besides the Stockton representative who had led a session? Yes, one other team lead had led use of the model in a session – she asked very specific questions and was jumping in and asking good questions.
+By the time they get to the model tile, experiment screen and output screen. During this last 3rd of the meetings with the teams, we need to get them through a set of experiments to guide their thinking.
+TR – in 2.0, we need to be open to changing the UI so it matches up better with the process that teams go through. It seems strange that the hypothesis and questions are in the other side of the model (in the outputs screen). 
+LZ - The wireframe is baked in and it’s helpful to keep this in mind; we are forced to live with this for a very long period of time because it is expensive to fix now. The idea of changing it now may just exacerbate our problems – things are not final enough to practice, develop resources around, and to benefit a team with a well versed facilitation team.
+Having places to go for more information – we need team input in prototype phase to get to a final product; need more resources that tell me where to go and figure it out
+Focus on facilitator checklist and what we will do each session is critical so we can be efficient in our time use; push to get the resources done.
+We have a question for each team and its’ been challenging to figure out how to answer the question when the model is still being fixed. We need to get our resources drafted.
+
+
+
