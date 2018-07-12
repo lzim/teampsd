@@ -1,12 +1,12 @@
 ---
 title: "RVI Engagement"
 author: "Savet Hong"
-date: "July 5, 2018"
+date: "July 11, 2018"
 output: html_document
 
 ---
 
-# Psy Model
+## Psy Model {.tabset .tabset-fade .tabset-pills}
 ```{r library, include=FALSE}
 
 library(readxl)
@@ -34,9 +34,12 @@ rvi_mod <- rvi %>%
   mutate(`Appointment Group` = Appointment_Group_vec,
          Type = ifelse(grepl("Freq", X__2), "Freq", "Time"),
          `Appointment Group` = sub("vis", "visit", `Appointment Group`),
-         `Appointment Group` = sub("27", "2-7", `Appointment Group`)) %>%
+         `Appointment Group` = sub("27", "2-7", `Appointment Group`),
+         `Flow Group2` = sub(".* Medium", '"..." Medium', X__2),
+         `Flow Group2` = sub(".* High", '"..." High', `Flow Group2`),
+         `Flow Group2` = sub(" Frequency", "", `Flow Group2`)) %>%
   rename(`Flow Group` = X__2, rate = X__3) %>%
-  select(Type,`Appointment Group`, `Flow Group`, rate)
+  select(Type,`Appointment Group`, `Flow Group`,`Flow Group2`, rate)
 
 eng <- rvi_mod %>%
   filter(Type == "Freq") %>%
@@ -48,6 +51,7 @@ rvi_only <- rvi_mod %>%
   mutate(`Flow Group` = gsub(" Duration","", `Flow Group`),
          `Appointment Group` = gsub(" time", "", `Appointment Group`))
 
+group2 <- eng$`Flow Group2`
 group_lev1 <- eng$`Flow Group`
 group_lev2 <- rvi_only$`Flow Group`
 
@@ -55,12 +59,9 @@ eng <- eng %>%
   mutate(`Flow Group` = factor(`Flow Group`, levels = group_lev1))
 ```
 
-## Engagement {.tabset .tabset-fade .tabset-pills}
 
-### Graph Option: Interactive
-
-```{r engage1, echo= FALSE, warning=FALSE, message=FALSE}
-
+```{r engage1, echo= FALSE, warning=FALSE, message=FALSE, include=FALSE}
+### Graph Option: Interactive {.hidden}
   ## Need to figure out why plotly is not working
 
 p <- ggplot(eng, aes(`Appointment Group`, rate, fill = `Flow Group`)) +
@@ -74,10 +75,8 @@ ggplotly(p)
 ```
 
 
+```{r engage2, echo= FALSE, warning=FALSE, message=FALSE, fig.align= "center", include=FALSE}
 ### Graph Option: Appointment
-
-```{r engage2, echo= FALSE, warning=FALSE, message=FALSE, fig.align= "center"}
-
 ggplot(eng, aes(`Appointment Group`, rate, fill = factor(`Flow Group`, levels = group_lev1))) +
   geom_bar( position = "dodge",stat = "identity") +
   scale_fill_manual(values = vacolor, name=element_blank()) +
@@ -86,26 +85,27 @@ ggplot(eng, aes(`Appointment Group`, rate, fill = factor(`Flow Group`, levels = 
 
 ```
 
-### Graph Option: Group
+### Engagement: Weeks in Care
 
 ```{r engage3, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
 
 ggplot(eng, aes(factor(`Flow Group`, levels = group_lev1), rate, fill = `Appointment Group`)) +
   geom_bar( stat = "identity") +
-  scale_fill_manual(values = vacolor, name=element_blank()) +
-  labs(x = "", y= "Weeks in Care") +
+  scale_x_discrete(labels = group2) +
+  scale_fill_manual(values = vacolor, name=element_blank(), guide = FALSE) +
+  labs(x = "", y= "") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, colour = rep(vacolor[1:3], each =3)), 
         plot.margin = unit(c(1, 0, 0, 2), "cm"))
   
 
 ```
 
-## Duration {.tabset .tabset-fade .tabset-pills}
 
+
+
+```{r duration1, echo= FALSE, warning=FALSE, message=FALSE, include= FALSE}
 ### Graph Option: Interactive
-
-```{r duration1, echo= FALSE, warning=FALSE, message=FALSE}
 
 p <- ggplot(rvi_only, aes(`Appointment Group`, rate, fill = `Flow Group`)) +
   geom_bar( position = "dodge",stat = "identity") +
@@ -117,9 +117,10 @@ p <- ggplot(rvi_only, aes(`Appointment Group`, rate, fill = `Flow Group`)) +
 ggplotly(p)
 ```
 
-###  Graph Option: Appointment
 
-```{r duration2, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
+
+```{r duration2, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center", include=FALSE}
+###  Graph Option: Appointment
 ggplot(rvi_only, aes(`Appointment Group`, rate, fill = factor(`Flow Group`, 
                                                   levels = group_lev2))) +
   geom_bar( position = "dodge",stat = "identity") +
@@ -129,17 +130,18 @@ ggplot(rvi_only, aes(`Appointment Group`, rate, fill = factor(`Flow Group`,
 
 ```
 
-### Graph Option: Flow
+### Duration: Weeks Between Visit
 
 ```{r duration3, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
 
 ggplot(rvi_only, aes(factor(`Flow Group`, levels = group_lev2), 
                      rate, fill = `Appointment Group`)) +
   geom_bar( stat = "identity") +
-  scale_fill_manual(values = vacolor, name=element_blank()) +
-  labs(x = "", y= "Weeks in Care") +
+  scale_x_discrete(labels = group2) +
+  scale_fill_manual(values = vacolor, name=element_blank(), guide = FALSE) +
+  labs(x = "", y= "") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, colour = rep(vacolor[1:3], each =3)), 
         plot.margin = unit(c(1, 0, 0, 2), "cm"))
   
 
