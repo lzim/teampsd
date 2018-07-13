@@ -1,0 +1,44 @@
+Team 4 
+July 13, 2018 at 8:15am to 9am PST 
+
+LZ and JB, Co-Facilitators
+RG (Nurse)
+NM (Psych)
+Z (Psyhchiatry)
+M (Psychiatry)
+D (SW)
+At 11:27am, Lindsey has everyone logged in. 
+LZ: There are two worlds that you can use to log in. The team work and your personal world. Two log ins, same password. 
+LZ: We want to pick up where we left off. We have a new data set. Anyone want to drive?
+M: I will. [Starts Adobe Connect; LZ needed to promote him to presenter].
+LZ: Everyone see M’s screen? 
+YES
+LZ: Choose start new session and choose the newest data set.
+LZ: See warning about restarting? It is okay to say yes, but it resets the session for all team members.
+M: Ok
+LZ: Go to select Experiment. See the ?? It gives information about the Question, Hypothesis, Findings, and Decisions that we were working on.
+LZ: Note no Decisions were made. 
+LZ: Today we want to come up with a good basecase run for your team. 
+LZ: Basecase is trying to tell you what the future would look like if nothing was changing over time. It is not realistic, but it gives you some level of camparison.
+LZ: M, Please run a new Basecase. 
+LZ: To set this up, in the Experiments title, turn use Team data ON. 
+LZ: Let’s look at the values for all the variables being read in to the model.
+LZ: [Reviews all the values, in brief] These are feeding the basecase model. [Taking quite a bit of time to clarify what the estimates mean. She does a good job, but is this necessary??]
+LZ: Use Team data is really saying use the current, expected mix of values that characterize your team.
+LZ: We also want to have all the causal loops ON. The Reveal option shows the feedback effects. By turning these on, all of these effects come into play. For example, xxxxx
+LZ: The point of the SDM is not correlation, it is about examining the dynamic relationship among these variables. [404 Freeway analogy invoked]
+LZ: There are many other things you may want to examine, for example effect of overtime and RVI.
+LZ: To turn all of these ON, we need to go to the Sensitivity section of the Experiments Window. We are going to turn them on by setting them to 1. [What if not all set to 1? Multiplying by 1 is different then less than or greater than 1]
+LZ: Now M runs the model. 
+LZ: You can Compare Experiments or Compare Services, too, for the current run. Note that the Y axis is always changing. 
+LZ: [Shows how to set Dashboard graphs]
+JB: Note that you are not always seeing Zero on that access, either. 
+LZ: Right. 
+M: What can’t we see the WP lines for all the services?
+LZ: They are all on top of each other, and we can deselect some of these. See?
+M: Ok.
+LZ: Did a reset, and started to discuss experiment [No new text entered and saved to describe Run].
+LZ: We want to keep examining staff reductions in your team. 
+LZ: So, we are out of time. 
+
+
