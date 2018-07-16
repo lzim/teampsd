@@ -1,26 +1,23 @@
 ---
 title: "RVI Engagement"
 author: "Savet Hong"
-date: "July 11, 2018"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output: html_document
 
 ---
 
-## Psy Model {.tabset .tabset-fade .tabset-pills}
+## Psy Model 
 ```{r library, include=FALSE}
 
 library(readxl)
 library(tidyverse)
 library(plotly)
 
-# NOTE: tabsetting feature is part of new rmarkdown package, which is not on VA machine
-# Shiny appears to fail on VA machine. Is it permission issue?
-
 ```
 
 
 ```{r psy_datafiles, include=FALSE}
-vacolor <- c("#003F72", "#0083BE", "#C4262E", "#772432", "#598527", "#f3cf45","#f7955b","#839097", "#dcddde", "#cccc99", "#bec292")
+vacolor <- c("#003F72", "#0083BE","#598527")
 rvi <- read_excel("ModelParameters (2).xlsx", sheet = "PSYParams", col_names = FALSE, range = "A15:C32")
 
 # Expand Column A as vector
@@ -35,114 +32,78 @@ rvi_mod <- rvi %>%
          Type = ifelse(grepl("Freq", X__2), "Freq", "Time"),
          `Appointment Group` = sub("vis", "visit", `Appointment Group`),
          `Appointment Group` = sub("27", "2-7", `Appointment Group`),
-         `Flow Group2` = sub(".* Medium", '"..." Medium', X__2),
-         `Flow Group2` = sub(".* High", '"..." High', `Flow Group2`),
-         `Flow Group2` = sub(" Frequency", "", `Flow Group2`)) %>%
-  rename(`Flow Group` = X__2, rate = X__3) %>%
-  select(Type,`Appointment Group`, `Flow Group`,`Flow Group2`, rate)
+         `Flow Group` = sub("(.*) Low|Medium|High", "\\1", X__2),
+         `Flow Group` = sub(" Frequency", "", `Flow Group`),
+         `Flow Group` = sub(" Duration", "", `Flow Group`),
+         `Flow Group` = sub("(\\s)$", "", `Flow Group`),
+         percentile = sub(".* (Low|Medium|High) .*", '\\1', X__2)) %>%
+  rename( week = X__3) %>%
+  select(Type,`Flow Group`, percentile, week)
 
 eng <- rvi_mod %>%
   filter(Type == "Freq") %>%
-  mutate(`Flow Group` = gsub(" Frequency","", `Flow Group`),
-         `Appointment Group` = gsub(" freq", "", `Appointment Group`))
+  mutate(week = 1 / week,
+         week = replace(week, week==Inf, 0),
+         `Flow Group` = factor(`Flow Group`, levels = c("Starters Who Come Back Later",
+                                                        "Initiators Who Come Back Later",
+                                                        "Completers Who Return")),
+         percentile = factor(percentile, levels = c("Low", "Medium", "High")))
+  # mutate(`Flow Group` = gsub(" Frequency","", `Flow Group`),
+  #        `Appointment Group` = gsub(" freq", "", `Appointment Group`))
 
 rvi_only <- rvi_mod %>%
   filter(Type == "Time") %>%
-  mutate(`Flow Group` = gsub(" Duration","", `Flow Group`),
-         `Appointment Group` = gsub(" time", "", `Appointment Group`))
-
-group2 <- eng$`Flow Group2`
-group_lev1 <- eng$`Flow Group`
-group_lev2 <- rvi_only$`Flow Group`
-
-eng <- eng %>%
-  mutate(`Flow Group` = factor(`Flow Group`, levels = group_lev1))
-```
-
-
-```{r engage1, echo= FALSE, warning=FALSE, message=FALSE, include=FALSE}
-### Graph Option: Interactive {.hidden}
-  ## Need to figure out why plotly is not working
-
-p <- ggplot(eng, aes(`Appointment Group`, rate, fill = `Flow Group`)) +
-  geom_bar( position = "dodge",stat = "identity") +
-  scale_fill_manual(values = vacolor, name=element_blank()) +
-  labs(x = "", y= "Weeks in Care") +
-  theme_bw() +
-  theme(legend.position='none')
-
-ggplotly(p)
-```
-
-
-```{r engage2, echo= FALSE, warning=FALSE, message=FALSE, fig.align= "center", include=FALSE}
-### Graph Option: Appointment
-ggplot(eng, aes(`Appointment Group`, rate, fill = factor(`Flow Group`, levels = group_lev1))) +
-  geom_bar( position = "dodge",stat = "identity") +
-  scale_fill_manual(values = vacolor, name=element_blank()) +
-  labs(x = "", y= "Weeks in Care") +
-  theme_bw()
+  mutate(`Flow Group` = factor(`Flow Group`, levels = c("Starters Who Return Later",
+                                                        "Initiators Who Return Later",
+                                                        "Completers Who Return")),
+         percentile = factor(percentile, levels = c("Low", "Medium", "High")))
 
 ```
 
-### Engagement: Weeks in Care
 
-```{r engage3, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
 
-ggplot(eng, aes(factor(`Flow Group`, levels = group_lev1), rate, fill = `Appointment Group`)) +
-  geom_bar( stat = "identity") +
-  scale_x_discrete(labels = group2) +
+```{r single,echo= FALSE, warning=FALSE, message=FALSE, fig.align="center", include= FALSE}
+## Option 1: Side-by-side
+
+p1 <- ggplot(eng, aes(percentile, week, fill = percentile)) +
+  geom_bar( stat = "identity", width = 1) +
   scale_fill_manual(values = vacolor, name=element_blank(), guide = FALSE) +
-  labs(x = "", y= "") +
+  facet_wrap(~`Flow Group`, strip.position = "bottom", scales = "free_x") +
+  labs(x = "", y = "weeks", title = "Return Visit Interval", #subtitle = "(Weeks Between Visit)",
+       caption = "Low = 25%, Medium = 50%, High = 75%-tile") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, colour = rep(vacolor[1:3], each =3)), 
-        plot.margin = unit(c(1, 0, 0, 2), "cm"))
-  
+  theme(panel.spacing = unit(0, "lines"), 
+         strip.background = element_blank(),
+         strip.placement = "outside",
+        strip.text.x = element_text(size = 11),
+        axis.text.x = element_text( hjust = 1, colour = vacolor),
+        plot.title =  element_text(hjust = 0.5))
 
-```
-
-
-
-
-```{r duration1, echo= FALSE, warning=FALSE, message=FALSE, include= FALSE}
-### Graph Option: Interactive
-
-p <- ggplot(rvi_only, aes(`Appointment Group`, rate, fill = `Flow Group`)) +
-  geom_bar( position = "dodge",stat = "identity") +
-  scale_fill_manual(values = vacolor, name=element_blank()) +
-  labs(x = "", y= "Weeks in Care") +
-  theme_bw() +
-  theme(legend.position='none')
-
-ggplotly(p)
-```
-
-
-
-```{r duration2, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center", include=FALSE}
-###  Graph Option: Appointment
-ggplot(rvi_only, aes(`Appointment Group`, rate, fill = factor(`Flow Group`, 
-                                                  levels = group_lev2))) +
-  geom_bar( position = "dodge",stat = "identity") +
-  scale_fill_manual(values = vacolor, name=element_blank()) +
-  labs(x = "", y= "Weeks in Care") +
-  theme_bw()
-
-```
-
-### Duration: Weeks Between Visit
-
-```{r duration3, echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
-
-ggplot(rvi_only, aes(factor(`Flow Group`, levels = group_lev2), 
-                     rate, fill = `Appointment Group`)) +
-  geom_bar( stat = "identity") +
-  scale_x_discrete(labels = group2) +
+p2 <- ggplot(rvi_only, aes(percentile, week, fill = percentile)) +
+  geom_bar( stat = "identity", width = 1) +
   scale_fill_manual(values = vacolor, name=element_blank(), guide = FALSE) +
-  labs(x = "", y= "") +
+  facet_wrap(~`Flow Group`, strip.position = "bottom", scales = "free_x") +
+  labs(x = "", y= "weeks", title = "Duration of Engagement", subtitle = "(Weeks Between Visit)",
+       caption = "Low = 25%, Medium = 50%, High = 75%-tile") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, colour = rep(vacolor[1:3], each =3)), 
-        plot.margin = unit(c(1, 0, 0, 2), "cm"))
-  
+  theme(panel.spacing = unit(0, "lines"), 
+         strip.background = element_blank(),
+         strip.placement = "outside",
+        strip.text = element_text(size = 11),
+        axis.text.x = element_text( hjust = 1, colour = vacolor),
+        plot.title =  element_text(hjust = 0.5),
+        plot.subtitle =  element_text(hjust = 0.5))
 
+cowplot::plot_grid(p1, p2)
 ```
+
+
+
+```{r p1,echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
+p1
+```
+
+```{r p2,echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
+p2
+```
+
