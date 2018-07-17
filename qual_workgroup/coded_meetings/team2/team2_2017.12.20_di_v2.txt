@@ -1,0 +1,44 @@
+Team 2 12/20/2017
+Attendees: 22, 21, 21
+Facilitator: lz
+Coder: sp
+
+11:38a
+lz: We got some feedback yesterday at the process improvement group that data comes down and is disempowering.
+
+21: Not surprising.  Patient had suicide and they just make a new rule that disrupts the entire system.  They should ask for our input instead and empower us to come up with solutions.
+
+lz: It implies that people don’t’ have good intrinsic motivations and need some sort of external factor.
+
+21: Makes it seem as if our care isn’t good enough.
+
+lz: We’re trying to create a culture within teams of a climate of learning together.  It may clash with the larger culture.  Have you figured out a team learning goal yet?
+
+22: Haven’t landed on anything.  We had an informal conversation.  Still confused about purpose of learning goal or what to include?  Maybe, empowerment through exploration, engagement, growth through communication.  We want to generally feel more empowerment.  Today’s staff meeting was good example of how that is not enforced.
+
+11:46a
+lz: Have you picked a clinical case?
+
+22:  Had two that 22 proposed.  Decided on someone.
+
+lz: Sounds like you guys are doing well?  It works fine to do things between sessions.  Has anyone tried accessing the data?  
+
+All: No.  Didn’t have time; not because tool didn’t work.
+
+lz: Drives SharePoint and explains different parts – SplashPage, folder structure, et.c
+
+21: Clicked on the site and then didn’t know what to do next.  I don’t understand some of the variability month to month in the data.  Felt like the data was meaningless.
+
+lz: Variability is actually normal
+
+21: But look at that percent change…?
+11:54a
+lz: Explains what “health factors” means.  Looks like 21 has tried playing with the data.  Make sure to use the Excel workbook instead of the web app.  You can use filters to select specific grids.  Make sure to save the datasets.  Does someone to drive? (lz ends up driving).  Walk me through what to pick.
+
+**22 is under wrong last name – 22 not 22.
+
+11:59a
+21: This is for any period of time? 
+
+lz: It’s from the last grid you just closed starting from 2 years ago.  We are going to save this data set named with today’s date.  Pulling data takes time to load, so you can use this, unless you need the most recent encounter.
+
