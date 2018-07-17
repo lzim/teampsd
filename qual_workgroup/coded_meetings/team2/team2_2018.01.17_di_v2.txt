@@ -1,0 +1,40 @@
+Team 2 01/17/2018
+Attendees: 21, 22, 22, 21, 21
+Facilitator: lz
+Coder: sp
+
+11:36a
+lz: Who can recall the learning goal?
+
+21: Empowerment through exploration.
+
+lz: Yes, more or less.  Did you guys have case you want to look at?  We still have projector issues so do you mind clustering around the computer?  To recap, has anyone tried to access data since last time?
+
+All: No, too busy.
+
+lz: Okay, that’s fine.  Wanted to walk through any specific questions.
+
+21: Couldn’t figure out how to use filter.
+
+22: Here is the graph with general trends.  Below are the files. Anyone remember what first thing to do is?  Remember to edit in the workbook instead of the excel app.  Don’t need to save the file again if you’re not running a new query.
+
+21: Where does it save?
+
+lz: Automatically saves into the folder.  Keep in mind you can override that but make sure it has the same protections.  Reviews pivottable error and how to use filters/clear filters.
+
+21: So this is 2 years of data? What if I want something from October 1st?
+
+lz: It will always pull 2 years but you can filter by “date” in the data or also on the trend graph.
+
+21: Can I contact you or Stacey for questions?  I’m not good at tech.
+
+11:49a
+lz: Yes, definitely.  Either Skype message or “contact us” on HTML.  Everything coded under diagnosis will show up within the same visit.  As a reminder, we found it more useful to look at visits rather than diag history.  Something that can be interesting is tracing vet over time or different clinicians that one vet is seeing.
+
+22: My grids aren’t there.  I’ve seen vets as both 22 and 22.
+
+lz: What are limits of retrospective data?
+21: It’s as accurate as we put it in.
+
+12:00p
+lz: Right.  There are also limits of not showing cause/effect, future effects, etc.  Models will help you simulate decisions and allow experimenting with overbook, number of referrals, etc.  It will answer questions of things like how increasing RVI can make more appts open up, etc.  Different levers you can change to look at relationships.  For next time, get familiar with data so when we experiment with levers and make decisions you will know what we’re discussing.
