@@ -36,7 +36,8 @@ rvi_mod <- rvi %>%
          `Flow Group` = sub(" Frequency", "", `Flow Group`),
          `Flow Group` = sub(" Duration", "", `Flow Group`),
          `Flow Group` = sub("(\\s)$", "", `Flow Group`),
-         percentile = sub(".* (Low|Medium|High) .*", '\\1', X__2)) %>%
+         percentile = sub(".* (Low|Medium|High) .*", '\\1', X__2),
+         percentile = replace(percentile, percentile == "Medium", "Median")) %>%
   rename( week = X__3) %>%
   select(Type,`Flow Group`, percentile, week)
 
@@ -47,7 +48,7 @@ eng <- rvi_mod %>%
          `Flow Group` = factor(`Flow Group`, levels = c("Starters Who Come Back Later",
                                                         "Initiators Who Come Back Later",
                                                         "Completers Who Return")),
-         percentile = factor(percentile, levels = c("Low", "Medium", "High")))
+         percentile = factor(percentile, levels = c("Low", "Median", "High")))
   # mutate(`Flow Group` = gsub(" Frequency","", `Flow Group`),
   #        `Appointment Group` = gsub(" freq", "", `Appointment Group`))
 
@@ -56,7 +57,7 @@ rvi_only <- rvi_mod %>%
   mutate(`Flow Group` = factor(`Flow Group`, levels = c("Starters Who Return Later",
                                                         "Initiators Who Return Later",
                                                         "Completers Who Return")),
-         percentile = factor(percentile, levels = c("Low", "Medium", "High")))
+         percentile = factor(percentile, levels = c("Low", "Median", "High")))
 
 ```
 
@@ -69,8 +70,8 @@ p1 <- ggplot(eng, aes(percentile, week, fill = percentile)) +
   geom_bar( stat = "identity", width = 1) +
   scale_fill_manual(values = vacolor, name=element_blank(), guide = FALSE) +
   facet_wrap(~`Flow Group`, strip.position = "bottom", scales = "free_x") +
-  labs(x = "", y = "weeks", title = "Return Visit Interval", #subtitle = "(Weeks Between Visit)",
-       caption = "Low = 25%, Medium = 50%, High = 75%-tile") +
+  labs(x = "", y = "Weeks", title = "Return Visit Interval", #subtitle = "(Weeks Between Visit)",
+       caption = "Low = 25th %ile, Median = 50th %ile, High = 75th %ile") +
   theme_bw() +
   theme(panel.spacing = unit(0, "lines"), 
          strip.background = element_blank(),
@@ -83,8 +84,8 @@ p2 <- ggplot(rvi_only, aes(percentile, week, fill = percentile)) +
   geom_bar( stat = "identity", width = 1) +
   scale_fill_manual(values = vacolor, name=element_blank(), guide = FALSE) +
   facet_wrap(~`Flow Group`, strip.position = "bottom", scales = "free_x") +
-  labs(x = "", y= "weeks", title = "Duration of Engagement", subtitle = "(Weeks Between Visit)",
-       caption = "Low = 25%, Medium = 50%, High = 75%-tile") +
+  labs(x = "", y= "Weeks", title = "Duration of Engagement", subtitle = "(Weeks Between Visit)",
+       caption = "Low = 25th %ile, Median = 50th %ile, High = 75th %ile") +
   theme_bw() +
   theme(panel.spacing = unit(0, "lines"), 
          strip.background = element_blank(),
