@@ -1,8 +1,8 @@
 
 
-Modeling to Learn Session 3 – Care Coordination Simulation (TOTAL 30 min)
+Modeling to Learn Session 3 â€“ Care Coordination Simulation (TOTAL 30 min)
 Team and Date: __Team 2 3/7/2018________________________________________________________
-Time Spent: __11:30a – 12:05p_______________________________________________________
+Time Spent: __11:30a â€“ 12:05p_______________________________________________________
 Attendees: _23tlead, 22, 22, 21, 21, 21________________________________________
 Facilitator: _______________________________________________________________________
 Review
@@ -42,7 +42,7 @@ CPT codes
 
 
 Discuss patients and appointments as stocks with limited supply
-Ex. physics – conservation of matter
+Ex. physics â€“ conservation of matter
 
 
 Discuss flows of patients/week and appointments/week
@@ -144,7 +144,7 @@ Goes up
 
 Level 1
 21
-It depends on the drop out rate.  The starting rate could be the same if the dropout rate doesn’t change.
+It depends on the drop out rate.  The starting rate could be the same if the dropout rate doesnâ€™t change.
 
 Level 2
 
@@ -159,20 +159,20 @@ Time
 
 
 lz
-As starting rate increases, the booking rate also increases. As starting rate goes down, the booking rate also goes down. Remember, the +/- don’t mean positive negative, but directions of change. Median engagement time and ending rate move in opposite directions.
+As starting rate increases, the booking rate also increases. As starting rate goes down, the booking rate also goes down. Remember, the +/- donâ€™t mean positive negative, but directions of change. Median engagement time and ending rate move in opposite directions.
 
 
 
-If you don’t have unlimited time, there are only so many things you can do to increase slots
+If you donâ€™t have unlimited time, there are only so many things you can do to increase slots
 
 
 11:45a 
 21
-I don’t know the criteria of ending the relationship other than they don’t want to do it. If there could be some sort of policy of when to end CC, that could be really helpful.
+I donâ€™t know the criteria of ending the relationship other than they donâ€™t want to do it. If there could be some sort of policy of when to end CC, that could be really helpful.
 
 
 lz
-You can increase supply with additional staff, different allocation of appts (group vs. individual), etc., but generally there’s a limit to appt supply. Let’s think about a range of RVI intervals we would like to try to manipulate that.
+You can increase supply with additional staff, different allocation of appts (group vs. individual), etc., but generally thereâ€™s a limit to appt supply. Letâ€™s think about a range of RVI intervals we would like to try to manipulate that.
 
 
 21
@@ -186,7 +186,7 @@ You can increase supply with additional staff, different allocation of appts (gr
 
 lz
 
-As I’m increasing and decreasing the RVI, what do people notice? 
+As Iâ€™m increasing and decreasing the RVI, what do people notice? 
 
 
 11:50a
@@ -201,7 +201,7 @@ Uses different RVI to look at how appt supply changes
 
 11:55a
 lz
-What other things could you think about changing besides RVI? There’s also the information that 21 mentioned about when to step down pts from care. We haven’t also experienced with larger changes – i.e. if RVI was 5 months.  You can also think about if there’s some pts that could go on a tx holiday…
+What other things could you think about changing besides RVI? Thereâ€™s also the information that 21 mentioned about when to step down pts from care. We havenâ€™t also experienced with larger changes â€“ i.e. if RVI was 5 months.  You can also think about if thereâ€™s some pts that could go on a tx holidayâ€¦
 
 
 11:58a
@@ -214,23 +214,23 @@ It was much easier to follow this on my own computer than in the conference room
 
 
 All
-Yes, that’s true for us too.
+Yes, thatâ€™s true for us too.
 
 
 12:00p lz
-What we want to do moving forward is look at team specific variables – i.e. no show rate, overbooking, changes to referrals to team, wait time etc.  We want to look at how these changes impact CC so we can apply them to the future models
+What we want to do moving forward is look at team specific variables â€“ i.e. no show rate, overbooking, changes to referrals to team, wait time etc.  We want to look at how these changes impact CC so we can apply them to the future models
 
 
 21
-You were talking about changing the visit rate, but our pts aren’t homogeneous.  Some pts need 6 months and some need 3 weeks. It’s hard to generalize across pts on what to do with our time.
+You were talking about changing the visit rate, but our pts arenâ€™t homogeneous.  Some pts need 6 months and some need 3 weeks. Itâ€™s hard to generalize across pts on what to do with our time.
 I.F.
 
 lz
-Yes, this is true.  We’re never trying to replace the wisdom of clinical-based decisions but more want this to help people in framing.
+Yes, this is true.  Weâ€™re never trying to replace the wisdom of clinical-based decisions but more want this to help people in framing.
 
 
 
-Were any of the following adaptations made to today’s session? Please check all that apply and describe as necessary:
+Were any of the following adaptations made to todayâ€™s session? Please check all that apply and describe as necessary:
 Lengthening/extending session time
 
 Shortening/condensing session time
