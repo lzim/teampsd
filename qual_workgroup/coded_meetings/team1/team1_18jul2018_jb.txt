@@ -1,0 +1,47 @@
+team1_18jul2018_jb
+:05 I join. LZ is working on getting everyone into mtl/live and sim. One person tried to download Chrome but VA won’t allow it. Person isn’t having luck getting into sim – it’s just trying to load.
+:10 LZ reads list of who’s showing up on mtl/live and intro’s TeamPSD folks.
+:12 LZ: we’ve loaded new data. I’m going to select this fresh data. Describes warning about stopping previous game. Reminder: when we are learning together in the PCT World,… but people are getting their sea legs under them with the sim and you can log in to an individual world. Reminds which login to use; asks if everybody gets that. Then rephrases as a question: What login do you use for team?
+Team: VA email. Individual: VHA username. Same password.
+Person
+For both the password is pct12345 all lower case.
+:16 LZ: Stacey’s been working on a cheat sheet. Hopefully increasingly clear.
+Here’s where we are in the sim: team, data, … 
+:17 LZ: What we want to do today ; Last time we spent some time getting to know this data table. We started to say we have about 60 pts … Thinking about exploring how many pts move on from 1st visit to get 2 or more, how many … And then we can look at what happens after that first 3 months.
+We also know a basic feedback in system dynamics and it’s intuitively completely clear to clinicians is you cannot start new patients until you have appointments available. So you’re trying to balance
+Supply of appts for psych and it’s red, over here. On a typical week over the last 2 years there’s been x slots for psych. If you’re wondering where the data comes from… two I’s
+:20 appt supply here in diagram, makes sense it’s split up into 2 things – appts used to start new patients, and ones for seeing existing patients. You may have questions about how you divvy up your appt supply, or how you manage your grid, and how that relates all the way down here following this long arrow to the rate at which patients are starting psych.
+If you’re experimenting with red vbls then you’re experimenting up or down from your own data.
+Mtl.how/data 
+Notice there was a giant spike in CPT templates in March. Anybody have any idea what’s driving that spike? Answer: one is because the roll-out was happening in March. A bunch of people were learning the CPT. It is specific to the PCT – LZ: shows how clinic selection was specified. So this shouldn’t be accounting for people who … [I can’t understand these things fast enough to capture]
+:30 while it’s intuitively clear that you can’t start a patient until you have slots available, it’s not intuitive how that works in the aggregate or over time (or did she say in response to different variables/decisions?)
+Anybody willing to read the question?
+Long pause, tmember reads. I know It’s awkward you guys are not collocated, who to speak up, like a game of chicken.
+Now Hypothesis. tmember reads.
+As you can see we didn’t enter any findings the last time and all values were at the base case. With that in mind, let me close that question, and we’ll explore with TR. TR, we should run a new base case, right? Yes. 
+Smooth change of drivers”.
+TR: we’ve done a lot of work in the last month on getting an accurate data read. So we should definitely run a new baseline. Shows how to do that from the main or EO page. Even though it’s the base case where we’re assuming that nothing will change out into the future, because here (experiments tile), we’re not saying “what if” any of those things. But we can still learn something from running a base case. Some of them could be e.g., what are your guesses about your patient panel – where are they, in their care sequence – 1st visit? 2nd-7th in 1st 3 months? Longer? What do you think? Is it 50-50? What does your experience tell you?
+tmember asks TR could you repeat that question. 
+TR: Of course. We’re keeping track separately in this model of when pts are getting their visits. Are they getting them within the 1st 3 months of starting psychotherapy. Doesn’t include intake. Just 1st psych visit and others, because that’s the same starting point that SAIL uses and other measures.
+tmember: I would say about 80% of pts are in their first 3 months. TR: so most of your patients are new? Clarifies. She didn’t understand. Another tmember – a lot of our therapy claims are > 3 months – maybe 65%.
+tmember: Q – are there 2 questions, how fast are they starting and how long are they staying? TR: I was not asking how long it takes for them to start. She says ok so I would agree many are in longer. But it also depends how many drop out. Some drop out, others come and stay all the way through. TR: good point and the model does (save so we don’t lose text). LZ: rec’s naming bc_date of dataset.
+LZ: comment that if you were trying to look at the intake into psych and the overall mix psych, alternative, etc. then that’s something you can do in the agg model. Not that those can’t be asked, it’s that we’re zooming in to a finer level of detail in psych module now based on your needs assessment.
+TR: from each of our states, you’ve started, had 1 visit – what do you do? Continue, leave, or come back but not within our 3month window. Then a similar set for after they finish their 7th visit. Do they…?
+:45 LZ: all right tom the suspense is killing  us! TR: ok hitting green running person. Shows outputs. Let’s look at the supply used by new patients. Measured in appts per week which is same as patients per week. Distribution of patients what we really cared about.
+LZ: jumps in before TR shows Sankey. We spent a lot of time trying to get the best team data we could. You’re seeing the current run is in black. The red is the base case we ran a month ago. Shows that y axis is dynamic and numbers here are very close. Participant offers calculation using numbers in charts to calculate percent. LZ:  model will do math for you but you’re exactly right, you can do that. Slight note is that’s appointments, not your overall patient panel.
+TR: shows Sankey. Walks through the left diagram – cohorts.
+:53 LZ: shows this is showing “what is” , those others could show “what ifs”.
+Tom: here’s a way to look at what I was asking you – what proportion. 
+LZ: link back to tmember’s comment. Notice that the return bar on the left is mapped in the appt usage on the right. Those boxes show the total area – you guys are using a lot more of your appt supply for pts beyond 3 months. Asks folks if they get it.
+tmember: can you keep hovering so I can see the numbers?
+1 visit: x
+Q can we click on that to see what clinic they’re coming from? LZ: You’d have to explore that in the data UI tool. Either in the Encounters tab, by provider, clinic, etc. No, right now you can’t click on that bar in the Sankey and say.
+I was wondering if the x referrals were taking longer because they don’t’ have someplace else to go to.
+TR: so for these 103 pts, who are they, where they come from? Great question. Explains how the 2 tools are divided as they are because of in/out firewall.
+LZ: it’s a great question. It would be great if the team wanted to do a spot-check and see more nuanced questions. 
+Participant: The psych you’re following in the first 3 months is just psych by encounter, not EBP? LZ: right, see “I” and you can explore using the green slider. I can say there are more templates in this team than there are psych encounters. Go to mtl.how/data, explore that exact question, where EBP in encounter tab…
+So participant says I would say that 25 weeks in psych is typical with us if not just EBP. LZ: right but it’s a proportion. 103 of 371 pts who start. About 25% are engaged that long and 75% for 16 visits or less.
+Team is doing a great job at getting people through into psych and not dropping out.
+:05 LZ: Aug 1st our next meeting in 2 weeks.
+We will not make a habit of going over. Well try to get you comfortable doing this yourselves and then not come to your team.
+
