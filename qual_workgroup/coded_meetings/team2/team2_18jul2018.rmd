@@ -1,0 +1,81 @@
+Team 2
+18 July 2018
+
+Notes by LZ
+
+Live Co-Facilitator - TR
+Pre/Post co-facilitator - LZ
+SP as support
+
+Team Lead - Psy*
+BW - MD
+LW - MD
+NY - MD
+
+*Maybe have a new psychologist in September
+8:30AM - Intros and Logins
+
+*No tech fails - they had to install a Adobe Connect plug-in
+*Team lead had seen LZ use Adobe Connect - Good idea to have a Team Lead pre-prep/demonstration on how to "drive" with Sim and Adobe Connect.
+*Co-facilitator model is good, TR had a tech delay so LZ stepped in to lead at first until everyone was logged in.
+*The team did not log-in from individual machines, but did it together in the conference room.
+
+TR Takes over 8:40 AM
+1. Confirm Team, Aggregate Module, Most recent data
+2. Since you uploaded fresh data, you'll want to 
+3. Basecase the baseline to compare all our experiments to.
+4. Can see all the values we're pulling in from your data.
+5. You can see all of the sliders where you can experiment away from your data all at the basecase right now.
+6. In the Experiment Timeline in the Main tile, then you can reveal the complexity of the model.
+7. Initially you're just seeing how patients move and the appointment flow.
+8. As you reveal complexity, you can see how the model takes into account interdependencies in the clinic or team.
+9. Important to the team over time, and may become important as we experiement.
+10. All of the sliders - 
+red - from team data
+green - experiement
+purple - don't know the magnitude of the effect, the effect size
+As an example, on the effect of fatigue on engagement time, more likely to end their time early. Strong effect, weak effect or no effect.
+11. Things that you know matter, but you don't have hard data on. For example, you've been overworking, then you're glad that you have a no show, that may be the kind of thing TR was just talking about. 
+12. Select mode in the Experiment Tile, you can see it in the model diagram, so you can see where it fits in.
+
+8:50
+13. For every patient that you do an intake or review, what % of these patients start a new service
+- One baseline value comes from your team data for where patients go in the team after a review or intake. Based on reality of the team's patients characteristics.
+- The green one is based on your supply, if you have a set appointment supply, then the % is based on how many patients the team can handle. 
+14. Problem of working with prototype, wired backwards (fixed by tomorrow),
+- The "bc" we just ran -
+15. Go to the Outputs tile, so these are bc values
+16. You can select another variable
+17. Work pressure, the number of appointments on the books, appointment supply, and the < 1 have more hours than you need to do all the appointments, if it's > 1 you have more pressure.
+18. Return visit interval - how often you're patients are coming back in weeks. All from your team data.
+19. How many hours you have available for these services in a typical week.
+20. Patients waiting to start - a flat line, the basecase we've just run assumes no changes, the number of patients is likely to be the same over two years as today.
+21. Psy* - presumably if our slots are full...
+22. TR - here it just means, you're always creating as many referrals as you have capacity to start MM - it's not the same six patients, in any given week it's about six patients waiting to start this service. If this number was going up you'd be getting more referrals than you can start.
+23. MD - This is based on assumptions - this is a way to look at the future data and see what happens.
+24. We want to start in a simplified place. Then all the assumptions are changeable so you can see the relative impact of all of any change.
+25. Psy* - Losing a psychologist and social worker, who do psychotherapy and CC (support from MD in comments).
+26. TR - So you can change the sliders away from the basecase. 
+27. Up top it says 7.5 hours, so it's set at BC, so it's using the numbers from the table.
+28. You can use the arrow keys to make fine adjustments, or you can use your mouse. 
+29. Psy* - Arrow keys not working.
+30. Psy* - we all have patients right now.
+Stopped at 9:01
+
+Post-Debriefing
+FIDELITY NOTES:
+1. Did not review expanded outputs and pull up their last question/session. Did not move them forward with their question.
+2. Did not save the base case we ran.
+3. Going to discard that because UI is "wired" backward.
+4. Did not facilitate them to a all team data on base case (see note about UI being wrong).
+
+Possibilities for improvement:
+1. Toggling between MM, could have pulled up Psy service they're worried in their question - since we were focused on the patients waiting to start variable.
+2. Go back to the diagram show how patients waiting start is connected to appointments and appointment supply.
+UI Fix:
+1. SP emailing team about the arrow key intermittant functioning
+
+Co-facilitation was key to get through the delays/tech issues.
+1. TR mentioned that it was hard time to track what they had done before (this particular team) and manage time accordingly.
+2. LZ proposes 6PM Eastern 2nd and 4th week of the month. TR may try to join. In general, facilitators would need some sort of team lead back-channel prep time.
+3. Time management during session and review the diagram was in anticipating of linking structure to behavior in the outputs, but UI fail prevented this.
