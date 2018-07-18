@@ -1,12 +1,19 @@
 team1_18jul2018_jb
 :05 I join. LZ is working on getting everyone into mtl/live and sim. One person tried to download Chrome but VA won’t allow it. Person isn’t having luck getting into sim – it’s just trying to load.
+
 :10 LZ reads list of who’s showing up on mtl/live and intro’s TeamPSD folks.
+
 :12 LZ: we’ve loaded new data. I’m going to select this fresh data. Describes warning about stopping previous game. Reminder: when we are learning together in the PCT World,… but people are getting their sea legs under them with the sim and you can log in to an individual world. Reminds which login to use; asks if everybody gets that. Then rephrases as a question: What login do you use for team?
+
 Team: VA email. Individual: VHA username. Same password.
+
 Person
+
 For both the password is pct12345 all lower case.
+
 :16 LZ: Stacey’s been working on a cheat sheet. Hopefully increasingly clear.
 Here’s where we are in the sim: team, data, … 
+
 :17 LZ: What we want to do today ; Last time we spent some time getting to know this data table. We started to say we have about 60 pts … Thinking about exploring how many pts move on from 1st visit to get 2 or more, how many … And then we can look at what happens after that first 3 months.
 We also know a basic feedback in system dynamics and it’s intuitively completely clear to clinicians is you cannot start new patients until you have appointments available. So you’re trying to balance
 Supply of appts for psych and it’s red, over here. On a typical week over the last 2 years there’s been x slots for psych. If you’re wondering where the data comes from… two I’s
