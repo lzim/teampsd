@@ -1,0 +1,70 @@
+Team 1
+July 18, 2018
+
+Co-Facilitators
+LZ
+TR
+SP support
+JB notes
+
+10-10:15 getting the full team in and introduced
+
+10:15 to 10:30 data UI to sim
+Model Diagram, etc.
+
+LZ 30 minutes
+
+TR what if we made some changes in the clinic set at the values we estimated for your team, no experiments.
+
+TR we can still learn something from running a base case.
+
+TR What do you think the proportion in less than 3 months and longer 3 months?
+
+Psy: 
+Can you repeat that question?
+
+TR We're keeping track of engagement within the first 12 weeks of their individual psychotherapy with PCT. 
+
+TR Intakes 
+
+Team lead (SW): 80% engaged in psychotherapy in first three months. 20% of patients have been with you more than 3 months.
+Psy
+: Probably a lot of our therapy clients are in the > 3 months category. Guess 65%, but I'm not sure.
+
+TR: We don't get to think in this aggregate whole patient panel 
+
+SW: How quickly are people starting? How long are they staying once they start? How long are people in psychotherapy from the time they start?
+
+TR: Not the where are they now question
+
+SW: Staying with us longer than 3 months. How are we counting how people are dropping out? Sometimes its seasonal.
+
+LZ: Zoomed in on individual psychotherapy. But, the aggregate module looks at intakes to a mix of services including group, adjunctive services, etc. 
+
+TR: Links to drop-out - the model diagram.
+
+LZ: The suspense is killing us. Running it.
+
+Psy: So about 65% add together, 1 visit, 2-7 visits and 3 or more.
+
+LZ: In the outputs you did a back of the envelope, exactly right. Proportion of appointments you used for these patients.
+
+Psy: 65% of appointments are for patients in care > 3 months.
+
+TR: You don't have to do the math, there's a graph that shows it.
+
+LZ: Basecase stable, so you can look at experiments and see the impact of a specific change. These show "what is" whereas the experiments, would show "what if."
+
+TR: Can go back to the data UI to see how these graphs relate to the clinics and visits in the data UI.
+
+Psy: Can we look to see where these patients are coming from?
+
+LZ: 
+
+Psy: Monterey referrals take longer, where are they are coming from, they have no where else to go.
+
+SW: The psychotherapy you're looking at is not just EBPsy
+
+LZ: Go back to the data UI to see the CPT codes in the encounter tab and to see the EBP templates in the "HF" or health factor tab.
+
+LZ: You can drill down to review specific components of the data UI to build complementary insights from the sim UI.
