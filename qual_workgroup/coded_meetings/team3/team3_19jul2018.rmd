@@ -1,0 +1,114 @@
+Team 3
+19 July 2018
+
+Co-Facilitators
+Live: TR
+Pre/post: LZ
+Support: DL & JB
+
+LZ Notes
+
+8:21 - LZ sent a Skype to Team Lead saying:
+
+"Hi tlead, just wanted to make sure the team is getting in mtl.how/live (Adobe) and VANTS: 1-800-767-1750 Code: 27379"
+tlead: "We're having some computer difficulties."
+
+
+
+Attendees:
+tlead: loading the mtl.live page
+Psy 
+Tech
+
+Agenda for Today - Started 8:26AM
+1. Schedule we have to break at 8:45AM
+2. Goals for today
+3. Show you the new data
+4. Run the basecase to 
+5. Question you posed last time. 
+Hopefully we can break it down into components.
+
+LZ:
+- fresh pull on at mtl.how/data - data UI and model parameters
+- TR showed it
+
+TR: 
+- questions about the sim UI
+
+
+tlead: seems pretty familiar everyone recognizes this we've opened it the last 
+
+Appointment supply - allocated to these different services
+
+Psy: Remind us again about the distinction between Psy and EBPsy
+
+LZ: Psy is CPT code encounters - EBPsy is templates
+
+Psy: Think it might be okay - may be consistent
+tlead: Still low from 3 clinics that are 4 hours each - 10 hours with phone appointments 
+
+LZ: Note that the charted phone work falls under adjunctive services
+Open the data UI in Excel - "NO INFORMATION IN THE DATA tab" I'll ask Andrew about that.
+- Check the DataDiag tab to see the information about CPT coded encounters
+- See the vizHF; vizEnc
+
+**NOTE All facilitators should have  
+
+TR: Work pressure # of appointments you have on the books/patients you can realistically see given the number > 1 greater demand than you 
+
+TR: The model assumes initially that nothing is changing; patient characteristics, no one is joining/leaving the team; no increase in referrals.
+
+LZ: So in relation to your question, the reason you have a basecase is so you can isolate and examine the individual impacts of 
+
+tlead: That's good because we had question
+
+TR: Pulled up their question and read it.
+
+LZ: You can copy it to the question, workshop it from there, tweak the hypothesis.
+
+TR: Added "additional referrals (more inappropriate); losing staff. Which of these would you like to examine first?
+
+tlead: I'm going to be on leave for four months - how they can be diverted to other clinics. There won't be any med management. 
+
+tlead: That would be wonderful.
+
+TR: Sounds like you have a plan to divert. SW has been on leave since May and will be back mid to late August.
+
+tlead: We have to refer out patients to Choice, 
+
+TR: Have the Psy providers been working overtime, taking on more referrals, give them the option to stay in the VA system, SW trained in a special psychotherapy, could wait.
+
+LZ:
+Do this on your own, adjust the sliders to account for the reduction you anticipate. Ping us if you have quesitons. Or, we can pick up with this at the next team meeting.
+
+TR: Okay, I'm going to save this.
+
+Post debrief: 
+
+TR: Never enough time.
+
+LZ: Need to move them more quickly - better time management in relation to the script we prepped with our target dynamic hypothesis
+- Diagram to behavior in relation to their question - show them how to do it.
+
+TR: Start from a position - ask questions?
+
+LZ: Yes, but these questions need to teach them how to use these tools, and we need to dynamically adjust our time management to fulfill the priorities we outlined for the session during our facilitation prep.
+
+In the MTL Facilitate Lucid Meeting for Telehealth we identified these goals for today:
+
+Experiment 1: since there's less staff in rest of healthcare system, adjust slider for intake evaluation rate and expect more pts waiting for intake evaluation, which would affect intake evaluation wait time
+
+Experiment 2: as appt supply goes down, affects intake completion rt
+
+Experiment 3: as reduction in supply happens, it will reduce appropriate patient start rate for supply which reduces service start rate
+
+We outlined a plan to start with this agenda - but we did not follow it - 
+1. Pulling up their question from the last time.
+2. Teaching them to run a new base case because there's fresh data.
+3. Then walking through the concrete steps of drafting a dynamic hypothesis related to downstream effects of appointment supply reduction OR the balancing feedback of the referral increase from elsewhere in the HCS.
+
+Note on co-faciltiator role:
+To maximize use of time, co-facilitate should add to conversation when 
+1. He/she can provide a more concrete clinical example.
+2. To directly answer a team question
+3. To link the material more directly back to the team question.
