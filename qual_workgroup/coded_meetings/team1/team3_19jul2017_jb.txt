@@ -1,0 +1,39 @@
+team3_19jul2017_jb
+11:26 team is in from conference room
+TR: Confirmed ending time. Ran through objectives for session. Complicated question; breaking it down into parts.
+Opened SimUI – not joining existing game because have new data set.
+TR: Look familiar?
+Tmember: Yes.
+Tmember: How does it differentiate psych from EBP psych.
+A: In data table, 2-year estimate; below, slider. When we did the data pull, looked like 4 completed EBP templates per week, and 15 psych appts completed that weren’t associated with a template.
+Tmember: Numbers look about right.
+Other Tmember: Low for my grids.
+LZ: Reminder of meaning of the 2 “I” buttons. Shows data notes in data UI. Also shows more you can see in the data file.
+11:35 TR: So, to run a base case is pretty straightforward. Sensitivities in middle range; others in base value. Run. Is there a particular service you’d like to look at first?
+Tmember: Psy?
+TR: This selection follows you when you go over to Expanded Outputs. Shows the charts that are up. Defines some of the variables, eg Work Pressure.
+[I can see Attendees/Chat panel in lower right.]
+TR: Anything jump out at you on these, why something’s flat, why not flat?
+No response. LZ: Why don’t we explain some things if there’s not a question.
+TR: Sure. Explains base case assumes no changes. 
+LZ: This allows us to remove the noise so we can isolate and understand the impact of 
+Tmember: And that’s good because that’s exactly what we were looking for.
+11:40 TR: Should we jump into describing that experiment, since we only have about 5 minutes left?
+Tmember: Yes that would be wonderful!
+TR: This is what we had from last time. Reads question.
+Tmember: Because no place to put patients.
+LZ: You can cvopy that question in so we can workshop it. 
+TR: Which of those do you want to investigate first? You can put them together but we find it helps to 
+Tmember: Losing staff. Would be MM.
+TR: What will happen with the hours?
+Tmember: Will be about 4 months. My appts we just want to see how they can be diverted to other clinics. There won’t be any MM slots.
+TR: You’re not worried about how this affects your team?
+Tmember: I’m the only one who does MM, so other doctors will have to do it.
+TR: So it sounds like you have a plan. What about the other providers getting more referrals?
+Tmember: Psych out since May to August. That’s affected the psych providers.
+Tmember: We’ve held referrals, more to other clinics, more for ours, choice out to community. 
+TR: Are the providers there working overtime? How are they meeting that demand.
+Tmember: They’re taking on more referrals than they would. More sending out, etc. “Holding” means people that prefer to wait for therapist to return vs go to Choice. We let them decide.
+LZ: Need to wrap up. Would the team want to adjust some sliders to test this experiment? You’d have to decide how much to move to reflect the change. You can do this or we can pick up at the next meeting.
+11:48: TR: Saving and we’ll have this for next time.
+
