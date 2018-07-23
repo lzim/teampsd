@@ -1,0 +1,50 @@
+Team 4
+July 20, 2018; 8:15am scheduled start time
+Lead Co-Facilitator: LZ
+Co-Facilitator: JB
+Team members: 
+ZL (psychiatry) present
+MF (psychiatry) 
+NM (psychiatry) LEAD present
+RG (nursing) present
+SW (social work)
+D present
+NOTES:
+LZ: D, you do not have a log in yet, do you?
+LZ: Who wants to drive? NM is lead, would you like to drive?
+LZ: What is impacted in our model by a reduction in staff?
+MM: Appointments!
+LZ: Correct.
+LZ: Is everyone logged in. Go to mlt.how. Click here to go to live. 
+JB: Lindsey, do you want to share? 
+LZ: Yes,  thanks.
+LZ: [talks through the stock and flow reveals] How does return to clinic impact appointments? 
+RG: [could not hear her]
+RG: I was concerned about how reduction would impact our patient load. But since then, many patients have been offered community choice and they are choosing it, so they are self-referring out of the team.
+LZ: [focus on appointment supply; talks through loops that connect appoint supply]
+ZL and NM: Still having an initial visit, though, so it uses up appoint slots ….
+LZ: [talks through ‘Our Hypothesis’ text]
+ZL: We are now getting more intakes and less no shows. That’s my experience now. 
+LZ: Ok, so there is a rate of referral and completion for the team. [Refers to the Experiments data parameters table]. You are doing 16 of these per week. Phone work is adjunctive. No show rate is constant across services. Your engagement is about 12 months, one year. The bulk of the pts you are seeing are receiving MM, followed by Adjucnt (phone). 
+LZ: to test hypothesis about reduction in supply of appointments, what does that look like? We need to look at the rate at which they are coming in vs. completing.
+NM: We have our lens on our own services, but not across the full team. 
+LZ: Right. What would you then say we should change, for our experiment?
+ZL: [could not hear] 
+LZ: If 8 per week is typical, what to reduce it to?
+NM:  4 per week? 
+LZ: What about pts per week reviewed? 16 currently
+RG: I do 4 per week. D does xx per week. 
+LZ: Among RG, S and D, you do about 9 reviews/intakes, per week. Let’s make that change here. 
+NM: Did you put the 4 in there?
+LZ: I need to do a reset, first.  Test how supply affects appts. Reviews 16 down to 9 and psy 8 to just 4 ??
+LZ: Let’s look at service mix proportion now. 
+LZ: Blue does MM and adjunctive, and CC. See where these proportions are?
+NM: Keep team data proportions. 
+LZ: you can look at services in detail, by clicking here. [reference to model and numbers on stocks and flows]
+LZ: I am going to choose PSY. 
+LZ: We are back to our Question and Expanded output window: [types Q and H]
+LZ: Great this is saved and we run it. 
+LZ: Comparing the results, we see that patients waiting for intake and in PSY, it did not seem to change much with these reductions in Appt Supply. Can anyone explain that?
+NM: I am surprised. I thought we would see a change.
+LZ: But you need to change the proportion and the supply together! This is the punch line. 
+[end of session]  
