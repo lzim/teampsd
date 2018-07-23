@@ -1,0 +1,63 @@
+Team 3
+July 19, 2018; 8:15am scheduled start time
+Lead Co-Facilitator: TR
+Co-Facilitator: LZ
+Team members: 
+AM (Psychiatry) Not present
+FT (Psychiatry) Not present
+KW (Social Work) Not present (on leave)
+JC (Psychology)  Present 
+RV (Other tele mental) Present 
+
+NOTES:
+LZ, TR, DL and JB all on Vants as of 8:15am. 
+Telehealth team members not calling in. 
+LZ and TR confirmed that e-mail was sent to team
+@8:23am
+JC: [Joined VANTS. They were having some computer problems. They are loading the MTL Live page. The computers are slowed down somehow, today.] 
+LZ: [Confirmed that her computer was slow to boot, too.]
+RV: [Also present now]
+JC: [Reported that they are in as of 8:15am.] 
+TR: We have until about 8:45am, correct? 
+TR: Let’s review our goals for the day. We want to show you the new data, run a new baseline (basecase), start to address your question, and try to break it down into workable hypotheses for your team.
+LZ: You can log into the DUI to see the data at any time. 
+TR: In the DUI, in your team data folder, you can see the new Excel file. 
+TR: So here is the Model in the Sim UI. 
+TR: Does this look familiar?
+JC: Yes, all is good.
+TR: Reviews Experiments panel to review team data. 
+JC: Can you explain the difference between Psy and EBPsy?
+TR: LZ, can you address this question?
+LZ: Yes, it looks like 4 EBPsy templates are completed per week, compared to15 Psy (non EB templates) completed per week.
+JC: Okay, that looks about right. 
+LZ: What about other service data?
+JC: Maybe some of this is bit low. [coder not sure what service JC was referring to].
+LZ: [went over the parameters table and the DUI] [to see how data is being ‘binned’, and see the graphic displays, to assess trends over time] Data tool should be picking this up for you. We will leave this to you to review later.
+TR: Let’s run a new basecase. [Reviews to make sure settings are correct – this was fast]
+TR: [Runs a new basecase]
+JC: What are these numbers in the stock and flow? 
+TR: [Walks through this quickly, and shifts to expanded output window.]
+TR: Are there initial questions?
+LZ: If no questions, then let’s review the output for the some of the graphs.
+TR: Sure, let’s look at baserun.
+LZ: A basecase is a way to look at the effect if specific changes that you want to run. 
+TR: Let’s look at one of your questions from last time. 
+5 min warning
+JC: Yes, that would be great! 
+TR: If we look at the question, it means that you are loosing staff and concerned about referrrals.
+JC: Yes, we are concerned about referrals and about getting appropriate referrals. 
+LZ: Yes, let’s look at the Question box, and workshop it.
+JC: Let’s look at these parts step by step
+TR: What will happen to hours?
+JC: Hours for MM will drop, because of my situation. I do MM only, so I am interested in what that would mean for the team. 
+TR: Ok. So it sounds like you have a plan for this. 
+TR: What about PSY? 
+JC: KW is on leave through August, so that means that we have had to triage referrals to other teams and to some team members, here. Our team members are taking on more referrals that normal, so they are working more. We are also referring out to Community Choice.
+JC: Patients have the option of using CC or of staying with us. 
+TR: Ok. I see. 
+LZ: So, we need to wrap up. Should we explore how much of a reduction of service you want to simulate. 
+LZ: We can pick up with this at the next team meeting. 
+TR: Okay. Thanks so much. 
+JC: Thanks. Okay bye.
+
+
