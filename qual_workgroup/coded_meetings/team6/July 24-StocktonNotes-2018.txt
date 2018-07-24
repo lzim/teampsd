@@ -1,0 +1,50 @@
+July 24, 2018 – 9:00 am
+
+Stockton – Action:  To run an experiment next time in the aggregate module that will include changes to both supply of appts AND referral % of patients/week to see desired impact
+
+Attendees -- Team Leads + 4 team members
+
+LZ – reviewed how to get to mtl.how/data; noted new file had been pre-loaded; it will feed the team data file on the user interface
+
+* Clicked on file with “data UI” in the name – 
+* LZ asked does anybody remember what UI stands for?  Two people responded “I don’t”
+* LZ shared answer “User Interface”
+
+
+ACTION:  send out “how to” sheet to the team to save on their desktop
+ACTION:  establish login for A__m who recently joined the team
+
+LZ explained that there are two data tools: 1) sim parameters file, see when the most recent file was uploaded; 2) Data UI (User Interface) – this the file where I can get fresh patient level data, this is the tool used to generate and export model parameter files – you can select the clinics you want to see the data from and “add” them to the box on the left side
+
+LZ reviewed data that is available for review with the team. Model parameters is pulled based on 2 years of data.
+LZ reviewed the Team Question: We are frequently asked to do 30 minute appointments instead of EBPsy, which is more beneficial, in terms of the number of Veterans we serve? Are there differences in these impacts (duration of engagement; # of Veterans served) by diagnosis? Does increasing the proportion of appointment supply for EBPsy increase wait-times for care coordination? What should the proportion of appointment supply be for EBPsy and intakes/care coordination?
+
+LZ – reminder we are logged in with our team email for this group discussion. 
+LZ Question -- Does anybody remember how to get to the login if you want to play in your own world? Type in your vhapaloalto to login to your own world.
+
+Team has completed 12 intakes per week, 12 are waiting and 12 are completed, circle gauges tell us the rates and the rectangles tell us the status of a patient. 
+Examined EBPsy to Care Coordination appointments
+
+If you increase the appointment supply but don’t change the service mix, then we don’t get the improvements that we expect – if you set aside grid space for a group and nobody refers to the group then the service proportions would not show any different
+LZ reviewed the hypothesis from the last meeting: We expect that the impact of EBPsy is that Veterans would be engaged in treatment for a shorter duration to "get better" vs. doing shorter appointments, but see them for a longer period of time. We expect that if we do more EBPsy for shorter duration we will serve more Veterans than we do with 30 minute visits over a longer period of time. If we fill up slots with EBPsy appointments, then access is reduced because wait-times increase, and then we need to refer out of the team (i.e., Choice). We expect that we do 5 EBPsy per week.
+Today's Meeting: To run an experiment next time in the aggregate module that will include changes to both supply of appts AND referral % of patients/week to see desired impact
+Decision 1: Use the data tools to identify current proportions of appointment supply for EBPsy 
+Question Today:  Does increasing the proportion of appointment supply for EBPsy increase wait times for care coordination? What should the proportion of the appointment supply be for EBPsy vs. intakes vs. care coordination?
+Hypothesis Today: If we increase the proportion of our total “appointment supply” dedicated to EBPsy appointments then access is reduced because “patients waiting to start service” will increase for care coordination. We expect that we do 5 EBPsy per week (not the 2 EBPsy in historical data). 
+Decision 2: Decision for follow-up later – to examine the duration of engagement.
+Issues: EBPsy delivery has increased dramatically – want to adjust up from the base case (if we change nothing from the team data, this is the base case)
+If the base case is 2 for appointment supply, and we want to increase that number, we have to make a reduction in another service or it would come from overworking & over time.
+Tool allows us to break down the complexity of the situation. Let’s start with increasing the appointment supply for EBPsy. Let’s look at proportion of EBPsy, CC or Intakes.
+Red variables come from….?  Team member answered “the data”
+LZ - How much should we allocate to EBPsy?   Answer from team: 10 hours per week? So EBPsy apt supply adjusted to 10 hours and Psy adjusted to 15 hours/week. Do you want to allocate CC to Psychotherapy? “Yes, I think that was the intention.” 
+Q – How much? What would be realistic? Amy I think this was your question – 
+Q - how many do you want to convert to hour long session? Team is discussing allocation – 8 hours 
+LZ toggled back to the team’s data and showed the CC and Psy 60-minute data lines. 
+Comment – sometimes you do an EBP 60-minute session in a 30-minute slot. Team member explained that the encounter goes into the PSY slots – this is based on completed encounters
+The bottom table - what percent of patients are starting in the services is detailed.
+Experiment – Psy to 5%, EBPsy to 25%, cut CC in half to 10% in appointment supply panel; additional appointments were put into EBPsy 
+What would you expect to happen? You have had to change the service proportions; must account even if the team self-refers. Previously 23% were PSY and 21% were CC
+Increased to 25% but were already serving 26% in the team data table
+Changes we just made would increase the patient wait times but not by a lot (it looks dramatic because the chart range is in increments from 11 to 12). No huge change in wait time for Psy which makes sense because we increase appointments. Patients waiting to start EBPsy would increase for a time and would gradually decrease (less patients would be waiting).
+Care Coordination – if you increase proportion of patients for EBPsy, it would not increase the wait time for those waiting for CC.
+
