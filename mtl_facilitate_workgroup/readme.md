@@ -4,6 +4,14 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "175" width = "650">  
 
+## MTL Facilitation Materials in Development in this Facilitate Workgroup Folder
+- checklist
+- facilitation guide
+- guide_text
+- mtl_live_guide
+- mtl_menu
+- pre_post_emails
+
 ### Modeling to Learn (MTL) Links
 1.  www.mtl.how/live - Modeling to Learn Live - Adobe Connect Room
 2.  www.mtl.how/data - Team Data User Interface - **Internal for VHA Providers Only
