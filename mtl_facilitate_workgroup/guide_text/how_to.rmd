@@ -7,6 +7,7 @@ output:
   ioslides_presentation: default
   slidy_presentation: default
   pdf_document: default
+  word_document: default
 ---
 
 <!-- MTL Logo, HTML img tag -->
