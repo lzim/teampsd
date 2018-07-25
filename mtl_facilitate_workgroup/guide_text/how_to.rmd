@@ -1,6 +1,6 @@
 ---
 title: "MTL 'How to' Guide Information"
-date: "March 29, 2018"
+date: "updated 25 July 2018"
 output: 
   github_document: default
   html_document: default
