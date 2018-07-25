@@ -9,7 +9,10 @@ output:
   pdf_document: default
   word_document: default
 ---
-
+<!-- MTL Logo, HTML img tag -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500">  
+     
 # *Modeling to Learn* Partnership with VA Employee Education Services (EES)
 
 
