@@ -1,3 +1,15 @@
+---
+title: "*Modeling to Learn* Partnership with VA Employee Education Services (EES)"
+date: "25 July 2018"
+output: 
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
+  word_document: default
+---
+
 # *Modeling to Learn* Partnership with VA Employee Education Services (EES)
 
 
