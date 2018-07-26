@@ -5,7 +5,8 @@
      height = "175" width = "650">  
 
 ## MTL Facilitation Materials in Development in this Facilitate Workgroup Folder
-- checklists for facilitators - pre- and post-session
+- pre-session checklist for facilitators  https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/pre_meeting_checklist.rmd
+- post-session checklist for facilitators  https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/post_meeting_checklist.rmd
 - co-facilitation principles
 - guide_text
 - mtl_live_guide
