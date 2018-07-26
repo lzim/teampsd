@@ -5,8 +5,8 @@
      height = "175" width = "650">  
 
 ## MTL Facilitation Materials in Development in this Facilitate Workgroup Folder
-- checklist
-- facilitation guide
+- checklists for facilitators - pre- and post-session
+- co-facilitation principles
 - guide_text
 - mtl_live_guide
 - mtl_menu
