@@ -10,8 +10,8 @@ Referrals after Experiment Week=
 EQ Current Appointment Supply=
 	EQ Baseline Appointment Supply
 	~	appt/wk
-	~	The appointments available for patient care depends on the baseline number \
-		of appointments offered and the additional appointments created by \
+	~	The appointments available for CC depends on the baseline number \
+		of CC appointments offered in the team and the additional appointments created by \
 		overbooking.
 	|
 
@@ -19,14 +19,14 @@ EQ Desired Appointment Completion Rate=
 	ZIDZ(EQ Appointments in CC , EQ Return Visit Interval used when Booking)
 	~	appt/wk
 	~	The desired completion rate depends on the number of appointments to \
-		complete and the desired return visit interval.
+		complete and the desired CC return to clinic visit interval (RVI).
 	|
 
 EQ Ending CC Rate=
 	ZIDZ(EQ Patients in CC , EQ Median Engagement Time in CC)
 	~	pt/wk
 	~	The number of patients finishing the service is a function the number of \
-		patients in treatment and their median engagement time (in weeks) in CC.
+		patients in treatment and their median engagement time (weeks) in CC.
 	|
 
 EQ Maximum Start Rate=
@@ -39,28 +39,27 @@ EQ Maximum Start Rate=
 EQ Median Engagement Time in CC=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B12')
 	~	wk
-	~	Median engagement time estimated from team data.
+	~	Median engagement time in CC estimated from team data.
 	|
 
 EQ Minimum Time to Schedule=
 	0.1
 	~	wk
-	~	The fastest possible time to schedule a new patient appointment.
+	~	The fastest possible time to schedule a new patient CC appointment.
 	|
 
 EQ Patients in CC= INTEG (
 	EQ Starting CC Rate-EQ Ending CC Rate,
 		1)
 	~	Patient
-	~	Total number of patients in treatment. The initial value is set to 1, \
-		which shows how the clinic fills up as the model comes to equilibrium.
+	~	Total number of patients in CC. The initial value is set to 1, \
+		which shows how the CC service fills up as the model comes to equilibrium.
 	|
 
 EQ Patients per Appointment=
 	1
 	~	pts/appt
-	~	This is set to 1 patient per visit, except for group, which is \
-	        set to 8 patients per visits.
+	~	This is set to 1 patient per visit for CC.
 	|
 
 EQ Patients Waiting to Start CC= INTEG (
@@ -68,7 +67,7 @@ EQ Patients Waiting to Start CC= INTEG (
 		EQ Appointments Available for New Patients*EQ Patients per Appointment*EQ Team Data on New Patient Wait Time\
 		)
 	~	Patient
-	~	Total number of patients waiting to start the service, initial value set \
+	~	Total number of patients waiting to start CC, initial value set \
 		to provide the desired wait time in equilibrium.
 	|
 
@@ -85,13 +84,13 @@ EQ Referrals Necessary to Maintain Wait Time=
 EQ Referrals to CC Rate=
 	EQ Referrals Necessary to Maintain Wait Time
 	~	pt/wk
-	~	The number of referrals is currently unmeasurable, and is thus \
-		endogeneously generated to maintain the new patient wait time (either as \
+	~	The number of referrals cannot be reliably estimated for this service, and is thus \
+		endogeneously generated to maintain the new patient CC wait time (either as \
 		measured from the team's data, or using their desired new patient wait \
 		time) during initialization.  After week 0, that base referral rate is \
 		held, but can be affected by both the "Effect of Care Delays on Referrals" \
 		and any user experiments with additional referrals. This allows the user \
-		to observe relative changes in the new patient wait time.
+		to observe relative changes in the new patient wait time for CC.
 	|
 
 EQ Rescheduling Appointments Rate=
