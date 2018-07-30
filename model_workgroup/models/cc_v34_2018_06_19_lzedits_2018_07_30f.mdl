@@ -12,7 +12,7 @@ EQ Current Appointment Supply=
 	~	appt/wk
 	~	The appointments available for patient care depends on the baseline number \
 		of appointments offered and the additional appointments created by \
-		soverbooking.
+		overbooking.
 	|
 
 EQ Desired Appointment Completion Rate=
@@ -26,7 +26,7 @@ EQ Ending CC Rate=
 	ZIDZ(EQ Patients in CC , EQ Median Engagement Time in CC)
 	~	pt/wk
 	~	The number of patients finishing the service is a function the number of \
-		patients in treatment and their median engagement in treatment.
+		patients in treatment and their median engagement time (in weeks) in CC.
 	|
 
 EQ Maximum Start Rate=
@@ -60,7 +60,7 @@ EQ Patients per Appointment=
 	1
 	~	pts/appt
 	~	This is set to 1 patient per visit, except for group, which is \
-	  set to 8 patients per visits.
+	        set to 8 patients per visits.
 	|
 
 EQ Patients Waiting to Start CC= INTEG (
