@@ -223,15 +223,15 @@ EQ Completing CC Rate=
 	EQ Appointments Used for Existing Patients
 	~	appt/wk
 	~	The rate at which appointments are completed is the lesser of the existing \
-		patient demand for care (driven by the number of booked appointments and \
-		the revisit interval) or current supply of appointments per week.
+		patient demand for CC (driven by the number of booked appointments and \
+		the return to clinic visit interval) or current supply of CC appointments per week.
 	|
 
 EQ Return Visit Interval used when Booking=
 	EQ Team Data on RVI
 	~	wk
 	~	The team's goal to see each patient in this service once in every x weeks. \
-		The default value for return visit interval is based on the team'a data. \
+		The default or "base case" value for return to clinic visit interval (RVI) is based on the team'a data. \
 		If the user inputs their desired RVI, then the model uses that value \
 		instead.
 	|
@@ -241,7 +241,7 @@ EQ True Missed Appointment Rate=
 	EQ Completing CC Rate*EQ Team Data on True Missed Appointment %
 	,0)
 	~	appt/wk
-	~	The number of appointments that must be re-scheduled, as either the \
+	~	The number of CC appointments that must be re-scheduled, as either the \
 		clinician or the patient missed the appointment.  These missed \
 		appointments are affected by the baseline rate and changes in the time the \
 		team allocates to non-patient-facing care.  It is constrained from going \
@@ -253,8 +253,8 @@ Target New Patient Wait Time=
 		(Time<Experiment Week,Team Data on New Patient Wait Time,Desired New Patient Wait Time\
 		))
 	~	wk
-	~	The acceptable average wait time for new patients to start Care \
-		Coordination, based on the team's data. The user can also enter their own \
+	~	The acceptable average wait time for new patients to start CC, \
+		based on the team's data. The user can also enter their own \
 		new patient wait time goal.
 	|
 
@@ -270,8 +270,8 @@ Return Visit Interval used when Booking=
 	IF THEN ELSE(Desired RVI=0,Team Data on RVI,IF THEN ELSE(Time<Experiment Week, Team Data on RVI\
 		,Desired RVI))
 	~	wk
-	~	The team's goal to see each patient in this service once in every x weeks. \
-		The default value for return visit interval is based on the team'a data. \
+	~	The team's goal to see each patient in CC once in every x weeks. \
+		The default value for return to clinic visit interval (RVI) is based on the team'a data. \
 		If the user inputs their desired RVI, then the model uses that value \
 		instead.
 	|
@@ -335,10 +335,10 @@ Starting CC Rate=
 
 	)
 	~	pt/wk
-	~	The number of patients starting the service is a function the team's time \
+	~	The number of patients starting CC is a function the team's time \
 		allocated to that service, allowing the model to start in equilibrium. The \
 		user can also set the start rate to instead be based on the team's data, \
-		which can be helpful in assessing the supply and RVI needed to meet their \
+		which can be helpful in assessing the CC appointment supply and RVI needed to meet their \
 		real-world demand.
 	|
 
@@ -351,7 +351,7 @@ True Missed Appointment Rate=
 	)
 	,0)
 	~	appt/wk
-	~	The number of appointments that must be re-scheduled, as either the \
+	~	The number of CC appointments that must be re-scheduled, as either the \
 		clinician or the patient missed the appointment.  These missed \
 		appointments are affected by the baseline rate and changes in the time the \
 		team allocates to non-patient-facing care.  It is constrained from going \
@@ -366,7 +366,7 @@ Referrals to CC Rate=
 
 	*Effect of Wait Time on Referrals
 	~	pt/wk
-	~	The number of referrals is currently unmeasurable, and is thus \
+	~	The number of referrals to CC cannot be reliably estimated, and is thus \
 		endogeneously generated to maintain the new patient wait time (either as \
 		measured from the team's data, or using their desired new patient wait \
 		time) during initialization.  After week 0, that base referral rate is \
@@ -380,17 +380,17 @@ Use Team Data on Patients Starts=
 	~	Dmnl [0,1,1]
 	~	Switch to control if patient starts are based on team current state \
 		(default set to ignore current state, and instead match patient starts to \
-		allocation of appointment capacity).  "Zero" = if all existing patients \
+		allocation of CC appointment supply).  "Zero" = if all existing patients \
 		can be seen at the desired RVI, then only start new patients if there are \
 		available appointment slots, 1 = patient start rate set by the team's \
-		data, regardless of whether or not there is enough supply.
+		data, regardless of whether or not there is enough CC appointment supply.
 	|
 
 Team Data on Patient Starts=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B1')
 	~	pt/wk
-	~	New patients scheduling rate based on team's own data (default is to use \
-		model-derived new patient start rate, to ensure that the RVI matches the \
+	~	New patients scheduling rate based on team data (default is to use \
+		model-derived new patient start rate, to ensure that the return to clinic visit interval (RVI) matches the \
 		Actual RVI).
 	|
 
@@ -401,8 +401,8 @@ Effect of Wait Time on Referrals=
 	~	The effect wait time has on referral rates. The deviation from the target \
 		delivery delay is adjusted by an exponent that reflects how sensitive \
 		providers' triage decisions are to these deviations. The negative sign on \
-		the exponent indicates that this is inversely coded, i.e., attractiveness \
-		drops as care delay increases. It is constrained from going above 1 (our \
+		the exponent indicates that this is inversely coded, i.e., referrals \
+		drop as CC delays increase. It is constrained from going above 1 (our \
 		assumption is that lower than expected new patient wait times do not \
 		increase referrals).
 	|
