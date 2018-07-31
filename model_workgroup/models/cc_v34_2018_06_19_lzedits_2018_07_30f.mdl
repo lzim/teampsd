@@ -419,20 +419,20 @@ Referrals Necessary to Maintain Wait Time=
 Perceived Wait Time=
 	SMOOTH(Actual New Patient Wait Time,Time to Perceive Wait Time)
 	~	wk
-	~	Clinicians' perception of care delays for starting new patients.
+	~	Clinicians' perception of care delays for starting new CC patients.
 	|
 
 Desired New Patient Wait Time=
 	0
 	~	wk [0,16,0.5]
-	~	The team's desired average wait time for new patients to Care Coordination \
+	~	The team's desired average wait time for new patients to CC \
 		(default is to use team's data instead).
 	|
 
 Sensitivity of Referrals to Wait Time=
 	0
 	~	Dmnl [0,2,0.1]
-	~	Exponent to the effect of care delay on service attractiveness. A value of \
+	~	Exponent to the effect of CC care delays on CC referrals. A value of \
 		"1" implies the assumption that a doubling of the new patient wait time \
 		over the desired wait time will cut the referral rate in half.  For the \
 		same situation, a value of "0.5" would reduce the referral rate to 71% of \
@@ -465,7 +465,7 @@ Time to Perceive Wait Time=
 	4
 	~	wk
 	~	Time to measure, report, and respond to differences between desired and \
-		actual Return Visit Interval for a service. Set to 4 weeks, i.e., a \
+		actual Return-to-clnic Visit Interval (RVI) for a service. Set to 4 weeks, i.e., a \
 		monthly staff meeting update.
 	|
 
@@ -476,8 +476,8 @@ Actual RVI=
 	~	By Little's Law, the average time between appointments for existing \
 		patients is the quotient of the number of appointments and the rate at \
 		which they are completed.  If there is more demand for completing \
-		appointments than there is available capacity, then actual return visit \
-		interval will increase, even if the desired RVI doesn't change.  If the \
+		appointments than there is available capacity, then actual Return-to-clnic Visit Interval (RVI) \
+		will increase, even if the desired RVI doesn't change.  If the \
 		completing appointment rate drops to zero, then the wait is technically \
 		infinite. In the model, appointments are never cancelled due to high wait \
 		times, but for ease of display, Actual RVI is capped at 12 months (52 \
@@ -498,8 +498,8 @@ Appointments in CC= INTEG (
 	Booking CC Rate+Rescheduling Appointments Rate-Completing CC Rate,
 		1)
 	~	Appointment
-	~	Total number of appointments booked, initial value set 1, to show how the \
-		schedule fills up as the model comes to equilibrium.
+	~	Total number of CC appointments booked, initial value set 1, to show how the \
+		CC schedule fills up as the model comes to equilibrium.
 	|
 
 Appointments to Reschedule= INTEG (
@@ -513,23 +513,23 @@ Appointments to Reschedule= INTEG (
 Appointments Used for Existing Patients=
 	MIN(Desired Appointment Completion Rate,Current Appointment Supply)
 	~	appt/wk
-	~	Appointments for current patients consume appointment supply. The number \
+	~	Appointments for existing patients consume CC appointment supply. The number \
 		of appointments used each week is the lesser of the existing patient \
-		demand (based on the number of appointments booked and the desired return \
-		visit interval) or the supply of available appointments per week.
+		demand (based on the number of appointments booked and the desired return-to-clinic \
+		visit interval) or the supply of available CC appointments per week.
 	|
 
 Median Engagement Time in CC=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B12')
 	~	wks
-	~	Median engagement time estimated from the team's own data.
+	~	Median CC engagement time estimated from the team data.
 	|
 
 Baseline Appointment Supply=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B10')
 	~	appt/wk
-	~	The baseline number of the appointments offered each week, estimated from \
-		the team's data. However, the number of appointments offered specifically \
+	~	The baseline number of CC appointments offered each week, estimated from \
+		team data. However, the number of CC appointments offered specifically \
 		for this service is currently unmeasurable.  We estimate the available \
 		supply from the upper quartile of appointments completed each week for \
 		this service.
