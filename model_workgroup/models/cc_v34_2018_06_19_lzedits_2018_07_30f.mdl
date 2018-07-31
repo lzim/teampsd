@@ -581,7 +581,7 @@ Ending CC Rate=
 	ZIDZ(Patients in CC,Median Engagement Time in CC)
 	~	pt/wk
 	~	The number of CC patients finishing the service is a function the number of \
-		patients in CC and their median CC engagement time (week).
+		patients in CC and their median CC engagement time (weeks).
 	|
 
 Maximum Start Rate=
@@ -650,7 +650,7 @@ Patients Waiting to Start CC= INTEG (
 		Appointments Available for New Patients*Patients per Appointment*Target New Patient Wait Time\
 		)
 	~	pts
-	~	Total number of patients waiting to start the service, initial value set \
+	~	Total number of patients waiting to start CC, initial value set \
 		to provide the desired wait time in equilibrium.
 	|
 
@@ -665,15 +665,15 @@ Additional Appointment Supply for New CC Patients=
 "User-defined Appointment Supply"=
 	-1
 	~	appt/wk [-1,200,1]
-	~	Manually adjust the number of official appointments offered for Care \
-		Coordination, with the assumption that these appointments come at the expense \
-		of appointments offered for other services.
+	~	Manually adjust the number of official appointments offered for CC, \ 
+		with the assumption that these appointments come at the expense \
+		of appointments offered for other services outside the CC model.
 	|
 
 Rescheduling Appointments Rate=
 	Appointments to Reschedule/Time to Reschedule
 	~	appt/wk
-	~	The rescheduling rate depends on the total number of appointments to \
+	~	The rescheduling rate depends on the total number of CC appointments to \
 		reschedule and the average time it takes to reschedule them.
 	|
 
@@ -698,13 +698,13 @@ Sensitivity of Changes in Other CC Tasks Time on Missed Appointments=
 Team Data on New Patient Wait Time=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B7')
 	~	wk
-	~	New patients' mean wait time based on team's own data.
+	~	New patients' mean wait time based on team data.
 	|
 
 Team Data on RVI=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B5')
 	~	wk
-	~	Actual median return visit interval, based on team's own data.
+	~	Actual median Return-to-clinic visit interval (RVI), based on team's own data.
 	|
 
 Time to Reschedule=
