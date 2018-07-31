@@ -522,7 +522,7 @@ Appointments Used for Existing Patients=
 Median Engagement Time in CC=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B12')
 	~	wks
-	~	Median CC engagement time estimated from the team data.
+	~	Median CC engagement time estimated from team data.
 	|
 
 Baseline Appointment Supply=
@@ -530,9 +530,8 @@ Baseline Appointment Supply=
 	~	appt/wk
 	~	The baseline number of CC appointments offered each week, estimated from \
 		team data. However, the number of CC appointments offered specifically \
-		for this service is currently unmeasurable.  We estimate the available \
-		supply from the upper quartile of appointments completed each week for \
-		this service.
+		for this service. We estimate the available \
+		supply from the 75% of completed CC visits each week in this team.
 	|
 
 Booking CC Rate=
@@ -543,7 +542,7 @@ Booking CC Rate=
 	~	appt/wk
 	~	The booking appointment rate depends on the number of existing patients \
 		seen by the team (i.e., the quotent of the total patients in care and \
-		their average return visit interval) and the number of new patients booked \
+		their average Return-to-clinic visit interval) and the number of new patients booked \
 		each week.
 	|
 
@@ -551,7 +550,7 @@ Booking CC Rate=
 	-0.01
 	~	Dmnl [-0.01,1,0.01]
 	~	Manually adjust the proportion of total appointments that are missed and \
-		rescheduled (i.e., rework).  This value replaces the base case value, \
+		rescheduled (i.e., rework).  This value replaces the base case value for missed appointments, \
 		which is estimated from the team's data.
 	|
 
@@ -566,8 +565,8 @@ Completing CC Rate=
 Desired Appointment Completion Rate=
 	ZIDZ(Appointments in CC,Return Visit Interval used when Booking)
 	~	appt/wk
-	~	The desired completion rate depends on the number of appointments to \
-		complete and the desired return visit interval.
+	~	The desired completion rate depends on the number of CCappointments to \
+		complete and the desired CC Return-to-clinic Visit Interval (RVI).
 	|
 
 Desired RVI=
@@ -581,8 +580,8 @@ Desired RVI=
 Ending CC Rate=
 	ZIDZ(Patients in CC,Median Engagement Time in CC)
 	~	pt/wk
-	~	The number of patients finishing the service is a function the number of \
-		patients in treatment and their median time in treatment.
+	~	The number of CC patients finishing the service is a function the number of \
+		patients in CC and their median CC engagement time (week).
 	|
 
 Maximum Start Rate=
@@ -603,7 +602,7 @@ Actual New Patient Wait Time=
 		,Starting CC Rate, 24)),24)
 	~	wk
 	~	By Little's Law, the average wait time for new patients is the quotient of the \
-		number of patients waiting and the rate at which they start service.
+		number of patients waiting and the rate at which they start CC.
 		This wait time is only useful when testing the effects of Care Delays on \
 		Referrals, or the effect of Additional Referrals. Otherwise, the model \
 		will adjust the number of referrals to maintain the desired new patient \
@@ -619,7 +618,7 @@ Actual New Patient Wait Time=
 "Overbook Appointments / Week"=
 	0
 	~	appt/wk [0,100,1]
-	~	Manually adjust the number of additional appointments offered each week \
+	~	Manually adjust the number of additional CC appointments offered each week \
 		(over the official appointment capacity), with the assumption that these \
 		additional appointments come at the expense of non-patient facing care \
 		(e.g., team coordination, reminder calls, treatment planning, etc.).
@@ -629,21 +628,21 @@ Overbook Downside Onset Time=
 	Actual RVI
 	~	wk
 	~	The time for sacrificing team coordination time and patient reminder calls \
-		for more face-to-face patient time to affect the missed appointment rate.
+		for more face-to-face CC patient time to affect the CC missed appointment rate.
 	|
 
 Patients in CC= INTEG (
 	Starting CC Rate-Ending CC Rate,
 		1)
 	~	pts
-	~	Total number of patients in treatment, initial value set 1, to show how \
-		the clinic fills up as the model comes to equilibrium.
+	~	Total number of patients in CC, initial value set 1, to show how \
+		the team CC service fills up as the model comes to equilibrium.
 	|
 
 Patients per Appointment=
 	1
 	~	pts/appt
-	~	Always 1 patient per appointment, except for group visits.
+	~	1 patient per visit for all services except group, which is estimated as 8 patients per visit.
 	|
 
 Patients Waiting to Start CC= INTEG (
