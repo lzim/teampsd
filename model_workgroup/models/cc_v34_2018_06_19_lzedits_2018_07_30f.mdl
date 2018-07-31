@@ -106,29 +106,29 @@ EQ Starting CC Rate=
 	EQ Appointments Available for New Patients*EQ Patients per Appointment
 	)
 	~	pt/wk
-	~	The number of patients starting the service is a function the team's time \
-		allocated to that service, allowing the model to start in equilibrium. The \
+	~	The number of patients starting CC is a function the team's appointment supply \
+		allocated to CC, allowing the model to start in equilibrium. The \
 		user can also set the start rate to instead be based on the team's data, \
 		which can be helpful in assessing the supply and RVI needed to meet their \
-		real-world demand.
+		real-world patient demand.
 	|
 
 EQ Team Data on New Patient Wait Time=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B7')
 	~	wk
-	~	New patients' mean wait time based on team's own data.
+	~	New patients' mean wait time based on team data.
 	|
 
 EQ Team Data on RVI=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B5')
 	~	wk
-	~	Actual median return visit interval, based on team's own data.
+	~	Actual median return to clinic visit interval (RVI), based on team's own data.
 	|
 
 EQ Team Data on True Missed Appointment Percentage=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B3')
 	~	Dmnl
-	~	The missed appointment rate based on team's own data.
+	~	The missed appointment rate based on team data.
 	|
 
 EQ Actual New Patient Wait Time=
@@ -136,7 +136,7 @@ EQ Actual New Patient Wait Time=
 		,EQ Starting CC Rate, 24)),24)
 	~	wk
 	~	By Little's Law, the average wait time for new patients is the quotient of the \
-		number of patients waiting and the rate at which they start service.
+		number of patients waiting and the rate at which they start CC.
 		This wait time is only useful when testing the effects of Care Delays on \
 		Referrals, or the effect of Additional Referrals. Otherwise, the model \
 		will adjust the number of referrals to maintain the desired new patient \
@@ -155,7 +155,7 @@ EQ Actual RVI=
 	~	By Little's Law, the average time between appointments for existing \
 		patients is the quotient of the number of appointments and the rate at \
 		which they are completed.  If there is more demand for completing \
-		appointments than there is available capacity, then actual return visit \
+		appointments than there is available capacity, then actual return to clinic visit \
 		interval will increase, even if the desired RVI doesn't change.  If the \
 		completing appointment rate drops to zero, then the wait is technically \
 		infinite. In the model, appointments are never cancelled due to high wait \
@@ -178,7 +178,7 @@ EQ Appointments in CC= INTEG (
 		1)
 	~	Appointment
 	~	Total number of appointments booked, initial value set 1, to show how the \
-		schedule fills up as the model comes to equilibrium.
+		team's CC schedule fills up as the model comes to equilibrium.
 	|
 
 EQ Appointments to Reschedule= INTEG (
@@ -192,10 +192,10 @@ EQ Appointments to Reschedule= INTEG (
 EQ Appointments Used for Existing Patients=
 	MIN(EQ Desired Appointment Completion Rate,EQ Current Appointment Supply)
 	~	appt/wk
-	~	Appointments for current patients consume appointment supply. The number \
+	~	The proportion of the appointment supply used by existing patients. The number \
 		of appointments used each week is the lesser of the existing patient \
 		demand (based on the number of appointments booked and the desired return \
-		visit interval) or the supply of available appointments per week.
+		to clinic visit interval) or the supply of available appointments per week.
 	|
 
 EQ Baseline Appointment Supply=
@@ -203,9 +203,8 @@ EQ Baseline Appointment Supply=
 	~	appt/wk
 	~	The baseline number of the appointments offered each week, taken from the \
 		team's data. However, the number of appointments offered specifically for \
-		this service is currently unmeasurable.  We estimate the available supply \
-		from the upper quartile of appointments completed each week for this \
-		service.
+		CC cannot be reliably estimated.  We estimate the available supply \
+		from the 75th percentile of visits completed each week for CC. \
 	|
 
 EQ Booking CC Rate=
