@@ -1,0 +1,68 @@
+Team PCT MTL Meeting
+August 1, 2018
+Lindsey, Tom, Debbie
+
+++++++++++++++++++++++++++
+Team conference call notes – 1:00 pm
+4 team members present
+Started session at 1:14 pm
+LZ confirms everyone is seeing simulation screen
+LZ - Recapping where we were last time and think about experiments you may want to try in the sim. I’ll hand off controls.
+LZ - Moved from general questions to Hypothesis – 65% of our patients are in care more than 3 months. We were right – it was about 76% of patients in care for greater than 3 months. Sankey diagram showed that ¼ of patients. For a lot of people, median number of visits is 16 for 75% of patients.
+LZ - Is everyone remembering this? 
+Comment - This is great.
+LZ reviewed items 1, 2 and 3 in Findings box. Called up Sankey and hovered on bars to get the patient numbers for each category (one visit, initators, completers, returns). Very few patients complete the therapy in the 1st 12 weeks. The Team is doing well at not having dropouts.
+In the Our Decisions, we wanted to examine if there are commonalities in the patients who are in care for about 25 visits. 
+LZ - Does anybody know where you would go to look at that?
+Team - No.  LZ - Type in mtl.how/data to see the team data. Not going to focus on that now.
+If you want to understand appointment supply (just starting, those in longer than 3 months). We can look at variables in the results dashboard one by one in the basecase so we can see where we are starting and then can run a scenario to see if we make specific changes in our care we can compare it to the basecase.
+We did not yet cover how to allocate grids for starting PSY and how to accommodate those who come back after 3 months.
+If we stay at our main question about how people engage: if you know that 76% of patients are engaged more than 3 months. You could experiment with the new patients who initiate, return later (1 out of 10). Do we want to experiment the new patients who initiative to 100%?, or the patients who return later? Or  we could think about the patients who get 2-7 visits to move them on to 8 visits or more in the 1st 12 months.
+What would happen to are overall patient flow if we got more of them to get to 8-12 visits? We are at 76% right now.
+1. Patients who get over 7 visits – showed diagram, showed slider, initiators who complete is about 36%
+2. Only about 4 patients are completing 8 or more visits in the first 3 months and are stopping. Could consider completers who graduate is 4% of patients. Could try to graduate a lot more patients.
+3. Could just change the proportion of patients who stay engaged after the 1st three months. What is the distribution look like who are engaged after 3 months? LZ reviewed the engagement time past 3 months including the weeks for “from 1 visit”, from 2 to 7 visits, and from 8 or more visits.” If they only get 1, they tend to be engaged for a lot longer period of time. If they get 2 or more, they are engaged for less time.
+Comment – I think I am kind of understanding – reflection, you just gave us from the last simulation, you just gave us more data about our team then we’ve ever gotten, ever. So that’s great. So as a supervisor I don’t honestly feel like I have the professional control to make the changes recommended in the slider. Is someone higher up than us looking at the data? Is this my job now?
+I’m agreeing that this is more information then we’ve ever gotten and it’s really helpful. What do we do with it? In terms of the actual simulation, I would have to fumble through it myself. As you went over it very quickly.
+LZ - We’d love for someone to go through it and fumble a bit today. Partial response to E – as you guys know, we have consistently tried to prioritize decisions that the team can make. We don’t have experiments where you would get a lot of staff. We have engaged central leadership and on down to teams. Clinicians make these decisions  - trying to get patients through therapy, when a patient is through therapy and should graduate. I don’t mean to be cheeky, we have tried to clarify that no patients are harmed by running a simulation, it will help guide our decisions. You have the option of copying the simulation (“Export” on outputs screen) and sharing it with anyone. When we share it with NAMES of LEADERS at central office, they appreciate having the evidence and information. So one answer is that these results can be shared with people who have the ability to make decisions about your clinical care. One thing I’ve gotten excited about is that a full on policy change is not required to make a change in my clinical care, even if the whole team is not on board. You can experiment with return to clinic interval; you make these decisions every day without knowing the impact of the return to clinic timeframe. Team Blue clinic example shared.
+How would someone higher up see the data you’ve presented? I think it would be important for them to see it. For the sake of fumbling around, let’s get back to that. 
+Team Q – You had mentioned that for the people seen 2-7 times and what would happen if we expanded that. Are PCL data included in here? Can we see the people seen 2-7 times and if they are dropping out? 
+You can see it in the data tool at the level of the patient. Go to the dataHF tab, all the factors are in there. You can look at the whole team or just your clinic. You can filter by looking at the specific templates. Andrew is adding a column that will show the PCLs in that tab. You’ll see individual patients and PCL scores – this hopefully will be there in the next 30 days.  Nationally we are seeing improvements in PTSD symptoms after 7 sessions, vs. 8 sessions.
+LZ - I know you’re just catching up TEAM MEMBER so if you want to do a follow-up session in the data tool we can do that.
+Q - How do we know that people have graduated?
+LZ made a team member a presenter. Guided team member to how to share their screen and connect with screen.
+Q – clicked share my screen and its asking me to download Adobe connect add-in. 
+Q – is there a way we don’t have to do that every time because I had to do that too?
+A – whenever the VA updates their Adobe stuff.
+Comment – back at the share my screen, choose the application such as Google Chrome.
+LZ – in order for you to drive the simulation, you have to be logged into the mtl.how/sim
+Got it, I’m clicking on that now. Once you are in, you should be able to show that in Adobe Connect. It’s asking for my user name and password. Yes, it’s your VA email, for your password its pct12345.
+So Join Current Session and Join Simulation?
+LZ – Yes, that’s right. Now go back to share screen and choose that window to share the simulation.
+Should I click the Adobe Connect application?
+LZ - What you want to choose is the web browser in which you opened the simulation.
+Choose “engagement after 3 months” under reveal complexity. See the ending rate – you can change the engagement time greater than 3 months; as more patients per week, it would increase the patients in care greater than 3 months; the more patients in care, the more patients you have to book to keep up.
+Click on blue bar for Experiments. There is a little drop down arrow, you will reveal all the information.
+If you look at row 4 under Team Data, “Initators who Complete” – return visit interval is 1.29 and engaged for 9 weeks. (Side note – you can see font is different)
+We also talked about the completers who graduate – what does that say?
+Almost 4% are graduating in 2 years or is that weeks? 
+So you can change initators who complete (pointed them to the tall box) or completers who graduate (pointed them to the small box in the lower left).
+Are you willing to take a wild guess?
+If I adjust this bar it will adjust the initiators who quit early. I’m not quite tracking with you what that is going to do.  LZ explained the process.
+It was 4% so if you increase 10% would be doubling it. Studies say 50% of people can do this so let’s try that.
+LZ - Guided them how to run the experiment
+Can review the results 1 by 1 in the upper right hand corner in the Outputs or on the model screen in the main tile.
+You are using more appointments for patients who are starting a service in the chart titled Supply used by Pts < 3 months. The appointments per week, over 2 years, with a rapid increase over the first few weeks.
+Q - Is that 4 for the whole team or for each individual? 4 for the whole team.
+LZ guided to Outputs screen, Where we typed in our hypothesis, our findings, our decision.
+You can see the tradeoffs – patient supply in 1st 3 months trading off with patients who are engaged for longer than that.
+If you choose any of those down arrows, there are many things that can be explored.
+One thing we would like you to do to save this is to type in what you would.
+Under our hypothesis, delete the text and type:  we expect that if we increase the completers who graduate from 4% to 50%. 
+Main finding – clear out text, We saw that the trade off that the supply used for patients in the first 3 months would increase and the supply used by patients in care for greater 3 months would go decrease.
+Decision we would make would be to compare it against the base case.
+Go up to the top and hit save and we’ll save the run.
+Can we find this in a different place before we delete the text in our Findings? Yes, it can be found in the select experiment tile.
+
+
+
