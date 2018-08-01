@@ -10,23 +10,23 @@ Referrals after Experiment Week=
 EQ Current Appointment Supply=
 	EQ Baseline Appointment Supply
 	~	appt/wk
-	~	The appointments available for patient care depends on the baseline number \
-		of appointments offered and the additional appointments created by \
-		soverbooking.
+	~	The appointments available for CC depends on the baseline number \
+		of CC appointments offered in the team and the additional appointments created by \
+		overbooking.
 	|
 
 EQ Desired Appointment Completion Rate=
 	ZIDZ(EQ Appointments in CC , EQ Return Visit Interval used when Booking)
 	~	appt/wk
 	~	The desired completion rate depends on the number of appointments to \
-		complete and the desired return visit interval.
+		complete and the desired CC return to clinic visit interval (RVI).
 	|
 
 EQ Ending CC Rate=
 	ZIDZ(EQ Patients in CC , EQ Median Engagement Time in CC)
 	~	pt/wk
 	~	The number of patients finishing the service is a function the number of \
-		patients in treatment and their median engagement in treatment.
+		patients in treatment and their median engagement time (weeks) in CC.
 	|
 
 EQ Maximum Start Rate=
@@ -39,28 +39,27 @@ EQ Maximum Start Rate=
 EQ Median Engagement Time in CC=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B12')
 	~	wk
-	~	Median engagement time estimated from team data.
+	~	Median engagement time in CC estimated from team data.
 	|
 
 EQ Minimum Time to Schedule=
 	0.1
 	~	wk
-	~	The fastest possible time to schedule a new patient appointment.
+	~	The fastest possible time to schedule a new patient CC appointment.
 	|
 
 EQ Patients in CC= INTEG (
 	EQ Starting CC Rate-EQ Ending CC Rate,
 		1)
 	~	Patient
-	~	Total number of patients in treatment. The initial value is set to 1, \
-		which shows how the clinic fills up as the model comes to equilibrium.
+	~	Total number of patients in CC. The initial value is set to 1, \
+		which shows how the CC service fills up as the model comes to equilibrium.
 	|
 
 EQ Patients per Appointment=
 	1
 	~	pts/appt
-	~	This is set to 1 patient per visit, except for group, which is \
-	  set to 8 patients per visits.
+	~	This is set to 1 patient per visit for CC.
 	|
 
 EQ Patients Waiting to Start CC= INTEG (
@@ -68,7 +67,7 @@ EQ Patients Waiting to Start CC= INTEG (
 		EQ Appointments Available for New Patients*EQ Patients per Appointment*EQ Team Data on New Patient Wait Time\
 		)
 	~	Patient
-	~	Total number of patients waiting to start the service, initial value set \
+	~	Total number of patients waiting to start CC, initial value set \
 		to provide the desired wait time in equilibrium.
 	|
 
@@ -85,13 +84,13 @@ EQ Referrals Necessary to Maintain Wait Time=
 EQ Referrals to CC Rate=
 	EQ Referrals Necessary to Maintain Wait Time
 	~	pt/wk
-	~	The number of referrals is currently unmeasurable, and is thus \
-		endogeneously generated to maintain the new patient wait time (either as \
+	~	The number of referrals cannot be reliably estimated for this service, and is thus \
+		endogeneously generated to maintain the new patient CC wait time (either as \
 		measured from the team's data, or using their desired new patient wait \
 		time) during initialization.  After week 0, that base referral rate is \
 		held, but can be affected by both the "Effect of Care Delays on Referrals" \
 		and any user experiments with additional referrals. This allows the user \
-		to observe relative changes in the new patient wait time.
+		to observe relative changes in the new patient wait time for CC.
 	|
 
 EQ Rescheduling Appointments Rate=
@@ -107,29 +106,29 @@ EQ Starting CC Rate=
 	EQ Appointments Available for New Patients*EQ Patients per Appointment
 	)
 	~	pt/wk
-	~	The number of patients starting the service is a function the team's time \
-		allocated to that service, allowing the model to start in equilibrium. The \
+	~	The number of patients starting CC is a function the team's appointment supply \
+		allocated to CC, allowing the model to start in equilibrium. The \
 		user can also set the start rate to instead be based on the team's data, \
 		which can be helpful in assessing the supply and RVI needed to meet their \
-		real-world demand.
+		real-world patient demand.
 	|
 
 EQ Team Data on New Patient Wait Time=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B7')
 	~	wk
-	~	New patients' mean wait time based on team's own data.
+	~	New patients' mean wait time based on team data.
 	|
 
 EQ Team Data on RVI=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B5')
 	~	wk
-	~	Actual median return visit interval, based on team's own data.
+	~	Actual median return to clinic visit interval (RVI), based on team's own data.
 	|
 
 EQ Team Data on True Missed Appointment Percentage=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B3')
 	~	Dmnl
-	~	The missed appointment rate based on team's own data.
+	~	The missed appointment rate based on team data.
 	|
 
 EQ Actual New Patient Wait Time=
@@ -137,7 +136,7 @@ EQ Actual New Patient Wait Time=
 		,EQ Starting CC Rate, 24)),24)
 	~	wk
 	~	By Little's Law, the average wait time for new patients is the quotient of the \
-		number of patients waiting and the rate at which they start service.
+		number of patients waiting and the rate at which they start CC.
 		This wait time is only useful when testing the effects of Care Delays on \
 		Referrals, or the effect of Additional Referrals. Otherwise, the model \
 		will adjust the number of referrals to maintain the desired new patient \
@@ -156,7 +155,7 @@ EQ Actual RVI=
 	~	By Little's Law, the average time between appointments for existing \
 		patients is the quotient of the number of appointments and the rate at \
 		which they are completed.  If there is more demand for completing \
-		appointments than there is available capacity, then actual return visit \
+		appointments than there is available capacity, then actual return to clinic visit \
 		interval will increase, even if the desired RVI doesn't change.  If the \
 		completing appointment rate drops to zero, then the wait is technically \
 		infinite. In the model, appointments are never cancelled due to high wait \
@@ -179,7 +178,7 @@ EQ Appointments in CC= INTEG (
 		1)
 	~	Appointment
 	~	Total number of appointments booked, initial value set 1, to show how the \
-		schedule fills up as the model comes to equilibrium.
+		team's CC schedule fills up as the model comes to equilibrium.
 	|
 
 EQ Appointments to Reschedule= INTEG (
@@ -193,10 +192,10 @@ EQ Appointments to Reschedule= INTEG (
 EQ Appointments Used for Existing Patients=
 	MIN(EQ Desired Appointment Completion Rate,EQ Current Appointment Supply)
 	~	appt/wk
-	~	Appointments for current patients consume appointment supply. The number \
+	~	The proportion of the appointment supply used by existing patients. The number \
 		of appointments used each week is the lesser of the existing patient \
 		demand (based on the number of appointments booked and the desired return \
-		visit interval) or the supply of available appointments per week.
+		to clinic visit interval) or the supply of available appointments per week.
 	|
 
 EQ Baseline Appointment Supply=
@@ -204,9 +203,8 @@ EQ Baseline Appointment Supply=
 	~	appt/wk
 	~	The baseline number of the appointments offered each week, taken from the \
 		team's data. However, the number of appointments offered specifically for \
-		this service is currently unmeasurable.  We estimate the available supply \
-		from the upper quartile of appointments completed each week for this \
-		service.
+		CC cannot be reliably estimated.  We estimate the available supply \
+		from the 75th percentile of visits completed each week for CC. \
 	|
 
 EQ Booking CC Rate=
@@ -225,15 +223,15 @@ EQ Completing CC Rate=
 	EQ Appointments Used for Existing Patients
 	~	appt/wk
 	~	The rate at which appointments are completed is the lesser of the existing \
-		patient demand for care (driven by the number of booked appointments and \
-		the revisit interval) or current supply of appointments per week.
+		patient demand for CC (driven by the number of booked appointments and \
+		the return to clinic visit interval) or current supply of CC appointments per week.
 	|
 
 EQ Return Visit Interval used when Booking=
 	EQ Team Data on RVI
 	~	wk
 	~	The team's goal to see each patient in this service once in every x weeks. \
-		The default value for return visit interval is based on the team'a data. \
+		The default or "base case" value for return to clinic visit interval (RVI) is based on the team'a data. \
 		If the user inputs their desired RVI, then the model uses that value \
 		instead.
 	|
@@ -243,7 +241,7 @@ EQ True Missed Appointment Rate=
 	EQ Completing CC Rate*EQ Team Data on True Missed Appointment %
 	,0)
 	~	appt/wk
-	~	The number of appointments that must be re-scheduled, as either the \
+	~	The number of CC appointments that must be re-scheduled, as either the \
 		clinician or the patient missed the appointment.  These missed \
 		appointments are affected by the baseline rate and changes in the time the \
 		team allocates to non-patient-facing care.  It is constrained from going \
@@ -255,8 +253,8 @@ Target New Patient Wait Time=
 		(Time<Experiment Week,Team Data on New Patient Wait Time,Desired New Patient Wait Time\
 		))
 	~	wk
-	~	The acceptable average wait time for new patients to start Care \
-		Coordination, based on the team's data. The user can also enter their own \
+	~	The acceptable average wait time for new patients to start CC, \
+		based on the team's data. The user can also enter their own \
 		new patient wait time goal.
 	|
 
@@ -272,8 +270,8 @@ Return Visit Interval used when Booking=
 	IF THEN ELSE(Desired RVI=0,Team Data on RVI,IF THEN ELSE(Time<Experiment Week, Team Data on RVI\
 		,Desired RVI))
 	~	wk
-	~	The team's goal to see each patient in this service once in every x weeks. \
-		The default value for return visit interval is based on the team'a data. \
+	~	The team's goal to see each patient in CC once in every x weeks. \
+		The default value for return to clinic visit interval (RVI) is based on the team'a data. \
 		If the user inputs their desired RVI, then the model uses that value \
 		instead.
 	|
@@ -337,10 +335,10 @@ Starting CC Rate=
 
 	)
 	~	pt/wk
-	~	The number of patients starting the service is a function the team's time \
+	~	The number of patients starting CC is a function the team's time \
 		allocated to that service, allowing the model to start in equilibrium. The \
 		user can also set the start rate to instead be based on the team's data, \
-		which can be helpful in assessing the supply and RVI needed to meet their \
+		which can be helpful in assessing the CC appointment supply and RVI needed to meet their \
 		real-world demand.
 	|
 
@@ -353,7 +351,7 @@ True Missed Appointment Rate=
 	)
 	,0)
 	~	appt/wk
-	~	The number of appointments that must be re-scheduled, as either the \
+	~	The number of CC appointments that must be re-scheduled, as either the \
 		clinician or the patient missed the appointment.  These missed \
 		appointments are affected by the baseline rate and changes in the time the \
 		team allocates to non-patient-facing care.  It is constrained from going \
@@ -368,7 +366,7 @@ Referrals to CC Rate=
 
 	*Effect of Wait Time on Referrals
 	~	pt/wk
-	~	The number of referrals is currently unmeasurable, and is thus \
+	~	The number of referrals to CC cannot be reliably estimated, and is thus \
 		endogeneously generated to maintain the new patient wait time (either as \
 		measured from the team's data, or using their desired new patient wait \
 		time) during initialization.  After week 0, that base referral rate is \
@@ -382,17 +380,17 @@ Use Team Data on Patients Starts=
 	~	Dmnl [0,1,1]
 	~	Switch to control if patient starts are based on team current state \
 		(default set to ignore current state, and instead match patient starts to \
-		allocation of appointment capacity).  "Zero" = if all existing patients \
+		allocation of CC appointment supply).  "Zero" = if all existing patients \
 		can be seen at the desired RVI, then only start new patients if there are \
 		available appointment slots, 1 = patient start rate set by the team's \
-		data, regardless of whether or not there is enough supply.
+		data, regardless of whether or not there is enough CC appointment supply.
 	|
 
 Team Data on Patient Starts=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B1')
 	~	pt/wk
-	~	New patients scheduling rate based on team's own data (default is to use \
-		model-derived new patient start rate, to ensure that the RVI matches the \
+	~	New patients scheduling rate based on team data (default is to use \
+		model-derived new patient start rate, to ensure that the return to clinic visit interval (RVI) matches the \
 		Actual RVI).
 	|
 
@@ -403,8 +401,8 @@ Effect of Wait Time on Referrals=
 	~	The effect wait time has on referral rates. The deviation from the target \
 		delivery delay is adjusted by an exponent that reflects how sensitive \
 		providers' triage decisions are to these deviations. The negative sign on \
-		the exponent indicates that this is inversely coded, i.e., attractiveness \
-		drops as care delay increases. It is constrained from going above 1 (our \
+		the exponent indicates that this is inversely coded, i.e., referrals \
+		drop as CC delays increase. It is constrained from going above 1 (our \
 		assumption is that lower than expected new patient wait times do not \
 		increase referrals).
 	|
@@ -421,20 +419,20 @@ Referrals Necessary to Maintain Wait Time=
 Perceived Wait Time=
 	SMOOTH(Actual New Patient Wait Time,Time to Perceive Wait Time)
 	~	wk
-	~	Clinicians' perception of care delays for starting new patients.
+	~	Clinicians' perception of care delays for starting new CC patients.
 	|
 
 Desired New Patient Wait Time=
 	0
 	~	wk [0,16,0.5]
-	~	The team's desired average wait time for new patients to Care Coordination \
+	~	The team's desired average wait time for new patients to CC \
 		(default is to use team's data instead).
 	|
 
 Sensitivity of Referrals to Wait Time=
 	0
 	~	Dmnl [0,2,0.1]
-	~	Exponent to the effect of care delay on service attractiveness. A value of \
+	~	Exponent to the effect of CC care delays on CC referrals. A value of \
 		"1" implies the assumption that a doubling of the new patient wait time \
 		over the desired wait time will cut the referral rate in half.  For the \
 		same situation, a value of "0.5" would reduce the referral rate to 71% of \
@@ -467,7 +465,7 @@ Time to Perceive Wait Time=
 	4
 	~	wk
 	~	Time to measure, report, and respond to differences between desired and \
-		actual Return Visit Interval for a service. Set to 4 weeks, i.e., a \
+		actual Return-to-clnic Visit Interval (RVI) for a service. Set to 4 weeks, i.e., a \
 		monthly staff meeting update.
 	|
 
@@ -478,8 +476,8 @@ Actual RVI=
 	~	By Little's Law, the average time between appointments for existing \
 		patients is the quotient of the number of appointments and the rate at \
 		which they are completed.  If there is more demand for completing \
-		appointments than there is available capacity, then actual return visit \
-		interval will increase, even if the desired RVI doesn't change.  If the \
+		appointments than there is available capacity, then actual Return-to-clnic Visit Interval (RVI) \
+		will increase, even if the desired RVI doesn't change.  If the \
 		completing appointment rate drops to zero, then the wait is technically \
 		infinite. In the model, appointments are never cancelled due to high wait \
 		times, but for ease of display, Actual RVI is capped at 12 months (52 \
@@ -500,8 +498,8 @@ Appointments in CC= INTEG (
 	Booking CC Rate+Rescheduling Appointments Rate-Completing CC Rate,
 		1)
 	~	Appointment
-	~	Total number of appointments booked, initial value set 1, to show how the \
-		schedule fills up as the model comes to equilibrium.
+	~	Total number of CC appointments booked, initial value set 1, to show how the \
+		CC schedule fills up as the model comes to equilibrium.
 	|
 
 Appointments to Reschedule= INTEG (
@@ -515,26 +513,25 @@ Appointments to Reschedule= INTEG (
 Appointments Used for Existing Patients=
 	MIN(Desired Appointment Completion Rate,Current Appointment Supply)
 	~	appt/wk
-	~	Appointments for current patients consume appointment supply. The number \
+	~	Appointments for existing patients consume CC appointment supply. The number \
 		of appointments used each week is the lesser of the existing patient \
-		demand (based on the number of appointments booked and the desired return \
-		visit interval) or the supply of available appointments per week.
+		demand (based on the number of appointments booked and the desired return-to-clinic \
+		visit interval) or the supply of available CC appointments per week.
 	|
 
 Median Engagement Time in CC=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B12')
 	~	wks
-	~	Median engagement time estimated from the team's own data.
+	~	Median CC engagement time estimated from team data.
 	|
 
 Baseline Appointment Supply=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B10')
 	~	appt/wk
-	~	The baseline number of the appointments offered each week, estimated from \
-		the team's data. However, the number of appointments offered specifically \
-		for this service is currently unmeasurable.  We estimate the available \
-		supply from the upper quartile of appointments completed each week for \
-		this service.
+	~	The baseline number of CC appointments offered each week, estimated from \
+		team data. However, the number of CC appointments offered specifically \
+		for this service. We estimate the available \
+		supply from the 75% of completed CC visits each week in this team.
 	|
 
 Booking CC Rate=
@@ -545,7 +542,7 @@ Booking CC Rate=
 	~	appt/wk
 	~	The booking appointment rate depends on the number of existing patients \
 		seen by the team (i.e., the quotent of the total patients in care and \
-		their average return visit interval) and the number of new patients booked \
+		their average Return-to-clinic visit interval) and the number of new patients booked \
 		each week.
 	|
 
@@ -553,7 +550,7 @@ Booking CC Rate=
 	-0.01
 	~	Dmnl [-0.01,1,0.01]
 	~	Manually adjust the proportion of total appointments that are missed and \
-		rescheduled (i.e., rework).  This value replaces the base case value, \
+		rescheduled (i.e., rework).  This value replaces the base case value for missed appointments, \
 		which is estimated from the team's data.
 	|
 
@@ -568,8 +565,8 @@ Completing CC Rate=
 Desired Appointment Completion Rate=
 	ZIDZ(Appointments in CC,Return Visit Interval used when Booking)
 	~	appt/wk
-	~	The desired completion rate depends on the number of appointments to \
-		complete and the desired return visit interval.
+	~	The desired completion rate depends on the number of CCappointments to \
+		complete and the desired CC Return-to-clinic Visit Interval (RVI).
 	|
 
 Desired RVI=
@@ -583,8 +580,8 @@ Desired RVI=
 Ending CC Rate=
 	ZIDZ(Patients in CC,Median Engagement Time in CC)
 	~	pt/wk
-	~	The number of patients finishing the service is a function the number of \
-		patients in treatment and their median time in treatment.
+	~	The number of CC patients finishing the service is a function the number of \
+		patients in CC and their median CC engagement time (weeks).
 	|
 
 Maximum Start Rate=
@@ -605,7 +602,7 @@ Actual New Patient Wait Time=
 		,Starting CC Rate, 24)),24)
 	~	wk
 	~	By Little's Law, the average wait time for new patients is the quotient of the \
-		number of patients waiting and the rate at which they start service.
+		number of patients waiting and the rate at which they start CC.
 		This wait time is only useful when testing the effects of Care Delays on \
 		Referrals, or the effect of Additional Referrals. Otherwise, the model \
 		will adjust the number of referrals to maintain the desired new patient \
@@ -621,7 +618,7 @@ Actual New Patient Wait Time=
 "Overbook Appointments / Week"=
 	0
 	~	appt/wk [0,100,1]
-	~	Manually adjust the number of additional appointments offered each week \
+	~	Manually adjust the number of additional CC appointments offered each week \
 		(over the official appointment capacity), with the assumption that these \
 		additional appointments come at the expense of non-patient facing care \
 		(e.g., team coordination, reminder calls, treatment planning, etc.).
@@ -631,21 +628,21 @@ Overbook Downside Onset Time=
 	Actual RVI
 	~	wk
 	~	The time for sacrificing team coordination time and patient reminder calls \
-		for more face-to-face patient time to affect the missed appointment rate.
+		for more face-to-face CC patient time to affect the CC missed appointment rate.
 	|
 
 Patients in CC= INTEG (
 	Starting CC Rate-Ending CC Rate,
 		1)
 	~	pts
-	~	Total number of patients in treatment, initial value set 1, to show how \
-		the clinic fills up as the model comes to equilibrium.
+	~	Total number of patients in CC, initial value set 1, to show how \
+		the team CC service fills up as the model comes to equilibrium.
 	|
 
 Patients per Appointment=
 	1
 	~	pts/appt
-	~	Always 1 patient per appointment, except for group visits.
+	~	1 patient per visit for all services except group, which is estimated as 8 patients per visit.
 	|
 
 Patients Waiting to Start CC= INTEG (
@@ -653,7 +650,7 @@ Patients Waiting to Start CC= INTEG (
 		Appointments Available for New Patients*Patients per Appointment*Target New Patient Wait Time\
 		)
 	~	pts
-	~	Total number of patients waiting to start the service, initial value set \
+	~	Total number of patients waiting to start CC, initial value set \
 		to provide the desired wait time in equilibrium.
 	|
 
@@ -668,15 +665,15 @@ Additional Appointment Supply for New CC Patients=
 "User-defined Appointment Supply"=
 	-1
 	~	appt/wk [-1,200,1]
-	~	Manually adjust the number of official appointments offered for Care \
-		Coordination, with the assumption that these appointments come at the expense \
-		of appointments offered for other services.
+	~	Manually adjust the number of official appointments offered for CC, \ 
+		with the assumption that these appointments come at the expense \
+		of appointments offered for other services outside the CC model.
 	|
 
 Rescheduling Appointments Rate=
 	Appointments to Reschedule/Time to Reschedule
 	~	appt/wk
-	~	The rescheduling rate depends on the total number of appointments to \
+	~	The rescheduling rate depends on the total number of CC appointments to \
 		reschedule and the average time it takes to reschedule them.
 	|
 
@@ -701,13 +698,13 @@ Sensitivity of Changes in Other CC Tasks Time on Missed Appointments=
 Team Data on New Patient Wait Time=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B7')
 	~	wk
-	~	New patients' mean wait time based on team's own data.
+	~	New patients' mean wait time based on team data.
 	|
 
 Team Data on RVI=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B5')
 	~	wk
-	~	Actual median return visit interval, based on team's own data.
+	~	Actual median Return-to-clinic visit interval (RVI), based on team's own data.
 	|
 
 Time to Reschedule=
