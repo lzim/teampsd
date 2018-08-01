@@ -1,0 +1,112 @@
+
+Started at 8:32 - Log-in 
+tlead - logged in from the conference room
+TR - Co-facilitation lead 
+LZ - Co-facilitation
+
+DK - Notes
+
+LZ - Hello, here’s Team PSD (TR, LZ and DK)
+Who do we have from the team?
+
+tlead - we have 3 MDs and me 
+
+TR -  Time and Goal check
+
+TR -  Next 24 minutes we have you guys, right?
+
+TR - Run experiment based on our dynamic hypothesis, a prediction - think through all the impacts of that change are - see if our hypothesis bore out
+
+LZ - Once we know what the impact of those changes are, hopefully we can think through what the team can do about it.
+
+TR - compare this against the base case of no change
+
+TR - What do you want to name this?
+
+LZ - Usually we recommend including the values of the experiment
+
+TR - Reviews values of Team Data table - for Psychotherapy and Care Coordination
+
+- Reduce the complexity of the diagram
+
+TR - helpful to think through what the effect of this experiment will be 
+
+NY - Not necessarily true, because we have other staff doing intakes
+
+NY - Our slots for MDs are the same; 
+Some students are also starting up for psychotherapy
+
+**8:45AM 
+**TR is off script from the pre plan with a feedback loop we didn’t prep - wait-time referrals
+**TR is off time compared to the plan
+**TR is also jumping around the diagram, not moving through and explaining it piece by piece
+
+
+TR - What happens when the wait-time increases?
+
+NY - Refer out to Veterans Centers
+
+tlead - What services are in the flow?
+
+TR - I’m going to type that in here: “If we cut supply appointment supply for Psychotherapy and CC by 50%” (from 11 to 5 hrs/week and 7.25 to 4 hrs/week) then we expect that the start rate for those services will decline, causing a buildup of patients waiting to start, which will cause a change the treatment decision making to reduce the number of patients sense to those services.”
+
+8:49
+MD#1 - The existing patients who were in CC may have be referred elsewhere, pastoral care or something until we get replacement staff
+
+— Gap of saying what the median engagement time is - missed some of it
+
+TR - What else can you do?
+
+MD#2 - Refer them out somewhere?
+
+8:53 - Referral proportions introduced at 8:53AM
+TR - In the model we have pulled in from your data, 14% start psychotherapy, etc.
+
+MD#3- If we don’t have resources, we get innovative about where we send them, group,e tc.
+
+TR - If you know based on the diagram how this change is going to impact patient care
+
+You can change the service proportions - instead of 14% going to psychotherapy.
+
+Since we’re reducing supply in psychotherapy and CC, what do you think a more reasonable service proportion is.
+
+MD#2- 10%
+
+TR - Cut it by a third?  What about CC?
+
+tlead - Hard to think about it in percentage, easier to think about it in hours
+
+TR - This is a population-way of thinking, not a patient-level way of thinking?
+
+If I’m cutting the hours in half, maybe I should cut the % in half too.
+
+8:57 - Hand off now?
+
+LZ - Erin what do you think?
+
+TR - Okay let me navigate to Outputs
+
+MD#2 - This is helpful for me because patients are already going to other services like polytrauma.
+
+MD#3 - You’ve got new results here, is there a way to compare them to the prior results?
+
+TR - The radio buttons in the diagram for service supply control what you’re looking at in the output
+
+TR - Patients waiting to start a service actually goes down, probably due to that feedback.
+
+LZ - Choose any previous run and have it shown up in the diagram
+
+lead - These are more predictive?
+
+TR - It’s a possible future, you don’t have to accept. You have all these things under your control you can change.
+
+tlead - I’m the only one here now. People get confused about EBPsy and Psy - MDs where seeing it’s only 1% Psychotherapy is broad, see it older adults, need to see them 60 minutes. Not psychotherapy in a conventional sense.
+
+TR - different RVI, different engagement durations
+
+LZ - Yes, the team data table is an estimate based on two years of team data. We could have spent 
+
+General notes:
+1. Need to manage time well
+2. Need to simplify what we expect to cover
+3. More we can empower them to do - team’s running the model - to develop 
