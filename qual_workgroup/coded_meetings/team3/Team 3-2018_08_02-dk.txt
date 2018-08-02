@@ -1,0 +1,43 @@
+Team 3 – Telehealth
+August 2, 2018 – Meeting convened at approx. 8:20 am
+MTL Team: LZ, DK
+Model Correction Note (put in Lucid) – Team Telehealth:  results dashboard, bottom left corner in the outputs tile, work pressure – want to make sure that “work pressure” is registering properly – it’s a ratio (more than 1 is more work then the team can handle), the “11111” y axis doesn’t make sense
+3 Team members present
+LZ – noted this is the last meeting for the team; indicated MTL team is available to provide support and assistance as needed.
+Confirmed the TLead was willing to run the experiment
+LZ showed outputs/results screen showing 2 different experiments: losingPsyStaff19July2018 and bc_13jul2018data
+LZ walked team through the output tiles comparing the 2 experiments – reducing _____’s (team member) time results in a jump of patients waiting to start service but it adjusts back to an equilibrium
+LZ reviewed the current question with the team; the hypothesis shows down 1 provider; add the reduction in MM; 
+LZ noted list of options on the outputs screen is grouped by service
+LZ – indicated the model allows you to select specific service variables 
+Comment – We expect an impact on MM and will be referring more people out
+LZ – asked are there other impacts?
+Comment  - I supervise the resident clinics in Senora; may be a reduction in appointments and bookings because I’m actively involved in that too (with the departure of the team member who is talking)
+LZ - Do you also do evals to start patients on treatment plans?
+Comment - Yes
+LZ – because you also do reviews, the review rate to making treatment decision might slow down.
+Comment – Yes, I see patients via telehealth in Modesto too, and that clinic lost 2 people so there may be a reduction in appointments there.
+LZ – So a reduction in appointment rate; and look at how it impacts the review rate.
+What’s going to happen with the increase in referrals from Modesto – see how that fits in the model.
+LZ – How about if I turn controls over to TLead? Click on share my screen
+[transfer to TLead taking control was not successful]
+DK – perhaps because of time LZ, you may want to drive.
+LZ – Do you want to try and solve the problem or just drive the model?
+TLead - Why don’t you just drive and I’ll take notes.
+LZ – The team data does not have all the resident clinics information. No patients are harmed in the running of the simulation.
+LZ Comment, Team member confirmed - The Team Member on the last call indicated the supply for Psy and EBPsy were correct.
+LZ reviewed the team data – so if we were going to adjust the appointment supply away from 3; would it be 0? Yes, that would be 0.
+LZ - What about the reduction in time for doing an intake evaluation? We’re getting about 1 per week?
+Team Comment - Yes, for my Modesto clinic its only 1 to 2 intakes so for the resident clinic its 5 to 6 per week. In Modesto they put them into the follow-up slots.
+Intake could also go down to zero if we’re not counting the residents. We can run these 1 by 1 but if I wanted to explore the complexity of referrals we can look at the model screen. There is an intake rate in the appointments area and treatment decision rate in the patients area. If the team knows the patients can’t start then there is impact on the “start delays affect treatment decisions” with less staff the treatment decision rate will slow down.  You can think back at more than one experiment at a time.
+If all you do is reduce the grids available, you must also adjust the service proportions.
+Analogy – if you set up a group and set aside the time and know one refers to the group.
+MM represents more than ¼ of the services in the team; so we want to adjust the service proportions; so this would also be zero for a little bit; the treatment decision rate would slow down temporarily.
+LZ – cued up MM on the Display Patient Services tile.
+Question – if there is a way to see the impact on the Stockton and the Livermore clinics as the patients would likely go there so I don’t know if there is a way to tie into that data.
+LZ – here is what I would do, I would go to the data tool to the vizEnc and select the MM service and I would select out the decisions that you’re interested in exploring. Once I had a sense of how many are from Stockton or from Livermore, I would move the proportions.
+We found: Initially there will be a change by the providers leaving but for many of the categories they will plateau like patients waiting to start; they stabilize over time I guess. 
+LZ – Our Findings:  Initial increase in patients waiting for service and there would be a long-range decline (over 2 years) if there continued to be no MM appointment supply or MM referrals (i.e. the service proportion is zero). It takes a while for that effect to work through the system.
+Our Decision: if there is a question to explore next, Could decide to lok at the specific CBOCs and clnics in the data UI tool and make adjustments in the sliders to experiment with clinic-specific impact of the changes.
+LZ clicked save and indicated this would be a new experiment today. Showed where the experiments. 
+The meeting adjourned at 8:53 am.
