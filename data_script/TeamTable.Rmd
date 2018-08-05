@@ -31,8 +31,10 @@ library(htmlTable)
 
 ```{r cc_setup, include=FALSE}
 ccpar <- read_excel("ModelParameters.xlsx", sheet = "CCParams", col_names = FALSE)
-ccpar.table <- ccpar[c(12,10,5,3,1,7),1:3] # Select row and order to match UI
-ccpar.table$X__2 <- formatC(ccpar.table$X__2, digits = 2, format = "f")
+ccpar.table <- ccpar[c(12,10,5,3,1,7),1:3] %>% # Select row and order to match UI
+  mutate(X__2 = formatC(X__2, digits = 2, format = "f"),
+         X__1 = sub(" in CC", "", X__1))
+
 
 ```
 
@@ -66,7 +68,8 @@ mmpar.table <- mmpar.table1 %>%
          X__4 = replace(X__4, X__1 == "Appointment Supply (75th percentile)", NA),
          X__5 = replace(X__5, X__1 == "Appointment Slots % (with X waiver)",
                         X__2[which(X__1 == "Appointment Slots % (with X waiver)")]),
-         X__2 = replace(X__2, X__1 == "Appointment Slots % (with X waiver)", NA)) %>%
+         X__2 = replace(X__2, X__1 == "Appointment Slots % (with X waiver)", NA),
+         X__1 = sub(" in MM", "", X__1)) %>%
   mutate_at(vars(2:5), funs(formatC(as.numeric(.),digits = 2, format = "f"))) %>%
   mutate_at(vars(2:5), funs(replace(., . == " NA", ""))) %>%
   add_row(X__3 = "AUD", X__2 = "DEP", X__4 = "OUD", X__5 = "OTHER", .before = 3)
