@@ -1,6 +1,6 @@
 1. If there is a insight just from data this should be recorded as a finding too. Example is in one team last time we noted that 80% of their Service Proportion is Adjunctive and MM, our experiments are focused on other services. This is good to note in findings.  
 
-2. It helps to bullet the findings, it makes it easier for learners  
+
 
 3. Keep an eye on recording and moving the team toward higher level systems thinking in the FINDINGS text box, not just the HYPOTHESIS text box.  
 **Dimesions of Systems Thinking (codebook)**
@@ -16,10 +16,6 @@ d. more nuanced understanding of time (e.g., worse before better, short-run, lon
 1. Need to TEST/PREP in Version 1.52 to see the new functions for pulling up old text and for reading in the last experiment runs, new functions for saving runs  
 2. Compare Services does not show results when you're only looking at previous runs. After RUN and SAVE for the current run it does.  
 3. If you start a session showing what you did last time by copying the text from last time in to a fresh run (reset) - BECAUSE - you lose any text that you workshop if you revise the text, and haven't reset, but then need to reset for a new run.  
-
-Re-cap decisions this week
-
-1. 
 
 2. file names "yyyy_mm_dd_hhmm" (all lower case)
 
@@ -43,7 +39,8 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 1. The base case run will have all team data on.  
 2. We will have all loops on in the basecase run.  
 3. Facilitators need to train learners to actively SAVE and LOG OFF when they are done using Sim.  
-4. plural/time (patients/week or pts/wk) with the one exception for units of appointments, which is plural in word form, and singular in standard abbreviation for unit form "appt"
+4. plural/time (patients/week or pts/wk) with the one exception for units of appointments, which is plural in word form, and singular in standard abbreviation for unit form "appt"  
+5. It helps to bullet the findings, it makes it easier for learners  
 
 
 	
@@ -53,17 +50,12 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 
 Co-facilitators need to upload de-identified Team Meeting Notes to the Qualitative Workgroup Folder on GitHub (co-facilitators to upload during the post team meeting debrief): https://github.com/lzim/teampsd/tree/master/qual_workgroup/team_meeting_notes
 
-Five Domains of the Facilitation Checklist:
-
-1. Pre emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead
-
-2. Pre meeting checklist (log-in to Lucid w/Co-Facilitation 30 minutes before) - Pre/Post Lead - For us now this will be in the Lucid Team Meeting 
-
-3. During LIve Team Meeting (*need a Live session checklist) - Live Lead 
-
-4. Post debrief checklist (30 minutes after) - Pre/Post Lead
-
-5. Post emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead - For us now this will be in the Lucid Team Meeting 
+**Five Domains of the Facilitation Checklist:**
+1. Pre emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead  
+2. Pre meeting checklist (log-in to Lucid w/Co-Facilitation 30 minutes before) - Pre/Post Lead - For us now this will be in the Lucid Team Meeting  
+3. During LIve Team Meeting (*need a Live session checklist) - Live Lead  
+4. Post debrief checklist (30 minutes after) - Pre/Post Lead  
+5. Post emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead - For us now this will be in the Lucid Team Meeting  
 
 Pre/Post Email Publishing Schedule:
 
