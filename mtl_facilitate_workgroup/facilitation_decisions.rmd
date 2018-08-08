@@ -41,6 +41,7 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 	d. more nuanced understanding of time (e.g., worse before better, short-run, long run)  
 7. If there is a insight just from data this should be recorded as a finding too. Example is in one team last time we noted that 80% of their Service Proportion is Adjunctive and MM, our experiments are focused on other services. This is good to note in findings.  
 8. Using language of "separate decision" (instead of independent decision) to describe different decision points in the model  
+9. Naming files as 'human readable' and 'machine readable'  
 
 **Five Domains of the Facilitation Checklist:**
 1. Pre emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead  
@@ -59,9 +60,8 @@ EMAIL to include:  We decided subject line with do/done list (the "3 Ds")
 We decided to divvy co-facilitation lead roles into 1) (in green in schedule) to be the pre/post lead for all pre/post tasks; 2) (in yellow in schedule) live team meeting lead session. Both the live and pre/post lead should carve out the full 2 hours for their scheduled team meetings.
 
 	
-MTL Facilitate: 
 
-Naming files as 'human readable' and 'machine readable'
+
 
 This means using all lowercase, no spaces (use underscores) and still captures the content of the file to anyone
 Let's continue to use this across Forio, GitHub, TeamPSD directory, etc.
@@ -81,28 +81,4 @@ Consider various workforce issues even beyond the team lead (i.e. harassment) an
 Draft knowledge and skills requirement for role of team lead
 
 Clarify how to use questions to facilitate learning for both asynchronous and synchronous learning
-
-Next Step: Try to clarify which items in each session are absolutely necessary for the session to still be Modeling to Learn
-
-Asking teams what they want out of the modeling to learn resources - have them think about it independently and then find a way for people to align visions together; leading to a "shared vision" by end of session
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
