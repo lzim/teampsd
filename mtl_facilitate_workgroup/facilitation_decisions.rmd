@@ -82,3 +82,8 @@ Pre/Post Email Publishing Schedule:
 3. Lead Co-facilitators review by 12noon Pacific/3PM Eastern on Fridays, for scheduled delivery to teams 8AM on Mondays
 
 EMAIL to include:  We decided subject line with do/done list (the "3 Ds")
+
+We decided to divvy co-facilitation lead roles into 1) (in green in schedule) to be the pre/post lead for all pre/post tasks; 2) (in yellow in schedule) live team meeting lead session. Both the live and pre/post lead should carve out the full 2 hours for their scheduled team meetings.
+
+	
+MTL Facilitate: Using language of "separate decision" (instead of independent decision) to describe different decision points in the model
