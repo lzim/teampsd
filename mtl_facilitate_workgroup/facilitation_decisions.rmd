@@ -59,5 +59,26 @@ MTL Facilitate: Facilitators need to train learners to actively SAVE and LOG OFF
 
 3. We will use facilitator initials to identify coments made by facilitators, e.g., "lz"
 
+Co-facilitators need to upload de-identified Team Meeting Notes to the Qualitative Workgroup Folder on GitHub (co-facilitators to upload during the post team meeting debrief): https://github.com/lzim/teampsd/tree/master/qual_workgroup/team_meeting_notes
 
+Five Domains of the Facilitation Checklist:
 
+1. Pre emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead
+
+2. Pre meeting checklist (log-in to Lucid w/Co-Facilitation 30 minutes before) - Pre/Post Lead - For us now this will be in the Lucid Team Meeting 
+
+3. During LIve Team Meeting (*need a Live session checklist) - Live Lead 
+
+4. Post debrief checklist (30 minutes after) - Pre/Post Lead
+
+5. Post emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead - For us now this will be in the Lucid Team Meeting 
+
+Pre/Post Email Publishing Schedule:
+
+1. Draft emails for the next week (pre - week of Team Meeting or post - week without meeting) by end of Co-Facilitation Meeting
+
+2. Stacey to create .html emails by COB on Wednesdays and upload to GitHub
+
+3. Lead Co-facilitators review by 12noon Pacific/3PM Eastern on Fridays, for scheduled delivery to teams 8AM on Mondays
+
+EMAIL to include:  We decided subject line with do/done list (the "3 Ds")
