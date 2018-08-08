@@ -1,5 +1,3 @@
-	
-
 1. If there is a insight just from data this should be recorded as a finding too. Example is in one team last time we noted that 80% of their Service Proportion is Adjunctive and MM, our experiments are focused on other services. This is good to note in findings.  
 
 2. It helps to bullet the findings, it makes it easier for learners  
@@ -35,4 +33,31 @@ Re-cap decisions this week
 	
 James is keeping the most current version of the Master here: https://github.com/lzim/teampsd/tree/master/resources/master_crosswalk
 
-The column labeled "Standard" is the Standard definition for that variable. If the variable in the same row in your MTL resource is purple, then it means you need to update your resource to make it consistent with the standard.
+The column labeled "Standard" is the Standard definition for that variable. If the variable in the same row in your MTL resource is purple, then it means you need to update your resource to make it consistent with the standard.  
+
+	
+***MTL Facilitation Principles***
+
+Facilitators should spend 1 hour debriefin to also plan facilitation for the next team meeting.
+This means setting up for 30 minutes pre (review script; technology); 60 minute team session; 60 minutes post debrief and plan; 30 minutes documentation/emails
+***Co-facilitation Principle***
+
+1. When taking notes, number the unique pieces of content covered, turns in the conversation,  using a numbered list. This will help us to understand the typical content covered:
+
+- with timestamps how long specific topics take
+
+- across differences in teams and differences in duration of team meetings
+
+The base case run will have all team data on. We will have all loops on in the basecase run.
+
+MTL Facilitate: Facilitators need to train learners to actively SAVE and LOG OFF when they are done using Sim
+
+	
+1. Teams will be numbered/de-identified according to their world mapping in Epicenter; In notes no one should be idenified
+
+2. We should use "TLead" to capture comments/questions from the Team Lead.
+
+3. We will use facilitator initials to identify coments made by facilitators, e.g., "lz"
+
+
+
