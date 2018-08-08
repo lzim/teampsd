@@ -35,7 +35,7 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 8. Using language of "separate decision" (instead of independent decision) to describe different decision points in the model  
 9. Naming files as 'human readable' and 'machine readable'. This means using all lowercase, no spaces (use underscores) and still captures the content of the file to anyone. Let's continue to use this across Forio, GitHub, TeamPSD directory, etc. 
 10. Approved description of AGG service proportions: Of patients who engage with the team in a given service, these are the proportions of patients with at least one visit with the primary diagnosis shown.  Patients with a given diagnosis may engage in multiple services, and patients in a given service may be seen for different primary diagnoses.  Therefore, percentages may sum to more than one in both rows and columns. (pct)   
-11. 3. Stripped for rates any reference to module "ending rate" not "ending CC rate" for flows, but for units in stocks we'll keep the module detail (appointments in CC, patients in CC). - ***THE EXCEPTION IS AGG, where you need to pull up the rates by service.*** 
+11. Stripped for rates any reference to module "ending rate" not "ending CC rate" for flows, but for units in stocks we'll keep the module detail (appointments in CC, patients in CC). - ***THE EXCEPTION IS AGG, where you need to pull up the rates by service.*** 
 12. file names "yyyy_mm_dd_hhmm" (all lower case)  
 
 **Five Domains of the Facilitation Checklist:**
