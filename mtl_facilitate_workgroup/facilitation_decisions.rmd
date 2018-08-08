@@ -87,3 +87,11 @@ We decided to divvy co-facilitation lead roles into 1) (in green in schedule) to
 
 	
 MTL Facilitate: Using language of "separate decision" (instead of independent decision) to describe different decision points in the model
+
+Naming files as 'human readable' and 'machine readable'
+
+This means using all lowercase, no spaces (use underscores) and still captures the content of the file to anyone
+Let's continue to use this across Forio, GitHub, TeamPSD directory, etc.
+
+	
+Set up structure for handling potential team lead conflicts i.e. procedures to replace/demote a team lead or having a co-lead/alternate lead structure
