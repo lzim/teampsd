@@ -39,7 +39,7 @@ b. closing feedback loops
 c. system behavior over time (description of output linked to system causes)  
 d. more nuanced understanding of time (e.g., worse before better, short-run, long run)  
 
-1. If there is a insight just from data this should be recorded as a finding too. Example is in one team last time we noted that 80% of their Service Proportion is Adjunctive and MM, our experiments are focused on other services. This is good to note in findings.  
+7. If there is a insight just from data this should be recorded as a finding too. Example is in one team last time we noted that 80% of their Service Proportion is Adjunctive and MM, our experiments are focused on other services. This is good to note in findings.  
 
 
 
