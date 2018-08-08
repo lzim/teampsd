@@ -1,0 +1,19 @@
+	
+
+1. If there is a insight just from data this should be recorded as a finding too. Example is in one team last time we noted that 80% of their Service Proportion is Adjunctive and MM, our experiments are focused on other services. This is good to note in findings.  
+
+2. It helps to bullet the findings, it makes it easier for learners  
+
+3. Keep an eye on recording and moving the team toward higher level systems thinking in the FINDINGS text box, not just the HYPOTHESIS text box.  
+
+4 Dimesions of Systems Thinking (codebook):  
+
+a. multivariable complexity of relationship  
+
+b. closing feedback loops  
+
+c. system behavior over time (description of output linked to system causes)  
+
+d. more nuanced understanding of time (e.g., worse before better, short-run, long run)  
+
+8. Approved description of AGG service proportions: Of patients who engage with the team in a given service, these are the proportions of patients with at least one visit with the primary diagnosis shown.  Patients with a given diagnosis may engage in multiple services, and patients in a given service may be seen for different primary diagnoses.  Therefore, percentages may sum to more than one in both rows and columns. (pct)   
