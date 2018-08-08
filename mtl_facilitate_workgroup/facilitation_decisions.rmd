@@ -95,3 +95,41 @@ Let's continue to use this across Forio, GitHub, TeamPSD directory, etc.
 
 	
 Set up structure for handling potential team lead conflicts i.e. procedures to replace/demote a team lead or having a co-lead/alternate lead structure
+
+	
+Build in structure for self-assessment and check-in with team lead throughout course as well as consider building in assessment items for the team to assses their internal team lead (and not just the external facilitator)
+
+	
+Set up workflow/best practices for external facilitators to build relationships with local leadership/clinic directors
+
+	
+Consider various workforce issues even beyond the team lead (i.e. harassment) and have clear framework for how we will approach these issues
+
+Draft knowledge and skills requirement for role of team lead
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
