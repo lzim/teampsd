@@ -19,7 +19,7 @@ d. more nuanced understanding of time (e.g., worse before better, short-run, lon
 
 Re-cap decisions this week
 
-1. plural/time (patients/week or pts/wk) with the one exception for units of appointments, which is plural in word form, and singular in standard abbreviation for unit form "appt"
+1. 
 
 2. file names "yyyy_mm_dd_hhmm" (all lower case)
 
@@ -35,20 +35,21 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 1. When taking notes, number the unique pieces of content covered, turns in the conversation,  using a numbered list. This will help us to understand the typical content covered:  
 - with timestamps how long specific topics take  
 - across differences in teams and differences in duration of team meetings  
-2. Teams will be numbered/de-identified according to their world mapping in Epicenter; In notes no one should be identified
+2. Teams will be numbered/de-identified according to their world mapping in Epicenter; In notes no one should be identified  
+3. We should use "TLead" to capture comments/questions from the Team Lead.
+4. We will use facilitator initials to identify coments made by facilitators, e.g., "lz"
 
 **Live**  
 1. The base case run will have all team data on.  
 2. We will have all loops on in the basecase run.  
 3. Facilitators need to train learners to actively SAVE and LOG OFF when they are done using Sim.  
+4. plural/time (patients/week or pts/wk) with the one exception for units of appointments, which is plural in word form, and singular in standard abbreviation for unit form "appt"
 
 
 	
 
 
-2. We should use "TLead" to capture comments/questions from the Team Lead.
 
-3. We will use facilitator initials to identify coments made by facilitators, e.g., "lz"
 
 Co-facilitators need to upload de-identified Team Meeting Notes to the Qualitative Workgroup Folder on GitHub (co-facilitators to upload during the post team meeting debrief): https://github.com/lzim/teampsd/tree/master/qual_workgroup/team_meeting_notes
 
