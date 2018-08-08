@@ -31,7 +31,7 @@ EQ Booking Rate=
 	~	appt/wk
 	~	The booking appointment rate depends on the number of existing patients \
 		seen by the team (i.e., the quotient of the total patients in care and \
-		their average return visit interval) and the number of new patients booked \
+		their average Return-to-clinic Visit Interval [RVI]) and the number of new patients booked \
 		each week.
 	|
 
@@ -39,7 +39,7 @@ RVI used when Completing=
 	DELAY FIXED(RVI used when Booking, RVI used when Booking, RVI used when Booking)
 	~	wks
 	~	Appointments are completed based on the RVI in use at the time they were \
-		booked.  Any change in the RVI does not affect appointments already \
+		booked.  Any change in the Return-to-clinic Visit Interval (RVI) does not affect appointments already \
 		booked, only appointments being booked (i.e., appointments are not \
 		cancelled and rescheduled when RVI changes).
 	|
@@ -86,7 +86,7 @@ EQ RVI used when Booking=
 	~	wk
 	~	The team's goal to see each patient in this service once in every x weeks. \
 		The default value for return visit interval is based on the team'a data. \
-		If the user inputs their desired RVI, then the model uses that value \
+		If the user inputs their desired Return-to-clinic Visit Interval (RVI), then the model uses that value \
 		instead.
 	|
 
@@ -94,7 +94,7 @@ Desired Appointment Completion Rate=
 	ZIDZ(Appointments in CC,RVI used when Completing)
 	~	appt/wk
 	~	The desired completion rate depends on the number of appointments to \
-		complete and the return visit interval that was used when those \
+		complete and the Return-to-clinic Visit Interval (RVI) that was used when those \
 		appointments were booked.
 	|
 
@@ -188,7 +188,7 @@ EQ Actual RVI=
 		waiting and how many start care coordination each week (based on \
 		Little’s Law).  If there is more demand for completing appointments than \
 		there is available capacity, then actual return visit interval will \
-		increase, even if the desired RVI doesn't change.  If the completing \
+		increase, even if the desired Return-to-clinic Visit Interval (RVI) doesn't change.  If the completing \
 		appointment rate drops to zero, then the wait is technically infinite. In \
 		the model, appointments are never cancelled due to high wait times, but \
 		for ease of display, Actual RVI is capped at 12 months (52 weeks).
@@ -210,7 +210,7 @@ EQ Appointments in CC= INTEG (
 	~	appt
 	~	Total number of appointments booked, initial value set 1, to show how the \
 		schedule fills up when the team books more appointments than they need to \
-		complete (based on the number of appointments on the books and the RVI \
+		complete (based on the number of appointments on the books and the Return-to-clinic Visit Interval (RVI) \
 		used when booking them).
 	|
 
@@ -246,7 +246,7 @@ RVI used when Booking=
 	~	wks
 	~	The team's goal to see each patient in this service once in every x weeks. \
 		The default value for return visit interval is based on the team's data. \
-		If the user inputs their desired RVI, then the model uses that value \
+		If the user inputs their desired Return-to-clinic Visit Interval (RVI), then the model uses that value \
 		instead.
 	|
 
@@ -314,7 +314,7 @@ Starting Rate=
 		patients can only start if there are more team hours available than all \
 		their current patients use.  The user can also fix the start rate to the \
 		average estimated from the team's data, which can be helpful in assessing \
-		the supply, RVI, true missed appointment %, etc., needed to match that \
+		the supply, Return-to-clinic Visit Interval (RVI), true missed appointment %, etc., needed to match that \
 		real-world demand.
 	|
 
@@ -341,7 +341,7 @@ Use Team Data for Starting Rate=
 	~	Switch to control if patient starts are based on team current state \
 		(default set to ignore current state, and instead match patient starts to \
 		allocation of appointment capacity).  "Zero" = if all existing patients \
-		can be seen at the desired RVI, then only start new patients if there are \
+		can be seen at the desired Return-to-clinic Visit Interval (RVI), then only start new patients if there are \
 		available appointment slots, 1 = patient start rate set by the team's \
 		data, regardless of whether or not there is enough supply.
 	|
@@ -439,7 +439,7 @@ Actual RVI=
 		waiting and how many start care coordination each week (based on \
 		Little’s Law).  If there is more demand for completing appointments than \
 		there is available capacity, then actual return visit interval will \
-		increase, even if the desired RVI doesn't change.  If the completing \
+		increase, even if the desired Return-to-clinic Visit Interval (RVI) doesn't change.  If the completing \
 		appointment rate drops to zero, then the wait is technically infinite. In \
 		the model, appointments are never cancelled due to high wait times, but \
 		for ease of display, Actual RVI is capped at 12 months (52 weeks).
@@ -457,7 +457,7 @@ Appointments in CC= INTEG (
 	~	appt
 	~	Total number of appointments booked, initial value set 1, to show how the \
 		schedule fills up when the team books more appointments than they need to \
-		complete (based on the number of appointments on the books and the RVI \
+		complete (based on the number of appointments on the books and the Return-to-clinic Visit Interval (RVI) \
 		used when booking them).
 	|
 
