@@ -1,22 +1,14 @@
-
-
-5. Approved description of AGG service proportions: Of patients who engage with the team in a given service, these are the proportions of patients with at least one visit with the primary diagnosis shown.  Patients with a given diagnosis may engage in multiple services, and patients in a given service may be seen for different primary diagnoses.  Therefore, percentages may sum to more than one in both rows and columns. (pct)   
-
-	
 **Decisions to Finalize**  
 1. Need to TEST/PREP in Version 1.52 to see the new functions for pulling up old text and for reading in the last experiment runs, new functions for saving runs  
 2. Compare Services does not show results when you're only looking at previous runs. After RUN and SAVE for the current run it does.  
 3. If you start a session showing what you did last time by copying the text from last time in to a fresh run (reset) - BECAUSE - you lose any text that you workshop if you revise the text, and haven't reset, but then need to reset for a new run.  
-
-2. file names "yyyy_mm_dd_hhmm" (all lower case)
-
-3. Stripped for rates any reference to module "ending rate" not "ending CC rate" for flows, but for units in stocks we'll keep the module detail (appointments in CC, patients in CC). - ***THE EXCEPTION IS AGG, where you need to pull up the rates by service.***
 
 **Most current version Master Crosswalk here:** https://github.com/lzim/teampsd/tree/master/resources/master_crosswalk
 The column labeled "Standard" is the Standard definition for that variable. If the variable in the same row in your MTL resource is purple, then it means you need to update your resource to make it consistent with the standard.  
 
 **Planning**  
 1. Facilitators should spend 1 hour debriefing to also plan facilitation for the next team meeting. This means setting up for 30 minutes pre (review script; technology); 60 minute team session; 60 minutes post debrief and plan; 30 minutes documentation/emails  
+2. We decided to divvy co-facilitation lead roles into 1) (in green in schedule) to be the pre/post lead for all pre/post tasks; 2) (in yellow in schedule) live team meeting lead session. Both the live and pre/post lead should carve out the full 2 hours for their scheduled team meetings.  
 
 **Tracking Session**  
 1. When taking notes, number the unique pieces of content covered, turns in the conversation,  using a numbered list. This will help us to understand the typical content covered:  
@@ -42,6 +34,9 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 7. If there is a insight just from data this should be recorded as a finding too. Example is in one team last time we noted that 80% of their Service Proportion is Adjunctive and MM, our experiments are focused on other services. This is good to note in findings.  
 8. Using language of "separate decision" (instead of independent decision) to describe different decision points in the model  
 9. Naming files as 'human readable' and 'machine readable'. This means using all lowercase, no spaces (use underscores) and still captures the content of the file to anyone. Let's continue to use this across Forio, GitHub, TeamPSD directory, etc. 
+10. Approved description of AGG service proportions: Of patients who engage with the team in a given service, these are the proportions of patients with at least one visit with the primary diagnosis shown.  Patients with a given diagnosis may engage in multiple services, and patients in a given service may be seen for different primary diagnoses.  Therefore, percentages may sum to more than one in both rows and columns. (pct)   
+11. 3. Stripped for rates any reference to module "ending rate" not "ending CC rate" for flows, but for units in stocks we'll keep the module detail (appointments in CC, patients in CC). - ***THE EXCEPTION IS AGG, where you need to pull up the rates by service.*** 
+12. file names "yyyy_mm_dd_hhmm" (all lower case)  
 
 **Five Domains of the Facilitation Checklist:**
 1. Pre emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead  
@@ -53,12 +48,8 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 **Pre/Post Email Publishing Schedule:**  
 1. Draft emails for the next week (pre - week of Team Meeting or post - week without meeting) by end of Co-Facilitation Meeting  
 2. Stacey to create .html emails by COB on Wednesdays and upload to GitHub  
-3. Lead Co-facilitators review by 12noon Pacific/3PM Eastern on Fridays, for scheduled delivery to teams 8AM on Mondays  
-
-EMAIL to include:  We decided subject line with do/done list (the "3 Ds")
-
-We decided to divvy co-facilitation lead roles into 1) (in green in schedule) to be the pre/post lead for all pre/post tasks; 2) (in yellow in schedule) live team meeting lead session. Both the live and pre/post lead should carve out the full 2 hours for their scheduled team meetings.
-
+3. Lead Co-facilitators review by 12noon Pacific/3PM Eastern on Fridays, for scheduled delivery to teams 8AM on Mondays
+4. Email to include:  We decided subject line with do/done list (the "3 Ds")
 	
 **Team Management**  
 1. Set up structure for handling potential team lead conflicts i.e. procedures to replace/demote a team lead or having a co-lead/alternate lead structure  
@@ -66,5 +57,3 @@ We decided to divvy co-facilitation lead roles into 1) (in green in schedule) to
 3. Set up workflow/best practices for external facilitators to build relationships with local leadership/clinic directors  
 4. Consider various workforce issues even beyond the team lead (i.e. harassment) and have clear framework for how we will approach these issues  
 5. Draft knowledge and skills requirement for role of team lead  
-
-
