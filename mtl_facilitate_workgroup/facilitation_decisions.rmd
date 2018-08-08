@@ -25,6 +25,7 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 2. Teams will be numbered/de-identified according to their world mapping in Epicenter; In notes no one should be identified  
 3. We should use "TLead" to capture comments/questions from the Team Lead.
 4. We will use facilitator initials to identify coments made by facilitators, e.g., "lz"
+5. Co-facilitators need to upload de-identified Team Meeting Notes to the Qualitative Workgroup Folder on GitHub (co-facilitators to upload during the post team meeting debrief): https://github.com/lzim/teampsd/tree/master/qual_workgroup/team_meeting_notes  
 
 **Live**  
 1. The base case run will have all team data on.  
@@ -33,23 +34,13 @@ The column labeled "Standard" is the Standard definition for that variable. If t
 4. plural/time (patients/week or pts/wk) with the one exception for units of appointments, which is plural in word form, and singular in standard abbreviation for unit form "appt"  
 5. It helps to bullet the findings, it makes it easier for learners  
 6. Keep an eye on recording and moving the team toward higher level systems thinking in the FINDINGS text box, not just the HYPOTHESIS text box.  
-*Dimesions of Systems Thinking (codebook)*
-a. multivariable complexity of relationship  
-b. closing feedback loops  
-c. system behavior over time (description of output linked to system causes)  
-d. more nuanced understanding of time (e.g., worse before better, short-run, long run)  
-
+	*Dimesions of Systems Thinking (codebook)*  
+	a. multivariable complexity of relationship  
+	b. closing feedback loops  
+	c. system behavior over time (description of output linked to system causes)  
+	d. more nuanced understanding of time (e.g., worse before better, short-run, long run)  
 7. If there is a insight just from data this should be recorded as a finding too. Example is in one team last time we noted that 80% of their Service Proportion is Adjunctive and MM, our experiments are focused on other services. This is good to note in findings.  
-
-
-
-
-	
-
-
-
-
-Co-facilitators need to upload de-identified Team Meeting Notes to the Qualitative Workgroup Folder on GitHub (co-facilitators to upload during the post team meeting debrief): https://github.com/lzim/teampsd/tree/master/qual_workgroup/team_meeting_notes
+8. Using language of "separate decision" (instead of independent decision) to describe different decision points in the model  
 
 **Five Domains of the Facilitation Checklist:**
 1. Pre emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead  
@@ -58,20 +49,17 @@ Co-facilitators need to upload de-identified Team Meeting Notes to the Qualitati
 4. Post debrief checklist (30 minutes after) - Pre/Post Lead  
 5. Post emails (completed according to the pre/post email publishing schedule) - Pre/Post Lead - For us now this will be in the Lucid Team Meeting  
 
-Pre/Post Email Publishing Schedule:
-
-1. Draft emails for the next week (pre - week of Team Meeting or post - week without meeting) by end of Co-Facilitation Meeting
-
-2. Stacey to create .html emails by COB on Wednesdays and upload to GitHub
-
-3. Lead Co-facilitators review by 12noon Pacific/3PM Eastern on Fridays, for scheduled delivery to teams 8AM on Mondays
+**Pre/Post Email Publishing Schedule:**  
+1. Draft emails for the next week (pre - week of Team Meeting or post - week without meeting) by end of Co-Facilitation Meeting  
+2. Stacey to create .html emails by COB on Wednesdays and upload to GitHub  
+3. Lead Co-facilitators review by 12noon Pacific/3PM Eastern on Fridays, for scheduled delivery to teams 8AM on Mondays  
 
 EMAIL to include:  We decided subject line with do/done list (the "3 Ds")
 
 We decided to divvy co-facilitation lead roles into 1) (in green in schedule) to be the pre/post lead for all pre/post tasks; 2) (in yellow in schedule) live team meeting lead session. Both the live and pre/post lead should carve out the full 2 hours for their scheduled team meetings.
 
 	
-MTL Facilitate: Using language of "separate decision" (instead of independent decision) to describe different decision points in the model
+MTL Facilitate: 
 
 Naming files as 'human readable' and 'machine readable'
 
