@@ -54,13 +54,20 @@ pck_missing <- data.frame(missing = c("processx", as.vector(others_clean$x[1:4])
                                     "contains .MID file, permission denied", 
                                     "requires rgdal",
                                     "requires rgdal and tigris"))
+site <- NULL
+for (i in 1:nrow(pck_missing)) {
+  site[i] <- paste0("https://cran.r-project.org/web/packages/", 
+                 pck_missing$missing[i], "/index.html")
+}
 
+pck_missing$site <- site
 
 ############
-## Part2 : Install missing packages
+## Part2 : Packages Status
 ############
 library(openxlsx)
-note <- "Requires IT (Mike) to install"
+note1 <- "Workbook created using Rpackage_status.R. Code needs to be rerun with each new install."
+note2 <- "Requires IT (Mike) to install"
 
 wb <- createWorkbook("packages")
 headerStyle <- createStyle(textDecoration = "bold", border = "Bottom", 
@@ -69,18 +76,20 @@ colstyle <- createStyle(fgFill = "#f3cf45", fontColour = "black")
 
 addWorksheet(wb, "Packages")
 #Add style
-addStyle(wb, "Packages", colstyle, rows = 1:1, cols = 1:1)
-addStyle(wb, "Packages", headerStyle, rows = 3:3, cols = 1:3)
-addStyle(wb, "Packages", colstyle, rows = 4:4, cols = 2:3)
-addStyle(wb, "Packages", colstyle, rows = 9:9, cols = 2:3)
+addStyle(wb, "Packages", colstyle, rows = 2:2, cols = 1:1)
+addStyle(wb, "Packages", headerStyle, rows = 4:4, cols = 1:4)
+addStyle(wb, "Packages", colstyle, rows = 5:5, cols = 2:4)
+addStyle(wb, "Packages", colstyle, rows = 10:10, cols = 2:4)
 #Add Column Width
-setColWidths(wb, "Packages", cols = 1:3, widths = c(27, 27, 40))
+setColWidths(wb, "Packages", cols = 1:4, widths = c(27, 27, 40, 71))
 # Write Data
-writeData(wb, "Packages", note, startRow = 1, startCol = 1)
-writeData(wb, "Packages", "Package installed", startRow = 3, startCol = 1)
-writeData(wb, "Packages", "Package missing", startRow = 3, startCol = 2)
-writeData(wb, "Packages", "Missing Package notes", startRow = 3, startCol = 3)
-writeData(wb, "Packages", installed$Package, startRow = 4, startCol = 1, colNames = FALSE, rowNames = FALSE )
-writeData(wb, "Packages", pck_missing, startRow = 4, startCol = 2, colNames = FALSE, rowNames = FALSE )
+writeData(wb, "Packages", note1, startRow = 1, startCol = 1)
+writeData(wb, "Packages", note2, startRow = 2, startCol = 1)
+writeData(wb, "Packages", "Package installed", startRow = 4, startCol = 1)
+writeData(wb, "Packages", "Package missing", startRow = 4, startCol = 2)
+writeData(wb, "Packages", "Missing Package notes", startRow = 4, startCol = 3)
+writeData(wb, "Packages", "Missing Package Download Site", startRow = 4, startCol = 4)
+writeData(wb, "Packages", installed$Package, startRow = 5, startCol = 1, colNames = FALSE, rowNames = FALSE )
+writeData(wb, "Packages", pck_missing, startRow = 5, startCol = 2, colNames = FALSE, rowNames = FALSE )
 saveWorkbook(wb, "..\\Rpackages\\packages_status.xlsx", overwrite = TRUE)
 
