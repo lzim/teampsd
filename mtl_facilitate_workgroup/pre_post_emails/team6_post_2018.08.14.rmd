@@ -39,5 +39,5 @@ Insert text | Insert text
 [Adobe Connect](http://mtl.how/live)
 
 <!-- Contact Us -->
-[![Image name](https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png)](mailto:Lindsey.Zimmerman@va.gov; Stacey.Park2@va.gov) 
+[![Image name](https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png)](mailto: Stacey.Park2@va.gov) 
 [Contact Us](http://mtl.how/live)
