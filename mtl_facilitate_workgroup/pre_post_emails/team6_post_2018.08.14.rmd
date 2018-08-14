@@ -42,7 +42,7 @@ Insert text | Insert text
 [![Image name](https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png)](mailto: Stacey.Park2@va.gov) 
 [Contact Us](stacey.park2@va.gov)
 
-    <a href = "mtl.how/sim">
+    <a = "mtl.how/sim">
     <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_book_853869_598527.png"
     height = "50" width = "50" style = "border: 0;">
     <br>
