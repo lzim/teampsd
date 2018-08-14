@@ -23,6 +23,8 @@ Insert text | Insert text
 
 
 ***
+
+[![Image name](image.png)](http://www.host.com/link.html)
 <!-- Help Links -->
 <tr style = "text-align: center; color: #C4262E;">
 
