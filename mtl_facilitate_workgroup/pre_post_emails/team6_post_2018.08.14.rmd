@@ -28,7 +28,7 @@ Insert text | Insert text
 [mtl.how/data](http://mtl.how/data)
 
 <!-- Sim UI -->
-[![Image name](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_003F72_598527.png)](http://mtl.how/sim) 
+[![Image name](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_598527.png)](http://mtl.how/sim) 
 [mtl.how/sim](http://mtl.how/sim)
 
 
