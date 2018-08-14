@@ -40,4 +40,4 @@ Insert text | Insert text
 
 <!-- Contact Us -->
 [![Image name](https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png)](mailto: Stacey.Park2@va.gov) 
-[Contact Us](http://mtl.how/live)
+[Contact Us](mailto: lindsey.zimmerman@va.gov; stacey.park2@va.gov)
