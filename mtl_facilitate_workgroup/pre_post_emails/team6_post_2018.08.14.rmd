@@ -22,25 +22,13 @@ style="display: block; margin: 30;" />
 ## We decided...
 in a way that reflects common team aspirations.  
 
-
-Done | Do
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
 --- | ---
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "135" width = "135"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "150" width = "150">
-1. | 1.
-2. | 2.
+Done | Do
+1. Insert text | 1. Insert text 
+2. Insert text | 2. Insert text
 
 
- 
-
-### Learning Objectives
-
-1.
-2.
-3.
-4.
-5.
-
-### Agenda At-A-Glance {Insert for each session: Icon/topic; Instructor; Duration}
 
 ### Resources
 {Insert list of materials, links, software, handouts, etc., needed for the session}
