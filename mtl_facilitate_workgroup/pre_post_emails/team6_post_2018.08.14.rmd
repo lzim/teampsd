@@ -1,7 +1,13 @@
 <!-- MTL Logo, HTML img tag -->
 <center>
   
+  !(https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500">  
 
+
+Roses are <span style="color:red">red</span>, 
+violets are <span style="color:blue">blue</span>.
 <center>
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png)
