@@ -24,6 +24,9 @@ Insert text | Insert text
 
 ***
 <!-- Resources Links -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png" height = "50" width = "50"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_598527.png" height = "50" width = "50"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png" height = "50" width = "50"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "50" width = "50">
+
+
 ![](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png){width=10%}
 
 
