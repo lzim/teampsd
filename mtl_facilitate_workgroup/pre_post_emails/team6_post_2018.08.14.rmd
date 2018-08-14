@@ -23,10 +23,9 @@ Insert text | Insert text
 
 
 ***
+<!-- Data UI --> 
+[![Image name](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png)](http://mtl.how/data) [mtl.how/data](http://mtl.how/data)
 
-[![Image name](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png)](http://mtl.how/data)
-<!-- Help Links -->
-<tr style = "text-align: center; color: #C4262E;">
 
 <!-- Data UI -->
   <td colspan = 1>
