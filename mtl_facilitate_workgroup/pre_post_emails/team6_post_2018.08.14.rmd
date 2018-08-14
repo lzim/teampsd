@@ -25,13 +25,10 @@ in a way that reflects common team aspirations.
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
 --- | ---
 Done | Do
-1. Insert text | 1. Insert text 
-2. Insert text | 2. Insert text
+Insert text | Insert text 
+Insert text | Insert text
 
 
-
-### Resources
-{Insert list of materials, links, software, handouts, etc., needed for the session}
 
 <!--SharePoint icon-->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
@@ -42,14 +39,6 @@ Team Data Sharepoint: https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/VISN21/64
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png"
      height = "75" width = "75" style = "border: 0;">  
 Adobe Connect: https://va-eerc-ees.adobeconnect.com/team_psd/
-
-### Preparation
-{Insert things to review, set up, confirm, or communicate in advance of the session}
-
-### Follow-up
-
-## FACILITATION SCRIPT
-
 
 
 
