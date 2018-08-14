@@ -75,63 +75,13 @@ Adobe Connect: https://va-eerc-ees.adobeconnect.com/team_psd/
 
 ## FACILITATION SCRIPT
 
-<!-- Done List Icon -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
-     height = "135" width = "135">
 
-### Done 
-* Team Lead Established
-* Team Meeting 
 
-<!-- Do List Icon -->     
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
-     height = "150" width = "150">
-     
-### Do
-* Team Learning Goal
-* Shared Vision
-
-### Prior Team Learning Prompt (5 minutes) - We want to set ground rules for our learning sessions too:  
-
-Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when your learned a clinic procedure, and idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an ‘aha!’ or something finally made sense, or you could finally do something your couldn’t before.  
-
-Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list:  
-
-*Most likely the following is true:*   
-* The learning was hands-on and experiential
-* The learning connected to the real world
-* The learning experience was personally relevant, interesting, useful, or meaningful to the learner
-* The learner had choices, shared authority, control, and responsibility
-* The learner learned from and taught others
-* The learner had the support
-* The learning was individualized. If there were standards for the work, the learner could meet them in his or her own way
-* It was fun or left the learner feeling good
-* The experience helped the learner understand him or herself
-* The learner had success and accomplishment with challenging work
-
-### Best Case Scenario - Create team language for learning, aligning team decisions when there are roadblocks to consensus:
-Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings, think about the key people you rely on outside the team, the information and data you use to coordinate care plans, and the feelings you associate with it.  
-
-Now picture the team learning between now and March in a ‘best case’ scenario, where things are happening in the team the way that you would ideally like them to be. This is your “dream team” situation.  
-
-### Personal Vision (5 minutes)  
-* What is team communication like?
-* How does the team relate to one another?
-* How is VA data used?
-* How are decisions, plans and changes made?
-
-### Review in Team (5 minutes)  
-* What stands out to you?
-* Why did we choose these?
-* What makes them so relevant or important to us?
-* Can we address them all (bearing in mind our resources and time)?
-* If not, which would we most like to address (align around), and why?
 
 ### Done | ### Do
 ------------- | -------------
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "135" width = "135"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
      height = "150" width = "150">
-
 1. | 1.
 2. | 2.
 
