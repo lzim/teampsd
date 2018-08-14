@@ -27,33 +27,9 @@ Insert text | Insert text
 [![Image name](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png)](http://mtl.how/data)  
 [mtl.how/data](http://mtl.how/data)
 
-
-<!-- Data UI -->
-  <td colspan = 1>
-    <a href = "mtl.how/data">
-    <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
-     height = "50" width = "50" style = "border: 0;">
-    <br>
-    <a href = "mtl.how/data"
-       style = "color: #598527;">mtl.how/data</a>    
-    <br>
-    <a href = "mtl.how/data" 
-       style = "color: #598527;">Data UI - Use IE</a> 
-  </td>
-
-
 <!-- Sim UI -->
-  <td colspan = 1>
-    <a href = "mtl.how/sim">
-    <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_book_853869_598527.png"
-    height = "50" width = "50" style = "border: 0;">
-    <br>
-    <a href = "mtl.how/sim"
-       style = "color: #598527;">mtl.how/sim</a>  
-    <br>  
-    <a href = "mtl.how/sim"
-       style = "color: #598527;">Sim UI - Use Chrome</a>
-  </td>
+[![Image name](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_003F72_598527.png)](http://mtl.how/sim) 
+[mtl.how/sim](http://mtl.how/sim)
 
 
 
