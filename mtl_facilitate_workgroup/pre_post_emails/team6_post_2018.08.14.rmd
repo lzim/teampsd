@@ -28,6 +28,11 @@ Insert text | Insert text
 [mtl.how/data](http://mtl.how/data)
 [Data UI - Use IE](http://mtl.how/data)
 
+
+<div style="width:300px; height:200px">
+![Image](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png)
+</div>
+
 <!-- Sim UI -->
 [![Image name](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_598527.png)](http://mtl.how/sim) 
 [mtl.how/sim](http://mtl.how/sim)
