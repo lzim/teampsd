@@ -24,7 +24,7 @@ Insert text | Insert text
 
 ***
 <!-- Data UI --> 
-![](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png)] {width=50px}
+![](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png)]{width=100px}
 
 
 (http://mtl.how/data)  
