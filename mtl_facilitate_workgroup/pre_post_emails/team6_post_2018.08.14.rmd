@@ -3,9 +3,9 @@
      height = "130" width = "500">  
 
 
-**Team Learning Goal:**
-**Next Meeting:** 
-**Meeting Info:** 
+**Team Learning Goal:**  
+**Next Meeting:**  
+**Meeting Info:**     
 
 
 <!-- Learning Objectives Icon -->
@@ -24,11 +24,11 @@ Insert text | Insert text
 
 ***
 
-[![Image name](image.png)](http://www.host.com/link.html)
+[![Image name](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png)](http://mtl.how/data)
 <!-- Help Links -->
 <tr style = "text-align: center; color: #C4262E;">
 
-<!-- Data -->
+<!-- Data UI -->
   <td colspan = 1>
     <a href = "mtl.how/data">
     <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png"
