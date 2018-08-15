@@ -1,0 +1,45 @@
+20180815_team1_jbnotes
+1:01 Getting started
+Tmember signing in
+1:02 TR: Overview of session. By end want you to have time to drive model, share screen, make sure you’re prepared to run. DK: In wind-down for MTL be thinking about what you’d like to run.
+1:04 TR: Pulls up last experiment and (?) to show Q/H/F/D. Does it ring a bell?
+Tmemb: Yes.
+TR: This is a big change, from 4 to 50. Tmemb: Yes, we’re going big. TR: So how many new patients do you think you’ll be able to start?
+Tmemb: Question about definition of graduate. 
+TR: shows meaning. DK: reminds to show “I”
+Tmembs discuss. How many more could come in with graduation: it depends. There’s not always a wait list. Sometimes there might not be a provider with availability. Other things happen; I did an intake with a patient who wants to start in a month. Others might start next week vs this because we’re on this call and not discussing them.
+TR: For the model we’ve taken all that “noise” out so you can just see the 
+Tmemb: I’m going to say we’ll see 5 new patients/wk.
+TR: How many new patients do you see/wk?
+Tmemb: We’re the wrong people to ask. Other Tmemb started in our clinic last week, and I don’t see clients in our clinic. Tmemb: Max would be 4. 6. 
+Tmemb: Increasing grad rate may mean that some of that freed up capacity is filled by new patients, but some might be filled by other patients staying longer.
+1:20 Result: only makes a small change. Tmembers don’t really get it. TR moves to Sankey.
+DK: Does this make sense that you have control over these 2 things – RVI or length of engagement after first 3 months.
+Tmemb: Some of these decisions are above me. Not a definition of “completed”.
+TR: We’ve heard that from other teams. That there’s not necessarily a consensus about what is “completed”
+Tmemb: There’s also the patient involvement in that decision. They may say “I’m done” when we’re thinking not so much, or vice versa.
+Tmem: I’m not saying this isn’t useful but I wish the highers up would be looking at it with us.
+TR: Makes the point about stepping back with model for more perspective and thinking about What if On average I really pushed to get folks done.
+Tmemb: Could we run an experiment saying 100% of patients who get a full course of therapy graduate and stop therapy? TR: Clarifies what they want to do.
+1:32 Discussion of two experiments. TR: I think we can do both. Can you tell me what to do?
+Tmember Q: can you also change it in the diagram? DK: It will change when you move the slider and run.
+TR: What do now? Tmemb: Hit Run.
+1:35 Two more tmembers join.
+Tmember: What if our draconian decision to push patients out as soon as they complete a course of psy has the effect of increasing demand at other nearby clinics.
+1:44 TR: Only looking at your clinic in this model.
+Next experiment. Tmember: What if we had a 6 month cut-off – everyone leaves.
+Other Tmember wants to isolate the two experiments.
+Tmemb: I know we always talk about that we’re a time-limited clinic. Wonder what would happen if we really did that.
+DK: While TR records in Q/H… Stacey has put your team data into your personal worlds and one of our hopes for you would be that you will go in and play in the model. How do you feel about running one experiment? 
+Tmember: I feel like I have the capability; I do not have the time.
+Other Tmember: This is brand new to me so I’m still trying to wrap my mind around it. Last time I tried to log in I had trouble even doing that.
+DK: Stacey is available to help in any way you wish.
+1:59 DK: Reviews what was done today. 
+Tmember: No questions off the bat. This was a pretty straightforward, well-run call.
+TR: When do you want to meet next?
+SP: I’ll send an email reminder.
+
+
+
+
+
