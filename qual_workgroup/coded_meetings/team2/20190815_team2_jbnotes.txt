@@ -1,0 +1,26 @@
+Team2 15jul2018 jbnotes
+11:35 intros
+Some troubles sharing screen in Adobe.
+Tmember logged in to individual world.
+Login to team not individual.
+Blue hash window jockeying.
+11:40 IN SIM.
+User’s view does not include the text in current run setup.
+TR takes over sharing to save time.
+DK reinforced Tmember’s ability to “drive” the sim.
+TR reviews question, hypothesis. We’re going to look at those results. Then you also asked, besides just having those hours cut, we think we know what’s going to happen. Could someone read?
+Tmember reads hyp. TR: does that make sense? Several team voices: makes sense.
+TR returns to diagram and describes the system story, gets team nod to that story.
+TR returns to hyp. If supply is being cut, what if we reduce the service proportions the same amount.
+TR so in order to save us some time, I did that run, so I’m going to bring that up too so we can look at that.
+TR is that reasonable? Is it what you do – work overtime?
+Tmember: We refer to someone who’s a temporary person filling in. Is that taken into account here?
+TR: Shows how you could also account for that temp person by now cutting the hours less.
+DK: Summarizes the 3 options that the team identified: overtime (they say no that’s not a choice they make), sending people outside the team for care, using temp provider. Tom, what experiment can we run
+TR: Would you push appointments out? Tmembers: Yes we would. One Tmember: actually I sometimes see them more frequently.
+11:55 TR gives screen back to Tlead.
+Effect of overtime on work pressure. Run it at zero to see how that works.
+TR: To play devil’s advocate, why would you not want to make a habit of working overtime?
+Tmembers: Burnout. Also it will hide the need in the team. (TR shows how the model addresses the consequences of overtime.)
+TR: Important: Save run. Shows how to save, name (anything), and then how to rename it.
+12:03 Tlead: Everyone else has gone. Stacey discusses next meeting time – reschedule e.g. to 12th.
