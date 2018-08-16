@@ -3,22 +3,21 @@
      height = "130" width = "500"> 
 
 
-**Team Learning Goal:**  
-**Next Meeting:**  
-**Meeting Info:**     
+**Team Learning Goal:** RESPECT – Really Effectively Streamlining Patients’ Evidence-based Clinical Treatments
+**Next Meeting:** TO BE RESCHEDULED
+**Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379   
 
 
 <!-- Learning Objectives Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
      height = "150" width = "150">  
 
-## We decided... 
+## We decided... To adjust our service proportions to increase intakes, CC and MM, so we should also look at those impacts next.
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
 --- | ---
 Done | Do
-Insert text | Insert text 
-Insert text | Insert text
+1.	Finished developing question, hypothesis, and findings for an experiment exploring reduction in a psychotherapist| 2. Log into individual worlds, run your own experiment, and share with team. Be prepared to discuss experiment during team meeting.
 
 
 
