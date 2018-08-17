@@ -24,9 +24,9 @@ To train and empower facilitators to deliver the MTL-Live course to VA health ca
 Each week in August, we will be sending an email containing some “pre-work” that will help you prepare for the September workshop.
 
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
---- | ---
-Done | Do
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130"> |
+--- | 
+Do |
 This week please read the article about VA systems dynamics modeling pilot project (attached):  Zimmerman L, Lounsbury DW, Rosen CS, Kimerling R, Trafton JA, Lindley SE. Participatory System Dynamics Modeling: Increasing Stakeholder Engagement and Precision to Improve Implementation Planning in Systems. Adm Policy Ment Health (2016) 43:834–849.
 
 
