@@ -3,9 +3,9 @@
      height = "130" width = "500"> 
  
 
-**Team Learning Goal:** Strength in Numbers!
-**Next Meeting:** 8/28 @ 9am
-**Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379    
+**Team Learning Goal:** Strength in Numbers!  
+**Next Meeting:** 8/28 @ 9am  
+**Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379  
 
 
 As a reminder, we are planning to spend August and September wrapping up Modeling to Learn. Thanks for piloting and learning with us!    
@@ -20,11 +20,12 @@ Stacey
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
      height = "150" width = "150">  
 
-### We decided... 
+### We decided... for all future experiments, the team's baseline in the model is not to work overtime in response to increased work pressure (setting slider to 0).
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
 --- | ---
 Done | Do
+Explored changing assumptions around overtime and RVI | Experiment with 1) Changing sensitivity of overtime from work pressure and 2) Changing service proportions
 
 
 
