@@ -8,8 +8,7 @@
 **Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379    
 
 ## Reschedule 9/5 meeting.  
-Normally we would meet tomorrow next on 9/5. However, all of the TeamPSD facilitators will be in Chicago for MTL Facilitate training.  
-We can reschedule on either the ***5th Wednesday - August 29 @8:30am*** or ***2nd Wednesday - September 12 @8:30am***.  
+Normally we would meet tomorrow next on 9/5. However, all of the TeamPSD facilitators will be in Chicago for MTL Facilitate training. We can reschedule on either the ***5th Wednesday - August 29 @8:30am*** or ***2nd Wednesday - September 12 @8:30am***.  
 Please let us know what would make the most sense for your team.  
 
 As a reminder, we are planning to spend August and September wrapping up Modeling to Learn. Thanks for piloting and learning with us!    
@@ -24,11 +23,12 @@ Stacey
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
      height = "150" width = "150">  
 
-### We decided... 
+### We decided... we don't want working more overtime to be our solution to increased work pressure.
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
 --- | ---
 Done | Do
+Further customized model to team around effect of work pressure on overtime. | Charts to look at: Actual hours available for service and RVI. Think about why RVI changes even though they've only made a change to overtime effect.
 
 
 
