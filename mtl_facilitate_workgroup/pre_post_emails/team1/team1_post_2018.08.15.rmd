@@ -23,7 +23,7 @@ Stacey
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
      height = "150" width = "150">  
 
-### We decided... 
+### We decided... to discuss a day to reschedule the next MTL meeting.
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
 --- | ---
