@@ -29,7 +29,7 @@ Referrals within Team[Downstream]=
 	,0) ~~|
 Referrals within Team[Intake]=
 	0
-	~	patient/Week [0,?]
+	~	pt/wk [0,?]
 	~	The number of patients with care plans for all other services is based on \
 		the total number of completed intakes and the percentages of intakes that \
 		result in a subsequent appointment in any other service.  Patients' plans \
@@ -41,7 +41,7 @@ New Pts per Week w DEP[Intake]=
 	(Completing Intake[Intake]+Review Rate[Intake])*"% w DEP"[Intake] ~~|
 New Pts per Week w DEP[Downstream]=
 	Completing Intake[Downstream]*"% w DEP"[Downstream]*0
-	~	patient/Week
+	~	pt/wk
 	~	The number of patients per week starting Depression treatment after \
 		developing an individual treatment plan in an intake appointment.
 	~	:SUPPLEMENTARY 
@@ -51,7 +51,7 @@ New Pts per Week w Other Needs[Intake]=
 	(Completing Intake[Intake]+Review Rate[Intake])*"% w Other Needs"[Intake] ~~|
 New Pts per Week w Other Needs[Downstream]=
 	Completing Intake[Downstream]*"% w Other Needs"[Downstream]*0
-	~	patient/Week
+	~	pt/wk
 	~	The number of patients per week starting Other Needs treatment after \
 		developing an individual treatment plan in an intake appointment.
 	~	:SUPPLEMENTARY 
@@ -61,7 +61,7 @@ New Pts per Week w OUD[Intake]=
 	(Completing Intake[Intake]+Review Rate[Intake])*"% w OUD"[Intake] ~~|
 New Pts per Week w OUD[Downstream]=
 	Completing Intake[Downstream]*"% w OUD"[Downstream]*0
-	~	patient/Week
+	~	pt/wk
 	~	The number of patients per week starting OUD treatment after developing an \
 		individual treatment plan in an intake appointment.
 	~	:SUPPLEMENTARY 

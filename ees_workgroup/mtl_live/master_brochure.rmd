@@ -20,19 +20,19 @@ Over the past decade, Veterans Health Administration has invested in the dissemi
 Modeling to Learn provides tools for visualizing real-time team data and simulating the effects of team decisions on EBP reach. Through a series of remotely facilitated workshops, front line staff use these tools to build systems thinking capacity; increase their understanding of interrelated factors affecting team outcomes – including decisions within their control; conduct virtual experiments to test the effects of various team decisions on multiple desired outcomes; and make team decisions to optimize EBP reach within existing resource constraints.
 
 ## Target Audience: Multidisciplinary staff teams in VAHS outpatient mental health clinics:
-- Psychiatrists
+- Psychiatrists and Physicians
 - Psychologists
 - Social workers
 - Nurses
-- Counselors
-- Certified peer-support specialists
-- Other professional disciplines; and 
-- Trainees (e.g., practicum, intern, resident and fellow)
+- Counselors (can advertise, but cannot list as an accreditation option)
+- Certified peer-support specialists (can advertise, but cannot list as an accreditation option)
+- Other professional disciplines; and (can advertise, but cannot list as an accreditation option)
+- Trainees (e.g., practicum, intern, resident and fellow) (can advertise, but cannot list as an accreditation option)
 
 ## Accreditations: 
-- ACCME
+- ACCME and ACCME-NP (this covers psychiatry, physicians, nurse practictioners and physicians assistants)
 - APA
-- ANCC
+- ANCC-NP
 - NBCC
 - ASWB
 - NYSED
