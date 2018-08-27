@@ -1,8 +1,9 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+# Facilitate Workgroup
+
 # mtl
 ## Modeling to Learn by Team PSD
-
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "175" width = "650">  
 
 ## MTL Facilitation Materials in Development in this Facilitate Workgroup Folder
 - pre-session checklist for facilitators  https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/pre_meeting_checklist.rmd
