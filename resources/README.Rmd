@@ -33,7 +33,7 @@
 
 4. RMarkdown Cheatsheet and Reference guide from: https://rmarkdown.rstudio.com/
 
-5. Quad charts Template
+5. Quad_charts Template
 - .Rmd version of the workgroup quad_chart for use by workgroups
 - We will cover the right-hand columns at weekly workgroup meetings
 - Workgroup leads add these two to the workgroup agenda
