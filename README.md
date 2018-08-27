@@ -1,26 +1,28 @@
 # Team Participatory System Dynamics 
 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "650">  
+
 * Team PSD is using R and rMarkdown to format our participatory system dynamics facilitation resources.
 * Posting our work on GitHub enables transparency, reproducibility and team collaboration.
-* We are also using the RQDA package and the Consolidated Framework for Implementation Reserach (CFIR) to code our PSD Development Process
 
-We are just getting started on our CFIR coding branch https://github.com/LZIM/teampsd/tree/cfir_coding
-For more information about using the CFIR please go to http://cfirguide.org/
-
-## Our facilitation_guide branch now has 4 learning loop exercises 
-
-* Building Shared Vision
-* Graphs Over Time 
-* Eliciting Causal Loop Diagrams
-* Ratio Exercise
-
-These exercises are adapted from https://en.wikibooks.org/wiki/Scriptapedia
-More work to turn this into Facilitation Guide resources is ongoing https://github.com/LZIM/teampsd/tree/facilitation_guide
-
-* Our first team issue was developing our style sheets for formatting consistency when using rMarkdown.
-
-We are still working on that...But, we have added several resources that we are using to create a consistent "look and feel" for Team PSD resources that is consistent with the VHA Graphics and Style reporting requirements.
-
-These resources are growing here: https://github.com/LZIM/teampsd/tree/hexagon_icons
-
-
+## The Team PSD Master branch includes the following folders for works in progress across our workgroups:
+**1. Employee Education Services (EES) Workgroup**
+- ees_workgroup
+**2. Model Workgroup**
+- model_workgroup
+**3. *MTL* Facilitate Workgroup**
+  + *MTL Live*
+  + *MTL Video*
+  + *MTL Facilitate*
+**4. Publications Workgroup**
+- pubs_workgroup
+**5. Qualitative Workgroup**
+- qual_workgroup
+**6. Quantiative Workgroup**
+- quant_workgroup
+**7. Shared Team PSD Resources**
+- resources
+**8. Simulation User-interface Workgroup**
+- sim_ui_workgroup
+**9. VAPOR**
