@@ -4,23 +4,23 @@
 * Team PSD is using R and rMarkdown to format our participatory system dynamics facilitation resources.
 * Posting our work on GitHub enables transparency, reproducibility and team collaboration.
 
-## The Team PSD Master branch includes the following folders for works in progress across our workgroups:
-**1. Employee Education Services (EES) Workgroup
+## Works in Progress across Team PSD Workgroups
+1. Employee Education Services (EES) Workgroup
 - ees_workgroup
-**2. Model Workgroup
+2. Model Workgroup
 - model_workgroup
-**3. *MTL* Facilitate Workgroup
+3. *MTL Facilitate* Workgroup
   + *MTL Live*
   + *MTL Video*
   + *MTL Facilitate*
-**4. Publications Workgroup
+4. Publications Workgroup
 - pubs_workgroup
-**5. Qualitative Workgroup
+5. Qualitative Workgroup
 - qual_workgroup
-**6. Quantiative Workgroup
+6. Quantiative Workgroup
 - quant_workgroup
-**7. Shared Team PSD Resources
+7. Shared Team PSD Resources
 - resources
-**8. Simulation User-interface Workgroup
+8. Simulation User-interface Workgroup
 - sim_ui_workgroup
-**9. VAPOR
+9. VAPOR
