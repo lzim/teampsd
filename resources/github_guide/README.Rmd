@@ -1,0 +1,2 @@
+# GitHub Guide
+- This is a GitHub guide tailored to Team PSD.
