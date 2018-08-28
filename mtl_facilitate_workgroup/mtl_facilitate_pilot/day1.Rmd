@@ -8,7 +8,7 @@ Tuesday 9/4    |
 ------------   |
 01:00PM-04:30PM  |
 01:00PM-01:15PM Introductions  |
-01:15PM-01:45PM Introducing *MTL*   
+01:15PM-01:45PM Introducing *Modeling to learn (MTL)*   
 01:45PM-02:00PM *MTL* Session 1 - Team Vision 
 02:00PM-02:15PM Break
 02:15PM-03:15PM *MTL* Session 2 - data UI - In-session Exercise
@@ -16,5 +16,5 @@ Tuesday 9/4    |
 04:15PM-04:30PM Debrief - "Done" Today and "Do" Tomorrow   
 04:30PM-05:00PM TeamPSD Reflections & Day 2 Preparation 
 05:00-06:00PM Break 
-06:00-07:30PM Optional dinner/Dinner on your own  
+06:00-07:30PM Optional group dinner/Dinner on your own  
 07:30PM Travel to Lodging 
