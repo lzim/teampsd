@@ -4,20 +4,20 @@
      
 # MTL Facilitate Pilot Schedule-at-a-Glance - Day 2
 
-Wednesday 9/5 	     |
+**Wednesday 9/5**	     |
 ---------------     |	
-08:00AM-04:30PM  |    	
-08:00AM-08:15AM Done (yesterday) & Do (today)  |
-08:15AM-09:15AM *MTL* Session 3 - data UI - Team Data Table for sim UI |
-09:15AM-10:15AM *MTL* Session 3 - Mutual Learning Exercise |
-10:15AM-10:30AM *MTL* Set-up and Pre-session Facilitator Tasks |
-10:30AM-10:45AM Break |
-10:45AM-11:45AM *MTL* Sesion 4 - MTL Menu and Team Needs Assessment  |
-11:45AM-12:45PM Lunch |
-12:45PM-01:45PM *MTL* Session 5 - sim UI - Care Coordination In-session Exercise |
-01:45PM-02:45PM *MTL* Sesssion 5 - sim UI - Mutual Learning Exercise |
-02:45PM-03:00PM Break  |
-03:00PM-03:45PM *MTL* Session 6 - sim UI - Care Coordination Main Tile  |
-03:45PM-04:15PM *MTL* Session 6 - Mutual Learning: Practice telling Systems Story |
-04:15PM-04:30PM Debrief - Done Today and Do Tomorrow  |
-04:30PM-05:00PM TeamPSD Reflections & Day 2 Preparation |
+**08:00AM-04:30PM**  |    	
+**08:00AM-08:15AM** - Done (yesterday) & Do (today)  |
+**08:15AM-09:15AM** - *MTL* Session 3 - data UI - Team Data Table for sim UI |
+**09:15AM-10:15AM** - *MTL* Session 3 - Mutual Learning Exercise |
+**10:15AM-10:30AM** - *MTL* Set-up and Pre-session Facilitator Tasks |
+**10:30AM-10:45AM** - Break |
+**10:45AM-11:45AM** - *MTL* Sesion 4 - MTL Menu and Team Needs Assessment  |
+**11:45AM-12:45PM** - Lunch |
+**12:45PM-01:45PM** - *MTL* Session 5 - sim UI - Care Coordination In-session Exercise |
+**01:45PM-02:45PM** - *MTL* Sesssion 5 - sim UI - Mutual Learning Exercise |
+**02:45PM-03:00PM** - Break  |
+**03:00PM-03:45PM** - *MTL* Session 6 - sim UI - Care Coordination Main Tile  |
+**03:45PM-04:15PM** - *MTL* Session 6 - Mutual Learning: Practice telling Systems Story |
+**04:15PM-04:30PM** - Debrief - Done Today and Do Tomorrow  |
+**04:30PM-05:00PM** - TeamPSD Reflections & Day 2 Preparation |
