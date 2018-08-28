@@ -3,10 +3,9 @@
 
 # MTL Facilitate Pilot Schedule-at-a-Glance
 
- 
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
-     height = "75" width = "125">  
-### Day 1 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_sq_sm.png" height = "40" width = "75" style ="display: inline-block"/> 
+
+### Day 1  
 Tuesday 9/4    |
 ------------   |
 **01:00PM-04:30PM**  |
@@ -22,9 +21,9 @@ Tuesday 9/4    |
 **06:00PM-07:30PM** - Optional group dinner/Dinner on your own  
 **07:30PM**         - Travel to Lodging 
 
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
-     height = "75" width = "125">  
-### Day 2
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_sq_sm.png" height = "40" width = "75" style ="display: inline-block"/> 
+
+### Day 2 
 Wednesday 9/5	     |
 ---------------     |	
 **08:00AM-04:30PM**  |    	
@@ -43,10 +42,10 @@ Wednesday 9/5	     |
 **04:15PM-04:30PM** - Debrief - Done Today and Do Tomorrow  |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 2 Preparation |
 
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
-     height = "75" width = "125">  
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_sq_sm.png" height = "40" width = "75" style ="display: inline-block"/> 
+
 ### Day 3
-Thursday 9/6   |
+Thursday 9/6 |
 -------------- |
 **08:00AM-04:30PM** |
 **08:00AM-08:15AM** - Done (yesterday) & Do (today)   |                              
@@ -63,9 +62,9 @@ Thursday 9/6   |
 **04:15PM-04:30PM** - Debrief - Done Today and Do Tomorrow |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 2 Preparation|
 
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
-     height = "75" width = "125">  
-### Day 4
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_sq_sm.png" height = "40" width = "75" style ="display: inline-block"/> 
+
+### Day 4  
 Friday 9/7 |
 ------------ |
 **08:00AM-12:00PM**  |
