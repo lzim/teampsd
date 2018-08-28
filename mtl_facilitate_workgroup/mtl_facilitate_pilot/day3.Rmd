@@ -1,8 +1,6 @@
 
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
      height = "150" width = "250">  
-     
-# MTL Facilitate Pilot Schedule-at-a-Glance - Day 3
 
 # MTL Facilitate Pilot Schedule-at-a-Glance - Day 3
 
