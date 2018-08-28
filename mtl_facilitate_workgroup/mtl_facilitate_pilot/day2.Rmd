@@ -22,3 +22,38 @@
 **03:45PM-04:15PM** - *MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story** |
 **04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow)  |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 3 Preparation |
+
+
+### Mutual Learning with Modeling to Learn
+
+
+
+
+#### *MTL* Session 3 - data UI - Team Data Table for sim UI 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+#### *MTL* Session 3 - **Mutual Learning** 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+
+#### *MTL* Session 5 - sim UI - Care Coordination In-session Exercise
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+#### *MTL* Sesssion 5 - sim UI - **Mutual Learning** 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+#### *MTL* Session 6 - sim UI - Care Coordination Main Tile
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+#### *MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story** 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
