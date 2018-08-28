@@ -3,8 +3,8 @@
 
 # MTL Facilitate Pilot Schedule-at-a-Glance
 
-### Day 1 
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Tuesday 9/4    |
+### Tuesday 9/4
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 1        |
 ------------   |
 **01:00PM-04:30PM**  |
 **01:00PM-01:15PM** - Introductions  |
@@ -20,8 +20,8 @@
 **07:30PM**         - Travel to Lodging 
  
 
-### Day 2 
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Wednesday 9/5	     |
+### Wednesday 9/5
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 2	     |
 ---------------     |
 **08:00AM-04:30PM**  |    	
 **08:00AM-08:15AM** - Done (yesterday) & Do (today)  |
@@ -29,7 +29,7 @@
 **09:15AM-10:15AM** - *MTL* Session 3 - Mutual Learning Exercise |
 **10:15AM-10:30AM** - *MTL* Set-up and Pre-session Facilitator Tasks |
 **10:30AM-10:45AM** - Break |
-**10:45AM-11:45AM** - *MTL* Sesion 4 - MTL Menu and Team Needs Assessment  |
+**10:45AM-11:45AM** - *MTL* Session 4 - MTL Menu and Team Needs Assessment  |
 **11:45AM-12:45PM** - Lunch |
 **12:45PM-01:45PM** - *MTL* Session 5 - sim UI - Care Coordination In-session Exercise |
 **01:45PM-02:45PM** - *MTL* Sesssion 5 - sim UI - Mutual Learning Exercise |
@@ -40,8 +40,8 @@
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 2 Preparation |
 
 
-### Day 3
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Thursday 9/6 |
+### Thursday 9/6
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 3 |
 -------------- |
 **08:00AM-04:30PM** |
 **08:00AM-08:15AM** - Done (yesterday) & Do (today)   |                              
@@ -59,8 +59,8 @@
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 2 Preparation|
 
 
-### Day 4  
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Friday 9/7 |
+### Friday 9/7  
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 3 |
 ------------ |
 **08:00AM-12:00PM**  |
 **08:00AM-08:15AM** - Done (yesterday) & Do (today)  |
