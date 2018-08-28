@@ -21,10 +21,22 @@
 **07:30PM**         - Travel to Lodging 
 
 
-### *MTL* Session 1 - Team Vision 
+
+### Experiential Learning
 
 
-### *MTL* Session 2 - data UI - In-session Exercise
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+#### *MTL* Session 1 - Team Vision 
 
 
-### *MTL* Session 2 - data UI - **Mutual Learning** 
+
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+#### *MTL* Session 2 - data UI - In-session Exercise
+
+
+
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+#### *MTL* Session 2 - data UI - **Mutual Learning** 
