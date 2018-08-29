@@ -29,8 +29,10 @@
 
 # Activity: The MTL activities below are in the wrong order. Your task is to reorder them so they occur in the right sequence. 
 Write the number in the right column to show the order in which the activities should actually occur when you first begin to facilitate a MTL experience for a team.
-#1 represents the first step; #17 represents the final step in MTL
-*MTL Activity*	| *Correct Number*
+#1 represents the first step; #17 represents the final step in MTL  
+
+*MTL Activity*	| *Correct Number*  
+
 * Run a base case in the simulation UI.
 * Identify possible adjustments VA healthcare teams can make to patients and/or appointments based on the MTL results and document is in the “Our Decisions” box in the Outputs expanded tile. 
 * Login to the simulation UI (MTL.how/sim) 
