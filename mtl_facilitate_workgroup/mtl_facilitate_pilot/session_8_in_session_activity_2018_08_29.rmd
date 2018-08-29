@@ -27,7 +27,7 @@
 * Examine and discuss the results of the experiment and document the insights in the *Our Findings* in the Outputs expanded tile.
 * Identify possible adjustments VA healthcare teams can make to patients and/or appointments based on the MTL results and document is in the “Our Decisions” box in the Outputs expanded tile.
 
-# Activity: The MTL activities in the left column are in the wrong order and your job is to reorder them so they occur in the right sequence. 
+# Activity: The MTL activities below are in the wrong order. Your task is to reorder them so they occur in the right sequence. 
 Write the number in the right column to show the order in which the activities should actually occur when you first begin to facilitate a MTL experience for a team.
 #1 represents the first step; #17 represents the final step in MTL
 *MTL Activity*	| *Correct Number*
