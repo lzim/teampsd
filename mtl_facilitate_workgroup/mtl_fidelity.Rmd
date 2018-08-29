@@ -4,7 +4,7 @@
 # MTL Fidelity Checklist for 12-session Plan
 
 
-### *MTL* Session 1 -- Team Vision
+### *MTL Session 1* -- Team Vision
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 1 Fidelity        |
 ------------   |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
@@ -22,7 +22,7 @@
 **Do** - Select Team Lead. Select standing team meeting time. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...Team Vision"
  
-### Session 2 - Team Data User-interface (UI)
+### *MTL Session 2* - Team Data User-interface (UI)
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 2 Fidelity	     |
 ---------------     |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/data splash page  |
@@ -41,7 +41,7 @@
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...team clinics for data UI"
 
 
-### Session 3 - Team Data for Simulation User-interface (UI)
+### *MTL Session 3* - Team Data for Simulation User-interface (UI)
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 3 Fidelty |
 -------------- |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/data find Team data UI and team_data folders  |
@@ -59,7 +59,7 @@
 **Do** - Find something in the team data table and complete the mtl.how/menu.
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...team data table and complete mtl.how/menu"
 
-### Session 4 - MTL Menu Needs Assessment  
+### *MTL Session 4* - MTL Menu Needs Assessment  
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 4 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Complete *MTL* Menu at mtl.how/menu before the team meeting  |
@@ -77,7 +77,7 @@
 **Do** - Explore the team data for completing the *MTL* Menu to identify team needs and plan.
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...our *MTL* Module."
 
-### Session 5 - Simulation User-interface (sim UI) - Log-in and Team Data in Experiments Tile
+### *MTL Session 5* - Simulation User-interface (sim UI) - Log-in and Team Data in Experiments Tile
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 5 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Check your *MTL* sim UI log-in at mtl.how/sim before team meeting |
@@ -95,7 +95,7 @@
 **Do** - Check the "i" information available in the sim UI at mtl.how/sim
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...to review the "i" information at mtl.how/sim"
 
-### Session 6 - Simulation User-interface (sim UI) - Main Tile Model Diagram - Telling a Systems Story
+### *MTL Session 6* - Simulation User-interface (sim UI) - Main Tile Model Diagram - Telling a Systems Story
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 6 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/sim and review "i" in Main Tile Model Diagram |
@@ -113,7 +113,7 @@
 **Do** - Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...to Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text."
 
-### Session 7 - Simulation User-interface (sim UI) - Outputs Tile and Base Case
+### *MTL Session 7* - Simulation User-interface (sim UI) - Outputs Tile and Base Case
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 7 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text.  |
@@ -131,7 +131,7 @@
 **Do** - Log-in to mtl.how/sim and explore the expanded outputs dashboard for the basecase use the worksheet to prepare for experiment 1."
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...to complete the worksheet to review team data, bc and team needs (mtl.how/menu results) to select the "what if" experiment for next time.
 
-### Session 8 - Simulation User-interface (sim UI) - Expanded Outputs Tile, Question/Hypothesis/Finding/Decision and Experiment 1  
+### *MTL Session 8* - Simulation User-interface (sim UI) - Expanded Outputs Tile, Question/Hypothesis/Finding/Decision and Experiment 1  
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 8 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/sim and explore the expanded outputs dashboard for the basecase use the worksheet to prepare for experiment 1." |
@@ -149,7 +149,7 @@
 **Do** - Select Team Lead. Select standing team meeting time. 
 **Post-email** - Sent the week after the team meeting (off-week) - "We decided..."
 
-### Session 9 - Simulation User-interface (sim UI) - Expanded Outputs Tile, Additional Detail and Experiment 2
+### *MTL Session 9* - Simulation User-interface (sim UI) - Expanded Outputs Tile, Additional Detail and Experiment 2
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 9 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
@@ -167,7 +167,7 @@
 **Do** - Select Team Lead. Select standing team meeting time. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...Team Vision"
 
-### Session 10 - Simulation User-interface (sim UI) - Discuss Experiment 2 (& 3) - Practice C.F.B.T. (complex, feedback, behavior, time) Systems Thinking using Q/H/F/D
+### *MTL Session 10* - Simulation User-interface (sim UI) - Discuss Experiment 2 (& 3) - Practice C.F.B.T. (complex, feedback, behavior, time) Systems Thinking using Q/H/F/D
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 10 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
@@ -185,7 +185,7 @@
 **Do** - Select Team Lead. Select standing team meeting time. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...Team Vision"
 
-### Session 11 - Team Decisions and Next Steps - Making Changes based on Learning
+### *MTL Session 11* - Team Decisions and Next Steps - Making Changes based on Learning
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 11 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
@@ -203,7 +203,7 @@
 **Do** - Select Team Lead. Select standing team meeting time. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...Team Vision"
 
-### Session 12 - Wrap-up - Team Reflection on Team Vision - Follow-up Assistance Plan
+### *MTL Session 12* - Wrap-up - Team Reflection on Team Vision - Follow-up Assistance Plan
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 12 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
