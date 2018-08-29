@@ -30,14 +30,14 @@ TR: Other teams have said that there is no specific guidance on how long to keep
 J: True, and this is about the patients choice, too. 
 E: These are very useful models, Tom. I think this is incredibly useful. But I would like to make decisions with higher ups.
 TR: You as clinicians, are making individual patient decisions. But, the model, 
-J: Let’s run a 100% grad rate. 
+J: Letâ€™s run a 100% grad rate. 
 TR: So, that would changing Grad Rate and Engagement rate.
 TR: Can you walk me through it?
 E: Change Completers who Graduate. 
 TR: Ok. Now how to we run?
 E: Press run. 
 TR: So, looking at the Starting Rate change, you have doubled the number of new patients who can start. 
-J: So, let’s change the engagement rate, too, per Emily. 
+J: So, letâ€™s change the engagement rate, too, per Emily. 
 [Bidu joined late]
 TR: He is typing in the Experimental text boxes. To capture the current run. 
 TR: So, what is the Decision?
@@ -47,19 +47,19 @@ TR: Ok.
 DK: Can we see a chart that shows the difference?
 TR: Here is the new chart. See that the purple bar is much wider. 
 E: I am still not clear about how our changes would affect other clinics. Can we use the model to show this?
-TR: The model we are using only looks at your team’s data. 
+TR: The model we are using only looks at your teamâ€™s data. 
 E: So we are looking at data in silos. 
 TR: So, we are developing a new model that looks at PC and mental health service systems.
 E: What if we have a six month cut off for all patients?
 E: Can we do this?
-TR: We can change the Engagement time. Let’s put it to -75%.
+TR: We can change the Engagement time. Letâ€™s put it to -75%.
 E: Are you going to Lake Tahoe, Tom? 
 TR: Yes. 
-TR: Let’s run this. 
+TR: Letâ€™s run this. 
 E: Wow. This is much better. More impact. 
 [The Sankey is really useful!]
 E: We are a time limited clinic, but this data shows that this is what happens?
-DK: Your Team’s data is in each of your individual worlds. So you can log in and play in your team’s world. Anything else you want to explore, at this point?
+DK: Your Teamâ€™s data is in each of your individual worlds. So you can log in and play in your teamâ€™s world. Anything else you want to explore, at this point?
 DK: When you see the Red and Green boxes, what else might you change?
 DK: One of you said that you have control of some things, but not others. 
 DK: Go to mtl.how/sim. You could go in and change the RVI and see the impact? 
@@ -69,7 +69,7 @@ J: This is brand new to me. I had trouble getting in, but if I were at this scre
 DK: Stacy is available to assist you with this! At anytime.
 TR: Saves run. [shows how]
 TR: From the Home screen, go to Experiment Maintenance. And you and rename the run here. 
-DK: Home screen: Team Data Menu Maintenance is where you can find your team’s data files. 
+DK: Home screen: Team Data Menu Maintenance is where you can find your teamâ€™s data files. 
 DK: And once you run and save, we could then talk through the run with you (Lindsey and Stacy). 
 TR: You can also export your run, and make your own graphs, and take this to your collegues. 
 E: This was a straightforward, well run call. 
