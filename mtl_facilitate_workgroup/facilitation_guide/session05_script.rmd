@@ -19,28 +19,29 @@ output:
 # Session 5: Start a module based on MTL menu results and discussion
 
 ### Resources
-{Insert list of materials, links, software, handouts, etc., needed for the session}
+
 
 ### Preparation
-{Model parameter files for the team are uploaded to Epicenter. Team Lead and members have been set up in Epicenter with accounts, passwords, mapped to their team world (and individual?), ...}
+Model parameter files for the team are uploaded to Epicenter. Team Lead and members have been set up in Epicenter with accounts, passwords, mapped to their team world (and individual?), ...
 
 ### SCRIPT
 00–05 Opening: Login and introductions
-Make sure everyone is on the VANTS line (audio) and Adobe Connect (video). Introduce facilitators and TeamPSD members who are present and confirm participants who are on. Check for any issues like people needing to leave early, anyone without a computer, etc. 
+Make sure everyone is on the VANTS line (audio) and Adobe Connect (video). 
+Introduce facilitators and TeamPSD members and confirm participants who are present.
+Check for any issues like people needing to leave early, anyone without a computer, etc. 
 
+### 05-10 Done
 <!-- Done List Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
      height = "135" width = "135">
-### Done
-05-15 Let’s go over decisions and actions completed since last review. {insert for each session}
 • Last time we … 
 • Since last time, did you …?
 • Any new insights, decisions, or burning questions?
 
+### 10-15 Do
 <!-- Do List Icon -->     
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
      height = "150" width = "150">
-### Do
 Today we move from our very rich but only backward-looking data to the simulation tool that lets us take those team data and project forward how different choices within the team’s control might play out in terms of future trends in care delivery. You’ll log in to the simulation user-interface at MTL.how/SIM, see how to choose the team data parameters you want the model to use for this session, and check out for yourselves how those data you chose figure into this tool. By the end of today’s session, you should be able to
 
 <!-- Learning Objectives Icon -->
@@ -50,7 +51,8 @@ Today we move from our very rich but only backward-looking data to the simulatio
 2. LO
 3. LO	
 
-15–45	In-session exercise: Login and start a session
+### 15–45	In-session exercise: Login and start a session
+
 •	Open a new browser window and go to mtl.how/SIM. Enter your login credentials and hit enter, then pause there a minute. I’m going to make TeamLead a presenter so you can share your screen, in addition to everyone doing this in a separate window.
 
 •	Is anyone not able to log in?
@@ -99,12 +101,14 @@ How do the values in this table strike you – do they line up with how you thin
 DO team b) exercise where they look for a team data variable in the diagram and a) read the "i" test in the team data table, and b) look in the diagram to see what's it's related to
 -	more-
 
-45–55	Dones and Dos
+### 45–55	Done
 <!-- Done List Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
      height = "135" width = "135">
 
+### 50-55 Do
 <!-- Do List Icon -->     
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png"
      height = "150" width = "150">
-55-60 Adjourn
+     
+### 55-60 Adjourn
