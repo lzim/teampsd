@@ -8,16 +8,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 1 Fidelity        |
 ------------   |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
-**Team Meeting** - *MTL* Session 1 - Team Vision   |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 1 - Team Vision**   |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - mtl.how/live   |
 **Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 1 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 1 - Team Vision |
 **Execise Resources** - available at mtl.how/1_team_vision |
 **MTL Live** - MTL Session 1 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 1 Facilitator Guide (SAY file) 
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Selected Team Vision
 **Do** - Select Team Lead. Select standing team meeting time. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...Team Vision"
@@ -26,16 +26,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 2 Fidelity	     |
 ---------------     |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/data splash page  |
-**Team Meeting** - *MTL* Session 2 - Team Data  |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 2 - Team Data**  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - mtl.how/data   |
 **Do** - Select and review Team Data for *MTL*  |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 2 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 2 - Team Data - data user-interface (data UI) |
 **Execise Resources** - available at mtl.how/2_team_data |
 **MTL Live** - MTL Session 2 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 2 Facilitator Guide (SAY file) 
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Selected the clinics that make up our team.
 **Do** - Review the HF, Diag, Enc and SP tabs to find a Patient (zoom-in) and find a team trend (zoom-out)
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...team clinics for data UI"
@@ -45,16 +45,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 3 Fidelty |
 -------------- |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/data find Team data UI and team_data folders  |
-**Team Meeting** - *MTL* Session 3 - Team Data   |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 3 - Team Data**   |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - mtl.how/data team folders (data UI and team data)   |
 **Do** - Produce team data for *MTL* simulation user-interface (sim UI) |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 3 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 3 - Team Vision |
 **Execise Resources** - available at mtl.how/1_team_data |
 **MTL Live** - MTL Session 3 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 3 Facilitator Guide (SAY file) 
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Produced Team Data for sim UI
 **Do** - Find something in the team data table and complete the mtl.how/menu.
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...team data table and complete mtl.how/menu"
@@ -63,16 +63,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 4 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Complete *MTL* Menu at mtl.how/menu before the team meeting  |
-**Team Meeting** - *MTL* Session 4 - MTL Menu - Team Needs and Plan   |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 4 - MTL Menu - Team Needs and Plan**   |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - mtl.how/menu   |
 **Do** - Review *MTL* Menu Results to clarify team need and plan |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 4 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 4 - *MTL* Menu |
 **Execise Resources** - available at mtl.how/4_team_needs_and_plan |
 **MTL Live** - MTL Session 4 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 4 Facilitator Guide (SAY file) 
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Selected *MTL* Module either care coordination (CC), medication management (MM), psychotherapy (PSY) or aggregate (AGG).
 **Do** - Explore the team data for completing the *MTL* Menu to identify team needs and plan.
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...our *MTL* Module."
@@ -81,16 +81,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 5 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Check your *MTL* sim UI log-in at mtl.how/sim before team meeting |
-**Team Meeting** - *MTL* Session 5 - sim UI - Log-in and Team Data in Experiments Tile  |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 5 - sim UI - Log-in and Team Data in Experiments Tile**  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Check your *MTL* sim UI log-in at mtl.how/sim before team meeting   |
 **Do** - Introducing the *MTL* sim UI Log-in and Experiments Tile  |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 5 - *MTL* upload your team data to the sim UI and review team data in experiments tile  |
 **Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 5 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 5 Facilitator Guide (SAY file) 
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Uploaded and reviewed team data in the sim UI experiments tile.
 **Do** - Check the "i" information available in the sim UI at mtl.how/sim
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...to review the "i" information at mtl.how/sim"
@@ -99,16 +99,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 6 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/sim and review "i" in Main Tile Model Diagram |
-**Team Meeting** - *MTL* Session 6 - sim UI - Learn to tell a systems story   |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 6 - sim UI - Learn to tell a systems story**   |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Log-in to mtl.how/sim and review "i" in Main Tile Model Diagram  |
 **Do** - Introducing the *MTL* sim UI Main Tile |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 6 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 6 - Main Tile and Systems Stories - Enter question text |
 **Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 6 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 6 Facilitator Guide (SAY file) - Enter question text (20% complete in Facilitator Dashboard) |
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Logged in and uploaded team data to the sim UI. Reviewed team data in Experiments Tile. Enter question text.
 **Do** - Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...to Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text."
@@ -117,16 +117,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 7 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text.  |
-**Team Meeting** - *MTL* Session 7 - Outputs Tile and Running Base Case  |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 7 - Outputs Tile and Running Base Case**  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Log-in to mtl.how/sim and select individual log-in. Review questions and hypotheses   |
 **Do** - Introducing the *MTL* Outputs Tile and Running a Base Case (bc) |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 7 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 7 - Enter Q/H/F/D for Base Case (bc) Run - Team Lead rung and saves a Base Case explores Output |
 **Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 7 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 7 Facilitator Guide (SAY file) - Enter text for base case run in Q/H/F/D (100% complete in Facilitator Dashboard) - Based on base case the "D" decision should be to think of what question they would like to test next time. 
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Entered question, hypothesis, finding and dedcisions for base case.
 **Do** - Log-in to mtl.how/sim and explore the expanded outputs dashboard for the basecase use the worksheet to prepare for experiment 1."
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...to complete the worksheet to review team data, bc and team needs (mtl.how/menu results) to select the "what if" experiment for next time.
@@ -135,11 +135,11 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 8 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/sim and explore the expanded outputs dashboard for the basecase use the worksheet to prepare for experiment 1." |
-**Team Meeting** - *MTL* Session 8 - Team Experiment 1 - Review Expanded Outputs to compare Experiment 1 and the Base Case |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 8 - Team Experiment 1 - Review Expanded Outputs to compare Experiment 1 and the Base Case** |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Log-in to mtl.how/sim and explore the expanded outputs dashboard for the basecase use the worksheet to prepare for experiment 1."  |
 **Do** - Introducing *MTL* Experiments to compare against the Base Case (bc) of no change. |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 8 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 8 - Team Experiment 1 - Complete question, hypothesis, finding and decisions Q/H/F/D - Explore variables to compare the base case and experiment 1 in the Results Dashboard of the Expanded Outputs Tile     |
 **Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 8 Learner Guide (SEE file) - Enter text for experiment 1 in Q/H/F/D (100% complete in Facilitator Dashboard) |
@@ -153,11 +153,11 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 9 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
-**Team Meeting** - *MTL* Session 9 - Team Vision   |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 9 - Team Vision**   |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - mtl.how/sim   |
 **Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 9 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 9 - Team Vision |
 **Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate  |
 **MTL Live** - MTL Session 9 Learner Guide (SEE file) - |
@@ -171,11 +171,11 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 10 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
-**Team Meeting** - *MTL* Session 10 - Team Vision   |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 10 - Team Vision**   |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - mtl.how/sim   |
 **Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 10 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 10 - Team Vision |
 **Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 10 Learner Guide (SEE file) - |
@@ -189,16 +189,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 11 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
-**Team Meeting** - *MTL* Session 11 - Team Vision   |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 11 - Team Vision**   |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - mtl.how/live   |
 **Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 11 Guides - 30 minutes for In-session Exercise*  |
 **In-session exercise** - *MTL* Session 11 - Team Vision |
 **Execise Resources** - available at mtl.how |
 **MTL Live** - MTL Session 11 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 11 Facilitator Guide (SAY file) 
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Selected Team Vision
 **Do** - Select Team Lead. Select standing team meeting time. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...Team Vision"
@@ -207,16 +207,16 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 12 Fidelity |
 ------------ |
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live for team meeting  |
-**Team Meeting** - *MTL* Session 12 - Team Vision   |
-**Done/Do** - 15 minutes for Done/Do  |
+**Team Meeting - *MTL* Session 12 - Team Vision**   |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - mtl.how/live   |
 **Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
-**Done/Do** - 30 minutes for In-session Exercise  |
+**See Session 12 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 12 - Team Vision |
 **Execise Resources** - available at mtl.how |
 **MTL Live** - MTL Session 12 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 12 Facilitator Guide (SAY file) 
-**Done/Do** - 15 minutes for Done/Do  |
+**Done/Do - 15 minutes for Done/Do**  |
 **Done** - Selected Team Vision
 **Do** - Select Team Lead. Select standing team meeting time. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...Team Vision"
