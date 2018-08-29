@@ -13,7 +13,7 @@ output: github_document = default
 
 Enduring Issues (Parking Lot Issues)           |        Issues and Dependencies for Immediate Resolution
 ------------------------- | ----------------------------
-Issue 1                        |Issue 1 
+Issue 1                        |Issue 1 Agg model variables fix with James 
 Issue 2                        |Issue 2 
 Issue 3                        |Issue 3 
 Issue 4                        |Issue 4
