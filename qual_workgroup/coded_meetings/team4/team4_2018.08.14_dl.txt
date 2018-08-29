@@ -1,0 +1,60 @@
+Team 4
+August 14, 2018;  8:15am scheduled start time
+Lead Co-Facilitator: DK
+Co-Facilitator: TR
+Observer: DL
+Team members: 
+V
+JS
+J
+LW
+WC
+NOTES:
+DK: Today we are going to go over some updates to our simulation tool
+TR: Also, we are going to how some new updates to our data tool.
+DK: Two worlds to work with.
+TR: Here is your  question, hypothesis and findings. 
+TR: Here are the results in the Dashboard
+TR: Shows results, based on the re-run basecase.
+DK: Tom, is there anything that seems surprising about the results?
+TR: Yes. We said that the team would go from 2 to 9 hours for PYSCH. The graph here shows that it goes up to 9 hours, but then drops down to about 6, and then gradually raises back to 9! 
+TR: You have added hours, so you have more hours than you need to accommodate your patients. But and referrals increase you use them up. 
+J: It makes perfect sense. But the diagram (s and f) is a bit difficult to follow.
+TR: Now, let’s look at CC. 
+WC: It is making sense. I see the trade-offs, but the diagrams are confusing.
+TR: So, let’s play some more.
+TR: You can go to the purple sliders and set them to reflect, for example, over time. It can be 0 (No OT), 1  (a lot of OT), or something inbetween. 
+DK: Here are the service proportions that we were using prior. 
+DK: What is the change we are going to test?
+WC: No overtime! 
+DK: Correct
+TR: I run it and let’s see the output. This is what we would expect. CC is flat at 4 hours per week. 
+WC: I don’t see it. 
+TR: Let’s look at the table output. 
+WC: Oh, I see it. I see that basecase, the CC with overtime, and now our CC without overtime. Flat at 4 hours per week!
+TR: Correct!
+
+TR: Now, let’s consider the Return Visit Interval Rate. 
+V: Yes, ok. So, if we have a lot of patients, we could change the return rate and try to accommodate them, but bringing back patients less frequently. 
+DK: Yes. High five over the phone.
+TR: Can someone walk through the output for CC actual RVI?
+V: Why does RVI go up like that, and then move down again?
+TR: What about the booking rate? If the booking rate is slowed down, then the RVI can come down again, over time.
+DK: Does everyone know how to log in and play? 
+All: Yes.
+DK: What new experiments do you want to run/test?
+TR: You could play with the Effect of Work Pressure. Or maybe change the Service Proportions? See here. 
+DK: To summarize, the team can run any experiment. One would be to change an effect, like overtime, and run and see the output. Another would be to change your Service Proportions. 
+DK: Could you run your own experiments this week, in your own World, on a scale from 1 to 5. Five is hardest?
+V: 5. We don’t have a time and I forget how we did this once we get off the call. 
+DK: Stacy and Lindsey are available. 
+SP: Yes, and I am putting together some cheat sheets to help you run experiments on your own.j 
+DK: You have access to your data and to your own world. 
+TR: I am typing the new question. “What happens when the team does not work overtime, but changes hours and treatment decision-making as we did in our Aug 13, 2018 run..
+V: How do we get this team data into our individual world?
+SP: I will sent out instructions. 
+TR: Saving is important when you are working at team. Let me show you.
+TR:  I entered the question. Now let’s save the experiment. Click on Save Run. And you can use these drop downs to name the file. 
+TR: But I do not like that name. So I am going to rename it. 
+DK: You can export all your runs to an Excel file. This is a way to download your work, and see how it would impact your work. 
+
