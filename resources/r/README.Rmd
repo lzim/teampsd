@@ -6,7 +6,7 @@
 ## R version 3.5.1 
 ## RStudio Desktop 1.1.456 
 
-R Packages Folders    |
+R Packages Help Folders    |
 -----------------   |
 ggplot 2 
 
