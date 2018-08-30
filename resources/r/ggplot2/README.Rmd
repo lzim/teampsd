@@ -9,15 +9,15 @@ https://ggplot2.tidyverse.org/index.html
 ## ggplot 2 cheatsheets at github
 https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
 
-### GRAMMAR (built from the bottom up)  |
+ggplot2 grammar (built from the bottom up)  |
 --------------------------------------  |
-theme
-coordinate
-statistics
-facets
-geometries
-aesthetics
-data
+theme     |
+coordinate     |
+statistics     |
+facets    |
+geometries     |
+aesthetics     |
+data |
 
 
 
