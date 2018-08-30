@@ -24,9 +24,15 @@
 - You will be directed to the Adobe Connect Management page
 - Select the "Recordings" tab
 - Find the recording. Select "Actions," then "Make Offline"
+- Select recording settings and download destination
+- Allow recording to run and save
 
-5.
-6.
-7.
+5. Create your gif
+- Go to ezgif.com and select "Video to Gif"
+- Choose file downloaded earlier and upload video
+- Crop and cut video as necessary
+- Convert Video to Gif
+- Save and you're done!
+
 
 
