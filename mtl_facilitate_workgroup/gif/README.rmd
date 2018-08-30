@@ -1,0 +1,22 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+
+# How to Create Gifs using Adobe Connect
+
+1. Log into mtl.how/live (Adobe Connect)
+- Open up any browser and type in mtl.how/live
+- Login as an administrator (please contact lindsey.zimmerman@va.gov or stacey.park2@va.gov for the login information)
+
+2. Share your screen 
+- Click "Share My Screen"
+- Select "Applications" (instead of Windows) to share
+
+3. Record your screen
+- Select "Meeting," then "Record Meeting"
+- Give the file a name following our Team PSD standards (human and machine readable)
+- 
+
+4. Stop sharing your screen
+- Return to Adobe Connect
+- Select "Stop Sharing"
+
