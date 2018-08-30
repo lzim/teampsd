@@ -13,8 +13,10 @@
 - Select "Meeting," then "Record Meeting"
 - Give the file a name following our Team PSD standards (human and machine readable)
 - Navigate to application you want to record 
-![]()  
-![]()  
+![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_1.gif)  
+![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_2.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_3.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_4.gif)
 ![]()  
 ![]()  
 
