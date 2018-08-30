@@ -13,11 +13,19 @@
 - Select "Meeting," then "Record Meeting"
 - Give the file a name following our Team PSD standards (human and machine readable)
 - Navigate to application you want to record 
+![]()  
+![]()  
+![]()  
+![]()  
 
 3. Stop sharing and recording your screen
 - Return to Adobe Connect
 - Select "Stop Sharing"
 - Select "Meeting," then "Stop Recording"
+![]()  
+![]()  
+![]()  
+![]()  
 
 4. Download the screen recording
 - Select "Meeting," then "Manage Meeting Information"
@@ -26,6 +34,10 @@
 - Find the recording. Select "Actions," then "Make Offline"
 - Select recording settings and download destination
 - Allow recording to run and save
+![]()  
+![]()  
+![]()  
+![]()  
 
 5. Create your gif
 - Go to ezgif.com and select "Video to Gif"
@@ -33,6 +45,10 @@
 - Crop and cut video as necessary
 - Convert Video to Gif
 - Save and you're done!
+![]()  
+![]()  
+![]()  
+![]()  
 
 
 
