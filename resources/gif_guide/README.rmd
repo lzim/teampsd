@@ -34,6 +34,7 @@
 - Allow recording to run and save   
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_5.gif)  
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_6.gif)  
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_7.gif)  
 
 5. Create your gif
 - Go to ezgif.com and select "Video to Gif"
@@ -41,7 +42,6 @@
 - Crop and cut video as necessary
 - Convert Video to Gif
 - Save and you're done!  
-![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_7.gif)  
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_8.gif)  
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_9.gif)  
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_10.gif)  
