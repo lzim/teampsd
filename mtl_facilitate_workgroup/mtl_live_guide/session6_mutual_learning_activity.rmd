@@ -1,0 +1,36 @@
+# **Mutual Learning Exercise: Telling the CC System Story**  
+
+## Format: 2 Groups working together
+
+* The purpose for this activity is to walk through the process of telling a systems story so you can help others understand the complexity of managing patients and appointments in the VA health system.  
+* Divide the large group into 2 groups (count off by 2). Half are the “Appointments” group; half are in the “Patients” group. 
+* Three MTL team members will join the Appointments group (TR, DL, SP). Three MTL members will join the Patients group (LZ, JB, DK).
+* The Care Coordination Model main tile will be up on the screen. Would be helpful to have printed copies of the Appointments segment, the Patients segment and the whole model.
+
+# Part 1-A
+
+* Appointments group is going to work together to move (literally) participants through the appointments section of the CC model. For this activity, we assume **Overbooking Affects No-Shows** is revealed. 
+* One person will represent the Booking Rate, one Appointments in CC, and one the Completing Rate. MTL team members will represent True Missed Appointments (red), Effect of Task Time on Missed Appointments (purple) and Overbooks (green).
+* Together the Appointments group will have people in their group move through the model actually walking the paths of the arrows. 
+* MTL Team members facilitate what happens in the model when overbooking occurs (have people build up in the model or show the effect of task time on missed appointments). 
+* Remind the participants they can go to their computer and click on the *I* in the blue circle to see a definition if they’re not sure.
+* Discuss the colors of the boxes and what they mean.
+* The goal is to have workshop participants move through the stocks and flows, be impeded or be moved rapidly to have them understand the system story.
+
+# Part 1-B
+
+* The Patients group is going to work together to move (literally) participants through the Patients section of the CC model. For this activity, we assume **Wait Time Affects Referrals** is revealed. 
+* One person will represent the Waiting to Start, Starting Rate, one Patients in CC, and one the Ending Rate. MTL team members will represent Referral Rate (green), Target Wait Time (red), and Effect of Waiting Time on Referrals (purple).
+* Together the Patients group will have people in their group move through the model actually walking the paths of the arrows. 
+* MTL Team members facilitate what happens in the model when the referral rate increases or decreases, the target wait time increases or decreases, and what is the effect of wait time on referrals.
+* Discuss the impact of median engagement on the ending rate as Participants who are acting as Patients are moving through the Patient section of the model.
+* Remind the participants they can go to their computer and click on the *I* in the blue circle to see a definition if they’re not sure.
+* The goal is to have workshop participants move through the stocks and flows, be impeded or be moved rapidly to have them understand the system story.
+
+# Part 2
+
+* For this activity *Balancing Patients* is revealed. Everybody still has their roles. We could have pages or people to fill the roles of Return Visit Interval, Appointment Supply, and Appointments Available for New Patients.  
+* Facilitator: So we’ve just explored by moving through the basic system maps for Appointments and Patients in the main tile of the CC model. Now, let’s merge to the two parts of the model together to complete the systems story.  
+* Have people move through the model. Yes, it will be confusing; people may all run into the booking rate; the referral rate person can release 1 or several people; people can bunch up in waiting to start; appointments for CC can be reduced because a staff person left, etc. This should be a time of exporation, laughter, course correction, etc.    
+* The goal is to have workshop participants move through the stocks and flows, be impeded or be moved rapidly to have them understand the whole CC system story.  
+* Final Step – Sit down and debrief the experience and walk through the CC systems story a final time.
