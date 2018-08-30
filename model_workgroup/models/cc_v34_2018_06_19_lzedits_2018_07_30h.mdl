@@ -3,7 +3,7 @@ EQ Waiting to Start= INTEG (
 		EQ Appointments Available for New Patients*Patients per Appointment*"New Patient Wait Time (median)"\
 		)
 	~	pts
-	~	Total number of patients waiting to start care coordination.
+	~	Total number of patients waiting to start Care Coordination.
 	|
 
 EQ True Missed Appointment Rate=
@@ -30,8 +30,8 @@ EQ Booking Rate=
 	(ZIDZ(ZIDZ(EQ Patients in CC , Patients per Appointment) ,EQ RVI used when Booking))
 	~	appt/wk
 	~	The booking appointment rate depends on the number of existing patients \
-		seen by the team (i.e., the quotient of the total patients in care and \
-		their average return visit interval) and the number of new patients booked \
+		seen by the team (i.e., the quotient of the total patients in Care Coordination and \
+		their average Return-to-clinic Visit Interval [RVI]) and the number of new patients booked \
 		each week.
 	|
 
@@ -39,7 +39,7 @@ RVI used when Completing=
 	DELAY FIXED(RVI used when Booking, RVI used when Booking, RVI used when Booking)
 	~	wks
 	~	Appointments are completed based on the RVI in use at the time they were \
-		booked.  Any change in the RVI does not affect appointments already \
+		booked.  Any change in the Return-to-clinic Visit Interval (RVI) does not affect appointments already \
 		booked, only appointments being booked (i.e., appointments are not \
 		cancelled and rescheduled when RVI changes).
 	|
@@ -64,7 +64,7 @@ EQ Ending Rate=
 	ZIDZ(EQ Patients in CC , Median Engagement)
 	~	pts/wk
 	~	The number of patients finishing the service is a function the number of \
-		patients in treatment and their median engagement in treatment.
+		patients in Care Coordination (CC) and their median engagement in CC.
 	|
 
 EQ Maximum Start Rate=
@@ -86,7 +86,7 @@ EQ RVI used when Booking=
 	~	wk
 	~	The team's goal to see each patient in this service once in every x weeks. \
 		The default value for return visit interval is based on the team'a data. \
-		If the user inputs their desired RVI, then the model uses that value \
+		If the user inputs their desired Return-to-clinic Visit Interval (RVI), then the model uses that value \
 		instead.
 	|
 
@@ -94,7 +94,7 @@ Desired Appointment Completion Rate=
 	ZIDZ(Appointments in CC,RVI used when Completing)
 	~	appt/wk
 	~	The desired completion rate depends on the number of appointments to \
-		complete and the return visit interval that was used when those \
+		complete and the Return-to-clinic Visit Interval (RVI) that was used when those \
 		appointments were booked.
 	|
 
@@ -122,7 +122,7 @@ EQ Starting Rate=
 		)
 	~	pts/wk
 	~	The number of patients starting is a function the time the team allocates \
-		to care coordination and the number of patients already in care.  New \
+		to Care Coordination and the number of patients already in care.  New \
 		patients can only start if there are more team hours available than all \
 		their current patients use.
 	|
@@ -135,7 +135,7 @@ EQ RVI used when Completing= DELAY FIXED (
 "True Missed Appointment %"=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B3')
 	~	Dmnl
-	~	The proportion of care coordination appointments with this team that   \
+	~	The proportion of Care Coordination appointments with this team that   \
 		no-showed or were cancelled after the appointment was supposed to have \
 		happened. (pct)
 	|
@@ -159,7 +159,7 @@ EQ Patients in CC= INTEG (
 	EQ Starting Rate-EQ Ending Rate,
 		1)
 	~	pts
-	~	Total number of patients in treatment, initially set to 1 patient, to show \
+	~	Total number of patients in Care Coordination, initially set to 1 patient, to show \
 		how the clinic fills up when the team has more hours available than their \
 		existing patients use.
 	|
@@ -177,7 +177,7 @@ EQ New Patient Wait Time=
 		, 24)),24)
 	~	wk
 	~	The average wait time for new patients is based on the number of patients \
-		waiting and how many start care coordination each week (based on \
+		waiting and how many start Care Coordination each week (based on \
 		Little’s Law).
 	|
 
@@ -185,10 +185,10 @@ EQ Actual RVI=
 	MIN(XIDZ(EQ Appointments in CC,EQ Completing Rate, 52),52)
 	~	wk
 	~	The average wait time for new patients is based on the number of patients \
-		waiting and how many start care coordination each week (based on \
+		waiting and how many start Care Coordination each week (based on \
 		Little’s Law).  If there is more demand for completing appointments than \
 		there is available capacity, then actual return visit interval will \
-		increase, even if the desired RVI doesn't change.  If the completing \
+		increase, even if the desired Return-to-clinic Visit Interval (RVI) doesn't change.  If the completing \
 		appointment rate drops to zero, then the wait is technically infinite. In \
 		the model, appointments are never cancelled due to high wait times, but \
 		for ease of display, Actual RVI is capped at 12 months (52 weeks).
@@ -210,7 +210,7 @@ EQ Appointments in CC= INTEG (
 	~	appt
 	~	Total number of appointments booked, initial value set 1, to show how the \
 		schedule fills up when the team books more appointments than they need to \
-		complete (based on the number of appointments on the books and the RVI \
+		complete (based on the number of appointments on the books and the Return-to-clinic Visit Interval (RVI) \
 		used when booking them).
 	|
 
@@ -246,14 +246,14 @@ RVI used when Booking=
 	~	wks
 	~	The team's goal to see each patient in this service once in every x weeks. \
 		The default value for return visit interval is based on the team's data. \
-		If the user inputs their desired RVI, then the model uses that value \
+		If the user inputs their desired Return-to-clinic Visit Interval (RVI), then the model uses that value \
 		instead.
 	|
 
 Measured versus Actual Time=
 	MAX(XIDZ(Official Appointment Supply,Current Appointment Supply,1),0.01)
 	~	Dmnl
-	~	This represents the relative change in time available for other CC-related \
+	~	This represents the relative change in time available for other Care Coordination (CC) or CC-related \
 		tasks consumed by overbooking patient visits. We assume that these "extra" \
 		appointments come at the expense of "other CC related tasks," such as , \
 		team coordination, patient reminder calls, chart review and other \
@@ -310,11 +310,11 @@ Starting Rate=
 	)
 	~	pts/wk
 	~	The number of patients starting is a function the time the team allocates \
-		to care coordination and the number of patients already in care.  New \
+		to Care Coordination and the number of patients already in care.  New \
 		patients can only start if there are more team hours available than all \
 		their current patients use.  The user can also fix the start rate to the \
 		average estimated from the team's data, which can be helpful in assessing \
-		the supply, RVI, true missed appointment %, etc., needed to match that \
+		the supply, Return-to-clinic Visit Interval (RVI), true missed appointment %, etc., needed to match that \
 		real-world demand.
 	|
 
@@ -341,7 +341,7 @@ Use Team Data for Starting Rate=
 	~	Switch to control if patient starts are based on team current state \
 		(default set to ignore current state, and instead match patient starts to \
 		allocation of appointment capacity).  "Zero" = if all existing patients \
-		can be seen at the desired RVI, then only start new patients if there are \
+		can be seen at the desired Return-to-clinic Visit Interval (RVI), then only start new patients if there are \
 		available appointment slots, 1 = patient start rate set by the team's \
 		data, regardless of whether or not there is enough supply.
 	|
@@ -350,8 +350,8 @@ Use Team Data for Starting Rate=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B1')
 	~	pts/wk
 	~	An estimate of the number of new patients starting with the team per week,   \
-		calculated from the number of patients seen for care coordination in one \
-		year who have never had a care coordination visit with this team before. \
+		calculated from the number of patients seen for Care Coordination (CC) in one \
+		year who have never had a CC visit with this team before. \
 		(pts/wk)
 	|
 
@@ -414,7 +414,7 @@ Effect of Task Time on Missed Appointments=
 	~	The deviation from the initial missed appointment rate is adjusted by an \
 		exponent that reflects how sensitive both patients and providers are to \
 		provider fatigue. The negative sign on the exponent indicates that this is \
-		inversely coded, i.e., decreasing time spent on non-patient-facing CC \
+		inversely coded, i.e., decreasing time spent on non-patient-facing Care Coordination \
 		tasks (e.g., appointment prep, follow-up, reminder calls) increases the \
 		missed appointment rate. Patients start to experience this reduced quality \
 		by their next appointment, which occurs after the teams actual return \
@@ -439,7 +439,7 @@ Actual RVI=
 		waiting and how many start care coordination each week (based on \
 		Little’s Law).  If there is more demand for completing appointments than \
 		there is available capacity, then actual return visit interval will \
-		increase, even if the desired RVI doesn't change.  If the completing \
+		increase, even if the desired Return-to-clinic Visit Interval (RVI) doesn't change.  If the completing \
 		appointment rate drops to zero, then the wait is technically infinite. In \
 		the model, appointments are never cancelled due to high wait times, but \
 		for ease of display, Actual RVI is capped at 12 months (52 weeks).
@@ -457,7 +457,7 @@ Appointments in CC= INTEG (
 	~	appt
 	~	Total number of appointments booked, initial value set 1, to show how the \
 		schedule fills up when the team books more appointments than they need to \
-		complete (based on the number of appointments on the books and the RVI \
+		complete (based on the number of appointments on the books and the Return-to-clinic Visit Interval (RVI) \
 		used when booking them).
 	|
 
@@ -482,7 +482,7 @@ Median Engagement=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B12')
 	~	wks
 	~	The median number of weeks that patients stay engaged with the team, \
-		receiving care coordination visits according to team data. The visits can \
+		receiving Care Coordination visits according to team data. The visits can \
 		be with any member of the team.  This engagement time represents a \
 		patient's entire engagement in care coordination across treatment \
 		episodes,regardless of gaps in service. (wks)
@@ -491,7 +491,7 @@ Median Engagement=
 "Appointment Supply (75th percentile)"=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B10')
 	~	appt/wk
-	~	An estimate of the weekly number of care coordination appointments \
+	~	An estimate of the weekly number of Care Coordination appointments \
 		available with this team. The estimate is calculated using the volume of \
 		care coordination visits completed with the team over one year. (appt/wk)
 	|
@@ -502,7 +502,7 @@ Booking Rate=
 	(ZIDZ(ZIDZ(Patients in CC , Patients per Appointment) , RVI used when Booking))
 	~	appt/wk
 	~	The booking appointment rate depends on the number of existing patients \
-		seen by the team (i.e., the quotent of the total patients in care and \
+		seen by the team (i.e., the quotent of the total patients in Care Coordination and \
 		their average return visit interval) and the number of new patients booked \
 		each week.
 	|
@@ -519,8 +519,8 @@ Completing Rate=
 	Appointments for Existing Patients
 	~	appt/wk
 	~	The rate at which appointments are completed is the lesser of the existing \
-		patient demand for care (driven by the number of booked appointments and \
-		the revisit interval) or current supply of appointments per week.
+		patient demand for Care Coordination (driven by the number of booked appointments and \
+		the Return-to-clinic Visit Interval) or current supply of appointments per week.
 	|
 
 Return Visit Interval=
@@ -556,7 +556,7 @@ New Patient Wait Time=
 		)),24)
 	~	wk
 	~	The average wait time for new patients is based on the number of patients waiting \
-		and how many start care coordination each week (based on Little’s Law).  
+		and how many start Care Coordination each week (based on Little’s Law).  
 		This wait time is only useful when testing the effects of Wait Time on \
 		Referrals, or the effect of Additional Referrals. Otherwise, the model \
 		will adjust the number of referrals to maintain the desired new patient \
@@ -589,7 +589,7 @@ Patients in CC= INTEG (
 	Starting Rate-Ending Rate,
 		1)
 	~	pts
-	~	Total number of patients in treatment, initially set to 1 patient, to show \
+	~	Total number of patients in Care Coordination, initially set to 1 patient, to show \
 		how the clinic fills up when the team has more hours available than their \
 		existing patients use.
 	|
@@ -605,7 +605,7 @@ Waiting to Start= INTEG (
 		Appointments Available for New Patients*Patients per Appointment*Target New Patient Wait Time\
 		)
 	~	pts
-	~	Total number of patients waiting to start care coordination.
+	~	Total number of patients waiting to start Care Coordination.
 	|
 
 Additional Appointment Supply for New CC Patients=
@@ -652,7 +652,7 @@ Sensitivity of Missed Appointments to Task Time=
 "New Patient Wait Time (median)"=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B7')
 	~	wk
-	~	An estimate of new patient wait time between their first care coordination   \
+	~	An estimate of new patient wait time between their first Care Coordination   \
 		appointment being scheduled and that visit being completed with this team. \
 		(wks)
 	|
@@ -660,7 +660,7 @@ Sensitivity of Missed Appointments to Task Time=
 "Return Visit Interval (median)"=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','CCParams','B5')
 	~	wks
-	~	The median return-to-clinic visit interval for care coordination visits \
+	~	The median Return-to-clinic Visit Interval (RVI) for care coordination visits \
 		with this team, calculated from the number of visits per patient over \
 		their entire engagement time. (wks)
 	|
