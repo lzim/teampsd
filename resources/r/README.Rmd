@@ -1,0 +1,16 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+
+* At the VA, Team PSD is current using 
+  +R version 3.5.1 
+  +RStudio Desktop 1.1.456 
+
+# ggplot2
+
+## ggplot 2 at tidyverse
+https://ggplot2.tidyverse.org/index.html
+
+## ggplot 2 cheatsheets at github
+https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
+
+
