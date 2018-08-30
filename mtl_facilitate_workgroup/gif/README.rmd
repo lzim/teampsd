@@ -7,16 +7,26 @@
 - Open up any browser and type in mtl.how/live
 - Login as an administrator (please contact lindsey.zimmerman@va.gov or stacey.park2@va.gov for the login information)
 
-2. Share your screen 
+2. Share and record your screen 
 - Click "Share My Screen"
 - Select "Applications" (instead of Windows) to share
-
-3. Record your screen
 - Select "Meeting," then "Record Meeting"
 - Give the file a name following our Team PSD standards (human and machine readable)
-- 
+- Navigate to application you want to record 
 
-4. Stop sharing your screen
+3. Stop sharing and recording your screen
 - Return to Adobe Connect
 - Select "Stop Sharing"
+- Select "Meeting," then "Stop Recording"
+
+4. Download the screen recording
+- Select "Meeting," then "Manage Meeting Information"
+- You will be directed to the Adobe Connect Management page
+- Select the "Recordings" tab
+- Find the recording. Select "Actions," then "Make Offline"
+
+5.
+6.
+7.
+
 
