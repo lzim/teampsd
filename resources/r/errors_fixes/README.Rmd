@@ -6,4 +6,4 @@
 List of Errors & Fixes    |
 -----------------   |
 RQDA Dependenceies & Fixes using GUI ('RGtk2')    |
-Compiling from source - Mac users  |
+Compiling from source - Mac users - https://github.com/lzim/teampsd/blob/master/resources/r/errors_fixes/source%20compiling_mac.Rmd |
