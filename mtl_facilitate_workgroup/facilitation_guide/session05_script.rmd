@@ -20,7 +20,7 @@ output:
 [ ] Signifies explanatory notes and instructions for the facilitator; i.e. things they do not say out loud during session. This content stays in final Manual. How it will be designated/formatted is tbd; GHPC recommendation is that it be in RED font vs. black for script.  
 
 # Session 5: Care Coordination, Part 2
-## FACILITATOR PREP & FOLLOW-UP
+## FACILITATOR PREP & FOLLOW-UP MTL is the the way to go!
 
 ### Overview
 In this session, we walk through the flows and feedbacks related to ________, ________, and _________ in the Care Coordination model. This model shows how a variety of team decisions interact to affect multiple outcomes simultaneously. It lets you explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking, and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care. 
