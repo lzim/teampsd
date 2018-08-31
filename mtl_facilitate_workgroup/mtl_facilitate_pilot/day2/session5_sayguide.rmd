@@ -65,7 +65,7 @@ Today we move from our very rich but only backward-looking data to the simulatio
 
 OK, tell us what you see on this page, anyone, and let us know if it needs explanation.
 
--	Make sure the following are covered:
+Make sure the following are covered:
 -	Team Name at top left
 -	5 navigation icons: Home (where we are); Play; Chat; Help; and Logoff
 -	Player Name at top right
