@@ -1,0 +1,22 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
+
+# MTL Facilitate Pilot
+# Session 2 Mutual Learning Activity  
++ Tool: Data UI  
++ Format: Individual Activity  
++ Note to MTL team: Avoid allowing same 2 people to work together for multiple learning activities.  
+
+* Participants will receive an electronic WORD file with the Components of the Data UI listed in the left column and the section in the right column in which to make notes
+* Participants will have 30 minutes to work on the activity and answer questions
+* A debrief will be held in the large group to talk through each component.
+
+| *Component* | *Description / Uses / Processes*  
+| Log-in Screen | Write down the steps for getting into the Data UI.  
+| Clinic Selection | Document the steps for selecting clinics that will go into a data file.  
+| Viz Tabs | Find the chart with ____________. How and where did you find this information?  
+| Data Tabs | What is the number of patients who... How and where did you find this information?  
+| Data Tabs | How many appointments are there in... How and where did you find this information?  
+| Save File | What are the steps for saving a file that can be uploaded for use in the simulation interface?  
+
+* Questions or challenges posed by the participants in finding the information will be documented by MTL team members.
