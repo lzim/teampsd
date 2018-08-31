@@ -1,0 +1,16 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
+
+#### *# *MTL* Sessions 9 and 10: Mutual Learning: Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+# *MTL* Sessions 9 and 10: Mutual Learning: Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time
+
+Ask David to create scripts for this exercise. 
+Resources needed: Draft 3 short team dialogues about AGG that each use all four dimensions of systems thinking. 
+The readers of the dialogue wil be team PSD members. 
+These sections of dialogue can come from the team meeting notes in the qualitative workgroup folder. 
+Use the systems thinking codebook for reference.  
+The purpose is to  ask the MTL Facilitate Pilot learners to identify the dimensions of systems thinking present in the dialogue.  
+There should be at least one that has all four dimensions.
