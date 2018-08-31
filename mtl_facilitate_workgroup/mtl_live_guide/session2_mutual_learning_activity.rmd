@@ -13,16 +13,14 @@
 
 ## The Data UI {.tabset .tabset-fade}
 
-### tab 1 
- *Component*
- Log-in Screen
- Clinic Selection
- Viz Tabs
- Data Tabs
- Data Tabs
- Save File
-### tab 2
-*Description / Uses / Processes*
+### Component
+Log-in Screen
+Clinic Selection
+Viz Tabs
+Data Tabs
+Data Tabs
+Save File
+### Description / Uses / Processes
 Write down the steps for getting into the Data UI.
 Document the steps for selecting clinics that will go into a data file.
 Find the chart with ____________. How and where did you find this information?
