@@ -46,14 +46,14 @@
 **08:00AM-04:30PM** |
 **08:00AM-08:15AM** - Done (yesterday) and Do (today)   |                              
 **08:15AM-09:15AM** - *MTL* Session 7 - sim UI - Aggregate In-session Exercise   |
-**09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning**  |
+**09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning: Facilitating the Base Case**  |
 **10:15AM-10:30AM** - BREAK  |
 **10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise   |
-**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning** |
+**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live*** |
 **12:30PM-01:30PM** - Lunch |
 **01:30PM-02:30PM** - *MTL* Session 9 - sim UI - In-session Exercise |
 **02:30PM-02:45PM** - Break  |
-**02:45PM-03:45PM** - *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Run Experiments with a Partner**  |
+**02:45PM-03:45PM** - *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Facilitating Experiments**  |
 **03:45PM-04:15PM** - *MTL* Sessions 9 and 10 Facilitated Discussion of simulation findings  |
 **04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 4 Preparation|
