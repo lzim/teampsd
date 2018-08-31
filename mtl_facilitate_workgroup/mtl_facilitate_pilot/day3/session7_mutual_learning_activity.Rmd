@@ -1,19 +1,12 @@
-# *Session 9 Mutual Learning Role Play – Interpreting Results AGG Model*
+# *Session 7 Mutual Learning Role Play - MTL Base Case
+## 3 Groups and 3 Cycles
 
-+ Laptop/Computer – with outputs screen showing base case and experiment 1
-
-# Roles
-+ Facilitator 1 = *MTL Facilitator Pilot* Learner
-+ Facilitator 2 = *MTL Facilitator Pilot* Learner
-+ Facilitator 3 = *MTL Facilitator Pilot* Learner
-+ Team PSD Members will serve as *MTL Pilot* Team Members
-
-# Groups
+# Instructions
 * The large group is divided in to 3 smaller groups with *MTL Facilitate Pilot* learners serving as facilitators. 
 * The other *MTL Facilitate Pilot* learners and Team PSD members are divided up as listed below. 
 * Team PSD Members who are playing the roles of *MTL Live* team members will be called on Facilitators as needed to provide additional input, interpretation, guidance, etc. on the experiment results.
 
-# Basecase - 3 Groups and 3 Cycles
+# Groups and Roles
 
 Group 1 | Group 2 | Group 3  |
 ----------------------------  |
@@ -22,27 +15,13 @@ Group 1 | Group 2 | Group 3  |
 *MTL Facilitator Pilot* Learner #3 - Role: Facilitator for Cycle 3  |
 Team PSD Members = LZ, DK | MTL = TR, SP | MTL = DL, JB  |
 
-# Experiments - 3 Groups and 3 Cycles
+# Resources
++ Computer – with outputs screen showing base case from session 7.
 
-Group 1 | Group 2 | Group 3  |
-----------------------------  |
-*MTL Facilitator Pilot* Learner #1 - Role: Facilitator for Cycle 1  |
-*MTL Facilitator Pilot* Learner #2 - Role: Facilitator for Cycle 2  |
-*MTL Facilitator Pilot* Learner #3 - Role: Facilitator for Cycle 3  |
-Team PSD Members = LZ, DK | MTL = TR, SP | MTL = DL, JB  |
+# Purpose
+* The purpose of this activity is to allow *MTL Facilitate Pilot* Learners to teach others how to interpret the information and results from *MTL* simulations.  
 
-# Activity – 3 Segments
-* The purpose of this activity is to allow MTL Facilitate Workshop Participants to teach others how to interpret the information and results from MTL simulations.  
-* The activity will be completed in 3 segments:  
-1. base case review  
-2. experiment 1 review  
-3. experiment 2 – what variables to modify based on experiment 1 results review  
-* After segment 1 is done, new Ps will fill the roles of F1 and F2 for segment 2.  
-* After segment 2 is done, new Ps will fill the role of F1 and F2 for segment 3. In some cases, P will have to facilitate two times.  
-* Each team will have a laptop on the expanded Outputs Tile or a screenshot of an expanded Outputs Tile with the base case and one experiment showing.  
-+ Generate sample or trigger dialogue ½ page sheets from text below to give to participants to guide the activity.  
-
-# *Segment 1 – Base Case Review*  
+# Base Case Review*  
 * F1 Sample Dialogue: Welcome. Today our goals for the team are to: 1) review our most recent BC run; 2) walk through the 1st experiment we ran last time; and 3) think about what our next experiment will be based on the results of the 1st experiment.  
 * F2 Sample Dialogue: Let’s review the base case results from your team data. What do you see P NAME?  
 * P:   Participant verbalizes what he/she sees in the base case…  
