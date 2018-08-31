@@ -1,3 +1,9 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
+
+#### *MTL* Session 7 - sim UI - **Mutual Learning: Facilitating the Base Case**
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
 # *Session 7 Mutual Learning Role Play - MTL Base Case
 ## 3 Groups and 3 Cycles
 
