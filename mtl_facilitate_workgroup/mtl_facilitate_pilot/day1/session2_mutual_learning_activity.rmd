@@ -11,12 +11,22 @@
 * Participants will have 30 minutes to work on the activity and answer questions
 * A debrief will be held in the large group to talk through each component.
 
-| *Component* | *Description / Uses / Processes*  
-| Log-in Screen | Write down the steps for getting into the Data UI.  
-| Clinic Selection | Document the steps for selecting clinics that will go into a data file.  
-| Viz Tabs | Find the chart with ____________. How and where did you find this information?  
-| Data Tabs | What is the number of patients who... How and where did you find this information?  
-| Data Tabs | How many appointments are there in... How and where did you find this information?  
-| Save File | What are the steps for saving a file that can be uploaded for use in the simulation interface?  
+## The Data UI {.tabset .tabset-fade}
+
+### Component  
+Log-in Screen  
+Clinic Selection  
+Viz Tabs  
+Data Tabs  
+Data Tabs  
+Save File  
+
+### Description / Uses / Processes  
+Write down the steps for getting into the Data UI.  
+Document the steps for selecting clinics that will go into a data file.  
+Find the chart with ____________. How and where did you find this information?  
+What is the number of patients who... How and where did you find this information?  
+How many appointments are there in... How and where did you find this information?  
+What are the steps for saving a file that can be uploaded for use in the simulation interface?  
 
 * Questions or challenges posed by the participants in finding the information will be documented by MTL team members.
