@@ -17,8 +17,8 @@
 **12:30PM-01:30PM** - Lunch |
 **01:30PM-02:30PM** - *MTL* Session 9 - sim UI - In-session Exercise |
 **02:30PM-02:45PM** - Break  |
-**02:45PM-03:45PM** - *MTL* Session 10 - sim UI - **Mutual Learning: Run Experiments with a Partner**  |
-**03:45PM-04:15PM** - *MTL* Session 10 Facilitated Discussion of simulation findings  |
+**02:45PM-03:45PM** - *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Run Experiments with a Partner**  |
+**03:45PM-04:15PM** - *MTL* Session 9 and 10 Facilitated Discussion of simulation findings  |
 **04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 4 Preparation|
 
@@ -55,5 +55,5 @@
 
 
 
-#### *MTL* Session 10 - sim UI - **Mutual Learning: Run Experiments with a Partner**
+#### *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Run Experiments with a Partner**
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
