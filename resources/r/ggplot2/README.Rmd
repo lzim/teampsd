@@ -1,0 +1,26 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+
+# ggplot2
+
+## ggplot 2 at tidyverse
+https://ggplot2.tidyverse.org/index.html
+
+## ggplot 2 cheatsheets at github
+https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
+
+ggplot2 grammar (built from the bottom up)  |
+--------------------------------------  |
+theme     |
+coordinate     |
+statistics     |
+facets    |
+geometries     |
+aesthetics     |
+data |
+
+
+
+
+
+

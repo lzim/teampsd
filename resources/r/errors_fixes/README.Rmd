@@ -1,0 +1,9 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+     
+# Team PSD R Errors and Fixes
+
+List of Errors & Fixes    |
+-----------------   |
+RQDA Dependenceies & Fixes using GUI ('RGtk2')    |
+Compiling from source - Mac users - https://github.com/lzim/teampsd/blob/master/resources/r/errors_fixes/source%20compiling_mac.Rmd |

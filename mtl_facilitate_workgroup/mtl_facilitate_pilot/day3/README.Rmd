@@ -1,0 +1,59 @@
+
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
+
+# MTL Facilitate Pilot Schedule-at-a-Glance - Day 3
+
+## Thursday 9/6
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 3 |
+-------------- |
+**08:00AM-04:30PM** |
+**08:00AM-08:15AM** - Done (yesterday) and Do (today)   |                              
+**08:15AM-09:15AM** - *MTL* Session 7 - sim UI - Aggregate In-session Exercise   |
+**09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning**  |
+**10:15AM-10:30AM** - BREAK  |
+**10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise   |
+**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning** |
+**12:30PM-01:30PM** - Lunch |
+**01:30PM-02:30PM** - *MTL* Session 9 - sim UI - In-session Exercise |
+**02:30PM-02:45PM** - Break  |
+**02:45PM-03:45PM** - *MTL* Session 10 - sim UI - **Mutual Learning: Run Experiments with a Partner**  |
+**03:45PM-04:15PM** - *MTL* Session 10 Facilitated Discussion of simulation findings  |
+**04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) |
+**04:30PM-05:00PM** - TeamPSD Reflections & Day 4 Preparation|
+
+
+
+### Mutual Learning with Modeling to Learn
+
+
+
+
+#### *MTL* Session 7 - sim UI - Aggregate In-session Exercise 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+#### *MTL* Session 7 - **Mutual Learning**
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+
+#### *MTL* Session 8 - sim UI - In-session Exercise 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+#### *MTL* Session 8 - sim UI - **Mutual Learning**
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+#### *MTL* Session 9 - sim UI - In-session Exercise
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+#### *MTL* Session 10 - sim UI - **Mutual Learning: Run Experiments with a Partner**
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>

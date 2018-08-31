@@ -1,0 +1,40 @@
+
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
+     
+# MTL Facilitate Pilot Schedule-at-a-Glance - Day 1
+
+## Tuesday 9/4
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 1        |
+------------   |
+**01:00PM-04:30PM**  |
+**01:00PM-01:15PM** - Introductions  |
+**01:15PM-01:45PM** - Introducing *Modeling to learn (MTL)*   
+**01:45PM-02:00PM** - *MTL* Session 1 - Team Vision 
+**02:00PM-02:15PM** - Break
+**02:15PM-03:15PM** - *MTL* Session 2 - data UI - In-session Exercise
+**03:15PM-04:15PM** - *MTL* Session 2 - data UI - **Mutual Learning**  
+**04:15PM-04:30PM** - Debrief - "Done" (today) and "Do" (tomorrow)   
+**04:30PM-05:00PM** - TeamPSD Reflections & Day 2 Preparation 
+**05:00PM-06:00PM** - Break 
+**06:00PM-07:30PM** - Optional group dinner/Dinner on your own  
+**07:30PM**         - Travel to Lodging 
+
+
+
+### Mutual Learning with Modeling to Learn
+
+
+
+
+#### *MTL* Session 1 - Team Vision 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+#### *MTL* Session 2 - data UI - In-session Exercise
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
+
+
+
+
+#### *MTL* Session 2 - data UI - **Mutual Learning** 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>

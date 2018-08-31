@@ -1,0 +1,70 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
+
+# MTL Facilitate Pilot
+**Session 6 – The Simulation User Interface (Sim UI)**  
+
+# **In-session Exercise – Part 1: Where in the MTL World Is…**  
+-- 12 minutes  
+* Our first activity today is *Where in the MTL World is…*  
+* We are going to be using the chat box. I will guide you, step by step, through finding certain items on the MTL.how/sim main tile for the Care Coordination or CC model.  
+* The purpose for this activity is to familiarize you with the main tile in the model diagram so you can easily find information and numbers that change in the model as you run experiments.  
++ I’m going to be typing a series of 5 questions into the chat box, one at a time, as well as reading them aloud.  
++ Please do the action requested in the question. Find the answer and “chat” it back to me by typing your answer into the chat box. 
+
+*If at any time you are not sure what I’m asking for or how to find something, type “help” in the chat box and I will provide assistance by sending a hint or giving verbal support over the phone to all participants.
+
+1. Question 1:  Information circles are blue with an I in the middle. Read the text in the “i” circle for “Appointments in CC.” Type the first 5 words of the text in the “i” circle for “Appointments in CC” into the chat box.  
++ Answer:  Total number of appointments booked…  
+
+2. Question 2:  The model explores the future possibilities for managing appointments and patients. Over how many years does an experiment run?  
++ Answer: 2 years  
+
+3. Question 3: In one sentence, tell me generally what happens to the screen when you click on the squares next to the 3 “Reveal Complexity” buttons?  
++ Answer:  Arrows and boxes are revealed to show balancing patients, overbooking affects no-shows, and how wait time affects referrals.  
+
+4. Question 4: What is the “True Missed Appointment Rate?” (Hint: look in the dial) 
++ Answer:  ____  
+
+5. Question 5:  What is the total number of patients “Waiting to Start” care coordination?  
++ Answer: ____  
+
+
+# **In-session Exercise – Part 2: Telling a Systems Story**  
+-- 18 minutes  
+
+* ______ thanks for driving the model during this segment. Again, we are on the Care Coordination main model tile with no complexity revealed.
+* A tip – if your computer screen is expanded you may not be able to see the whole model all at once. If you click on the boxes in the upper right of your screen, it will enable you to see the whole model at once.
+* Imagine a veteran wants to begin care coordination. Let’s walk through the system. What is the first thing that has to happen according to the CC model?  
++ He/she has to be booked for an appointment (booking rate).  
+* Right, we are in the appointments section of the model and he/she books an appointment.  
+
+* Someone tell me what happens after the veteran is booked?  
++ He/she has an appointment (appointments in cc) and then is counted as completing that appointment (completing rate).  
+
+* Right. So, there isn’t just one veteran is there? There are thousands. So let’s move down to the Patients section of the model.
+* Someone tell me what is happening in this diagram.
++ Patients are starting care coordination (starting rate), they are in CC for a period of time, and at some point, they end CC.  
+
+* Great, so remind me, where can you see the number for the text in red, *Median Engagement in CC*?
++ In the Experiments tile, on the team data table. It says the Median Engagement in CC (Week) is ____ [NUMBER].
+
+* Let’s look at the whole system now. Can someone tell me how to reveal the various parts of the model?
++ Yes, click on the buttons under *Reveal Complexity.*
+
+* NAME, please click on *Overbooking Affects No-Shows* first. There is a blue line leaving from *Completing Rate.* Where does it lead to?  
+* Right, *True Missed Appointment Rate.* Thinking about your experience with CC, can someone talk through this part of the system for me? We’ve gone from *Completing Rate* to *True Missed Appointment Rate.* What else is happening in the system according to the model? Remember you can click on the “I” to build your understanding of the phrases in the model diagram.
++ We know that veteran’s miss appointments. To balance that, we may overbook to ensure that time for appointments is used. As providers, it can be stressful to manage missed appointments and overbooking (effect of task time on missed appointments).
+
+* Now, let’s reveal the next complexity *Wait Time Affects Referrals.* You can see this links to the Patients part of the model. 
+* When you reveal complexity, what two concepts appear in the Patients section of the systems model? Right, we’ve added referral rates in the green slider box and target wait time in the red box.
+* Will someone who hasn’t talked yet walk through Wait Time section that was just revealed starting at the *Referral Rate* box and dial? NAME will use the mouse to follow the flow you are describing.
++ Patients are being referred to CC. But, they will likely have to wait to start CC. And, if they are referred and have to wait a long time, then the effect of waiting may be that referrals will go down.
+
+* Thanks NAME. Up to this point, the Appointments and Patients sections of the model have been separate. Now let’s reveal the last complexity *Balancing Patients.* What happened when we did this?  
++ It connected the top – Appointments – and the bottom – Patients – together so we can see it is one system.
+* So what is the main idea in this last reveal. Hint – look at the Capital B with a loop around it.
++ We need to balance existing and new patients who are coming into CC.
+* Yes, and what else? Think back to the parts of the system we’ve already reviewed.
++ We want to be sure we have appointments for the patients and we are scheduling them at the right time interval so we can see as many patients as possible and they don’t have to wait a long time.
+* Right – and that is the systems story for CC. Any questions? 
