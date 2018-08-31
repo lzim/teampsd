@@ -33,4 +33,5 @@
 * Facilitator: So we’ve just explored by moving through the basic system maps for Appointments and Patients in the main tile of the CC model. Now, let’s merge to the two parts of the model together to complete the systems story.  
 * Have people move through the model. Yes, it will be confusing; people may all run into the booking rate; the referral rate person can release 1 or several people; people can bunch up in waiting to start; appointments for CC can be reduced because a staff person left, etc. This should be a time of exporation, laughter, course correction, etc.    
 * The goal is to have workshop participants move through the stocks and flows, be impeded or be moved rapidly to have them understand the whole CC system story.  
+
 * Final Step – Sit down and debrief the experience and walk through the CC systems story a final time.
