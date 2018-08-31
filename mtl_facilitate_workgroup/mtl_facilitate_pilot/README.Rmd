@@ -54,7 +54,7 @@
 **01:30PM-02:30PM** - *MTL* Session 9 - sim UI - In-session Exercise |
 **02:30PM-02:45PM** - Break  |
 **02:45PM-03:45PM** - *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Facilitating Experiments**  |
-**03:45PM-04:15PM** - *MTL* Sessions 9 and 10 Facilitated Discussion of simulation findings  |
+**03:45PM-04:15PM** - *MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**  |
 **04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 4 Preparation|
 
