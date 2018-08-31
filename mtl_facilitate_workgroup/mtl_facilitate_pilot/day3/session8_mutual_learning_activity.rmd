@@ -1,7 +1,8 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
      height = "150" width = "250">  
 
-# MTL Facilitate Pilot
+#### *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: The Steps of *MTL***
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
 # **Sequencing Learning Activity**
 # Actual Order (correct or add to as needed)
