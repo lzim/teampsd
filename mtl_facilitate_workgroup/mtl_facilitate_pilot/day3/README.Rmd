@@ -13,7 +13,7 @@
 **09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning: Facilitating the BaseCase**  |
 **10:15AM-10:30AM** - BREAK  |
 **10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise   |
-**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning** |
+**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live***** |
 **12:30PM-01:30PM** - Lunch |
 **01:30PM-02:30PM** - *MTL* Session 9 - sim UI - In-session Exercise |
 **02:30PM-02:45PM** - Break  |
