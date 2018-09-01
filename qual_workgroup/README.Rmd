@@ -8,9 +8,9 @@
 **1. Qualitative Workgroup Codebooks**
 
 -qual_codebooks
-  + Systems Thinking - systems_thinking
   + Consolidated Framework for Implementation Research  - cfir
   + *MTL* Fidelity - mtl_fidelity
+  + Systems Thinking - systems_thinking
   
   **2. Coded Meetings**
   
