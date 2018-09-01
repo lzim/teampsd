@@ -14,7 +14,7 @@
 **Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
 **See Session 1 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 1 - Team Vision |
-**Execise Resources** - available at mtl.how/1_team_vision |
+**Exercise Resources** - available at mtl.how/1_team_vision |
 **MTL Live** - MTL Session 1 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 1 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
@@ -32,7 +32,7 @@
 **Do** - Select and review Team Data for *MTL*  |
 **See Session 2 Guides - 30 minutes for In-session Exercise**  |
 **In-session exercise** - *MTL* Session 2 - Team Data - data user-interface (data UI) |
-**Execise Resources** - available at mtl.how/2_team_data |
+**Exercise Resources** - available at mtl.how/2_team_data |
 **MTL Live** - MTL Session 2 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 2 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
