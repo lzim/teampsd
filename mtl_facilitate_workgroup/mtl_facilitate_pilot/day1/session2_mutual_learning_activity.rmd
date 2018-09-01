@@ -5,14 +5,21 @@
 
 # Session 2 Mutual Learning Activity - The Data User Interface
 
-+ Tool: Data User Interface (UI)  
+  + Tool: Data User Interface (UI)  
 
-+ Format: Paired Activity  
+  + Format: Paired Activity  
 
-* Purpose: The purpose for this activity is for *MTL Facilitate Learners* to work together to document processes and find information in the Data UI.
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" 
+     height = "150" width = "150"> 
+
+* Recall the steps required to login to the MTL data UI.  
+* Demonstrate the ability to create clinic team data set.  
+* Prepare and interpret clinic data and charts in the Data UI.  
+
+# Activity
 
 * Team PSD members will join a learner pair to document questions or challenges posed by the pairs in finding information in the Data UI.
-
 * Participants will receive an electronic or hard copy word file with the *Components of the Data UI* listed in the left column and *Answers, Descriptions and Notes* in the right column in which to write information and document answers.  
 
 
@@ -27,3 +34,10 @@
 | Save File | What are the steps for saving a file that can be uploaded for use in the simulation interface? |  
 
 
+<!-- Done List Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "150" width = "150"> 
+## Done  
+* Master logging in to the MTL data UI.  
+* Create a team data set.  
+* Prepare and interpret clinic data and charts in the Data UI.   
