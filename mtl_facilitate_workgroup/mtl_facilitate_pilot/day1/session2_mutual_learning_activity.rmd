@@ -5,7 +5,7 @@
 
 # Session 2 Mutual Learning Activity - The Data User Interface
 
-+ Tool: Data UI  
++ Tool: Data User Interface (UI)  
 
 + Format: Paired Activity  
 
@@ -19,8 +19,9 @@
 | **Component** | **Answers, Descriptions, Notes** |
 |-------------------- |:-------------------------------|
 | Log-in Screen | What information do you need to log into the data UI? |  
-| Clinic Selection | Document the steps for selecting clinics that will go into a data file. |  
-| Viz Tabs | Create a chart for EBPsy appointments. How many EBPsy appointments were documented in what timeframe? Where did you find this information? |  
+| Clinic Selection | Document the steps for selecting clinics that will become your data file. |  
+| Viz Tabs | Generate a chart featuring EBPsy appointments. How many EBPsy appointments were documented in what timeframe? Where did you find this information? |  
+| Viz Tabs | Look at the chart of all services offered by each clinic in your station. Which clinic has the fewest MM appointments. |  
 | Data Tabs | Select the correct column headers to get to data for 1 clinic. What is the most common code used by clinicians in this clinic? Where did you find this information? |  
 | Data Tabs | How many total appointments did X clinic complete in 2017. Where did you find this information? |  
 | Save File | What are the steps for saving a file that can be uploaded for use in the simulation interface? |  
