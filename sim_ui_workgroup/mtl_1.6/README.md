@@ -1,3 +1,10 @@
-# MTL 1.6 - Modeling to Learn 1.6 Development
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
 
-## The is the README.md file started to create the "mtl_1.6" folder
+# *MTL* Simulation User-interface (sim UI) Workgroup
+
+## Works in Progress
+  
+***MTL* 1.6**
+  
+- mtl_1.6
