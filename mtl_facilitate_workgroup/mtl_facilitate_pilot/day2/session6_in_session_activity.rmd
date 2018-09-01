@@ -11,13 +11,13 @@
 
 * Purpose: The purpose for this activity is to familiarize learners with the main tile in the model diagram. By the end, learners should easily find information and numbers that change in the model as you run experiments. Facilitator will challenge *MTL Facilitate learners* to find certain items on the MTL.how/sim main tile for the Care Coordination (CC) model.  
 + A series of 5 questions, one at a time, will be posed via the chat box as well as reading them aloud to the *MTL Facilitate Learners.*  + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box. 
-+ *If at any time you are not sure what I’m asking for or how to find something, type “help” in the chat box and I will provide assistance by sending a hint or giving verbal support over the phone to all participants.*
++ *If at any time you are not sure how to find something, type “help” in the chat box.* The Facilitator will provide assistance by sending a hint or giving verbal support over the phone to all participants.
 
 1. Question 1: Where do you find the descriptions for each stock or flow in the CC model.  
 2. Question 2: What are the 3 main stocks for the Appointments section and the Patients section of the model?
 3. Question 3: Describe generally what happens ub the model when you click to “Reveal Complexity?" 
 4. Question 4: What is the RVI?
-5. Question 5:  What is the total number of patients “Waiting to Start” care coordination and how is Waiting to Start measured?
+5. Question 5: What is the total number of patients “Waiting to Start” care coordination and how is Waiting to Start measured?
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 -- 18 minutes  
