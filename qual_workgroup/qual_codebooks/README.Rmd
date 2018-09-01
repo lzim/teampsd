@@ -5,6 +5,6 @@
 
 **Codebooks**
 
-  + Systems Thinking
-  + Consolidated Framework for Implementation Research (CFIR)
-  + *MTL* Fidelity
+  + Consolidated Framework for Implementation Research  - cfir
+  + *MTL* Fidelity - mtl_fidelity
+  + Systems Thinking - systems_thinking
