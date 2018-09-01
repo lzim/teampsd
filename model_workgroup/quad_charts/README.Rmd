@@ -2,13 +2,6 @@
      height = "200" width = "600">  
 # Model Workgroup
 
-**1. *MTL 1.6* Models - Released August 2018**
-
-- Care Coordination
-- Medication Management
-- Psychotherapy
-- Aggregate
-
-**2. Quad charts**
+**Quad charts**
 
 - quad_charts
