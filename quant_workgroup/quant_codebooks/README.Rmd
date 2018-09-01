@@ -9,4 +9,4 @@
 **Quantiative Workgroup Codebooks**
   
 - quant_codebooks
-  + Comparator 
+  + comparator 
