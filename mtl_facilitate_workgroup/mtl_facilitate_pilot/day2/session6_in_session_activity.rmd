@@ -2,33 +2,22 @@
      height = "150" width = "250">  
 
 # MTL Facilitate Pilot
+
 **Session 6 – The Simulation User Interface (Sim UI)**  
 
 # **In-session Exercise – Part 1: Where in the MTL World Is…**  
--- 12 minutes  
-* Our first activity today is *Where in the MTL World is…*  
-* We are going to be using the chat box. I will guide you, step by step, through finding certain items on the MTL.how/sim main tile for the Care Coordination or CC model.  
-* The purpose for this activity is to familiarize you with the main tile in the model diagram so you can easily find information and numbers that change in the model as you run experiments.  
-+ I’m going to be typing a series of 5 questions into the chat box, one at a time, as well as reading them aloud.  
-+ Please do the action requested in the question. Find the answer and “chat” it back to me by typing your answer into the chat box. 
+ 
+* Tools: MTL.how/live (Adobe Connect) including chat function; MTL.how/sim (Simulation User Interface)  
 
-*If at any time you are not sure what I’m asking for or how to find something, type “help” in the chat box and I will provide assistance by sending a hint or giving verbal support over the phone to all participants.
+* Purpose: The purpose for this activity is to familiarize learners with the main tile in the model diagram. By the end, learners should easily find information and numbers that change in the model as you run experiments. Facilitator will challenge *MTL Facilitate learners* to find certain items on the MTL.how/sim main tile for the Care Coordination (CC) model.  
++ A series of 5 questions, one at a time, will be posed via the chat box as well as reading them aloud to the *MTL Facilitate Learners.*  + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box. 
++ *If at any time you are not sure what I’m asking for or how to find something, type “help” in the chat box and I will provide assistance by sending a hint or giving verbal support over the phone to all participants.*
 
-1. Question 1:  Information circles are blue with an I in the middle. Read the text in the “i” circle for “Appointments in CC.” Type the first 5 words of the text in the “i” circle for “Appointments in CC” into the chat box.  
-+ Answer:  Total number of appointments booked…  
-
-2. Question 2:  The model explores the future possibilities for managing appointments and patients. Over how many years does an experiment run?  
-+ Answer: 2 years  
-
-3. Question 3: In one sentence, tell me generally what happens to the screen when you click on the squares next to the 3 “Reveal Complexity” buttons?  
-+ Answer:  Arrows and boxes are revealed to show balancing patients, overbooking affects no-shows, and how wait time affects referrals.  
-
-4. Question 4: What is the “True Missed Appointment Rate?” (Hint: look in the dial) 
-+ Answer:  ____  
-
-5. Question 5:  What is the total number of patients “Waiting to Start” care coordination?  
-+ Answer: ____  
-
+1. Question 1: Where do you find the descriptions for each stock or flow in the CC model.  
+2. Question 2: What are the 3 main stocks for the Appointments section and the Patients section of the model?
+3. Question 3: Describe generally what happens ub the model when you click to “Reveal Complexity?" 
+4. Question 4: What is the RVI?
+5. Question 5:  What is the total number of patients “Waiting to Start” care coordination and how is Waiting to Start measured?
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 -- 18 minutes  
