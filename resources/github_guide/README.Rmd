@@ -54,12 +54,12 @@ Everytime you start a new work session, create a fresh branch from the master or
 Pull are for...
 1. Simultaneous real-time editing up until that session with our learners in one location
 2. Simultaneous editing acrosss the team
-3. Ability to see formatted document and make direct edits, add line-specific comments, and discuss the document as a whole]
-*Do not create a pull request for uploading a non-markdown document (i.e. word or excel) to the master
+3. Ability to see formatted document and make direct edits, add line-specific comments, and discuss the document as a whole]  
+*Do not create a pull request for uploading a non-markdown document (i.e. word or excel) to the master*
 
 Issues are for...
 1. Discussing questions and decisions across the team on an issue
 
 ### **Creating and Changing Folders**
-Files can be created and moved in folders with use of the forward slash (/).  For example, "teampsd/mtl_facilitate/session1.rmd" means in the teampsd repository, there is a folder called "mtl_facilitate" with the file session1.rmd.  Likewise, to move "session1.rmd" to a different folder, simply click on the pencil icon/edit button on the file and change the file name by use of the Backspace button. For example, changing the pathway to "session1.rmd" to "teampsd/mtl_pilot/session1.rmd" moves the file to the "mtl_pilot" foler.
-*Tip: In order to prevent accidentally creating new folders, keep two tabs open - 1) one tab with the file to be moved; 2) second tab of the new location for the file. This way you can ensure the file pathway is accurate.
+Files can be created and moved in folders with use of the forward slash (/).  For example, "teampsd/mtl_facilitate/session1.rmd" means in the teampsd repository, there is a folder called "mtl_facilitate" with the file session1.rmd.  Likewise, to move "session1.rmd" to a different folder, simply click on the pencil icon/edit button on the file and change the file name by use of the Backspace button. For example, changing the pathway to "session1.rmd" to "teampsd/mtl_pilot/session1.rmd" moves the file to the "mtl_pilot" folder.  
+*Tip: In order to prevent accidentally creating new folders, keep two tabs open - 1) one tab with the file to be moved; 2) second tab of the new location for the file. This way you can ensure the file pathway is accurate.*
