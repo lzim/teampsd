@@ -23,7 +23,4 @@
   **4. R**
   
   - r
-  
-  **5. Help Code**
-  
   - help_code
