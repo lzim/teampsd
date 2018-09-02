@@ -5,14 +5,19 @@
 
 ## List of Folders and Resources
 
-1. GitHub Guide
+**1. GitHub Guide**
 - This is a GitHub guide tailored to Team PSD.
 
-2. Master Crosswalk Table
+**2. Logos**
+- mtl.how/live
+- mtl.how/data
+- mtl.how/data
+
+**3. Master Crosswalk Table**
 - This table tracks every instance of every ***Modeling to Learn (MTL)*** Variable.
 - This table is designed to standardize **MTL* variables across *MTL* resources.
 
-3. Team PSD Workgroups and Team Meetings
+**4. Team PSD Workgroups and Team Meetings**
 - This file tracks upcoming team meetings for *MTL* R21 Pilot Facilitators.
 - This file tracks the members/stakeholders in following Team PSD Workgroups
   + Team PSD Headquarters	
@@ -31,9 +36,9 @@
   + Video (VAPOR, Pilot, MTL Video)	
   + Stanford QI Seminar
 
-4. RMarkdown Cheatsheet and Reference guide from: https://rmarkdown.rstudio.com/
+**5. RMarkdown Cheatsheet and Reference guide from: https://rmarkdown.rstudio.com/**
 
-5. Quad_charts Template
+**6. Quad_charts Template**
 - .Rmd version of the workgroup quad_chart for use by workgroups
 - We will cover the right-hand columns at weekly workgroup meetings
 - Workgroup leads add these two to the workgroup agenda
