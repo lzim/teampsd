@@ -8,8 +8,7 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 4 |
 ------------ |
 **08:00AM-12:00PM**  |
-**08:00AM-08:15AM** - Done (yesterday) and Do (today) - “I can teach others….” 
-- “I need more information to facilitate this…” |
+**08:00AM-08:15AM** - Done (yesterday) and Do (today) - “I can teach others….” - “I need more information to facilitate this…” |
 **08:15AM-09:15AM** - Introduction to *MTL* Psychotherapy Module (PSY)  |
 **09:15AM-10:00AM** - Introduction to *MTL* Medication Management Module (MM) |
 **10:00AM-10:15AM** - BREAK  |
