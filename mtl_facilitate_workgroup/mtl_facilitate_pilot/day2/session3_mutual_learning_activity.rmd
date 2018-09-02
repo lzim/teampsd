@@ -12,7 +12,7 @@
 <!-- Learning Objectives Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" 
      height = "150" width = "150"> 
-
+# Learning Objectives
 * Understand the purpose for the MTL.how/menu.  
 * Evaluate MTL.how/menu results.  
 * Identify the source of the data in the team data table.
