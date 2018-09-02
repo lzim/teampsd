@@ -9,6 +9,7 @@
 - This is a GitHub guide tailored to Team PSD.
 
 **2. Logos**
+- mtl.how
 - mtl.how/live
 - mtl.how/data
 - mtl.how/data
