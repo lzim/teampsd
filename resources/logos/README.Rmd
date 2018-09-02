@@ -9,5 +9,6 @@
 - mtl.how
 - mtl.how/live
 - mtl.how/data
-- mtl.how/data
+- mtl.how/menu
+- mtl.how/sim
 
