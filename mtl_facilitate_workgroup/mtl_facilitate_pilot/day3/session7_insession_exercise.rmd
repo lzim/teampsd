@@ -2,7 +2,8 @@
 
 1.	Login to your world and start a new run in the Aggregate module, with the team data file you’d like to use.
 2.	Orient yourself to the main page: Team Name; selected module; selected data file; a new system diagram, with multiple Services available to select in the Experiment Timeline box; all settings in the Experiments tile at Base Case or default values. 
-![]https://github.com/lzim/teampsd/commit/33c9aaa6c80c793e56610e0825e0d7e4e02d708b#diff-35f2a54fa4bef755c65b350e6c5e94f9
+
+![](https://github.com/lzim/teampsd/commit/33c9aaa6c80c793e56610e0825e0d7e4e02d708b#diff-35f2a54fa4bef755c65b350e6c5e94f9)
 3.	Open the Expanded Outputs tile and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no changes are made and you run the simulation out to its 2-year end just using the data pulled in from your team data file. 
 4.	Run; then Save (without resetting) the run with the name Base Case.
 5.	Review the Current Run Experiment Values in the Control Panel: shows Base Case or default values.
