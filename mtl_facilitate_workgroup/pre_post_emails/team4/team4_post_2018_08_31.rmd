@@ -7,10 +7,6 @@
 **Next Meeting:** TO BE RESCHEDULED  
 **Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379    
 
-**Team Learning Goal:** Shining the light to help you live your best life as we see and expand our best practices!  
-**Next Meeting:** TO BE RESCHEDULED  
-**Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379  
-
 ## Reschedule 9/7 meeting.  
 Normally we would meet next on 9/7. However,the TeamPSD facilitators will be in Chicago for MTL Facilitate training. We can reschedule on the ***2nd Friday - September 14 @8am*** or meet next at our typical meeting on the ***3rd Friday - September 21 @8am***.
 Please let us know what would make the most sense for your team.  
@@ -28,13 +24,12 @@ Stacey
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
      height = "150" width = "150">  
 
-### We decided... To adjust our service proportions to increase intakes, CC and MM, so we should also look at those impacts next.
+### We decided... To save a new basecase and run a new experiment next time.
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
 --- | ---
 Done | Do
-Finished developing question, hypothesis, and findings for an experiment exploring reduction in a psychotherapist | Log into individual worlds, run your own experiment, and share with team. Be prepared to discuss experiment during team meeting.
-
+Ran a new basecase with 8/30 data pull and examined the charts | Decide on a day to reschedule the 9/7 meeting
 
 
 <!-- Resources Links -->
