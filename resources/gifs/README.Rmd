@@ -1,0 +1,31 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+
+# Team PSD Shared Resources
+
+## List of *MTL* Gifs
+
+***MTL Live* - Session 1**
+
+***MTL Live* - Session 2**
+
+***MTL Live* - Session 3**
+
+***MTL Live* - Session 4**
+
+***MTL Live* - Session 5**
+
+***MTL Live* - Session 6**
+
+***MTL Live* - Session 7**
+- session7_insession_exercise_gif1.gif
+
+***MTL Live* - Session 8**
+
+***MTL Live* - Session 9**
+
+***MTL Live* - Session 10**
+
+***MTL Live* - Session 11**
+
+***MTL Live* - Session 12**
