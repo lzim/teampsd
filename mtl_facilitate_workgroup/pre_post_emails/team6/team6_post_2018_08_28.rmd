@@ -1,0 +1,40 @@
+<!-- MTL Logo, HTML img tag -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500"> 
+ 
+
+**Team Learning Goal:** Shining the light to help you live your best life as we see and expand our best practices!  
+**Next Meeting:** TO BE RESCHEDULED  
+**Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379  
+
+## Reschedule 9/5 meeting.  
+Normally we would meet tomorrow next on 9/5. However, all of the TeamPSD facilitators will be in Chicago for MTL Facilitate training. We can reschedule on either the ***5th Wednesday - August 29 @10am*** or ***2nd Wednesday - September 12 @10am***.    
+Please let us know what would make the most sense for your team.  
+
+As a reminder, we are planning to spend August and September wrapping up Modeling to Learn. Thanks for piloting and learning with us!     
+**Wrap Up #1:** Team Reflections and Decisions – Implementing a change in the team based on lessons learned and reflections from the simulation.   
+**Wrap Up #2:** Technical Assistance Plans & Resources for Self-Directed Learning – Providing teams with resources, guides, and videos for developing and running future experiments.  
+**Booster Sessions (Optional):**  Developing hypothesis and experiments to run in a new module  
+
+Thanks!  
+Stacey
+
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
+     height = "150" width = "150">  
+
+### We decided... to discuss a day to reschedule the next MTL meeting.
+
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
+--- | ---
+Done | Do
+Completed two experiments on graduation rate and engagement duration. | Experiment in individual worlds with RVI or with combination of experiments we've already done (graudation and engagement duration)
+--- | We saw that we can increase our new patient starts by ~50%, if we graduate all patients who receive a complete timely dose of psychotherapy. As you meet with patients over the next 2-4 weeks, think about which patient you'd be comfortable talking with about graduation.
+
+
+
+<!-- Resources Links -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_598527.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_598527.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_598527.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">
+--- | --- | --- | ---
+[mtl.how/data](http://mtl.how/data) | [mtl.how/sim](http://mtl.how/sim) | [mtl.how/live](http://mtl.how/live) | Lindsey.Zimmerman@va.gov
+[Data UI - Use IE](http://mtl.how/data) | [Sim UI - Use Chrome](http://mtl.how/sim) |   [Adobe Connect](http://mtl.how/live) | Stacey.Park2@va.gov 
