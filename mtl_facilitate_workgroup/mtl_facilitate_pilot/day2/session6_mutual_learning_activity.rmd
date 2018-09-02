@@ -1,8 +1,24 @@
-# **Mutual Learning Exercise: Telling the CC System Story**  
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
 
-## Format: 2 Groups working together
+# MTL Facilitate Pilot
 
-* The purpose for this activity is to walk through the process of telling a systems story so you can help others understand the complexity of managing patients and appointments in the VA health system.  
+## Session 6 Mutual Learning Activity - Telling the CC System Story
+
+  + Tools: *MTL.how/sim* 
+
+  + Format: *MTL Facilitate Learners* will work in pairs.  
+
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" 
+     height = "150" width = "150"> 
+ + Understand complex relationships between appointments and patients in the CC model
+ + Tell the CC systems story
+ + Develop a team question that will lead to an experiment in the CC model.
+
+* Purpose:  This exercise is about making sense of complexity. This is a process of discovery and thinking about complexity in an orderly way that allows you to tell the CC systems story so that you can help others understand the complexity of managing patients and appointments in the VA health system.  
+
+### Activity
 * Divide the large group into 2 groups (count off by 2). Half are the “Appointments” group; half are in the “Patients” group. 
 * Three MTL team members will join the Appointments group (TR, DL, SP). Three MTL members will join the Patients group (LZ, JB, DK).
 * The Care Coordination Model main tile will be up on the screen. Would be helpful to have printed copies of the Appointments segment, the Patients segment and the whole model.
