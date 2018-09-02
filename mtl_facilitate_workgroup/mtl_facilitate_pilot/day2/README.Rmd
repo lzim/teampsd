@@ -13,7 +13,7 @@
 **09:15AM-10:15AM** - *MTL* Session 3 - **Mutual Learning** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session3_mutual_learning_activity.rmd |
 **10:15AM-10:30AM** - *MTL* Set-up and Pre-session Facilitator Tasks |
 **10:30AM-10:45AM** - BREAK|
-**10:45AM-11:45AM** - *MTL* Session 4 - MTL Menu and Team Needs Assessment - mtl.how/menu  |
+**10:45AM-11:45AM** - *MTL* Session 4 - MTL Menu and Team Needs Assessment - https://mtl.how/menu  |
 **11:45AM-12:45PM** - LUNCH |
 **12:45PM-01:45PM** - *MTL* Session 5 - sim UI - Care Coordination In-session Exercise - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session5_sayguide.rmd  |
 **01:45PM-02:45PM** - *MTL* Sesssion 5 - sim UI - **Mutual Learning**  |
@@ -40,20 +40,27 @@
 https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session3_mutual_learning_activity.rmd
 
 
+#### *MTL* Session 4 - MTL Menu and Team Needs Assessment - mtl.how/menu
+<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_menu.png" height = "45" width = "70" style ="display: inline-block"/>
+
+https://mtl.how/menu
+
+
 #### *MTL* Session 5 - sim UI - Care Coordination In-session Exercise
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
 
 https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session5_sayguide.rmd 
 
+
 #### *MTL* Session 5 - sim UI - **Mutual Learning** 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
-
 
 
 #### *MTL* Session 6 - sim UI - Care Coordination Main Tile
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
 
 https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session6_in_session_activity.rmd 
+
 
 #### *MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story** 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
