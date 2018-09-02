@@ -12,7 +12,8 @@
 - mtl.how
 - mtl.how/live
 - mtl.how/data
-- mtl.how/data
+- mtl.how/menu
+- mtl.how/sim
 
 **3. Master Crosswalk Table**
 - This table tracks every instance of every ***Modeling to Learn (MTL)*** Variable.
