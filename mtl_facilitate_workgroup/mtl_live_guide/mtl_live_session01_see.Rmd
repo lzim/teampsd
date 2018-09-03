@@ -38,6 +38,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1.  Selected Team Vision | 1. Select Team Lead. Select standing team meeting time |
+| 1.  Selected Team Vision | 1. Select Team Lead |
+| --- | 2. Select standing team meeting time
 
 
