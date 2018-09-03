@@ -1,6 +1,29 @@
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_sq_sm.png"
-     height = "150" width = "275">  
+---
+title: "MTL Session 2"
+author: "Team PSD"
+date: "September 2018"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
 
-# MTL Live Session 02
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">  
 
-##  [mtl_live_session02_see.Rmd]
+# [MTL Live Session 02](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
+
+<!-- Learning Objectives Icon -->
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png"
+     height = "150" width = "150">   
+
+### Learning Objectives
+
+1.
+2.
+3.
+
