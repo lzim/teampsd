@@ -46,6 +46,6 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| We completed MTL!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Go to mtl.how for ongoing release updates and assistance using MTL Resources. | 
+| We completed MTL!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Go to mtl.how for ongoing release updates and assistance using MTL Resources. | 
 
 
