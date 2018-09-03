@@ -8,20 +8,19 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 3 |
 -------------- |
 **08:00AM-04:30PM** |
-**08:00AM-08:15AM** - Done (yesterday) and Do (today) - *What’s “Sticky?* - " I remember best…"  |                              
-**08:15AM-09:15AM** - *MTL* Session 7 - sim UI - Aggregate In-session Exercise - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_insession_exercise.rmd  |
-**09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning: Facilitating the Base Case** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_mutual_learning_activity.Rmd |
+**08:00AM-08:15AM** - Done (yesterday) and Do (today)   |                              
+**08:15AM-09:15AM** - *MTL* Session 7 - sim UI - Aggregate In-session Exercise   |
+**09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning: Facilitating the Base Case**  |
 **10:15AM-10:30AM** - BREAK  |
-**10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise - https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_insession_guide.rmd  |
-**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live*** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd |
-**12:30PM-01:30PM** - LUNCH |
+**10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise   |
+**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live*** |
+**12:30PM-01:30PM** - Lunch |
 **01:30PM-02:30PM** - *MTL* Session 9 - sim UI - In-session Exercise |
-**02:30PM-02:45PM** - BREAK  |
-**02:45PM-03:45PM** - *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Facilitating Experiments** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session9_mutual_learning_activity.Rmd |
-**03:45PM-04:15PM** - *MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd |
-**04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) - *Empty Your Cup* - “In order to teach others I need more help understanding…” |
+**02:30PM-02:45PM** - Break  |
+**02:45PM-03:45PM** - *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Facilitating Experiments**  |
+**03:45PM-04:15PM** - *MTL* Session 9 and 10 - **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**  |
+**04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 4 Preparation|
-
 
 
 
@@ -31,40 +30,34 @@
 
 
 #### *MTL* Session 7 - sim UI - Aggregate In-session Exercise 
-<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_insession_exercise.rmd 
 
 
 #### *MTL* Session 7 - **Mutual Learning: Facilitating the BaseCase** 
-<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_mutual_learning_activity.Rmd
+
 
 
 #### *MTL* Session 8 - sim UI - In-session Exercise 
-<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_insession_guide.rmd
 
 
 #### *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live***
-<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd 
 
 
 #### *MTL* Session 9 - sim UI - In-session Exercise
-<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
 
 
 #### *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Facilitating Experiments**
-<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session9_mutual_learning_activity.Rmd 
 
 #### *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time** 
-<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
-
-https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>

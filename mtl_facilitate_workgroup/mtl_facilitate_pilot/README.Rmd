@@ -10,12 +10,12 @@
 **01:00PM-01:15PM** - Introductions  |
 **01:15PM-01:45PM** - Introducing *Modeling to learn (MTL)*   
 **01:45PM-02:00PM** - *MTL* Session 1 - Team Vision 
-**02:00PM-02:15PM** - BREAK
-**02:15PM-03:15PM** - *MTL* Session 2 - data UI - In-session Exercise - https://mtl.how/live and https://mtl.how/data
-**03:15PM-04:15PM** - *MTL* Session 2 - data UI - **Mutual Learning** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day1/session2_mutual_learning_activity.rmd 
-**04:15PM-04:30PM** - Debrief - "Done" (today) and "Do" (tomorrow) - *Empty Your Cup* - “In order to teach others I need more help understanding…”   
+**02:00PM-02:15PM** - Break
+**02:15PM-03:15PM** - *MTL* Session 2 - data UI - In-session Exercise - https://github.com/lzim/mtl/tree/master/2_team_data
+**03:15PM-04:15PM** - *MTL* Session 2 - data UI - **Mutual Learning**  
+**04:15PM-04:30PM** - Debrief - "Done" (today) and "Do" (tomorrow)   
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 2 Preparation 
-**05:00PM-06:00PM** - BREAK 
+**05:00PM-06:00PM** - Break 
 **06:00PM-07:30PM** - Optional group dinner/Dinner on your own  
 **07:30PM**         - Travel to Lodging 
  
@@ -24,19 +24,19 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 2	     |
 ---------------     |
 **08:00AM-04:30PM**  |    	
-**08:00AM-08:15AM** - Done (yesterday) and Do (today) - *What’s “Sticky?* - " I remember best…"|
-**08:15AM-09:15AM** - *MTL* Session 3 - data UI - Team Data Table for sim UI - https://mtl.how/data     |
-**09:15AM-10:15AM** - *MTL* Session 3 - **Mutual Learning** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session3_mutual_learning_activity.rmd |
+**08:00AM-08:15AM** - Done (yesterday) and Do (today)  |
+**08:15AM-09:15AM** - *MTL* Session 3 - data UI - Team Data Table for sim UI |
+**09:15AM-10:15AM** - *MTL* Session 3 - **Mutual Learning**  |
 **10:15AM-10:30AM** - *MTL* Set-up and Pre-session Facilitator Tasks |
-**10:30AM-10:45AM** - BREAK |
-**10:45AM-11:45AM** - *MTL* Session 4 - MTL Menu and Team Needs Assessment - https://mtl.how/menu |
-**11:45AM-12:45PM** - LUNCH |
-**12:45PM-01:45PM** - *MTL* Session 5 - sim UI - Care Coordination In-session Exercise - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session5_sayguide.rmd |
+**10:30AM-10:45AM** - Break |
+**10:45AM-11:45AM** - *MTL* Session 4 - MTL Menu and Team Needs Assessment  |
+**11:45AM-12:45PM** - Lunch |
+**12:45PM-01:45PM** - *MTL* Session 5 - sim UI - Care Coordination In-session Exercise |
 **01:45PM-02:45PM** - *MTL* Sesssion 5 - sim UI - **Mutual Learning**  |
-**02:45PM-03:00PM** - BREAK  |
-**03:00PM-03:45PM** - *MTL* Session 6 - sim UI - Care Coordination Main Tile - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session6_in_session_activity.rmd  |
-**03:45PM-04:15PM** - *MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session6_mutual_learning_activity.rmd|
-**04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) - *Empty Your Cup* - “In order to teach others I need more help understanding…” |
+**02:45PM-03:00PM** - Break  |
+**03:00PM-03:45PM** - *MTL* Session 6 - sim UI - Care Coordination Main Tile  |
+**03:45PM-04:15PM** - *MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story** |
+**04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow)  |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 3 Preparation |
 
 
@@ -44,18 +44,18 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 3 |
 -------------- |
 **08:00AM-04:30PM** |
-**08:00AM-08:15AM** - Done (yesterday) and Do (today) - *What’s “Sticky?* - " I remember best…"  |                              
-**08:15AM-09:15AM** - *MTL* Session 7 - sim UI - Aggregate In-session Exercise - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_insession_exercise.rmd  |
-**09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning: Facilitating the Base Case** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_mutual_learning_activity.Rmd |
+**08:00AM-08:15AM** - Done (yesterday) and Do (today)   |                              
+**08:15AM-09:15AM** - *MTL* Session 7 - sim UI - Aggregate In-session Exercise   |
+**09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning: Facilitating the Base Case**  |
 **10:15AM-10:30AM** - BREAK  |
-**10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise - https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_insession_guide.rmd |
-**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live*** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd |
-**12:30PM-01:30PM** - LUNCH |
+**10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise   |
+**11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live*** |
+**12:30PM-01:30PM** - Lunch |
 **01:30PM-02:30PM** - *MTL* Session 9 - sim UI - In-session Exercise |
-**02:30PM-02:45PM** - BREAK  |
-**02:45PM-03:45PM** - *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Facilitating Experiments** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session9_mutual_learning_activity.Rmd |
-**03:45PM-04:15PM** - *MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd |
-**04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) - *Empty Your Cup* - “In order to teach others I need more help understanding…” |
+**02:30PM-02:45PM** - Break  |
+**02:45PM-03:45PM** - *MTL* Sessions 9 and 10 - sim UI - **Mutual Learning: Facilitating Experiments**  |
+**03:45PM-04:15PM** - *MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**  |
+**04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) |
 **04:30PM-05:00PM** - TeamPSD Reflections & Day 4 Preparation|
 
 
@@ -63,10 +63,10 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 4 |
 ------------ |
 **08:00AM-12:00PM**  |
-**08:00AM-08:15AM** - Done (yesterday) and Do (today) - “I can teach others….” - “I need more information to facilitate this…” |
+**08:00AM-08:15AM** - Done (yesterday) and Do (today)  |
 **08:15AM-09:15AM** - Introduction to *MTL* Psychotherapy Module (Psy)  |
 **09:15AM-10:00AM** - Introduction to *MTL* Medication Management Module (MM)
-**10:00AM-10:15AM** - BREAK  |
+**10:00AM-10:15AM** - Break  |
 **10:15AM-11:00AM** - *MTL* Sessions 11 and 12 - Team Reflections and Decisions  |
 **11:00AM-11:45AM** - Debrief and Clarify Next Steps - Complete Evaluations  |
 **11:45AM-12:00PM** - Thank you and Certificates  |
