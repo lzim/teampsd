@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1. insert logo and task | 1. insert logo and task | 
+| We logged into mtl.how/sim and explored the Expanded Outputs Dashboard for the basecase (bc) and used the worksheet to prepare for experiment 1.| TeamPSD Facilitators will introduce Introducing MTL Experiments to compare against the Base Case (bc) of no change.
 | 2. insert logo and task | 2. insert logo and task | 
 | 3. insert logo and task | 3. insert logo and task | 
 
