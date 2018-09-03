@@ -1,11 +1,7 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# Team PSD Shared Resources
-
-## List of Folders and Resources
-
-### Logos for *MTL* Programs
+# Logos for *MTL* Programs
 
 **Modeling to Learn**
 - [mtl_to_learn_sm.png](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)
