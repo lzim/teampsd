@@ -23,9 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| We logged into mtl.how/sim and explored the Expanded Outputs Dashboard for the basecase (bc) and used the worksheet to prepare for experiment 1.| TeamPSD Facilitators will introduce Introducing MTL Experiments to compare against the Base Case (bc) of no change.
-| 2. insert logo and task | 2. insert logo and task | 
-| 3. insert logo and task | 3. insert logo and task | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged into mtl.how/sim and explored the Expanded Outputs Dashboard for the Base Case (bc) and used the worksheet to prepare for experiment. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) TeamPSD Facilitators will introduce MTL Experiments to compare against the Base Case (bc) of no change.
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -46,7 +44,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1. insert logo and task | 1. insert logo and task | 
-| 2. insert logo and task | 2. insert logo and task | 
-| 3. insert logo and task | 3. insert logo and task | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) Our Team Lead ran Experiment 1 and we reviewed the Expanded Outputs tile to compare the Base Case (bc) and experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) Continue to explore the Base Case (bc) and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. | 
+
+
 
