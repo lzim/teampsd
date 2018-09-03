@@ -44,7 +44,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) Our Team Lead ran Experiment 1 and we reviewed the Expanded Outputs tile to compare the Base Case (bc) and experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) Continue to explore the Base Case (bc) and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Our Team Lead ran Experiment 1 and we reviewed the Expanded Outputs tile to compare the Base Case (bc) and experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Continue to explore the Base Case (bc) and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. | 
 
 
 
