@@ -3,7 +3,33 @@
 
 # MTL Fidelity Checklist for 12-session Plan
 
+## Sesson Summaries across *MTL* Modules
 
+session 01. Today we're *modeling to learn* how to align our **team vision**. 
+
+session 02. Today we're *modeling to learn* how to check our **patient data** and **team trends.**
+
+session 03. Today we're *modeling to learn* how to produce **team data** for simulation.
+
+session 04. Today we're *modeling to learn* how to prioritize **team needs**.
+
+session 05. Today we're *modeling to learn* how to log-in to our **team world**.
+
+session 06. Today we're *modeling to learn* how to tell a **systems story**.
+
+session 07. Today we're *modeling to learn* how to evaluate our **base case** of no change.
+
+session 08. Today we're *modeling to learn* how to test a **dynamic hypothesis**.
+
+session 09. Today we're *modeling to learn* how to **compare alternatives**.
+
+session 10. Today we're *modeling to learn* how to use **systems thinking**.
+
+session 11. Today we're *modeling to learn* how to make **team decisions**.
+
+session 12. Today we're *modeling to learn* how to turn **team learning** into a **team plan**.
+
+## MTL Fidelity Checklist
 ### *MTL Session 1* -- Team Vision
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 1 Fidelity        |
 ------------   |
