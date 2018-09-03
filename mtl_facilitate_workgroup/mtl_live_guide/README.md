@@ -1,6 +1,6 @@
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_sq_sm.png"
-     height = "150" width = "250">  
+     height = "150" width = "275">  
 
 # MTL Live In-session Guides - Learner SEE files  
 
