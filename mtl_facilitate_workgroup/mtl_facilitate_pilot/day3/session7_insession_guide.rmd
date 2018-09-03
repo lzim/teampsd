@@ -4,7 +4,9 @@
 
 2.	Orient yourself to the main page: Team Name; selected module; selected data file; a new system diagram, with multiple Services available to select in the Experiment Timeline box; all settings in the Experiments tile at Base Case or default values. 
 
+
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session7_insession_exercise_gif1.gif)
+
 
 3.	Open the Expanded Outputs tile and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no changes are made and you run the simulation out to its 2-year end just using the data pulled in from your team data file. 
 
