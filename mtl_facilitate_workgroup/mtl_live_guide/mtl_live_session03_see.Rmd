@@ -41,7 +41,7 @@ Do -
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1. insert logo and task | 1. insert logo and task | 
-| 2. insert logo and task | 2. insert logo and task | 
-| 3. insert logo and task | 3. insert logo and task | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced Team Data for the sim UI. | Find something in the team data table and complete the mtl.how/menu
+ | 
+
 
