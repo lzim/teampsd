@@ -4,6 +4,8 @@
 # Team PSD Shared Resources
 
 ## Icons
-- We decided... and Learning Objectives
-- Done
-- Do
+
+**We decided... and Learning Objectives**
+- [we_decided_learning_objectives.png](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)
+- [done.png](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)
+- [do.png](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)
