@@ -38,12 +38,10 @@ Completed two experiments on graduation rate and engagement duration. | Experime
 [![Image name](image.png)](http://www.host.com/link.html)
 [![](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png)](http:mtl.how/data)
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png" height = "75" width = "75">](http:mtl.how/data)
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "75">](mtl.how) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "75">](http:mtl.how/data) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "75">](http:mtl/how/sim) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "75"](http:mtl.how/live) 
 
-Combining with the normal syntax for a hyperlink [text](URL), we have:
 
-[![Alt text](Web link or path)]
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_0083BE.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_0083BE.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_how_sm.png" height = "65" width = "100"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">
+
 --- | --- | --- | --- | ---
 [mtl.how/data](http://mtl.how/data) | [mtl.how/sim](http://mtl.how/sim) | [mtl.how/live](http://mtl.how/live) | [mtl.how](http://mtl.how) | Lindsey.Zimmerman@va.gov
 [Data UI - Use IE](http://mtl.how/data) | [Sim UI - Use Chrome](http://mtl.how/sim) |   [Adobe Connect](http://mtl.how/live) | [Resources](http://mtl.how) | Stacey.Park2@va.gov 
