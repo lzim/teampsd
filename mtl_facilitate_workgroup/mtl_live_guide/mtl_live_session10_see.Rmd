@@ -23,9 +23,8 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1. insert logo and task | 1. insert logo and task | 
-| 2. insert logo and task | 2. insert logo and task | 
-| 3. insert logo and task | 3. insert logo and task | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged into mtl.how/sim to run a 3rd experiment on our own in our individual worlds before the team meeting.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss experiment 2 (and exp 3) using C.F.B.T. (Complex, Feedback, Behavior, Time) systems thinking skills. | 
+
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -46,6 +45,4 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1. insert logo and task | 1. insert logo and task | 
-| 2. insert logo and task | 2. insert logo and task | 
-| 3. insert logo and task | 3. insert logo and task | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) One of our team members ran experiment 3 during the team meeting. We discussed the bc, exp 1, exp 2 and exp 3 using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions/changes your team could make in clinical care. |
