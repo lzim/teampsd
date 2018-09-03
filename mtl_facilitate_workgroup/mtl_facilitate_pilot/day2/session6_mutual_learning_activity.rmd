@@ -1,37 +1,37 @@
-# **Mutual Learning Exercise: Telling the CC System Story**  
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
 
-## Format: 2 Groups working together
+# MTL Facilitate Pilot
 
-* The purpose for this activity is to walk through the process of telling a systems story so you can help others understand the complexity of managing patients and appointments in the VA health system.  
-* Divide the large group into 2 groups (count off by 2). Half are the “Appointments” group; half are in the “Patients” group. 
-* Three MTL team members will join the Appointments group (TR, DL, SP). Three MTL members will join the Patients group (LZ, JB, DK).
-* The Care Coordination Model main tile will be up on the screen. Would be helpful to have printed copies of the Appointments segment, the Patients segment and the whole model.
+## Session 6 Mutual Learning Activity - Telling the CC System Story
 
-# Part 1-A
+  + Tools: *MTL.how/sim*  
+  + Resources: Flip charts, markers, sticky notes, tape
+  + Preparation: Pre-draw basic Appointments and Patients structure on flip chart pages.
+  + Format: *MTL Facilitate Learners* will work in two groups.  
 
-* Appointments group is going to work together to move (literally) participants through the appointments section of the CC model. For this activity, we assume **Overbooking Affects No-Shows** is revealed. 
-* One person will represent the Booking Rate, one Appointments in CC, and one the Completing Rate. MTL team members will represent True Missed Appointments (red), Effect of Task Time on Missed Appointments (purple) and Overbooks (green).
-* Together the Appointments group will have people in their group move through the model actually walking the paths of the arrows. 
-* MTL Team members facilitate what happens in the model when overbooking occurs (have people build up in the model or show the effect of task time on missed appointments). 
-* Remind the participants they can go to their computer and click on the *I* in the blue circle to see a definition if they’re not sure.
-* Discuss the colors of the boxes and what they mean.
-* The goal is to have workshop participants move through the stocks and flows, be impeded or be moved rapidly to have them understand the system story.
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" 
+     height = "150" width = "150"> 
+ + Understand complex relationships between appointments and patients in the CC model
+ + Tell the CC systems story
+ + Develop a team question that will lead to an experiment in the CC model.
 
-# Part 1-B
+* Purpose:  This exercise is about making sense of complexity. This is a process of discovery and thinking about complexity in an orderly way that allows you to tell the CC systems story so that you can help others understand the complexity of managing patients and appointments in the VA health system. It will also encourage development of a question for running an experiment in the CC model.  
 
-* The Patients group is going to work together to move (literally) participants through the Patients section of the CC model. For this activity, we assume **Wait Time Affects Referrals** is revealed. 
-* One person will represent the Waiting to Start, Starting Rate, one Patients in CC, and one the Ending Rate. MTL team members will represent Referral Rate (green), Target Wait Time (red), and Effect of Waiting Time on Referrals (purple).
-* Together the Patients group will have people in their group move through the model actually walking the paths of the arrows. 
-* MTL Team members facilitate what happens in the model when the referral rate increases or decreases, the target wait time increases or decreases, and what is the effect of wait time on referrals.
-* Discuss the impact of median engagement on the ending rate as Participants who are acting as Patients are moving through the Patient section of the model.
-* Remind the participants they can go to their computer and click on the *I* in the blue circle to see a definition if they’re not sure.
-* The goal is to have workshop participants move through the stocks and flows, be impeded or be moved rapidly to have them understand the system story.
+### Activity
 
-# Part 2
-
-* For this activity *Balancing Patients* is revealed. Everybody still has their roles. We could have pages or people to fill the roles of Return Visit Interval, Appointment Supply, and Appointments Available for New Patients.  
-* Facilitator: So we’ve just explored by moving through the basic system maps for Appointments and Patients in the main tile of the CC model. Now, let’s merge to the two parts of the model together to complete the systems story.  
-* Have people move through the model. Yes, it will be confusing; people may all run into the booking rate; the referral rate person can release 1 or several people; people can bunch up in waiting to start; appointments for CC can be reduced because a staff person left, etc. This should be a time of exporation, laughter, course correction, etc.    
-* The goal is to have workshop participants move through the stocks and flows, be impeded or be moved rapidly to have them understand the whole CC system story.  
+* Divide the *MTL Facilitate Learners* into 2 groups (count off by 2's). Half are the “Appointments” group; half are in the “Patients” group. 
+* Three TeamPSD members will join the Appointments group (TR-lead facilitator, DL, DK). Three TeamPSD members will join the Patients group (LZ-lead facilitator, JB, SP).  
+* Each group will have a flip chart page with the basic structure for each segment of the model, *Appointments* and *Patients*, drawn on it:  
+++ Appointments: Booking Rate, Appointments in CC, Completing Rate {gif} and True Missed Appointment Rate, Appointments to Reschedule and Rescheduling Rate  
+++ Patients: Starting Rate, Patients in CC, Ending Rate {gif}
+* Each group will be given a marker and sticky notes with words written on them that represent the other parts of their section of the model. 
+* The *MTL Facilitate Learners* will re-create their assigned segment of the model, drawing in the arrows and symbols, with support from their TeamPSD team members (8 minutes).  
+* The two groups will join the two flip chart pages together, receive additional sticky notes with model segments, and will draw in the Balancing Patients content of the model.  
+* TeamPSD lead facilitators will support the merged group in walking through the CC systems story (12 minutes).  
+* The *MTL Facilitate Learners* will turn their attention to the screen (seated or standing) on which the CC model and team data table is displayed.  
+* TeamPSD lead facilitators will walk the *MTL Facilitate Learners* through the process of drafting text for *Our Question* in which the team will *Briefly describe what your team wants to learn from this experiment.*  
+* One *MTL Facilitate Learner* will enter the question into the box Outputs tile. 
 
 * Final Step – Sit down and debrief the experience and walk through the CC systems story a final time.
