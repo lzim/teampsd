@@ -10,6 +10,8 @@
 **Modeling to Learn**
 - [mtl_to_learn_sm.png](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)
 
+**MTL**
+- [mtl_sq_sm.png](https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_sq_sm.png)
 
 **MTL Facilitate**
 - [mtl_facilitate_sq_sm.png](https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_facilitate_sq_sm.png)
