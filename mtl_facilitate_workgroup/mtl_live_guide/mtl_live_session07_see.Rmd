@@ -24,9 +24,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1. insert logo and task | 1. insert logo and task | 
-| 2. insert logo and task | 2. insert logo and task | 
-| 3. insert logo and task | 3. insert logo and task | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged into mtl.how/sim and logged into our "individual worlds." We reviewed the questions and hypotheses in the Expanded Outputs Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) TeamPSD Facilitators will be introducing the MTL Outputs Tile in the sim UI and how to run a Base Case (bc).| 
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -47,6 +45,4 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1. insert logo and task | 1. insert logo and task | 
-| 2. insert logo and task | 2. insert logo and task | 
-| 3. insert logo and task | 3. insert logo and task | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered the question, hypothesis, finding and dedcisions for our base case (bc) run in the Expanded Outputs Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log-in to mtl.how/sim and explore the Expanded Outputs dashboard for the basecase (bc) and use the worksheet to prepare for experiment 1. |
