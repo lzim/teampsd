@@ -34,6 +34,11 @@ Completed two experiments on graduation rate and engagement duration. | Experime
 
 
 <!-- Resources Links -->
+![](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png)
+
+Combining with the normal syntax for a hyperlink [text](URL), we have:
+
+[![Alt text](Web link or path)]
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_0083BE.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_feedback_546911_0083BE.png" height = "75" width = "75"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_how_sm.png" height = "65" width = "100"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">
 --- | --- | --- | --- | ---
 [mtl.how/data](http://mtl.how/data) | [mtl.how/sim](http://mtl.how/sim) | [mtl.how/live](http://mtl.how/live) | [mtl.how](http://mtl.how) | Lindsey.Zimmerman@va.gov
