@@ -17,9 +17,6 @@ output:
 
 # [MTL Live Session 04](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session04_see.Rmd "MTL Live Session 04")
 
-<!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
-
 ## Today we're modeling to learn how to prioritize team needs.
 
 ## Do and Done (15 minutes)
