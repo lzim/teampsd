@@ -38,6 +38,8 @@ Completed two experiments on graduation rate and engagement duration. | Experime
 [![Image name](image.png)](http://www.host.com/link.html)
 [![](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png)](http:mtl.how/data)
 
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png" height = "75" width = "75">](http:mtl.how/data)
+
 Combining with the normal syntax for a hyperlink [text](URL), we have:
 
 [![Alt text](Web link or path)]
