@@ -36,7 +36,7 @@ Completed two experiments on graduation rate and engagement duration. | Experime
 <!-- Resources Links -->
 
 [![Image name](image.png)](http://www.host.com/link.html)
-[![](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png)](https:mtl.how/data)
+[![](https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_0083BE.png)](http:mtl.how/data)
 
 Combining with the normal syntax for a hyperlink [text](URL), we have:
 
