@@ -12,7 +12,7 @@
 **08:15AM-09:15AM** - *MTL* Session 7 - sim UI - Aggregate In-session Exercise - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_insession_exercise.rmd  |
 **09:15AM-10:15AM** - *MTL* Session 7 - **Mutual Learning: Facilitating the Base Case** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_mutual_learning_activity.Rmd |
 **10:15AM-10:30AM** - BREAK  |
-**10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise   |
+**10:30AM-11:30AM** - *MTL* Session 8 - sim UI - In-session Exercise - https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_insession_guide.rmd  |
 **11:30AM-12:30PM** - *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live*** - https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd |
 **12:30PM-01:30PM** - LUNCH |
 **01:30PM-02:30PM** - *MTL* Session 9 - sim UI - In-session Exercise |
@@ -45,7 +45,7 @@ https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitat
 #### *MTL* Session 8 - sim UI - In-session Exercise 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
 
-
+https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_insession_guide.rmd
 
 
 #### *MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live***
