@@ -23,9 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| 1. insert logo and task | 1. insert logo and task | 
-| 2. insert logo and task | 2. insert logo and task | 
-| 3. insert logo and task | 3. insert logo and task | 
+| We reflected on our team learning individually in preparation for making our team plan for next steps. | Reflect on our team learning and make our team plan for next steps. | 
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
