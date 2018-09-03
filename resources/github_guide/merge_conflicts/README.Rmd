@@ -30,3 +30,4 @@ In this example, I manually resolved conflicts in two files *by accepting all th
 ![screen shot 2018-09-02 at 3 34 02 pm](https://user-images.githubusercontent.com/7454688/44961431-f068f200-aec5-11e8-8ccf-bf6c00cff82e.png)
 
 7. Find additional help and details on **deleting the conflict markers <<<<<<<, =======, >>>>>>>**  here: https://help.github.com/articles/resolving-a-merge-conflict-on-github/
+
