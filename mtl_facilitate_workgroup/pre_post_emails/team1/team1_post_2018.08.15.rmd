@@ -35,6 +35,6 @@ Completed two experiments on graduation rate and engagement duration. | Experime
 
 <!-- Resources Links -->
 
---- | --- | --- | --- | ---  
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "100">](http://mtl.how) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "100">](http://mtl.how/data) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "100">](http://mtl.how/sim) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "100"](http://mtl.how/live) 
+| --- | --- | --- | --- |  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) 
 
