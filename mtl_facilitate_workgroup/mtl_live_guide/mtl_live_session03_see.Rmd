@@ -31,11 +31,17 @@ Do -
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-## Learning Objectives for In-session Exercise (30 minutes)
+## Learning Objectives
 
-1. one
-2. two 
-3. three
+1. Describe
+2. Test
+3. Apply
+
+# In-session Exercise (30 minutes)
+
+1. One
+2. Two 
+3. Three
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
