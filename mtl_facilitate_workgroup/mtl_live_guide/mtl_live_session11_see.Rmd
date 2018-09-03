@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged into mtl.how/sim to review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions/changes our team could make in our clinical care.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's decisions and next steps based on MTL. | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged into mtl.how/sim to review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions/changes our team could make in our clinical care.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's decisions and next steps based on MTL. | 
 
 
 <!-- Learning Objectives Icon --> 
@@ -45,5 +45,5 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) We reflected on team learning from the MTL program and prioritized ways to implement our learning in our clinical care. | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We reflected on team learning from the MTL program and prioritized ways to implement our learning in our clinical care. | --- | 
 
