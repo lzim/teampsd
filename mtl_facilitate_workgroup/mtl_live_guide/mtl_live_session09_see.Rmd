@@ -17,7 +17,7 @@ output:
 
 # [MTL Live Session 09](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session09_see.Rmd "MTL Live Session 09")
 
-## Today we're modeling to learn how to compare alternatives.
+# Today we're modeling to learn how to compare alternatives.
 
 ## Do and Done (15 minutes)
 <!-- Do/Done Tables -->
