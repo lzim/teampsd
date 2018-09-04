@@ -56,7 +56,7 @@ AGG model feedback loops:
 
 Complexity, Feedback, Behavior, Time (C F B T) (defs):
 
-Complex. The state or quality of being intricate, complicated, interactive with one or more than one time-dependent interdependent relationships among elements of a system.
+Complex. The state or quality of being intricate, complicated, and interactive with one or more than one dynamic, interdependent relationships among elements of a system.
 
 Feedback. Circular processes. Mutual causality. A self-reinforcing relationship. Interdependency.
 
