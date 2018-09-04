@@ -30,3 +30,8 @@
 1. Trend charts not loading up and not changing
 2. Gifs not moving on GitHub page
 3. Addition of "clear all filters" button
+
+## TeamPSD Debrief
+- No one was able to fully pull up the Excel for the Session 2 
+- Many folks had concerns on seeing a question answered through the model.
+- We need to talk more explicity about how the data UI and sim UI connect.
