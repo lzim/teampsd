@@ -24,7 +24,7 @@ output:
 ------------   |
 **01:00PM-04:30PM**  |
 **01:00PM-01:15PM** - Introductions  |
-**01:15PM-01:45PM** - Introducing *Modeling to learn (MTL)*   
+**01:15PM-01:45PM** - [Introducing *Modeling to Learn (MTL)*](https://mtl.how/intro)   
 **01:45PM-02:00PM** - [*MTL* Session 1 - Team Vision](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session01_see.Rmd) 
 **02:00PM-02:15PM** - BREAK
 **02:15PM-03:15PM** - [*MTL* Session 2 - Patient Data and Team Trends](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd)
