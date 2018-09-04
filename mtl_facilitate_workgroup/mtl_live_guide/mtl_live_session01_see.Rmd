@@ -23,7 +23,6 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged into mtl.how/live for screen-sharing in team meeting. | Team PSD Facilitators will introduce Modeling to Learn (MTL) and we will select a Team Vision for MTL. | 
 
 <!-- Learning Objectives Icon --> 
@@ -85,7 +84,6 @@ Now picture the team learning between now and March in a ‘best case’ scenari
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-
 | We selected a Team Vision to orient our learning throughout the MTL program.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:lindsey.zimmerman@va.gov;stacey.park2@va.gov) Select a team lead and email Team PSD to set up our standing team meeting time. |
 
 
