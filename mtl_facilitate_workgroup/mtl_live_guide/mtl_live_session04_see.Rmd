@@ -30,15 +30,32 @@ output:
 
 ## Learning Objectives
 
-1. Describe
-2. Test
-3. Apply
+1. Describe the high priority needs reported across the team.
+2. Test out how these needs are experienced across the team through team dialogue.
+3. Consider the team vision and apply team decision-making to select a high-priority module of *MTL*.
 
 # In-session Exercise (30 minutes)
 
-1. One
-2. Two 
-3. Three
+1. Complete the [*MTL* Menu](https://mtl.how/menu) on your own.
+
+2. Review the team's results in your team. 
+- What stands out to you?
+
+3. Look for areas of consensus among the team. 
+- What does the team agree about?
+
+4. Discuss items in which team members varied a lot in their rankings. 
+- Where does the team have more variable perspectives?
+
+5. Focus on the high priority needs to select a module for sessions 5-10 of *Modeling to Learn*
+What is the highest priority need for your team now?
+
+These are the *MTL* available modules
+- Care Coordination (CC)
+- Medication Management (MM)
+- Psychotherapy (PSY)
+- Aggregrate team services (AGG)
+- *Measurement-based stepped care for suicide prevention - coming fall 2018*
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
