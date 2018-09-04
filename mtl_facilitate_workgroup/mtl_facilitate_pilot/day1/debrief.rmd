@@ -24,6 +24,7 @@
 - See team trends
 - See when we are serving our veterans
 - Health Factors to see SAIL related data
+- Clinicians ask how the denominator
 6. What can I drill down to in the MTL Data UI that I can't already access from current platforms?
 
 ## Tech Issues/Suggestions
@@ -32,6 +33,13 @@
 3. Addition of "clear all filters" button
 
 ## TeamPSD Debrief
-- No one was able to fully pull up the Excel for the Session 2 
+- No one was able to fully pull up the Excel file for Session 2. As such, we did not get to any of the questions related to the Excel file.
 - Many folks had concerns on seeing a question answered through the model.
 - We need to talk more explicity about how the data UI and sim UI connect.
+- Walk through SAIL question in team data table (on Psy, Suicide, --- framed as where would you look to find failing PSY 38?) in groups of 3 with one person "driving"
+- Session 3 exercise - Turning data into estimates. Looking in Column C and D, and finding out how those estimates are made.
+- TAS members could ask each other to look for items in the data UI
+
+
+
+
