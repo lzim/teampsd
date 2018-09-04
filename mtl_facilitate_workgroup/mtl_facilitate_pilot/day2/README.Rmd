@@ -28,21 +28,21 @@
 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_data_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-#### *MTL* Session 3 - data UI - Team Data Table for sim UI 
+#### [*MTL* Session 3 -  data UI - Team Data for Simulation](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session03_see.Rmd)  
 
 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_data_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-#### *MTL* Session 3 - **Mutual Learning** 
+#### [*MTL* Session 3 - **Mutual Learning**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session3_mutual_learning_activity.rmd) 
 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_menu.png" height = "45" width = "70" style ="display: inline-block"/>
 
-#### *MTL* Session 4 - MTL Menu and Team Needs Assessment - mtl.how/menu
+#### [*MTL* Session 4 - MTL Menu to prioritize Team Needs](https://mtl.how/menu) 
 
-<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim_sim.png" height = "45" width = "70" style ="display: inline-block"/>
+<img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim.png" height = "45" width = "70" style ="display: inline-block"/>
 
 
-#### *MTL* Session 5 - sim UI - Care Coordination In-session Exercise
+#### [*MTL* Session 5 - sim UI - Care Coordination in our Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd) 
 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim.png" height = "45" width = "70" style ="display: inline-block"/>
 
@@ -52,10 +52,10 @@
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim.png" height = "45" width = "70" style ="display: inline-block"/>
 
 
-#### *MTL* Session 6 - sim UI - Care Coordination Main Tile
+#### [*MTL* Session 6 - sim UI - Telling a Systems Story - Care Coordination Main Tile](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session06_see.Rmd) 
 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_sim.png" height = "45" width = "70" style ="display: inline-block"/>
 
 
-#### *MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story** 
+#### [*MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session6_mutual_learning_activity.rmd) 
 
