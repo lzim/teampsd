@@ -25,16 +25,9 @@ Stacey
 
 ### We decided... to discuss a day to reschedule the next MTL meeting.
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "110" width = "110"> | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "130" width = "130">
---- | ---
-Done | Do
-Completed two experiments on graduation rate and engagement duration. | Experiment in individual worlds with RVI or with combination of experiments we've already done (graudation and engagement duration)
---- | We saw that we can increase our new patient starts by ~50%, if we graduate all patients who receive a complete timely dose of psychotherapy. As you meet with patients over the next 2-4 weeks, think about which patient you'd be comfortable talking with about graduation.
-
-
-
-<!-- Resources Links -->
-
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sim.png" height = "75" width = "110">](http://mtl.how/sim) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) |   
-| --- | --- | --- | --- |  
+<!-- Do/Done Tables -->
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_sm.png" height = "75" width = "110">](http://mtl.how/sim) We completed two experiments on graduation rate and engagement duration. [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Experiment in individual worlds with Return Visit Interval (RVI) or with a comabination of experiments already run (Graduation and Engagement Duration).| 
+| --- | We saw that we can increase our new patient starts by ~50%, if we graduate all patients who receive a complete timely dose of psychotherapy. As you meet with patients over the next 2-4 weeks, think about which patient you'd be comfortable talking with about graduation. |
 
