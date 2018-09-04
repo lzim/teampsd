@@ -34,9 +34,13 @@ F5: We found that a 50% increase in patient referrals was manageable if our staf
  
 
 Levels of Systems Thinking (defs):
+
 LEVEL 1 – Bi-variate relationships only. Open loop thinking.
+
 LEVEL 2 – Multivariate interdependencies. Closed loop thinking.
+
 LEVEL 3 – Multivariate interdependencies. Closed loop thinking with reference to change over time.
+
 LEVEL 4 – Multivariate interdependencies. Closed loop thinking with reference to change over time. Generality of dynamics stated.
 
 
