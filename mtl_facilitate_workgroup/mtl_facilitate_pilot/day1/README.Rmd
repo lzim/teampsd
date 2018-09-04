@@ -24,18 +24,15 @@
 ### Mutual Learning with Modeling to Learn
 
 
-
-
-#### *MTL* Session 1 - Team Vision 
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-#### *MTL* Session 2 - data UI - In-session Exercise
+#### [*MTL* Session 1 - Team Vision](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session01_see.Rmd)  
+
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_data_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-[*MTL* Session 2 - Patient Data and Team Trends](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd)
+#### [*MTL* Session 2 - data UI - In-session Exercise](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd)
 
-
-#### *MTL* Session 2 - data UI - **Mutual Learning** 
 <img src = "https://github.com/lzim/teampsd/blob/lzim/resources/logos/mtl_how_data_sm.png" height = "45" width = "70" style ="display: inline-block"/>
 
-[*MTL* Session 2 - **Mutual Learning**]( https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day1/session2_mutual_learning_activity.rmd) 
+#### [*MTL* Session 2 - data UI - **Mutual Learning**]( https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day1/session2_mutual_learning_activity.rmd) 
+
