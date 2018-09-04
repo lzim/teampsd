@@ -31,7 +31,6 @@ H5: We would like to increase the number of patients we serve in our team, as we
 
 [Referrals] [Level 4] 
 F5: We found that a 50% increase in patient referrals was manageable if our staffing stayed constant. We found that we could support an effective return visit interval for PSY if we extended the return visit intervals for CC and MM. In general, we found that changing referral rates for any given service in the AGG model can impact the actual return visit intervals for multiple services, which in turn impacts appt wait times for existing patients and starting rates for new patients. This experiment underscored that we really do not have a lot of control over referral rates, but we have many ways to manage our existing service mix for patients.  
- 
 
 Levels of Systems Thinking (defs):
 
@@ -52,6 +51,7 @@ AGG model feedback loops:
 5.	Overtime relieves work pressure (B)
 6.	Burnout increases team turnover (B) 
 7.	Appt backlog extends return visit interval (B)
+
 
 
 Complexity, Feedback, Behavior, Time (C F B T) (defs):
