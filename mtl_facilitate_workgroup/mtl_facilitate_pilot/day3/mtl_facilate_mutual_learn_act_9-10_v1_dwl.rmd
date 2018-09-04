@@ -3,6 +3,7 @@ MTL Sessions 9 and 10: Mutual Learning: Systems Thinking - Complex, Feedback, Be
 Hypotheses and Findings Pairs:
 
 [Scheduling grids: Allocating appointments across services] [Level 1]
+
 H1: In the AGG model, increasing the number of appointments for any given service can change the 'service mix' for our team's patients. For example, we hypothesize that if we decrease the proportion of appointment slots for MM, we can increase the proportion of appointment slots for PSY.
 
 [Scheduling grids: Allocating appointments across services] [Level 4]
