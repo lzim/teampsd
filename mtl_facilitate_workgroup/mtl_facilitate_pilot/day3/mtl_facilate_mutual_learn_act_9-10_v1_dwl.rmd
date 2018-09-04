@@ -32,11 +32,13 @@ H5: We would like to increase the number of patients we serve in our team, as we
 [Referrals] [Level 4] 
 F5: We found that a 50% increase in patient referrals was manageable if our staffing stayed constant. We found that we could support an effective return visit interval for PSY if we extended the return visit intervals for CC and MM. In general, we found that changing referral rates for any given service in the AGG model can impact the actual return visit intervals for multiple services, which in turn impacts appt wait times for existing patients and starting rates for new patients. This experiment underscored that we really do not have a lot of control over referral rates, but we have many ways to manage our existing service mix for patients.  
  
+
 Levels of Systems Thinking (defs):
 LEVEL 1 – Bi-variate relationships only. Open loop thinking.
 LEVEL 2 – Multivariate interdependencies. Closed loop thinking.
 LEVEL 3 – Multivariate interdependencies. Closed loop thinking with reference to change over time.
 LEVEL 4 – Multivariate interdependencies. Closed loop thinking with reference to change over time. Generality of dynamics stated.
+
 
 AGG model feedback loops:
 1.	Start delays affect treatment decisions (B)
@@ -47,8 +49,13 @@ AGG model feedback loops:
 6.	Burnout increases team turnover (B) 
 7.	Appt backlog extends return visit interval (B)
 
+
 Complexity, Feedback, Behavior, Time (C F B T) (defs):
+
 Complex. The state or quality of being intricate, complicated, interactive with one or more than one time-dependent interdependent relationships among elements of a system.
+
 Feedback. Circular processes. Mutual causality. A self-reinforcing relationship. Interdependency.
+
 Behavior. [dynamic behavior] The pattern of change in a system over time. Can be discrete, or continuous, linear or non-linear. Can be positive (reinforcing; characterized by continuous growth or decline) or negative (balancing; characterized by oscillations, equilibrium, or goal-seeking).
+
 Time. A period or horizon representing the past, present and/or future. A unit for measuring change in time (minutes, hours, days, months, quarters, years).
