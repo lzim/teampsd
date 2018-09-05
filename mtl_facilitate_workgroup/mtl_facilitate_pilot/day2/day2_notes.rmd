@@ -15,3 +15,10 @@
 mtl.how/menu
 - Clarifying frame of reference for answering questions, especially where there is a lot of variability
 - Keeping in mind the specific mix of disciplinesi in the team and how needs vary per discipline
+
+mtl.how/sim
+- Individual world: For your own private play
+- Team World: For facilitation, teaching, working as a team
+Chat function - First thing TAS team asked about, spent large portion of time clarifying team vs. facilitator chat
+- Team chat: Between team lead and facilitator
+- Facilitator chat: Between facilitators
