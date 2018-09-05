@@ -45,7 +45,7 @@ output:
 * The Facilitator will challenge *MTL learners* to find certain information on the MTL.how/sim main tile for the Care Coordination (CC) model.  
 + A series of 5 questions, one at a time, will be posed via the chat box as well as reading the Facilitator reading them aloud to the *MTL Learners*.  
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
-+ *If at any time you are not sure how to find something, type “help” in the chat box.* The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.  
++ *If at any time you are not sure how to find something, ask for help.* The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.  
 
 1. Question 1: Over what timeframe does an experiment "run?"  
 2. Question 2: Where do you find the descriptions for each variable in the CC model? Paste a portion of a description from one of the *Rates* into the chat box.  
