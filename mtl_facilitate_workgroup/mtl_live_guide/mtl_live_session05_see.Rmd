@@ -39,15 +39,22 @@ output:
 
 # Session 5 In-Session Exercise
 
-1. Log in to the SimUI.
+## Check the name of your team data file in Explorer
+1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simualtion. 
+2. Let's now go back to mtl.how/data in an Explorer window to check the name of our team data file.
+3. The team data file for simulation is in our team folder, in the team_data_sim folder
+
+## Log in to the sim UI in Chrome
+
+4. Log in to the SimUI.
 
 + Open a new browser window and go to mtl.how/SIM.
 
 + Enter your login credentials and hit enter.
 
-2. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
+5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
 
-3. Start a New Session
+6. Start a New Session
 
 + Select the Care Coordination module. 
 
@@ -55,15 +62,15 @@ output:
 
 + Click Play.
 
-4. Orient yourself to the Main Page of the SimUI (same information and buttons at top; 3 tiles with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
+7. Orient yourself to the Main Page of the SimUI (same information and buttons at top; 3 tiles with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
 
-5. Expand the Experiments tile and read the “i” information for the Team Data Table.
+8. Expand the Experiments tile and read the “i” information for the Team Data Table.
 
 + What types of decisions does the team make that affect these variables?
 
 + How do the values in this table strike you? Do they line up with how you think things really are?
 
-6. Find the Team Data Table variables in the system diagram at the left.
+9. Find the Team Data Table variables in the system diagram at the left.
 
 + True Missed Appointment % (rate)
 
@@ -77,7 +84,7 @@ output:
 
 + New Patient Wait Time
 
-7. Log out of the SimUI
+10. Log out of the SimUI
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
