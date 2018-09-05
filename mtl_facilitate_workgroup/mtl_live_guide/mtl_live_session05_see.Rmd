@@ -1,0 +1,87 @@
+---
+title: "MTL Session 5"
+author: "Team PSD"
+date: "September 2018"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">  
+
+# [MTL Live Session 05](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd "MTL Live Session 05")
+
+
+# Today we're modeling to learn how to log-in to our team world.
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked our MTL sim UI log-in at mtl.how/sim before the team meeting to make sure we could login. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Team PSD Facilitators will be introducing the MTL sim UI Log-in and Experiments Tile | 
+
+<!-- Learning Objectives Icon --> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+
+## Learning Objectives
+
+1. Describe the team data in the experiments tile.
+2. Test out the simulation user-interface for more information about team data.
+3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
+
+# In-session Exercise (30 minutes)
+
+# Session 5 In-Session Exercise
+
+1. Log in to the SimUI.
+
++ Open a new browser window and go to mtl.how/SIM.
+
++ Enter your login credentials and hit enter.
+
+2. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
+
+3. Start a New Session
+
++ Select the Care Coordination module. 
+
++ Select the team data you want to use.
+
++ Click Play.
+
+4. Orient yourself to the Main Page of the SimUI (same information and buttons at top; 3 tiles with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
+
+5. Expand the Experiments tile and read the “i” information for the Team Data Table.
+
++ What types of decisions does the team make that affect these variables?
+
++ How do the values in this table strike you? Do they line up with how you think things really are?
+
+6. Find the Team Data Table variables in the system diagram at the left.
+
++ True Missed Appointment % (rate)
+
++ Appointment Supply
+
++ Return Visit Interval
+
++ Median Engagement	
+
++ Starting Rate
+
++ New Patient Wait Time
+
+7. Log out of the SimUI
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We uploaded and reviewed team data in the sim UI experiments tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available throughout the sim UI in the model diagram and experiment tile at mtl.how/sim. | 
+

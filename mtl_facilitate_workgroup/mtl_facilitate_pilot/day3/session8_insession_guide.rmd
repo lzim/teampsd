@@ -12,17 +12,23 @@ Session 8. In-session exercise: Running an Experiment
 
 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
 
-7.	Revise the text in all the text boxes to reflect the experiment you want to do now: Type in your question and hypothesis, leave the other 2 fields blank.
+7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
 
-8.	Adjust the experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (this time that just means all the base case values).
++ Our Question: Briefly describe what your team wants to learn from this experiment.
+   
++ Our Hypothesis: Outline the systems story your team believes will cause the outcomes your team expects to observe.
 
-9.	Run; then Save (without resetting). Name this run according to the variable setting you changed.
+8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (this time that just means all the base case/default values).
 
-10.	Compare Runs to see the difference between base case and the current run.
+9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
 
-11.	Compare Services to see how the ones you modified look now.
+10.	Compare Runs to see the difference the between base case and the current experimental run. Compare Services to see how the variables across services look under the current experiment's conditions. Record what you learned:
 
-12.	Record your Findings in the text box.
+   + Our Findings: Describe your team's findings, insights and conclusions from this experiment.
 
-13.	Decide what you want to look into next. Record your decisions in the text box. Save and Reset when ready.
+11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run. 
+
+   + Our Decisions: Based on what was learned in this experiment, what changes is the team ready to make in their practice?
+
+12. Save and Reset when ready.
  

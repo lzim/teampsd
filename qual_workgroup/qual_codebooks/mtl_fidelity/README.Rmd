@@ -145,7 +145,7 @@ session 12. Today we're *modeling to learn* how to turn **team learning** into a
 **MTL Live** - MTL Session 6 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 6 Facilitator Guide (SAY file) - Enter question text (20% complete in Facilitator Dashboard) |
 **Done/Do - 15 minutes for Done/Do**  |
-**Done** - Logged in and uploaded team data to the sim UI. Reviewed team data in Experiments Tile. Enter question text.
+**Done** -  Logged in and reviewed the systems story in the main sim tile. Entered question text.
 **Do** - Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...to Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text."
 
