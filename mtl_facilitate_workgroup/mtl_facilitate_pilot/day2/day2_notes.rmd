@@ -37,6 +37,8 @@
   - Purple = always set as default at middle position (value = 1); dimesionless variable; allows you to experiment with the effects of one variable on another; effects that we know are important but don't have concrete data for
 - What is team data for starting rate? Look at the "i" icon!
 - Add to Facilitator script: Ability to select previous experiment runs to set values in Experiments tile to a previous run
+- 3 Tiles in Play Screen: Main Tile, Outputs Tile, Experiments Tile
+- Rates: Unit of time is in weeks (The time unit of week is best for mental visualization as each day varies a lot and too much has happened by end of a month)
 - Care Coordination systems story
 
 
