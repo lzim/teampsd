@@ -46,6 +46,7 @@
 - Dynamics before details: Looking at the larger cause/effect relationship before the detailed values
 - Bathtub analogy for rates flowing in and out of stock: Rate of faucet filling tub vs. rate of drainage of tub
 - We can say "impact" instead of "related to" since this is (multi)causality not correlational.
+- Clinicians often feel disempowered by solutions/programs from leaderhips as they are presented to be "simple," but MTL addressed the complexity of the clinic
 
 
 ## Tech Issues
@@ -53,3 +54,5 @@
 2. The "i" information for "Measured vs. Actual Time" in Care Coordination is incorret. The current definition is for wait time right.
 3. "i" information in diagram is too complex - "Effect of Task Time on Missed Appointments"
 4. "Appointments for existing patients" in MM model does not have "i" information
+5. "Appointments used by existing patients" in PSY model does not have "i" information. 
+6. PSY still says "Appointments used by existing patients" instead of "Appointments for existing patients" which we standardized to
