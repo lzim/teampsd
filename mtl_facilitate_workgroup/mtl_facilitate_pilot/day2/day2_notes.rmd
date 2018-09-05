@@ -21,4 +21,6 @@ mtl.how/sim
 - Team World: For facilitation, teaching, working as a team
 Chat function - First thing TAS team asked about, spent large portion of time clarifying team vs. facilitator chat
 - Team chat: Between team lead and facilitator
-- Facilitator chat: Between facilitators
+- - Facilitator chat: Between facilitators
+- - Change generic photo in mtl.how/sim to be genderless
+- Team Data i = tells you where information came from for team data
