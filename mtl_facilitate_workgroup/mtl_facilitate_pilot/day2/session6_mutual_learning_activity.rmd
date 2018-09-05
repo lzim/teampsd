@@ -13,25 +13,34 @@
 <!-- Learning Objectives Icon -->
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" 
      height = "150" width = "150"> 
- + Understand complex relationships between appointments and patients in the CC model
- + Tell the CC systems story
- + Develop a team question that will lead to an experiment in the CC model.
+ # Learning Objectives  
+ + Understand complex relationships between appointments and patients in the CC model.  
+ + Tell the CC systems story.  
+ + Develop a team question that will lead to an experiment in the CC model.  
 
-* Purpose:  This exercise is about making sense of complexity. This is a process of discovery and thinking about complexity in an orderly way that allows you to tell the CC systems story so that you can help others understand the complexity of managing patients and appointments in the VA health system. It will also encourage development of a question for running an experiment in the CC model.  
+## Purpose  
+This exercise is about making sense of complexity. This is a process of discovery and thinking about complexity in an orderly way that allows you to tell the CC systems story so that you can help others understand the complexity of managing patients and appointments in the VA health system. It will also encourage development of a question for running an experiment in the CC model.  
 
-### Activity
+### Activity  
 
-* Divide the *MTL Facilitate Learners* into 2 groups (count off by 2's). Half are the “Appointments” group; half are in the “Patients” group. 
-* Three TeamPSD members will join the Appointments group (TR-lead facilitator, DL, DK). Three TeamPSD members will join the Patients group (LZ-lead facilitator, JB, SP).  
-* Each group will have a flip chart page with the basic structure for each segment of the model, *Appointments* and *Patients*, drawn on it:  
-++ Appointments: Booking Rate, Appointments in CC, Completing Rate {gif} and True Missed Appointment Rate, Appointments to Reschedule and Rescheduling Rate  
-++ Patients: Starting Rate, Patients in CC, Ending Rate {gif}
-* Each group will be given a marker and sticky notes with words written on them that represent the other parts of their section of the model. 
-* The *MTL Facilitate Learners* will re-create their assigned segment of the model, drawing in the arrows and symbols, with support from their TeamPSD team members (8 minutes).  
-* The two groups will join the two flip chart pages together, receive additional sticky notes with model segments, and will draw in the Balancing Patients content of the model.  
-* TeamPSD lead facilitators will support the merged group in walking through the CC systems story (12 minutes).  
-* The *MTL Facilitate Learners* will turn their attention to the screen (seated or standing) on which the CC model and team data table is displayed.  
+* Two *MTL Facilitate Learners* will volunteer to lead the activity.  
+* The co-facilitators will lead a "popcorn activity." They will point out the two categories in the main tile of the CC model: Appointments and Patients.  
+* Each *MTL Facilitate Learner* will have the opportunity to tell the CC systems story by "popping up" to the screen at the front of the room and walking the group through one section of the main model tile.  
+* Facilitators will ask learners to "reveal complexity" as we move through the activity.  
+* Reminder: When two variables are connected by a arrow, the plus signs means the variables are moving in the "same direction" and the minus signs means movement in the "opposite direction."  
+* Starting with the Appointments section of the CC model, the facilitators will call on individuals learners to come up and explain how at least two variables are connected through a small section of the model.  
+   ++ Appointments: Booking Rate, Appointments in CC, Completing Rate  
+   ++ Appointments: Reveal "Overbooking Affects No-Shows"  
+   ++ Appointments: True Missed Appointment Rate, Appointments to Reschedule and Rescheduling Rate  
+* Scroll down to see the Patients section of the CC model:  
+   ++ Patients: Starting Rate, Patients in CC, Ending Rate  
+   ++ Patients: Reveal "Wait Time Affects Referrals"  
+   ++ Patients: Target Wait Time and Referral Rate  
+   ++ Patients: Balancing Loop  
+* Reveal Complexity: "Balancing Patients" and walk through connections between Appointments and Patients.  
+   ++ Balancing Loop: Balancing Existing and New Patients  
 * TeamPSD lead facilitators will walk the *MTL Facilitate Learners* through the process of drafting text for *Our Question* in which the team will *Briefly describe what your team wants to learn from this experiment.*  
 * One *MTL Facilitate Learner* will enter the question into the box Outputs tile. 
+* Debrief the experience and walk through the CC systems story a final time.  
 
-* Final Step – Sit down and debrief the experience and walk through the CC systems story a final time.
+
