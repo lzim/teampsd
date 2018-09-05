@@ -27,12 +27,13 @@ mtl.how/sim
 - Experiment "i" = tells you what you're changing in the model when you adjust that variable in the experiment
 - Default value for experiment values are..?
   - BC/basecase value if from team data (you can check the value in the team data table at the top)
-    - Slider will not re
+    - Slider will not reflect the value of BC. It will be left most.
+    - Red variables only
   - Default value if not from team data
-
+    - Green and purple variables
 - What are the colors?
   - Red = read in
   - Green = 
   - Purple = 
 - What is team data for starting rate? Look at the "i" icon!
-- Base
+- 
