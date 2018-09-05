@@ -62,11 +62,25 @@
 - Telling the system story as a group (rather than in pairs) both helps TeamPSD members better understand the model and helps brings in the diverse expertise across the board in telling the story and answering questions
 - We need to move on from CC to other models that are more relevant to the clinicans they work with/questions they get in the field. We will work on telling systems story for an Agg model.
 - Session 7 tomorrow morning: Q and H for basecase. TeamPSD will facilitate the TAS team to understand that the Hypothesis for basecase will show a fluctuating and then stabilizing graph due to the balancing loops. Folks will run experiments on their own.
-- Facilitate TAS team through Session 7-9 mutual learning as a "learner" rather than "facilitator"
+- Facilitate TAS team through Session 7-9 as a "learner" rather than "facilitator". To address time constraints, we can reduce the mutual learning.
 - Goal for MTL Faciltate Pilot team by Friday: 
   - Describe MTL resources
   - Test team questions
   - Apply expertise as TAS on how the MTL rollout should look like
+- One person asked "are people really going to ask these questions? do they need to know this?"
+  - Remind TAS that they will not be expected to be the systems SME
+  - We need to try out the co-facilitation model (systems SME + MH SME) that we planned in this pilot
+- Feedback that shifting from the "learner" role to the "facilitator" role is confusing
+- TAS team has great facilitation skills already, but they need to learn what they need to facilitate. Focusing on that learning space is important in moving this forward. Orient them to space of "Questions you have today will be questions teams have in the future." They can write down questions they have as the "facilitator" role but encourage only asking in "learner" questions and thinking in "learner" space.
+  - 2 folks who have not had chance to facilitate yet will co-facilitate Session 7 and 8 with a TeamPSD/systems SME and we will model what we think will work in the future.
+    - Gives us pilot data on co-facilitation model
+    - We model that folks who have missed part of the training can still do it
+    - We model the co-facilitation model to folks in-person in front of everyone
+    - Show pre-prep (30 min) and debrief (40 min) model
+      - Involves picking target hypothesis and findings to facilitate team through
+      - Divvying up who will facilitate do/done, keep track of time, keep track of chat time
+      - 2
+- Ask TAS teams to share their notes with us. Helps with both with tracking the week and what stood out to each person.
 
 ## Tech Issues
 1. Referral rate in Experiments Tile in CC model in team_mtl_facilitate_pilot_2018_09 world has "BC"
