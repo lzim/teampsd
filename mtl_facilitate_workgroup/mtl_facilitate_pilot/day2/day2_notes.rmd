@@ -39,8 +39,16 @@
 - Add to Facilitator script: Ability to select previous experiment runs to set values in Experiments tile to a previous run
 - 3 Tiles in Play Screen: Main Tile, Outputs Tile, Experiments Tile
 - Rates: Unit of time is in weeks (The time unit of week is best for mental visualization as each day varies a lot and too much has happened by end of a month)
-- Care Coordination systems story
+- Complexity  vs. complicated
+- Slider = something that can be experimented with in Experiments tile
+- Care Coordination systems story: If I start overbooking, this increases appt supply, and decreases measured vs. actual time
+- Signs on arrows: Causal effect, not just correlational; Direct vs. Inverse relationship; Same vs. Opposite relationship
+- Dynamics before details: Looking at the larger cause/effect relationship before the detailed values
+- Bathtub analogy for rates flowing in and out of stock: Rate of faucet filling tub vs. rate of drainage of tub
 
 
 ## Tech Issues
 1. Referral rate in Experiments Tile in CC model in team_mtl_facilitate_pilot_2018_09 world has "BC"
+2. The "i" information for "Measured vs. Actual Time" in Care Coordination is incorret. The current definition is for wait time right.
+3. "i" information in diagram is too complex - "Effect of Task Time on Missed Appointments"
+4. "Appointments for existing patients" in MM model does not have "i" information
