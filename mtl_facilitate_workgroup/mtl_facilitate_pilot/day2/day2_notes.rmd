@@ -62,7 +62,11 @@
 - Telling the system story as a group (rather than in pairs) both helps TeamPSD members better understand the model and helps brings in the diverse expertise across the board in telling the story and answering questions
 - We need to move on from CC to other models that are more relevant to the clinicans they work with/questions they get in the field. We will work on telling systems story for an Agg model.
 - Session 7 tomorrow morning: Q and H for basecase. TeamPSD will facilitate the TAS team to understand that the Hypothesis for basecase will show a fluctuating and then stabilizing graph due to the balancing loops. Folks will run experiments on their own.
--
+- Facilitate TAS team through Session 7-9 mutual learning as a "learner" rather than "facilitator"
+- Goal for MTL Faciltate Pilot team by Friday: 
+  - Describe MTL resources
+  - Test team questions
+  - Apply expertise as TAS on how the MTL rollout should look like
 
 ## Tech Issues
 1. Referral rate in Experiments Tile in CC model in team_mtl_facilitate_pilot_2018_09 world has "BC"
