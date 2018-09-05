@@ -33,8 +33,8 @@ mtl.how/sim
     - Green and purple variables
 - What are the colors?
   - Red = read in
-  - Green = 
-  - Purple = 
+  - Green = variable you can experiment with not pulled in from team data
+  - Purple = always set as default at middle position (value = 1); dimesionless variable; allows you to experiment with the effects of one variable on another
 - What is team data for starting rate? Look at the "i" icon!
 - 
 
