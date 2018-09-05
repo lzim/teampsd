@@ -59,10 +59,10 @@
 - Huge problem we see everywhere is that people don't get the flow component
 
 ## Debrief
-- Need to finish telling CC systems story tomorrow morning
 - Telling the system story as a group (rather than in pairs) both helps TeamPSD members better understand the model and helps brings in the diverse expertise across the board in telling the story and answering questions
-- We need to move on from CC to other models that are more relevant to the clinicans they work with/questions they get in the field
+- We need to move on from CC to other models that are more relevant to the clinicans they work with/questions they get in the field. We will work on telling systems story for an Agg model.
 - Session 7 tomorrow morning: Q and H for basecase. TeamPSD will facilitate the TAS team to understand that the Hypothesis for basecase will show a fluctuating and then stabilizing graph due to the balancing loops.
+-
 
 ## Tech Issues
 1. Referral rate in Experiments Tile in CC model in team_mtl_facilitate_pilot_2018_09 world has "BC"
