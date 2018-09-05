@@ -37,7 +37,8 @@
   - Purple = always set as default at middle position (value = 1); dimesionless variable; allows you to experiment with the effects of one variable on another; effects that we know are important but don't have concrete data for
 - What is team data for starting rate? Look at the "i" icon!
 - Add to Facilitator script: Ability to select previous experiment runs to set values in Experiments tile to a previous run
-- 
+- Care Coordination systems story
+
 
 ## Tech Issues
 1. Referral rate in Experiments Tile in CC model in team_mtl_facilitate_pilot_2018_09 world has "BC"
