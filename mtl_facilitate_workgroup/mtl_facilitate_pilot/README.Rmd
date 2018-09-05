@@ -50,7 +50,7 @@ output:
 **01:30PM-02:15PM** -  [*MTL* Session 5 - Care Coordination in our Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd)|
 **02:15PM-03:15PM** - [*MTL* Session 6 - Telling a Systems Story - Care Coordination Main Tile](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session06_see.Rmd) |
 **03:15PM-03:30PM** -  BREAK  |
-**03:30PM-04:15PM** - [*MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session6_mutual_learning_activity.rmd)   |
+**03:30PM-04:15PM** - [*MTL* Session 6 - **Mutual Learning: Practice telling a Systems Story**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day2/session6_mutual_learning_activity.rmd)  |
 **04:15PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) - *Empty Your Cup* - “In order to teach others I need more help understanding…” |
 ***04:30PM-05:00PM** - TeamPSD Reflections & Day 3 Preparation* |
 
