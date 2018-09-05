@@ -23,8 +23,16 @@ mtl.how/sim
 - Team chat: Between team lead and facilitator
   - Facilitator chat: Between facilitators
   - Change generic photo in mtl.how/sim to be genderless
-- Team Data i = tells you where information came from for team data
-- Experiment i = tells you what you're changing in the model when you adjust that variable in the experiment
+- Team Data "i" = tells you where information came from for team data
+- Experiment "i" = tells you what you're changing in the model when you adjust that variable in the experiment
 - Default value for experiment values are..?
-  - BC/basecase value if from team data
+  - BC/basecase value if from team data (you can check the value in the team data table at the top)
+    - Slider will not re
   - Default value if not from team data
+
+- What are the colors?
+  - Red = read in
+  - Green = 
+  - Purple = 
+- What is team data for starting rate? Look at the "i" icon!
+- Base
