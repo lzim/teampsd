@@ -37,3 +37,6 @@ mtl.how/sim
   - Purple = 
 - What is team data for starting rate? Look at the "i" icon!
 - 
+
+## Tech Issues
+1. Referral rate in Experiments Tile in CC model in team_mtl_facilitate_pilot_2018_09 world has "BC"
