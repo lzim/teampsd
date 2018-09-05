@@ -45,6 +45,7 @@
 - Signs on arrows: Causal effect, not just correlational; Direct vs. Inverse relationship; Same vs. Opposite relationship
 - Dynamics before details: Looking at the larger cause/effect relationship before the detailed values
 - Bathtub analogy for rates flowing in and out of stock: Rate of faucet filling tub vs. rate of drainage of tub
+- We can say "impact" instead of "related to" since this is (multi)causality not correlational.
 
 
 ## Tech Issues
