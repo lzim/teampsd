@@ -81,17 +81,22 @@
     - Gives us pilot data on co-facilitation model
     - We model that folks who have missed part of the training can still do it
     - We model the co-facilitation model to folks in-person in front of everyone
+  - Session 7: Jane (Basecase co-facilitator) + MH SME
+  - Session 8: Debbie (First experiment co-facilitator) + MH SME
+  - Session 9:    
     1. Pre-prep (20 min) - TAS just watch
-    2. Session (60) - Learner hat
-    3. Debrief Pt.1 (20) - TAS just watch
-    4. Debrief Pt.2 (20) - TAS post questions written down on stickies onto flip chart.  Ask them to put similar questions together as they post 
       - Involves picking target hypothesis and findings to facilitate team through
       - Divvying up who will facilitate do/done, facilitate systems story, keep track of time, keep track of chat time
+    2. Session (60) - Learner hat
+    3. Debrief Pt.1 (20) - TAS just watch
+    4. Debrief Pt.2 (20)
+      - TAS post questions written down on stickies onto flip chart, sorting by 1) "learner" or "facilitator" and 2) "top priority" or "later/bike rack"
+      - 
+      - 
+
 - Ask TAS teams to share their notes with us. Helps with both with tracking the week and what stood out to each person.
-- Goal for end of Thursday: Are TAS folks able fo pickup elements of systems thinking and levels of systems complexity by the end of the day?
-- Session 7: Jane (Basecase co-facilitator)
-- Session 8: Debbie - First experiment co-facilitator
-- Session 9: 
+- Goal for end of Thursday: Are TAS folks able to pickup elements of systems thinking and levels of systems complexity by the end of the day?
+
 
 "as authentic as learner experience as possible"
 
