@@ -65,7 +65,7 @@ AGG model feedback loops:
 
 Complexity, Feedback, Behavior, Time (C F B T) (defs):
 
-Complexity. The state or quality of being intricate and/or complicated. In system dynamics, characterized by the structure and resultant behavior of the structure determined by time-dependent interdependcies among elements of a system.
+Complexity. The state or quality of being intricate and/or complicated. In system dynamics, characterized by the interdependencies among elements of a model.
 
 Feedback. Circular processes. Mutual causality. A self-reinforcing relationship. Interdependency.
 
