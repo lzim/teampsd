@@ -48,6 +48,21 @@
 - We can say "impact" instead of "related to" since this is (multi)causality not correlational.
 - Clinicians often feel disempowered by solutions/programs from leaderhips as they are presented to be "simple," but MTL addressed the complexity of the clinic
 
+## Empty My Cup
+- Time it takes for feedback to take effect
+- What it means to increase target wait-time
+- If it's an odd number of negatives than it's a balancing loop; even number of negatives is a reinforcing loop
+- CC may be hard to explain given stop codes; SW/nursing work may be changing
+- Need more examples
+- Every system is perfectly designed to get outcome it gets
+- How my team is put together
+- Huge problem we see everywhere is that people don't get the flow component
+
+## Debrief
+- Telling the system story as a group (rather than in pairs) both helps TeamPSD members better understand the model and helps brings in the diverse expertise across the board in telling the story and answering questions
+- We need to move on from CC to other models that are more relevant to the clinicans they work with/questions they get in the field
+- 
+
 
 ## Tech Issues
 1. Referral rate in Experiments Tile in CC model in team_mtl_facilitate_pilot_2018_09 world has "BC"
@@ -56,3 +71,5 @@
 4. "Appointments for existing patients" in MM model does not have "i" information
 5. "Appointments used by existing patients" in PSY model does not have "i" information. 
 6. PSY still says "Appointments used by existing patients" instead of "Appointments for existing patients" which we standardized to
+
+
