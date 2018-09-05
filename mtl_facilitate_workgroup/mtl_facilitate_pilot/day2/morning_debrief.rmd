@@ -1,4 +1,4 @@
-##Sticky
+## Sticky
 1. PSD = Participatory System Dynamics
 2. Web address
 - mt.how/facilitate, data, sim
