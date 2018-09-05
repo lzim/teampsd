@@ -1,9 +1,0 @@
-## Sticky
-1. PSD = Participatory System Dynamics
-2. Web address
-- mt.how/facilitate, data, sim
-3. Data UI
-- Drill down
-- Filter
-- Flags
-- Health factors

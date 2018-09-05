@@ -1,0 +1,12 @@
+## Sticky
+1. PSD = Participatory System Dynamics
+2. Web address
+- mt.how/facilitate, data, sim
+3. Data UI
+- Drill down
+- Filter
+- Flags
+- Health factors
+
+## Questions
+1. Hardcoding RVI as one for EBP, sends a message that this is very important and that RVI for other types of encounters are not as critical
