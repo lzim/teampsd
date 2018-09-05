@@ -8,5 +8,10 @@
 - Flags
 - Health factors
 
-## Questions
-1. Hardcoding RVI as one for EBP, sends a message that this is very important and that RVI for other types of encounters are not as critical
+## Questions & Notes
+1. Hardcoding RVI as one for EBP, sends an unintended message that this is very important and that RVI for other types of encounters are not as critical (i.e. sends message that regular psychotx can happen whenever). But, in order to get the model to run, a value is necessary there since some places do EBP's so seldom that this may be 0.  Calli
+2. Ask team to look through all the questions in mtl.how/menu before priortizing so they can think about it in comparison to each other
+
+mtl.how/menu
+- Clarifying frame of reference for answering questions, especially where there is a lot of variability
+- Keeping in mind the specific mix of disciplinesi in the team and how needs vary per discipline
