@@ -48,6 +48,13 @@
 - Intake is the first things that happens when someone is new to MH. Intake doesn't happen again once on team. They may get cc, mm, psy, ebpsy, etc. or multiple things at once. Demands that are happening, happen amongst ourselves to meeting this patients' needs.
 - Decisions: If we're doing this to ourselves, it means we could make different decisions within our team that would put supply and demand at a different level. I'd like to see what would happen if we start bringing psy patients back more frequently and  working to shorten time they're in care.
 - Everyone is sharing patients. Everyone should be taking on the role of MHTC.
+- Questions on difference between Service Proportions from Team Data vs. Appropriate Service Proportions from Supply
+  - Current state vs. supply dicatated from current state
+  - Where is green data coming from?
+    - Coming from all of team data - appt supply, RVI, engagement duration, etc.
+    - Data from team data table is being pulled in from data.
+    - Individual proportions for green are calculated based on all the other data. Figure out for a team's situation how many patients the team can start. What percent of reviews/intakes can you send to the specific services based on supply, etc.
+    - Green box is more realistic assessment of what you could be doing given all the interdependencies
 
 
 
@@ -56,3 +63,4 @@
 ## Tech Issues/Suggestions
 1. Notification in chat when someone sends a message
 2. Why do green variables have BC in AGG? Why are the green BC values defined here and not in other places? Intake Evaluation Rate is also green with BC, but no way to find the value.
+3. Agg Model Team Data Table - Appt Supply variables should have "75th percentile" label instead of "median"
