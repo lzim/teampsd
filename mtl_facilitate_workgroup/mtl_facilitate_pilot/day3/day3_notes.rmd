@@ -76,10 +76,21 @@ Session
 - Review where we would see Q/H/F/D
 - Review how to pull up previous experiment through Expanded Outputs tile and review ? symbol in the Alternatives section
 - Review how to pull up previous experiment Q/H/F/D and values from the Experiments tile
+- Review that we want to change psy and EBPsy
+- Can change service proportions to idealized ratio from team data proportions
+- How many slots do I need to increase to get to the ideal ratio?
+- What does ideal ratio mean? I thought green isn't ideal, necessarily. It's optimized for what you have now.
+- Can we swap CC and EBPsy?
+- WHo can we afford to "bump out" more? Psy or CC?
+- We don't really know what CC means
+- Question: What happens if we icnrease appt supply for EBPsy and group, decrease the number of appointments for CC, and increase RVI for CC and PSY 
+- Hypothesis: If we increase appointment supply for EBPsy to 8  and we decrease the number of appointments for CC to 2 and CC RVI out to 20 and decrease PSY to 5 appts/wk and change RVi to 1, increase group to 5 appts/week we expect to increase in wait times initially, increase appointments for EBPsy.
+- Findings: We found that patients waiting for PSY increases temporarily but that improves over BC. Waiting for intake was "untouched" so it stayed the same. The patients ho are currently engaged went to 10. Work pressure - increases and then flattens out. Actual RVI - it increased for a couple of months, but then at about a year it decreaseds. If we do a better job of matching the service to the need, it gets worse in the short-term, but pays off in the long-run in the team. The chaos for EBPsy or Group is because we didn't refer more people in those groups.
+- Decisions: EBPSy or Group have to change the service proportions for those
+- Done/Do covered
 
 
-
-## Tech Issues/Suggestions
+## Tech Issues/Suggestions 
 1. Notification in chat when someone sends a message
 2. Why do green variables have BC in AGG? Why are the green BC values defined here and not in other places? Intake Evaluation Rate is also green with BC, but no way to find the value.
 3. Agg Model Team Data Table - Appt Supply variables should have "75th percentile" label instead of "median"
