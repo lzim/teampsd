@@ -108,6 +108,9 @@ Mutual Learning - Systems thinking CFBT
 - Introduce Outputs tile
 - Run basecase
 - Enter Q/H/F/D for Base Case (bc) Run in Expanded Outputs Tile
+  - Q: What does our basecase look like?
+  - H: Our team's behavior will reach steady state.
+  - F: Describe findings - oscillation and then steady state.
 - "D" Decision on what to test in Experiment 1
 
 **Session 8**
@@ -124,7 +127,7 @@ Mutual Learning - Systems thinking CFBT
     Debrief Pt. 20
       - TAS post questions written down on stickies onto flip chart, sorting by 1) "learner" or "facilitator" and 2) "top priority" or "later/bike rack"
 
-
+When team data > service proportions
 Friday Plan
 1. Order steps of MTL program (30 min)
 2. PSY (1 hour)
@@ -149,5 +152,8 @@ We want to give TAS team "as authentic learner experience as possible"
 - WHy can team lead see/engage in both types of chats?
 - Why can't facilitator see team chat?
 - Dropdown in Facilitator view of chat shows all the team names for each person?
+9. If in the aggregate model, someone cues up 6 variables they want to look at in the results dashboard and then they go back to the main tile to choose a different service, the results dashboard should have the same variables (should not default to any other list). The team shouldn't have to reset the variables everytime they switch services.
+10. There are default variables we want cued up. Currently these default variables show for Compare Services but not for Compare Experiments. A current "work around" is if you go to Compare Services first and then go back to Compare Experiments, it holds the default variables we want cued up.
+11. If I cue up results dashboard for Exp 1, will it pull up the 6 variables chosen for the Results Dashboard in the same way that the Q/H/F/D gets pulled up?
 
 
