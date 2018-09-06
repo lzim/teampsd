@@ -59,7 +59,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 3 |
 -------------- |
 **08:00AM-04:30PM** |
-**08:00AM-08:15AM** - Done (yesterday) and Do (today) - *What’s “Sticky?* - " I remember best…"  |      
+**08:00AM-08:15AM** - Done (yesterday) - **We selected a question: How do we increase patient access to any service? How do we increase EBPsy, without increasing patient wait time for any service?** *What’s “Sticky?* - " I remember best... and Do (today)  |      
 **08:15AM-08:35AM** - Co-facilitator Pre-prep for session 7 |
 **08:35AM-09:35AM** - [*MTL* Session 7 - Evaluate our Base Case of No New Decisions - Aggregate](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session07_see.Rmd)  |
 **09:35AM-09:55AM** - **Co-Facilitator Debrief Session 7 on the Base Case**  |
