@@ -9,7 +9,7 @@
 
 MTL Sessions 9 and 10: Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time
 
-Hypotheses and Findings Pairs:
+# **Hypotheses and Findings Pairs:**
 
 [Scheduling grids: Allocating appointments across services] [Level 1]
 
