@@ -146,5 +146,8 @@ We want to give TAS team "as authentic learner experience as possible"
 6. PSY still says "Appointments used by existing patients" instead of "Appointments for existing patients" which we standardized to
 7. Fix typos in mtl_fidelity.Rmd
 8. Chat function: Team chat vs. facilitator chat
+- WHy can team lead see/engage in both types of chats?
+- Why can't facilitator see team chat?
+- Dropdown in Facilitator view of chat shows all the team names for each person?
 
 
