@@ -144,5 +144,6 @@ We want to give TAS team "as authentic learner experience as possible"
 5. "Appointments used by existing patients" in PSY model does not have "i" information. 
 6. PSY still says "Appointments used by existing patients" instead of "Appointments for existing patients" which we standardized to
 7. Fix typos in mtl_fidelity.Rmd
+8. Chat function: Team chat vs. facilitator chat
 
 
