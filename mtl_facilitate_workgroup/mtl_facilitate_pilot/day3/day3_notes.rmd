@@ -56,10 +56,12 @@
     - Individual proportions for green are calculated based on all the other data. Figure out for a team's situation how many patients the team can start. What percent of reviews/intakes can you send to the specific services based on supply, etc.
     - Green box is more realistic assessment of what you could be doing given all the interdependencies
 
-
-
-
-
+## Session 8
+Prep
+- Review session guide as agenda
+- Talk about last time
+- Divide up Session 8 tasks
+- 
 ## Tech Issues/Suggestions
 1. Notification in chat when someone sends a message
 2. Why do green variables have BC in AGG? Why are the green BC values defined here and not in other places? Intake Evaluation Rate is also green with BC, but no way to find the value.
