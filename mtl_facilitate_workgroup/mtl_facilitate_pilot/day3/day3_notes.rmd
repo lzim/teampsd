@@ -31,6 +31,21 @@
 - We need to get our patients back into PCMHI?
 - What does the green mean?
 - What is difference between red and green toggle sliders? They are the same items. Our hypothesis is if you want to make changes you toggle on the green.
+- Talking about efficiencies we see some providers twiddling thumbs while others are on hamster wheel
+- How do you run a basecase?
+- I think our hypothesis is that we currently think our rates of referral don't match up with our appt supply. If we adjust our own referral rates, we'll achieve a new steady state with different proportions. 
+- It changes because what we do as people is a workaround.  But that is suboptimal.  What we can do moving forward is find an optimal solution and apply that.
+- What do we select on display patient services to run the experiment?
+- How do we know if we ran it?
+- What does number mean in the save tile? How do we save?
+- What made the spikes in the basecase run?
+- Would this be the same (the spike occuring) regardless of whether I ran this 3 months from now?
+- If system will balance everything out anyway, why do I care?
+- What do we think about changing? What are we able to change? How much are we changing?
+- I can't change my grids. I can't change my tour. But I have to see 17 people with the time to see 5.
+- When we make noted new decisions with our current appt supply and patient demand for psy, access to psychotx worsens/wait times will double within 6 months.
+- If we do nothing, it will get worse, but the system will conspire to get it at a level that is tolerable.
+
 
 
 
