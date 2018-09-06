@@ -95,4 +95,5 @@ Session
 2. Why do green variables have BC in AGG? Why are the green BC values defined here and not in other places? Intake Evaluation Rate is also green with BC, but no way to find the value.
 3. Agg Model Team Data Table - Appt Supply variables should have "75th percentile" label instead of "median"
 4. Would be nice to have an "are you sure?" pop up for Run button
+5. In MTL Facilitate Pilot Team Group in Worl 001 in Agg Model, there was a bug with the y axis scale for "Group - Actual Return Visit Interval"
 
