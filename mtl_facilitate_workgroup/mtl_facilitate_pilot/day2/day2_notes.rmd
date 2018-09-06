@@ -58,7 +58,7 @@
 - How my team is put together
 - Huge problem we see everywhere is that people don't get the flow component
 
-## Debrief & Plan
+## Debrief
 - Telling the system story as a group (rather than in pairs) both helps TeamPSD members better understand the model and helps brings in the diverse expertise across the board in telling the story and answering questions
 - We need to move on from CC to other models that are more relevant to the clinicans they work with/questions they get in the field. We will work on telling systems story for an Agg model.
 - Session 7 tomorrow morning: Q and H for basecase. TeamPSD will facilitate the TAS team to understand that the Hypothesis for basecase will show a fluctuating and then stabilizing graph due to the balancing loops. Folks will run experiments on their own.
@@ -73,26 +73,47 @@
   - We need to try out the co-facilitation model (systems SME + MH SME) that we planned in this pilot
 - Feedback that shifting from the "learner" role to the "facilitator" role is confusing
 - TAS team has great facilitation skills already, but they need to learn what they need to facilitate. Focusing on that learning space is important in moving this forward. Orient them to space of "Questions you have today will be questions teams have in the future." They can write down questions they have as the "facilitator" role separately but encourage only asking "learner" questions and thinking in "learner" space.
-  - Give team sticky notes they can write "facilitator" questions on and then we can collect afterwards
-  - Three flip charts for question categories: "learner" "faciliator" "TAS team"
-    - We will track the "learner" questionsWe will have
-  - Have large sign at front to indicate to everyone whether they have "learner" or "facilitator" hat on
-  - 2 folks who have not had chance to facilitate yet will co-facilitate Session 7 and 8 with a TeamPSD/systems SME and we will model what we think will work in the future.
+  - 
+  Give team sticky notes they can write "facilitator" questions on and then we can collect afterwards
+  
+  
+  - 
+  
+## Thursday Plan
+- Have large sign at front to indicate to everyone whether they have "learner" or "facilitator" hat on
+- folks who have not had chance to facilitate yet will co-facilitate Session 7 and 8 with a TeamPSD/systems SME and we will model what we think will work in the future.
     - Gives us pilot data on co-facilitation model
     - We model that folks who have missed part of the training can still do it
     - We model the co-facilitation model to folks in-person in front of everyone
-  - Session 7: Jane (Basecase co-facilitator) + MH SME
-  - Session 8: Debbie (First experiment co-facilitator) + MH SME
-  - Session 9:    
-    1. Pre-prep (20 min) - TAS just watch
-      - Involves picking target hypothesis and findings to facilitate team through
-      - Divvying up who will facilitate do/done, facilitate systems story, keep track of time, keep track of chat time
-    2. Session (60) - Learner hat
-    3. Debrief Pt.1 (20) - TAS just watch
-    4. Debrief Pt.2 (20)
+     - Involves picking target hypothesis and findings to facilitate team through
+  - Divvying up who will facilitate do/done, facilitate systems story, keep track of time, keep track of chat time
+  
+8:00-8:15a Sticky
+-- Session 7: Jane (Basecase co-facilitator) + MH SME --   
+1. 8:15a-8:35a Pre-prep - TAS just watch 
+2. 8:35-9:35a Session - Learner hat
+3. 9:35a-9:55a Debrief- TAS just watch
+4. 9:55a-10:10a Put up question stickies on flip chart
+-- Session 8: Debbie (first experiment co-facilitator) + MH SME --
+5. 10:10a-10:30a Pre-prep Session 8
+6. 10:30a-11:30a Session 8
+7. 11:30a-11:50a Debrief Session 8
+8. 11:50a-1:00p Put up stickies and lunch
+9. 1:00p-2:00p Session 9
+10. 2:00p-
+11. 2:20-2:40 Debrief Session 9
+
+**Session 7**
+- Introduce Outputs tile
+- Run basecase
+- Enter Q/H/F/D for Base Case (bc) Run
+- Decision on what to test in Experiment 1
+
+**Session 8**
+- Compare Exp 1 against BC in Results Dashboard
+- 
+    Debrief Pt. 20
       - TAS post questions written down on stickies onto flip chart, sorting by 1) "learner" or "facilitator" and 2) "top priority" or "later/bike rack"
-      - 
-      - 
 
 - Ask TAS teams to share their notes with us. Helps with both with tracking the week and what stood out to each person.
 - Goal for end of Thursday: Are TAS folks able to pickup elements of systems thinking and levels of systems complexity by the end of the day?
