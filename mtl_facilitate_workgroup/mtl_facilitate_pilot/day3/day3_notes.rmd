@@ -1,0 +1,11 @@
+## Sticky
+1. Going to be a very cool tool
+Focus on what is actually affecting things in the system
+2. We have dashboards that show data, but this is a tool that uses that data. 
+3. Interactability
+4. Can make specific decisions in a way that you have to extrapolate from other decisions. 
+5. We can make hypotheses, but usually it takes 3-5 months to see effect. Shows decisions quickly.
+6. Can see complexity of issue w/majority of pieces.
+7. Dashboards in a thousand places. Lot of frontline staff tend to discount data. Makes data more approachable and less intimidating.  Still don't understand other dashboards/can't make it do what they want. Being able to customize data into exactly what you want and need without needing to know programming. Sim brings data to life in a visual way.
+8. Data - I don't have to know what to click to get it. Doesn't seem like I can break it.
+9. For seasoned staff, Excel spreadsheet is approachable and easy to use. By having it so specific to encounters, a clinician can look at that and look at the individual patients. They can filter and sort into something that makes sense for them.
