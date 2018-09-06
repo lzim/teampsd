@@ -1,0 +1,127 @@
+Describe the MTL resources and principles for achieving the MTL theory of change.
+Test questions using MTL resources.
+Assess strategies for co-facilitating the MTL Live 12-session roll-out
+
+
+Feedback form questions
+Data UI
+Sim UI
+Session guides
+fffffff
+Systems Story
+Facilitation
+Feedback on Facilitator
+Learning and gaps
+Thoughts on implementation
+Value against other tools
+Concerns about the course
+Concerns about facilitation
+Questions about training - Striking right balance between facilitator skills vs. learning MTL resources tools
+Are we on the right track in providing the tools to support facilitation - session guides, fidelity checklist, mtl.how
+
+Open Ended Questions:
+
+engagement
+biggest concerns
+things that would be the most challenging
+most useful aspect
+
+time commitment that they would spend with us
+
+How would you rate the overall quality of today's webinar?
+1= poor, 2 = fair, 3=good, 4=very good, 5=excellent
+
+How relevant was the topic to your current work and interests?
+1=Not at all relevant, 2=Somewhat irrelevant, 3=Neither relevant nor irrelevant ,
+4=Somewhat relevant, 5=Very relevant
+
+How easy was it for you to use your computer or device to participate in today's webinar?
+1=very difficult, 2=somewhat difficult, 3=neutral , 4=somewhat easy,
+5=very easy, no problems at all
+
+How well did today's webinar present an ecological perspective on the processes and goals of community intervention and exemplify the fundamental role of culture and context?
+1= very poorly, 2 = somewhat poorly, 3 = adequately, 4 = somewhat well, 5 = very well
+
+Today's webinar had three learning objectives. Please rate the extent to which you agree with each of the following:
+After today’s webinar, I understand the components of an ecological framework. (Objective 1)
+1= strongly disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = strongly agree
+After today’s webinar, I understand how an ecological perspective differs from evidence-based practice. (Objective 2)
+1= strongly disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = strongly agree
+After today’s webinar, I understand the development of community resources as the primary community intervention goal. (Objective 3)
+1= strongly disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = strongly agree
+
+Prior to today’s webinar, how would you rate your proficiency in applying an ecological perspective of community intervention and the fundamental role of culture and context?
+1= no experience, 2 = novice, 3 = intermediate, 4 = advanced, 5 = expert
+
+After today’s webinar, to what extent did you gain new, useful knowledge about an ecological perspective of community intervention and the fundamental role of culture and context?
+1 = not at all, 2 = a little bit, 3 = moderately, 4 = significantly, 5 = a great deal
+
+After today’s webinar, how confident are you in applying your new knowledge about an ecological perspective of community intervention and the fundamental role of culture and context?
+1= very unsure, 2 = somewhat unsure, 3 = neither confident nor unsure,
+4 = somewhat confident, 5= very confident
+
+Facilitator’s preparation was:
+
+Facilitator as a discussion leader was:
+
+Facilitator’s command of the subject was: 
+
+Facilitator’s responsiveness to staff questions was: 
+
+Facilitator’s overall effectiveness was: 
+
+After this workshop, my understanding of the phases of modeling building
+process is… 
+
+After this workshop, my understanding of the components of system
+dynamics models (e.g., feedback loop, stocks & flows) is…
+
+Opportunities for staff input and participation in model building have
+been…
+
+
+The potential of modeling to improve decision-making and procedures in
+the clinic by including all staff and getting staff on the same page (as
+compared to decision-making without modeling) is…
+
+The potential of modeling to save time and effort by running mathematical
+simulations before we make changes (as compared to implementing
+changes without modeling) is…
+
+The overall potential of participatory system dynamics modeling to be
+useful to our clinic is… 
+
+My biggest concern about the data inputs are…
+
+I believe the most useful hypothesis to test is...
+
+
+The clinic procedure/process I am most concerned about including in the
+model is…
+
+After this workshop, my understanding of the restructuring plans
+evaluated in the models is… 
+
+After this workshop, my understanding of the simulation test outputs
+from dynamics models is… 
+
+Opportunities for staff input and participation in model building have
+been… 
+
+The effectiveness of modeling to achieve consensus around changing
+procedures in the clinic by including all staff and getting staff on the same
+page (as compared to decision-making without modeling) is…
+
+The effectiveness of modeling to save time and effort by running
+mathematical simulations before we made changes (as compared to
+implementing changes without modeling) is…
+
+The overall usefulness of participatory system dynamics modeling to
+achieve our goals in this clinic were… 6 5 4 3 2 1 N/A
+
+My biggest concern about the restructuring implementation is…Why?
+
+I believe the most useful hypothesis we tested was...Why?
+
+The clinic procedure/process I am most concerned about or believe will
+be most challenging to change based on the modeling is…Why?
