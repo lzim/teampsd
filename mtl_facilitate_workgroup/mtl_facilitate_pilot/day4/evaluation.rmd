@@ -7,7 +7,6 @@ Feedback form questions
 Data UI
 Sim UI
 Session guides
-fffffff
 Systems Story
 Facilitation
 Feedback on Facilitator
@@ -16,9 +15,16 @@ Thoughts on implementation
 Value against other tools
 Concerns about the course
 Concerns about facilitation
-Questions about training - Striking right balance between facilitator skills vs. learning MTL resources tools
-Are we on the right track in providing the tools to support facilitation - session guides, fidelity checklist, mtl.how
+Values and risks
 
+- Questions about training - Striking right balance between facilitator skills vs. learning MTL resources tools
+- Are we on the right track in providing the tools to support facilitation - session guides, fidelity checklist, mtl.how
+- Relative to total available time for course, time we spent going over data UI was... sim UI... facilitation guide & resources...
+- In the 24 hours spent on MTL, the proportion of time spent on data UI... sim UI...
+- Following up on this training, I think I will need the most help with data UI..
+- Best modality/approach to me gaining the skills I will still need is...
+
+partnership
 Open Ended Questions:
 
 engagement
@@ -125,3 +131,45 @@ I believe the most useful hypothesis we tested was...Why?
 
 The clinic procedure/process I am most concerned about or believe will
 be most challenging to change based on the modeling is…Why?
+
+For each of the following benefits, please indicate whether MTL will or will not generate the following personal benefits:
+
+a. Enhanced ability to address an important issue
+[ ] Yes
+[ ] No
+
+b. Development of new skills
+[ ] Yes
+[ ] No
+
+c. Heightened profile with my institution
+[ ] Yes
+[ ] No
+
+d. Increased utilization of my expertise or services
+[ ] Yes
+[ ] No
+
+e. Acquisition of useful knowledge about services, programs, or people in the VA
+[ ] Yes
+[ ] No
+
+f. Enhanced ability to affect policy
+[ ] Yes
+[ ] No
+
+g. Development of valuable relationships
+[ ] Yes
+[ ] No
+
+h. Enhanced ability to meet the needs of my constituency or clients at the VA
+[ ] Yes
+[ ] No
+
+Based on your impression of MTL so far, how would characterize the benefits of participating in this partnership compared to the drawbacks?
+
+[ ] Benefits greatly exceed the drawbacks
+[ ] Benefits exceed the drawbacks
+[ ] Benefits and drawbacks are about equal
+[ ] Drawbacks exceed the benefits
+[ ] Drawbacks greatly exceed the benefits
