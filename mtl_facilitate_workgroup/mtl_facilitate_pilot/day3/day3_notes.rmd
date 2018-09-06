@@ -102,6 +102,7 @@ Session
 - Helpful to tell people that we will come back to the details later. Acknowledging it is important but not priority right now.
 - If people have ideas, they can always go into their individual worlds and run it.
 - We do not want to reinforce by runinng useless experiments that this is one more tool that is not useful
+- Committing to a hypothesis gives buy in to exploring the results
 
 ## Tech Issues/Suggestions 
 1. Notification in chat when someone sends a message
