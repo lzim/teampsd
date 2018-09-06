@@ -73,11 +73,10 @@
   - We need to try out the co-facilitation model (systems SME + MH SME) that we planned in this pilot
 - Feedback that shifting from the "learner" role to the "facilitator" role is confusing
 - TAS team has great facilitation skills already, but they need to learn what they need to facilitate. Focusing on that learning space is important in moving this forward. Orient them to space of "Questions you have today will be questions teams have in the future." They can write down questions they have as the "facilitator" role separately but encourage only asking "learner" questions and thinking in "learner" space.
-  - 
+
   Give team sticky notes they can write "facilitator" questions on and then we can collect afterwards
-  
-  
-  - 
+- Ask TAS teams to share their notes with us. Helps with both with tracking the week and what stood out to each person.
+- Goal for end of Thursday: Are TAS folks able to pickup elements of systems thinking and levels of systems complexity by the end of the day? 
   
 ## Thursday Plan
 - Have large sign at front to indicate to everyone whether they have "learner" or "facilitator" hat on
@@ -106,20 +105,27 @@
 **Session 7**
 - Introduce Outputs tile
 - Run basecase
-- Enter Q/H/F/D for Base Case (bc) Run
-- Decision on what to test in Experiment 1
+- Enter Q/H/F/D for Base Case (bc) Run in Expanded Outputs Tile
+- "D" Decision on what to test in Experiment 1
 
 **Session 8**
-- Compare Exp 1 against BC in Results Dashboard
-- 
+- Complete Exp 1
+- Enter Q/H/F/D for Exp 1 in Expanded Outputs Tile
+= View Exp 1 against BC in Results Dashboard
+- Decide on Exp 2
+- Look at Q/H/F/D for systems thinking levels
+
+**Session 9**
+- Run Exp 2
+- Compare BC, Exp 1, and Exp 2
+
     Debrief Pt. 20
       - TAS post questions written down on stickies onto flip chart, sorting by 1) "learner" or "facilitator" and 2) "top priority" or "later/bike rack"
 
-- Ask TAS teams to share their notes with us. Helps with both with tracking the week and what stood out to each person.
-- Goal for end of Thursday: Are TAS folks able to pickup elements of systems thinking and levels of systems complexity by the end of the day?
 
 
-"as authentic as learner experience as possible"
+
+We want to give TAS team "as authentic learner experience as possible"
 
 ## Tech Issues
 1. Referral rate in Experiments Tile in CC model in team_mtl_facilitate_pilot_2018_09 world has "BC"
@@ -128,5 +134,6 @@
 4. "Appointments for existing patients" in MM model does not have "i" information
 5. "Appointments used by existing patients" in PSY model does not have "i" information. 
 6. PSY still says "Appointments used by existing patients" instead of "Appointments for existing patients" which we standardized to
+7. Fix typos in mtl_fidelity.Rmd
 
 
