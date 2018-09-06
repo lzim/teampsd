@@ -64,7 +64,7 @@ output:
 **09:15AM-10:15AM** - [*MTL* Session 7 - **Mutual Learning: Facilitating the Base Case**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session7_mutual_learning_activity.Rmd) |
 **10:15AM-10:30AM** - BREAK  |
 **10:30AM-11:30AM** - [*MTL* Session 8 - Test a Dynamic Hypothesis](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd) |
-**11:30AM-12:30PM** - [*MTL* Session 8 - sim UI - **Mutual Learning: The Steps of *MTL Live***](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd)  |
+**11:30AM-12:30PM** -  |
 **12:30PM-01:30PM** - LUNCH |
 **01:30PM-02:30PM** - [*MTL* Session 9 - Compare Alternatives](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session09_see.Rmd) |
 **02:30PM-02:45PM** - BREAK  |
@@ -77,12 +77,12 @@ output:
 ### Friday 9/7  
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 4 |
 ------------ |
-**08:00AM-12:00PM**  |
-**08:00AM-08:15AM** - Done (yesterday) and Do (today) - “I can teach others….” - “I need more information to facilitate this…” |
-**08:15AM-09:15AM** - [Introduction to *MTL* Psychotherapy Module (PSY)](https://mtl.how/sim)  |
-**09:15AM-10:00AM** - [Introduction to *MTL* Medication Management Module (MM)](https://mtl.how/sim) |
-**10:00AM-10:15AM** - BREAK  |
-**10:15AM-11:00AM** - [*MTL* Sessions 11 and 12 - Team Decisions and Team Plan](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session11_see.Rmd)  |
+**08:00AM-12:00PM**   |
+**08:00AM-08:30AM** -  [Done/Do - **Mutual Learning: The Steps of *MTL Live***](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd) |
+**08:30AM-09:30AM** - [Introduction to *MTL* Psychotherapy Module (PSY)](https://mtl.how/sim)  |
+**09:30AM-09:45AM** - BREAK  |
+**09:45AM-10:30AM** - [Introduction to *MTL* Medication Management Module (MM)](https://mtl.how/sim) |
+**10:30AM-11:00AM** - Done (yesterday) and Do (today) - “I can teach others….” - “I need more information to facilitate this…”  |
 **11:00AM-11:45AM** - Debrief and Clarify Next Steps - Complete Evaluations  |
 **11:45AM-12:00PM** - Thank you and Certificates  |
 ***12:00PM-12:20PM** - TeamPSD Reflections & Action Items*  |
