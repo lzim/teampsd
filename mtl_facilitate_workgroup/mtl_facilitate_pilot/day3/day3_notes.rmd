@@ -104,6 +104,13 @@ Session
 - We do not want to reinforce by runinng useless experiments that this is one more tool that is not useful
 - Committing to a hypothesis gives buy in to exploring the results
 
+## Debrief
+- Session 7 ran over time in part because of the model shift
+- Tomorrow
+  - Need to draft the evaluation form. Can be sourced from R21 pre/mid/post evaluation form.
+  - Debbie will work on paired sequencing
+  - Pull up Facilitator Dashboard tomorrow
+
 ## Tech Issues/Suggestions 
 1. Notification in chat when someone sends a message
 2. Why do green variables have BC in AGG? Why are the green BC values defined here and not in other places? Intake Evaluation Rate is also green with BC, but no way to find the value.
