@@ -88,20 +88,21 @@
      - Involves picking target hypothesis and findings to facilitate team through
   - Divvying up who will facilitate do/done, facilitate systems story, keep track of time, keep track of chat time
   
-8:00-8:15a Sticky
+8:00-8:15a Sticky  
 -- Session 7: Jane (Basecase co-facilitator) + MH SME --   
-1. 8:15a-8:35a Pre-prep - TAS just watch 
-2. 8:35-9:35a Session - Learner hat
-3. 9:35a-9:55a Debrief- TAS just watch
+1. 8:15a-8:35a Pre-prep Session 7 - TAS watch 
+2. 8:35-9:35a Session 7 - TAS wear learner hat
+3. 9:35a-9:55a Debrief- TAS watch
 4. 9:55a-10:10a Put up question stickies on flip chart
--- Session 8: Debbie (first experiment co-facilitator) + MH SME --
-5. 10:10a-10:30a Pre-prep Session 8
-6. 10:30a-11:30a Session 8
-7. 11:30a-11:50a Debrief Session 8
+-- Session 8: Debbie (first experiment co-facilitator) + MH SME --  
+5. 10:10a-10:30a Pre-prep Session 8 - TAS watch
+6. 10:30a-11:30a Session 8 - TAS wear learner hat
+7. 11:30a-11:50a Debrief Session 8 - TAS watch
 8. 11:50a-1:00p Put up stickies and lunch
 9. 1:00p-2:00p Session 9
 10. 2:00p-
-11. 2:20-2:40 Debrief Session 9
+11. Mutual Learning - Facilitating Experiments
+Mutual Learning - Systems thinking CFBT
 
 **Session 7**
 - Introduce Outputs tile
