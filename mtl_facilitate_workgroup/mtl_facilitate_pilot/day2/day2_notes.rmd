@@ -87,19 +87,21 @@
   - We model the co-facilitation model to folks in-person in front of everyone
   - Involves picking target hypothesis and findings to facilitate team through
   - Divvying up who will facilitate do/done, facilitate systems story, keep track of time, keep track of chat time
-- Give team sticky notes they can write unanswered questions on and they will post them on respective flip charts during breaks - Flip chart 1)"learner" or 2)"facilitator" separated as 1)"prioritize now" or 2)"parking lot"
+- Give team sticky notes they can write unanswered questions on and they will post them on respective flip charts during breaks - Flip chart 1)"learner" or 2)"facilitator" separated as 1)"prioritize now" or 2)"parking lot"  
+
 8:00-8:15a Sticky  
 -- Session 7: David (Basecase co-facilitator) + MH SME --   
 1. 8:15a-8:35a Pre-prep Session 7 - TAS watch 
 2. 8:35-9:35a Session 7 - TAS wear learner hat
 3. 9:35a-9:55a Debrief- TAS watch
-4. 9:55a-10:10a Put up question stickies on flip chart
+4. 9:55a-10:10a Put up question stickies on flip chart  
 -- Session 8: Debbie (first experiment co-facilitator) + MH SME --  
 5. 10:10a-10:30a Pre-prep Session 8 - TAS watch
 6. 10:30a-11:30a Session 8 - TAS wear learner hat
 7. 11:30a-11:50a Debrief Session 8 - TAS watch
-8. 11:50a-12:50p Put up stickies and lunch
-9. 12:00p-1:50p Session 9 (Compare alternatives)
+8. 11:50a-12:50p Put up stickies and lunch  
+-- Session 9: Compare alternative) --  
+9. 12:00p-1:50p Session 9
 10. 1:50p-2:50p Mutual Learning - Facilitating Experiments
 11. 2:50p-3:05p Break
 12. 3:05p-4:15p Mutual Learning - Systems thinking CFBT
