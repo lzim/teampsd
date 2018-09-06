@@ -61,8 +61,27 @@ Prep
 - Review session guide as agenda
 - Talk about last time
 - Divide up Session 8 tasks
-- 
+- Review Hypothesis and Decision
+- Build new experiment on appointment supply and service proportions: shift psy appts to ebpsy
+
+Session
+- Agenda
+- Today we're modeling to learn...
+- Done/Do
+- Review team questions/concerns from Session 7 and introduce what we will do this session
+- Learning objectives
+- Priorities last time were around access
+- Everything we are doing will tie back to original question of how we increase access and how do we increase access to EBPsy
+- Guide how to log in
+- Review where we would see Q/H/F/D
+- Review how to pull up previous experiment through Expanded Outputs tile and review ? symbol in the Alternatives section
+- Review how to pull up previous experiment Q/H/F/D and values from the Experiments tile
+
+
+
 ## Tech Issues/Suggestions
 1. Notification in chat when someone sends a message
 2. Why do green variables have BC in AGG? Why are the green BC values defined here and not in other places? Intake Evaluation Rate is also green with BC, but no way to find the value.
 3. Agg Model Team Data Table - Appt Supply variables should have "75th percentile" label instead of "median"
+4. Would be nice to have an "are you sure?" pop up for Run button
+
