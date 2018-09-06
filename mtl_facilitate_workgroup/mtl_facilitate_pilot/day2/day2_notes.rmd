@@ -89,7 +89,7 @@
   - Divvying up who will facilitate do/done, facilitate systems story, keep track of time, keep track of chat time
   
 8:00-8:15a Sticky  
--- Session 7: Jane (Basecase co-facilitator) + MH SME --   
+-- Session 7: David (Basecase co-facilitator) + MH SME --   
 1. 8:15a-8:35a Pre-prep Session 7 - TAS watch 
 2. 8:35-9:35a Session 7 - TAS wear learner hat
 3. 9:35a-9:55a Debrief- TAS watch
@@ -137,7 +137,7 @@ Friday Plan
 6. Debrief & Next Steps (1 hour)
 7. Certificate and Thank You (30 min)
 
-
+Basecase language - "no new decisions" instead of "no change"
 We want to give TAS team "as authentic learner experience as possible"
 
 ## Tech Issues
