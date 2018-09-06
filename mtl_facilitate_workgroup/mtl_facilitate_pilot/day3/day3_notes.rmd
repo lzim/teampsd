@@ -1,6 +1,5 @@
 ## Sticky
-1. Going to be a very cool tool
-Focus on what is actually affecting things in the system
+1. Going to be a very cool tool. Focus on what is actually affecting things in the system
 2. We have dashboards that show data, but this is a tool that uses that data. 
 3. Interactability
 4. Can make specific decisions in a way that you have to extrapolate from other decisions. 
@@ -28,9 +27,13 @@ Focus on what is actually affecting things in the system
 - How is there no one waiting to start services? Does not match what we think we're doing in our team
 - Can I click on more than one service at a time?
 - Ability to switch between Service Proportions from Team Data or Appropriate Service Proportions from Supply is cool!
-- 
+- Who defines what is appropriate service proportions?
+- We need to get our patients back into PCMHI?
+- What does the green mean?
+- What is difference between red and green toggle sliders? They are the same items. Our hypothesis is if you want to make changes you toggle on the green.
 
 
 
 ## Tech Issues/Suggestions
 1. Notification in chat when someone sends a message
+2. Why do green variables have BC in AGG? Why are the green BC values defined here and not in other places? Intake Evaluation Rate is also green with BC, but no way to find the value.
