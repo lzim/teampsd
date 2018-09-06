@@ -152,8 +152,9 @@ We want to give TAS team "as authentic learner experience as possible"
 - WHy can team lead see/engage in both types of chats?
 - Why can't facilitator see team chat?
 - Dropdown in Facilitator view of chat shows all the team names for each person?
-9. If in the aggregate model, someone cues up 6 variables they want to look at in the results dashboard and then they go back to the main tile to choose a different service, the results dashboard should have the same variables (should not default to any other list). The team shouldn't have to reset the variables everytime they switch services.
-10. There are default variables we want cued up. Currently these default variables show for Compare Services but not for Compare Experiments. A current "work around" is if you go to Compare Services first and then go back to Compare Experiments, it holds the default variables we want cued up.
-11. If I cue up results dashboard for Exp 1, will it pull up the 6 variables chosen for the Results Dashboard in the same way that the Q/H/F/D gets pulled up?
+9. Results Dashboard Variable issue
+- If in the aggregate model, someone cues up 6 variables they want to look at in the results dashboard and then they go back to the main tile to choose a different service, the results dashboard should have the same variables (should not default to any other list). The team shouldn't have to reset the variables everytime they switch services.
+- There are default variables we want cued up. Currently these default variables show for Compare Services but not for Compare Experiments. A current "work around" is if you go to Compare Services first and then go back to Compare Experiments, it holds the default variables we want cued up.
+- If I cue up results dashboard for Exp 1, will it pull up the 6 variables chosen for the Results Dashboard in the same way that the Q/H/F/D gets pulled up?
 
 
