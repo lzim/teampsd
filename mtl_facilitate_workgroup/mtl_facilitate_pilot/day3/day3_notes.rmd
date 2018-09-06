@@ -9,3 +9,28 @@ Focus on what is actually affecting things in the system
 7. Dashboards in a thousand places. Lot of frontline staff tend to discount data. Makes data more approachable and less intimidating.  Still don't understand other dashboards/can't make it do what they want. Being able to customize data into exactly what you want and need without needing to know programming. Sim brings data to life in a visual way.
 8. Data - I don't have to know what to click to get it. Doesn't seem like I can break it.
 9. For seasoned staff, Excel spreadsheet is approachable and easy to use. By having it so specific to encounters, a clinician can look at that and look at the individual patients. They can filter and sort into something that makes sense for them.
+10. Plus and minus: plus is additive or positive. negative is inverse effect. Feedback loops. Odd # of neg signs = balancing loop. Even # of neg signs = reinforcing loop. Virtuous or vicious.
+
+## Session 7 Questions/Notes
+- How do I get my data in?
+- Is the Q/H/F/D dynamic per run or static over all runs?
+- How do we save text put in Q/H/F/D
+- What is basecase?
+- I'd be interested in knowing current wait times and EBP delivery in services?
+- Why would we hypothesize that things stay the same if our goal is to improve? Why don't we hypothesize to improve access with a certain change?
+- I thought we were never supposed to hypothesize the null
+- Why would we spend our time looking at the (basecase) hypothesis (where nothing is changing)
+- What are we looking at from the starting point today?
+- What are we doing and where are we going?
+- We haven't talked about data showing up on our screens
+- Running basecase and using it as comparison assumes that things happened before happened intentionally and aren't random
+- This is like the first session with astronauts (running simulations).
+- How is there no one waiting to start services? Does not match what we think we're doing in our team
+- Can I click on more than one service at a time?
+- Ability to switch between Service Proportions from Team Data or Appropriate Service Proportions from Supply is cool!
+- 
+
+
+
+## Tech Issues/Suggestions
+1. Notification in chat when someone sends a message
