@@ -40,7 +40,7 @@ output:
 
 2. Check [mtl.how/sim](https://mtl.how/sim) in *team* and *facilitator* roles to review the last team meeting.
 
-3. Check the co-facilitator debriefing notes from the last team meeting.
+3. [Check the co-facilitator debriefing notes from the last team meeting.](https://github.com/lzim/teampsd/tree/master/mtl_facilitate_workgroup)
 
 4. Check the [systems thinking codebook](https://github.com/lzim/teampsd/tree/master/qual_workgroup/qual_codebooks/systems_thinking) to prepare notes that target a new dimension or level systems thinking improvement on team question, hypothesis, findings, and decisions for discussion.
 
