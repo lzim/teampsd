@@ -89,6 +89,19 @@ Session
 - Decisions: EBPSy or Group have to change the service proportions for those
 - Done/Do covered
 
+## Facilitator Flip Chart Questions
+1. MTL Language
+- Tile is not intuitive and this language is distracting. Makes me think of bathroom or floor. Window or frame seems more intuitive. 
+- I get that there won't be a "universal language" until we reinforce it. Story and system is non-intuitive. Trips me up a little each time.
+- Explain "story" with beginning, middle, and end
+- Would be helpful to have a place to click on where MTL language is explained
+- Give team opportunity to read/digest theory articles (learner and facilitator)
+2. Dynamics before Details
+- I get it but will require practice and responsiveness to get the focus on bigger picture view. If there could be a mantra that could be developed for it.  
+- Helpful to remind people that these are just experiments - no need to quibble over the numbers for too long.
+- Helpful to tell people that we will come back to the details later. Acknowledging it is important but not priority right now.
+- If people have ideas, they can always go into their individual worlds and run it.
+- We do not want to reinforce by runinng useless experiments that this is one more tool that is not useful
 
 ## Tech Issues/Suggestions 
 1. Notification in chat when someone sends a message
