@@ -81,8 +81,8 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 4 |
 ------------ |
 **08:00AM-12:00PM**   |
-**08:00AM-08:30AM** -  [Done/Do - **Mutual Learning: The Steps of Running an Experiment in *MTL Live***](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd) **08:30AM-08:45AM** - [Facilitator Dashboard - change role to facilitataor at [mtl.how/facilitate](https://mtl.how/facilitate) and log-in at [mlt.how/sim](https://mtl.how/sim) to see the Facilitator Dashboard |
-- [*MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd) |
+**08:00AM-08:30AM** -  [Done/Do - **Mutual Learning: The Steps of Running an Experiment in *MTL Live***](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd)  | **08:30AM-08:45AM** - [Facilitator Dashboard - change role to facilitataor at [mtl.how/facilitate](https://mtl.how/facilitate) and log-in at [mlt.how/sim](https://mtl.how/sim) to see the Facilitator Dashboard  |
+**08:45AM-09:15AM** - [*MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd)  |
 **08:45AM-09:15AM** - [*MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd) |
 **09:15AM-09:45AM** - [Introduction to *MTL* Medication Management Module (MM)](https://mtl.how/sim) |
 **09:45AM-10:00AM** - BREAK  |
