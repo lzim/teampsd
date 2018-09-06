@@ -61,14 +61,14 @@ output:
 **08:00AM-04:30PM** |
 **08:00AM-08:15AM** - Done (yesterday) - **We selected a question: How do we increase patient access to any service? How do we increase EBPsy, without increasing patient wait time for any service?** *What’s “Sticky?* - " I remember best... and Do (today)  |      
 **08:15AM-08:35AM** - Co-facilitator Pre-prep for session 7 |
-**08:35AM-09:35AM** - [*MTL* Session 7 - Evaluate our Base Case of No New Decisions - Aggregate](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session07_see.Rmd)  |
+**08:35AM-09:35AM** - [*MTL* Session 7 - Evaluate our Base Case of No New Decisions - Aggregate - Individual World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session07_see.Rmd)  |
 **09:35AM-09:55AM** - **Co-Facilitator Debrief Session 7 on the Base Case**  |
 **09:55AM-10:10AM** - BREAK - Put your learner and facilitator questions on the flip charts  |
 **10:10AM-10:30AM** - Co-facilitator Pre-prep for session 8 |
-**10:30AM-11:30PM** - [*MTL* Session 8 - Test a Dynamic Hypothesis](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd)  |
+**10:30AM-11:30PM** - [*MTL* Session 8 - Test a Dynamic Hypothesis - Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd)  |
 **11:30PM-11:50PM** - **Co-Facilitator Debrief Session 8 - Testing a Dynamic Hypothesis** |
 **11:50PM-12:50PM** - LUNCH - Put your learner and facilitator questions on the flip charts |
-**12:50PM-01:50PM** - [*MTL* Session 9 - Compare Alternatives](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session09_see.Rmd) |
+**12:50PM-01:50PM** - [*MTL* Session 9 - Compare Alternatives - Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session09_see.Rmd) |
 **01:50PM-02:50PM** - [*MTL* Sessions 9 and 10 - **Mutual Learning: Facilitating Experiments**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session9_mutual_learning_activity.Rmd) |
 **02:50PM-03:05PM** - BREAK   |
 **03:05PM-04:15PM** - [*MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd) |
