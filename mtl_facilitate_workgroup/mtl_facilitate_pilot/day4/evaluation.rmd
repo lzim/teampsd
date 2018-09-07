@@ -32,9 +32,9 @@ Values and risks
 
 4. How valuable is the MTL program in your role as a technical assistant specialist? (Likert of 1-5)
 5. How valuable is the MTL program to the average frontline team?
-6. How receptive do you think the frontline staff will be to the MTL program?
-7. How scalable do you think the MTL program is?
-8. 
+6. Rate receptivity of frontline staff to the MTL program:
+7. Rate scalability of the MTL 
+8.
 
 What are the benefits of MTEL to frontline mental health teams? 
 Perception of what frontline staff
