@@ -67,12 +67,11 @@ output:
 **10:10AM-10:30AM** - [**Co-facilitator Pre-prep for session 8**](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/pre_meeting_checklist.rmd) |
 **10:30AM-11:30PM** - [*MTL* Session 8 - Test a Dynamic Hypothesis - Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd)  |
 **11:30PM-11:50PM** - [**Co-Facilitator Debrief Session 8 - Testing a Dynamic Hypothesis**](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/post_meeting_checklist.rmd) |
-**12:05PM-01:05PM** - LUNCH - **Put your learner and facilitator questions on the flip charts** |
-**01:05PM-01:25PM** - [**Co-facilitator Pre-prep for session 8**](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/pre_meeting_checklist.rmd) |
-**01:25AM-02:25PM** - [*MTL* Session 8 - Test a Dynamic Hypothesis - Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd)  |
-**02:25PM-02:45PM** - [**Co-Facilitator Debrief Session 8 - Testing a Dynamic Hypothesis**](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/post_meeting_checklist.rmd) |
-**02:40PM-02:55PM** - BREAK - Triage your questions into the parking lot or already address (off the flip chart)   |
-**02:55PM-03:55PM** - [*MTL* Session 9 - Compare Alternatives - Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session09_see.Rmd)  |
+**12:05PM-01:30PM** - LUNCH - **Put your learner and facilitator questions on the flip charts** |
+**01:30PM-02:00PM** - [**Co-facilitator Pre-prep for session 8**](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/pre_meeting_checklist.rmd) |
+**02:00AM-03:15PM** - [*MTL* Session 8 - Test a Dynamic Hypothesis - Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd)  |
+**03:15PM-03:30PM** - BREAK - Triage your questions into the parking lot or already address (off the flip chart)   |
+**03:30PM-04:00PM** - [MTL Sessions 9 and 10 Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd)  |
 **03:55PM-04:30PM** - Debrief - Done (today) and Do (tomorrow) - *Empty Your Cup* - **From our Flip Chart** “In order to teach others I need more help understanding…” |
 ***04:30PM-05:00PM** - TeamPSD Reflections & Day 4 Preparation*  |
 
@@ -81,11 +80,10 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Day 4 |
 ------------ |
 **08:00AM-12:00PM**   |
-**08:00AM-08:30AM** -  [Done/Do - **Mutual Learning: The Steps of Running an Experiment in *MTL Live***](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd)  | **08:30AM-08:45AM** - [Facilitator Dashboard - change role to facilitataor at [mtl.how/facilitate](https://mtl.how/facilitate) and log-in at [mlt.how/sim](https://mtl.how/sim) to see the Facilitator Dashboard  |
-**08:45AM-09:15AM** - [*MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd)  |
-**08:45AM-09:15AM** - [*MTL* Sessions 9 and 10 **Mutual Learning: Systems Thinking - Complex, Feedback, Behavior, Time**](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/systems_thinking_mutual_learning.Rmd) |
-**09:15AM-09:45AM** - [Introduction to *MTL* Medication Management Module (MM)](https://mtl.how/sim) |
-**09:45AM-10:00AM** - BREAK  |
+**08:00AM-08:30AM** -  [Done/Do - **Mutual Learning: The Steps of Running an Experiment in *MTL Live***](https://github.com/lzim/teampsd/blob/lzim/mtl_facilitate_workgroup/mtl_facilitate_pilot/day3/session8_mutual_learning_activity.rmd)  | 
+**08:30AM-09:30AM** - [Introduction to *MTL* Medication Management Module (MM)](https://mtl.how/sim) |
+**09:30AM-09:45AM** - BREAK  |
+**09:45AM-10:00AM** - [Facilitator Dashboard - change role to facilitator at [mtl.how/facilitate](https://mtl.how/facilitate) and log-in at [mlt.how/sim](https://mtl.how/sim) to see the Facilitator Dashboard  |
 **10:00AM-10:45AM** - [Introduction to *MTL* Psychotherapy Module (PSY)](https://mtl.how/sim)  |
 **10:45AM-11:00AM** - Done (yesterday) and Do (today) - “I can teach others….” - “I need more information to facilitate this…”  |
 **11:00AM-11:45AM** - Debrief and Clarify Next Steps - Complete Evaluations  |
