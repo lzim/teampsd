@@ -18,7 +18,7 @@ Concerns about facilitation
 Values and risks
 
 - Questions about training - Striking right balance between facilitator skills vs. learning MTL resources tools
-- Are we on the right track in providing the tools to support facilitation - session guides, fidelity checklist, mtl.how
+-
 
 1. Of the 24 hours spent on MTL Facilitate Pilot, the amount of time spent on data UI... sim UI...facilitation guide & resources... (3 point scale: Insufficient, about right, too much)
 2. Please esitmate your pre- and post- levels of systems thinking about EBP reach and clinic staff decisions on the 4 domains: CFBT
@@ -34,7 +34,9 @@ Values and risks
 5. How valuable is the MTL program to the average frontline team?
 6. Rate receptivity of frontline staff to the MTL program:
 7. Rate scalability of the MTL 
-8.
+8. Are we on the right track in providing the tools to support facilitation (i.e. session guides, fidelity checklist, mtl.how) (5 pt likert)
+9. The least challenging part of the MTL program is..
+10. The most challenging component of the MTL program is..
 
 What are the benefits of MTEL to frontline mental health teams? 
 Perception of what frontline staff
