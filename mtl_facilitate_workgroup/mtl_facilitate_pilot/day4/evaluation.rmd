@@ -32,7 +32,7 @@
 - Log into Sim UI in team world and look at team data table
 - Tell a Systems Story
 - Run a basecase
-- Test a dynamic hypothesis
+- Test a dynamic hypothesis 
 
 7. Rate the utility of MTL to inform effective change in team based MH service delivery to frontline staff (3pt scale: Low, Neutral, High)
 
