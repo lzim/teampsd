@@ -20,6 +20,7 @@ Values and risks
 (put text box underneath for each question to add comments)
 1. Of the 24 hours spent on MTL Facilitate Pilot, the amount of time spent on data UI... sim UI...facilitation guide & resources... (3 point scale: Insufficient, about right, too much)
 2. Please esitmate your pre- and post- levels of systems thinking about EBP reach and clinic staff decisions on the 4 domains: CFBT
+3. Please estimate your pre- and post- levels of understanding of system dynamics modeling (e.g., feedback loop, stocks & flows)
 3. MTL greatest value to learners is (mark all that apply):
 - Team focused approach
 - Shared decision making
@@ -30,6 +31,7 @@ Values and risks
 4. How valuable is the MTL program in your role as a technical assistant specialist? (Likert of 1-5)
 5. How valuable is the MTL program to the average frontline team?
 6. Rate the receptivity of frontline staff to each of the MTL sessions: Low, Neutral, High 
+Rate the utility of MTL to inform effective change in team based MH service delivery to frontline staff
 7. Rate feasibility (accomplish objectives of session within an 1hr) of each of the MTL sessions: (eight MTL sessions x low/neutral/high)
 8. Are we on the right track in providing the tools to support facilitation (i.e. session guides, fidelity checklist, mtl.how) (5 pt likert)
 9. Rate your level of interest in facilitating MTL Live (Likert 5)
@@ -40,128 +42,31 @@ Values and risks
 - Command of the subject
 - Responsiveness to learners
 
-12. Biggest reservation of 
-12. Describe the best way to become prepared to facilitate MTL Live... (open ended)
-
-
-
-What are the benefits of MTL to frontline mental health teams? 
-Perception of what frontline staff
-Useful tool for team learning
-Is this useful for you in your job
-Is it useful for 
-Value  
-Sequence feedback questions
-- 
-
-Rate level of effectiveness of the MTL program in the following (5 point): 
-- Shared decision making
-- Equitable access to resources
-- Mutual learning
-
-engagement
-biggest concerns
-things that would be the most challenging
-most useful aspect
-
-
-
-
-
-After this workshop, my understanding of the phases of modeling building
-process is… 
-
-After this workshop, my understanding of the components of system
-dynamics models (e.g., feedback loop, stocks & flows) is…
-
-Opportunities for staff input and participation in model building have
-been…
-
-
-The potential of modeling to improve decision-making and procedures in
-the clinic by including all staff and getting staff on the same page (as
-compared to decision-making without modeling) is…
-
-The potential of modeling to save time and effort by running mathematical
-simulations before we make changes (as compared to implementing
-changes without modeling) is…
-
-The overall potential of participatory system dynamics modeling to be
-useful to our clinic is… 
-
-My biggest concern about the data inputs are…
-
-I believe the most useful hypothesis to test is...
-
-
-The clinic procedure/process I am most concerned about including in the
-model is…
-
-After this workshop, my understanding of the restructuring plans
-evaluated in the models is… 
-
-After this workshop, my understanding of the simulation test outputs
-from dynamics models is… 
-
-Opportunities for staff input and participation in model building have
-been… 
-
-The effectiveness of modeling to achieve consensus around changing
-procedures in the clinic by including all staff and getting staff on the same
-page (as compared to decision-making without modeling) is…
-
-The effectiveness of modeling to save time and effort by running
-mathematical simulations before we made changes (as compared to
-implementing changes without modeling) is…
-
-The overall usefulness of participatory system dynamics modeling to
-achieve our goals in this clinic were… 
-
-My biggest concern about the restructuring implementation is…Why?
-
-I believe the most useful hypothesis we tested was...Why?
-
-The clinic procedure/process I am most concerned about or believe will
-be most challenging to change based on the modeling is…Why?
-
-For each of the following benefits, please indicate whether MTL will or will not generate the following personal benefits:
-
+12.For each of the following benefits, please indicate whether MTL will or will not generate the following personal benefits:
+Please indicate which of the following items are benefits to you as a TAS:
 a. Enhanced ability to address an important issue
-[ ] Yes
-[ ] No
-
 b. Development of new skills
-[ ] Yes
-[ ] No
-
 c. Heightened profile with my institution
-[ ] Yes
-[ ] No
-
 d. Increased utilization of my expertise or services
-[ ] Yes
-[ ] No
-
 e. Acquisition of useful knowledge about services, programs, or people in the VA
-[ ] Yes
-[ ] No
-
 f. Enhanced ability to affect policy
-[ ] Yes
-[ ] No
-
 g. Development of valuable relationships
-[ ] Yes
-[ ] No
-
 h. Enhanced ability to meet the needs of my constituency or clients at the VA
-[ ] Yes
-[ ] No
 
-Based on your impression of MTL so far, how would characterize the benefits of participating in this partnership compared to the drawbacks?
-
+13. Based on your impression of MTL so far, how would characterize the benefits of participating in this partnership compared to the drawbacks?
 [ ] Benefits greatly exceed the drawbacks
 [ ] Benefits exceed the drawbacks
 [ ] Benefits and drawbacks are about equal
 [ ] Drawbacks exceed the benefits
 [ ] Drawbacks greatly exceed the benefits
+
+14. Rate your level of engagement throughout the MTL Facilitate Pilot program (percentage)
+15. Describe the best way to become prepared to facilitate MTL Live... (open ended)
+16. Rate level of effectiveness of the MTL program in the following (5 point): 
+- Shared decision making
+- Equitable access to resources
+- Mutual learning
+
+Rate the reliability and validity of the sim UI (matrix CC, MM, PSY, and AGG)
+Rate the reliability and validity of the data UI
+
