@@ -84,7 +84,7 @@ output:
 **08:30AM-09:45AM** - [Introduction to *MTL* Psychotherapy Module (PSY)](https://mtl.how/sim)  |
 **09:45AM-10:00AM** - BREAK  |
 **10:00AM-10:30AM** - [Introduction to *MTL* Medication Management Module (MM)](https://mtl.how/sim) |
-**10:30AM-10:45AM** - [Facilitator Dashboard - change role to facilitator at [mtl.how/facilitate](https://mtl.how/facilitate) and log-in at [mlt.how/sim](https://mtl.how/sim) to see the Facilitator Dashboard  |
+**10:30AM-10:45AM** - Facilitator Dashboard - change role to facilitator at [mtl.how/facilitate](https://mtl.how/facilitate) and log-in at [mlt.how/sim](https://mtl.how/sim) to see the Facilitator Dashboard  |
 **10:45AM-11:00AM** - Done (yesterday) and Do (today) - “I can teach others….” - “I need more information to facilitate this…”  |
 **11:00AM-11:45AM** - Debrief and Clarify Next Steps - Complete Evaluations  |
 **11:45AM-12:00PM** - Thank you and Certificates  |
