@@ -4,7 +4,7 @@
 - sim UI was...
 - facilitation guide & resources was... 
 
-2. Please esitmate your pre- and post- levels of systems thinking about EBP reach and clinic staff decisions on the 4 domains: (5 pt scale: Very high, High, Neutral, Low, Very low)
+2. Please estimate your pre- and post- levels of systems thinking about EBP reach and clinic staff decisions on the 4 domains: (5 pt scale: Very high, High, Neutral, Low, Very low)
 - complexity
 - feedback
 - behavior
