@@ -17,9 +17,7 @@ Concerns about the course
 Concerns about facilitation
 Values and risks
 
-- Questions about training - Striking right balance between facilitator skills vs. learning MTL resources tools
--
-
+(put text box underneath for each question to add comments)
 1. Of the 24 hours spent on MTL Facilitate Pilot, the amount of time spent on data UI... sim UI...facilitation guide & resources... (3 point scale: Insufficient, about right, too much)
 2. Please esitmate your pre- and post- levels of systems thinking about EBP reach and clinic staff decisions on the 4 domains: CFBT
 3. MTL greatest value to learners is (mark all that apply):
@@ -29,16 +27,24 @@ Values and risks
 - Mutual learning
 - Transparent data
 - Systems thinking skills
-
 4. How valuable is the MTL program in your role as a technical assistant specialist? (Likert of 1-5)
 5. How valuable is the MTL program to the average frontline team?
-6. Rate receptivity of frontline staff to the MTL program:
-7. Rate scalability of the MTL 
+6. Rate the receptivity of frontline staff to each of the MTL sessions: Low, Neutral, High 
+7. Rate feasibility (accomplish objectives of session within an 1hr) of each of the MTL sessions:
 8. Are we on the right track in providing the tools to support facilitation (i.e. session guides, fidelity checklist, mtl.how) (5 pt likert)
-9. The least challenging part of the MTL program is..
-10. The most challenging component of the MTL program is..
+9. Rate your level of interest in facilitating MTL Live (Likert 5)
+10. What are the biggest challenges you foresee for yourself in facilitating MTL Live effectively? (open ended)
+11. Rate TeamPSD's level of effectiveness in each of these areas: 
+- Preparation
+- Facilitation
+- Command of the subject
+- Responsiveness to learners
+11. Biggest reservation of 
+Best modality to be ready to facilitate MTL Live... (open ended)
 
-What are the benefits of MTEL to frontline mental health teams? 
+
+
+What are the benefits of MTL to frontline mental health teams? 
 Perception of what frontline staff
 Useful tool for team learning
 Is this useful for you in your job
@@ -46,10 +52,8 @@ Is it useful for
 Value 
 
 
-
-
-- Following up on this training, I think I will need the most help with data UI..
-- Best modality/approach to me gaining the skills I will still need is...- Sequence feedback questions
+- 
+Sequence feedback questions
 - 
 
 
@@ -95,15 +99,7 @@ After today’s webinar, how confident are you in applying your new knowledge ab
 1= very unsure, 2 = somewhat unsure, 3 = neither confident nor unsure,
 4 = somewhat confident, 5= very confident
 
-Facilitator’s preparation was:
 
-Facilitator as a discussion leader was:
-
-Facilitator’s command of the subject was: 
-
-Facilitator’s responsiveness to staff questions was: 
-
-Facilitator’s overall effectiveness was: 
 
 After this workshop, my understanding of the phases of modeling building
 process is… 
