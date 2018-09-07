@@ -30,7 +30,7 @@ Values and risks
 4. How valuable is the MTL program in your role as a technical assistant specialist? (Likert of 1-5)
 5. How valuable is the MTL program to the average frontline team?
 6. Rate the receptivity of frontline staff to each of the MTL sessions: Low, Neutral, High 
-7. Rate feasibility (accomplish objectives of session within an 1hr) of each of the MTL sessions:
+7. Rate feasibility (accomplish objectives of session within an 1hr) of each of the MTL sessions: (eight MTL sessions x low/neutral/high)
 8. Are we on the right track in providing the tools to support facilitation (i.e. session guides, fidelity checklist, mtl.how) (5 pt likert)
 9. Rate your level of interest in facilitating MTL Live (Likert 5)
 10. What are the biggest challenges you foresee for yourself in facilitating MTL Live effectively? (open ended)
@@ -39,7 +39,8 @@ Values and risks
 - Facilitation
 - Command of the subject
 - Responsiveness to learners
-11. Biggest reservation of 
+
+12. Biggest reservation of 
 12. Describe the best way to become prepared to facilitate MTL Live... (open ended)
 
 
@@ -49,55 +50,21 @@ Perception of what frontline staff
 Useful tool for team learning
 Is this useful for you in your job
 Is it useful for 
-Value 
-
-
-- 
+Value  
 Sequence feedback questions
 - 
 
-
-partnership
-Open Ended Questions:
+Rate level of effectiveness of the MTL program in the following (5 point): 
+- Shared decision making
+- Equitable access to resources
+- Mutual learning
 
 engagement
 biggest concerns
 things that would be the most challenging
 most useful aspect
 
-time commitment that they would spend with us
 
-How would you rate the overall quality of today's webinar?
-1= poor, 2 = fair, 3=good, 4=very good, 5=excellent
-
-How relevant was the topic to your current work and interests?
-1=Not at all relevant, 2=Somewhat irrelevant, 3=Neither relevant nor irrelevant ,
-4=Somewhat relevant, 5=Very relevant
-
-How easy was it for you to use your computer or device to participate in today's webinar?
-1=very difficult, 2=somewhat difficult, 3=neutral , 4=somewhat easy,
-5=very easy, no problems at all
-
-How well did today's webinar present an ecological perspective on the processes and goals of community intervention and exemplify the fundamental role of culture and context?
-1= very poorly, 2 = somewhat poorly, 3 = adequately, 4 = somewhat well, 5 = very well
-
-Today's webinar had three learning objectives. Please rate the extent to which you agree with each of the following:
-After today’s webinar, I understand the components of an ecological framework. (Objective 1)
-1= strongly disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = strongly agree
-After today’s webinar, I understand how an ecological perspective differs from evidence-based practice. (Objective 2)
-1= strongly disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = strongly agree
-After today’s webinar, I understand the development of community resources as the primary community intervention goal. (Objective 3)
-1= strongly disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = strongly agree
-
-Prior to today’s webinar, how would you rate your proficiency in applying an ecological perspective of community intervention and the fundamental role of culture and context?
-1= no experience, 2 = novice, 3 = intermediate, 4 = advanced, 5 = expert
-
-After today’s webinar, to what extent did you gain new, useful knowledge about an ecological perspective of community intervention and the fundamental role of culture and context?
-1 = not at all, 2 = a little bit, 3 = moderately, 4 = significantly, 5 = a great deal
-
-After today’s webinar, how confident are you in applying your new knowledge about an ecological perspective of community intervention and the fundamental role of culture and context?
-1= very unsure, 2 = somewhat unsure, 3 = neither confident nor unsure,
-4 = somewhat confident, 5= very confident
 
 
 
