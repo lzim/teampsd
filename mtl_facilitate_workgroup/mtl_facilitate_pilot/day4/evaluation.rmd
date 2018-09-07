@@ -46,7 +46,7 @@
 - Run a basecase
 - Test a dynamic hypothesis
 
-9. Are we on the right track in providing the tools to support facilitation (i.e. session guides, fidelity checklist, mtl.how) (5 pt likert)
+9. Rate the usefulness of tools to support facilitation (i.e. session guides, fidelity checklist, mtl.how, etc.) (5 pt likert)
 
 10. Rate your level of interest in facilitating MTL Live (5 pt scale: Very high, High, Neutral, Low, Very low)
 
