@@ -13,8 +13,8 @@ output: github_document = default
 
 Enduring Issues (Parking Lot Issues)           |        Issues and Dependencies for Immediate Resolution
 ------------------------- | ----------------------------
-Issue 1                        |Issue 1 MTL Fidelity Checklist
-Issue 2                        |Issue 2 
+Issue 1 CFIR meeting time with Laura D + her project administrator - Inform we haven't started coding corpus and ask for tips; Swap and Stacey will prepare discussion items (specific quotes + specific codes for this meeting and send to Lindsey + Kathryn for review) |Issue 1 Get RQDA Software working
+Issue 2                        |Issue 2 Systems thinking coding using RQDA
 Issue 3                        |Issue 3 
 Issue 4                        |Issue 4
 Issue 5                        |Issue 5   
@@ -24,8 +24,8 @@ Issue 8                        |Issue 8
 
 Actions Completed since Last Week    |      Workgroup Action Items to Complete This Week
 ------------------------- | ----------------------------
-Action 1                        |Action 1 
-Action 2                        |Action 2
+Action 1 MTL Fidelity Checklist |Action 1 Stacey & Swap continue to update inventory of team meetings. Finalize before STS meeting
+Action 2 Savet made cheatsheet for R packages |Action 2 Need to continue to review/code facilitation meeting notes for useful insight
 Action 3                        |Action 3
 Action 4                        |Action 4
 Action 5                        |Action 5
