@@ -29,6 +29,6 @@ Action 2 R & R Studio updates across team                       |Action 2
 Action 3 CDWWork permissions for the MTL Facilitate Pilot with OMSHP TAS 4-7 Sept – CDWWork vs Regional Server permissions  |Action 3
 Action 4 Savet resolved R packages issues with OIT |Action 4
 Action 5 Andrew sent Savet EBPsy templates      |Action 5
-Action 6                        |Action 6
+Action 6 Andrew - Review data on patient symptoms for suicide prevention model from patient surveys/MHA data  |Action 6
 Action 7                        |Action 7
 Action 8                        |Action 8
