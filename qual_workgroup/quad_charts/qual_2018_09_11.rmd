@@ -24,10 +24,10 @@ Issue 8                        |Issue 8
 
 Actions Completed since Last Week    |      Workgroup Action Items to Complete This Week
 ------------------------- | ----------------------------
-Action 1 MTL Fidelity Checklist |Action 1 Stacey & Swap continue to update inventory of team meetings. Finalize before STS meeting
+Action 1 MTL Fidelity Checklist |Action 1 Stacey & Swap continue to update inventory of team meetings. Finalize before STS meeting need to be in txt.   |
 Action 2 Savet made cheatsheet for R packages |Action 2 Need to continue to review/code facilitation meeting notes for useful insight
 Action 3                        |Action 3 Add to MPD-WS148550 (NCPTSD Conf Rm C-123) R Version 3.5.1 and R Studio version 1.1.456 
-Action 4                        |Action 4
+Action 4                        |Action 4 Swap and Kathryn try to set up Case, Attribute for coding in RQDA
 Action 5                        |Action 5
 Action 6                        |Action 6
 Action 7                        |Action 7
