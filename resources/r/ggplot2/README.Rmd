@@ -22,7 +22,8 @@ data |
 ## ggplot 2 help for density plots 
 https://ggplot2.tidyverse.org/reference/geom_density.html
 
-
+## facet_wrap() in ggplot2 with help from plot.ly
+https://plot.ly/ggplot2/facet_wrap/
 
 
 
