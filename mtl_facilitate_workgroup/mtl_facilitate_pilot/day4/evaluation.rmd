@@ -4,7 +4,7 @@
 - sim UI was...
 - facilitation guide & resources was... 
 
-2. Please esitmate your pre- and post- levels of systems thinking about EBP reach and clinic staff decisions on the 4 domains: (5 pt scale: Very high, High, Neutral, Low, Very low)
+2. Please estimate your pre- and post- levels of systems thinking about EBP reach and clinic staff decisions on the 4 domains: (5 pt scale: Very high, High, Neutral, Low, Very low)
 - complexity
 - feedback
 - behavior
@@ -32,7 +32,7 @@
 - Log into Sim UI in team world and look at team data table
 - Tell a Systems Story
 - Run a basecase
-- Test a dynamic hypothesis
+- Test a dynamic hypothesis 
 
 7. Rate the utility of MTL to inform effective change in team based MH service delivery to frontline staff (3pt scale: Low, Neutral, High)
 
