@@ -19,6 +19,8 @@ geometries     |
 aesthetics     |
 data |
 
+## ggplot 2 help for density plots 
+https://ggplot2.tidyverse.org/reference/geom_density.html
 
 
 
