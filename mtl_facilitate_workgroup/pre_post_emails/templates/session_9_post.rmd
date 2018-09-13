@@ -7,12 +7,9 @@
 |**Next Meeting:**  |
 |**Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379  |
 
-|<!-- Learning Objectives Icon -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
-     height = "150" width = "150">  |
+|<!-- Learning Objectives Icon --> <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" height = "150" width = "150"> **We decided...**  |
 |---|
-
-### We decided... to run a 3rd experiment on your own in your individual world.
+|To run a 3rd experiment on your own in your individual world.|
 
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
