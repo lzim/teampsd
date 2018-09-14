@@ -3,7 +3,7 @@
      height = "130" width = "500"> 
 
 # We decided...  
-<!-- Learning Objectives Icon --> <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" height = "90" width = "90" style = "display: inline-block"/> To run a 3rd experiment on your own in your individual world. 
+<!-- Learning Objectives Icon --> <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/decision.png" height = "90" width = "90" style = "display: inline-block"/> To run a 3rd experiment on your own in your individual world. 
 
 ### Last Team Meeting
 <!-- Do/Done Tables -->
