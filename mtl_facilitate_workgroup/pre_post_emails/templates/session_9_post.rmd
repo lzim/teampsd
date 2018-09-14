@@ -3,15 +3,15 @@
      height = "130" width = "500"> 
 
 # We decided...  
-<!-- Learning Objectives Icon --> <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" height = "90" width = "90"> To run a 3rd experiment on your own in your individual world.
+<!-- Learning Objectives Icon --> <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" height = "90" width = "90" style = "display: inline-block"/> To run a 3rd experiment on your own in your individual world. 
 
-## Last Team Meeting
+### Last Team Meeting
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) Our Team Lead ran Experiment 2 and we compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) We decided to run a third experiment on your own in your individual world.|
 
-## Next Team Meeting 
+### Next Team Meeting 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "70" width = "110">](http://mtl.how/live)
 
 **1. Login to mtl.how/live**
