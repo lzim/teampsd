@@ -7,24 +7,21 @@
 
 ### Last Team Meeting
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "75" width = "75"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
-| --- | --- | 
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "75" width = "75"> **Done** | 
+| --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) Our Team Lead ran Experiment 2 and we compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs Tile. 
 **Experiment 2**
-<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_communication_884666_0083BE.svg" height = "75" width = "75" style = "display: inline-block"/> **Our Question**
-*Briefly describe what your team wants to learn from this experiment.*
+<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_communication_884666_0083BE.svg" height = "75" width = "75" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.*
 For experiment 2, we will try to step more patients down out of psychotherapy/EBPsy who are engaged for greater than 3 months.
-<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_share_884712_0083BE.svg" height = "75" width = "75" style = "display: inline-block"/> **Our Hypothesis**
-*Outline the systems story your team believes will cause the outcomes your team expects to observe.* 
+<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_share_884712_0083BE.svg" height = "75" width = "75" style = "display: inline-block"/> **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.* 
 We expect that if we reduce the median engagement >3 months to 12 visits (meaning a 75% reduction), then it will free up "a lot" of appointment space, so we can start "more" new patients.
-<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_idea_884671_0083BE.svg" height = "75" width = "75" style = "display: inline-block"/> **Our Findings**
-*Describe your team's findings, insights and conclusions from this experiment.*
-Against the base case:
-Our starting rate increased from ~3 ppw to 7 ppw.
-We went from having ~4 apw  to ~8 apw.  
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/decision.png" height = "75" width = "75" style = "display: inline-block"/> **Our Decisions**  
-*Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
+<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_idea_884671_0083BE.svg" height = "75" width = "75" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*
+Against the base case:  Our starting rate increased from ~3 ppw to 7 ppw.  We went from having ~4 apw  to ~8 apw.  
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/decision.png" height = "75" width = "75" style = "display: inline-block"/> **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 We decided to run a third experiment on your own in your individual world. So that next time we are prepared to think through new decisions we might make in our team.    |
+
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
+| --- |
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) We decided to run a third experiment on your own in your individual world.  |
 
 ### Next Team Meeting 
