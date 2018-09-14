@@ -9,7 +9,7 @@
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "75" width = "75"> **Done** | 
 | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) Our Team Lead ran Experiment 2 and we compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs Tile. 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) **Our Team Lead ran Experiment 2 and we compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs Tile.** 
 **Experiment 2**
 <img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_communication_884666_0083BE.svg" height = "75" width = "75" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.*
 For experiment 2, we will try to step more patients down out of psychotherapy/EBPsy who are engaged for greater than 3 months.
@@ -22,7 +22,7 @@ We decided to run a third experiment on your own in your individual world. So th
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) We decided to run a third experiment on your own in your individual world.  |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) **We decided to run a third experiment on your own in your individual world.**  |
 
 ### Next Team Meeting 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "70" width = "110">](http://mtl.how/live)
