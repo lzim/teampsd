@@ -5,20 +5,23 @@
 
 ## Works in Progress
 
-**1. Qualitative Workgroup Codebooks**
+**1. Coded Meetings**
+  
+  - coded_meetings
 
+**2. Projects**
+
+- projects
+
+**3. Quad charts**
+  
+  - quad_charts
+
+**4. Qualitative Workgroup Codebooks**
 - qual_codebooks
   + Consolidated Framework for Implementation Research  - cfir
   + *MTL* Fidelity - mtl_fidelity
   + Systems Thinking - systems_thinking
-  
-  **2. Coded Meetings**
-  
-  - coded_meetings
-  
-  **3. Quad charts**
-  
-  - quad_charts
   
   **4. R**
   
