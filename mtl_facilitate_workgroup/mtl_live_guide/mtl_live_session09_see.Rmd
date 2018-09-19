@@ -54,7 +54,7 @@ output:
 
 7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
 
-### Experiment 2** 
+### Experiment 2
 [<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_communication_884666_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
 [<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_share_884712_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
