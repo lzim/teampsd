@@ -17,7 +17,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500"> 
 
-# This week we're *Modeling to Learn* how to compare alternatives.
+# This week we're modeling to learn how to compare alternatives.
 
 ### Last Team Meeting
 <!-- Do/Done Tables -->
