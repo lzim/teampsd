@@ -2,31 +2,43 @@
      height = "150" width = "250">  
 
 # MTL Facilitate Pilot
-# Session 2 Mutual Learning Activity  
-+ Tool: Data UI  
-+ Format: Individual Activity  
-+ Note to MTL team: Avoid allowing same 2 people to work together for multiple learning activities.  
 
-* Participants will receive an electronic WORD file with the Components of the Data UI listed in the left column and the section in the right column in which to make notes
-* Participants will have 30 minutes to work on the activity and answer questions
-* A debrief will be held in the large group to talk through each component.
+# Session 2 Mutual Learning Activity - The Data User Interface
 
-## The Data UI {.tabset .tabset-fade}
+  + Tool: Data User Interface (UI)  
 
-### Component  
-Log-in Screen  
-Clinic Selection  
-Viz Tabs  
-Data Tabs  
-Data Tabs  
-Save File  
+  + Format: Paired Activity  
 
-### Description / Uses / Processes  
-Write down the steps for getting into the Data UI.  
-Document the steps for selecting clinics that will go into a data file.  
-Find the chart with ____________. How and where did you find this information?  
-What is the number of patients who... How and where did you find this information?  
-How many appointments are there in... How and where did you find this information?  
-What are the steps for saving a file that can be uploaded for use in the simulation interface?  
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png" 
+     height = "150" width = "150"> 
 
-* Questions or challenges posed by the participants in finding the information will be documented by MTL team members.
+* Recall the steps required to login to the MTL data UI.  
+* Demonstrate the ability to create clinic team data set.  
+* Prepare and interpret clinic data and charts in the Data UI.  
+
+# Activity
+
+* Team PSD members will join a learner pair to document questions or challenges posed by the pairs in finding information in the Data UI.
+* Participants will receive an electronic or hard copy word file with the *Components of the Data UI* listed in the left column and *Answers, Descriptions and Notes* in the right column in which to write information and document answers.  
+
+
+| **Component** | **Answers, Descriptions, Notes** |
+|-------------------- |:-------------------------------|
+| Log-in Screen | What information do you need to log into the data UI? |  
+| Clinic Selection | Document the steps for selecting clinics that will become your data file. |  
+| Viz Tabs | Generate a chart featuring EBPsy appointments. How many EBPsy appointments were documented in what timeframe? Where did you find this information? |  
+| Viz Tabs | Look at the chart of all services offered by each clinic in your station. Find a team trend. |  
+| Data Tabs | Select the correct column headers to get to data for 1 clinic. What is the most common code used by clinicians in this clinic? Where did you find this information? |  
+| Data Tabs | How many total appointments did X clinic complete in 2017. Where did you find this information? |  
+| Data Tabs | Find the same Patient on the HF, Diag, Enc and SP tabs |  
+| Save File | What are the steps for saving a file that can be uploaded for use in the simulation interface? |  
+
+
+<!-- Done List Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png"
+     height = "150" width = "150"> 
+## Done  
+* Master logging in to the MTL data UI.  
+* Create a team data set.  
+* Prepare and interpret clinic data and charts in the Data UI.   

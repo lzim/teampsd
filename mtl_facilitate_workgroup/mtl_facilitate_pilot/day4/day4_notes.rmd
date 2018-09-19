@@ -1,0 +1,17 @@
+## Debrief and Clarify Next Steps
+- RO1: multisite cluster randomized trial of 12 clinics from 12 healthcare systems that are below median on SAIL and struggling on 3 of 8 measures across population coverage and care continuity
+- Present and discuss feedback on SP/MBC model
+- Would need to reallocate how to divide sites between TAS team; not evenly divided currently
+- Pairs (one TeamPSD + one TAS) model makes sense to folks
+- High VISN MH lead turnover (50% are new!) - may be opportunity for new MTL Facilitate leaders
+- How many sites have you talked to in developing up to this point? (washington, california, atlanta, texas)
+- Sites are struggling from not only measures but also other challenges like leadership, culture, personality, etc.
+- A lot of other QI projects are happening at sites at the same time; so many rolloouts from
+- Ablity for TAS to formally commit to MTL stands with leadership; TAS already have a lot on their plate
+  - Specify hour commitment
+  - Explain MTL package and mutual learning
+  - Emphasize benefits for both the leadership office and field
+  - Process: TeamPSD + TAS Call to develop agenda to present to Cliff
+    - Possible demo/experience of MTL
+    - Provide background on project
+    - Select a site that would be compelling

@@ -3,7 +3,33 @@
 
 # MTL Fidelity Checklist for 12-session Plan
 
+## Sesson Summaries across *MTL* Modules
 
+session 01. Today we're *modeling to learn* how to align our **team vision**. 
+
+session 02. Today we're *modeling to learn* how to check our **patient data** and **team trends.**
+
+session 03. Today we're *modeling to learn* how to produce **team data** for simulation.
+
+session 04. Today we're *modeling to learn* how to prioritize **team needs**.
+
+session 05. Today we're *modeling to learn* how to log-in to our **team world**.
+
+session 06. Today we're *modeling to learn* how to tell a **systems story**.
+
+session 07. Today we're *modeling to learn* how to evaluate our **base case** of no change.
+
+session 08. Today we're *modeling to learn* how to test a **dynamic hypothesis**.
+
+session 09. Today we're *modeling to learn* how to **compare alternatives**.
+
+session 10. Today we're *modeling to learn* how to use **systems thinking**.
+
+session 11. Today we're *modeling to learn* how to make **team decisions**.
+
+session 12. Today we're *modeling to learn* how to turn **team learning** into a **team plan**.
+
+## MTL Fidelity Checklist
 ### *MTL Session 1* -- Team Vision
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 1 Fidelity        |
 ------------   |
@@ -13,8 +39,8 @@
 **Done** - mtl.how/live   |
 **Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
 **See Session 1 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 1 - Team Vision |
-**Execise Resources** - available at mtl.how/1_team_vision |
+**In-session Exercise** - *MTL* Session 1 - Team Vision |
+**Exercise Resources** - available at mtl.how/1_team_vision |
 **MTL Live** - MTL Session 1 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 1 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
@@ -31,8 +57,8 @@
 **Done** - mtl.how/data   |
 **Do** - Select and review Team Data for *MTL*  |
 **See Session 2 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 2 - Team Data - data user-interface (data UI) |
-**Execise Resources** - available at mtl.how/2_team_data |
+**In-session Exercise** - *MTL* Session 2 - Team Data - data user-interface (data UI) |
+**Exercise Resources** - available at mtl.how/2_team_data |
 **MTL Live** - MTL Session 2 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 2 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
@@ -50,8 +76,8 @@
 **Done** - mtl.how/data team folders (data UI and team data)   |
 **Do** - Produce team data for *MTL* simulation user-interface (sim UI) |
 **See Session 3 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 3 - Team Vision |
-**Execise Resources** - available at mtl.how/1_team_data |
+**In-session Exercise** - *MTL* Session 3 - Team Vision |
+**Exercise Resources** - available at mtl.how/1_team_data |
 **MTL Live** - MTL Session 3 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 3 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
@@ -68,8 +94,8 @@
 **Done** - mtl.how/menu   |
 **Do** - Review *MTL* Menu Results to clarify team need and plan |
 **See Session 4 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 4 - *MTL* Menu |
-**Execise Resources** - available at mtl.how/4_team_needs_and_plan |
+**In-session Exercise** - *MTL* Session 4 - *MTL* Menu |
+**Exercise Resources** - available at mtl.how/4_team_needs_and_plan |
 **MTL Live** - MTL Session 4 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 4 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
@@ -86,8 +112,8 @@
 **Done** - Check your *MTL* sim UI log-in at mtl.how/sim before team meeting   |
 **Do** - Introducing the *MTL* sim UI Log-in and Experiments Tile  |
 **See Session Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 5 - *MTL* upload your team data to the sim UI and review team data in experiments tile  |
-**Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
+**In-session Exercise** - *MTL* Session 5 - *MTL* upload your team data to the sim UI and review team data in experiments tile  |
+**Exercise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 5 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 5 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
@@ -104,12 +130,12 @@
 **Done** - Log-in to mtl.how/sim and review "i" in Main Tile Model Diagram  |
 **Do** - Introducing the *MTL* sim UI Main Tile |
 **See Session 6 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 6 - Main Tile and Systems Stories - Enter question text |
-**Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
+**In-session Exercise** - *MTL* Session 6 - Main Tile and Systems Stories - Enter question text |
+**Exercise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 6 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 6 Facilitator Guide (SAY file) - Enter question text (20% complete in Facilitator Dashboard) |
 **Done/Do - 15 minutes for Done/Do**  |
-**Done** - Logged in and uploaded team data to the sim UI. Reviewed team data in Experiments Tile. Enter question text.
+**Done** - Logged in and reviewed the systems story in the main sim tile. Entered question text.
 **Do** - Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text. 
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided...to Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text."
 
@@ -122,7 +148,7 @@
 **Done** - Log-in to mtl.how/sim and select individual log-in. Review questions and hypotheses   |
 **Do** - Introducing the *MTL* Outputs Tile and Running a Base Case (bc) |
 **See Session 7 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 7 - Enter Q/H/F/D for Base Case (bc) Run - Team Lead rung and saves a Base Case explores Output |
+**In-session Exercise** - *MTL* Session 7 - Enter Q/H/F/D for Base Case (bc) Run - Team Lead rung and saves a Base Case explores Output |
 **Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 7 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 7 Facilitator Guide (SAY file) - Enter text for base case run in Q/H/F/D (100% complete in Facilitator Dashboard) - Based on base case the "D" decision should be to think of what question they would like to test next time. 
@@ -140,8 +166,8 @@
 **Done** - Log-in to mtl.how/sim and explore the expanded outputs dashboard for the basecase use the worksheet to prepare for experiment 1."  |
 **Do** - Introducing *MTL* Experiments to compare against the Base Case (bc) of no change. |
 **See Session 8 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 8 - Team Experiment 1 - Complete question, hypothesis, finding and decisions Q/H/F/D - Explore variables to compare the base case and experiment 1 in the Results Dashboard of the Expanded Outputs Tile     |
-**Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
+**In-session Exercise** - *MTL* Session 8 - Team Experiment 1 - Complete question, hypothesis, finding and decisions Q/H/F/D - Explore variables to compare the base case and experiment 1 in the Results Dashboard of the Expanded Outputs Tile     |
+**Exercise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 8 Learner Guide (SEE file)  |
 **MTL Facilitate** - MTL Session 8 Facilitator Guide (SAY file) - Enter text for experiment 1 in Q/H/F/D (100% complete in Facilitator Dashboard)- "D" Decision text should be to decide on experiment 2, which will be run at the next meeting. Review Q/H/F/D text for Level 4 Systems thinking (C.F.B.T.) complex, feedback, behavior, time.     |
 **Done/Do** - 15 minutes for Done/Do  |
@@ -158,8 +184,8 @@
 **Done** - Log-in to mtl.how/live and continue to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet.   |
 **Do** - Introducing *MTL* comparison of alternatives base case, experiment 1 and experiment 2.  |
 **See Session 9 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 9 - Run team experiment 2, compare bc, exp 1 and exp 2 in expanded outputs screen - Review additional detail in the Expanded Output tile using the control panel. For example, explore the Saneky using PSY control panel, explore differences by diagnoses in the MM control panel, and explore differences across services using the AGG control panel. |
-**Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate  |
+**In-session Exercise** - *MTL* Session 9 - Run team experiment 2, compare bc, exp 1 and exp 2 in expanded outputs screen - Review additional detail in the Expanded Output tile using the control panel. For example, explore the Sankey using PSY control panel, explore differences by diagnoses in the MM control panel, and explore differences across services using the AGG control panel. |
+**Exercise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate  |
 **MTL Live** - MTL Session 9 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 9 Facilitator Guide (SAY file) - Enter text for experiment 2 in Q/H/F/D (100% complete in Facilitator Dashboard) - "D" Decision text should be to run an 3rd experiment on your own in your individual world. Review Q/H/F/D text for Level 4 Systems thinking (C.F.B.T.) complex, feedback, behavior, time. | 
 **Done/Do** - 15 minutes for Done/Do  |
@@ -176,8 +202,8 @@
 **Done** - Log-in to mtl.how/sim to run an 3rd experiment on your own in your individual world before team meeting.  |
 **Do** - Discuss experiment 2 (and exp 3) using C.F.B.T. systems thinking  |
 **See Session 10 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 10 - Have a team member run their experiment 3 during the team meeting. Enter text for experiment 3 in Q/H/F/D. Facilitated discussion of the base case, exp 1, exp 2 and exp 3 using systems thinking.  |
-**Execise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
+**In-session Exercise** - *MTL* Session 10 - Have a team member run their experiment 3 during the team meeting. Enter text for experiment 3 in Q/H/F/D. Facilitated discussion of the base case, exp 1, exp 2 and exp 3 using systems thinking.  |
+**Exercise Resources** - *MTL* resources for each module are available at mtl.how - either mtl.how/4_care_coordination mtl.how/5_medication_management mtl.how/6_psychotherapy mtl.how/7_aggregate |
 **MTL Live** - MTL Session 10 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 10 Facilitator Guide (SAY file) - Enter text for experiment 3 in Q/H/F/D (100% complete in Facilitator Dashboard) - Review Q/H/F/D text for Level 4 Systems thinking (C.F.B.T.) complex, feedback, behavior, time. - "D" text should be thinking about possible decisions/changes the team could make in their clinical care. |
 **Done/Do - 15 minutes for Done/Do**  |
@@ -194,8 +220,8 @@
 **Done** - mtl.how/live   |
 **Do** - Discuss the team's decisions and next steps based on *MTL*. |
 **See Session 11 Guides - 30 minutes for In-session Exercise*  |
-**In-session exercise** - *MTL* Session 11 - Team Decisions |
-**Execise Resources** - available at mtl.how |
+**In-session Exercise** - *MTL* Session 11 - Team Decisions |
+**Exercise Resources** - available at mtl.how |
 **MTL Live** - MTL Session 11 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 11 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
@@ -212,8 +238,8 @@
 **Done** - mtl.how/live   |
 **Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
 **See Session 12 Guides - 30 minutes for In-session Exercise**  |
-**In-session exercise** - *MTL* Session 12 - Team Plan for after *MTL* Team Meetings |
-**Execise Resources** - available at mtl.how - The team may be interested in additional modules CC, MM, PSY and AGG     |
+**In-session Exercise** - *MTL* Session 12 - Team Plan for after *MTL* Team Meetings |
+**Exercise Resources** - available at mtl.how - The team may be interested in additional modules CC, MM, PSY and AGG     |
 **MTL Live** - MTL Session 12 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 12 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |

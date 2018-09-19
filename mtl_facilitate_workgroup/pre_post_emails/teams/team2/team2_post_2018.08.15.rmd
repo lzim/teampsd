@@ -1,0 +1,32 @@
+<!-- MTL Logo, HTML img tag -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500"> 
+ 
+
+**Team Learning Goal:** Empowerment and Engagement through Exploration  
+**Next Meeting:** TO BE RESCHEDULED - Choose date below
+**Meeting Info:** mtl.how/live | 1-800-767-1750; Code 27379    
+
+## Reschedule 9/5 meeting.  
+Normally we would meet tomorrow next on 9/5. However,the TeamPSD facilitators will be in Chicago for MTL Facilitate training. We can reschedule on the ***2nd Wednesday - September 12 @8:30am*** or meet next at our typical meeting on the ***3rd Wednesday - September 19 @8:30am***.
+Please let us know what would make the most sense for your team.  
+
+As a reminder, we have only two sessions remaining in Modeling to Learn.     
+**Wrap Up #1:** Team Reflections and Decisions – Implementing a change in the team based on lessons learned and reflections from the simulation.  
+**Wrap Up #2:** Technical Assistance Plans & Resources for Self-Directed Learning – Providing teams with resources, guides, and videos for developing and running future experiments.  
+**Booster Sessions (Optional):**  Developing hypothesis and experiments to run in a new module  
+
+Thanks for piloting and learning with us!  
+Stacey
+
+<!-- Learning Objectives Icon -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_star_778913_003F72.png"
+     height = "150" width = "150">  
+
+### We decided... we don't want working more overtime to be our solution to increased work pressure.
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We further customized our aggregate model run to address team needs on the effect of work pressure on overtime. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Look at charts under the Results Dashboard in Expanded Outputs Tile for "Actual hours available for service" and "Return Visit Interval (RVI)." Think about why RVI changes even though only Overtime Effect was changed. |
