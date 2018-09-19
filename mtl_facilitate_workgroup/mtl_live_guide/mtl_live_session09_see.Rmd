@@ -54,9 +54,10 @@ output:
 
 7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
 
-+ Our Question: Briefly describe what your team wants to learn from this experiment.
-   
-+ Our Hypothesis: Outline the systems story your team believes will cause the outcomes your team expects to observe.
+### Experiment 2** 
+[<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_communication_884666_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+
+[<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_share_884712_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
 8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (this time that just means all the base case/default values).
 
@@ -64,11 +65,11 @@ output:
 
 10.	Compare Runs to see the difference the between base case and the current experimental run. Compare Services to see how the variables across services look under the current experiment's conditions. Record what you learned:
 
-   + Our Findings: Describe your team's findings, insights and conclusions from this experiment.
+[<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_idea_884671_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
 11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run. 
 
-   + Our Decisions: Based on what was learned in this experiment, what changes is the team ready to make in their practice?
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/decision.png" height = "40" width = "40" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
 12. Save and Reset when ready.
  
