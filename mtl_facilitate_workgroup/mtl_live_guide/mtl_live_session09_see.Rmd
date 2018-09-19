@@ -59,7 +59,7 @@ output:
 
 [<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_share_884712_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (this time that just means all the base case/default values).
+8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
 
 9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
 
