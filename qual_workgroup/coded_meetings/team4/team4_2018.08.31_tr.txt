@@ -1,0 +1,78 @@
+Team 4
+2018 - 31 - 8 at 11AM
+
+
+10:58 -- tried VANTS, and no meeting available
+
+11:10 -- started Adobe
+
+11:12 -- Stacey going to check on the team's physical location
+
+11:33 -- Team logs in
+
+11:35 -- Lindsey explains logging into Adobe Connect, screen sharing, link locations, browsers choices, etc.
+
+11:37 -- ask team to open up data tool
+
+11:38 -- quiz team: "Explorer or Chrome for data tool?"
+	team responds correctly "Explorer"
+
+	Lindsey explains why open up data tool -- b/c we have new features in the sim -- to edit data files available in model
+
+	Lindsey asks: how do we do add data to the model?
+	team answers hesitantly and correctly: "click Add"?
+
+	Lindsey walks them though how to refresh data in data tool and an overview of the new tabs (measures, suicide risk flag, etc.)
+
+	Lindsey walks them though selecting their team data (using the folder with "sim" in the name," then copy and pasting the file name into the "team data menu maintenance" dropdown in the sim)
+
+	Lindsey asks "Does anybody have any questions about how to get new data? Do you have feedback on that process, does it seem manageable?"
+
+	Team nods
+
+11:45 -- Lindsey reviews goals for meeting (ie, team to conduct an experiment) and asks for volunteer to drive and share screens
+
+11:47 -- PSYCHIATRIST shares screen, and logs into sim
+
+11:48 -- Lindsey reviews the changes to the "what world" dropdown, and guides PSYCHIATRIST to join current session, and to "expanded output screen"
+
+11:49 -- Lindsey guides PSYCHIATRIST to start new session with new data, and to control panel, to select prior experiments for review -- and explain why looking at a prior experiment is useful
+
+(but we end up waiting too long for loading prior experiments to review any past runs)
+
+11:52 -- Question from PSYCHIATRIST: When you choose different clinics, does it make it hard for the sim to read the file
+
+	answer -- no.  It will change numbers on the team data table, but the way data are calculated do not change
+
+11:53 -- Lindsey explains the importance to use dates on run names to make sure you're comparing "apples to apples"
+
+11:54 -- Lindsey, since we loaded new data, we should probably run a new base case"
+
+	notice we have "i"s on every part of the model -- see info on how everything is calculated
+
+11:56 -- PSYCHIATRIST runs a base case
+	types in question and hypothesis box
+	Team reviews model behavior -- find all variables in equilibrium
+	PSYCHIATRIST types in findings and decisions box
+	PSYCHIATRIST saves run (Lindsey walks team through selecting "Base Case" from variable drop down list)
+
+11:59 -- Lindsey reviews what we accomplished in meeting and thanks team for their time
+
+12:00 -- all log out of sim and Adobe Connect
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
