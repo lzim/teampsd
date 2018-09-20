@@ -19,7 +19,7 @@ output:
 
 # This week we're modeling to learn how to compare alternatives.
 
-|<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "75" width = "75"> **Done** |
+|<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** |
 | --- |
 |**At Our Last Team Meeting**  | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "40" width = "60">](http://mtl.how/sim) **Our Team Lead Ran Experiment 1 and team reviewed Expanded Outputs tile to compare the basecase and experiment 1.** |
