@@ -17,15 +17,14 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500"> 
 
-# Today we're Modeling to Learn how to...  
-<!-- Learning Objectives Icon --> Evaluate our base case of no change.
+# This week we're modeling to learn how to evaluate our basecase of no change. 
 
-### Last Team Meeting
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "75" width = "75"> **Done** | 
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) **Logged in and reviewed the systems story in the main sim tile. Entered question text.** |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) **Logged into mtl.how/sim and select individual log-in. Enter question and hypothesis text.** |
+|**At Our Last Team Meeting**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "65">](http://mtl.how/sim) **Logged in and reviewed the systems story in the main sim tile. Entered question text.** |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "65">](http://mtl.how/sim) **Logged into mtl.how/sim and select individual log-in. Enter question and hypothesis text.** |
 **Basecase Run**  |
 <img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_communication_884666_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.* |
 <img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_share_884712_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/> **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.* | 
@@ -34,13 +33,10 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) **Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text.**  |
+|**Before Our Next Team Meeting**|
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "65">](http://mtl.how/sim) **Log-in to mtl.how/sim and select individual log-in. Enter question and hypothesis text.**  |
+|**For Our Next Team Meeting**|
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "45" width = "65">](http://mtl.how/live) **1. Login to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
 
-### Next Team Meeting 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "70" width = "110">](http://mtl.how/live)
-
-**1. Login to mtl.how/live**
-
-**2. Call in to VANTS:** 1-800-767-1750, Code 27379 
 
 
