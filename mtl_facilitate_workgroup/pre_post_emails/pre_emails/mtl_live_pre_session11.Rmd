@@ -20,7 +20,7 @@ output:
 # This week we're modeling to learn how to make team decisions.
 
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "75" width = "75"> **Done** | 
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "65">](http://mtl.how/sim) **A team member ran experiment 3 during the team meeting. We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking.** |
