@@ -17,28 +17,23 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500"> 
 
-# We decided...  
-<!-- Learning Objectives Icon --> To review and compare the base case, exp 1, exp 2 and exp 3 and think about possible decisions/changes the team could make in their clinical care.
+# We decided to review and compare the base case, exp 1, exp 2 and exp 3 and think about possible decisions/changes the team could make in their clinical care.
 
-### Last Team Meeting
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "75" width = "75"> **Done** | 
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) **A team member ran experiment 3 during the team meeting. We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking.** 
+|**At Our Next Meeting**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **A team member ran experiment 3 during the team meeting. We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking.** 
 **Experiment 3**
-<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_communication_884666_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.*
-<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_share_884712_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/> **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.* 
-<img src = "https://github.com/lzim/teampsd/blob/hexagon_icons/np_idea_884671_0083BE.svg" height = "50" width = "50" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/decision.png" height = "40" width = "40" style = "display: inline-block"/> **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*     |
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.*
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/> **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.* 
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/> **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*     |
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "70" width = "110">](http://mtl.how/sim) **Review and compare the base case, exp 1, exp 2 and exp 3 and think about possible decisions/changes the team could make in their clinical care.**  |
-
-### Next Team Meeting 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "70" width = "110">](http://mtl.how/live)
-
-**1. Login to mtl.how/live**
-
-**2. Call in to VANTS:** 1-800-767-1750, Code 27379 
+|**Before Our Next Meeting**|
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Review and compare the base case, exp 1, exp 2 and exp 3 and think about possible decisions/changes the team could make in their clinical care.**  |
+|**For Our Next Meeting**|
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Login to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
 
