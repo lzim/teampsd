@@ -17,24 +17,20 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500"> 
 
-# Today we're Modeling to Learn how to...  
-<!-- Learning Objectives Icon --> Produce team data for simulation.
+# This week we're modeling to learn how to produce team data for simulation.
 
-### Last Team Meeting
+
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "75" width = "75"> **Done** | 
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "70" width = "110">](http://mtl.how/data) **Selected the clinics that make up our team.** |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "70" width = "110">](http://mtl.how/data) **Reviewed the HF, Diag, Enc and SP tabs to find a Patient (zoom-in) and find a team trend (zoom-out).** |
+|**At Our Last Team Meeting**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Selected the clinics that make up our team.** |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Reviewed the HF, Diag, Enc and SP tabs to find a Patient (zoom-in) and find a team trend (zoom-out).** |
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "70" width = "110">](http://mtl.how/data) **Log-in to mtl.how/data find Team data UI and team_data folders** |
-
-### Next Team Meeting 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "70" width = "110">](http://mtl.how/live)
-
-**1. Login to mtl.how/live**
-
-**2. Call in to VANTS:** 1-800-767-1750, Code 27379 
+|**Before Our Next Team Meeting**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Log-in to mtl.how/data find Team data UI and team_data folders** |
+|**For Our Next Team Meeting**|
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Login to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
 
