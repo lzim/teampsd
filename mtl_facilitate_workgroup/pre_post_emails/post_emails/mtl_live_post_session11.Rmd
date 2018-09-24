@@ -22,7 +22,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done**  
 | --- |
-|**At Our Next Team Meeting**|
+|**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) We reflected on team learning from the MTL program and prioritized ways to implement our learning in our clinical care.| 
 
 
