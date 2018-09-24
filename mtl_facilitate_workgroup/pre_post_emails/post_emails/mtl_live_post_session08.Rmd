@@ -19,7 +19,6 @@ output:
 
 # We decided to compare the basecase and experiment 1 and prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet.
 
-### Last Team Meeting
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
