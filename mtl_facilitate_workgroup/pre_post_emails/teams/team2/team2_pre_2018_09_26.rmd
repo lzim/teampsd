@@ -1,0 +1,43 @@
+---
+title: "MTL Session 10 Pre Email"
+author: "Team PSD"
+date: "September 2018"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
+
+
+<!-- MTL Logo, HTML img tag -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500"> 
+
+# This week we're modeling to learn how to use systems thinking.
+
+<!-- Do/Done Tables -->
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
+| --- |
+|**At Our Last Team Meeting**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Our Team Lead ran Experiment 2 and we compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs Tile.** |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Logged to mtl.how/sim to run an 3rd experiment on your own in your individual world before team meeting.**|
+**Experiment 2**
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.*
+What happens if we lose two providers AND then reduce how we make patient triage decisions -- to send half as many people to PSY and CC as we did before the hours for those services were also cut in half?
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/> **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.* 
+We expect that wait times will not go up as much, as we have cut demand for those services.
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*
+We found RVI for PSY stretched way out to several weeks between visits and work pressure increased really quickly then came back down. Saw far less pts in PSY over next 2 years. 
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/> **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
+Decision is for people to experiment with sensitivity sliders on own and follow up.   |
+
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
+| --- |
+|**Before Our Next Team Meeting**|
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **We decided to run a third experiment on your own in your individual world by manipulating the sensitivity sliders from the previous experiment.**  |
+|**For Our Next Team Meeting**|
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Login to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
