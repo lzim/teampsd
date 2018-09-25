@@ -1,0 +1,1717 @@
+{UTF-8}
+Starting a Service w OUD[Downstream]=
+	Starting a Service Rate[Downstream]*"% w OUD"[Downstream]
+	~	pts/wk
+	~	The number of patients per week starting OUD treatment after developing an \
+		individual treatment plan in an intake appointment.
+	|
+
+Starting a Service w PTSD[Downstream]=
+	Starting a Service Rate[Downstream]*"% w PTSD"[Downstream]
+	~	pts/wk
+	~	The number of patients per week starting PTSD treatment after developing \
+		an individual treatment plan in an intake appointment.
+	|
+
+Total Starting any Service w AUD=
+	SUM(Starting a Service w AUD[Downstream!])
+	~	pts/wk
+	~	The total number of patients starting across all services who have AUD as \
+		a primary diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+Total Starting any Service w DEP=
+	SUM(Starting a Service w DEP[Downstream!])
+	~	pts/wk
+	~	The total number of patients starting across all services who have \
+		Depression as a primary diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+Total Starting any Service w Other Needs=
+	SUM(Starting a Service w Other Needs[Downstream!])
+	~	pts/wk
+	~	The total number of patients starting across all services who have Other \
+		Needs as a primary diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+Total Starting any Service w OUD=
+	SUM(Starting a Service w OUD[Downstream!])
+	~	pts/wk
+	~	The total number of patients starting across all services who have OUD as \
+		a primary diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+Total Starting any Service w PTSD=
+	SUM(Starting a Service w PTSD[Downstream!])
+	~	pts/wk
+	~	The total number of patients starting across all services who have PTSD as \
+		a primary diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+Starting a Service w DEP[Downstream]=
+	Starting a Service Rate[Downstream]*"% w DEP"[Downstream]
+	~	pts/wk
+	~	The number of patients per week starting Depression treatment after \
+		developing an individual treatment plan in an intake appointment.
+	|
+
+Starting a Service w Other Needs[Downstream]=
+	Starting a Service Rate[Downstream]*"% w Other Needs"[Downstream]
+	~	pts/wk
+	~	The number of patients per week starting Other Needs treatment after \
+		developing an individual treatment plan in an intake appointment.
+	|
+
+Starting a Service w AUD[Downstream]=
+	(Starting a Service Rate[Downstream])*"% w AUD"[Downstream]
+	~	pts/wk
+	~	The number of patients per week starting AUD treatment after developing an \
+		individual treatment plan in an intake appointment.
+	|
+
+Total Starting any Service=
+	SUM(Starting a Service Rate[service!])
+	~	pts/wk
+	~		~	:SUPPLEMENTARY 
+	|
+
+Total Patients in all Services=
+	SUM(Patients in Service[service!])
+	~	pts
+	~		~	:SUPPLEMENTARY 
+	|
+
+Effect of Work Pressure on Scheduled Return Visit Interval[service]=
+	MAX(SMOOTHI((Work Pressure[service]^Sensitivity of Scheduled Return Visit Interval to Work Pressure\
+		),Time to Change Scheduled RVI,1),1)
+	~	Dmnl
+	~	High schedule pressure increases the time between appointments. Restricted \
+		from going below 1, as lower work pressure does not influence providers to \
+		bring in their patients more often than is clinically recommended.
+	|
+
+Effect of Provider Fatigue on Patient's Engagement Time=
+	MIN((1+"Short-Term Overtime")^-Sensitivity of Patient's Engagement Time to Provider Fatigue\
+		,1)
+	~	Dmnl
+	~	Clinician fatigue reduces patient engagement, reducing the patients' \
+		percieved quality of care, and thus the average patient duration in a \
+		service.  It is constrained from going above 1 (as lower than official \
+		work hours do not increase a patient's time in a service).
+	|
+
+Difference between Excess and Official Team Hours=
+	ZIDZ((SUM(Actual Hours Available for Service[service!])-"Appt. Supply (Total)") 
+	,"Appt. Supply (Total)")
+	~	Dmnl
+	~	Ratio of the team's total excess hours worked to their total official \
+		hours.
+	|
+
+"Effect of Short-Term Overtime on Missed Appointments"=
+	MAX((1+"Short-Term Overtime")^"Sensitivity of Staff Missed Appointments Due to Short-Term Overtime"\
+		,
+	 1)
+	~	Dmnl
+	~	Long workweeks relative to normal team hours reduce employee productivity. \
+		Restricted from going below 1, as lower than official work hours do not \
+		influence providers or patients to come more regularly to their \
+		appointments.
+	|
+
+"Effect of Long-Term Overtime on Burnout"=
+	MIN((1+"Long-Term Overtime")^-"Sensitivity of Staff Burnout Due to Long-Term Overtime"\
+		,1)
+	~	Dmnl
+	~	Persistently working long workweeks relative to normal eventually \
+		increases provider quit rate, and thus reduces actual team hours \
+		available. It is constrained from going above 1 (as lower than official \
+		work hours do not create new staff or attract other staff to work on this \
+		team).
+	|
+
+"Short-Term Overtime"=
+	SMOOTHI(Difference between Excess and Official Team Hours,Fatigue Onset Time,0)
+	~	Dmnl
+	~	The average excess time worked over the past 3 weeks.
+	|
+
+"Long-Term Overtime"=
+	SMOOTHI(Difference between Excess and Official Team Hours,Burnout Onset Time,0)
+	~	Dmnl
+	~	The average excess time worked over the past year.
+	|
+
+Desired Completion Rate[service]=
+	ZIDZ(Appointments[service] , RVI used when Completing[service])
+	~	appt/wk
+	~	To complete recurring appointments in the target return interval, the \
+		completion rate must be equal to the appointment backlog divided by the \
+		target return time interval.
+	|
+
+RVI used when Completing[service]= DELAY FIXED (
+	RVI[service], RVI[service] , RVI[service])
+	~	wk
+	~	Appointments are completed based on the RVI in use at the time they were \
+		booked.  Any change in the RVI does not affect appointments already \
+		booked, only appointments being booked (i.e., appointments are not \
+		cancelled and rescheduled when RVI changes).
+	|
+
+Service Proportions[Downstream]=
+	IF THEN ELSE(Time<0,Service Proportions Balanced Across Team Variables
+	[Downstream], 
+	
+	IF THEN ELSE(Use Team Data on New Pt Referrals[Downstream]=1, 
+	
+	IF THEN ELSE("User-defined Service Proportions from Team Data"[Downstream]<0,Service Proportions from Team Data\
+		[Downstream],
+	"User-defined Service Proportions from Team Data"[Downstream]),
+	
+	IF THEN ELSE("User-defined Service Proportions from Supply"[Downstream]<0,Service Proportions Balanced Across Team Variables\
+		[Downstream],
+	
+	"User-defined Service Proportions from Supply"[Downstream])))
+	~	Dmnl
+	~	The service percentage used by the team.
+	|
+
+Treatment Decision Rate[Downstream]=
+	MAX(
+	(Intake Completion Rate[Intake]+Review Rate[Intake])
+	*Service Proportions[Downstream]
+	*Effect of Care Delays on Treatment Decisions[Downstream]
+	
+	,0) ~~|
+Treatment Decision Rate[Intake]=
+	0
+	~	pts/wk [0,?]
+	~	The number of patients with care plans for all other services is based on \
+		the total number of completed intakes and the percentages of intakes that \
+		result in a subsequent appointment in any other service.  Patients' plans \
+		can include starting multiple services; patients are not conserved. These \
+		rates are constrained from going negative.
+	|
+
+"User-defined Service Proportions from Team Data"[Downstream]=
+	-0.01,-0.01,-0.01,-0.01,-0.01,-0.01
+	~	Dmnl [-0.01,1,0.01]
+	~	User can set a new percent of patients triaged into each downstream \
+		service each week after their intake appointment, regardless of whether or \
+		not the team has enough supply for the patient demand.  The default value \
+		of "-0.01" uses the equilibrium value, based on the supply available.
+	|
+
+Review Rate[Intake]=
+	IF THEN ELSE(Time<0,Data on Review Rate[Intake],
+	IF THEN ELSE("User-defined Review Rate"[Intake]<0,Data on Review Rate[Intake],"User-defined Review Rate"\
+		[Intake])) ~~|
+Review Rate[Downstream]=
+	0
+	~	pts/wk
+	~		|
+
+Appropriate Intake Evaluations for Supply[Intake]= INITIAL(
+	Patient Start Rate[Intake])
+	~	pts/wk
+	~		|
+
+Intake Evaluation Rate[Intake]=
+	MAX(IF THEN ELSE(Time<0,Appropriate Intake Evaluations for Supply[Intake],
+	IF THEN ELSE("User-defined Intake Evaluation Rate"[Intake]<0,Appropriate Intake Evaluations for Supply\
+		[Intake],"User-defined Intake Evaluation Rate"[Intake]))
+	
+	*Effect of Wait Times on Intake Evaluation Rate[Intake]
+	
+	,0) ~~|
+Intake Evaluation Rate[Downstream]=
+	0
+	~	pts/wk
+	~	All patients start services with the team by developing an individual \
+		treatment plan during an intake appointment.  This new patient referral \
+		rate is determined by the baseline service capacity, average time in \
+		service, and the demand per patient per week.  It can also be set by the \
+		user (with "User-defined Referrals to Team) or by the team's own data on \
+		new patient starts.  These referrals can also be affected by perceptions \
+		of new patient wait times.  New patient referrals are constrained from \
+		going below zero.
+	|
+
+Effect of Care Delays on Treatment Decisions[service]=
+	Effect of RVI Delays on Treatment Decisions[service]*Effect of Start Delays on Treatment Decisions\
+		[service]
+	~	Dmnl
+	~		|
+
+"User-defined Review Rate"[Intake]=
+	-1
+	~	pts/wk [-1,100,1]
+	~	User can set a new number of patients per week who start a new service \
+		without an intake appointment, regardless of whether or not the team has \
+		enough supply for the patient demand (default value is "-1" which uses the \
+		ideal start rate).
+	|
+
+Data on Review Rate[Intake]= INITIAL(
+	"New Patient Start Rate (mean)"[Intake]-Patient Start Rate[Intake]) ~~|
+Data on Review Rate[Downstream]=
+	0
+	~	pts/wk
+	~		|
+
+Service Proportions Balanced Across Team Variables[Downstream]= INITIAL(
+	ZIDZ(Patient Start Rate[Downstream] , (Patient Start Rate[Intake]+Data on Review Rate\
+		[Intake]))) ~~|
+Service Proportions Balanced Across Team Variables[Intake]=
+	0
+	~	Dmnl
+	~	The percentage of patients who complete an intake who start another \
+		service, determined by the available capacity to treat those patients.  If \
+		any of these percentages is >1, then there is enough supply for patients \
+		to enroll in a service multiple times simultaneously.
+	|
+
+Effect of RVI Delays on Treatment Decisions[Downstream]=
+	MIN(SMOOTHI(Difference between Actual and Standard RVI[Downstream]^-Sensitivity of Treatment Decisions to Existing Patient Care Delays\
+		,Time to Perceive Internal Delays,1),1) ~~|
+Effect of RVI Delays on Treatment Decisions[Intake]=
+	0
+	~	Dmnl
+	~	Clinicians' perception of care delays for services reduces their new \
+		patient referrals to those services.  This effects is controlled by an \
+		exponent that reflects how sensitive providers' triage decisions are to \
+		these care delays for existing patients.  It is constrained from going \
+		above 1 (as lower than clinically necessary return visit intervals do not \
+		make a service more attractive).
+	|
+
+Effect of Start Delays on Treatment Decisions[Downstream]=
+	MIN(SMOOTHI(Difference between Actual and Acceptable Start Delays[Downstream]^-Sensitivity of Treatment Decisions to Existing Patient Care Delays\
+		,Time to Perceive Internal Delays,1),1) ~~|
+Effect of Start Delays on Treatment Decisions[Intake]=
+	0
+	~	Dmnl
+	~	Clinicians' perception of care delays for services reduces their new \
+		patient referrals to those services.  This effects is controlled by an \
+		exponent that reflects how sensitive providers' triage decisions are to \
+		these care delays for existing patients.  It is constrained from going \
+		above 1 (as lower than clinically necessary return visit intervals do not \
+		make a service more attractive).
+	|
+
+"User-defined Service Proportions from Supply"[Downstream]=
+	-0.01,-0.01,-0.01,-0.01,-0.01,-0.01
+	~	Dmnl [-0.01,1,0.01]
+	~	User can set a new percent of patients triaged into each downstream \
+		service each week after their intake appointment, regardless of whether or \
+		not the team has enough supply for the patient demand.  The default value \
+		of "-0.01" uses the equilibrium value, based on the supply available.
+	|
+
+True Missed Appointment Rate[service]=
+	QUANTUM(MAX(
+	
+	Completing Rate[service]*"Actual True Missed Appointment %"[service]
+	
+	,0),0.001)
+	~	appt/wk
+	~	The number of appointments that must be re-scheduled, as either the \
+		clinician or the patient missed the appointment. It is defined by the \
+		total number of appointments that occur each week and the percent of those \
+		that are missed.
+	|
+
+"Actual True Missed Appointment %"[service]=
+	IF THEN ELSE(Time<0, "True Missed Appointment %"[service], IF THEN ELSE("User-defined True Missed Appointment %"\
+		[service]<0, "True Missed Appointment %"[service], "User-defined True Missed Appointment %"
+	[service]))
+	
+	*"Effect of Short-Term Overtime on Missed Appointments"
+	~	Dmnl
+	~	The percent of appointments missed and rescheduled is affected by both the \
+		baseline rate and the effect of fatigue due to accumulated long hours.  It \
+		is constrained from going below zero.  The baseline rate can be replaced \
+		by a user-generated value between zero and 100%.
+	|
+
+Actual Service Capacity[service]=
+	Actual Hours Available for Service[service]*(1-"Actual True Missed Appointment %"[service\
+		])
+	~	hrs/wk
+	~	The effective total hours of clinical time available, based on the \
+		percentage of the total team hours allocated to each service, and the \
+		missed appointment percentage for each service.  This assumes that all \
+		missed appointments are eventually rescheduled.
+	|
+
+"% w DEP"[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B8')
+	~	Dmnl
+	~	The fraction of patients who have Depression as a primary diagnosis in \
+		each service.  These fractions are likely to sum to >100%, as they are not \
+		mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in \
+		one visit, and then DEP in a subsequent visit, which would count them in \
+		both cohorts).  Also, some patients engage in multiple services \
+		simultaneously, and thus count in multiple service cohorts.
+	|
+
+"% w Other Needs"[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B11')
+	~	Dmnl
+	~	The fraction of patients who have Other Needs as a primary diagnosis in \
+		each service.  These fractions are likely to sum to >100%, as they are not \
+		mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in \
+		one visit, and then DEP in a subsequent visit, which would count them in \
+		both cohorts).  Also, some patients engage in multiple services \
+		simultaneously, and thus count in multiple service cohorts.
+	|
+
+"% w OUD"[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B9')
+	~	Dmnl
+	~	The fraction of patients who have OUD as a primary diagnosis in each \
+		service.  These fractions are likely to sum to >100%, as they are not \
+		mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in \
+		one visit, and then DEP in a subsequent visit, which would count them in \
+		both cohorts).  Also, some patients engage in multiple services \
+		simultaneously, and thus count in multiple service cohorts.
+	|
+
+"% w PTSD"[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B10')
+	~	Dmnl
+	~	The fraction of patients who have PTSD as a primary diagnosis in each \
+		service.  These fractions are likely to sum to >100%, as they are not \
+		mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in \
+		one visit, and then DEP in a subsequent visit, which would count them in \
+		both cohorts).  Also, some patients engage in multiple services \
+		simultaneously, and thus count in multiple service cohorts.
+	|
+
+Patients in Service[Downstream]= INTEG (
+	Starting a Service Rate[Downstream]-Ending Service Rate[Downstream],
+		Initial Patients[Downstream]) ~~|
+Patients in Service[Intake]= INTEG (
+	Starting a Service Rate[Intake]-Ending Service Rate[Intake],
+		Initial Patients[Intake]*0)
+	~	pts
+	~	Total number of patients in treatment, initial value set to start in \
+		equilibrium, with no patients restarting a service.
+	|
+
+Patients w DEP[service]=
+	Patients in Service[service]*"% w DEP"[service]
+	~	pts
+	~	The numbers of patients in each service who have Depression as a primary \
+		diagnosis.
+	|
+
+Patients w Other Needs[service]=
+	Patients in Service[service]*"% w Other Needs"[service]
+	~	pts
+	~	The numbers of patients in each service who have Other Needs as a primary \
+		diagnosis.
+	|
+
+Patients w OUD[service]=
+	Patients in Service[service]*"% w OUD"[service]
+	~	pts
+	~	The numbers of patients in each service who have OUD as a primary \
+		diagnosis.
+	|
+
+Patients w PTSD[service]=
+	Patients in Service[service]*"% w PTSD"[service]
+	~	pts
+	~	The numbers of patients in each service who have PTSD as a primary \
+		diagnosis.
+	|
+
+Total Patients w OUD=
+	SUM(Patients w OUD[service!])
+	~	pts
+	~	The total number of patients across all services who have OUD as a primary \
+		diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+Total Patients w PTSD=
+	SUM(Patients w PTSD[service!])
+	~	pts
+	~	The total number of patients across all services who have PTSD as a \
+		primary diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+Booking Rate[service]=
+	QUANTUM("Current Pt Appts / week"[service]
+	+
+	"New Pt Appts / week"[service]
+	,0.001)
+	~	appt/wk
+	~	The booking appointment rate depends on the number of patients seen by the \
+		team.
+	|
+
+"Appt. Supply (Total)"=
+	SUM(Hours for Calculating Total Official Team Hours[service!])
+	~	hrs/wk
+	~	The sum of all clinical hours allocated to patient appointments. It must \
+		be less than 40 hrs/week/clinician, due to administrative duties, sick \
+		leave, annual leave, training, etc.
+	|
+
+Hours for Calculating Total Official Team Hours[service]=
+	IF THEN ELSE(Time<0,"Appointment Supply (median)"[service],
+	
+	IF THEN ELSE(Appointment Supply[service]<0, "Appointment Supply (median)"[service],Appointment Supply\
+		[service] ))
+	~	hrs/wk
+	~	Use the Baseline hours available for appointments for calculating the \
+		Total Official Team Clinical Hours, unless the users has set a new value \
+		for a service.
+	|
+
+Total Patients w Other Needs=
+	SUM(Patients w Other Needs[service!])
+	~	pts
+	~	The total number of patients across all services who have Other Needs as a \
+		primary diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+Total Patients w DEP=
+	SUM(Patients w DEP[service!])
+	~	pts
+	~	The total number of patients across all services who have Depression as a \
+		primary diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+"Current Pt Appts / week"[service]=
+	((ZIDZ(Patients in Service[service],Scheduled Return Visit Interval[service])) / Patients per Appointment
+	[service])
+	~	appt/wk
+	~	The total number of existing patient appointments per week, determined by \
+		the total number of patients in each service, the number of patients per \
+		appointent, and that service's return visit interval.
+	|
+
+"New Pt Appts / week"[service]=
+	Intake Completion Rate[service]/Patients per Appointment[service]
+	~	appt/wk
+	~	Total number of new patient appointments per week.
+	|
+
+Patients w AUD[service]=
+	Patients in Service[service]*"% w AUD"[service]
+	~	pts
+	~	The numbers of patients in each service who have AUD as a primary \
+		diagnosis.
+	|
+
+Total Patients w AUD=
+	SUM(Patients w AUD[service!])
+	~	pts
+	~	The total number of patients across all services who have AUD as a primary \
+		diagnosis.
+	~	:SUPPLEMENTARY 
+	|
+
+"% w AUD"[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B7')
+	~	Dmnl
+	~	The fraction of patients who have AUD as a primary diagnosis in each \
+		service. These fractions are likely to sum to >100%, as they are not \
+		mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in \
+		one visit, and then DEP in a subsequent visit, which would count them in \
+		both cohorts).  Also, some patients engage in multiple services \
+		simultaneously, and thus count in multiple service cohorts.
+	|
+
+Difference between Intake Eval Wait Times[service]=
+	Intake Evaluation Wait Time[service]/Acceptable Intake Eval Wait Time[service]
+	~	Dmnl
+	~	Ratio of team's acutal new patient start delay to the team's standard for \
+		acceptable start delay.
+	|
+
+Acceptable Intake Eval Wait Time[service]=
+	1
+	~	wk
+	~	The team's goal is to get any referred patient an intake appointment \
+		within one week of referral.
+	|
+
+Effect of Wait Times on Intake Evaluation Rate[Intake]=
+	MIN(SMOOTHI(Difference between Intake Eval Wait Times[Intake]^-Sensitivity of Intake Evaluation Rate to Wait Times\
+		,Time to Perceive Intake Evaluation Wait Times,1),1) ~~|
+Effect of Wait Times on Intake Evaluation Rate[Downstream]=
+	0
+	~	Dmnl
+	~	Other clinicians' perception of care delays for starting patients in this \
+		team reduces their new patient referrals.  This effects is controlled by \
+		an exponent that reflects how sensitive providers' referral decisions are \
+		to these care delays for new patients.  It is constrained from going above \
+		1 (as lower than clinically new patient wait times do not make a team more \
+		attractive).
+	|
+
+Patients Waiting to Start a Service[service]= INTEG (
+	Treatment Decision Rate[service]-Starting a Service Rate[service],
+		Treatment Decision Rate[service]*Acceptable Delay to Starting Service[service])
+	~	pts
+	~	Total number of patients waiting to start a service, initial value set to \
+		provide the desired wait time of 2 weeks.
+	|
+
+Time to Perceive Intake Evaluation Wait Times=
+	4
+	~	wk
+	~	Time for referring providers to notice and respond to differences between \
+		"normal" and actual new patient intake delays. Set to 4 weeks, i.e., a \
+		monthly staff meeting update.
+	|
+
+Difference between Actual and Acceptable Start Delays[service]=
+	Delay to Starting Service[service]/Acceptable Delay to Starting Service[service]
+	~	Dmnl
+	~	Ratio of services' acutal start delay to the team's standard for \
+		acceptable start delay.
+	|
+
+Sensitivity of Intake Evaluation Rate to Wait Times=
+	1
+	~	Dmnl [0,2,0.1]
+	~	Exponent controlling the effect of care delay on team attractiveness, \
+		where the attractiveness of the team drops as new patient care delays \
+		increase.  A value of "1" implies the assumption that doubling the new \
+		patient wait time (e.g., delaying their care) will reduce the new patient \
+		referral rate to the team by half.  For the same situation, a value of \
+		"0.5" would reduce the referral rate, or its attractiveness, to 71% of the \
+		original rate, and a value of 1.5 would reduce the referral rate to only \
+		35% of the original rate.
+	|
+
+Patients Waiting for Intake Evaluation[Intake]= INTEG (
+	Intake Evaluation Rate[Intake]-Intake Completion Rate[Intake],
+		Intake Evaluation Rate[Intake]*Acceptable Delay to Starting Service[Intake]) ~~|
+Patients Waiting for Intake Evaluation[Downstream]= INTEG (
+	Intake Evaluation Rate[Downstream]-Intake Completion Rate[Downstream],
+		0)
+	~	pts
+	~	Total number of patients waiting to start a service, initial value set to \
+		provide the acceptable wait time of 2 weeks.
+	|
+
+"Return Visit Interval (median)"[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B5')
+	~	wk
+	~	Actual median return visit interval for each service, based on team's own \
+		data.
+	|
+
+RVI[Downstream]=
+	IF THEN ELSE(Time<0, "Return Visit Interval (median)"[Downstream],IF THEN ELSE("Return Visit Interval (RVI)"\
+		[Downstream]<1, "Return Visit Interval (median)"[Downstream], "Return Visit Interval (RVI)"\
+		[Downstream])) ~~|
+RVI[Intake]=
+	1
+	~	wk
+	~	The team's goal to see each patient in each service once in every x week \
+		(default RVIs are based on the team's data).  The default RVI can be \
+		replaced by a user-generated value between 1 and 16 weeks.  The "RVI" for \
+		Intake is always 1 week, which ensures that patients only have one intake \
+		appointment before completing Intake.
+	|
+
+Starting a Service Rate[service]=
+	MIN(Maximum Start Rate Service[service],Patient Start Rate[service])
+	~	pts/wk
+	~	The number of patients starting a service is a function the team's time \
+		allocated to that service, the average time in service, and the demand per \
+		patient per week; allowing the model to start in equilibrium.
+	|
+
+Service Proportions from Team Data[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B4')
+	~	Dmnl
+	~	The percent of patients who have appointments in each service, based on \
+		the team's data.  Specifically, based on a count of all unique patients in \
+		the cohort with >1 visit (thus, excluding"1-n-done" patients) in a service \
+		(as identified by CPT code set) over the total patient cohort.  These \
+		percentages will sum to >100%, as many patients use multiple services \
+		concurrently.
+	|
+
+Intake Completion Rate[Intake]=
+	MIN(Maximum Start Rate Intake[Intake],Patient Start Rate[Intake]) ~~|
+Intake Completion Rate[Downstream]=
+	0
+	~	pts/wk
+	~	The number of patients completing intake per week is a function the team's \
+		time allocated to intake, the average time in intake, and the demand per \
+		patient per week.
+	|
+
+"User-defined Intake Evaluation Rate"[Intake]=
+	-1
+	~	pts/wk [-1,200,1]
+	~	User can set a new number of patients per week referred to the team for \
+		their intake appointment, regardless of whether or not the team has enough \
+		supply for the patient demand (default value is "-1" which uses the ideal \
+		start rate).
+	|
+
+Use Team Data on New Pt Referrals[service]=
+	1
+	~	Dmnl [0,1,1]
+	~	Switch to control if patient starts are based on team current state \
+		(default set to ignore current state, and instead match patient starts to \
+		allocation of clinican hours).
+	|
+
+Maximum Start Rate Intake[service]=
+	Patients Waiting for Intake Evaluation[service]/Minimum Time to Schedule[service]
+	~	pts/wk
+	~	The maximum new patient start rate is determined by the new patient \
+		waiting list and minimum time to schedule patient appointments.
+	|
+
+Delay to Starting Service[Downstream]=
+	MIN(IF THEN ELSE(Patients Waiting to Start a Service[Downstream]<0.05, 0.01, XIDZ(Patients Waiting to Start a Service\
+		[Downstream], Starting a Service Rate[Downstream], 52)),52) ~~|
+Delay to Starting Service[Intake]=
+	0
+	~	wk
+	~	By Little's Law, the average delay for patients starting services after \
+		intake is the quotent of the number of patients waiting and the rate at \
+		which they start a downstream service.  Wait time is capped at 52 weeks \
+		and is also constrained from going to zero as the number of patients \
+		waiting to start service approaches zero.  The model starts with the team \
+		meeting their goal of a one week wait time (set by the variable \
+		"Acceptable Delay to Starting Service").
+	|
+
+"Return Visit Interval (RVI)"[Downstream]=
+	0,0,0,0,0,0
+	~	wk [0,75,1]
+	~	User can set a new desired return visit interval, regardless of whether or \
+		not the team has enough supply for the patient demand (default is set to \
+		zero, thus using the team's data instead).
+	|
+
+Effect of Work Pressure on Overtime[service]=
+	MAX(SMOOTHI((Work Pressure[service]^Sensitivity of Overtime to Work Pressure),Time to Change Staff Hours\
+		,1),0.8)
+	~	Dmnl
+	~	High schedule pressure leads to overtime; low pressure does not lead to a \
+		reduction in hours worked (i.e., the effect is restricted from going below \
+		1).
+	|
+
+Difference between Actual and Standard RVI[service]=
+	XIDZ(Actual Return Visit Interval[service],RVI[service],1)
+	~	Dmnl
+	~	Ratio of services' acutal RVI to the team's desired RVI.
+	|
+
+Patient Start Rate[service]=
+	ZIDZ((ZIDZ(Appointment Rate for Service Capacity[service] , Demand per Patient per Week\
+		[service])) , Median Engagement[service])
+	~	pts/wk
+	~	Defined to maintain equilibrium in the base case (i.e., if no switches are \
+		active).  The team can only start as many patients as they have the \
+		service capacity to see.
+	|
+
+Maximum Start Rate Service[service]=
+	Patients Waiting to Start a Service[service]/Minimum Time to Schedule[service]
+	~	pts/wk
+	~	The maximum new patient start rate is determined by the new patient \
+		waiting list and minimum time to schedule patient appointments.
+	|
+
+Minimum Time to Schedule[service]=
+	0.1
+	~	wk
+	~	The fastest possible time to schedule a new patient appointment.
+	|
+
+Appointment Rate for Service Capacity[service]=
+	ZIDZ(Actual Service Capacity[service] , Time per Appointment[service])
+	~	appt/wk
+	~	The appointment completion rate is the rate at which appointments would be \
+		completed in each service by the current team at the standard allocation \
+		of hours and hours lost to appointment re-scheduling for each service. \
+		Used to initialize the model, so the referral, start, and end rates for \
+		patients in each service is in equilibrium.
+	|
+
+Acceptable Delay to Starting Service[service]=
+	1
+	~	wk
+	~	The team's goal to start patients in any service within one week of their \
+		intake appointment.
+	|
+
+Official Hours Available for Service[service]=
+	MAX(
+	
+	IF THEN ELSE(Time<0, "Appointment Supply (median)"[service], IF THEN ELSE(Appointment Supply\
+		[service]<0,"Appointment Supply (median)"[service], Appointment Supply[service]))
+	
+	*"Effect of Long-Term Overtime on Burnout"
+	
+	,0)
+	~	hrs/wk
+	~	The hours available for patient appointments in each service depends on \
+		the baseline hours offered and the effect of burnout on those hours.  \
+		Official hours are prevented from going below zero.
+	|
+
+Actual Hours Available for Service[service]=
+	QUANTUM(Official Hours Available for Service[service]*Effect of Work Pressure on Overtime\
+		[service], 0.001)
+	~	hrs/wk
+	~	The clinician time available for a service depends on the total clinical \
+		hours available, the relative increase in hours due to overtime, and the % \
+		allocated to a service.
+	|
+
+Actual Engagement Time[service]=
+	Median Engagement[service]*Effect of Provider Fatigue on Patient's Engagement Time
+	~	wk
+	~	The actual time patients spend in a service depends on both the median \
+		time estimated from the team's visit data and the effect of provider \
+		fatigue on patient engagement.
+	|
+
+Ending Service Rate[service]=
+	ZIDZ(Patients in Service[service] , Actual Engagement Time[service])
+	~	pts/wk
+	~	The number of patients ending a service is a function of the average \
+		duration.
+	|
+
+Burnout Onset Time=
+	52
+	~	wk
+	~	Time for the extended workweek to have an effect on turnover (from Oliva).
+	|
+
+"Sensitivity of Staff Burnout Due to Long-Term Overtime"=
+	1
+	~	Dmnl [0,2,0.1]
+	~	Exponent controlling the effect of long-term use of overtime on burnout, \
+		where an increase in long-term overtime causes an increase in the staff \
+		quit rate and thus the hours available declines. A value of "1" implies \
+		the assumption that doubling the hours worked over the official hours will \
+		eventually cause enough quits to cut the official hours offered in half.  \
+		For the same situation, a value of "0.5" would eventually reduce the \
+		official team hours to 71% of its original value, and a value of 1.5 would \
+		reduce the official hours to 35% of the original.
+	|
+
+Intake Evaluation Wait Time[Intake]=
+	MIN(IF THEN ELSE(Patients Waiting for Intake Evaluation[Intake]<0.05, 0.01, XIDZ(Patients Waiting for Intake Evaluation\
+		[Intake], Intake Completion Rate[Intake], 52)),52) ~~|
+Intake Evaluation Wait Time[Downstream]=
+	0
+	~	wk
+	~	By Little's Law, the average wait time for new patients is the quotent of \
+		the number of patients waiting and the rate at which they start service.  \
+		Wait time is capped at 52 weeks and is also constrained from going to zero \
+		as the number of patients waiting for intake approaches zero.  The model \
+		starts with the team meeting their goal of a one week wait time (set by \
+		the variable "Acceptable Delay to Starting Service").
+	|
+
+Sensitivity of Patient's Engagement Time to Provider Fatigue=
+	1
+	~	Dmnl [0,2,0.1]
+	~	Exponent controlling the effect of provider fatigue on patients' duration \
+		in a service, where the total time in a service drops as fatigue \
+		increases.  A value of "1" implies the assumption that doubling provider \
+		fatigue (e.g., short-term increases in work hours) will reduce the \
+		patients percieved quality of service, and thus their willingness to \
+		remain in that service by half.  For the same situation, a value of "0.5" \
+		would reduce the average duration in that service to 71% of the original \
+		time in service, and a value of 1.5 would reduce the duration to only 35% \
+		of the original duration.
+	|
+
+Downstream:
+	Psych, EBPsych, CC, MM, Adjunctive, Group
+	~	
+	~	The possible services patients are assigned to, after their Intake \
+		appointment.
+	|
+
+Potential Completion Rate[service]=
+	(Actual Hours Available for Service[service]/Time per Appointment[service])
+	~	appt/wk
+	~	The potential completion rate depends on the net available clinical hours \
+		and the time per apppointment.
+	|
+
+FromIntake:
+	Intake, Intake, Intake, Intake, Intake, Intake -> Downstream
+	~	
+	~		|
+
+"% of Hours per Service"[service]=
+	ZIDZ(Official Hours Available for Service[service],"Appt. Supply (Total)")
+	~	Dmnl
+	~	The ratio of hours used for any one service compared to the total team \
+		hours.
+	~	:SUPPLEMENTARY 
+	|
+
+"Appointment Supply (median)"[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B2')
+	~	hrs/wk [0,?]
+	~	The baseline clinical hours allocated to each service, taken from the \
+		team's data. These data; along with the time per appointment, the baseline \
+		missed appointment ratio, and the standard return visit interval; \
+		determine the equilibrium patient start rate in the base case.
+	|
+
+"User-defined True Missed Appointment %"[service]=
+	-0.01,-0.01,-0.01,-0.01,-0.01,-0.01,-0.01
+	~	Dmnl [-0.01,1,0.01]
+	~	User can set a new proportion of total appointments missed per week to be \
+		rescheduled (i.e., rework).
+	|
+
+Total Initial Patients=
+	SUM(Initial Patients[service!])
+	~	pts
+	~	The sum of all patients in all services.
+	~	:SUPPLEMENTARY 
+	|
+
+Demand per Patient per Week[service]=
+	ZIDZ(ZIDZ(1 , Patients per Appointment[service]) , RVI[service])
+	~	appt/(wk*pts)
+	~	Baseline number of appointments generated per patient per week for a \
+		service.
+	|
+
+Initial Patients[service]= INITIAL(
+	ZIDZ(Appointment Rate for Service Capacity[service] , Demand per Patient per Week[service\
+		]))
+	~	pts
+	~	The initial number of patients seen by the team is determined by the \
+		initial appointment completion rate and the demand per patient.  Note that \
+		the equation type is INITIAL, which ensures that the initial patient load \
+		remains constant even if the appointment completion rate varies.  By \
+		setting this initial patient load, we ensure that appointments are booked \
+		at exactly the rate the team can handle, given the team size and standard \
+		values for time per appoitment, return visit interval, missed \
+		opportunities, and % team time allocated to each service.
+	|
+
+Time to Change Scheduled RVI=
+	2
+	~	wk
+	~	Takes 2 weeks to recognize work pressure and change scheduled return visit \
+		interval.
+	|
+
+"New Patient Start Rate (mean)"[Intake]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B6') ~~|
+"New Patient Start Rate (mean)"[Downstream]=
+	0
+	~	pts/wk
+	~	Total new patients scheduling rate across all services, based on team's own data.  A \
+		patient counts as "new" if they have not completed an appointment in any \
+		of the set of clinics identified by the team as "theirs" within the \
+		previous 2 years.  It is not based on CPT codes identifying intake \
+		appointments.  We assume that all new patients have an intake appointment, \
+		even if not coded as such.
+		
+		total new patients to any service per week - defined on June2018
+	|
+
+Actual Return Visit Interval[service]=
+	MIN(IF THEN ELSE(Appointments[service]<0.05,0.01,XIDZ(Appointments[service],Completing Rate\
+		[service], 52)),52)
+	~	wk
+	~	The average time to between appointments is determined by Little's Law as \
+		the ratio of the appointment backlog to completion rate. Actual RVI is \
+		capped at 52 weeks and is also constrained from going to zero as the \
+		number of appointments approaches zero.
+	|
+
+Appointments to Reschedule[service]= INTEG (
+	True Missed Appointment Rate[service]-Rescheduling Rate[service],
+		True Missed Appointment Rate[service]*Time to Reschedule)
+	~	appt
+	~	The number of appointments to be rescheduled. This assumes that all missed \
+		appointments are eventually rescheduled.
+	|
+
+Appointments[service]= INTEG (
+	Booking Rate[service]+Rescheduling Rate[service]-Completing Rate[service],
+		(Booking Rate[service])*(RVI[service])
+		+ (
+		(((Actual Hours Available for Service[service]/Time per Appointment[service])*"True Missed Appointment %"\
+		[service])*RVI[service])
+		))
+	~	appt
+	~	The initial backlog is set to the equilibrium value determined by the \
+		arrival rate and target return interval (following Little's Law), along \
+		with the "rework" from rescheduling missed appointments.
+	|
+
+Median Engagement[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B3')
+	~	wk
+	~	These estimated service durations do not include patients who only come \
+		for one visit ("one-n-dones" are a significant portion of all patient \
+		visits).
+	|
+
+Scheduled Return Visit Interval[service]=
+	RVI[service]*Effect of Work Pressure on Scheduled Return Visit Interval[service]
+	~	wk
+	~	The actual scheduled return visit interval is the standard interval \
+		modified by the effect of work pressure.  Any increase in the interval \
+		between appointments is temporary and does not erode the standard of care \
+		over the long-term.
+	|
+
+Appointment Supply[service]=
+	-1,-1,-1,-1,-1,-1,-1
+	~	hrs/wk [-1,200,1]
+	~	User can set a new number of clinical hours allocated per week to a \
+		service (default is set to -1, thus using the team's data instead). If \
+		time available for a service is set to zero, then we assume that all those \
+		appointments would be cancelled and rebooked with another team.  Thus, no \
+		Work Pressure will be felt, no matter how many appointments remain to be \
+		completed.
+	|
+
+Completing Rate[service]=
+	QUANTUM(MIN(Maximum Completion Rate[service], MIN(Desired Completion Rate[service],Potential Completion Rate\
+		[service])),0.001)
+	~	appt/wk
+	~	The rate at which patient appointments are completed is the lesser of the \
+		maximum rate, the desired rate, or the potential rate, which in turn is \
+		determined by labor, workday, and the time spent on each appointment.
+	|
+
+Desired Clinical Hours[service]=
+	Desired Completion Rate[service]*Time per Appointment[service]
+	~	hrs/wk
+	~	This is the desired service capacity based on the desired appoinutment \
+		completion rate and the standard time per appointment.
+	|
+
+Time per Appointment[service]=
+	0.5,1,1,0.5,0.5,1,0.25
+	~	hrs/appt
+	~	The appointment length for a service;aka, the productivity.
+	|
+
+Maximum Completion Rate[service]=
+	Appointments[service]/Minimum RVI[service]
+	~	appt/wk
+	~	The maximum completion rate is determined by the appointment backlog and \
+		minimum time between patient appointments.
+	|
+
+Minimum RVI[service]=
+	0.1
+	~	wk
+	~	The fastest possible completion time between patient appointments.
+	|
+
+Patients per Appointment[service]=
+	1,1,1,1,1,1,6
+	~	pts/appt
+	~	Usually 1 patient per appointment, except for group clinics, where the \
+		ideal number is 8 patients per appointment, but is often as low as 4.
+	|
+
+Rescheduling Rate[service]=
+	QUANTUM(Appointments to Reschedule[service]/Time to Reschedule,0.001)
+	~	appt/wk
+	~	The rate at which appointments are rescheduled. First order delay from the \
+		Appointments to Reschedule stoc, determined by the number of appointments \
+		to reschedule and the average time it takes to reschedule an appointment.
+	|
+
+service:
+	Intake, Psych, EBPsych, CC, MM, Adjunctive, Group
+	~	
+	~		|
+
+Work Pressure[service]=
+	QUANTUM(ZIDZ(Desired Clinical Hours[service], Actual Hours Available for Service[service\
+		]), 0.001)
+	~	Dmnl
+	~	Work pressure is the ratio of the desired to actual clinical hours \
+		available for a service.  If the Official Hours Available for Service is \
+		set to zero, then no Work Pressure is felt, no matter how many \
+		appointments remain to be completed.  We assume that all those \
+		appointments would be cancelled and rebooked with another team.
+	|
+
+"True Missed Appointment %"[service]=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','B1')
+	~	Dmnl
+	~	The fraction of appointments for a service missed by either the clinician \
+		or the patient.
+	|
+
+Time to Change Staff Hours=
+	4
+	~	wk
+	~	Takes 4 weeks to recognize work pressure and change staff hours.
+	|
+
+Time to Perceive Internal Delays=
+	4
+	~	wk
+	~	Time to notice and respond to differences between desired and actual \
+		Return Visit Interval and care delays within a team. Set to 4 weeks, i.e., \
+		a monthly staff meeting update.
+	|
+
+Time to Reschedule=
+	2
+	~	wk
+	~	Average time to contact the patient and negotiate a make-up appointment.
+	|
+
+Fatigue Onset Time=
+	3
+	~	wk
+	~	Time for the extended workweeks to have an impact on employee fatigue and \
+		capability to keep appointments (from Oliva).
+	|
+
+Sensitivity of Overtime to Work Pressure=
+	1
+	~	Dmnl [0,2,0.1]
+	~	Exponent controlling the effect of work pressure on overtime, where an \
+		increase in appointment backlog causes the team to work more "unofficial" \
+		hours . A value of "1" implies the assumption that there is a direct \
+		relationship between work pressure and the amount of overtime used (e.g., \
+		doubling the work pressure will also double the hours worked per week).  \
+		For the same situation, a value of "0.5" would only increase the hours \
+		worked to 41% over the original value, and a value of 1.5 would increase \
+		the hours worked to 182% over the original value.
+	|
+
+"Sensitivity of Staff Missed Appointments Due to Short-Term Overtime"=
+	1
+	~	Dmnl [0,2,0.1]
+	~	Exponent controlling the effect of work hours on missed appointments, \
+		where extended workweeks lead to reduced productivity via increased missed \
+		appointments by clinicians and patients (as clinicians have less time to \
+		devote to non-patient facing tasks -- like appointment reminder calls).  A \
+		value of "1" implies the assumption that there is a direct relationship \
+		between relative increases in work hours and the percent of appointments \
+		missed (e.g., doubling the work hours will also double the % of \
+		appointments missed).  For the same situation, a value of "0.5" would only \
+		increase the number missed appointments to 41% over the original value, \
+		and a value of 1.5 would increase the missed appointments by 182%.
+	|
+
+Sensitivity of Treatment Decisions to Existing Patient Care Delays=
+	1
+	~	Dmnl [0,2,0.1]
+	~	Exponent controlling the effect of care delay on service attractiveness, \
+		where the attractiveness of a service drops as care delays increase.  A \
+		value of "-1" implies the assumption that doubling the time between \
+		appointments for existing patients (e.g., delaying their care) will reduce \
+		the new patient referral rate for that service by half.  For the same \
+		situation, a value of "-0.5" would reduce the referral rate for that \
+		service, or its attractiveness, to 71% of the original rate, and a value \
+		of -1.5 would reduce the attractiveness to only 35% of the original rate.
+	|
+
+Sensitivity of Scheduled Return Visit Interval to Work Pressure=
+	1
+	~	Dmnl [0,2,0.1]
+	~	Exponent controlling the effect of work pressure on delays in care, where \
+		an increase in appointment backlog causes the team to extend the scheduled \
+		Return Visit Interval for current patients. A value of "1" implies the \
+		assumption that there is a direct relationship between work pressure and \
+		RVI (e.g., doubling the work pressure will also double the RVI).  For the \
+		same situation, a value of "0.5" would only increase the RVI by 41% over \
+		its original value, and a value of 1.5 would increase the RVI by 182% over \
+		the original value.
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 104
+	~	wk
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = -13
+	~	wk
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	wk [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.03125
+	~	wk [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Interface
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,90,0
+12,1,3541244,189,227,80,20,3,124,0,0,0,0,0,0
+"Sensitivity of Staff Burnout Due to Long-Term Overtime",0,2,0.1
+12,2,2230652,189,161,80,20,3,124,0,0,0,0,0,0
+Sensitivity of Overtime to Work Pressure,0,2,0.1
+12,3,3084478,189,88,80,20,3,124,0,0,0,0,0,0
+Sensitivity of Scheduled Return Visit Interval to Work Pressure,0,2,0.1
+12,4,3082518,192,3,42,20,3,252,0,0,0,0,0,0
+Appointment Supply[Intake],-1,200,1
+12,5,2689156,659,810,39,20,3,252,0,0,0,0,0,0
+"User-defined Service Proportions from Supply"[Psych],-0.05,1,0.05
+12,6,1904804,199,420,80,20,3,124,0,0,0,0,0,0
+"User-defined True Missed Appointment %"[service],-0.05,1,0.05
+12,7,0,100,-32,67,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+Supply Experiments:
+12,8,0,150,312,115,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+Engagement Patterns Experiments:
+12,9,1970864,199,345,80,20,3,124,0,0,0,0,0,0
+"Sensitivity of Staff Missed Appointments Due to Short-Term Overtime",0,2,0.1
+12,10,2558308,201,683,80,20,3,124,0,0,0,0,0,0
+Sensitivity of Treatment Decisions to Existing Patient Care Delays,0,2,0.1
+12,11,5311262,201,750,80,20,3,124,0,0,0,0,0,0
+#Effect of Start Delays on Within Team Referrals>SMOOTHI#,0,1,1
+12,12,0,156,583,129,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+New Patient and Referrals Experiments:
+12,13,2361606,599,290,213,148,3,188,0,0,1,0,0,0
+Current_Patients
+12,14,2098618,1035,290,211,149,3,188,0,0,1,0,0,0
+New_Patients
+12,15,2296066,599,576,214,127,3,188,0,0,1,0,0,0
+Return_Visit_Interval
+12,16,2166704,1035,575,211,126,3,188,0,0,1,0,0,0
+Supply
+12,17,2296058,201,489,80,20,3,124,0,0,0,0,0,0
+Sensitivity of Patient's Engagement Time to Provider Fatigue,0,2,0.1
+12,18,4458542,499,3,39,20,3,252,0,0,0,0,0,0
+Appointment Supply[Psych],-1,200,1
+12,19,3148072,795,-23,40,20,3,252,0,0,0,0,0,0
+Appointment Supply[EBPsych],-1,200,1
+12,20,3017448,1088,3,38,20,3,252,0,0,0,0,0,0
+Appointment Supply[CC],-1,200,1
+12,21,1968278,500,86,43,20,3,252,0,0,0,0,0,0
+Appointment Supply[MM],-1,200,1
+12,22,1968276,797,60,40,20,3,252,0,0,0,0,0,0
+Appointment Supply[Adjunctive],-1,200,1
+12,23,2164908,1087,86,36,20,3,252,0,0,0,0,0,0
+Appointment Supply[Group],-1,200,1
+12,24,2033838,653,733,38,20,3,252,0,0,0,0,0,0
+"User-defined Service Proportions from Supply"[EBPsych],-0.05,1,0.05
+12,25,2689770,899,762,36,20,3,252,0,0,0,0,0,0
+"User-defined Service Proportions from Supply"[CC],-0.05,1,0.05
+12,26,2689778,1126,733,36,20,3,252,0,0,0,0,0,0
+"User-defined Service Proportions from Supply"[MM],-0.05,1,0.05
+12,27,1902692,904,835,35,21,3,252,0,0,0,0,0,0
+"User-defined Service Proportions from Supply"[Adjunctive],-0.05,1,0.05
+12,28,1968304,1125,808,35,20,3,252,0,0,0,0,0,0
+"User-defined Service Proportions from Supply"[Group],-0.05,1,0.05
+12,29,1968240,435,772,37,20,3,252,0,0,0,0,0,0
+"User-defined Intake Evaluation Rate"[Intake],-1,200,1
+12,30,2363590,201,615,80,20,3,124,0,0,0,0,0,0
+Sensitivity of Intake Evaluation Rate to Wait Times,0,2,0.1
+12,31,2230532,198,820,80,20,3,124,0,0,0,0,0,0
+Use Team Data on New Pt Referrals,0,1,1
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Appointments
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,85,0
+10,1,Appointments,527,249,57,23,3,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+12,2,48,315,247,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,3,5,1,4,0,0,22,0,0,0,-1--1--1,,1|(431,247)|
+1,4,5,2,100,0,0,22,0,0,0,-1--1--1,,1|(352,247)|
+11,5,48,386,247,6,8,34,3,0,0,1,0,0,0
+10,6,Booking Rate,386,266,45,11,40,3,0,0,-1,0,0,0
+12,7,48,741,247,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,8,10,7,4,0,0,22,0,0,0,-1--1--1,,1|(699,249)|
+1,9,10,1,100,0,0,22,0,0,0,-1--1--1,,1|(620,249)|
+11,10,48,662,249,6,8,34,3,0,0,1,0,0,0
+10,11,Completing Rate,662,268,55,11,40,3,0,0,-1,0,0,0
+10,12,"Current Pt Appts / week",245,382,56,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,13,12,6,1,0,43,13,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(264,329)|
+10,14,Scheduled Return Visit Interval,274,480,60,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,15,14,12,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(241,437)|
+10,16,Patients in Service,225,533,41,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,17,16,12,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(208,496)|
+10,18,Patients per Appointment,153,455,44,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,19,18,12,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(180,426)|
+10,20,"Appt. Supply (Total)",1198,640,43,20,8,131,0,0,0,0,0,0
+10,21,Potential Completion Rate,769,347,56,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,22,21,11,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(730,302)|
+10,23,Effect of Work Pressure on Scheduled Return Visit Interval,386,555,62,31,3,131,0,0,0,0,0,0
+1,24,23,14,1,0,43,13,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(297,517)|
+10,25,RVI,373,417,14,11,8,3,0,0,0,0,0,0
+1,26,25,14,1,0,43,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(346,470)|
+10,27,Work Pressure,519,520,33,18,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,28,27,23,1,0,43,13,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(486,543)|
+10,29,Desired Completion Rate,588,342,56,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,30,1,29,1,0,43,13,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(565,283)|
+10,31,Desired Clinical Hours,557,432,51,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,32,29,31,1,0,43,13,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(600,379)|
+1,33,31,27,1,0,43,13,42,64,0,-1--1--1,Meiryo|10||0-0-0,1|(557,458)|
+10,34,Minimum RVI,690,137,44,11,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,35,Maximum Completion Rate,629,186,56,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,36,34,35,1,0,45,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(667,164)|
+1,37,1,35,1,0,43,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(557,200)|
+1,38,35,10,1,0,43,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(661,217)|
+10,39,Sensitivity of Scheduled Return Visit Interval to Work Pressure,385,668,95,30,8,3,0,2,-1,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,40,Time per Appointment,679,389,44,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,41,40,21,1,0,45,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(698,351)|
+1,42,40,31,1,0,43,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(625,441)|
+10,43,"% of Hours per Service",1016,846,50,20,8,131,0,0,0,0,0,0
+10,44,Appointment Supply,1014,793,44,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,45,Actual Hours Available for Service,807,521,68,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,46,45,27,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(689,481)|
+1,47,45,21,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(834,451)|
+12,48,0,240,849,61,20,8,7,0,42,-1,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-0-255
+Pink = Experiment levers
+12,49,0,417,849,90,20,8,7,0,2,-1,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+Green = experiment with strength of feedback effect
+12,50,0,574,849,40,20,8,7,0,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+Red = from team's data
+10,51,Effect of Work Pressure on Overtime,679,626,44,29,3,131,0,0,0,0,0,0
+1,52,27,51,1,0,43,13,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(571,587)|
+10,53,Sensitivity of Overtime to Work Pressure,677,712,74,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+1,54,51,45,1,0,43,13,42,64,0,-1--1--1,Meiryo|10||0-0-0,1|(777,585)|
+12,55,0,661,532,15,15,5,135,0,40,-1,0,0,0,-1--1--1,0-0-0,Meiryo|10||0-0-0
+B
+12,56,0,663,566,77,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Overtime Relieves Work Pressure Quickly
+12,57,0,416,299,15,15,4,135,0,40,-1,0,0,0,-1--1--1,0-0-0,Meiryo|10||0-0-0
+B
+12,58,0,416,335,97,25,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Appointment Backlog Extends Return Visit Interval
+10,59,Time to Change Staff Hours,540,704,54,20,8,3,0,0,-1,0,0,0
+1,60,59,51,0,0,45,0,42,64,0,-1--1--1,Meiryo|10||0-0-0,1|(598,670)|
+10,61,Appointments to Reschedule,680,75,48,23,3,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,62,64,1,4,0,0,22,0,0,0,-1--1--1,,1|(526,180)|
+1,63,64,61,100,0,0,22,0,0,0,-1--1--1,,1|(526,75)|
+11,64,2428,526,127,6,8,34,3,0,0,2,0,0,0
+10,65,Rescheduling Rate,473,127,45,20,40,3,0,0,-1,0,0,0
+10,66,Time to Reschedule,368,127,39,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,67,66,65,1,0,45,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(410,92)|
+1,68,61,64,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(585,115)|
+12,69,48,862,76,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,70,72,61,4,0,0,22,0,0,0,-1--1--1,,1|(759,74)|
+1,71,72,69,100,0,0,22,0,0,0,-1--1--1,,1|(827,74)|
+11,72,48,797,74,6,8,34,3,0,0,1,0,0,0
+10,73,True Missed Appointment Rate,797,102,61,20,40,3,0,0,-1,0,0,0
+1,74,10,73,1,0,43,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(767,177)|
+10,75,"True Missed Appointment %",1174,98,53,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,76,75,130,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1082,98)|
+1,77,25,1,0,0,0,0,0,64,1,-1--1--1,,1|(439,344)|
+1,78,66,61,0,0,0,0,0,64,1,-1--1--1,,1|(512,103)|
+10,79,Official Hours Available for Service,842,600,53,26,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,80,Fatigue Onset Time,1165,328,41,23,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,81,"Effect of Short-Term Overtime on Missed Appointments",1014,226,68,30,8,131,0,0,0,0,0,0
+10,82,"Sensitivity of Staff Missed Appointments Due to Short-Term Overtime",1215,226,83,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+1,83,81,130,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(1011,152)|
+12,84,0,856,212,15,15,5,135,0,40,-1,0,0,0,-1--1--1,0-0-0,Meiryo|10||0-0-0
+R
+12,85,0,857,255,70,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Fatigue Increases Missed Appointments
+1,86,45,1,0,0,0,0,0,64,1,-1--1--1,,1|(673,391)|
+1,87,40,1,0,0,0,0,0,64,1,-1--1--1,,1|(609,325)|
+1,88,75,1,0,0,0,0,0,64,1,-1--1--1,,1|(859,170)|
+10,89,"User-defined True Missed Appointment %",1173,153,77,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,90,89,130,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1069,125)|
+12,91,0,753,410,15,15,5,135,0,40,-1,0,0,0,-1--1--1,0-0-0,Meiryo|10||0-0-0
+B
+12,92,0,753,451,77,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Overtime Relieves Work Pressure Slowly
+1,93,79,45,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(815,568)|
+10,94,"Appointment Supply (median)",1007,737,58,23,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,95,94,79,1,0,43,0,42,64,0,-1--1--1,Meiryo|10||0-0-0,1|(892,698)|
+1,96,20,43,1,0,45,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(1186,793)|
+1,97,79,43,1,0,43,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(838,723)|
+10,98,Time to Change Scheduled RVI,506,620,54,20,8,3,0,0,0,0,0,0
+1,99,98,23,0,0,45,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(462,596)|
+10,100,"Sensitivity of Staff Burnout Due to Long-Term Overtime",1008,602,94,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,101,Burnout Onset Time,1260,539,49,20,8,131,0,0,0,0,0,0
+10,102,"Effect of Long-Term Overtime on Burnout",1009,677,70,20,8,131,0,0,0,0,0,0
+1,103,100,102,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1008,632)|
+1,104,102,79,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(884,644)|
+12,105,0,966,508,15,15,5,135,0,0,-1,0,0,0
+B
+12,106,0,969,542,60,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Burnout Increases Clinican Quits
+12,107,0,204,135,98,98,6,135,0,0,-1,0,0,0
+The 7 primary services in this model are Intake, Psych, EBPsych, CC, MM, Adjunctive, and Group, respectively.
+1,108,53,51,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(677,680)|
+1,109,82,81,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1114,226)|
+10,110,"Return Visit Interval (median)",435,492,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,111,"Return Visit Interval (RVI)",471,450,47,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,112,111,25,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(418,452)|
+1,113,110,25,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(398,462)|
+1,114,44,79,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(868,726)|
+10,115,Intake Completion Rate,124,533,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,116,115,117,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(72,457)|
+10,117,"New Pt Appts / week",129,383,51,20,8,3,0,0,0,0,0,0
+1,118,18,117,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(143,425)|
+1,119,117,6,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(207,309)|
+10,120,Time,371,377,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,121,120,25,0,0,0,0,0,64,0,-1--1--1,,1|(371,390)|
+10,122,Time,842,680,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,123,122,79,0,0,0,0,0,64,0,-1--1--1,,1|(842,654)|
+10,124,Hours for Calculating Total Official Team Hours,1136,719,45,32,8,131,0,0,0,0,0,0
+1,125,94,124,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1088,743)|
+1,126,44,124,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1113,777)|
+1,127,124,20,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1183,685)|
+10,128,Time,1136,771,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,129,128,124,0,0,0,0,0,64,0,-1--1--1,,1|(1136,762)|
+10,130,"Actual True Missed Appointment %",966,99,63,20,8,3,0,0,0,0,0,0
+1,131,130,73,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(887,100)|
+10,132,Time,964,61,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,133,132,130,0,0,0,0,0,64,0,-1--1--1,,1|(964,68)|
+1,134,80,140,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(1110,328)|
+1,135,101,141,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(1199,539)|
+1,136,29,11,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(658,310)|
+10,137,RVI used when Completing,482,385,51,20,8,3,0,0,0,0,0,0
+1,138,25,137,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(440,425)|
+1,139,137,29,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(549,376)|
+10,140,"Short-Term Overtime",1042,329,40,20,3,3,0,0,0,0,0,0
+10,141,"Long-Term Overtime",1134,539,40,20,3,3,0,0,0,0,0,0
+10,142,Difference between Excess and Official Team Hours,979,442,82,30,8,131,0,0,0,0,0,0
+1,143,20,142,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(1192,513)|
+1,144,45,142,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(853,472)|
+1,145,142,140,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(1027,395)|
+1,146,142,141,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(1088,466)|
+1,147,141,102,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(1132,617)|
+1,148,140,81,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(1042,273)|
+1,149,39,23,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(385,619)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Patients
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,75,0
+10,1,Patients in Service,1084,379,40,20,3,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+12,2,48,1262,381,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,3,5,2,4,0,0,22,0,0,0,-1--1--1,,1|(1227,378)|
+1,4,5,1,100,0,0,22,0,0,0,-1--1--1,,1|(1157,378)|
+11,5,48,1197,378,6,8,34,3,0,0,1,0,0,0
+10,6,Ending Service Rate,1197,403,49,20,40,131,0,0,-1,0,0,0
+1,7,1,5,1,0,43,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(1141,348)|
+10,8,Median Engagement,1085,619,43,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,9,8,57,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1085,553)|
+10,10,Difference between Actual and Standard RVI,893,137,66,25,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,11,RVI,1172,138,45,21,8,130,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,12,11,10,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(1017,112)|
+10,13,Sensitivity of Treatment Decisions to Existing Patient Care Delays,533,205,93,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||64-160-98
+1,14,13,24,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(664,198)|
+1,15,10,151,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(788,104)|
+12,16,0,873,280,15,15,4,135,0,40,-1,0,0,0,-1--1--1,0-0-0,Meiryo|10||0-0-0
+B
+12,17,0,873,315,67,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Start Delays Affect Treatment Decisions
+10,18,Actual Return Visit Interval,1175,202,62,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,19,18,10,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(1037,140)|
+10,20,Appointments,1274,311,56,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,21,20,18,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(1251,247)|
+10,22,Completing Rate,1332,246,44,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,23,22,18,1,0,45,0,42,64,0,-1--1--1,Meiryo|10||0-0-0,1|(1269,208)|
+10,24,Effect of Start Delays on Treatment Decisions,727,225,53,30,3,131,0,0,0,0,0,0
+10,25,Time to Perceive Internal Delays,366,205,56,20,8,131,0,0,0,0,0,0
+1,26,25,24,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(561,264)|
+10,27,Patients per Appointment,779,822,49,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,28,RVI,774,763,49,20,8,130,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+10,29,Time per Appointment,927,772,49,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+10,30,Demand per Patient per Week,766,707,61,19,8,131,0,0,0,0,0,0
+10,31,Actual Service Capacity,1076,705,48,20,8,131,0,0,0,0,0,0
+1,32,28,30,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(711,741)|
+1,33,27,30,1,0,45,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(694,783)|
+10,34,Appointment Rate for Service Capacity,918,705,72,20,8,131,0,0,0,0,0,0
+1,35,31,34,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1012,678)|
+10,36,Initial Patients,1543,326,47,11,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,37,Total Initial Patients,1695,326,38,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,38,36,37,0,0,43,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(1616,326)|
+1,39,30,36,0,0,0,0,0,128,1,-1--1--1,,1|(1155,515)|
+1,40,34,36,0,0,0,0,0,128,1,-1--1--1,,1|(1231,514)|
+10,41,Patient Start Rate,893,620,59,11,8,131,0,0,0,0,0,0
+10,42,"New Patient Start Rate (mean)",383,302,60,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,43,Patients Waiting to Start a Service,863,377,47,25,3,131,0,0,0,0,0,0
+1,44,46,1,4,0,0,22,0,0,0,-1--1--1,,1|(1005,378)|
+1,45,46,43,100,0,0,22,0,0,0,-1--1--1,,1|(932,378)|
+11,46,1948,961,378,6,8,34,3,0,0,1,0,0,0
+10,47,Starting a Service Rate,961,405,50,19,40,131,0,0,-1,0,0,0
+12,48,48,691,377,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,49,51,43,4,0,0,22,0,0,0,-1--1--1,,1|(780,377)|
+1,50,51,48,100,0,0,22,0,0,0,-1--1--1,,1|(717,377)|
+11,51,48,739,377,6,8,34,131,0,0,1,0,0,0
+10,52,Treatment Decision Rate,739,403,57,18,40,131,0,0,-1,0,0,0
+1,53,41,47,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(988,463)|
+10,54,Effect of Provider Fatigue on Patient's Engagement Time,1255,571,84,30,8,131,0,0,0,0,0,0
+10,55,Sensitivity of Patient's Engagement Time to Provider Fatigue,1255,660,72,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+1,56,55,54,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1254,640)|
+10,57,Actual Engagement Time,1086,474,61,20,8,131,0,0,0,0,0,0
+1,58,54,57,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(1106,526)|
+1,59,57,6,1,0,45,13,2,192,0,-1--1--1,|10||0-0-0,1|(1142,401)|
+12,60,0,1239,462,15,15,5,135,0,0,-1,0,0,0
+B
+12,61,0,1241,495,59,20,8,7,0,0,-1,0,0,0
+Fatigue Increases Ending Early
+10,62,Intake Evaluation Wait Time,525,479,59,20,8,131,0,0,0,0,0,0
+10,63,Service Proportions Balanced Across Team Variables,893,466,76,30,8,131,0,0,0,0,0,0
+1,64,63,159,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(822,481)|
+10,65,Acceptable Delay to Starting Service,1048,221,42,34,8,131,0,0,0,0,0,0
+1,66,24,155,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(689,279)|
+10,67,"User-defined Service Proportions from Supply",653,536,68,26,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,68,67,159,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(732,521)|
+1,69,30,41,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(867,675)|
+1,70,34,41,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(915,669)|
+1,71,29,34,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(964,747)|
+10,72,Minimum Time to Schedule,157,85,58,20,8,3,0,0,0,0,0,0
+10,73,Maximum Start Rate Service,682,49,51,20,8,3,0,0,0,0,0,0
+1,74,72,73,1,0,45,0,42,192,0,-1--1--1,Meiryo|10||0-0-0,1|(355,120)|
+1,75,43,73,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(771,139)|
+1,76,73,46,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(777,128)|
+10,77,Patients Waiting for Intake Evaluation,477,577,44,25,3,131,0,0,0,0,0,0
+1,78,79,77,100,0,0,22,0,0,0,-1--1--1,,1|(544,576)|
+11,79,1996,573,576,6,8,34,3,0,0,1,0,0,0
+10,80,Intake Completion Rate,573,602,56,20,40,131,0,0,-1,0,0,0
+12,81,48,362,577,10,8,0,3,0,0,-1,0,0,0
+1,82,84,77,4,0,0,22,0,0,0,-1--1--1,,1|(415,577)|
+1,83,84,81,100,0,0,22,0,0,0,-1--1--1,,1|(378,577)|
+11,84,48,391,577,6,8,34,3,0,0,1,0,0,0
+10,85,Intake Evaluation Rate,391,603,59,20,40,131,0,0,-1,0,0,0
+10,86,Maximum Start Rate Intake,80,396,51,20,8,3,0,0,0,0,0,0
+1,87,77,86,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(142,669)|
+1,88,86,80,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(163,763)|
+1,89,72,86,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(164,175)|
+1,90,65,43,0,0,0,0,0,64,1,-1--1--1,,1|(955,299)|
+1,91,65,77,0,0,0,0,0,64,1,-1--1--1,,1|(767,395)|
+1,92,41,80,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(734,666)|
+1,93,77,62,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(537,549)|
+1,94,79,62,1,0,45,13,2,192,0,-1--1--1,|10||0-0-0,1|(572,541)|
+1,95,8,41,0,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(1004,619)|
+10,96,Service Proportions from Team Data,913,523,65,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,97,Use Team Data on New Pt Referrals,863,572,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,98,97,159,1,0,0,0,0,128,0,-1--1--1,,1|(812,533)|
+1,99,96,159,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(818,507)|
+10,100,"User-defined Intake Evaluation Rate",391,686,67,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,101,100,85,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(391,651)|
+12,102,48,626,578,10,8,0,3,0,0,-1,0,0,0
+1,103,79,102,4,0,0,22,0,0,0,-1--1--1,,1|(597,576)|
+1,104,79,52,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(634,456)|
+10,105,Delay to Starting Service,991,298,57,20,8,131,0,0,0,0,0,0
+1,106,43,105,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(947,345)|
+1,107,46,105,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(984,341)|
+10,108,Difference between Actual and Acceptable Start Delays,895,221,75,24,8,131,0,0,0,0,0,0
+1,109,105,108,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(973,250)|
+1,110,65,108,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(996,219)|
+1,111,108,24,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(805,184)|
+12,112,0,1132,273,15,15,4,135,0,40,-1,0,0,0,-1--1--1,0-0-0,Meiryo|10||0-0-0
+B
+12,113,0,1133,308,67,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+RVI Delays Affect Treatment Decisions
+10,114,Sensitivity of Intake Evaluation Rate to Wait Times,232,592,79,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||64-160-98
+1,115,114,116,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(232,545)|
+10,116,Effect of Wait Times on Intake Evaluation Rate,232,488,57,26,3,131,0,0,0,0,0,0
+10,117,Time to Perceive Intake Evaluation Wait Times,235,406,62,25,8,131,0,0,0,0,0,0
+1,118,117,116,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(233,439)|
+10,119,Acceptable Intake Eval Wait Time,305,357,61,20,8,131,0,0,0,0,0,0
+10,120,Difference between Intake Eval Wait Times,399,408,77,20,8,131,0,0,0,0,0,0
+1,121,119,120,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(387,362)|
+1,122,120,116,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(306,416)|
+1,123,116,85,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(329,579)|
+1,124,62,120,1,0,43,13,2,128,0,-1--1--1,|10||0-0-0,1|(518,454)|
+12,125,0,389,471,15,15,4,135,0,40,-1,0,0,0,-1--1--1,0-0-0,Meiryo|10||0-0-0
+B
+12,126,0,383,508,61,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Wait Times Affect Intake Evaluations
+10,127,Time,391,640,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,128,127,85,0,0,0,0,0,64,0,-1--1--1,,1|(391,633)|
+1,129,36,1,0,0,0,0,0,64,1,-1--1--1,,1|(1316,351)|
+10,130,Time,785,441,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,131,Actual Hours Available for Service,1095,765,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,132,131,31,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1136,740)|
+10,133,"Actual True Missed Appointment %",1119,815,76,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,134,133,31,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(1174,717)|
+12,135,0,238,214,64,64,6,135,0,0,-1,0,0,0
+Model Walk-through -- Levels 1-5
+1,136,41,63,1,0,0,0,0,128,1,-1--1--1,,1|(903,503)|
+10,137,Data on Review Rate,523,306,54,20,8,3,0,0,0,0,0,0
+1,138,42,137,0,0,0,0,0,128,1,-1--1--1,,1|(449,303)|
+10,139,"User-defined Review Rate",487,355,43,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,140,Review Rate,605,404,42,11,8,3,0,0,0,0,0,0
+1,141,139,140,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(537,390)|
+1,142,137,140,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(542,340)|
+1,143,140,52,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(657,403)|
+1,144,41,137,0,0,0,0,0,128,1,-1--1--1,,1|(718,472)|
+1,145,137,63,0,0,0,0,0,128,1,-1--1--1,,1|(689,378)|
+10,146,Time,604,365,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,147,146,140,0,0,0,0,2,64,0,-1--1--1,|10||0-0-0,1|(604,377)|
+10,148,Appropriate Intake Evaluations for Supply,391,737,73,20,8,3,0,0,0,0,0,0
+1,149,41,148,0,0,0,0,0,64,1,-1--1--1,,1|(661,673)|
+1,150,148,85,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(325,687)|
+10,151,Effect of RVI Delays on Treatment Decisions,693,136,53,30,3,131,0,0,0,0,0,0
+1,152,25,151,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(524,139)|
+1,153,13,151,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(613,155)|
+1,154,151,155,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(651,257)|
+10,155,Effect of Care Delays on Treatment Decisions,703,311,80,20,8,3,0,0,0,0,0,0
+1,156,155,51,1,0,45,13,2,192,0,-1--1--1,|10||0-0-0,1|(712,343)|
+10,157,"User-defined Service Proportions from Team Data",722,596,77,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,158,157,159,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(758,526)|
+10,159,Service Proportions,751,487,39,20,8,3,0,0,0,0,0,0
+1,160,159,52,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(746,450)|
+1,161,130,159,0,0,0,0,0,128,0,-1--1--1,,1|(775,454)|
+10,162,"Short-Term Overtime",1371,483,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,163,162,54,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(1365,541)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Pts by Diagnosis
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,75,0
+10,1,Patients in Service,237,495,37,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,2,Patients w AUD,539,259,52,11,8,3,0,0,0,0,0,0
+1,3,1,2,0,0,0,0,0,128,0,-1--1--1,,1|(386,377)|
+10,4,"% w AUD",538,204,51,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+1,5,4,2,0,0,0,0,0,128,0,-1--1--1,,1|(538,224)|
+10,6,Total Patients w AUD,709,261,52,19,8,3,0,0,0,0,0,0
+1,7,2,6,0,0,0,0,0,128,0,-1--1--1,,1|(617,259)|
+10,8,Starting a Service w AUD,1007,204,56,19,8,3,0,0,0,0,0,0
+10,9,Patients w DEP,540,379,50,11,8,3,0,0,0,0,0,0
+10,10,"% w DEP",539,324,33,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+1,11,10,9,0,0,0,0,0,128,0,-1--1--1,,1|(539,344)|
+10,12,Total Patients w DEP,710,381,52,19,8,3,0,0,0,0,0,0
+1,13,9,12,0,0,0,0,0,128,0,-1--1--1,,1|(617,379)|
+1,14,1,9,0,0,0,0,0,128,0,-1--1--1,,1|(385,438)|
+10,15,Patients w OUD,535,497,52,11,8,3,0,0,0,0,0,0
+10,16,"% w OUD",534,442,35,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+1,17,16,15,0,0,0,0,0,128,0,-1--1--1,,1|(534,462)|
+10,18,Total Patients w OUD,705,498,52,19,8,3,0,0,0,0,0,0
+1,19,15,18,0,0,0,0,0,128,0,-1--1--1,,1|(613,497)|
+1,20,1,15,0,0,0,0,0,128,0,-1--1--1,,1|(371,495)|
+10,21,Patients w PTSD,531,611,54,11,8,3,0,0,0,0,0,0
+10,22,"% w PTSD",530,556,37,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+1,23,22,21,0,0,0,0,0,128,0,-1--1--1,,1|(530,576)|
+10,24,Total Patients w PTSD,701,613,52,19,8,3,0,0,0,0,0,0
+1,25,21,24,0,0,0,0,0,128,0,-1--1--1,,1|(610,611)|
+1,26,1,21,0,0,0,0,0,128,0,-1--1--1,,1|(381,551)|
+10,27,Patients w Other Needs,533,725,54,19,8,3,0,0,0,0,0,0
+10,28,"% w Other Needs",532,670,58,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|12||255-0-0
+1,29,28,27,0,0,0,0,0,128,0,-1--1--1,,1|(532,686)|
+10,30,Total Patients w Other Needs,708,726,52,19,8,3,0,0,0,0,0,0
+1,31,27,30,0,0,0,0,0,128,0,-1--1--1,,1|(614,725)|
+1,32,1,27,0,0,0,0,0,128,0,-1--1--1,,1|(378,605)|
+1,33,4,8,0,0,0,0,0,128,0,-1--1--1,,1|(763,204)|
+10,34,Starting a Service w DEP,1008,325,56,19,8,3,0,0,0,0,0,0
+1,35,10,34,0,0,0,0,0,64,0,-1--1--1,,1|(755,324)|
+10,36,Starting a Service w OUD,1002,442,56,19,8,3,0,0,0,0,0,0
+1,37,16,36,0,0,0,0,0,64,0,-1--1--1,,1|(750,442)|
+10,38,Starting a Service w PTSD,1002,557,56,19,8,3,0,0,0,0,0,0
+10,39,Starting a Service w Other Needs,1007,671,64,19,8,3,0,0,0,0,0,0
+1,40,22,38,0,0,0,0,0,64,0,-1--1--1,,1|(749,556)|
+1,41,28,39,0,0,0,0,0,64,0,-1--1--1,,1|(759,670)|
+10,42,Total Patients in all Services,237,404,60,19,8,3,0,0,0,0,0,0
+1,43,1,42,0,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(237,456)|
+10,44,Starting a Service Rate,1356,486,46,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,45,Total Starting any Service,1357,385,56,19,8,3,0,0,0,0,0,0
+1,46,44,45,0,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(1356,442)|
+1,47,44,8,0,0,0,0,0,128,0,-1--1--1,,1|(1186,349)|
+1,48,44,34,0,0,0,0,0,128,0,-1--1--1,,1|(1188,408)|
+1,49,44,36,0,0,0,0,0,128,0,-1--1--1,,1|(1190,465)|
+1,50,44,38,0,0,0,0,0,128,0,-1--1--1,,1|(1190,518)|
+1,51,44,39,0,0,0,0,0,128,0,-1--1--1,,1|(1187,575)|
+10,52,Total Starting any Service w AUD,858,262,56,19,8,3,0,0,0,0,0,0
+10,53,Total Starting any Service w DEP,859,382,56,19,8,3,0,0,0,0,0,0
+10,54,Total Starting any Service w OUD,854,499,56,19,8,3,0,0,0,0,0,0
+10,55,Total Starting any Service w PTSD,850,615,56,19,8,3,0,0,0,0,0,0
+10,56,Total Starting any Service w Other Needs,857,729,75,19,8,3,0,0,0,0,0,0
+1,57,8,52,0,0,0,0,0,128,0,-1--1--1,,1|(939,230)|
+1,58,34,53,0,0,0,0,0,128,0,-1--1--1,,1|(940,351)|
+1,59,36,54,0,0,0,0,0,128,0,-1--1--1,,1|(934,468)|
+1,60,38,55,0,0,0,0,0,128,0,-1--1--1,,1|(932,583)|
+1,61,39,56,0,0,0,0,0,128,0,-1--1--1,,1|(938,697)|
+///---\\\
+:GRAPH Return_Visit_Interval
+:TITLE Return Visit Interval
+:SCALE
+:VAR Standard Return Visit Interval
+:VAR Scheduled Return Visit Interval
+:VAR Actual Return Visit Interval
+
+:GRAPH Supply
+:TITLE Supply
+:SCALE
+:VAR Baseline Hours Available for Appointments
+:VAR Official Hours Available for Service
+:VAR Actual Hours Available for Service
+
+:GRAPH New_Patients
+:TITLE New Patients
+:SCALE
+:VAR Referrals to Team
+:VAR Developing Treatment Plan
+:SCALE
+:VAR New Patient Wait Time
+
+:GRAPH Current_Patients
+:TITLE Current Patients
+:SCALE
+:VAR Starting Service
+:VAR Ending Service
+:SCALE
+:VAR Booking Appts
+:VAR True Missed Appointment Rate
+:VAR Completing Appts
+:L<%^E!@
+1:Sept25.vdf
+9:Sept25
+22:week,wk,wks
+23:0
+15:0,0,0,0,0,0
+19:75,2
+27:2,
+34:0,
+4:Time
+5:Patients in Service[service]
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:3
+41:0
+42:1
+24:-13
+25:104
+26:104
+6:Adjunctive
+6:CC
+6:EBPsych
+6:Group
+6:Intake
+6:MM
+6:Psych
