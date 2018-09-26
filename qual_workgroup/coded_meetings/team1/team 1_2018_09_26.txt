@@ -1,0 +1,92 @@
+Team 1 – Session 10
+9/26/2018 – 10 am PST; 1:00 PST
+Attendees: 1 Team member G joined at 10:00 am; 1 person E joined at 10:05 am; 1 person B joined (temporarily due to patient issue); 1 person J joined at unknown time
+Team PSD: LZ, TR, JB, DL, DK
+G – I have led the last couple of times; I’ll start out but would like to observe for a change.
+E - It’s asking me to upload Adobe -- asking me to do a new version of Adobe again….What a mess.
+LZ – G can you go into the MTL.how/sim – G had some challenges getting into simulation model, LZ walked her through it.
+Do and Done reviewed showing the experiment 1 and experiment 2
+LZ 10:12 am – G has pulled up the experiment. Walks through the Patients in their first 3 months of Psychotherapy. We look at experiment at a change in patients engaged greater than 3 months in experiment 2. The team decided that where it impacts the story, we changed the patients engaged in care by 75% -- it’s on the right in the bottom left of the main tile and it’s in the bottom right on the red slider. 
+In the Outputs screen, hit expand.
+TR – Walked through selecting experiment
+LZ – let’s also bring up experiment 2. You guys want to tell us what you see so far in looking at these 2 experiments.
+TR – Maybe you’re muted.
+E – it’s nice to be able to see them side by side so thank you for providing that feature. I think you’ve already said the conclusion right LZ?
+LZ – you are right its up in the box; if you look at Supply Used by Pts < 3 months vs. > 3 months.
+TR – grounding may be helpful; light blue line is when we changed the patients who graduate and nothing else; and the red line is when we said we’re not going to do that, we’re going to end patients who have been in for longer than 3 months. 
+LZ - The top row is about appointments; the bottom row is about patients. 
+E – we are able to have more supply if we identify people who have been in the system for a long time and work to end them; TR – For whom?  E – for new patients.
+TR – initially 4 appointments for week and when we did
+E - Difference between starting and initiation rate?
+LZ  10:22 am – starting is 1 visit; initiation is 27; TR is pointing out something important in the upper right box sent from 4.5 slots for week to doubling that (supply used by new patients). Let’s not gloss by the upper left and middle box – switching time from patients engaged greater than 3 months to a lot more time on patients engaged in less than 3 months. As we wrap up, combining experiment 1 and 2; you get something even different by combining the 2. 
+E – how do we figure out the cut off for when we would end with people. I think this is a different question then what we are saying, right?
+TR – I think the goal is to take the lessons from the sim, you can apply it in the real world. 
+LZ – G, would you mind minimizing the Outputs window and sliding it right? Summarized the 2 experiments but the big challenge is how to get the right course of therapy. G - I know you are reticent to be driving but we appreciate it.
+G – typed “combining exp 1 and exp 2”
+LZ – clear out hypothesis box; we’re going to stake a claim and get the benefit of running a simulation by indicating what we think will happen; appointment supply is such a key thing. Tom you want to talk about the little loop up here.
+TR – We’ve seen the information in the Outputs tile – we saw how we opened up appointments. We’re seeing in the diagram there are only so many slots – Appointment Supply – a fixed amount of hours per week, if you follow arrow to left, you’ll have more appointments for existing patients.
+LZ – so of your total apt supply you’re splitting between new and existing patients.
+TR – the arrow with the negative sign as the appointments for existing patients goes up, the appointments for new patients will go down.
+LZ – type in hypothesis – if we combine exp 1 and exp 2 what do we think we’re going to see;
+E – that we get to see more clients, like a greater n?
+LZ 10:29 am – if you follow the big blue arrow, you should see an increase in your starting rate, part #1; it’s probably going to increase things downstream from it as well.  What do you think?
+E – are you meaning specifically like we complete more people?
+LZ – yes, if you increase starting rate and you’re graduating 50% of your completers (increasing graduation rate); because what will you be spending more time of your doing?
+G – Focused on the first 3 months.
+LZ – So G if you’ll add to what you have in the Hypothesis box “
+TLead – I think this is what Dr. L wants. It’s what he talks about.
+TR – I think we need to look at the hypothesis.
+LZ – You guys get a lot of people to graduation. We are focused on decisions that clinicians have a lot of control over. By turning on the faucet and getting more people to start each week that they should be able to start 3 patients per week. So they have more patients into the flow and if we graduate 50% then we increase graduate rate so they are impacting the Appointment Supply up top.
+TR – you can keep going around that loop, in addition to appointments and percent of completers who graduate, there is an effect of that…. You have even more patients graduating so you’ve freed up even more slots and you can have even more new patients starting.
+LZ – it’s like virtuous cycle.
+E – Love your energy (To TR).
+TR – We know you’re going to get at least 3 patients per week, but I think you can expect even more than that. 
+E – I think that’s what I was trying to say when I referred to the greater n.
+LZ 10:36 am – Be sure to incorporate the feedback as you shift balance from existing to new patients, you will have even more 
+G – can somebody else drive, I feel a little lost. I’m having a hard time
+LZ – if you save it, ok 
+E – G is more administration can we help her understand.
+LZ – by testing experiment 1 and 2 together, we should get an even greater effect than those 2 alone – an even greater starting rate.
+E. – G I think they are basically seeing we would be able to hold a greater caseload for the year of completers if we focus on the people in the first 3 months vs. the other people.
+G – can you repeat that?
+E – Tom’s much more eloquent. We would be able to treat a greater caseload annually with
+Team – my appointment at noon today I’ve been seeing him off and on for 10 years so I’m guessing that this experiment would say that’s blocking others from getting it in.
+LZ  10:41 (goal was 10:45) – we need to expand experiments tile
+TR – just keep scrolling down, 
+LZ – Modify the Completers who graduate % to 50. Now we just need to hit run
+G – hit run at 1:41
+LZ – so we have the current run in black and what we’ve already walked through in experiment 1 and 2
+TR – the Sankey is now showing where did everyone go. 
+LZ – that’s on the left and on the right is appointment usage. You honed right in on it with the done.
+G 10:44 am – 36 more people graduated, no sorry 37 people would step down out of PSY into another service.
+LZ – The little line at the top was 4 so that’s a 10-fold increase in patients who are completers
+LZ – do you mind G scrolling up and putting findings into the box.
+G – we would have a ten fold increase in completers who graduate.
+Team member asked – this is in one year right?
+LZ – it’s 2 years, G would you mind adding that insight that its 2 years and it would be even greater over 4 years 
+E – the model doesn’t account for those people who graduate and don’t want to graduate and then we have to explain to administration why we made the decision.
+LZ – I would like to talk with you about stepping patients down out of specialty care E.
+LZ – G do you mind opening up the Sankey again, you see on the right hand side about appointment useage, when you hover over the red and purple bars. What do you notice about the purple?
+Team – there is a lot more purple at the bottom.
+LZ 10:49 am – clinically you can imagine that if we are spending more of your time on patients who are in their first 3 months; hover over them, look at the number of visits
+E – the scales are different
+TR – right your max number of visits you have been able to cut it in half.
+LZ – The top bar for the highest users about ¼ of patients are engaged for 25 visits the question is what is the pay off in gradually stepping them down. The next bar down, another group of patients are engaged for 16 visits. In the bars down below in the new experiment, for your group to compare the numbers. Not everybody drops down; a group who is getting 13 could get a course of CPT; by reducing those engaged in 25 or 16 visits, we still get a bunch people.
+G – putting cursor on bars to show visit and patient numbers.
+LZ – how does this strike you guys?
+E – Idealistic. I can hardly think of anyone that I have successfully treated in 8 sessions so I’m trying to figure out how I could work to that.
+J – I have had sessions who have had 8 session of PE and they’re done but that was following 12 sessions of step down therapy.
+LZ – great point J, this model only focuses on the PSY in the team. The aggregate module can show how other tradeoffs occur between different types of services. We are only looking at psychotherapy grids.
+J team member - Even when a person is in a typical stabilization treatment we still have to code it as PSY or Stair, we have to code that as PSY as we have no other coding option.
+LZ – are you talking about a group?
+J – yes
+LZ – for your insights, the stair model is here; anything that is in a group, is in the aggregate model as well as 
+E – I think its reflected in both depending on whether its individual or not. You could stabilize patients before PSY and that still would be coded as PSY and then started PE that would be 20 sessions total. The top showed this with visits.
+LZ – one thing that we know can’t look at right now, you can look at MTL.how/data you can see patient by patient how they are getting binned.
+E – when I said it seemed idealistic to do it in 8, it seems like the data showed I shouldn’t do 8-10 sessions of ACT before I do PE.
+LZ – let’s get some notes in. G do you mind closing this down. My hope would be about how what the impacts of what trade offs are; It’s costly to get patients to start PSY and it’s a tradeoff and usually in the team we don’t have any data to discuss; it is a costly choice to get more patients to start PSY, if stepping down is 
+G – I have a patient at 11 am; asked 3 times for someone please take over. 
+LZ – sorry G its hard for us to switch back without losing your work so we really appreciate you saving this for us.
+E 10:59 am – my 11 am is knocking on my door to so we need to wrap up.
+Do-Done:  Not done, time ran out
+
