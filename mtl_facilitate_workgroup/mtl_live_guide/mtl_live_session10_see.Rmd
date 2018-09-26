@@ -38,9 +38,15 @@ MTL Live Session 11: Making team decisions
 
 # In-session Exercise (30 minutes)
 
-1. One
-2. Two 
-3. Three
+1. Join current session.
+2. Pull up from the experiment tile the prior experiment, click the red "Go" button.
+3. Select the check box to include the text from experiement 2.
+4. One we showed the systems story variables that were manipulated in experiment 1 and experiment 2.
+5. Two we shoed the findings from experiment 1 and experiment 2 in the results dashboard of the expanded outputs tile.
+6. Three we asked the team to talk through the difference between the two experiments, which is also available in the text above.
+7. Show the team that the experiment tile not only pulled up the text from experiment 2, but also reset the sliders to experiment 2.
+8. Consider running a combination experiment 3, which incorporates both experiment 1 and experiment 2.
+9. What would we expect to observe as our team hypothesis?
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
