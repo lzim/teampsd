@@ -40,13 +40,13 @@ MTL Live Session 11: Making team decisions
 
 1. Join current session.
 2. Pull up from the experiment tile the prior experiment, click the red "Go" button.
-3. Select the check box to include the text from experiement 2.
-4. One: We showed the systems story variables that were manipulated in experiment 1 and experiment 2.
-5. Two: We showed the findings from experiment 1 and experiment 2 in the results dashboard of the expanded outputs tile.
+3. Select the check box to include the text from experiment 2.
+4. We showed the systems story variables that were manipulated in experiment 1 and experiment 2.
+5. We showed the findings from experiment 1 and experiment 2 in the results dashboard of the expanded outputs tile.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
 
-6. Three: We asked the team to talk through the difference between the two experiments, which is also available in the text above.
+6. We asked the team to talk through the difference between the two experiments, which is also available in the text above.
 7. Show the team that the experiment tile not only pulled up the text from experiment 2, but also reset the sliders to experiment 2.
 8. Consider running a combination experiment 3, which incorporates both experiment 1 and experiment 2.
 9. What would we expect to observe as our team hypothesis?
