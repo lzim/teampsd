@@ -1,0 +1,95 @@
+Team 2 – Session 10
+9/26/2018 - 8:12 am
+Team confusion about start time. Exchange in chat box.
+Attendees – 2 team members; Team PSD – TR, LZ, JB, SP, DL, DK
+TLead - You want me to join the current session?
+LZ – asked about email format. Good to have the question hypothesis findings? 
+Team Members - Yes, it was helpful.
+JB – reviewed last session do’s – asked about running a 3rd experiment? 8:16 am
+Team Members – No. Nope we didn’t sorry.
+JB – No worries. What we have been discussing in the MTL session. We’ve talked about the impact of staff loss and the potential of overwork. Discuss today the issue you are facing with another angle. Develop a new hypothesis and new question.
+LZ – Let me jump in. If you guys navigate in your sim and go to your experiments tile, Click on select previous experiment to set experimental values. Click on that file and select text. Click GO. Click on the Outputs title. What happens if we lose 2 providers and what happens if we send half as many people to PSY and CC – because we lost a social worker and psychologist who did PSY and we looked at the impact of the services they provided. If you’re not sending patients to PSY and CC, what else can we focus on to address this. I think Tom was going to pick up and tell the systems story…. I remember TEAM MEMBER saying “Feeling It.”
+TR – We were wondering if there were other effects other than impact on PSY – as team you’re losing providers but new patients are coming in… what is it 3 and 1…
+TLead - We’re back to 3 and 2 now.
+LZ - Tom you want to reveal the part of the model story you’re telling
+TR - Click Supply affects patient services – a lot of what we’ve been talking about so far is effects of overtime so you can click that one on too. If you have more patients then you have the time for; more appointments on the book then you have time available for service.
+LZ – so as the Appointment Supply decreases, it reduces the actual hours available for service and because the minus means they move in opposite directions so work pressure goes up.
+TR – one way the team can respond to having more patients than you all can handle is to work some overtime. See patients lunch or after hours. But that has an immediate effect, you’re seeing more patients but there is a long-term down side that you’re aware of… burnout.. and there are short-term effects too such as all the non-patient facing stuff – that’s the loop that goes up.
+LZ – If you have work pressure increasing and you follow that loop, that is one way to increase the hours available for service… you might see them during lunch or double book. Have you been doing any of that?
+Team Members - Yes, Yes
+LZ - Long-term over time  the long-term impact is burnout. The effect of long-time over time on burnout – that will reduce the number of hours for service. It could be due to staff turnover or also having to adjust after many days of long hours you may have to take more sick days.
+TR – you have to be doing over time for multiple weeks or months, for burnout. The Short-term overtime leads to an effect – what are some of those effects?
+TLead - Fatigue causes low worker productivity; not as good as a job.
+TR – Yes, small things start to happen. Your missed appointments rate may increase as you have less time to do follow up calls or prep for visits.
+LZ – I think what Tom is describing is in the “I” next to effect of short-term OT on missed appointments. If you click on that….
+[TLead clicked on “I” and reviewed text]
+LZ – when we did the dot voting – TEAM MEMBER, not sure you were there.
+Yes, I was there.
+LZ – that dot voting included a discussion about the difference between VA time and actual time, this is reflected here in the “Fatigue Increases Clinic Cancellations.”
+LZ - If you take the all of the available of supply across services and the RVI is a release valve and people have to push out PSY or MM visits out further to get everybody seen. As the RVI goes up, and there is more time between visits, you can get more patients into care. Influences the number of intakes – you guys see the Appropriate Patient start rate for supply – the start rate that comes through the official intake process and the other start rate in your team decides to start a patient. We think this patient should start therapy or meds now. We manipulated the team service proportions on the left due to losing 2/3 of your PSY staff. The service proportions have changed, now 3 prescribers and 1 psychologist, it has increased the people on the MM patient panel.
+TR – does that make sense to you guys because how your team has changed it will change what service your patients use?
+Team Members - Yes, Yes.
+TR – So this is a new experiment we can run. This is 
+LZ – this will allow us to run an experiment that brings in additional complexity and brings in additional complexity (overtime, care quality, work pressure, etc.) it changes the service proportions in our team; it totally changes the service mix in the team. Since we’re trying to wrap up we are getting to a higher level of systems thinking as we try to understand the impact on the team over time.
+LZ – So Tom and Jane – you prepped this yesterday, is it just as easy to bring it up since you didn’t delete it and workshop it or to run a new experiment.
+TR – This is the combined text – this is our attempt to make sure the information wasn’t lost – we took and put it all together…. We didn’t want to lose the findings and decisions. I’m seeing that the run button is grayed out, I’m thinking we should reset.
+LZ – TEAM MEMBER, why don’t you just hit “Save” – just to make sure this experiment has been saved. 
+TR – Click reset – and click discard to confirm you want to delete it.
+LZ – If you didn’t want to Save you can always discard. This new experiment will help you tell a more complex feedback systems story.
+TEAM MEMBER – clicked on Outputs; “Expand maybe?” Clicked on “Expand”
+TR – So last time we changed apt supply for PSY and CC and we tried to accommodate those changes and service proportions. Do we want to keep all that and make the change? Close out of this and in the Experiments tile use the 9/25 file. That has everything.
+LZ – Comparing system changes and with the model, you can do a more complex system experiment. We’re talking about the service proportions changing. We have to reduce PSY down and CC down, we left MM the same and we told ourselves through the model diagram that that is not realistic. We are doing a more complex test of this impact on the team. What’s the historical service for MM? Let’s look.
+LZ - Historically – reviewed PSY and CC. Med Mgmt has been 38% but if ¾ of the team are prescribers then does it make sense that 75% of the service proportions?
+TLead - It’s probably increase but I don’t know if it’s 75%.
+LZ - How much has it gone up?
+Doc - I’m not sure I understand… in terms of hours?
+LZ - How much more likely is it a patient will start MM?
+TLead - Of all patients who come in the door…. I think doctors are getting more intakes; MHTC people. Some of the docs are doing intakes during their 30 minute MM.
+Doc - Let’s go up by 25% more than currently. 
+TR – if you click on the Service Proportions from Team Data; could go from 38 to 48;
+TLead - In the slider then I’m putting in the 38% plus the 10% to 48%? 
+LZ – So we’re adding in the service proportions. Let’s scroll down to the sensitivity sliders. 
+TR – We talked earlier in our call about work pressure about ways you can respond – work more hours, etc. Turn on the top 3 complexity reveals. If you look at work pressure, the other way the team can respond is to push the RVI further out into the future, instead of every month they’ll come every 2 months. 
+LZ – or in the team data table, you can see the RVI in the 2nd column.
+MD - People are more acute so I’m seeing more people more often. For the MD’s they are seeing people more frequently. I’m putting more of them into phone follow-up or with phone secure messaging. I tough base, over the summer, with them every month.
+TLead - I may be pushing out further the interval but the docs are seeing people more often.
+LZ – Are you guys seeing how you get increasingly complex and see what the impact likely is? 
+TR – so should we go into the expanded outputs and put in our question and our hypothesis? 
+TLead - Sure.
+TR - The text is from the run 2 weeks ago so we can clear it out.
+LZ – let’s clear out that questions and the new questions…. 
+TLead – typing….”If we lose 2 MHTC/PSY providers what is the impact on medication management?” (11:32 am EST)
+LZ – let’s change that so it’s a testable hypothesis
+LZ – we are increasing the proportion of ours services for med mgmt by 25% (from 38 to 48%); how much are you increasing phone work?
+Doc – I’d say another 25%.
+LZ – do you think work pressure is increasing to do this phone work?
+TLead – typing “We are increasing the proportion of our services for med mgmt. by 25% and increasing telephone services by 25%. This is likely increasing work pressure?
+LZ – what should we look for in our findings? New patients starts?
+TLead - Number of patients who return or patients who switch providers
+TR – is that patients ending early?
+TLEad / Doc:  We could look at no shows, cancellations or follow-up.
+LZ – Anything else you want to add to your hypothesis?
+TLead – typing in the Hypothesis window
+LZ – I would be that if you haven’t changed your RVI, then it would be harder for people to get into med management. 
+LZ – Increase adjunctive services, phone work to 48. Med management….
+Doctor – It’s just an experiment, let’s put MM at 4.
+LZ – Sensitivities are in the middle at 1, they go from 0 to 2. Do you want to change this?
+TR – This is not increasing the pressure, it is how the team responds to the pressure? If you feel a lot of pressure in the sensitivity to work pressure you will push the RVI out even further. If it’s 0 the RVI is set in stone regardless of what you do.
+LZ – it looks like you guys are changing things on the fly and we are encouraging you to stake a claim and use the sim to test your question. So let’s leave the sensitivities at 1.5 (OT to Work pressure, Scheduled RVI to Work Pressure, Engagement time to provider fatigue.
+LZ – Can you copy the text from the purple slider into the hypothesis box to ensure we get the numbers in there?
+TLead – toggled back and typed MM number.  Copy and pasted titles of sensitivity boxes into the hypothesis box.
+Doctor – I have a patient at 9 am so we need to wrap this up. (11:53 am EST)
+TR – Let’s click run so we can see what happens. So if go over to the outputs title, you click on the Select Experiment in the lower left – you can click on the experiments you’ve run, 
+LZ – What behavior are you guys seeing tin the middle box top row?
+TLead - Taking longer initially and then it drops down and then it peaks again.
+LZ – let’s call this an oscillation, this can be crazy for a clinic but its typical.
+TR – We make the change today and then we get a change
+TLead typing – Patients waiting to start oscillates. Work pressure spikes in about 3 months.
+LZ – let’s close this down by typing in Decisions - Continue to review additional findings. Hit Save 
+TLead – is naming the file – clicking on different titles.
+LZ – closing – thank you for your time…. Send you on to your Wednesday… We will follow-up with you to continue to review the findings of the experiment and have a team party.
+TLead  Doc – thank you. (12:00 noon)
+
+
+
+
