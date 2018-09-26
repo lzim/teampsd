@@ -7,6 +7,7 @@ output: html_document
 
 ```{r}
 knitr::opts_chunk$set(echo = TRUE)
+
 ```
 
 
@@ -322,6 +323,12 @@ print(encounters_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(encounters_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
 
+#histogram of means
+```{r}
+hist(encounters_mean_cpt$mean, bins = 20)
+hist(encounters_mean_cdw$mean, bins = 20)
+```
+
 
 #mean centered
 ```{r}
@@ -354,6 +361,11 @@ print(tmh_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(tmh_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
 
+#histogram of means
+```{r}
+hist(tmh_mean_cpt$mean, bins = 20)
+hist(tmh_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -383,7 +395,11 @@ patientpanel_plot_cdw <-
 print(patientpanel_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(patientpanel_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(patientpanel_mean_cpt$mean, bins = 20)
+hist(patientpanel_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -414,7 +430,11 @@ providerpanel_plot_cdw <-
 print(providerpanel_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(providerpanel_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(providerpanel_mean_cpt$mean, bins = 20)
+hist(providerpanel_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -442,7 +462,11 @@ psychiatrists_plot_cdw <-
 print(psychiatrists_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(psychiatrists_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(psychiatrists_mean_cpt$mean, bins = 20)
+hist(psychiatrists_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -470,7 +494,11 @@ socialworkers_plot_cdw <-
 print(socialworkers_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(socialworkers_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(socialworkers_mean_cpt$mean, bins = 20)
+hist(socialworkers_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -498,7 +526,11 @@ psychologists_plot_cdw <-
 print(psychologists_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(psychologists_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(psychologists_mean_cpt$mean, bins = 20)
+hist(psychologists_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -526,7 +558,11 @@ evalencounter_plot_cdw <-
 print(evalencounter_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(evalencounter_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(evalencounter_mean_cpt$mean, bins = 20)
+hist(evalencounter_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -555,7 +591,11 @@ psychencounter_plot_cdw <-
 print(psychencounter_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(psychencounter_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(psychencounter_mean_cpt$mean, bins = 20)
+hist(psychencounter_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -583,7 +623,11 @@ mmencounter_plot_cdw <-
 print(mmencounter_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(mmencounter_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(mmencounter_mean_cpt$mean, bins = 20)
+hist(mmencounter_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -612,7 +656,11 @@ groupencounter_plot_cdw <-
 print(groupencounter_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(groupencounter_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(groupencounter_mean_cpt$mean, bins = 20)
+hist(groupencounter_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
@@ -642,7 +690,11 @@ print(cpt_initial_appoints_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(cpt_initial_appoints_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
 
-
+#histogram of means
+```{r}
+hist(cpt_initial_appoints_mean_cpt$mean, bins = 20)
+hist(cpt_initial_apoints_mean_cdw$mean, bins = 20)
+```
 #mean centered
 ```{r}
 #in CPT
@@ -669,7 +721,11 @@ pe_initial_appoints_plot_cdw <-
 print(pe_initial_appoints_plot_cpt, position = c(0, 0, 0.5, 1), more = TRUE)
 print(pe_initial_appoints_plot_cdw, position = c(0.5, 0, 1, 1))
 ```
-
+#histogram of means
+```{r}
+hist(pe_initial_appoints_mean_cpt$mean, bins = 20)
+hist(pe_initial_appoints_mean_cdw$mean, bins = 20)
+```
 
 #mean centered
 ```{r}
