@@ -1,0 +1,224 @@
+1. Of the 24 hours spent in the Modeling to Learn Facilitate Pilot, rate the amount of time spent on each of the items below:
+    1. Data UI
+    
+   <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/data_ui.png>
+    
+    2. Sim UI
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/sim_ui.png>
+    
+    3. Facilitation Guide and Resources
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/facilitation_guide_resources.png>
+
+Other comments on this question: 
+1. As we discussed, perhaps w/some Pre-orientation, it would have been easier to 'get' the data interface. But for now, I would have liked to have spent more time on it.  Would have liked the facilitator guides ahead of time to use along w/the training.
+2. As mentioned in our comments during the training, more up front orientation to the Facilitator Guide would have been helpful.
+3. As we touched on, it would have been helpful to have the facilitation guides up front.   Sim UI: more time to play would be helpful, but it was a good intro/baseline 
+4. Not sure that this could be adjusted within the 24 hour time frame but also not sure that it should be.  May be worth an expectation to 'play' at home and come back after the 24 hours of training rather than adding in classroom time.  
+-----
+    
+2. Rate how receptive you think the frontline staff will be to each of the Modeling to Learn sessions listed below:
+    1. Session 1: Team Vision
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session1.png>
+       
+    2. Session 2: Patient Data and Team Trends
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session2.png>
+    
+    3. Session 3: Team Data for Simulation
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session3.png>
+    
+    4. Session 4: Prioritizing team Needs (Modeling to Learn Menu)
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session4.png>
+    
+    5. Session 5: Sim UI in team and Team Data Table
+
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session5.png>
+
+    6. Session 6: Tells a Systems Story
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session6.png>
+    
+    7. Session 7: Run a Base Case
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session7.png>
+
+    8. Session 8: Test a Dynamic Hypothesis
+
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session8.png>
+
+Other comments on this question:
+1. I think it depends on the front line staff. i think it is still very high level and would be challenging for front line staff to comprehend. 
+2. I think the teams will feel like they've already defined their values and their needs, BUT,  after going through the model together, I think this will be valuable (but the buy in and connection to why these steps have value will be necessary to underscore for sufficient buy-in)
+-----
+
+3. Rate how feasible it is to accomplish the session objectives in one hour for each of the Modeling to Learn sessions listed below:
+    1. Session 1: Team Vision
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session1.png>
+       
+    2. Session 2: Patient Data and Team Trends
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session2.png>
+    
+    3. Session 3: Team Data for Simulation
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session3.png>
+    
+    4. Session 4: Prioritizing team Needs (Modeling to Learn Menu)
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session4.png>
+    
+    5. Session 5: Sim UI in team and Team Data Table
+
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session5.png>
+
+    6. Session 6: Tells a Systems Story
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session6.png>
+    
+    7. Session 7: Run a Base Case
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session7.png>
+
+    8. Session 8: Test a Dynamic Hypothesis
+
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session8.png>
+
+Other comments on this question:
+
+-----
+
+4. Rate how well the diagrams in the sim UI models you have seen this week represent your VA experience
+    1. Care Coordination
+    
+     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/cc.png>
+    
+    2. Medication Management
+    
+     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/mm.png>
+    
+    3. Psychotherapy
+    
+     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/psy.png>
+    
+    4. Aggregate    
+    
+     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/agg.png>
+
+Other comments on this question:
+
+-----
+
+5. Please estimate your Pre-level of systems thinking about EBP reach and clinic staff decisions on the four domains:
+    1. Complexity
+    2. Feedback
+    3. Behavior
+    4. Time
+
+Other comments on this question:
+
+-----
+    
+6. Please estimate your Post-level of systems thinking about EBP reach and clinic staff decisions on the four domains:
+    1. Complexity
+    2. Feedback
+    3. Behavior
+    4. Time
+    
+Other comments on this question:
+
+-----
+
+7. Rate the reliability of the data UI					
+
+8. Rate the validity of the data UI					
+
+9. Rate the utility of Modeling to Learn to inform effective change in team based Mental Health service delivery to frontline staff
+
+10. Rate the value of the Modeling to Learn program to the average frontline team
+
+11. Rate the value of the Modeling to Learn program in your role as a technical assistant specialist
+
+12. Rate the usefulness of Modeling to Learn tools to support facilitation (i.e. session guides, fidelity checklist, mtl.how, etc.)
+
+13. Rate your level of interest in facilitating Modeling to Learn Live
+
+Other comments on these questions:
+
+-----
+ 
+14. The greatest value of Modeling to Learn to learners is (check all that apply):
+
+ Team focused approach
+ Shared decision making
+ Equitable access to resources
+ Mutual learning
+ Transparent data
+ Systems thinking skills
+
+Other comments on this question:
+
+-----
+
+15. Please indicate which of the following characteristics are of benefit to you as a technical assistant specialist (check all that apply):
+
+ Enhanced ability to address an important issue
+ Development of new skills
+ Heightened profile with my institution
+ Increased utilization of my expertise or services
+ Acquisition of useful knowledge about services, programs, or people in the VA
+ Enhanced ability to affect policy
+ Development of valuable relationships
+ Enhanced ability to meet the needs of my constituency or clients at the VA
+
+Other comments on this question:
+
+-----
+16. Based on your impression of Modeling to Learn so far, how would you characterize the benefits of participating in a partnership between TAS and TeamPSD compared to the drawbacks?
+
+ Benefits greatly exceed the drawbacks
+ Benefits exceed the drawbacks
+ Benefits and drawbacks are about equal
+ Drawbacks exceed the benefits
+ Drawbacks greatly exceed the benefits
+
+Other comments on this question:
+
+-----
+
+17. Rate TeamPSD's level of effectiveness in each of these areas:
+    1. Preparation
+    2. Facilitation
+    3. Command of the subject
+    4. Responsiveness to learners
+    
+Other comments on this question:
+
+-----
+
+18. Rate the level of effectiveness of the Modeling to Learn program in the following:
+    1. Shared decision making
+    2. Equitable access to resources
+    3. Mutual learning
+    
+Other comments on this question:
+
+-----
+
+19. Describe the best way to become prepared to facilitate Modeling to Learn Live...
+
+20. Now that you have experienced the Modeling to Learn Facilitate Pilot, what sequencing and content changes would you suggest to the 12-session plan (one hour every two weeks)?
+
+21. What are the biggest challenges you foresee for yourself in facilitating Modeling to Learn Live effectively?
+
+-----
+
+22. Rate your level of engagement throughout the Modeling to Learn Facilitate Pilot program
+
+Other comments on these questions:
+
