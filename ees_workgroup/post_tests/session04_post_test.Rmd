@@ -10,11 +10,11 @@ output:
   word_document: default
 ---
 
+# *Modeling to Learn* how to prioritize team needs.
 <!-- MTL Logo, HTML img tag -->
-## *Modeling to Learn* Session 4: Aligning our Team Vision Post-test Questions	
+## Session 4: Post-test Questions	
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
-     
      
 1.	**Which of these is one purpose of *Modeling to Learn*?**
 -	help VA clinic staff understand which treatment decisions are in their control
