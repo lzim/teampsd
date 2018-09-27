@@ -10,10 +10,11 @@ output:
   word_document: default
 ---
 
+# *Modeling to learn* how to check our patient data and team trends
 <!-- MTL Logo, HTML img tag -->
-## *Modeling to Learn* Session 2: Aligning our Team Vision Post-test Questions	
+## Session 2: Post-test Questions	
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500">  
+     height = "130" width = "500">   
 	
 1.	**Which of these is one purpose of *Modeling to Learn*?**			
 -	create a customized system modeling tool to make decisions that optimize patient care delivery			
