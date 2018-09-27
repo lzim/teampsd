@@ -34,19 +34,23 @@ output:
 1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes.
 2.	Test your understanding of the system story by describing what’s happening when it produces a runaway increase or decrease in some output.
 3.	Apply your thinking to anticipate the long-term trend in your clinic’s EBP reach under two different decision scenarios.
-MTL Live Session 11: Making team decisions
+
 
 # In-session Exercise (30 minutes)
 
-1. Join current session.
-2. Pull up from the experiment tile the prior experiment, click the red "Go" button.
-3. Select the check box to include the text from experiement 2.
-4. One we showed the systems story variables that were manipulated in experiment 1 and experiment 2.
-5. Two we shoed the findings from experiment 1 and experiment 2 in the results dashboard of the expanded outputs tile.
-6. Three we asked the team to talk through the difference between the two experiments, which is also available in the text above.
-7. Show the team that the experiment tile not only pulled up the text from experiment 2, but also reset the sliders to experiment 2.
-8. Consider running a combination experiment 3, which incorporates both experiment 1 and experiment 2.
-9. What would we expect to observe as our team hypothesis?
+1. Log in to mtl.how/sim and join the current session.
+2. From the experiment tile, pull up the prior experiment and click the red "Go" button.
+3. Check the box to include the text from that experiment and click "Go" again.
+4. Note that the sliders have moved to the settings for that experiment.
+5. Open the Expanded Outputs tile and select another earlier experiment to compare to the one you have just pulled up.
+6. Note the variables that were manipulated in the two experiments.
+7. Review the findings from the two experiments in the results dashboard and the text entered for Hypothesis, Findings and Decisions.
+8. Collapse the Expanded Outputs tile and move it to the side to reveal the system diagram.
+9. Use the diagram to tell a system story about the differences in the two experiments.
+10. Consider running a combination experiment that incorporates the sliders manipulated in both experiments.
+11. Replace text in the Q/H/F/D boxes to reflect the team's hypotheses and expectations for the combined experiment.
+12. Save, name, and run the combined experiment.
+13. Discuss and record results and decisions, including your thinking about long-term trends in your clinic's EBP reach under various decision scenarios.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
