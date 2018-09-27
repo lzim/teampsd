@@ -1,5 +1,22 @@
+---
+title: "*Modeling to Learn* Master Brochures for Accreditaiton of *MTL Live* and *MTL Video*"
+date: "28 September 2018"
+output: 
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
+  word_document: default
+---
 
-# Title of Program: Modeling to Learn Session 1: Aligning our Team Vision
+<!-- MTL Logo, HTML img tag -->
+# Modeling to Learn Session 1: Aligning our Team Vision
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500">  
+
+
+## Title of Program: Modeling to Learn Session 1: Aligning our Team Vision
 
 ## Client Program Office: National Center for PTSD, Training and Dissemination Division
 
