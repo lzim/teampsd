@@ -21,7 +21,7 @@ output:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged into mtl.how/sim and reviewed the "i" in the Main Tile Model Diagram.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  TeamPSD Facilitators will be introducing the MTL sim UI Main Tile. | 
 
@@ -43,7 +43,7 @@ output:
 # **In-session Exercise – Part 1: Where in the MTL World Is…**  
 
 * The Facilitator will challenge *MTL learners* to find certain information on the MTL.how/sim main tile for the Care Coordination (CC) model.  
-+ A series of 5 questions, one at a time, will be posed via the chat box as well as reading the Facilitator reading them aloud to the *MTL Learners*.  
++ A series of 5 questions, one at a time, will be posed via the chat box as well as the Facilitator reading them aloud to the *MTL Learners*.  
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
 + *If at any time you are not sure how to find something, ask for help.* The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.  
 
@@ -68,11 +68,11 @@ output:
 + Team PSD will call up on the pairs to tell the system story of the CC model.
 + As the story is revealed, *MTL Learners* should raise issues and questions documented during the *Telling a Systems Story* activity.
 
-
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded team data to the sim UI. We reviewed the team data in the Experiments Tile. We entered question text in the Expanded Outputs Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log-in to mtl.how/sim and log into the "individual world." Enter question and hypothesis text in the Expanded Outputs Tile for the run reviewed in-session.. |
 
