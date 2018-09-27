@@ -1,5 +1,5 @@
 ---
-title: "*Modeling to Learn* Master Brochures for Accreditaiton of *MTL Live* and *MTL Video*"
+title: "*Modeling to Learn* Session 1 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
 date: "28 September 2018"
 output: 
   github_document: default
@@ -11,12 +11,13 @@ output:
 ---
 
 <!-- MTL Logo, HTML img tag -->
-# Modeling to Learn Session 1: Aligning our Team Vision
+# *Modeling to Learn* how to align our team vision.
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
+## Session 1: Accreditation Master Brochure
 
-## Title of Program: Modeling to Learn Session 1: Aligning our Team Vision
+## Title: *Modeling to Learn* how to align our team vision.
 
 ## Client Program Office: National Center for PTSD, Training and Dissemination Division
 
