@@ -67,8 +67,8 @@ Other comments on this question:
     
     3. Session 3: Team Data for Simulation
     
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session3.png>
-    feasibility
+    <img src = https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session3.png>
+    
     4. Session 4: Prioritizing team Needs (Modeling to Learn Menu)
     
     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session4.png>
@@ -90,6 +90,12 @@ Other comments on this question:
     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session8.png>
 
 Other comments on this question:
+1. I rated these low only because it took us a while to get through these as we're learning. i would imagine depending on the team it would be challenging to get through some of these difficult concepts in an hour
+2. Not sure how the timing would go, as there will be different specific questions/needs within each team.
+3. Some are rated as neutral because there will be significant variability in prior knowledge and potentially openness among the sites.
+4. I think once I am more comfortable with the tool and processes, I would definitely feel those I rated as neutral would be do-able in an hour. In my current state, I don't feel as confident. I think that the individual worlds will be very useful for exploration and I think this will allow for the hour time frame to be accomplished.
+5. Tough to answer until I have greater facility with the material and some experience with facilitating.  Tried to think of the facilities/clinics with whom I work as a basis for the answers.
+
 
 -----
 
