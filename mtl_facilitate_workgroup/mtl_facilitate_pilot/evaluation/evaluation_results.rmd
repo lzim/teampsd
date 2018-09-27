@@ -21,6 +21,44 @@ Other comments on this question:
 2. Rate how receptive you think the frontline staff will be to each of the Modeling to Learn sessions listed below:
     1. Session 1: Team Vision
     
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session1.png>
+       
+    2. Session 2: Patient Data and Team Trends
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session2.png>
+    
+    3. Session 3: Team Data for Simulation
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session3.png>
+    
+    4. Session 4: Prioritizing team Needs (Modeling to Learn Menu)
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session4.png>
+    
+    5. Session 5: Sim UI in team and Team Data Table
+
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session5.png>
+
+    6. Session 6: Tells a Systems Story
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session6.png>
+    
+    7. Session 7: Run a Base Case
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session7.png>
+
+    8. Session 8: Test a Dynamic Hypothesis
+
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/receptivity_session8.png>
+
+Other comments on this question:
+1. I think it depends on the front line staff. i think it is still very high level and would be challenging for front line staff to comprehend. 
+2. I think the teams will feel like they've already defined their values and their needs, BUT,  after going through the model together, I think this will be valuable (but the buy in and connection to why these steps have value will be necessary to underscore for sufficient buy-in)
+-----
+
+3. Rate how feasible it is to accomplish the session objectives in one hour for each of the Modeling to Learn sessions listed below:
+    1. Session 1: Team Vision
+   
     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session1.png>
        
     2. Session 2: Patient Data and Team Trends
@@ -30,7 +68,7 @@ Other comments on this question:
     3. Session 3: Team Data for Simulation
     
     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session3.png>
-    
+    feasibility
     4. Session 4: Prioritizing team Needs (Modeling to Learn Menu)
     
     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session4.png>
@@ -50,44 +88,6 @@ Other comments on this question:
     8. Session 8: Test a Dynamic Hypothesis
 
     <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session8.png>
-
-Other comments on this question:
-1. I think it depends on the front line staff. i think it is still very high level and would be challenging for front line staff to comprehend. 
-2. I think the teams will feel like they've already defined their values and their needs, BUT,  after going through the model together, I think this will be valuable (but the buy in and connection to why these steps have value will be necessary to underscore for sufficient buy-in)
------
-
-3. Rate how feasible it is to accomplish the session objectives in one hour for each of the Modeling to Learn sessions listed below:
-    1. Session 1: Team Vision
-    
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session1.png>
-       
-    2. Session 2: Patient Data and Team Trends
-    
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session2.png>
-    
-    3. Session 3: Team Data for Simulation
-    
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session3.png>
-    
-    4. Session 4: Prioritizing team Needs (Modeling to Learn Menu)
-    
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session4.png>
-    
-    5. Session 5: Sim UI in team and Team Data Table
-
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session5.png>
-
-    6. Session 6: Tells a Systems Story
-    
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session6.png>
-    
-    7. Session 7: Run a Base Case
-    
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session7.png>
-
-    8. Session 8: Test a Dynamic Hypothesis
-
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/reliability_session8.png>
 
 Other comments on this question:
 
