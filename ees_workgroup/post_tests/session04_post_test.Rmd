@@ -1,0 +1,78 @@
+---
+title: "*Modeling to Learn* Session 4 Post-test for *MTL Live* and *MTL Video*"
+date: "27 September 2018"
+output: 
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
+  word_document: default
+---
+
+<!-- MTL Logo, HTML img tag -->
+## *Modeling to Learn* Session 4: Aligning our Team Vision Post-test Questions	
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500">  
+     
+     
+1.	**Which of these is one purpose of *Modeling to Learn*?**
+-	help VA clinic staff understand which treatment decisions are in their control
+-	understand clinic services available to veterans
+-	provide templates for Evidence-based Psychotherapies (EBPs)
+-	Document progress on SAIL measures
+	
+2.	**Which of these is a *Modeling to Learn* Module?**
+-	Psychotherapy (PSY)
+-	Post-traumatic Stress Disorder (PTSD)
+-	Clinic Data Management
+-	Mental Health Management
+	
+3.	***Modeling to Learn* uses a specific format for accessing the various web pages associated with the project. It is:**
+-	mtl.how/_________
+-	ModelingToLearn.com/ ______________
+-	VA_Modeling.com/ ______________
+-	VAModels.net/ ______________
+	
+4.	**The purpose of *Modeling to Learn* Module 4 was to:**
+-	Prioritize the clinic team’s learning needs as result of individual team member input
+-	Learn how to generate care quality data for VA administrators
+-	Identify strategies to adjust VA patient care schedules
+-	Document individual professional development needs
+	
+5.	**Two of the team learning need categories in mtl.how/menu included:**
+-	Schedule and Mix of Services
+-	Staffing Hours and Performance Management
+-	Care Coordination and Clinician Stress
+-	Quality Indicators and Utilization Measures
+		
+6.	**In identifying a topic for future team learning and action, the team should consider the mtl.how/menu results relative to:**
+-	Learning needs with the strongest agreement across all team member responses
+-	Learning needs with widely varied rankings
+-	Learning needs mandated by the VA administration
+-	Learning needs by specific clinician type.
+		
+7.	**Staffing and burnout were the two highest priority areas identified by a VA clinic team. The team should most likely:**
+-	Revisit their team vision and team data to discuss patient management and staffing strategies to reduce overwork
+-	Hire more staff
+-	Review exit interviews with former staff to identify retention strategies
+-	None of the above 
+	
+8.	**A team’s vision was “Increasing Use of EBP Templates” and its highest priority need was adoption of evidence-based psychotherapies. Which MTL module do you think that team should use going forward?**
+-	Psychotherapy (PSY)
+-	Care Coordination (CC)
+-	Medication Management (MM)
+-	Aggregrate team services (AGG)
+-	Measurement-based stepped care for suicide prevention 
+	
+9.	**Based on your team’s vision and the highest priority need selected by your team, which MTL simulation module do you think your team should use?**
+-	Care Coordination (CC)
+-	Medication Management (MM)
+-	Psychotherapy (PSY)
+-	Aggregrate team services (AGG)
+	
+10.	**To date, the *Modeling to Learn* steps I have completed are:**
+-	Review team data and complete the mtl.how/menu to prioritize team learning needs
+-	Review team data and create a team name
+-	Identify team learning needs and determine clinic practice change strategies
+-	Become familiar with the user interfaces for data and model simulation
