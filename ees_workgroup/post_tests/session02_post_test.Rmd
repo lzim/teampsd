@@ -1,0 +1,80 @@
+---
+title: "*Modeling to Learn* Session 2 Post-test for *MTL Live* and *MTL Video*"
+date: "27 September 2018"
+output: 
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
+  word_document: default
+---
+
+<!-- MTL Logo, HTML img tag -->
+## *Modeling to Learn* Session 2: Aligning our Team Vision Post-test Questions	
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500">  
+	
+1.	**Which of these is one purpose of *Modeling to Learn*?**			
+-	create a customized system modeling tool to make decisions that optimize patient care delivery			
+-	understand clinic services available to veterans			
+-	provide templates for Evidence-based Psychotherapies (EBPs)			
+-	show VA clinic staff decisions that are not in their control			
+				
+2.	**Which of these is a *Modeling to Learn* Module?**			
+-	Medication Management (MM)			
+-	Post-traumatic Stress Disorder (PTSD)			
+-	Prescription Adherence			
+-	Mental Health Management			
+				
+3.	**In the context of *Modeling to Learn*, the acronym EBPs stands for:**			
+-	Evidence-based Psychotherapies and Pharmacotherapies			
+-	Evidence-based Primary Care Practice			
+-	Evidence-based Business Processes			
+-	Evidence-based Pediatric Care			
+				
+4.	**A primary purpose of the *Modeling to Learn* team data user interface (UI), is to help a clinic team:**			
+-	Use team trends and patient data to enhance care coordination			
+-	Provide required quality data to VA administrators			
+-	Document use of ICD-10 codes			
+-	Create a team vision for better data management			
+				
+5.	**The “ClinicSelection” tab allows the user to:**			
+-	Select clinics only in their VISN			
+-	Select any clinic in the VA			
+-	Select clinics only in which the user sees patients			
+-	Select providers serving in specific clinics			
+				
+				
+6.	**Which data below is available for review on mtl.how/data?**			
+-	Patient Data sorted by VISN, by Facility			
+-	CPT and ICD-10 Codes			
+-	Diagnosis by clinician name			
+-	Monthly data according to services provided by a VA clinic			
+-	All of the above			
+				
+7.	**The data tab titles in mtl.how/data include:**			
+-	dataDiag, dataHF, and dataMeas			
+-	Diagnoses by Clinician, Coding by Clinician, Treatment by Clinician 			
+-	Visuals, Data, Outcomes			
+-	Clinics, Clinicians, Codes			
+				
+8.	**The mtl.how/data VIZ tabs show:**			
+-	Team trends			
+-	A team’s individual patient information			
+-	Team staffing history			
+-	Team priorities for care			
+				
+				
+9.	**The mtl.how/data DATA tabs show:**			
+-	A team’s individual patient information			
+-	Team trends			
+-	Team staffing history			
+-	Team priorities for care			
+				
+				
+10.	**Team trends that are available for review on team data viz tabs include:**			
+-	Diagnoses, Encounters, Health Factor Data, and Measures from mental health assistant			
+-	Mental health codes assigned to a patient over time			
+-	Data for all VA patients completing an evidence-based psychotherapy template			
+-	Data for all services provided in the VISN			
