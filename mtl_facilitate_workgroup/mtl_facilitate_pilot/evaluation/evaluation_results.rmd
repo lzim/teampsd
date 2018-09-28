@@ -203,11 +203,11 @@ Other comments on this question:
 -----
 16. Based on your impression of Modeling to Learn so far, how would you characterize the benefits of participating in a partnership between TAS and TeamPSD compared to the drawbacks?
 
- Benefits greatly exceed the drawbacks
- Benefits exceed the drawbacks
- Benefits and drawbacks are about equal
- Drawbacks exceed the benefits
- Drawbacks greatly exceed the benefits
+- Benefits greatly exceed the drawbacks
+- Benefits exceed the drawbacks
+- Benefits and drawbacks are about equal
+- Drawbacks exceed the benefits
+- Drawbacks greatly exceed the benefits
 
 Other comments on this question:
 - As discussed, the primary barrier/challenge to our participation will be our team having the bandwidth to do this.
@@ -215,6 +215,9 @@ Other comments on this question:
 
 17. Rate TeamPSD's level of effectiveness in each of these areas:
     1. Preparation
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/interest_mtl_.png>
+    
     2. Facilitation
     3. Command of the subject
     4. Responsiveness to learners
@@ -225,9 +228,17 @@ Other comments on this question:
 
 18. Rate the level of effectiveness of the Modeling to Learn program in the following:
     1. Shared decision making
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/shared_decision_making_.png>
+    
     2. Equitable access to resources
+
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/equitable_access_resources_.png>
+
     3. Mutual learning
     
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/mutual_learning_.png>
+
 Other comments on this question:
 - I think mutual learning is high but will be variable 
 -----
@@ -260,5 +271,10 @@ Other comments on this question:
 
 22. Rate your level of engagement throughout the Modeling to Learn Facilitate Pilot program
 
+<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/engagement_.png>
+
 Other comments on these questions:
+- LOVE it!  Thanks so much for all of your amazing hard work.  What an incredible tool.
+- I love this so much!  I can't say 100% because, like all of us, there are distractions from attention due to competing demands (pings on email for hot issues). 
+
 
