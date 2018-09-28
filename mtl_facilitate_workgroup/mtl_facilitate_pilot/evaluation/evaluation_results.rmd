@@ -122,9 +122,21 @@ Other comments on this question:
 
 5. Please estimate your Pre-level of systems thinking about EBP reach and clinic staff decisions on the four domains:
     1. Complexity
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/pre_complexity.png>
+    
     2. Feedback
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/pre_feedback.png>
+    
     3. Behavior
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/pre_behavior.png>
+    
     4. Time
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/pre_time.png>
+    
 
 Other comments on this question:
 - I tend to be predisposed to systems thinking and approaches - it is what drew me to this position and has kept it interesting.  This approach, however, pushes that to a different level.  
@@ -132,9 +144,20 @@ Other comments on this question:
     
 6. Please estimate your Post-level of systems thinking about EBP reach and clinic staff decisions on the four domains:
     1. Complexity
+    
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/post_complexity.png>
+    
     2. Feedback
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/post_feedback.png>
+    
     3. Behavior
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/post_behavior.png>
+    
     4. Time
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/post_time.png>
     
 Other comments on this question:
 - I think I'm an under-rater here, and think I still have a lot of opportunities for expanding my knowledge base.
