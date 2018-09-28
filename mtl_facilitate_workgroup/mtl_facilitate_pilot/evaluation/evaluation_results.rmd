@@ -216,11 +216,20 @@ Other comments on this question:
 17. Rate TeamPSD's level of effectiveness in each of these areas:
     1. Preparation
     
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/interest_mtl_.png>
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plot/preparation_team_psd.png>
     
     2. Facilitation
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plot/facilitation_team_psd.png>
+    
     3. Command of the subject
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plot/command_team_psd.png>
+    
     4. Responsiveness to learners
+        
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plot/responsiveness_team_psd.png>
+    
     
 Other comments on this question:
 - Prepared and very responsive 
@@ -229,15 +238,15 @@ Other comments on this question:
 18. Rate the level of effectiveness of the Modeling to Learn program in the following:
     1. Shared decision making
     
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/shared_decision_making_.png>
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/shared_decision_making.png>
     
     2. Equitable access to resources
 
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/equitable_access_resources_.png>
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/equitable_access_resources.png>
 
     3. Mutual learning
     
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/mutual_learning_.png>
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/mutual_learning.png>
 
 Other comments on this question:
 - I think mutual learning is high but will be variable 
@@ -271,7 +280,7 @@ Other comments on this question:
 
 22. Rate your level of engagement throughout the Modeling to Learn Facilitate Pilot program
 
-<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/engagement_.png>
+<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/engagement.png>
 
 Other comments on these questions:
 - LOVE it!  Thanks so much for all of your amazing hard work.  What an incredible tool.
