@@ -2,7 +2,7 @@
      height = "200" width = "600">  
 # MTL Facilitate Workgroup
 
-**1. *MTL* Facilitate Pilot **  
+**1. *MTL* Facilitate Pilot**  
 
 Evaluation Results
 
