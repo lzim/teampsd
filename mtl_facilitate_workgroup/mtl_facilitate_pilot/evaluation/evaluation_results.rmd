@@ -79,7 +79,7 @@ Other comments on this question:
 
     6. Session 6: Tells a Systems Story
     
-    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session6.png>
+    <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/feasibility_session6.png> 
     
     7. Session 7: Run a Base Case
     
@@ -154,19 +154,19 @@ Other comments on this question:
 
 10. Rate the value of the Modeling to Learn program to the average frontline team
 
-<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/value_ntl_frontline_.png>
+<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/value_ntl_frontline.png>
 
 11. Rate the value of the Modeling to Learn program in your role as a technical assistant specialist
 
-<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/value_ntl_tas_.png>
+<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/value_ntl_tas.png>
 
 12. Rate the usefulness of Modeling to Learn tools to support facilitation (i.e. session guides, fidelity checklist, mtl.how, etc.)
 
-<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/usefulness_mtl_.png>
+<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/usefulness_mtl.png>
 
 13. Rate your level of interest in facilitating Modeling to Learn Live
 
-<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/interest_mtl_.png>
+<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/interest_mtl.png>
 
 Other comments on these questions:
 - I'm very interested in getting this going in VISN 12. 
