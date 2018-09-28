@@ -207,8 +207,10 @@ Other comments on these questions:
 - Systems thinking skills
 
 <img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/greatest_value_mtl.png>
+
 Other comments on this question: 
 - I think initially you will get the strongest positive reaction to the data transparency. This is going to be a game changer for a lot of front line staff.  Many of them already work in a team-based format, albeit in possibly less formalized teams (they work in their smaller groups to get the work done). I think this, plus the systems thinking are really important components of the process and change but will take a little longer to achieve the awareness of the value for some of our teams. 
+
 -----
 
 15. Please indicate which of the following characteristics are of benefit to you as a technical assistant specialist (check all that apply):
@@ -222,7 +224,7 @@ Other comments on this question:
  - Development of valuable relationships
  - Enhanced ability to meet the needs of my constituency or clients at the VA
  
-<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/benefits_tas.png>
+<img src =  https://raw.githubusercontent.com/lzim/teampsd/master/mtl_facilitate_workgroup/mtl_facilitate_pilot/evaluation/evaluation_plots/benefit_tas.png>
  
 Other comments on this question: 
 - None
