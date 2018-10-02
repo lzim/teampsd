@@ -1,0 +1,38 @@
+Team Blue
+Aug 31, 2018; 8:15am scheduled start time
+Lead Co-Facilitator: LZ
+Co-Facilitator: TR
+Team members: 
+ZL (psychiatry) present
+MF (psychiatry) 
+NM (psychiatry) LEAD present
+RG (nursing) present
+SW (social work)
+D present
+NameUsernamePasswordNathaniel Mendelsohnnathaniel.mendelsohn@va.govblue1234George Freemangeorge.freeman@va.govblue1234Rosemarie Geiserrosemarie.geiser@va.govblue1234Bajazeda Lakisic-Kazazicbajazeda.lakisic-kazazic@va.govblue1234Sarah Wallssarah.walls@va.govblue1234
+
+NOTES:
+LZ: Ok, we are ready to go. (8:34am – late start). 
+LZ: [reoriented team to mtl/how] [team logging in]
+LZ: We have a new data and sim interface! 
+LZ: Shows new features of DUI. Questions?
+LZ: Reviews data file naming convention. 
+LZ: Data UI is for reviewing the data. Sim folder is the data for the Sim UI!
+LZ: Shows how to call up the DUI and SUI and split the screen.
+LZ: Shows how to add a new data file. Need to type the file name into the window in the SUI exactly.
+LZ: Mark drives. 
+M: [Starts sharing, starts driving]
+LZ: Let’s look at the current session. Now let’s start a new session. 
+LZ: Here is how you can find you
+LZ: David and Tom, long lead time in loading old runs. 
+M: When you choose a different set of clinics, is it hard for the sim to work with that? 
+LZ: No, it is just a matter of generating the file and making sure it is being read by the SUI.
+LZ: Okay, so let’s run a basecase, because we have a new data file. 
+M: Okay.
+LZ: To run a base case without changes, just click on run. 
+LZ: Oh, screen error. Make a note for James.
+LZ: Log out and back in. 
+M: OK.
+LZ: Good, it runs now. 
+LZ: Not you can save this run. [shows how to save the file].
+
