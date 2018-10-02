@@ -50,3 +50,14 @@ Rated on scale of: a lot / somewhat / very little
 - Team fatigue affects which patients the team refers out
 - Team fatigue affects burnout and eventually increases the sick time   used and providers leaving the team
 - Higher wait times to start care in the overburdened team affect other   teams’ referral rates to this team
+
+4)	If a team is overburdened (i.e., has more patients in care than they have time to treat effectively), then how much do each of these consequences matter to getting and keeping patients in the right level of care?
+
+- Team fatigue affects whether a patient receives a high risk for suicide flag or has a flag removed
+- Team fatigue affects how long it takes for the provides on the team to recognize significant changes in patient symptoms
+- Team fatigue affects how many new transfers the team accepts
+- Team fatigue affects which patients the team refers out
+- Team fatigue affects burnout and eventually increases the sick time used and providers leaving the team
+- Higher wait times to start care in the overburdened team affect other teams’ referral rates to this team
+
+
