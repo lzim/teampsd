@@ -11,13 +11,13 @@ output:
 ---
 
 <!-- MTL Logo, HTML img tag -->
-# *Modeling to Learn* Evaluating our Base Case of No Change.
+# *Modeling to Learn* how to evaluate our base case of no new decisions.
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
 ## Session 7: Accreditation Master Brochure
 
-## Title: *Modeling to Learn* Evaluating our Base Case of No Change.
+## Title: *Modeling to Learn* how to evaluate our base case of no new decisions.
 
 ## Client Program Office: National Center for PTSD, Training and Dissemination Division
 
@@ -85,7 +85,7 @@ NYSED
 | Time				|	Agenda Item		|	Who					|		Type		|
 | -----------	|---------------|-------------|-----------|
 | 15 Minutes	|	Done and Do		|	Facilitator	|		Interactive		|
-| 30 Minutes	|	Team Activity on the Base Case Assuming No Change		|	Facilitator |		Interactive		|
+| 30 Minutes	|	Team Activity on Evaluating the Base Case		|	Facilitator |		Interactive		|
 | 15 Minute		|	Done and Do		|	Facilitator	|		Interactive		|
 
 ## Faculty and Planning Committee Listing: (Lindsey/Stacey to provide contacts to Elizabeth)
