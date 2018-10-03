@@ -1,0 +1,51 @@
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+     height = "150" width = "250">  
+
+# MTL Facilitate
+**Session 12 – Team MTL Graduation - Team Reflection on Team Vision - Follow-up Assistance Plan**  
+
+##In-session Exercise (30 minutes) Team Plan for after MTL Meetings
+
+###Purpose
+* The purpose for this activity is to create a Team Plan for after the MTL meetings.
+* Team’s that create actions plans with specific steps and delegate the steps to specific team members within a specific time are more likely to excel at implementing their plan and achieving a goal.
+
+###Review
+* Describe Team Vision
++ Our team vision is...
+
+* Test – Testing clinical decisions in the sim UI resulted in a Top Priority or Key Clinical Decision
++ Our team’s top priority or key clinical decision is (identified in MTL Session 11)…
+
+* Apply your decision within a specific timeframe
++ A realistic timeframe for achieving your team priority or top clinical decision is…
+
+###Plan
+* Establish Goal Statement:  
++ By DATE, TEAM NAME will have applied or improved CLINICAL DECISION/TOP PRIORITY by NUMBER (e.g. percent, patients, appointments, weeks).
++ TEAM NAME will apply CLINICAL DECISION/TOP PRIORITY by DATE and examine data each QUARTER, MONTH.
+
+* To achieve this goal, our team will:
+** Include clinical decision/priority topic for discussion on team meeting agenda WEEKLY, MONTHLY, QUARTERLY to track progress
+
+** Engage Technical Assistance (TA) support from Team PSD every NUMBER MONTHS to refresh our thinking on the clinical decision and MTL use.
++ The *Modeling to Learn* Team is available to support your team in using MTL tools and resources to inform clinical decision-making
+
+** Resources – Tracking our clinical decision progress involves:
++ MTL.how/data – Monthly or Bi-monthly
+1.	Identify data co-champions 
+2.	Data co-champions will present to team one data point to the team that demonstrates progress on goal
++ MTL.how/sim Module – Quarterly or Biannually
+1.	Describe and test one additional clinical decision
+2.	Determine how this decision would be applied or implemented in the clinic
+
+** Other Resources and Support
+
++ Explore other MTL modules
+Care Coordination
+Medication Management
+Psychotherapy
+Suicide Prevention
+Aggregate
+
+##Summary
