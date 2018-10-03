@@ -11,13 +11,13 @@ output:
 ---
 
 <!-- MTL Logo, HTML img tag -->
-# *Modeling to Learn* Making Team Decisions.
+# *Modeling to Learn* how to make team decisions.
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
 ## Session 11: Accreditation Master Brochure
 
-## Title: *Modeling to Learn* Making Team Decisions.
+## Title: *Modeling to Learn* how to make team decisions.
 
 ## Client Program Office: National Center for PTSD, Training and Dissemination Division
 
