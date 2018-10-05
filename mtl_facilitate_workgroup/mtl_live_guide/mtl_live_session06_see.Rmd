@@ -38,12 +38,12 @@ output:
 
 # In-session Exercise (30 minutes)
 
-* Purpose: The purpose for this activity is to familiarize *MTL* learners with the main tile in the model diagram. By the end, learners should easily find information in the model.  
+* Purpose: The purpose for this activity is to familiarize MTL learners with the main tile in the model diagram. By the end, learners should easily find information in the model.  
 
 # **In-session Exercise – Part 1: Where in the MTL World Is…**  
 
-* The Facilitator will challenge *MTL learners* to find certain information on the MTL.how/sim main tile for the Care Coordination (CC) model.  
-+ A series of 5 questions, one at a time, will be posed via the chat box as well as the Facilitator reading them aloud to the *MTL Learners*.  
+* The Facilitator will challenge MTL learners to find certain information on the MTL.how/sim main tile for the Care Coordination (CC) model.  
++ A series of 5 questions, one at a time, will be posed via the chat box as well as the Facilitator reading them aloud to the MTL Learners.  
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
 + *If at any time you are not sure how to find something, ask for help.* The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.  
 
@@ -54,7 +54,7 @@ output:
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 
-* *MTL learners* will form pairs.  
+* MTL learners will form pairs.  
 * Starting Point: Care Coordination main model tile with no complexity revealed.  
 *Tip for the learner* – if your computer screen is expanded you may not be able to see the whole model all at once. If you click on the layered boxes in the upper right of your screen, it will enable you to see the whole model at once.  
 
@@ -74,5 +74,5 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question in the Expanded Outputs Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log-in to your "individual world" at mtl.how/sim and enter your own question and hypothesis in the Expanded Outputs Tile for the experiment discussed in the session. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question in the Expanded Outputs Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to your individual world at mtl.how/sim and enter your question and hypothesis about the base case run in the Expanded Outputs tile. |
 
