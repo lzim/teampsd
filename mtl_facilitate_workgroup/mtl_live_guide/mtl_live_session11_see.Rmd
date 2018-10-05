@@ -21,7 +21,7 @@ output:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged into mtl.how/live to discuss possible decisions/changes our team could make in our clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's decisions and next steps based on MTL. | 
 
@@ -33,30 +33,29 @@ output:
 
 1.	Describe what your team has prioritized as decisions to implement in your clinic. 
 2.	Test your team’s plan against your individual and shared, team vision.
-3.	Apply team your team’s plan in clinical decisions.
-
-1) Last experiment - Experiment on how to use RVI to address loss of staff (example from Team Blue that is hypothetical for other teams)
-
-2) Review experiments, think about them in relationship to team needs and team vision
-
-3) Thinking about which patients team would push out (linking back to the Data UI)
-
-4) Bridge back learning from experiments to original learning goal, team question, and team need into concrete actions team can take in the real world
-
-5) Stitching team back together. Trying to find ways for team to coodinate efforts based on learning, with access to resources and ability to go on with another module if interested.
-
-6) We do not want to send the message when making the team plan that we are finally making a decision for the first time after meeting for 6 months. We want team to be making and thinking about decisions and changes all along the way.
-
+3.	Apply your team’s plan in clinical decisions.
 
 # In-session Exercise (30 minutes)
 
-1. One
-2. Two 
-3. Three
+1. Last experiment - i.e. Experiment on how to use RVI to address loss of staff 
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
+
+2. Review experiments, think about them in relationship to team needs and team vision
+3. Thinking about which patients team would push out (linking back to the Data UI)
+4. Bridge back learning from experiments to original learning goal, team question, and team need into concrete actions team can take in the real world
+5. Stitching team back together. Trying to find ways for team to coodinate efforts based on learning, with access to resources and ability to go on with another module if interested.
+6. We do not want to send the message when making the team plan that we are finally making a decision for the first time after meeting for 6 months. We want team to be making and thinking about decisions and changes all along the way.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "90" width = "90"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We reflected on team learning from the MTL program and prioritized ways to implement our learning in our clinical care. | Reflect on team learning and team vision to prepare for making a team plan for next steps.| 
 

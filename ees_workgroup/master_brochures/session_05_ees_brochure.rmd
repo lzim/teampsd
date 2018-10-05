@@ -1,6 +1,6 @@
 ---
-title: "*Modeling to Learn* Session 1 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "28 September 2018"
+title: "*Modeling to Learn* Session 5 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
+date: "03 October 2018"
 output: 
   github_document: default
   html_document: default
@@ -11,13 +11,13 @@ output:
 ---
 
 <!-- MTL Logo, HTML img tag -->
-# *Modeling to Learn* how to align our team vision.
+# *Modeling to Learn* How to Log In to Our Team World.
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
-## Session 1: Accreditation Master Brochure
+## Session 5: Accreditation Master Brochure
 
-## Title: *Modeling to Learn* how to align our team vision.
+## Title: *Modeling to Learn* How to Log In to Our Team World.
 
 ## Client Program Office: National Center for PTSD, Training and Dissemination Division
 
@@ -55,11 +55,11 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe your own vision for what you would like your team to get from Modeling to Learn.
+1.	Describe the team data in the experiments tile.
 
-2.	Test out your thinking with your team about what your shared vision is for becoming a "dream team."
+2.	Test out the simulation user interface for more information about team data.
 
-3.	Identify a shared team vision for learning from Modeling to Learn.
+3.	Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
 ## Pre-Test: No
 
@@ -79,13 +79,14 @@ ASWB
 
 NYSED
 
-## Agenda: 
-  
-| 15 Minutes | Done and Do	| Facilitator	| Interactive |
+## Agenda:
+<!-- Agenda Table -->
 
-| 30 Minutes	| Team Activity on Shared Vision | Facilitator | Interactive |
-
-| 15 Minutes	| Done and Do	| Facilitator	| Interactive |
+| Time				|	Agenda Item		|	Who					|		Type		|
+| -----------	|---------------|-------------|-----------|
+| 15 Minutes	|	Done and Do		|	Facilitator	|		Interactive		|
+| 30 Minutes	|	Team Activity on Simulation World		|	Facilitator |		Interactive		|
+| 15 Minute		|	Done and Do		|	Facilitator	|		Interactive		|
 
 ## Faculty and Planning Committee Listing: (Lindsey/Stacey to provide contacts to Elizabeth)
 
@@ -116,11 +117,3 @@ Planning Member for (discipline)
 7.	Kaplan MS, Huguet N, McFarland BH, et al. Suicide among male veterans: a prospective population-based study. J Epidemiol Community Health. 2007;61:619–624.
 
 8.	Desai RA, Dausey DJ, & Rosenheck RA. Mental health service delivery and suicide risk: The role of individual patient and facility factors. Am J Psychiatry. 2014.
-
-9.	Gradus JL, Suvak MK, Wisco BE, et al. Treatment of posttraumatic stress disorder reduces suicidal ideation. Depress Anxiety. 2013;30:1046–1053.
-
-10.	Hankin CS, Spiro III A, Miller DR, et al. Mental disorders and mental health treatment among US Department of Veterans Affairs outpatients: The Veterans Health Study. Am J Psychiatry. 2014.
-
-11.	Hoggatt KJ, Williams EC, Der-Martirosian C, et al. National prevalence and correlates of alcohol misuse in women Veterans. J Subst Abuse Treat. 2015;52:10–16.
-
-12.	Fulton JJ, Calhoun PS, Wagner HR, et al. The prevalence of posttraumatic stress disorder in Operation Enduring Freedom/Operation Iraqi Freedom (OEF/OIF) Veterans: A meta-analysis. J Anxiety Disord. 2015;31:98–107.

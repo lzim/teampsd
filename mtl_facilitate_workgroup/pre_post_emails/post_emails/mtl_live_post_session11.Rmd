@@ -31,5 +31,5 @@ output:
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Reflect on team learning and team vision to prepare for making a team plan for next steps.**  
 |**For Our Next Team Meeting**|
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Login to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Login to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
 
