@@ -16,114 +16,113 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 	
-**1. Which of these is one purpose of *Modeling to Learn*?**	
+**1. The experiment timeline in a *Modeling to Learn* simulation is...?**  
 
-a. Create a customized system modeling tool to make decisions that optimize patient care delivery  
+a. Two years  
 
-b. Understand clinic services available to veterans  
+b. One year  
 
-c. Provide templates for Evidence-based Psychotherapies (EBPs)  
+c. Six months  
 
-d. Show VA clinic staff decisions that are not in their control  
+d. Three months  
 
 
-**2. Which of these is a *Modeling to Learn* Module?**	
+**2. Where do you find descriptions for each variable in the *Modeling to Learn* main tile?**	
 
-a. Medication Management (MM)  
+a. When you click on the blue circle with an “i” in the middle there is descriptive text  
 
-b. Post-traumatic Stress Disorder (PTSD)  
+b. In the Glossary at the top of the home page  
 
-c. Prescription Adherence  
+c. In the Chat function on the top of the page  
 
-d. Mental Health Management  
+d. In a separate Excel file available on the Home page  
 
-		
-**3. In the context of *Modeling to Learn* the acronym "EBP" stands for:**	
 
-a. Evidence-based Psychotherapies and Pharmacotherapies  
+**3. What happens in the main tile of *Modeling to Learn* when you "Reveal Complexity?"**	
 
-b. Evidence-based Primary Care Practice  
+a. Additional lines, arrows and boxes are shown to help tell the systems story  
 
-c. Evidence-based Business Processes  
+b. Additional clinic data is added to the model  
 
-d. Evidence-based Pediatric Care  
+c. Charts with results representing experiments you have run appears  
 
-		
-**4. A primary purpose of the *Modeling to Learn* data user interface (UI) is to help a clinic team:**	
-
-a. Use team trends and patient data to enhance care coordination  
-
-b. Provide required quality data to VA administrators  
-
-c. Document use of ICD-10 codes  
-
-d. Create a team vision for better data management  
+d. A new set of team data is revealed  
 
 		
-**5. The “ClinicSelection” tab in the MTL data UI allows the user to:**	
+**4. Each *Modeling to Learn* model has two main stocks or inputs. They are:**	
 
-a. Select clinics only in their VISN  
+a. Appointments and Patients
 
-b. Select any clinic in the VA  
+b. Care Coordination and Medication Management  
 
-c. Select clinics only in which the user sees patients  
+c. Psychotherapy and Suicide Prevention  
 
-d. Select providers serving in specific clinics  
-	
-			
-**6. Which data below is available for review on MTL.how/data?**	
-
-a. Patient Data sorted by VISN, by Facility  
-
-b. CPT and ICD-10 Codes  
-
-c. Diagnosis by clinician name  
-
-d. Monthly data according to services provided by a VA clinic  
-
-e. All of the above  
+d. Clinic Names and Clinician Names 
 
 		
-**7. The data tab titles in MTL.how/data include:**	
+**5. When you are telling a systems story in the main MTL model diagram, a “B” with a circle arrow around it represents:**	
 
-a. dataDiag, dataHF, and dataMeas  
+a. A balancing loop
 
-b. Diagnoses by Clinician, Coding by Clinician, Treatment by Clinician  
+b. A baseline loop 
 
-c. Visuals, Data, Outcomes  
+c. A block loop 
 
-d. Clinics, Clinicians, Codes  
+d. A business loop  
+
+
+**6. In *MTL*, the acronym "RVI" stands for:**	
+
+a. Return-to-Clinic Visit Interval  
+
+b. Retail Value Incorporated  
+
+c. Residual Value Insurance  
+
+d. Regulating Variable Individually  
 
 		
-**8. The MTL.how/data VIZ tabs show:**	
+**7.  In *MTL*, the acronym "BC" refers to:**		
 
-a. Team trends  
+a. Base Case  
 
-b. A team's individual patient information  
+b. Basic Clinic 
 
-c. Team staffing history  
+c. Big Case
 
-d.Team priorities for individual patient care  
+d. Before Clinic  
+
+		
+**8. In *MTL*, when you click on the Outputs tile and click on “Expand,” what are the four boxes you see on the screen?:**	
+
+a. Our Question, Our Hypothesis, Our Findings, Our Decisions  
+
+b. Clinician Data, Our Clinic, Our VISN, VA Health System  
+
+c. Question, Inputs, Outcomes, Changes  
+
+d. Review, Modify, Test, Decide  
 
 				
-**9. The MTL.how/data DATA tabs show:**	
+**9. Which sequence below represents a portion of a Modeling to Learn systems story, i.e. a typical flow of patients in the appointments section of a model:**
 
-a. A team's individual patient information  
+a. Booking Rate, Appointments, Completing Rate  
 
-b. Team trends  
+b. Starting Rate, Completion Rate, Booking Rate  
 
-c. Team staffing history  
+c. Patients in EBP, Patients Old Service Rate, Patients New Service Rate  
 
-d.Team priorities for individual patient care  
+d. Appointment Supply, Referral Rate, Overbooking Rate  
 
 				
-**10. Team trends that are available for review on team data VIZ tabs include:**	
+**10. Which text below is one you would most likely enter in the “Our Question” box on the *MTL* Outputs tile?:**	
 
-a. Diagnoses, Encounters, Health Factor Data, and Measures from mental health assistant  
+a. What will happen to the patient booking rate and patient starting rate if we change the return visit interval and the number of scheduled appointments available for Care Coordination?  
 
-b. Mental health codes assigned to a patient over time  
+b. If we shift patients to chronic disease and away from general mental health management, what change will we see in missed appointments?  
 
-c. Data for all VA patients completing an evidence-based psychotherapy template  
+c. How will Care Coordination appointment supply change if we add more patients in Medication Management?  
 
-d. Data for all services provided in the VISN  
+d. If we decrease the appointment supply for primary care and increase the referral rate to EBP, how will our overbooking rate go down?  
+ 
 
