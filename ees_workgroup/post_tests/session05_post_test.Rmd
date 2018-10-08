@@ -16,103 +16,115 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
      
-**1. Which of these is one purpose of *Modeling to Learn*?**
+**1. Which of these is a *Modeling to Learn* Module?**
 
-a. Empower local clinic staff to use real-time clinic data  
+a. Aggregate Module (AGG)  
 
-b. Understand clinic services available to veterans  
+b. Confidential Care (CC) Module  
 
-c. Provide templates for Evidence-based Psychotherapies (EBPs)  
+b. Post-traumatic Stress Disorder (PTSD) Module  
 
-d. Show VA clinic staff decisions that are not in their control their control  
-	
-**2. Which of these is a *Modeling to Learn* Module?**
-
-a. Care Coordination (CC)  
-
-b. Post-traumatic Stress Disorder (PTSD)  
-
-c. Managing Disability  
+c. Chronic Disease Management (CDM) Module  
 
 d. Prescription Adherence  
-	
-**3. Which of the following creates a positive learning experience for *Modeling to Learn* participants?**
 
-a. The learning was hands-on and experiential  
 
-b. The learning connected to the real world  
+**2. Which web address is correct to access the *Modeling to Learn* simulation user-interface?**
 
-c. The learner learned from and taught others  
+a. mtl.how/SIM  
+
+b. modelingtolearn.com/SIM  
+
+c. mtl.how/simulation  
+
+d. modelingtolearn.com/simulation  
+
+
+**3. The home or landing page for the MTL simulation user-interface has what components?**
+
+a. Team name, player name, welcome text, and 3 tiles with blue headers  
+
+b. VISN name, Clinic name, and Experiment name  
+
+c. Only team name and a “join session” icon  
+
+d. None of the above  
+
+
+**4. If you have logged into MTL.how/SIM and are on the home page to “start a new session”, what are your selection options?**
+
+a. Care Coordination, Medication Management, Psychotherapy, Aggregate  
+
+b. A dropdown box of VISN Numbers to select  
+
+c. Cognitive behavioral therapy (CBT), Acceptance and commitment therapy (ACT), Dialectical behavior therapy (DBT), Mindfulness-based stress reduction  
+
+d. No selection options, just click on “start a new session”
+
+
+**5. Once you have logged into the *Modeling to Learn* simulation user-interface, what are the titles of the two tiles on the right side of the screen in the model diagram (white text in blue bar)?**
+
+a. Output and Experiments  
+
+b. Input and Output  
+
+c. Baseline and Experiments  
+
+d. Models and Outcomes  
+
+		
+**6. The “Team Data” table in the *Modeling to Learn* Experiments tile contains data from:**
+
+a. The clinic team using the model that day  
+
+b. All VA clinics across the United States  
+
+c. VISN Data  
+
+d. Data specific to a clinician in a clinic  
+ 
+		
+**7. The main model tile in *Modeling to Learn* has a series of rectangles and circles with labels. What do the circles represent?**
+
+a. Different Rates (booking, completion, graduation, etc.)  
+
+b. Different Experiments  
+
+c. Different Clinic Outcomes  
+
+d. Different Types of Appointments  
+
+ 	
+**8. The main model tile in *Modeling to Learn* has a series of rectangles and circles with labels. What do the rectangles represent?**
+
+a. Appointments and/or Patients  
+
+b. Supply and Demand  
+
+c. Outputs and Outcomes  
+
+d. Time and Materials  
+
+
+**9. When you click on a lower case “i” in the *Modeling to Learn* main tile you will see a pop-up box containing...?*
+
+a. Descriptive information about the specific segment of the model close to the “i”  
+
+b. Information about scheduling grids  
+
+c. Detailed information about the supply of patients and appointments  
+
+d. Questions about simulations you can run in the model  
+
+
+**10. Examples of *Modeling to Learn* team data variables include:**
+
+a. True Missed Appointment % (rate)  
+
+b. Appointment Supply  
+
+c. Return Visit Interval  
 
 d. All of the above  
-	
-**4. Which of the following creates a negative learning experience for *Modeling to Learn* participants?**
-
-a. It was fun or left the learner feeling good  
-
-b. The learner had choices, shared authority, control, and responsibility  
-
-c. The experience helped the learner understand him or herself  
-
-d. The learner attended a 60-minute lecture with no interaction or Q&A  
-
-**5. Establishing a vision for team communications and interactions helps a clinic team to:**
-
-a. Identify an internal team language that may enhance team decision-making  
-
-b. Avoid one-on-one meetings with clinic team members  
-
-c. Change care plans without consulting team members  
-
-d. Saves the clinic time and money  
-		
-**6. A core concept of *Modeling to Learn* is that the learner will:**
-
-a. Develop systems thinking skills  
-
-b. Avoid focusing on clinic data  
-
-c. Make individualized, independent decisions about clinical care  
-
-d. Improve medical chart coding skills  
-		
-**7. *Modeling to Learn* is designed to help a clinic team:**
-
-a. Use systems thinking and data to enhance clinic decisions  
-
-b. Create new scheduling grids  
-
-c. Learn how to apply evidence-based psychotherapy templates  
-
-d. Delegate clinic work  
- 	
-**8. By participating in *Modeling to Learn* a clinic team may:**
-
-a. Improve team quality of care and quality of work life balance  
-
-b. Reduce the need for transparency  
-
-c. Identify ways to increase clinic staffing budgets  
-
-d. Create enhanced clinician-veteran communications strategies  
-	
-**9. One benefit of participating in the *Modeling to Learn* process is that clinic teams:**
-
-a. Have VA data, initiatives and standards made transparent  
-
-b. Will not have to manage their scheduling grids  
-
-c. May decide to work overtime to accommodate patient load  
-
-d. Only have to address one priority in the system  
-
-**10. The *Modeling to Learn* team vision is designed to:**
-
-a. Align with your personal vision for how a VA clinic team can optimize operations  
-
-b. Enhance individual clinical performance objectives  
-
-c. Enhance the visibility of your team in the larger VA system  
-
-d. Focus on the team’s functioning and operations in the next 10 days  
+ 
 
