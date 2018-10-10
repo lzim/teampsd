@@ -1,5 +1,5 @@
 ---
-title: "MTL Session 12"
+title: "*MTL* Session 12"
 author: "Team PSD"
 date: "September 2018"
 output: 
@@ -30,19 +30,19 @@ output:
 
 ## Learning Objectives
 
-1. Describe what your team has learned and prioritzed throughout the MTL 12 session program.
+1. Describe what your team has learned and prioritzed throughout the *MTL* 12 session program.
 2. Test how your team's plan aligns with your team's shared vision.
 3. Apply decisions that your team has prioritized to implement in the clinic.
 
-# In-session Exercise: MTL graduation and post-MTL plan (30 minutes)
+# In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
 
-1. Discuss what the team has learned through the Modeling to Learn 12-session program.
+1. Discuss what the team has learned through the *Modeling to Learn* 12-session program.
 
 •	What shared vision did the team come to in Session 1?
 
-•	In what ways can the MTL data tool be useful to you?
+•	In what ways can the *MTL* data tool be useful to you?
 
-•	In what ways can the MTL sim tool be useful?
+•	In what ways can the *MTL* sim tool be useful?
 
 •	What are decisions within the team’s control that can help you optimize EBP reach for veterans?
 
@@ -54,21 +54,21 @@ output:
 
 •	How do those decisions align with the team’s vision?
 
-3.	Discuss how the team will follow up on MTL:
+3.	Discuss how the team will follow up on *MTL*:
 
 •	Decisions the team will implement in the clinic
 
-•	MTL resources the team will use or revisit in the future
+•	*MTL* resources the team will use or revisit in the future
 
 •	Lead person(s) and time frame for the above actions 
 
-4.	Celebrate completion of Modeling to Learn!
+4.	Celebrate completion of *Modeling to Learn*!
 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| We completed MTL!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Go to mtl.how for ongoing release updates and assistance using MTL Resources. | 
+| We completed *Modeling to Learn*!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Go to mtl.how for ongoing release updates and assistance using *MTL* Resources. | 
 
 
