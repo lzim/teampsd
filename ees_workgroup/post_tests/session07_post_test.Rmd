@@ -104,7 +104,7 @@ c.	The purpose of the “Our Decisions” text is to detail the top 3 decisions 
 d.	The purpose of the “Our Decisions” text is to determine one change the clinic team will make to new patient care that can impact quality care measures.
 
 		
-**9. Within the *Modeling to Learn* Outputs section there is a Control Panel. What can you do in this Control Panel?:
+**9. Within the *Modeling to Learn* Outputs section there is a Control Panel. What can you do in this Control Panel?:**
 
 a.	Review Current Experiment Values and Select Experiments
 
