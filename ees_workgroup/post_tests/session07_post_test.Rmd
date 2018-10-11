@@ -49,7 +49,7 @@ c. The “usual” or representative patient case for a clinic team
 d. The most basic set of ICD-10 and CPT codes assigned to a typical VA patient receiving mental health services
 
 
-**4. What is the purpose for the text in the “Our Question” box on the *MTL* Outputs screen?**	
+**4. What is the purpose for the text in the “Our Question” box on the *MTL* Outputs section?**	
 
 a.	The purpose of the “Our Question” text is to briefly describe what your team wants to learn from the experiment you are about to run.
 
@@ -60,7 +60,7 @@ c.	The purpose of the “Our Question” text is to briefly describe what questi
 d.	The purpose of the “Our Question” text is to briefly describe what your team wants to learn when revealing complexity in the model.
 
 
-**5. What is the purpose for the text in the “Our Hypothesis” box on the *MTL* Outputs screen?**
+**5. What is the purpose for the text in the “Our Hypothesis” box on the *MTL* Outputs section?**
 
 a.	The purpose of the “Our Hypothesis” text is to outline the systems story, using the main model diagram as a reference, your team believes will cause the outcomes you expect to observe in running an experiment.
 
@@ -82,7 +82,7 @@ c.	Appointment Supply total, Number of patients who initiate treatment, Number o
 d.	Base case, experiment A and experiment B
 
 
-**7. What is the purpose for the text in the “Our Findings” box on the *MTL* Outputs screen?**
+**7. What is the purpose for the text in the “Our Findings” box on the *MTL* Outputs section?**
 
 a. The purpose of the “Our Findings” text is to describe your team's findings, insights and conclusions from running an experiment.
 
@@ -93,7 +93,7 @@ c. The purpose of the “Our Findings” text is to detail the findings the team
 d. The purpose of the “Our Findings” text is to guide the team into making staffing, patient care, and scheduling decisions for the next two months.
 
 
-**8. What is the purpose for entering text into the “Our Decisions” box on the *MTL* Outputs screen?**
+**8. What is the purpose for entering text into the “Our Decisions” box on the *MTL* Outputs section?**
 
 a.	The purpose of the “Our Decisions” text is to document what the team has learned in an experiment and the changes that the team may be ready to make in practice or select what other experiments they will run. 
 
