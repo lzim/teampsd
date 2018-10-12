@@ -37,7 +37,7 @@ b.	Select a World, select a button next to one of the models to Start a New Sess
 
 c.	Select Model Name, click Join Current Session and click Play
 
-d.	Both A and B are correct
+d.	Both a and b are correct
 
 
 
@@ -121,7 +121,7 @@ b.	Discuss what additional experiments the team might run to achieve its clinica
 
 c.	Adopt all of the changes to clinical practice based on *Modeling to Learn* results.
 
-d.	Both A and B could be next steps for the team.
+d.	Both a and b could be next steps for the team.
 
 
 
