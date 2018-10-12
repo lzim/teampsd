@@ -28,6 +28,7 @@ d.	Control Panel in Expanded Outputs Screen
 
 
 **2. The last time your clinic team uploaded a dataset to the *Modeling to Learn* Module was 10 months ago. The team should:**
+
 a.	Upload a new dataset and re-run their base case to be sure the model reflects recent clinical trends
 
 b.	Compare their team trends in the data UI to see if there is any change
