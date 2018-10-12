@@ -24,7 +24,7 @@ b.	The main model tile of whatever simulation module you are using
 
 c.	Expanded Outputs Screen, Save Run
 
-d.	Control Panel in Expanded Outputs Screen
+d.	Control Panel in Expanded Outputs Screen  
 
 
 
@@ -36,7 +36,7 @@ b.	Compare their team trends in the data UI to see if there is any change
 
 c.	Go to the Home page, Experiments Maintenance tile and delete any experiments run on the old dataset
 
-d.	The age of the dataset in *Modeling to Learn* really doesn’t matter when running experiments
+d.	The age of the dataset in *Modeling to Learn* really doesn’t matter when running experiments  
 
 
 
@@ -48,7 +48,7 @@ b.	The sliders increase or decrease the number of results charts you will see in
 
 c.	The sliders reset all the experimental values from the previous simulation runs.
 
-d.	The sliders permit the user to move between their individual world and their team world.
+d.	The sliders permit the user to move between their individual world and their team world.  
 
 
 
@@ -60,7 +60,7 @@ b.	Months
 
 c.	Years
 
-d.	Days
+d.	Days  
 
 
 
@@ -72,7 +72,7 @@ b.	Outputs section, Control panel, Our Findings box
 
 c.	Experiments section, Team Data table
 
-d.	Main model tile, Reveal Complexity segment
+d.	Main model tile, Reveal Complexity segment  
 
 
 
@@ -84,7 +84,7 @@ b. Use of multiple ICD-10 and CPT codes for a single patient and new diagnoses b
 
 c. Changes to SAIL and other quality care measures
 
-d. Reimbursement rates for patient care 
+d. Reimbursement rates for patient care   
 
 
 
@@ -96,7 +96,7 @@ b.	Reveal complexity in the main model tile diagram and examine the Team Data ta
 
 c.	Logoff the model and log back in to see the Results Dashboard in the Outputs section.
 
-d.	Go back to the Experiments section and adjust the sensitivity sliders to run another experiment
+d.	Go back to the Experiments section and adjust the sensitivity sliders to run another experiment.  
 
 
 
@@ -108,7 +108,7 @@ b.	The results dashboard with only the base case run showing on the charts.
 
 c.	The Experiments section with the sensitive sliders adjusted to zero.
 
-d.	The Home page, under the Team Data Menu Maintenance. 
+d.	The Home page, under the Team Data Menu Maintenance.  
 
 
 
@@ -120,7 +120,7 @@ b.	Can make up your own name for any experiment or “run” in *MTL*.
 
 c.	Must ask your team lead to save the run for you.
 
-d.	Don’t need to save experiments; they are automatically saved each time you click on “Run.”
+d.	Don’t need to save experiments; they are automatically saved each time you click on “Run.”  
 
 
 
