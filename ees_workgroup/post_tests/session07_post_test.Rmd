@@ -10,7 +10,7 @@ output:
   word_document: default
 ---
 
-# *Modeling to Learn* how to evaluate our base case of no change.
+# *Modeling to Learn* how to evaluate our base case of no new decisions.
 <!-- MTL Logo, HTML img tag -->
 ## Session 7: Post-test Questions	
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
@@ -40,7 +40,7 @@ d. A team world allows multiple people to run individual different simulations s
 
 **3. In *Modeling to Learn*, what is the definition of “base case”?**	
 
-a. The model's expected outcomes if we make no change to clinic operations; it is determined by using the assumptions that the team consider are most likely to occur and the team data from the past two years 
+a. The model's expected outcomes if we make no new decisions about clinic operations; it is determined by using the assumptions that the team consider are most likely to occur and the team data from the past two years 
 
 b. The model’s results obtained from running a simulation based on the last two months of team data, considering SAIL measures, and assumptions based on future staffing levels
 
