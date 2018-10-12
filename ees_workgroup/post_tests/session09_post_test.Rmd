@@ -29,7 +29,7 @@ d.	MTL.data.how, MTL.menu.how, MTL.sim.how
 
 
 
-**2. When you log in to the simulation user interface for *Modeling to Learn* what steps do you have to take to get into the main model tile to run an experiment?
+**2. When you log in to the simulation user interface for *Modeling to Learn* what steps do you have to take to get into the main model tile to run an experiment?**
 
 a.	Select a World, select the button to Join Current Session and click Play
 
@@ -41,7 +41,7 @@ d.	Both A and B are correct
 
 
 
-** 3. The *Modeling to Learn* main model tile has a diagram that features two main variables or “stocks.” What are they?:
+**3. The *Modeling to Learn* main model tile has a diagram that features two main variables or “stocks.” What are they?**
 
 a.	Appointments and Patients
 
@@ -66,6 +66,7 @@ d.	Teaching VA modeling metrics
 
 
 **5. You have been asked to give verbal instructions to your team lead to run an experiment. What initial series of instructions below would you provide to your team lead?**
+
 a.	Confirm all sliders in the Experiments section are showing zero or base case. Study the system diagram and team data. Decide together what variables our team wants to change or experiment with and what we think will happen when we make changes. Enter text into the “Our Question” and “Our Hypothesis” box. Adjust experiment sliders for the new experiment. Click “Run.”
 
 b.	Enter text into the “Our Question” box. Study the system diagram and team data. Adjust the sliders in the Experiments section. Click “Run.” Enter text into “Our Hypothesis” box and “Our Findings” boxes.
@@ -76,7 +77,7 @@ d.	Click on “Reset.” Go to Experiments section and examine team data. Adjust
 
 
 
-** 6. In one *MTL* session, a clinic team compared their base case to an experiment (called “alternative 1”). On the Results Dashboard in the Outputs section, the charts show a black line and a red line. What do the lines represent?**
+**6. In one *MTL* session, a clinic team compared their base case to an experiment (called “alternative 1”). On the Results Dashboard in the Outputs section, the charts show a black line and a red line. What do the lines represent?**
 
 a.	Black line represents the current experiment (alternative 1) run and the red line represents the base case.
 
@@ -101,6 +102,7 @@ d.	The “Our Question” box in the Outputs section
 
 
 **8. Your team wants to compare the base case to results from alternative 1 and alternative 2 experiments. To do this, the team lead will:**
+
 a.	Go to the Outputs section, Control panel, Select Experiment area and click on the drop down boxes to select the experiments your team wants to compare
 
 b.	Go to the Home page, Experiments Maintenance tile and select the two experiments to compare
@@ -111,7 +113,7 @@ d.	Go to the Experiments section and select the variables you want to compare
 
 
 
-**9. Your team has examined and discussed alternative 1 and alternative 2 experiments compared to the base case and have summarized the impact of the clinic decisions over time. What should the team do next? 
+**9. Your team has examined and discussed alternative 1 and alternative 2 experiments compared to the base case and have summarized the impact of the clinic decisions over time. What should the team do next?** 
 
 a.	Describe your team's findings, insights and conclusions from these experiments in the “Our Findings” box in the Outputs section.
 
@@ -123,7 +125,7 @@ d.	Both A and B could be next steps for the team.
 
 
 
-**10. You have been asked to enter text into a box on the Outputs section that reflects what changes your team is ready to make in clinical practice based on what you learned in the recent experiment. Which box will you choose?
+**10. You have been asked to enter text into a box on the Outputs section that reflects what changes your team is ready to make in clinical practice based on what you learned in the recent experiment. Which box will you choose?**
 
 a.	The “Our Decisions” box in the Outputs section
 
