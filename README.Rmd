@@ -22,7 +22,7 @@
 **5. Qualitative Workgroup**
 - qual_workgroup
 
-**6. Quantiative Workgroup**
+**6. Quantitative Workgroup**
 - quant_workgroup
 
 **7. Shared Team PSD Resources**
