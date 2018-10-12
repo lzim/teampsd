@@ -17,7 +17,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500"> 
 
-# We decided to review team data, bc and our team needs (mtl.how/menu results) to select the "what if" experiment for next time.
+# We decided to review team data, bc and team needs (mtl.how/menu results) to select the "what if" experiment for next time.
 
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
