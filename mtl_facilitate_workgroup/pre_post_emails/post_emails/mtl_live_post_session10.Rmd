@@ -17,7 +17,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500"> 
 
-# We decided to review and compare bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care.
+# We decided to compare bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care.
 
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
