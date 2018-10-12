@@ -50,3 +50,10 @@
 
 - [mtl_how_sim.png](https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_sim.png)
 
+## team time (tt)
+
+**team time title**
+- [tt_title](https://github.com/lzim/teampsd/blob/master/resources/logos/tt_title.png)
+
+**team time logo**
+- [tt_logo](https://github.com/lzim/teampsd/blob/master/resources/logos/tt_logo.png)
