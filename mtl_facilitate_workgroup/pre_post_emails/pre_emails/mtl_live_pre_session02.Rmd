@@ -23,7 +23,7 @@ output:
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
-|**Selected Team Vision.** |
+|**Selected a Team Vision.** |
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "50" width = "75">](mailto:lindsey.zimmerman@va.gov;stacey.park2@va.gov) |
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
