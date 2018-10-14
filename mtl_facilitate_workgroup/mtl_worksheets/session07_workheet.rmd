@@ -18,7 +18,7 @@ output:
 # [MTL Live Session 07 Worksheet](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session07_see.Rmd "MTL Live Session 07")
 
 
-# Evaluating our base case of no new decisions
+# Evaluating our base case of no new decisions.
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
