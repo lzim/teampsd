@@ -23,12 +23,10 @@ output:
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
-| **We completed MTL!** 
+| **We completed _Modeling to Learn_!** 
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
-|**Before Our Next Team Meeting**
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "45" width = "75">](http://mtl.how) **Follow team plan for next steps. Go to mtl.how for ongoing release updates and assistance using MTL Resources.** |
-|**For Our Next Team Meeting**|
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Login to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
+|**Going Forward**
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "45" width = "75">](http://mtl.how) **Follow the team plan for next steps. Log in to mtl.how/how for ongoing release updates and assistance using _MTL_ resources.** |
 
