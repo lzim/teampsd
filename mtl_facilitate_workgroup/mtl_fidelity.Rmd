@@ -17,7 +17,7 @@ session 05. Today we're *modeling to learn* how to log-in to our **team world**.
 
 session 06. Today we're *modeling to learn* how to tell a **systems story**.
 
-session 07. Today we're *modeling to learn* how to evaluate our **base case** of no change.
+session 07. Today we're *modeling to learn* how to evaluate our **base case** of no new decisions.
 
 session 08. Today we're *modeling to learn* how to test a **dynamic hypothesis**.
 

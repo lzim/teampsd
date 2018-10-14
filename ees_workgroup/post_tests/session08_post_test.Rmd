@@ -24,17 +24,20 @@ b.	The main model tile of whatever simulation module you are using
 
 c.	Expanded Outputs Screen, Save Run
 
-d.	Control Panel in Expanded Outputs Screen
+d.	Control Panel in Expanded Outputs Screen  
+
 
 
 **2. The last time your clinic team uploaded a dataset to the *Modeling to Learn* Module was 10 months ago. The team should:**
+
 a.	Upload a new dataset and re-run their base case to be sure the model reflects recent clinical trends
 
 b.	Compare their team trends in the data UI to see if there is any change
 
 c.	Go to the Home page, Experiments Maintenance tile and delete any experiments run on the old dataset
 
-d.	The age of the dataset in *Modeling to Learn* really doesn’t matter when running experiments
+d.	The age of the dataset in *Modeling to Learn* really doesn’t matter when running experiments  
+
 
 
 **3. In *Modeling to Learn*, what do the experimental sliders in the Experiments section do?** 
@@ -45,7 +48,8 @@ b.	The sliders increase or decrease the number of results charts you will see in
 
 c.	The sliders reset all the experimental values from the previous simulation runs.
 
-d.	The sliders permit the user to move between their individual world and their team world.
+d.	The sliders permit the user to move between their individual world and their team world.  
+
 
 
 **4. The units used for Engagement Time, Return Visit Interval (RVI) and Median Engagement Duration in any *MTL* module are:**
@@ -56,7 +60,8 @@ b.	Months
 
 c.	Years
 
-d.	Days
+d.	Days  
+
 
 
 **5. A team has just run their first experiment and wants to review the base case compared to the results of that experiment. To which area of the Modeling to Learn module do they have to navigate?**
@@ -67,7 +72,8 @@ b.	Outputs section, Control panel, Our Findings box
 
 c.	Experiments section, Team Data table
 
-d.	Main model tile, Reveal Complexity segment
+d.	Main model tile, Reveal Complexity segment  
+
 
 
 **6. When reviewing results in the Outputs section of *Modeling to Learn*, you may see oscillation in the results charts. What decisions by a clinic team may cause “oscillation” in team trends?"**
@@ -78,7 +84,8 @@ b. Use of multiple ICD-10 and CPT codes for a single patient and new diagnoses b
 
 c. Changes to SAIL and other quality care measures
 
-d. Reimbursement rates for patient care 
+d. Reimbursement rates for patient care   
+
 
 
 **7. Your team has run the base case. Once you have adjusted the experiment sliders for a new experiment, clicked “Run,” clicked “Save,” and named the run. What are the next two steps a team should take?**
@@ -89,7 +96,8 @@ b.	Reveal complexity in the main model tile diagram and examine the Team Data ta
 
 c.	Logoff the model and log back in to see the Results Dashboard in the Outputs section.
 
-d.	Go back to the Experiments section and adjust the sensitivity sliders to run another experiment
+d.	Go back to the Experiments section and adjust the sensitivity sliders to run another experiment.  
+
 
 
 **8. You have been asked to tell the “systems story” for an experiment or “run” in *MTL*. What area of the model will allow you to do this?**
@@ -100,7 +108,8 @@ b.	The results dashboard with only the base case run showing on the charts.
 
 c.	The Experiments section with the sensitive sliders adjusted to zero.
 
-d.	The Home page, under the Team Data Menu Maintenance. 
+d.	The Home page, under the Team Data Menu Maintenance.  
+
 
 
 **9. When saving an experiment or a “run” in *Modeling to Learn*, you…:**
@@ -111,7 +120,8 @@ b.	Can make up your own name for any experiment or “run” in *MTL*.
 
 c.	Must ask your team lead to save the run for you.
 
-d.	Don’t need to save experiments; they are automatically saved each time you click on “Run.”
+d.	Don’t need to save experiments; they are automatically saved each time you click on “Run.”  
+
 
 
 **10. When the clinic team has run an experiment and the results are not a viable clinical action in the short-term, the team can decide to:**
