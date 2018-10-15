@@ -10,7 +10,7 @@ output:
   word_document: default
 ---
 
-# *Modeling to Learn* how to log-in to our team world.
+# *Modeling to Learn* how to log in to our team world.
 <!-- MTL Logo, HTML img tag -->
 ## Session 5: Post-test Questions	
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
@@ -35,7 +35,7 @@ a. mtl.how/SIM
 
 b. modelingtolearn.com/SIM  
 
-c. mtl.how/simulation  
+c. mtl.net/simulation  
 
 d. modelingtolearn.com/simulation  
 
@@ -48,10 +48,10 @@ b. VISN name, Clinic name, and Experiment name
 
 c. Only team name and a “join session” icon  
 
-d. None of the above  
+d. Welcome text and VISN name and number 
 
 
-**4. If you have logged into MTL.how/SIM and are on the home page to “start a new session”, what are your selection options?**
+**4. If you have logged in to MTL.how/SIM and are on the home page to “start a new session”, what are your selection options?**
 
 a. Care Coordination, Medication Management, Psychotherapy, Aggregate  
 
@@ -62,7 +62,7 @@ c. Cognitive behavioral therapy (CBT), Acceptance and commitment therapy (ACT), 
 d. No selection options, just click on “start a new session”
 
 
-**5. Once you have logged into the *Modeling to Learn* simulation user-interface, what are the titles of the two tiles on the right side of the screen in the model diagram (white text in blue bar)?**
+**5. Once you have logged in to the *Modeling to Learn* simulation user-interface, what are the titles of the two tiles on the right side of the screen in the model diagram (white text in blue bar)?**
 
 a. Output and Experiments  
 
@@ -117,14 +117,14 @@ c. Detailed information about the supply of patients and appointments
 d. Questions about simulations you can run in the model  
 
 
-**10. Examples of *Modeling to Learn* team data variables include:**
+**10. One example of *Modeling to Learn* team data variables include:**
 
 a. True Missed Appointment % (rate)  
 
-b. Appointment Supply  
+b. Clinician Supply 
 
-c. Return Visit Interval  
+c. Patient Visit Interval  
 
-d. All of the above  
+d. Clinic Grid Supply
  
 
