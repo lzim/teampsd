@@ -93,7 +93,7 @@ c. Big Case
 d. Before Clinic  
 
 		
-**8. In *MTL*, when you click on the Outputs tile and click on “Expand,” what are the four boxes you see on the screen?:**	
+**8. In *MTL*, what are titles of the four Text boxes?:**	
 
 a. Our Question, Our Hypothesis, Our Findings, Our Decisions  
 
@@ -115,7 +115,7 @@ c. Patients in EBP, Patients Old Service Rate, Patients New Service Rate
 d. Appointment Supply, Referral Rate, Overbooking Rate  
 
 				
-**10. Which text below is one you would most likely enter in the “Our Question” box on the *MTL* Outputs tile?:**	
+**10. Which question below is one you would most likely enter in the “Our Question” text box in *MTL*?:**	
 
 a. What will happen to the patient booking rate and patient starting rate if we change the return visit interval and the number of scheduled appointments available for Care Coordination?  
 
