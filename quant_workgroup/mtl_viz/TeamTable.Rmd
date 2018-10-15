@@ -269,11 +269,11 @@ vacolor <- c("#003F72", "#0083BE","#598527")
 rvi_graph <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:C32")
 
 rvi_mod <- rvi_graph %>%
-  mutate(Type = ifelse(grepl("Freq", X__1), "Freq", "Time"),
+  mutate(Type = ifelse(grepl("RVI", X__1), "Freq", "Time"),
         `Flow Group` = sub("(.*) Low|Medium|High", "\\1", X__1),
-         `Flow Group` = sub(" Frequency \\(median\\)", "", `Flow Group`),
-         `Flow Group` = sub(" Duration \\(median\\)", "", `Flow Group`),
-         `Flow Group` = sub("(\\s)$", "", `Flow Group`),
+         `Flow Group` = sub("RVI", "Later", `Flow Group`),
+         `Flow Group` = sub(" Duration", "", `Flow Group`),
+         `Flow Group` = gsub("^ *|(?<= ) | *$", "", `Flow Group`, perl = TRUE),
          percentile = sub(".* (Low|Medium|High) .*", '\\1', X__1),
          percentile = replace(percentile, percentile == "Medium", "Median")) %>%
   rename( week = X__2) %>%
@@ -283,9 +283,9 @@ eng <- rvi_mod %>%
   filter(Type == "Freq") %>%
   mutate(week = 1 / week,
          week = replace(week, week==Inf, 0),
-         `Flow Group` = factor(`Flow Group`, levels = c("Starters Who Come Back Later",
-                                                        "Initiators Who Come Back Later",
-                                                        "Completers Who Return")),
+         `Flow Group` = factor(`Flow Group`, levels = c("Starters Who Return Later",
+                                                        "Initiators Who Return Later",
+                                                        "Completers Who Return Later")),
          percentile = factor(percentile, levels = c("Low", "Median", "High")))
 
 
