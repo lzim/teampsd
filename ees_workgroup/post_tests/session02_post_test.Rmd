@@ -73,11 +73,10 @@ a. Patient Data sorted by VISN, by Facility
 
 b. CPT and ICD-10 Codes			
 
-c. Diagnosis by clinician name			
+c. Annual data according to services provided by a VA clinic			
 
-d. Monthly data according to services provided by a VA clinic			
+d. Only a and b
 
-e. All of the above			
 				
 **7. The data tab titles in mtl.how/data include:**			
 
@@ -98,7 +97,8 @@ b. A team’s individual patient information
 
 c. Team staffing history			
 
-d. Team priorities for care			
+d. Team priorities for care  
+
 		
 **9. The mtl.how/data DATA tabs show:**			
 
