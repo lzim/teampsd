@@ -243,6 +243,6 @@ session 12. Today we're *modeling to learn* how to turn **team learning** into a
 **MTL Live** - MTL Session 12 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 12 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
-**Done** - Completed *MTL*!
+**Done** - Completed *MTL*! and completed our plan for next steps.
 **Do** - Follow team plan for next steps. Go to mtl.how for ongoing release updates and assistance using _MTL_ Resources.
 **Post-email**   - Sent the week after the team meeting (off-week) - "We decided on a team plan for following up on _MTL_."
