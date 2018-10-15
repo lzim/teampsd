@@ -29,7 +29,7 @@ d. Start and End
 
 **2. In *Modeling to Learn*, what is the difference between an “individual world” and a “team world?**  
 
-a. A team world is where team members come together on the simulation user-interface to run simulations with a lead team member running the model vs. An individual world is where only a single user can log-in and run *MTL* simulations 
+a. A team world is where team members come together on the simulation user-interface to run simulations with a lead team member running the model vs. An individual world is where only a single user can log in and run *MTL* simulations 
 
 b. A team world is where data from multiple clinic teams is being used in the model vs. an individual world in which only one clinic teams’ data is being used in the model
 
@@ -51,68 +51,68 @@ d. The most basic set of ICD-10 and CPT codes assigned to a typical VA patient r
 
 **4. What is the purpose for the text in the “Our Question” box on the *MTL* Outputs section?**	
 
-a.	The purpose of the “Our Question” text is to briefly describe what your team wants to learn from the experiment you are about to run.
+a. The purpose of the “Our Question” text is to briefly describe what your team wants to learn from the experiment you are about to run.
 
-b.	The purpose of the “Our Question” text is to briefly describe what model simulation will answer a specific question about care quality.
+b. The purpose of the “Our Question” text is to briefly describe what model simulation will answer a specific question about care quality.
 
-c.	The purpose of the “Our Question” text is to briefly describe what questions your team has as a result of running and comparing two simulations.
+c. The purpose of the “Our Question” text is to briefly describe what questions your team has as a result of running and comparing two simulations.
 
-d.	The purpose of the “Our Question” text is to briefly describe what your team wants to learn when revealing complexity in the model.
+d. The purpose of the “Our Question” text is to briefly describe what your team wants to learn when revealing complexity in the model.
 
 
 **5. What is the purpose for the text in the “Our Hypothesis” box on the *MTL* Outputs section?**
 
-a.	The purpose of the “Our Hypothesis” text is to outline the systems story, using the main model diagram as a reference, your team believes will cause the outcomes you expect to observe in running an experiment.
+a. The purpose of the “Our Hypothesis” text is to outline the systems story, using the main model diagram as a reference, your team believes will cause the outcomes you expect to observe in running an experiment.
 
-b.	The purpose of the “Our Hypothesis” text is to guess what change to clinic referrals will have the most impact on patient scheduling.
+b. The purpose of the “Our Hypothesis” text is to guess what change to clinic referrals will have the most impact on patient scheduling.
 
-c.	The purpose of the “Our Hypothesis” text is to detail the change each individual team member would like to make to clinic operations to achieve clinic system process improvement
+c. The purpose of the “Our Hypothesis” text is to detail the change each individual team member would like to make to clinic operations to achieve clinic system process improvement
 
-d.	The purpose of the “Our Hypothesis” text is to outline the expected oscillations that will occur in new patient care over time as staffing changes.
+d. The purpose of the “Our Hypothesis” text is to outline the expected oscillations that will occur in new patient care over time as staffing changes.
 
 
 **6. The Outputs section of the model features a Results Dashboard. What are three characteristics of the charts you reviewed on the Results Dashboard?**
 
-a.	Units in patients or appointments per week, current experiment, and graphs of change in clinic-related variables over two years.
+a. Units in patients or appointments per week, current experiment, and graphs of change in clinic-related variables over two years.
 
-b.	Change in number of clinicians per team, Change in number of patients per week, Change in number of appointment hours per week
+b. Change in number of clinicians per team, Change in number of patients per week, Change in number of appointment hours per week
 
-c.	Appointment Supply total, Number of patients who initiate treatment, Number of patients who complete treatment
+c. Appointment Supply total, Number of patients who initiate treatment, Number of patients who complete treatment
 
-d.	Base case, experiment A and experiment B
-
-
-**7. What is the purpose for the text in the “Our Findings” box on the *MTL* Outputs section?**
-
-a. The purpose of the “Our Findings” text is to describe your team's findings, insights and conclusions from running an experiment.
-
-b. The purpose of the “Our Findings” text is to outline the expected oscillations in existing and new patient care that will occur as staffing changes.
-
-c. The purpose of the “Our Findings” text is to detail the findings the team would like to experience in the clinic as a result of making changes in the simulation model.
-
-d. The purpose of the “Our Findings” text is to guide the team into making staffing, patient care, and scheduling decisions for the next two months.
+d. Base case, experiment A and experiment B
 
 
-**8. What is the purpose for entering text into the “Our Decisions” box on the *MTL* Outputs section?**
+**7. What is the purpose for the text that is entered in the “Our Findings” box?**
 
-a.	The purpose of the “Our Decisions” text is to document what the team has learned in an experiment and the changes that the team may be ready to make in practice or select what other experiments they will run. 
+a. The “Our Findings” text is intended to describe your team's findings, insights and conclusions from running an experiment.
 
-b.	The purpose of the “Our Decisions” text is to guide the team into making staffing, patient care, and scheduling decisions for the next two years.
+b. The “Our Findings” text should outline the expected oscillations in existing and new patient care that will occur as staffing changes.
 
-c.	The purpose of the “Our Decisions” text is to detail the top 3 decisions the team would like to experience in the clinic as a result of making changes in the simulation model.
+c. The “Our Findings” text must detail the findings the team would like to experience in the clinic as a result of making changes in the simulation model.
 
-d.	The purpose of the “Our Decisions” text is to determine one change the clinic team will make to new patient care that can impact quality care measures.
+d. The “Our Findings” text guides the team into making staffing, patient care, and scheduling decisions for the next two months.
+
+
+**8. What is the purpose for the text that is entered in the “Our Decisions” box?**
+
+a. The text in the “Our Decisions” box should document what the team has learned in an experiment and the changes that the team may be ready to make in practice or select what other experiments they will run. 
+
+b. The “Our Decisions” text should guide the team into making staffing, patient care, and scheduling decisions for the next two years.
+
+c. The text in the “Our Decisions” box should detail the top 3 decisions the team would like to experience in the clinic as a result of making changes in the simulation model.
+
+d. The “Our Decisions” text documents one change the clinic team will make to new patient care that can impact quality care measures.
 
 		
 **9. Within the *Modeling to Learn* Outputs section there is a Control Panel. What can you do in this Control Panel?:**
 
-a.	Review Current Experiment Values and Select Experiments
+a. Review Current Experiment Values and Select Experiments
 
-b.	Modify Experiment Values and Run New Experiments
+b. Modify Experiment Values and Run New Experiments
 
-c.	Edit Team Data and Reset An Experiment
+c. Edit Team Data and Reset An Experiment
 
-d.	Modify Patient Appointments and Modify Appointments Per Week
+d. Modify Patient Appointments and Modify Appointments Per Week
 
 				
 **10. In *Modeling to Learn* what is “oscillation?”**
