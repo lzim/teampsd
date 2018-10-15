@@ -130,6 +130,6 @@ a.	Reset the model and run a different experiment
 
 b.	Save the run and modify the variables to explore different outcomes
 
-c.	Only answer “A”
+c.	Only answer a
 
-d.	Both “A” and “B” are correct
+d.	Both a and b are correct
