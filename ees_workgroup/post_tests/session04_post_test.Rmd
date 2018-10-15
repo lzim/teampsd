@@ -38,13 +38,13 @@ d. Mental Health Management
 	
 **3. *Modeling to Learn* uses a specific format for accessing the various web pages associated with the project. It is:**
 
-a. mtl.how/_________
+a. mtl.how/ _______________
 
 b. ModelingToLearn.com/ ______________
 
 c. VA_Modeling.com/ ______________
 
-d. VAModels.net/ ______________
+d. vamodels.net/ ______________
 	
 **4. The purpose of *Modeling to Learn* Module 4 was to:**
 
@@ -74,17 +74,17 @@ b. Learning needs with widely varied rankings
 
 c. Learning needs mandated by the VA administration
 
-d. Learning needs by specific clinician type.
+d. Learning needs by specific clinician type
 		
 **7. Staffing and burnout were the two highest priority areas identified by a VA clinic team. The team should most likely:**
 
 a. Revisit their team vision and team data to discuss patient management and staffing strategies to reduce overwork
 
-b. Hire more staff
+b. Reduce clinic staff
 
 c. Review exit interviews with former staff to identify retention strategies
 
-d. None of the above 
+d. Examine patient load and shift patients among clinicians
 	
 **8. A team’s vision was “Increasing Use of EBP Templates” and its highest priority need was adoption of evidence-based psychotherapies. Which MTL module do you think that team should use going forward?**
 
