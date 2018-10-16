@@ -36,29 +36,22 @@ output:
 
 # In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
 
-1. Discuss what the team has learned through the *Modeling to Learn* 12-session program.
+1. We completed _Modeling to Learn_! Let's review and plan!
 
-   •	What shared vision did the team decide on in session 1?
+2.  What has the team learned throughout the *Modeling to Learn* 12-session program?
 
-   •	How can the team gain value from using the *MTL* data UI going forward?
+3. How will we coordinate our efforts going forward based on our learning?
 
-   •	How can the team gain from using the *MTL* sim UI going forward, and which module would be most appropriate to our team need and questions?
+4. What *MTL* resources will the team use or revisit in the future?
 
-2.	Discuss how team learnings and prioritized decisions align with the team's shared vision.
+    - *MTL* data UI 
+    
+    - *MTL* sim UI (which module would be most appropriate to our further need and questions)
 
-   •	What hypotheses did we test? What did we learn? What decisions did we make?
+5. Lead person(s) and time frame for the above actions 
 
-   •	How do those decisions align with the team’s vision?
+6. Celebrate completion of *Modeling to Learn*!
 
-3.	Discuss how the team will follow up on *MTL*:
-
-   •	Decisions the team will implement in the clinic
-
-   •	*MTL* resources the team will use or revisit in the future
-
-   •	Lead person(s) and time frame for the above actions 
-
-4.	Celebrate completion of *Modeling to Learn*!
 
 
 ## Done and Do (15 minutes)
