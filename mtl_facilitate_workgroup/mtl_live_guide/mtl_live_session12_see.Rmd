@@ -38,19 +38,15 @@ output:
 
 1. Discuss what the team has learned through the *Modeling to Learn* 12-session program.
 
-   •	What shared vision did the team come to in Session 1?
+   •	What shared vision did the team decide on in session 1?
 
-   •	In what ways can the *MTL* data tool be useful to you?
+   •	How can the team gain value from using the *MTL* data UI going forward?
 
-   •	In what ways can the *MTL* sim tool be useful?
-
-   •	What are decisions within the team’s control that can help you optimize EBP reach for veterans?
+   •	How can the team gain from using the *MTL* sim UI going forward, and which module would be most appropriate to our team need and questions?
 
 2.	Discuss how team learnings and prioritized decisions align with the team's shared vision.
 
-   •	What hypotheses have you tested, and what did you find out?
-
-   •	What decisions did you make?
+   •	What hypotheses did we test? What did we learn? What decisions did we make?
 
    •	How do those decisions align with the team’s vision?
 
