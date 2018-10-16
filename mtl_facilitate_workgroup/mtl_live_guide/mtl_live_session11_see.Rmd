@@ -37,21 +37,12 @@ output:
 
 # In-session Exercise (30 minutes)
 
-1. Last experiment - i.e. Experiment on how to use RVI to address loss of staff 
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
-
-2. Review experiments, think about them in relationship to team needs and team vision
-3. Thinking about which patients team would push out (linking back to the Data UI)
-4. Bridge back learning from experiments to original learning goal, team question, and team need into concrete actions team can take in the real world
-5. Stitching team back together. Trying to find ways for team to coodinate efforts based on learning, with access to resources and ability to go on with another module if interested.
-6. We do not want to send the message when making the team plan that we are finally making a decision for the first time after meeting for 6 months. We want team to be making and thinking about decisions and changes all along the way.
+1. Review experiments; bridge back learning from experiments to original learning goal/team vision, team question, and team need
+2. Identify concrete actions team can take in the real world
+3. What are the priority insights we will keep in mind as we make clinic decision
+4. What new approaches or targets do we want to focus on
+5. What data will we watch to see how we're doing
+6. How will we coordinate our efforts going forward based on learning
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
