@@ -225,9 +225,9 @@ session 12. Today we're *modeling to learn* how to turn **team learning** into a
 **MTL Live** - MTL Session 11 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 11 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
-**Done** - We reflect on team learning from *MTL* and prioritized ways to implement our learning in our clinical care.
-**Do** - Select Team Lead. Select standing team meeting time. 
-**Post-email**   - Sent the week after the team meeting (off-week) - "We decided...make the following changes."
+**Done** - We discussed the team's learning and prioritized ways to implement it in our clinical care.
+**Do** - Reflect on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps. 
+**Post-email**   - Sent the week after the team meeting (off-week) - "We decided to reflect on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps."
 
 ### *MTL Session 12* - Team *MTL* Graduation - Team Reflection on Team Vision - Follow-up Assistance Plan
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 12 Fidelity |
@@ -235,14 +235,14 @@ session 12. Today we're *modeling to learn* how to turn **team learning** into a
 **Pre-email** - Sent the week of the team meeting - Reflect on the Team Vision and our Team Learning in *MTL.*  |
 **Team Meeting - *MTL* Session 12 - Team *MTL* Graduation**   |
 **Done/Do - 15 minutes for Done/Do**  |
-**Done** - mtl.how/live   |
-**Do** - Introducing *Modeling to learn (MTL)* and Select a team vision for *MTL*  |
+**Done** - We reflected on team vision for _MTL_ and our _MTL_ experience to prepare for planning next steps. |
+**Do** - Reflect together on our team vision and _MTL_ experience and make our team plan for next steps.  |
 **See Session 12 Guides - 30 minutes for In-session Exercise**  |
 **In-session Exercise** - *MTL* Session 12 - Team Plan for after *MTL* Team Meetings |
 **Exercise Resources** - available at mtl.how - The team may be interested in additional modules CC, MM, PSY and AGG     |
 **MTL Live** - MTL Session 12 Learner Guide (SEE file) - |
 **MTL Facilitate** - MTL Session 12 Facilitator Guide (SAY file) 
 **Done/Do - 15 minutes for Done/Do**  |
-**Done** - Completed *MTL*!
-**Do** - Go to mtl.how for ongoing release updates and assistance using *MTL* Resources.
-**Post-email**   - Sent the week after the team meeting (off-week) - "We decided...on booster or follow-up assistance plan."
+**Done** - Completed *MTL*! and completed our plan for next steps.
+**Do** - Follow team plan for next steps. Go to mtl.how for ongoing release updates and assistance using _MTL_ Resources.
+**Post-email**   - Sent the week after the team meeting (off-week) - "We decided on a team plan for following up on _MTL_."
