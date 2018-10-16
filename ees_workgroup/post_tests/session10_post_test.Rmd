@@ -90,10 +90,10 @@ b. Median Engagement Time
 
 c. Missed Appointments
 
-d. Referral Rate
+d. Referral Rate  
 
 
-*8. Your team decided to shift all of its appointments for Adjunctive services to Psych and EBPsych services. What description below best represents what the chart images for Psych - Completing Rate and EBPsych - Completing Rate will look like in the Outputs section, Results Dashboard?**  
+**8. Your team decided to shift all of its appointments for Adjunctive services to Psych and EBPsych services. What description below best represents what the chart images for Psych - Completing Rate and EBPsych - Completing Rate will look like in the Outputs section, Results Dashboard?**  
 
 a. Appointments per week for Psych - Completing Rate and EBPsych - Completing Rate will rise over the two year experimental timeframe.
 
@@ -101,10 +101,10 @@ b. Appointments per week for Psych - Completing Rate will rise and EBPsych - Com
 
 c. Appointments per week for Psych - Completing Rate and EBPsych - Completing Rate will decrease over the two year experimental timeframe.
 
-d. Appointments per week for Psych - Completing Rate and EBPsych - Completing Rate will not change over the two year experimental timeframe.
+d. Appointments per week for Psych - Completing Rate and EBPsych - Completing Rate will not change over the two year experimental timeframe.  
 
 
-*9. In an *MTL* model, the Return Visit Interval (RVI) is linked with a “negative sign” to Booking Rate and Work Pressure. Your team decides to increase their current RVI from 10 weeks to 12 weeks. What do you think will happen to Work Pressure in this experiment?**  
+**9. In an *MTL* model, the Return Visit Interval (RVI) is linked with a “negative sign” to Booking Rate and Work Pressure. Your team decides to increase their current RVI from 10 weeks to 12 weeks. What do you think will happen to Work Pressure in this experiment?**  
 
 a. If the RVI is increased to 12 weeks, work pressure may decrease.
 
@@ -112,10 +112,10 @@ b. If the RVI is increased to 12 weeks, work pressure will increase.
 
 c. If the RVI is increased to 12 weeks, there will be no impact on work pressure.
 
-d. If the RVI is increased to 12 weeks, work pressure will stay the same.
+d. If the RVI is increased to 12 weeks, work pressure will stay the same.  
 
 
-*10. A clinic team experimented with increasing the Return Visit Interval (RVI) for Psych services and shifting service proportions to decrease Adjunctive services and increase the proportion of appointments for Psych and EBPsych services. Over the two-year experiment window, which text below is the best description of one decision the clinic team might enter in the “Our Decisions” text box?**  
+**10. A clinic team experimented with increasing the Return Visit Interval (RVI) for Psych services and shifting service proportions to decrease Adjunctive services and increase the proportion of appointments for Psych and EBPsych services. Over the two-year experiment window, which text below is the best description of one decision the clinic team might enter in the “Our Decisions” text box?**  
 
 a. The team will implement an increase of one week in RVI for Psych services to test the impact. We expect to experience a short-term spike or oscillation in RVI – but the return to clinic visit interval will slowly reduce over two years to less than our original base case.
 
