@@ -37,8 +37,10 @@ output:
 ## Done and Do
 
 We have all logged in to mtl.how/live for screen-sharing in the team meeting and called in to the VANTS for audio.
+
 Facilitator Introductions
 - Name, affiliation, expertise, role in MTL
+
 Team Introductions
 - Name, discipline, role in clinic
 - Missing team members?
