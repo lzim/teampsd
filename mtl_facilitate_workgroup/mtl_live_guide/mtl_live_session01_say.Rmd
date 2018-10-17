@@ -122,19 +122,31 @@ The team can further wordsmith their Team Vision after the session if they want 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | Select a team lead and email Team PSD to set up our standing team meeting time. | 
 
 Role of Team Lead
+
   • Main point of contact between clinic team and *Modeling to Learn* team for scheduling MTL-related team meetings
+  
   • Develops knowledge of *MTL* tool use (especially those tools used most frequently mtl.how/live, mtl.how/data, mtl.how/sim) 
+  
   • Provides leadership during MTL sessions including encouraging team participation in discussions and serving as computer simulation lead (once familiarity with tools is established)
 
 Characteristics of Team Lead
+
 •	Strong relationships with fellow clinic team members
+
 •	Organized 
+
 •	Basic computer knowledge, Excel experience helpful
+
 •	Attention to detail
+
 •	Committed to process improvement and use of data to improve care
 
 Standing meeting time considerations
+
 -	Central location vs. geographically dispersed
+
 -	Clinic schedule
+
 Whom to notify of these decisions and by when
+
 -	List 
