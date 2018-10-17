@@ -1,0 +1,19 @@
+---
+title: "README for Facilitator SAY Scripts"
+author: "Team PSD"
+date: "October 2018"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
+
+
+<!-- MTL Logo, HTML img tag -->
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500"> 
+
