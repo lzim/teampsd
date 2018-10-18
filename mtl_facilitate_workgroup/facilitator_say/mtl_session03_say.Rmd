@@ -42,16 +42,22 @@ output:
 
 Last session you generated an Excel file by selecting the clinics that make up your team and then selecting "Get Patient Level Data." This data file reflects two years of team data and team trends.  Let's explore what is in the team data table.
 
+
 ### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
-- Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
-- There are team data produced for each module of *Modeling to Learn*. Each module has its own tab in the data file
+
+- Data are displayed in two forms “Viz” (trends over time) and “Data” (a sortable report).
+
+- Data are presented as means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
+
+- There are team data produced for each module of *Modeling to Learn*. Each module has its own tab in the data file:
  + Care Coordination (CC) - tab title *CCParams*
  + Medication Management (MM) - tab title *MMParams*
  + Psychotherapy (PSY) - tab title *PSYParams*
  + Aggregate team services (AGG) - tab title *AggParams*
  + Measurement-based stepped care for suicide prevention (SP) - tab title *SPParams* {is this correct?}
 
-### 1. Select a service for review -  *MTL* Video - mouse over team data variables as they are reviewed*
+### Select a service for review
+Let's review the different services that are highlighted in the team data on the screen. As we review each service, we will use the mouse to highlight team data variables.
 + Find a variable that is important to your team. Look at how the variable is estimated in the table. 
    - If CC is selected, key variables of interest may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.
    - If MM is selected, key variables of interest may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and appointment slots with an X waiver as a percentage of the total and Slots Allocation percent for those with and without an X waiver.
