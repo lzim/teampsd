@@ -27,6 +27,13 @@ output:
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.| 
 
+## Done and Do
+
+We logged in to our individual worlds at mtl.how/sim and entered our question and hypothesis about the Base Case of no new decisions in the Text section. I’ll ask about your hypotheses when we get ready to run the Base Case as a team.
+
+Today we will run the Base Case and check out a new section of the sim UI – the Outputs section.
+
+
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
@@ -36,39 +43,48 @@ output:
 2. Test out your thinking about what is likely to cause oscillation in team trends.
 3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
 
-# In-session Exercise (30 minutes)
+## In-session Exercise (30 minutes): Running a Base Case
 
-## Running a Base Case
+1.	Log in to the team world and join the current session.
 
-1.	Login to your world and start a new run in the Aggregate module, with the team data file you’d like to use.
+2.	Enter your question about the Base Case. ( Our Question. Briefly describe what your team wants to learn from this experiment.)
 
-2.	Orient yourself to the main page: Team Name; selected module; selected data file; a new system diagram, with multiple Services available to select in the Experiment Timeline box; all settings in the Experiments tile at Base Case or default values. 
+3.	Enter your hypothesis about the Base Case run results. (Our Hypothesis. Outline the systems story your team believes will cause the outcomes your team expects to observe.)
+
+4.	To run the Base Case, let’s first make sure that all the Experiment sliders are indeed set for the Base Case. When you look in the Experiments section, you should see that the box next to each slider says either zero or bc. If it says bc, it means the value the model will run is the number from the Team Data Table. A few sliders have a different setting. If you see an On/Off switch, it will start at Off by default. If you see a purple Sensitivity slider, it will start at a default value of 1. And if there’s a Team Data vs Balanced switch, Balanced will be the default setting.
+
+5.	Once we’ve verified that sliders are set for the Base Case and we’ve entered our question and hypothesis, we’re ready to hit Run. (drum roll!)
+
+6.	Once the sim has run, let’s open the Outputs section and see what we find. First you see that there’s a small Outputs section with 4 navigation buttons, a graph, and left-right arrows that let you see charts of a few other variables. One of those navigation buttons is Expand. Click on that.
+
+7.	This opens the Expanded Outputs section, which now shows all the Text boxes and a larger Results Dashboard where you can see several charts at once, and a Control Panel on the left that we’ll get to next time. 
+
+8.	Before we go further, it’s a good time to go ahead and Save this run. Saving without Resetting will capture both the text that we’ve written in the boxes and the settings and results of our run. We’ll still be able to enter more text to finish our consideration of this test as long as we don’t re-set the sim. So click on Save at the top and then click Yes. This warning is just a reminder of how important it is to record your thinking in the Text boxes so your learning from what you’ve done doesn’t evaporate. 
+
+9.	The Save menu helps you enter a name for each run based on what sliders you moved. In this case, it’s the Base Case, so on the Variable drop-down menu just select Base Case and click Add. You’ll see “bc” entered in the Experiment Name field and now you can click Save again in the top right.
+Caution: Only choose the Save and Reset button at the bottom when you’re finished recording all you need to in the Text section. Or you can choose Discard if you weren’t ready to save or name the run.
+
+10.	Now let’s look at the Results. Notice that each chart has a title below it and a drop-down menu. You have a wide selection of variables to choose from to look at results. The units are shown inside the chart at the top left – usually Weeks, Patients, Appointments, or a Percent, or a rate like Patients per Week.
+
+11.	The axes adjust dynamically – so even if the units of two side-by-side charts are the same, you have to check the scale before comparing them empirically.
+
+12.	What do you notice about the results? Do they match your hypothesis? Compare the values you see in the charts with the Team Data Table values.
+
+13.	Describe what you see in the Findings textbox, and explain why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)
+
+14.	What do you want to do next? Record your next steps in the Decisions textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?)
+
+15.	Save and Reset when you’re ready.
+
+16.	Log out of the sim UI.
 
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session7_insession_exercise_gif1.gif)
+## Done and Do
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+This time w ran our Base Case (bc) of no new decisions, recording our question, hypothesis, findings and decisions in the Text section. 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
+Next time we will run an experiment. To prepare for that, log in to the team world at mtl.how/sim and explore the Results Dashboard in the Expanded Outputs section for the Base Case (bc) run.
 
-3.	Open the Expanded Outputs section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no changes are made and you run the simulation out to its 2-year end just using the data pulled in from your team data file. 
-
-4.	Run; then Save (without resetting) the run with the name Base Case.
-
-5.	Review the Current Run Experiment Values in the Control Panel: shows Base Case or default values.
-
-6.	Orient yourself to the charts in the Results Dashboard (axes, units, legend, drop-down menu options).
-
-7.	Switch the output view from the default, Compare Experiments, to Compare Services in the Control Panel. 
-
-8.	What do you notice about the results? Do they match your hypothesis? Compare the values you see in the charts with the Team Data Table numbers.
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
-9.	Record your Findings in the Text section.
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
-10.	Decide what you want to look into next. Record your Decisions in the Text section. Save and Reset when ready.
- 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
