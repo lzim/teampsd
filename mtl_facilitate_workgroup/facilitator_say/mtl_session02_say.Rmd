@@ -88,6 +88,10 @@ In MTL Session 1, we worked together and accomplished three important tasks.
         vizHF - visuals or charts about Health Factors  
         vizEnc - visuals or charts about Encounters, types of visits  
         visMeas - visuals or charts about Measures or flag names  
+        CCParams - parameters for the *MTL* Care Coordination module
+        MMParams - parameters for the *MTL* Medication Management module
+        PSYParams - parameters for the *MTL* Psychotherapy module
+        AggParams - parameters for the *MTL* Aggregate module
         
   ++ What filtering options are available? 
   
