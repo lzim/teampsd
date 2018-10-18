@@ -25,34 +25,81 @@ output:
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. |  
 
+# Done
+In MTL Session 1, we worked together and accomplished three important tasks.  
+
+1.	Our team vision was developed  
+
+2.	The Team Lead (or Co-Team Leads) was identified.  
+
++ Thank you ______________ (INSERT NAME) for taking on the role of Team Lead. *NOTE: If co-leads were selected, acknowledge both individuals.*  
+
+3.	We selected the standing meeting time for this team which is _______________ (INSERT DAY AND TIME).	 
+
+# Do
++ In the post-session email, you were asked to log into the data User Interface or data UI at mtl.how/data.  That is our purpose for today -- to explore your team’s data in the data UI found at mtl.how/data.  
+
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives
 
-1. Describe the decisions your team made in producing your team data table.
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
+1. Describe the decisions your team made in producing your team data table.  
+2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.  
+3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
 
-# In-session Exercise (30 minutes)
+# In-session Exercise (30 minutes)  
 
 ## *MTL* on BISL
 
-### 1. Go to mtl.how/data First select your VISN and then select your facility.
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)  
++ The team data is stored on the VA’s corporate data warehouse site referred to as BISL [Business Intelligence Service Line]. We will refer to this as the BISL sharepoint splash page. 
++ The information in this data file is Protected Health Information (PHI). Please save your data file back to SharePoint or places that are appropriate for PHI. If attaching a data file to an email, encrypt the file.
+
+### 1. Navigating to the data UI  
+
++ To get into the data UI we will go through a few steps.  
+
+  1.	Type mtl.how/data in your web browser  
+  2.	On the page titled “Select Your VISN”, click on your team’s VISN number  
+  3.	And, on the page titled  “Select Your Facility”, click on the facility name for your team.  
+
 
 ### 2. Explore the information available in the BISL sharepoint splash page
-- How many scroll bars are there?  Where are they? 
-- Where are the tabs? What can you see by selecting the tabs?
-- What filtering options are available? 
-- Filter to your clinic or division to see trends for the last two years.
+
++ Once you have selected your facility name, a web access version of Excel will open on your screen.  
+
++ Let's explore the BISL sharepoint splash page.  
+
+  -- How many scroll bars are there?  Where are they?  
+     - You will see a scroll bar on the far right to move up and down to review the entire data UI screen.  
+     - Another bar on the right side allows you to move up and down to see a list of variables that you can include in charts.  
+     - Then, just like you have in Excel, there is a vertical and a horizontal scroll bar to move up and down rows and across left to right to see all the columns.  
+     
+  -- Where are the tabs? What can you see by selecting the tabs? 
+  
+     - Let's review the tabs together. Across the bottom of the Excel chart starting left to right:  
+        Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"  
+        ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
+        SPTransfers  - data about Suicide Prevention transfers  
+        dataDiag - data about Diagnoses  
+        dataHF - data about Health Factors  
+        dataMeas - data about Measures or flag names  
+        vizDiag - visuals or charts about Diagnoses  
+        vizHF - visuals or charts about Health Factors  
+        vizEnc - visuals or charts about Encounters, types of visits  
+        visMeas - visuals or charts about Measures or flag names  
+        
+  -- What filtering options are available?  
+    -- You can filter by clinic names, diagnoses, health factors, special flags or measures, clinician
+     -- When you filter to your clinic or division, you will see trends for the last two years.  
 
 ## Your Team Data Folder
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your team data ui in Excel.
-- Select your station using the control tab. If you have any issues with permissions, Team PSD can help you.
+- Click on Control tab
+- Click on the cell next to the word "Station" and click on your station number.
+   - If you have any issues with permissions, Team PSD can help you.
 - Click "Get Clinic List" and it will pull in clinics for your facility.
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)  
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 - You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
@@ -61,18 +108,18 @@ output:
 - Follow the instructions in **Box A2.** 
 - After filtering, you can double-click on clinics to add them to column A or you can highlight the clincis and click the gray "add all" button to add them to column A. 
 
-#### 5. To view your team patient data and your team trends. You click on "Get-Patient-level Data." We will not do this in-session today.
-- **You have already fresh data UI file to work with already in your team data folder.** 
-- We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
+#### 5. To view your team patient data and your team trends. You click on "Get-Patient-level Data." We will not do this in today's session.
+- **When working with a team live, we will have already pulled a fresh data UI file to work with in a team's data folder.** 
+- We will learn about the "Create Team Data Table for Sim UI" button in our next session.
 
-### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
-- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your today.
+### NOTE: It takes some time to run a query from team data UI to the VA Corporate Data Warehouse. 
+- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. 
+- It is important to note that Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
-
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)
 
 ### 6. Click to view the "viz" tabs, which show team trends.
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
+- *NOTE: Do we need to create sample chart for video*
 - What stands out to you?
 - What is most important to you to check out first?
 - what is most surprising?
