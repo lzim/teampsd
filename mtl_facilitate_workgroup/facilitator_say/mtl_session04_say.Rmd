@@ -28,9 +28,9 @@ output:
 # Done
 MTL Session 3 focused on how to produce team data for simulation using the data user interface. Who remembers what the web address is for the data UI? [mtl.how/data]
 
-Last session, we explored a team data table that featured team trends over two years. We examined how the team data was estimated and reviewed the descriptions and definitions for the data in the various tabs. Finally, the team was asked to call on their clinical expertise to analyze the team data and team trends to identify team priorities for future learning. You were asked to complete two tasks: find something in the team data table and to answer the questions at mtl.how/menu.
-•	What data in the team data was of greatest interest as you explored mtl.how/data? 
-•	Are there any questions about the data UI?
+Last session, we explored a team data table that featured team trends over two years. We examined how the team data was estimated and reviewed the descriptions and definitions for the data in the various tabs. Finally, the team was asked to call on their clinical expertise to analyze the team data and team trends to identify team priorities for future learning. You were asked to complete two tasks: find something in the team data table and to answer the questions at mtl.how/menu.  
++	What data in the team data was of greatest interest as you explored mtl.how/data?  
++	Are there any questions about the data UI? *For Video: If you have questions about the data UI at any time during this module, please contact Team PSD at..."
 
 # Do
 MTL.how/menu was created to help teams identify priorities for action in clinical care. Today we will focus on prioritizing team needs.
