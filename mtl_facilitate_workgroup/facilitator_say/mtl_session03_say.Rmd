@@ -25,6 +25,10 @@ output:
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI)| 
 
++ In the last session of *MTL* we reviewed the BISL sharepoint site which hosts the data user interface found at mtl.how/data. We looked at two team folders: the data UI and the team data. We selected the clinics that make up our team for the Team Data.  
+
++ In this session, we will produce a team data file for use with the *MTL* simulation user-interface mtl.how/sim.  
+
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
@@ -36,19 +40,26 @@ output:
 
 # In-session Exercise (30 minutes)
 
+Last session you generated an Excel file by selecting the clinics that make up your team and then selecting "Get Patient Level Data." This data file reflects two years of team data and team trends.  Let's explore what is in the team data table.
+
 ### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
-- There are team data produced for each module of *Modeling to Learn*
-- Care Coordination (CC)
-- Medication Management (MM)
-- Psychotherapy (PSY)
-- Aggregate team services (AGG)
-- *Measurement-based stepped care for suicide prevention - coming in fall 2018*
+- There are team data produced for each module of *Modeling to Learn*. Each module has its own tab in the data file
+ + Care Coordination (CC) - tab title *CCParams*
+ + Medication Management (MM) - tab title *MMParams*
+ + Psychotherapy (PSY) - tab title *PSYParams*
+ + Aggregate team services (AGG) - tab title *AggParams*
+ + Measurement-based stepped care for suicide prevention (SP) - tab title *SPParams* {is this correct?}
 
-### 1. Select a service for review
-- Find a variable that is important to you team. How is it estimated in this table? What are it's units?
-- Where can you find even more detailed information about your team data?
-- Check out columns C and D. What is the difference between these two columns?
+### 1. Select a service for review -  *MTL* Video - mouse over team data variables as they are reviewed*
++ Find a variable that is important to your team. Look at how the variable is estimated in the table. 
+   - If CC is selected, key variables of interest may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.
+   - If MM is selected, key variables of interest may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and appointment slots with an X waiver as a percentage of the total and Slots Allocation percent for those with and without an X waiver.
+   - If PSY is selected, variables that can be explored include median engagement duration and engagement after 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
+   - If AGG is selected, median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
+   - If Suicide Prevention is selected, Its units are in ? What are it's units?
++ Where can you find even more detailed information about your team data? You can find more detailed information about your team data in Params tabs 
++ Check out columns C and D. What is the difference between these two columns?
 
 ### 2. Select a second service for review
 - Check out columns C and D. What is the difference between these two columns?
