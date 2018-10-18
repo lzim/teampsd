@@ -25,6 +25,13 @@ output:
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. | 
 
+## Done and Do
+
+Last session we uploaded the team data file and logged in to mtl.how/sim. We chose the _____ module to work in and we checked out the main page of the sim UI, especially focusing on the Team Data Table in the Experiments section. We started recording questions and more in the Text section.
+
+Were you able to log in to your individual world and look at the “i” information in the Model Diagram and Experiments section? What did you find? Do you have any questions?
+
+Today we will tell a systems story about the team’s top priority using the Model Diagram in the sim UI.
 
 
 <!-- Learning Objectives Icon --> 
@@ -36,39 +43,35 @@ output:
 2. Test out your thinking about causes of team challenges using the model diagram.
 3. Apply clinical expertise to develop a question for team learning using simulation.
 
-# In-session Exercise (30 minutes)
+# In-session Exercise (30 minutes): The Model Diagram and Systems Story
 
-* Purpose: The purpose for this activity is to familiarize MTL learners with the main tile in the model diagram. By the end, learners should easily find information in the model.  
+1.	Log in to your individual world at mtl.how/sim, selecting the _____ module. Let us know when you are in the sim.
 
-# **In-session Exercise – Part 1: Where in the MTL World Is…**  
+2.	We will give you a series of questions in the Adobe Connect chat box and aloud over audio. Your job is to find the answer in the Model Diagram and chat it back to us in the  Adobe Connect chat box. If you’re stuck, you can ask for help via a private chat with the facilitators, and we’ll give a verbal and chat hint to all participants.
 
-* The Facilitator will challenge MTL learners to find certain information on the MTL.how/sim main tile for the Care Coordination (CC) model.  
-+ A series of 5 questions, one at a time, will be posed via the chat box as well as the Facilitator reading them aloud to the MTL Learners.  
-+ Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
-+ *If at any time you are not sure how to find something, ask for help.* The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.  
+a.	Question 1: Over what timeframe does an experiment “run?”
 
-1. Question 1: Over what timeframe does an experiment "run?"  
-2. Question 2: Where do you find the descriptions for each variable in the CC model? Paste a portion of a description from one of the *Rates* into the chat box.  
-3. Question 3: Describe in one sentence what happens in the model as you "Reveal Complexity?"  
-4. Question 4: What is the significance of the variables in the "red boxes?"  
+b.	Question 2: Where can you find descriptions for the variables in the Model Diagram?
 
-# **In-session Exercise – Part 2: Telling a Systems Story**  
+c.	Paste a part of a description from something that is a Rate into the chat box.
 
-* MTL learners will form pairs.  
-* Starting Point: Care Coordination main model tile with no complexity revealed.  
-*Tip for the learner* – if your computer screen is expanded you may not be able to see the whole model all at once. If you click on the layered boxes in the upper right of your screen, it will enable you to see the whole model at once.  
+d.	Question 3: Describe in one sentence what happens in the diagram when you “Reveal Complexity?”
 
-* With your partner, imagine a veteran wants to begin Care Coordination. Together, review the CC system story and complete four tasks:  
-1. Document: As you talk through the model, document (make notes) where you have questions or are unsure about the relationships you are seeing in the model.
-2. Review Appointments Section. While doing this, one partner should describe to the other partner the connections between *Booking Rate*, *Return-to-Clinic Visit Interval* (RVI) and *Appointments for Existing Patients*.  How do these variables impact one another? 
-3. Review Patients Section. One partner should walk the other through the loop connecting *Referral Rate*, *Waiting to Start* Care Coordination and *Target Wait Time?* How does the loop work or flow?  
-4. Partners should discuss the connection between the main tile and the team data table. How are they linked?
+e.	Question 4: What are the units of time in the sim?”
 
-* Large Group Debrief: 
-+ Team PSD will call up on the pairs to tell the system story of the CC model.
-+ As the story is revealed, *MTL Learners* should raise issues and questions documented during the *Telling a Systems Story* activity.
+3.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. (How to create scripts for this for all the modules and various priorities?) As we do this, we’ll try to zero in on a specific question or questions that you’d like to explore through simulation experiments. My co-facilitator will try to capture those in the Question text box so we don’t lose track.  Facilitator leads discussion, using mouse to trace on Model Diagram, eliciting more clinical perspective from the team to pin down their question(s).
+
+Tip re: viewing a larger part of the Model Diagram at once. If you are looking at the sim UI in a full browser screen, you might not be able to see the whole Model Diagram at once. If you click the layered boxes in the upper right of your browser (between minimize and close), you’ll be able to resize the browser window, and the sim UI will adjust to fit various aspect ratios. You can find the view that works best for you.
+
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+
+## Done and Do
+
+We told a systems story about our team’s top priority and began recording our questions in the Text section.
+
+Next time, we’ll run our first simulation – the Base Case of no new decisions. Before next time, we’d like you to log in to your individual world at mtl.how/sim and type your question and hypothesis about the Base Case into the Text section. The question is really just, “What will clinic care look like over the next two years if we make no new decisions?” Give some thought to what you expect and write a sentence or two describing your hypothesis to prepare for our running that simulation next time.
+
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
