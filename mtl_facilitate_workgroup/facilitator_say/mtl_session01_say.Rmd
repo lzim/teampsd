@@ -25,18 +25,9 @@ output:
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
 
-<!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
-
-## Learning Objectives
-
-1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
-2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
-3. Identify a shared team vision for learning from *Modeling to Learn*.
-
 ## Done and Do
 
-We have all logged in to mtl.how/live for screen-sharing in the team meeting and called in to the VANTS for audio.
+We have all successfully logged in to mtl.how/live for screen-sharing in the team meeting and called in to the VANTS line for audio.
 
 Facilitator Introductions
 - Name, affiliation, expertise, role in MTL
@@ -49,6 +40,17 @@ Address Technology Issues
 - Were there any technology issues with joining the audio or the video for this session?
 - INSERT LINKS TO Tips and troubleshooting
 - INSERT CONTACTS How to get help
+
+
+<!-- Learning Objectives Icon --> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+
+## Learning Objectives
+
+1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
+2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
+3. Identify a shared team vision for learning from *Modeling to Learn*.
+
 
 Today we are excited to launch Modeling to Learn (MTL) with Team ___________ and select a Team Vision for MTL.
 
@@ -66,54 +68,58 @@ The goal is to move from “my vision” to “our vision” and to shift the pa
 
 1.	Prior Team Learning Prompt - First, we want to set ground rules for our learning sessions.
 
-a.	Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an “aha!” Something finally made sense, or you could finally do something you couldn’t before.
+a. Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an “aha!” Something finally made sense, or you could finally do something you couldn’t before.
 
-b.	Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list.
+b. Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list.
+
 	[Examples that may be shared by learners are listed below.]
 
-++ Most likely the following is true:
-  • The learning was hands-on and experiential. 
-  • The learning connected to the real world. 
-  • The learning experience was personally relevant, interesting, useful, or meaningful to the learner. 
-  • The learner had choices, shared authority, control, and responsibility. 
-  • The learner learned from and taught others. 
-  • The learner had the support he or she needed. 
-  • The learning was individualized. If there were standards for the work, the learner could meet them in his or her own way. 
-  • It was fun or left the learner feeling good. 
-  • The experience helped the learner understand him- or herself. 
-  • The learner experienced success and accomplishment with challenging work.
+++ Most likely the following is true:  
+  • The learning was hands-on and experiential.  
+  • The learning connected to the real world.  
+  • The learning experience was personally relevant, interesting, useful, or meaningful to the learner.  
+  • The learner had choices, shared authority, control, and responsibility.  
+  • The learner learned from and taught others.  
+  • The learner had the support he or she needed.   
+  • The learning was individualized. If there were standards for the work, the learner could meet them in his or her own way.  
+  • It was fun or left the learner feeling good.  
+  • The experience helped the learner understand him- or herself.  
+  • The learner experienced success and accomplishment with challenging work.  
 
 2.	Best Case Scenario
 
-It is important to create a team language for learning; for aligning team decisions when there are roadblocks to consensus.
++ It is important to create a team language for learning; for aligning team decisions when there are roadblocks to consensus.
 Start by picturing Veteran mental health care in this team as you experience it now. The interactions and communications within the team, in and out of team meetings. The key people you rely on outside the team. The information and data you use to coordinate care plans, and the feelings you associate with it.
 
-Now picture the team learning over the next 6 months in a *best case* scenario, where things are happening in the team the way that you would ideally like them to. This is your *dream team* situation.
++ Now picture the team learning over the next 6 months in a *best case* scenario, where things are happening in the team the way that you would ideally like them to. This is your *dream team* situation.
 
 3.	Personal Vision
-  • What is team communication like?
-  • How does the team relate to one another?
-  • How is VA data used?
-  • How are decisions, plans and changes made?
+
++ What is team communication like?  
++ How does the team relate to one another?  
++ How is VA data used?  
++ How are decisions, plans and changes made?  
   
 4.	Review in Team
-  • What stands out to you?
-  • Why did we choose these?
-  • What makes them so relevant or important to us?
-  • Can we address them all (bearing in mind our resources and time)?
-  • If not, which would we most like to address (align around), and why?
+
++ What stands out to you?  
++ Why did we choose these?  
++ What makes them so relevant or important to us?  
++ Can we address them all (bearing in mind our resources and time)?  
++ If not, which would we most like to address (align around), and why?  
 
 5.	Putting it Together
 
-Overall *Modeling to Learn* objectives include activities and competencies that:
-a. Are meaningful for you and align your learning goals with your team.
-b. Develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.
-c. Make VA data, initiatives and standards transparent to you.
-d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.
++ Overall *Modeling to Learn* objectives include activities and competencies that:
+
+  - Are meaningful for you and align your learning goals with your team.  
+  - Develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.  
+  - Make VA data, initiatives and standards transparent to you.  
+  - Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
 
 6.	Select the Team Vision
 
-The team can further wordsmith their Team Vision after the session if they want to. We will hold this vision up as a reminder of our shared goals to orient our learning throughout the MTL program.
++ The team can further wordsmith their Team Vision after the session if they want to. We will hold this vision up as a reminder of our shared goals to orient our learning throughout the MTL program.
 
 ## Done/Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -121,31 +127,32 @@ The team can further wordsmith their Team Vision after the session if they want 
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | Select a team lead and email Team PSD to set up our standing team meeting time. | 
 
+
 Role of Team Lead
 
-  • Main point of contact between clinic team and *Modeling to Learn* team for scheduling MTL-related team meetings
+  • Main point of contact between clinic team and *Modeling to Learn* team for scheduling MTL-related team meetings  
   
-  • Develops knowledge of *MTL* tool use (especially those tools used most frequently mtl.how/live, mtl.how/data, mtl.how/sim) 
+  • Develops knowledge of *MTL* tool use (especially those tools used most frequently mtl.how/live, mtl.how/data, mtl.how/sim)   
   
-  • Provides leadership during MTL sessions including encouraging team participation in discussions and serving as computer simulation lead (once familiarity with tools is established)
+  • Provides leadership during MTL sessions including encouraging team participation in discussions and serving as computer simulation lead (once familiarity with tools is established)  
 
-Characteristics of Team Lead
+Characteristics of Team Lead  
 
-•	Strong relationships with fellow clinic team members
+•	Strong relationships with fellow clinic team members  
 
-•	Organized 
+•	Organized  
 
-•	Basic computer knowledge, Excel experience helpful
+•	Basic computer knowledge, Excel experience helpful  
 
-•	Attention to detail
+•	Attention to detail  
 
-•	Committed to process improvement and use of data to improve care
+•	Committed to process improvement and use of data to improve care  
 
 Standing meeting time considerations
 
--	Central location vs. geographically dispersed
+-	Central location vs. geographically dispersed  
 
--	Clinic schedule
+-	Clinic schedule  
 
 Whom to notify of these decisions and by when
 
