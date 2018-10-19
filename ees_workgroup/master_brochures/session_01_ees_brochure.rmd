@@ -82,11 +82,11 @@ NYSED
 ## Agenda: 
 <!-- Agenda Table -->
 
-| Time				|	Agenda Item	  	|	Who			  		|		Type      |
+| Time | Agenda Item | Who | Type |
 |:-----------	|:---------------:|:-------------:|------------:|
-| 15 Minutes	|	Done and Do		|	Facilitator	|Interactive participant-controlled, computer-based modeling; learner polls, small group discussions, Q and A sessions |
-| 30 Minutes	|	Team Activity on Shared Vision |	Facilitator | Interactive - participant-controlled, computer-based modeling; learner polls, small group discussions, Q and A sessions |
-| 15 Minute		|	Done and Do		|	Facilitator	| Interactive - participant-controlled, computer-based modeling; learner polls, small group discussions, Q and A sessions |
+| 15 Minutes |	Done and Do		|	Facilitator	|Interactive participant-controlled, computer-based modeling; learner polls, small group discussions, Q and A sessions |
+| 30 Minutes |	Team Activity on Shared Vision |	Facilitator | Interactive - participant-controlled, computer-based modeling; learner polls, small group discussions, Q and A sessions |
+| 15 Minute |	Done and Do		|	Facilitator	| Interactive - participant-controlled, computer-based modeling; learner polls, small group discussions, Q and A sessions |
 
 ## Faculty and Planning Committee Listing: (Lindsey/Stacey to provide contacts to Elizabeth)
 
