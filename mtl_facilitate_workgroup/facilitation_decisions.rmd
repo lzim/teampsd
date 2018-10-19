@@ -1,3 +1,4 @@
+EXAMPLE CHANGE EDITS
 **Decisions to Finalize**  
 1. Need to TEST/PREP in Version 1.52 to see the new functions for pulling up old text and for reading in the last experiment runs, new functions for saving runs  
 2. Compare Services does not show results when you're only looking at previous runs. After RUN and SAVE for the current run it does.  
