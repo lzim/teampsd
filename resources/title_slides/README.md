@@ -3,7 +3,7 @@
      
 # Modeling to Learn Title Slides
 
-12 Session Plan     |
+### 12 Session Plan    
 
  
 ![](https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png)       
