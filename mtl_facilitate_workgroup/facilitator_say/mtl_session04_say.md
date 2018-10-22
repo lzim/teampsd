@@ -18,8 +18,7 @@ output:
 # [MTL Live Session 04](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session04_see.Rmd "MTL Live Session 04")
 
 # Today we're modeling to learn how to prioritize team needs.
-
-Hello! [Co-facilitators introduce themselves] Today we're modeling to learn how to prioritize team needs.
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to prioritize team needs.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
