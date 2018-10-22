@@ -119,8 +119,8 @@ aggpar.test <- as.data.frame(aggpar.table.body.shrt) %>%
           `True Missed Appointment %` =
             "True Missed Appointments %",`Return Visit Interval (median)` = 
             "Return Visit Interval (median)",
-          `Median Engagement` = "Median Engagement", `Service Proportions from Team Data` = "Service
-          Proportions from Team Data", .before = 2) 
+          `Median Engagement` = "Median Engagement", 
+          `Service Proportions from Team Data` = "Service Proportions from Team Data", .before = 2) 
 
 
 #Table definition
@@ -146,7 +146,7 @@ htmlTable(agg_def, header = c("Concept", "Definition"), rnames = FALSE, css.cell
 ```{r psy_datafiles, include=FALSE}
 psypar1a <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B35:D36")
 
-psypar1b <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B40:D43")
+psypar1b <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B44:D47")
 
 flow <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B3:D7")
 
@@ -161,59 +161,55 @@ med_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names =
 
 ```{r psy_setup, include=FALSE}
 # Team Data Table/Appointment Supply columns
-ord1 <- c("Appointment Supply (75th percentile)", "AUD %", "DEP %", "OUD %", "PTSD %")
+ord1 <- c("Appointment Supply (75th percentile)", "AUD within 3 months %", "DEP within 3 months %",
+          "OUD within 3 months %", "PTSD within 3 months %")
 psypar1 <- rbind.data.frame(psypar1a[2,], psypar1b) %>%
-  # mutate(X__1 = replace(X__1, X__1 == "%PTSD", "% PTSD"),
-  #        X__1 = replace(X__1, X__1 == "%Dep", "% DEP"),
-  #        X__1 = replace(X__1, X__1 == "%AUD", "% AUD"),
-  #        X__1 = replace(X__1, X__1 == "%OUD", "% OUD"),
-  #        X__1 = replace(X__1, X__1 == "Appointment Supply", 
-  #                       "Appt. Supply")) %>%
   mutate_if(is.numeric, funs(round(.,1))) %>%
   mutate_if(is.numeric, funs(as.character)) %>%
   slice(match(ord1, X__1))
 
-psypar1$X__2[which(psypar1$X__1 == "Appointment Supply (75th percentile)")] <-  
-  paste0(psypar1$X__2[which(psypar1$X__1 == "Appointment Supply (75th percentile)")], 
-         " appt/wk")
+# psypar1$X__2[which(psypar1$X__1 == "Appointment Supply (75th percentile)")] <-  
+#   paste0(psypar1$X__2[which(psypar1$X__1 == "Appointment Supply (75th percentile)")], 
+#          " appt/wk")
+
 #Patient Flow 
-flow.order <- c("Starters Who Initiate %","Starters Who Return Later %", "Starters Who Quit",
-                "Initiators Who Complete %","Initiators Who Return Later", 
+flow.order <- c("Starters Who Initiate %","Starters Who Return Later %", "Starters Who Quit %",
+                "Initiators Who Complete %","Initiators Who Return Later %", 
                 "Initiators Who Quit Early %", 
-                "Completers Who Graduate %","Completers Who Return")
+                "Completers Who Graduate %","Completers Who Return %")
 
 ## Need to calculate
 ## Starters who Quit
 ## Initiators who Return Later
 ## Completers who Return
 flow1 <- flow %>%
-  add_row(X__1 = "Starters Who Quit") %>% 
-  add_row(X__1 = "Initiators Who Return Later") %>%
-  add_row(X__1 = "Completers Who Return") %>%
-  mutate( X__2 = replace(X__2, X__1 == "Starters Who Quit", 1 - 
+  add_row(X__1 = "Starters Who Quit %") %>% 
+  add_row(X__1 = "Initiators Who Return Later %") %>%
+  add_row(X__1 = "Completers Who Return %") %>%
+  mutate( X__2 = replace(X__2, X__1 == "Starters Who Quit %", 1 - 
                            (X__2[which(X__1 == "Starters Who Initiate %")] + 
                               X__2[which(X__1 == "Starters Who Return Later %")])),
-          X__2 = replace(X__2, X__1 == "Initiators Who Return Later", 1 - 
+          X__2 = replace(X__2, X__1 == "Initiators Who Return Later %", 1 - 
                            (X__2[which(X__1 == "Initiators Who Complete %")] + 
                               X__2[which(X__1 == "Initiators Who Quit Early %")])),
-          X__2 = replace(X__2, X__1 =="Completers Who Return", 1 - 
+          X__2 = replace(X__2, X__1 =="Completers Who Return %", 1 - 
                            (X__2[which(X__1 == "Completers Who Graduate %")]))) %>%
   slice(match(flow.order, X__1)) %>%
   mutate(X__2 = paste0(round(X__2, 2)*100, "%"))
 
 # Return Visit Interval less than 3months
-rvi1 <- c("N/A", "See table below", "N/A", 
-          round(rvi$X__2[which(rvi$X__1 == "Initiators Who Complete Frequency")],2) ,
+rvi1 <- c("N/A", "See table below", "See table below",  
+          round(rvi$X__2[which(rvi$X__1 == "Initiators Who Complete RVI")],2) ,
           "See table below",
-          round(rvi$X__2[which(rvi$X__1 == "Initiators Who Quit Early Frequency")],2), 
-          round(rvi$X__2[which(rvi$X__1 == "Completers Frequency")],2),
+          round(rvi$X__2[which(rvi$X__1 == "Initiators Who Quit Early RVI")],2), 
+          round(rvi$X__2[which(rvi$X__1 == "Completers RVI")],2),
           "See table below")
 
 # Median Engagement Duration less than 3months
-med1 <- c("Always 1 wk", "See table below", "Always 1 wk",
+med1 <- c("NA", "See table below", "See table below",
           round(med$X__2[which(med$X__1 == "Initiators Who Quit Early Duration")], 2),
           "See table below", 
-          round(med$X__2[which(med$X__1 == "Initators Who Graduate Duration")],2),
+          round(med$X__2[which(med$X__1 == "Initiators Who Graduate Duration")],2),
           "12 wks", "See table below")
 
 
@@ -221,7 +217,7 @@ med1 <- c("Always 1 wk", "See table below", "Always 1 wk",
 visit.order <- c("From 1 Visit", "From 2 to 7 Visits", "From 8 or More Visits")
 rvi2 <- rvi_after %>%
   mutate(Visit = sub("^(.*) Who .*", "\\1", X__1),
-         X__3 = sub(".* (.*) Frequency \\(median\\)$", "\\1", X__1)) %>%
+         X__3 = sub(".* (.*) RVI$", "\\1", X__1)) %>%
   select(-X__1) %>%
   spread(X__3, X__2) %>%
   mutate(Visit = replace(Visit, Visit =="Starters", "From 1 Visit"),
@@ -235,7 +231,7 @@ rvi2 <- rvi_after %>%
 
 # Median Engagement Duration after than 3months
 med2 <- med_after %>%
-  mutate(X__3 = sub(".* (.*) Duration \\(median\\)$", "\\1", X__1),
+  mutate(X__3 = sub(".* (.*) Duration$", "\\1", X__1),
          Visit = sub("^(.*) Who.*","\\1", X__1)) %>%
   select(-X__1) %>%
   spread(X__3, X__2) %>%
@@ -338,11 +334,11 @@ p2 <- ggplot(rvi_only, aes(percentile, week, fill = percentile)) +
 
 #### Psy Table without definition (similar to the UI)
 ```{r psy_table, echo=FALSE}
-htmlTable(psy1, header = c(rep("",2), "Patient Flow", "", "Return Visit \nInterval (weeks)", "Median Engagement \nDuration"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lllrcc")
+htmlTable(psy1, header = c(rep("",2), "Patient Flow", "", "Return Visit \nInterval (wks)", "Median Engagement \nDuration (wks)"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lllrcc")
 
 
-htmlTable(psy2, header = c("", "Return Visit", "Interval after 3", "Months (weeks)",
-                           "Engagement", "Time after 3", "Months (weeks)"),
+htmlTable(psy2, header = c("", "Return Visit", "Interval after 3", "Months (wks)",
+                           "Engagement", "Time after 3", "Months (wks)"),
           rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", 
           #caption ="Team Data", 
           align = "lcccccc" )
@@ -357,4 +353,3 @@ p1
 ```{r p2,echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
 p2
 ```
-
