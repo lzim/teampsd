@@ -18,6 +18,7 @@ output:
 # [MTL Live Session 10](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session10_see.Rmd "MTL Live Session 10")
 
 # Today we're modeling to learn how to use systems thinking.
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to use systems thinking.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
