@@ -17,8 +17,8 @@ output:
 
 # [MTL Live Session 05](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd "MTL Live Session 05")
 
-
 # Today we're modeling to learn how to log in to our team world.
+Hello! [Co-facilitators introduce themselves] Today we're modeling to learn how to log in to our team world.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
