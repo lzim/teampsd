@@ -18,7 +18,7 @@ output:
 # [MTL Live Session 03](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session03_see.Rmd "MTL Live Session 03")
 
 # Today we're modeling to learn how to produce team data for simulation.
-Hello! [Co-facilitators introduce themselves] Today we're modeling to learn how to produce team data for simulation.
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to produce team data for simulation.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
