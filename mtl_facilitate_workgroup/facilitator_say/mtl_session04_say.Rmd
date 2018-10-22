@@ -19,6 +19,8 @@ output:
 
 # Today we're modeling to learn how to prioritize team needs.
 
+Hello! [Co-facilitators introduce themselves] Today we're modeling to learn how to prioritize team needs.
+
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
