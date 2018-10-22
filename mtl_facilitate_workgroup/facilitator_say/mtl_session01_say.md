@@ -19,6 +19,8 @@ output:
 
 ## Today we're modeling to learn how to align our team vision.
 
+Hello! [Co-facilitators introduce themselves] Today we're modeling to learn how to align our team vision.
+
 ## Do and Done (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
@@ -27,7 +29,7 @@ output:
 
 ## Done and Do
 
-We have all successfully logged in to mtl.how/live for screen-sharing in the team meeting and called in to the VANTS line for audio.
+We logged in to mtl.how/live for screen-sharing in the team meeting and called in to the VANTS line for audio.
 
 Facilitator Introductions
 - Name, affiliation, expertise, role in MTL
