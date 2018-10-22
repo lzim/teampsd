@@ -81,7 +81,7 @@ Caution: Only choose the Save and Reset button at the bottom when you’re finis
 
 ## Done and Do
 
-This time w ran our Base Case (bc) of no new decisions, recording our question, hypothesis, findings and decisions in the Text section. 
+This time we ran our Base Case (bc) of no new decisions, recording our question, hypothesis, findings and decisions in the Text section. 
 
 Next time we will run an experiment. To prepare for that, log in to the team world at mtl.how/sim and explore the Results Dashboard in the Expanded Outputs section for the Base Case (bc) run.
 
