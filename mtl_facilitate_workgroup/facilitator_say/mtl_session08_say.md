@@ -18,6 +18,7 @@ output:
 # [MTL Live Session 08](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd "MTL Live Session 08")
 
 # Today we're modeling to learn how to test a dynamic hypothesis.
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to test a dynamic hypothesis.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
