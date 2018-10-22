@@ -19,7 +19,7 @@ output:
 
 
 # Today we're modeling to learn how to evaluate our Base Case of no new decisions.
-
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to evaluate our Base Case of no new decisions.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
