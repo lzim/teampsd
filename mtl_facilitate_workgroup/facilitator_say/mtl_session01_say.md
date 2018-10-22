@@ -19,7 +19,7 @@ output:
 
 ## Today we're modeling to learn how to align our team vision.
 
-Hello! [Co-facilitators introduce themselves] Today we're modeling to learn how to align our team vision.
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
 
 ## Do and Done (15 minutes)
 <!-- Do/Done Tables -->
