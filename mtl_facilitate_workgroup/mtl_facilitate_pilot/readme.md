@@ -46,7 +46,7 @@ output:
 **10:15AM-10:30AM** - [*MTL* Set-up and Pre-session Facilitator Tasks](https://mtl.how/facilitate) |
 **10:30AM-10:45AM** - BREAK |
 **10:45AM-12:30PM** - [*MTL* Session 4 - MTL Menu to prioritize Team Needs](https://mtl.how/menu) |
-**12:30AM-1:30PM** - LUNCH |
+**12:30AM-1:30PM** - LUNCH on your own |
 **01:30PM-02:15PM** -  [*MTL* Session 5 - Care Coordination in our Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd)|
 **02:15PM-03:15PM** - [*MTL* Session 6 - Telling a Systems Story - Care Coordination Main Tile](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session06_see.Rmd) |
 **03:15PM-03:30PM** -  BREAK  |
@@ -67,7 +67,7 @@ output:
 **10:10AM-10:30AM** - [**Co-facilitator Pre-prep for session 8**](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/pre_meeting_checklist.rmd) |
 **10:30AM-11:30PM** - [*MTL* Session 8 - Test a Dynamic Hypothesis - Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd)  |
 **11:30PM-11:50PM** - [**Co-Facilitator Debrief Session 8 - Testing a Dynamic Hypothesis**](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/post_meeting_checklist.rmd) |
-**12:05PM-01:30PM** - LUNCH - **Put your learner and facilitator questions on the flip charts** |
+**12:05PM-01:30PM** - LUNCH on your own - **Put your learner and facilitator questions on the flip charts** |
 **01:30PM-02:00PM** - [**Co-facilitator Pre-prep for session 8**](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklist/pre_meeting_checklist.rmd) |
 **02:00AM-03:15PM** - [*MTL* Session 8 - Test a Dynamic Hypothesis - Team World](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd)  |
 **03:15PM-03:30PM** - BREAK - Triage your questions into the parking lot or already address (off the flip chart)   |
