@@ -25,10 +25,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the Expanded Outputs section to prepare for experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis by running experiment 1 and comparing results against the bc.
-**Do**
+
+
+**Done**  
 During the last session, our team ran the Base Case (bc) of no new decisions and recorded our question, hypothesis, findings and decisions in the Text section. 
 
-**Done**
+**Do**  
 During this session we will run an experiment with the team. To prepare for that, we asked you to log in to the team world at mtl.how/sim and explore the Results Dashboard in the Expanded Outputs section for the Base Case (bc) run.
 
 <!-- Learning Objectives Icon --> 
@@ -52,21 +54,32 @@ During this session we will run an experiment with the team. To prepare for that
 
 4.	You can *Join Current Session* or *Start a New Session* in the desired module by clicking in the circle to the right of one of those titles and then click on "Play." As a reminder, the available modules are Care Coordination, Medication Management, Psychotherapy, Aggregate, and Suicide Prevention. If you *Start a New Session* you will need to select the team data file you would like to use. Click on the "Select Team Data" icon. A pop-up box will appear on your computer screen with the text, "Please select a model input file." Click on the blue down arrow next to the text "Please select team data" and choose the data file you would like to use in an experiment.
 
-5.	The main model tile will be in the center of your screen. The Output and Experiment sections are on the right of the screen. To refresh your memory and pick up where you left off in your *MTL* learning, expand the Experiments section by clicking on the white down arrow in the blue bar. You will see the phrase, "Select Previous Experiment to Set Experimental Values to a Former State." Click on the red down arrow and select the experiment from the last session. You will also want to check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
+5.	The main model tile is in the center of your screen. The Output and Experiment sections are on the right side of the model. To refresh your memory and pick up where you left off in your *MTL* learning, expand the Experiments section by clicking on the white down arrow in the blue bar. You will see the phrase, "Select Previous Experiment to Set Experimental Values to a Former State." Click on the red down arrow and select the base case experiment from the last session. When you click the red "Go" button, a blue and white pop up box will appear with the title "Review Previous Settings." Because you've selected the base case experiment, all of the values showing in the Experimental Values box should show either BC or 1. You will also want to check the box next to the text "Include text from this session in Expanded Outputs text fields?" As a reminder, the text fields are: Our Question, Our Hypothesis, Our Findings, Our Decisions. To bring up the text boxes for easy review, click on the Output section. Click on Expand. Click on the layered squares or windows in the upper right corner of the blue bar to make the text box smaller so it's easy to review the text in the text boxes and main model diagram.
 
-6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
+6.	We should reveal complexity so the learner can view the whole model. Let's study the model diagram and team data. First, explore the Appointments section of the model and see how Appointment Supply links to a number of variables. Then, examine the Patients sections of the model. Notice how the different gauges and rectangles are linked and what causes them to increase or decrease. Finally see how the Patients and Appointments interact in the model for example by examining appointment supply and return visit interval.  Remember, red boxes are read into the model from team data. As a team, we decide what change to experiment with in the model. To make that decision, we should ask: 1) How do we think things will change over time if choose a specific variable to change?, and 2) What relationships in the system will interact if we make the change? Ultimately, the team should choose changes that might give the desired result that links to the team vision and team need. 
 
-7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
+7.	Let's create a new experiment building off of the previous one. The first step is to revise the text in all the text boxes to reflect the experiment you want to do now: 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
++ Type in the *Our Question* text box a question that describes what your team wants to learn from changing a specific variable or variables in the model.
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (this time that just means all the base case/default values).
++ You walked through the system story for both Appointments and Patients. With your text box on the right side of the screen, revisit the model diagram and outline the systems story your team believes will cause the outcomes your team expects to observe. Begin to craft the text for the *Our Hypothesis* box. A good hypothesis will include the proposed change our team will make, the services that will be impacted, how the team data values will be changed from base case, and what we expect to see as a result of the change.
++ An example of a hypothesis statement is: "Our team thinks we can create more capacity for seeing EBPsy patients if we slightly lengthen the average return-to-clinic visit interval for our Psy patients. To test this, we will try increasing the Psy RVI from 10 to 11 weeks." 
 
-9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
+8.	Slide the Text box to the left, over the model diagram. This will allow you to adjust experiment sliders for the new experiment. Keep in mind that the previous run’s settings are in effect -- in this case, we have only run the BC or base case so the default values from the team data are the previous run settings. Adjust the sliders of the variable or variables you selected. A quick tip -- make note of the service or services you selected to change and the new values, that is, what you changed the numbers to, so you have that information available when you save the experiment.
 
-10.	Compare Runs to see the difference the between base case and the current experimental run. Compare Services to see how the variables across services look under the current experiment's conditions. Record what you learned:
+9.	In the Experiment Timeline box above the main model diagram, click the green Run button. 
+
+10. Go to Output, click Save in the upper right corner. Name this run according to the variables you changed. This is where your notes about the services and numbers you changed for this experiment will come in handy. 
++ To name the run, click on the down arrow next to Variable, choose the variable name you changed, for example, Appointment Supply or Return Visit Interval. Click Add. This will insert an abbreviation of that variable into the experiment name. 
++ Click on the down arrow next to Service, choose the service you adjusted, for example, Psy, Medication Management or Adjunctive services. Click Add. 
++ Finally, click on the down arrow next to Number, choose the number that represents the new value you used in your experiment.
++ Click Save (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.
+
+11.	The Outputs section contains the Results Dashboard. It is here you can compare the new experiment to your base case run. There are six charts in the dashboard. To see the default set of charts for a specific service, go to the main model diagram Experiment Timeline box and under "Display Patient Services" click on the service for the specific charts you want to review. You can review individual charts by expanding the Output tile on the right and clicking on the blue arrow under the individual chart. You can also click on "Expand" to see all six charts at one time. To change the charts, click on the down arrows under the chart to bring up different variables or services. Examine the differences between the base case and the current experimental run. Record what you learned in the *Our Findings* text box:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
 
