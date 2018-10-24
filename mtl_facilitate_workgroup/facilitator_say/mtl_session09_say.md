@@ -26,7 +26,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
 
-
+Last session we ran experiment 1 and compared results against the Base Case.  Were you able to develop dynamic hypothesis for a second experiment you want to run?  Today we will run that experiment and compare results against the previous experiment and the Base Case.
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -39,40 +39,43 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 # In-session Exercise (30 minutes)
 
-## Running an Experiment
+## Review Past Experiment
 
-1.	Login to your world.
+1.  Pull up experiment 1 by logging in to the team world at mtl.how/sim.  Type in your name and password, then hit “Join Current Session.” Pull up past experiments and text by clicking on the blue “Output” header, and then the “Expand” icon in the upper middle.  Scroll down, and click on the drop down list under “Select Experiment” in the “Control Panel.”  Select your base case experiment for Alternative 1, and your previous experiment for Alternative 2.  
 
-2.	Review your saved runs. Rename your saved runs if you feel you need to.
+2.  Looking at the charts here in the Expanded Outputs section, ask “What did we learn last time?”  *If the team needs prompting, then ask them to click on the question mark that is just above the drop-down list and read out their Question, Hypothesis, Findings, and Decisions from their last experiment.*
 
-3.	Review the data files you have uploaded for use and make sure you have what you want.
-
-4.	You can *Join Current Session* or *Start a New Session* in the Aggregate module. If you *Start a New Session* select the team data file you’d like to use.
-
-5.	To refresh your memory and pick up where you left off last time, Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
-
-6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
-
-7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
-
-### Experiment 2
+## Run Experiment 2
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+
+3.  Now, ask “What new idea do we want to test this week?” Minimize the Expanded Outputs by clicking on the “box” in the upper right corner of the window, so we can see both the model and type out our Question and Hypothesis.  Ask the team for text to type into the “Question” box. The question should clearly state a directional change in at least one variable.
+  -- Example for CC: Last time, we saw that changing the RVI and referral rate allowed us to start more new patients without compromising care quality. What will happen if we instead decrease the Missed Appointment % by 50% (and increase the referral rate, so we don’t run out of new patients)?
+
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
+4.	Research into experiential learning with simulation has shown that it is more impactful if the group “stakes a claim” before seeing the results of a possible future scenario.  Ask, “What do you think the effects will be of this change?  How much better will things get?”  Push the team to be as specific as possible, both with their change and the result.  Type these variables and predictions into the “Hypothesis” box.
+  -- Example for CC: If we reduce the Missed Appointment % by 50% (from 22% to 11%), then we expect the new patient start rate to increase by 10%. 
+  
+5.	Now, ask the team why this will happen.  Reveal complexities in the model diagram to support the team telling the systems story supporting the causal relationship between their change and their expected result.  The hypotheses must track the effects of an initial change through the system, following the causal arrows in the model diagram.  
+  -- Example for CC: Reducing the Missed Appointment % will cause the amount of rework to decrease, and the total number of appointments on the calendar will drop.  This will free up provider time, and allow more hours to go toward starting new patients.  This in turn will add more patients to the team, and eventually the team will fill up all the extra slots, and the start rate will balance out at a new, but higher, rate than before.  
 
-9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
+6.	Restate the change to be tested, and move the Question and Hypothesis text to the left, in order to reveal the experiment sliders.  Move each slider named in the question to its desired value, and click  the green “Run” icon.  Name this run according to the variables you changed. To name the run, click on the down arrow next to Variable, choose the variable name you changed, for example, Appointment Supply or Return Visit Interval. Click Add. This will insert an abbreviation of that variable into the experiment name. Next, click on the down arrow next to Number, choose the number that represents the new value you used in your experiment.  Finally, click Save (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.
 
-10.	Compare Runs to see the difference the between base case and the current experimental run. Compare Services to see how the variables across services look under the current experiment's conditions. Record what you learned:
-
+## Compare Results
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
-11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run. 
+7.	Now that you’ve run the scenario, ask the team what variables they should look at.  They will want to know 1) Did their experiment have the predicted result? And 2) Did their systems story in the hypothesis box explain these results?  First, expand the “Outputs” by clicking on the white box in the upper right corner.  Charts for six key variables should already be shown in the “Results Dashboard.”  If other variables are needed, then click into the drop-down under any chart to select another variable.  
+
+8.	Ask the team for text to type into the “Findings” box, now just above the “Results Dashboard.”  These findings must be specific about both the quantitative impact of their experiment and how those results were produced.  
+  -- Example for CC: Reducing the Missed Appointment % by 50% caused the Rescheduling Rate to drop from 12 appts/wk to 6, effectively opening 6 more appointments per week.  Initially, these “new slots” go mainly to new patients.  The Starting Rate to increases from 1.8 to 3.6 pts/wk, but then, as these new patients started to need return appointments, the newly-opened slots were used more and more by existing patients, so the Starting Rate dropped back to 2.2 pts/wk.  In the end, even though most of the 6 “new slots” are used by existing patients, this is a sustained 13% increase over the base case.  
+
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
-12. Save and Reset when ready.
+9.	Ask the team to decide what they want to test next.  Consider a combination of experiments 1 and 2.  Ask the team for text to type in the Decisions box.  Once they have finished, click the “Save” icon in the upper right.
+  -- Example for CC: We will next run a combined experiment, changing both the RVI and the Missed Appointment % (and, increasing the Referral Rate, so we don’t run out of new patients).  
+
  
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
