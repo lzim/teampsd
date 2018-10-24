@@ -27,14 +27,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. | 
 
 # Done
-MTL Session 3 focused on how to produce team data for simulation using the data user interface. Who remembers what the web address is for the data UI? [mtl.how/data]
+Session 3 focused on how to produce team data for simulation using the data user interface. We explored a team data table that featured team trends over two years. We examined how the team numbers were derived and reviewed the descriptions and definitions for the data in the various tabs. We used our clinical expertise to analyze the team data and  trends to help us identify priorities for _MTL_ learning.
 
-Last session, we explored a team data table that featured team trends over two years. We examined how the team data was estimated and reviewed the descriptions and definitions for the data in the various tabs. Finally, the team was asked to call on their clinical expertise to analyze the team data and team trends to identify team priorities for future learning. You were asked to complete two tasks: find something in the team data table and to answer the questions at mtl.how/menu.  
-+	What data in the team data was of greatest interest as you explored mtl.how/data?  
-+	Are there any questions about the data UI? *For Video: If you have questions about the data UI at any time during this module, please contact Team PSD at..."
+Since last time, we searched to see if we could find something in the team data table, and completed the questions at mtl.how/menu.  
 
 # Do
-MTL.how/menu was created to help teams identify priorities for action in clinical care. Today we will focus on prioritizing team needs.
+MTL.how/menu was created to help teams identify priorities for action in clinical care - challenges you're facing right now that we can investigate and learn from together using systems thinking and simulation. Today we will talk through the team's responses to the _MTL Menu_ to figure out our priority focus for the next several sessions of _MTL_.
 
 
 <!-- Learning Objectives Icon --> 
@@ -48,19 +46,11 @@ MTL.how/menu was created to help teams identify priorities for action in clinica
 
 # In-session Exercise (30 minutes)
 
-1. Complete the [*MTL* Menu](https://mtl.how/menu) on your own.  
+1. Hopefully, you and all of your colleagues on the team completed the MTL Menu. For this video lesson, we will use a fictitious team's aggregated responses to talk through what's most important. You will receive a summary of your team's actual _MTL Menu_ responses; and in your _MTL_ email you'll see what the outcomes were of our discussion in this Session. 
 
-+ The purpose of the Menu is help identify team needs. You received an email this week reminding you to complete the questions on mtl.how/menu. Did everyone complete the questions at mtl.how/menu?  
-
-+ If no team members have completed the questions on mtl.how/menu, guide the team members to the website to complete the questions.  
-
-+ **For *MTL* Video - Ideally all members of a team would complete the MTL Menu. With everyone's input we then explore what clinical care issues are most important to a clinic team. For this lesson, we will assume you are part of a team that has completed MTL Menu. Let's review your team's results.** 
-
-2. Review the team's results in your team. 
-+ Thank you for completing the mtl.how/menu.  
 + *INSERT IMAGE OF MTL.HOW/MENU RESULTS EXAMPLE*  
-+ Our first step is to scan through the team’s results. Look for two or three items that stand out to you in the responses.  
 
+2. Our first step is to scan through the team’s results. Look for two or three items that stand out to you in the responses.  
    + *Facilitator Action*
    •	Lead discussion of what stood out to the team members as they scanned the responses.  
    •	Take notes as team members reveal what stood out to them.  
@@ -75,14 +65,12 @@ MTL.how/menu was created to help teams identify priorities for action in clinica
    •	Lead discussion on areas of consensus or agreement among the team.  
    •	Take notes as team member reveal the areas where team responses are showing consensus.  
 
-
 4. Discuss items in which team members varied a lot in their rankings.  
 •	Where does the team have more variable perspectives?  
 •	We want to find those responses where there is a lot of variability or a wide spread in the responses on specific priorities. In the team example, we see a wide array of responses for INSERT TOPIC as mentioned previously as well as INSERT TOPIC and INSERT TOPIC.
 
    + *Facilitator Action*  
    •	Lead discussion on areas of variability across the team.  
-
 
 5. Focus on the high priority needs to select a module for sessions 5-10 of Modeling to Learn 
 
