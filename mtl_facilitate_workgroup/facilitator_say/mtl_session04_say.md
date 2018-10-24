@@ -27,7 +27,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. | 
 
 # Done
-MTL Session 3 focused on how to produce team data for simulation using the data user interface. We explored a team data table that featured team trends over two years. We examined how the team numbers were derived and reviewed the descriptions and definitions for the data in the various tabs. We used our clinical expertise to analyze the team data and  trends to help us identify priorities for _MTL_ learning.
+Session 3 focused on how to produce team data for simulation using the data user interface. We explored a team data table that featured team trends over two years. We examined how the team numbers were derived and reviewed the descriptions and definitions for the data in the various tabs. We used our clinical expertise to analyze the team data and  trends to help us identify priorities for _MTL_ learning.
 
 Since last time, we searched to see if we could find something in the team data table, and completed the questions at mtl.how/menu.  
 
