@@ -19,15 +19,15 @@ output:
 + Team Need: 
 + System Story: 
 + Base Case:
-  + Q
-  + H
-  + F
-  + D
+  + Q - What does care coordination look like in our team if we make no new decisions?
+  + H - If we make no new decisions then patients will accumulate waiting for care coordination.
+  + F - Wait-time increase rapidly, but then drop back down and ultimately oscillate until it balances out in a year.
+  + D - Next time we will experiment with adjusting our appointment supply to reduce wait-times for patients.
     
 + Experiment 1:
   + Q
-  + H
-  + F
+  + H 
+  + F 
   + D
     
 + Experiment 2: 
