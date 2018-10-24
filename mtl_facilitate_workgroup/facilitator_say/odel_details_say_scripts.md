@@ -73,23 +73,23 @@ output:
 + Team Need: 
 + System Story: 
 + Base Case:
-  + Q
-  + H
-  + F
-  + D
-    
+  + Q -  What would happen over the next two years if we made no new decisions in our team?
+  + H - We expect that we will continue to see fewer Psy and EBPsy patients than we want because we aren't graduating our psychotherapy patients.
+  + F - We were rigth 65% of our patients are in care for more than 3 months. For our next experiment we will reduce the duration of of engagement of patients after 3 months by 75%. - Sankey diagram showed that for  the median number of visits is 16 for 75% of patients."
+  + D - For our next experiment we will reduce the duration of of engagement of patients after 3 months by 75%.
+
 + Experiment 1:
-  + Q
-  + H
-  + F
-  + D
+  + Q - What if we graduate more patients who complete 8 or more psychotherapy sessions in their first 3 months?
+  + H - We expect that if we increase our completers who graduate  to 50% , then we'll free up more slots in the clinic for more patients to start psychoterhapy/EBPsy.
+  + F - We found that we increased the start rate for psychotherapy, but not by as much as we'd hoped.
+  + D - For experiment 2, we will try to step more patients down out of psychotherapy/EBPsy who are engaged for greater than 3 months.   
     
 + Experiment 2: 
-  + Q
-  + H
-  + F
-  + D
-    
+  + Q - For experiment 2, we will try to step more patients down out of psychotherapy/EBPsy who are engaged for greater than 3 months.
+  + H - We expect that if we reduce the median engagement >3 months to 12 visits (meaning a 75% reduction), then it will free up "a lot of appointment space
+  + F - Against the base case - Our starting rate increased from ~3 ppw to 7 ppw. - We went from having ~4 apw  to ~8 apw .
+  + D - We decided to run a third experiment on your own in your individual world. So that next time we are prepared to think through new decisions we might make in our team.
+
 + Experiment 3: 
   + Q
   + H
