@@ -17,19 +17,25 @@ output:
 
 ## Care Coordination: 
   --Team Need:
+  
   --Question: 
+  
   --System Story: 
+  
   --Base Case:
+  
   --Experiment 1:
     --Q
     --H
     --F
     --D
+    
   --Experiment 2: 
     --Q
     --H
     --F
     --D
+    
   --Experiment 3: 
     --Q
     --H
