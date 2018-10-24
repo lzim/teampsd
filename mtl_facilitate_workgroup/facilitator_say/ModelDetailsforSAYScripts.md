@@ -16,10 +16,14 @@ output:
 # *Modeling to Learn* - Model Details for Facilitator Say Scripts
 
 ## Care Coordination: 
-+ Team Need:
-+ Question: 
++ Team Need: 
 + System Story: 
 + Base Case:
+  + Q
+  + H
+  + F
+  + D
+    
 + Experiment 1:
   + Q
   + H
