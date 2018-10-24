@@ -16,21 +16,31 @@ output:
 # *Modeling to Learn* - Model Details for Facilitator Say Scripts
 
 ## Care Coordination 
-+ Team Need: 
-+ System Story: 
-+ Base Case:
+- **Team Need:**
+The care coordination module shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
+
+- **System Story:**
+*Complexity and Feedback Loops*
+- Balancing Existing and New Patients (Balancing Loop)
+- Overbooking Affects No Shows
+- Wait Time Affects Referrals (Balancing Loop) 
+*Sensitivity Tests* 
+- Sensitivity of Missed Appointments to Task Time
+- Sensitivity of Referals to Wait Time
+
+- **Base Case:**
   + Q - What does care coordination look like in our team if we make no new decisions?
   + H - If we make no new decisions then patients will accumulate waiting for care coordination.
   + F - Wait-time increase rapidly, but then drop back down and ultimately oscillate until it balances out in a year.
   + D - Next time we will experiment with adjusting our appointment supply to reduce wait-times for patients.
     
-+ Experiment 1:
+- **Experiment 1:**
   + Q - What happens to the new patient start rate and patient wait timse when we increase the supply of care coordination appointments available?
   + H - Increasing the appointment supply will reduce wait-times and increase the new patient start rate.
   + F - Increasing the supply of Appointments Available for New Patients increases the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start, adding to total scheduled Appointments in CC
   + D - Next time we will experiment with adjusting our return-to-clinic visit interval (in weeks).
     
-+ Experiment 2: 
+- **Experiment 2:** 
   + Q
   + H
   + F
