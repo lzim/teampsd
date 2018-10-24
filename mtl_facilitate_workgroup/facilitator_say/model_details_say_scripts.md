@@ -36,14 +36,14 @@ output:
   + F
   + D
 
-Other CC Notes for Experiments 2 and 3:
-Return-to-clinic interval: Increasing the Return Visit Interval slows the weekly new patient Booking Rate, which decreases the number of scheduled Appointments in CC, thereby increasing CC Appointments Availablefor New Patients each week.
+**Other CC Notes for Experiments 2 and 3:**
+- Return-to-clinic interval: Increasing the Return Visit Interval slows the weekly new patient Booking Rate, which decreases the number of scheduled Appointments in CC, thereby increasing CC Appointments Availablefor New Patients each week.
 
-Appointments set aside for new patients:  Increasing the supply of Appointments Available for New Patients increases the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start, adding to total scheduled Appointments in CC.
+- Appointments set aside for new patients:  Increasing the supply of Appointments Available for New Patients increases the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start, adding to total scheduled Appointments in CC.
 
-Overbooking and missed appointments:  Increasing CC Overbooking serves to increase weekly True Missed Appointments, which, over time, keeps the number of scheduled Appointments in CC higher, which can delay or 'crowd out' new CC patients who are Waiting to Start.
+- Overbooking and missed appointments:  Increasing CC Overbooking serves to increase weekly True Missed Appointments, which, over time, keeps the number of scheduled Appointments in CC higher, which can delay or 'crowd out' new CC patients who are Waiting to Start.
 
-Wait times and referrals: Decreasing the weekly CC Referral Rate decreases the number of new CC patients Waiting to Start CC. However, new CC patients Waiting to Start CC is also a function of  the team's new CC patient Starting Rate, which is determined by current scheduled Appointments in CC and Appointments Available for New Patients. 
+- Wait times and referrals: Decreasing the weekly CC Referral Rate decreases the number of new CC patients Waiting to Start CC. However, new CC patients Waiting to Start CC is also a function of  the team's new CC patient Starting Rate, which is determined by current scheduled Appointments in CC and Appointments Available for New Patients. 
 
 + Experiment 3: 
   + Q
@@ -52,32 +52,33 @@ Wait times and referrals: Decreasing the weekly CC Referral Rate decreases the n
   + D
  
  ## Medication Mangement
++ Team Need: 
++ System Story: 
+  + Q - Can we serve 4 new patients with OUD each week? -- no  :(
 
-Q1 Can we serve 4 new patients with OUD each week? -- no  :(
+  + H - If our referral rate for OUD is 2 pts per month (0.5 per week), and we allocate 40% of our x-waiver slots to OUD treatment, and 40% to Other Needs, and we change our RVI for depression to 12 weeks, and the RVI for OUD to 4 weeks (in line with our quality standards), then we will serve more OUD patients with our existing team staff, without increasing the wait time for new depression patients.
 
-H-If our referral rate for OUD is 2 pts per month (0.5 per week), and we allocate 40% of our x-waiver slots to OUD treatment, and 40% to Other Needs, and we change our RVI for depression to 12 weeks, and the RVI for OUD to 4 weeks (in line with our quality standards), then we will serve more OUD patients with our existing team staff, without increasing the wait time for new depression patients.
+  + F - We met our goal of getting more patients into MAT for OUD! by having a more realistic referral rate, using more x-waiver provider supply, and adjusting our RVIs for depression and OUD in line with quality standards.
 
-F-We met our goal of getting more patients into MAT for OUD! by having a more realistic referral rate, using more x-waiver provider supply, and adjusting our RVIs for depression and OUD in line with quality standards.
-
-D- I am going change how I order my return to clinics for OUD and depression; allocate ~40% of my time to OUD patients; conduct a few more experiments to refine the allocation of my time to better balance trade-offs between patient needs.
+  + D - I am going change how I order my return to clinics for OUD and depression; allocate ~40% of my time to OUD patients; conduct a few more experiments to refine the allocation of my time to better balance trade-offs between patient needs.
 
 			
-Q2 - how do we best allocate our x waiver appointments to serve 4 new OUD patients per week?
+  + Q - how do we best allocate our x waiver appointments to serve 4 new OUD patients per week?
 
 H- If we increase our proportion of appointments with an X waiver to 10%, then it will increase the starting rate.
 
-F - fears confirmed: if we increase the proportion of x-waiver slots to 10%, it does increase the starting rate for OUD MM to about 1 patient/month. But it also increased the wait times for patients with other needs.
+  + F -  fears confirmed: if we increase the proportion of x-waiver slots to 10%, it does increase the starting rate for OUD MM to about 1 patient/month. But it also increased the wait times for patients with other needs.
 
-D- Tradeoff is bad. Increasing referrals and reallocating appointments is not enough to serve the new OUD patients without an impact on our other patients.
+  + D - Tradeoff is bad. Increasing referrals and reallocating appointments is not enough to serve the new OUD patients without an impact on our other patients.
 
 
-Q3 - If we get an increase in patients with OUD, can we serve them?
+  + Q - If we get an increase in patients with OUD, can we serve them?
 
-H- An increase in referrals of OUD patients will increase patients waiting start MM service, which will increase the starting rate.
+  + H - An increase in referrals of OUD patients will increase patients waiting start MM service, which will increase the starting rate.
 
-F- An increase in patients with OUD, with no other changes ,  increases patients waiting to start MM.
+  + F - An increase in patients with OUD, with no other changes ,  increases patients waiting to start MM.
 
-D - Consider other parts of care delivery to meet new OUD patients' needs.  Cannot focus on referral rate in isolation.
+  + D - Consider other parts of care delivery to meet new OUD patients' needs.  Cannot focus on referral rate in isolation.
 
 
 
