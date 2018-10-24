@@ -25,17 +25,26 @@ output:
   + D - Next time we will experiment with adjusting our appointment supply to reduce wait-times for patients.
     
 + Experiment 1:
-  + Q
-  + H 
-  + F 
-  + D
+  + Q - What happens to the new patient start rate and patient wait timse when we increase the supply of care coordination appointments available?
+  + H - Increasing the appointment supply will reduce wait-times and increase the new patient start rate.
+  + F - Increasing the supply of Appointments Available for New Patients increases the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start, adding to total scheduled Appointments in CC
+  + D - Next time we will experiment with adjusting our return-to-clinic visit interval (in weeks).
     
 + Experiment 2: 
   + Q
   + H
   + F
   + D
-    
+
+Other CC Notes for Experiments 2 and 3:
+Return-to-clinic interval: Increasing the Return Visit Interval slows the weekly new patient Booking Rate, which decreases the number of scheduled Appointments in CC, thereby increasing CC Appointments Availablefor New Patients each week.
+
+Appointments set aside for new patients:  Increasing the supply of Appointments Available for New Patients increases the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start, adding to total scheduled Appointments in CC.
+
+Overbooking and missed appointments:  Increasing CC Overbooking serves to increase weekly True Missed Appointments, which, over time, keeps the number of scheduled Appointments in CC higher, which can delay or 'crowd out' new CC patients who are Waiting to Start.
+
+Wait times and referrals: Decreasing the weekly CC Referral Rate decreases the number of new CC patients Waiting to Start CC. However, new CC patients Waiting to Start CC is also a function of  the team's new CC patient Starting Rate, which is determined by current scheduled Appointments in CC and Appointments Available for New Patients. 
+
 + Experiment 3: 
   + Q
   + H
