@@ -43,6 +43,18 @@ output:
   + D
  
  ## Medication Mangement
+
+
+Our Question	Our Hypothesis	Our Findings	Our Decisions
+Can we serve 4 new patients with OUD each week? -- no  :(	If our referral rate for OUD is 2 pts per month (0.5 per week), and we allocate 40% of our x-waiver slots to OUD treatment, and 40% to Other Needs, and we change our RVI for depression to 12 weeks, and the RVI for OUD to 4 weeks (in line with our quality standards), then we will serve more OUD patients with our existing team staff, without increasing the wait time for new depression patients.	We met our goal of getting more patients into MAT for OUD! by having a more realistic referral rate, using more x-waiver provider supply, and adjusting our RVIs for depression and OUD in line with quality standards.	I am going change how I order my return to clinics for OUD and depression; allocate ~40% of my time to OUD patients; conduct a few more experiments to refine the allocation of my time to better balance trade-offs between patient needs.
+how do we best allocate our x waiver appointments to serve 4 new OUD patients per week?	If we increase our proportion of appointments with an X waiver to 10%, then it will increase the starting rate.	fears confirmed: if we increase the proportion of x-waiver slots to 10%, it does increase the starting rate for OUD MM to about 1 patient/month. But it also increased the wait times for patients with other needs.	Tradeoff is bad. Increasing referrals and reallocating appointments is not enough to serve the new OUD patients without an impact on our other patients.
+			
+			
+			
+If we get an increase in patients with OUD, can we serve them?	An increase in referrals of OUD patients will increase patients waiting start MM service, which will increase the starting rate.	An increase in patients with OUD, with no other changes ,  increases patients waiting to start MM.	Consider other parts of care delivery to meet new OUD patients' needs.  Cannot focus on referral rate in isolation.
+			
+
+
 + Team Need: 
 + System Story: 
 + Base Case:
