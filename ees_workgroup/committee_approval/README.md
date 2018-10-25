@@ -22,7 +22,7 @@ Responses for table:***
 - If no, record changes recommended.
 -	At next planning committee session, facilitator will outline changes made and ask again for approval of content as relevant to accreditation body.
 
-|Session  | Comittee Member Approval Date | Recommended Edits  | Accreditaiton Body
+|Session  | Comittee Member Approval Date | Recommended Edits  | Accreditation Body
 | ---   | --- | --- | --- |
 | 01 | | | |
 | 02 | | | |
