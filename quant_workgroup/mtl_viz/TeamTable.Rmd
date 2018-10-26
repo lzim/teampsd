@@ -353,3 +353,83 @@ p1
 ```{r p2,echo= FALSE, warning=FALSE, message=FALSE, fig.align="center"}
 p2
 ```
+
+## SP Team Data Table
+
+```{r sppar_datafiles, include=FALSE}
+sppar1 <- read_excel("ModelParameters.xlsx", sheet = "SPParams", col_names = FALSE, range = "A2:D42")
+
+unique_colA <- sppar1$X__1[which(!is.na(sppar1$X__1))] #unique group (in order)
+group_pos <- diff(which(!is.na(sppar1$X__1))) # position/rows between group
+max.pos <- length(unique_colA) 
+group_vec <- c(rep(unique_colA[-max.pos], group_pos),rep(unique_colA[max.pos], 3)) # repeat values until next occurance 
+uni_colD <- sppar1$X__4[which(!is.na(sppar1$X__4))] 
+def_vec <- c(rep(uni_colD, group_pos[1:length(uni_colD)]), rep("",11))
+
+mcc <- sppar1 %>%
+  mutate(group = group_vec,
+         def = def_vec,
+         col_lab = sub("(.*) \\(.*\\)$", "\\1", X__2),
+         col_lab = sub(" %$", "", col_lab),
+         msr = sub(".* (\\(.*\\))$", "\\1", X__2),
+         msr = sub(".* %", "%", msr),
+         time = sub(".* (\\(.*\\))$", "\\1", group),
+         time = sub("^High .*", "", time),
+         group2 = sub("(.*) \\(.*\\)$", "\\1", group),
+         group = paste0(group2, " ", msr, time),
+         col_lab = gsub("^ *|(?<= ) | *$", "", col_lab, perl = TRUE)
+         #to = ifelse(grepl("to",col_lab),'step','measure')
+         ) %>%
+  select(group, col_lab, X__3, def) 
+
+
+rw_ord1 <- c("New Patient Start Rate (mean)(pts/wk)", "New Patient Wait Time (median)(wks)",
+             "High Risk Flag Rates (mean)(pts/wk)", "Time to Unflag High Risk Patients (median)(wks)", "Engagement Time Before Ending (median)(wks)", "High Symptom Proportions %",
+             "Time to Improve (median)(wks)")
+mcc1 <- mcc %>%
+  filter(group %in% rw_ord1) %>%
+  mutate(col_lab = replace(col_lab, col_lab == "PCMHI", "PC/PCMHI")) %>%
+  spread(col_lab, X__3) %>%
+  slice(match(rw_ord1, group)) %>%
+  select(-def, everything()) %>%
+  mutate_if(is.numeric, round, 2)
+
+
+col_ord2 <- c("Time from Flag to Clean Transfer (median)(wks)",
+             "Engagement Time before Step up/down (median)(wks)", 
+             "Wait Times (median)(wks)")
+rw_ord2 <- c("GMH to PCMHI", "GMH to SMH", "GMH to Inp", "PCMHI to SMH", "PCMHI to GMH",
+             "PCMHI to Inp", "SMH to GMH", "SMH to PCMHI", "SMH to Inp")
+mcc2 <- mcc %>%
+  filter(group %in% col_ord2) %>%
+  select(-def) %>%
+  spread(group, X__3) %>%
+  slice(match(rw_ord2,col_lab)) %>%
+  mutate_if(is.numeric, round, 2)
+
+```
+
+#### SPParam Table without definition (similar to the UI)
+
+```{r sp_table, echo=FALSE}
+
+htmlTable(mcc1[,-5], header = c(rep("",4)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lccc")
+
+```
+
+```{r sp_table2, echo=FALSE}
+
+htmlTable(mcc2, header = c("", names(mcc2[-1])), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lccc")
+
+```
+
+
+
+#### SPParam Table with definition (similar to the UI)
+
+```{r sp_table_def, echo=FALSE}
+
+htmlTable(mcc1, header = c(rep("",5)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lcccl")
+
+```
+
