@@ -19,7 +19,7 @@ output:
 
 ## Care Coordination 
 - **Team Need:**
-The care coordination module shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
+The team need we want to examine in the care coordination module is what happens when we increase the supply of care coordination appointments, particularly appointments available for new patients. Our team also wants to test what happens when we increase the return visit interval for existing patients to see what happens to wait times.
 
 - **System Story:**
 *Complexity and Feedback Loops*
@@ -65,7 +65,7 @@ The care coordination module shows how a variety of team decisions interact to i
  
  ## Medication Mangement
 - **Team Need:**
-The medication management module enables you to experiment with how team decisions about referrals, time allocation and visit frequency impact the quality of medication management for patients. Your team can explore scenarios to balance these tradeoffs and better meet the specific needs of patients with depression, alcohol use disorder and opioid use disorder. Insights you gain can help you increase local reach of evidence-based pharmacotherapies.
+Our team would like to use the medication management module to explore how we could serve more patients with specific conditions, like Opioid Use Disorder (OUD), with our existing team staffing levels. We would also like to test changing the Return-to-clinic Visit Interval (RVI) to meet more specific needs of patients who require evidence-based pharmacotherapy (EBPharm). 
 
 - **System Story:**
 *Complexity and Feedback Loops*
@@ -109,6 +109,8 @@ The medication management module enables you to experiment with how team decisio
 
  ## Psychotherapy
 - **Team Need:**
+Our team is concerned about graduating psychotherapy patients according to Psychotherapy (Psy) and Evidence-Based Psychotherapy (EBPsy) templates. We want to ensure patients complete a full course of therapy but also experiment to see what strategies the team can test to reduce the median engagement and free up appointment space.
+
 *Complexity and Feedback Loops*
 - Balancing Existing and New Patients (Balancing Loop)
 - Engagement After 3 Months 
@@ -142,7 +144,7 @@ The psychotherapy module shows how team psychotherapy decisions interact, and de
 
  ## Aggregate Mix of Services
 - **Team Need:**
-The aggregate module shows the interactions between all services offered by your team. It allows you to explore the impacts of how you allocate time across services and change within team referrals after patient review. It is also possible to experiment with your team's willingness to use overtime as a solution to a large backlog of appointments, and how sensitive your team's morale, quality of care provided and burnout are to working long hours.
+Our team is going to be losing two staff members in the near future. Since the aggregate module shows the interactions between all services offered by our team, we want to use this module to explore how we can best allocate appointments across services with reduced staffing levels. We also want to know what will happen to patient wait times if we change patient return-to-clinic visit intervals (RVI) and/or if the remaining staff members decide to work overtime or not. 
 
 - **System Story:**
 *Complexity and Feedback Loops*
