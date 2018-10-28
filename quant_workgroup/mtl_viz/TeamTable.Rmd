@@ -413,13 +413,14 @@ mcc2 <- mcc %>%
 
 ```{r sp_table, echo=FALSE}
 
-htmlTable(mcc1[,-5], header = c(rep("",4)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lccc")
+htmlTable(mcc1[,-5], header = c("", names(mcc1[-c(1,5)])), cgroup = c("Measurement Based Care"), align.cgroup = "l", rnames = FALSE,  css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lccc")
 
 ```
 
+
 ```{r sp_table2, echo=FALSE}
 
-htmlTable(mcc2, header = c("", names(mcc2[-1])), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lccc")
+htmlTable(mcc2, header = c("", names(mcc2[-1])), cgroup = c("Stepped Care"), align.cgroup = "l",, rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lccc")
 
 ```
 
@@ -429,7 +430,12 @@ htmlTable(mcc2, header = c("", names(mcc2[-1])), rnames = FALSE, css.cell = "pad
 
 ```{r sp_table_def, echo=FALSE}
 
-htmlTable(mcc1, header = c(rep("",5)), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lcccl")
+htmlTable(mcc1, header = c("", names(mcc1[-c(1,5)]),"Definition"), cgroup = c("Measurement Based Care"), align.cgroup = "l", rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lcccl")
 
+# regmatches(tmp, gregexpr('<td.*?</td>', tmp))
+# tmp <- gsub('<td', '<td nowrap="nowrap"; ', tmp)
+# tmp2 <- sub("class='gmisc_table'", "class='sturdy'", tmp)
+# tmp2 <- sub('(<td ).*New Patient Start Rate .*?</td>', '<td nowrap="nowrap"; ', tmp)
+# tmp2
 ```
 
