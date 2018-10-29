@@ -20,7 +20,7 @@ output:
 ## CARE COORDINATION
 
 **Team Need:**
-Patients are having to wait too long to start Care Coordination. We wonder if we can solve this by increasing the supply of care coordination appointments we alot to new patients; and what would happen to wait times if we increased the return visit interval for existing patients.
+Patients are having to wait longer than we'd like to start Care Coordination. We wonder if we can solve this by increasing the supply of care coordination appointments we alot to new patients; and/or what would happen to wait times if we increased the return visit interval for existing patients.
 
 **System Story:**
 
@@ -33,6 +33,9 @@ Balancing Existing and New Patients (balancing loop)
 - There's another variable shown in red inside the loop we just looked at: Return Visit Interval. This changes the effect of using your appointment supply on new patients. If you increase the return-to-clinic interval, that is, if you increase the average time between appointments for patients in your team, that has the effect of reducing the use of Appointments for Existing Patients, keeping your Appointment Supply for New Patients from dropping so much due to the ongoing load of patients you brought into your care.  
 
 Overbooking Affects No Shows
+- Revealing the Overbooking Affects No-Shows detail adds to the story by showing what happens when Overbooking (green variable, top right) is used to make up for limited Appointment Supply (red, at right). We can add more appointments to our supply if we say we're going to work through lunch or eliminate any time we've scheduled in for tasks like writing notes, following up with patients, etc. 
+- But this means less time for tasks that we know will ultimately show up in an increase in the Missed Appointment Rate (top left).  As the Missed Appointment Rate goes up, the number of Missed Appointments increases, which leads to an increase in the Rescheduling Rate.
+- The other arrow brought in by this complexity reveal is the one showing the factor that works AGAINST ------ question: not getting why that's a plus arrow from Completing to Missed Appt 
 
 Wait Time Affects Referrals (balancing loop)
 
