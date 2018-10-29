@@ -24,6 +24,14 @@ The team need we want to examine in the care coordination module is what happens
 - **System Story:**
 *Complexity and Feedback Loops*
 - Balancing Existing and New Patients (Balancing Loop)
+
+- Revealing the "Balancing Existing and New Patients" detail in the CC model diagram shows several important decisions that affect how you balance providing quality care to existing patients with getting new patients into care in a timely manner. You probably recognize from clinical experience that this is a balancing act - there are trade-offs you have to make:
+- You have a given number of appointments slots available, and they can go either to new or existing patients. The more go to new patients, the fewer can go to existing patients, and vice versa.
+- When you open up slots for new patients (green box), following the arrow down and to the left from the green box you see that that means an increase in the Starting Rate for new patients. Continuing from the Starting Rate to the Booking Rate (remember, "starting" is what _patients_ do; "booking" is what we do with _appointments_), we see that if the Starting rate is going up, then so is the Rate of Booking appointments, which means creating appointments, which means more Appointments in CC, and that means more Appointments for Existing Patients (once the patient has started, they instantly become an existing patient).
+- But now we see that the more Appointments for Existing Patients, the SMALLER the Appointment Supply for New Patients. This is how that balancing act shows up in a model diagram: We traced a chain of effects through the system and found that if we made an increase in something in one place, the end effect of all the cascading events was to DECREASE that first variable. This is a feedback loop - the change rippled all the way back to the starting place - and it's the kind of feedback we call a balancing loop, because it causes things to oscillate back and forth around some steady state, like the temperature in your house when thermostat is working to keep it at the temperature you set it to.
+- There's another variable shown in red inside the loop we just looked at: Return Visit Interval. This changes the effect of using your appointment supply on new patients. If you increase the return-to-clinic interval, that is, if you increase the average time between appointments for patients in your team, that has the effect of lessening the use of Appointments for Existing Patients, keeping your Appointment Supply for New Patients from dropping so much due to the load of patients you took in who became patients in your care.  
+
+
 - Overbooking Affects No Shows
 - Wait Time Affects Referrals (Balancing Loop) 
 *Sensitivity Tests* 
