@@ -11,7 +11,7 @@ pdf_document: default
 ---
 
 <!--MTL Logo -->
-<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingToLearn_logo1.png"
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
 # FACILITATOR MANUAL
