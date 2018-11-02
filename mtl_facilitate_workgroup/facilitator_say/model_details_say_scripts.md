@@ -23,8 +23,17 @@ output:
 Patients are having to wait longer than we'd like to start Care Coordination. We wonder if we can solve this by increasing the supply of care coordination appointments we alot to new patients; and/or what would happen to wait times if we increased the return visit interval for existing patients.
 
 **System Story:**
+- *Complexity and Feedback Loops*
+  - Balancing Existing and New Patients (Balancing Loop)
+  - Overbooking Affects No Shows
+  - Wait Time Affects Referrals (Balancing Loop) 
+- *Sensitivity Tests* 
+  - Sensitivity of Missed Appointments to Task Time
+  - Sensitivity of Referals to Wait Time
 
-Balancing Existing and New Patients (balancing loop)
+- *Complexity and Feedback Loops*
+
+  - Balancing Existing and New Patients
 
 - Revealing the "Balancing Patients" detail in the CC model diagram shows key factors that affect how we balance providing quality care to existing patients with getting new patients into care in a timely manner. You probably recognize from clinical experience that this is a balancing act - there are trade-offs you have to make:
 - You have a given number of appointments slots available, and they can go either to new or existing patients. The more go to new patients, the fewer can go to existing patients, and vice versa.
@@ -32,16 +41,38 @@ Balancing Existing and New Patients (balancing loop)
 - But now notice that an increase in Appointments for Existing Patients means a DECREASE in the Appointment Supply for New Patients. This is how that balancing act shows up in a model diagram: We traced a chain of effects through the system and found that if we made an increase in one place, the cascading events circled back to decrease that first variable . This is a feedback loop - the change rippled all the way back to the starting place - and it's the kind of feedback we call a balancing loop, because it causes things to oscillate back and forth and "try" to achieve a balnace around a steady state, like the temperature in your house when the thermostat is working to keep it at the temperature you set.
 - There's another variable shown in red inside the loop we just looked at: Return Visit Interval. This changes the effect of using your appointment supply on new patients. If you increase the return-to-clinic interval, that is, if you increase the average time between appointments for patients in your team, that has the effect of reducing the use of Appointments for Existing Patients, keeping your Appointment Supply for New Patients from dropping so much due to the ongoing load of patients you brought into your care.  
 
-Overbooking Affects No Shows
+  - Overbooking Affects No Shows
+  
 - Revealing the Overbooking Affects No-Shows detail adds to the story by showing what happens when Overbooking (green variable, top right) is used to make up for limited Appointment Supply (red, at right). We can add more appointments to our supply if we say we're going to work through lunch or eliminate any time we've scheduled in for tasks like writing notes, following up with patients, etc. 
 - But this means less time for tasks that we know will ultimately show up in an increase in the Missed Appointment Rate (top left).  As the Missed Appointment Rate goes up, the number of Missed Appointments increases, which leads to an increase in the Rescheduling Rate.
 - The other arrow brought in by this complexity reveal is the one showing the factor that works AGAINST ------ question: not getting why that's a plus arrow from Completing to Missed Appt 
 
-Wait Time Affects Referrals (balancing loop)
+  - Wait Time Affects Referrals (balancing loop)
+  
+a
 
-*Sensitivity Tests*
-- Sensitivity of Missed Appointments to Task Time
-- Sensitivity of Referals to Wait Time
+b
+
+c
+
+- *Sensitivity Tests*
+
+  - Sensitivity of Missed Appointments to Task Time
+
+a
+
+b
+
+c
+
+  - Sensitivity of Referals to Wait Time
+  
+a
+
+b
+
+c
+
 
 **Base Case:**
 
