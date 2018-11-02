@@ -16,7 +16,7 @@ output:
      height = "150" width = "275">  
 
 
-# Current version of the Master Croswalk
+# Current version of the Master Crosswalk
 
 Current Version | Name with Date |
 --- |  --- |  
