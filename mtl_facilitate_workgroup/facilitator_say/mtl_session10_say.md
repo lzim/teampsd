@@ -49,6 +49,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
+Let's describe and enter the hypothesis to test, which, this time, will consider a combination of our Experiment 1 and Experiment 2. We can review the test in the Decsion panel from Session 9, when we compared results Experiment 1 and Experiment 2. With that text entered into the hypotheis box, let's save it. -- Example for CC: We hypothesis that a combined effect of changing both the RVI (to something longer) will reduce our Missed Appointment % because there are fewer patient appts books. In addition, we hypothsisize that we can allow our new patient Referral Rate to increase to xx. At this anticipated referral rate, we will be able to integrate a more new patients into CC without negatively impacting our Team's Missed Appointment %. 
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
