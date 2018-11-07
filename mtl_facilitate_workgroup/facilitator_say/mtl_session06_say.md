@@ -26,15 +26,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. | 
 
-## Done and Do
-
-Last session we uploaded the team data file and logged in to mtl.how/sim. We chose the _____ module to work in and we checked out the main page of the sim UI, especially focusing on the Team Data Table in the Experiments section. We started recording questions and more in the Text section.
-
-Were you able to log in to your individual world and look at the “i” information in the Model Diagram and Experiments section? What did you find? Do you have any questions?
-
-Today we will tell a systems story about the team’s top priority using the Model Diagram in the sim UI.
-
-
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
@@ -79,14 +70,7 @@ Answer:
 3.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. (How to create scripts for this for all the modules and various priorities?) As we do this, we’ll try to zero in on a specific question or questions that you’d like to explore through simulation experiments. My co-facilitator will try to capture those in the Question text box so we don’t lose track.  Facilitator leads discussion, using mouse to trace on Model Diagram, eliciting more clinical perspective from the team to pin down their question(s).
 
 
-
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
-
-## Done and Do
-
-We told a systems story about our team’s top priority and began recording our questions in the Text section.
-
-Next time, we’ll run our first simulation – the Base Case of no new decisions. Before next time, we’d like you to log in to your individual world at mtl.how/sim and type your question and hypothesis about the Base Case into the Text section. The question is really just, “What will clinic care look like over the next two years if we make no new decisions?” Give some thought to what you expect and write a sentence or two describing your hypothesis to prepare for our running that simulation next time.
 
 
 ## Done and Do (15 minutes)
