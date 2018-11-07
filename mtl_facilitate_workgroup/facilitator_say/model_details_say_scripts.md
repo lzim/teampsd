@@ -23,49 +23,67 @@ output:
 Patients are having to wait longer than we'd like to start Care Coordination. We wonder if we can solve this by increasing the supply of care coordination appointments we alot to new patients; and/or what would happen to wait times if we increased the return visit interval for existing patients.
 
 **System Story:**
+- *Complexity and Feedback Loops*
+  - Balancing Existing and New Patients (Balancing Loop)
+  - Overbooking Affects No Shows
+  - Wait Time Affects Referrals (Balancing Loop) 
+- *Sensitivity Tests* 
+  - Sensitivity of Missed Appointments to Task Time
+  - Sensitivity of Referals to Wait Time
 
-Balancing Existing and New Patients (balancing loop)
+**System Story Script:**
+
+- *Complexity and Feedback Loops*
+
+  - Balancing Existing and New Patients (Balancing Loop)
 
 - Revealing the "Balancing Patients" detail in the CC model diagram shows key factors that affect how we balance providing quality care to existing patients with getting new patients into care in a timely manner. You probably recognize from clinical experience that this is a balancing act - there are trade-offs you have to make:
 - You have a given number of appointments slots available, and they can go either to new or existing patients. The more go to new patients, the fewer can go to existing patients, and vice versa.
 - When you open up slots for new patients (green box), following the arrow down and to the left from the green box you see that means an increase in the Starting Rate for new patients. Continuing from the Starting Rate to the Booking Rate (remember, "starting" is what _patients_ do; "booking" is an _appointments_ action), we see that if the Starting rate is going up, then so is the Rate of Booking appointments, which means creating appointments, which means more Appointments in CC, and that means more Appointments for Existing Patients. (Once a patient starts, they instantly become an existing patient.)
-- But now notice that an increase in Appointments for Existing Patients means a DECREASE in the Appointment Supply for New Patients. This is how that balancing act shows up in a model diagram: We traced a chain of effects through the system and found that if we made an increase in one place, the cascading events circled back to decrease that first variable . This is a feedback loop - the change rippled all the way back to the starting place - and it's the kind of feedback we call a balancing loop, because it causes things to oscillate back and forth and "try" to achieve a balnace around a steady state, like the temperature in your house when the thermostat is working to keep it at the temperature you set.
+- But now notice that an increase in Appointments for Existing Patients means a DECREASE in the Appointment Supply for New Patients. This is how that balancing act shows up in a model diagram: We traced a chain of effects through the system and found that if we made an increase in one place, the cascading events circled back to decrease that first variable . This is a feedback loop - the change rippled all the way back to the starting place - and it's the kind of feedback we call a balancing loop, because it causes things to oscillate back and forth and "try" to achieve a balance around a steady state, like the temperature in your house when the thermostat is working to keep it at the temperature you set.
 - There's another variable shown in red inside the loop we just looked at: Return Visit Interval. This changes the effect of using your appointment supply on new patients. If you increase the return-to-clinic interval, that is, if you increase the average time between appointments for patients in your team, that has the effect of reducing the use of Appointments for Existing Patients, keeping your Appointment Supply for New Patients from dropping so much due to the ongoing load of patients you brought into your care.  
 
-Overbooking Affects No Shows
+  - Overbooking Affects No Shows
+  
 - Revealing the Overbooking Affects No-Shows detail adds to the story by showing what happens when Overbooking (green variable, top right) is used to make up for limited Appointment Supply (red, at right). We can add more appointments to our supply if we say we're going to work through lunch or eliminate any time we've scheduled in for tasks like writing notes, following up with patients, etc. 
-- But this means less time for tasks that we know will ultimately show up in an increase in the Missed Appointment Rate (top left).  As the Missed Appointment Rate goes up, the number of Missed Appointments increases, which leads to an increase in the Rescheduling Rate.
-- The other arrow brought in by this complexity reveal is the one showing the factor that works AGAINST ------ question: not getting why that's a plus arrow from Completing to Missed Appt 
+- But this means less time for those tasks that we know are important for keeping both providers and patients on track, so it will ultimately lead to a higher Missed Appointment Rate (top left). As the Missed Appointment Rate goes up, the number of Missed Appointments per week (True Missed Appointment Rate) increases, which leads to an increase in the Rescheduling Rate. Over time this means more CC Appointments are needed for existing patients, delaying or 'crowding out' new CC patients who are Waiting to Start.
+- The other arrow added in with this complexity reveal is the one from Completing Rate for appointments to the True Missed Appointment Rate. The more Appointments are Completed in CC each week, the more are missed, if you assume a fixed Percentage of Appointments Missed. But more Missed Appointments leads to more Rescheduling, which leads back to more total Appointments in CC. And again, the need for more CC Appointments for existing patients means less room in the grid for new patients.
 
-Wait Time Affects Referrals (balancing loop)
+  - Wait Time Affects Referrals (Balancing Loop)
+  
+- The Wait Time Affects Referrals detail shows what happens when there is an increasing backlog of patients Waiting to Start CC. This causes the average New Patient Wait Time to climb; and at some point, referrals to CC begin to slow down. Patients are kept in or referred to other services so that they don't have to wait longer than the desired maximum for their first CC appointment.
+- The Target Wait Time - something the team can decide on - changes how Referral Rate responds to New Patient Wait Time. If a longer average wait time is OK, then referrals won't slow down when patients are waiting less time than that to get into care, and vice versa.
+- This is a balancing loop - one where, if one of the three variables - Patients Waiting to Start, New Patient Wait Times, or Referral Rate - is held constant, the other two will fluctuate up and down. If you target a certain Wait Time for New Patients, then when the actual wait times are noticed creeping up above that target, Referrals will slow down. This will mean you gradually get everyone who was Waiting to Start into care because you're able to schedule them faster than they're being referred in. Once you've 'drained' the backlog of Patients Waiting to Start, the low Referral Rate will mean New Patients' Wait Times will drop below the Target Wait Time, so eventually the Referral Rate will pick back up again - until it creates another backlog and Wait Times increase too far, and so on. 
+- In addition to running experiments around the team's Target Wait Time, this loop shows that we can also experiment with team decisions about Referral Rate. We can ask questions like, "If the Referral Rate to CC goes up by some percentage because, say, we've started graduating patients more quickly from other services - but our Starting Rate in CC stays the same because we don't have any extra appointment slots for new patients - what will become the 'new normal' for New Patient Wait Times in CC?"
 
-*Sensitivity Tests*
-- Sensitivity of Missed Appointments to Task Time
-- Sensitivity of Referals to Wait Time
+- *Sensitivity Tests* 
+
+- Sensitivity sliders let users test different degrees of influence that a change in one thing has on another. In Care Coordination, the two relationships that we know exist - but have no way to quantify - are the effect of providers' available Task Time's on patients' Missed Appointments; and the effect of New Patient Wait Time on the Referral Rate for new patients. You can adjust those sensitivity sliders from zero, implying there is no relationship between the two variables, to a maximum of 2, implying a strong impact or a highly sensitive relationship.
+
 
 **Base Case:**
 
   + Q - What happens to our new patient wait times and our number of patients in care coordination if we make no new decisions?
   + H - If we make no new decisions then patients will start accumulating in "the waiting room" for care coordination. But then it will swing back the other way, and at some point the wait time will become steady at about the level it is now. This is because of the balancing that happens between using appointments for new and existing patients. The number of patients in care coordination will stay constant.
  
-  + F - Wait-time increase rapidly, but then drop back down and ultimately oscillate until it balances out in a year.
-  + D - Next time we will experiment with adjusting our appointment supply to reduce wait-times for patients.
+  + F - Wait Time increases rapidly; but then it drops back down, oscillating back and forth until it ultimately levels out after about a year.
+  + D - Next time we will experiment with adjusting our appointment supply to reduce New Patient Wait Times.
     
 **Experiment 1:**
-  + Q - What happens to the new patient start rate and patient wait timse when we increase the supply of care coordination appointments available?
-  + H - Increasing the appointment supply will reduce wait-times and increase the new patient start rate.
-  + F - Increasing the supply of Appointments Available for New Patients increases the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start, adding to total scheduled Appointments in CC
-  + D - Next time we will experiment with adjusting our return-to-clinic visit interval (in weeks).
+  + Q - What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
+  + H - Increasing the CC Appointment Supply will make more Appointments available for both new and existing CC patients. The Additional Appointment Supply for New CC Patients will increase the Starting Rate and lower New Patient Wait Times.
+  + F - Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.
+  + D - Next time we will experiment with adjusting our Return Visit Interval.
     
 **Experiment 2:** 
-  + Q
-  + H
+  + Q - What will happen to the Starting Rate and New Patient Wait Time if we lengthen our team's average Return to Clinic Interval (in weeks) by a certain amount?
+  + H - Increasing the Return Visit Interval will have the effect of increasing the Appointment Supply for New CC Patients by decreasing the Appointments for Existing Patients. Just as in Experiment 1, the increased Appointment Supply for New CC Patients will increase the Starting Rate and decrease New Patient Wait Times. But decreasing the Appointments for Existing Patients will also lower the Completing Rate for CC patients. 
   + F
-  + D
+  + D - We decided to try a combination of experiments 1 and 2. We will experiment with both increasing our overall Appointment Supply in care coordination and increasing our targeted Return Visit Interval for existing patients.
 
 **Other CC Notes for Experiments 2 and 3:**
 
-- Return-to-clinic interval: Increasing the Return Visit Interval slows the weekly Booking Rate, which decreases the number of scheduled Appointments in CC, thereby increasing CC Appointments Availablefor New Patients each week.
+- Return-to-clinic interval: Increasing the Return Visit Interval slows the weekly Booking Rate, which decreases the number of scheduled Appointments in CC, thereby increasing CC Appointments Available for New Patients each week.
 
 - Appointments set aside for new patients:  Increasing the supply of Appointments Available for New Patients increases the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start, adding to total scheduled Appointments in CC.
 
