@@ -26,20 +26,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. |  
 
-# Done
-In MTL Session 1, we worked together and accomplished three important tasks.  
-
-1.	Our team vision was developed  
-
-2.	The Team Lead (or Co-Team Leads) was identified.  
-
-+ Thank you ______________ (INSERT NAME) for taking on the role of Team Lead. *NOTE: If co-leads were selected, acknowledge both individuals.*  
-
-3.	We selected the standing meeting time for this team which is _______________ (INSERT DAY AND TIME).	 
-
-# Do
-+ In the post-session email, you were asked to log into the data User Interface or data UI at mtl.how/data.  That is our purpose for today -- to explore your team’s data in the data UI found at mtl.how/data.  
-
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
