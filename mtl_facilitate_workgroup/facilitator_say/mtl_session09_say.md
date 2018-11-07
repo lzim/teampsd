@@ -26,8 +26,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
 
-Last session we ran experiment 1 and compared results against the Base Case.  Were you able to develop dynamic hypothesis for a second experiment you want to run?  Today we will run that experiment and compare results against the previous experiment and the Base Case.
-
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
