@@ -1,0 +1,3682 @@
+{UTF-8}
+Patient Starts at Initial Time=SAMPLE IF TRUE(
+	Time=0, Starting Rate who can Initiate, :NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort just before experiments begin
+	|
+
+Patient Starts at Final Time=SAMPLE IF TRUE(
+	Time=FINAL TIME, Starting Rate who can Initiate, :NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort, 2 years after the start of any experiments
+	|
+
+Return Visit Interval=
+	0
+	~	wk
+	~	For UI
+	~	:SUPPLEMENTARY 
+	|
+
+From Completers into Low D=
+	"Continuing Treatment Rate (after 3 Months) from Patients in Over 7 Visits"*"Starting LowD %"
+	~	pts/wk
+	~	The starting rate of one quarter of patients who (after completing 8 or \
+		more visits in their first 3 months) complete more visits in the \
+		subsequent months.
+	|
+
+From Completers into Mid D=
+	"Continuing Treatment Rate (after 3 Months) from Patients in Over 7 Visits"*"Starting MidD %"
+	~	pts/wk
+	~	The starting rate of two quarters of patients who (after completing 8 or \
+		more visits in their first 3 months) complete more visits in the \
+		subsequent months.
+	|
+
+Ending After First Visit Rate=
+	"% One-n-Dones"*Ending First Visit
+	~	pts/wk
+	~		~	:SUPPLEMENTARY 
+	|
+
+From Completers into High D=
+	"Continuing Treatment Rate (after 3 Months) from Patients in Over 7 Visits"*"Starting HighD %"
+	~	pts/wk
+	~	The starting rate of one quarter of patients who (after completing 8 or \
+		more visits in their first 3 months) complete more visits in the \
+		subsequent months.
+	|
+
+"Continuing Treatment Rate (after 3 Months) from Patients in Over 7 Visits"=
+	Ending After 8 or More Visits Rate*(1-"Actual Completers Who Graduate %")
+	~	pts/wk
+	~		|
+
+Initiation Rate=
+	Initiation Rate who will Quit+Initiation Rate who will Complete+Initation Rate who will Return
+	~	pts/wk
+	~	Output for UI - sum of all possible rate of patients starting their second \
+		visit in their first three months engaged in care.
+	~	:SUPPLEMENTARY 
+	|
+
+Initiators who will Quit= INTEG (
+	Initiation Rate who will Quit-Ending During Visit 2 to 7 Rate,
+		0)
+	~	pts
+	~	Total number of patients scheduled for their 2-7th visit in their first \
+		three months engaged in care, who will not continue psychotherapy \
+		afterward.
+	|
+
+Patients in First Visit= INTEG (
+	Starting Rate-Ending First Visit,
+		0)
+	~	pts
+	~	Total number of patients scheduled for their first visit.
+	|
+
+Patients in Over 7 Visits= INTEG (
+	Completion Rate-Ending After 8 or More Visits Rate,
+		0)
+	~	pts
+	~	Total number of patients scheduled for their 8th or greater visit in their \
+		first three months engaged in care.
+	|
+
+"<3mo Visit 1 who can start 2"= INTEG (
+	Starting Rate who can Initiate-Ending who can Initiate,
+		0)
+	~	pts
+	~	Total number of patients scheduled for their first visit where there is \
+		capacity for them to continue care.
+	|
+
+Initiators who will Return= INTEG (
+	Initation Rate who will Return-"Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"\
+		,
+		0)
+	~	pts
+	~	Total number of patients scheduled for their 2-7th visit in their first \
+		three months engaged in care, who will continue psychotherapy afterward.
+	|
+
+Initiators who will Continue= INTEG (
+	Initiation Rate who will Complete-Continuting on to Visit 8 Rate,
+		0)
+	~	pts
+	~	Total number of patients scheduled for their 2-7th visit in their first \
+		three months engaged in care, who will go on to complete 8 or more visits \
+		in this period.
+	|
+
+"Exp-SankeyScalar"=
+	IF THEN ELSE(Time=FINAL TIME, (1+Percent Change in Patient Starts)*SankeyScalar,:NA:\
+		)
+	~	pts
+	~	The total patients in cohort, based on the cohort defined by the team's \
+		data AND the relative change in new patient start rate resulting from any \
+		user experiments.
+	|
+
+"Exp-A"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey E2*"Exp-SankeyScalar",:NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+Percent Change in Patient Starts=
+	IF THEN ELSE(Time=FINAL TIME,ZIDZ((Patient Starts at Final Time-Patient Starts at Initial Time\
+		) , Patient Starts at Initial Time),:NA:)
+	~	Dmnl
+	~	The relative change in total patients in care, 2 years after starting any \
+		experiments.
+	|
+
+Completing Rate=
+	Appointments for Existing Patients
+	~	appt/wk
+	~	Total possible appointment completion rate, as determined by appointment \
+		supply.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-H"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey E9 * "Exp-SankeyScalar" * Sankey E2 * Sankey E7\
+		,:NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-H-Bars"=
+	1+Bars E7+Bars E8+"Bars E9-Final"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment for patients in the cohort who meet the criteria \
+		defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+D=
+	("Initiators Who Quit Early %") * SankeyScalar * ("Starters Who Initiate %")
+	~	pts
+	~	For the Sankey - reporting out the base case value for the total number of \
+		patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"D-Bars"=
+	Bars E5+1
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment for patients in the cohort who meet the criteria \
+		defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+E=
+	(1-("Initiators Who Quit Early %" + "Initiators Who Complete %")) * SankeyScalar * (\
+		"Starters Who Initiate %")
+	~	pts
+	~	For the Sankey - reporting out the base case value for the total number of \
+		patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"E-Bars"=
+	1+Bars E6+"Bars E6 >3mo-Initial"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment for patients in the cohort who meet the criteria \
+		defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-F"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey E7 * "Exp-SankeyScalar" * Sankey E2,:NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+SankeyScalar=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C37')
+	~	pts
+	~	The total number of patients in the cohort defined by the team's data.
+	|
+
+B=
+	(1-("Starters Who Initiate %" +"Starters Who Return Later %")) * SankeyScalar
+	~	pts
+	~	For the Sankey - reporting out the base case value for the total number of \
+		patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"G-Bars"=
+	1+Bars E7+Bars E8
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment for patients in the cohort who meet the criteria \
+		defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-C-Bars"=
+	"Bars E4-Final"+1
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment for patients in the cohort who meet the criteria \
+		defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+H=
+	(1-("Completers Who Graduate %")) * SankeyScalar * ("Starters Who Initiate %") * ("Initiators Who Complete %"\
+		)
+	~	pts
+	~	For the Sankey - reporting out the base case value for the total number of \
+		patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"H-Bars"=
+	1+Bars E7+Bars E8+"Bars E9-Initial"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment for patients in the cohort who meet the criteria \
+		defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-E-Bars"=
+	1+Bars E6+"Bars E6 >3mo-Final"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment for patients in the cohort who meet the criteria \
+		defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - Initiators who Complete"=
+	ZIDZ(1, "Frequency <3mo - 2-7Visits-n-More<3mo")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-G"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey E8 * "Exp-SankeyScalar" * Sankey E2 * Sankey E7\
+		,:NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-B"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey E3*"Exp-SankeyScalar",:NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-C"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey E4*"Exp-SankeyScalar",:NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+A=
+	("Starters Who Initiate %") * SankeyScalar
+	~	pts
+	~	For the Sankey - reporting out the base case value for the total number of \
+		patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+F=
+	("Initiators Who Complete %") * SankeyScalar * ("Starters Who Initiate %")
+	~	pts
+	~	For the Sankey - reporting out the base case value for the total number of \
+		patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-E"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey E6 * "Exp-SankeyScalar" * Sankey E2,:NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+C=
+	("Starters Who Return Later %")* SankeyScalar
+	~	pts
+	~	For the Sankey - reporting out the base case value for the total number of \
+		patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"C-Bars"=
+	"Bars E4-Initial"+1
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment for patients in the cohort who meet the criteria \
+		defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+G=
+	("Completers Who Graduate %") * SankeyScalar * ("Starters Who Initiate %") * ("Initiators Who Complete %"\
+		)
+	~	pts
+	~	For the Sankey - reporting out the base case value for the total number of \
+		patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"Exp-D"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey E5 * "Exp-SankeyScalar" * Sankey E2,:NA:)
+	~	pts
+	~	For the Sankey - reporting out the experiment value for the total number \
+		of patients in the cohort who meet the criteria defining this state.
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - Initiators who Quit Early"=
+	ZIDZ(1, "Frequency <3mo - 2-7Visits-n-done")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - Completers who Graduate"=
+	ZIDZ(1, "Frequency <3mo - 8-12 Visits")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), which is \
+		nearly identical to the frequency of patients who complete 2-7 visits and \
+		then go on to more visits in their first three months engaged in care.
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 1 Visit (4th Quartile)"=
+	ZIDZ(1, "Frequency >3mo - 1Visit-HighD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 1 Visit (Mean)"=
+	ZIDZ(1, "Frequency >3mo - 1Visit-MidD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 2 to 7 Visits (Mean)"=
+	ZIDZ(1,"Frequency >3mo - 2-7Visits-MidD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 8 or More Visits (1st Quartile)"=
+	ZIDZ(1,"Frequency >3mo - 8-12Visits-LowD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"Starters who Quit %"=
+	1 - ("Starters Who Initiate %" + "Starters Who Return Later %")
+	~	Dmnl
+	~	For UI output - reporting out the percent of patients who quit after their \
+		first visit.
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 1 Visit (1st Quartile)"=
+	ZIDZ(1, "Frequency >3mo - 1Visit-LowD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 2 to 7 Visits (1st Quartile)"=
+	ZIDZ(1,"Frequency >3mo - 2-7Visits-LowD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 2 to 7 Visits (4th Quartile)"=
+	ZIDZ(1,"Frequency >3mo - 2-7Visits-HighD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 8 or More Visits (4th Quartile)"=
+	ZIDZ(1,"Frequency >3mo - 8-12Visits-HighD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+"Initators who Return Later %"=
+	1 - ("Initiators Who Complete %" + "Initiators Who Quit Early %")
+	~	Dmnl
+	~	For UI output - reporting out the percent of patients who (after \
+		completing 2-7 visit in their first 3 months) complete more visits in the \
+		subsequent months.
+	~	:SUPPLEMENTARY 
+	|
+
+"Completers who Return %"=
+	1 - "Completers Who Graduate %"
+	~	Dmnl
+	~	For UI output - reporting out the percent of patients who (after \
+		completing 8 or more visits in their first 3 months) complete more visits \
+		in the subsequent months.
+	~	:SUPPLEMENTARY 
+	|
+
+"RVI - From 8 or More Visits (Mean)"=
+	ZIDZ(1,"Frequency >3mo - 8-12Visits-MidD")/Pts per appt
+	~	wk
+	~	For UI output - The average return visit interval (in wks), estimated from \
+		the mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	~	:SUPPLEMENTARY 
+	|
+
+EBP Gold Standard for PTSD=
+	EBP Silver Standard for PTSD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >7 templates who completed care in <3 months with PTSD
+	~	:SUPPLEMENTARY 
+	|
+
+EBP Silver Standard for AUD=
+	HS Silver Standard for AUD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >1 templates who initiated care in <3 months with AUD
+	|
+
+EBP Silver Standard for Depression=
+	HS Silver Standard for Depression*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >1 templates who initiated care in <3 months with \
+		depression
+	|
+
+EBP Silver Standard for OUD=
+	HS Silver Standard for OUD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >1 templates who initiated care in <3 months with OUD
+	|
+
+EBP Silver Standard for PTSD=
+	HS Silver Standard for PTSD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >1 templates who initiated care in <3 months with PTSD
+	|
+
+EBP Gold Standard for Depression=
+	EBP Silver Standard for Depression*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >7 templates who completed care in <3 months with \
+		depression
+	~	:SUPPLEMENTARY 
+	|
+
+EBP Bronze Standard for AUD=
+	HS Bronze Standard for AUD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >0 templates with an appointment in <3 months with AUD
+	~	:SUPPLEMENTARY 
+	|
+
+EBP Bronze Standard for Depression=
+	HS Bronze Standard for Depression*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >0 templates with an appointment in <3 months with \
+		depression
+	~	:SUPPLEMENTARY 
+	|
+
+EBP Bronze Standard for OUD=
+	HS Bronze Standard for OUD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >0 templates with an appointment in <3 months with OUD
+	~	:SUPPLEMENTARY 
+	|
+
+EBP Bronze Standard for PTSD=
+	HS Bronze Standard for PTSD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >0 templates with an appointment in <3 months with PTSD
+	~	:SUPPLEMENTARY 
+	|
+
+EBP Gold Standard for AUD=
+	EBP Silver Standard for AUD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >7 templates who completed care in <3 months with AUD
+	~	:SUPPLEMENTARY 
+	|
+
+EBP Gold Standard for OUD=
+	EBP Silver Standard for OUD*"Patients with Adequate EBP Templates %"
+	~	pts
+	~	All patients with >7 templates who completed care in <3 months with OUD
+	~	:SUPPLEMENTARY 
+	|
+
+"%Visit1-n-Done"=
+	MAX(MIN(1-"Starters Who Initiate %"-"Starters Who Return Later %",1),0)
+	~	Dmnl
+	~	The percent of patients who complete only one visit in their first three \
+		months (constrained between 0 and 100%).
+	~	:SUPPLEMENTARY 
+	|
+
+"%Visit2-7<3mo and More"=
+	MAX(MIN(1-"Initiators Who Complete %"-"Initiators Who Quit Early %",1),0)
+	~	Dmnl
+	~	The percent of patients who go on to complete more visits, after only \
+		completing 2-7 visits in their first 3 months (constrained between 0 and \
+		100%).
+	~	:SUPPLEMENTARY 
+	|
+
+"%Visit8PL-n-More"=
+	MAX(MIN(1-"Completers Who Graduate %"
+	,1),0)
+	~	Dmnl
+	~	The percent of patients who complete more visits, after completing 8 or \
+		more visits in their first three months (constrained between 0 and 100%).
+	~	:SUPPLEMENTARY 
+	|
+
+From Starters into Mid D=
+	"Continuing Treatment Rate (after 3 Months) From Patients in First Visit"*"Starting MidD %"
+	~	pts/wk
+	~	The starting rate of two quarters of patients who (after completing only 1 \
+		visit in their first 3 months) complete more visits in the subsequent \
+		months. The percent of patients who start a second visit is constrained \
+		between zero and one.
+	|
+
+From Starters into High D=
+	"Continuing Treatment Rate (after 3 Months) From Patients in First Visit"*"Starting HighD %"
+	~	pts/wk
+	~	The starting rate of one quarter of patients who (after completing only 1 \
+		visit in their first 3 months) complete more visits in the subsequent \
+		months. The percent of patients who start a second visit is constrained \
+		between zero and one.
+	|
+
+"Continuing Treatment Rate (after 3 Months) From Patients in First Visit"=
+	Ending who can Initiate*"Actual Starters Who Return Later %"
+	~	pts/wk
+	~	The starting rate of all patients who (after completing only 1 visit in \
+		their first 3 months) complete more visits in the subsequent months. The \
+		percent of patients who start a second visit is constrained between zero \
+		and one.
+	|
+
+Appointments in Psychotherapy=
+	Total Pts in Psych/Pts per appt
+	~	appt
+	~	Appointments in Psychotherapy
+	~	:SUPPLEMENTARY 
+	|
+
+From Starters into Low D=
+	"Continuing Treatment Rate (after 3 Months) From Patients in First Visit"*"Starting LowD %"
+	~	pts/wk
+	~	The starting rate of one quarter of patients who (after completing only 1 \
+		visit in their first 3 months) complete more visits in the subsequent \
+		months. The percent of patients who start a second visit is constrained \
+		between zero and one.
+	|
+
+Ending Rate=
+	From Starters Ending Low D+From Starters Ending Mid D+From Starters Ending High D
+	+
+	From Initiators Ending Low D+From Initiators Ending Mid D+From Initiators Ending High D
+	+
+	From Completers Ending Low D+From Completers Ending Mid D+From Completers Ending High D
+	~	pts/wk
+	~	Total ending rate of all patients who remain in care after 3 months.
+	~	:SUPPLEMENTARY 
+	|
+
+Booking Rate=
+	Additional Appointments Available to New Patients+Appointment Supply
+	~	appt/wk
+	~	Total possible booking rate, as determined by total appointment supply.
+	~	:SUPPLEMENTARY 
+	|
+
+HS Silver Standard for OUD=
+	(Total Initiators+Patients in Over 7 Visits)*"OUD within 3 months %"
+	~	pts
+	~	"Health Services definition"-based middle quality standard - the number of \
+		patients with OUD who initiated psychotherapy in the past 3 months.
+	|
+
+Sankey E6=
+	IF THEN ELSE(Time=FINAL TIME, ZIDZ(Sankey Initiators who Get More Later,Sankey Initaitors\
+		),:NA:)
+	~	Dmnl
+	~	For the Sankey - reporting out the NORMALIZED inflow of "Initiators who \
+		Get More Later" (i.e, patient starts who complete 2-7 visits in their \
+		first 3 months but only complete more visits after their first 3 months / \
+		total inflow to all possible states after a second visit) in wk 104, thus \
+		after any experiments have altered the behavior of the system. The percent \
+		of "Initiators who Get More Later" is constrained between 0 and 100%, even \
+		if user input accidentally creates a negative %).
+	|
+
+Sankey E7=
+	IF THEN ELSE(Time=FINAL TIME, ZIDZ(Sankey Completers,Sankey Initaitors),:NA:)
+	~	Dmnl
+	~	For the Sankey - reporting out the NORMALIZED inflow of "Completers" (i.e, \
+		patient starts who complete 8 or more visits in their first 3 months / \
+		total inflow to all possible states after a second visit) in wk 104, thus \
+		after any experiments have altered the behavior of the system. The percent \
+		of "Completers" is constrained between 0 and 100%, even if user input \
+		accidentally creates a negative %).
+	|
+
+Sankey E8=
+	IF THEN ELSE(Time=FINAL TIME, ZIDZ(Sankey Graduators,Sankey Completers),:NA:)
+	~	Dmnl
+	~	For the Sankey - reporting out the NORMALIZED inflow of "Graduators" (i.e, \
+		patient starts who complete 8 or more visits in their first 3 months, but \
+		will not continue after those initial 3 months / total inflow to all \
+		possible states after a seventh visit) in wk 104, thus after any \
+		experiments have altered the behavior of the system. The percent of \
+		"Graduators" is constrained between 0 and 100%, even if user input \
+		accidentally creates a negative %).
+	|
+
+Sankey E9=
+	IF THEN ELSE(Time=FINAL TIME, ZIDZ(Sankey Completers who Get More Later,Sankey Completers\
+		),:NA:)
+	~	Dmnl
+	~	For the Sankey - reporting out the NORMALIZED inflow of "Completers who \
+		Get More Later" (i.e, patient starts who complete 8 or more visits in \
+		their first 3 months, and continue care after those initial 3 months / \
+		total inflow to all possible states after a seventh visit) in wk 104, thus \
+		after any experiments have altered the behavior of the system. The percent \
+		of "Completers who Get More Later" is constrained between 0 and 100%, even \
+		if user input accidentally creates a negative %).
+	|
+
+HS Silver Standard for Depression=
+	(Total Initiators+Patients in Over 7 Visits)*"DEP within 3 months %"
+	~	pts
+	~	"Health Services definition"-based middle quality standard - the number of \
+		patients with depression who initiated psychotherapy in the past 3 months.
+	|
+
+HS Silver Standard for PTSD=
+	(Total Initiators+Patients in Over 7 Visits)*"PTSD within 3 months %"
+	~	pts
+	~	"Health Services definition"-based middle quality standard - the number of \
+		patients with PTSD who initiated psychotherapy in the past 3 months.
+	|
+
+HS Silver Standard for AUD=
+	(Total Initiators+Patients in Over 7 Visits)*"AUD within 3 months %"
+	~	pts
+	~	"Health Services definition"-based middle quality standard - the number of \
+		patients with AUDwho initiated psychotherapy in the past 3 months.
+	|
+
+Sankey One and More Laters=
+	IF THEN ELSE(Time=FINAL TIME, From Starters into High D+From Starters into Low D+From Starters into Mid D\
+		,:NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the inflow of "One-and-More Later" patients \
+		(i.e, all patient starts after patients' first 3 months, of patients who \
+		completed only 1 visit in their first 3 months) in wk 104, thus after any \
+		experiments have altered the behavior of the system.
+	|
+
+"Sankey One n Dones + Initiators + One n More Laters"=
+	IF THEN ELSE(Time=FINAL TIME, Sankey One and Dones+Sankey Initaitors+Sankey One and More Laters\
+		, :NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the total inflow to all possible states \
+		after a first visit (i.e, a patient can quit, complete more visits in \
+		their first 3 months, or complete more visits after 3 months) in wk 104, \
+		thus after any experiments have altered the behavior of the system.
+	|
+
+Sankey Completers=
+	IF THEN ELSE(Time=FINAL TIME, Initiation Rate who will Complete,:NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the inflow of "Completers" (i.e, patient \
+		starts who will complete 8 or more visits in their first 3 months, \
+		regardless of what engagement pathway they follow next) in wk 104, thus \
+		after any experiments have altered the behavior of the system.
+	|
+
+Sankey E2=
+	IF THEN ELSE(Time=FINAL TIME, ZIDZ(Sankey Initaitors,("Sankey One n Dones + Initiators + One n More Laters"\
+		)),:NA:)
+	~	Dmnl
+	~	For the Sankey - reporting out the NORMALIZED inflow of "Initiators" (i.e, \
+		all patient starts of their second visit in their first 3 months, \
+		regardless of what engagement pathway they follow next / total inflow to \
+		all possible states after a first visit) in wk 104, thus after any \
+		experiments have altered the behavior of the system.
+	|
+
+Sankey E3=
+	IF THEN ELSE(Time=FINAL TIME, ZIDZ(Sankey One and Dones,("Sankey One n Dones + Initiators + One n More Laters"\
+		)),:NA:)
+	~	Dmnl
+	~	For the Sankey - reporting out the NORMALIZED inflow of "One-n-Dones" \
+		(i.e, patient starts who only complete one visit ever / total inflow to \
+		all possible states after a first visit) in wk 104, thus after any \
+		experiments have altered the behavior of the system. The percent of \
+		"One-n-Dones" is constrained between 0 and 100%, even if user input \
+		accidentally creates a negative %).
+	|
+
+Sankey E4=
+	IF THEN ELSE(Time=FINAL TIME, ZIDZ(Sankey One and More Laters,("Sankey One n Dones + Initiators + One n More Laters"\
+		)),:NA:)
+	~	Dmnl
+	~	For the Sankey - reporting out the NORMALIZED inflow of "One-n-Dones" \
+		(i.e, patient starts who only complete one visit ever / total inflow to \
+		all possible states after a first visit) in wk 104, thus after any \
+		experiments have altered the behavior of the system. The percent of \
+		"One-n-Dones" is constrained between 0 and 100%, even if user input \
+		accidentally creates a negative %).
+	|
+
+Sankey E5=
+	IF THEN ELSE(Time=FINAL TIME, ZIDZ(Sankey Initiators who quit,Sankey Initaitors),:NA:\
+		)
+	~	Dmnl
+	~	For the Sankey - reporting out the NORMALIZED inflow of "Initiators who \
+		quit" (i.e, patient starts who complete 2-7 visits in their first 3 months \
+		but do not ever receive a complete dose of Psychotherapy / total inflow to \
+		all possible states after a second visit) in wk 104, thus after any \
+		experiments have altered the behavior of the system. The percent of \
+		"Initiators who quit" is constrained between 0 and 100%, even if user \
+		input accidentally creates a negative %).
+	|
+
+Sankey Graduators=
+	IF THEN ELSE(Time=FINAL TIME, Initiation Rate who will Complete*"Actual Completers Who Graduate %"\
+		,:NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the inflow of "Granduators" (i.e, patient \
+		starts who complete 8 or more visits in their first 3 months, but will not \
+		continue after those initial 3 months) in wk 104, thus after any \
+		experiments have altered the behavior of the system.
+	|
+
+Sankey Initaitors=
+	IF THEN ELSE(Time=FINAL TIME, Initiation Rate who will Quit+Initiation Rate who will Complete\
+		+Initation Rate who will Return,:NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the inflow of "Initiators" (i.e, all \
+		patient starts of their second visit in their first 3 months, regardless \
+		of what engagement pathway they follow next) in wk 104, thus after any \
+		experiments have altered the behavior of the system.
+	|
+
+Sankey Initiators who quit=
+	IF THEN ELSE(Time=FINAL TIME, Initiation Rate who will Quit,:NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the inflow of "Initiators" who never \
+		complete more visits (i.e, patient starts who will complete 2-7 visits in \
+		their first 3 months but will not continue care afterward) in wk 104, thus \
+		after any experiments have altered the behavior of the system.
+	|
+
+"% One-n-Dones"=
+	MAX(MIN((1-"Actual Starters Who Return Later %"-"Actual Starters Who Initiate %"),1)\
+		,0)
+	~	Dmnl
+	~		|
+
+Sankey Initiators who Get More Later=
+	IF THEN ELSE(Time=FINAL TIME, Initation Rate who will Return,:NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the inflow of "Initiators" who eventually \
+		complete more visits (i.e, all patient starts after patients' first 3 \
+		months, of patients who completed 2-7 visits in their first 3 months) in \
+		wk 104, thus after any experiments have altered the behavior of the system.
+	|
+
+Sankey Completers who Get More Later=
+	IF THEN ELSE(Time=FINAL TIME, Initiation Rate who will Complete*(1-"Actual Completers Who Graduate %"\
+		),:NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the inflow of "Completers" who receive even \
+		more visits (i.e, all patient starts after patients' first 3 months, of \
+		patients who completed 8 or more visits in their first 3 months) in wk \
+		104, thus after any experiments have altered the behavior of the system.
+	|
+
+Sankey One and Dones=
+	IF THEN ELSE(Time=FINAL TIME, Starting Rate*MAX(MIN((1-"Actual Starters Who Return Later %"\
+		-"Actual Starters Who Initiate %"),1),0),:NA:)
+	~	pts/wk
+	~	For the Sankey - reporting out the inflow of "One-n-Dones" (i.e, patient \
+		starts who only complete one visit ever) in wk 104, thus after any \
+		experiments have altered the behavior of the system. The percent of \
+		"One-n-Dones" is constrained between 0 and 100%, even if user input \
+		accidentally creates a negative %).
+	|
+
+"Engagement Time - From 1 Visit (4th Quartile)"=
+	"ET - From 1 Visit (4th Quartile)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the upper quartile of engagement durations of patients who \
+		(after completing only 1 visit in their first 3 months) complete more \
+		visits in the subsequent months, potentially modified by the user.
+	|
+
+Octane Ratio=
+	ZIDZ ("HS Bronze Standard - All", Total Pts in Psych)
+	~	Dmnl
+	~	All patients who started psychotherapy in the past 3 months (i.e., had at \
+		least one visit within their first 3 months) / All patients in \
+		psychotherapy.  This is similar to the "Octane Ratio" reported in most \
+		specialty services, which compares the ratio of new to established \
+		patients.
+	~	:SUPPLEMENTARY 
+	|
+
+Starting Rate who can Initiate=
+	Starting Psychotherapy who can start 2
+	~	pts/wk
+	~	Rate of patients starting their 1st visit, for patients where there is \
+		capacity for them to start a second visit.
+	|
+
+Ending who can Initiate=
+	"<3mo Visit 1 who can start 2"/Median Time in Visit 1
+	~	pts/wk
+	~	Rate of patients ending their first visit in psychotherapy, if there is \
+		capacity for them to continue care.
+	|
+
+"Engagement Time - From 2 to 7 Visits (4th Quartile)"=
+	"ET - From 2 to 7 Visits (4th Quartile)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the upper quartile of engagement durations of patients who \
+		(after completing 2-7 visits in their first 3 months) complete more visits \
+		in the subsequent months, potentially modified by the user.
+	|
+
+"Actual Completers Who Graduate %"=
+	MAX(MIN(
+	
+	IF THEN ELSE("User-defined Completers who Graduate %"<0,"Completers Who Graduate %",
+	IF THEN ELSE(Time<Experiment wk, "Completers Who Graduate %","User-defined Completers who Graduate %"\
+		))
+	
+	,1),0)
+	~	Dmnl
+	~	Constrained to be between 0 and 100%.
+	|
+
+"Engagement Time - From 1 Visit (1st Quartile)"=
+	"ET - From 1 Visit (1st Quartile)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the lower quartile of engagement durations of patients who \
+		(after completing only 1 visit in their first 3 months) complete more \
+		visits in the subsequent months, potentially modified by the user.
+	|
+
+Percieved New pts appt Supply who can start 2=
+	SMOOTH(Supply Available for New Pts who can start 2nd visit,Time to Percieve Supply for New Pts\
+		)
+	~	appt/wk
+	~	Schedulers' perceptsion of the appointment supply available for new \
+		patients, based on the capacity for them to continue care.
+	|
+
+"Engagement Time - From 1 Visit (Mean)"=
+	"ET - From 1 Visit (Mean)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the inner two quartiles of engagement durations of patients \
+		who (after completing only 1 visit in their first 3 months) complete more \
+		visits in the subsequent months, potentially modified by the user.
+	|
+
+"Engagement Time - From 2 to 7 Visits (Mean)"=
+	"ET - From 2 to 7 Visits (Mean)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the inner two quartiles of engagement durations of patients \
+		who (after completing 2-7 visits in their first 3 months) complete more \
+		visits in the subsequent months, potentially modified by the user.
+	|
+
+"Octane Ratio - Initiators"=
+	ZIDZ(("HS Silver Standard - All"+"HS Gold Standard - All") , Total Pts in Psych)
+	~	Dmnl
+	~	All patients who initiated psychotherapy in the past 3 months (i.e., had \
+		at at least two visits within their first 3 months) / All patients in \
+		psychotherapy.  This is similar to the "Octane Ratio" reported in most \
+		specialty services, which compares the ratio of new to established \
+		patients.
+	~	:SUPPLEMENTARY 
+	|
+
+Supply Available for New Pts who can start 2nd visit=
+	MAX((Appointment Supply+STEP(Additional Appointments Available to New Patients,Experiment wk\
+		)-Appointments for Existing Patients),0)
+	~	appt/wk
+	~	All remaining supply, after all existing patients are seen. It is \
+		prevented from going below zero.
+	|
+
+"Actual Starters Who Return Later %"=
+	MAX(MIN(
+	
+	IF THEN ELSE("User-defined Starters Who Return Later %"<0,("Starters Who Return Later %"\
+		),
+	IF THEN ELSE(Time<Experiment wk, ("Starters Who Return Later %"),"User-defined Starters Who Return Later %"\
+		))
+	
+	,1),0)
+	~	Dmnl
+	~	The percent of patients who return for more appointments in the subsequent \
+		three months after completing only one visit in their first three months. \
+		The percent of these "One-n-More Laters" is constrained between 0 and 100%.
+	|
+
+"Engagement Time - From 2 to 7 Visits (1st Quartile)"=
+	"ET - From 2 to 7 Visits (1st Quartile)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the lower quartile of engagement durations of patients who \
+		(after completing 2-7 visits in their first 3 months) complete more visits \
+		in the subsequent months, potentially modified by the user.
+	|
+
+Starting Rate=
+	Starting Psychotherapy
+	~	pts/wk
+	~	Rate of patients starting their 1st visit, regardless of whether or not \
+		there is capacity for them to continue care.
+	|
+
+Starting Psychotherapy who can start 2=
+	Percieved New pts appt Supply who can start 2*Pts per appt*New Patient Scheduling Efficiency
+	~	pts/wk
+	~	The number of patients who start Psychotherapy each wk, if there is \
+		capacity for them to continue care......The number of patients who start \
+		Psychotherapy each wk, based on the actual appointment supply available to \
+		new patients (including any user adjustments to both "Appointment Supply" \
+		and "Additional Supply for New Patients).
+	|
+
+"Octane Ratio - Completers"=
+	ZIDZ("HS Gold Standard - All" , Total Pts in Psych)
+	~	Dmnl
+	~	All patients who completed psychotherapy in the past 3 months (i.e., had \
+		at at least 8 visits within their first 3 months) / All patients in \
+		psychotherapy.  This is similar to the "Octane Ratio" reported in most \
+		specialty services, which compares the ratio of new to established \
+		patients.
+	~	:SUPPLEMENTARY 
+	|
+
+"Actual Initiators Who Complete %"=
+	MAX(MIN(
+	
+	IF THEN ELSE("User-defined Initiators Who Complete %"<0,"Initiators Who Complete %",
+	IF THEN ELSE(Time<Experiment wk, "Initiators Who Complete %","User-defined Initiators Who Complete %"\
+		))
+	
+	,1),0)
+	~	Dmnl
+	~	Constrained to be between 0 and 100%.
+	|
+
+Change in RVI of Patient's Past 3 Months=
+	0
+	~	Dmnl [-0.75,2,0.25]
+	~	Relative change in the median RVI of all patients still in care after \
+		their first 3 months.
+	|
+
+"Actual Starters Who Initiate %"=
+	MAX(MIN(
+	IF THEN ELSE("User-defined Starters Who Initiate %"<0,"Starters Who Initiate %",
+	IF THEN ELSE(Time<Experiment wk, "Starters Who Initiate %","User-defined Starters Who Initiate %"\
+		))
+	,1),0)
+	~	Dmnl
+	~	Constrained to be between 0 and 100%.
+	|
+
+Supply Used by Initiators who Return=
+	(("From Initiators-LowD"*"Frequency >3mo - 2-7Visits-LowD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk))))
+	+
+	("From Initiators-MidD"*"Frequency >3mo - 2-7Visits-MidD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk))))
+	+
+	("From Initiators-HighD"*"Frequency >3mo - 2-7Visits-HighD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk)))))
+	~	appt/wk
+	~	For the period after patients' first three months in care, all \
+		appointments used per wk by patients' who completed 2-7 visits during \
+		their first three months.  By default, this rate is based on appointment \
+		use frequencies estimated from the team's data, but those frequencies can \
+		be adjusted by the user.
+	|
+
+Supply Used by Completers who Continue=
+	(("From Completers-LowD"*"Frequency >3mo - 8-12Visits-LowD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk))))
+	+
+	("From Completers-MidD"*"Frequency >3mo - 8-12Visits-MidD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk))))
+	+
+	("From Completers-HighD"*"Frequency >3mo - 8-12Visits-HighD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk)))))
+	~	appt/wk
+	~	For the period after patients' first three months in care, all \
+		appointments used per wk by patients' who completed 8 or more visits \
+		during their first three months.  By default, this rate is based on \
+		appointment use frequencies estimated from the team's data, but those \
+		frequencies can be adjusted by the user.
+	|
+
+"Actual Initiators Who Quit Early %"=
+	MAX(MIN(
+	
+	IF THEN ELSE("User-defined Initiators Who Quit Early %"<0,"Initiators Who Quit Early %"\
+		,
+	IF THEN ELSE(Time<Experiment wk, "Initiators Who Quit Early %","User-defined Initiators Who Quit Early %"\
+		))
+	
+	,1),0)
+	~	Dmnl
+	~	Constrained to be between 0 and 100%.
+	|
+
+Experiment wk=
+	0
+	~	wk
+	~	The time when user changes to experiment parameters take effect.
+	|
+
+Appointment Supply=
+	IF THEN ELSE(User defined Appointment Supply<0,"Appointment Supply (75th percentile)"\
+		,
+	
+	IF THEN ELSE(Time<Experiment wk, "Appointment Supply (75th percentile)", User defined Appointment Supply\
+		))
+	~	appt/wk
+	~	Total number of 60 minute Psychotherapy appointments offered by the team \
+		each wk.
+	|
+
+"Patients with Adequate EBP Templates %"=
+	0.5
+	~	Dmnl [0,1,0.05]
+	~	The percentage of patients who meet the HS standard, who also meet the EBP \
+		standard; set by the user, overriding the default value of 50%.
+	|
+
+"Bars E9-Final"=
+	SAMPLE IF TRUE(Time=FINAL TIME, Bars E9 , :NA:)
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of "Completor" patients who receive even more visits, at wk 104.
+	|
+
+"Bars E9-Initial"=
+	SAMPLE IF TRUE(Time=INITIAL TIME, Bars E9 , :NA:)
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of "Completor" patients who receive even more visits, at wk 0.
+	|
+
+"Bars E6 >3mo-Final"=
+	SAMPLE IF TRUE(Time=FINAL TIME, "Bars E6 >3mo" , :NA:)
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of "Initiator" patients who eventually complete more visits, at wk 104.
+	|
+
+"Bars E6 >3mo-Initial"=
+	SAMPLE IF TRUE(Time=INITIAL TIME, "Bars E6 >3mo" , :NA:)
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of "Initiator" patients who eventually complete more visits, at wk 0.
+	|
+
+"Bars E4-Final"=
+	SAMPLE IF TRUE(Time=FINAL TIME, Bars E4, :NA:)
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of "'False' One-and-Done" patients, at wk 104.
+	|
+
+"Bars E4-Initial"=
+	SAMPLE IF TRUE(Time=INITIAL TIME, Bars E4, :NA:)
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of "'False' One-and-Done" patients, at wk 0.
+	|
+
+From Completers Ending Mid D=
+	MAX(
+	
+	ZIDZ("From Completers-MidD", "Engagement Time - From 8 or More Visits (Mean)")
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of two quarters of patients who (after completing 8 or \
+		more visits in their first 3 months) complete more visits in the \
+		subsequent months, based on the number of patient in treatment and the \
+		median engagement time specific to these quartiles. It is prevented from \
+		going below zero.
+	|
+
+From Starters Ending Low D=
+	MAX(
+	
+	ZIDZ("From Starters-LowD", "Engagement Time - From 1 Visit (1st Quartile)")
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of one quarter of patients who (after completing only 1 \
+		visit in their first 3 months) complete more visits in the subsequent \
+		months, based on the number of patient in treatment and the median \
+		engagement time specific to this quartile. It is prevented from going \
+		below zero.
+	|
+
+From Starters Ending Mid D=
+	MAX(
+	
+	ZIDZ("From Starters-MidD", "Engagement Time - From 1 Visit (Mean)")
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of two quarters of patients who (after completing only 1 \
+		visit in their first 3 months) complete more visits in the subsequent \
+		months, based on the number of patient in treatment and the median \
+		engagement time specific to these quartiles. It is prevented from going \
+		below zero.
+	|
+
+Bars E8=
+	"Frequency <3mo - 8-12 Visits"*"ET - Completers who Graduate"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment during their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of patients who complete 8 or more visits in their first 3 months but do \
+		not go on to complete more visits afterward (i.e., "Graduators").
+	|
+
+Bars E9=
+	("Starting LowD %"*"Engagement Time - From 8 or More Visits (1st Quartile)"*"Frequency >3mo - 8-12Visits-LowD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	+
+	("Starting MidD %"*"Engagement Time - From 8 or More Visits (Mean)"*"Frequency >3mo - 8-12Visits-MidD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	+
+	("Starting HighD %"*"Engagement Time - From 8 or More Visits (4th Quartile)"*"Frequency >3mo - 8-12Visits-HighD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of patient who completed only 1 visit in their first 3 months (i.e., \
+		"Completer" patients who receive even more visits).
+	|
+
+"ET - From 2 to 7 Visits (1st Quartile)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C27')
+	~	wk
+	~	The median of the lower quartile of engagement durations of patients who \
+		(after completing 2-7 visits in their first 3 months) complete more visits \
+		in the subsequent months.
+	|
+
+"ET - From 2 to 7 Visits (Mean)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C28')
+	~	wk
+	~	The median of the inner two quartiles of engagement durations of patients \
+		who (after completing 2-7 visits in their first 3 months) complete more \
+		visits in the subsequent months.
+	|
+
+"ET - From 2 to 7 Visits (4th Quartile)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C29')
+	~	wk
+	~	The median of the upper quartile of engagement durations of patients who \
+		(after completing 2-7 visits in their first 3 months) complete more visits \
+		in the subsequent months.
+	|
+
+Bars E3=
+	Median Time in Visit 1*"Frequency <3mo - 1Visit"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment during their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of patients who complete only 1 visits in their first 3 months and do not \
+		go on to complete more visits afterwards (i.e., "One-and-Dones").
+	~	:SUPPLEMENTARY 
+	|
+
+Bars E4=
+	("Starting LowD %"*"Engagement Time - From 1 Visit (1st Quartile)"*"Frequency >3mo - 1Visit-LowD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	+
+	("Starting MidD %"*"Engagement Time - From 1 Visit (Mean)"*"Frequency >3mo - 1Visit-MidD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	+
+	("Starting HighD %"*"Engagement Time - From 1 Visit (4th Quartile)"*"Frequency >3mo - 1Visit-HighD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of patient who completed only 1 visit in their first 3 months (i.e., \
+		"'False' One-and-Dones").
+	|
+
+Bars E5=
+	"Frequency <3mo - 2-7Visits-n-done"*"ET - Initiators Who Quit Early"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment during their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of patients who complete 2-7 visits in their first 3 months but do not go \
+		on to complete more visits afterward (i.e., "Initiators" who never \
+		complete).
+	|
+
+Bars E6=
+	"Frequency <3mo - 2-7Visits-n-More>3mo"*"ET - Initiators Who Return"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment during their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of patients who complete 2-7 visits in their first 3 months and go on to \
+		complete more visits afterwards (i.e., "Initiators" who eventually \
+		complete).
+	|
+
+"Bars E6 >3mo"=
+	("Starting LowD %"*"Engagement Time - From 2 to 7 Visits (1st Quartile)"*"Frequency >3mo - 2-7Visits-LowD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	+
+	("Starting MidD %"*"Engagement Time - From 2 to 7 Visits (Mean)"*"Frequency >3mo - 2-7Visits-MidD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	+
+	("Starting HighD %"*"Engagement Time - From 2 to 7 Visits (4th Quartile)"*"Frequency >3mo - 2-7Visits-HighD"\
+		*(1/(1+STEP(Change in RVI of Patient's Past 3 Months,Experiment wk))))
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment after their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of "Initiator" patients who eventually complete more visits.
+	|
+
+Supply Used by Initiators=
+	((Initiators who will Quit*"Frequency <3mo - 2-7Visits-n-done")+
+	(Initiators who will Continue*"Frequency <3mo - 2-7Visits-n-More<3mo")+
+	(Initiators who will Return*"Frequency <3mo - 2-7Visits-n-More>3mo"))
+	~	appt/wk
+	~	All appointments used per wk by patients' second through seventh visits \
+		during their first three months engaged in care.
+	|
+
+Supply Used by Completers=
+	(Patients in Over 7 Visits*"Frequency <3mo - 8-12 Visits")
+	~	appt/wk
+	~	All appointments used per wk by patients' eighth and over visits during \
+		their first three months engaged in care.
+	|
+
+Supply Used by New Patients=
+	(Patients in First Visit*"Frequency <3mo - 1Visit")
+	~	appt/wk
+	~	All appointments used per wk by patients' first visits.
+	|
+
+From Starters Ending High D=
+	MAX(
+	
+	ZIDZ("From Starters-HighD", "Engagement Time - From 1 Visit (4th Quartile)")
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of one quarter of patients who (after completing only 1 \
+		visit in their first 3 months) complete more visits in the subsequent \
+		months, based on the number of patient in treatment and the median \
+		engagement time specific to this quartile. It is prevented from going \
+		below zero.
+	|
+
+"ET - From 1 Visit (1st Quartile)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C24')
+	~	wk
+	~	The median of the lower quartile of engagement durations of patients who \
+		(after completing only 1 visit in their first 3 months) complete more \
+		visits in the subsequent months.
+	|
+
+"ET - From 1 Visit (Mean)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C25')
+	~	wk
+	~	The median of the inner two quartiles of engagement durations of patients \
+		who (after completing only 1 visit in their first 3 months) complete more \
+		visits in the subsequent months.
+	|
+
+"ET - From 1 Visit (4th Quartile)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C26')
+	~	wk
+	~	The median of the upper quartile of engagement durations of patients who \
+		(after completing only 1 visit in their first 3 months) complete more \
+		visits in the subsequent months.
+	|
+
+From Initiators Ending Low D=
+	MAX(
+	
+	ZIDZ("From Initiators-LowD", "Engagement Time - From 2 to 7 Visits (1st Quartile)")
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of one quarter of patients who (after completing 2-7 \
+		visits in their first 3 months) complete more visits in the subsequent \
+		months, based on the number of patient in treatment and the median \
+		engagement time specific to this quartile.  It is prevented from going \
+		below zero.
+	|
+
+From Completers Ending Low D=
+	MAX(
+	
+	ZIDZ("From Completers-LowD", "Engagement Time - From 8 or More Visits (1st Quartile)"\
+		)
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of one quarter of patients who (after completing 8 or more \
+		visits in their first 3 months) complete more visits in the subsequent \
+		months, based on the number of patient in treatment and the median \
+		engagement time specific to this quartile. It is prevented from going \
+		below zero.
+	|
+
+"Engagement Time - From 8 or More Visits (1st Quartile)"=
+	"ET - From 8 or More Visits (1st Quartile)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the lower quartile of engagement durations of patients who \
+		(after completing 8 or more visits in their first 3 months) complete more \
+		visits in the subsequent months, potentially modified by the user.
+	|
+
+"ET - From 8 or More Visits (Mean)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C31')
+	~	wk
+	~	The median of the inner two quartiles of engagement durations of patients \
+		who (after completing 8 or more visits in their first 3 months) complete \
+		more visits in the subsequent months.
+	|
+
+Bars E7=
+	"Frequency <3mo - 2-7Visits-n-More<3mo"*"ET - Initiators Who Complete"
+	~	appt/pts
+	~	For calculating "Sankey bar heights" - The total number of visits for the \
+		average time in treatment during their first three months in care (i.e., \
+		the product of the frequency of visits and their total time in treatment) \
+		of patients who complete 8 or more visits in their first 3 months (i.e., \
+		"Completers").
+	|
+
+Supply Used by New Patients who Return=
+	(
+	("From Starters-LowD"*"Frequency >3mo - 1Visit-LowD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk))))
+	+
+	("From Starters-MidD"*"Frequency >3mo - 1Visit-MidD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk))))
+	+
+	("From Starters-HighD"*"Frequency >3mo - 1Visit-HighD"*(1/(1+STEP(Change in RVI of Patient's Past 3 Months\
+		,Experiment wk))))
+	)
+	~	appt/wk
+	~	For the period after patients' first three months in care, all \
+		appointments used per wk by patients' who completed only one visit during \
+		their first three months.  By default, this rate is based on appointment \
+		use frequencies estimated from the team's data, but those frequencies can \
+		be adjusted by the user.
+	|
+
+From Initiators Ending High D=
+	MAX(
+	
+	ZIDZ( "From Initiators-HighD", "Engagement Time - From 2 to 7 Visits (4th Quartile)"\
+		)
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of one quarter of patients who (after completing 2-7 \
+		visits in their first 3 months) complete more visits in the subsequent \
+		months, based on the number of patient in treatment and the median \
+		engagement time specific to this quartile.  It is prevented from going \
+		below zero.
+	|
+
+"ET - From 8 or More Visits (1st Quartile)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C30')
+	~	wk
+	~	The median of the lower quartile of engagement durations of patients who \
+		(after completing 8 or more visits in their first 3 months) complete more \
+		visits in the subsequent months.
+	|
+
+From Initiators Ending Mid D=
+	MAX(
+	
+	ZIDZ("From Initiators-MidD", "Engagement Time - From 2 to 7 Visits (Mean)")
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of two quarters of patients who (after completing 2-7 \
+		visits in their first 3 months) complete more visits in the subsequent \
+		months, based on the number of patient in treatment and the median \
+		engagement time specific to these quartiles. It is prevented from going \
+		below zero.
+	|
+
+"Engagement Time - From 8 or More Visits (Mean)"=
+	"ET - From 8 or More Visits (Mean)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the inner two quartiles of engagement durations of patients \
+		who (after completing 8 or more visits in their first 3 months) complete \
+		more visits in the subsequent months, potentially modified by the user.
+	|
+
+From Completers Ending High D=
+	MAX(
+	
+	ZIDZ("From Completers-HighD", "Engagement Time - From 8 or More Visits (4th Quartile)"\
+		)
+	
+	,0)
+	~	pts/wk
+	~	The ending rate of one quarter of patients who (after completing 8 or more \
+		visits in their first 3 months) complete more visits in the subsequent \
+		months, based on the number of patient in treatment and the median \
+		engagement time specific to this quartile. It is prevented from going \
+		below zero.
+	|
+
+"Engagement Time - From 8 or More Visits (4th Quartile)"=
+	"ET - From 8 or More Visits (4th Quartile)"*(1+STEP(Change in Engagement Time of Patients Past 3 Months\
+		,Experiment wk))
+	~	wk
+	~	The median of the upper quartile of engagement durations of patients who \
+		(after completing 2-7 visits in their first 3 months) complete more visits \
+		in the subsequent months, potentially modified by the user.
+	|
+
+"ET - From 8 or More Visits (4th Quartile)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C32')
+	~	wk
+	~	The median of the upper quartile of engagement durations of patients who \
+		(after completing 2-7 visits in their first 3 months) complete more visits \
+		in the subsequent months.
+	|
+
+"HS Bronze Standard - All"=
+	"Total Pts <3months"
+	~	pts
+	~	Number of patients who started psychotherapy in the past three months.
+	|
+
+HS Bronze Standard for AUD=
+	"# Pts <3mo in Team w/AUD"
+	~	pts
+	~	"Health Services definition"-based lowest quality standard - the number of \
+		patients with AUD who started psychotherapy in the past 3 months.
+	|
+
+HS Bronze Standard for Depression=
+	"# Pts <3mo in Team with Depression"
+	~	pts
+	~	"Health Services definition"-based lowest quality standard - the number of \
+		patients with depression who started psychotherapy in the past 3 months.
+	|
+
+HS Bronze Standard for OUD=
+	"# Pts <3mo in Team w/OUD"
+	~	pts
+	~	"Health Services definition"-based lowest quality standard - the number of \
+		patients with OUD who started psychotherapy in the past 3 months.
+	|
+
+HS Bronze Standard for PTSD=
+	"# Pts <3mo in Team w/PTSD"
+	~	pts
+	~	"Health Services definition"-based lowest quality standard - the number of \
+		patients with PTSD who started psychotherapy in the past 3 months.
+	|
+
+"HS Gold Standard - All"=
+	Patients in Over 7 Visits
+	~	pts
+	~	Number of patients who are receiving a full, timely dose in their first 3 \
+		months (i.e., completed 8+ visits within 3 months).  These are the \
+		"Completers" (but they may or may not be "Graduators").
+	|
+
+HS Gold Standard for PTSD=
+	(Patients in Over 7 Visits*"PTSD within 3 months %")
+	~	pts
+	~	"Health Services definition"-based highest quality standard - the number \
+		of patients with PTSD who completed psychotherapy in the past 3 months.
+	~	:SUPPLEMENTARY 
+	|
+
+"HS Silver Standard - All"=
+	Total Initiators
+	~	pts
+	~	Number of patients who are completing 2-7 visits in their first 3 months.  \
+		These are the "Initiators" (but they may or may not become "Completers").
+	|
+
+HS Gold Standard for OUD=
+	(Patients in Over 7 Visits*"OUD within 3 months %")
+	~	pts
+	~	"Health Services definition"-based highest quality standard - the number \
+		of patients with OUD who completed psychotherapy in the past 3 months.
+	~	:SUPPLEMENTARY 
+	|
+
+HS Gold Standard for Depression=
+	(Patients in Over 7 Visits*"DEP within 3 months %")
+	~	pts
+	~	"Health Services definition"-based highest quality standard - the number \
+		of patients with depression who completed psychotherapy in the past 3 \
+		months.
+	~	:SUPPLEMENTARY 
+	|
+
+Change in Engagement Time of Patients Past 3 Months=
+	0
+	~	Dmnl [-0.75,2,0.25]
+	~	Relative change in the median engagement duration for all patients still \
+		in care after their first 3 months.
+	|
+
+HS Gold Standard for AUD=
+	(Patients in Over 7 Visits*"AUD within 3 months %")
+	~	pts
+	~	"Health Services definition"-based highest quality standard - the number \
+		of patients with AUD who completed psychotherapy in the past 3 months.
+	~	:SUPPLEMENTARY 
+	|
+
+Appointments for Existing Patients=
+	"Supply Used by Pts <3mo"+
+	"Supply Used by Pts >3mo"
+	~	appt/wk
+	~	Sum of all appointment used per wk by all possible patient service use \
+		pathways.
+	|
+
+Graduation Rate=
+	Ending After 8 or More Visits Rate*"Actual Completers Who Graduate %"
+	~	pts/wk
+	~	The rate at which patients end their engagement with psychotherapy after \
+		receiving a timely, full dose, i.e., the desired pattern of engagement.
+	~	:SUPPLEMENTARY 
+	|
+
+"Supply Used by Pts <3mo"=
+	Supply Used by New Patients
+	+Supply Used by Initiators
+	+Supply Used by Completers
+	~	appt/wk
+	~	Sum of all appointments used per wk by patients in first 3 months of \
+		engagement.
+	|
+
+Appointments Available for New Patients=
+	MAX((Appointment Supply-Appointments for Existing Patients),0)+STEP(Additional Appointments Available to New Patients\
+		,Experiment wk)
+	~	appt/wk
+	~	All remaining supply, after all existing patients are seen. Users can also \
+		set aside additional appointments specifically for new patients, which \
+		allows the team to start more patients (i.e., they receive a first visit) \
+		than they can initiate (i.e., they receive a second visit).  It is \
+		prevented from going below zero.
+	|
+
+Starting Psychotherapy=
+	Percieved New pts appt Supply*Pts per appt*New Patient Scheduling Efficiency
+	~	pts/wk
+	~	The number of patients who start Psychotherapy each wk, based on the \
+		actual appointment supply available to new patients (including any user \
+		adjustments to both "Appointment Supply" and "Additional Supply for New \
+		Patients).
+	|
+
+Percieved New pts appt Supply=
+	SMOOTH(Appointments Available for New Patients,Time to Percieve Supply for New Pts)
+	~	appt/wk
+	~	Schedulers' perceptsion of the appointment supply available for new \
+		patients, regardless of the capacity for them to continue care.
+	|
+
+Time to Percieve Supply for New Pts=
+	4
+	~	wk
+	~	Time for schedulers to percieve and act upon changes in new patient \
+		appointment supply.  Set to 4 wks, to reflect information and process \
+		delays.
+	|
+
+Start Rate Relative to Data=
+	ZIDZ(Starting Psychotherapy,Team Data on New Patients Starts)
+	~	Dmnl
+	~	The relative start rate, compared to the team's current state data.
+	~	:SUPPLEMENTARY 
+	|
+
+Team Data on New Patients Starts=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C33')
+	~	pts/wk
+	~	From the team's data: psycho60 visits/appts for new patients per wk.
+	|
+
+"Appointment Supply (75th percentile)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C35')
+	~	appt/wk
+	~	The baseline number of the appointments offered each wk, taken from the \
+		team's data. However, the number of appointments offered specifically for \
+		this service is currently unmeasurable.  We estimate the available supply \
+		from the upper quartile of appointments completed each wk for this service.
+	|
+
+User defined Appointment Supply=
+	-1
+	~	appt/wk [-1,200,1]
+	~	Manually adjust the number of official appointments offered, with the \
+		assumptsion that these appoints come at the expense of appointments \
+		offered for other services.
+	|
+
+Additional Appointments Available to New Patients=
+	0
+	~	appt/wk [0,30,0.5]
+	~	Manually adjust the number of additional appointments allocated \
+		specifically to new patients each wk, with the assumptsion that these \
+		appointments come from reducing appointments in other services.
+	|
+
+Initiation Rate who will Quit=
+	Ending who can Initiate*"Actual Starters Who Initiate %"*"Actual Initiators Who Quit Early %"
+	~	pts/wk
+	~	Rate of patients starting their 2nd visit, who will complete 2-7 visits in \
+		their first three months in care, but not continue engagement to receive \
+		full dose.
+	|
+
+"User-defined Initiators Who Complete %"=
+	-0.05
+	~	Dmnl [-0.05,1,0.05]
+	~	This value replaces the estimate from the team's data (the value of -0.05 \
+		uses the team's data). This value, plus the value of "%Visit2-7-n-Done" \
+		should not sum to greater than 1, otherwise patients will be pursuing \
+		multiple engagement pathways simultaneously.
+	|
+
+"Starters Who Initiate %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C6')
+	~	Dmnl
+	~	The percent of patients (having completed their first appointment) who \
+		"initiate care," i.e., the percent who go on to complete 2-7 visit in \
+		their first 3 months.
+	|
+
+"Completers Who Graduate %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C5')
+	~	Dmnl
+	~	The percent of patients who (after completing 8+ visits in first 3 months) \
+		then stop coming after receiving their timely, full dose of psychotherpay, \
+		i.e., "Completers who Graduate."
+	|
+
+"Starters Who Return Later %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C3')
+	~	Dmnl
+	~	The percent of patients who complete only 1 visit in their first 3 months \
+		and then completed more visits afterward.
+	|
+
+"User-defined Starters Who Return Later %"=
+	-0.05
+	~	Dmnl [-0.05,1,0.05]
+	~	This value replaces the estimate from the team's data (the value of -0.05 \
+		uses the team's data).   This value, plus the value of "% Go on to 2-7 in \
+		<3mo" should not sum to greater than 1, otherwise patients will be \
+		pursuing multiple engagement pathways simultaneously.
+	|
+
+"User-defined Completers who Graduate %"=
+	-0.05
+	~	Dmnl [-0.05,1,0.05]
+	~	This value replaces the estimate from the team's data (the value of -0.05 \
+		uses the team's data).
+	|
+
+"Initiators Who Quit Early %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C4')
+	~	Dmnl
+	~	The percent of patients who (after completing 2-7 visits in their first 3 \
+		months) then neither complete a full dose (i.e., not complete 8 or more \
+		visits in their first 3 months) nor return for more visits after 3 months.
+	|
+
+"Initiators Who Complete %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C7')
+	~	Dmnl
+	~	The percent of patients who (after completing 2-7 visits in their first 3 \
+		months) then go on to complete even more visits in the first 3 months.  \
+		These are the patients who will receive a full, timely dose, i.e., will \
+		become "Completers."
+	|
+
+"User-defined Starters Who Initiate %"=
+	-0.05
+	~	Dmnl [-0.05,1,0.05]
+	~	This value replaces the estimate from the team's data (the value of -0.05 \
+		uses the team's data).  This value, plus the value of "%Visit1<3mo and \
+		More" should not sum to greater than 1, otherwise patients will be \
+		pursuing multiple engagement pathways simultaneously.
+	|
+
+"User-defined Initiators Who Quit Early %"=
+	-0.05
+	~	Dmnl [-0.05,1,0.05]
+	~	This value replaces the estimate from the team's data (the value of -0.05 \
+		uses the team's data). This value, plus the value of \
+		"%Visit2-7-n-More<3mo" should not sum to greater than 1, otherwise \
+		patients will be pursuing multiple engagement pathways simultaneously.
+	|
+
+"Supply Used by Pts >3mo"=
+	Supply Used by New Patients who Return+Supply Used by Initiators who Return+Supply Used by Completers who Continue
+	~	appt/wk
+	~	Sum of all appointment used per wk by patients who continue after first 3 \
+		months of engagement.
+	|
+
+Patients in Visits 2 to 7=
+	Initiators who will Quit+Initiators who will Return+Initiators who will Continue
+	~	pts
+	~		~	:SUPPLEMENTARY 
+	|
+
+"Frequency <3mo - 2-7Visits-n-done"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C9')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency <3mo - 2-7Visits-n-More<3mo"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C11')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency <3mo - 8-12 Visits"=
+	"Frequency <3mo - 2-7Visits-n-More<3mo"
+	~	appt/(wk*pts) [?,?,0.2]
+	~	The average number of appointments per patient per wk, which is nearly \
+		identical to the frequency of patients who complete 2-7 visits and then go \
+		on to more visits in their first three months engaged in care.
+	|
+
+"# Pts <3mo in Team w/AUD"=
+	"AUD within 3 months %"*"Total Pts <3months"
+	~	pts
+	~		|
+
+"# Pts <3mo in Team w/OUD"=
+	"OUD within 3 months %"*"Total Pts <3months"
+	~	pts
+	~		|
+
+"# Pts <3mo in Team w/PTSD"=
+	"PTSD within 3 months %"*"Total Pts <3months"
+	~	pts
+	~		|
+
+"# Pts <3mo in Team with Depression"=
+	"DEP within 3 months %"*"Total Pts <3months"
+	~	pts
+	~		|
+
+Total Initiators=
+	Initiators who will Quit+Initiators who will Return+Initiators who will Continue
+	~	pts
+	~	Number of patients who are completing 2-7 visits in their first 3 months.  \
+		These are the "Initiators" (but they may or may not become "Completers").
+	|
+
+"ET - Completers who Graduate"=
+	MAX(12-Median Time in Visit 1-"ET - Initiators Who Complete",1)
+	~	wk [?,?,1]
+	~	Engagement time for patients who complete 8 or more visits in their first \
+		three months, based on the median time it takes these patients to complete \
+		their first 7 visits. Constrained from going below 1 wk.
+	|
+
+"AUD within 3 months %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C46')
+	~	Dmnl
+	~		|
+
+"OUD within 3 months %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C47')
+	~	Dmnl
+	~		|
+
+"PTSD within 3 months %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C44')
+	~	Dmnl
+	~		|
+
+Patients in Care More Than 3 Months=
+	OneAfter+TwoSevenAfter+EightPlusAfter
+	~	pts
+	~	Sum of all patients in their subsequent months in care.
+	|
+
+"DEP within 3 months %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C45')
+	~	Dmnl
+	~	using patients that started within the last three months in the data
+	|
+
+"Total Pts <3months"=
+	Patients in First Visit+Initiators who will Return+Patients in Over 7 Visits+Initiators who will Quit\
+		+Initiators who will Continue
+	~	pts
+	~	Number of patients who started psychotherapy in the past three months.
+	|
+
+Total Pts in Psych=
+	Patients in Care More Than 3 Months+"Total Pts <3months"
+	~	pts
+	~	The total number of patients in psychotherapy.
+	|
+
+Ending During Visit 2 to 7 Rate=
+	MAX(
+	
+	ZIDZ(Initiators who will Quit, "ET - Initiators Who Quit Early")
+	
+	,0)
+	~	pts/wk
+	~	Rate of patients completing their 2-7th visit, but who will not continue \
+		engagement to receive a full dose. It is constrained from going below zero.
+	|
+
+Continuting on to Visit 8 Rate=
+	MAX(
+	
+	ZIDZ(Initiators who will Continue, "ET - Initiators Who Complete")
+	
+	,0)
+	~	pts/wk
+	~	Rate of patients ending their 2-7th visit, who will complete 2-7 visits in \
+		less than 3 months and go on to complete 8 or more visits in that period.  \
+		This is the desired engagement pattern. It is constrained from going below \
+		zero.
+	|
+
+From Initiators into High D=
+	"Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"*"Starting HighD %"
+	~	pts/wk
+	~	The starting rate of one quarter of patients who (after completing 2-7 \
+		visit in their first 3 months) complete more visits in the subsequent \
+		months.
+	|
+
+"ET - Initiators Who Complete"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C14')
+	~	wk
+	~	Median engagement time estimated from the team's own data for patients in \
+		their 2-7th visit, who will go on to 8 or more visits in the first three \
+		months.
+	|
+
+"ET - Initiators Who Quit Early"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C13')
+	~	wk
+	~	Median engagement time estimated from the team's own data for patients in \
+		their 2-7th visit, who will not continue care after the first three months.
+	|
+
+OneAfter=
+	"From Starters-LowD"+"From Starters-MidD"+"From Starters-HighD"
+	~	pts
+	~	Sum of all patients who, after completing only 1 visit in their first 3 \
+		months in care, complete more visits in subsequent months.
+	|
+
+Initiation Rate who will Complete=
+	Ending who can Initiate*"Actual Starters Who Initiate %"*"Actual Initiators Who Complete %"
+	~	pts/wk
+	~	Rate of patients starting their 2nd visit, who will complete 2-7 visits in \
+		less than 3 months and go on to complete 8 or more visits in that period.  \
+		This is the desired engagement pattern.
+	|
+
+From Initiators into Mid D=
+	"Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"*"Starting MidD %"
+	~	pts/wk
+	~	The starting rate of two quarters of patients who (after completing 2-7 \
+		visits in their first 3 months) complete more visits in the subsequent \
+		months.
+	|
+
+From Initiators into Low D=
+	"Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"*"Starting LowD %"
+	~	pts/wk
+	~	The starting rate of one quarter of patients who (after completing 2-7 \
+		visit in their first 3 months) complete more visits in the subsequent \
+		months.
+	|
+
+TwoSevenAfter=
+	"From Initiators-LowD"+"From Initiators-MidD"+"From Initiators-HighD"
+	~	pts
+	~	Sum of all patients who, after completing 2-7 visits in their first 3 \
+		months in care, complete more visits in subsequent months.
+	|
+
+Completion Rate=
+	Continuting on to Visit 8 Rate
+	~	pts/wk
+	~	Rate of patients starting their 8th visit, who will complete 8 or more \
+		visits in their first 3 months.  This is the desired pattern of engagement.
+	|
+
+EightPlusAfter=
+	"From Completers-LowD"+"From Completers-MidD"+"From Completers-HighD"
+	~	pts
+	~	Sum of all patients who, after completing 8 or more visits in their first \
+		3 months in care, complete more visits in subsequent months.
+	|
+
+Initation Rate who will Return=
+	Ending who can Initiate*"Actual Starters Who Initiate %"*(1-"Actual Initiators Who Complete %"\
+		-"Actual Initiators Who Quit Early %")
+	~	pts/wk
+	~	Rate of patients starting their 2nd visit, who will go on to complete less \
+		than 8 visits in their first 3 months.
+	|
+
+New Patient Scheduling Efficiency=
+	1
+	~	Dmnl [0,1,0.05]
+	~	The percent of open slots actually used by new patients (default is 100%, \
+		which assumes that the norm is that all open slots are filled by new \
+		patients).
+	|
+
+Pts per appt=
+	1
+	~	pts/appt
+	~	Always 1 patient per appointment, excepts for group visits.
+	|
+
+"From Completers-HighD"= INTEG (
+	From Completers into High D-From Completers Ending High D,
+		0)
+	~	pts
+	~	The upper quartile of patients who, after completing 8 or more visits in \
+		their first 3 months in care, complete more visits in subsequent months.
+	|
+
+"From Completers-LowD"= INTEG (
+	From Completers into Low D-From Completers Ending Low D,
+		0)
+	~	pts
+	~	The lower quartile of patients who, after completing 8 or more visits in \
+		their first 3 months in care, complete more visits in subsequent months.
+	|
+
+"From Completers-MidD"= INTEG (
+	From Completers into Mid D-From Completers Ending Mid D,
+		0)
+	~	pts
+	~	The inner two quartiles of patients who, after completing 8 or more visits \
+		in their first 3 months in care, complete more visits in subsequent months.
+	|
+
+"Frequency >3mo - 1Visit-MidD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C16')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Starting HighD %"=
+	0.25
+	~	Dmnl [0,1]
+	~	Used to divide up the starting rate into quartiles.
+	|
+
+"Starting LowD %"=
+	0.25
+	~	Dmnl
+	~	Used to divide up the starting rate into quartiles.
+	|
+
+"Starting MidD %"=
+	0.5
+	~	Dmnl
+	~	Used to divide up the starting rate into quartiles.
+	|
+
+"From Starters-LowD"= INTEG (
+	From Starters into Low D-From Starters Ending Low D,
+		0)
+	~	pts
+	~	The lower quartile of patients who, after completing only 1 visit in their \
+		first 3 months in care, complete more visits in subsequent months.
+	|
+
+Median Time in Visit 1=
+	1
+	~	wk
+	~	Engagement time for patients completing their first visit.
+	|
+
+"From Initiators-LowD"= INTEG (
+	From Initiators into Low D-From Initiators Ending Low D,
+		0)
+	~	pts
+	~	The lower quartile of patients who, after completing 2-7 visits in their \
+		first 3 months in care, complete more visits in subsequent months.
+	|
+
+"From Initiators-MidD"= INTEG (
+	From Initiators into Mid D-From Initiators Ending Mid D,
+		0)
+	~	pts
+	~	The inner two quartiles of patients who, after completing 2-7 visits in \
+		their first 3 months in care, complete more visits in subsequent months.
+	|
+
+"Frequency >3mo - 8-12Visits-MidD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C22')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency >3mo - 1Visit-LowD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C15')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency >3mo - 2-7Visits-HighD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C20')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency >3mo - 2-7Visits-LowD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C18')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency >3mo - 1Visit-HighD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C17')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency >3mo - 8-12Visits-HighD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C23')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency >3mo - 8-12Visits-LowD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C21')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency >3mo - 2-7Visits-MidD"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C19')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"From Initiators-HighD"= INTEG (
+	From Initiators into High D-From Initiators Ending High D,
+		0)
+	~	pts
+	~	The upper quartile of patients who, after completing 2-7 visits in their \
+		first 3 months in care, complete more visits in subsequent months.
+	|
+
+"From Starters-HighD"= INTEG (
+	From Starters into High D-From Starters Ending High D,
+		0)
+	~	pts
+	~	The upper quartile of patients who, after completing only 1 visit in their \
+		first 3 months in care, complete more visits in subsequent months.
+	|
+
+"From Starters-MidD"= INTEG (
+	From Starters into Mid D-From Starters Ending Mid D,
+		0)
+	~	pts
+	~	The inner two quartiles of patients who, after completing only 1 visit in \
+		their first 3 months in care, complete more visits in subsequent months.
+	|
+
+"ET - Initiators Who Return"=
+	11
+	~	wk
+	~	Engagement time for patients who only complete 2-7 visits in their first \
+		three months, but who will complete more visits after their first three \
+		months.
+	|
+
+Ending First Visit=
+	Patients in First Visit/Median Time in Visit 1
+	~	pts/wk
+	~	Rate of patients completing their first visit in psychotherapy.
+	|
+
+"Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"=
+	MAX(Initiators who will Return/"ET - Initiators Who Return",0)
+	~	pts/wk
+	~	Rate of patients ending their 2-7th visit, who will go on to complete less \
+		than 8 visits in their first 3 months. It is constrained from going below \
+		zero.
+	|
+
+Ending After 8 or More Visits Rate=
+	MAX(
+	
+	ZIDZ(Patients in Over 7 Visits, "ET - Completers who Graduate")
+	
+	,0)
+	~	pts/wk
+	~	Rate of patients ending their 8th visit, who will complete 8 or more \
+		visits in their first 3 months.  This is also known as the "completion \
+		rate," i.e., those patients receiving a full, timely dose of \
+		psychotherapy.  It is constrained from going below zero.
+	|
+
+"Frequency <3mo - 2-7Visits-n-More>3mo"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C10')
+	~	appt/(wk*pts)
+	~	The average number of appointments per patient per wk, estimated from the \
+		mean of all individual patients' counts of completed appointments that \
+		meet the time criteria defining this stock and their time to complete that \
+		subset of their appointments (i.e., the date difference between their last \
+		completed appointment and their first).
+	|
+
+"Frequency <3mo - 1Visit"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','PSYParams','C8')
+	~	appt/(wk*pts)
+	~	Set to 1.1 visits / wk, because a minority of people get more than one \
+		visit in their first wk.
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 104
+	~	wk
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = -1000
+	~	wk
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	wk [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.0625
+	~	wk [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Interface
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,70,0
+12,1,2493558,308,70,80,20,3,124,0,0,0,0,0,0
+User defined Appointment Supply,0,20,1
+12,2,2165974,309,145,80,20,3,124,0,0,0,0,0,0
+Additional Appointments Available to New Patients,0,10,1
+12,3,2297048,239,665,80,20,3,124,0,0,0,0,0,0
+"User-defined Initiators Who Quit Early %",-0.05,1,0.05
+12,4,2166128,250,785,80,20,3,124,0,0,0,0,0,0
+"User-defined Initiators Who Complete %",-0.05,1,0.05
+12,5,2297098,258,347,80,20,3,124,0,0,0,0,0,0
+"User-defined Starters Who Return Later %",-0.05,1,0.05
+12,6,2297410,238,917,80,20,3,124,0,0,0,0,0,0
+"User-defined Completers who Graduate %",-0.05,1,0.05
+12,7,0,285,220,158,23,8,135,0,24,-1,0,0,0,-1--1--1,0-0-0,|12|U|0-0-0
+Engagement Pattern Experiments:
+12,8,0,234,27,93,17,8,135,0,24,-1,0,0,0,-1--1--1,0-0-0,|12|U|0-0-0
+Supply Experiments:
+12,9,0,532,795,166,40,8,135,0,0,-1,0,0,0
+For patients who complete 2-7 visits in their first 3 months, what percent go on to complete even more visits in the first 3 months? = Pts who will receive a full, timely dose = "Completers"
+12,10,0,527,530,155,50,8,135,0,0,-1,0,0,0
+For patients who complete their first appointment, what percent go on to complete 2-7 visits in the first 3 months? = Pts who complete more than 1 visit in first 3 months = "Initiators"
+12,11,0,521,669,166,40,8,135,0,0,-1,0,0,0
+For patients who receive 2-7 visits in first 3 months, what percent never return to care? = Pts who don't receive a full dose = "Initiators who quit" = opposite of "Initiators who Return Later"
+12,12,0,516,351,141,40,8,135,0,0,-1,0,0,0
+For patients who complete ONLY 1 visit in first 3 months, what percent of them have more visits in subsequent months=  "One visit and More Later"
+12,13,0,531,926,148,40,8,135,0,0,-1,0,0,0
+For patients who have completed 8+ visits in first 3 months, what percent stop then = Pts who stop coming after receiving timely full dose = "Graduators"
+12,14,2231522,245,519,80,20,3,252,0,0,0,0,0,0
+"User-defined Starters Who Initiate %",-0.05,1,0.05
+12,15,2100598,1014,312,292,276,3,188,0,0,1,0,0,0
+BehaviorOverTime
+12,16,0,416,277,271,11,0,135,0,0,-1,0,0,0
+"Completers" = Pts who receive 8+ visits within first 3 months, and then stop coming
+12,17,0,1251,865,529,266,3,188,0,0,1,0,0,0
+Supply_Used
+12,18,0,333,258,186,11,0,135,0,0,-1,0,0,0
+"Initiators" = Pts who receive >1 visit within first 3 months
+12,19,0,412,417,230,29,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+0% implies that the clinic will not schedule these patients for any appointments after the first 3 month window = no second chances
+12,20,0,416,998,243,34,8,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|I|0-0-0
+100% implies that the clinic will not schedule these patients for any visits after the first 3 month window = everyone who completes, graduates
+12,21,0,831,1152,219,11,0,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Initial RVI and engagement duration are estimated from team's data.
+12,22,0,379,239,237,11,0,135,0,0,-1,0,0,0
+All % are constrained to be between 0 and 100%, regardless of use input.
+12,23,2100594,1548,312,231,276,3,188,0,0,1,0,0,0
+Performance_Measures_Overview
+12,24,2035060,422,1066,80,20,3,124,0,0,0,0,0,0
+Change in Engagement Time of Patients Past 3 Months,-0.75,2,0.25
+12,25,3673368,422,1143,80,20,3,124,0,0,0,0,0,0
+Change in RVI of Patient's Past 3 Months,-0.75,2,0.25
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Quality Details
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,60,0
+12,1,4460058,507,346,356,275,3,188,0,0,1,0,0,0
+Depression
+12,2,6491996,1243,924,356,279,3,188,0,0,1,0,0,0
+PTSD
+12,3,9899220,506,923,357,279,3,188,0,0,1,0,0,0
+AUD
+12,4,4853830,1241,343,357,279,3,188,0,0,1,0,0,0
+OUD
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Supply Used
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,70,0
+10,1,Appointment Supply,361,245,44,20,8,3,0,0,0,0,0,0
+10,2,Appointments Available for New Patients,468,187,79,20,8,3,0,0,0,0,0,0
+10,3,"Supply Used by Pts >3mo",511,336,63,20,8,3,0,0,0,0,0,0
+1,4,1,2,0,0,0,0,0,64,0,-1--1--1,,1|(407,219)|
+10,5,"Frequency <3mo - 1Visit",894,115,57,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,6,5,31,0,0,0,0,0,64,0,-1--1--1,,1|(834,149)|
+10,7,"Frequency <3mo - 2-7Visits-n-More>3mo",1107,123,76,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,8,7,30,0,0,0,0,0,64,0,-1--1--1,,1|(944,200)|
+10,9,"Frequency <3mo - 8-12 Visits",1208,451,62,20,8,3,0,0,0,0,0,0
+1,10,9,32,1,0,0,0,0,64,0,-1--1--1,,1|(987,407)|
+10,11,Patients in First Visit,896,162,56,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,12,Initiators who will Return,1092,167,48,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+10,13,Patients in Over 7 Visits,1200,499,60,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,14,11,31,0,0,0,0,0,128,0,-1--1--1,,1|(833,175)|
+1,15,12,30,0,0,0,0,0,128,0,-1--1--1,,1|(939,222)|
+1,16,13,32,1,0,0,0,0,128,0,-1--1--1,,1|(996,435)|
+10,17,"Frequency >3mo - 1Visit-LowD",509,611,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,18,"Frequency >3mo - 2-7Visits-LowD",954,612,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,19,"Frequency >3mo - 8-12Visits-LowD",1514,584,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,20,"Frequency >3mo - 1Visit-MidD",521,700,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,21,"Frequency >3mo - 2-7Visits-MidD",949,712,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,22,"Frequency >3mo - 8-12Visits-MidD",1503,682,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,23,"Frequency >3mo - 1Visit-HighD",529,799,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,24,"Frequency >3mo - 2-7Visits-HighD",953,804,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,25,"Frequency >3mo - 8-12Visits-HighD",1505,785,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,26,Initiators who will Quit,1087,281,55,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+10,27,Initiators who will Continue,1093,382,65,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+10,28,"Frequency <3mo - 2-7Visits-n-done",1090,247,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,29,"Frequency <3mo - 2-7Visits-n-More<3mo",1091,341,76,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,30,Supply Used by Initiators,770,285,51,20,8,3,0,0,0,0,0,0
+10,31,Supply Used by New Patients,763,192,51,20,8,3,0,0,0,0,0,0
+10,32,Supply Used by Completers,763,364,51,20,8,3,0,0,0,0,0,0
+1,33,28,30,0,0,0,0,0,64,0,-1--1--1,,1|(931,265)|
+1,34,26,30,0,0,0,0,0,64,0,-1--1--1,,1|(933,282)|
+1,35,29,30,0,0,0,0,0,64,0,-1--1--1,,1|(924,311)|
+1,36,27,30,0,0,0,0,0,64,0,-1--1--1,,1|(931,333)|
+1,37,31,40,0,0,0,0,0,64,0,-1--1--1,,1|(694,242)|
+1,38,30,40,0,0,0,0,0,64,0,-1--1--1,,1|(705,291)|
+1,39,32,40,0,0,0,0,0,64,0,-1--1--1,,1|(695,335)|
+10,40,"Supply Used by Pts <3mo",615,302,63,20,8,3,0,0,0,0,0,0
+1,41,29,9,1,0,0,0,0,64,0,-1--1--1,,1|(1206,396)|
+1,42,3,83,0,0,0,0,0,64,0,-1--1--1,,1|(512,295)|
+10,43,Supply Used by New Patients who Return,227,677,68,20,8,3,0,0,0,0,0,0
+1,44,23,43,0,0,0,0,0,64,0,-1--1--1,,1|(384,740)|
+1,45,17,43,0,0,0,0,0,64,0,-1--1--1,,1|(377,641)|
+1,46,20,43,0,0,0,0,0,64,0,-1--1--1,,1|(383,689)|
+10,47,"From Starters-HighD",514,828,55,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,48,47,43,0,0,0,0,0,64,0,-1--1--1,,1|(385,760)|
+10,49,"From Starters-LowD",508,642,53,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,50,49,43,0,0,0,0,0,64,0,-1--1--1,,1|(381,657)|
+10,51,"From Starters-MidD",515,730,51,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,52,51,43,0,0,0,0,0,64,0,-1--1--1,,1|(386,706)|
+10,53,Supply Used by Initiators who Return,817,708,71,20,8,3,0,0,0,0,0,0
+10,54,Supply Used by Completers who Continue,1334,703,55,30,8,3,0,0,0,0,0,0
+1,55,24,53,0,0,0,0,0,64,0,-1--1--1,,1|(890,760)|
+1,56,18,53,0,0,0,0,0,64,0,-1--1--1,,1|(891,656)|
+1,57,21,53,0,0,0,0,0,64,0,-1--1--1,,1|(894,710)|
+10,58,"From Initiators-HighD",949,832,63,10,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,59,58,53,0,0,0,0,0,64,0,-1--1--1,,1|(893,779)|
+10,60,"From Initiators-LowD",955,641,61,10,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,61,60,53,0,0,0,0,0,64,0,-1--1--1,,1|(902,666)|
+10,62,"From Initiators-MidD",941,741,58,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,63,62,53,0,0,0,0,0,64,0,-1--1--1,,1|(900,730)|
+1,64,25,54,0,0,0,0,0,64,0,-1--1--1,,1|(1432,750)|
+1,65,19,54,0,0,0,0,0,64,0,-1--1--1,,1|(1437,634)|
+1,66,22,54,0,0,0,0,0,64,0,-1--1--1,,1|(1421,691)|
+10,67,"From Completers-HighD",1505,817,64,10,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,68,67,54,0,0,0,0,0,64,0,-1--1--1,,1|(1440,773)|
+10,69,"From Completers-LowD",1513,613,62,10,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,70,69,54,0,0,0,0,0,64,0,-1--1--1,,1|(1447,645)|
+10,71,"From Completers-MidD",1502,713,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,72,71,54,0,0,0,0,0,64,0,-1--1--1,,1|(1423,708)|
+1,73,43,3,1,0,0,0,0,128,0,-1--1--1,,1|(527,520)|
+1,74,53,3,1,0,0,0,0,128,0,-1--1--1,,1|(714,508)|
+1,75,54,3,1,0,0,0,0,128,0,-1--1--1,,1|(999,449)|
+12,76,0,446,517,61,61,6,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0
+Frequency data only include visits that happened, not visits that were missed
+10,77,User defined Appointment Supply,359,351,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,78,77,1,0,0,0,0,0,128,0,-1--1--1,,1|(359,304)|
+10,79,"Appointment Supply (75th percentile)",262,287,68,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,80,79,1,0,0,0,0,0,128,0,-1--1--1,,1|(306,268)|
+10,81,Additional Appointments Available to New Patients,602,132,85,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,82,81,2,0,0,0,0,0,128,0,-1--1--1,,1|(541,156)|
+10,83,Appointments for Existing Patients,515,241,58,20,8,3,0,0,0,0,0,0
+1,84,40,83,0,0,0,0,0,128,0,-1--1--1,,1|(571,275)|
+1,85,83,2,0,0,0,0,0,128,0,-1--1--1,,1|(496,219)|
+10,86,Change in RVI of Patient's Past 3 Months,755,897,78,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,87,86,43,1,0,0,0,0,128,0,-1--1--1,,1|(389,809)|
+1,88,86,53,1,0,0,0,0,128,0,-1--1--1,,1|(803,811)|
+1,89,86,54,1,0,0,0,0,128,0,-1--1--1,,1|(1108,944)|
+10,90,Bars E3,820,66,26,11,8,3,1,0,0,0,0,0
+1,91,5,90,0,1,0,0,0,128,0,-1--1--1,,1|(855,89)|
+10,92,Median Time in Visit 1,934,69,45,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,93,92,90,0,1,0,0,0,128,0,-1--1--1,,1|(874,67)|
+10,94,Bars E4,438,933,26,11,8,3,1,0,0,0,0,0
+1,95,17,94,0,1,0,0,0,128,0,-1--1--1,,1|(474,769)|
+1,96,20,94,0,1,0,0,0,128,0,-1--1--1,,1|(479,814)|
+1,97,23,94,0,1,0,0,0,128,0,-1--1--1,,1|(484,864)|
+10,98,"Engagement Time - From 1 Visit (1st Quartile)",160,876,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,99,98,94,0,1,0,0,0,64,0,-1--1--1,,1|(312,906)|
+10,100,"Starting LowD %",936,1177,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,101,100,94,0,1,0,0,0,64,0,-1--1--1,,1|(684,1053)|
+10,102,"Engagement Time - From 1 Visit (Mean)",322,951,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,103,102,94,0,1,0,0,0,64,0,-1--1--1,,1|(393,940)|
+10,104,"Engagement Time - From 1 Visit (4th Quartile)",322,1006,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,105,104,94,0,1,0,0,0,64,0,-1--1--1,,1|(380,968)|
+10,106,"Starting HighD %",929,1281,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,107,106,94,0,1,0,0,0,64,0,-1--1--1,,1|(682,1106)|
+10,108,"Starting MidD %",927,1232,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,109,108,94,0,1,0,0,0,64,0,-1--1--1,,1|(680,1081)|
+10,110,Bars E5,1375,253,26,11,8,3,1,0,0,0,0,0
+1,111,28,110,0,1,0,0,0,128,0,-1--1--1,,1|(1243,249)|
+10,112,"ET - Initiators Who Quit Early",1408,208,68,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,113,112,110,0,1,0,0,0,64,0,-1--1--1,,1|(1392,229)|
+10,114,Bars E6,1367,100,26,11,8,3,1,0,0,0,0,0
+1,115,7,114,0,1,0,0,0,128,0,-1--1--1,,1|(1255,110)|
+10,116,"Bars E6 >3mo",1020,997,47,11,8,3,1,0,0,0,0,0
+1,117,18,116,0,1,0,0,0,128,0,-1--1--1,,1|(986,802)|
+1,118,21,116,0,1,0,0,0,128,0,-1--1--1,,1|(983,852)|
+1,119,24,116,0,1,0,0,0,128,0,-1--1--1,,1|(985,898)|
+10,120,"Engagement Time - From 2 to 7 Visits (1st Quartile)",844,998,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,121,120,116,0,1,0,0,0,64,0,-1--1--1,,1|(938,997)|
+10,122,"Engagement Time - From 2 to 7 Visits (Mean)",861,1042,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,123,122,116,0,1,0,0,0,64,0,-1--1--1,,1|(949,1016)|
+10,124,"Engagement Time - From 2 to 7 Visits (4th Quartile)",880,1084,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,125,124,116,0,1,0,0,0,64,0,-1--1--1,,1|(951,1039)|
+10,126,"ET - Initiators Who Return",1416,60,51,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,127,126,114,0,1,0,0,0,64,0,-1--1--1,,1|(1391,80)|
+10,128,Bars E7,1377,370,26,11,8,3,1,0,0,0,0,0
+1,129,29,128,0,1,0,0,0,128,0,-1--1--1,,1|(1252,356)|
+10,130,"ET - Initiators Who Complete",1393,316,68,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,131,130,128,0,1,0,0,0,64,0,-1--1--1,,1|(1386,340)|
+10,132,Bars E8,1371,442,26,11,8,3,1,0,0,0,0,0
+1,133,9,132,0,1,0,0,0,128,0,-1--1--1,,1|(1300,445)|
+10,134,"ET - Completers who Graduate",1393,407,59,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,135,134,132,0,1,0,0,0,64,0,-1--1--1,,1|(1383,424)|
+10,136,Bars E9,1367,944,26,11,8,3,1,0,0,0,0,0
+1,137,25,136,0,1,0,0,0,128,0,-1--1--1,,1|(1436,863)|
+1,138,22,136,0,1,0,0,0,128,0,-1--1--1,,1|(1435,811)|
+1,139,19,136,0,1,0,0,0,128,0,-1--1--1,,1|(1441,762)|
+1,140,100,116,0,1,0,0,0,128,0,-1--1--1,,1|(976,1088)|
+1,141,108,116,0,1,0,0,0,128,0,-1--1--1,,1|(971,1116)|
+1,142,106,116,0,1,0,0,0,128,0,-1--1--1,,1|(973,1141)|
+1,143,100,136,0,1,0,0,0,128,0,-1--1--1,,1|(1152,1059)|
+1,144,108,136,0,1,0,0,0,128,0,-1--1--1,,1|(1147,1087)|
+1,145,106,136,0,1,0,0,0,128,0,-1--1--1,,1|(1147,1112)|
+10,146,"Engagement Time - From 8 or More Visits (1st Quartile)",1526,882,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,147,146,136,0,1,0,0,0,64,0,-1--1--1,,1|(1440,915)|
+10,148,"Engagement Time - From 8 or More Visits (Mean)",1521,956,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,149,148,136,0,1,0,0,0,64,0,-1--1--1,,1|(1426,949)|
+10,150,"Engagement Time - From 8 or More Visits (4th Quartile)",1508,1017,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,151,150,136,0,1,0,0,0,64,0,-1--1--1,,1|(1435,979)|
+1,152,86,94,0,1,0,0,0,64,0,-1--1--1,,1|(577,916)|
+1,153,86,116,0,1,0,0,0,64,0,-1--1--1,,1|(892,949)|
+1,154,86,136,0,1,0,0,0,64,0,-1--1--1,,1|(1080,921)|
+10,155,"Bars E4-Final",443,1080,44,11,8,3,1,0,0,0,0,0
+1,156,94,155,0,1,0,0,0,128,0,-1--1--1,,1|(439,999)|
+10,157,FINAL TIME,443,1111,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,158,157,155,0,1,0,0,0,64,0,-1--1--1,,1|(443,1102)|
+10,159,Time,443,1111,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,160,159,155,0,1,0,0,0,64,0,-1--1--1,,1|(443,1102)|
+10,161,"Bars E4-Initial",548,1087,47,11,8,3,1,0,0,0,0,0
+1,162,94,161,0,1,0,0,0,128,0,-1--1--1,,1|(488,1004)|
+10,163,INITIAL TIME,548,1118,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,164,163,161,0,1,0,0,0,64,0,-1--1--1,,1|(548,1109)|
+10,165,Time,548,1118,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,166,165,161,0,1,0,0,0,64,0,-1--1--1,,1|(548,1109)|
+10,167,"Bars E6 >3mo-Final",1113,951,39,20,8,3,1,0,0,0,0,0
+10,168,"Bars E6 >3mo-Initial",1125,1025,42,20,8,3,1,0,0,0,0,0
+10,169,"Bars E9-Final",1356,1079,44,11,8,3,1,0,0,0,0,0
+10,170,"Bars E9-Initial",1496,1082,47,11,8,3,1,0,0,0,0,0
+1,171,116,167,0,1,0,0,0,64,0,-1--1--1,,1|(1051,981)|
+10,172,FINAL TIME,1113,991,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,173,172,167,0,1,0,0,0,64,0,-1--1--1,,1|(1113,982)|
+10,174,Time,1113,991,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,175,174,167,0,1,0,0,0,64,0,-1--1--1,,1|(1113,982)|
+1,176,116,168,0,1,0,0,0,64,0,-1--1--1,,1|(1065,1008)|
+10,177,INITIAL TIME,1125,1065,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,178,177,168,0,1,0,0,0,64,0,-1--1--1,,1|(1125,1056)|
+10,179,Time,1125,1065,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,180,179,168,0,1,0,0,0,64,0,-1--1--1,,1|(1125,1056)|
+1,181,136,170,0,1,0,0,0,64,0,-1--1--1,,1|(1426,1007)|
+10,182,INITIAL TIME,1496,1113,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,183,182,170,0,1,0,0,0,64,0,-1--1--1,,1|(1496,1104)|
+10,184,Time,1496,1113,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,185,184,170,0,1,0,0,0,64,0,-1--1--1,,1|(1496,1104)|
+1,186,136,169,0,1,0,0,0,64,0,-1--1--1,,1|(1362,1004)|
+10,187,FINAL TIME,1329,1143,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,188,187,169,0,1,0,0,0,64,0,-1--1--1,,1|(1339,1117)|
+10,189,Time,1356,1110,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,190,189,169,0,1,0,0,0,64,0,-1--1--1,,1|(1356,1101)|
+10,191,Experiment wk,211,87,58,11,8,3,1,0,0,0,0,0
+1,192,191,1,0,1,0,0,0,128,0,-1--1--1,,1|(276,156)|
+10,193,Time,273,222,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,194,193,1,0,1,0,0,0,64,0,-1--1--1,,1|(302,229)|
+1,195,191,2,0,1,0,0,0,64,0,-1--1--1,,1|(320,129)|
+1,196,191,43,0,1,0,0,0,64,0,-1--1--1,,1|(218,370)|
+1,197,191,53,0,1,0,0,0,128,0,-1--1--1,,1|(504,387)|
+1,198,191,54,0,1,0,0,0,128,0,-1--1--1,,1|(748,382)|
+10,199,Supply Available for New Pts who can start 2nd visit,425,85,87,20,8,3,0,0,0,0,0,0
+1,200,81,199,0,0,0,0,0,64,0,-1--1--1,,1|(520,110)|
+1,201,1,199,0,0,0,0,0,64,0,-1--1--1,,1|(390,171)|
+1,202,191,199,0,1,0,0,0,64,0,-1--1--1,,1|(296,86)|
+1,203,83,199,0,0,0,0,0,64,0,-1--1--1,,1|(473,169)|
+10,204,Appointments in Psychotherapy,699,14,55,20,8,3,0,0,0,0,0,0
+10,205,Booking Rate,575,15,45,11,8,3,0,0,0,0,0,0
+10,206,Completing Rate,823,24,55,11,8,3,0,0,0,0,0,0
+1,207,1,205,0,0,0,0,0,128,0,-1--1--1,,1|(466,130)|
+1,208,81,205,0,0,0,0,0,128,0,-1--1--1,,1|(589,75)|
+10,209,Total Pts in Psych,652,75,43,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,210,Pts per appt,1062,-17,51,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,211,209,204,0,0,0,0,0,128,0,-1--1--1,,1|(670,49)|
+1,212,210,204,1,0,0,0,0,128,0,-1--1--1,,1|(883,-22)|
+1,213,191,94,0,1,0,0,0,64,0,-1--1--1,,1|(322,503)|
+1,214,191,116,0,1,0,0,0,64,0,-1--1--1,,1|(610,536)|
+1,215,191,136,0,1,0,0,0,64,0,-1--1--1,,1|(782,511)|
+10,216,"RVI - Initiators who Complete",1255,276,66,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0
+1,217,29,216,0,1,0,0,0,64,0,-1--1--1,,1|(1165,311)|
+10,218,"RVI - Initiators who Quit Early",1262,161,66,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0
+1,219,28,218,0,1,0,0,0,64,0,-1--1--1,,1|(1169,207)|
+10,220,"RVI - Completers who Graduate",1296,393,58,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0
+1,221,9,220,0,1,0,0,0,64,0,-1--1--1,,1|(1245,425)|
+1,222,210,216,0,1,0,0,0,128,0,-1--1--1,,1|(1151,119)|
+1,223,210,220,0,1,0,0,0,128,0,-1--1--1,,1|(1172,177)|
+10,224,"RVI - From 1 Visit (1st Quartile)",637,624,59,20,8,3,1,0,0,0,0,0
+10,225,"RVI - From 1 Visit (Mean)",650,715,59,20,8,3,1,0,0,0,0,0
+10,226,"RVI - From 1 Visit (4th Quartile)",659,813,59,20,8,3,1,0,0,0,0,0
+10,227,"RVI - From 2 to 7 Visits (1st Quartile)",1113,620,64,20,8,3,1,0,0,0,0,0
+10,228,"RVI - From 2 to 7 Visits (Mean)",1118,711,58,20,8,3,1,0,0,0,0,0
+10,229,"RVI - From 2 to 7 Visits (4th Quartile)",1120,812,65,20,8,3,1,0,0,0,0,0
+10,230,"RVI - From 8 or More Visits (1st Quartile)",1658,588,71,20,8,3,1,0,0,0,0,0
+10,231,"RVI - From 8 or More Visits (Mean)",1645,688,71,20,8,3,1,0,0,0,0,0
+10,232,"RVI - From 8 or More Visits (4th Quartile)",1656,792,71,20,8,3,1,0,0,0,0,0
+1,233,17,224,0,1,0,0,0,128,0,-1--1--1,,1|(567,616)|
+1,234,20,225,0,1,0,0,0,128,0,-1--1--1,,1|(580,706)|
+1,235,23,226,0,1,0,0,0,128,0,-1--1--1,,1|(588,804)|
+1,236,18,227,0,1,0,0,0,128,0,-1--1--1,,1|(1025,615)|
+1,237,21,228,0,1,0,0,0,128,0,-1--1--1,,1|(1028,711)|
+1,238,24,229,0,1,0,0,0,128,0,-1--1--1,,1|(1028,806)|
+1,239,19,230,0,1,0,0,0,128,0,-1--1--1,,1|(1574,584)|
+1,240,22,231,0,1,0,0,0,128,0,-1--1--1,,1|(1562,683)|
+1,241,25,232,0,1,0,0,0,128,0,-1--1--1,,1|(1569,787)|
+1,242,210,224,0,1,0,0,0,128,0,-1--1--1,,1|(856,293)|
+1,243,210,225,0,1,0,0,0,128,0,-1--1--1,,1|(861,338)|
+1,244,210,226,0,1,0,0,0,128,0,-1--1--1,,1|(865,387)|
+1,245,210,227,0,1,0,0,0,128,0,-1--1--1,,1|(1085,290)|
+1,246,210,228,0,1,0,0,0,128,0,-1--1--1,,1|(1088,335)|
+1,247,210,229,0,1,0,0,0,128,0,-1--1--1,,1|(1089,386)|
+1,248,210,230,0,1,0,0,0,128,0,-1--1--1,,1|(1350,276)|
+1,249,210,231,0,1,0,0,0,128,0,-1--1--1,,1|(1345,325)|
+1,250,210,232,0,1,0,0,0,128,0,-1--1--1,,1|(1351,377)|
+1,251,210,218,0,1,0,0,0,128,0,-1--1--1,,1|(1151,62)|
+1,252,83,206,0,0,0,0,0,128,0,-1--1--1,,1|(669,132)|
+10,253,Return Visit Interval,225,33,39,20,8,3,0,0,0,0,0,0
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Psychotherapy Service
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,65,0
+10,1,Patients in First Visit,91,-55,40,20,3,3,0,0,0,0,0,0
+12,2,48,-72,-64,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+12,3,48,261,-56,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,4,6,3,4,0,0,22,0,0,0,-1--1--1,,1|(224,-56)|
+1,5,6,1,100,0,0,22,0,0,0,-1--1--1,,1|(158,-56)|
+11,6,48,191,-56,6,8,34,3,0,0,1,0,0,0
+10,7,Ending First Visit,191,-37,54,11,40,3,0,0,-1,0,0,0
+10,8,Median Time in Visit 1,262,102,51,20,8,3,0,0,0,0,0,0
+1,9,8,7,1,0,0,0,0,64,0,-1--1--1,,1|(242,22)|
+1,10,1,6,1,0,0,0,0,64,0,-1--1--1,,1|(145,-84)|
+10,11,Initiators who will Return,790,420,51,20,3,131,0,0,0,0,0,0
+12,12,48,618,421,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,13,15,11,4,0,0,22,0,0,0,-1--1--1,,1|(713,420)|
+1,14,15,12,100,0,0,22,0,0,0,-1--1--1,,1|(652,420)|
+11,15,48,682,420,6,8,34,3,0,0,1,0,0,0
+10,16,Initation Rate who will Return,682,458,62,20,40,131,0,0,-1,0,0,0
+12,17,48,949,419,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,18,20,17,4,0,0,22,0,0,0,-1--1--1,,1|(915,423)|
+1,19,20,11,100,0,0,22,0,0,0,-1--1--1,,1|(860,423)|
+11,20,48,885,423,6,8,34,3,0,0,1,0,0,0
+10,21,"Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7",885,466,101,30,40,131,0,0,-1,0,0,0
+10,22,"ET - Initiators Who Return",978,380,54,20,8,3,0,0,0,0,0,0
+1,23,22,20,0,0,0,0,0,64,0,-1--1--1,,1|(918,407)|
+1,24,11,20,1,0,0,0,0,64,0,-1--1--1,,1|(833,391)|
+10,25,Patients in Over 7 Visits,1288,266,40,20,3,3,0,0,0,0,0,0
+12,26,48,1125,257,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,27,29,25,4,0,0,22,0,0,0,-1--1--1,,1|(1222,257)|
+1,28,29,26,100,0,0,22,0,0,0,-1--1--1,,1|(1160,257)|
+11,29,48,1191,257,6,8,34,3,0,0,1,0,0,0
+10,30,Completion Rate,1191,276,55,11,40,131,0,0,-1,0,0,0
+12,31,48,1458,265,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,32,34,31,4,0,0,22,0,0,0,-1--1--1,,1|(1421,265)|
+1,33,34,25,100,0,0,22,0,0,0,-1--1--1,,1|(1355,265)|
+11,34,48,1388,265,6,8,34,3,0,0,1,0,0,0
+10,35,Ending After 8 or More Visits Rate,1388,300,57,20,40,131,0,0,-1,0,0,0
+10,36,"ET - Completers who Graduate",1439,196,39,20,8,3,0,0,0,0,0,0
+1,37,36,34,0,0,0,0,0,64,0,-1--1--1,,1|(1412,232)|
+1,38,25,34,1,0,0,0,0,64,0,-1--1--1,,1|(1342,237)|
+10,39,"Actual Starters Who Initiate %",526,132,67,20,8,3,0,0,0,0,0,0
+1,40,39,16,0,0,0,0,0,64,0,-1--1--1,,1|(600,288)|
+10,41,"From Starters-LowD",99,759,40,20,3,3,0,0,0,0,0,0
+12,42,48,-65,756,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,43,45,41,4,0,0,22,0,0,0,-1--1--1,,1|(33,758)|
+1,44,45,42,100,0,0,22,0,0,0,-1--1--1,,1|(-30,758)|
+11,45,48,1,758,6,8,34,3,0,0,1,0,0,0
+10,46,From Starters into Low D,1,786,60,20,40,3,0,0,-1,0,0,0
+12,47,48,268,764,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,48,50,47,4,0,0,22,0,0,0,-1--1--1,,1|(231,765)|
+1,49,50,41,100,0,0,22,0,0,0,-1--1--1,,1|(165,765)|
+11,50,48,198,765,6,8,34,3,0,0,1,0,0,0
+10,51,From Starters Ending Low D,198,793,46,20,40,3,0,0,-1,0,0,0
+1,52,41,50,1,0,0,0,0,64,0,-1--1--1,,1|(155,733)|
+10,53,"From Starters-MidD",99,886,40,20,3,3,0,0,0,0,0,0
+12,54,48,-64,875,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,55,57,53,4,0,0,22,0,0,0,-1--1--1,,1|(33,877)|
+1,56,57,54,100,0,0,22,0,0,0,-1--1--1,,1|(-29,877)|
+11,57,48,2,877,6,8,34,3,0,0,1,0,0,0
+10,58,From Starters into Mid D,2,905,60,20,40,3,0,0,-1,0,0,0
+12,59,48,269,883,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,60,62,59,4,0,0,22,0,0,0,-1--1--1,,1|(232,884)|
+1,61,62,53,100,0,0,22,0,0,0,-1--1--1,,1|(166,884)|
+11,62,48,199,884,6,8,34,3,0,0,1,0,0,0
+10,63,From Starters Ending Mid D,199,912,46,20,40,3,0,0,-1,0,0,0
+1,64,53,62,1,0,0,0,0,64,0,-1--1--1,,1|(153,855)|
+10,65,"From Starters-HighD",109,999,40,20,3,3,0,0,0,0,0,0
+12,66,48,-54,988,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,67,69,65,4,0,0,22,0,0,0,-1--1--1,,1|(43,990)|
+1,68,69,66,100,0,0,22,0,0,0,-1--1--1,,1|(-19,990)|
+11,69,48,12,990,6,8,34,3,0,0,1,0,0,0
+10,70,From Starters into High D,12,1018,60,20,40,3,0,0,-1,0,0,0
+12,71,48,279,996,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,72,74,71,4,0,0,22,0,0,0,-1--1--1,,1|(242,997)|
+1,73,74,65,100,0,0,22,0,0,0,-1--1--1,,1|(176,997)|
+11,74,48,209,997,6,8,34,3,0,0,1,0,0,0
+10,75,From Starters Ending High D,209,1025,48,20,40,3,0,0,-1,0,0,0
+1,76,65,74,1,0,0,0,0,64,0,-1--1--1,,1|(163,968)|
+10,77,"Starting MidD %",47,848,54,11,8,3,0,0,0,0,0,0
+10,78,"Starting HighD %",62,963,57,11,8,3,0,0,0,0,0,0
+1,79,78,69,0,0,0,0,0,64,0,-1--1--1,,1|(35,977)|
+1,80,77,58,0,0,0,0,0,64,0,-1--1--1,,1|(32,866)|
+10,81,"Starting LowD %",60,718,56,11,8,3,0,0,0,0,0,0
+1,82,81,45,0,0,0,0,0,128,0,-1--1--1,,1|(30,737)|
+10,83,"Actual Starters Who Return Later %",-322,605,67,20,8,3,0,0,0,0,0,0
+10,84,"From Initiators-LowD",853,765,40,20,3,3,0,0,0,0,0,0
+12,85,48,690,756,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,86,88,84,4,0,0,22,0,0,0,-1--1--1,,1|(787,756)|
+1,87,88,85,100,0,0,22,0,0,0,-1--1--1,,1|(725,756)|
+11,88,48,756,756,6,8,34,3,0,0,1,0,0,0
+10,89,From Initiators into Low D,756,784,64,20,40,3,0,0,-1,0,0,0
+12,90,48,1023,764,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,91,93,90,4,0,0,22,0,0,0,-1--1--1,,1|(986,763)|
+1,92,93,84,100,0,0,22,0,0,0,-1--1--1,,1|(920,763)|
+11,93,48,953,763,6,8,34,3,0,0,1,0,0,0
+10,94,From Initiators Ending Low D,953,791,49,20,40,3,0,0,-1,0,0,0
+10,95,"Engagement Time - From 2 to 7 Visits (1st Quartile)",1015,721,85,20,8,3,0,0,0,0,0,0
+1,96,95,93,0,0,0,0,0,64,0,-1--1--1,,1|(977,746)|
+1,97,84,93,1,0,0,0,0,64,0,-1--1--1,,1|(907,736)|
+10,98,"From Initiators-MidD",854,884,40,20,3,3,0,0,0,0,0,0
+12,99,48,691,880,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,100,102,98,4,0,0,22,0,0,0,-1--1--1,,1|(788,877)|
+1,101,102,99,100,0,0,22,0,0,0,-1--1--1,,1|(726,877)|
+11,102,48,757,877,6,8,34,3,0,0,1,0,0,0
+10,103,From Initiators into Mid D,757,905,49,20,40,3,0,0,-1,0,0,0
+12,104,48,1024,883,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,105,107,104,4,0,0,22,0,0,0,-1--1--1,,1|(987,882)|
+1,106,107,98,100,0,0,22,0,0,0,-1--1--1,,1|(921,882)|
+11,107,48,954,882,6,8,34,3,0,0,1,0,0,0
+10,108,From Initiators Ending Mid D,954,910,49,20,40,3,0,0,-1,0,0,0
+10,109,"Engagement Time - From 2 to 7 Visits (Mean)",1019,845,84,20,8,3,0,0,0,0,0,0
+1,110,109,107,0,0,0,0,0,64,0,-1--1--1,,1|(977,868)|
+1,111,98,107,1,0,0,0,0,64,0,-1--1--1,,1|(908,855)|
+10,112,"From Initiators-HighD",864,997,40,20,3,3,0,0,0,0,0,0
+12,113,48,701,996,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,114,116,112,4,0,0,22,0,0,0,-1--1--1,,1|(798,993)|
+1,115,116,113,100,0,0,22,0,0,0,-1--1--1,,1|(736,993)|
+11,116,48,767,993,6,8,34,3,0,0,1,0,0,0
+10,117,From Initiators into High D,767,1021,64,20,40,3,0,0,-1,0,0,0
+12,118,48,1034,1000,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,119,121,118,4,0,0,22,0,0,0,-1--1--1,,1|(997,995)|
+1,120,121,112,100,0,0,22,0,0,0,-1--1--1,,1|(931,995)|
+11,121,48,964,995,6,8,34,3,0,0,1,0,0,0
+10,122,From Initiators Ending High D,964,1023,49,20,40,3,0,0,-1,0,0,0
+10,123,"Engagement Time - From 2 to 7 Visits (4th Quartile)",1034,953,86,20,8,3,0,0,0,0,0,0
+1,124,123,121,0,0,0,0,0,64,0,-1--1--1,,1|(991,978)|
+1,125,112,121,1,0,0,0,0,64,0,-1--1--1,,1|(918,968)|
+10,126,"Actual Initiators Who Quit Early %",472,390,70,20,8,131,0,0,0,0,0,0
+1,127,21,88,1,0,0,0,0,64,0,-1--1--1,,1|(698,639)|
+1,128,21,102,1,0,0,0,0,64,0,-1--1--1,,1|(656,663)|
+1,129,21,116,1,0,0,0,0,64,0,-1--1--1,,1|(613,685)|
+10,130,"Starting LowD %",859,703,53,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+10,131,"Starting MidD %",797,843,51,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+10,132,"Starting HighD %",813,947,55,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,133,130,88,0,0,0,0,0,128,0,-1--1--1,,1|(797,734)|
+1,134,131,102,0,0,0,0,0,128,0,-1--1--1,,1|(773,863)|
+1,135,132,117,0,0,0,0,0,128,0,-1--1--1,,1|(793,978)|
+10,136,"From Completers-LowD",1659,745,40,20,3,3,0,0,0,0,0,0
+12,137,48,1496,736,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,138,140,136,4,0,0,22,0,0,0,-1--1--1,,1|(1593,738)|
+1,139,140,137,100,0,0,22,0,0,0,-1--1--1,,1|(1531,738)|
+11,140,48,1562,738,6,8,34,3,0,0,1,0,0,0
+10,141,From Completers into Low D,1562,766,57,20,40,3,0,0,-1,0,0,0
+12,142,48,1829,744,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,143,145,142,4,0,0,22,0,0,0,-1--1--1,,1|(1792,746)|
+1,144,145,136,100,0,0,22,0,0,0,-1--1--1,,1|(1726,746)|
+11,145,48,1759,746,6,8,34,3,0,0,1,0,0,0
+10,146,From Completers Ending Low D,1759,774,57,20,40,3,0,0,-1,0,0,0
+10,147,"Engagement Time - From 8 or More Visits (1st Quartile)",1821,694,92,20,8,3,0,0,0,0,0,0
+1,148,147,145,0,0,0,0,0,64,0,-1--1--1,,1|(1785,723)|
+1,149,136,145,1,0,0,0,0,64,0,-1--1--1,,1|(1713,716)|
+10,150,"From Completers-MidD",1660,864,40,20,3,3,0,0,0,0,0,0
+12,151,48,1497,855,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,152,154,150,4,0,0,22,0,0,0,-1--1--1,,1|(1594,857)|
+1,153,154,151,100,0,0,22,0,0,0,-1--1--1,,1|(1532,857)|
+11,154,48,1563,857,6,8,34,3,0,0,1,0,0,0
+10,155,From Completers into Mid D,1563,885,57,20,40,3,0,0,-1,0,0,0
+12,156,48,1830,863,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,157,159,156,4,0,0,22,0,0,0,-1--1--1,,1|(1793,865)|
+1,158,159,150,100,0,0,22,0,0,0,-1--1--1,,1|(1727,865)|
+11,159,48,1760,865,6,8,34,3,0,0,1,0,0,0
+10,160,From Completers Ending Mid D,1760,893,57,20,40,3,0,0,-1,0,0,0
+10,161,"Engagement Time - From 8 or More Visits (Mean)",1825,818,85,20,8,3,0,0,0,0,0,0
+1,162,161,159,0,0,0,0,0,64,0,-1--1--1,,1|(1786,845)|
+1,163,150,159,1,0,0,0,0,64,0,-1--1--1,,1|(1714,835)|
+10,164,"From Completers-HighD",1670,977,40,20,3,3,0,0,0,0,0,0
+12,165,48,1507,974,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,166,168,164,4,0,0,22,0,0,0,-1--1--1,,1|(1604,974)|
+1,167,168,165,100,0,0,22,0,0,0,-1--1--1,,1|(1542,974)|
+11,168,48,1573,974,6,8,34,3,0,0,1,0,0,0
+10,169,From Completers into High D,1573,1002,57,20,40,3,0,0,-1,0,0,0
+12,170,48,1840,976,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,171,173,170,4,0,0,22,0,0,0,-1--1--1,,1|(1803,978)|
+1,172,173,164,100,0,0,22,0,0,0,-1--1--1,,1|(1737,978)|
+11,173,48,1770,978,6,8,34,3,0,0,1,0,0,0
+10,174,From Completers Ending High D,1770,1006,57,20,40,3,0,0,-1,0,0,0
+10,175,"Engagement Time - From 8 or More Visits (4th Quartile)",1840,929,93,20,8,3,0,0,0,0,0,0
+1,176,175,173,0,0,0,0,0,64,0,-1--1--1,,1|(1798,957)|
+1,177,164,173,1,0,0,0,0,64,0,-1--1--1,,1|(1724,948)|
+10,178,"Actual Completers Who Graduate %",1586,420,61,20,8,3,0,0,0,0,0,0
+10,179,"Starting LowD %",1608,696,53,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,180,"Starting MidD %",1608,824,51,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,181,"Starting HighD %",1617,938,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,182,179,140,0,0,0,0,0,128,0,-1--1--1,,1|(1581,720)|
+1,183,180,154,0,0,0,0,0,128,0,-1--1--1,,1|(1579,844)|
+1,184,181,168,0,0,0,0,0,128,0,-1--1--1,,1|(1590,959)|
+10,185,New Patient Scheduling Efficiency,116,104,70,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||64-160-98
+10,186,Pts per appt,2,94,41,11,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,187,Starting Psychotherapy,-14,18,49,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,188,Appointments Available for New Patients,-338,16,60,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,189,185,187,0,0,0,0,0,128,0,-1--1--1,,1|(56,64)|
+1,190,186,187,0,0,0,0,0,128,0,-1--1--1,,1|(-3,66)|
+10,191,EightPlusAfter,1741,1063,46,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,192,164,191,0,2,0,0,0,128,0,-1--1--1,,1|(1704,1019)|
+1,193,150,191,0,2,0,0,0,128,0,-1--1--1,,1|(1699,961)|
+1,194,136,191,0,2,0,0,0,128,0,-1--1--1,,1|(1699,901)|
+10,195,TwoSevenAfter,893,1115,51,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,196,112,195,0,2,0,0,0,128,0,-1--1--1,,1|(877,1053)|
+1,197,98,195,0,2,0,0,0,128,0,-1--1--1,,1|(872,997)|
+1,198,84,195,0,2,0,0,0,128,0,-1--1--1,,1|(872,937)|
+10,199,OneAfter,273,1103,31,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,200,65,199,0,2,0,0,0,128,0,-1--1--1,,1|(191,1051)|
+1,201,53,199,0,2,0,0,0,128,0,-1--1--1,,1|(185,993)|
+1,202,41,199,0,2,0,0,0,128,0,-1--1--1,,1|(184,929)|
+10,203,Initiators who will Quit,820,90,40,20,3,3,0,0,0,0,0,0
+12,204,48,657,90,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,205,207,203,4,0,0,22,0,0,0,-1--1--1,,1|(750,88)|
+1,206,207,204,100,0,0,22,0,0,0,-1--1--1,,1|(687,88)|
+11,207,48,714,88,6,8,34,3,0,0,1,0,0,0
+10,208,Initiation Rate who will Quit,714,116,64,20,40,131,0,0,-1,0,0,0
+12,209,48,1053,91,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,210,212,209,4,0,0,22,0,0,0,-1--1--1,,1|(1000,91)|
+1,211,212,203,100,0,0,22,0,0,0,-1--1--1,,1|(902,91)|
+11,212,48,951,91,6,8,34,3,0,0,1,0,0,0
+10,213,Ending During Visit 2 to 7 Rate,951,119,69,20,40,3,0,0,-1,0,0,0
+1,214,126,208,1,0,0,0,0,128,0,-1--1--1,,1|(615,189)|
+1,215,203,212,1,0,0,0,0,128,0,-1--1--1,,1|(901,59)|
+10,216,"ET - Initiators Who Quit Early",1016,26,63,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,217,216,212,0,0,0,0,0,128,0,-1--1--1,,1|(980,61)|
+10,218,Initiators who will Continue,825,256,53,19,3,131,0,0,0,0,0,0
+1,219,220,218,4,0,0,22,2,0,0,-1--1--1,|12||0-0-0,1|(738,260)|
+11,220,668,698,260,6,8,34,3,0,0,1,0,0,0
+10,221,Initiation Rate who will Complete,698,288,64,20,40,3,0,0,-1,0,0,0
+12,222,48,1045,258,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,223,225,222,4,0,0,22,0,0,0,-1--1--1,,1|(1002,258)|
+1,224,225,218,100,0,0,22,0,0,0,-1--1--1,,1|(917,258)|
+11,225,48,963,258,6,8,34,3,0,0,1,0,0,0
+10,226,Continuting on to Visit 8 Rate,963,286,58,20,40,3,0,0,-1,0,0,0
+1,227,218,225,1,0,0,0,0,128,0,-1--1--1,,1|(924,224)|
+10,228,"ET - Initiators Who Complete",1008,193,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,229,228,225,0,0,0,0,0,128,0,-1--1--1,,1|(984,227)|
+1,230,39,221,0,0,0,0,0,128,0,-1--1--1,,1|(606,205)|
+1,231,39,208,0,0,0,0,0,128,0,-1--1--1,,1|(614,124)|
+1,232,226,30,1,0,0,0,0,128,0,-1--1--1,,1|(1075,285)|
+10,233,"Actual Initiators Who Complete %",823,326,70,20,8,3,0,0,0,0,0,0
+1,234,233,221,0,0,0,0,0,128,0,-1--1--1,,1|(766,308)|
+1,235,233,15,0,0,0,0,0,128,0,-1--1--1,,1|(745,377)|
+1,236,126,16,0,0,0,0,0,128,0,-1--1--1,,1|(569,421)|
+10,237,Patients in Care More Than 3 Months,798,1207,72,20,8,3,2,0,0,0,0,0
+1,238,199,237,0,2,0,0,0,128,0,-1--1--1,,1|(508,1149)|
+1,239,195,237,0,2,0,0,0,128,0,-1--1--1,,1|(855,1151)|
+1,240,191,237,0,2,0,0,0,128,0,-1--1--1,,1|(1289,1131)|
+1,241,8,36,1,0,0,0,0,128,0,-1--1--1,,1|(1013,-114)|
+1,242,228,36,1,0,0,0,0,128,0,-1--1--1,,1|(1205,137)|
+12,243,0,488,1122,113,113,6,135,0,0,-1,0,0,0
+For >3mo, the data pull will always underestimate the actual # of patients, because we only include patients with 1 or more visits in this past quarter.
+10,244,Patients in Visits 2 to 7,786,14,54,20,8,3,2,0,0,0,0,0
+1,245,11,244,0,2,0,0,0,128,0,-1--1--1,,1|(788,223)|
+1,246,218,244,0,2,0,0,0,128,0,-1--1--1,,1|(806,142)|
+1,247,203,244,0,2,0,0,0,128,0,-1--1--1,,1|(806,57)|
+12,248,48,650,261,10,8,0,3,0,0,-1,0,0,0
+1,249,220,248,100,0,0,22,0,0,0,-1--1--1,,1|(676,260)|
+10,250,"User-defined Initiators Who Quit Early %",408,451,74,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,251,"Starters Who Initiate %",367,130,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,252,251,39,0,0,0,0,0,128,0,-1--1--1,,1|(428,130)|
+1,253,250,126,0,1,0,0,0,128,0,-1--1--1,,1|(434,425)|
+10,254,"Initiators Who Quit Early %",310,389,63,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,255,254,126,0,0,0,0,0,128,0,-1--1--1,,1|(380,389)|
+10,256,"User-defined Starters Who Initiate %",422,192,71,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,257,256,39,0,1,0,0,0,128,0,-1--1--1,,1|(467,165)|
+10,258,"Initiators Who Complete %",1014,329,47,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,259,258,233,0,0,0,0,0,128,0,-1--1--1,,1|(936,328)|
+10,260,"User-defined Initiators Who Complete %",1158,353,74,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,261,260,233,0,1,0,0,0,128,0,-1--1--1,,1|(995,340)|
+10,262,"User-defined Starters Who Return Later %",-320,529,71,20,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,263,"Starters Who Return Later %",-475,602,52,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,264,262,83,0,1,0,0,0,128,0,-1--1--1,,1|(-320,560)|
+1,265,263,83,0,0,0,0,0,128,0,-1--1--1,,1|(-413,603)|
+10,266,"User-defined Completers who Graduate %",1586,491,55,30,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,267,"Completers Who Graduate %",1739,419,56,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,268,267,178,0,0,0,0,0,128,0,-1--1--1,,1|(1672,419)|
+1,269,266,178,0,1,0,0,0,128,0,-1--1--1,,1|(1586,457)|
+10,270,"Engagement Time - From 1 Visit (1st Quartile)",278,722,86,20,8,3,0,0,0,0,0,0
+10,271,"Engagement Time - From 1 Visit (Mean)",295,840,67,20,8,3,0,0,0,0,0,0
+10,272,"Engagement Time - From 1 Visit (4th Quartile)",302,952,87,20,8,3,0,0,0,0,0,0
+1,273,270,50,0,0,0,0,0,128,0,-1--1--1,,1|(228,748)|
+1,274,271,62,0,0,0,0,0,128,0,-1--1--1,,1|(234,867)|
+1,275,272,74,0,0,0,0,0,128,0,-1--1--1,,1|(243,980)|
+10,276,Time to Percieve Supply for New Pts,-127,89,63,20,8,3,0,0,0,0,0,0
+10,277,Percieved New pts appt Supply,-181,17,46,24,3,131,0,0,0,0,0,0
+1,278,188,277,0,0,0,0,0,128,0,-1--1--1,,1|(-259,16)|
+1,279,276,277,0,0,0,0,0,128,0,-1--1--1,,1|(-148,60)|
+1,280,277,187,0,0,0,0,0,128,0,-1--1--1,,1|(-106,17)|
+10,281,Graduation Rate,1590,343,54,11,8,3,0,0,0,0,0,0
+1,282,35,281,0,0,0,0,0,128,0,-1--1--1,,1|(1484,320)|
+1,283,178,281,0,0,0,0,0,128,0,-1--1--1,,1|(1587,384)|
+10,284,Change in Engagement Time of Patients Past 3 Months,1081,596,79,30,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,285,284,272,0,1,0,0,0,128,0,-1--1--1,,1|(686,776)|
+1,286,284,271,0,1,0,0,0,128,0,-1--1--1,,1|(687,717)|
+1,287,284,270,0,1,0,0,0,128,0,-1--1--1,,1|(689,656)|
+1,288,284,123,0,1,0,0,0,128,0,-1--1--1,,1|(1057,772)|
+1,289,284,109,0,1,0,0,0,128,0,-1--1--1,,1|(1050,718)|
+1,290,284,95,0,1,0,0,0,128,0,-1--1--1,,1|(1048,657)|
+1,291,284,175,0,1,0,0,0,128,0,-1--1--1,,1|(1465,764)|
+1,292,284,161,0,1,0,0,0,128,0,-1--1--1,,1|(1451,706)|
+1,293,284,147,0,1,0,0,0,128,0,-1--1--1,,1|(1437,642)|
+10,294,"ET - From 1 Visit (1st Quartile)",452,720,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,295,"ET - From 1 Visit (Mean)",467,839,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,296,"ET - From 1 Visit (4th Quartile)",480,951,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,297,294,270,0,0,0,0,0,128,0,-1--1--1,,1|(387,720)|
+1,298,295,271,0,0,0,0,0,128,0,-1--1--1,,1|(394,839)|
+1,299,296,272,0,0,0,0,0,128,0,-1--1--1,,1|(414,951)|
+10,300,"ET - From 2 to 7 Visits (1st Quartile)",1203,722,73,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,301,"ET - From 2 to 7 Visits (Mean)",1207,846,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,302,"ET - From 2 to 7 Visits (4th Quartile)",1222,954,73,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,303,300,95,0,0,0,0,0,128,0,-1--1--1,,1|(1121,721)|
+1,304,301,109,0,0,0,0,0,128,0,-1--1--1,,1|(1134,845)|
+1,305,302,123,0,0,0,0,0,128,0,-1--1--1,,1|(1141,953)|
+10,306,"ET - From 8 or More Visits (1st Quartile)",2001,693,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,307,"ET - From 8 or More Visits (Mean)",2005,817,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,308,"ET - From 8 or More Visits (4th Quartile)",2020,928,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,309,306,147,0,0,0,0,0,128,0,-1--1--1,,1|(1930,693)|
+1,310,307,161,0,0,0,0,0,128,0,-1--1--1,,1|(1931,817)|
+1,311,308,175,0,0,0,0,0,128,0,-1--1--1,,1|(1950,928)|
+10,312,Time,510,199,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,313,312,39,0,3,0,0,0,64,0,-1--1--1,,1|(514,176)|
+10,314,Time,599,471,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,315,314,126,0,3,0,0,0,64,0,-1--1--1,,1|(548,438)|
+10,316,Time,892,336,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,317,316,233,0,3,0,0,0,64,0,-1--1--1,,1|(885,335)|
+10,318,Time,-415,644,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,319,318,83,0,3,0,0,0,64,0,-1--1--1,,1|(-385,631)|
+10,320,Time,1743,316,28,11,8,2,15,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,321,320,178,0,15,0,0,0,64,0,-1--1--1,,1|(1677,359)|
+1,322,323,1,4,0,0,22,0,0,0,-1--1--1,,1|(25,-64)|
+11,323,44,-6,-64,6,8,34,3,0,0,1,0,0,0
+10,324,Starting Rate,-6,-45,44,11,40,3,0,0,-1,0,0,0
+1,325,187,324,1,0,0,0,0,128,0,-1--1--1,,1|(-18,-17)|
+10,326,"<3mo Visit 1 who can start 2",42,272,40,20,3,3,0,0,0,0,0,0
+12,327,48,-121,263,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+12,328,48,206,271,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,329,331,328,4,0,0,22,0,0,0,-1--1--1,,1|(172,271)|
+1,330,331,326,100,0,0,22,0,0,0,-1--1--1,,1|(109,271)|
+11,331,48,142,271,6,8,34,3,0,0,1,0,0,0
+10,332,Ending who can Initiate,142,290,54,20,40,3,0,0,-1,0,0,0
+1,333,326,331,1,0,0,0,0,64,0,-1--1--1,,1|(96,243)|
+1,334,335,326,4,0,0,22,0,0,0,-1--1--1,,1|(-26,264)|
+11,335,620,-61,264,6,8,34,3,0,0,1,0,0,0
+10,336,Starting Rate who can Initiate,-61,292,61,20,40,3,0,0,-1,0,0,0
+1,337,8,331,1,0,0,0,0,128,0,-1--1--1,,1|(157,259)|
+10,338,Starting Psychotherapy who can start 2,-44,189,78,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,339,Percieved New pts appt Supply who can start 2,-177,168,52,26,3,131,0,0,0,0,0,0
+1,340,339,338,0,0,0,0,0,128,0,-1--1--1,,1|(-130,176)|
+1,341,338,335,0,0,0,0,0,128,0,-1--1--1,,1|(-51,226)|
+1,342,185,338,0,0,0,0,0,128,0,-1--1--1,,1|(42,143)|
+1,343,186,338,0,0,0,0,0,128,0,-1--1--1,,1|(-15,130)|
+1,344,276,339,0,0,0,0,0,128,0,-1--1--1,,1|(-145,119)|
+10,345,Supply Available for New Pts who can start 2nd visit,-362,168,93,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,346,345,339,0,0,0,0,0,128,0,-1--1--1,,1|(-256,168)|
+1,347,332,208,1,0,0,0,0,64,0,-1--1--1,,1|(421,257)|
+1,348,332,221,0,0,0,0,0,64,0,-1--1--1,,1|(408,289)|
+1,349,332,16,1,0,0,0,0,64,0,-1--1--1,,1|(431,320)|
+10,350,Sankey One and More Laters,40,1340,55,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,351,FINAL TIME,54,1371,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,352,351,350,0,2,0,0,0,64,0,-1--1--1,,1|(56,1360)|
+1,353,70,350,0,2,0,0,0,64,0,-1--1--1,,1|(24,1172)|
+1,354,46,350,0,2,0,0,0,64,0,-1--1--1,,1|(19,1056)|
+1,355,58,350,0,2,0,0,0,64,0,-1--1--1,,1|(19,1115)|
+10,356,Time,54,1371,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,357,356,350,0,2,0,0,0,64,0,-1--1--1,,1|(56,1360)|
+10,358,Sankey Initiators who quit,808,1356,56,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,359,FINAL TIME,808,1387,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,360,359,358,0,2,0,0,0,64,0,-1--1--1,,1|(808,1376)|
+1,361,208,358,0,2,0,0,0,64,0,-1--1--1,,1|(759,729)|
+10,362,Time,808,1387,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,363,362,358,0,2,0,0,0,64,0,-1--1--1,,1|(808,1376)|
+10,364,Sankey Graduators,1138,1368,37,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,365,FINAL TIME,1196,1471,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,366,365,364,0,2,0,0,0,64,0,-1--1--1,,1|(1172,1430)|
+1,367,221,364,0,2,0,0,0,64,0,-1--1--1,,1|(914,821)|
+10,368,Time,1196,1471,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,369,368,364,0,2,0,0,0,64,0,-1--1--1,,1|(1172,1430)|
+1,370,178,364,0,2,0,0,0,64,0,-1--1--1,,1|(1364,887)|
+10,371,Sankey Initiators who Get More Later,1465,1380,72,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,372,FINAL TIME,1465,1411,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,373,372,371,0,2,0,0,0,64,0,-1--1--1,,1|(1465,1400)|
+1,374,16,371,0,2,0,0,0,64,0,-1--1--1,,1|(1068,913)|
+10,375,Time,1465,1411,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,376,375,371,0,2,0,0,0,64,0,-1--1--1,,1|(1465,1400)|
+10,377,Sankey Completers who Get More Later,1681,1373,67,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+1,378,178,377,0,2,0,0,0,64,0,-1--1--1,,1|(1632,889)|
+10,379,FINAL TIME,1681,1404,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,380,379,377,0,2,0,0,0,64,0,-1--1--1,,1|(1681,1393)|
+1,381,221,377,0,2,0,0,0,64,0,-1--1--1,,1|(1184,825)|
+10,382,Time,1681,1404,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,383,382,377,0,2,0,0,0,64,0,-1--1--1,,1|(1681,1393)|
+10,384,Sankey Initaitors,406,551,55,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,385,FINAL TIME,506,581,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,386,385,384,0,2,0,0,0,64,0,-1--1--1,,1|(462,567)|
+1,387,208,384,0,2,0,0,0,64,0,-1--1--1,,1|(560,332)|
+1,388,221,384,0,2,0,0,0,64,0,-1--1--1,,1|(552,419)|
+1,389,16,384,0,2,0,0,0,64,0,-1--1--1,,1|(537,506)|
+10,390,Time,406,582,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,391,390,384,0,2,0,0,0,64,0,-1--1--1,,1|(406,573)|
+10,392,Sankey Completers,1230,491,39,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,393,FINAL TIME,1262,540,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,394,393,392,0,2,0,0,0,64,0,-1--1--1,,1|(1252,525)|
+1,395,221,392,0,2,0,0,0,64,0,-1--1--1,,1|(963,389)|
+10,396,Time,1195,539,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,397,396,392,0,2,0,0,0,64,0,-1--1--1,,1|(1204,525)|
+10,398,Sankey One and Dones,301,1336,55,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+1,399,83,398,0,2,0,0,0,64,0,-1--1--1,,1|(-15,965)|
+1,400,39,398,0,2,0,0,0,128,0,-1--1--1,,1|(414,727)|
+10,401,Sankey E2,239,549,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+1,402,384,401,0,2,0,0,0,128,0,-1--1--1,,1|(319,550)|
+10,403,"Sankey One n Dones + Initiators + One n More Laters",-242,930,68,42,8,131,2,2,0,0,0,0,-1--1--1,0-0-0,|10||128-0-128
+1,404,384,403,0,2,0,0,0,64,0,-1--1--1,,1|(113,722)|
+1,405,350,403,0,2,0,0,0,128,0,-1--1--1,,1|(-89,1151)|
+1,406,398,403,0,2,0,0,0,128,0,-1--1--1,,1|(50,1148)|
+10,407,FINAL TIME,-313,832,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,408,407,403,0,2,0,0,0,64,0,-1--1--1,,1|(-293,859)|
+10,409,Time,-222,838,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,410,409,403,0,2,0,0,0,64,0,-1--1--1,,1|(-226,861)|
+10,411,FINAL TIME,-62,1452,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,412,Time,-62,1452,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,413,403,401,0,2,0,0,0,128,0,-1--1--1,,1|(12,728)|
+10,414,FINAL TIME,290,508,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,415,414,401,0,2,0,0,0,64,0,-1--1--1,,1|(270,524)|
+10,416,Time,207,506,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,417,416,401,0,2,0,0,0,64,0,-1--1--1,,1|(218,521)|
+10,418,Sankey E3,299,1449,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+1,419,398,418,0,2,0,0,0,128,0,-1--1--1,,1|(300,1390)|
+1,420,403,418,0,2,0,0,0,128,0,-1--1--1,,1|(38,1200)|
+10,421,FINAL TIME,299,1480,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,422,421,418,0,2,0,0,0,64,0,-1--1--1,,1|(299,1471)|
+10,423,Time,299,1480,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,424,423,418,0,2,0,0,0,64,0,-1--1--1,,1|(299,1471)|
+10,425,Sankey E4,-28,1400,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+1,426,350,425,0,2,0,0,0,128,0,-1--1--1,,1|(6,1369)|
+1,427,403,425,0,2,0,0,0,128,0,-1--1--1,,1|(-130,1174)|
+1,428,412,425,0,2,0,0,0,128,0,-1--1--1,,1|(-48,1431)|
+1,429,411,425,0,2,0,0,0,128,0,-1--1--1,,1|(-48,1431)|
+10,430,"% One-n-Dones",327,-30,37,18,8,131,1,0,0,0,0,0
+1,431,39,430,1,1,0,0,0,64,0,-1--1--1,,1|(491,38)|
+10,432,Sankey E5,744,1419,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+1,433,358,432,0,2,0,0,0,128,0,-1--1--1,,1|(776,1387)|
+1,434,384,432,0,2,0,0,0,128,0,-1--1--1,,1|(571,978)|
+10,435,FINAL TIME,744,1450,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,436,435,432,0,2,0,0,0,64,0,-1--1--1,,1|(744,1441)|
+10,437,Time,744,1450,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,438,437,432,0,2,0,0,0,64,0,-1--1--1,,1|(744,1441)|
+10,439,Sankey E6,1372,1459,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,440,FINAL TIME,1372,1490,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,441,440,439,0,2,0,0,0,64,0,-1--1--1,,1|(1372,1481)|
+1,442,384,439,0,2,0,0,0,64,0,-1--1--1,,1|(883,1000)|
+1,443,371,439,0,2,0,0,0,64,0,-1--1--1,,1|(1418,1419)|
+10,444,Time,1372,1490,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,445,444,439,0,2,0,0,0,64,0,-1--1--1,,1|(1372,1481)|
+10,446,Sankey E7,1106,474,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,447,FINAL TIME,1112,513,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,448,447,446,0,2,0,0,0,64,0,-1--1--1,,1|(1110,500)|
+1,449,392,446,0,2,0,0,0,64,0,-1--1--1,,1|(1174,483)|
+1,450,384,446,0,2,0,0,0,64,0,-1--1--1,,1|(757,512)|
+10,451,Time,1059,512,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,452,451,446,0,2,0,0,0,64,0,-1--1--1,,1|(1076,497)|
+10,453,Sankey E8,1003,1439,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,454,FINAL TIME,1003,1470,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,455,454,453,0,2,0,0,0,64,0,-1--1--1,,1|(1003,1461)|
+1,456,392,453,0,2,0,0,0,64,0,-1--1--1,,1|(1117,962)|
+1,457,364,453,0,2,0,0,0,64,0,-1--1--1,,1|(1068,1404)|
+10,458,Time,1003,1470,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,459,458,453,0,2,0,0,0,64,0,-1--1--1,,1|(1003,1461)|
+10,460,Sankey E9,1550,1446,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,461,FINAL TIME,1550,1477,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,462,461,460,0,2,0,0,0,64,0,-1--1--1,,1|(1550,1468)|
+1,463,392,460,0,2,0,0,0,64,0,-1--1--1,,1|(1388,966)|
+1,464,377,460,0,2,0,0,0,64,0,-1--1--1,,1|(1613,1410)|
+10,465,Time,1550,1477,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,466,465,460,0,2,0,0,0,64,0,-1--1--1,,1|(1550,1468)|
+10,467,FINAL TIME,301,1376,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,468,467,398,0,2,0,0,0,64,0,-1--1--1,,1|(301,1367)|
+10,469,Time,301,1376,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,470,469,398,0,2,0,0,0,64,0,-1--1--1,,1|(301,1367)|
+1,471,324,398,0,2,0,0,0,64,0,-1--1--1,,1|(144,634)|
+10,472,Experiment wk,571,216,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,473,472,39,0,3,0,0,0,64,0,-1--1--1,,1|(551,180)|
+10,474,Experiment wk,-377,667,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,475,474,83,0,3,0,0,0,64,0,-1--1--1,,1|(-354,641)|
+10,476,Experiment wk,1015,761,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,477,476,95,0,3,0,0,0,64,0,-1--1--1,,1|(1015,741)|
+10,478,Experiment wk,1019,885,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,479,478,109,0,3,0,0,0,64,0,-1--1--1,,1|(1019,865)|
+10,480,Experiment wk,1034,993,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,481,480,123,0,3,0,0,0,64,0,-1--1--1,,1|(1034,973)|
+10,482,Experiment wk,531,470,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,483,482,126,0,3,0,0,0,64,0,-1--1--1,,1|(505,435)|
+10,484,Experiment wk,1736,355,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,485,484,178,0,3,0,0,0,64,0,-1--1--1,,1|(1668,384)|
+10,486,Experiment wk,843,375,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,487,486,233,0,3,0,0,0,64,0,-1--1--1,,1|(835,356)|
+10,488,Experiment wk,278,762,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,489,488,270,0,3,0,0,0,64,0,-1--1--1,,1|(278,742)|
+10,490,Experiment wk,295,880,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,491,490,271,0,3,0,0,0,64,0,-1--1--1,,1|(295,860)|
+10,492,Experiment wk,302,992,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,493,492,272,0,3,0,0,0,64,0,-1--1--1,,1|(302,972)|
+10,494,Ending After First Visit Rate,276,-109,57,20,8,3,0,0,0,0,0,0
+1,495,7,494,0,0,0,0,0,128,0,-1--1--1,,1|(222,-64)|
+1,496,430,494,0,1,0,0,0,128,0,-1--1--1,,1|(305,-62)|
+10,497,"Continuing Treatment Rate (after 3 Months) From Patients in First Visit",-133,605,103,30,8,3,0,0,0,0,0,0
+1,498,332,497,0,0,0,0,0,128,0,-1--1--1,,1|(14,437)|
+1,499,83,497,0,0,0,0,0,128,0,-1--1--1,,1|(-252,605)|
+1,500,497,45,1,0,0,0,0,128,0,-1--1--1,,1|(-95,685)|
+1,501,497,57,1,0,0,0,0,128,0,-1--1--1,,1|(-133,746)|
+1,502,497,69,1,0,0,0,0,128,0,-1--1--1,,1|(-169,817)|
+10,503,Ending Rate,970,1226,41,11,8,3,1,0,0,0,0,0
+1,504,122,503,0,1,0,0,0,128,0,-1--1--1,,1|(966,1122)|
+1,505,108,503,0,1,0,0,0,128,0,-1--1--1,,1|(961,1065)|
+1,506,94,503,0,1,0,0,0,128,0,-1--1--1,,1|(960,1006)|
+1,507,174,503,0,1,0,0,0,128,0,-1--1--1,,1|(1368,1116)|
+1,508,160,503,0,1,0,0,0,128,0,-1--1--1,,1|(1360,1061)|
+1,509,146,503,0,1,0,0,0,128,0,-1--1--1,,1|(1363,1001)|
+1,510,75,503,0,1,0,0,0,128,0,-1--1--1,,1|(585,1124)|
+1,511,63,503,0,1,0,0,0,128,0,-1--1--1,,1|(587,1069)|
+1,512,51,503,0,1,0,0,0,128,0,-1--1--1,,1|(585,1010)|
+10,513,Experiment wk,1821,734,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,514,513,147,0,3,0,0,0,64,0,-1--1--1,,1|(1821,714)|
+10,515,Experiment wk,1825,858,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,516,515,161,0,3,0,0,0,64,0,-1--1--1,,1|(1825,838)|
+10,517,Experiment wk,1840,969,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,518,517,175,0,3,0,0,0,64,0,-1--1--1,,1|(1840,949)|
+10,519,"%Visit1-n-Done",-323,462,53,11,8,3,3,0,0,0,0,0
+1,520,263,519,0,3,0,0,0,128,0,-1--1--1,,1|(-399,532)|
+1,521,251,519,0,3,0,0,0,128,0,-1--1--1,,1|(19,297)|
+10,522,"%Visit2-7<3mo and More",512,71,53,20,8,3,3,0,0,0,0,0
+1,523,254,522,0,3,0,0,0,64,0,-1--1--1,,1|(406,235)|
+1,524,258,522,0,3,0,0,0,64,0,-1--1--1,,1|(769,203)|
+10,525,"%Visit8PL-n-More",1906,421,78,10,8,3,3,0,0,0,0,0
+1,526,267,525,1,3,0,0,0,128,0,-1--1--1,,1|(1827,399)|
+10,527,"Starters who Quit %",328,340,43,20,8,3,3,0,0,0,0,0
+1,528,251,527,0,3,0,0,0,64,0,-1--1--1,,1|(348,228)|
+1,529,263,527,0,3,0,0,0,64,0,-1--1--1,,1|(-76,472)|
+10,530,"Initators who Return Later %",258,452,52,20,8,3,3,0,0,0,0,0
+1,531,254,530,0,3,0,0,0,64,0,-1--1--1,,1|(288,415)|
+1,532,258,530,0,3,0,0,0,64,0,-1--1--1,,1|(645,388)|
+10,533,"Completers who Return %",1742,494,55,20,8,3,3,0,0,0,0,0
+1,534,267,533,0,3,0,0,0,64,0,-1--1--1,,1|(1739,449)|
+10,535,Initiation Rate,664,-48,47,11,8,131,2,0,0,0,0,0
+1,536,207,535,0,2,0,0,0,128,0,-1--1--1,,1|(692,29)|
+1,537,220,535,0,2,0,0,0,128,0,-1--1--1,,1|(682,115)|
+1,538,15,535,0,2,0,0,0,128,0,-1--1--1,,1|(673,195)|
+10,539,"Continuing Treatment Rate (after 3 Months) from Patients in Over 7 Visits",1394,421,101,30,8,3,0,0,0,0,0,0
+1,540,35,539,0,0,0,0,0,128,0,-1--1--1,,1|(1389,348)|
+1,541,178,539,0,0,0,0,0,128,0,-1--1--1,,1|(1517,420)|
+1,542,539,140,1,0,0,0,0,128,0,-1--1--1,,1|(1395,629)|
+1,543,539,154,1,0,0,0,0,128,0,-1--1--1,,1|(1358,645)|
+1,544,539,168,1,0,0,0,0,128,0,-1--1--1,,1|(1343,797)|
+10,545,"Actual Starters Who Return Later %",400,-108,72,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,546,545,430,0,1,0,0,0,128,0,-1--1--1,,1|(367,-73)|
+1,547,335,327,100,0,0,22,0,0,0,-1--1--1,,1|(-89,264)|
+1,548,323,2,100,0,0,22,0,0,0,-1--1--1,,1|(-37,-64)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Performance Measures
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,70,0
+10,1,Patients in First Visit,1133,750,77,16,8,130,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+10,2,Initiators who will Return,1101,621,65,20,8,130,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,3,Patients in Over 7 Visits,1094,521,68,25,8,130,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,4,"Total Pts <3months",858,593,35,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,5,1,4,0,0,0,0,0,128,0,-1--1--1,,1|(1005,676)|
+1,6,2,4,0,0,0,0,0,128,0,-1--1--1,,1|(971,606)|
+1,7,3,4,0,0,0,0,0,128,0,-1--1--1,,1|(966,559)|
+10,8,EBP Bronze Standard for Depression,847,-215,72,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0
+10,9,EBP Gold Standard for Depression,1215,-214,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0
+10,10,Total Pts in Psych,974,793,57,11,8,3,0,0,0,0,0,0
+10,11,HS Gold Standard for Depression,914,124,70,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0
+10,12,Initiators who will Quit,1107,691,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,13,Initiators who will Continue,1109,423,65,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,14,12,4,0,0,0,0,0,128,0,-1--1--1,,1|(981,641)|
+1,15,13,4,0,0,0,0,0,128,0,-1--1--1,,1|(989,504)|
+10,16,EBP Silver Standard for Depression,1037,-213,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160
+10,17,HS Silver Standard for Depression,748,119,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,18,4,10,1,0,0,0,0,128,0,-1--1--1,,1|(914,724)|
+1,19,16,9,0,0,0,0,0,128,0,-1--1--1,,1|(1120,-213)|
+10,20,"DEP within 3 months %",106,611,43,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,21,"PTSD within 3 months %",239,609,47,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,22,"AUD within 3 months %",342,603,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,23,"OUD within 3 months %",454,610,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,24,Patients in Care More Than 3 Months,1139,810,63,27,8,130,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128
+1,25,24,10,0,0,0,0,0,128,0,-1--1--1,,1|(1060,801)|
+1,26,17,16,0,0,0,0,0,128,0,-1--1--1,,1|(887,-42)|
+10,27,HS Gold Standard for PTSD,915,196,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0
+10,28,HS Silver Standard for PTSD,749,191,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,29,Total Initiators,777,492,48,11,8,3,0,0,0,0,0,0
+1,30,12,29,0,0,0,0,0,128,0,-1--1--1,,1|(940,590)|
+1,31,2,29,0,0,0,0,0,128,0,-1--1--1,,1|(934,554)|
+1,32,13,29,0,0,0,0,0,128,0,-1--1--1,,1|(941,457)|
+10,33,"# Pts <3mo in Team with Depression",118,536,69,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,34,"# Pts <3mo in Team w/PTSD",111,475,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,35,"# Pts <3mo in Team w/AUD",113,408,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+10,36,"# Pts <3mo in Team w/OUD",115,361,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,37,4,36,0,0,0,0,0,128,0,-1--1--1,,1|(499,481)|
+1,38,4,35,0,0,0,0,0,128,0,-1--1--1,,1|(498,503)|
+1,39,4,34,0,0,0,0,0,128,0,-1--1--1,,1|(497,536)|
+1,40,4,33,0,0,0,0,0,128,0,-1--1--1,,1|(511,566)|
+1,41,20,33,0,0,0,0,0,128,0,-1--1--1,,1|(110,580)|
+1,42,21,34,0,0,0,0,0,128,0,-1--1--1,,1|(179,547)|
+1,43,22,35,0,0,0,0,0,128,0,-1--1--1,,1|(232,510)|
+1,44,23,36,0,0,0,0,0,128,0,-1--1--1,,1|(290,489)|
+1,45,20,17,0,0,0,0,0,128,0,-1--1--1,,1|(420,369)|
+1,46,29,17,0,0,0,0,0,128,0,-1--1--1,,1|(763,316)|
+1,47,3,11,0,0,0,0,0,128,0,-1--1--1,,1|(1005,326)|
+1,48,20,11,0,0,0,0,0,128,0,-1--1--1,,1|(503,371)|
+1,49,29,28,0,0,0,0,0,128,0,-1--1--1,,1|(763,352)|
+1,50,21,28,0,0,0,0,0,128,0,-1--1--1,,1|(488,404)|
+1,51,20,11,0,0,0,0,0,128,0,-1--1--1,,1|(503,371)|
+1,52,21,27,0,0,0,0,0,128,0,-1--1--1,,1|(570,406)|
+1,53,3,27,0,0,0,0,0,128,0,-1--1--1,,1|(1006,362)|
+10,54,EBP Bronze Standard for PTSD,902,-145,62,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0
+10,55,EBP Gold Standard for PTSD,1284,-144,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0
+10,56,EBP Silver Standard for PTSD,1092,-143,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160
+1,57,56,55,0,0,0,0,0,128,0,-1--1--1,,1|(1182,-143)|
+1,58,28,56,0,0,0,0,0,128,0,-1--1--1,,1|(914,28)|
+10,59,HS Gold Standard for AUD,915,266,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0
+10,60,HS Silver Standard for AUD,749,261,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,61,29,60,0,0,0,0,0,64,0,-1--1--1,,1|(764,387)|
+1,62,22,60,0,0,0,0,0,64,0,-1--1--1,,1|(539,436)|
+1,63,22,59,0,0,0,0,0,64,0,-1--1--1,,1|(621,438)|
+10,64,HS Gold Standard for OUD,918,335,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0
+10,65,HS Silver Standard for OUD,752,330,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0
+1,66,29,65,0,0,0,0,0,64,0,-1--1--1,,1|(766,422)|
+1,67,23,65,0,0,0,0,0,64,0,-1--1--1,,1|(597,474)|
+1,68,23,64,0,0,0,0,0,64,0,-1--1--1,,1|(679,476)|
+10,69,EBP Bronze Standard for AUD,966,-80,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0
+10,70,EBP Gold Standard for AUD,1348,-78,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0
+10,71,EBP Silver Standard for AUD,1156,-78,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160
+1,72,71,70,0,0,0,0,0,128,0,-1--1--1,,1|(1246,-78)|
+1,73,60,71,0,0,0,0,0,64,0,-1--1--1,,1|(946,95)|
+10,74,EBP Bronze Standard for OUD,1029,-16,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0
+10,75,EBP Gold Standard for OUD,1411,-14,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0
+10,76,EBP Silver Standard for OUD,1219,-14,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160
+1,77,76,75,0,0,0,0,0,128,0,-1--1--1,,1|(1309,-14)|
+1,78,65,76,0,0,0,0,0,64,0,-1--1--1,,1|(979,162)|
+1,79,3,64,0,0,0,0,0,128,0,-1--1--1,,1|(1008,430)|
+1,80,3,59,0,0,0,0,0,128,0,-1--1--1,,1|(1007,396)|
+10,81,Octane Ratio,795,670,44,11,8,3,0,0,0,0,0,0
+10,82,"HS Silver Standard - All",649,737,49,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-128-128
+10,83,"HS Gold Standard - All",647,818,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-192-0
+1,84,10,81,1,0,0,0,0,128,0,-1--1--1,,1|(855,727)|
+1,85,29,82,0,0,0,0,0,64,0,-1--1--1,,1|(718,603)|
+1,86,3,83,0,0,0,0,0,128,0,-1--1--1,,1|(872,668)|
+10,87,Team Data on New Patients Starts,186,-73,66,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,88,Start Rate Relative to Data,301,22,64,20,8,3,0,0,0,0,0,0
+1,89,87,88,0,0,0,0,0,128,0,-1--1--1,,1|(237,-30)|
+10,90,Starting Psychotherapy,410,-80,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,91,90,88,0,0,0,0,0,128,0,-1--1--1,,1|(360,-34)|
+10,92,"HS Bronze Standard - All",662,671,46,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0
+1,93,4,92,0,0,0,0,0,128,0,-1--1--1,,1|(771,626)|
+10,94,HS Bronze Standard for Depression,588,121,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0
+10,95,HS Bronze Standard for PTSD,588,191,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0
+10,96,HS Bronze Standard for AUD,593,256,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0
+10,97,HS Bronze Standard for OUD,593,331,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0
+1,98,33,94,0,0,0,0,0,128,0,-1--1--1,,1|(347,333)|
+1,99,34,95,0,0,0,0,0,128,0,-1--1--1,,1|(342,336)|
+1,100,35,96,0,0,0,0,0,128,0,-1--1--1,,1|(340,335)|
+1,101,36,97,0,0,0,0,0,128,0,-1--1--1,,1|(341,346)|
+1,102,94,8,0,0,0,0,0,128,0,-1--1--1,,1|(712,-42)|
+1,103,95,54,0,0,0,0,0,128,0,-1--1--1,,1|(739,28)|
+1,104,96,69,0,0,0,0,0,128,0,-1--1--1,,1|(773,92)|
+1,105,97,74,0,0,0,0,0,128,0,-1--1--1,,1|(805,161)|
+10,106,"Patients with Adequate EBP Templates %",1025,-365,78,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,107,106,8,0,0,0,0,0,128,0,-1--1--1,,1|(941,-294)|
+1,108,106,54,0,0,0,0,0,64,0,-1--1--1,,1|(966,-261)|
+1,109,106,69,0,0,0,0,0,64,0,-1--1--1,,1|(996,-229)|
+1,110,106,74,0,0,0,0,0,64,0,-1--1--1,,1|(1026,-197)|
+1,111,106,16,0,0,0,0,0,64,0,-1--1--1,,1|(1029,-295)|
+1,112,106,56,0,0,0,0,0,64,0,-1--1--1,,1|(1056,-260)|
+1,113,106,71,0,0,0,0,0,64,0,-1--1--1,,1|(1087,-227)|
+1,114,106,76,0,0,0,0,0,64,0,-1--1--1,,1|(1118,-195)|
+1,115,106,9,0,0,0,0,0,64,0,-1--1--1,,1|(1114,-293)|
+1,116,106,55,0,0,0,0,0,64,0,-1--1--1,,1|(1148,-259)|
+1,117,106,70,0,0,0,0,0,64,0,-1--1--1,,1|(1180,-226)|
+1,118,106,75,0,0,0,0,0,64,0,-1--1--1,,1|(1212,-194)|
+10,119,"Octane Ratio - Initiators",787,736,49,20,8,3,0,0,0,0,0,0
+10,120,"Octane Ratio - Completers",798,816,49,20,8,3,0,0,0,0,0,0
+1,121,92,81,0,0,0,0,0,128,0,-1--1--1,,1|(722,670)|
+1,122,10,119,1,0,0,0,0,128,0,-1--1--1,,1|(893,768)|
+1,123,10,120,1,0,0,0,0,128,0,-1--1--1,,1|(953,798)|
+1,124,82,119,0,0,0,0,0,128,0,-1--1--1,,1|(711,736)|
+1,125,83,120,0,0,0,0,0,128,0,-1--1--1,,1|(720,817)|
+1,126,83,119,0,0,0,0,0,64,0,-1--1--1,,1|(710,780)|
+1,127,3,65,0,0,0,0,0,128,0,-1--1--1,,1|(924,426)|
+1,128,3,60,0,0,0,0,0,128,0,-1--1--1,,1|(923,392)|
+1,129,3,28,0,0,0,0,0,128,0,-1--1--1,,1|(923,358)|
+1,130,3,17,0,0,0,0,0,128,0,-1--1--1,,1|(923,322)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*UI Outputs
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,70,0
+10,1,SankeyScalar,660,460,35,17,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,2,A,544,390,8,11,8,3,0,0,0,0,0,0
+1,3,1,2,0,0,0,0,0,64,0,-1--1--1,,1|(597,422)|
+10,4,B,549,419,7,11,8,3,0,0,0,0,0,0
+1,5,1,4,0,0,0,0,0,64,0,-1--1--1,,1|(597,437)|
+10,6,C,557,449,8,11,8,3,0,0,0,0,0,0
+1,7,1,6,0,0,0,0,0,64,0,-1--1--1,,1|(601,453)|
+10,8,D,558,470,8,11,8,3,0,0,0,0,0,0
+1,9,1,8,0,0,0,0,0,64,0,-1--1--1,,1|(602,465)|
+10,10,E,566,492,7,11,8,3,0,0,0,0,0,0
+1,11,1,10,0,0,0,0,0,64,0,-1--1--1,,1|(605,477)|
+10,12,F,571,511,7,11,8,3,0,0,0,0,0,0
+1,13,1,12,0,0,0,0,0,64,0,-1--1--1,,1|(610,488)|
+10,14,G,579,533,8,11,8,3,0,0,0,0,0,0
+1,15,1,14,0,0,0,0,0,64,0,-1--1--1,,1|(619,496)|
+10,16,H,594,553,8,11,8,3,0,0,0,0,0,0
+1,17,1,16,0,0,0,0,0,64,0,-1--1--1,,1|(628,503)|
+10,18,"Exp-A",811,371,23,11,8,3,0,0,0,0,0,0
+10,19,"Exp-B",825,399,22,11,8,3,0,0,0,0,0,0
+10,20,"Exp-C",850,424,23,11,8,3,0,0,0,0,0,0
+10,21,"Exp-D",874,448,23,11,8,3,0,0,0,0,0,0
+10,22,"Exp-E",898,471,22,11,8,3,0,0,0,0,0,0
+10,23,"Exp-F",920,495,22,11,8,3,0,0,0,0,0,0
+10,24,"Exp-G",941,519,23,11,8,3,0,0,0,0,0,0
+10,25,"Exp-H",966,543,23,11,8,3,0,0,0,0,0,0
+10,26,FINAL TIME,1073,480,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,27,26,21,0,0,0,0,0,64,0,-1--1--1,,1|(964,462)|
+10,28,Time,1061,499,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,29,28,21,0,0,0,0,0,64,0,-1--1--1,,1|(972,474)|
+10,30,FINAL TIME,1102,537,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,31,30,22,0,0,0,0,0,64,0,-1--1--1,,1|(1000,504)|
+10,32,Time,1077,518,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,33,32,22,0,0,0,0,0,64,0,-1--1--1,,1|(992,495)|
+10,34,FINAL TIME,1148,582,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,35,34,23,0,0,0,0,0,64,0,-1--1--1,,1|(1037,539)|
+10,36,Time,1129,561,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,37,36,23,0,0,0,0,0,64,0,-1--1--1,,1|(1029,529)|
+10,38,FINAL TIME,1172,625,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,39,38,24,0,0,0,0,0,64,0,-1--1--1,,1|(1062,574)|
+10,40,Time,1153,602,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,41,40,24,0,0,0,0,0,64,0,-1--1--1,,1|(1052,562)|
+10,42,FINAL TIME,1178,674,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,43,42,25,0,0,0,0,0,64,0,-1--1--1,,1|(1077,612)|
+10,44,Time,1174,650,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,45,44,25,0,0,0,0,0,64,0,-1--1--1,,1|(1076,599)|
+10,46,FINAL TIME,878,342,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,47,46,18,0,0,0,0,0,64,0,-1--1--1,,1|(849,354)|
+10,48,Time,864,359,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,49,48,18,0,0,0,0,0,64,0,-1--1--1,,1|(842,362)|
+10,50,FINAL TIME,925,388,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,51,50,19,0,0,0,0,0,64,0,-1--1--1,,1|(865,394)|
+10,52,Time,934,409,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,53,52,19,0,0,0,0,0,64,0,-1--1--1,,1|(884,404)|
+10,54,FINAL TIME,1017,456,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,55,54,20,0,0,0,0,0,64,0,-1--1--1,,1|(924,438)|
+10,56,Time,1005,437,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,57,56,20,0,0,0,0,0,64,0,-1--1--1,,1|(932,430)|
+10,58,"Starters Who Initiate %",460,353,64,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,59,58,2,0,0,0,0,0,64,0,-1--1--1,,1|(513,376)|
+10,60,"Starters Who Initiate %",324,398,64,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,61,60,4,0,0,0,0,0,64,0,-1--1--1,,1|(458,409)|
+10,62,"Starters Who Return Later %",448,402,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,63,62,4,0,0,0,0,0,64,0,-1--1--1,,1|(519,413)|
+10,64,"Starters Who Return Later %",456,447,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,65,64,6,0,0,0,0,0,64,0,-1--1--1,,1|(527,448)|
+10,66,"Starters Who Initiate %",315,482,64,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,67,66,8,0,0,0,0,0,64,0,-1--1--1,,1|(457,474)|
+10,68,"Initiators Who Quit Early %",448,486,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,69,68,8,0,0,0,0,0,64,0,-1--1--1,,1|(524,475)|
+10,70,"Starters Who Initiate %",159,518,64,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,71,70,10,0,0,0,0,0,64,0,-1--1--1,,1|(384,503)|
+10,72,"Initiators Who Quit Early %",290,521,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,73,72,10,0,0,0,0,0,64,0,-1--1--1,,1|(450,504)|
+10,74,"Initiators Who Complete %",440,518,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,75,74,10,0,0,0,0,0,64,0,-1--1--1,,1|(534,498)|
+10,76,"Starters Who Initiate %",275,566,64,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,77,76,12,0,0,0,0,0,64,0,-1--1--1,,1|(444,534)|
+10,78,"Initiators Who Complete %",424,561,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,79,78,12,0,0,0,0,0,64,0,-1--1--1,,1|(514,529)|
+10,80,"Starters Who Initiate %",196,641,64,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,81,80,14,0,0,0,0,0,64,0,-1--1--1,,1|(408,580)|
+10,82,"Initiators Who Complete %",349,630,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,83,82,14,0,0,0,0,0,64,0,-1--1--1,,1|(476,576)|
+10,84,"Completers Who Graduate %",475,601,67,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,85,84,14,0,0,0,0,0,64,0,-1--1--1,,1|(531,563)|
+10,86,"Starters Who Initiate %",587,617,64,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,87,86,16,0,0,0,0,0,64,0,-1--1--1,,1|(589,587)|
+10,88,"Initiators Who Complete %",492,659,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,89,88,16,0,0,0,0,0,64,0,-1--1--1,,1|(543,605)|
+10,90,"Completers Who Graduate %",320,685,67,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,91,90,16,0,0,0,0,0,64,0,-1--1--1,,1|(466,614)|
+10,92,"C-Bars",697,774,25,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-0-128
+10,93,"D-Bars",802,773,25,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,94,"Bars E4-Initial",696,804,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,95,94,92,0,0,0,0,0,64,0,-1--1--1,,1|(696,796)|
+10,96,Sankey E5,698,848,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,97,Sankey E2,994,348,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,98,97,18,0,0,0,0,0,64,0,-1--1--1,,1|(898,359)|
+10,99,Sankey E3,1052,397,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,100,99,19,0,0,0,0,0,64,0,-1--1--1,,1|(934,397)|
+10,101,Sankey E4,1108,427,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,102,101,20,0,0,0,0,0,64,0,-1--1--1,,1|(975,425)|
+10,103,Sankey E2,1277,452,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,104,103,21,0,0,0,0,0,64,0,-1--1--1,,1|(1071,450)|
+10,105,Sankey E5,1179,456,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,106,105,21,0,0,0,0,0,64,0,-1--1--1,,1|(1022,451)|
+10,107,Sankey E2,1322,487,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,108,107,22,0,0,0,0,0,64,0,-1--1--1,,1|(1105,478)|
+10,109,Sankey E6,1212,488,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,110,109,22,0,0,0,0,0,64,0,-1--1--1,,1|(1050,479)|
+10,111,Sankey E2,1341,525,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,112,111,23,0,0,0,0,0,64,0,-1--1--1,,1|(1126,509)|
+10,113,Sankey E7,1226,524,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,114,113,23,0,0,0,0,0,64,0,-1--1--1,,1|(1068,509)|
+10,115,Sankey E2,1458,557,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,116,115,24,0,0,0,0,0,64,0,-1--1--1,,1|(1195,537)|
+10,117,Sankey E7,1356,557,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,118,117,24,0,0,0,0,0,64,0,-1--1--1,,1|(1144,537)|
+10,119,Sankey E8,1252,557,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,120,119,24,0,0,0,0,0,64,0,-1--1--1,,1|(1092,537)|
+10,121,Sankey E2,1465,595,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,122,121,25,0,0,0,0,0,64,0,-1--1--1,,1|(1211,568)|
+10,123,Sankey E7,1375,593,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,124,123,25,0,0,0,0,0,64,0,-1--1--1,,1|(1166,567)|
+10,125,Sankey E9,1282,592,44,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,126,125,25,0,0,0,0,0,64,0,-1--1--1,,1|(1120,567)|
+10,127,Bars E5,802,803,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,128,127,93,0,0,0,0,0,64,0,-1--1--1,,1|(802,795)|
+10,129,"E-Bars",902,773,24,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,130,Bars E6,902,803,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,131,130,129,0,0,0,0,0,64,0,-1--1--1,,1|(902,795)|
+10,132,"Bars E6 >3mo-Initial",898,839,44,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,133,132,129,0,0,0,0,0,64,0,-1--1--1,,1|(899,808)|
+10,134,"H-Bars",1101,772,29,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,135,Bars E7,1101,802,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,136,135,134,0,0,0,0,0,64,0,-1--1--1,,1|(1101,794)|
+10,137,Bars E8,1101,831,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,138,137,134,0,0,0,0,0,64,0,-1--1--1,,1|(1101,808)|
+10,139,"Bars E9-Initial",1101,863,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,140,139,134,0,0,0,0,0,64,0,-1--1--1,,1|(1101,824)|
+10,141,"G-Bars",1003,773,30,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,142,Bars E7,1003,803,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,143,142,141,0,0,0,0,0,64,0,-1--1--1,,1|(1003,795)|
+10,144,Bars E8,1003,834,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,145,144,141,0,0,0,0,0,64,0,-1--1--1,,1|(1003,810)|
+10,146,"Exp-C-Bars",698,918,40,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,147,"Exp-E-Bars",903,917,39,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,148,"Exp-H-Bars",1102,916,40,11,8,3,0,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128
+10,149,"Bars E4-Final",698,948,53,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,150,149,146,0,0,0,0,0,64,0,-1--1--1,,1|(698,940)|
+10,151,Bars E6,903,947,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,152,151,147,0,0,0,0,0,64,0,-1--1--1,,1|(903,939)|
+10,153,"Bars E6 >3mo-Final",903,995,43,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,154,153,147,0,0,0,0,0,64,0,-1--1--1,,1|(903,959)|
+10,155,Bars E7,1102,946,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,156,155,148,0,0,0,0,0,64,0,-1--1--1,,1|(1102,938)|
+10,157,Bars E8,1104,973,36,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,158,157,148,0,0,0,0,0,64,0,-1--1--1,,1|(1103,951)|
+10,159,"Bars E9-Final",1103,1011,53,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,160,159,148,0,0,0,0,0,64,0,-1--1--1,,1|(1102,970)|
+10,161,Patient Starts at Final Time,825,252,50,19,8,3,0,0,0,0,0,0
+10,162,FINAL TIME,1009,238,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,163,162,161,0,0,0,0,0,64,0,-1--1--1,,1|(921,244)|
+10,164,Time,838,179,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,165,164,161,0,0,0,0,0,64,0,-1--1--1,,1|(833,204)|
+10,166,Percent Change in Patient Starts,701,188,58,19,8,3,0,0,0,0,0,0
+1,167,161,166,0,0,0,0,0,128,0,-1--1--1,,1|(769,223)|
+10,168,"Exp-SankeyScalar",764,465,59,11,8,131,0,0,0,0,0,0
+1,169,1,168,0,0,0,0,0,128,0,-1--1--1,,1|(693,460)|
+1,170,166,168,0,0,0,0,0,128,0,-1--1--1,,1|(731,323)|
+10,171,FINAL TIME,629,333,55,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,172,171,168,0,0,0,0,0,64,0,-1--1--1,,1|(691,394)|
+10,173,Time,703,365,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,174,173,168,0,0,0,0,0,64,0,-1--1--1,,1|(729,409)|
+10,175,Patient Starts at Initial Time,832,104,50,19,8,3,0,0,0,0,0,0
+1,176,175,166,0,0,0,0,0,128,0,-1--1--1,,1|(772,142)|
+1,177,164,175,0,0,0,0,0,128,0,-1--1--1,,1|(836,152)|
+1,178,164,166,0,0,0,0,0,128,0,-1--1--1,,1|(792,181)|
+1,179,171,166,0,0,0,0,0,128,0,-1--1--1,,1|(659,270)|
+1,180,168,18,0,0,0,0,0,128,0,-1--1--1,,1|(783,424)|
+1,181,168,19,0,0,0,0,0,64,0,-1--1--1,,1|(789,437)|
+1,182,168,20,0,0,0,0,0,64,0,-1--1--1,,1|(800,447)|
+1,183,168,21,0,0,0,0,0,64,0,-1--1--1,,1|(830,454)|
+1,184,168,22,0,0,0,0,0,64,0,-1--1--1,,1|(842,468)|
+1,185,168,23,0,0,0,0,0,64,0,-1--1--1,,1|(852,481)|
+1,186,168,24,0,0,0,0,0,64,0,-1--1--1,,1|(852,491)|
+1,187,168,25,0,0,0,0,0,64,0,-1--1--1,,1|(860,502)|
+10,188,Starting Rate who can Initiate,961,182,62,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,189,188,175,0,0,0,0,0,128,0,-1--1--1,,1|(902,146)|
+1,190,188,161,0,0,0,0,0,128,0,-1--1--1,,1|(899,213)|
+///---\\\
+:GRAPH BehaviorOverTime
+:TITLE BehaviorOverTime
+:X-MIN -13
+:SCALE
+:VAR Appointment Supply
+:VAR "Supply Used by Pts <3mo"
+:VAR "Supply Used by Pts >3mo"
+:VAR Supply Available for New Pts
+:SCALE
+:VAR Starting Psychotherapy
+:SCALE
+:VAR Completion Rate
+
+:GRAPH Supply_Used
+:TITLE Supply Used
+:X-AXIS Time
+:X-MIN -13
+:STACK-FILL 6
+:SCALE
+:VAR Supply Used by New Patients
+:Y-MIN 0
+:VAR Supply Used by Initiators
+:Y-MIN 0
+:VAR Supply Used by Completers
+:Y-MIN 0
+:VAR Supply Used by New Patients who Return
+:Y-MIN 0
+:VAR Supply Used by Initiators who Return
+:Y-MIN 0
+:VAR Supply Used by Completers who Continue
+:Y-MIN 0
+
+:GRAPH Performance_Measures_Overview
+:TITLE Performance Measures Overview
+:X-MIN -13
+:SCALE
+:VAR Octane Ratio
+:SCALE
+:VAR "HS Silver Standard - All"
+:VAR "HS Gold Standard - All"
+
+:GRAPH Depression
+:TITLE % of Depression Pts Meeting Standard
+:X-MIN 0
+:SCALE
+:VAR EBP Bronze Standard for Depression
+:VAR EBP Silver Standard for Depression
+:VAR EBP Gold Standard for Depression
+:VAR HS Bronze Standard for Depression
+:VAR HS Silver Standard for Depression
+:VAR HS Gold Standard for Depression
+
+:GRAPH PTSD
+:TITLE % of PTSD Pts Meeting Standard
+:X-MIN 0
+:SCALE
+:VAR EBP Bronze Standard for PTSD
+:VAR EBP Silver Standard for PTSD
+:VAR EBP Gold Standard for PTSD
+:VAR HS Bronze Standard for PTSD
+:VAR HS Silver Standard for PTSD
+:VAR HS Gold Standard for PTSD
+
+:GRAPH AUD
+:TITLE % of AUD Pts Meeting Standard
+:X-MIN 0
+:SCALE
+:VAR EBP Bronze Standard for AUD
+:VAR EBP Silver Standard for AUD
+:VAR EBP Gold Standard for AUD
+:VAR HS Bronze Standard for AUD
+:VAR HS Silver Standard for AUD
+:VAR HS Gold Standard for AUD
+
+:GRAPH OUD
+:TITLE % of OUD Pts Meeting Standard
+:X-MIN 0
+:SCALE
+:VAR EBP Bronze Standard for OUD
+:VAR EBP Silver Standard for OUD
+:VAR EBP Gold Standard for OUD
+:VAR HS Bronze Standard for OUD
+:VAR HS Silver Standard for OUD
+:VAR HS Gold Standard for OUD
+:L<%^E!@
+1:PSY-Eqtest-Nov6.vdf
+9:PSY-Eqtest-Nov6
+22:$,Dollar,Dollars,$s
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+22:Day,Days
+23:0
+15:0,0,0,0,0,0
+19:70,5
+27:2,
+34:0,
+4:Time
+5:Supply Used by New Patients who Return
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:3
+41:0
+42:1
+24:-1000
+25:104
+26:104
