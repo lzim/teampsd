@@ -222,25 +222,25 @@ The measurement based stepped care for suicide prevention module shows the effec
 **System Story:**
 
 **Base Case:**
-  + Q - What would happen if we made no new decisions in our team?
+  + Q - What if we made no new decisions in our team?
   + H
   + F
   + D
     
 **Experiment 1:**
-  + Q
+  + Q - What if we implemented measurement based care in our team?
   + H
   + F
   + D
     
 **Experiment 2:** 
-  + Q
+  + Q - What if we implemented stepped care in our clinic?
   + H
   + F
   + D
     
 **Experiment 3:** 
-  + Q
+  + Q - What if we implemented both measurement based care and and stepped care?
   + H
   + F
   + D
