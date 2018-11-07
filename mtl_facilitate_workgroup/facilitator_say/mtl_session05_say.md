@@ -61,7 +61,7 @@ h.	Since there’s no current session, we will start a new one. Based on our dis
 
 4.	So now let’s go to that section and expand it. We want to Add (upload) the data file that you created before, so click Add. Since you need to enter the filename EXACTLY as it is named in the data UI folder, the best thing is to copy and paste it in here. So go to your Explorer window, grab that name, and come back here to paste it into the space. Pay attention to make sure it didn’t get truncated in the translation. Click Save and Voila: It’s now there! 
 
-a.	Other functions in this section are you can Sort the data file list either alphabetically or by date by clicking the column header. You can delete a file by selecting the checkbox and hitting delete. And you can rename a file – IS THIS TO CORRECT AN ERROR IN FILENAME OR CAN YOU RENAME IT TO SOMETHING MORE MEMORABLE ONCE IT’S UPLOADED?
+a.	Other functions in this section are you can Sort the data file list either alphabetically or by date by clicking the column header. You can delete a file by selecting the checkbox and hitting delete. And you can correct a file name to exactly match the one you're trying to load by selecting and Renaming it. (You can not change the name to something different or it won't bring in the data file you need anymore.)
 
 5.	Now let’s go back over to the Session section and click the Select Team Data button. Choose the data file you just uploaded and click Get File, and then click PLAY.
 
