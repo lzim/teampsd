@@ -26,13 +26,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the Expanded Outputs section to prepare for experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis by running experiment 1 and comparing results against the bc.
 
-
-**Done**  
-During the last session, our team ran the Base Case (bc) of no new decisions and recorded our question, hypothesis, findings and decisions in the Text section. 
-
-**Do**  
-During this session we will run an experiment with the team. To prepare for that, we asked you to log in to the team world at mtl.how/sim and explore the Results Dashboard in the Expanded Outputs section for the Base Case (bc) run.
-
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 

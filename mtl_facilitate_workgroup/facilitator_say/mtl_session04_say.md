@@ -26,15 +26,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. | 
 
-# Done
-Session 3 focused on how to produce team data for simulation using the data user interface. We explored a team data table that featured team trends over two years. We examined how the team numbers were derived and reviewed the descriptions and definitions for the data in the various tabs. We used our clinical expertise to analyze the team data and  trends to help us identify priorities for _MTL_ learning.
-
-Since last time, we searched to see if we could find something in the team data table, and completed the questions at mtl.how/menu.  
-
-# Do
-MTL.how/menu was created to help teams identify priorities for action in clinical care - challenges you're facing right now that we can investigate and learn from together using systems thinking and simulation. Today we will talk through the team's responses to the _MTL Menu_ to figure out our priority focus for the next several sessions of _MTL_.
-
-
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 

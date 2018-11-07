@@ -27,9 +27,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
 
-## Done and Do
-
-We logged in to mtl.how/live for screen-sharing in the team meeting and called in to the VANTS line for audio.
 
 Facilitator Introductions
 - Name, affiliation, expertise, role in MTL

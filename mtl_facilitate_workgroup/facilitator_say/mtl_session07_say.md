@@ -27,12 +27,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.| 
 
-## Done and Do
-
-We logged in to our individual worlds at mtl.how/sim and entered our question and hypothesis about the Base Case of no new decisions in the Text section. I’ll ask about your hypotheses when we get ready to run the Base Case as a team.
-
-Today we will run the Base Case and check out a new section of the sim UI – the Outputs section.
-
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -77,13 +71,6 @@ Caution: Only choose the Save and Reset button at the bottom when you’re finis
 15.	Save and Reset when you’re ready.
 
 16.	Log out of the sim UI.
-
-
-## Done and Do
-
-This time we ran our Base Case (bc) of no new decisions, recording our question, hypothesis, findings and decisions in the Text section. 
-
-Next time we will run an experiment. To prepare for that, log in to the team world at mtl.how/sim and explore the Results Dashboard in the Expanded Outputs section for the Base Case (bc) run.
 
 
 ## Done and Do (15 minutes)

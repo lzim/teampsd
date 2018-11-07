@@ -29,14 +29,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-## Done
-
-Last session, we discussed the team’s responses to the MTL Menu to identify team needs. The team priority that emerged was [   ]. At the end of the session we showed you how to log in to your individual and team worlds in the MTL sim UI; and the “Do” for between sessions was to try it on your own.
-
-## Do
-
-Today, we (the TeamLead) will log in to the team world and upload the team’s data – your Model Parameters File – to the sim UI. Then we’ll begin to explore the sim UI, first reviewing the team data in the Experiments section.
-
 ## Learning Objectives
 
 1. Describe the team data in the experiments tile.
@@ -100,17 +92,6 @@ e.	What types of decisions does the team make that affect these variables?
 11.	We are going to stop here for today and move into our Done/Do to wrap up. First, log out of the SimUI and the data UI.
 
 Before next time, what you can all do is log in to your individual World and explore the interface more, especially the Team Data Table and the “i” button. In particular, I’d like you to check the “i” information available in the rest of the Experiments section and the model diagram to get ready for our next session. So please type this in as a Decision: We decided to log in to our individual worlds and check the “i” information available throughout the sim UI.
-
-## Done and Do
-
-Today we logged in and uploaded our team data to the sim UI, and reviewed the data in the Team Data Table in the Experiments section.
-
-
-For next time, we will log in to our individual worlds at mtl.how/sim and check the “i” information available throughout the sim UI in the Model Diagram and the rest of the Experiments section. Track questions, hypotheses, insights/findings, and decisions that come to you in the Text section for future retrieval.
-
-
-You will see that while the “i” in formation in the Team Data Table tells you how the values in the table were calculated from team data, those in the rest of the Experiments section tell you what you are experimenting with in the model when you move that slider.
-
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
