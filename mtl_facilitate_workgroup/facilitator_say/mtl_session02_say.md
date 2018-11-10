@@ -20,11 +20,17 @@ output:
 # Today we're modeling to learn how to check our patient data and team trends.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to check our patient data and team trends.
 
+We’re showing the learner see guide for the session, found at *mtl.how*. As you see in the Done and Do table, we will also be using our MTL resources at mtl.how/data during this session.
+
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. |  
+
+Since last time, we identified a team lead and selected a standing meeting day and time. In this session, we will explore our team data and trends.  
+
+Scrolling down to our Learning Objectives, after this *MTL* session, we will be able to: *(read LO's)*
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -34,6 +40,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 1. Describe the decisions your team made in producing your team data table.  
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.  
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
+
+Today's in-session exercise will focus on your team data. Let's get started.
 
 # In-session Exercise (30 minutes)  
 
@@ -127,7 +135,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - What **viz** tab would you use to see what the most common service encounters or visits are?
 - Are there services that have been increasing over time? Are there services that  have been descreasing over time?
 
-## With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
+With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
+
+## That's it for *Modeling to Learn* how to check our patient data and team trends.
+
+Next is our Done/Do review. Today we selected the clinics that make up our team data file. Before next time we will review the health factors, diagnostic, encounter, and suicide prevention tabs in our team data to find a patient and find a team trend.  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -136,4 +148,4 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). | 
 
 
-
+# Until next time, thank you for Modeling to Learn!
