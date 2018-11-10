@@ -29,9 +29,9 @@ On the screen, we're showing the learner see guide for *MTL* session 4 available
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. | 
 
-As you see in the Done and Do table, we will be using the mtl.how/menu resource.
+As you see in the Done and Do table, today we are going to be logging into mtl.how/menu.
 
-Since last time, we hope you found something in the team data table and completed the mtl.how/menu. Today we will review the *MTL Menu* results to prioritize our team needs and select an MTL module.  
+Since last time, we hope you found something in the team data table and hopefully completed the mtl.how/menu. Today we will review the *MTL Menu* results to prioritize our team needs and select an MTL module.  
 
 Scrolling down to our Learning Objectives, after this session we’ll be able to… *(read LOs)*
 
