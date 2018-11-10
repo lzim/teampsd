@@ -18,13 +18,22 @@ output:
 # [MTL Live Session 04](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session04_see.Rmd "MTL Live Session 04")
 
 # Today we're modeling to learn how to prioritize team needs.
-Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to prioritize team needs.
+
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to prioritize team needs.  
+
+On the screen, we're showing the learner see guide for *MTL* session 4 available at mtl.how.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. | 
+
+As you see in the Done and Do table, we will be using the mtl.how/menu resource.
+
+Since last time, we hope you found something in the team data table and completed the mtl.how/menu. Today we will review the *MTL Menu* results to prioritize our team needs and select an MTL module.  
+
+Scrolling down to our Learning Objectives, after this session we’ll be able to… *(read LOs)*
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -37,7 +46,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 # In-session Exercise (30 minutes)
 
-1. Hopefully, you and all of your colleagues on the team completed the MTL Menu. For this video lesson, we will use a fictitious team's aggregated responses to talk through what's most important. You will receive a summary of your team's actual _MTL Menu_ responses; and in your _MTL_ email you'll see what the outcomes were of our discussion in this Session. 
+1. Hopefully, you and all of your colleagues on the team completed the MTL Menu. For this video lesson, we will use a fictitious team's aggregated responses to talk through what's most important. You will receive a summary of your team's actual _MTL Menu_ responses; and in your _MTL_ email you'll see what outcomes were discussed in this session. 
 
 + *INSERT IMAGE OF MTL.HOW/MENU RESULTS EXAMPLE*  
 
@@ -83,10 +92,16 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
    •	Reflect back the team discussion and suggest which need you heard as the team’s highest priority need.  
    •	Facilitate the team to reach consensus on which MTL module will best allow them to explore their highest priority need.  
 
-+ Based on the team's input, we have decided that your team's highest priority is INSERT TEXT and the *MTL* module that would best help your team explore actions around this priority is INSERT MODULE NAME.
++ Based on the team's input, we have decided that your team's highest priority is INSERT TEXT and the *MTL* module that would best help your team explore actions around this priority is INSERT MODULE NAME.  
+
+## That's it for modeling to learn how to prioritize team needs.  
+
+Next is our Done/Do review. Today we reviewed the MTL Menu results, prioritized our team needs, and selected an MTL module. Before next time, we will log into the MTL simulation user-interface (sim UI) at mtl.how/sim.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. | 
+
+## Until next time, thanks for *Modeling to Learn*!
