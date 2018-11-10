@@ -21,9 +21,12 @@ output:
 
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
 
-On the screen we're showing the learner see guide for session 1.
+Each *Modeling to Learn* or *MTL* session will start the same way. 
 
-As you can see in the Done and Do table at the top, today we are logging into mtl.how/live.
+First, we will show the MTL learner see guide for the session. The session 1 learner see guide is showing on the screen.
+
+Second, each *Modeling to Learn* session will start with a review of what we've done and what we will do next. You will hear our session facilitators say "Next is our Done/Do review." So, next is our Done/Do review!
+
 
 ## Do and Done (15 minutes)
 <!-- Do/Done Tables -->
@@ -31,18 +34,7 @@ As you can see in the Done and Do table at the top, today we are logging into mt
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
 
-
-Facilitator Introductions
-- Name, affiliation, expertise, role in MTL
-
-Team Introductions
-- Name, discipline, role in clinic
-- Missing team members?
-
-Address Technology Issues
-- Were there any technology issues with joining the audio or the video for this session?
-- INSERT LINKS TO Tips and troubleshooting
-- INSERT CONTACTS How to get help
+As you can see in the Done and Do table, today we are logging into mtl.how/live.
 
 
 <!-- Learning Objectives Icon --> 
@@ -126,7 +118,7 @@ Start by picturing Veteran mental health care in this team as you experience it 
 
 + The team can further wordsmith their Team Vision after the session if they want to. We will hold this vision up as a reminder of our shared goals to orient our learning throughout the MTL program.
 
-## Thank you for *Modeling to Learn* how to align our team vision. Next are Session 1’s done and dos.
+## Thank you for *Modeling to Learn* how to align our team vision. Next is our Done/Do review.
 
 ## Done/Do (15 minutes)
 <!-- Do/Done Tables -->
