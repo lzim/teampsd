@@ -37,6 +37,7 @@ Second, each *Modeling to Learn* session will start with a review of what we've 
 As you can see in the Done and Do table, today we are logging into mtl.how/live.
 
 
+
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
@@ -44,12 +45,13 @@ As you can see in the Done and Do table, today we are logging into mtl.how/live.
 
 1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
 2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
-3. Identify a shared team vision for learning from *Modeling to Learn*.
+3. Identify a shared team vision for learning from *Modeling to Learn*.  
 
 
-Today we are excited to launch *Modeling to Learn (MTL)* with Team ___________ and select a Team Vision for MTL.
+Today we are excited to launch *Modeling to Learn (MTL)* with Team ___________ and select a Team Vision for MTL.  
 
 Each *MTL* session will feature an in-session exercise. Let's start with our session 1 exercise.  
+
 
 ## Shared Interim Vision & In-session Exercise (5 minutes)
 
@@ -59,7 +61,7 @@ Identifying a shared purpose can be deeply motivating. We want to identify a sha
 
 Team learning is all about ‘alignment’ and getting people working in synch with one another to meet the needs of our Veteran patients. We will explore “What is” (retrospective data) and vision forward to “what we would like it to be” (future oriented). 
 
-The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What’s can be done better?” in a way that reflects common team aspirations.
+The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What’s can be done better?” in a way that reflects common team aspirations. 
 
 ## In-session Exercise (25 minutes)
 
@@ -118,7 +120,9 @@ Start by picturing Veteran mental health care in this team as you experience it 
 
 + The team can further wordsmith their Team Vision after the session if they want to. We will hold this vision up as a reminder of our shared goals to orient our learning throughout the MTL program.
 
+
 ## Thank you for *Modeling to Learn* how to align our team vision. Next is our Done/Do review.
+
 
 ## Done/Do (15 minutes)
 <!-- Do/Done Tables -->
