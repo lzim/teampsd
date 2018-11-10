@@ -21,6 +21,10 @@ output:
 
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
 
+On the screen we're showing the learner see guide for session 1.
+
+As you can see in the Done and Do table at the top, today we are logging into mtl.how/live.
+
 ## Do and Done (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
@@ -51,7 +55,9 @@ Address Technology Issues
 3. Identify a shared team vision for learning from *Modeling to Learn*.
 
 
-Today we are excited to launch Modeling to Learn (MTL) with Team ___________ and select a Team Vision for MTL.
+Today we are excited to launch *Modeling to Learn (MTL)* with Team ___________ and select a Team Vision for MTL.
+
+Each *MTL* session will feature an in-session exercise. Let's start with our session 1 exercise.  
 
 ## Shared Interim Vision & In-session Exercise (5 minutes)
 
@@ -119,6 +125,8 @@ Start by picturing Veteran mental health care in this team as you experience it 
 6.	Select the Team Vision
 
 + The team can further wordsmith their Team Vision after the session if they want to. We will hold this vision up as a reminder of our shared goals to orient our learning throughout the MTL program.
+
+## Thank you for *Modeling to Learn* how to align our team vision. Next are Session 1’s done and dos.
 
 ## Done/Do (15 minutes)
 <!-- Do/Done Tables -->
