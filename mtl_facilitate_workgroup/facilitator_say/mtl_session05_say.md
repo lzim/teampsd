@@ -18,7 +18,14 @@ output:
 # [MTL Live Session 05](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd "MTL Live Session 05")
 
 # Today we're modeling to learn how to log in to our team world.
-Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to log in to our team world.
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to log in to our team world.  
+
+On the screen, we're showing the learner see guide for MTL session 5 available at mtl.how.  
+
+As you see in the Done and Do table, today we are going to be logging into the *MTL* simulation user-interface at mtl.how/sim.
+
+Since last time, we checked to make sure we could log in to the sim UI. In this session, we will upload our team data to the sim UI and review our data in the Experiments section.  
+
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -26,18 +33,20 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the sim UI at mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. | 
 
+Let's review our Learning Objectives. After this *MTL* session you will be able to… (read LOs)  
+
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives
 
-1. Describe the team data in the experiments tile.
+1. Describe the team data in the Experiments tile.
 2. Test out the simulation user-interface for more information about team data.
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
 # In-session Exercise (30 minutes)
 
-1. Check the name of your team data file in Explorer. In session 3, we used our team data UI and clicked “Get Team Data Table for Sim UI” to produce our team data for simulation. Let’s now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file. The team data file for simulation is in our team folder, in the team_data_sim folder.
+1. Check the name of your team data file in Internet Explorer. In session 3, we used our team data UI and clicked “Get Team Data Table for Sim UI” to produce our team data for simulation. Let’s now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file. The team data file for simulation is in our team folder, in the team_data_sim folder.
 
 2.	Log in to the sim UI, which works best in a Chrome browser. Open a new browser window and go to mtl.how/SIM. Enter your username and password and click the green Login button. You’ll see a section with a drop-down menu that says Please select a World. Click the down-arrow to see the choices, and choose the team world. 
 
@@ -89,12 +98,14 @@ e.	What types of decisions does the team make that affect these variables?
 
 10.	Click on the “i” next to the name, Team Data Table. This opens a section with details on how the numbers in this table were calculated from the team data you selected and uploaded. There are “i” buttons throughout the sim UI to help you quickly answer your questions about meanings, calculations, units, etc.
 
-11.	We are going to stop here for today and move into our Done/Do to wrap up. First, log out of the SimUI and the data UI.
+## That's it for modeling to learn how to log in to our team world. Before we move to our Done/Do review, please be sure to log out of the sim UI and the data UI.  
 
-Before next time, what you can all do is log in to your individual World and explore the interface more, especially the Team Data Table and the “i” button. In particular, I’d like you to check the “i” information available in the rest of the Experiments section and the model diagram to get ready for our next session. So please type this in as a Decision: We decided to log in to our individual worlds and check the “i” information available throughout the sim UI.
+Now our Done/Do review: Today we successfully logged in and uploaded our team data to the sim UI and reviewed our team data in the Experiments tile. Before next time, what you all can do is log in to your individual world and explore the interface more. In particular, we'd like you to check the “i” information available in the rest of the Experiments section and the model diagram to get ready for our next session. So please type this in as a Decision: We decided to log in to our individual worlds and check the “i” information available throughout the sim UI.  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. | 
+
+## Until next time, thanks for "Modeling to Learn"!
