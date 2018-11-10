@@ -35,7 +35,7 @@ In this session we will provide team data for use in the *Modeling to Learn* sim
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI)| 
 
-Let's review the Learning Objectives for this session: *(read LOs)*
+Let's review the Learning Objectives. After this session of *Modeling to Learn* you will be able to: *(read LOs)*
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
