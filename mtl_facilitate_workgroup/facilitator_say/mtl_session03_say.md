@@ -17,14 +17,25 @@ output:
 
 # [MTL Live Session 03](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session03_see.Rmd "MTL Live Session 03")
 
-# Today we're modeling to learn how to produce team data for simulation.
+# Today we're modeling to learn how to produce team data for simulation.  
+
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to produce team data for simulation.
+
+Showing on the screen is the learner see guide for this session found at mtl.how.  
+
+As you see in the Done and Do table, we will also be using our MTL resources at mtl.how/data during this session.
+
+Since last time, we reviewed the health factors, diagnostic, encounter and suicide prevention tabs in our team data to find a patient and identify a team trend. We also logged in to mtl.how/data and looked at the two team folders: data UI and team data.  
+
+In this session we will provide team data for use in the *Modeling to Learn* simulation user-interface, also called the "sim UI."
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI)| 
+
+Let's review the Learning Objectives for this session: *(read LOs)*
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -34,6 +45,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 1. Describe your team trends over the last two years based on the estimates in the team data table.
 2. Test out whether your understanding of how the team data is estimated through review of the descriptions and definitions.
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
+
 
 # In-session Exercise (30 minutes)
 
@@ -80,10 +92,14 @@ Let's review the different services that are highlighted in the team data on the
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)
 
+# That's it for modeling to learn how to produce team data for simulation.  
+
+Next is our Done/Do review. Today we produced data for the *Modeling to Learn* simulation user-interface or sim UI. Before next time, we will find something in the team data table and complete the mtl.how/menu to prioritize our team needs.
+
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced Team Data for the sim UI. |  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu. | 
 
-
+Until next time, thank you for *Modeling to Learn*!
