@@ -121,7 +121,9 @@ Start by picturing Veteran mental health care in this team as you experience it 
 + The team can further wordsmith their Team Vision after the session if they want to. We will hold this vision up as a reminder of our shared goals to orient our learning throughout the MTL program.
 
 
-## Thank you for *Modeling to Learn* how to align our team vision. Next is our Done/Do review.
+## Thank you for *Modeling to Learn* how to align our team vision. 
+
+Next is our Done/Do review. Today, we established our team vision. Next time, we will explore our team data and trends.
 
 
 ## Done/Do (15 minutes)
@@ -130,6 +132,8 @@ Start by picturing Veteran mental health care in this team as you experience it 
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | Select a team lead and email Team PSD to set up our standing team meeting time. | 
 
+
+# Extra Information for In-Person Sessions
 
 ## Role of Team Lead
 
