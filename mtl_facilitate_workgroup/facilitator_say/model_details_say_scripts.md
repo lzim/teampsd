@@ -182,13 +182,17 @@ The psychotherapy module shows how team psychotherapy decisions interact, and de
   
   + F - Against the base case, we found that the total number of patients served by the team stayed the same (N=371). Of the 371, n=249 were Initiators and n=187 were Completers. Among Completers, n=7 graduated and were done. Regarding the starting rate for new patients, it decreased compared to our base case and our Exp 1.
   
-  + D - We decided to run a third experiment on your own in your individual world. So that next time we are prepared to think through new decisions we might make in our team.
+  + D - We decided to run a third experiment. We will look to see if we can combine the effects of graduating 75% of all completers AND increasing Initiators who Complete. We need the appt supply that becomes available by keeping to a higher graduation rate of completers to accommodate the higher number of Initiators who are transitioned to Completers!
 
 **Experiment 3 - Session 10 - Combine experiments 1 and 2:** 
-  + Q
-  + H
-  + F
-  + D
+   
+  + Q - What is the effect of combining the effects of graduating 75% of all completers AND increasing Initiators who Complete to 75% on the number of patients who receive an EB dose of PSY?
+  
++ H - We hypothesis that the combined effects of increasing the number of Initiators who Complete from the base case rate of 37% to 75% with an increase in helping the number of Completers to graduate will have a robust effect on the number of patients who complete and graduate compared to the base case. We expect to see that more than 99 patients are Completers who are done.
+
++ F - We found that there was an increase in the number of patients being served (from N=371 BC and N=460 EXP1) to N=480! We also found that we have an increase in Initiators, as expected (n=373) and in Completers, as expected (n=280). We saw a robust number of patients over the BC (n=4)  in persons who completed and graduated (n=70). This was decreased from n=90, when we only changed the % of completers who graduated, but not Initiators. However, with the combined decisions, we enjoyed a higher starting rate and a higher initiation rate after one year, and the we saw an improved graduation rate over the BC from the start of the run.
+
+ + D - We think that working to support a 75% rate of Initiators who  complete 8 sessions of PSY in 3 months combined with efforts to support a 75% graduation rate of patients who complete 8 sessions of PSY is a clinically valuable and viable strategy. It increases supply of appts for new patients while increasing the number of patients who get an evidence-based dose of PSY.
 
  ## AGGREGATE (mix of services)
  
