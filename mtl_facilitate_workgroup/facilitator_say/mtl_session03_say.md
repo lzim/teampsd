@@ -45,7 +45,9 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 # In-session Exercise (30 minutes)
 
 ## 1. Let's explore what is in the team data table.
+
 a. Last session you generated an Excel file by selecting the clinics that make up your team and then selecting "Get Patient Level Data." 
+
 b. This data file reflects two years of team data and team trends. 
 
 ## 2. When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
@@ -62,36 +64,50 @@ c. There are team data produced for each module of *Modeling to Learn*. Each mod
  + Measurement-based stepped care for suicide prevention (SP) - tab title *SPParams*
 
 ## 3. Let's select a service for review
+
 a. Check out the different services that are highlighted in the team data on the screen. As we review each service, we will use the mouse to highlight team data variables.
+
 b. Find a variable that is important to your team. Look at how the variable is estimated in the table. 
+
    - If CC is selected, key variables of interest may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.
    - If MM is selected, key variables of interest may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and appointment slots with an X waiver as a percentage of the total and Slots Allocation percent for those with and without an X waiver.
    - If PSY is selected, variables that can be explored include median engagement duration and engagement after 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
    - If AGG is selected, median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
    - If Suicide Prevention is selected, Its units are in ? What are it's units?
+
 c. Where can you find even more detailed information about your team data? You can find more detailed information about your team data in Params tabs 
+
 d. Check out columns C and D. What is the difference between these two columns?
 
 ## 4. Select a second service for review
-- Check out columns C and D. What is the difference between these two columns?
-- Find a variable that is important to you team. How is it estimated in this table? What are it's units?
-- Where can you find even more detailed information about your team data?
+
+a. Check out columns C and D. What is the difference between these two columns?
+
+b. Find a variable that is important to you team. How is it estimated in this table? What are its units?
+
+c. Where can you find even more detailed information about your team data?
 
 ## 5. Are there any team data table values you would like to explore in the team data UI?
+
 a. If so, which ones? 
+
 b. Open the data UI to examine your question.
 
 ## 6. Do you see any values in the team data that differ a lot from what you would expect?
+
 a. If so, what is it surprising? 
+
 b. Does the estimation definition help you to interpret the variable value?
 
 ## 7. Do you see any values in the team data that fit your expectations about high priority team needs?
+
 a. If so, what are you noticing? 
+
 b. In what ways does the team data fit with your day-to-day clinical practice in your team?
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)
 
-# That's it for modeling to learn how to produce team data for simulation. Next is our Done/Do review.
+# That's it for _Modeling to learn_ how to produce team data for simulation. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
