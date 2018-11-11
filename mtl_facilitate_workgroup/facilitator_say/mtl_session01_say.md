@@ -109,7 +109,7 @@ a. You can further wordsmith the Team Vision after the session if you want.
 b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the MTL program.
 
 
-## That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review. 
+### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review. 
 
 
 ## Done/Do (15 minutes)
@@ -119,35 +119,39 @@ b. We'll hold this vision up as a reminder of our shared goals to orient our lea
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | Select a team lead and email Team PSD to set up our standing team meeting time. | 
 
 
-# Considerations for selecting a team lead.
+### Considerations for selecting a team lead.
 
-## Role of Team Lead
+### Role of Team Lead
 
 1. Main point of contact between the team and *Modeling to Learn* facilitators for scheduling MTL-related team meetings. 
   
 2. Develops facility with the *MTL* resources to be able to help team members trouble-shoot - especially the ones used most frequently: mtl.how/live (for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface)   
 3. Provides leadership during MTL sessions, encouraging team participation in discussions and serving as computer simulation lead under the facilitators' guidance  
 
-## Characteristics of Team Lead  
+### Characteristics of Team Lead  
 
-•	Strong relationships with fellow clinic team members  
+1.	Strong relationships with fellow clinic team members  
 
-•	Organized  
+2.	Organized  
 
-•	Basic computer knowledge, Excel experience helpful  
+3.	Basic computer knowledge, Excel experience helpful  
 
-•	Attention to detail  
+4.	Attention to detail  
 
-•	Committed to process improvement and use of data to improve care  
+5.	Committed to process improvement and use of data to improve care  
 
-# Considerations for choosing a standing meeting time
+### Considerations for choosing a standing meeting time
 
 1. Central location vs. geographically dispersed  
 
 2. Clinic schedule and clinician availability
 
-# Whom to notify of these decisions and by when
+### Whom to notify of these decisions and by when
 
-1. List 
+1. Who will be the point person for the team until the Team Lead is decided?
 
-# THANK YOU FOR MODELING TO LEARN!
+2. You should decide on your Team Lead by _ and they should then work with the Team and Facilitators to nail down a standing meeting time by _ . 
+
+3. Once set, all the team members will receive a pre-session email the week of the upcoming session and a post-session email the week after each session from the _Modeling to Learn_ staff, with Done and Do reminders and links to the necessary resources. 
+
+## THANK YOU FOR MODELING TO LEARN!
