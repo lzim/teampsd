@@ -55,7 +55,8 @@ b. What the topics where team members' perspectives are more divergent?
 
 ### 3. What looks like the highest priority need for your team now, and which _Modeling to Learn_ module best addresses that need?
 
-a. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10 of _MTL_:
+a. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:
+
   •	Care Coordination (CC)  
   •	Medication Management (MM)  
   •	Psychotherapy (PSY)  
@@ -71,6 +72,8 @@ b. *[Recap the highest priority need, recommended module, and why.]*
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. | 
+
+### DO demonstration
 
 1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
 
