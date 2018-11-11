@@ -175,10 +175,13 @@ The psychotherapy module shows how team psychotherapy decisions interact, and de
   
   + D - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
   
-**Experiment 2 - Session 9:STOPPED HERE DWL** 
-  + Q - For experiment 2, we will try to step more patients down out of psychotherapy/EBPsy who are engaged for greater than 3 months.
-  + H - We expect that if we reduce the median engagement >3 months to 12 visits (meaning a 75% reduction), then it will free up "a lot of appointment space
-  + F - Against the base case - Our starting rate increased from ~3 ppw to 7 ppw. - We went from having ~4 apw  to ~8 apw .
+**Experiment 2 - Session 9:STOPPED HERE** 
+  + Q - For experiment 2, we ask: What is the effect of increasing the number of Initiators who Complete from the base case rate of 37% to 75% on the number of patients who complete and graduate?
+  
+  + H - We hypothesis that increasing the number of Initiators who Complete from the base case rate of 37% to 75% will have a moderate increase in the number of patients who complete and graduate compared to the base case.
+  
+  + F - Against the base case, we found that the total number of patients served by the team stayed the same (N=371). Of the 371, n=249 were Initiators and n=187 were Completers. Among Completers, n=7 graduated and were done. Regarding the starting rate for new patients, it decreased compared to our base case and our Exp 1.
+  
   + D - We decided to run a third experiment on your own in your individual world. So that next time we are prepared to think through new decisions we might make in our team.
 
 **Experiment 3 - Session 10 - Combine experiments 1 and 2:** 
