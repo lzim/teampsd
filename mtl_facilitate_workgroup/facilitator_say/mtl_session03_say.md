@@ -105,7 +105,6 @@ a. If so, what are you noticing?
 
 b. In what ways does the team data fit with your day-to-day clinical practice in your team?
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)
 
 # That's it for _Modeling to learn_ how to produce team data for simulation. Next is our Done/Do review.
 
