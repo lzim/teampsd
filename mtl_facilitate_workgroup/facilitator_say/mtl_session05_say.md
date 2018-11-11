@@ -105,7 +105,7 @@ e.	What types of decisions does the team make that affect these variables?
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. | 
 
-### DO Demo
+### DO demo
 
 1. For next time, if you can, log in to to the sim UI at mtl.how/sim. 
 
@@ -117,4 +117,4 @@ e.	What types of decisions does the team make that affect these variables?
 
 5. In particular, check out the “i” information available throughout the sim UI - in the Experiments section and in the model diagram - to prepare for our next session. 
 
-## Until next time, thanks for "Modeling to Learn"!
+## Until next time, thanks for _Modeling to Learn_!
