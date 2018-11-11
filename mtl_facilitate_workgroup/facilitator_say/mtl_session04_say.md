@@ -19,9 +19,9 @@ output:
 
 # Today we're modeling to learn how to prioritize team needs.
 
-Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to prioritize team needs.  
+Hello! I'm __________ and I'm __________ , and today we're modeling to learn how to prioritize team needs.  
 
-On the screen, we're showing the learner see guide for *MTL* session 4 available at mtl.how.
+### Looking at the Done/Do table, we see that in preparation for this session...
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -29,11 +29,8 @@ On the screen, we're showing the learner see guide for *MTL* session 4 available
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. | 
 
-As you see in the Done and Do table, today we are going to be logging into mtl.how/menu.
 
-Since last time, we hope you found something in the team data table and hopefully completed the mtl.how/menu. Today we will review the *MTL Menu* results to prioritize our team needs and select an MTL module.  
-
-Scrolling down to our Learning Objectives, after this session we’ll be able to… *(read LOs)*
+### By the end of this session you will be able to...
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -44,59 +41,30 @@ Scrolling down to our Learning Objectives, after this session we’ll be able to
 2. Test out how these needs are experienced across the team through team dialogue.
 3. Consider the team vision and apply team decision-making to select a high-priority module of *MTL*.
 
+### Let's get started.
+
 # In-session Exercise (30 minutes)
 
-1. Hopefully, you and all of your colleagues on the team completed the MTL Menu. For this video lesson, we will use a fictitious team's aggregated responses to talk through what's most important. You will receive a summary of your team's actual _MTL Menu_ responses; and in your _MTL_ email you'll see what outcomes were discussed in this session. 
+### 1. Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*. You will receive a summary of this in your follow-up email. 
 
-+ *INSERT IMAGE OF MTL.HOW/MENU RESULTS EXAMPLE*  
+### 2. First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*  
 
-2. Our first step is to scan through the team’s results. Look for two or three items that stand out to you in the responses.  
-   + *Facilitator Action*
-   •	Lead discussion of what stood out to the team members as they scanned the responses.  
-   •	Take notes as team members reveal what stood out to them.  
+a. Where are there areas of high consensus? What issues does the team agree about?
+  
+b. What the topics where team members' perspectives are more divergent?  
 
-+ We see that the majority of your team considers INSERT TEXT an important issue. Also, it appears that there is a wide array of responses for INSERT TOPIC.
+### 3. What looks like the highest priority need for your team now, and which _Modeling to Learn_ module best addresses that need?
 
-3. Look for areas of consensus among the team.  
-•	Where do you see high areas of consensus? What issues does the team agree about?  
-•	The team agrees that INSERT TEXT and INSERT TEXT are important as evidenced by the high percent of team members that selected those items.
-
-   + *Facilitator Action*  
-   •	Lead discussion on areas of consensus or agreement among the team.  
-   •	Take notes as team member reveal the areas where team responses are showing consensus.  
-
-4. Discuss items in which team members varied a lot in their rankings.  
-•	Where does the team have more variable perspectives?  
-•	We want to find those responses where there is a lot of variability or a wide spread in the responses on specific priorities. In the team example, we see a wide array of responses for INSERT TOPIC as mentioned previously as well as INSERT TOPIC and INSERT TOPIC.
-
-   + *Facilitator Action*  
-   •	Lead discussion on areas of variability across the team.  
-
-5. Focus on the high priority needs to select a module for sessions 5-10 of Modeling to Learn 
-
-+ What is the highest priority need for your team now? If we go back and scan the *MTL* Menu results, it appears that INSERT TEXT and INSERT TEXT are important to everyone.
-•	This is a critical step as the highest priority needs will drive which Modeling to Learn module is selected for *MTL* sessions 5 through 10. 
-
-+ The MTL modules that are available for your team to use are:
+a. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10 of _MTL_:
   •	Care Coordination (CC)  
   •	Medication Management (MM)  
   •	Psychotherapy (PSY)  
   •	Aggregrate team services (AGG)  
-  •	Measurement-based stepped care for suicide prevention  
+  •	Measurement-based stepped care for suicide prevention (SP)
 
-+ Given all that has been discussed today in the Menu results, what are the high priority needs for your team?  
+b. *[Recap the highest priority need, recommended module, and why.]*
 
-   + *Facilitator Action*  
-   •	Lead discussion to identify highest priority need for the team.  
-   •	Take notes to as team determines their highest priority need.  
-   •	Reflect back the team discussion and suggest which need you heard as the team’s highest priority need.  
-   •	Facilitate the team to reach consensus on which MTL module will best allow them to explore their highest priority need.  
-
-+ Based on the team's input, we have decided that your team's highest priority is INSERT TEXT and the *MTL* module that would best help your team explore actions around this priority is INSERT MODULE NAME.  
-
-## That's it for modeling to learn how to prioritize team needs.  
-
-Next is our Done/Do review. Today we reviewed the MTL Menu results, prioritized our team needs, and selected an MTL module. Before next time, we will log into the MTL simulation user-interface (sim UI) at mtl.how/sim.
+### That's it for modeling to learn how to prioritize team needs. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -104,4 +72,19 @@ Next is our Done/Do review. Today we reviewed the MTL Menu results, prioritized 
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. | 
 
-## Until next time, thanks for *Modeling to Learn*!
+1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
+
+2. Remember, all the _MTL_ resources can be linked to from your home base at mtl.how, if you forget the specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
+
+3. Unlike the data UI, for which we used the VA's default browser, Internet Explorer, this UI works better with Chrome. We recommend you use that.
+
+4. The sim UI is designed for use with a variety of hardware, including large-monitor desktop computers, smaller laptop computers, notebooks, and smart phones. The view adjusts for different sizes and aspect ratios, so you may notice some slight variations in how it looks on different devices. The basic functionality is the same on all of them, though.
+
+5. To log in to the sim UI, you will need your username and password. The username is just your VA email address, and your password will be sent to you in the follow-up email after the session.
+
+6. Once you enter your username and password, you'll be asked to select a World. You will have two options, a team world and an individual world. We'll describe these more next time. If you go in before next session, you can choose either one.
+
+7. This will get you to the sim UI home page. You won't be able to go further than that yet. But feel free to study what you see on that page.
+
+
+## Until next time, thank you for *Modeling to Learn*!
