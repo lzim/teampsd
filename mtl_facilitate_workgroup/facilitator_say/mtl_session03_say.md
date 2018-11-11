@@ -114,6 +114,8 @@ b. In what ways does the team data fit with your day-to-day clinical practice in
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced Team Data for the sim UI. |  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu. | 
 
+### DO demo
+
 1. We encourage you to look around in the team data table before next time. Test whether you can find a piece of data you decide to look for. Just take a minute, if you can, to become familiar with the format and content of the table.
 
 2. The next thing we ask is that each member of the team fill out a short form that you'll find at mtl.how/menu. It will take about - minutes.
