@@ -21,7 +21,7 @@ output:
 
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to produce team data for simulation.
 
-As you see in the Done and Do table..."
+### As you see in the Done and Do table...
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -29,7 +29,7 @@ As you see in the Done and Do table..."
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI)| 
 
-After this session you will be able to...
+### After this session you will be able to...
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -40,7 +40,7 @@ After this session you will be able to...
 2. Test out whether your understanding of how the team data is estimated through review of the descriptions and definitions.
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
-Let's get started!
+### Let's get started!
 
 # In-session Exercise (30 minutes)
 
