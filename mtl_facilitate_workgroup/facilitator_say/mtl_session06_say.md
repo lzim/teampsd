@@ -20,6 +20,8 @@ output:
 # Today we're modeling to learn how to tell a systems story.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to tell a systems story.
 
+On the screen, we're showing the learner see guide for MTL session 6 available at mtl.how.  
+
 As you can see in the Done and Do table, today we are logging into mtl.how/sim - also called the sim UI.
 
 ## Done and Do (15 minutes)
