@@ -158,28 +158,41 @@ The psychotherapy module shows how team psychotherapy decisions interact, and de
 
 **Base Case - Session 7:**
 
-  + Q -  What would happen over the next two years if we made no new decisions in our team?
-  + H - We expect that we will continue to see fewer Psy and EBPsy patients than we want because we aren't graduating our psychotherapy patients.
-  + F - We were rigth 65% of our patients are in care for more than 3 months. For our next experiment we will reduce the duration of of engagement of patients after 3 months by 75%. - Sankey diagram showed that for  the median number of visits is 16 for 75% of patients."
-  + D - For our next experiment we will reduce the duration of of engagement of patients after 3 months by 75%.
+  + Q -  What would happen over the next two years if we made no new decisions in our team? How many patients are current receiving an evidence-based dose of PSY by our team?  Is there a way to increase the number of PSY patients who complete and graduate without compromising new patient wait times?
+  
+  + H - We expect that we will continue to see fewer Psy and EBPsy patients than we want because we aren't graduating our psychotherapy patients. We hypothesis that the number of patients receiving an evidence-based dose of PSY is currently low,  taking into consideration that Completers who Graduate is about 4% and that Initiators who Complete is just 37%.
+  
+  + F - Based on the Sankey diagram, we understand that out of N=371 patients who have one PSY visit, n=289 are Initiators. Of these, only n=107 are Completers, and of Completers, on n=4 graduate after having an evidence-based dose of PSY (about 8 sessions).
+  
+  + D - We can do much better. We can start by trying to increase the percentage of Completers who graduate, from 3.77% to as high as 75%.
 
 **Experiment 1 - Session 8:**
-  + Q - What if we graduate more patients who complete 8 or more psychotherapy sessions in their first 3 months?
-  + H - We expect that if we increase our completers who graduate  to 50% , then we'll free up more slots in the clinic for more patients to start psychoterhapy/EBPsy.
-  + F - We found that we increased the start rate for psychotherapy, but not by as much as we'd hoped.
-  + D - For experiment 2, we will try to step more patients down out of psychotherapy/EBPsy who are engaged for greater than 3 months.  
+  + Q - What if we graduate more patients who complete 8 or more psychotherapy sessions in their first 3 months? What is the effect of working to increase the proportion of patients who 'complete' an evidence-based dose of PSY and then graduate from just 4% to 75%, over time, on (1) the number of patients who complete and are then 'done'? and (2) on the supply of available appts for new patients?
   
-**Experiment 2 - Session 9:** 
-  + Q - For experiment 2, we will try to step more patients down out of psychotherapy/EBPsy who are engaged for greater than 3 months.
-  + H - We expect that if we reduce the median engagement >3 months to 12 visits (meaning a 75% reduction), then it will free up "a lot of appointment space
-  + F - Against the base case - Our starting rate increased from ~3 ppw to 7 ppw. - We went from having ~4 apw  to ~8 apw .
-  + D - We decided to run a third experiment on your own in your individual world. So that next time we are prepared to think through new decisions we might make in our team.
+  + H - We expect that if we increase our completers who graduate to 75%, then we'll free up more slots in the clinic for more patients to start psychoterhapy/EBPsy. We hypothesize that an increasing the complete and graduate rate from 4% to 75% will results in a jump from about 4 patients to about 75 patients graduating during the same time period. We also expect that by increasing the graduation rate for any one who has received 8 or more sessions of PSY, we will increase the number of appt slots for new patients starting PSY.
+  
+  + F - We found that the total number of patients served by the team increased from N=371 to N=460. Of the 460, n=358 were Initiators and n=132 were Completers. Among Completers, n=99 graduated and were done (75%, as we expected). Regarding the starting rate for new patients, it increased from about 3.8 pts/wk to about 4.8 pts/wk. our hypotheses was supported. This dramatically increases the number of patients in PSY who are receiving an evidence base dose of therapy and supports the team in taking on more new patients, about one more new pt/wk (or 4 new ones per month, or 48 new ones annually!)
+  
+  + D - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
+  
+**Experiment 2 - Session 9:STOPPED HERE** 
+  + Q - For experiment 2, we ask: What is the effect of increasing the number of Initiators who Complete from the base case rate of 37% to 75% on the number of patients who complete and graduate?
+  
+  + H - We hypothesis that increasing the number of Initiators who Complete from the base case rate of 37% to 75% will have a moderate increase in the number of patients who complete and graduate compared to the base case.
+  
+  + F - Against the base case, we found that the total number of patients served by the team stayed the same (N=371). Of the 371, n=249 were Initiators and n=187 were Completers. Among Completers, n=7 graduated and were done. Regarding the starting rate for new patients, it decreased compared to our base case and our Exp 1.
+  
+  + D - We decided to run a third experiment. We will look to see if we can combine the effects of graduating 75% of all completers AND increasing Initiators who Complete. We need the appt supply that becomes available by keeping to a higher graduation rate of completers to accommodate the higher number of Initiators who are transitioned to Completers!
 
 **Experiment 3 - Session 10 - Combine experiments 1 and 2:** 
-  + Q
-  + H
-  + F
-  + D
+   
+  + Q - What is the effect of combining the effects of graduating 75% of all completers AND increasing Initiators who Complete to 75% on the number of patients who receive an EB dose of PSY?
+  
++ H - We hypothesis that the combined effects of increasing the number of Initiators who Complete from the base case rate of 37% to 75% with an increase in helping the number of Completers to graduate will have a robust effect on the number of patients who complete and graduate compared to the base case. We expect to see that more than 99 patients are Completers who are done.
+
++ F - We found that there was an increase in the number of patients being served (from N=371 BC and N=460 EXP1) to N=480! We also found that we have an increase in Initiators, as expected (n=373) and in Completers, as expected (n=280). We saw a robust number of patients over the BC (n=4)  in persons who completed and graduated (n=70). This was decreased from n=90, when we only changed the % of completers who graduated, but not Initiators. However, with the combined decisions, we enjoyed a higher starting rate and a higher initiation rate after one year, and the we saw an improved graduation rate over the BC from the start of the run.
+
+ + D - We think that working to support a 75% rate of Initiators who  complete 8 sessions of PSY in 3 months combined with efforts to support a 75% graduation rate of patients who complete 8 sessions of PSY is a clinically valuable and viable strategy. It increases supply of appts for new patients while increasing the number of patients who get an evidence-based dose of PSY.
 
  ## AGGREGATE (mix of services)
  
