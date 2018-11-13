@@ -20,7 +20,7 @@ output:
 # Today we're modeling to learn how to make future team decisions.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to make future team decisions.
 
-On the screen, we're showing the learner see guide for session 11. Today we are logging into mtl.how/sim.  
+### As you can see in the Done/Do table in the Learner See Guide:  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -29,7 +29,7 @@ On the screen, we're showing the learner see guide for session 11. Today we are 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's learning and prioritize ways to implement it in our clinical care. | 
 
 
-After this session you will be able to... *(read LOs)*
+### After this session you will be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -39,6 +39,8 @@ After this session you will be able to... *(read LOs)*
 1.	Describe what your team has prioritized as decisions to implement in your clinic. 
 2.	Test your team’s plan against your individual and shared, team vision.
 3.	Apply your team’s plan in clinical decisions.
+
+### Let's get started:
 
 # In-session Exercise (30 minutes): Connect learning and decisions from experiments to original team vision, question, and need
 
@@ -81,7 +83,7 @@ Today we are reflecting on how we made team decisions throughout the MTL learnin
    + The Aggregate or AGG module allows a team to conduct experiments considering multiple services.
    + Finally, the Suicide Prevention module allows the team to conduct experiments in multiple views.
 
-## That's it for modeling to learn how to make future team decisions. Next is our Done/Do review.
+### That's it for modeling to learn how to make future team decisions. Next is our Done/Do review.
 
 Today we discussed the team's learning from comparing experiments and prioritized ways to implement these learnings in clinical care. Before next time, reflect our team's vision for *MTL* and our *MTL* experience to prepare for planning next steps.  
 ## Done and Do (15 minutes)
