@@ -20,9 +20,7 @@ output:
 # Today we're modeling to learn how to compare alternatives.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to compare alternatives.  
 
-On the screen we're showing the learner see guide for MTL session 9.  
-
-As you can see in the Done and Do table, today we're once again logging into mtl.how/sim - the model simulation.  
+### As you can see in the Done/Do table of the Learner See Guide:  
 
 
 ## Done and Do (15 minutes)
@@ -31,7 +29,7 @@ As you can see in the Done and Do table, today we're once again logging into mtl
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
 
-Scrolling down to our Learning Objectives, after this session we’ll be able to… *(read LOs)*  
+### After this session we’ll be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -41,6 +39,8 @@ Scrolling down to our Learning Objectives, after this session we’ll be able to
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
 2. Test your dynamic hypothesis about your team's clinical priority.
 3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
+
+### Let's get started:
 
 # In-session Exercise (30 minutes)
 
@@ -83,7 +83,7 @@ Scrolling down to our Learning Objectives, after this session we’ll be able to
 
 10.  Don't forget to log off the simulation model.
 
-## That's it for modeling to learn how to compare alternatives. Next is our Done/Do review.
+### That's it for modeling to learn how to compare alternatives. Next is our Done/Do review.
 
 Today we ran experiment 2 and used the control panel of the expanded outputs section to compare the base case, experiment 1 and experiment 2. Before next time, please try to run a third experiment in your individual world.
 
@@ -93,4 +93,4 @@ Today we ran experiment 2 and used the control panel of the expanded outputs sec
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, experiment 1, and experiment 2. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
 
-## Until next time, thanks for *Modeling to Learn*!
+## Until next time, thank you for *Modeling to Learn*!
