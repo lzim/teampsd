@@ -175,7 +175,7 @@ The psychotherapy module shows how team psychotherapy decisions interact, and de
   
   + D - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
   
-**Experiment 2 - Session 9:STOPPED HERE** 
+**Experiment 2 - Session 9:** 
   + Q - For experiment 2, we ask: What is the effect of increasing the number of Initiators who Complete from the base case rate of 37% to 75% on the number of patients who complete and graduate?
   
   + H - We hypothesis that increasing the number of Initiators who Complete from the base case rate of 37% to 75% will have a moderate increase in the number of patients who complete and graduate compared to the base case.
