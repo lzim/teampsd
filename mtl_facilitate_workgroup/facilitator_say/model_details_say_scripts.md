@@ -22,7 +22,7 @@ output:
 **Team Need:**
 Patients are having to wait longer than we'd like to start Care Coordination. We wonder if we can solve this by increasing the supply of care coordination appointments we alot to new patients; and/or what would happen to wait times if we increased the return visit interval for existing patients.
 
-**System Story:**
+**Systems Story:**
 - *Complexity and Feedback Loops*
   - Balancing Existing and New Patients (Balancing Loop)
   - Overbooking Affects No Shows
@@ -31,7 +31,7 @@ Patients are having to wait longer than we'd like to start Care Coordination. We
   - Sensitivity of Missed Appointments to Task Time
   - Sensitivity of Referals to Wait Time
 
-**System Story Script:**
+**Systems Story Script:**
 
 - *Complexity and Feedback Loops*
 
@@ -103,7 +103,7 @@ Patients are having to wait longer than we'd like to start Care Coordination. We
 **Team Need:**
 Our team would like to use the medication management module to explore how we could serve more patients with specific conditions, like Opioid Use Disorder (OUD), with our existing team staffing levels. We would also like to test changing the Return-to-clinic Visit Interval (RVI) to meet more specific needs of patients who require evidence-based pharmacotherapy (EBPharm). 
 
-**System Story:**
+**Systems Story:**
 *Complexity and Feedback Loops*
 - Balancing Existing and New Patients (Balancing Loop)
 - Overbooking Affects No Shows
@@ -153,7 +153,7 @@ Our team is concerned about graduating psychotherapy patients according to Psych
 - Balancing Existing and New Patients (Balancing Loop)
 - Engagement After 3 Months 
 
-**System Story:**
+**Systems Story:**
 The psychotherapy module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.
 
 **Base Case - Session 7:**
@@ -200,7 +200,7 @@ The psychotherapy module shows how team psychotherapy decisions interact, and de
 
 Our team is going to be losing two staff members in the near future. Since the aggregate module shows the interactions between all services offered by our team, we want to use this module to explore how we can best allocate appointments across services with reduced staffing levels. We also want to know what will happen to patient wait times if we change patient return-to-clinic visit intervals (RVI) and/or if the remaining staff members decide to work overtime or not. 
 
-**System Story:**
+**Systems Story:**
 
 *Complexity and Feedback Loops*
 - Supply Affects Patient Services
@@ -254,7 +254,7 @@ Our team is going to be losing two staff members in the near future. Since the a
 
 The measurement based stepped care for suicide prevention module shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
 
-**System Story:**
+**Systems Story:**
 
 **Base Case - Session 7:**
 
