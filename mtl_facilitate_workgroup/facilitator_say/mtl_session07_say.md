@@ -21,12 +21,17 @@ output:
 # Today we're modeling to learn how to evaluate our Base Case of no new decisions.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to evaluate our Base Case of no new decisions.
 
+On the screen, we're showing the learner see guide for MTL session 7 available at mtl.how.  
+
+As you can see in the Done and Do table, today we are logging into mtl.how/sim -- the sim UI.
+
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.| 
 
+Let's review the Learning Objectives. After this session, you will be able to… (read LOs)
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -66,15 +71,20 @@ Caution: Only choose the Save and Reset button at the bottom when you’re finis
 
 13.	Describe what you see in the Findings textbox, and explain why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)
 
-14.	What do you want to do next? Record your next steps in the Decisions textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?)
+14.	What do you want to do next? Record your next steps in the Decisions textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?)  
 
-15.	Save and Reset when you’re ready.
+15.	Save and Reset when you’re ready.  
 
-16.	Log out of the sim UI.
+16.	Log out of the sim UI.  
 
+## That’s it for modeling to learn how to evaluate the Base Case of no new decisions. Next is our Done/Do review.  
+
+Today we entered our Question, Hypothesis, Findings and Decisions for our base case run in the Text section. Before next time, please log in to mtl.how/sim and explore the results of the base case run in the Results Dashboard found in the Expanded Outputs view.  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. |
+
+##Until next time, thanks for *Modeling to Learn*!
