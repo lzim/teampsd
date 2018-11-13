@@ -29,7 +29,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
 
-### After this session we’ll be able to:
+### After this session you’ll be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -83,7 +83,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 10.  Don't forget to log off the simulation model.
 
-### That's it for modeling to learn how to compare alternatives. Next is our Done/Do review.
+### That's it for _Modeling to Learn_ how to compare alternatives. Next is our Done/Do review.
 
 Today we ran experiment 2 and used the control panel of the expanded outputs section to compare the base case, experiment 1 and experiment 2. Before next time, please try to run a third experiment in your individual world.
 
