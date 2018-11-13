@@ -83,7 +83,7 @@ Today we are reflecting on how we made team decisions throughout the MTL learnin
    + The Aggregate or AGG module allows a team to conduct experiments considering multiple services.
    + Finally, the Suicide Prevention module allows the team to conduct experiments in multiple views.
 
-### That's it for modeling to learn how to make future team decisions. Next is our Done/Do review.
+### That's it for _Modeling to Learn_ how to make future team decisions. Next is our Done/Do review.
 
 Today we discussed the team's learning from comparing experiments and prioritized ways to implement these learnings in clinical care. Before next time, reflect our team's vision for *MTL* and our *MTL* experience to prepare for planning next steps.  
 ## Done and Do (15 minutes)
