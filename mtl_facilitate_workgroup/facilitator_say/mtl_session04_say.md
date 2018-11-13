@@ -21,7 +21,7 @@ output:
 
 Hello! I'm __________ and I'm __________ , and today we're modeling to learn how to prioritize team needs.  
 
-### Looking at the Done/Do table, we see that in preparation for this session...
+### As we see in the Done/Do table of the Learner See Guide:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -30,7 +30,7 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. | 
 
 
-### By the end of this session you will be able to...
+### By the end of this session you will be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -41,7 +41,7 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 2. Test out how these needs are experienced across the team through team dialogue.
 3. Consider the team vision and apply team decision-making to select a high-priority module of *MTL*.
 
-### Let's get started.
+### Let's get started:
 
 # In-session Exercise (30 minutes)
 
@@ -65,7 +65,7 @@ a. There are currently 5 _MTL_ modules available for teams to focus on in sessio
 
 b. *[Recap the highest priority need, recommended module, and why.]*
 
-### That's it for modeling to learn how to prioritize team needs. Next is our Done/Do review.
+### That's it for _Modeling to learn_ how to prioritize team needs. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->

@@ -97,7 +97,7 @@ e.	What types of decisions does the team make that affect these variables?
 
 10. When you're done in the sim UI, it's always best to log off. Click Logoff at the top right, then click it again to confirm.
 
-### That's it for modeling to learn how to log in to our team world. Next is our Done/Do review.  
+### That's it for _Modeling to Learn_ how to log in to our team world. Next is our Done/Do review.  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -117,4 +117,4 @@ e.	What types of decisions does the team make that affect these variables?
 
 5. In particular, check out the “i” information available throughout the sim UI - in the Experiments section and in the model diagram - to prepare for our next session. 
 
-## Until next time, thanks for _Modeling to Learn_!
+## Until next time, thank you for _Modeling to Learn_!

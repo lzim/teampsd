@@ -20,9 +20,7 @@ output:
 # Today we're modeling to learn how to use systems thinking.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to use systems thinking.
 
-On the screen, we're showing the learner see guide for MTL session 10 available at mtl.how.  
-
-As you can see in the Done and Do table, today we're logging into mtl.how/sim -- the sim UI.  
+### As you can see in the Done/Do table in the Learner See Guide:  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -30,8 +28,7 @@ As you can see in the Done and Do table, today we're logging into mtl.how/sim --
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran a third experiment in our individual world.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run exp 3 and discuss the bc, exp 1, exp 2 and exp 3 using Complex, Feedback, Behavior, Time (CFBT) systems thinking skills. | 
 
-
-Scrolling down to our Learning Objectives, after this session we'll be able to... *(read LOs)*  
+### After this session, you'll be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -42,6 +39,7 @@ Scrolling down to our Learning Objectives, after this session we'll be able to..
 2.	Test your understanding of the system story by describing what’s happening when it produces a runaway increase or decrease in some output.
 3.	Apply your thinking to anticipate the long-term trend in your clinic’s EBP reach under two different decision scenarios.
 
+### Let's get started:
 
 # In-session Exercise (30 minutes)
 
@@ -75,7 +73,7 @@ Let's describe and enter the hypothesis to test, which, this time, will consider
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
 
-## That's it for modeling to learn how to use systems thinking. Next is our Done/Do review.
+## That's it for _Modeling to Learn_ how to use systems thinking. Next is our Done/Do review.
 
 Today we logged in to the sim UI to run experiment 3 and explored the results using systems thinking skills. Before next time, review and compare the base case with experiments 1, 2 and 3 and think about possible clinical care changes the team could make.  
 

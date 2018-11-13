@@ -20,9 +20,7 @@ output:
 # Today we're modeling to learn how to test a dynamic hypothesis.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to test a dynamic hypothesis.
 
-On the screen, we're showing the learner see guide for this MTL session, available at mtl.how.  
-
-You can see in the Done and Do table, today we are logging into the model simulation at mtl.how/sim.
+### As you can see in the Done/Do table at the top of the Learner See Guide:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -30,7 +28,7 @@ You can see in the Done and Do table, today we are logging into the model simula
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the Expanded Outputs section to prepare for experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis by running experiment 1 and comparing results against the bc.
 
-There are 3 learning objectives today. After this MTL session, you will be able to...
+### After this MTL session, you will be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -40,6 +38,8 @@ There are 3 learning objectives today. After this MTL session, you will be able 
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
 2. Test your dynamic hypothesis about your team's clinical priority.
 3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
+
+### Let's get started:
 
 # In-session Exercise (30 minutes)
 
@@ -105,7 +105,7 @@ There are 3 learning objectives today. After this MTL session, you will be able 
 
 12. Save and Reset when ready.
  
-## That's it for modeling to learn how to test a dynamic hypothesis. Next is our Done/Do review.
+### That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review.
  
 Today we ran and experiment and compared the results against the base case. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2. 
 
@@ -115,5 +115,5 @@ Today we ran and experiment and compared the results against the base case. Befo
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. | 
 
-## Until next time, thanks for *Modeling to Learn*!
+## Until next time, thank you for *Modeling to Learn*!
 

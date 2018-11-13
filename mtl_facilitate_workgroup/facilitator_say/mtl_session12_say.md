@@ -20,7 +20,7 @@ output:
 # Today we're modeling to learn how to turn team learning into a team plan.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to turn team learning into a team plan.    
 
-In today's session, we will be referring to the general resource for *Modeling to Learn* -- mtl.how.
+### As you can see in the Done/Do table of the Learner See Guide:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -28,7 +28,8 @@ In today's session, we will be referring to the general resource for *Modeling t
 | --- | --- | 
 | We reflected on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps. | Celebrate our completion of _Modeling to Learn_ and make a team plan for next steps. | 
 
-At the end of today's session, you will be able to... *(read LOs)*
+### After today's session, you will be able to:
+
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
@@ -37,6 +38,8 @@ At the end of today's session, you will be able to... *(read LOs)*
 1. Describe what your team has learned and prioritzed throughout the *MTL* 12-session program.
 2. Test how your team's plan aligns with your team's shared vision.
 3. Apply decisions that your team has prioritized to implement in the clinic.
+
+### Let's get started:
 
 # In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
 
@@ -79,8 +82,10 @@ At the end of today's session, you will be able to... *(read LOs)*
 
 4. What does the team plan to do going forward? What is the time frame and who will be the point person for this plan?
 
-5. Learners who finish all 12 *Modeling to Learn* sessions will receive a certificate of completion. Congratulations on completing *Modeling to Learn*!
+5. Learners who finish all 12 *Modeling to Learn* sessions will receive a certificate of completion. 
 
+
+### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review:
 
 
 ## Done and Do (15 minutes)

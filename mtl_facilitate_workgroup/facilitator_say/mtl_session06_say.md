@@ -20,9 +20,7 @@ output:
 # Today we're modeling to learn how to tell a systems story.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to tell a systems story.
 
-On the screen, we're showing the learner see guide for MTL session 6 available at mtl.how.  
-
-As you can see in the Done and Do table, today we are logging into mtl.how/sim - also called the sim UI.
+### As you see in the Done and Do table of your Learner See Guide:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -30,8 +28,7 @@ As you can see in the Done and Do table, today we are logging into mtl.how/sim -
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. | 
 
-
-Scrolling down to our Learning Objectives, after this session we’ll be able to… (read LOs)
+### After this session you’ll be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -41,6 +38,8 @@ Scrolling down to our Learning Objectives, after this session we’ll be able to
 1. Describe the systems story of your team's highest priority. 
 2. Test out your thinking about causes of team challenges using the model diagram.
 3. Apply clinical expertise to develop a question for team learning using simulation.
+
+### Let's get started:
 
 # In-session Exercise (30 minutes): The Model Diagram and Systems Story
 
@@ -85,7 +84,7 @@ Answer: weeks
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
-## That’s it for modeling to learn how to tell a systems story. Next is our Done/Do review.
+### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
 Today we told a systems story about our team's top priority and entered a question in the Text section. Before next time, pleae log into your individual world and enter a Question and Hypothesis about the base case experimental run in the Text section.
 

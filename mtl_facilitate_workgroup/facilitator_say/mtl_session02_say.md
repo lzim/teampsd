@@ -20,7 +20,7 @@ output:
 # Today we're modeling to learn how to check our patient data and team trends.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to check our patient data and team trends.
 
-Let's look at the Done and Do table in today's learner see guide at mtl.how:
+### Looking at the Done/Do table in the Session 2 Learner See Guide at mtl.how:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -29,7 +29,7 @@ Let's look at the Done and Do table in today's learner see guide at mtl.how:
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. |  
 
 
-After this session, you will be able to:
+### After this session, you will be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -40,7 +40,7 @@ After this session, you will be able to:
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.  
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
 
-Let's get started!
+### Let's get started!
 
 # In-session Exercise (30 minutes)  
 
@@ -123,7 +123,7 @@ e. What **viz** tab would you use to see what the most common service encounters
 f. Are there services that have been increasing over time? Are there services that  have been descreasing over time?
 g. With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
-## That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
+### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -132,4 +132,4 @@ g. With the team trends (viz) and team patient (data) information in the data UI
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). | 
 
 
-# Until next time, thank you for _Modeling to Learn_!
+## Until next time, thank you for _Modeling to Learn_!

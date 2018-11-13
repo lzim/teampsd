@@ -21,7 +21,7 @@ output:
 
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to produce team data for simulation.
 
-### As you see in the Done and Do table...
+### As you see in the Done/Do table of the Learner See Guide at mtl.how:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -29,7 +29,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI)| 
 
-### After this session you will be able to...
+### After this session you will be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -106,7 +106,7 @@ a. If so, what are you noticing?
 b. In what ways does the team data fit with your day-to-day clinical practice in your team?
 
 
-# That's it for _Modeling to learn_ how to produce team data for simulation. Next is our Done/Do review.
+### That's it for _Modeling to learn_ how to produce team data for simulation. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -123,4 +123,4 @@ b. In what ways does the team data fit with your day-to-day clinical practice in
 3. We will aggregate the responses and consider them together in the next session to help us choose which _MTL_ module we'll use for the next several sessions of _Modeling to Learn_.
 
 
-# Until next time, thank you for *Modeling to Learn*!
+## Until next time, thank you for *Modeling to Learn*!
