@@ -84,7 +84,7 @@ Answer: weeks
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
-## That’s it for modeling to learn how to tell a systems story. Next is our Done/Do review.
+### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
 Today we told a systems story about our team's top priority and entered a question in the Text section. Before next time, pleae log into your individual world and enter a Question and Hypothesis about the base case experimental run in the Text section.
 
