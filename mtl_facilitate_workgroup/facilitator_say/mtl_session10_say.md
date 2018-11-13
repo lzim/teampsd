@@ -73,7 +73,7 @@ Let's describe and enter the hypothesis to test, which, this time, will consider
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
 
-## That's it for modeling to learn how to use systems thinking. Next is our Done/Do review.
+## That's it for _Modeling to Learn_ how to use systems thinking. Next is our Done/Do review.
 
 Today we logged in to the sim UI to run experiment 3 and explored the results using systems thinking skills. Before next time, review and compare the base case with experiments 1, 2 and 3 and think about possible clinical care changes the team could make.  
 
