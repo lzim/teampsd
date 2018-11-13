@@ -77,7 +77,7 @@ Caution: Only choose the Save and Reset button at the bottom when you’re finis
 
 16.	Log out of the sim UI.  
 
-## That’s it for modeling to learn how to evaluate the Base Case of no new decisions. Next is our Done/Do review.  
+### That’s it for _Modeling to Learn_ how to evaluate the Base Case of no new decisions. Next is our Done/Do review.  
 
 Today we entered our Question, Hypothesis, Findings and Decisions for our base case run in the Text section. Before next time, please log in to mtl.how/sim and explore the results of the base case run in the Results Dashboard found in the Expanded Outputs view.  
 
