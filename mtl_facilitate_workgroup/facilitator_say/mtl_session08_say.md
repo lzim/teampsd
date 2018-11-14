@@ -81,11 +81,11 @@ Experiment 1 - Session 8:
 
 CC Q - What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
 
-MM Q - Can we serve 4 new patients with OUD each week? -- no :(
+MM Q - How can we serve 4 new patients with OUD each week? -- no :(
 
 PSY Q - What if we graduate more patients who complete 8 or more psychotherapy sessions in their first 3 months? What is the effect of working to increase the proportion of patients who 'complete' an evidence-based dose of PSY and then graduate from just 4% to 75%, over time, on (1) the number of patients who complete and are then 'done'? and (2) on the supply of available appts for new patients?
 
-AGG Q - What happens if we lose two providers AND then reduce how we make patient triage decisions -- to send half as many people to PSY and CC as we did before the hours for those services were also cut in half?
+AGG Q - How can we manage the loss of two providers AND then reduce how we make patient triage decisions -- to send half as many people to PSY and CC as we did before the hours for those services were also cut in half?
 
 SP Q - What if we implemented measurement-based care in our team?
 
