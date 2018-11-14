@@ -109,7 +109,8 @@ F - Increasing the supply of Appointment Supply for New CC Patients does increas
  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
 
 D - Next time we will experiment with adjusting our Return Visit Interval.
-+ Type in the *Our Question* text box a question that describes what your team wants to learn from changing a specific variable or variables in the model.
+
++ Type in the *Our Decision* text box a question that describes what your team wants to learn from changing a specific variable or variables in the model.
 
 12. Save and Reset when ready.
  
