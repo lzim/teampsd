@@ -77,7 +77,7 @@ Answer: weeks
 
 3.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
 
-**CARE COORDINATION Systems Story** - Balancing Existing and New Patients
+**CARE COORDINATION SYSTEMS STORY** - Balancing Existing and New Patients
 
 - Revealing the "Balancing Patients" detail in the CC model diagram shows key factors that affect how we balance providing quality care to existing patients with getting new patients into care in a timely manner. You probably recognize from clinical experience that this is a balancing act - there are trade-offs you have to make:
 
@@ -89,6 +89,57 @@ Answer: weeks
 
 - There's another variable shown in red inside the loop we just looked at: Return Visit Interval. This changes the effect of using your appointment supply on new patients. If you increase the return-to-clinic interval, that is, if you increase the average time between appointments for patients in your team, that has the effect of reducing the use of Appointments for Existing Patients, keeping your Appointment Supply for New Patients from dropping so much due to the ongoing load of patients you brought into your care.  
 
+**MEDICATION MANAGEMENT SYSTEMS STORY** _decide which of the following to tell in the video; write scripts for all for facilitator resources_
+
+- Balancing Existing and New Patients (Balancing Loop)
+
+- Overbooking Affects No Shows
+
+- Wait Time Affects Referrals (Balancing Loop) Sensitivity Tests
+
+- Sensitivity of Missed Appointments to Task Time
+
+- Sensitivity of Referals to Wait Time Patient Cohorts
+
+- Alcohol Use Disorder (AUD)
+
+- Depression (DEP)
+
+- Opioid Use Disorder (OUD)
+
+- Other
+
+**PSYCHOTHERAPY SYSTEMS STORY** - Balancing Existing and New Patients; Engagement After 3 Months
+
+The psychotherapy module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.
+
+**AGGREGATE MIX OF SERVICES SYSTEMS STORY** _decide which of the following to tell in the video; write scripts for all for facilitator resources_
+
+- Supply Affects Patient Services
+
+- Effects of Overtime
+
+- Fatigue Increases Clinic Cancellations (Reinforcing Loop)
+
+- Overtime Relieves Work Pressure Slowly (Balancing Loop)
+
+- Overtime Relieves Work Pressure Quickly (Balancing Loop)
+
+- Burnout Increases Clinician Questions (Balancing Loop)
+
+- Return-to-clinic Visit Interval (RVI) and Wait Times
+
+- Appointment Backlog Extends Return Visit Interval (Balancing Loop)
+
+**MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY**  _decide which of the following to tell in the video; write scripts for all for facilitator resources_
+
+- GMH 
+
+- PC/PCMHI 
+
+- SMH 
+
+- Mental Health Care Continuum
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
