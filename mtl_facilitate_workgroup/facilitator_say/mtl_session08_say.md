@@ -87,6 +87,8 @@ PSY Q - What if we graduate more patients who complete 8 or more psychotherapy s
 
 AGG Q - What happens if we lose two providers AND then reduce how we make patient triage decisions -- to send half as many people to PSY and CC as we did before the hours for those services were also cut in half?
 
+SP Q - What if we implemented measurement-based care in our team?
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
 CC H - Increasing the CC Appointment Supply will make more Appointments available for both new and existing CC patients. The Additional Appointment Supply for New CC Patients will increase the Starting Rate and lower New Patient Wait Times.
@@ -96,6 +98,9 @@ MM H - If our referral rate for OUD is 2 pts per month (0.5 per week), and we al
 PSY H - We expect that if we increase our completers who graduate to 75%, then we'll free up more slots in the clinic for more patients to start psychoterhapy/EBPsy. We hypothesize that an increasing the complete and graduate rate from 4% to 75% will results in a jump from about 4 patients to about 75 patients graduating during the same time period. We also expect that by increasing the graduation rate for any one who has received 8 or more sessions of PSY, we will increase the number of appt slots for new patients starting PSY.
 
 AGG H - We expect that wait times will not go up as much, as we have cut demand for those services.
+
+SP H – If we implement measurement based care in our GMH team, then care quality will improve (specifically through reductions in Time to Improve and Time to UnFlag, and an increase in the Time to Ending). Also, how long it takes clinicians to see changes in their patients will also improve (seen in a reduction in Time to Detect). We expect to be able to effectively diagnose and treat patients faster, reducing the number of high-symptom patients in care, and thus reducing the number of patients who receive high risk flags.
+However, low symptom patients are in care for longer than before, reducing the number of openings for new patients. These patients will make up more and more of our total – as there will be both more flowing in (due to higher Improvement Rate) and fewer flowing out (due to the lower Ending Rate). With fewer openings, wait times to start with our team should increase.
 
 + An example of a hypothesis statement is: "Our team thinks we can create more capacity for seeing EBPsy patients if we slightly lengthen the average return-to-clinic visit interval for our Psy patients. To test this, we will try increasing the Psy RVI from 10 to 11 weeks." 
 
@@ -121,6 +126,8 @@ PSY F - We found that the total number of patients served by the team increased 
 
 AGG F - Decision is for people to experiment with sensitivity sliders on own and follow up.
 
+SP F – As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years. The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place. However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate. Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year. However, because there have been no changes in Primary Care, wait times for stepping down to PC go up substantially – from 22 to 38 weeks.
+
 + You walked through the system story for both Appointments and Patients. With your text box on the right side of the screen, revisit the model diagram and outline the systems story your team believes will cause the outcomes your team expects to observe. Begin to craft the text for the *Our Hypothesis* box. A good hypothesis will include the proposed change our team will make, the services that will be impacted, how the team data values will be changed from base case, and what we expect to see as a result of the change.
 
 11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run. 
@@ -134,6 +141,8 @@ MM D - I am going change how I order my return to clinics for OUD and depression
 PSY D - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
 
 AGG D - We found RVI for PSY stretched way out to several weeks between visits and work pressure increased really quickly then came back down. Saw far less pts in PSY over next 2 years.
+
+SP D – In this experiment, we see a strong connection between changes made in our team and wait times for downstream teams. We should run an experiment that explores these connections and gauge the impacts of implementing stepped care between GMH and PC/PCMHI.
 
 + Type in the *Our Decision* text box a question that describes what your team wants to learn from changing a specific variable or variables in the model.
 
