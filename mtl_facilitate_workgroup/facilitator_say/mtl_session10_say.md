@@ -51,13 +51,51 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 6. Note the variables that were manipulated in the two experiments.
 7. Review the findings from the two experiments in the results dashboard and the text entered for Hypothesis, Findings and Decisions.
 
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-Let's describe and enter the hypothesis to test, which, this time, will consider a combination of our Experiment 1 and Experiment 2. We can review the test in the Decsion panel from Session 9, when we compared results Experiment 1 and Experiment 2. With that text entered into the hypotheis box, let's save it. -- Example for CC: We hypothesis that a combined effect of changing both the RVI (to something longer) will reduce our Missed Appointment % because there are fewer patient appts books. In addition, we hypothsisize that we can allow our new patient Referral Rate to increase to xx. At this anticipated referral rate, we will be able to integrate a more new patients into CC without negatively impacting our Team's Missed Appointment %. 
+Let's develop the question and create the hypothesis to test, which, this time, will consider a combination of our Experiment 1 and Experiment 2. We can review the test in the Decision panel from Session 9, when we compared results Experiment 1 and Experiment 2. 
+With that question and hypothesis texts entered into their respective boxes, let's save it. 
+
+  + CC - Question: What is the effect of changing RVI and new patient Referral Rate?
+  + CC - Hypothesis: We hypothesize that a combined effect of changing both the RVI (to something longer) will reduce our Missed Appointment % because there are fewer patient appts books. In addition, we hypothsisize that we can allow our new patient Referral Rate to increase to xx. At this anticipated referral rate, we will be able to integrate a more new patients into CC without negatively impacting our Team's Missed Appointment %. 
+
+   + MM - Question: If we get an increase in patients with OUD, can we serve them?
+   + MM - Hypothesis:  An increase in referrals of OUD patients will increase patients waiting start MM service, which will increase the starting rate.
+   
+   + PSY - Question: What is the effect of combining the effects of graduating 75% of all completers AND increasing Initiators who Complete to 75% on the number of patients who receive an EB dose of PSY?
+   + PSY - Hypothesis: We hypothesis that the combined effects of increasing the number of Initiators who Complete from the base case rate of 37% to 75% with an increase in helping the number of Completers to graduate will have a robust effect on the number of patients who complete and graduate compared to the base case. We expect to see that more than 99 patients are Completers who are done.
+   
+   + AGG - Question:
+   + AGG - Hypothesis:
+   
+   + SP - Question: What happens if we implemented both measurement based care and stepped care?
+   + SP - Hypothesis: When we increased care quality and symptom detection (via measurement-based care), we saw patient outcomes improved dramatically, but at the cost of higher wait times for GMH patients stepping down to PC. When we streamlined transitions between settings (via implementing stepped care), we saw higher start rates, but also higher wait times for patients stepping down from GMH to PC and a higher ratio of high to low symptom patients in GMH. Combining these experiments should lead to even more benefits to our patients: better outcomes, fewer patients with high risk flags, higher start rates. However, we believe we will also see even higher wait times into PC from GMH.
+
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
 
+   + CC - Findings:
+   
+   + MM - Findings: An increase in patients with OUD, with no other changes , increases patients waiting to start MM.
+    
+   + PSY - Findings: We found that there was an increase in the number of patients being served (from N=371 BC and N=460 EXP1) to N=480! We also found that we have an increase in Initiators, as expected (n=373) and in Completers, as expected (n=280). We saw a robust number of patients over the BC (n=4) in persons who completed and graduated (n=70). This was decreased from n=90, when we only changed the % of completers who graduated, but not Initiators. However, with the combined decisions, we enjoyed a higher starting rate and a higher initiation rate after one year, and the we saw an improved graduation rate over the BC from the start of the run.
+
+   + AGG - Findings:
+   
+   + SP - Findings: All predictions confirmed: we see a greater drop in the number of patients with a high risk flag, fewer high symptom patients in both PC and GMH (for GMH, almost completely counter-acting the increases coming from stepped care), and higher start rates. The number of patients in GMH is slightly, but significantly, lower than the historical average, reducing stress and increasing care quality. Wait times for most patients fall the same or more than in either previous experiments, except for patients stepping down from GMH to PC, where the wait time has increased to the highest of all our experiments - 60 weeks! Increasing quality in GMH and reducing the delays on stepping patients down to PC puts additional pressure on PC to see more MH patients – pressure that they can’t seem to accommodate.  
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
+
+   + CC - Decisions:
+   
+   + MM - Decisions: Consider other parts of care delivery to meet new OUD patients' needs. Cannot focus on referral rate in isolation.
+   
+   + PSY - Decisions: We think that working to support a 75% rate of Initiators who complete 8 sessions of PSY in 3 months combined with efforts to support a 75% graduation rate of patients who complete 8 sessions of PSY is a clinically valuable and viable strategy. It increases supply of appts for new patients while increasing the number of patients who get an evidence-based dose of PSY.
+
+   + AGG - Decisions:
+   
+   + SP - Decisions: For either of these efforts to be truly successful, Primary Care needs to expand their capacity to see mental health patients. We will take these findings to our chief, to show how our two settings are connected, and that our well-intended actions to improve care or remove barriers between our settings could have a detrimental effect on mental health access in PC. We will propose a series of trainings to PC staff to increase their comfort taking on MH patients, and thus increase their capacity. We will conduct more experiments to try to estimate the size of the capacity increase necessary to prevent an increase in wait time.
 
 8. Collapse the Expanded Outputs tile and move it to the side to reveal the system diagram.
 9. Use the diagram to tell a system story about the differences in the two experiments.
