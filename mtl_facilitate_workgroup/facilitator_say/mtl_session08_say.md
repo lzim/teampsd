@@ -20,11 +20,15 @@ output:
 # Today we're modeling to learn how to test a dynamic hypothesis.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to test a dynamic hypothesis.
 
+### As you can see in the Done/Do table at the top of the Learner See Guide:
+
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the Expanded Outputs section to prepare for experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis by running experiment 1 and comparing results against the bc.
+
+### After this MTL session, you will be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -35,21 +39,40 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 2. Test your dynamic hypothesis about your team's clinical priority.
 3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
 
+### Let's get started:
+
 # In-session Exercise (30 minutes)
 
 ## Running an Experiment
 
 1.	Log in to the team world at mtl.how/sim.
 
-2.	In the middle tile on *MTL* Home, you will see the "Experiment Maintenance" tile in the middle of the screen. This is where you can review your saved runs by clicking on the down arrow to the right of "Experiment Maintenance" title in the blue bar.  In this tile you are able to *Delete*, *Rename*, or *Export* your experiments. Review your saved runs. A team may need to rename experiments if they want to be sure they are able to differentiate between experiments or if they incorrectly named a file in a prior session. If you need to rename any of your saved runs, click on the box to the left of the file name and click on the word *Rename*. You can then change the name of the file and click on the save button.
+2.	In the middle tile on *MTL* Home, you will see the "Experiment Maintenance" tile in the middle of the screen. This is where you can review your saved runs by clicking on the down arrow to the right of "Experiment Maintenance" title in the blue bar.  
+
+   + In this tile you are able to *Delete*, *Rename*, or *Export* your experiments. Review your saved runs.  
+  
+   + A team may need to rename experiments if they want to be sure they are able to differentiate between experiments or if they incorrectly named a file in a prior session. If you need to rename any of your saved runs, click on the box to the left of the file name and click on the word *Rename*. You can then change the name of the file and click on the save button.  
 
 3.	On the right side of the *MTL* Home page, you will see the "Team Data Menu Maintenance" tile. In this tile you are able to *Delete*, *Rename*, or *Add* data files. Review the data files you have uploaded for use and make sure you have the data file you want. 
 
-4.	You can *Join Current Session* or *Start a New Session* in the desired module by clicking in the circle to the right of one of those titles and then click on "Play." As a reminder, the available modules are Care Coordination, Medication Management, Psychotherapy, Aggregate, and Suicide Prevention. If you *Start a New Session* you will need to select the team data file you would like to use. Click on the "Select Team Data" icon. A pop-up box will appear on your computer screen with the text, "Please select a model input file." Click on the blue down arrow next to the text "Please select team data" and choose the data file you would like to use in an experiment.
+4.	You can *Join Current Session* or *Start a New Session* in the desired module by clicking in the circle to the right of one of those titles and then click on "Play." 
 
-5.	The main model tile is in the center of your screen. The Output and Experiment sections are on the right side of the model. To refresh your memory and pick up where you left off in your *MTL* learning, expand the Experiments section by clicking on the white down arrow in the blue bar. You will see the phrase, "Select Previous Experiment to Set Experimental Values to a Former State." Click on the red down arrow and select the base case experiment from the last session. When you click the red "Go" button, a blue and white pop up box will appear with the title "Review Previous Settings." Because you've selected the base case experiment, all of the values showing in the Experimental Values box should show either BC or 1. You will also want to check the box next to the text "Include text from this session in Expanded Outputs text fields?" As a reminder, the text fields are: Our Question, Our Hypothesis, Our Findings, Our Decisions. To bring up the text boxes for easy review, click on the Output section. Click on Expand. Click on the layered squares or windows in the upper right corner of the blue bar to make the text box smaller so it's easy to review the text in the text boxes and main model diagram.
+   + As a reminder, the available modules are Care Coordination, Medication Management, Psychotherapy, Aggregate, and Suicide Prevention.  
+   
+   + If you *Start a New Session* you will need to select the team data file you would like to use. Click on the "Select Team Data" icon. A pop-up box will appear on your computer screen with the text, "Please select a model input file." Click on the blue down arrow next to the text "Please select team data" and choose the data file you would like to use in an experiment.  
 
-6.	We should reveal complexity so the learner can view the whole model. Let's study the model diagram and team data. First, explore the Appointments section of the model and see how Appointment Supply links to a number of variables. Then, examine the Patients sections of the model. Notice how the different gauges and rectangles are linked and what causes them to increase or decrease. Finally see how the Patients and Appointments interact in the model for example by examining appointment supply and return visit interval.  Remember, red boxes are read into the model from team data. As a team, we decide what change to experiment with in the model. To make that decision, we should ask: 1) How do we think things will change over time if choose a specific variable to change?, and 2) What relationships in the system will interact if we make the change? Ultimately, the team should choose changes that might give the desired result that links to the team vision and team need. 
+5.	The main model tile is in the center of your screen. The Output and Experiment sections are on the right side of the model. To refresh your memory and pick up where you left off in your *MTL* learning, expand the Experiments section by clicking on the white down arrow in the blue bar. You will see the phrase, "Select Previous Experiment to Set Experimental Values to a Former State." 
+
+   + Click on the red down arrow and select the base case experiment from the last session.  
+   + When you click the red "Go" button, a blue and white pop up box will appear with the title "Review Previous Settings." Because you've selected the base case experiment, all of the values showing in the Experimental Values box should show either BC or 1.  
+   + You will also want to check the box next to the text "Include text from this session in Expanded Outputs text fields?"  
+   + As a reminder, the text fields are: Our Question, Our Hypothesis, Our Findings, Our Decisions. To bring up the text boxes for easy review, click on the Output section. Click on Expand. Click on the layered squares or windows in the upper right corner of the blue bar to make the text box smaller so it's easy to review the text in the text boxes and main model diagram.  
+
+6.	Next, let's click on "reveal complexity" so the learner can view the whole model. Let's study the model diagram and team data.  
+  + First, explore the Appointments section of the model and see how Appointment Supply links to a number of variables.  
+  + Then, examine the Patients sections of the model. Notice how the different gauges and rectangles are linked and what causes them to increase or decrease.  
+  + Finally see how the Patients and Appointments interact in the model for example by examining appointment supply and return visit interval.  Remember, red boxes are read into the model from team data.  
+  + As a team, we decide what change to experiment with in the model. To make that decision, we should ask: 1) How do we think things will change over time if choose a specific variable to change?, and 2) What relationships in the system will interact if we make the change? Ultimately, the team should choose changes that might give the desired result that links to the team vision and team need. 
 
 7.	Let's create a new experiment building off of the previous one. The first step is to revise the text in all the text boxes to reflect the experiment you want to do now: 
 
@@ -82,6 +105,9 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 12. Save and Reset when ready.
  
+### That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review.
+ 
+Today we ran and experiment and compared the results against the base case. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2. 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -89,5 +115,5 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. | 
 
-
+## Until next time, thank you for *Modeling to Learn*!
 
