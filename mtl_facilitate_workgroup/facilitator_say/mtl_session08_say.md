@@ -79,11 +79,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 Experiment 1 - Session 8:
 
-Q - What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
+CC Q - What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-H - Increasing the CC Appointment Supply will make more Appointments available for both new and existing CC patients. The Additional Appointment Supply for New CC Patients will increase the Starting Rate and lower New Patient Wait Times.
+CC H - Increasing the CC Appointment Supply will make more Appointments available for both new and existing CC patients. The Additional Appointment Supply for New CC Patients will increase the Starting Rate and lower New Patient Wait Times.
 
 + You walked through the system story for both Appointments and Patients. With your text box on the right side of the screen, revisit the model diagram and outline the systems story your team believes will cause the outcomes your team expects to observe. Begin to craft the text for the *Our Hypothesis* box. A good hypothesis will include the proposed change our team will make, the services that will be impacted, how the team data values will be changed from base case, and what we expect to see as a result of the change.
 + An example of a hypothesis statement is: "Our team thinks we can create more capacity for seeing EBPsy patients if we slightly lengthen the average return-to-clinic visit interval for our Psy patients. To test this, we will try increasing the Psy RVI from 10 to 11 weeks." 
@@ -102,13 +102,13 @@ H - Increasing the CC Appointment Supply will make more Appointments available f
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
 
-F - Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.
+CC F - Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.
 
 11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run. 
 
  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
 
-D - Next time we will experiment with adjusting our Return Visit Interval.
+CC D - Next time we will experiment with adjusting our Return Visit Interval.
 
 + Type in the *Our Decision* text box a question that describes what your team wants to learn from changing a specific variable or variables in the model.
 
