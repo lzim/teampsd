@@ -257,28 +257,34 @@ The measurement based stepped care for suicide prevention module shows the effec
 **Systems Story:**
 
 **Base Case - Session 7:**
-
   + Q - What if we made no new decisions in our team?
-  + H
-  + F
-  + D
-    
+  + H – If we make no new decisions, then we expect to see no changes in care quality, performance, or wait times in all three settings – all the current historical averages for patients in care, step down rates, etc. will hold for the next two years.  
+  + F – Since the teams in the simulation experience no external shocks, the historical rates all continue for the next two years.
+  + D – We should try implementing measurement-based care, and see what the positive and unexpected impacts will be.
+
 **Experiment 1 - Session 8:**
+  + Q - What if we implemented measurement-based care in our team?
+  + H – If we implement measurement based care in our GMH team, then care quality will improve (specifically through reductions in Time to Improve and Time to UnFlag, and an increase in the Time to Ending).  Also, how long it takes clinicians to see changes in their patients will also improve (seen in a reduction in Time to Detect).  We expect to be able to effectively diagnose and treat patients faster, reducing the number of high-symptom patients in care, and thus reducing the number of patients who receive high risk flags.  
+However, low symptom patients are in care for longer than before, reducing the number of openings for new patients.  These patients will make up more and more of our total – as there will be both more flowing in (due to higher Improvement Rate) and fewer flowing out (due to the lower Ending Rate). With fewer openings, wait times to start with our team should increase. 
+  + F – As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years.  The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place.  However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate.  Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year.  
+    However, because there have been no changes in Primary Care, wait times for stepping down to PC go up substantially – from 22 to 38 weeks. 
+  + D – In this experiment, we see a strong connection between changes made in our team and wait times for downstream teams.  We should run an experiment that explores these connections and gauge the impacts of implementing stepped care between GMH and PC/PCMHI.
 
-  + Q - What if we implemented measurement based care in our team?
-  + H
-  + F
-  + D
-    
-**Experiment 2 - Session 9:** 
+**Experiment 2 - Session 9:**
+  + Q - What if we implemented stepped care between our clinic and PC/PCMHI?
+  + H – With this change, clinicians in both settings will be more likely to step their patients between the two settings, as all the confusion and negotiation needed to step a patient between these settings will have been removed – now, if a GMH patient is low symptom, then they will spend less time in GMH before their provider recommends stepping down to PC, and for high symptom patients in PC, they will spend less time there before clinicians there recommend stepping up to GMH. 
+    We expect this smoother flow between the two settings to decrease the number of patients waiting to step between the two settings. For PC, they will be able to step more high symptom patients up to the right level of care sooner, so the number of patients in PC with a high risk flag will start to decline. For GMH, we will be able to step more low-symptom patients down to PC, creating more openings, and thus increase our access.
+  + F – Start rates in GMH and PC increase (from 12 to 16 pts/week, then settling at 13; and ~6.5 to 8 pts/wk, settling at 7.5, respectively).  Primary Care is able to reduce both the number of high-symptom patients in their care, and the number of patients with a high risk flag.  Even with the increase in the Recommend Step Up Rate, wait time before actually stepping up to GMH falls.  
+    However, the unintended consequence of implementing stepped care, this is not the case for patients trying to step down from GMH: as more patients are recommended to step down to PC, the actual start rate in PC does not increase enough to accommodate all these new patients.  Why? Even though the effect on flow between the two settings was the same (ie, Time to Recommend was cut in both settings by 50%), the size of the two settings is not– GMH can maintain over 500 patients in treatment, while PC can only maintain 300.  Implementing Stepped Care between these two settings with a substantial size difference will mean more patients trying to flow from GMH to PC than from PC to GMH.  Thus, the resulting wait time to step down from GMH to PC practically doubles over the next two years.  Also, the ratio of high symptom patients to low in GMH slightly increases, as it is easier to step low symptom patients down to PC than before.
+    Not all wait times for starting PC have increased, though.  Both new patients and patients stepping down from Specialty Mental Health see their wait times reduced (new patients to near zero!).  This suggests that PC has options, and can re-allocate their openings to better balance incoming patients’ needs.  Reallocating their openings can’t fix everything, as the inflows from new and SMH are only 1/5 (each) as large as the inflow from GMH.  
+    There is one silver lining: because the total number of patients in GMH has decreased (as more GMH patients leave to try to start in PC than PC patients start in GMH), the stress on our GMH team decreases and care quality increases.  We see a ~10% decrease in the number of GMH patients with a high risk flag. 
+  + D – We have increased transitions without increasing quality.  Next, let’s conduct a combined experiment, where we implement both measurement-based care and streamline stepping between GMH and PC/PCMHI.
+  
+**Experiment 3 - Session 10 - Combine experiments 1 and 2:**
+  + Q - What happens if we implemented both measurement based care and stepped care?
+  + H –When we increased care quality and symptom detection (via measurement-based care), we saw patient outcomes improved dramatically, but at the cost of higher wait times for GMH patients stepping down to PC.  When we streamlined transitions between settings (via implementing stepped care), we saw higher start rates, but also higher wait times for patients stepping down from GMH to PC and a higher ratio of high to low symptom patients in GMH.
+    Combining these experiments should lead to even more benefits to our patients: better outcomes, fewer patients with high risk flags, higher start rates.  However, we believe we will also see even higher wait times into PC from GMH. 
+  + F – All predictions confirmed: we see a greater drop in the number of patients with a high risk flag, fewer high symptom patients in both PC and GMH (for GMH, almost completely counter-acting the increases coming from stepped care), and higher start rates.  The number of patients in GMH is slightly, but significantly, lower than the historical average, reducing stress and increasing care quality.
+Wait times for most patients fall the same or more than in either previous experiments, except for patients stepping down from GMH to PC, where the wait time has increased to the highest of all our experiments - 60 weeks!  Increasing quality in GMH and reducing the delays on stepping patients down to PC puts additional pressure on PC to see more MH patients – pressure that they can’t seem to accommodate.  
++ D – For either of these efforts to be truly successful, Primary Care needs to expand their capacity to see mental health patients.  We will take these findings to our chief, to show how our two settings are connected, and that our well-intended actions to improve care or remove barriers between our settings could have a detrimental effect on mental health access in PC.  We will propose a series of trainings to PC staff to increase their comfort taking on MH patients, and thus increase their capacity.  We will conduct more experiments to try to estimate the size of the capacity increase necessary to prevent an increase in wait time.
 
-  + Q - What if we implemented stepped care in our clinic?
-  + H
-  + F
-  + D
-    
-**Experiment 3 - Session 10 - Combine experiments 1 and 2:** 
-  + Q - What if we implemented both measurement based care and and stepped care?
-  + H
-  + F
-  + D
