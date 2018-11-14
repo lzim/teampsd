@@ -158,7 +158,7 @@ The psychotherapy module shows how team psychotherapy decisions interact, and de
 
 **Base Case - Session 7:**
 
-  + Q -  What would happen over the next two years if we made no new decisions in our team? How many patients are current receiving an evidence-based dose of PSY by our team?  Is there a way to increase the number of PSY patients who complete and graduate without compromising new patient wait times?
+  + Q - How do we increase the number of psychotherapy patients who complete a full course of psychotherapy without decreasing the starting rate for new patients in psychotherapy?
   
   + H - We expect that we will continue to see fewer Psy and EBPsy patients than we want because we aren't graduating our psychotherapy patients. We hypothesis that the number of patients receiving an evidence-based dose of PSY is currently low,  taking into consideration that Completers who Graduate is about 4% and that Initiators who Complete is just 37%.
   
