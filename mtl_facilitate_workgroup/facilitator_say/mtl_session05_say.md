@@ -49,47 +49,48 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
 3.	Orient yourself to the landing page
 
-a.	 At the top left is the MTL logo. That’s on every page in the sim and works as a Home button (there’s also a button labelled Home).
+   + At the top left is the MTL logo. That’s on every page in the sim and works as a Home button (there’s also a button labelled Home).
 
-b.	Reading across on that row you see your Team name followed by five navigation icons. I call your attention to the Logoff button. It’s best practice to always log off when you’re finished using the sim.
+   + Reading across on that row you see your Team name followed by five navigation icons. I call your attention to the Logoff button. It’s best practice to always log off when you’re finished using the sim.
   
-c.	On the right is your name and picture – if you’ve uploaded it to your profile. (Add link to instructions for setting Gravatar.)
+   + On the right is your name and picture – if you’ve uploaded it to your profile. (Add link to instructions for setting Gravatar.)
   
-d.	Under that row is some welcome text, followed by 3 sections with blue headers: Session, Experiment Maintenance, and Team Data Menu Maintenance. Headers with a white triangle on the right can be expanded and collapsed. 
+   + Under that row is some welcome text, followed by 3 sections with blue headers: Session, Experiment Maintenance, and Team Data Menu Maintenance. Headers with a white triangle on the right can be expanded and collapsed. 
   
-e.	Note that users who are not designated as TeamLead will not see all of these features. We’ll describe the functionality of the different roles later. But each of you IS the “TeamLead” for your individual world, so you’ll see all of this when you log in there.
+   + Note that users who are not designated as TeamLead will not see all of these features. We’ll describe the functionality of the different roles later. But each of you IS the “TeamLead” for your individual world, so you’ll see all of this when you log in there.
   
-f.	The two right-hand sections are, as they say, for maintenance – one allows you to see, rename, and delete past experiments the team has run; the other allows you to upload, select, and remove Team Data sets that will populate the model. 
+   + The two right-hand sections are, as they say, for maintenance – one allows you to see, rename, and delete past experiments the team has run; the other allows you to upload, select, and remove Team Data sets that will populate the model. 
   
-g.	Go to the section on the left, and you’ll see that you have two main choices: You can Join the Current Session or Start a New Session. If there IS a “current session”, there will be information underneath that heading that shows which module (CC, MM, etc.) and which team data set is loaded for the session. Today there’s nothing there because you haven’t started a session. In future, you’ll almost always just join the current session because you’ll want to continue working with the same module and dataset.
+   + Go to the section on the left, and you’ll see that you have two main choices: You can Join the Current Session or Start a New Session. If there IS a “current session”, there will be information underneath that heading that shows which module (CC, MM, etc.) and which team data set is loaded for the session. Today there’s nothing there because you haven’t started a session. In future, you’ll almost always just join the current session because you’ll want to continue working with the same module and dataset.
   
-h.	Since there’s no current session, we will start a new one. Based on our discussion last time, we determined that the module that makes most sense for this team to work in first is __________. This module will let you explore your questions about __________ and ___________. So, select _______ , and you’ll see another request pop up to Select Team Data. Click on that and the down-arrow for the drop-down menu – and there is nothing there. This is the Team Data Menu that the far right section, Team Data Menu Maintenance, is referring to.
+   + Since there’s no current session, we will start a new one. Based on our discussion last time, we determined that the module that makes most sense for this team to work in first is __________. This module will let you explore your questions about __________ and ___________. So, select _______ , and you’ll see another request pop up to Select Team Data. Click on that and the down-arrow for the drop-down menu – and there is nothing there. This is the Team Data Menu that the far right section, Team Data Menu Maintenance, is referring to.
 
 4.	So now let’s go to that section and expand it. We want to Add the data file that you created before, so click Add. Since you need to enter the filename EXACTLY as it is named in the data UI folder, the best thing is to copy and paste it in here. So go to your Explorer window, grab that name, and come back here to paste it into the space. Pay attention to make sure it didn’t get truncated in the translation. Click Save and Voila: It’s now there! 
 
-a.	Other functions in this section are you can Sort the data file list either alphabetically or by date by clicking the column header. You can delete a file by selecting the checkbox and hitting delete. And you can correct a file name to exactly match the one you're trying to load by selecting and Renaming it. (You can not change the name to something different or it won't bring in the data file you need anymore.)
+   + Other functions in this section are you can Sort the data file list either alphabetically or by date by clicking the column header. 
+   + You can delete a file by selecting the checkbox and hitting delete. And you can correct a file name to exactly match the one you're trying to load by selecting and Renaming it. (You can not change the name to something different or it won't bring in the data file you need anymore.)
 
 5.	Now let’s go back over to the Session section and click the Select Team Data button. Choose the data file you just uploaded and click Get File, and then click PLAY.
 
 6.	Look over the Main Page of the SimUI
 
-a.	You see the same information and buttons across the top; and you see a new set of sections with blue headers. 
+   + You see the same information and buttons across the top; and you see a new set of sections with blue headers. 
 
-b.	The section on the left names the module and team data you selected in the header bar. It contains an Experiment Timeline section and the model diagram for the ______ module.
+   + The section on the left names the module and team data you selected in the header bar. It contains an Experiment Timeline section and the model diagram for the ______ module.
 
-c.	On the right you see an Outputs section, an Experiments section, and a Text section.
+   + On the right you see an Outputs section, an Experiments section, and a Text section.
 
 7.	The Text section is here so you can record your thinking – you questions, hypotheses, what you did, what you learned, what you decided – to keep track of it so that when you come back you can easily remember and pick up where you left off. So let’s start by jotting some notes in the first box. You might type – We loaded our team data table into the sim UI and now we’re exploring the Team Data Table. You could also type these questions that I’m going to ask you:
 
-a.	Where did the data in this table come from?
+   + Where did the data in this table come from?
   
-b.	What are the variables in the table?
+   + What are the variables in the table?
   
-c.	What are the units for the different variables?
+   + What are the units for the different variables?
   
-d.	Do the values line up with how you think things really are?
+   + Do the values line up with how you think things really are?
   
-e.	What types of decisions does the team make that affect these variables?
+   + What types of decisions does the team make that affect these variables?
   
 8.	Now let’s discuss the questions you typed into the Text box. TeamLead, you can type the answers into the Hypothesis or Findings box depending on which you think they are. If there are questions that need to be researched further, you can type those in the Questions box.
 
