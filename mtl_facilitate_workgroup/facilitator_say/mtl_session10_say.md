@@ -66,7 +66,7 @@ With that question and hypothesis texts entered into their respective boxes, let
    + PSY - Question: What is the effect of combining the effects of graduating 75% of all completers AND increasing Initiators who Complete to 75% on the number of patients who receive an EB dose of PSY?
    + PSY - Hypothesis: We hypothesis that the combined effects of increasing the number of Initiators who Complete from the base case rate of 37% to 75% with an increase in helping the number of Completers to graduate will have a robust effect on the number of patients who complete and graduate compared to the base case. We expect to see that more than 99 patients are Completers who are done.
    
-   + AGG - Question:
+   + AGG - Question: What is the impact of losing two providers on both medication management and sending half as many people to PSY and CC?
    + AGG - Hypothesis:
    
    + SP - Question: What happens if we implemented both measurement based care and stepped care?
