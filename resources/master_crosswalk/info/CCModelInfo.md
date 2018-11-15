@@ -1,4 +1,20 @@
-| Vensim                                            | Description   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+---
+title: "SPModelInfo"
+author: "Team PSD"
+date: "October 2018"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
+
+
+| Variable name | iText |
+|--------------:|:------|                                                                                        
 | Median Engagement                                 | The median number of weeks that patients stay engaged with the team, receiving care coordination visits according to team data. The visits can be with any member of the team.  This engagement time represents a patient's entire engagement in care coordination across treatment episodes, regardless of gaps in service. (wks)                                                                                                                                                                           |
 | Appointment Supply (75th percentile)              | An estimate of the weekly number of care coordination appointments available with this team. The estimate is calculated using the volume of care coordination visits completed with the team over one year. (appt/wk)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Return Visit Interval (median)                    | The median return-to-clinic visit interval for care coordination visits with this team, calculated from the number of visits per patient over their entire engagement time. (wks)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
