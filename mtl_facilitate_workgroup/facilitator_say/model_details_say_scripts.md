@@ -35,21 +35,42 @@ Patients are having to wait longer than we'd like to start Care Coordination. We
 
 - *Complexity and Feedback Loops*
 
-  - Balancing Existing and New Patients (Balancing Loop)
+**Balancing Existing and New Patients**
 
-- Revealing the "Balancing Patients" detail in the CC model diagram shows key factors that affect how we balance providing quality care to existing patients with getting new patients into care in a timely manner. You probably recognize from clinical experience that this is a balancing act - there are trade-offs you have to make:
-- You have a given number of appointments slots available, and they can go either to new or existing patients. The more go to new patients, the fewer can go to existing patients, and vice versa.
-- When you open up slots for new patients (green box), following the arrow down and to the left from the green box you see that means an increase in the Starting Rate for new patients. Continuing from the Starting Rate to the Booking Rate (remember, "starting" is what _patients_ do; "booking" is an _appointments_ action), we see that if the Starting rate is going up, then so is the Rate of Booking appointments, which means creating appointments, which means more Appointments in CC, and that means more Appointments for Existing Patients. (Once a patient starts, they instantly become an existing patient.)
-- But now notice that an increase in Appointments for Existing Patients means a DECREASE in the Appointment Supply for New Patients. This is how that balancing act shows up in a model diagram: We traced a chain of effects through the system and found that if we made an increase in one place, the cascading events circled back to decrease that first variable . This is a feedback loop - the change rippled all the way back to the starting place - and it's the kind of feedback we call a balancing loop, because it causes things to oscillate back and forth and "try" to achieve a balance around a steady state, like the temperature in your house when the thermostat is working to keep it at the temperature you set.
+ + Let's reveal the "Balancing Patients" detail in the CC model diagram. The reveal shows key factors that affect how we balance providing quality care to existing patients with getting new patients into care in a timely manner.  
+
+ + You probably recognize from clinical experience that this is a balancing act - there are trade-offs you have to make:  
+   ++ You have a given number of appointments slots available, and these appointments can go either to new or existing patients.    
+   
+   ++ The more slots that go to new patients, the fewer can go to existing patients, and vice versa.  
+   
+   ++ The "B" with a circle arrow around it on the diagram symbolizes a balancing loop - the balance of managing existing and new patients.  
+   
+ + For this activity of telling a systems story, we pick a variable and trace it all the way around until you are back where you started - so you close the feedback loop, in this case a balancing loop.  
+   
+   ++ On the model diagram, you see plus and minus signs next to the blue lines. (*Use Thumbs to demonstrate concept*).  
+   
+   ++ If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up or increasing or both down or decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down). 
+
+ + Let's walk through a systems story in Care Coordination. Our team is concerned about the rate at which we are able to start new patients in CC.  
+ 
+ + When you open up slots for new patients -- shown by the green box labeled *Additional Appointment Supply for New CC Patients* -- and follow the arrow down and to the left from the green box you see that means an INCREASE in the *Starting Rate* for new patients. Because the arrow leading from *Appointment Supply for New CC Patients* to *Starting Rate* ends has a plus sign you know if new patient appointment supply goes up, the starting rate goes up.
+
+ + Continuing from the *Starting Rate* to the *Booking Rate* (remember, "starting" is what _patients_ do; "booking" is an _appointments_ action), we see that if the *Starting Rate* is going up, then so is the Rate of Booking appointments, which means appointments are created so there are more *Appointments in CC.* And, that means there are more *Appointments for Existing Patients*. (Once a patient starts, they instantly become an existing patient.)
+
+ + But now notice that an INCREASE in *Appointments for Existing Patients* means a DECREASE in the *Appointment Supply for New Patients*. You can tell this is the relationship because there is a minus sign next to the blue arrow leading from *Appointments for Existing Patients* to the new patient appointment supply in the green box.  
+ 
+ + This is how that balancing act shows up in a model diagram: We traced a chain of effects through the system and found that if we made an increase in one place, the cascading events circled back to decrease that first variable. This is a *feedback loop* - the change rippled all the way back to the starting place - and it's the kind of feedback we call a *balancing loop*, because it causes things to oscillate back and forth and "try" to achieve a balance around a steady state, like the temperature in your house when the thermostat is working to keep it at the temperature you set.
+
 - There's another variable shown in red inside the loop we just looked at: Return Visit Interval. This changes the effect of using your appointment supply on new patients. If you increase the return-to-clinic interval, that is, if you increase the average time between appointments for patients in your team, that has the effect of reducing the use of Appointments for Existing Patients, keeping your Appointment Supply for New Patients from dropping so much due to the ongoing load of patients you brought into your care.  
 
-  - Overbooking Affects No Shows
+**Overbooking Affects No Shows**
   
 - Revealing the Overbooking Affects No-Shows detail adds to the story by showing what happens when Overbooking (green variable, top right) is used to make up for limited Appointment Supply (red, at right). We can add more appointments to our supply if we say we're going to work through lunch or eliminate any time we've scheduled in for tasks like writing notes, following up with patients, etc. 
 - But this means less time for those tasks that we know are important for keeping both providers and patients on track, so it will ultimately lead to a higher Missed Appointment Rate (top left). As the Missed Appointment Rate goes up, the number of Missed Appointments per week (True Missed Appointment Rate) increases, which leads to an increase in the Rescheduling Rate. Over time this means more CC Appointments are needed for existing patients, delaying or 'crowding out' new CC patients who are Waiting to Start.
 - The other arrow added in with this complexity reveal is the one from Completing Rate for appointments to the True Missed Appointment Rate. The more Appointments are Completed in CC each week, the more are missed, if you assume a fixed Percentage of Appointments Missed. But more Missed Appointments leads to more Rescheduling, which leads back to more total Appointments in CC. And again, the need for more CC Appointments for existing patients means less room in the grid for new patients.
 
-  - Wait Time Affects Referrals (Balancing Loop)
+**Wait Time Affects Referrals (Balancing Loop)**
   
 - The Wait Time Affects Referrals detail shows what happens when there is an increasing backlog of patients Waiting to Start CC. This causes the average New Patient Wait Time to climb; and at some point, referrals to CC begin to slow down. Patients are kept in or referred to other services so that they don't have to wait longer than the desired maximum for their first CC appointment.
 - The Target Wait Time - something the team can decide on - changes how Referral Rate responds to New Patient Wait Time. If a longer average wait time is OK, then referrals won't slow down when patients are waiting less time than that to get into care, and vice versa.
