@@ -1,5 +1,5 @@
 ---
-title: "SPModelInfo"
+title: "CCModelInfo"
 author: "Team PSD"
 date: "November 2018"
 output: 
