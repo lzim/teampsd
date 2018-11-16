@@ -11,7 +11,7 @@ knitr::opts_chunk$set(error = TRUE, echo = TRUE)
 
 ```{r, include=FALSE}
 #knitr::opts_chunk$set(echo = FALSE)
-setwd(("//vhapalmpncptsd1/Shared Research/TeamPSD/quant_workgroup/r"))
+
 
 ```
 
