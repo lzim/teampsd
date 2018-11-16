@@ -43,71 +43,106 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 # In-session Exercise (30 minutes): The Model Diagram and Systems Story
 
-1.	For this session, you should go ahead and log in to your Individual world at **mtl.how/sim**. That way you'll be able to play along with our scavenger hunt.  
+A. For this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll be able to play along with our scavenger hunt.  
 
-+ To log in to your Individual world, enter your log-in credentials and click **LOGIN**, then select the world that starts with **"ind" from the drop-down menu**.  
++ To log in to your Individual world, go to mtl.how/sim. Enter your username (email address) and password. Click **LOGIN**. A pop-up box appears with the text "Please select a World" on the blue bar. Select the world that starts with **"ind" from the drop-down menu**.  
 
 + Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.  
 
-+ If you've gone into the _ Module before, you'll see the **name of the module and the dataset you chose under the first option**, Join Current Session. If so, select that and hit Play. If not, look **below and select the _ module**.  
++ If you've gone into the ____ (CC, MM, PSY, AGG, or SP) Module before, you'll see the **name of the module and the dataset you chose under the first option**, Join Current Session. If so, select that and hit Play. If not, look **below and select the ____ (CC, MM, PSY, AGG, or SP) module**.  
 
 + "Select Team Data" will appear. Click on that and choose the team dataset from the drop-down menu. Then hit **Play**. (If you don't see any data to select in the Team Data menu, go back to the instructions in Session 4 to see how to upload your team dataset.)  
 
-Now check what you're seeing against what we're showing on the video. It should look the same, except that it will have YOUR team's name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
+Now check what you're seeing against what we're showing on the screen. It should look the same, except that it will have YOUR team's name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
 
-Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model diagram. It's a dynamic graphic, so if you re-size the browser window by clicking the **boxes icon in the top right** and adjust its size, you can get more or less of the diagram to show up at once.  
+Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model diagram. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
+   +  On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen. 
+   +  On a MAC, to view the model in full screen click the **green button in the upper left of the browser** on your computer. To exit full screen, hover at the top of your computer screen, the toolbar will appear, click on "View", click on "Exit Full Screen."  
 
-2.	We're going to ask a series of questions and your job is to find the answer in the Model Diagram.  
 
-Question 1: Over what time frame does an experiment run?  
+B. We're going to ask a series of questions and your job is to find the answer in the Model Diagram.  
+
+**Question 1: What are the two major units in each module?**  
+
+Answer: Each *Modeling to Learn* module examines the flows of *Appointments* and the flow of *Patients*. You can see this in the model diagram --[use mouse to show location of text] *Appointments* in the top left and *Patients* in the middle on the left.
+
+**Question 2: Over what time frame does an experiment run?**  
 
 Answer: You can find the time frame in the **Experiment Timeline section up at the top of the model diagram section**. Experiments simulate the plausible future out **two years from today**.  
 
-Question 2: Where can you find descriptions for the variables in the Model Diagram? How is the variable, Actual Hours Available for Service, described?  
+**Question 3: What happens in the diagram when you *Reveal Complexity*?**  
 
-Answer: The **small circles with i inside throughout the sim UI** provide additional information when you click on them. If you click **this one by Actual Hours Available for Service**, you see, "The clinician time available for a service depends on the total clinical hours available, the relative increase in hours due to overtime, and the % allocated to a service."  
+Answer: Options to Reveal Complexity are found under the *Experiment Timeline* in each module.  
+   + You can select the check-boxes under *Reveal Complexity* to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex.  
+   + When we reveal the different *Reveal Complexity* options, additional colored boxes and light and dark blue arrows appear on the main model diagram.  As was just noted, you can play with clicking and unclicking the *Reveal Complexity* options [use mouse to show this] and study what appears on the screen.  
+   + You should know that the amount of the model diagram being shown does NOT have anything to do with how the model itself is running when you run experiments - it's ONLY an option to let you control how much of the actual model's complexity you're viewing in the diagram.  
+ 
+ Let's go on to the next question for our scavenger hunt.
 
-Question 3: What happens in the diagram when you “Reveal Complexity?”  
+**Question 4 a and b:**  
+  a. Where can you find descriptions for the variables in the Model Diagram?  
+   Answer: The **small circles with i inside throughout the sim UI** provide additional information when you click on them. There are 3 kinds of *i* variables in *Modeling to Learn*. First, there are red variables that are read in from team data. Seond, there are experimental variables - you can click on the *i* to understand what you are changing. Third, there are varables that are calculated by the model. Later we will present a fourth variable - simulated output variables - which are found in the Outputs section.  
 
-Answer: Options to Reveal Complexity are found **under the Experiment Timeline** in each module. You can select any combination of check-boxes to bring more of the model diagram into view, or uncheck them to make it less visually complex. You should know that the amount of the model diagram being shown does NOT have anything to do with how the model itself is running when you run experiments - it's ONLY an option to let you control how much of the actual model's complexity you're viewing in the diagram. When we **check Supply Affects Patient Services**, some extra, light blue causal loop arrows appear **at the bottom of the diagram**. Checking **Effects of Overtime** brings up additional, dark blue arrows **on the right side of the diagram**. You can play with those options and study what happens.  
+  b. Now, let's explore what's in an "i" description. **For CC, MM, PSY, AGG:** How is the variable *Booking Rate* described?; **For SP:** How is the variable *General Mental Health or GHM Care Quality* described?  
 
-Question 4: What are the units of time in mtl.how/sim?  
+   + Variables with answers for each module:  
+    ++ CC - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
+    ++ MM - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
+    ++ PSY - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"    
+    ++ AGG - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"    
+    ++ SP - General Mental Health Care Quality - If you scroll down a bit on the left of the screen, you see *General Mental Health or GMH Care Quality*. When you click on this variable, you see, "Quality care has many dimensions, but in the *MTL* Suicide Prevention module we are mainly concerned with ow quality impacts the time it takes patients' symptoms to improve..."  
 
-Answer: weeks
+Question 5: What are the units of time in mtl.how/sim?  
 
-3.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
+Answer: It's weeks! We did a lot of work in the field with clinicians to figure out what the appropriate units of time would be for *MTL*. Weeks was the unit of time that seemed the most logical for clinicians. The units are also in the "i* boxes.
 
-**CARE COORDINATION SYSTEMS STORY** - Balancing Existing and New Patients
 
-- Revealing the "Balancing Patients" detail in the CC model diagram shows key factors that affect how we balance providing quality care to existing patients with getting new patients into care in a timely manner. You probably recognize from clinical experience that this is a balancing act - there are trade-offs you have to make:
+C.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
 
-- You have a given number of appointments slots available, and they can go either to new or existing patients. The more go to new patients, the fewer can go to existing patients, and vice versa.
+  **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals
+  
+ + We'll reveal the "Wait Time Affects Referrals" detail in the Care Coordination or CC model diagram. Then, scroll down to the lower left of the model diagram to see what has been revealed.
+    ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+    
+ + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* CC and *Target Wait Times* for patients. 
+ 
+ + For this activity of telling a systems story, our team is concerned patients are having to wait longer than the team would like to start Care Coordination.  
 
-- When you open up slots for new patients (green box), following the arrow down and to the left from the green box you see that means an increase in the Starting Rate for new patients. Continuing from the Starting Rate to the Booking Rate (remember, "starting" is what _patients_ do; "booking" is an _appointments_ action), we see that if the Starting rate is going up, then so is the Rate of Booking appointments, which means creating appointments, which means more Appointments in CC, and that means more Appointments for Existing Patients. (Once a patient starts, they instantly become an existing patient.)
+ + Let's do a quick orientation to the diagram.
+   ++ The "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the three variables - Patients Waiting to Start, New Patient Wait Times, or Referral Rate - is held constant, the other two will fluctuate up and down.
+   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
+   ++ On the model diagram, you see plus and minus signs next to the blue lines. We're going to be referring to these throughout *MTL*. **Use Thumbs to demonstrate +/- concept**: If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down). 
 
-- But now notice that an increase in Appointments for Existing Patients means a DECREASE in the Appointment Supply for New Patients. This is how that balancing act shows up in a model diagram: We traced a chain of effects through the system and found that if we made an increase in one place, the cascading events circled back to decrease that first variable . This is a feedback loop - the change rippled all the way back to the starting place - and it's the kind of feedback we call a balancing loop, because it causes things to oscillate back and forth and "try" to achieve a balance around a steady state, like the temperature in your house when the thermostat is working to keep it at the temperature you set.
+ +  So, we'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case CC. 
+   ++ As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.
+   ++ Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals* which decreases the *Referral Rate* so referrals to CC begin to slow down. 
+   ++ Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first CC appointment.  
 
-- There's another variable shown in red inside the loop we just looked at: Return Visit Interval. This changes the effect of using your appointment supply on new patients. If you increase the return-to-clinic interval, that is, if you increase the average time between appointments for patients in your team, that has the effect of reducing the use of Appointments for Existing Patients, keeping your Appointment Supply for New Patients from dropping so much due to the ongoing load of patients you brought into your care.  
+ + In addition to running experiments around the team's Target Wait Time, this loop shows that we can also experiment with team decisions about Referral Rate. 
+   ++ We can ask questions like, "If the Referral Rate to CC goes up by some percentage because we've started graduating patients more quickly from other services - but our Starting Rate in CC stays the same because we don't have any extra appointment slots for new patients - what will become the 'new normal' for New Patient Wait Times in CC?"
 
-**MEDICATION MANAGEMENT SYSTEMS STORY** _decide which of the following to tell in the video; write scripts for all for facilitator resources_
+**MEDICATION MANAGEMENT SYSTEMS STORY** 
 
-- Balancing Existing and New Patients (Balancing Loop)
+ + We'll reveal the "Wait Time Affects Referrals" detail in the Medication Management or MM model diagram. Then, scroll down to the lower left of the model diagram to see what has been revealed.
+    ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+    
+ + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* MM and *Target Wait Times* for patients. 
 
-- Overbooking Affects No Shows
+ + Let's do a quick orientation to the diagram.
+   ++ The "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the three variables - Patients Waiting to Start, New Patient Wait Times, or Referral Rate - is held constant, the other two will fluctuate up and down.
+   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
+   ++ On the model diagram, you see plus and minus signs next to the blue lines. We're going to be referring to these throughout *MTL*. **Use Thumbs to demonstrate +/- concept**: If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
-- Wait Time Affects Referrals (Balancing Loop) Sensitivity Tests
+ +  We hear a lot of clinicians say that good, ethical treatment is if you start a patient on medication assistance, the patient should come in for a monthly evaluation. If a clinician isn't sure they can get a patient in for a monthly appointment, then they may decide not to start the patient on the service. For this activity of telling a systems story in the Med Management module, our team would like to explore how we could serve more patients with specific conditions, like Opioid Use Disorder (OUD), with our existing team staffing levels.
 
-- Sensitivity of Missed Appointments to Task Time
+ + We'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case MM. 
+   ++ As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.
+   ++ Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals*. The *Effect of Wait Time on Referrals* is the difference between the *New Patient **Actual** Wait Time* and the team's desired or *Target Wait Time*.
+   ++ In the Med Management module, we can adjust target wait times for different diagnostic patients. The "stacked" red boxes labeled *Target Wait Time* indicates you can change the target wait time by adjusting the red sliders read in from your team data for patients with Alcohol Use Disorder, Opioid Use Disorder, Depression and Other conditions.   
+   ++ The effect of an increasing wait time on referrals, which has a negative sign, means a decrease to the *Referral Rate* so referrals to MM begin to slow down. 
+   ++ Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first MM appointment.  
 
-- Sensitivity of Referals to Wait Time Patient Cohorts
 
-- Alcohol Use Disorder (AUD)
-
-- Depression (DEP)
-
-- Opioid Use Disorder (OUD)
-
-- Other
 
 **PSYCHOTHERAPY SYSTEMS STORY** - Balancing Existing and New Patients; Engagement After 3 Months
 
