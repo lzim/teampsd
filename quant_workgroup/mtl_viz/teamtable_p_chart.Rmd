@@ -86,6 +86,7 @@ dt_lims <- dt_fmt %>%
                                  "PSD Partner Clinic 1", "MTL Partner Clinic 2")))
 
 dt_shd <- data.frame(team = unique(dt_lims$team),
+                     team2 = unique(dt_lims$team2),
                      xmin=as.Date("2014-11-01"), 
                      xmax=as.Date("2015-10-01"), 
                      ymin=-Inf, ymax=Inf) %>%
