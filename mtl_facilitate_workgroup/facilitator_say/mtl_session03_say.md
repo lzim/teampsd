@@ -42,15 +42,15 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### Let's get started!
 
-# In-session Exercise (30 minutes)
+## In-session Exercise (30 minutes): Team data for simulation
 
-## 1. Let's explore what is in the team data table.
+1. Let's explore what is in the team data table.
 
 a. Last session you generated an Excel file by selecting the clinics that make up your team and then selecting "Get Patient Level Data." 
 
 b. This data file reflects two years of team data and team trends. 
 
-## 2. When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
+2. When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
 
 a. Data are displayed in two forms “Viz” (trends over time) and “Data” (a sortable report).
 
@@ -63,7 +63,7 @@ c. There are team data produced for each module of *Modeling to Learn*. Each mod
  + Aggregate team services (AGG) - tab title *AggParams*
  + Measurement-based stepped care for suicide prevention (SP) - tab title *SPParams*
 
-## 3. Let's select a service for review
+3. Let's select a service for review
 
 a. Check out the different services that are highlighted in the team data on the screen. As we review each service, we will use the mouse to highlight team data variables.
 
@@ -79,7 +79,7 @@ c. Where can you find even more detailed information about your team data? You c
 
 d. Check out columns C and D. What is the difference between these two columns?
 
-## 4. Select a second service for review
+4. Select a second service for review
 
 a. Check out columns C and D. What is the difference between these two columns?
 
@@ -87,19 +87,19 @@ b. Find a variable that is important to you team. How is it estimated in this ta
 
 c. Where can you find even more detailed information about your team data?
 
-## 5. Are there any team data table values you would like to explore in the team data UI?
+5. Are there any team data table values you would like to explore in the team data UI?
 
 a. If so, which ones? 
 
 b. Open the data UI to examine your question.
 
-## 6. Do you see any values in the team data that differ a lot from what you would expect?
+6. Do you see any values in the team data that differ a lot from what you would expect?
 
 a. If so, what is it surprising? 
 
 b. Does the estimation definition help you to interpret the variable value?
 
-## 7. Do you see any values in the team data that fit your expectations about high priority team needs?
+7. Do you see any values in the team data that fit your expectations about high priority team needs?
 
 a. If so, what are you noticing? 
 
