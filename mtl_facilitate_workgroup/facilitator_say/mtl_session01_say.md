@@ -46,7 +46,7 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 
 ### Let's get started!
 
-## In-session Exercise
+## In-session Exercise (30 minutes): Team vision
 
 1. We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with “Modeling to Learn.” This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
 
