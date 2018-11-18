@@ -42,7 +42,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### Let's get started:
 
-# In-session Exercise (30 minutes): Connect learning and decisions from experiments to original team vision, question, and need
+## In-session Exercise (30 minutes): Pulling together team learnings, decisions, and vision
 
 Today we are reflecting on how we made team decisions throughout the MTL learning process to inform your future team decisions. These decisions include clarifying your team vision, reviewing team data to prioritize a team need, and working through the Question, Findings, Hypothesis and Decisions
 
