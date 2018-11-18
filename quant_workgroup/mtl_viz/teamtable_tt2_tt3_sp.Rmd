@@ -17,10 +17,10 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
 - ensure that all library packages (as listed in the library chunk) are installed
 - change the working directory in RStudio to the location of the Rmd and datafiles
 - include 
-   + "agg_bc.xls", 
-   + "agg_exp1.xls", and/or
-   + "agg_exp2.xls", and/or 
-   + "agg_exp3.xls" in the same folder as the Rmd file
+   + "sp_bc.xls", 
+   + "sp_exp1.xls", and/or
+   + "sp_exp2.xls", and/or 
+   + "sp_exp3.xls" in the same folder as the Rmd file
 
 
 
@@ -36,7 +36,7 @@ library(huxtable)
 ```
 
 
-## Aggregate Model
+## Suicide Prevention Model
 
 ```{r dtfiles, include=FALSE}
 #List of files in Working Directory
@@ -65,7 +65,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA256")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA130")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -87,7 +87,7 @@ sim_list <- lapply(1:length(files), sim_read)
 sim <- do.call("rbind", sim_list)
 
 
-bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A216:B256")
+bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A99:B130")
 
 
 ## VA Color Pallete
@@ -157,11 +157,11 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### Compare Services: Patients Waiting for Intake Evaluation
+#### GMH Patient Load
 
 ```{r graphs, echo=FALSE}
 sim %>%
-  filter(Variables == "Patients Waiting for Intake Evaluation")  %>%
+  filter(Services == "GMH Patient Load")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -171,11 +171,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Patients Waiting to Start a Service
+#### GMH Ratio of High to Low Symptom Patients
 
 ```{r graphs2, echo=FALSE}
 sim %>%
-  filter(Variables == "Patients Waiting to Start a Service")  %>%
+  filter(Services == "GMH Ratio of High to Low Symptom Patients")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -185,11 +185,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Patients in Service
+#### GMH High Risk Flag Patients
 
 ```{r graphs3, echo=FALSE}
 sim %>%
-  filter(Variables == "Patients in Service")  %>%
+  filter(Services == "GMH High Risk Flag Patients")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -199,11 +199,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Work Pressure
+#### GMH Patients Waiting to Start
 
 ```{r graphs4, echo=FALSE}
 sim %>%
-  filter(Variables == "Work Pressure")  %>%
+  filter(Services == "GMH Patients Waiting to Start")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -213,11 +213,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Actual Return Visit Interval
+#### GMH to SMH Recommend Step up Rate
 
 ```{r graphs5, echo=FALSE}
 sim %>%
-  filter(Variables == "Actual Return Visit Interval")  %>%
+  filter(Services == "GMH to SMH Recommend Step up Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -227,11 +227,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Actual Hours Available for Service
+#### GMH to PC/PCMHI Patients Waiting for Step down
 
 ```{r graphs6, echo=FALSE}
 sim %>%
-  filter(Variables == "Actual Hours Available for Service")  %>%
+  filter(Services == "GMH to PC/PCMHI Patients Waiting for Step down")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
