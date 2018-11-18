@@ -17,10 +17,10 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
 - ensure that all library packages (as listed in the library chunk) are installed
 - change the working directory in RStudio to the location of the Rmd and datafiles
 - include 
-   + "agg_bc.xls", 
-   + "agg_exp1.xls", and/or
-   + "agg_exp2.xls", and/or 
-   + "agg_exp3.xls" in the same folder as the Rmd file
+   + "cc_bc.xls", 
+   + "cc_exp1.xls", and/or
+   + "cc_exp2.xls", and/or 
+   + "cc_exp3.xls" in the same folder as the Rmd file
 
 
 
@@ -36,7 +36,7 @@ library(huxtable)
 ```
 
 
-## Aggregate Model
+## Care Coordination Model
 
 ```{r dtfiles, include=FALSE}
 #List of files in Working Directory
@@ -65,7 +65,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA256")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA45")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -87,7 +87,7 @@ sim_list <- lapply(1:length(files), sim_read)
 sim <- do.call("rbind", sim_list)
 
 
-bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A216:B256")
+bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A36:B45")
 
 
 ## VA Color Pallete
@@ -157,11 +157,11 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### Compare Services: Patients Waiting for Intake Evaluation
+#### Compare Services: Booking Rate
 
 ```{r graphs, echo=FALSE}
 sim %>%
-  filter(Variables == "Patients Waiting for Intake Evaluation")  %>%
+  filter(Services == "Booking Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -171,11 +171,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Patients Waiting to Start a Service
+#### Compare Services: Appointments in CC
 
 ```{r graphs2, echo=FALSE}
 sim %>%
-  filter(Variables == "Patients Waiting to Start a Service")  %>%
+  filter(Services == "Appointments in CC")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -185,11 +185,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Patients in Service
+#### Compare Services: Completing Rate
 
 ```{r graphs3, echo=FALSE}
 sim %>%
-  filter(Variables == "Patients in Service")  %>%
+  filter(Services == "Completing Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -199,11 +199,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Work Pressure
+#### Compare Services: Referral Rate
 
 ```{r graphs4, echo=FALSE}
 sim %>%
-  filter(Variables == "Work Pressure")  %>%
+  filter(Services == "Referral Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -213,11 +213,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Actual Return Visit Interval
+#### Compare Services: Waiting to Start
 
 ```{r graphs5, echo=FALSE}
 sim %>%
-  filter(Variables == "Actual Return Visit Interval")  %>%
+  filter(Services == "Waiting to Start")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -227,11 +227,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Actual Hours Available for Service
+#### Compare Services: Starting Rate
 
 ```{r graphs6, echo=FALSE}
 sim %>%
-  filter(Variables == "Actual Hours Available for Service")  %>%
+  filter(Services == "Starting Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
