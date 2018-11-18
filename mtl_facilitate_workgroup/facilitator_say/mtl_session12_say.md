@@ -41,7 +41,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### Let's get started:
 
-# In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
+## In-session Exercise (30 minutes): Graduation and post-*MTL* plan
 
 1. We completed _Modeling to Learn_! Let's review and celebrate what we've learned throughout the *Modeling to Learn* 12-session program.  
 

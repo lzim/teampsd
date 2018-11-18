@@ -41,7 +41,7 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
 ### Let's get started:
 
-# In-session Exercise (30 minutes)
+# In-session Exercise (30 minutes): Log in; upload and review team data
 
 1. Check the name of your team data file in Internet Explorer. In session 3, we used our team data UI and clicked “Get Team Data Table for Sim UI” to produce our team data for simulation. Let’s now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file. The team data file for simulation is in our team folder, in the team_data_sim folder.
 

@@ -43,17 +43,17 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 
 ### Let's get started:
 
-# In-session Exercise (30 minutes)
+## In-session Exercise (30 minutes): Menu results and team needs discussion
 
-### 1. Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*. You will receive a summary of this in your follow-up email. 
+1. Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*. You will receive a summary of this in your follow-up email. 
 
-### 2. First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*  
+2. First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*  
 
 a. Where are there areas of high consensus? What issues does the team agree about?
   
 b. What the topics where team members' perspectives are more divergent?  
 
-### 3. What looks like the highest priority need for your team now, and which _Modeling to Learn_ module best addresses that need?
+3. What looks like the highest priority need for your team now, and which _Modeling to Learn_ module best addresses that need?
 
 a. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:
 
