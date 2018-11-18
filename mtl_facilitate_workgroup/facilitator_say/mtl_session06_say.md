@@ -152,13 +152,13 @@ The Psychotherapy or PSY module shows how team psychotherapy decisions interact,
 
  + We'll reveal the "Balancing Patients" detail in the PSY model diagram. 
     ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
-
+    
  + Let's do a quick orientation to the diagram.
    ++ The "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the three variables - Patients Waiting to Start, New Patient Wait Times, or Referral Rate - is held constant, the other two will fluctuate up and down.
    ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
    ++ On the model diagram, you see plus and minus signs next to the blue lines. We're going to be referring to these throughout *MTL*. **Use Thumbs to demonstrate +/- concept**: If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
- +  For this activity of telling a systems story, our team wants patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.
+ +  For this activity of telling a systems story, our team wants patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.  
  
  + The *Reveal Complexity* detail for Balancing Patients shows the flow of patients and appointments in the PSY model. We see patients start psychotherapy and a certain number of patients get their first visit of PSY and end there; you can see this in the model here [use mouse to show "Patients in First Visit"]. We know that other patients will go on for additional visits. In the model diagram, we can explore data for patients who attend 2 to 7 visits [use mouse to show "Patients in Visit 2 to 7"] but they haven't yet completed a full course of PSY. Next, there is a subset of patients will go on to achieve 7 or more visits in their own first 3 months. Some will graduate and some will continue treatment after 3 months. Obviously this team question wants patients to complete a full course of PSY without decreasing the new patients that can start.  
  
@@ -167,6 +167,18 @@ The Psychotherapy or PSY module shows how team psychotherapy decisions interact,
   + As the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients. As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.  
 
 **AGGREGATE MIX OF SERVICES SYSTEMS STORY** _decide which of the following to tell in the video; write scripts for all for facilitator resources_
+
+ + We'll select the "RVI and Wait Times" under *Reveal Complexity* in the Aggregate model. 
+    ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+    
+ + Let's do a quick orientation to the diagram. 
+   ++ We'll start at the gauge or circle labeled *Booking Rate.*
+   ++ The "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the variable is held constant, the other two will fluctuate up and down.
+   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
+   ++ On the model diagram, you see plus and minus signs next to the blue lines. We're going to be referring to these throughout *MTL*. **Use Thumbs to demonstrate +/- concept**: If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
+
+ +  For this activity of telling a systems story, our team wants 
+ + Our team is going to be losing two staff members in the near future. Since the aggregate module shows the interactions between all services offered by our team, we want to use this module to explore how we can best allocate appointments across services with reduced staffing levels. We also want to know what will happen to patient wait times if we change patient return-to-clinic visit intervals (RVI) and/or if the remaining staff members decide to work overtime or not.
 
 - Supply Affects Patient Services
 
