@@ -41,9 +41,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### Let's get started:
 
-# In-session Exercise (30 minutes)
-
-## Running an Experiment
+## In-session Exercise (30 minutes): Running an experiment
 
 1.	Log in to the team world at mtl.how/sim.
 
@@ -79,27 +77,27 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 Experiment 1 - Session 8:
 
-CC Q - What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
+**CC** - What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
 
-MM Q - How can we serve 4 new patients with OUD each week? -- no :(
+**MM** - How can we serve 4 new patients with OUD each week? -- no :(
 
-PSY Q - What if we graduate more patients who complete 8 or more psychotherapy sessions in their first 3 months? What is the effect of working to increase the proportion of patients who 'complete' an evidence-based dose of PSY and then graduate from just 4% to 75%, over time, on (1) the number of patients who complete and are then 'done'? and (2) on the supply of available appts for new patients?
+**PSY** - What if we graduate more patients who complete 8 or more psychotherapy sessions in their first 3 months? What is the effect of working to increase the proportion of patients who 'complete' an evidence-based dose of PSY and then graduate from just 4% to 75%, over time, on (1) the number of patients who complete and are then 'done'? and (2) on the supply of available appts for new patients?
 
-AGG Q - How can we manage the loss of two providers AND then reduce how we make patient triage decisions -- to send half as many people to PSY and CC as we did before the hours for those services were also cut in half?
+**AGG** - How can we manage the loss of two providers AND then reduce how we make patient triage decisions -- to send half as many people to PSY and CC as we did before the hours for those services were also cut in half?
 
-SP Q - What if we implemented measurement-based care in our team?
+**SP** - What if we implemented measurement-based care in our team?
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-CC H - Increasing the CC Appointment Supply will make more Appointments available for both new and existing CC patients. The Additional Appointment Supply for New CC Patients will increase the Starting Rate and lower New Patient Wait Times.
+**CC** - Increasing the CC Appointment Supply will make more Appointments available for both new and existing CC patients. The Additional Appointment Supply for New CC Patients will increase the Starting Rate and lower New Patient Wait Times.
 
-MM H - If our referral rate for OUD is 2 pts per month (0.5 per week), and we allocate 40% of our x-waiver slots to OUD treatment, and 40% to Other Needs, and we change our RVI for depression to 12 weeks, and the RVI for OUD to 4 weeks (in line with our quality standards), then we will serve more OUD patients with our existing team staff, without increasing the wait time for new depression patients.
+**MM** - If our referral rate for OUD is 2 pts per month (0.5 per week), and we allocate 40% of our x-waiver slots to OUD treatment, and 40% to Other Needs, and we change our RVI for depression to 12 weeks, and the RVI for OUD to 4 weeks (in line with our quality standards), then we will serve more OUD patients with our existing team staff, without increasing the wait time for new depression patients.
 
-PSY H - We expect that if we increase our completers who graduate to 75%, then we'll free up more slots in the clinic for more patients to start psychoterhapy/EBPsy. We hypothesize that an increasing the complete and graduate rate from 4% to 75% will results in a jump from about 4 patients to about 75 patients graduating during the same time period. We also expect that by increasing the graduation rate for any one who has received 8 or more sessions of PSY, we will increase the number of appt slots for new patients starting PSY.
+**PSY** - We expect that if we increase our completers who graduate to 75%, then we'll free up more slots in the clinic for more patients to start psychoterhapy/EBPsy. We hypothesize that an increasing the complete and graduate rate from 4% to 75% will results in a jump from about 4 patients to about 75 patients graduating during the same time period. We also expect that by increasing the graduation rate for any one who has received 8 or more sessions of PSY, we will increase the number of appt slots for new patients starting PSY.
 
-AGG H - We expect that wait times will not go up as much, as we have cut demand for those services.
+**AGG** - We expect that wait times will not go up as much, as we have cut demand for those services.
 
-SP H – If we implement measurement based care in our GMH team, then care quality will improve (specifically through reductions in Time to Improve and Time to UnFlag, and an increase in the Time to Ending). Also, how long it takes clinicians to see changes in their patients will also improve (seen in a reduction in Time to Detect). We expect to be able to effectively diagnose and treat patients faster, reducing the number of high-symptom patients in care, and thus reducing the number of patients who receive high risk flags.
+**SP** – If we implement measurement based care in our GMH team, then care quality will improve (specifically through reductions in Time to Improve and Time to UnFlag, and an increase in the Time to Ending). Also, how long it takes clinicians to see changes in their patients will also improve (seen in a reduction in Time to Detect). We expect to be able to effectively diagnose and treat patients faster, reducing the number of high-symptom patients in care, and thus reducing the number of patients who receive high risk flags.
 However, low symptom patients are in care for longer than before, reducing the number of openings for new patients. These patients will make up more and more of our total – as there will be both more flowing in (due to higher Improvement Rate) and fewer flowing out (due to the lower Ending Rate). With fewer openings, wait times to start with our team should increase.
 
 + An example of a hypothesis statement is: "Our team thinks we can create more capacity for seeing EBPsy patients if we slightly lengthen the average return-to-clinic visit interval for our Psy patients. To test this, we will try increasing the Psy RVI from 10 to 11 weeks." 
@@ -118,15 +116,15 @@ However, low symptom patients are in care for longer than before, reducing the n
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
 
-CC F - Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.
+**CC** - Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.
 
-MM F - We met our goal of getting more patients into MAT for OUD! by having a more realistic referral rate, using more x-waiver provider supply, and adjusting our RVIs for depression and OUD in line with quality standards.
+**MM** - We met our goal of getting more patients into MAT for OUD! by having a more realistic referral rate, using more x-waiver provider supply, and adjusting our RVIs for depression and OUD in line with quality standards.
 
-PSY F - We found that the total number of patients served by the team increased from N=371 to N=460. Of the 460, n=358 were Initiators and n=132 were Completers. Among Completers, n=99 graduated and were done (75%, as we expected). Regarding the starting rate for new patients, it increased from about 3.8 pts/wk to about 4.8 pts/wk. our hypotheses was supported. This dramatically increases the number of patients in PSY who are receiving an evidence base dose of therapy and supports the team in taking on more new patients, about one more new pt/wk (or 4 new ones per month, or 48 new ones annually!)
+**PSY** - We found that the total number of patients served by the team increased from N=371 to N=460. Of the 460, n=358 were Initiators and n=132 were Completers. Among Completers, n=99 graduated and were done (75%, as we expected). Regarding the starting rate for new patients, it increased from about 3.8 pts/wk to about 4.8 pts/wk. our hypotheses was supported. This dramatically increases the number of patients in PSY who are receiving an evidence base dose of therapy and supports the team in taking on more new patients, about one more new pt/wk (or 4 new ones per month, or 48 new ones annually!)
 
-AGG F - Decision is for people to experiment with sensitivity sliders on own and follow up.
+**AGG** - Decision is for people to experiment with sensitivity sliders on own and follow up.
 
-SP F – As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years. The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place. However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate. Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year. However, because there have been no changes in Primary Care, wait times for stepping down to PC go up substantially – from 22 to 38 weeks.
+**SP** – As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years. The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place. However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate. Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year. However, because there have been no changes in Primary Care, wait times for stepping down to PC go up substantially – from 22 to 38 weeks.
 
 + You walked through the system story for both Appointments and Patients. With your text box on the right side of the screen, revisit the model diagram and outline the systems story your team believes will cause the outcomes your team expects to observe. Begin to craft the text for the *Our Hypothesis* box. A good hypothesis will include the proposed change our team will make, the services that will be impacted, how the team data values will be changed from base case, and what we expect to see as a result of the change.
 
@@ -134,15 +132,15 @@ SP F – As predicted, we see a dramatic shift in patient from “high symptom�
 
  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
 
-CC D - Next time we will experiment with adjusting our Return Visit Interval.
+**CC** - Next time we will experiment with adjusting our Return Visit Interval.
 
-MM D - I am going change how I order my return to clinics for OUD and depression; allocate ~40% of my time to OUD patients; conduct a few more experiments to refine the allocation of my time to better balance trade-offs between patient needs.
+**MM** - I am going change how I order my return to clinics for OUD and depression; allocate ~40% of my time to OUD patients; conduct a few more experiments to refine the allocation of my time to better balance trade-offs between patient needs.
 
-PSY D - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
+**PSY** - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
 
-AGG D - We found RVI for PSY stretched way out to several weeks between visits and work pressure increased really quickly then came back down. Saw far less pts in PSY over next 2 years.
+**AGG** - We found RVI for PSY stretched way out to several weeks between visits and work pressure increased really quickly then came back down. Saw far less pts in PSY over next 2 years.
 
-SP D – In this experiment, we see a strong connection between changes made in our team and wait times for downstream teams. We should run an experiment that explores these connections and gauge the impacts of implementing stepped care between GMH and PC/PCMHI.
+**SP** – In this experiment, we see a strong connection between changes made in our team and wait times for downstream teams. We should run an experiment that explores these connections and gauge the impacts of implementing stepped care between GMH and PC/PCMHI.
 
 + Type in the *Our Decision* text box a question that describes what your team wants to learn from changing a specific variable or variables in the model.
 
