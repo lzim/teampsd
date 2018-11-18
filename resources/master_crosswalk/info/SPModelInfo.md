@@ -171,7 +171,7 @@ PC/PCMHI High Symptom Patient Rate %|Set the % of patients who are found to be "
 PC/PCMHI High Symptom Patients Community Care Rate|Set the number of high symptom patients who are start care in the community each week. 
 PC/PCMHI Implement MBC|Implementing Measurement-Based Care in this setting improves both care quality and symptom detection; specifically, reducing the "Time to Improve," "Time to Unflag," "Time to Ending," and "Time to Detect."  A full implementation reduces these times by one half, and a partial implementation reduces these by 25% from their original values.
 PC/PCMHI Low Symptom Patients Community Care Rate|Set the number of low symptom patients who are start care in the community each week. 
-PC/PCMHI Manageable Total Patients|Set the total number of patients who can receive effective mental health treatment in this setting (ie, the supply). This value replaces the base case value estimated from team data.
+PC/PCMHI Manageable Total Patients|Set the total number of patients who can receive effective mental health treatment in this setting (i.e., the supply). This value replaces the base case value estimated from team data.
 PC/PCMHI New Patient Start Rate|Set the number of patients recommended to start in this setting each week. This value replaces the base case value estimated from team data.
 PC/PCMHI Opening for GMH%|Set the % of total openings to be used by patients coming from GMH. This value replaces the base case value estimated from team data.
 PC/PCMHI Openings for New Patients %|Set the % of total openings to be used by new patients. This value replaces the base case value estimated from team data.
