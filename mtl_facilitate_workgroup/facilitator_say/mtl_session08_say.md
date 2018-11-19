@@ -55,7 +55,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 4.	You can *Join Current Session* or *Start a New Session* in the desired module by clicking in the circle to the right of one of those titles and then click on "Play." 
 
-   + As a reminder, the available modules are Care Coordination or CC, Medication Management or MM, Psychotherapy or PSY, Aggregate or AGG, and Suicide Prevention.  
+   + As a reminder, the available modules are Care Coordination or CC, Medication Management or MM, Psychotherapy or PSY, Aggregate or AGG, and Suicide Prevention or SP.  
    
    + If you *Start a New Session* you will need to select the team data file you would like to use. Click on the "Select Team Data" icon. A pop-up box will appear on your computer screen with the text, "Please select a model input file." Click on the blue down arrow next to the text "Please select team data" and choose the data file you would like to use in an experiment.  
 
@@ -75,7 +75,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 7.	Let's create a new experiment building off of the previous one. The first step is to revise the text in all the text boxes to reflect the experiment you want to do now: 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
-Experiment 1 - Session 8:
 
 **CC** - What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
 
