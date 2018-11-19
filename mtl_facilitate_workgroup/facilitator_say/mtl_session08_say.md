@@ -72,13 +72,13 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
   + Finally see how the Patients and Appointments interact in the model for example by examining appointment supply and return visit interval.  Remember, red boxes are read into the model from team data.  
   + As a team, we decide what change to experiment with in the model. To make that decision, we should ask: 1) How do we think things will change over time if choose a specific variable to change?, and 2) What relationships in the system will interact if we make the change? Ultimately, the team should choose changes that might give the desired result that links to the team vision and team need. 
 
-7.	Let's create a new experiment building off of the previous one. The first step is to revise the text in all the text boxes to reflect the experiment you want to do now: 
+7.	Let's create a new experiment building off of the previous one which focused on the base case - what happens if we make no new decisions. The first step is to revise the text in all the text boxes to reflect the experiment you want to do now: 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
 **CC** - What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
 
-**MM** - How can we serve 4 new patients with OUD each week? -- no :(
+**MM** - How could we serve more patients with specific conditions, like OUD, with our existing staffing levels?
 
 **PSY** - What if we graduate more patients who complete 8 or more psychotherapy sessions in their first 3 months? What is the effect of working to increase the proportion of patients who 'complete' an evidence-based dose of PSY and then graduate from just 4% to 75%, over time, on (1) the number of patients who complete and are then 'done'? and (2) on the supply of available appts for new patients?
 
@@ -123,7 +123,7 @@ However, low symptom patients are in care for longer than before, reducing the n
 
 **CC** - Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.
 
-**MM** - We met our goal of getting more patients into MAT for OUD! by having a more realistic referral rate, using more x-waiver provider supply, and adjusting our RVIs for depression and OUD in line with quality standards.
+**MM** - We found that if we allocate 50% of our x-waiver provider appointments to OUD, in the long run instead of only starting ½ patient per week (1 every other week), we can start 3 patients in OUD per week. But dropping the appointment supply for our *Other* patients meant we could not start any of them in care for a while until some existing patients completed and moved on. A backlog built up, which caused referrals to slow. When we were eventually able to start *Other* patients, the backlog dropped so referrals picked up again, and we established a new steady state with about 15 *Other* diagnosis patients waiting to start and about 170 in care.
 
 **PSY** - We found that the total number of patients served by the team increased from N=371 to N=460. Of the 460, n=358 were Initiators and n=132 were Completers. Among Completers, n=99 graduated and were done (75%, as we expected). Regarding the starting rate for new patients, it increased from about 3.8 pts/wk to about 4.8 pts/wk. our hypotheses was supported. This dramatically increases the number of patients in PSY who are receiving an evidence base dose of therapy and supports the team in taking on more new patients, about one more new pt/wk (or 4 new ones per month, or 48 new ones annually!)
 
@@ -139,7 +139,7 @@ However, low symptom patients are in care for longer than before, reducing the n
 
 **CC** - Next time we will experiment with adjusting our Return Visit Interval.
 
-**MM** - I am going change how I order my return to clinics for OUD and depression; allocate ~40% of my time to OUD patients; conduct a few more experiments to refine the allocation of my time to better balance trade-offs between patient needs.
+**MM** - Although we were glad to see that we could care for more OUD patients with our available staffing, we are concerned that if all we do is shift several of our Other appointments to OUD, we won't be able to help as many Other patients. We decided to experiment with Return to Clinic Visit Intervals as a possible alternate solution.
 
 **PSY** - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
 
