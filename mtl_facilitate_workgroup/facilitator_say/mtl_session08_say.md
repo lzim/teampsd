@@ -55,7 +55,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 4.	You can *Join Current Session* or *Start a New Session* in the desired module by clicking in the circle to the right of one of those titles and then click on "Play." 
 
-   + As a reminder, the available modules are Care Coordination, Medication Management, Psychotherapy, Aggregate, and Suicide Prevention.  
+   + As a reminder, the available modules are Care Coordination or CC, Medication Management or MM, Psychotherapy or PSY, Aggregate or AGG, and Suicide Prevention.  
    
    + If you *Start a New Session* you will need to select the team data file you would like to use. Click on the "Select Team Data" icon. A pop-up box will appear on your computer screen with the text, "Please select a model input file." Click on the blue down arrow next to the text "Please select team data" and choose the data file you would like to use in an experiment.  
 
@@ -98,21 +98,27 @@ Experiment 1 - Session 8:
 **AGG** - We expect that wait times will not go up as much, as we have cut demand for those services.
 
 **SP** – If we implement measurement based care in our GMH team, then care quality will improve (specifically through reductions in Time to Improve and Time to UnFlag, and an increase in the Time to Ending). Also, how long it takes clinicians to see changes in their patients will also improve (seen in a reduction in Time to Detect). We expect to be able to effectively diagnose and treat patients faster, reducing the number of high-symptom patients in care, and thus reducing the number of patients who receive high risk flags.
-However, low symptom patients are in care for longer than before, reducing the number of openings for new patients. These patients will make up more and more of our total – as there will be both more flowing in (due to higher Improvement Rate) and fewer flowing out (due to the lower Ending Rate). With fewer openings, wait times to start with our team should increase.
+However, low symptom patients are in care for longer than before, reducing the number of openings for new patients. These patients will make up more and more of our total – as there will be both more flowing in (due to higher Improvement Rate) and fewer flowing out (due to the lower Ending Rate). With fewer openings, wait times to start with our team should increase.  
 
-+ An example of a hypothesis statement is: "Our team thinks we can create more capacity for seeing EBPsy patients if we slightly lengthen the average return-to-clinic visit interval for our Psy patients. To test this, we will try increasing the Psy RVI from 10 to 11 weeks." 
+  + An example of a hypothesis statement is: "Our team thinks we can create more capacity for seeing EBPsy patients if we slightly lengthen the average return-to-clinic visit interval for our Psy patients. To test this, we will try increasing the Psy RVI from 10 to 11 weeks."  
 
-8.	Slide the Text box to the left, over the model diagram. This will allow you to adjust experiment sliders for the new experiment. Keep in mind that the previous run’s settings are in effect -- in this case, we have only run the BC or base case so the default values from the team data are the previous run settings. Adjust the sliders of the variable or variables you selected. A quick tip -- make note of the service or services you selected to change and the new values, that is, what you changed the numbers to, so you have that information available when you save the experiment.
+8.	Slide the Text box to the left, over the model diagram. This will allow you to adjust experiment sliders for the new experiment.  
+  + Keep in mind that the previous run’s settings are in effect -- in this case, we have only run the BC or base case so the default values from the team data are the previous run settings.  
+  + Adjust the sliders of the variable or variables you selected.  
+  + A quick tip -- make note of the service or services you selected to change and the new values, that is, what you changed the numbers to, so you have that information available when you save the experiment.  
 
-9.	In the Experiment Timeline box above the main model diagram, click the green Run button. 
+9.	In the Experiment Timeline box above the main model diagram, click the green *Run* button.  
 
-10. Go to Output, click Save in the upper right corner. Name this run according to the variables you changed. This is where your notes about the services and numbers you changed for this experiment will come in handy. 
-+ To name the run, click on the down arrow next to Variable, choose the variable name you changed, for example, Appointment Supply or Return Visit Interval. Click Add. This will insert an abbreviation of that variable into the experiment name. 
-+ Click on the down arrow next to Service, choose the service you adjusted, for example, Psy, Medication Management or Adjunctive services. Click Add. 
-+ Finally, click on the down arrow next to Number, choose the number that represents the new value you used in your experiment.
-+ Click Save (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.
+10. Go to Output, click *Save* in the upper right corner. Name this run according to the variables you changed. This is where your notes about the services and numbers you changed for this experiment will come in handy.  
+  + To name the run, click on the down arrow next to Variable, choose the variable name you changed, for example, Appointment Supply or Return Visit Interval. Click *Add*. This will insert an abbreviation of that variable into the experiment name.  
+  + Click on the down arrow next to Service, choose the service you adjusted, for example, Psy, Medication Management or Adjunctive services. Click *Add*.  
+  + Finally, click on the down arrow next to Number, choose the number that represents the new value you used in your experiment.  
+  + Click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.  
 
-11.	The Outputs section contains the Results Dashboard. It is here you can compare the new experiment to your base case run. There are six charts in the dashboard. To see the default set of charts for a specific service, go to the main model diagram Experiment Timeline box and under "Display Patient Services" click on the service for the specific charts you want to review. You can review individual charts by expanding the Output tile on the right and clicking on the blue arrow under the individual chart. You can also click on "Expand" to see all six charts at one time. To change the charts, click on the down arrows under the chart to bring up different variables or services. Examine the differences between the base case and the current experimental run. Record what you learned in the *Our Findings* text box:
+11.	The Outputs section contains the Results Dashboard. It is here you can compare the new experiment to your base case run.  
+  + There are six charts in the dashboard. To see the default set of charts for a specific service, go to the main model diagram Experiment Timeline box and under "Display Patient Services" click on the service for the specific charts you want to review.  
+  + You can review individual charts by expanding the Output tile on the right and clicking on the blue arrow under the individual chart. You can also click on "Expand" to see all six charts at one time.  
+  + To change the charts, click on the down arrows under the chart to bring up different variables or services. Examine the differences between the base case and the current experimental run. Record what you learned in the *Our Findings* text box:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
 
