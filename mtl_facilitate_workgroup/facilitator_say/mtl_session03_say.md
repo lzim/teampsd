@@ -73,7 +73,7 @@ b. Find a variable that is important to your team. Look at how the variable is e
    - If MM is selected, key variables of interest may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and appointment slots with an X waiver as a percentage of the total and Slots Allocation percent for those with and without an X waiver.
    - If PSY is selected, variables that can be explored include median engagement duration and engagement after 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
    - If AGG is selected, median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
-   - If Suicide Prevention is selected, Its units are in ? What are it's units?
+   - If Suicide Prevention is selected, What are the units for Suicide Prevention?
 
 c. Where can you find even more detailed information about your team data? You can find more detailed information about your team data in Params tabs 
 
