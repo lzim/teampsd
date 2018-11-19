@@ -71,18 +71,21 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + SP Base Case - Hypothesis: If we make no new decisions, then we expect to see no changes in care quality, performance, or wait times in all three settings – all the current historical averages for patients in care, step down rates, etc. will hold for the next two years.
 
-4.	To run the Base Case, let’s first make sure that all the Experiment sliders are indeed set for the Base Case. When you look in the Experiments section, you should see that the box next to each slider says either zero or bc. If it says bc, it means the value the model will run is the number from the Team Data Table. A few sliders have a different setting. If you see an On/Off switch, it will start at Off by default. If you see a purple Sensitivity slider, it will start at a default value of 1. And if there’s a Team Data vs Balanced switch, Balanced will be the default setting.
+4.	To run the Base Case, let’s first make sure that all the Experiment sliders are indeed set for the Base Case. When you look in the Experiments section, you should see that the box next to each slider says either zero or bc. If it says bc, it means the value the model will run is the number from the Team Data Table. A few sliders have a different setting. If you see an On/Off switch, it will start at Off by default. If you see a purple Sensitivity slider, it will start at a default value of 1. And if there’s a Team Data vs Balanced switch, Balanced will be the default setting.  
 
-5.	Once we’ve verified that sliders are set for the Base Case and we’ve entered our question and hypothesis, we’re ready to hit Run. (drum roll!)
+5.	Once we’ve verified that sliders are set for the Base Case and we’ve entered our question and hypothesis, we’re ready to hit Run. (drum roll!)  
 
-6.	Once the sim has run, let’s open the Outputs section and see what we find. First you see that there’s a small Outputs section with 4 navigation buttons, a graph, and left-right arrows that let you see charts of a few other variables. One of those navigation buttons is Expand. Click on that.
+6.	Once the sim has run, let’s open the Outputs section and see what we find. First you see that there’s a small Outputs section with 4 navigation buttons, a graph, and left-right arrows that let you see charts of a few other variables. One of those navigation buttons is Expand. Click on that.  
 
-7.	This opens the Expanded Outputs section, which now shows all the Text boxes and a larger Results Dashboard where you can see several charts at once, and a Control Panel on the left that we’ll get to next time. 
+7.	This opens the Expanded Outputs section, which now shows all the Text boxes and a larger Results Dashboard where you can see several charts at once, and a Control Panel on the left that we’ll get to next time.  
 
-8.	Before we go further, it’s a good time to go ahead and Save this run. Saving without Resetting will capture both the text that we’ve written in the boxes and the settings and results of our run. We’ll still be able to enter more text to finish our consideration of this test as long as we don’t re-set the sim. So click on Save at the top and then click Yes. This warning is just a reminder of how important it is to record your thinking in the Text boxes so your learning from what you’ve done doesn’t evaporate. 
+8.	Before we go further, it’s a good time to go ahead and Save this run.  
+  + Saving without Resetting will capture the text that we’ve written in the boxes and the settings and results of our run. We’ll still be able to enter more text to finish our consideration of this test as long as we don’t re-set the sim. 
+  + So, click on *Save* at the top and then click *Yes*. This warning is just a reminder of how important it is to record your thinking in the Text boxes so your learning from what you’ve done doesn’t evaporate. 
 
-9.	The Save menu helps you enter a name for each run based on what sliders you moved. In this case, it’s the Base Case, so on the Variable drop-down menu just select Base Case and click Add. You’ll see “bc” entered in the Experiment Name field and now you can click Save again in the top right.
-Caution: Only choose the Save and Reset button at the bottom when you’re finished recording all you need to in the Text section. Or you can choose Discard if you weren’t ready to save or name the run.
+9.	The Save menu helps you enter a name for each run based on what sliders you moved. In this case, it’s the Base Case, so on the Variable drop-down menu just select Base Case and click *Add*.  
+  + You’ll see “bc” entered in the Experiment Name field and now you can click *Save* again in the top right.  
+  + **Caution**: Only choose the *Save and Reset* button at the bottom when you’re finished recording all you need to in the Text section. Or you can choose *Discard* if you weren’t ready to save or name the run.  
 
 10.	Now let’s look at the Results. Notice that each chart has a title below it and a drop-down menu. You have a wide selection of variables to choose from to look at results. The units are shown inside the chart at the top left – usually Weeks, Patients, Appointments, or a Percent, or a rate like Patients per Week.
 
@@ -90,7 +93,7 @@ Caution: Only choose the Save and Reset button at the bottom when you’re finis
 
 12.	What do you notice about the results? Do they match your hypothesis? Compare the values you see in the charts with the Team Data Table values.
 
-13.	Describe what you see in the Findings textbox, and explain why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)  
+13.	Describe what you see in the *Findings* textbox, and explain why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)  
 
    +  CC Base Case - Findings: Wait Time increases rapidly; but then it drops back down, oscillating back and forth until it ultimately levels out after about a year.  
    
@@ -98,7 +101,7 @@ Caution: Only choose the Save and Reset button at the bottom when you’re finis
 
    +  PSY Base Case - Findings: Based on the Sankey diagram, we understand that out of N=371 patients who have one PSY visit, n=289 are Initiators. Of these, only n=107 are Completers, and of Completers, on n=4 graduate after having an evidence-based dose of PSY (about 8 sessions).
    
-   +  AGG Base Case - Findings: Run an experiment that accounts for the loss of two providers.  
+   +  AGG Base Case - Findings: We need to run an experiment that accounts for the loss of two providers.  
 
    +  SP Base Case - Findings: Since the teams in the simulation experience no external shocks, the historical rates all continue for the next two years.
 
