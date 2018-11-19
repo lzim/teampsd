@@ -43,7 +43,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 # In-session Exercise (30 minutes): The Model Diagram and Systems Story
 
-A. For this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll be able to play along with our scavenger hunt.  
+### A. For this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll be able to play along with our scavenger hunt.  
 
 + To log in to your Individual world, go to mtl.how/sim. Enter your username (email address) and password. Click **LOGIN**. A pop-up box appears with the text "Please select a World" on the blue bar. Select the world that starts with **"ind" from the drop-down menu**.  
 
@@ -60,7 +60,7 @@ Also, depending on the size of your monitor and whether your browser window is f
    +  On a MAC, to view the model in full screen click the **green button in the upper left of the browser** on your computer. To exit full screen, hover at the top of your computer screen, the toolbar will appear, click on "View", click on "Exit Full Screen."  
 
 
-B. We're going to ask a series of questions and your job is to find the answer in the Model Diagram.  
+### B. We're going on a scavenger hunt. We'll ask a series of questions and your job is to find the answer in the Model Diagram.  
 
 **Question 1: What are the two major units in each module?**  
 
@@ -99,7 +99,17 @@ Answer: Options to Reveal Complexity are found under the *Experiment Timeline* i
 Answer: It's weeks! We did a lot of work in the field with clinicians to figure out what the appropriate units of time would be for *MTL*. Weeks was the unit of time that seemed the most logical for clinicians. The units are also in the "i* boxes.
 
 
-C.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
+### C.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
+
+ + Let's do a quick orientation to the model diagram.  
+ 
+   ++ The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. A "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the variables is held constant, the others will fluctuate up and down.  
+   
+   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
+   
+   ++ On the model diagram, you see plus and minus signs next to the blue lines. **Use Thumbs to demonstrate +/- concept**:  
+      +++ If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
+      +++ If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
   **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals
   
@@ -109,11 +119,6 @@ C.	Now we’ll use the Model Diagram to tell a systems story about the needs and
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* CC and *Target Wait Times* for patients. 
  
  + For this activity of telling a systems story, our team is concerned patients are having to wait longer than the team would like to start Care Coordination.  
-
- + Let's do a quick orientation to the diagram.
-   ++ The "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the three variables - Patients Waiting to Start, New Patient Wait Times, or Referral Rate - is held constant, the other two will fluctuate up and down.
-   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
-   ++ On the model diagram, you see plus and minus signs next to the blue lines. We're going to be referring to these throughout *MTL*. **Use Thumbs to demonstrate +/- concept**: If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down). 
 
  +  So, we'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case CC. 
    ++ As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.
@@ -130,11 +135,6 @@ C.	Now we’ll use the Model Diagram to tell a systems story about the needs and
     
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* MM and *Target Wait Times* for patients. 
 
- + Let's do a quick orientation to the diagram.
-   ++ The "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the three variables - Patients Waiting to Start, New Patient Wait Times, or Referral Rate - is held constant, the other two will fluctuate up and down.
-   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
-   ++ On the model diagram, you see plus and minus signs next to the blue lines. We're going to be referring to these throughout *MTL*. **Use Thumbs to demonstrate +/- concept**: If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
-
  +  We hear a lot of clinicians say that good, ethical treatment is if you start a patient on medication assistance, the patient should come in for a monthly evaluation. If a clinician isn't sure they can get a patient in for a monthly appointment, then they may decide not to start the patient on the service. For this activity of telling a systems story in the Med Management module, our team would like to explore how we could serve more patients with specific conditions, like Opioid Use Disorder (OUD), with our existing team staffing levels.
 
  + We'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case MM. 
@@ -150,51 +150,31 @@ C.	Now we’ll use the Model Diagram to tell a systems story about the needs and
 
 The Psychotherapy or PSY module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.
 
- + We'll reveal the "Balancing Patients" detail in the PSY model diagram. 
+ + We'll reveal the "Balancing Patients" detail in the PSY model diagram.  
     ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
-    
- + Let's do a quick orientation to the diagram.
-   ++ The "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the three variables - Patients Waiting to Start, New Patient Wait Times, or Referral Rate - is held constant, the other two will fluctuate up and down.
-   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
-   ++ On the model diagram, you see plus and minus signs next to the blue lines. We're going to be referring to these throughout *MTL*. **Use Thumbs to demonstrate +/- concept**: If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
-
+ 
  +  For this activity of telling a systems story, our team wants patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.  
  
  + The *Reveal Complexity* detail for Balancing Patients shows the flow of patients and appointments in the PSY model. We see patients start psychotherapy and a certain number of patients get their first visit of PSY and end there; you can see this in the model here [use mouse to show "Patients in First Visit"]. We know that other patients will go on for additional visits. In the model diagram, we can explore data for patients who attend 2 to 7 visits [use mouse to show "Patients in Visit 2 to 7"] but they haven't yet completed a full course of PSY. Next, there is a subset of patients will go on to achieve 7 or more visits in their own first 3 months. Some will graduate and some will continue treatment after 3 months. Obviously this team question wants patients to complete a full course of PSY without decreasing the new patients that can start.  
  
  + So, starting on the left side of the screen in the blue box. We can see that as the *Starting Rate* for PSY increases, it increases the Booking Rate. Remember, we follow the blue line upward to *Booking Rate* and there is a plus *+* sign which means the Starting Rate and Booking Rate move in the same direction. As the *Booking Rate* increases, this increases the appointments on the books for PSY [use mounse to show booking rate to appointments in PSY].  
   
-  + As the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients. As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.  
+  + As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. So, as the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients.  As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.  
 
-**AGGREGATE MIX OF SERVICES SYSTEMS STORY** _decide which of the following to tell in the video; write scripts for all for facilitator resources_
+**AGGREGATE MIX OF SERVICES SYSTEMS STORY** 
 
- + We'll select the "RVI and Wait Times" under *Reveal Complexity* in the Aggregate model. 
+ + Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the team's appointments and patients data for each service. 
     ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
-    
- + Let's do a quick orientation to the diagram. 
-   ++ We'll start at the gauge or circle labeled *Booking Rate.*
-   ++ The "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the variable is held constant, the other two will fluctuate up and down.
-   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
-   ++ On the model diagram, you see plus and minus signs next to the blue lines. We're going to be referring to these throughout *MTL*. **Use Thumbs to demonstrate +/- concept**: If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing). If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
- +  For this activity of telling a systems story, our team wants 
- + Our team is going to be losing two staff members in the near future. Since the aggregate module shows the interactions between all services offered by our team, we want to use this module to explore how we can best allocate appointments across services with reduced staffing levels. We also want to know what will happen to patient wait times if we change patient return-to-clinic visit intervals (RVI) and/or if the remaining staff members decide to work overtime or not.
+ + Let's show the "RVI and Wait Times" under *Reveal Complexity* in the AGG model.  
+ 
+ + Our team is going to be losing two staff members in the near future. Since the aggregate module shows the interactions between all services offered by our team, we want to use this module to explore how we can best allocate appointments across services with reduced staffing levels. We also want to know what will happen to patient wait times if we change patient return-to-clinic visit intervals (RVI) and/or if the remaining staff members decide to work overtime or not.  
 
-- Supply Affects Patient Services
+ + Let's walk through a systems story focused on the balancing loop titled "Appointment Backlog Extends Return Visit Interval right here on the model diagram [mouse over balancing loop on screen].  
 
-- Effects of Overtime
-
-- Fatigue Increases Clinic Cancellations (Reinforcing Loop)
-
-- Overtime Relieves Work Pressure Slowly (Balancing Loop)
-
-- Overtime Relieves Work Pressure Quickly (Balancing Loop)
-
-- Burnout Increases Clinician Questions (Balancing Loop)
-
-- Return-to-clinic Visit Interval (RVI) and Wait Times
-
-- Appointment Backlog Extends Return Visit Interval (Balancing Loop)
+  ++ Let's start In the Appointments section of the diagram with the *Booking Rate*. As the *Booking Rate* goes up, the *Appointments* increase. If there are more patients who need an appointment then there are appointments or clinical hours available, clinicians may feel work pressure. This is the light blue arrow with the plus *+* sign leading from *Appointments* to *Work Pressure*.  
+  ++ When a clinic team experiences increasing *Work Pressure* then there is an *Effect of Work Pressure on Scheduled Return Visit INterval* such that as work pressure increases, there is an increases the time between appointments or the *Return to Clinic Visit Interval*.
+  ++ As the *Return to Visit Interval* increases the *Booking Rate* decreases, you can tell this by the negative sign at the end of the light blue arrow leading from RVI to Booking Rate. Thus, the balancing loop is *Appointment Backlog Extends Return Visit Interval* is complete.
 
 **MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery
 
