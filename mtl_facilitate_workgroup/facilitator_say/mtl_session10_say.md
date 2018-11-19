@@ -69,23 +69,27 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
 
-  Let's start with drafting *Our Question*.  
-     + **CC**: TEXT NEEDS TO BE INSERTED  
-     + **MM**: TEXT NEEDS TO BE INSERTED: Changes to the allocation of x-waiver provider appointments for OUD and RVI for the patient diagnositic cohorts, resulted in..... Now we want to explore ...  
-     + **PSY**: What is the combined effect of graduating 75% of all completers AND increasing Initiators who Complete to 75% on the number of patients who receive an EB dose of PSY? 
-     + **AGG**: 
-     + **SP**: What happens if we implemented both measurement based care and stepped care?  
+  Let's start with drafting *Our Question*:
+  
+   + **CC**: INSERT CORRECTED TEXT
+     
+   + **MM**: TEXT NEEDS TO BE INSERTED: Changes to the allocation of x-waiver provider appointments for OUD and RVI for the patient diagnositic cohorts, resulted in..... Now we want to explore ...  
+     
+   + **PSY**: What is the combined effect of graduating 75% of all completers AND increasing Initiators who Complete to 75% on the number of patients who receive an EB dose of PSY?  
+     
+   + **AGG**:  
+     
+   + **SP**: What happens if we implemented both measurement based care and stepped care?  
 
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
-
-  + Research into experiential learning with simulation has shown that it is more impactful if the group “stakes a claim” before seeing the results of a possible future scenario.  
-    ++ Ask, “What do you think the effects will be of these changes?  How much better will things get?”  Push the team to be as specific as possible, both with their change and the result.  
-    ++ Type these variables and predictions into the “Our Hypothesis” box.  
-    
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
 
+  + Research into experiential learning with simulation has shown that it is more impactful if the group “stakes a claim” before seeing the results of a possible future scenario.  
+  
+  + Ask, “What do you think the effects will be of these changes?  How much better will things get?”  Push the team to be as specific as possible, both with their change and the result.  
+  
+  + Type these variables and predictions into the “Our Hypothesis” box.  
+    
    + **CC**: INSERT CORRECTED TEXT - We hypothesized that a combined effect of changing both the RVI (to something longer) will reduce our Missed Appointment % because there are fewer patient appts books. In addition, we hypothsisize that we can allow our new patient Referral Rate to increase to xx. At this anticipated referral rate, we will be able to integrate a more new patients into CC without negatively impacting our Team's Missed Appointment %. 
 
    + **MM**: INSERT CORRECTED TEXT - We hypothesize that changing OUD x waiver appointment slots, RVI for specific patient diagnostic segments, and .... will...  
