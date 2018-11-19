@@ -25,7 +25,7 @@ session 09. Today we're *modeling to learn* how to **compare alternatives**.
 
 session 10. Today we're *modeling to learn* how to use **systems thinking**.
 
-session 11. Today we're *modeling to learn* how to make **team decisions**.
+session 11. Today we're *modeling to learn* how to make future **team decisions**.
 
 session 12. Today we're *modeling to learn* how to turn **team learning** into a **team plan**.
 
