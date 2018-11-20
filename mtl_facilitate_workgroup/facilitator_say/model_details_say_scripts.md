@@ -244,32 +244,43 @@ This module shows the interactions between all services offered by your team. It
   + Sensitivity of Staff Missed Appointments Due to Short-Term Overtime
   + Sensitivity of Treatment Decisions to Existing Patient Care Delays
 
-**Base Case - Session 7:**
+ Q - We expect that our team is going to be losing two staff members in the near future. To better understand how to manage this situation, we ask how well we are managing our current patient needs, prior to losing these two staff, across services.
+ 
+ H - Based on our current team data, we expect to see that most of our patients are receiving MM, as they have, by far, the longest engagement time (115 weeks median) and they count for more than 20% of services.  Other large numbers of patient are receiving PSY (23% of our service mix and 54 weeks engagement time.
+ 
+ F - Using the compare services features, our hypothesis is supported. Our baseline shows that we have more than 1000 MM patients in service, followed by PSY (about 300 patients), CC (about 260 patients), followed by ADJ (about 175 patients). Interestingly, patients receiving group services drops to about 100 patients at about 1.5 years into the simulation run.
 
-  + Q - What would happen if we made no new decisions in our team?
-  + H - That patients will continue accumulate waiting for care.
-  + F - Run an experiment that accounts for the loss of two providers.
-  + D - We saw oscillating system behavior.
-    
-**Experiment 1 - Session 8:**
+  D - We should look to reduce the median engagement time for MM and PSY, as patients are receiving treatment time that is longer than recommended for PSY and the return interval time is too long (17weeks), and many of these patients are also receiving MM, we expect.  We would like to see an engagement time of about 12 to 14 weeks for PSY, which would represent receiving about 1 visit very week for about a quarter, or about 8 to 10 sessions. MM may need to be longer, but appts for MM are less frequent.
 
-  + Q - What happens if we lose two providers AND then reduce how we make patient triage decisions -- to send half as many people to PSY and CC as we did before the hours for those services were also cut in half?
-  + H - We expect that wait times will not go up as much, as we have cut demand for those services.
-  + F - Decision is for people to experiment with sensitivity sliders on own and follow up.
-  + D - We found RVI for PSY stretched way out to several weeks between visits and work pressure increased really quickly then came back down. Saw far less pts in PSY over next 2 years. 
-    
-**Experiment 2 - Session 9:** 
+Experiment 1 
 
-  + Q - If we lose two MHTC/psychotherapists, what is the impact on medication management?
-  + H - We are increasing the proportion of our services for med management by 25% and increasing telephone services by 25%. This is likely increasing work pressure. This it will increase no-shows and wait times for med management. (Sensitivity of Patient's Engagement Time to Provider Fatigue, Sensitivity of Scheduled Return Visit Interval to Work Pressure, Sensitivity of Overtime to Work Pressure)
-  + F - Patients waiting to start oscillates. Work pressure spikes in about 3 months.
-  + D - Continue to review additional findings.
-   
-**Experiment 3 - Session 10 - Combine experiments 1 and 2:** 
-  + Q
-  + H
-  + F
-  + D
+  Q - To try to manage patient needs for PSY when we lose staff, what would happen if we changed the PSY RVI to 2 weeks and for EB PSY to just 1 week  (from 17 weeks)?
+
+  H – We expect to see the number of PSY patients in service to drop substantially within the first year, and then to reach a new equilibrium level that is well below 300. If it were down to 150 patients, then we may be able to hand the staff reduction.
+
+  F – Our hypothesis was supported! We see that implementing a much short RVI for PSY patients show a steady reduction in the number of PSY in service, from more than 300 in our basecase to about less than a 100 after two years of simulation. Booking rates for PSY climb initially, but then drop off and level out just a bit higher than baseline! MM patients in service also drops, but only marginally, from about 1000 to 900.
+
+  D – Now that we have reduced the RVI for PSY and EB PSY, we can look to see what the gains in managing our patients may be achieved by rebalancing our service mix. We would like to see what happens if we invest in doing more EB PSY and less PSY, but keeping the proportion of other services more or less as before. 
+
+Experiment 2
+
+  Q – We expect that our team is going to be losing two staff members in the near future. To better understand how to manage this situation, we ask how well we are managing our current patient needs, prior to losing these two staff, across services.
+
+  H – Rebalancing the mix of patient services will provide additional capacity to serve patients, allowing the team to absorb the loss to two staff. We hypothesis that increasing the proportion of EB PSY to 20% and reducing PSY to just 5%, and then putting GROUP services at 15% and CC, MM, and ADJ all at 20%, would be appropriate for the team.
+
+  F – We found that our team seems rebalancing, keeping a tight RVI of just 1 to 2 weeks for PSY and EB PSY, further added capacity to manage our AGG service mix. All categories of patients in service ebbed downward over time.
+
+  D – We will explore sensitivity to work pressure in our next experiment, but keep our new service mix and our improved RVI for PSY and EB PSY.
+
+Experiment 3 (combined)
+
+  Q – For our last experiment, what would happen if we allowed increase in sensitivity to  work pressure, such that the team would be willing to work more hours than usual to make up backlogs of patients waiting to start services.
+
+  H – Given that we will lose two staff, the team is willing to do so over time, if need be. Our rebalancing of services and our commitment to reduce the RVI for PSY and EB PSY to between 1 and 2 weeks, combined with a willingness to provide a moderate about of additional over time hours will resolve any backlogs of patients waiting to start services. 
+
+  F – Our hypothesis is supported! We see similar patterns as before, but the willingness to work a bit more over time improves all metrics, from patient start times to patient rescheduing, to actual hours available for service!
+
+  D – We will agree to work a moderate amount of overtime, but also to rebalance our service mix in favor of conducting more EB PSY, while not changing the proportion of any services so much that we are not meeting overall demand for CC, MM, ADJ or GROUP.
 
  ## MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION
  
