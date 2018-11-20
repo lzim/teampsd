@@ -77,7 +77,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
      
    + **PSY**: What is the combined effect of graduating 75% of all completers AND increasing Initiators who Complete to 75% on the number of patients who receive an EB dose of PSY?  
      
-   + **AGG**:  
+   + **AGG**:  For our next experiment, what would happen if we allowed an increase in sensitivity to work pressure, such that the team would be willing to work more hours than usual to make up backlogs of patients waiting to start services.
      
    + **SP**: What happens if we implemented both measurement based care and stepped care?  
 
@@ -96,7 +96,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
    
    + **PSY**: We hypothesize that the combined effects of increasing the number of Initiators who Complete from the base case rate of 37% to 75% with an increase in helping the number of Completers to graduate will have a robust effect on the number of patients who complete and graduate compared to the base case. We expect to see that more than 99 patients are Completers who have finished a full course of therapy.  
    
-   + **AGG**: We explored the impact of losing two providers on both medication management and sending half as many people to PSY and CC? We hypothesize that sending half as many people to PSY and CC will reduce the appointment completing rate for those services which will increase the missed appointments and lead to increased work pressure for clinicians.  
+   + **AGG**: Given that the team will lose two staff, we agree that we are willing to work additional time, if need be. Our rebalancing of services and our commitment to reduce the RVI for PSY and EB PSY to between 1 and 2 weeks, combined with a willingness to provide a moderate about of additional over time hours will resolve any backlogs of patients waiting to start services.
    
    + **SP**: When we increased care quality and symptom detection (via measurement-based care), we saw patient outcomes improved dramatically, but at the cost of higher wait times for GMH patients stepping down to PC. When we streamlined transitions between settings (via implementing stepped care), we saw higher start rates, but also higher wait times for patients stepping down from GMH to PC and a higher ratio of high to low symptom patients in GMH. Combining these experiments should lead to even more benefits to our patients: better outcomes, fewer patients with high risk flags, higher start rates. However, we believe we will also see even higher wait times into PC from GMH.  
    
@@ -120,7 +120,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
     
    + **PSY**: We found that there was an increase in the number of patients being served (from N=371 BC and N=460 EXP1) to N=480! We also found that we have an increase in Initiators, as expected (n=373) and in Completers, as expected (n=280). We saw a robust number of patients over the BC (n=4) in persons who completed and graduated (n=70). This was decreased from n=90, when we only changed the % of completers who graduated, but not Initiators. However, with the combined decisions, we enjoyed a higher starting rate and a higher initiation rate after one year, and the we saw an improved graduation rate over the BC from the start of the run.
 
-   + **AGG**: TEXT NEEDS TO BE INSERTED
+   + **AGG**: Our hypothesis is supported! We see similar patterns as before, but the willingness to work a bit more over time improves all metrics, from patient start times to patient rescheduing, to actual hours available for service!
    
    + **SP**: All predictions confirmed: we see a greater drop in the number of patients with a high risk flag, fewer high symptom patients in both PC and GMH (for GMH, almost completely counter-acting the increases coming from stepped care), and higher start rates. The number of patients in GMH is slightly, but significantly, lower than the historical average, reducing stress and increasing care quality. Wait times for most patients fall the same or more than in either previous experiments, except for patients stepping down from GMH to PC, where the wait time has increased to the highest of all our experiments - 60 weeks! Increasing quality in GMH and reducing the delays on stepping patients down to PC puts additional pressure on PC to see more MH patients – pressure that they can’t seem to accommodate.  
 
@@ -132,7 +132,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
    
    + **PSY**: We think that working to support a 75% rate of Initiators who complete 8 sessions of PSY in 3 months combined with efforts to support a 75% graduation rate of patients who complete 8 sessions of PSY is a clinically valuable and viable strategy. It increases supply of appts for new patients while increasing the number of patients who get an evidence-based dose of PSY.
 
-   + **AGG**: TEXT NEEDS TO BE INSERTED
+   + **AGG**: We will agree to work a moderate amount of overtime, but also to rebalance our service mix in favor of conducting more EBPSY, while not changing the proportion of any services so much that we are not meeting overall demand for CC, MM, ADJ or GROUP.
    
    + **SP**: For either of these efforts to be truly successful, Primary Care needs to expand their capacity to see mental health patients. We will take these findings to our chief, to show how our two settings are connected, and that our well-intended actions to improve care or remove barriers between our settings could have a detrimental effect on mental health access in PC. We will propose a series of trainings to PC staff to increase their comfort taking on MH patients, and thus increase their capacity. We will conduct more experiments to try to estimate the size of the capacity increase necessary to prevent an increase in wait time.
 

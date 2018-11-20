@@ -63,9 +63,9 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
      + **MM**: How do we best allocate our x waiver appointments to serve 4 new OUD patients per week?  
   
-     + **PSY**: For experiment 2, we ask: What is the effect of increasing the number of Initiators who Complete from the base case rate of 37% to 75% on the number of patients who complete and graduate?  
+     + **PSY**: What is the effect of increasing the number of Initiators who Complete from the base case rate of 37% to 75% on the number of patients who complete and graduate?  
   
-     + **AGG**: If we lose two MHTC/psychotherapists, what is the impact on medication management?  
+     + **AGG**: If we lose two staff members in the near future, how are we going to change the proportion of appointments allotted to each service to ensure we can continue to meet patient needs?
   
      + **SP**: What if we implemented stepped care between our clinic and PC/PCMHI?
 
@@ -82,7 +82,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
   
      + **PSY**: We hypothesize that increasing the number of Initiators who complete from the base case rate of 37% to 75% will have a moderate increase in the number of patients who complete and graduate compared to the base case.  
   
-     + **AGG**: We are increasing the proportion of our services for med management by 25% and increasing telephone services by 25%. This is likely increasing work pressure. This it will increase no-shows and wait times for med management. (Sensitivity of Patient's Engagement Time to Provider Fatigue, Sensitivity of Scheduled Return Visit Interval to Work Pressure, Sensitivity of Overtime to Work Pressure)  
+     + **AGG**: Rebalancing the mix of patient services will provide additional capacity to serve patients, allowing the team to absorb the loss to two staff. We hypothesis that increasing the proportion of EB PSY to 20% and reducing PSY to just 5%, and then putting GROUP services at 15% and CC, MM, and ADJ all at 20%, would be appropriate for the team.
      
      + **SP**: With this change, clinicians in both settings will be more likely to step their patients between the two settings, as all the confusion and negotiation needed to step a patient between these settings will have been removed – now, if a GMH patient is low symptom, then they will spend less time in GMH before their provider recommends stepping down to PC, and for high symptom patients in PC, they will spend less time there before clinicians there recommend stepping up to GMH. We expect this smoother flow between the two settings to decrease the number of patients waiting to step between the two settings. For PC, they will be able to step more high symptom patients up to the right level of care sooner, so the number of patients in PC with a high risk flag will start to decline. For GMH, we will be able to step more low-symptom patients down to PC, creating more openings, and thus increase our access.  
   
@@ -110,7 +110,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
   
      + **PSY**: Against the base case, we found that the total number of patients served by the team stayed the same (N=371). Of the 371, n=249 were Initiators and n=187 were Completers. Among Completers, n=7 graduated and were done. Regarding the starting rate for new patients, it decreased compared to our base case and our Experiment 1.  
   
-     + **AGG**: Patients waiting to start oscillates. Work pressure spikes in about 3 months.  
+     + **AGG**: We found that our team seems rebalancing, keeping a tight RVI of just 1 to 2 weeks for PSY and EB PSY, further added capacity to manage our AGG service mix. All categories of patients in service ebbed downward over time.  
   
      + **SP**: Start rates in GMH and PC increase (from 12 to 16 pts/week, then settling at 13; and ~6.5 to 8 pts/wk, settling at 7.5, respectively). Primary Care is able to reduce both the number of high-symptom patients in their care, and the number of patients with a high risk flag. Even with the increase in the Recommend Step Up Rate, wait time before actually stepping up to GMH falls.
 However, the unintended consequence of implementing stepped care, this is not the case for patients trying to step down from GMH: as more patients are recommended to step down to PC, the actual start rate in PC does not increase enough to accommodate all these new patients. Why? Even though the effect on flow between the two settings was the same (ie, Time to Recommend was cut in both settings by 50%), the size of the two settings is not– GMH can maintain over 500 patients in treatment, while PC can only maintain 300. Implementing Stepped Care between these two settings with a substantial size difference will mean more patients trying to flow from GMH to PC than from PC to GMH. Thus, the resulting wait time to step down from GMH to PC practically doubles over the next two years. Also, the ratio of high symptom patients to low in GMH slightly increases, as it is easier to step low symptom patients down to PC than before. Not all wait times for starting PC have increased, though. Both new patients and patients stepping down from Specialty Mental Health see their wait times reduced (new patients to near zero!). This suggests that PC has options, and can re-allocate their openings to better balance incoming patients’ needs. Reallocating their openings can’t fix everything, as the inflows from new and SMH are only 1/5 (each) as large as the inflow from GMH.  
@@ -128,7 +128,7 @@ However, the unintended consequence of implementing stepped care, this is not th
   
      + **PSY**: We decided to run a third experiment. We will look to see if we can combine the effects of graduating 75% of all Completers AND increasing Initiators who Complete. We need the appointment supply that becomes available by keeping to a higher graduation rate of Completers to accommodate the higher number of Initiators who are transitioned to Completers!  
   
-     + **AGG**: We will continue to review additional findings.  
+     + **AGG**:  We will explore sensitivity to work pressure in our next experiment, but keep our new service mix and our improved RVI for PSY and EB PSY.
   
      + **SP**: We have increased transitions without increasing quality. Next, let’s conduct a combined experiment, where we implement both measurement-based care and streamline stepping between GMH and PC/PCMHI.
 

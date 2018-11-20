@@ -82,7 +82,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **PSY** - What if we graduate more patients who complete 8 or more psychotherapy sessions in their first 3 months? What is the effect of working to increase the proportion of patients who 'complete' an evidence-based dose of PSY and then graduate from just 4% to 75%, over time, on (1) the number of patients who complete and are then 'done'? and (2) on the supply of available appts for new patients?
 
-**AGG** - How can we manage the loss of two providers AND then reduce how we make patient triage decisions -- to send half as many people to PSY and CC as we did before the hours for those services were also cut in half?
+**AGG** - How can we manage the loss of two providers and still manage patient needs for PSY? What would happen if we change the PSY RVI to 2 weeks and the RVI for EB PSY to just 1 week (from 17 weeks)?
 
 **SP** - What if we implemented measurement-based care in our team?
 
@@ -94,7 +94,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **PSY** - We expect that if we increase our completers who graduate to 75%, then we'll free up more slots in the clinic for more patients to start psychoterhapy/EBPsy. We hypothesize that an increasing the complete and graduate rate from 4% to 75% will results in a jump from about 4 patients to about 75 patients graduating during the same time period. We also expect that by increasing the graduation rate for any one who has received 8 or more sessions of PSY, we will increase the number of appt slots for new patients starting PSY.
 
-**AGG** - We expect that wait times will not go up as much, as we have cut demand for those services.
+**AGG** - We expect to see the number of PSY patients in service to go down within the first year, and then to reach a new level that is well below 300. If the numbers were down to 150 patients, then we may be able to handle the staff reduction.
 
 **SP** – If we implement measurement based care in our GMH team, then care quality will improve (specifically through reductions in Time to Improve and Time to UnFlag, and an increase in the Time to Ending). Also, how long it takes clinicians to see changes in their patients will also improve (seen in a reduction in Time to Detect). We expect to be able to effectively diagnose and treat patients faster, reducing the number of high-symptom patients in care, and thus reducing the number of patients who receive high risk flags.
 However, low symptom patients are in care for longer than before, reducing the number of openings for new patients. These patients will make up more and more of our total – as there will be both more flowing in (due to higher Improvement Rate) and fewer flowing out (due to the lower Ending Rate). With fewer openings, wait times to start with our team should increase.  
@@ -127,7 +127,7 @@ However, low symptom patients are in care for longer than before, reducing the n
 
 **PSY** - We found that the total number of patients served by the team increased from N=371 to N=460. Of the 460, n=358 were Initiators and n=132 were Completers. Among Completers, n=99 graduated and were done (75%, as we expected). Regarding the starting rate for new patients, it increased from about 3.8 pts/wk to about 4.8 pts/wk. our hypotheses was supported. This dramatically increases the number of patients in PSY who are receiving an evidence base dose of therapy and supports the team in taking on more new patients, about one more new pt/wk (or 4 new ones per month, or 48 new ones annually!)
 
-**AGG** - Decision is for people to experiment with sensitivity sliders on own and follow up.
+**AGG** - Our hypothesis was supported! We see that implementing a much shorter RVI for PSY patients show a steady reduction in the number of PSY patients in service, from more than 300 in our BC to less than a 100 after two years. Booking rates for PSY climb initially, but then drop off and level out just a bit higher than baseline! One concern is that MM patients in service also drops from about 1000 to 900.
 
 **SP** – As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years. The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place. However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate. Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year. However, because there have been no changes in Primary Care, wait times for stepping down to PC go up substantially – from 22 to 38 weeks.
 
@@ -143,7 +143,7 @@ However, low symptom patients are in care for longer than before, reducing the n
 
 **PSY** - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
 
-**AGG** - We found RVI for PSY stretched way out to several weeks between visits and work pressure increased really quickly then came back down. Saw far less pts in PSY over next 2 years.
+**AGG** - Now that we have reduced the RVI for PSY and EB PSY, we can look to see what gains in managing our patients may be achieved by rebalancing our service mix. We'll see what happens if we invest in doing more EB PSY and less PSY, but keeping the proportion of other services more or less as before.
 
 **SP** – In this experiment, we see a strong connection between changes made in our team and wait times for downstream teams. We should run an experiment that explores these connections and gauge the impacts of implementing stepped care between GMH and PC/PCMHI.
 

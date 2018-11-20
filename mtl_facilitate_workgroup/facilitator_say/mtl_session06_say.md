@@ -103,46 +103,59 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
 
  + Let's do a quick orientation to the model diagram.  
  
-     + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. A "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the variables is held constant, the others will fluctuate up and down.  
+
+   + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. A "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the variables is held constant, the others will fluctuate up and down.  
    
-     + In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
+   + In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
    
-     + On the model diagram, you see plus and minus signs next to the blue lines. **Use Thumbs to demonstrate +/- concept**:  
-           + If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
-           + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
+   + On the model diagram, you see plus and minus signs next to the blue lines. **Use Thumbs to demonstrate +/- concept**:  
+         + If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
+         + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
+
 
   **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals
   
  + We'll reveal the "Wait Time Affects Referrals" detail in the Care Coordination or CC model diagram. Then, scroll down to the lower left of the model diagram to see what has been revealed.
-     + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+
+      + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+
     
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* CC and *Target Wait Times* for patients. 
  
  + For this activity of telling a systems story, we are concerned patients are having to wait longer than we would like to start Care Coordination.  
 
- +  So, we'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case CC. 
-     + As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.  
-     + Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals* which decreases the *Referral Rate* so referrals to CC begin to slow down.  
-     + Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first CC appointment.  
+
+ +  So, we'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case CC.  
+ 
+      + As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.  
+   
+      + Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals* which decreases the *Referral Rate* so referrals to CC begin to slow down.  
+   
+      + Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first CC appointment.  
 
  + In addition to running experiments around our Target Wait Time, this loop shows that we can also experiment with team decisions about Referral Rate. 
-     + We can ask questions like, "If the Referral Rate to CC goes up by some percentage because we've started graduating patients more quickly from other services - but our Starting Rate in CC stays the same because we don't have any extra appointment slots for new patients - what will become the 'new normal' for New Patient Wait Times in CC?"
+      + We can ask questions like, "If the Referral Rate to CC goes up by some percentage because we've started graduating patients more quickly from other services - but our Starting Rate in CC stays the same because we don't have any extra appointment slots for new patients - what will become the 'new normal' for New Patient Wait Times in CC?"
+
 
 **MEDICATION MANAGEMENT SYSTEMS STORY** 
 
  + We'll reveal the "Wait Time Affects Referrals" detail in the Medication Management or MM model diagram. Then, scroll down to the lower left of the model diagram to see what has been revealed.
-     + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+
+      + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+
     
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* MM and *Target Wait Times* for patients. 
 
  +  We hear a lot of clinicians say that good, ethical treatment is if you start a patient on medication assistance, the patient should come in for a monthly evaluation. If a clinician isn't sure they can get a patient in for a monthly appointment, then they may decide not to start the patient on the service. For this activity of telling a systems story in the Med Management module, we would like to explore how our team can serve more patients with specific conditions, like Opioid Use Disorder (OUD), with our existing staffing levels.
 
  + We'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case MM.  
-     + As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.  
-     + Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals*. The *Effect of Wait Time on Referrals* is the difference between the *New Patient **Actual** Wait Time* and the team's desired or *Target Wait Time*.  
-     + In the Med Management module, we can adjust target wait times for different diagnostic patients. The "stacked" red boxes labeled *Target Wait Time* indicates you can change the target wait time by adjusting the red sliders read in from your team data for patients with Alcohol Use Disorder, Opioid Use Disorder, Depression and Other conditions.  
-     + The effect of an increasing wait time on referrals, which has a negative sign, means a decrease to the *Referral Rate* so referrals to MM begin to slow down.  
-     + Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first MM appointment.  
+
+      + As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.  
+      + Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals*. The *Effect of Wait Time on Referrals* is the difference between the *New Patient **Actual** Wait Time* and the team's desired or *Target Wait Time*.  
+      + In the Med Management module, we can adjust target wait times for different diagnostic patients. The "stacked" red boxes labeled *Target Wait Time* indicates you can change the target wait time by adjusting the red sliders read in from your team data for patients with Alcohol Use Disorder, Opioid Use Disorder, Depression and Other conditions.  
+      + The effect of an increasing wait time on referrals, which has a negative sign, means a decrease to the *Referral Rate* so referrals to MM begin to slow down.  
+      + Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first MM appointment.   
+
 
 
 **PSYCHOTHERAPY SYSTEMS STORY** - Balancing Existing and New Patients; Engagement After 3 Months
@@ -150,7 +163,9 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
  + The Psychotherapy or PSY module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.  
 
  + We'll reveal the "Balancing Patients" detail in the PSY model diagram.  
-     + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+
+      + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+
  
  +  For this activity of telling a systems story, we want patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.  
  
@@ -162,8 +177,9 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
 
 **AGGREGATE MIX OF SERVICES SYSTEMS STORY** 
 
- + Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the our team's appointments and patients data for each service.  
-     + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+
+ + Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the our team's appointments and patients data for each service. 
+      + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
 
  + Let's show the "RVI and Wait Times" under *Reveal Complexity* in the AGG model.  
  
@@ -179,12 +195,18 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
 
 **MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery
 
- + Starting with Patient Load (click on i text, and read), one way that increasing patient load influences the team is the effect on care quality.  If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
+ + Starting with *Patient Load* (click on i text, and read), one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
  
- + This has two specific effects in the module, 1) high-symptom patients improve faster than before (see the arrow to “Time to Improve” which affects the number of patients each week whose symptoms improve enough to be eligible to be stepped down to a less intense level of care), and 2) patients with high risk flags improve faster than before (see the arrow to “Time to UnFlag” which affects the rate at which patients with high risk flags have those flags removed). 
+ + When *Care Quality* increases, the number of patients in the grey box labeled *Effect of MBC on Patient Symptoms and Risk* decreases (then users zoom into it to see how), which then decreases *Patient Load*, further increasing *Care Quality*.  
+ 
+ + As *Care Quality* goes down [TOGGLE TO MEASUREMENT BASED CARE VIEW], then:  
+      + First, high-symptom patients improve faster than before (see the arrow to “Time to Improve” which affects the number of patients each week whose symptoms improve enough to be eligible to be stepped down to a less intense level of care), and  
+      + Second, patients with high risk flags improve faster than before (see the arrow to “Time to UnFlag” which affects the rate at which patients with high risk flags have those flags removed).  
 
- + The more patients flow into the “low symptom” group, the more patients can both end their care and be recommended to step down to a lower level of care.  As more patients leave this setting, it further reduces the number of patients in treatment, thus further decreasing the patient load and increasing quality.  When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load.  When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.”
-
+ + This causes more patients to flow into the “low symptom” group, so more patients can both end their care and be recommended to step down to a lower level of care. [TOGGLE BACK TO STEPPED CARE VIEW]  
+ 
+ + As more patients leave this setting, it further reduces the total number of patients in the GMH treatment setting, thus further decreasing the patient load and increasing quality. When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load. When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.” 
+ Then we can explain the reinforcing loop "Higher Care Quality Improves Recovery" with: 
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
