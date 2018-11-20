@@ -182,10 +182,13 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
 
  + Starting with Patient Load (click on i text, and read), one way that increasing patient load influences the team is the effect on care quality.  If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
  
- + This has two specific effects in the module, 1) high-symptom patients improve faster than before (see the arrow to “Time to Improve” which affects the number of patients each week whose symptoms improve enough to be eligible to be stepped down to a less intense level of care), and 2) patients with high risk flags improve faster than before (see the arrow to “Time to UnFlag” which affects the rate at which patients with high risk flags have those flags removed). 
+ + As care quality goes down [TOGGLE TO MEASUREMENT BASED CARE VIEW], then:  
+    1) high-symptom patients improve faster than before (see the arrow to “Time to Improve” which affects the number of patients each week whose symptoms improve enough to be eligible to be stepped down to a less intense level of care), and  
+    2) patients with high risk flags improve faster than before (see the arrow to “Time to UnFlag” which affects the rate at which patients with high risk flags have those flags removed).  
 
- + The more patients flow into the “low symptom” group, the more patients can both end their care and be recommended to step down to a lower level of care.  As more patients leave this setting, it further reduces the number of patients in treatment, thus further decreasing the patient load and increasing quality.  When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load.  When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.”
-
+ + This causes more patients to flow into the “low symptom” group, so more patients can both end their care and be recommended to step down to a lower level of care. [TOGGLE BACK TO STEPPED CARE VIEW]  
+ 
+ + As more patients leave this setting, it further reduces the total number of patients in the GMH treatment setting, thus further decreasing the patient load and increasing quality. When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load. When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.”  
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
