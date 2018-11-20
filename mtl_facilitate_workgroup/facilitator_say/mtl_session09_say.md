@@ -55,11 +55,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
   + Before we run Experiment 2, our team needs to discuss “What new idea do we want to test this week?”  
-    ++ We need to minimize the Expanded Outputs by clicking on the “box” in the upper right corner of the window, so we can see both the model and type text into the *Our Question* and the *Our Hypothesis* boxes.  
+     + We need to minimize the Expanded Outputs by clicking on the “box” in the upper right corner of the window, so we can see both the model and type text into the *Our Question* and the *Our Hypothesis* boxes.  
     
   + Ask the team for text to type into the *Our Question* box. The question should clearly state a directional change in at least one variable.  
   
-     + **CC**: What will happen to the Starting Rate and New Patient Wait Time if we lengthen our team's average Return to Clinic Interval (in weeks) by a certain amount?  
+     + **CC**: What will happen to the Starting Rate and New Patient Wait Time if we lengthen our team's average Return to Clinic Visit Interval (RVI), in units of weeks, by a certain amount?  
 
      + **MM**: How do we best allocate our x waiver appointments to serve 4 new OUD patients per week?  
   
@@ -73,10 +73,10 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
   + Research into experiential learning with simulation has shown that it is more impactful if the group “stakes a claim” before seeing the results of a possible future scenario.  
-    ++ Ask, “What do you think the effects will be of this change?  How much better will things get?”  Push the team to be as specific as possible, both with their change and the result.  
-    ++ Type these variables and predictions into the “Our Hypothesis” box.  
+     + Ask, “What do you think the effects will be of this change?  How much better will things get?”  Push the team to be as specific as possible, both with their change and the result.  
+     + Type these variables and predictions into the “Our Hypothesis” box.  
     
-     + **CC**:  H - Increasing the Return Visit Interval will have the effect of increasing the Appointment Supply for New CC Patients by decreasing the Appointments for Existing Patients. Just as in Experiment 1, the increased Appointment Supply for New CC Patients will increase the Starting Rate and decrease New Patient Wait Times. But decreasing the Appointments for Existing Patients will also lower the Completing Rate for CC patients.  
+     + **CC**: Increasing the Return Visit Interval will have the effect of increasing the Appointment Supply for New CC Patients by decreasing the Appointments for Existing Patients. Just as in Experiment 1, the increased Appointment Supply for New CC Patients will increase the Starting Rate and decrease New Patient Wait Times. But decreasing the Appointments for Existing Patients will also lower the Completing Rate for CC patients.  
   
      + **MM**: If we increase our proportion of appointments with an X waiver to 10%, then it will increase the starting rate.  
   
@@ -104,7 +104,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
   + Ask the team for text to type into the “Findings” box, now just above the “Results Dashboard.”  These findings must be specific about both the quantitative impact of their experiment and how those results were produced.  
       
-     + **CC**:  **AFTER RVI QUANTITY IN EXPERIMENT SECTION IN CC MODULE IS CORRECTED, WE CAN RUN EXP 2 AND INSERT FINDINGS TEXT HERE**  
+     + **CC**: Increasing the RVI increased the Appointment Supply for New CC Patients by decreasing the Appointments for Existing Patients. The increased Appointment Supply increased the Starting Rate for about 9 months and then it decreased. Same is true for New Patient Wait Times; a decline over time. But decreasing the Appointments for Existing Patients resulted in a sharp decrease in the Completing Rate for CC patients but it increased over time and reached a steady state at 1 year.  
+     
      + **MM**: Well, our fears are confirmed: if we increase the proportion of x-waiver slots to 10%, it does increase the starting rate for OUD MM to about 1 patient/month. But it also increased the wait times for patients with other needs.  
   
      + **PSY**: Against the base case, we found that the total number of patients served by the team stayed the same (N=371). Of the 371, n=249 were Initiators and n=187 were Completers. Among Completers, n=7 graduated and were done. Regarding the starting rate for new patients, it decreased compared to our base case and our Experiment 1.  
