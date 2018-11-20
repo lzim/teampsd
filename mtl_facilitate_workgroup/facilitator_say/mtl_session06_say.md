@@ -118,14 +118,14 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
     
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* CC and *Target Wait Times* for patients. 
  
- + For this activity of telling a systems story, our team is concerned patients are having to wait longer than the team would like to start Care Coordination.  
+ + For this activity of telling a systems story, we are concerned patients are having to wait longer than we would like to start Care Coordination.  
 
  +  So, we'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case CC. 
    ++ As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.
    ++ Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals* which decreases the *Referral Rate* so referrals to CC begin to slow down. 
    ++ Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first CC appointment.  
 
- + In addition to running experiments around the team's Target Wait Time, this loop shows that we can also experiment with team decisions about Referral Rate. 
+ + In addition to running experiments around our Target Wait Time, this loop shows that we can also experiment with team decisions about Referral Rate. 
    ++ We can ask questions like, "If the Referral Rate to CC goes up by some percentage because we've started graduating patients more quickly from other services - but our Starting Rate in CC stays the same because we don't have any extra appointment slots for new patients - what will become the 'new normal' for New Patient Wait Times in CC?"
 
 **MEDICATION MANAGEMENT SYSTEMS STORY** 
@@ -135,7 +135,7 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
     
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* MM and *Target Wait Times* for patients. 
 
- +  We hear a lot of clinicians say that good, ethical treatment is if you start a patient on medication assistance, the patient should come in for a monthly evaluation. If a clinician isn't sure they can get a patient in for a monthly appointment, then they may decide not to start the patient on the service. For this activity of telling a systems story in the Med Management module, our team would like to explore how we could serve more patients with specific conditions, like Opioid Use Disorder (OUD), with our existing team staffing levels.
+ +  We hear a lot of clinicians say that good, ethical treatment is if you start a patient on medication assistance, the patient should come in for a monthly evaluation. If a clinician isn't sure they can get a patient in for a monthly appointment, then they may decide not to start the patient on the service. For this activity of telling a systems story in the Med Management module, we would like to explore how our team can serve more patients with specific conditions, like Opioid Use Disorder (OUD), with our existing staffing levels.
 
  + We'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case MM. 
    ++ As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.
@@ -148,14 +148,14 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
 
 **PSYCHOTHERAPY SYSTEMS STORY** - Balancing Existing and New Patients; Engagement After 3 Months
 
-The Psychotherapy or PSY module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.
+ + The Psychotherapy or PSY module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.  
 
  + We'll reveal the "Balancing Patients" detail in the PSY model diagram.  
     ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
  
- +  For this activity of telling a systems story, our team wants patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.  
+ +  For this activity of telling a systems story, we want patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.  
  
- + The *Reveal Complexity* detail for Balancing Patients shows the flow of patients and appointments in the PSY model. We see patients start psychotherapy and a certain number of patients get their first visit of PSY and end there; you can see this in the model here [use mouse to show "Patients in First Visit"]. We know that other patients will go on for additional visits. In the model diagram, we can explore data for patients who attend 2 to 7 visits [use mouse to show "Patients in Visit 2 to 7"] but they haven't yet completed a full course of PSY. Next, there is a subset of patients will go on to achieve 7 or more visits in their own first 3 months. Some will graduate and some will continue treatment after 3 months. Obviously this team question wants patients to complete a full course of PSY without decreasing the new patients that can start.  
+ + The *Reveal Complexity* detail for Balancing Patients shows the flow of patients and appointments in the PSY model. We see patients start psychotherapy and a certain number of patients get their first visit of PSY and end there; you can see this in the model here [use mouse to show "Patients in First Visit"]. We know that other patients will go on for additional visits. In the model diagram, we can explore data for patients who attend 2 to 7 visits [use mouse to show "Patients in Visit 2 to 7"] but they haven't yet completed a full course of PSY. Next, there is a subset of patients will go on to achieve 7 or more visits in their own first 3 months. Some will graduate and some will continue treatment after 3 months. Obviously our team wants patients to complete a full course of PSY without decreasing the new patients that can start.  
  
  + So, starting on the left side of the screen in the blue box. We can see that as the *Starting Rate* for PSY increases, it increases the Booking Rate. Remember, we follow the blue line upward to *Booking Rate* and there is a plus *+* sign which means the Starting Rate and Booking Rate move in the same direction. As the *Booking Rate* increases, this increases the appointments on the books for PSY [use mounse to show booking rate to appointments in PSY].  
   
@@ -163,7 +163,7 @@ The Psychotherapy or PSY module shows how team psychotherapy decisions interact,
 
 **AGGREGATE MIX OF SERVICES SYSTEMS STORY** 
 
- + Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the team's appointments and patients data for each service. 
+ + Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the our team's appointments and patients data for each service. 
     ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
 
  + Let's show the "RVI and Wait Times" under *Reveal Complexity* in the AGG model.  
@@ -172,9 +172,11 @@ The Psychotherapy or PSY module shows how team psychotherapy decisions interact,
 
  + Let's walk through a systems story focused on the balancing loop titled "Appointment Backlog Extends Return Visit Interval right here on the model diagram [mouse over balancing loop on screen].  
 
-  ++ Let's start In the Appointments section of the diagram with the *Booking Rate*. As the *Booking Rate* goes up, the *Appointments* increase. If there are more patients who need an appointment then there are appointments or clinical hours available, clinicians may feel work pressure. This is the light blue arrow with the plus *+* sign leading from *Appointments* to *Work Pressure*.  
-  ++ When a clinic team experiences increasing *Work Pressure* then there is an *Effect of Work Pressure on Scheduled Return Visit INterval* such that as work pressure increases, there is an increases the time between appointments or the *Return to Clinic Visit Interval*.
-  ++ As the *Return to Visit Interval* increases the *Booking Rate* decreases, you can tell this by the negative sign at the end of the light blue arrow leading from RVI to Booking Rate. Thus, the balancing loop is *Appointment Backlog Extends Return Visit Interval* is complete.
+ + Let's start In the Appointments section of the diagram with the *Booking Rate*. As the *Booking Rate* goes up, the *Appointments* increase. If there are more patients who need an appointment then there are appointments or clinical hours available, clinicians may feel work pressure. This is the light blue arrow with the plus *+* sign leading from *Appointments* to *Work Pressure*.  
+ 
+      + When a clinic team experiences increasing *Work Pressure* then there is an *Effect of Work Pressure on Scheduled Return Visit INterval* such that as work pressure increases, there is an increases the time between appointments or the *Return to Clinic Visit Interval*.  
+     
+      + As the *Return to Visit Interval* increases the *Booking Rate* decreases, you can tell this by the negative sign at the end of the light blue arrow leading from RVI to Booking Rate. Thus, the balancing loop is *Appointment Backlog Extends Return Visit Interval* is complete.  
 
 **MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery
 

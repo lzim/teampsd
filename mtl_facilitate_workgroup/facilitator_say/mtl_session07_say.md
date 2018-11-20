@@ -46,30 +46,34 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 1.	Log in to the team world and join the current session.
 
-2.	Enter your question about the Base Case. ( Our Question. Briefly describe what your team wants to learn from this experiment.)
+2.	Enter your question about the Base Case in the *Our Question* text box. Here you'll briefly describe what your team wants to learn from this experiment.
 
-   +  Care Coordination (CC) Base Case - Question: What happens to our new patient wait times and our number of patients in care coordination if we make no new decisions?  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+
+   +  **Care Coordination (CC)**: What happens to our new patient wait times and our number of patients in care coordination if we make no new decisions?  
    
-   +  Medication Management (MM) Base Case - Question: What does medication management look like in our team if we make no new decisions?  
+   +  **Medication Management (MM)**: What does medication management look like in our team if we make no new decisions?  
 
-   + Psychotherapy (PSY) Base Case - Question: What would happen over the next two years if we made no new decisions in our team? How many patients are current receiving an evidence-based dose of PSY by our team? Is there a way to increase the number of PSY patients who complete and graduate without compromising new patient wait times?
+   + **Psychotherapy (PSY)**: What would happen over the next two years if we made no new decisions in our team? How many patients are current receiving an evidence-based dose of PSY by our team? Is there a way to increase the number of PSY patients who complete and graduate without compromising new patient wait times?
 
-   + Aggregate (AGG) Base Case - Question: What would happen if we made no new decisions in our team?  
+   + **Aggregate (AGG)**: What would happen if we made no new decisions in our team?  
 
-   + Measurement-based Stepped Care for Suicide Prevention (SP) - Question: What if we made no new decisions in our team?
+   + **Measurement-based Stepped Care for Suicide Prevention (SP)**: What if we made no new decisions in our team?
 
 
-3.	Enter your hypothesis about the Base Case run results. (Our Hypothesis. Outline the systems story your team believes will cause the outcomes your team expects to observe.)
+3.	Enter your hypothesis about the Base Case run results in the *Our Hypothesis* text box.  
 
-   +  CC Base Case - Hypothesis: If we make no new decisions then patients will start accumulating in "the waiting room" for care coordination. But then it will swing back the other way, and at some point the wait time will become steady at about the level it is now. This is because of the balancing that happens between using appointments for new and existing patients. The number of patients in care coordination will stay constant.  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
+
+   + **CC**: If we make no new decisions then patients will start accumulating in "the waiting room" for care coordination. But then it will swing back the other way, and at some point the wait time will become steady at about the level it is now. This is because of the balancing that happens between using appointments for new and existing patients. The number of patients in care coordination will stay constant.  
    
-   +  MM Base Case - Hypothesis: If we make no new decisions then we will rwho need eeach the same proportion of our patients with medication assisted therapy for OUD.  
+   + **MM**: If we make no new decisions then we will rwho need eeach the same proportion of our patients with medication assisted therapy for OUD.  
    
-   + PSY Base Case - Hypothesis: We expect that we will continue to see fewer Psy and EBPsy patients than we want because we aren't graduating our psychotherapy patients. We hypothesis that the number of patients receiving an evidence-based dose of PSY is currently low, taking into consideration that Completers who Graduate is about 4% and that Initiators who Complete is just 37%.  
+   + **PSY**: We expect that we will continue to see fewer Psy and EBPsy patients than we want because we aren't graduating our psychotherapy patients. We hypothesis that the number of patients receiving an evidence-based dose of PSY is currently low, taking into consideration that Completers who Graduate is about 4% and that Initiators who Complete is just 37%.  
 
-   + AGG Base Case - Hypothesis: That patients will continue accumulate waiting for care.  
+   + **AGG**: That patients will continue accumulate waiting for care.  
 
-   + SP Base Case - Hypothesis: If we make no new decisions, then we expect to see no changes in care quality, performance, or wait times in all three settings – all the current historical averages for patients in care, step down rates, etc. will hold for the next two years.
+   + **SP**: If we make no new decisions, then we expect to see no changes in care quality, performance, or wait times in all three settings – all the current historical averages for patients in care, step down rates, etc. will hold for the next two years.
 
 4.	To run the Base Case, let’s first make sure that all the Experiment sliders are indeed set for the Base Case. When you look in the Experiments section, you should see that the box next to each slider says either zero or bc. If it says bc, it means the value the model will run is the number from the Team Data Table. A few sliders have a different setting. If you see an On/Off switch, it will start at Off by default. If you see a purple Sensitivity slider, it will start at a default value of 1. And if there’s a Team Data vs Balanced switch, Balanced will be the default setting.  
 
@@ -80,42 +84,51 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 7.	This opens the Expanded Outputs section, which now shows all the Text boxes and a larger Results Dashboard where you can see several charts at once, and a Control Panel on the left that we’ll get to next time.  
 
 8.	Before we go further, it’s a good time to go ahead and Save this run.  
+
   + Saving without Resetting will capture the text that we’ve written in the boxes and the settings and results of our run. We’ll still be able to enter more text to finish our consideration of this test as long as we don’t re-set the sim. 
+  
   + So, click on *Save* at the top and then click *Yes*. This warning is just a reminder of how important it is to record your thinking in the Text boxes so your learning from what you’ve done doesn’t evaporate. 
 
 9.	The Save menu helps you enter a name for each run based on what sliders you moved. In this case, it’s the Base Case, so on the Variable drop-down menu just select Base Case and click *Add*.  
+
   + You’ll see “bc” entered in the Experiment Name field and now you can click *Save* again in the top right.  
+  
   + **Caution**: Only choose the *Save and Reset* button at the bottom when you’re finished recording all you need to in the Text section. Or you can choose *Discard* if you weren’t ready to save or name the run.  
 
 10.	Now let’s look at the Results. Notice that each chart has a title below it and a drop-down menu. You have a wide selection of variables to choose from to look at results. The units are shown inside the chart at the top left – usually Weeks, Patients, Appointments, or a Percent, or a rate like Patients per Week.
 
 11.	The axes adjust dynamically – so even if the units of two side-by-side charts are the same, you have to check the scale before comparing them empirically.
 
-12.	What do you notice about the results? Do they match your hypothesis? Compare the values you see in the charts with the Team Data Table values.
+12.	What do you notice about the results? Do they match your hypothesis? Compare the values you see in the charts with the Team Data Table values.  
 
-13.	Describe what you see in the *Findings* textbox, and explain why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)  
+13.	Describe what you see in the *Our Findings* textbox, and explain why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)  
 
-   +  CC Base Case - Findings: Wait Time increases rapidly; but then it drops back down, oscillating back and forth until it ultimately levels out after about a year.  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
+
+   + **CC**: Wait Time increases rapidly; but then it drops back down, oscillating back and forth until it ultimately levels out after about a year.  
    
-   +  MM Base Case - Findings: We can see our Return-to-clinic Visit Interval (RVI) in the base case is the same for all patient needs, but we'd like to better meet more specific needs of patients vidence-based pharmacotherapy (EBPharm).  
+   + **MM**: We can see our Return-to-clinic Visit Interval (RVI) in the base case is the same for all patient needs, but we'd like to better meet more specific needs of patients vidence-based pharmacotherapy (EBPharm).  
 
-   +  PSY Base Case - Findings: Based on the Sankey diagram, we understand that out of N=371 patients who have one PSY visit, n=289 are Initiators. Of these, only n=107 are Completers, and of Completers, on n=4 graduate after having an evidence-based dose of PSY (about 8 sessions).
+   + **PSY**: Based on the Sankey diagram, we understand that out of N=371 patients who have one PSY visit, n=289 are Initiators. Of these, only n=107 are Completers, and of Completers, on n=4 graduate after having an evidence-based dose of PSY (about 8 sessions).
    
-   +  AGG Base Case - Findings: We need to run an experiment that accounts for the loss of two providers.  
+   + **AGG**: We need to run an experiment that accounts for the loss of two providers.  
 
-   +  SP Base Case - Findings: Since the teams in the simulation experience no external shocks, the historical rates all continue for the next two years.
+   + **SP**: Since the teams in the simulation experience no external shocks, the historical rates all continue for the next two years.
 
-14.	What do you want to do next? Record your next steps in the Decisions textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?)  
 
-   +  CC Base Case - Decisions: Next time we will experiment with adjusting our appointment supply to reduce New Patient Wait Times.  
+14.	What do you want to do next? Record your next steps in the *Our Decisions* textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?) 
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
+
+   + **CC**: Next time we will experiment with adjusting our appointment supply to reduce New Patient Wait Times.  
    
-   +  MM Base Case - Decisions: Next time we will experiment with increasing our referrals to OUD EBPharm.
+   + **MM**: Next time we will experiment with increasing our referrals to OUD EBPharm.
    
-   +  PSY Base Case - Decisions: We can do much better. We can start by trying to increase the percentage of Completers who graduate, from 3.77% to as high as 75%.  
+   + **PSY**: We can do much better. We can start by trying to increase the percentage of Completers who graduate, from 3.77% to as high as 75%.  
 
-   +  AGG Base Case - Decisions: We saw oscillating system behavior.
+   + **AGG**: We saw oscillating system behavior.
    
-   +  SP Base Case - Decisions: We should try implementing measurement-based care, and see what the positive unexpected impacts will be.
+   + **SP**: We should try implementing measurement-based care, and see what the positive unexpected impacts will be.
 
 15.	Save and Reset when you’re ready.  
 

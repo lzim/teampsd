@@ -146,10 +146,10 @@ Our team would like to use the medication management module to explore how we co
   + D - Next time we will experiment with increasing our referrals to OUD EBPharm.
   
 **Experiment 1 - Session 8:**
-  + Q - Can we serve 4 new patients with OUD each week? -- no  :(
-  + H - If our referral rate for OUD is 2 pts per month (0.5 per week), and we allocate 40% of our x-waiver slots to OUD treatment, and 40% to Other Needs, and we change our RVI for depression to 12 weeks, and the RVI for OUD to 4 weeks (in line with our quality standards), then we will serve more OUD patients with our existing team staff, without increasing the wait time for new depression patients.
-  + F - We met our goal of getting more patients into MAT for OUD! by having a more realistic referral rate, using more x-waiver provider supply, and adjusting our RVIs for depression and OUD in line with quality standards.
-  + D - I am going change how I order my return to clinics for OUD and depression; allocate ~40% of my time to OUD patients; conduct a few more experiments to refine the allocation of my time to better balance trade-offs between patient needs.
+  + Q - How could we serve more patients with specific conditions, like OUD, with our existing staffing levels?  
+  + H - We think we can increase our new patient start rate from less than one per week to about 5 per week for OUD if we allocate 50% of our x-waiver providers' appointments to OUD. We're going to "take" the extra percentage of the time for OUD appointments from their allocation to *Other* diagnoses, so we'll probably see a drop in patients seen for *Other* diagnoses.  
+  + F - We found that if we allocate 50% of our x-waiver provider appointments to OUD, in the long run instead of only starting ½ patient per week (1 every other week), we can start 3 patients in OUD per week. But dropping the appointment supply for our *Other* patients meant we could not start any of them in care for a while until some existing patients completed and moved on. A backlog built up, which caused referrals to slow. When we were eventually able to start *Other* patients, the backlog dropped so referrals picked up again, and we established a new steady state with about 15 *Other* diagnosis patients waiting to start and about 170 in care.  
+  + D - Although we were glad to see that we could care for more OUD patients with our available staffing, we are concerned that if all we do is shift several of our Other appointments to OUD, we won't be able to help as many Other patients. We decided to experiment with Return to Clinic Visit Intervals as a possible alternate solution.
 
 **Experiment 2 - Session 9:** 			
   + Q - how do we best allocate our x waiver appointments to serve 4 new OUD patients per week?
