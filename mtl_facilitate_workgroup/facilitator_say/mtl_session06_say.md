@@ -68,7 +68,7 @@ Answer: Each *Modeling to Learn* module examines the flows of *Appointments* and
 
 **Question 2: Over what time frame does an experiment run?**  
 
-Answer: You can find the time frame in the **Experiment Timeline section up at the top of the model diagram section**. Experiments simulate the plausible future out **two years from today**.  
+Answer: You can find the time frame in the **Experiment Timeline** section up at the top of the model diagram section. Experiments simulate the plausible future out **two years from today**.  
 
 **Question 3: What happens in the diagram when you *Reveal Complexity*?**  
 
@@ -88,62 +88,61 @@ Answer: Options to Reveal Complexity are found under the *Experiment Timeline* i
      **For SP:** How is the variable *General Mental Health or GHM Care Quality* described?  
 
    + Variables with answers for each module:  
-    ++ CC - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
-    ++ MM - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
-    ++ PSY - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"    
-    ++ AGG - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"    
-    ++ SP - General Mental Health Care Quality - If you scroll down a bit on the left of the screen, you see *General Mental Health or GMH Care Quality*. When you click on this variable, you see, "Quality care has many dimensions, but in the *MTL* Suicide Prevention module we are mainly concerned with ow quality impacts the time it takes patients' symptoms to improve..."  
+     + CC - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"    
+     + MM - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
+     + PSY - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
+     + AGG - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
+     + SP - General Mental Health Care Quality - If you scroll down a bit on the left of the screen, you see *General Mental Health or GMH Care Quality*. When you click on this variable, you see, "Quality care has many dimensions, but in the *MTL* Suicide Prevention module we are mainly concerned with ow quality impacts the time it takes patients' symptoms to improve..."  
 
 **Question 5: What are the units of time in mtl.how/sim?**  
 
-Answer: It's weeks! We did a lot of work in the field with clinicians to figure out what the appropriate units of time would be for *MTL*. Weeks was the unit of time that seemed the most logical for clinicians. The units are also in the "i* boxes.
+Answer: It's weeks! We did a lot of work in the field with clinicians to figure out what the appropriate units of time would be for *MTL*. Weeks was the unit of time that seemed the most logical for clinicians. The units are also in the "i* boxes.  
 
 
 ### C.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
 
  + Let's do a quick orientation to the model diagram.  
  
-   ++ The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. A "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the variables is held constant, the others will fluctuate up and down.  
+     + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. A "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the variables is held constant, the others will fluctuate up and down.  
    
-   ++ In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
+     + In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
    
-   ++ On the model diagram, you see plus and minus signs next to the blue lines. **Use Thumbs to demonstrate +/- concept**:  
-      +++ If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
-      +++ If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
+     + On the model diagram, you see plus and minus signs next to the blue lines. **Use Thumbs to demonstrate +/- concept**:  
+           + If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
+           + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
   **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals
   
  + We'll reveal the "Wait Time Affects Referrals" detail in the Care Coordination or CC model diagram. Then, scroll down to the lower left of the model diagram to see what has been revealed.
-    ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+     + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
     
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* CC and *Target Wait Times* for patients. 
  
  + For this activity of telling a systems story, we are concerned patients are having to wait longer than we would like to start Care Coordination.  
 
  +  So, we'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case CC. 
-   ++ As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.
-   ++ Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals* which decreases the *Referral Rate* so referrals to CC begin to slow down. 
-   ++ Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first CC appointment.  
+     + As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.  
+     + Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals* which decreases the *Referral Rate* so referrals to CC begin to slow down.  
+     + Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first CC appointment.  
 
  + In addition to running experiments around our Target Wait Time, this loop shows that we can also experiment with team decisions about Referral Rate. 
-   ++ We can ask questions like, "If the Referral Rate to CC goes up by some percentage because we've started graduating patients more quickly from other services - but our Starting Rate in CC stays the same because we don't have any extra appointment slots for new patients - what will become the 'new normal' for New Patient Wait Times in CC?"
+     + We can ask questions like, "If the Referral Rate to CC goes up by some percentage because we've started graduating patients more quickly from other services - but our Starting Rate in CC stays the same because we don't have any extra appointment slots for new patients - what will become the 'new normal' for New Patient Wait Times in CC?"
 
 **MEDICATION MANAGEMENT SYSTEMS STORY** 
 
  + We'll reveal the "Wait Time Affects Referrals" detail in the Medication Management or MM model diagram. Then, scroll down to the lower left of the model diagram to see what has been revealed.
-    ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+     + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
     
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* MM and *Target Wait Times* for patients. 
 
  +  We hear a lot of clinicians say that good, ethical treatment is if you start a patient on medication assistance, the patient should come in for a monthly evaluation. If a clinician isn't sure they can get a patient in for a monthly appointment, then they may decide not to start the patient on the service. For this activity of telling a systems story in the Med Management module, we would like to explore how our team can serve more patients with specific conditions, like Opioid Use Disorder (OUD), with our existing staffing levels.
 
- + We'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case MM. 
-   ++ As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.
-   ++ Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals*. The *Effect of Wait Time on Referrals* is the difference between the *New Patient **Actual** Wait Time* and the team's desired or *Target Wait Time*.
-   ++ In the Med Management module, we can adjust target wait times for different diagnostic patients. The "stacked" red boxes labeled *Target Wait Time* indicates you can change the target wait time by adjusting the red sliders read in from your team data for patients with Alcohol Use Disorder, Opioid Use Disorder, Depression and Other conditions.   
-   ++ The effect of an increasing wait time on referrals, which has a negative sign, means a decrease to the *Referral Rate* so referrals to MM begin to slow down. 
-   ++ Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first MM appointment.  
-
+ + We'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case MM.  
+     + As the patients *Waiting to Start* increases, the average *New Patient Wait Time* starts to climb. Note the plus sign from *Waiting to Start* to *New Patient Wait Time* which indicates they will move in the same direction. So, if the patients *Waiting to Start* decreases, the *New Patient Wait Time* will decrease also.  
+     + Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals*. The *Effect of Wait Time on Referrals* is the difference between the *New Patient **Actual** Wait Time* and the team's desired or *Target Wait Time*.  
+     + In the Med Management module, we can adjust target wait times for different diagnostic patients. The "stacked" red boxes labeled *Target Wait Time* indicates you can change the target wait time by adjusting the red sliders read in from your team data for patients with Alcohol Use Disorder, Opioid Use Disorder, Depression and Other conditions.  
+     + The effect of an increasing wait time on referrals, which has a negative sign, means a decrease to the *Referral Rate* so referrals to MM begin to slow down.  
+     + Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first MM appointment.  
 
 
 **PSYCHOTHERAPY SYSTEMS STORY** - Balancing Existing and New Patients; Engagement After 3 Months
@@ -151,7 +150,7 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
  + The Psychotherapy or PSY module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.  
 
  + We'll reveal the "Balancing Patients" detail in the PSY model diagram.  
-    ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+     + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
  
  +  For this activity of telling a systems story, we want patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.  
  
@@ -159,12 +158,12 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
  
  + So, starting on the left side of the screen in the blue box. We can see that as the *Starting Rate* for PSY increases, it increases the Booking Rate. Remember, we follow the blue line upward to *Booking Rate* and there is a plus *+* sign which means the Starting Rate and Booking Rate move in the same direction. As the *Booking Rate* increases, this increases the appointments on the books for PSY [use mounse to show booking rate to appointments in PSY].  
   
-  + As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. So, as the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients.  As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.  
+ + As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. So, as the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients.  As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.  
 
 **AGGREGATE MIX OF SERVICES SYSTEMS STORY** 
 
- + Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the our team's appointments and patients data for each service. 
-    ++ Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
+ + Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the our team's appointments and patients data for each service.  
+     + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
 
  + Let's show the "RVI and Wait Times" under *Reveal Complexity* in the AGG model.  
  
