@@ -56,7 +56,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + **Psychotherapy (PSY)**: What would happen over the next two years if we made no new decisions in our team? How many patients are current receiving an evidence-based dose of PSY by our team? Is there a way to increase the number of PSY patients who complete and graduate without compromising new patient wait times?
 
-   + **Aggregate (AGG)**: We may lose staff in the near future. To prepare to manage this situation, we want to understand how well we are managing our current patient needs across services. What would happen if we made no new decisions or changes in our team?  
+   + **Aggregate (AGG)**: We may lose staff in the near future. To prepare to manage this situation, we want to understand how well we are managing our current patient needs across services at our current staffing levels. We want to know what would happen if we made no new decisions or changes in our team?  
 
    + **Measurement-based Stepped Care for Suicide Prevention (SP)**: What if we made no new decisions in our team?
 
@@ -71,7 +71,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
    
    + **PSY**: We expect that we will continue to see fewer Psy and EBPsy patients than we want because we aren't graduating our psychotherapy patients. We hypothesis that the number of patients receiving an evidence-based dose of PSY is currently low, taking into consideration that Completers who Graduate is about 4% and that Initiators who Complete is just 37%.  
 
-   + **AGG**: Based on our team data, we expect to see that patients will continue to accumulate while waiting for care.
+   + **AGG**: Based on our team data, we expect to see that the majority of our patients will continue to receive MM. By far our MM and PSY patients have the longest engagement time and account for more than 40% of our services. Patients will continue to accumulate while waiting for care.
 
    + **SP**: If we make no new decisions, then we expect to see no changes in care quality, performance, or wait times in all three settings – all the current historical averages for patients in care, step down rates, etc. will hold for the next two years.
 
@@ -111,7 +111,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + **PSY**: Based on the Sankey diagram, we understand that out of N=371 patients who have one PSY visit, n=289 are Initiators. Of these, only n=107 are Completers, and of Completers, on n=4 graduate after having an evidence-based dose of PSY (about 8 sessions).
    
-   + **AGG**: Using the compare services features, our hypothesis is supported. Our baseline shows that we have more than 1000 MM patients in service, followed by PSY (about 300 patients), CC (about 260 patients), followed by ADJ (about 175 patients). Interestingly, patients receiving group services drops to about 100 patients at about 1.5 years into the simulation run.
+   + **AGG**: Using the compare services features, our hypothesis is supported. Our baseline shows that we have more than 1000 MM patients in service, followed by PSY (about 300 patients), CC (about 260 patients), and by Adjunct (about 175 patients). Interestingly, patients receiving group services drops to about 100 patients at about 1.5 years into the experiment.
 
    + **SP**: Since the teams in the simulation experience no external shocks, the historical rates all continue for the next two years.
 
@@ -126,7 +126,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
    
    + **PSY**: We can do much better. We can start by trying to increase the percentage of Completers who graduate, from 3.77% to as high as 75%.  
 
-   + **AGG**: Ideally, we would like to reduce the median engagement time for MM and PSY, as patients are receiving treatment time that is longer than recommended for PSY and the return visit interval time is long (17 weeks). We would like to see an engagement time of about 12 to 14 weeks for PSY. However, given the short term expected staffing change, we need to run an experiment that accounts for the loss of two providers.
+   + **AGG**: Ideally, we would like to reduce the median engagement time for MM and PSY, as patients are receiving treatment time that is longer than recommended for PSY and the return visit interval time is long (17 weeks). However, given the short term expected staffing change, we need to run an experiment that accounts for the loss of two providers.
    
    + **SP**: We should try implementing measurement-based care, and see what the positive unexpected impacts will be.
 
