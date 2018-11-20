@@ -223,6 +223,8 @@ Our team is going to be losing two staff members in the near future. Since the a
 
 **Systems Story:**
 
+This module shows the interactions between all services offered by your team. It allows you to explore the impacts of how you allocate time across services and change within team referrals after patient review. It is also possible to experiment with your team's willingness to use overtime as a solution to a large backlog of appointments, and how sensitive your team's morale, quality of care provided and burnout are to working long hours.
+
 *Complexity and Feedback Loops*
 - Supply Affects Patient Services
 - Effects of Overtime
