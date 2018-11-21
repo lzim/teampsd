@@ -58,7 +58,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + **Aggregate (AGG)**: We may lose staff in the near future. To prepare to manage this situation, we want to understand how well we are managing our current patient needs across services at our current staffing levels. We want to know what would happen if we made no new decisions or changes in our team?  
 
-   + **Measurement-based Stepped Care for Suicide Prevention (SP)**: What if we made no new decisions in our team?
+   + **Measurement-based Stepped Care for Suicide Prevention (SP)**: What happens to our high-symptom patient population if we made no new decisions in our team? 
 
 
 3.	Enter your hypothesis about the Base Case run results in the *Our Hypothesis* text box.  
@@ -73,7 +73,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + **AGG**: Based on our team data, we expect to see that the majority of our patients will continue to receive MM. By far our MM and PSY patients have the longest engagement time and account for more than 40% of our services. Patients will continue to accumulate while waiting for care.
 
-   + **SP**: If we make no new decisions, then we expect to see no changes in care quality, performance, or wait times in all three settings – all the current historical averages for patients in care, step down rates, etc. will hold for the next two years.
+   + **SP**: If we make no new decisions, then we expect to see no changes in care quality, performance, or wait times in all three settings – all the current historical averages for patients in care, step down rates, etc. will hold for the next two years.  Patient risk will not improve.
 
 4.	To run the Base Case, let’s first make sure that all the Experiment sliders are indeed set for the Base Case. When you look in the Experiments section, you should see that the box next to each slider says either zero or bc. If it says bc, it means the value the model will run is the number from the Team Data Table. A few sliders have a different setting. If you see an On/Off switch, it will start at Off by default. If you see a purple Sensitivity slider, it will start at a default value of 1. And if there’s a Team Data vs Balanced switch, Balanced will be the default setting.  
 
@@ -113,7 +113,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
    
    + **AGG**: Using the compare services features, our hypothesis is supported. Our baseline shows that we have more than 1000 MM patients in service, followed by PSY (about 300 patients), CC (about 260 patients), and by Adjunct (about 175 patients). Interestingly, patients receiving group services drops to about 100 patients at about 1.5 years into the experiment.
 
-   + **SP**: Since the teams in the simulation experience no external shocks, the historical rates all continue for the next two years.
+   + **SP**: Since the teams in the simulation experience no external shocks, the historical rates all continue for the next two years.  We will still have about 4 patients with a high risk flag, and, if we click on the plus sign in the upper right corner of the "GMH to SMH Recommend Step up Rate" box and zoom out to see how our team is working with the rest of the Mental Health contiuum, we see that we will continue to have about 57 high-symptom patients who are waiting to step up to Specialty Mental Health.  If we look over to the Team Data Table, we can see that these patients are waiting an average of 28 weeks before starting treatment there.  
 
 
 14.	What do you want to do next? Record your next steps in the *Our Decisions* textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?) 
@@ -128,7 +128,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + **AGG**: Ideally, we would like to reduce the median engagement time for MM and PSY, as patients are receiving treatment time that is longer than recommended for PSY and the return visit interval time is long (17 weeks). However, given the short term expected staffing change, we need to run an experiment that accounts for the loss of two providers.
    
-   + **SP**: We should try implementing measurement-based care, and see what the positive unexpected impacts will be.
+   + **SP**: Given the high wait times to step to other settings, we should try implementing measurement-based care in our team, to see what both the positive and unexpected impacts will be.
 
 15.	Save and Reset when you’re ready.  
 
