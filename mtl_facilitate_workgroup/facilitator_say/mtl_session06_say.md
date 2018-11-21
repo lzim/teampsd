@@ -195,18 +195,18 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
 
 **MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery
 
- + Starting with *Patient Load* (click on i text, and read), one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
+ + Starting with *Patient Load*, which is [CLICK ON ITEXT AND READ], one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
  
- + When *Care Quality* increases, the number of patients in the grey box labeled *Effect of MBC on Patient Symptoms and Risk* decreases (then users zoom into it to see how), which then decreases *Patient Load*, further increasing *Care Quality*.  
+ + When *Care Quality* increases, the number of patients in the grey box labeled *Effect of MBC on Patient Symptoms and Risk* decreases, which then decreases *Patient Load*, further increasing *Care Quality*.  Let's zoom in to this part of the diagram to see how that works by clicking on the plus sign in the upper right corner of the grey box [CLICK ON MEASUREMENT BASED CARE VIEW]. 
  
- + As *Care Quality* goes down [TOGGLE TO MEASUREMENT BASED CARE VIEW], then:  
+ + Here we see some of our same variables, including *Care Quality*, which has the same causal relationships in this view as in the previous view.  When *Care Quality* goes up, two things happen:  
       + First, high-symptom patients improve faster than before (see the arrow to “Time to Improve” which affects the number of patients each week whose symptoms improve enough to be eligible to be stepped down to a less intense level of care), and  
       + Second, patients with high risk flags improve faster than before (see the arrow to “Time to UnFlag” which affects the rate at which patients with high risk flags have those flags removed).  
 
- + This causes more patients to flow into the “low symptom” group, so more patients can both end their care and be recommended to step down to a lower level of care. [TOGGLE BACK TO STEPPED CARE VIEW]  
+ + This causes more patients to flow into the “low symptom” group, so more patients can both end their care and be recommended to step down to a lower level of care. Now, click any one of the plus signs in a grep box to zoom out to the previous view [TOGGLE BACK TO STEPPED CARE VIEW].  
  
  + As more patients leave this setting, it further reduces the total number of patients in the GMH treatment setting, thus further decreasing the patient load and increasing quality. When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load. When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.” 
- Then we can explain the reinforcing loop "Higher Care Quality Improves Recovery" with: 
+ + We have closed the loop, or brought our chain of causation full circle, and can now explain how this reinforcing loop of "Higher Care Quality Improves Recovery" could both energize our improvement efforts, or potentially derail them.
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
