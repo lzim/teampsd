@@ -84,7 +84,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **AGG** - How can we manage the loss of two providers and still manage patient needs for PSY? What would happen if we change the PSY RVI to 2 weeks and the RVI for EB PSY to just 1 week (from 17 weeks)?
 
-**SP** - What will happen to our at-risk andhigh-symptom patient population if we implemented measurement-based care in our team?  How will this change in our team impact the other settings in Mental Health?
+**SP** - What will happen to our at-risk and high-symptom patient population if we implemented measurement-based care in our team?  How will this change in our team impact the other settings in Mental Health?
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
