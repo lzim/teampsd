@@ -79,7 +79,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
      
    + **AGG**:  For our next experiment, what would happen if we allowed an increase in sensitivity to work pressure, such that the team would be willing to work more hours than usual to make up backlogs of patients waiting to start services.
      
-   + **SP**: What happens if we implemented both measurement based care and stepped care?  
+   + **SP**: What happens to our high-risk patient populations if we implemented both measurement based care and stepped care?  
 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
@@ -98,7 +98,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
    
    + **AGG**: Given that the team will lose two staff, we agree that we are willing to work additional time, if need be. Our rebalancing of services and our commitment to reduce the RVI for PSY and EB PSY to between 1 and 2 weeks, combined with a willingness to provide a moderate about of additional over time hours will resolve any backlogs of patients waiting to start services.
    
-   + **SP**: When we increased care quality and symptom detection (via measurement-based care), we saw patient outcomes improved dramatically, but at the cost of higher wait times for GMH patients stepping down to PC. When we streamlined transitions between settings (via implementing stepped care), we saw higher start rates, but also higher wait times for patients stepping down from GMH to PC and a higher ratio of high to low symptom patients in GMH. Combining these experiments should lead to even more benefits to our patients: better outcomes, fewer patients with high risk flags, higher start rates. However, we believe we will also see even higher wait times into PC from GMH.  
+   + **SP**: When we increased care quality and symptom detection (via measurement-based care), we saw patient outcomes improve dramatically, but at the cost of higher wait times for our patients stepping down to Primary Care. When we streamlined transitions between settings (via implementing stepped care), we saw higher start rates in both settings, but again saw higher wait times for patients stepping down from our team to Primary Care and a higher ratio of high to low symptom patients in our team. Combining these experiments should lead to even more benefits to our patients: better outcomes, fewer patients with high risk flags, higher start rates. However, we believe we will also see even higher wait times for the patients that we recommend step down to Primary Care.  
    
 
 **Run Experiment 3**  
@@ -122,7 +122,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + **AGG**: Our hypothesis is supported! We see similar patterns as before, but the willingness to work a bit more over time improves all metrics, from patient start times to patient rescheduing, to actual hours available for service!
    
-   + **SP**: All predictions confirmed: we see a greater drop in the number of patients with a high risk flag, fewer high symptom patients in both PC and GMH (for GMH, almost completely counter-acting the increases coming from stepped care), and higher start rates. The number of patients in GMH is slightly, but significantly, lower than the historical average, reducing stress and increasing care quality. Wait times for most patients fall the same or more than in either previous experiments, except for patients stepping down from GMH to PC, where the wait time has increased to the highest of all our experiments - 60 weeks! Increasing quality in GMH and reducing the delays on stepping patients down to PC puts additional pressure on PC to see more MH patients – pressure that they can’t seem to accommodate.  
+   + **SP**: [CLICK OVER TO PC/PCMHI SETTING VIEW] ...start with PC... see a drop in ....  
+   + [CLICK OVER TO GMH]we see a greater drop in the number of patients with a high risk flag, fewer high symptom patients in almost completely counter-acting the increases coming from stepped care), and higher start rates. The number of patients in GMH is slightly, but significantly, lower than the historical average, reducing stress and increasing care quality. Wait times for most patients fall the same or more than in either previous experiments, except for patients stepping down from GMH to PC, where the wait time has increased to the highest of all our experiments - 60 weeks! Increasing quality in GMH and reducing the delays on stepping patients down to PC puts additional pressure on PC to see more MH patients – pressure that they can’t seem to accommodate.  All predictions confirmed!
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
 
@@ -134,7 +135,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + **AGG**: We will agree to work a moderate amount of overtime, but also to rebalance our service mix in favor of conducting more EBPSY, while not changing the proportion of any services so much that we are not meeting overall demand for CC, MM, ADJ or GROUP.
    
-   + **SP**: For either of these efforts to be truly successful, Primary Care needs to expand their capacity to see mental health patients. We will take these findings to our chief, to show how our two settings are connected, and that our well-intended actions to improve care or remove barriers between our settings could have a detrimental effect on mental health access in PC. We will propose a series of trainings to PC staff to increase their comfort taking on MH patients, and thus increase their capacity. We will conduct more experiments to try to estimate the size of the capacity increase necessary to prevent an increase in wait time.
+   + **SP**: For either of these improvement efforts to be truly successful, Primary Care needs to expand their capacity to see mental health patients. We will take these findings to our chief, to show how our two settings are connected, and that our well-intended actions to improve care or remove barriers between our settings could have a detrimental effect on mental health access in Primary Care. We will propose a series of trainings to PC staff to increase their comfort taking on mental health patients, and thus increase their capacity. We will conduct more experiments to try to estimate the size of the capacity increase necessary to prevent an increase in wait time.
 
 
 ## That's it for _Modeling to Learn_ how to use systems thinking. Next is our Done/Do review.
