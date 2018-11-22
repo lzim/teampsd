@@ -13,17 +13,17 @@ output:
 
 **Name** | **Icon**  
 --- | ---
-balancing_loop | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/balancing_loop.png">
-business_decision | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/business_decision.png">
-chat | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/chat.png">
-copy | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/copy.png">
-do | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/do.png">
-done | <img src = "https://raw.githubusercontent.comlzim/teampsd/sdp_2018_11_21/resources/icons/done.png">
+balancing_loop | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/balancing_loop.png" height = "140" width = "170">
+business_decision | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/business_decision.png" height = "140" width = "150">
+chat | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/chat.png" height = "120" width = "200">
+copy | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/copy.png" height = "140" width = "170">
+do | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/do.png" height = "140" width = "140">
+done | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/done.png" height = "130" width = "130">
 expand | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/expand.png">
 experiment_maintenance | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/experiment_maintenance.png">
 export | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/export.png">
 file_maintenance | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/file_maintenance.png">
-gravatar | <img src = "https://graw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/gravatar.png">
+gravatar | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/gravatar.png">
 gray_cloud_arrow | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/gray_cloud_arrow.png">
 green_slider | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/green_slider.png">
 home | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/home.png">
