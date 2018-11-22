@@ -13,7 +13,7 @@ output:
 
 **Name** | **Icon**  
 --- | ---
-balancing_loop | <img src = "https://github.com/lzim/teampsd/sdp_2018_11_21/resources/icons/balancing_loop.png">
+balancing_loop | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/balancing_loop.png">
 business_decision | <img src = "https://github.com/lzim/teampsd/sdp_2018_11_21/resources/icons/business_decision.png">
 chat | <img src = "https://github.com/lzim/teampsd/sdp_2018_11_21/resources/icons/chat.png">
 copy | <img src = "https://github.com/lzim/teampsd/sdp_2018_11_21/resources/icons/copy.png">
