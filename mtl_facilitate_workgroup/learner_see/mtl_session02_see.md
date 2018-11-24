@@ -76,6 +76,8 @@ output:
 - What is most important to you to check out first?
 - what is most surprising?
 
+![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)
+
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.
 - Patients who have requested restricted access to their information have asterisks *******
 - Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
