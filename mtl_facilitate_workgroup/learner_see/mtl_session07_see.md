@@ -25,10 +25,10 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section.  ![](https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/sim_ui_5.gif) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.| 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives
 
@@ -40,10 +40,11 @@ output:
 
 ## Running a Base Case
 
-1.	Login to your world and start a new run in the Aggregate module, with the team data file you’d like to use.
+1. Login to your team world at mtl.how/sim.
 
-2.	Orient yourself to the main page: Team Name; selected module; selected data file; a new system diagram, with multiple Services available to select in the Experiment Timeline box; all settings in the Experiments tile at Base Case or default values. 
+2. You can *Join Current Session* or *Start a New Session* in any module.
 
+2.	Orient yourself to the main page: Team Name; selected module; selected data file.  All settings in the Experiments tile are at Base Case or default values. 
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session7_insession_exercise_gif1.gif)
 
