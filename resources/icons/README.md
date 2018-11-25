@@ -20,9 +20,10 @@ copy | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21
 do | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/do.png" height = "140" width = "140">
 done | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/done.png" height = "130" width = "130">
 expand | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/expand.png">
-experiment_maintenance | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/experiment_maintenance.png">
+experiment_maintenance | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/experiment_maintenance.png" height = "300" width = "400">
 export | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/export.png">
-file_maintenance | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/file_maintenance.png">
+file_maintenance | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/file_maintenance.png" height "100" width = 
+200">
 gravatar | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/gravatar.png">
 gray_cloud_arrow | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/gray_cloud_arrow.png">
 green_slider | <img src = "https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/icons/green_slider.png">
