@@ -46,6 +46,8 @@ output:
 6. Note the variables that were manipulated in the two experiments.
 7. Review the findings from the two experiments in the results dashboard and the text entered for Hypothesis, Findings and Decisions.
 
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
@@ -70,4 +72,4 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran exp 3 and discussed the results using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran exp 3 and discussed the results using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)|
