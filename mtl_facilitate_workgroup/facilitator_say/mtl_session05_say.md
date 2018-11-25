@@ -43,62 +43,68 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
 # In-session Exercise (30 minutes): Log in; upload and review team data
 
-1. Check the name of your team data file in Internet Explorer. In session 3, we used our team data UI and clicked “Get Team Data Table for Sim UI” to produce our team data for simulation. Let’s now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file. The team data file for simulation is in our team folder, in the team_data_sim folder.
+1. In session 3, we used the *MTL* data UI at mtl.how/data to produce our team data file for use in simulation. We want to locate that file now because the first thing we will do when we open the SIM UI is to load that data file we created. So using Internet Explorer, go to mtl.how/data. The team data file for simulation is in the team folder named team_data_sim. 
 
-2.	Log in to the sim UI, which works best in a Chrome browser. Open a new browser window and go to mtl.how/SIM. Enter your username and password and click the green Login button. You’ll see a section with a drop-down menu that says Please select a World. Click the down-arrow to see the choices, and choose the team world. 
+2. Now, leave that browser window as it is - we'll come back to it in a minute - and open a new window for the sim UI. This works best in Chrome.
 
-3.	Orient yourself to the landing page
+3. Go to mtl.how/sim, enter your username and password, and click the green Login button. When you're asked to Select a World, click the down-arrow to open the drop-down menu and see the choices. When we're working together, we'll be in the Team world. Each team member also has their own individual world you can play in as much as you want - there's nothing you can "break" and no veterans will be harmed as you experiment virtually. But for team sessions we'll use the team world.
 
-   + At the top left is the MTL logo. That’s on every page in the sim and works as a Home button (there’s also a button labelled Home).
+4. Let's look at what's on the landing page:
 
-   + Reading across on that row you see your Team name followed by five navigation icons. I call your attention to the Logoff button. It’s best practice to always log off when you’re finished using the sim.
+   + At the top left is the *MTL* logo. That’s on every page in the sim UI, and it works as a Home button (just like the button next to it), bringing you back to this landing page.
+
+   + Reading across on that row you see your Team name followed by five navigation icons: Home, Play, Chat, Help, and Logoff. These are pretty self-explanatory, but I want to highlight the Logoff button and mention that it's always best to log off when you’re finished with a session in the sim UI. At the far right along the top is your picture (if you’ve uploaded it) and your name.
+   
+   + Below that row is the *MTL* welcome text, and under that there are 3 sections headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.
   
-   + On the right is your name and picture – if you’ve uploaded it to your profile. (Add link to instructions for setting Gravatar.)
+   + If you're not designated as TeamLead, you won't see all of these features. But everyone is designated “TeamLead” for their individual world and will see everything when you're logged in there.
   
-   + Under that row is some welcome text, followed by 3 sections with blue headers: Session, Experiment Maintenance, and Team Data Menu Maintenance. Headers with a white triangle on the right can be expanded and collapsed. 
+   + Starting in the section on the left, you see two main choices: Join the Current Session or Start a New Session. Since this is the first time we've logged in to this world, there is no “current session”. After this, there will be, and details about it will show up underneath the Join Current Session option.
   
-   + Note that users who are not designated as TeamLead will not see all of these features. We’ll describe the functionality of the different roles later. But each of you IS the “TeamLead” for your individual world, so you’ll see all of this when you log in there.
+   + Today we'll start a new session. Based on the team's needs we discussed last time, we decided to use the _________ module for our experiments in the sim UI. If we choose that, a dialog pops up to Select Team Data. Click on it, then click the down-arrow for the drop-down menu. The menu is empty. This is the Team Data Menu that's managed by the far right section on the screen, Team Data Menu Maintenance.
+
+4. Now let's go to that section and click the blue bar to expand it. There are 3 options under the blue bar: Delete, Rename, and Add. We want to Add our team data file to the menu we just saw, so we select Add. It's important to enter the filename EXACTLY as it is named in the team_data_sim folder, so the best thing is to copy and paste it in here. Go to the browser window showing the team data folder, grab the name of the team data file, and paste it into the Add or Change Filename text box. Make sure it didn’t get cut off or anything; if you need to make a correction, you can click the check-box by it and use the Rename function. We have the correct file name there, so we click Save and Voila! Our team data file will now be available for us in the Choose Team Data menu! 
+
+5. Just to finish reviewing this screen before we move on, let's click the blue bar of the middle section to expand it. As the title says, this section is for maintaining experiments we've run. We can delete, rename, or export them from here. Since we haven't run any experiments yet, this section is still empty - but it won't be for long!
+
+6. Now let’s go back to the section on the far left, choose Start a New Session in the _______ module; click Select Team Data, open the drop-down menu, and choose the data file we just uploaded. Click Get File, and then click PLAY. The very first time we use a given team data file, you may notice a short delay as the sim reads in the data. But any time after that, it should open up the sim UI Main Page immediately.
+
+6.	Now let's explore the Main Page of the SimUI:
+
+   + It has the same information and buttons across the top as on the landing page; and there's a new set of sections with blue headers. 
+
+   + The blue bar of the large section on the left names the module and team data file we selected, and in that section is the model diagram for the _________ module, with an Experiment Timeline section at the top.
+
+   + To the right of the main section are 3 blue bars labelled Outputs, Experiments, and Text. The Text section can be moved by placing the cursor over the blue bar and dragging. It can also be expanded or minimized by clicking the icons on the right side of the blue bar: the open square or the circle with an X. Expanding it opens up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Output section and selecting Expand.
+
+7. The next thing we want to do is to explore the Team Data Table, which is in the upper part of the Experiments Section. Let's move the Text over and expand Experiments.
+
+   + The data in this table come from - you guessed it, the team data file. To see how the values in this table were calculated from team data, click on the round "i" icon in the top left corner of the Team Data Table. This symbol is used throughout the sim UI to show where you can get more information.
+
+
+8. Let's review the variables in the table and their units.
+   
+CARE COORDINATION MODULE Team Data Table
+
+
+MEDICATION MANAGEMENT MODULE Team Data Table
+
+
+PSYCHOTHERAPY MODULE Team Data Table
+
+
+AGGREGATE MODULE Team Data Table
+
+
+SUICIDE PREVENTION MODULE Team Data Table
+
+
+9. Think about how the values in the table line up with how you think things really are in your team. There may be differences, for example, if things have changed a lot over the past few months. Just keep those thoughts in mind, because you can experiment with different values over the next few sessions. 
   
-   + The two right-hand sections are, as they say, for maintenance – one allows you to see, rename, and delete past experiments the team has run; the other allows you to upload, select, and remove Team Data sets that will populate the model. 
-  
-   + Go to the section on the left, and you’ll see that you have two main choices: You can Join the Current Session or Start a New Session. If there IS a “current session”, there will be information underneath that heading that shows which module (CC, MM, etc.) and which team data set is loaded for the session. Today there’s nothing there because you haven’t started a session. In future, you’ll almost always just join the current session because you’ll want to continue working with the same module and dataset.
-  
-   + Since there’s no current session, we will start a new one. Based on our discussion last time, we determined that the module that makes most sense for this team to work in first is __________. This module will let you explore your questions about __________ and ___________. So, select _______ , and you’ll see another request pop up to Select Team Data. Click on that and the down-arrow for the drop-down menu – and there is nothing there. This is the Team Data Menu that the far right section, Team Data Menu Maintenance, is referring to.
+10. Also think about what types of decisions the team has within its control that affect these variables. The variables may suggest some of the kinds of decisions front-line staff can explore for optimizing care for veterans in ways that work for staff.
 
-4.	So now let’s go to that section and expand it. We want to Add the data file that you created before, so click Add. Since you need to enter the filename EXACTLY as it is named in the data UI folder, the best thing is to copy and paste it in here. So go to your Explorer window, grab that name, and come back here to paste it into the space. Pay attention to make sure it didn’t get truncated in the translation. Click Save and Voila: It’s now there! 
 
-   + Other functions in this section are you can Sort the data file list either alphabetically or by date by clicking the column header. 
-   + You can delete a file by selecting the checkbox and hitting delete. And you can correct a file name to exactly match the one you're trying to load by selecting and Renaming it. (You can not change the name to something different or it won't bring in the data file you need anymore.)
-
-5.	Now let’s go back over to the Session section and click the Select Team Data button. Choose the data file you just uploaded and click Get File, and then click PLAY.
-
-6.	Look over the Main Page of the SimUI
-
-   + You see the same information and buttons across the top; and you see a new set of sections with blue headers. 
-
-   + The section on the left names the module and team data you selected in the header bar. It contains an Experiment Timeline section and the model diagram for the ______ module.
-
-   + On the right you see an Outputs section, an Experiments section, and a Text section.
-
-7.	The Text section is here so you can record your thinking – you questions, hypotheses, what you did, what you learned, what you decided – to keep track of it so that when you come back you can easily remember and pick up where you left off. So let’s start by jotting some notes in the first box. You might type – We loaded our team data table into the sim UI and now we’re exploring the Team Data Table. You could also type these questions that I’m going to ask you:
-
-   + Where did the data in this table come from?
-  
-   + What are the variables in the table?
-  
-   + What are the units for the different variables?
-  
-   + Do the values line up with how you think things really are?
-  
-   + What types of decisions does the team make that affect these variables?
-  
-8.	Now let’s discuss the questions you typed into the Text box. TeamLead, you can type the answers into the Hypothesis or Findings box depending on which you think they are. If there are questions that need to be researched further, you can type those in the Questions box.
-
-9.	Click on the “i” next to the name, Team Data Table. This opens a section with details on how the numbers in this table were calculated from the team data you selected and uploaded. There are “i” buttons throughout the sim UI to help you quickly answer your questions about meanings, calculations, units, etc.
-
-10. When you're done in the sim UI, it's always best to log off. Click Logoff at the top right, then click it again to confirm.
-
-### That's it for _Modeling to Learn_ how to log in to our team world. Next is our Done/Do review.  
+### That's it for _Modeling to Learn_ how to log in to our team world. Since we're finished with this session, we'll LOGOFF of the Sim UI. Next is our Done/Do review.  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
