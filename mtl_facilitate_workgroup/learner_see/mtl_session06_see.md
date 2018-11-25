@@ -23,12 +23,11 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section. ![](https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/sim_ui_3.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/sim_ui_4.gif| 
-
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_3.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)| 
 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives
 
@@ -52,7 +51,7 @@ output:
 3. Question 3: Describe in one sentence what happens in the model as you "Reveal Complexity?"  
 4. Question 4: What is the significance of the variables in the "red boxes?"  
 
-![](https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/sim_ui_4.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 
