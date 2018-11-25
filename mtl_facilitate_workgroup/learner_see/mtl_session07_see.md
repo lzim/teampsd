@@ -55,6 +55,8 @@ output:
 
 3.	Open the Expanded Outputs section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no changes are made and you run the simulation out to its 2-year end just using the data pulled in from your team data file. 
 
+![]https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)
+
 4.	Run; then Save (without resetting) the run with the name Base Case.
 
 5.	Review the Current Run Experiment Values in the Control Panel: shows Base Case or default values.
@@ -63,10 +65,12 @@ output:
 
 7.	What do you notice about the results? Do they match your hypothesis? Compare the values you see in the charts with the Team Data Table numbers.
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*   
+
 8.	Record your Findings in the Text section.
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
+
 9.	Decide what you want to look into next. Record your Decisions in the Text section. Save and Reset when ready.
  
 
