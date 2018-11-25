@@ -26,7 +26,7 @@ output:
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. ![](https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/mtl_live.gif)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives
 
