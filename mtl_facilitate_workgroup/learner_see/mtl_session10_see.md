@@ -59,6 +59,8 @@ output:
 10. Consider running a combination experiment that incorporates the sliders manipulated in both experiments.
 11. Replace text in the Q/H/F/D boxes to reflect the team's hypotheses and expectations for the combined experiment.
 
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
 12. Save, name, and run the combined experiment.
