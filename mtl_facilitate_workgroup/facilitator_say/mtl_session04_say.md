@@ -53,17 +53,25 @@ a. Where are there areas of high consensus? What issues does the team agree abou
   
 b. What the topics where team members' perspectives are more divergent?  
 
-3. What looks like the highest priority need for your team now, and which _Modeling to Learn_ module best addresses that need?
-
-a. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:
+3. Let's think about what looks like the highest priority need for the team right now and which _Modeling to Learn_ module best addresses that need. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:
 
   •	Care Coordination (CC)  
   •	Medication Management (MM)  
   •	Psychotherapy (PSY)  
   •	Aggregrate team services (AGG)  
   •	Measurement-based stepped care for suicide prevention (SP)
+  
+ + CC shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
 
-b. *[Recap the highest priority need, recommended module, and why.]*
+ + MM enables you to experiment with how team decisions about referrals, time allocation and visit frequency impact the quality of medication management for patients. Your team can explore scenarios to balance these tradeoffs and better meet the specific needs of patients with depression, alcohol use disorder and opioid use disorder. Insights you gain can help you increase local reach of evidence-based pharmacotherapies. 
+
+ + PSY shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies. 
+
+ + AGG shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care. 
+
+ + SP shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
+
+4. *[Recap the highest priority need, recommended module, and why.]*
 
 ### That's it for _Modeling to learn_ how to prioritize team needs. Next is our Done/Do review.
 
@@ -77,17 +85,15 @@ b. *[Recap the highest priority need, recommended module, and why.]*
 
 1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
 
-2. Remember, all the _MTL_ resources can be linked to from your home base at mtl.how, if you forget the specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
+2. Remember, all the _MTL_ resources can be accesses from your home base at mtl.how if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
 
-3. Unlike the data UI, for which we used the VA's default browser, Internet Explorer, this UI works better with Chrome. We recommend you use that.
+3. Unlike the data UI, which requires us to use the VA's default browser, Internet Explorer, this UI works better with Chrome. We recommend you use that.
 
-4. The sim UI is designed for use with a variety of hardware, including large-monitor desktop computers, smaller laptop computers, notebooks, and smart phones. The view adjusts for different sizes and aspect ratios, so you may notice some slight variations in how it looks on different devices. The basic functionality is the same on all of them, though.
+4. The sim UI is designed for use with a variety of devices, from large-monitor desktops to tablets and smartphones. The view adjusts for different sizes and aspect ratios so you may notice some slight variations in how it looks, but the basic functionality is the same on all of them.
 
-5. To log in to the sim UI, you will need your username and password. The username is just your VA email address, and your password will be sent to you in the follow-up email after the session.
+5. To log in to the sim UI, you will need your username and password. Once you enter your credentials, you'll be asked to select a World, and you'll see 2 options in the drop-down menu: a team world and an individual world. We'll describe these more next time. For now you should choose the one that starts with IND for individual. Click Log In, and check out the *MTL* sim UI landing page. 
 
-6. Once you enter your username and password, you'll be asked to select a World. You will have two options, a team world and an individual world. We'll describe these more next time. If you go in before next session, you can choose either one.
-
-7. This will get you to the sim UI home page. You won't be able to go further than that yet. But feel free to study what you see on that page.
+7. You won't be able to go further than that yet, but feel free to look around at what's on that page.
 
 
 ## Until next time, thank you for *Modeling to Learn*!
