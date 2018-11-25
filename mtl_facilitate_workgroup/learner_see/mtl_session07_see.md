@@ -23,7 +23,7 @@ output:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section.  ![](https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/sim_ui_5.gif) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.| 
 
@@ -41,12 +41,13 @@ output:
 ## Running a Base Case
 
 1. Login to your team world at mtl.how/sim.
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
 
 2. You can *Join Current Session* or *Start a New Session* in any module.
 
 2.	Orient yourself to the main page: Team Name; selected module; selected data file.  All settings in the Experiments tile are at Base Case or default values. 
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session7_insession_exercise_gif1.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_2.gif)
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
@@ -60,19 +61,17 @@ output:
 
 6.	Orient yourself to the charts in the Results Dashboard (axes, units, legend, drop-down menu options).
 
-7.	Switch the output view from the default, Compare Experiments, to Compare Services in the Control Panel. 
-
-8.	What do you notice about the results? Do they match your hypothesis? Compare the values you see in the charts with the Team Data Table numbers.
+7.	What do you notice about the results? Do they match your hypothesis? Compare the values you see in the charts with the Team Data Table numbers.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
-9.	Record your Findings in the Text section.
+8.	Record your Findings in the Text section.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
-10.	Decide what you want to look into next. Record your Decisions in the Text section. Save and Reset when ready.
+9.	Decide what you want to look into next. Record your Decisions in the Text section. Save and Reset when ready.
  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. |
