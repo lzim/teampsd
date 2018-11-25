@@ -57,7 +57,7 @@ output:
 
 * MTL learners will form pairs.  
 * Starting Point: Main model section with no complexity revealed.  
-*Tip for the learner* – if your computer screen is expanded you may not be able to see the whole model all at once. If you click on the layered boxes in the upper right of your screen, it will enable you to see the whole model at once.  
+*Tip for the learner* – if your computer screen is expanded you may not be able to see the whole model all at once. If you click on expand screen button for your browser to full screen view, it will enable you to see the whole model at once.  
 
 * With your partner, imagine a veteran in care. Together, review the system story and complete four tasks:  
 1. Document: As you talk through the model, document (make notes) where you have questions or are unsure about the relationships you are seeing in the model.
