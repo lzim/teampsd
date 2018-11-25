@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. |  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)|  
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -61,13 +61,12 @@ output:
 - Follow the instructions in **Box A2.** 
 - After filtering, you can double-click on clinics to add them to column A or you can highlight the clincis and click the gray "add all" button to add them to column A. 
 
-#### 5. To view your team patient data and your team trends. You click on "Get-Patient-level Data." We will not do this in-session today.
+### 5. To view your team patient data and your team trends. You click on "Get-Patient-level Data." We will not do this in-session today.
 - **You have already fresh data UI file to work with already in your team data folder.** 
 - We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your today.
-
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)
 
@@ -76,6 +75,8 @@ output:
 - What stands out to you?
 - What is most important to you to check out first?
 - what is most surprising?
+
+![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)
 
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.
 - Patients who have requested restricted access to their information have asterisks *******
@@ -91,7 +92,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| 
 
 
 
