@@ -115,39 +115,38 @@ b. We'll hold this vision up as a reminder of our shared goals to orient our lea
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | Select a team lead and email Team PSD to set up our standing team meeting time. | 
 
-### Considerations for selecting a team lead.
+## DO Demo
 
-#### Role of Team Lead
+1. We will help the team decide on a Team Lead and standing meeting time over the next week or two. The role of the Team Lead is to:
 
-1. Main point of contact between the team and *Modeling to Learn* facilitators for scheduling MTL-related team meetings. 
+ + be the main point of contact between the team and *Modeling to Learn* facilitators;
+
+ + help with scheduling MTL-related team meetings;
   
-2. Develops facility with the *MTL* resources to be able to help team members trouble-shoot - especially the ones used most frequently: mtl.how/live (for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface)   
-3. Provides leadership during MTL sessions, encouraging team participation in discussions and serving as computer simulation lead under the facilitators' guidance  
+ + become familiar with *MTL* resources and help team members trouble-shoot - mainly mtl.how/live (Adobe Connect, used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
 
-#### Characteristics of Team Lead  
+ + provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under facilitators' guidance.  
 
-1.	Strong relationships with fellow clinic team members  
+2. Ideal characteristics of the Team Lead include
 
-2.	Organized  
+ + Having strong relationships with fellow clinic team members;
 
-3.	Basic computer knowledge, Excel experience helpful  
+ + Being organized;
 
-4.	Attention to detail  
+ + Having basic computer knowledge (some Excel experience is good);
 
-5.	Committed to process improvement and use of data to improve care  
+ + Attention to detail; and
 
-### Considerations for choosing a standing meeting time
+ + Committment to process improvement and the use of data to improve care.
 
-1. Central location vs. geographically dispersed  
+3. Some considerations for choosing a standing meeting time are
 
-2. Clinic schedule and clinician availability
+ + Whether the team works at a central location or is geographically dispersed; 
+ 
+ + Clinic schedules; and
+ 
+ + Clinicians' availability.
 
-### Whom to notify of these decisions and by when
-
-1. Who will be the point person for the team until the Team Lead is decided?
-
-2. You should decide on your Team Lead by _ and they should then work with the Team and Facilitators to nail down a standing meeting time by _ . 
-
-3. Once set, all the team members will receive a pre-session email the week of the upcoming session and a post-session email the week after each session from the _Modeling to Learn_ staff, with Done and Do reminders and links to the necessary resources. 
+4. All team members will receive a post-session email the week after each session from the _Modeling to Learn_ staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
 ## Until next time, thank you for _Modeling to Learn_!
