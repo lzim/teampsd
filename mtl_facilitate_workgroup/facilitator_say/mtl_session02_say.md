@@ -137,7 +137,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 2. Open the team data in Excel. 
 
-3. Review theindividual tabs to find an individual patient and a team trend. Look through the different tabs:
+3. Review the individual tabs to find an individual patient and a team trend. Look through the different tabs:
  + Health Factors (HF)  
  + Diagnostic (Diag)  
  + Encounters (Enc), and   
