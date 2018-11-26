@@ -133,7 +133,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### DO demo
 
-1. We encourage you to look around inyour team data before next time.  
+1. We encourage you to look around in your team data before next time.  
 
 2. Open the team data in Excel. 
 
