@@ -59,19 +59,19 @@ TOUR THE DATA UI
       
    + The next resource is the sim UI at mtl.how/sim. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.  
 
-         + In Care Coordination (CC), we can compare multiple experiments and look at things like how Overwork Affects No-Shows and how we Balance New and Existing Patients.
+       + In Care Coordination (CC), we can compare multiple experiments and look at things like how Overwork Affects No-Shows and how we Balance New and Existing Patients.
 
-         + In Medication Management (MM) we can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for our providers with and without x-waivers.
+       + In Medication Management (MM) we can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for our providers with and without x-waivers.
 
-         + In Psychotherapy (PSY), we can look at the engagement patterns of patients with different diagnoses; and a unique feature in this module is the Sankey diagram in the Outputs section, which shows the flows of different patient engagement patterns and appointment usage.
+       + In Psychotherapy (PSY), we can look at the engagement patterns of patients with different diagnoses; and a unique feature in this module is the Sankey diagram in the Outputs section, which shows the flows of different patient engagement patterns and appointment usage.
 
-         + In the Aggregate (AGG) module, we can test hypotheses about our mix of services. The unique feature here is that in Outputs, we can choose to compare different experiments, as we do in all the modules; or we can compare the effects of a given experiment across the different services. 
+       + In the Aggregate (AGG) module, we can test hypotheses about our mix of services. The unique feature here is that in Outputs, we can choose to compare different experiments, as we do in all the modules; or we can compare the effects of a given experiment across the different services. 
 
-         + Finally, the Measurement Based Stepped Care for Suicide Prevention module allows the team to conduct experiments in multiple views.
-
+       + Finally, the Measurement Based Stepped Care for Suicide Prevention module allows the team to conduct experiments in multiple mental health care settings, to see how decisions made in one setting impact patient care and wait times across the continuum of care.
+       
    + Another resource is the library of *MTL* videos. For sessions 5 through 10, there are recordings not just for the module your team decided to use, but for all 5. The videos are available through TMS and provide continuing education credits.
 
-   + Finally, there is a *Modeling to Learn* listserv (mtl@va.gov) that you can participate on; and questions for *MTL* staff can be emailed to mtl.help@va.gov. 
+   + Finally, there is a *Modeling to Learn* listserv (mtl.how@va.gov) that you can participate on; and questions for *MTL* staff can be emailed to mtl.help@va.gov. 
 
 3. Now let's make a plan for how the team will keep modeling to learn going forward.  
 
