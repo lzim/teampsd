@@ -72,20 +72,16 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
  
 ### DO demo
 
-1. After we complete *Modeling to Learn* next time, you can still access the *MTL* module we used and all the experiments we saved in the Team and Individual worlds. 
+1. After we complete *Modeling to Learn* next time, you can still access ALL the *MTL* resources we've used.
 
-2. You can also use any of the other 4 modules to experiment and inform future team decisions. Let's pull up each of the modules and look at some of their unique features:
+2. You can log in to the sim UI and review all the experiments we saved in the Team and Individual worlds. 
 
-+ In Care Coordination (CC), we can compare multiple experiments and look at things like how Overwork Affects No-Shows and how we Balance New and Existing Patients.
+3. You can run new experiments in the same module - or in any of the other 4 modules.
 
-+ In Medication Management (MM) we can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for our providers with and without x-waivers.
+4. You can log in to the data UI and look at all sorts of team and individual trends.
 
-+ In Psychotherapy (PSY), we can look at the engagement patterns of patients with different diagnoses; and a unique feature in this module is the Sankey diagram, which shows the patient engagement and appointment usage flows.
+5. And of course there's a plethora of materials and links at mtl.how.
 
-+ In Aggregate (AGG), we can test hypotheses about our mix of services. The unique feature here is in the Outputs section, we can choose to compare different experiments, as we've done in other modules, or we can compare the effects of a given experiment on the different services. 
-
-+ Finally, the Measurement Based Stepped Care for Suicide Prevention module allows the team to conduct experiments in multiple views.
-
-3. For next time, be thinking about possible next steps after *MTL*.
+6. For next time, as you have time, look back at those resources to refresh your memory, and be thinking about how they might be useful to you after *MTL*.
 
 ## Until then, thank you for *Modeling to Learn*!
