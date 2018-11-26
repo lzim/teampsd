@@ -54,7 +54,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
  a. Data are displayed in two forms “Viz” (trends over time) and “Data” (a sortable report).
 
-  b. Data are presented as means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
+ b. Data are presented as means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
 
   c. There are team data produced for each module of *Modeling to Learn*. Each module has its own tab in the data file:
   + Care Coordination (CC) - tab title *CCParams*
@@ -65,28 +65,28 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 3. Let's select a service for review
 
-  a. Check out the different services that are highlighted in the team data on the screen. As we review each service, we will use the mouse to highlight team data variables.
+ a. Check out the different services that are highlighted in the team data on the screen. As we review each service, we will use the mouse to highlight team data variables.
 
-  b. Find a variable that is important to your team. Look at how the variable is estimated in the table. Let’s review what data are used to customize each MTL module for your team.
+ b. Find a variable that is important to your team. Look at how the variable is estimated in the table. Let’s review what data are used to customize each MTL module for your team.
 
-- [Click on *CCParams* tab, use mouse to point to variables] 
+- [Click on *CCParams* tab, use mouse to point to variables]  
 Key variables of interest in CC may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.
 
-- [Click on *MMParams* tab, use mouse to point to variables] 
+- [Click on *MMParams* tab, use mouse to point to variables]  
 Key variables of interest in MM may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and appointment slots with an X waiver as a percentage of the total and Slots Allocation percent for those with and without an X waiver.
 
-- [Click on *PSYParams* tab, use mouse to point to variables] 
+- [Click on *PSYParams* tab, use mouse to point to variables]  
 Key variables that can be explored in PSY include median engagement duration and engagement after 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
 
-- [Click on *AggParams* tab, use mouse to point to variables] 
+- [Click on *AggParams* tab, use mouse to point to variables]  
 Key variables in AGG are median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
 
 - [Click on *SPParams* tab, use mouse to point to variables] 
 In Suicide Prevention, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
 
-  c. Where can you find even more detailed information about your team data? In each of these Params tabs, you can find more detailed information about your team data. 
+ c. Where can you find even more detailed information about your team data? In each of these Params tabs, you can find more detailed information about your team data. 
 
-d. For example, in SPParams, check out the two columns to the right of the numerical data [show with mouse], columns D and E. Let’s explore these two columns.
+ d. For example, in SPParams, check out the two columns to the right of the numerical data [show with mouse], columns D and E. Let’s explore these two columns.
 	Column D [highlight Column D] is the description or definition of the variable. 
 	Column E [highlight Column E] contains additional details about how individual patient data are extracted and used to calculate your team’s historical trends.
 
@@ -95,14 +95,13 @@ So, in SPParams, cell D2 is the definition for the patient “Start Rates.” Ce
 4. Let’s select a different tab for review, the data for the Aggregate module: [Click on AggParams tab]
 
   a.	Check out the 2 columns to the right of the numerical data, columns I and J. 
-•	Cell I1 [highlight column I] is the definition for “True Missed Appointment Percent” and 
-•	Cell J1 [highlight column J] describes how visits and appointments are categorized into each service the team provides. 
-
+    + Cell I1 [highlight column I] is the definition for “True Missed Appointment Percent” and 
+    + Cell J1 [highlight column J] describes how visits and appointments are categorized into each service the team provides. 
 
   b. Find a variable that is important to your team. How is it estimated in this table? What are its units? Here you might pause the video to further explore the “Params” tabs to find a variable of interest to your team.
 
   c. Where can you find even more detailed information about your team data?
-•	You can click on the “DataNotes” tab for a breakdown of how the patient cohort is defined, which CPT codes are used to define each service, and the patient engagement patterns in psychotherapy.
+    + You can click on the “DataNotes” tab for a breakdown of how the patient cohort is defined, which CPT codes are used to define each service, and the patient engagement patterns in psychotherapy.
 
 5. Are there any team data table values you would like to explore in the team data UI?
 
@@ -116,12 +115,14 @@ So, in SPParams, cell D2 is the definition for the patient “Start Rates.” Ce
   a. If so, what is it surprising? 
 
   b. Does the estimation definition help you to interpret the variable value?
+  
 
 7. Do you see any values in the team data that fit your expectations about high priority team needs?
 
   a. If so, what are you noticing? 
 
   b. In what ways does the team data fit with your day-to-day clinical practice in your team?
+  
 
 8. Now might be a good time to pause the video and open up your model parameters file to explore these questions.
 
