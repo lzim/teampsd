@@ -35,55 +35,55 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Learning Objectives
 
-1. Describe what your team has learned and prioritzed throughout the *MTL* 12-session program.
-2. Test how your team's plan aligns with your team's shared vision.
-3. Apply decisions that your team has prioritized to implement in the clinic.
+1. Describe the range of *MTL* resources and how to find them.
+2. Test out your questions and assumptions using systems thinking and *MTL* resources.
+3. Apply the team's plan for future *Modeling to Learn*.
 
 ### Let's get started:
 
 ## In-session Exercise (30 minutes): Graduation and post-*MTL* plan
 
-1. We completed _Modeling to Learn_! Let's review and celebrate what we've learned throughout the *Modeling to Learn* 12-session program.  
+1. We completed _Modeling to Learn_! Let's review and celebrate! Everyone will receive a *Modeling to Learn* certificate of completion. 
 
-   + We worked together to decide on ground rules for our work together, articulate a shared vision, and identify top team priorities.  
+2. In order to think about next steps, let's recap the *Modeling to Learn* resources, which will all remain available to you going forward.
 
-   + We learned how to use the _MTL_ Data UI to examine team trends over the past few years using up-to-date data from the CDW, and how to drill down to individual patients or providers.  
+   + First and foremost is mtl.how: your home base for links to everything *MTL*. Also visit mtl.how for updates about new releases and upgrades.
 
-   + We learned how to use the _MTL_ Sim UI to tell a systems story about _____ [module] in our team.  
-
-   + We learned how to run a Base Case simulation to see what would happen over the next two years if we made no new decisions.  
-
-   + We learned how to to run experiments to answer questions about the effects of various team decisions - writing down our hypothesis, moving sliders to represent a test scenario, running the simulation, comparing results against the Base Case, other experiments, and expected results, and deciding how to apply the findings in our clinic.  
-
-   + We explored our Team Need of ___ by testing what would happen if we ____ [decisions tested in exp 1, 2, 3] and we decided ____ [team decisions].  
-
-   + Finally, we honed our systems thinking skills - recognizing complexity and feedbacks in systems and understanding system behavior as trends over time.  
-
-2. How will we coordinate our efforts going forward based on our learning?  
-
-   + Some teams decide to devote a portion of a team meeting each week, month, or quarter to reviewing trends in the _MTL_ Data UI;
-   + Teams may also decide to delve further into their questions using the module they focused on in _MTL Live_; or 
-   + They might explore questions in some of the other _MTL_ Sim UI modules. 
-
-3. All of the *Modeling to Learn* resources will remain available to you, using your current log-in credentials. Go to mtl.how for updates and reminders on how to access them. You can continue to use:
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">] (http://mtl.how/data)
-   + mtl.how/data - Your Team Lead can create an updated or different dataset for use in the Sim UI at any time. And all team members can explore their own and the team's trends.  
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) 
-   + mtl.how/sim - both your individual and team worlds.  
-
-   + _MTL Video_ recordings for the 12 sessions you completed, as well as for Sessions 5 through 10 in each of the other modules, are available through TMS or (without CEU credit) for watching anytime at mtl.how/video.  
+   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">] (http://mtl.how/data)
+      
+   + Next is the data UI at mtl.how/data, which some of you might find useful individually, in addition to using it as a team resource. If things change in the team over time and you want to update your team data for the sim UI, you can do that. The Team Lead can add new datasets to the Team World - or YOU can add new ones to your Individual World - using the Team Data Menu Maintenance function on the sim UI landing page, as we did in Session 5.
    
-   + _MTL_ headquarters and facilitators are available via _____ [how will they request help?] to trouble-shoot technical issues or answer questions.  
+TOUR THE DATA UI
 
-   + And _MTL_ facilitators are happy to schedule a "booster" with the team in a few months if you would like.  
+   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) 
+      
+   + The next resource is the sim UI at mtl.how/sim. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.  
 
+         + In Care Coordination (CC), we can compare multiple experiments and look at things like how Overwork Affects No-Shows and how we Balance New and Existing Patients.
 
-4. What does the team plan to do going forward? What is the time frame and who will be the point person for this plan?
+         + In Medication Management (MM) we can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for our providers with and without x-waivers.
 
-5. Learners who finish all 12 *Modeling to Learn* sessions will receive a certificate of completion. 
+         + In Psychotherapy (PSY), we can look at the engagement patterns of patients with different diagnoses; and a unique feature in this module is the Sankey diagram in the Outputs section, which shows the flows of different patient engagement patterns and appointment usage.
 
+         + In the Aggregate (AGG) module, we can test hypotheses about our mix of services. The unique feature here is that in Outputs, we can choose to compare different experiments, as we do in all the modules; or we can compare the effects of a given experiment across the different services. 
+
+         + Finally, the Measurement Based Stepped Care for Suicide Prevention module allows the team to conduct experiments in multiple views.
+
+   + Another resource is the library of *MTL* videos. For sessions 5 through 10, there are recordings not just for the module your team decided to use, but for all 5. The videos are available through TMS and provide continuing education credits.
+
+   + Finally, there is a *Modeling to Learn* listserv (mtl@va.gov) that you can participate on; and questions for *MTL* staff can be emailed to mtl.help@va.gov. 
+
+3. Now let's make a plan for how the team will keep modeling to learn going forward.  
+
+   + How could you, as a clinician, or the team as a whole, see using these resources to continue quality improvement through team decision-making?
+   + Is there another big question you'd like to explore through simulated experiments - either in the same module or a different one?
+   + Could it be helpful to refer back the model diagram as a reminder of the systems stories it tells about decisions we make as a team?
+   + Do you want to set aside some specific times - a portion of a meeting every week, or month, or quarter, say, to further explore your data and test your hypotheses?
+   + How might you share these resources with new team members, and give them a dose of systems thinking?
+   + Are there team members who'd like to keep up their *MTL* skills and be local *MTL* champions - coaches - remind the team of MTL when a new challenge appears on the horizon?
+   + Some teams ask for a "booster" session after a few months. We're happy to facilitate that as well.
+   
+ 13. It's great if you make a concrete action plan, identify a point person, and call on us as needed.
 
 ### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review:
 
