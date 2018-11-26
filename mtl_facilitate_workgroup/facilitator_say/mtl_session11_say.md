@@ -52,7 +52,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 4. In session 4 we completed the *MTL* Menu. Looking at the results, we identified our team need and which of the 5 *MTL* modules would be best for exploring it over the next 6 sessions.
 
-5. In sessions 5 through 10 we used the sim UI to focus on our team need. Let's look at our most recent *tt* report, where we can review the questions and hypotheses of all of the experiments we ran.
+5. In sessions 5 through 10 we used the sim UI to focus on our team need. Let's look at our most recent Team Time report, where we can review the questions and hypotheses of all of the experiments we ran.
     
 6. Now let's review what we learned from those experiments, as recorded in our findings and decisions, and think about what it means for the team going forward:
    + What insights we will keep in mind as we make future team decisions?
