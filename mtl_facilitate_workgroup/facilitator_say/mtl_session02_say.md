@@ -44,28 +44,30 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## In-session Exercise (30 minutes): Patient data and team trends
 
-1. A word about *MTL* on BISL:
+1. A word about *MTL* on BISL, the VA's Business Intelligence Service Line:
 
-a. The team data is stored on the VA’s corporate data warehouse site referred to as BISL [Business Intelligence Service Line]. We will refer to this as the BISL sharepoint splash page. 
+  a. The team data is stored on the VA’s corporate data warehouse site referred to as BISL, again the Business Intelligence Service Line. We will refer to this as the BISL sharepoint splash page. 
 
-b. The information in this data file is Protected Health Information (PHI). Please save your data file back to SharePoint or places that are appropriate for PHI. If attaching a data file to an email, encrypt the file.
+  b. The information in this data file is Protected Health Information (PHI). Please save your data file back to SharePoint or places that are appropriate for PHI. If attaching a data file to an email, encrypt the file.
 
 2. To navigate to the data user interface (UI):  
 
-a.	Type mtl.how/data in your web browser. Internet Explorer works best for this resource.  
-b.	On the page titled “Select Your VISN”, click on your team’s VISN number.
-c.	On the page titled  “Select Your Facility”, click on the facility name for your team.
+  a.	Type mtl.how/data in your web browser. Internet Explorer works best for this resource.  
+
+  b.	On the page titled “Select Your VISN”, click on your team’s VISN number.
+
+  c.	On the page titled  “Select Your Facility”, click on the facility name for your team.
 
 3. Let's explore the information available in the BISL sharepoint splash page
 
-a. Once you have selected your facility name, a web access version of Excel will open on your screen.  
+  a. Once you have selected your facility name, a web access version of Excel will open on your screen.  
 
-b. First, let's see how to manipulate the view with the various scroll bars:  
+  b. First, let's see how to manipulate the view with the various scroll bars:  
      - A scroll bar on the far right lets you move up and down to see the entire data UI screen.  
      - Another bar on the right side allows you to move up and down to see a list of variables that you can include in charts.  
-     - Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns.  
+     - Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right        across columns.  
      
-c. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right:  
+  c. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right:  
       -  Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"  
       -  ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
       -  SPTransfers  - data about Suicide Prevention transfers  
@@ -81,46 +83,45 @@ c. Next let's look at the various worksheet tabs at the bottom of the Excel file
       -  PSYParams - parameters for the *MTL* Psychotherapy module
       -  AggParams - parameters for the *MTL* Aggregate module
         
-d. What are the options for filtering and sorting the data: 
+  d. What are the options for filtering and sorting the data: 
       - At present there are four tabs to use for filtering and sorting your team data.  
       - “Diag” is diagnostic data based on visits in the team clinic dataset you selected.  
       - “HF” is health factor data associated with those visits.  
       - When you filter to your clinic or division, you will see trends for the last two years.  
 
 4. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your team data ui in Excel.
-a. Click on Control tab
-b. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you.
-c. Click "Get Clinic List" and it will pull in clinics for your facility.
+  a. Click on Control tab.  
+  b. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you. 
+  c. Click "Get Clinic List" and it will pull in clinics for your facility.
 
 5. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
-a. You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
-b. Or, if your team as designated provider clinics, you can select by provider name.
-c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.
-d. Follow the instructions in **Box A2.** 
-e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A. 
+  a. You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
+  b. Or, if your team as designated provider clinics, you can select by provider name.
+  c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.
+  d. Follow the instructions in **Box A2.** 
+  e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A. 
 
 6. We won't do this in today's session, but to view your individual patient data and trends, you will click on "Get-Patient-level Data."
-a. **When working with a team live, we will have already pulled a fresh data file to work with in a team's data folder.** 
-b. We will learn about the "Create Team Data Table for Sim UI" button in our next session.
+  a. **When working with a team live, we will have already pulled a fresh data file to work with in a team's data folder.** 
+  b. We will learn about the "Create Team Data Table for Sim UI" button in our next session.
 
 7. Note that it takes some time to run a query from the data UI to the VA Corporate Data Warehouse. 
-a. Depending on the size of your team, it might take 15 minutes or so for the data UI to pull in a fresh set of team data, and Microsoft Excel will be unresponsive until it's finished this process.
+  a. Depending on the size of your team, it might take 15 minutes or so for the data UI to pull in a fresh set of team data, and Microsoft Excel will be unresponsive until it's finished this process.
 
 8. Click to view the "viz" tabs, which show team trends.
-a. There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
-b. *NOTE: Do we need to create sample chart for video*
-c. What stands out to you?
-d. What is most important to you to check out first?
-e. what is most surprising?
+  a. There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
+  b. What stands out to you?
+  c. What is most important to you to check out first?
+  d. what is most surprising?
 
 9. Click to view the "data" tabs, which show your team's individual patient information.
-a. Patients who have requested restricted access to their information have asterisks *******
-b. Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
-c. Providers can filter to find specific patients, or produce reports. 
-d. What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.
-e. What **viz** tab would you use to see what the most common service encounters or visits are?
-f. Are there services that have been increasing over time? Are there services that  have been descreasing over time?
-g. With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
+  a. Patients who have requested restricted access to their information have asterisks *******  
+  b. Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
+  c. Providers can filter to find specific patients, or produce reports.  
+  d. What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
+  e. What **viz** tab would you use to see what the most common service encounters or visits are?  
+  f. Are there services that have been increasing over time? Are there services that  have been descreasing over time?  
+  g. With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
 
@@ -132,6 +133,14 @@ g. With the team trends (viz) and team patient (data) information in the data UI
 
 ### DO demo
 
+1. We encourage you to look around inyour team data before next time.  
 
+2. Open the team data in Excel. 
+
+3. Review theindividual tabs to find an individual patient and a team trend. Look through the different tabs:
+ + Health Factors (HF)  
+ + Diagnostic (Diag)  
+ + Encounters (Enc), and   
+ + Suicide Prevention (SP)  
 
 ## Until next time, thank you for _Modeling to Learn_!
