@@ -6,22 +6,21 @@ output:
   html_document:
     df_print: paged
 ---
-
-#Download R CSV file of MTL Menu results from REDCap
+```{r, include=FALSE}
+#Download R CSV file of MTL Menu results from REDCap and rename to mtl_menu.csv
 
 #Clear existing data and graphics
 rm(list=ls())
 graphics.off()
 
-#Install Hmisc package
-install.packages(Hmisc)
-
-#Load Hmisc library
+#Load Hmisc library (install.packages(Hmisc) if needed)
 library(Hmisc)
+```
 
-``` {r, echo=F }
+
+``` {r, echo=FALSE }
 #Read Data from MTL Menu
-mtlmenu=read.csv('ModelingToLearnMenuD_DATA_2018-11-25_0431.csv')
+data=read.csv('mtl_menu.csv')
 
 #Create vector of new column names using question title instead of variable descriptor
 cols <- c("x",
@@ -72,7 +71,7 @@ cols <- c("x",
           "Opioid use disorder")
           
 #Replace column names of original data set with new column name vector 
-colnames(mtlmenu) <- cols
+colnames(data) <- cols
 
 #Create new PDF file
 #pdf("mtl_menu_plots.pdf", width = 16 , height = 10, title = "MTL Menu Results")
@@ -80,8 +79,8 @@ colnames(mtlmenu) <- cols
 
 #For loop for creating barplots of responses for questions with 5 point likert scale
 for (x in 3:19){
-barplot(table(factor(mtlmenu[,x], levels = -2:2)),
-        main=colnames(mtlmenu)[x],
+barplot(table(factor(data[,x], levels = -2:2)),
+        main=colnames(data)[x],
         xlab="Priority",
         ylab="Count",
         names.arg = expression("Very High", "High", "Neutral", "Low", "Very Low"),
@@ -91,8 +90,8 @@ barplot(table(factor(mtlmenu[,x], levels = -2:2)),
 
 #For loop for creating barplots of responses for questions with 3 point likert scale
 for (x in 20:29){
-barplot(table(factor(mtlmenu[,x], levels = -1:1)),
-        main=colnames(mtlmenu)[x],
+barplot(table(factor(data[,x], levels = -1:1)),
+        main=colnames(data)[x],
         xlab="Priority",
         ylab="Count",
         names.arg = expression("Yes", "Neutral", "No or doesn't apply"),
