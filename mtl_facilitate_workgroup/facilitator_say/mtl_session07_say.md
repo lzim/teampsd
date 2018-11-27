@@ -144,4 +144,16 @@ Today we entered our Question, Hypothesis, Findings and Decisions for our base c
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. |
 
+DO Demo
+
+1. Log back into the SIM UI.
+
+2. In Experiments, select your bc run from the list of experiments run. Click on GO and clinck on include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
+
+3. Go to the OUTPUT section. Expand it fully (two clicks!) to reveal all the information saved from the run. 
+
+4. Study the output and use it to further develop or refine your decisions about your next experiment, Experiment 1. 
+
+5. Save your work for bc. 
+
 ## Until next time, thank you for *Modeling to Learn*!
