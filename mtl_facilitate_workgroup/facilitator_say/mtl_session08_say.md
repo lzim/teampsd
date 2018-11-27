@@ -170,7 +170,7 @@ DO Demo
 
 1. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2.
 
-2. Do do this, lg back into the SIM UI.
+2. Do do this, log back into the SIM UI.
 
 3. In Experiments, select your Experiment 1 run from the list of saved experiments. Click on GO and select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
 
