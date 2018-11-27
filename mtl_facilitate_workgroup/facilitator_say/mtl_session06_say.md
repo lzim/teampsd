@@ -207,6 +207,8 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
  
  + As more patients leave this setting, it further reduces the total number of patients in the GMH treatment setting, thus further decreasing the patient load and increasing quality. When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load. When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.” 
  + We have closed the loop, or brought our chain of causation full circle, and can now explain how this reinforcing loop of "Higher Care Quality Improves Recovery" could both energize our improvement efforts, or potentially derail them.
+ 
+ + The last think to do is log out of the SIM UI! 
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
@@ -217,5 +219,15 @@ Today we told a systems story about our team's top priority and entered a questi
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim and enter our question and hypothesis about the Base Case run in the Text section. |
+
+DO demo
+
+1. Log back into the SIM UI.
+
+2. Write your QUESTION about the base case (of no new decisions) in the QUESTION box.
+
+3. Write your HYPOTHESIS about the base case (of no new decisions) in the HYPOTHESIS box.
+
+4. Name your bc run. Use the drop down file naming field boxes to select 'bc'. Click on Save (but not Save and Reset). 
 
 ## Until next time, thanks for *Modeling to Learn*!
