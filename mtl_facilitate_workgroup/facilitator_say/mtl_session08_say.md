@@ -170,6 +170,12 @@ DO Demo
 
 1. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2.
 
-2. Do do this, log back into the SIM UI. 
+2. Do do this, lg back into the SIM UI.
 
+3. In Experiments, select your Experiment 1 run from the list of saved experiments. Click on GO and select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
 
+4. Go to the OUTPUT section. Expand it fully (two clicks!) to reveal all the information saved from the run.
+
+5. Study the output and use it to further develop or refine your decisions about your next experiment, in preparation for Experiment 2.
+
+6. And then save your work.
