@@ -166,4 +166,10 @@ However, low symptom patients are in care for longer than before, reducing the n
 
 ## Until next time, thank you for *Modeling to Learn*!
 
-Today we ran and experiment and compared the results against the base case. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2. 
+DO Demo
+
+1. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2.
+
+2. Do do this, log back into the SIM UI. 
+
+
