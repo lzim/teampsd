@@ -148,7 +148,7 @@ DO Demo
 
 1. Log back into the SIM UI.
 
-2. In Experiments, select your bc run from the list of experiments run. Click on GO and clinck on include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
+2. In Experiments, select your bc run from the list of experiments run. Click on GO select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
 
 3. Go to the OUTPUT section. Expand it fully (two clicks!) to reveal all the information saved from the run. 
 
