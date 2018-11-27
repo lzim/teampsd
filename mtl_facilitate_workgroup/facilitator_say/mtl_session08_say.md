@@ -156,7 +156,7 @@ However, low symptom patients are in care for longer than before, reducing the n
  
 ### That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review.
  
-Today we ran and experiment and compared the results against the base case. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2. 
+
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -166,3 +166,4 @@ Today we ran and experiment and compared the results against the base case. Befo
 
 ## Until next time, thank you for *Modeling to Learn*!
 
+Today we ran and experiment and compared the results against the base case. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2. 
