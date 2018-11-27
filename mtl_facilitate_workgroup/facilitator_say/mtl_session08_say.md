@@ -151,6 +151,8 @@ However, low symptom patients are in care for longer than before, reducing the n
 + Type in the *Our Decision* text box a question that describes what your team wants to learn from changing a specific variable or variables in the model.
 
 12. Save and Reset when ready.
+
+13. Log out of the SIM UI.
  
 ### That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review.
  
