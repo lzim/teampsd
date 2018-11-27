@@ -43,7 +43,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## In-session Exercise (30 minutes): Graduation and post-*MTL* plan
 
-1. We completed _Modeling to Learn_! Let's review and celebrate! Everyone will receive a *Modeling to Learn* certificate of completion. 
+1. We completed _Modeling to Learn_! Let's review and celebrate! 
+
+<iframe src="https://giphy.com/embed/26tOZ42Mg6pbTUPHW" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/26tOZ42Mg6pbTUPHW">via GIPHY</a></p>
+
+Everyone will receive a *Modeling to Learn* certificate of completion. 
 
 2. In order to think about next steps, let's recap the *Modeling to Learn* resources, which will all remain available to you going forward.
 
