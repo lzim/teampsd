@@ -45,7 +45,9 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 1. We completed _Modeling to Learn_! Let's review and celebrate! 
 
-<iframe src="https://giphy.com/embed/26tOZ42Mg6pbTUPHW" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/26tOZ42Mg6pbTUPHW">
+<iframe src="https://giphy.com/embed/26tOZ42Mg6pbTUPHW" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen>
+
+</iframe><p><a href="https://giphy.com/gifs/26tOZ42Mg6pbTUPHW">
   
 
 Everyone will receive a *Modeling to Learn* certificate of completion. 
