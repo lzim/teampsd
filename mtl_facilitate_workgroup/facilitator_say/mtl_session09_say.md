@@ -137,12 +137,26 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### That's it for *Modeling to Learn* how to compare alternatives. Next is our Done/Do review.
 
-Today we ran experiment 2 and used the control panel of the expanded outputs section to compare the base case, experiment 1 and experiment 2. Before next time, please try to run a third experiment in your individual world.
+Today we ran experiment 2 and used the control panel of the expanded outputs section to compare the base case, experiment 1 and experiment 2. 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, experiment 1, and experiment 2. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
+
+DO Demo
+
+1. Before next time, please try to run a third experiment in your individual world. We recommend that you try an experiment that combines the effects of your Experiment 1 and Experiment 2. 
+
+2. Do do this, log back into the SIM UI.
+
+3. In Experiments, select your Experiment 2 run from the list of saved experiments. Click on GO and select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
+
+4. Go to the OUTPUT section. Expand it fully (two clicks!) to reveal all the information saved from the run.
+
+5. Study the output and use it to further develop and refine your decisions about your next experiment, in preparation for running Experiment 3.
+
+6. And, as always, save your work.
 
 ## Until next time, thank you for *Modeling to Learn*!
