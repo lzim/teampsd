@@ -43,7 +43,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## In-session Exercise (30 minutes): Graduation and post-*MTL* plan
 
-1. We completed _Modeling to Learn_! Let's review and celebrate! Everyone will receive a *Modeling to Learn* certificate of completion. 
+1. We completed _Modeling to Learn_! Let's celebrate! Everyone will receive a *Modeling to Learn* certificate of completion. 
 
 2. In order to think about next steps, let's recap the *Modeling to Learn* resources, which will all remain available to you going forward.
 
@@ -51,7 +51,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">] (http://mtl.how/data)
       
-   + Next is the data UI at mtl.how/data, which some of you might find useful individually, in addition to using it as a team resource. If things change in the team over time and you want to update your team data for the sim UI, you can do that. The Team Lead can add new datasets to the Team World - or YOU can add new ones to your Individual World - using the Team Data Menu Maintenance function on the sim UI landing page, as we did in Session 5.
+   + Next is the data UI at mtl.how/data, which you might find useful individually in addition to as a team. If things change in the team over time and you want to update your team data for the sim UI, you can do that. The Team Lead can add new datasets to the Team World. And YOU can add new data to your Individual World. You'll use the Team Data Menu Maintenance function on the sim UI landing page, as we did in Session 5.
    
 TOUR THE DATA UI
 
@@ -63,7 +63,7 @@ TOUR THE DATA UI
 
        + In Medication Management (MM) we can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for our providers with and without x-waivers.
 
-       + In Psychotherapy (PSY), we can look at the engagement patterns of patients with different diagnoses; and a unique feature in this module is the Sankey diagram in the Outputs section, which shows the flows of different patient engagement patterns and appointment usage.
+       + In Psychotherapy (PSY), we can look at different patterns of engagement that patients may follow. In the team data tablefor PSY, you can pull up charts to see a profile of the team's historic patient engagement pattern; and in the Outputs section you can look at the Sankey diagram to compare patient engagement patterns and the associated appointment usage for different experiments.
 
        + In the Aggregate (AGG) module, we can test hypotheses about our mix of services. The unique feature here is that in Outputs, we can choose to compare different experiments, as we do in all the modules; or we can compare the effects of a given experiment across the different services. 
 
