@@ -178,10 +178,10 @@ session 12. Today we're *modeling to learn* how to turn **team learning** into a
 ### *MTL Session 9* - Simulation User-interface (sim UI) - Expanded Outputs Tile, Additional Detail in Control Panel and Experiment 2
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png" height = "45" width = "70" style ="display: inline-block"/> Session 9 Fidelity |
 ------------ |
-**Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/live and continue to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet.  |
+**Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/sim and continue to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet.  |
 **Team Meeting - *MTL* Session 9 - Team Experiment 2 (exp 2) - Compare bc, exp 1 and exp 2 reviewing additional detail using the Control Panel in the Expanded Outputs Tile**   |
 **Done/Do - 15 minutes for Done/Do**  |
-**Done** - Log-in to mtl.how/live and continue to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet.   |
+**Done** - Log-in to mtl.how/sim and continue to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet.   |
 **Do** - Introducing *MTL* comparison of alternatives base case, experiment 1 and experiment 2.  |
 **See Session 9 Guides - 30 minutes for In-session Exercise**  |
 **In-session Exercise** - *MTL* Session 9 - Run team experiment 2, compare bc, exp 1 and exp 2 in expanded outputs screen - Review additional detail in the Expanded Output tile using the control panel. For example, explore the Sankey using PSY control panel, explore differences by diagnoses in the MM control panel, and explore differences across services using the AGG control panel. |
@@ -217,7 +217,7 @@ session 12. Today we're *modeling to learn* how to turn **team learning** into a
 **Pre-email** - Sent the week of the team meeting - Log-in to mtl.how/sim to review and compare the base case, exp 1, exp 2 and exp 3 and think about possible decisions/changes the team could make in their clinical care.  |
 **Team Meeting - *MTL* Session 11 - Team Decisions and Next Steps**   |
 **Done/Do - 15 minutes for Done/Do**  |
-**Done** - mtl.how/live   |
+**Done** - mtl.how/sim   |
 **Do** - Discuss the team's decisions and next steps based on *MTL*. |
 **See Session 11 Guides - 30 minutes for In-session Exercise*  |
 **In-session Exercise** - *MTL* Session 11 - Team Decisions |
