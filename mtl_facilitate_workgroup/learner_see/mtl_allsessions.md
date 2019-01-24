@@ -593,4 +593,242 @@ Record what you learned:
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif) | 
 
 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">  
 
+# [MTL Live Session 09](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session09_see.Rmd "MTL Live Session 09")
+
+# Today we're modeling to learn how to compare alternatives.
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
+
+
+<!-- Learning Objectives Icon --> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+
+## Learning Objectives
+
+1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
+2. Test your dynamic hypothesis about your team's clinical priority.
+3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
+
+# In-session Exercise (30 minutes)
+
+## Running an Experiment
+
+1.	Login to your team world at mtl.how/sim.
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
+
+2.	Review your saved runs. Rename your saved runs if you feel you need to.
+
+3.	Review the data files you have uploaded for use and make sure you have what you want.
+
+4.	You can *Join Current Session* or *Start a New Session* in the Aggregate module. If you *Start a New Session* select the team data file you’d like to use.
+
+5.	To refresh your memory and pick up where you left off last time, Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)
+
+6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
+
+7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
+
+### Experiment 2
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
+
+8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_10.gif)
+
+9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_8.gif)
+
+10.	Compare Runs to see the difference the between base case and the current experimental run.
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)
+
+Record what you learned:
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
+
+11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run. 
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
+
+12. Save and Reset when ready.
+ 
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, exp 1, and exp 2. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">  
+
+# [MTL Live Session 10](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session10_see.Rmd "MTL Live Session 10")
+
+# Today we're modeling to learn how to use systems thinking.
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran a third experiment in our individual world.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run exp 3 and discuss the bc, exp 1, exp 2 and exp 3 using Complex, Feedback, Behavior, Time (CFBT) systems thinking skills. | 
+
+
+<!-- Learning Objectives Icon --> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+
+## Learning Objectives
+
+1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes.
+2.	Test your understanding of the system story by describing what’s happening when it produces a runaway increase or decrease in some output.
+3.	Apply your thinking to anticipate the long-term trend in your clinic’s EBP reach under two different decision scenarios.
+
+
+# In-session Exercise (30 minutes)
+
+1. Log in to mtl.how/sim and join the current session.
+2. From the experiment tile, pull up the prior experiment and click the red "Go" button.
+3. Check the box to include the text from that experiment and click "Go" again.
+4. Note that the sliders have moved to the settings for that experiment.
+5. Open the Expanded Outputs tile and select another earlier experiment to compare to the one you have just pulled up.
+6. Note the variables that were manipulated in the two experiments.
+7. Review the findings from the two experiments in the results dashboard and the text entered for Hypothesis, Findings and Decisions.
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
+
+8. Collapse the Expanded Outputs tile and move it to the side to reveal the system diagram.
+9. Use the diagram to tell a system story about the differences in the two experiments.
+10. Consider running a combination experiment that incorporates the sliders manipulated in both experiments.
+11. Replace text in the Q/H/F/D boxes to reflect the team's hypotheses and expectations for the combined experiment.
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
+
+12. Save, name, and run the combined experiment.
+13. Discuss and record results and decisions, including your thinking about long-term trends in your clinic's EBP reach under various decision scenarios.
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 
+
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran exp 3 and discussed the results using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)|
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">  
+
+# [MTL Live Session 11](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session11_see.Rmd "MTL Live Session 11")
+
+# Today we're modeling to learn how to make team decisions.
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's learning and prioritize ways to implement it in our clinical care. | 
+
+
+<!-- Learning Objectives Icon --> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+
+## Learning Objectives
+
+1.	Describe what your team has prioritized as decisions to implement in your clinic. 
+2.	Test your team’s plan against your individual and shared, team vision.
+3.	Apply your team’s plan in clinical decisions.
+
+# In-session Exercise (30 minutes): Connect learning and decisions from experiments to original team vision, question, and need
+
+1.  What shared vision did the team decide on in session 1?
+
+2.  What team need and questions did we identify?
+
+3.  What hypotheses did we test? 
+
+4.  What insights we will keep in mind as we make clinic decisions?
+
+5.  What new approaches or targets do we want to focus on?
+
+6.  What concrete actions can the team take in the real world?
+
+7.  How do these decisions align with the team's shared vision, question and needs?
+
+8.  What data will we watch to see how we're doing?
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We discussed the team's learning and prioritized ways to implement it in our clinical care. | Reflect on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps.| 
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">  
+
+# [*MTL* Live Session 12](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session12_see.Rmd "MTL Live Session 12")
+
+# Today we're modeling to learn how to turn team learning into a team plan.
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| We reflected on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps. | Reflect together on our team's vision and _MTL_ experience and make a team plan for next steps. | 
+
+<!-- Learning Objectives Icon --> 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+
+## Learning Objectives
+
+1. Describe what your team has learned and prioritzed throughout the *MTL* 12-session program.
+2. Test how your team's plan aligns with your team's shared vision.
+3. Apply decisions that your team has prioritized to implement in the clinic.
+
+# In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
+
+1. We completed _Modeling to Learn_! Let's review and plan!
+
+2.  What has the team learned throughout the *Modeling to Learn* 12-session program?
+
+3. How will we coordinate our efforts going forward based on our learning?
+
+4. What *MTL* resources will the team use or revisit in the future?
+
+    - *MTL* data UI 
+    
+    - *MTL* sim UI (which module would be most appropriate to our further need and questions)
+
+5. Lead person(s) and time frame for the above actions 
+
+6. Celebrate completion of *Modeling to Learn*!
+
+
+
+## Done and Do (15 minutes)
+<!-- Do/Done Tables -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| --- | --- | 
+| We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Visit mtl.how for ongoing release updates and assistance using _MTL_ resources. | 
+
+
+ 
