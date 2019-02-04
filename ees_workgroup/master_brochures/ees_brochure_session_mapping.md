@@ -3,7 +3,7 @@
 |                         |         |                                          |                                          |                                           |                                           |                                          | 
 | Brochure(s)             | Session | Title(s)                                 |                                          |                                           |                                           |                                          | 
 | 1                       | 1       | MTL Session 1: Team vision               |                                          |                                           |                                           |                                          | 
-| 2                       | 2       | MTL Session 2: Data user-interface           |                                          |                                           |                                           |                                          | 
+| 2                       | 2       | MTL Session 2: Data user interface           |                                          |                                           |                                           |                                          | 
 | 3                       | 3       | MTL Session 3: Team data      |                                         |                                           |                                           |                                          | 
 | 4                       | 4       | MTL Session 4: Team needs                |                                          |                                           |                                           |                                          | 
 | 5-9                     | 5       | MTL Session 5: Team world (CC)           | MTL Session 5: Team world (MM)           | MTL Session 5: Team world (PSY)           | MTL Session 5: Team world (AGG)           | MTL Session 5: Team world (SP)           | 
@@ -20,7 +20,7 @@
 |                        |         |                                     | 
 | Brochure               | Session | Title                               | 
 | 1                      | 1       | MTL Session 1: Team vision          | 
-| 2                      | 2       | MTL Session 2: Data user-interface  | 
+| 2                      | 2       | MTL Session 2: Data user interface  | 
 | 3                      | 3       | MTL Session 3: Team data            | 
 | 4                      | 4       | MTL Session 4: Team needs           | 
 | 5                      | 5       | MTL Session 5: Team world           | 
