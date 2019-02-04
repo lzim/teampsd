@@ -3,8 +3,8 @@
 |                         |         |                                          |                                          |                                           |                                           |                                          | 
 | Brochure(s)             | Session | Title(s)                                 |                                          |                                           |                                           |                                          | 
 | 1                       | 1       | MTL Session 1: Team vision               |                                          |                                           |                                           |                                          | 
-| 2                       | 2       | MTL Session 2: Data and trends           |                                          |                                           |                                           |                                          | 
-| 3                       | 3       | MTL Session 3: Data for simulation       |                                          |                                           |                                           |                                          | 
+| 2                       | 2       | MTL Session 2: Data user interface           |                                          |                                           |                                           |                                          | 
+| 3                       | 3       | MTL Session 3: Team data      |                                         |                                           |                                           |                                          | 
 | 4                       | 4       | MTL Session 4: Team needs                |                                          |                                           |                                           |                                          | 
 | 5-9                     | 5       | MTL Session 5: Team world (CC)           | MTL Session 5: Team world (MM)           | MTL Session 5: Team world (PSY)           | MTL Session 5: Team world (AGG)           | MTL Session 5: Team world (SP)           | 
 | 10-14                   | 6       | MTL Session 6: Systems story (CC)        | MTL Session 6: Systems story (MM)        | MTL Session 6: Systems story (PSY)        | MTL Session 6: Systems story (AGG)        | MTL Session 6: Systems story (SP)        | 
@@ -20,8 +20,8 @@
 |                        |         |                                     | 
 | Brochure               | Session | Title                               | 
 | 1                      | 1       | MTL Session 1: Team vision          | 
-| 2                      | 2       | MTL Session 2: Data and trends      | 
-| 3                      | 3       | MTL Session 3: Data for simulation  | 
+| 2                      | 2       | MTL Session 2: Data user interface  | 
+| 3                      | 3       | MTL Session 3: Team data            | 
 | 4                      | 4       | MTL Session 4: Team needs           | 
 | 5                      | 5       | MTL Session 5: Team world           | 
 | 6                      | 6       | MTL Session 6: Systems story        | 
