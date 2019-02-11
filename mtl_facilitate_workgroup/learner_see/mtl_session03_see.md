@@ -43,7 +43,7 @@ output:
 - Medication Management (MM)
 - Psychotherapy (PSY)
 - Aggregate team services (AGG)
-- *Measurement-based stepped care for suicide prevention - coming in fall 2018*
+- Measurement-based stepped care for suicide prevention (SP)
 
 ### 1. Select a service for review
 - Find a variable that is important to you team. How is it estimated in this table? What are it's units?
