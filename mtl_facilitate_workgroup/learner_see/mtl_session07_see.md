@@ -32,7 +32,7 @@ output:
 
 ## Learning Objectives
 
-1. Describe the base case of no changes in your team.
+1. Describe the base case of no new decisions in your team.
 2. Test out your thinking about what is likely to cause oscillation in team trends.
 3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
 
