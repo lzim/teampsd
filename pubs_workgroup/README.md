@@ -3,7 +3,7 @@
      
 # Publications Workgroup - Primarily Organized through the Open Science Framework
 
-## mtl.how/osf
+## [mtl.how/osf](https://mtl.how/osf)
 
 **2. Citation Style Language** 
 
