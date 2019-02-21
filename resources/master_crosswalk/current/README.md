@@ -20,4 +20,4 @@ output:
 
 Current Version | Name with Date |
 --- |  --- |  
-Master Crosswalk v16 for CC, MM, PSY, AGG and SPParams tabs | master_crosswalk_table_v20_21FEB19.xlsx |
+Master Crosswalk CC, MM, PSY, AGG and SP | 
