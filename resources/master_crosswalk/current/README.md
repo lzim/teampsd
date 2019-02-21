@@ -1,7 +1,7 @@
 ---
 title: "README for Current Version of the Master Crosswalk Table"
 author: "Team PSD"
-date: "November 2018"
+date: "February 21, 2019"
 output: 
   github_document: default
   html_document: default
@@ -20,4 +20,4 @@ output:
 
 Current Version | Name with Date |
 --- |  --- |  
-Master Crosswalk v16 for CC, MM, PSY, AGG and SPParams tabs | master_crosswalk_table_v16.1_31oct18.xlsx |
+Master Crosswalk v16 for CC, MM, PSY, AGG and SPParams tabs | master_crosswalk_table_v20_21FEB19.xlsx |
