@@ -1,6 +1,6 @@
 ---
-title: 'MTL Menu Results: Report 1'
-author: "Stacey Park"
+title: 'MTL Menu'
+author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
   html_document:
@@ -17,54 +17,46 @@ graphics.off()
 library(Hmisc)
 ```
 
-
-``` {r, echo=FALSE }
+## MTL Menu
+``` {r,echo=FALSE, fig.width=4, fig.height=4,fig.show='hold'}
 #Read Data from MTL Menu
 data=read.csv('mtl_menu.csv')
 
 #Create vector of new column names using question title instead of variable descriptor
 cols <- c("x",
           "y",
-          "Schedule - How to manage team schedules (i.e. clinics/grids)
-          to meet patients needs.",
+          "Schedule - How to manage team schedules 
+          (i.e. clinics/grids) to meet patients needs.",
           "New patients - How to get new patients in care, 
           while meeting existing patients needs.",
-          "Return to clinic - How return to clinic orders free us to get 
-          patients to the right treatment at the right time.",
-          "Overwork - How overbooking or overworking 
+          "Return to clinic - How return to clinic orders free 
+          free us to get patients to the right treatment 
+          at the right time.",
+          "Overwork - How overbooking or overworking
           increases patient no shows.",
-          "Psychotherapy - How to improve team psychotherapy and 
-          patients patterns of engagement.",
+          "Psychotherapy - How to improve team psychotherapy 
+          and patients' patterns of engagement.",
           "Evidence-based Psychotherapy - How to improve 
           evidence-based psychotherapy in our team.",
           "Evidence-based Pharmacotherapy - How to improve 
           evidence-based pharmacotherapy in our team.",
-          "Referrals - How to manage referrals to our team and 
-          services (e.g., meds, therapy, group) within our team.",
-          "Mix of services - How our patients engage in 
-          our teams mix of services.",
-          "Improvement - Which improvements will have the best effects 
-          across our mix of services?",
-          "Burnout - How to reduce provider burnout and 
-          improve patient satisfaction with care.",
-          "Staffing - How to improve team care with our existing staff mix.",
-          "Suicide Prevention - How to manage high risk patients",
-          "Stepped Care -  How to decide when to step patients 
-          up to specialty care",
-          "Stepped Care - How to decide when to step patients 
-          down to primary care",
-          "Care Continuum - How to manage patient care 
-          across care settings, e.g., primary care, general mental health 
-          and specialty mental health",
-          "Measurement Based Care - How implementation of 
-          measurement based care will improve patient care 
-          or reduce patient risk",
+          "Referrals - How to manage referrals to our team and
+          services (e.g. meds, therapy, group) within our team.",
+          "Mix of services - How our patients engage in our 
+          teams mix of services.",
+          "Improvement - Which improvements will have the best 
+          effects across our mix of services?",
+          "Burnout - How to reduce provider burnout and improve 
+          patient satisfaction with care.",
+          "Staffing - How to improve team care with our 
+          existing staff mix.",
           "Intake evaluations",
           "Care coordination",
           "Medication management",
           "Psychotherapy",
           "Groups",
-          "Adjunctive services (i.e. art and recreation therapy, peer support specialists)",
+          "Adjunctive services (i.e. art and recreation therapy, 
+          peer support specialists)",
           "Depression",
           "PTSD",
           "Alcohol use disorder",
@@ -73,28 +65,24 @@ cols <- c("x",
 #Replace column names of original data set with new column name vector 
 colnames(data) <- cols
 
-#Create new PDF file
-#pdf("mtl_menu_plots.pdf", width = 16 , height = 10, title = "MTL Menu Results")
-
-
 #For loop for creating barplots of responses for questions with 5 point likert scale
-for (x in 3:19){
+for (x in 3:14){
+par(cex.main=0.7)
 barplot(table(factor(data[,x], levels = -2:2)),
         main=colnames(data)[x],
-        xlab="Priority",
-        ylab="Count",
         names.arg = expression("Very High", "High", "Neutral", "Low", "Very Low"),
+        cex.names=0.5,
         col="#003F72",
 )
 }
 
 #For loop for creating barplots of responses for questions with 3 point likert scale
-for (x in 20:29){
+for (x in 15:24){
+par(cex.main=0.7)
 barplot(table(factor(data[,x], levels = -1:1)),
         main=colnames(data)[x],
-        xlab="Priority",
-        ylab="Count",
         names.arg = expression("Yes", "Neutral", "No or doesn't apply"),
+        cex.names=0.5,
         col="#003F72",
 )
 }
