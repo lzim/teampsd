@@ -17,10 +17,10 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
 - ensure that all library packages (as listed in the library chunk) are installed
 - change the working directory in RStudio to the location of the Rmd and datafiles
 - include 
-   + "mm_bc.xls", 
-   + "mm_exp1.xls", and/or
-   + "mm_exp2.xls", and/or 
-   + "mm_exp3.xls" in the same folder as the Rmd file
+   + "mm_bc.xlsx", 
+   + "mm_exp1.xlsx", and/or
+   + "mm_exp2.xlsx", and/or 
+   + "mm_exp3.xlsx" in the same folder as the Rmd file
 
 
 
