@@ -1,6 +1,6 @@
 ---
-title: 'Team Data Table: Report 2 or 3'
-author: "Savet Hong"
+title: 'Sim UI Experiments'
+author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
      word_document: default   
