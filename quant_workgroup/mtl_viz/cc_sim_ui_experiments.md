@@ -1,6 +1,6 @@
 ---
-title: 'Team Data Table: Report 2 or 3'
-author: "Savet Hong"
+title: 'Sim UI Experiments'
+author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
      word_document: default   
@@ -17,10 +17,10 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
 - ensure that all library packages (as listed in the library chunk) are installed
 - change the working directory in RStudio to the location of the Rmd and datafiles
 - include 
-   + "cc_bc.xls", 
-   + "cc_exp1.xls", and/or
-   + "cc_exp2.xls", and/or 
-   + "cc_exp3.xls" in the same folder as the Rmd file
+   + "cc_bc.xlsx", 
+   + "cc_exp1.xlsx", and/or
+   + "cc_exp2.xlsx", and/or 
+   + "cc_exp3.xlsx" in the same folder as the Rmd file
 
 
 
@@ -34,7 +34,6 @@ library(ggplot2)
 library(huxtable)
 
 ```
-
 
 ## Care Coordination Model
 
