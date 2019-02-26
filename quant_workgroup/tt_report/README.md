@@ -11,7 +11,7 @@
 - Use code for Basecase and Experiment 1 from appropriate module
      - sim_ui_experiments_cc.md
      - sim_ui_experiments_mm.md
-     - sim_ui_experiments_psy.md (also add team_engagement_graph.md for PSY)
+     - sim_ui_experiments_psy.md
      - sim_ui_experiments_agg.md
      - sim_ui_experiments_sp.md
 
