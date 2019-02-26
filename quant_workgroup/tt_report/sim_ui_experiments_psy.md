@@ -1,6 +1,6 @@
 ---
-title: 'Team Data Table: Report 2 or 3'
-author: "Savet Hong"
+title: 'Sim UI Experiments'
+author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
      word_document: default   
@@ -17,10 +17,10 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
 - ensure that all library packages (as listed in the library chunk) are installed
 - change the working directory in RStudio to the location of the Rmd and datafiles
 - include 
-   + "cc_bc.xls", 
-   + "cc_exp1.xls", and/or
-   + "cc_exp2.xls", and/or 
-   + "cc_exp3.xls" in the same folder as the Rmd file
+   + "psy_bc.xlsx", 
+   + "psy_exp1.xlsx", and/or
+   + "psy_exp2.xlsx", and/or 
+   + "psy_exp3.xlsx" in the same folder as the Rmd file
 
 
 
@@ -36,7 +36,7 @@ library(huxtable)
 ```
 
 
-## Care Coordination Model
+## Psychotherapy Model
 
 ```{r dtfiles, include=FALSE}
 #List of files in Working Directory
@@ -65,7 +65,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA45")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA82")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -87,7 +87,7 @@ sim_list <- lapply(1:length(files), sim_read)
 sim <- do.call("rbind", sim_list)
 
 
-bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A36:B45")
+bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A73:B82")
 
 
 ## VA Color Pallete
@@ -157,25 +157,25 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### Compare Services: Booking Rate
+#### Compare Services: Supply Used by Pts <3mo
 
 ```{r graphs, echo=FALSE}
 sim %>%
-  filter(Services == "Booking Rate")  %>%
+  filter(Services == "Supply Used by Pts <3mo")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
-  facet_wrap( ~ Services) +
+  #facet_wrap( ~ Services) +
   theme_bw() +
   theme(legend.position="top", legend.title=element_blank()) 
 
 ```
 
-#### Compare Services: Appointments in CC
+#### Compare Services: Supply Used by Pts >3mo
 
 ```{r graphs2, echo=FALSE}
 sim %>%
-  filter(Services == "Appointments in CC")  %>%
+  filter(Services == "Supply Used by Pts >3mo")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -185,39 +185,11 @@ sim %>%
 
 ```
 
-#### Compare Services: Completing Rate
+#### Compare Services: Supply Used by New Patients
 
 ```{r graphs3, echo=FALSE}
 sim %>%
-  filter(Services == "Completing Rate")  %>%
-  ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
-  geom_line(aes(linetype = Experiment)) +
-  scale_color_manual(values = vacol) +
-  facet_wrap( ~ Services) +
-  theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
-
-```
-
-#### Compare Services: Referral Rate
-
-```{r graphs4, echo=FALSE}
-sim %>%
-  filter(Services == "Referral Rate")  %>%
-  ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
-  geom_line(aes(linetype = Experiment)) +
-  scale_color_manual(values = vacol) +
-  facet_wrap( ~ Services) +
-  theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
-
-```
-
-#### Compare Services: Waiting to Start
-
-```{r graphs5, echo=FALSE}
-sim %>%
-  filter(Services == "Waiting to Start")  %>%
+  filter(Services == "Supply Used by New Patients")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -229,9 +201,37 @@ sim %>%
 
 #### Compare Services: Starting Rate
 
-```{r graphs6, echo=FALSE}
+```{r graphs4, echo=FALSE}
 sim %>%
   filter(Services == "Starting Rate")  %>%
+  ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
+  geom_line(aes(linetype = Experiment)) +
+  scale_color_manual(values = vacol) +
+  facet_wrap( ~ Services) +
+  theme_bw() +
+  theme(legend.position="top", legend.title=element_blank()) 
+
+```
+
+#### Compare Services: Initiation Rate
+
+```{r graphs5, echo=FALSE}
+sim %>%
+  filter(Services == "Initiation Rate")  %>%
+  ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
+  geom_line(aes(linetype = Experiment)) +
+  scale_color_manual(values = vacol) +
+  facet_wrap( ~ Services) +
+  theme_bw() +
+  theme(legend.position="top", legend.title=element_blank()) 
+
+```
+
+#### Compare Services: Graduation Rate
+
+```{r graphs6, echo=FALSE}
+sim %>%
+  filter(Services == "Graduation Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +

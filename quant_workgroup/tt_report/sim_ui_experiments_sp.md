@@ -1,6 +1,6 @@
 ---
-title: 'Team Data Table: Report 2 or 3'
-author: "Savet Hong"
+title: 'Sim UI Experiments'
+author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
      word_document: default   
@@ -17,10 +17,10 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
 - ensure that all library packages (as listed in the library chunk) are installed
 - change the working directory in RStudio to the location of the Rmd and datafiles
 - include 
-   + "mm_bc.xls", 
-   + "mm_exp1.xls", and/or
-   + "mm_exp2.xls", and/or 
-   + "mm_exp3.xls" in the same folder as the Rmd file
+   + "sp_bc.xlsx", 
+   + "sp_exp1.xlsx", and/or
+   + "sp_exp2.xlsx", and/or 
+   + "sp_exp3.xlsx" in the same folder as the Rmd file
 
 
 
@@ -36,7 +36,7 @@ library(huxtable)
 ```
 
 
-## Medication Management Model
+## Suicide Prevention Model
 
 ```{r dtfiles, include=FALSE}
 #List of files in Working Directory
@@ -65,7 +65,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA104")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA130")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -87,7 +87,7 @@ sim_list <- lapply(1:length(files), sim_read)
 sim <- do.call("rbind", sim_list)
 
 
-bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A69:B104")
+bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A99:B130")
 
 
 ## VA Color Pallete
@@ -157,11 +157,11 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### Compare Patient Cohort: Booking Rate
+#### GMH Patient Load
 
 ```{r graphs, echo=FALSE}
 sim %>%
-  filter(Variables == "Booking Rate")  %>%
+  filter(Services == "GMH Patient Load")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -171,11 +171,11 @@ sim %>%
 
 ```
 
-#### Compare Patient Cohort: Appointments in MM
+#### GMH Ratio of High to Low Symptom Patients
 
 ```{r graphs2, echo=FALSE}
 sim %>%
-  filter(Variables == "Appointments in MM")  %>%
+  filter(Services == "GMH Ratio of High to Low Symptom Patients")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -185,11 +185,11 @@ sim %>%
 
 ```
 
-#### Compare Patient Cohort: Completing Rate
+#### GMH High Risk Flag Patients
 
 ```{r graphs3, echo=FALSE}
 sim %>%
-  filter(Variables == "Completing Rate")  %>%
+  filter(Services == "GMH High Risk Flag Patients")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -199,11 +199,11 @@ sim %>%
 
 ```
 
-#### Compare Patient Cohort: Patients in MM
+#### GMH Patients Waiting to Start
 
 ```{r graphs4, echo=FALSE}
 sim %>%
-  filter(Variables == "Patients in MM")  %>%
+  filter(Services == "GMH Patients Waiting to Start")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -213,11 +213,11 @@ sim %>%
 
 ```
 
-#### Compare Patient Cohort: Starting Rate
+#### GMH to SMH Recommend Step up Rate
 
 ```{r graphs5, echo=FALSE}
 sim %>%
-  filter(Variables == "Starting Rate")  %>%
+  filter(Services == "GMH to SMH Recommend Step up Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -227,11 +227,11 @@ sim %>%
 
 ```
 
-#### Compare Patient Cohort: Waiting to Start
+#### GMH to PC/PCMHI Patients Waiting for Step down
 
 ```{r graphs6, echo=FALSE}
 sim %>%
-  filter(Variables == "Waiting to Start")  %>%
+  filter(Services == "GMH to PC/PCMHI Patients Waiting for Step down")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +

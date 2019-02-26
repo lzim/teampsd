@@ -1,6 +1,6 @@
 ---
-title: 'Team Data Table: Report 2 or 3'
-author: "Savet Hong"
+title: 'Sim UI Experiments'
+author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
      word_document: default   
@@ -17,10 +17,10 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
 - ensure that all library packages (as listed in the library chunk) are installed
 - change the working directory in RStudio to the location of the Rmd and datafiles
 - include 
-   + "sp_bc.xls", 
-   + "sp_exp1.xls", and/or
-   + "sp_exp2.xls", and/or 
-   + "sp_exp3.xls" in the same folder as the Rmd file
+   + "agg_bc.xlsx", 
+   + "agg_exp1.xlsx", and/or
+   + "agg_exp2.xlsx", and/or 
+   + "agg_exp3.xlsx" in the same folder as the Rmd file
 
 
 
@@ -36,7 +36,7 @@ library(huxtable)
 ```
 
 
-## Suicide Prevention Model
+## Aggregate Model
 
 ```{r dtfiles, include=FALSE}
 #List of files in Working Directory
@@ -65,7 +65,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA130")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA256")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -87,7 +87,7 @@ sim_list <- lapply(1:length(files), sim_read)
 sim <- do.call("rbind", sim_list)
 
 
-bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A99:B130")
+bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A216:B256")
 
 
 ## VA Color Pallete
@@ -157,11 +157,11 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### GMH Patient Load
+#### Compare Services: Patients Waiting for Intake Evaluation
 
 ```{r graphs, echo=FALSE}
 sim %>%
-  filter(Services == "GMH Patient Load")  %>%
+  filter(Variables == "Patients Waiting for Intake Evaluation")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -171,11 +171,11 @@ sim %>%
 
 ```
 
-#### GMH Ratio of High to Low Symptom Patients
+#### Compare Services: Patients Waiting to Start a Service
 
 ```{r graphs2, echo=FALSE}
 sim %>%
-  filter(Services == "GMH Ratio of High to Low Symptom Patients")  %>%
+  filter(Variables == "Patients Waiting to Start a Service")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -185,11 +185,11 @@ sim %>%
 
 ```
 
-#### GMH High Risk Flag Patients
+#### Compare Services: Patients in Service
 
 ```{r graphs3, echo=FALSE}
 sim %>%
-  filter(Services == "GMH High Risk Flag Patients")  %>%
+  filter(Variables == "Patients in Service")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -199,11 +199,11 @@ sim %>%
 
 ```
 
-#### GMH Patients Waiting to Start
+#### Compare Services: Work Pressure
 
 ```{r graphs4, echo=FALSE}
 sim %>%
-  filter(Services == "GMH Patients Waiting to Start")  %>%
+  filter(Variables == "Work Pressure")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -213,11 +213,11 @@ sim %>%
 
 ```
 
-#### GMH to SMH Recommend Step up Rate
+#### Compare Services: Actual Return Visit Interval
 
 ```{r graphs5, echo=FALSE}
 sim %>%
-  filter(Services == "GMH to SMH Recommend Step up Rate")  %>%
+  filter(Variables == "Actual Return Visit Interval")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
@@ -227,11 +227,11 @@ sim %>%
 
 ```
 
-#### GMH to PC/PCMHI Patients Waiting for Step down
+#### Compare Services: Actual Hours Available for Service
 
 ```{r graphs6, echo=FALSE}
 sim %>%
-  filter(Services == "GMH to PC/PCMHI Patients Waiting for Step down")  %>%
+  filter(Variables == "Actual Hours Available for Service")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
   geom_line(aes(linetype = Experiment)) +
   scale_color_manual(values = vacol) +
