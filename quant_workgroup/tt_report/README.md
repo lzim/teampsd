@@ -3,11 +3,11 @@
      
 ## tt1
 - mtl_menu.md
-- Use respective model code from: team_data_table_all_modules.md
+- Use respective module code from: team_data_table_all_modules.md
 
 ## tt2 = tt1 + tt2
 - mtl_menu.md
-- Use respective model code from: team_data_table_all_modules.md
+- Use respective module code from: team_data_table_all_modules.md
 - Use code for Basecase and Experiment 1 from appropriate module
      - sim_ui_experiments_cc.md
      - sim_ui_experiments_mm.md
@@ -17,7 +17,7 @@
 
 ## tt3 = tt1 + tt2 + tt3
 - mtl_menu.md
-- Use respective model code from: team_data_table_all_modules.md
+- Use respective module code from: team_data_table_all_modules.md
 - Use code for Basecase, Experiment 1, Experiment 2, and Experiment 3 from appropriate module
      - sim_ui_experiments_cc.md
      - sim_ui_experiments_mm.md
