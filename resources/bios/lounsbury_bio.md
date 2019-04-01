@@ -1,1 +1,3 @@
+LOUNSBURY BIO
 
+Dr. Lounsbury is an Assistant Professor of Epidemiology and Population Health and Associate Director of Patient-Centered Outcome Research Training at the Albert Einstein College of Medicine, Bronx, New York. A community psychologist and a psycho-oncologist with expertise in participatory system dynamics modeling (PSDM), his domestic and international research aims to reduce chronic disease burden in medically underserved populations. Dr. Lounsbury currently serves as Co-Chair of the International System Dynamics Society’s (ISDS) Psychology Special Interest Group and Co-Chair of Society for Community Research and Action’s (SCRA) Community Health Interest Group.
