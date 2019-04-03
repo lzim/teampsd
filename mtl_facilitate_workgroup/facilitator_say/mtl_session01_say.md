@@ -100,6 +100,8 @@ b. Develop systems thinking skills and help you to see how several things fit to
 c. Make VA data, initiatives and standards transparent to you.  
 d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
 
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+
 14. To wrap up, let's hone in on our Team Vision
 
 a. You can further wordsmith the Team Vision after the session if you want. 
