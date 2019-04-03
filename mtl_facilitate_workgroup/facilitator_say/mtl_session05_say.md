@@ -49,6 +49,8 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
 3. Go to mtl.how/sim, enter your username and password, and click the green Login button. When you're asked to Select a World, click the down-arrow to open the drop-down menu and see the choices. When we're working together, we'll be in the Team world. Each team member also has their own individual world you can play in as much as you want - there's nothing you can "break" and no veterans will be harmed as you experiment virtually. But for team sessions we'll use the team world.
 
+   + Right off, be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen dimensions. So if I use my browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you're logged in on a smartphone or other device, it might look different to you.
+
 4. Let's look at what's on the landing page:
 
    + At the top left is the *MTL* logo. That’s on every page in the sim UI, and it works as a Home button (just like the button next to it), bringing you back to this landing page.
