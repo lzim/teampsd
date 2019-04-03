@@ -65,11 +65,11 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
   
    + Today we'll start a new session. Based on the team's needs we discussed last time, we decided to use the _________ module for our experiments in the sim UI. If we choose that, a dialog pops up to Select Team Data. Click on it, then click the down-arrow for the drop-down menu. The menu is empty. This is the Team Data Menu that's managed by the far right section on the screen, Team Data Menu Maintenance.
 
-5. Now let's go to that section and click the blue bar to expand it. There are 3 options under the blue bar: Delete, Rename, and Add. We want to Add our team data file to the menu we just saw, so we select Add. It's important to enter the filename EXACTLY as it is named in the team_data_sim folder, so the best thing is to copy and paste it in here. Go to the browser window showing the team data folder, grab the name of the team data file, and paste it into the Add or Change Filename text box. Make sure it didn’t get cut off or anything; if you need to make a correction, you can click the check-box by it and use the Rename function. We have the correct file name there, so we click Save and Voila! Our team data file will now be available for us in the Choose Team Data menu! 
+5. Now let's go to that section and click the blue bar to expand it. There are 3 options under the blue bar: Delete, Rename, and Add. We want to Add our team data file to the menu we just saw, so we select Add. It's important to enter the filename EXACTLY as it is named in the team_data_sim folder, so the best thing is to copy and paste it in here. Go to the browser window showing the team data folder, grab the name of the team data file (Control C), and paste it into the Add or Change Filename text box (Control V). Make sure it didn’t get cut off and that it has the Excel extension - i.e. that the filename ends in .xslx. I you need to make a correction, you can click the check-box by it and use the Rename function. But we have the correct file name there, so we click Save and Voila! Our team data file will now be available for us in the Choose Team Data menu! 
 
 6. Just to finish reviewing this screen before we move on, let's click the blue bar of the middle section to expand it. As the title says, this section is for maintaining experiments we've run. We can delete, rename, or export them from here. Since we haven't run any experiments yet, this section is still empty - but it won't be for long!
 
-7. Now let’s go back to the section on the far left, choose Start a New Session in the _______ module; click Select Team Data, open the drop-down menu, and choose the data file we just uploaded. Click Get File, and then click PLAY. The very first time we use a given team data file, you may notice a short delay as the sim reads in the data. But any time after that, it should open up the sim UI Main Page immediately.
+7. Now let’s go back to the section on the far left, choose Start a New Session in the _______ module; click Select Team Data, open the drop-down menu, and choose the data file we just uploaded. Click Get File, and then click PLAY. The very first time we use a given team data file, you may notice a short delay as the sim reads in the data. After that, it should open up the sim UI Main Page pretty quickly.
 
 8.	Now let's explore the Main Page of the SimUI:
 
@@ -77,12 +77,19 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
    + The blue bar of the large section on the left names the module and team data file we selected, and in that section is the model diagram for the _________ module, with an Experiment Timeline section at the top.
 
-   + To the right of the main section are 3 blue bars labelled Outputs, Experiments, and Text. The Text section can be moved by placing the cursor over the blue bar and dragging. It can also be expanded or minimized by clicking the icons on the right side of the blue bar: the open square or the circle with an X. Expanding it opens up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Output section and selecting Expand.
+   + To the right of the main section are 3 blue bars labelled Outputs, Experiments, and Text. The Text section can be moved around by placing the cursor over the blue bar and dragging. It can also be expanded, shrunk, or closed by clicking the icons on the right side of the blue bar: the open square/double square, or the circle with an X. Expanding it opens up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Output section and selecting Expand.
 
 9. The next thing we want to do is to explore the Team Data Table, which is in the upper part of the Experiments Section. Let's move the Text over and expand Experiments.
 
-   + The data in this table come from - you guessed it, the team data file. To see how the values in this table were calculated from team data, click on the round "i" icon in the top left corner of the Team Data Table. This symbol is used throughout the sim UI to show where you can get more information.
+   + The data in this table come from - you guessed it, the team data file. In fact, throughout the sim UI, we've used the convention that red font signifies "read in from team data".
 
+![](https://github.com/lzim/teampsd/blob/master/resources/icons/red_slider_experiment.png)
+
+     
+   
+To see how the values in this table were calculated from team data, click on the round "i" icon in the top left corner of the Team Data Table. This symbol is used throughout the sim UI to show where you can get more information.
+
+![](https://github.com/lzim/teampsd/blob/master/resources/icons/information.png) = INFORMATION
 
 10. Let's review the variables in the table and their units.
    
