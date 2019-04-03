@@ -72,6 +72,7 @@ b. What the topics where team members' perspectives are more divergent?
  + SP shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
 
 4. *[Recap the highest priority need, recommended module, and why.]*
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ### That's it for _Modeling to learn_ how to prioritize team needs. Next is our Done/Do review.
 
@@ -85,7 +86,7 @@ b. What the topics where team members' perspectives are more divergent?
 
 1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
 
-2. Remember, all the _MTL_ resources can be accesses from your home base at mtl.how if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
+2. Remember, all the _MTL_ resources can be accessed from your home base at mtl.how if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
 
 3. Unlike the data UI, which requires us to use the VA's default browser, Internet Explorer, this UI works better with Chrome. We recommend you use that.
 
