@@ -42,6 +42,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### Let's get started:
 
 # In-session Exercise (30 minutes): The Model Diagram and Systems Story
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ### A. For this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll be able to play along with our scavenger hunt.  
 
