@@ -43,6 +43,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### Let's get started!
 
 ## In-session Exercise (30 minutes): Team data for simulation
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 1. Let's explore what is in the team data table.
 
