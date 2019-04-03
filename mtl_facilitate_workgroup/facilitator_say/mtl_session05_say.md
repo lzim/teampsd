@@ -42,7 +42,7 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 ### Let's get started:
 
 # In-session Exercise (30 minutes): Log in; upload and review team data
-
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 1. In session 3, we used the *MTL* data UI at mtl.how/data to produce our team data file for use in simulation. We want to locate that file now because the first thing we will do when we open the SIM UI is to load that data file we created. So using Internet Explorer, go to mtl.how/data. The team data file for simulation is in the team folder named team_data_sim. 
 
 2. Now, leave that browser window as it is - we'll come back to it in a minute - and open a new window for the sim UI. This works best in Chrome.
