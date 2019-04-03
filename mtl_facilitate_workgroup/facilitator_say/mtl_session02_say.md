@@ -43,6 +43,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### Let's get started!
 
 ## In-session Exercise (30 minutes): Patient data and team trends
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 1. A word about *MTL* on BISL, the VA's Business Intelligence Service Line:
 
