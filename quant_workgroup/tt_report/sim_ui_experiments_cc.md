@@ -12,7 +12,7 @@ knit: (function(inputFile, encoding) {
      
 ---
 
-To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, please do as follow:
+To use the code in this Rmarkdown for each Team/Module in separate Rmarkdown, please do as follow:
   
 - ensure that all library packages (as listed in the library chunk) are installed
 - change the working directory in RStudio to the location of the Rmd and datafiles
@@ -35,7 +35,7 @@ library(huxtable)
 
 ```
 
-## Care Coordination Model
+## Care Coordination Module
 
 ```{r dtfiles, include=FALSE}
 #List of files in Working Directory
