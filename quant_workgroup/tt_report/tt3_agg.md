@@ -8,7 +8,7 @@ output:
      pdf_document:  default
 ---
 
-To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, please do as follow:
+To use the code in this Rmarkdown for each Team/Module in separate Rmarkdown, please do as follow:
   
 - ensure that all library packages (as listed in the library chunk) are installed
    + uncomment the line pkgs (list of packages)
@@ -32,7 +32,7 @@ launch_date <-  "2015-11" # MTL launch date in the clinic, format must be "yyyy-
 ## True pre-condition is April 2014- Mar 2015; however data doesn't exist until Nov 2014
 ## Mixed Precondition:  Nov 2014 - Oct 2015 
 
-
+ 
 ```
 
 ```{r library, include=FALSE}
