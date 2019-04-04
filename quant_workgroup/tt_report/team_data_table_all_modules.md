@@ -6,12 +6,12 @@ output: html_document
 
 ---
   
-To use the code in this Rmarkdown for each Model in separate Rmarkdown, please do as follow:
+To use the code in this Rmarkdown for each Module in separate Rmarkdown, please do as follow:
   
 - ensure that all library packages (as listed in the library chunk) are installed
 - copy chuck containing R libraries 
-- copy section of code for each model
-+ setup for each model
+- copy section of code for each module
++ setup for each module
 + table with and/or without definition
 - include "ModelParameters.xlsx" in the same folder, if not then change file pathway to the data source    
 
@@ -26,7 +26,7 @@ library(htmlTable)
 
 ```
 
-## Care Coordination Model
+## Care Coordination Module
 
 
 ```{r cc_setup, include=FALSE}
@@ -51,7 +51,7 @@ htmlTable(ccpar.table[,-3], header = c("",""), rnames = FALSE, css.cell = "paddi
 htmlTable(ccpar.table, header = c("","",""), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lrl")
 ```
 
-## Medication Management Model
+## Medication Management Module
 
 
 ```{r mm_setup, include=FALSE}
@@ -93,7 +93,7 @@ htmlTable(mmpar.table, header = c(rep("",6)), rnames = FALSE, css.cell = "paddin
 ```
 
 
-## Aggregate Model
+## Aggregate Module
 
 ```{r agg_setup, include=FALSE}
 aggpar <- read_excel("ModelParameters.xlsx", sheet = "AggParams", col_names = FALSE, range = "A1:I12")
@@ -141,7 +141,7 @@ htmlTable(agg_def, header = c("Concept", "Definition"), rnames = FALSE, css.cell
 
 ```
 
-## Psy Model
+## Psy Module
 
 ```{r psy_datafiles, include=FALSE}
 psypar1a <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B35:D36")
@@ -354,7 +354,7 @@ p1
 p2
 ```
 
-## Psy Model 
+## Psy Module 
 ```{r library, include=FALSE}
 
 library(readxl)
