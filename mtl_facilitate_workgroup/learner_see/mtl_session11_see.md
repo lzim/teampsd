@@ -17,7 +17,7 @@ output:
 
 # [MTL Live Session 11](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session11_see.Rmd "MTL Live Session 11")
 
-# Today we're modeling to learn how to make team decisions.
+# Today we're modeling to learn how to make future team decisions.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -58,3 +58,4 @@ output:
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We discussed the team's learning and prioritized ways to implement it in our clinical care. | Reflect on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps.| 
+
