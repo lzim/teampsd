@@ -39,7 +39,7 @@ output:
 
 ## Running an Experiment
 
-1.	Login to your team world at mtl.how/sim.
+1.	Login to your team world at [mtl.how/sim](http://mtl.how/sim).
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
 
