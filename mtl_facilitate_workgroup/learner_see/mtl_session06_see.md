@@ -39,6 +39,8 @@ output:
 
 * Purpose: The purpose for this activity is to familiarize MTL learners with the main section in the model diagram. By the end, learners should easily find information in the model.  
 
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+
 # **In-session Exercise – Part 1: Where in the MTL World Is…**  
 
 * The Facilitator will challenge MTL learners to find certain information on the mtl.how/sim main section.
