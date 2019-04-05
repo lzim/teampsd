@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI) ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and Meas tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI) ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)|
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -43,15 +43,15 @@ output:
 - Medication Management (MM)
 - Psychotherapy (PSY)
 - Aggregate team services (AGG)
-- *Measurement-based stepped care for suicide prevention - coming in fall 2018*
+- Measurement-based stepped care for suicide prevention (SP) 
 
-### 1. Select a service for review
+### 1. Select a module for review
 - Find a variable that is important to you team. How is it estimated in this table? What are it's units?
 - Where can you find even more detailed information about your team data?
-- Check out columns C and D. What is the difference between these two columns?
+- Check out the last two columns. What is the difference between these two columns?
 
-### 2. Select a second service for review
-- Check out columns C and D. What is the difference between these two columns?
+### 2. Select a second module for review 
+- Check out the last two columns. What is the difference between these two columns? // *Why are we doing the same task twice? Andrew feels like there is an implication that the last two columns' difference change based on the module, which is not true.
 - Find a variable that is important to you team. How is it estimated in this table? What are it's units?
 - Where can you find even more detailed information about your team data?
 
@@ -59,7 +59,7 @@ output:
 - If so, which ones? Open the data UI to examine your question.
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
-- If so, what is it surprising? Does the estimation definition help you to interpret the variable value?
+- If so, what is surprising? Does the estimation definition (second to last columnn, text in red) help you to interpret the variable value?
 
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
 - If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
