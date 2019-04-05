@@ -43,7 +43,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### Let's get started:
 
 ## In-session Exercise (30 minutes): Running a Base Case
-
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 1.	Log in to the team world and join the current session.
 
 2.	Enter your question about the Base Case in the *Our Question* text box. Here you'll briefly describe what your team wants to learn from this experiment.
