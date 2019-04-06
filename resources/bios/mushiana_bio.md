@@ -1,4 +1,1 @@
-Swap Mushiana
-
-Research extern and graudate student in Clinical Psychology at the University of San Francisco. 
-Member of the qualitative workgroup. Fun Facts: Soccer coach and enjoys window shopping at antique shops.
+Swap Mushiana is a graduate student in Clinical Psychology at the University of San Francisco and a research extern on Team PSD. He hopes to continue to develop his clinical skills in health psychology and improve public health outcomes for underserved populations suffering with chronic illnesses using participatory principles and systems dynamics. He works most closely on the qualitative work group on Team PSD. Swap is a Bay Area (CA) native who grew up playing soccer and continues to coach at the youth and college level. 
