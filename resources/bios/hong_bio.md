@@ -1,1 +1,1 @@
-
+Savet Hong is a co-investigator on TeamPSD. As the Lead Data Scientist, she will guide the growth and development of the quantitative workgroup. She was a founding member of the UC Berkeley's Social Science Data Laboratory (D-Lab), and she has interest in data and public health, specifically utilizing data to empower decision-making.
