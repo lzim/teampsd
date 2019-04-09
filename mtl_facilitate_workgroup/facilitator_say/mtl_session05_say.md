@@ -49,7 +49,7 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
 3. Go to mtl.how/sim, enter your username and password, and click the green Login button. When you're asked to Select a World, click the down-arrow to open the drop-down menu and see the choices. When we're working together, we'll be in the Team world. Each team member also has their own individual world you can play in as much as you want - there's nothing you can "break" and no veterans will be harmed as you experiment virtually. But for team sessions we'll use the team world.
 
-   + Right off, be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen dimensions. So if I use my browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you're logged in on a smartphone or other device, it might look different to you.
+   + Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if I use my browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you're logged in on a smartphone or other device, it might look different to you.
 
 4. Let's look at what's on the landing page:
 
@@ -65,7 +65,7 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
   
    + Today we'll start a new session. Based on the team's needs we discussed last time, we decided to use the _________ module for our experiments in the sim UI. If we choose that, a dialog pops up to Select Team Data. Click on it, then click the down-arrow for the drop-down menu. The menu is empty. This is the Team Data Menu that's managed by the far right section on the screen, Team Data Menu Maintenance.
 
-5. Now let's go to that section and click the blue bar to expand it. There are 3 options under the blue bar: Delete, Rename, and Add. We want to Add our team data file to the menu we just saw, so we select Add. It's important to enter the filename EXACTLY as it is named in the team_data_sim folder, so the best thing is to copy and paste it in here. Go to the browser window showing the team data folder, grab the name of the team data file (Control C), and paste it into the Add or Change Filename text box (Control V). Make sure it didn’t get cut off and that it has the Excel extension - i.e. that the filename ends in .xslx. I you need to make a correction, you can click the check-box by it and use the Rename function. But we have the correct file name there, so we click Save and Voila! Our team data file will now be available for us in the Choose Team Data menu! 
+5. Now let's go to that section and click the blue bar to expand it. There are 3 options under the blue bar: Delete, Rename, and Add. We want to Add our team data file to the menu we just saw, so we select Add. It's important to enter the filename EXACTLY as it is named in the team_data_sim folder, so the best thing is to copy and paste it in here. Go to the browser window showing the team data folder, grab the name of the team data file (Control C), and paste it into the Add or Change Filename text box (Control V). Make sure it didn’t get cut off and that it has the Excel extension - i.e. that the filename ends in .xlsx. If you need to make a correction, you can click the check-box by it and use the Rename function. But we have the correct file name there, so we click Save and Voila! Our team data file will now be available for us in the Choose Team Data menu! 
 
 6. Just to finish reviewing this screen before we move on, let's click the blue bar of the middle section to expand it. As the title says, this section is for maintaining experiments we've run. We can delete, rename, or export them from here. Since we haven't run any experiments yet, this section is still empty - but it won't be for long!
 
@@ -81,7 +81,7 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
 9. The next thing we want to do is to explore the Team Data Table, which is in the upper part of the Experiments Section. Let's move the Text over and expand Experiments.
 
-   + The data in this table come from - you guessed it, the team data file. In fact, throughout the sim UI, we've used the convention that red font signifies "read in from team data".
+   + The data in this table come from - you guessed it, the team data file. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/icons/red_slider_experiment.png)
 
