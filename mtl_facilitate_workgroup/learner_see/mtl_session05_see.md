@@ -54,6 +54,8 @@ output:
 
 + Enter your login credentials and hit enter.
 
++ Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if I use my browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you're logged in on a smartphone or other device, it might look different to you.
+
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
 
 5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
