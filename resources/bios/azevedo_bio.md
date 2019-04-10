@@ -1,1 +1,2 @@
+Kathryn Azevedo Mendoza, Ph.D., M.A. is the qualitative workgroup lead on TeamPSD. She focuses on ethnographic and applied mixed-methods research that seeks solutions to inequities in population health. As a behavioral health researcher, she is interested in health promotion and community level behavioral change through solutions-oriented prevention research and its practical application to public health policy and practice. Outside of work, you can find her running a community garden.
 
