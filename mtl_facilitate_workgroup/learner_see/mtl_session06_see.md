@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_3.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)| 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Experiments section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_3.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)| 
 
 
 <!-- Learning Objectives Icon --> 
@@ -55,7 +55,8 @@ output:
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 
 * Starting Point: Main model section with no additional complexities revealed.  
-*Tip:* If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.
+
+*Tip:* If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.  
 
 * Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  
 Make notes where you have questions or are unsure about the relationships depicted.
