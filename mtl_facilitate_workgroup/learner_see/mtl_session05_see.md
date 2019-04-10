@@ -54,7 +54,7 @@ output:
 
 + Enter your login credentials and click the "Login" button.
 
-+ A box instructing you to *Please select a World* will appear. If you are working with your collaboratively with your team in *MTL* please select your team world. If you are exploring the Sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
++ A box instructing you to *Please select a World* will appear. If you are working collaboratively with your team in *MTL* please select your team world denoted by "team" in the title of the world. If you are exploring the Sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
 
 + Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
 
