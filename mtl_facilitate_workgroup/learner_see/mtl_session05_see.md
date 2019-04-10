@@ -40,8 +40,8 @@ output:
 # Session 5 In-Session Exercise
 
 ## Check the name of your team data file in Explorer
-1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simualtion. 
-2. Let's now go back to mtl.how/data in an Explorer window to check the name of our team data file.
+1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation. 
+2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
 3. The team data file for simulation is in our team folder, in the team_data_sim folder
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)
@@ -50,11 +50,13 @@ output:
 
 4. Log in to the Sim UI.
 
-+ Open a new browser window and go to mtl.how/sim.
++ Open a new browser window in Google Chrome and go to mtl.how/sim.
 
-+ Enter your login credentials and hit enter.
++ Enter your login credentials and click the "Login" button.
 
-+ Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if I use my browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you're logged in on a smartphone or other device, it might look different to you.
++ A box instructing you to *Please select a World* will appear. If you are working with your collaboratively with your team in *MTL* please select your team world. If you are exploring the Sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
+
++ Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
 
@@ -72,7 +74,7 @@ output:
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_2.gif)
 
-8. Expand the Experiments tile and read the “i” information for the Team Data Table.
+8. Expand the Experiments tile by clicking on the white down arrow in the right corner of the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
 
 + What types of decisions does the team make that affect these variables?
 
@@ -80,19 +82,17 @@ output:
 
 9. Find the Team Data Table variables in the system diagram at the left.
 
-+ True Missed Appointment % (rate)
++ True Missed Appointments %
 
 + Appointment Supply
 
 + Return Visit Interval
 
-+ Median Engagement	
++ Engagement Duration	
 
-+ Starting Rate
++ New Patient Start Rate (AGG)
 
-+ New Patient Wait Time
-
-10. Log out of the SimUI
+10. Log out of the Sim UI
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
