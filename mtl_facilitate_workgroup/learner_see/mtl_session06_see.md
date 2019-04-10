@@ -37,7 +37,7 @@ output:
 
 # In-session Exercise (30 minutes)
 
-* Purpose: The purpose for this activity is to familiarize MTL learners with the main section in the model diagram. By the end, learners should easily find information in the UI.  
+* Purpose: The purpose for this activity is to familiarize MTL learners with the main section in the model diagram. By the end, learners should easily find information in the Sim UI.  
 
 # **In-session Exercise – Part 1: Where in the MTL World Is…**  
 
