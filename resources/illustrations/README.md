@@ -3,5 +3,5 @@
 
 _Modeling to Learn_ Illustrations and Images
 ---
-What is vs. What if? (data_ui_simui.png) ![https://github.com/lzim/teampsd/blob/master/resources/illustrations/data_ui_sim_ui.png](data_ui_sim_ui.png)
+What is vs. What if? (data_ui_sim_ui.png) ![https://github.com/lzim/teampsd/blob/master/resources/illustrations/data_ui_sim_ui.png](data_ui_sim_ui.png)
 ---
