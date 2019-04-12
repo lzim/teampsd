@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the Expanded Outputs section to prepare for experiment 1. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis by running experiment 1 and comparing results against the bc. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif) |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the expanded Outputs section to prepare for experiment 1. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis by running experiment 1 and comparing results against the bc. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif) |
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -38,15 +38,17 @@ output:
 
 ## Running an Experiment
 
-1.	Login to your team world at mtl.how/sim.
+1.	Log in to your individual or team world at mtl.how/sim.
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
 
-2.	Review your saved runs. Rename your saved runs if you feel you need to.
+2.	If you logged into your individual world, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
-3.	Review the data files you have uploaded for use and make sure you have what you want.
+3.	If you logged into your individual world, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
 
 4.	You can *Join Current Session* or *Start a New Session* in any module. If you *Start a New Session* select the team data file you’d like to use.
+
++ Once you have logged in to the model, the Text box will appear on the right. You can move, "x out" of or expand the Text box at any time.
 
 5.	To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
 
@@ -60,7 +62,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (this time that just means all the base case/default values).
+8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values).
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_10.gif)
 
