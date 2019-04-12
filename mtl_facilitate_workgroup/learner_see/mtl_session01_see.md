@@ -94,6 +94,8 @@ c. …make VA data, initiatives and standards transparent to you.
 
 d. …empower you to realize ongoing improvements in team quality of care and team quality of work life.
 
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+
 ### 6. Select the Team Vision
 
 ## Do and Done (15 minutes)

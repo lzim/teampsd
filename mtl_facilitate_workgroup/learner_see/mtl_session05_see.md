@@ -38,6 +38,7 @@ output:
 # In-session Exercise (30 minutes)
 
 # Session 5 In-Session Exercise
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ## Check the name of your team data file in Explorer
 1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation. 

@@ -37,6 +37,7 @@ output:
 3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
 
 # In-session Exercise (30 minutes)
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ## Running a Base Case
 

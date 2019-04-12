@@ -35,6 +35,7 @@ output:
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 # In-session Exercise (30 minutes)
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ## *MTL* on BISL
 

@@ -57,6 +57,8 @@ These are the *MTL* available modules
 - Aggregrate team services (AGG)
 - Measurement-based stepped care for suicide prevention (SP)
 
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
