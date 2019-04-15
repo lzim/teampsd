@@ -23,9 +23,8 @@ output:
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Told a systems story using the Model Diagram in the sim UI and entered our question in the Text section. ** |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">] |
-**Base Case Run**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Told a systems story using the Model Diagram in the sim UI and entered our question in the Text section.** |
+|**Base Case Run**  |
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.* |
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/> **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.* | 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* |
