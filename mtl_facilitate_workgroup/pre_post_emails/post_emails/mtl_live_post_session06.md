@@ -17,7 +17,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500"> 
 
-# We decided to log in to our individual world at mtl.how/sim and enter question and hypothesis text.
+# We decided to log in to our individual world at https://mtl.how/sim and enter question and hypothesis text.
 
 <!-- Do/Done Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
@@ -33,8 +33,9 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
 |**Before Our Next Team Meeting**|
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to our individual world at mtl.how/sim and enter a question and hypothesis about the Base Case of no new decisions in the Text section.**  |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to our individual world at mtl.how/sim. Use the question we entered during the session and add our own hypothesis about the Base Case run in the Text section.**  |
+
 |**For Our Next Team Meeting**
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to https://mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
 
 
