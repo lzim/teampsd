@@ -7,7 +7,7 @@ output:
     df_print: paged
 ---
 ```{r, include=FALSE}
-#Download R CSV file of MTL Menu results from REDCap and rename to mtl_menu.csv
+#Download R CSV file of MTL Menu results (raw data) from REDCap and rename to mtl_menu.csv
 
 #Clear existing data and graphics
 rm(list=ls())
