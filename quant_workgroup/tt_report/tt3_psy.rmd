@@ -3,12 +3,9 @@ title: 'Sim UI Experiments'
 author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
-     word_document: default   
-     html_document: default 
+     html_document: default
      
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding,
-  output_dir = ".", output_format = "all") })     
+   
      
 ---
 
@@ -41,13 +38,15 @@ launch_date <- "2015-11" # MTL launch date in the clinic, format must be "yyyy-m
 ```
 
 ```{r library, include=FALSE}
-# pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable")
+# pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable", "networkD3", "plotly")
 # install.packages(pkgs)
 
 library(tidyverse)
 library(readxl)
 library(huxtable)
 library(htmlTable)
+library(networkD3)
+library(plotly)
 
 ```
 
@@ -369,7 +368,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA82")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA83")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -617,3 +616,231 @@ dt_lims %>%
   theme_bw() +
   theme(legend.title=element_blank())
 ```
+
+## Sankey Visual
+
+```{r sankey_setup, include=FALSE}
+# Read in files related to Sankey Experimental
+snk_read <- function(x){
+  dt <- read_excel(files[x], col_names = FALSE, range = "A86:B101")
+  dt <- dt %>%
+    mutate(file_name = files[x],
+           Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
+           Experiment = replace(Experiment, Experiment == "bc", "Base Case"),
+           Experiment = replace(Experiment, Experiment == "exp1", "Experiment 1"),
+           Experiment = replace(Experiment, Experiment == "exp2", "Experiment 2"),
+           Experiment = replace(Experiment, Experiment == "exp3", "Experiment 3"),
+           Model = sub("^(.*)_.*", "\\1", file_name),
+           X__1 = sub("[[:punct:]]$", "", X__1),
+           Code_A = sub("^(.*)-.*", "\\1", X__1),
+           Code_A = replace(Code_A, Code_A != "Exp", "Base"),
+           X__1 = sub(".*-", "", X__1),
+           N1 = "One Visit",
+           N1 = replace(N1, X__1 %in% c("D", "E", "F"), "Initiators"),
+           N1 = replace(N1, X__1 %in% c("G", "H"), "Completers"),
+           N2 = "Done",
+           N2 = replace(N2, X__1 == "A", "Initiators"),
+           N2 = replace(N2, X__1 == "F", "Completers"),
+           N2 = replace(N2, X__1 %in% c("C", "E", "H"), "Return"),
+           source = 0,
+           source = replace(source, N1 == "Initiators", 1),
+           source = replace(source, N1 == "Completers", 2),
+           target = 3,
+           target = replace(target, N2 == "Initiators", 1),
+           target = replace(target, N2 == "Completers", 2),
+           target = replace(target, N2 == "Done", 4)) %>%
+    rename(Code = X__1, Value = X__2) %>%
+    filter(!grepl("Bar", Code)) %>%
+    filter(!(Experiment == "Base Case" & Code_A == "Exp")) %>%
+    filter(!(Experiment != "Base Case" & Code_A == "Base")) %>%
+    select(-file_name)
+  
+  dbar <- read_excel(files[x], col_names = FALSE, range = "A102:B111")
+  dbar <- dbar %>%
+    mutate(X__1 = sub("-Bars$", "", X__1),
+           Code_A = sub("^(.*)-.*", "\\1", X__1),
+           Code_A = replace(Code_A, Code_A != "Exp", "Base"),
+           X__1 = sub(".*-", "", X__1)) %>%
+    rename(Code = X__1, mean_visit = X__2) %>%
+    right_join(dt, by = c("Code", "Code_A")) %>%
+    mutate(mean_visit = replace(mean_visit, is.na(mean_visit), 1))
+  
+  return(dbar)
+  }
+
+snk_list <- lapply(1:length(files), snk_read)
+snk <- do.call("rbind", snk_list)
+
+nodes <- data.frame(ID = c("One Visit", "Initiators", "Completers", "Return", "Done"))
+va_color <- 'd3.scaleOrdinal() .domain(["One Visit", "Initiators","Completers", "Done","Return"]) 
+.range(["#003F72","#0083BE","#598527", "#665DC6", "#C4262E"])'
+
+
+# Appointment Usage Data
+visits <- snk %>%
+  filter(N2 == "Done" | N2 == "Return") %>%
+  mutate(Flow_group = ifelse( N2 == "Done", paste0(N1), paste0(N1, " who ", N2)),
+         Flow_group = factor(Flow_group, levels = c("One Visit", "Initiators","Completers",
+                                                    "One Visit who Return", 
+                                                    "Initiators who Return",
+                                                    "Completers who Return"))) %>%
+  arrange(Experiment, Flow_group) %>%
+  group_by(Experiment) %>% 
+  mutate( w = cumsum(Value), 
+          wm = w - Value,
+          wt = wm + (w - wm)/2,
+          slots_mn = Value * mean_visit,
+          `Flow Group` = paste0("Visits: ", mean_visit, "\nPatients: ", Value),
+          vacol = ifelse(N2 == "Done", "#665DC6","#C4262E"))
+
+```
+
+#### Base Case
+
+<div class = "row">
+<div class = "col-md-6">
+```{r sankey_bc, echo=FALSE, warning=FALSE, message=FALSE,out.width='90%'}
+sankeyNetwork(Links = snk[snk$Experiment == "Base Case",], Nodes = nodes,
+              Source = "source", Target = "target",
+              Value = "Value", NodeID = "ID",
+              fontSize= 8, nodeWidth = 12,  units = "patients",
+              colourScale = va_color, fontFamily = "Myriad Pro")%>% 
+  htmlwidgets::prependContent(htmltools::tags$h5("Patient Engagement Patterns"))
+
+```
+
+</div>
+<div class = "col-md-6">
+```{r appt_bc, echo=FALSE, warning=FALSE, message=FALSE ,out.width='95%'}
+
+vacol <- c(rep("#665DC6", 3), rep( "#C4262E",3))
+
+ p <- ggplot(visits[visits$Experiment == "Base Case",], aes(ymin = 0)) +
+   geom_rect(aes(xmin= w, xmax= wm, ymax = mean_visit, "Group" = `Flow Group`), 
+             fill = vacol,  colour="black") +
+   labs(x = "Patients", y = "Visits", fill ="Flow Group", title = "Appointment Usage") +
+   coord_flip() +
+   scale_fill_manual(values = visits$vacol, labels = visits$`Flow Group`) +
+   guides(fill = FALSE) + 
+   theme_minimal() +
+   theme(text=element_text(family="Myriad Pro"))
+
+
+    ggplotly(p) %>%
+    layout(showlegend = FALSE)
+
+```
+</div>
+</div>
+
+#### Experiment 1
+
+<div class = "row">
+<div class = "col-md-6">
+```{r sankey_exp1, echo=FALSE, warning=FALSE, message=FALSE,out.width='90%'}
+sankeyNetwork(Links = snk[snk$Experiment == "Experiment 1",], Nodes = nodes,
+              Source = "source", Target = "target",
+              Value = "Value", NodeID = "ID",
+              fontSize= 8, nodeWidth = 12,  units = "patients",
+              colourScale = va_color, fontFamily = "Myriad Pro")%>% 
+  htmlwidgets::prependContent(htmltools::tags$h5("Patient Engagement Patterns"))
+
+```
+
+</div>
+<div class = "col-md-6">
+```{r appt_exp1, echo=FALSE, warning=FALSE, message=FALSE,out.width='95%'}
+ p <- ggplot(visits[visits$Experiment == "Experiment 1",], aes(ymin = 0)) +
+   geom_rect(aes(xmin= w, xmax= wm, ymax = mean_visit, "Group" = `Flow Group`), 
+             fill = vacol,  colour="black") +
+   labs(x = "Patients", y = "Visits", fill ="Flow Group", title = "Appointment Usage") +
+   coord_flip() +
+   scale_fill_manual(values = visits$vacol, labels = visits$`Flow Group`) +
+   guides(fill = FALSE) + 
+   theme_minimal() +
+   theme(text=element_text(family="Myriad Pro"))
+
+
+    ggplotly(p) %>%
+    layout(showlegend = FALSE)
+
+```
+</div>
+</div>
+
+
+#### Experiment 2
+
+<div class = "row">
+<div class = "col-md-6">
+```{r sankey_exp2, echo=FALSE, warning=FALSE, message=FALSE,out.width='90%'}
+sankeyNetwork(Links = snk[snk$Experiment == "Experiment 2",], Nodes = nodes,
+              Source = "source", Target = "target",
+              Value = "Value", NodeID = "ID",
+              fontSize= 8, nodeWidth = 12,  units = "patients",
+              colourScale = va_color, fontFamily = "Myriad Pro")%>% 
+  htmlwidgets::prependContent(htmltools::tags$h5("Patient Engagement Patterns"))
+
+```
+
+</div>
+<div class = "col-md-6">
+```{r appt_exp2, echo=FALSE, warning=FALSE, message=FALSE,out.width='95%'}
+
+ p <- ggplot(visits[visits$Experiment == "Experiment 2",], aes(ymin = 0)) +
+   geom_rect(aes(xmin= w, xmax= wm, ymax = mean_visit, "Group" = `Flow Group`), 
+             fill = vacol,  colour="black") +
+   labs(x = "Patients", y = "Visits", fill ="Flow Group", title = "Appointment Usage") +
+   coord_flip() +
+   scale_fill_manual(values = visits$vacol, labels = visits$`Flow Group`) +
+   guides(fill = FALSE) + 
+   theme_minimal() +
+   theme(text=element_text(family="Myriad Pro"))
+
+
+    ggplotly(p) %>%
+    layout(showlegend = FALSE)
+
+```
+</div>
+</div>
+
+
+#### Experiment 3
+
+<div class = "row">
+<div class = "col-md-6">
+```{r sankey_exp3, echo=FALSE, warning=FALSE, message=FALSE,out.width='90%'}
+sankeyNetwork(Links = snk[snk$Experiment == "Experiment 3",], Nodes = nodes,
+              Source = "source", Target = "target",
+              Value = "Value", NodeID = "ID",
+              fontSize= 8, nodeWidth = 12,  units = "patients",
+              colourScale = va_color, fontFamily = "Myriad Pro")%>% 
+  htmlwidgets::prependContent(htmltools::tags$h5("Patient Engagement Patterns"))
+
+```
+
+</div>
+<div class = "col-md-6">
+```{r appt_exp3, echo=FALSE, warning=FALSE, message=FALSE,out.width='95%'}
+
+ p <- ggplot(visits[visits$Experiment == "Experiment 3",], aes(ymin = 0)) +
+   geom_rect(aes(xmin= w, xmax= wm, ymax = mean_visit, "Group" = `Flow Group`), 
+             fill = vacol,  colour="black") +
+   labs(x = "Patients", y = "Visits", fill ="Flow Group", title = "Appointment Usage") +
+   coord_flip() +
+   scale_fill_manual(values = visits$vacol, labels = visits$`Flow Group`) +
+   guides(fill = FALSE) + 
+   theme_minimal() +
+   theme(text=element_text(family="Myriad Pro"))
+
+
+    ggplotly(p) %>%
+    layout(showlegend = FALSE)
+
+```
+</div>
+</div>
+
+
+
