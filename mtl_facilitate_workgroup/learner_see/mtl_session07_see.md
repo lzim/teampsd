@@ -25,7 +25,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section.  ![](https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/sim_ui_5.gif) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section.  ![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_text_fields.gif) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_outputs_text_section.gif)| 
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -48,7 +48,7 @@ output:
 
 2.	Orient yourself to the main page: Team Name; selected module; selected data file.  All settings in the Experiments tile are at Base Case or default values. 
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_2.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_sections.gif)
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
@@ -56,7 +56,7 @@ output:
 
 3.	Open the Expanded Outputs section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no changes are made and you run the simulation out to its 2-year end just using the data pulled in from your team data file. 
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_outputs_text_section.gif)
 
 4.	Run; then Save (without resetting) the run with the name Base Case.
 
@@ -79,4 +79,4 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_text_fields.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_outputs_text_section.gif)|
