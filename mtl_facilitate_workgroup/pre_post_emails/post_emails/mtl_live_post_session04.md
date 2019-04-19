@@ -27,6 +27,6 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75"> **Do** |
 | --- |
-|**Before Our Next Team Meeting on (Include Date and Time here)**|
+|**For Our Next Team Meeting on (Include Date and Time here)**| 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to the _MTL_ simulation user interface (sim UI) at [mtl.how/sim](https://mtl.how/sim). Note: Use all lowercase for login info. Use Chrome for the best experience.**  |
 
