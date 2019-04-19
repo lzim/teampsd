@@ -27,7 +27,7 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "75" width = "75"> **Do** |
 | --- |
-|**Before Our Next Team Meeting**|
+|**Before Our Next Team Meeting on (Include Date and Time here)**| 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "50" width = "75">](mailto:mtl.help@va.gov) **Select our Team Lead and select a standing team meeting time. Email Team PSD at mtl.help@va.gov to clarify the standing team meeting time and ask any questions you have.**  |
 
 
