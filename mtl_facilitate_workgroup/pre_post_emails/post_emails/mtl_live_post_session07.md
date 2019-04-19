@@ -32,5 +32,5 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75"> **Do** |
 | --- |
-|**For Our Next Team Meeting on (Include Date and Time here)**| 
+|**Before Our Next Team Meeting on (Include Date and Time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to [mtl.how/sim](https://mtl.how/sim) and explore the results of the Base Case run to prepare for experiment 1.**  |
