@@ -14,7 +14,7 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_testdontguess_sm.png"
      height = "130" width = "500"> 
 
 # We decided to review team data, bc and team needs (mtl.how/menu results) to select the "what if" experiment for next time.
