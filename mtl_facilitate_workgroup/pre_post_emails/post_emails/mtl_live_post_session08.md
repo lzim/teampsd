@@ -32,6 +32,6 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
-|**Before Our Next Team Meeting**|
+|**For Our Next Team Meeting on (Include Date and Time here)**| 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Explore the Base Case and experiment 1 in your team world at [mtl.how/sim](https://mtl.how/sim). Log into your individual world at [mtl.how/sim](https://mtl.how/sim) and draft a dynamic hypothesis for experiment 2 in the Q/H/F/D boxes in the.**  |
 
