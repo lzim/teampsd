@@ -27,6 +27,6 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75"> **Do** |
 | --- |
-|**For Our Next Team Meeting on (Include Date and Time here)**| 
+|**Before Our Next Team Meeting on (Include Date and Time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "45" width = "75">](http://mtl.how/menu) **1. Find something in the team data table at [mtl.how/data](https://mtl.how/data). 2. Complete the [mtl.how/menu](https://mtl.how/menu).**  |
 
