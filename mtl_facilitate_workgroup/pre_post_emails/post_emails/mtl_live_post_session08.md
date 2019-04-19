@@ -33,8 +33,5 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
 |**Before Our Next Team Meeting**|
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Explore the Base Case and experiment 1 and draft a dynamic hypothesis for experiment 2.**  |
-|**For Our Next Team Meeting**|
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
-
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Explore the Base Case and experiment 1 in your team world at [mtl.how/sim](https://mtl.how/sim). Log into your individual world at [mtl.how/sim](https://mtl.how/sim) and draft a dynamic hypothesis for experiment 2 in the Q/H/F/D boxes in the.**  |
 
