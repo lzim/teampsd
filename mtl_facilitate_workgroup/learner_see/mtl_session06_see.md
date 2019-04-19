@@ -37,41 +37,33 @@ output:
 
 # In-session Exercise (30 minutes)
 
-* Purpose: The purpose for this activity is to familiarize MTL learners with the main section in the model diagram. By the end, learners should easily find information in the model.  
-
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+* Purpose: The purpose for this activity is to familiarize MTL learners with the main section in the model diagram. By the end, learners should easily find information in the Sim UI.  
 
 # **In-session Exercise – Part 1: Where in the MTL World Is…**  
 
-* The Facilitator will challenge MTL learners to find certain information on the mtl.how/sim main section.
-+ A series of 5 questions, one at a time, will be posed via the chat box as well as the Facilitator reading them aloud to the MTL Learners.  
+* Facilitators will ask team members to find certain information on the mtl.how/sim main section.
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
 + *If at any time you are not sure how to find something, ask for help.* The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.  
 
-1. Question 1: Over what timeframe does an experiment "run?"  
-2. Question 2: Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the *Rates* into the chat box.  
-3. Question 3: Describe in one sentence what happens in the model as you "Reveal Complexity?"  
-4. Question 4: What is the significance of the variables in the "red boxes?"  
+1. Over what timeframe does an experiment run?  
+2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the *Rates* into the chat box.  
+3. Describe in one sentence what happens in the diagram as you click to Reveal Complexity.  
+4. What is the significance of the variables in the red boxes?  
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 
-* MTL learners will form pairs.  
-* Starting Point: Main model section with no complexity revealed.  
-*Tip for the learner* – if your computer screen is expanded you may not be able to see the whole model all at once. If you click on expand screen button for your browser to full screen view, it will enable you to see the whole model at once.  
+* Starting Point: Main model section with no additional complexities revealed.  
 
-* With your partner, imagine a veteran in care. Together, review the system story and complete four tasks:  
-1. Document: As you talk through the model, document (make notes) where you have questions or are unsure about the relationships you are seeing in the model.
-2. Review Appointments Section. While doing this, one partner should describe to the other partner the connections between *Booking Rate*, *Return-to-Clinic Visit Interval* (RVI) and *Appointments for Existing Patients*.  How do these variables impact one another? 
-3. Review Patients Section. One partner should walk the other through the loop connecting *Referral Rate*, *Waiting to Start* and *Target Wait Time?* How does the loop work or flow?  
-4. Partners should discuss the connection between the main section and the team data table. How are they linked?
+*Tip:* If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.  
 
-* Large Group Debrief: 
-+ Team PSD will call up on the pairs to tell the system story.
-+ As the story is revealed, *MTL Learners* should raise issues and questions documented during the *Telling a Systems Story* activity.
+* Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  
+Make notes where you have questions or are unsure about the relationships depicted.
+Describe the connection between the model diagram and the team data table. How are they linked?
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
