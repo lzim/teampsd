@@ -27,7 +27,7 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
-|**Before Our Next Team Meeting**|
+|**Before Our Next Team Meeting on (Include Date and Time here)**| 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Review the HF, Diag, Enc and SP tabs to find a patient (zoom in) and find a team trend (zoom out) at [mtl.how/data](https://mtl.how/data).**  |
 
 
