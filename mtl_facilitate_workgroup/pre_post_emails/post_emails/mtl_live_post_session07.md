@@ -23,7 +23,7 @@ output:
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Entered question, hypothesis, findings and decisions for the Base Case run.** 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Entered question, hypothesis, findings and decisions for the Base Case run in the Q/H/F/D boxes of the Text section.** 
 **Basecase Run**  |
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.* |
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/> **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.* | 
@@ -33,6 +33,4 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
 | --- |
 |**For Our Next Team Meeting**|
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to mtl.how/sim and explore the results of the Base Case run to prepare for experiment 1.**  |
-|**Before Our Next Team Meeting**|
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to [mtl.how/sim](https://mtl.how/sim) and explore the results of the Base Case run to prepare for experiment 1.**  |
