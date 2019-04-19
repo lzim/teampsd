@@ -23,7 +23,7 @@ output:
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **We told a systems story using the Model Diagram and entered a question about the Base Case run in the Q/H/F/D boxes of the Text section.** 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Told a systems story using the Model Diagram and entered a question about the Base Case run in the Q/H/F/D boxes of the Text section.** 
 **Base Case Run**  |
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.* |
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/> **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.* | 
