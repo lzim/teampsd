@@ -20,7 +20,7 @@ output:
 # We decided to run a third experiment on our own in our individual world. 
 
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65"> **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Ran experiment 2 and used the Control Panel in the Expanded Outputs section to compare bc, exp 1 and exp 2.** 
@@ -30,11 +30,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/> **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* |
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75"> **Do** |
 | --- |
 |**Before Our Next Team Meeting**|
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Run a third experiment on our own in our individual world.**  |
-|**For Our Next Team Meeting**|
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
-
-
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to your individual world at [mtl.how/sim](https://mtl.how/sim) and run a third experiment including text in the Q/H/F/D boxes of the Text section.**  |
