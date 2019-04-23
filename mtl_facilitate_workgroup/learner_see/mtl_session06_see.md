@@ -50,7 +50,7 @@ output:
 3. Describe in one sentence what happens in the diagram as you click to Reveal Complexity.  
 4. What is the significance of the variables in the red boxes?  
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 
