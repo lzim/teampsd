@@ -1,0 +1,3760 @@
+{UTF-8}
+AUD Relative RVI=
+	ZIDZ("AUD Return Visit Interval (median)" 
+	,
+	Total RVI)
+	~	Dmnl
+	~	The relative RVI for each diagnosis, normalized to sum to 100%.
+	|
+
+"DEP Normalized % Slots Allocated (w X w RVI)"=
+	ZIDZ(ZIDZ("DEP Normalized % Patients by Diagnosis (w X)"  , DEP Relative RVI)
+	,
+	Total y)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account, normalized to \
+		sum to 100%.
+	|
+
+"OtherNeeds % Slots Allocated (no X w RVI)"=
+	ZIDZ("OtherNeeds Normalized % Patients by Diagnosis (no X)"  , OtherNeeds Relative RVI\
+		)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account.
+	|
+
+"OtherNeeds % Slots Allocated (w X w RVI)"=
+	ZIDZ("OtherNeeds Normalized % Patients by Diagnosis (w X)"  , OtherNeeds Relative RVI\
+		)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account.
+	|
+
+"DEP % Slots Allocated (w X w RVI)"=
+	ZIDZ("DEP Normalized % Patients by Diagnosis (w X)"  , DEP Relative RVI)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account
+		.
+	|
+
+"AUD Normalized % Slots Allocated (w X w RVI)"=
+	ZIDZ(ZIDZ("AUD Normalized % Patients by Diagnosis (w X)"  , AUD Relative RVI)
+	,
+	Total y)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account, normalized to \
+		sum to 100%.
+	|
+
+OUD True Missed Appointment Rate=
+	MAX(OUD Completing Rate*"Effect of \"Other MM Tasks Time\" on Missed Appointments"*"OUD Actual Missed Appointment %"
+	,0)
+	~	appt/wk
+	~	The number of appointments that must be re-scheduled, as either the \
+		clinician or the patient missed the appointment.  These missed \
+		appointments are affected by the baseline rate and changes in the time the \
+		team allocates to non-patient-facing care.  It is constrained from going \
+		below zero.
+	|
+
+"AUD % Slots Allocated (no X w RVI)"=
+	ZIDZ("AUD Normalized % Patients by Diagnosis (no X)"  , AUD Relative RVI)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account.
+	|
+
+"AUD % Slots Allocated (w X w RVI)"=
+	ZIDZ("AUD Normalized % Patients by Diagnosis (w X)"  , AUD Relative RVI)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account
+		.
+	|
+
+OUD RVI used when Booking=
+	IF THEN ELSE (OUD Return Visit Interval>0:AND:Time>Experiment Week,OUD Return Visit Interval\
+		,IF THEN ELSE(Use Team Data for Starting Rate or Return Visit Interval
+	=1,OUD fRVI,"OUD Return Visit Interval (median)"))
+	~	wks
+	~	The team's goal to see each patient in this service once in every x weeks. \
+		The default value for return visit interval is based on the team's data, \
+		unless the team chooses to use the data for New Patient Start Rate \
+		instead. If the user inputs their desired RVI, then the model uses that \
+		value instead.
+	|
+
+"OtherNeeds Normalized % Slots Allocated (w X w RVI)"=
+	ZIDZ(ZIDZ("OtherNeeds Normalized % Patients by Diagnosis (w X)"  , OtherNeeds Relative RVI\
+		)
+	,
+	Total y)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account, normalized to \
+		sum to 100%.
+	|
+
+"OUD Normalized % Patients by Diagnosis (w X)"=
+	ZIDZ("OUD Slots Allocation % (with X waiver)"  
+	, 
+	"Total Slots Allocation % (with X waiver)" )
+	~	Dmnl
+	~	The relative ratios of patients with each diagnosis, normalized to sum to \
+		100%.
+	|
+
+"OUD Normalized % Slots Allocated (no X w RVI)"=
+	ZIDZ(ZIDZ("OUD Normalized % Patients by Diagnosis (no X)"  , OUD Relative RVI)
+	,
+	Total x
+	)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account, normalized to \
+		sum to 100%.
+	|
+
+"OUD Normalized % Slots Allocated (w X w RVI)"=
+	ZIDZ(ZIDZ("OUD Normalized % Patients by Diagnosis (w X)"  , OUD Relative RVI)
+	,
+	Total y)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account, normalized to \
+		sum to 100%.
+	|
+
+OtherNeeds RVI used when Booking=
+	IF THEN ELSE (OtherNeeds Return Visit Interval>0:AND:Time>Experiment Week,OtherNeeds Return Visit Interval\
+		,IF THEN ELSE
+	(Use Team Data for Starting Rate or Return Visit Interval=1,OtherNeeds fRVI,"OtherNeeds Return Visit Interval (median)"
+	))
+	~	wks
+	~	The team's goal to see each patient in this service once in every x weeks. \
+		The default value for return visit interval is based on the team's data, \
+		unless the team chooses to use the data for New Patient Start Rate \
+		instead. If the user inputs their desired RVI, then the model uses that \
+		value instead.
+	|
+
+DEP RVI used when Booking=
+	IF THEN ELSE (DEP Return Visit Interval>0:AND:Time>Experiment Week,DEP Return Visit Interval\
+		,IF THEN ELSE(Use Team Data for Starting Rate or Return Visit Interval
+	=1,DEP fRVI,"DEP Return Visit Interval (median)"))
+	~	wks
+	~	The team's goal to see each patient in this service once in every x weeks. \
+		The default value for return visit interval is based on the team's data, \
+		unless the team chooses to use the data for New Patient Start Rate \
+		instead. If the user inputs their desired RVI, then the model uses that \
+		value instead.
+	|
+
+"OtherNeeds Normalized % Patients by Diagnosis (w X)"=
+	ZIDZ("OtherNeeds Slots Allocation % (with X waiver)"  
+	, 
+	"Total Slots Allocation % (with X waiver)" )
+	~	Dmnl
+	~	The relative ratios of patients with each diagnosis, normalized to sum to \
+		100%.
+	|
+
+"OtherNeeds Normalized % Slots Allocated (no X w RVI)"=
+	ZIDZ(ZIDZ("OtherNeeds Normalized % Patients by Diagnosis (no X)"  , OtherNeeds Relative RVI\
+		)
+	,
+	Total x
+	)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account, normalized to \
+		sum to 100%.
+	|
+
+"OUD % Slots Allocated (no X w RVI)"=
+	ZIDZ("OUD Normalized % Patients by Diagnosis (no X)"  , OUD Relative RVI)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account
+		.
+	|
+
+Measured versus Actual Time=
+	MAX(XIDZ(Official Total Appointment Supply, Total Current Supply,1),0.01)
+	~	Dmnl
+	~	This represents the relative change in time available for other MM-related \
+		tasks consumed by overbooking patient visits. We assume that these "extra" \
+		appointments come at the expense of "other MM related tasks," such as , \
+		team coordination, patient reminder calls, chart review and other \
+		appointment prep, etc. It is constrained from going to zero, even if \
+		official appointment supply is zero.
+	|
+
+Total y=
+	"AUD % Slots Allocated (w X w RVI)"+"DEP % Slots Allocated (w X w RVI)"+"OUD % Slots Allocated (w X w RVI)"\
+		+"OtherNeeds % Slots Allocated (w X w RVI)"
+	~	Dmnl
+	~		|
+
+Average Actual RVI=
+	(AUD Actual RVI+DEP Actual RVI+OUD Actual RVI+OtherNeeds Actual RVI)/4
+	~	wks
+	~		|
+
+"AUD Normalized % Slots Allocated (no X w RVI)"=
+	ZIDZ(ZIDZ("AUD Normalized % Patients by Diagnosis (no X)"  , AUD Relative RVI)
+	,
+	Total x
+	)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account, normalized to \
+		sum to 100%.
+	|
+
+"DEP % Slots Allocated (no X w RVI)"=
+	ZIDZ("DEP Normalized % Patients by Diagnosis (no X)"  , DEP Relative RVI)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account
+		.
+	|
+
+Overbook Downside Onset Time=
+	Average Actual RVI
+	~	wk
+	~	The time for sacrificing team coordination time and patient reminder calls \
+		for more face-to-face patient time to affect the missed appointment rate.
+	|
+
+OtherNeeds True Missed Appointment Rate=
+	MAX(OtherNeeds Completing Rate*"Effect of \"Other MM Tasks Time\" on Missed Appointments"\
+		*"OtherNeeds Actual Missed Appointment %"
+	,0)
+	~	appt/wk
+	~	The number of appointments that must be re-scheduled, as either the \
+		clinician or the patient missed the appointment.  These missed \
+		appointments are affected by the baseline rate and changes in the time the \
+		team allocates to non-patient-facing care.  It is constrained from going \
+		below zero.
+	|
+
+DEP True Missed Appointment Rate=
+	MAX(DEP Completing Rate*"Effect of \"Other MM Tasks Time\" on Missed Appointments"*"DEP Actual Missed Appointment %"
+	,0)
+	~	appt/wk
+	~	The number of appointments that must be re-scheduled, as either the \
+		clinician or the patient missed the appointment.  These missed \
+		appointments are affected by the baseline rate and changes in the time the \
+		team allocates to non-patient-facing care.  It is constrained from going \
+		below zero.
+	|
+
+"OUD % Slots Allocated (w X w RVI)"=
+	ZIDZ("OUD Normalized % Patients by Diagnosis (w X)"  , OUD Relative RVI)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account
+		.
+	|
+
+Total x=
+	"AUD % Slots Allocated (no X w RVI)"+"DEP % Slots Allocated (no X w RVI)"+"OUD % Slots Allocated (no X w RVI)"\
+		+"OtherNeeds % Slots Allocated (no X w RVI)"
+	~	Dmnl
+	~		|
+
+"DEP Normalized % Slots Allocated (no X w RVI)"=
+	ZIDZ(ZIDZ("DEP Normalized % Patients by Diagnosis (no X)"  , DEP Relative RVI)
+	,
+	Total x
+	)
+	~	Dmnl
+	~	The relative amount of provider time spent in appointments focused on each \
+		diagnosis, taking relative differences in RVI into account, normalized to \
+		sum to 100%.
+	|
+
+"DEP Normalized % Patients by Diagnosis (w X)"=
+	ZIDZ("DEP Slots Allocation % (with X waiver)"  
+	, 
+	"Total Slots Allocation % (with X waiver)" )
+	~	Dmnl
+	~	The relative ratios of patients with each diagnosis, normalized to sum to \
+		100%.
+	|
+
+Total Current Supply=
+	AUD Current Appointment Supply+DEP Current Appointment Supply+OUD Current Appointment Supply\
+		+OtherNeeds Current Appointment Supply
+	~	appt/wk
+	~		|
+
+OUD Effect of Wait Time on Referrals=
+	MIN((XIDZ(OUD Perceived Wait Time , OUD Target New Patient Wait Time, 1))^-OUD Sensitivity of Referrals to Wait Time\
+		,1)
+	~	Dmnl
+	~	The effect new patient wait time has on referral rates. The deviation from \
+		the target wait time is adjusted by an exponent that reflects how \
+		sensitive providers' triage decisions are to changes in wait time. The \
+		negative sign on the exponent indicates that this is inversely coded, \
+		i.e., attractiveness drops as wait time increases. It is constrained from \
+		going above 1 (our assumption is that lower than expected new patient wait \
+		times do not increase referrals).
+	|
+
+"OtherNeeds % Slots Allocated to Each Diagnosis (no X)" =
+	IF THEN ELSE ("OtherNeeds Slots Allocation (without X waiver)" >=0:AND:Time>Experiment Week\
+		,"OtherNeeds Slots Allocation (without X waiver)" , "OtherNeeds Normalized % Slots Allocated (no X w RVI)"\
+		 )
+	~	Dmnl
+	~	The allocation of slots is determined by the team's data (default), but \
+		can instead be set manually by users.
+	|
+
+"OtherNeeds % Slots Allocated to Each Diagnosis (w X)"=
+	IF THEN ELSE ("OtherNeeds Slots Allocation (with X waiver)" >=0:AND:Time>Experiment Week\
+		,"OtherNeeds Slots Allocation (with X waiver)" , "OtherNeeds Normalized % Slots Allocated (w X w RVI)"\
+		)
+	~	Dmnl
+	~	The allocation of slots is determined by the team's data (default), but \
+		can instead be set manually by users.
+	|
+
+"OtherNeeds Actual Missed Appointment %"=
+	IF THEN ELSE("OtherNeeds User-defined True Missed Appointment %"<0,"OtherNeeds True Missed Appointment %"\
+		,
+	IF THEN ELSE(Time<Experiment Week,"OtherNeeds True Missed Appointment %", "OtherNeeds User-defined True Missed Appointment %"\
+		))
+	~	Dmnl
+	~	The average percent of appointments missed, based on the team's data. The \
+		user can also enter their own percentage.  (pct)
+	|
+
+OtherNeeds Actual RVI=
+	MIN(IF THEN ELSE(OtherNeeds Appointments in MM<0.05,0.01, XIDZ(OtherNeeds Appointments in MM\
+		,OtherNeeds Completing Rate, 52)),52)
+	~	wk
+	~	The average wait time for new patients is based on the number of patients \
+		waiting and how many start care coordination each week (based on \
+		Little’s Law).  If there is more demand for completing appointments than \
+		there is available capacity, then actual return visit interval will \
+		increase, even if the desired RVI doesn't change.  If the completing \
+		appointment rate drops to zero, then the wait is technically infinite. In \
+		the model, appointments are never cancelled due to high wait times, but \
+		for ease of display, Actual RVI is capped at 12 months (52 weeks).
+	|
+
+OtherNeeds Additional Appointment Supply for New MM Patients= GAME (
+	0)
+	~	appt/wk [0,?,0.5]
+	~	Manually increase the clinical hours allocated specifically to new \
+		patients, where these "carve-out" appointments come directly from reducing \
+		appointment hours available for existing patients.
+	|
+
+OtherNeeds Appointments Available for New Patients=
+	MAX(OtherNeeds Current Appointment Supply-OtherNeeds Appointments for Existing Patients\
+		,0)
+	+STEP(OtherNeeds Additional Appointment Supply for New MM Patients,Experiment Week)
+	~	appt/wk
+	~	Appointments available for new patients is the remaining supply of \
+		appointments, after demand from existing patients is satisfied.  The user \
+		can also set aside ADDITIONAL appointments specifically for new patients.  \
+		It is constrained from going below zero.
+	|
+
+OtherNeeds Appointments for Existing Patients=
+	MIN(OtherNeeds Desired Appointment Completion Rate,OtherNeeds Current Appointment Supply\
+		)
+	~	appt/wk
+	~	Appointments for existing patients consume appointment supply. The number \
+		of appointments used each week is the lesser of the existing patient \
+		demand (based on the number of appointments booked and the desired return \
+		visit interval) or the supply of available appointments per week.
+	|
+
+OtherNeeds Appointments in MM= INTEG (
+	OtherNeeds Booking Rate+OtherNeeds Rescheduling Rate-OtherNeeds Completing Rate,
+		OtherNeeds Initial Appointments)
+	~	appt
+	~	Total number of appointments booked, initial value set 1, to show how the \
+		schedule fills up when the team books more appointments than they need to \
+		complete (based on the number of appointments on the books and the RVI \
+		used when booking them).
+	|
+
+OtherNeeds Appointments to Reschedule= INTEG (
+	OtherNeeds True Missed Appointment Rate-OtherNeeds Rescheduling Rate,
+		OtherNeeds True Missed Appointment Rate*OtherNeeds Time to Reschedule)
+	~	appt
+	~	The number of appointments to be rescheduled. This assumes that all missed \
+		appointments are eventually rescheduled.
+	|
+
+OtherNeeds Appt Completion Rate=
+	OtherNeeds Appts for Existing Pts
+	~	appt/wk
+	~		|
+
+OtherNeeds Appts for Existing Pts=
+	OtherNeeds Current Appointment Supply*OtherNeeds Ratio of Appts for Existing Pts
+	~	appt/wk
+	~		|
+
+OtherNeeds Appts for New Pts=
+	OtherNeeds Current Appointment Supply*OtherNeeds Ratio of Appts for New Pts
+	~	appt/wk
+	~		|
+
+OtherNeeds Booking Rate=
+	(OtherNeeds Starting Rate/OtherNeeds Patients per Appointment)
+	+
+	(ZIDZ(ZIDZ(OtherNeeds Patients in MM , OtherNeeds Patients per Appointment) , OtherNeeds RVI used when Booking\
+		))
+	~	appt/wk
+	~	The booking appointment rate depends on the number of existing patients \
+		seen by the team (i.e., the quotent of the total patients in care and \
+		their average return visit interval) and the number of new patients booked \
+		each week.
+	|
+
+OtherNeeds Completing Rate=
+	OtherNeeds Appointments for Existing Patients
+	~	appt/wk
+	~	The rate at which appointments are completed is the lesser of the existing \
+		patient demand for care (driven by the number of booked appointments and \
+		the revisit interval) or current supply of appointments per week.
+	|
+
+OtherNeeds Current Appointment Supply=
+	(("Appointment Supply (no X-Waiver)"*"OtherNeeds % Slots Allocated to Each Diagnosis (no X)"\
+		)
+	+
+	("Appointment Supply (with X-Waiver)"*"OtherNeeds % Slots Allocated to Each Diagnosis (w X)"\
+		))
+	
+	+STEP(OtherNeeds Overbooks ,Experiment Week)-OtherNeeds Additional Appointment Supply for New MM Patients
+	~	appt/wk
+	~	appts available for patient care depend on the total number of \
+		appointments offered, how those appointments are allocated across the \
+		diagnostic cohorts, and the additional appointments squeezed into the \
+		schedule through overbooking.
+	|
+
+OtherNeeds Desired Appointment Completion Rate=
+	ZIDZ(OtherNeeds Appointments in MM,OtherNeeds RVI used when Completing)
+	~	appt/wk
+	~	The desired completion rate depends on the number of appointments to \
+		complete and the return visit interval that was used when those \
+		appointments were booked.
+	|
+
+"AUD % Slots Allocated to Each Diagnosis (no X)" =
+	IF THEN ELSE ("AUD Slots Allocation (without X waiver)" >=0:AND:Time>Experiment Week\
+		,"AUD Slots Allocation (without X waiver)" , "AUD Normalized % Slots Allocated (no X w RVI)"\
+		 )
+	~	Dmnl
+	~	The allocation of slots is determined by the team's data (default), but \
+		can instead be set manually by users.
+	|
+
+"AUD % Slots Allocated to Each Diagnosis (w X)"=
+	IF THEN ELSE ("AUD Slots Allocation (with X waiver)" >=0:AND:Time>Experiment Week,"AUD Slots Allocation (with X waiver)"\
+		 , "AUD Normalized % Slots Allocated (w X w RVI)")
+	~	Dmnl
+	~	The allocation of slots is determined by the team's data (default), but \
+		can instead be set manually by users.
+	|
+
+"AUD Actual Missed Appointment %"=
+	IF THEN ELSE("AUD User-defined True Missed Appointment %"<0,"AUD True Missed Appointment %"\
+		,
+	IF THEN ELSE(Time<Experiment Week,"AUD True Missed Appointment %", "AUD User-defined True Missed Appointment %"\
+		))
+	~	Dmnl
+	~	The average percent of appointments missed, based on the team's data. The \
+		user can also enter their own percentage.  (pct)
+	|
+
+AUD Actual RVI=
+	MIN(IF THEN ELSE(AUD Appointments in MM<0.05,0.01, XIDZ(AUD Appointments in MM,AUD Completing Rate\
+		, 52)),52)
+	~	wk
+	~	The average wait time for new patients is based on the number of patients \
+		waiting and how many start care coordination each week (based on \
+		Little’s Law).  If there is more demand for completing appointments than \
+		there is available capacity, then actual return visit interval will \
+		increase, even if the desired RVI doesn't change.  If the completing \
+		appointment rate drops to zero, then the wait is technically infinite. In \
+		the model, appointments are never cancelled due to high wait times, but \
+		for ease of display, Actual RVI is capped at 12 months (52 weeks).
+	|
+
+AUD Additional Appointment Supply for New MM Patients= GAME (
+	0)
+	~	appt/wk [0,?,0.5]
+	~	Manually increase the clinical hours allocated specifically to new \
+		patients, where these "carve-out" appointments come directly from reducing \
+		appointment hours available for existing patients.
+	|
+
+AUD Appointments Available for New Patients=
+	MAX(AUD Current Appointment Supply-AUD Appointments for Existing Patients,0)
+	+STEP(AUD Additional Appointment Supply for New MM Patients,Experiment Week)
+	~	appt/wk
+	~	Appointments available for new patients is the remaining supply of \
+		appointments, after demand from existing patients is satisfied.  The user \
+		can also set aside ADDITIONAL appointments specifically for new patients.  \
+		It is constrained from going below zero.
+	|
+
+AUD Appointments for Existing Patients=
+	MIN(AUD Desired Appointment Completion Rate,AUD Current Appointment Supply)
+	~	appt/wk
+	~	Appointments for existing patients consume appointment supply. The number \
+		of appointments used each week is the lesser of the existing patient \
+		demand (based on the number of appointments booked and the desired return \
+		visit interval) or the supply of available appointments per week.
+	|
+
+AUD Appointments in MM= INTEG (
+	AUD Booking Rate+AUD Rescheduling Rate-AUD Completing Rate,
+		AUD Initial Appointments)
+	~	appt
+	~	Total number of appointments booked, initial value set 1, to show how the \
+		schedule fills up when the team books more appointments than they need to \
+		complete (based on the number of appointments on the books and the RVI \
+		used when booking them).
+	|
+
+AUD Appointments to Reschedule= INTEG (
+	AUD True Missed Appointment Rate-AUD Rescheduling Rate,
+		AUD True Missed Appointment Rate*AUD Time to Reschedule)
+	~	appt
+	~	The number of appointments to be rescheduled. This assumes that all missed \
+		appointments are eventually rescheduled.
+	|
+
+AUD Appt Completion Rate=
+	AUD Appts for Existing Pts
+	~	appt/wk
+	~		|
+
+AUD Appts for Existing Pts=
+	AUD Current Appointment Supply*AUD Ratio of Appts for Existing Pts
+	~	appt/wk
+	~		|
+
+AUD Appts for New Pts=
+	AUD Current Appointment Supply*AUD Ratio of Appts for New Pts
+	~	appt/wk
+	~		|
+
+AUD Booking Rate=
+	(AUD Starting Rate/AUD Patients per Appointment)
+	+
+	(ZIDZ(ZIDZ(AUD Patients in MM , AUD Patients per Appointment) , AUD RVI used when Booking\
+		))
+	~	appt/wk
+	~	The booking appointment rate depends on the number of existing patients \
+		seen by the team (i.e., the quotent of the total patients in care and \
+		their average return visit interval) and the number of new patients booked \
+		each week.
+	|
+
+AUD Completing Rate=
+	AUD Appointments for Existing Patients
+	~	appt/wk
+	~	The rate at which appointments are completed is the lesser of the existing \
+		patient demand for care (driven by the number of booked appointments and \
+		the revisit interval) or current supply of appointments per week.
+	|
+
+AUD Current Appointment Supply=
+	(("Appointment Supply (no X-Waiver)"*"AUD % Slots Allocated to Each Diagnosis (no X)"\
+		)
+	+
+	("Appointment Supply (with X-Waiver)"*"AUD % Slots Allocated to Each Diagnosis (w X)"\
+		))
+	
+	+STEP(AUD Overbooks ,Experiment Week)-AUD Additional Appointment Supply for New MM Patients
+	~	appt/wk
+	~	appts available for patient care depend on the total number of \
+		appointments offered, how those appointments are allocated across the \
+		diagnostic cohorts, and the additional appointments squeezed into the \
+		schedule through overbooking.
+	|
+
+AUD Desired Appointment Completion Rate=
+	ZIDZ(AUD Appointments in MM,AUD RVI used when Completing)
+	~	appt/wk
+	~	The desired completion rate depends on the number of appointments to \
+		complete and the return visit interval that was used when those \
+		appointments were booked.
+	|
+
+"Effect of \"Other MM Tasks Time\" on Missed Appointments"=
+	MAX(
+	SMOOTHI(Measured versus Actual Time^-Sensitivity of Changes in Other MM Tasks Time on Missed Appointments\
+		,
+	Overbook Downside Onset Time, Measured versus Actual Time)
+	,1)
+	~	Dmnl
+	~	The deviation from the initial missed appointment rate is adjusted by an \
+		exponent that reflects how sensitive both patients and providers are to \
+		provider fatigue. The negative sign on the exponent indicates that this is \
+		inversely coded, i.e., decreasing time spent on non-patient-facing CC \
+		tasks (e.g., appointment prep, follow-up, reminder calls) increases the \
+		missed appointment rate. Patients start to experience this reduced quality \
+		by their next appointment, which occurs after the teams actual return \
+		visit interval. The effect is restricted from going below 1, as lower than \
+		official work hours do not influence providers or patients to come more \
+		regularly to their appointments.
+	|
+
+AUD Effect of Wait Time on Referrals=
+	MIN((XIDZ(AUD Perceived Wait Time , AUD Target New Patient Wait Time, 1))^-AUD Sensitivity of Referrals to Wait Time\
+		,1)
+	~	Dmnl
+	~	The effect new patient wait time has on referral rates. The deviation from \
+		the target wait time is adjusted by an exponent that reflects how \
+		sensitive providers' triage decisions are to changes in wait time. The \
+		negative sign on the exponent indicates that this is inversely coded, \
+		i.e., attractiveness drops as wait time increases. It is constrained from \
+		going above 1 (our assumption is that lower than expected new patient wait \
+		times do not increase referrals).
+	|
+
+AUD Ending Rate=
+	ZIDZ(AUD Patients in MM,AUD Engagement Duration)
+	~	pts/wk
+	~	The number of patients finishing the service is a function the number of \
+		patients in treatment and their median time in treatment.
+	|
+
+AUD Engagement Duration=
+	IF THEN ELSE(AUD User Median Engagement=0,AUD Median Engagement,IF THEN ELSE(Time<Experiment Week\
+		, AUD Median Engagement
+	,AUD User Median Engagement))
+	~	wks
+	~	The average patient engagement duration in Care Coordination, based on the \
+		team's data. The user can also enter their own value.  (wks)
+	|
+
+AUD fRVI= INITIAL(
+	AUD Engagement Duration/
+	(
+	(((AUD Patients per Appointment*AUD Current Appointment Supply)*(1-"AUD Actual Missed Appointment %"\
+		))/"AUD Starting Rate (mean)")
+	+"AUD Actual Missed Appointment %"-2
+	))
+	~	wks
+	~		|
+
+AUD Initial Appointments=
+	AUD Appt Completion Rate*AUD RVI used when Booking
+	~	appt
+	~		|
+
+AUD Initial Patients=
+	"AUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		*AUD Engagement Duration
+	~	pts
+	~		|
+
+AUD Initial Patients Waiting to Start=
+	"AUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		*AUD Target New Patient Wait Time
+	~	pts
+	~		|
+
+AUD Maximum Start Rate=
+	AUD Waiting to Start/AUD Minimum Time to Schedule
+	~	pts/wk
+	~	The maximum new patient start rate is determined by the new patient \
+		waiting list and minimum time to schedule patient appointments.
+	|
+
+AUD Median Engagement=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B12')
+	~	wks [4,100,1]
+	~	The median number of weeks that patients stay engaged with the team, \
+		receiving care coordination visits according to team data. The visits can \
+		be with any member of the team.  This engagement time represents a \
+		patient's entire engagement in care coordination across treatment \
+		episodes,regardless of gaps in service. (wks)
+	|
+
+AUD Minimum Time to Schedule=
+	0.1
+	~	wk
+	~	The fastest possible time to schedule a new patient appointment.
+	|
+
+AUD New Patient Wait Time=
+	MIN(IF THEN ELSE(AUD Waiting to Start<0.05, 0.01, XIDZ(AUD Waiting to Start,AUD Starting Rate\
+		, 24)),24)
+	~	wk
+	~	The average wait time for new patients is based on the number of patients waiting \
+		and how many start care coordination each week (based on Little’s Law).  
+		This wait time is only useful when testing the effects of Wait Time on \
+		Referrals, or the effect of Additional Referrals. Otherwise, the model \
+		will adjust the number of referrals to maintain the desired new patient \
+		wait time (i.e., the team will only get as many referrals as they can \
+		handle).  If the new patient start rate drops to zero, then the wait is \
+		technically infinite, as no patients are leaving the queue. In the model, \
+		referrals are never discontinued due to high wait times, but for ease of \
+		display, new patient wait time is capped at 6 months (24 weeks). It is \
+		also constrained from going to zero as the number of patients waiting to \
+		start approaches zero.
+	|
+
+"AUD New Patient Wait Time (median)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B7')
+	~	wk
+	~	An estimate of new patient wait time between their first care coordination   \
+		appointment being scheduled and that visit being completed with this team. \
+		(wks)
+	|
+
+"AUD Normalized % Patients by Diagnosis (no X)"=
+	ZIDZ("AUD Slots Allocation % (without X waiver)" 
+	,
+	"Total Slots Allocation % (without X waiver)")
+	~	Dmnl
+	~	The relative ratios of patients with each diagnosis, normalized to sum to \
+		100%.
+	|
+
+"AUD Normalized % Patients by Diagnosis (w X)"=
+	ZIDZ("AUD Slots Allocation % (with X waiver)"  
+	, 
+	"Total Slots Allocation % (with X waiver)" )
+	~	Dmnl
+	~	The relative ratios of patients with each diagnosis, normalized to sum to \
+		100%.
+	|
+
+AUD Overbooks= GAME (
+	0)
+	~	appt/wk [0,?,1]
+	~	Manually adjust the number of additional appointments offered each week \
+		(over the official appointment capacity), with the assumption that these \
+		additional appointments come at the expense of non-patient facing care \
+		(e.g., team coordination, reminder calls, treatment planning, etc.).
+	|
+
+"AUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		=
+	AUD Appts for New Pts*AUD Patients per Appointment
+	~	pts/wk
+	~		|
+
+AUD Patients in MM= INTEG (
+	AUD Starting Rate-AUD Ending Rate,
+		AUD Initial Patients)
+	~	pts
+	~	Total number of patients in treatment, initially set to 1 patient, to show \
+		how the clinic fills up when the team has more hours available than their \
+		existing patients use.
+	|
+
+AUD Patients per Appointment=
+	1
+	~	pts/appt
+	~	Always 1 patient per appointment, except for group visits.
+	|
+
+AUD Perceived Wait Time=
+	SMOOTH(AUD New Patient Wait Time,AUD Time to Perceive Wait Time)
+	~	wk
+	~	Clinicians' perception of care delays for starting new patients.
+	|
+
+AUD Ratio of Appts for Existing Pts=
+	(AUD Engagement Duration+AUD RVI used when Booking)
+	/
+	((AUD RVI used when Booking*(1-"AUD Actual Missed Appointment %"))+AUD RVI used when Booking\
+		+AUD Engagement Duration)
+	~	Dmnl
+	~		|
+
+AUD Ratio of Appts for New Pts=
+	(AUD RVI used when Booking*(1-"AUD Actual Missed Appointment %"))
+	/
+	((AUD RVI used when Booking*(1-"AUD Actual Missed Appointment %"))+AUD RVI used when Booking\
+		+AUD Engagement Duration)
+	~	Dmnl
+	~		|
+
+AUD Referral Rate=
+	IF THEN ELSE("AUD User-defined Referral Rate">0:AND:Time>Experiment Week, "AUD User-defined Referral Rate"\
+		, AUD Referral Rate inferred from Data)
+	
+	*AUD Effect of Wait Time on Referrals
+	~	pts/wk
+	~	The number of referrals cannot be directly estimated.  We use the team’s \
+		new patient wait time to estimate the referral rate, based on the starting \
+		rate and the number of patients in waiting to start.  That estimated \
+		referral rate is held constant after week zero, but can be affected by \
+		both the "Effect of Wait Time on Referrals" and any user input. This \
+		allows the user to observe relative changes in the new patient wait time \
+		given their assumptions on future referral patterns.
+	|
+
+AUD Referral Rate inferred from Data= INITIAL(
+	"AUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		)
+	~	pts/wk
+	~	Sets the base referral rate to ensure that the number of patients waiting \
+		to start Care Coordination is not increasing or decreasing, but reflects \
+		the new patient wait time estimated from the team's data.  This stable \
+		number of patients waiting to start allows the user to see the relative \
+		effects of their experiments on new patient wait time.
+	|
+
+AUD Rescheduling Rate=
+	AUD Appointments to Reschedule/AUD Time to Reschedule
+	~	appt/wk
+	~	The rescheduling rate depends on the total number of appointments to \
+		reschedule and the average time it takes to reschedule them.
+	|
+
+AUD Return Visit Interval= GAME (
+	0)
+	~	wks [0,?,1]
+	~	Desired return visit interval, regardless of whether or not the team has \
+		enough supply for the patient demand or the effect on new patient starts \
+		(default is to use team's data instead).
+	|
+
+"AUD Return Visit Interval (median)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B5')
+	~	wks [1,25,1]
+	~	The median return-to-clinic visit interval for care coordination visits \
+		with this team, calculated from the number of visits per patient over \
+		their entire engagement time. (wks)
+	|
+
+AUD RVI used when Booking=
+	IF THEN ELSE (AUD Return Visit Interval>0:AND:Time>Experiment Week,AUD Return Visit Interval\
+		,IF THEN ELSE(Use Team Data for Starting Rate or Return Visit Interval=1,AUD fRVI,"AUD Return Visit Interval (median)"\
+		))
+	~	wks
+	~	The team's goal to see each patient in this service once in every x weeks. \
+		The default value for return visit interval is based on the team's data, \
+		unless the team chooses to use the data for New Patient Start Rate \
+		instead. If the user inputs their desired RVI, then the model uses that \
+		value instead.
+	|
+
+AUD RVI used when Completing=
+	DELAY FIXED(AUD RVI used when Booking, AUD RVI used when Booking, AUD RVI used when Booking\
+		)
+	~	wks
+	~	Appointments are completed based on the RVI in use at the time they were \
+		booked.  Any change in the RVI does not affect appointments already \
+		booked, only appointments being booked (i.e., appointments are not \
+		cancelled and rescheduled when RVI changes).
+	|
+
+Sensitivity of Changes in Other MM Tasks Time on Missed Appointments= GAME (
+	1)
+	~	Dmnl [0,2,0.1]
+	~	The magnitude of the effect task time (e.g., time for appointment prep, \
+		follow-up, reminder calls) has on missed appointments.  A value of "zero" \
+		implies that there is no relationship between overbooks, provider fatigue, \
+		and missed appointments.  A value below 1 indicates that patients are not \
+		sensitive to small changes in task time; an exponent greater than 1 \
+		indicates that patients are very sensitive to small changes. Example: if a \
+		team is starts booking 20% more hours per week than their official supply, \
+		then an exponent of "1" would indicate that the ratio of missed \
+		appointments to all appointments would also be 20% higher than before the \
+		team started using overtime. A value of 0.5 would cause that same 20% \
+		increase in hours worked to increase in the missed appointment ratio by \
+		only 9.5%.  A value of 2 would cause that 20% increase to increase the \
+		missed appointment ratio by 44% compared to the initial value.
+	|
+
+AUD Sensitivity of Referrals to Wait Time= GAME (
+	1)
+	~	Dmnl [0,2,0.1]
+	~	The magnitude of the effect wait time has on the referral rate. A value of \
+		"zero" implies that there is no relationship between wait time, service \
+		attractiveness, and referral rate.  A value of "1" implies that a doubling \
+		of the new patient wait time over the target wait time will cause \
+		referring providers to cut their referral rate in half.  For the same \
+		situation, a value of "0.5" would reduce the referral rate to only 71% of \
+		its initial value, and a value of "1.5" would reduce the referral rate to \
+		35% of its initial value.
+	|
+
+"AUD Slots Allocation % (with X waiver)" =
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B13')
+	~	Dmnl
+	~	Percent of patients with each primary diagnosis (AUD, DEP, OUD, and \
+		OtherNeeds), based on team's own data.  These percentages are defined with \
+		all unique patients in set of clinics identified by team as primarliy MM \
+		AND where the primary provider HAS an X-Waiver in the denominator, and all \
+		unique patients with one of the four diagnosis types in the numberator.  \
+		These percentages sum to >1, as many patients have multiple diagnoses.
+	|
+
+"AUD Slots Allocation % (without X waiver)" =
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B14')
+	~	Dmnl
+	~	Percent of patients with each primary diagnosis (AUD, DEP, OUD, and \
+		OtherNeeds), based on team's own data.  These percentages are defined with \
+		all unique patients in set of clinics identified by team as primarliy MM \
+		AND where the primary provider DOES NOT HAVE an X-Waiver in the \
+		denominator, and all unique patients with one of the four diagnosis types \
+		in the numberator.  These percentages sum to >1, as many patients have \
+		multiple diagnoses.
+	|
+
+"AUD Slots Allocation (with X waiver)"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually set the % of the team's appointment slots allocated to each \
+		diagnosis, for clinics where the provider has a DEA X-Waiver. These values \
+		replaces the base case value, which is estimated from the team's data. Any \
+		set of percentages is possible, but they must sum to 1.
+	|
+
+"AUD Slots Allocation (without X waiver)"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually set the % of the team's appointment slots allocated to each \
+		diagnosis, for clinics where the provider does not have a DEA X-Waiver. \
+		These values replaces the base case value, which is estimated from the \
+		team's data. Any set of percentages is possible, but they must sum to 1.  \
+		For providers without X-Waivers, they should not allocate any time to OUD \
+		treatment, thus the value for the third % should always be zero.
+	|
+
+AUD Starting Rate=
+	MIN(
+	AUD Maximum Start Rate,AUD Appointments Available for New Patients*AUD Patients per Appointment\
+		)
+	~	pts/wk
+	~	The number of patients starting is a function the time the team allocates \
+		to care coordination and the number of patients already in care.  New \
+		patients can only start if there are more team hours available than all \
+		their current patients use.  The user can also fix the start rate to the \
+		average estimated from the team's data, which can be helpful in assessing \
+		the supply, RVI, true missed appointment %, etc., needed to match that \
+		real-world demand.
+	|
+
+"AUD Starting Rate (mean)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B1')
+	~	pts/wk
+	~	An estimate of the number of new patients starting with the team per week, \
+		calculated from the number of patients seen for care coordination in one \
+		year who have never had a care coordination visit with this team before. \
+		(pts/wk)
+	|
+
+AUD Target New Patient Wait Time=
+	IF THEN ELSE(AUD Target Wait Time=0, "AUD New Patient Wait Time (median)", IF THEN ELSE\
+		(Time<Experiment Week,"AUD New Patient Wait Time (median)"
+,AUD Target Wait Time))
+	~	wk
+	~	The acceptable average wait time for new patients to start Care \
+		Coordination, based on the team's data. The user can also enter their own \
+		new patient wait time goal.
+	|
+
+AUD Target Wait Time= GAME (
+	0)
+	~	wk [0,?,0.5]
+	~	The team's desired average wait time for new patients to Care Coordination \
+		(default is to use team's data instead).
+	|
+
+AUD Time to Perceive Wait Time=
+	4
+	~	wk
+	~	Time to measure, report, and respond to differences between desired and \
+		actual Return Visit Interval for a service. Set to 4 weeks, i.e., a \
+		monthly staff meeting update.
+	|
+
+AUD Time to Reschedule=
+	2
+	~	wk
+	~	Average time to reschedule an appointment that was missed is estimated at \
+		2 weeks, accounting for large variation in time to make productive contact \
+		with the patient and their availability.
+	|
+
+"AUD True Missed Appointment %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B3')
+	~	Dmnl [0,1,0.1]
+	~	The proportion of care coordination appointments with this team that   \
+		no-showed or were cancelled after the appointment was supposed to have \
+		happened. (pct)
+	|
+
+AUD True Missed Appointment Rate=
+	MAX(AUD Completing Rate*"Effect of \"Other MM Tasks Time\" on Missed Appointments"*"AUD Actual Missed Appointment %"
+	,0)
+	~	appt/wk
+	~	The number of appointments that must be re-scheduled, as either the \
+		clinician or the patient missed the appointment.  These missed \
+		appointments are affected by the baseline rate and changes in the time the \
+		team allocates to non-patient-facing care.  It is constrained from going \
+		below zero.
+	|
+
+Use Team Data for Starting Rate or Return Visit Interval= GAME (
+	0)
+	~	Dmnl [0,1,1]
+	~	Control what data are used in the simulation - Select 0 for "RVI" to \
+		prioritize existing patients, where the team first sees all existing \
+		patients at the RVI estimated from the data, and only starts as many new \
+		patients as there are remaining open slots (based on RVI, supply, and \
+		missed appointment data).  Select 1 for "New Patient Starts" to prioritize \
+		new patients, where the team first sees all new patients at the rate \
+		estimated from the data, and only sees existing patients at the RVI \
+		possible given the remaining open slots (based on start rate, supply, and \
+		missed appointment data).
+	|
+
+AUD User Median Engagement= GAME (
+	0)
+	~	wks [0,?]
+	~	Manually adjust the median number of weeks that patients receive care \
+		coordination visits with the team. (wks)
+	|
+
+"AUD User-defined Referral Rate"= GAME (
+	-0.5)
+	~	pts/wk [-0.5,?,0.5]
+	~	Manually adjust the new patient referral rate.
+	|
+
+"AUD User-defined True Missed Appointment %"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually adjust the proportion of total appointments that are missed and \
+		rescheduled (i.e., rework).  This value replaces the base case value, \
+		which is estimated from the team's data.
+	|
+
+AUD Waiting to Start= INTEG (
+	AUD Referral Rate-AUD Starting Rate,
+		AUD Initial Patients Waiting to Start)
+	~	pts
+	~	Total number of patients waiting to start care coordination.
+	|
+
+DEP Ratio of Appts for New Pts=
+	(DEP RVI used when Booking*(1-"DEP Actual Missed Appointment %"))
+	/
+	((DEP RVI used when Booking*(1-"DEP Actual Missed Appointment %"))+DEP RVI used when Booking\
+		+DEP Engagement Duration)
+	~	Dmnl
+	~		|
+
+OUD Ending Rate=
+	ZIDZ(OUD Patients in MM,OUD Engagement Duration)
+	~	pts/wk
+	~	The number of patients finishing the service is a function the number of \
+		patients in treatment and their median time in treatment.
+	|
+
+OUD Engagement Duration=
+	IF THEN ELSE(OUD User Median Engagement=0,OUD Median Engagement,IF THEN ELSE(Time<Experiment Week\
+		, OUD Median Engagement
+	,OUD User Median Engagement))
+	~	wks
+	~	The average patient engagement duration in Care Coordination, based on the \
+		team's data. The user can also enter their own value.  (wks)
+	|
+
+"DEP % Slots Allocated to Each Diagnosis (no X)" =
+	IF THEN ELSE ("DEP Slots Allocation (without X waiver)" >=0:AND:Time>Experiment Week\
+		,"DEP Slots Allocation (without X waiver)" , "DEP Normalized % Slots Allocated (no X w RVI)"\
+		 )
+	~	Dmnl
+	~	The allocation of slots is determined by the team's data (default), but \
+		can instead be set manually by users.
+	|
+
+"DEP % Slots Allocated to Each Diagnosis (w X)"=
+	IF THEN ELSE ("DEP Slots Allocation (with X waiver)" >=0:AND:Time>Experiment Week,"DEP Slots Allocation (with X waiver)"\
+		 , "DEP Normalized % Slots Allocated (w X w RVI)")
+	~	Dmnl
+	~	The allocation of slots is determined by the team's data (default), but \
+		can instead be set manually by users.
+	|
+
+"DEP Actual Missed Appointment %"=
+	IF THEN ELSE("DEP User-defined True Missed Appointment %"<0,"DEP True Missed Appointment %"\
+		,
+	IF THEN ELSE(Time<Experiment Week,"DEP True Missed Appointment %", "DEP User-defined True Missed Appointment %"\
+		))
+	~	Dmnl
+	~	The average percent of appointments missed, based on the team's data. The \
+		user can also enter their own percentage.  (pct)
+	|
+
+DEP Actual RVI=
+	MIN(IF THEN ELSE(DEP Appointments in MM<0.05,0.01, XIDZ(DEP Appointments in MM,DEP Completing Rate\
+		, 52)),52)
+	~	wk
+	~	The average wait time for new patients is based on the number of patients \
+		waiting and how many start care coordination each week (based on \
+		Little’s Law).  If there is more demand for completing appointments than \
+		there is available capacity, then actual return visit interval will \
+		increase, even if the desired RVI doesn't change.  If the completing \
+		appointment rate drops to zero, then the wait is technically infinite. In \
+		the model, appointments are never cancelled due to high wait times, but \
+		for ease of display, Actual RVI is capped at 12 months (52 weeks).
+	|
+
+DEP Additional Appointment Supply for New MM Patients= GAME (
+	0)
+	~	appt/wk [0,?,0.5]
+	~	Manually increase the clinical hours allocated specifically to new \
+		patients, where these "carve-out" appointments come directly from reducing \
+		appointment hours available for existing patients.
+	|
+
+DEP Appointments Available for New Patients=
+	MAX(DEP Current Appointment Supply-DEP Appointments for Existing Patients,0)
+	+STEP(DEP Additional Appointment Supply for New MM Patients,Experiment Week)
+	~	appt/wk
+	~	Appointments available for new patients is the remaining supply of \
+		appointments, after demand from existing patients is satisfied.  The user \
+		can also set aside ADDITIONAL appointments specifically for new patients.  \
+		It is constrained from going below zero.
+	|
+
+DEP Appointments for Existing Patients=
+	MIN(DEP Desired Appointment Completion Rate,DEP Current Appointment Supply)
+	~	appt/wk
+	~	Appointments for existing patients consume appointment supply. The number \
+		of appointments used each week is the lesser of the existing patient \
+		demand (based on the number of appointments booked and the desired return \
+		visit interval) or the supply of available appointments per week.
+	|
+
+DEP Appointments in MM= INTEG (
+	DEP Booking Rate+DEP Rescheduling Rate-DEP Completing Rate,
+		DEP Initial Appointments)
+	~	appt
+	~	Total number of appointments booked, initial value set 1, to show how the \
+		schedule fills up when the team books more appointments than they need to \
+		complete (based on the number of appointments on the books and the RVI \
+		used when booking them).
+	|
+
+DEP Appointments to Reschedule= INTEG (
+	DEP True Missed Appointment Rate-DEP Rescheduling Rate,
+		DEP True Missed Appointment Rate*DEP Time to Reschedule)
+	~	appt
+	~	The number of appointments to be rescheduled. This assumes that all missed \
+		appointments are eventually rescheduled.
+	|
+
+DEP Appt Completion Rate=
+	DEP Appts for Existing Pts
+	~	appt/wk
+	~		|
+
+DEP Appts for Existing Pts=
+	DEP Current Appointment Supply*DEP Ratio of Appts for Existing Pts
+	~	appt/wk
+	~		|
+
+DEP Appts for New Pts=
+	DEP Current Appointment Supply*DEP Ratio of Appts for New Pts
+	~	appt/wk
+	~		|
+
+DEP Booking Rate=
+	(DEP Starting Rate/DEP Patients per Appointment)
+	+
+	(ZIDZ(ZIDZ(DEP Patients in MM , DEP Patients per Appointment) , DEP RVI used when Booking\
+		))
+	~	appt/wk
+	~	The booking appointment rate depends on the number of existing patients \
+		seen by the team (i.e., the quotent of the total patients in care and \
+		their average return visit interval) and the number of new patients booked \
+		each week.
+	|
+
+DEP Completing Rate=
+	DEP Appointments for Existing Patients
+	~	appt/wk
+	~	The rate at which appointments are completed is the lesser of the existing \
+		patient demand for care (driven by the number of booked appointments and \
+		the revisit interval) or current supply of appointments per week.
+	|
+
+DEP Current Appointment Supply=
+	(("Appointment Supply (no X-Waiver)"*"DEP % Slots Allocated to Each Diagnosis (no X)"\
+		)
+	+
+	("Appointment Supply (with X-Waiver)"*"DEP % Slots Allocated to Each Diagnosis (w X)"\
+		))
+	
+	+STEP(DEP Overbooks ,Experiment Week)-DEP Additional Appointment Supply for New MM Patients
+	~	appt/wk
+	~	appts available for patient care depend on the total number of \
+		appointments offered, how those appointments are allocated across the \
+		diagnostic cohorts, and the additional appointments squeezed into the \
+		schedule through overbooking.
+	|
+
+DEP Desired Appointment Completion Rate=
+	ZIDZ(DEP Appointments in MM,DEP RVI used when Completing)
+	~	appt/wk
+	~	The desired completion rate depends on the number of appointments to \
+		complete and the return visit interval that was used when those \
+		appointments were booked.
+	|
+
+DEP Effect of Wait Time on Referrals=
+	MIN((XIDZ(DEP Perceived Wait Time , DEP Target New Patient Wait Time, 1))^-DEP Sensitivity of Referrals to Wait Time\
+		,1)
+	~	Dmnl
+	~	The effect new patient wait time has on referral rates. The deviation from \
+		the target wait time is adjusted by an exponent that reflects how \
+		sensitive providers' triage decisions are to changes in wait time. The \
+		negative sign on the exponent indicates that this is inversely coded, \
+		i.e., attractiveness drops as wait time increases. It is constrained from \
+		going above 1 (our assumption is that lower than expected new patient wait \
+		times do not increase referrals).
+	|
+
+DEP Ending Rate=
+	ZIDZ(DEP Patients in MM,DEP Engagement Duration)
+	~	pts/wk
+	~	The number of patients finishing the service is a function the number of \
+		patients in treatment and their median time in treatment.
+	|
+
+DEP Engagement Duration=
+	IF THEN ELSE(DEP User Median Engagement=0,DEP Median Engagement,IF THEN ELSE(Time<Experiment Week\
+		, DEP Median Engagement
+	,DEP User Median Engagement))
+	~	wks
+	~	The average patient engagement duration in Care Coordination, based on the \
+		team's data. The user can also enter their own value.  (wks)
+	|
+
+DEP fRVI= INITIAL(
+	DEP Engagement Duration/
+	(
+	(((DEP Patients per Appointment*DEP Current Appointment Supply)*(1-"DEP Actual Missed Appointment %"\
+		))/"DEP Starting Rate (mean)")
+	+"DEP Actual Missed Appointment %"-2
+	))
+	~	wks
+	~		|
+
+DEP Initial Appointments=
+	DEP Appt Completion Rate*DEP RVI used when Booking
+	~	appt
+	~		|
+
+DEP Initial Patients=
+	"DEP Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		*DEP Engagement Duration
+	~	pts
+	~		|
+
+DEP Initial Patients Waiting to Start=
+	"DEP Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		*DEP Target New Patient Wait Time
+	~	pts
+	~		|
+
+DEP Maximum Start Rate=
+	DEP Waiting to Start/DEP Minimum Time to Schedule
+	~	pts/wk
+	~	The maximum new patient start rate is determined by the new patient \
+		waiting list and minimum time to schedule patient appointments.
+	|
+
+DEP Median Engagement=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','C12')
+	~	wks [4,100,1]
+	~	The median number of weeks that patients stay engaged with the team, \
+		receiving care coordination visits according to team data. The visits can \
+		be with any member of the team.  This engagement time represents a \
+		patient's entire engagement in care coordination across treatment \
+		episodes,regardless of gaps in service. (wks)
+	|
+
+DEP Minimum Time to Schedule=
+	0.1
+	~	wk
+	~	The fastest possible time to schedule a new patient appointment.
+	|
+
+DEP New Patient Wait Time=
+	MIN(IF THEN ELSE(DEP Waiting to Start<0.05, 0.01, XIDZ(DEP Waiting to Start,DEP Starting Rate\
+		, 24)),24)
+	~	wk
+	~	The average wait time for new patients is based on the number of patients waiting \
+		and how many start care coordination each week (based on Little’s Law).  
+		This wait time is only useful when testing the effects of Wait Time on \
+		Referrals, or the effect of Additional Referrals. Otherwise, the model \
+		will adjust the number of referrals to maintain the desired new patient \
+		wait time (i.e., the team will only get as many referrals as they can \
+		handle).  If the new patient start rate drops to zero, then the wait is \
+		technically infinite, as no patients are leaving the queue. In the model, \
+		referrals are never discontinued due to high wait times, but for ease of \
+		display, new patient wait time is capped at 6 months (24 weeks). It is \
+		also constrained from going to zero as the number of patients waiting to \
+		start approaches zero.
+	|
+
+"DEP New Patient Wait Time (median)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','C7')
+	~	wk
+	~	An estimate of new patient wait time between their first care coordination   \
+		appointment being scheduled and that visit being completed with this team. \
+		(wks)
+	|
+
+"DEP Normalized % Patients by Diagnosis (no X)"=
+	ZIDZ("DEP Slots Allocation % (without X waiver)" 
+	,
+	"Total Slots Allocation % (without X waiver)")
+	~	Dmnl
+	~	The relative ratios of patients with each diagnosis, normalized to sum to \
+		100%.
+	|
+
+DEP Overbooks= GAME (
+	0)
+	~	appt/wk [0,?,1]
+	~	Manually adjust the number of additional appointments offered each week \
+		(over the official appointment capacity), with the assumption that these \
+		additional appointments come at the expense of non-patient facing care \
+		(e.g., team coordination, reminder calls, treatment planning, etc.).
+	|
+
+"DEP Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		=
+	DEP Appts for New Pts*DEP Patients per Appointment
+	~	pts/wk
+	~		|
+
+DEP Patients in MM= INTEG (
+	DEP Starting Rate-DEP Ending Rate,
+		DEP Initial Patients)
+	~	pts
+	~	Total number of patients in treatment, initially set to 1 patient, to show \
+		how the clinic fills up when the team has more hours available than their \
+		existing patients use.
+	|
+
+DEP Patients per Appointment=
+	1
+	~	pts/appt
+	~	Always 1 patient per appointment, except for group visits.
+	|
+
+DEP Perceived Wait Time=
+	SMOOTH(DEP New Patient Wait Time,DEP Time to Perceive Wait Time)
+	~	wk
+	~	Clinicians' perception of care delays for starting new patients.
+	|
+
+DEP Ratio of Appts for Existing Pts=
+	(DEP Engagement Duration+DEP RVI used when Booking)
+	/
+	((DEP RVI used when Booking*(1-"DEP Actual Missed Appointment %"))+DEP RVI used when Booking\
+		+DEP Engagement Duration)
+	~	Dmnl
+	~		|
+
+OtherNeeds Referral Rate=
+	IF THEN ELSE("OtherNeeds User-defined Referral Rate">0:AND:Time>Experiment Week, "OtherNeeds User-defined Referral Rate"\
+		, OtherNeeds Referral Rate inferred from Data)
+	
+	*OtherNeeds Effect of Wait Time on Referrals
+	~	pts/wk
+	~	The number of referrals cannot be directly estimated.  We use the team’s \
+		new patient wait time to estimate the referral rate, based on the starting \
+		rate and the number of patients in waiting to start.  That estimated \
+		referral rate is held constant after week zero, but can be affected by \
+		both the "Effect of Wait Time on Referrals" and any user input. This \
+		allows the user to observe relative changes in the new patient wait time \
+		given their assumptions on future referral patterns.
+	|
+
+DEP Referral Rate=
+	IF THEN ELSE("DEP User-defined Referral Rate">0:AND:Time>Experiment Week, "DEP User-defined Referral Rate"\
+		, DEP Referral Rate inferred from Data)
+	
+	*DEP Effect of Wait Time on Referrals
+	~	pts/wk
+	~	The number of referrals cannot be directly estimated.  We use the team’s \
+		new patient wait time to estimate the referral rate, based on the starting \
+		rate and the number of patients in waiting to start.  That estimated \
+		referral rate is held constant after week zero, but can be affected by \
+		both the "Effect of Wait Time on Referrals" and any user input. This \
+		allows the user to observe relative changes in the new patient wait time \
+		given their assumptions on future referral patterns.
+	|
+
+DEP Referral Rate inferred from Data= INITIAL(
+	"DEP Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		)
+	~	pts/wk
+	~	Sets the base referral rate to ensure that the number of patients waiting \
+		to start Care Coordination is not increasing or decreasing, but reflects \
+		the new patient wait time estimated from the team's data.  This stable \
+		number of patients waiting to start allows the user to see the relative \
+		effects of their experiments on new patient wait time.
+	|
+
+DEP Relative RVI=
+	ZIDZ("DEP Return Visit Interval (median)" 
+	,
+	Total RVI)
+	~	Dmnl
+	~	The relative RVI for each diagnosis, normalized to sum to 100%.
+	|
+
+DEP Rescheduling Rate=
+	DEP Appointments to Reschedule/DEP Time to Reschedule
+	~	appt/wk
+	~	The rescheduling rate depends on the total number of appointments to \
+		reschedule and the average time it takes to reschedule them.
+	|
+
+DEP Return Visit Interval= GAME (
+	0)
+	~	wks [0,?,1]
+	~	Desired return visit interval, regardless of whether or not the team has \
+		enough supply for the patient demand or the effect on new patient starts \
+		(default is to use team's data instead).
+	|
+
+"DEP Return Visit Interval (median)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','C5')
+	~	wks [1,25,1]
+	~	The median return-to-clinic visit interval for care coordination visits \
+		with this team, calculated from the number of visits per patient over \
+		their entire engagement time. (wks)
+	|
+
+DEP RVI used when Completing=
+	DELAY FIXED(DEP RVI used when Booking, DEP RVI used when Booking, DEP RVI used when Booking\
+		)
+	~	wks
+	~	Appointments are completed based on the RVI in use at the time they were \
+		booked.  Any change in the RVI does not affect appointments already \
+		booked, only appointments being booked (i.e., appointments are not \
+		cancelled and rescheduled when RVI changes).
+	|
+
+DEP Sensitivity of Referrals to Wait Time= GAME (
+	1)
+	~	Dmnl [0,2,0.1]
+	~	The magnitude of the effect wait time has on the referral rate. A value of \
+		"zero" implies that there is no relationship between wait time, service \
+		attractiveness, and referral rate.  A value of "1" implies that a doubling \
+		of the new patient wait time over the target wait time will cause \
+		referring providers to cut their referral rate in half.  For the same \
+		situation, a value of "0.5" would reduce the referral rate to only 71% of \
+		its initial value, and a value of "1.5" would reduce the referral rate to \
+		35% of its initial value.
+	|
+
+"DEP Slots Allocation % (with X waiver)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','C13')
+	~	Dmnl
+	~	Percent of patients with each primary diagnosis (AUD, DEP, OUD, and \
+		OtherNeeds), based on team's own data.  These percentages are defined with \
+		all unique patients in set of clinics identified by team as primarliy MM \
+		AND where the primary provider HAS an X-Waiver in the denominator, and all \
+		unique patients with one of the four diagnosis types in the numberator.  \
+		These percentages sum to >1, as many patients have multiple diagnoses.
+	|
+
+"DEP Slots Allocation % (without X waiver)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','C14')
+	~	Dmnl
+	~	Percent of patients with each primary diagnosis (AUD, DEP, OUD, and \
+		OtherNeeds), based on team's own data.  These percentages are defined with \
+		all unique patients in set of clinics identified by team as primarliy MM \
+		AND where the primary provider DOES NOT HAVE an X-Waiver in the \
+		denominator, and all unique patients with one of the four diagnosis types \
+		in the numberator.  These percentages sum to >1, as many patients have \
+		multiple diagnoses.
+	|
+
+"DEP Slots Allocation (with X waiver)"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually set the % of the team's appointment slots allocated to each \
+		diagnosis, for clinics where the provider has a DEA X-Waiver. These values \
+		replaces the base case value, which is estimated from the team's data. Any \
+		set of percentages is possible, but they must sum to 1.
+	|
+
+"DEP Slots Allocation (without X waiver)"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually set the % of the team's appointment slots allocated to each \
+		diagnosis, for clinics where the provider does not have a DEA X-Waiver. \
+		These values replaces the base case value, which is estimated from the \
+		team's data. Any set of percentages is possible, but they must sum to 1.  \
+		For providers without X-Waivers, they should not allocate any time to OUD \
+		treatment, thus the value for the third % should always be zero.
+	|
+
+DEP Starting Rate=
+	MIN(
+	DEP Maximum Start Rate,DEP Appointments Available for New Patients*DEP Patients per Appointment\
+		)
+	~	pts/wk
+	~	The number of patients starting is a function the time the team allocates \
+		to care coordination and the number of patients already in care.  New \
+		patients can only start if there are more team hours available than all \
+		their current patients use.  The user can also fix the start rate to the \
+		average estimated from the team's data, which can be helpful in assessing \
+		the supply, RVI, true missed appointment %, etc., needed to match that \
+		real-world demand.
+	|
+
+"DEP Starting Rate (mean)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','C1')
+	~	pts/wk
+	~	An estimate of the number of new patients starting with the team per week, \
+		calculated from the number of patients seen for care coordination in one \
+		year who have never had a care coordination visit with this team before. \
+		(pts/wk)
+	|
+
+DEP Target New Patient Wait Time=
+	IF THEN ELSE(DEP Target Wait Time=0, "DEP New Patient Wait Time (median)", IF THEN ELSE\
+		(Time<Experiment Week,"DEP New Patient Wait Time (median)"
+,DEP Target Wait Time))
+	~	wk
+	~	The acceptable average wait time for new patients to start Care \
+		Coordination, based on the team's data. The user can also enter their own \
+		new patient wait time goal.
+	|
+
+DEP Target Wait Time= GAME (
+	0)
+	~	wk [0,?,0.5]
+	~	The team's desired average wait time for new patients to Care Coordination \
+		(default is to use team's data instead).
+	|
+
+DEP Time to Perceive Wait Time=
+	4
+	~	wk
+	~	Time to measure, report, and respond to differences between desired and \
+		actual Return Visit Interval for a service. Set to 4 weeks, i.e., a \
+		monthly staff meeting update.
+	|
+
+DEP Time to Reschedule=
+	2
+	~	wk
+	~	Average time to reschedule an appointment that was missed is estimated at \
+		2 weeks, accounting for large variation in time to make productive contact \
+		with the patient and their availability.
+	|
+
+"DEP True Missed Appointment %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','C3')
+	~	Dmnl [0,1,0.1]
+	~	The proportion of care coordination appointments with this team that   \
+		no-showed or were cancelled after the appointment was supposed to have \
+		happened. (pct)
+	|
+
+DEP User Median Engagement= GAME (
+	0)
+	~	wks [0,?]
+	~	Manually adjust the median number of weeks that patients receive care \
+		coordination visits with the team. (wks)
+	|
+
+"DEP User-defined Referral Rate"= GAME (
+	-0.5)
+	~	pts/wk [-0.5,?,0.5]
+	~	Manually adjust the new patient referral rate.
+	|
+
+"DEP User-defined True Missed Appointment %"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually adjust the proportion of total appointments that are missed and \
+		rescheduled (i.e., rework).  This value replaces the base case value, \
+		which is estimated from the team's data.
+	|
+
+DEP Waiting to Start= INTEG (
+	DEP Referral Rate-DEP Starting Rate,
+		DEP Initial Patients Waiting to Start)
+	~	pts
+	~	Total number of patients waiting to start care coordination.
+	|
+
+"OUD % Slots Allocated to Each Diagnosis (w X)"=
+	IF THEN ELSE ("OUD Slots Allocation (with X waiver)" >=0:AND:Time>Experiment Week,"OUD Slots Allocation (with X waiver)"\
+		 , "OUD Normalized % Slots Allocated (w X w RVI)")
+	~	Dmnl
+	~	The allocation of slots is determined by the team's data (default), but \
+		can instead be set manually by users.
+	|
+
+"OUD Actual Missed Appointment %"=
+	IF THEN ELSE("OUD User-defined True Missed Appointment %"<0,"OUD True Missed Appointment %"\
+		,
+	IF THEN ELSE(Time<Experiment Week,"OUD True Missed Appointment %", "OUD User-defined True Missed Appointment %"\
+		))
+	~	Dmnl
+	~	The average percent of appointments missed, based on the team's data. The \
+		user can also enter their own percentage.  (pct)
+	|
+
+OUD Actual RVI=
+	MIN(IF THEN ELSE(OUD Appointments in MM<0.05,0.01, XIDZ(OUD Appointments in MM,OUD Completing Rate\
+		, 52)),52)
+	~	wk
+	~	The average wait time for new patients is based on the number of patients \
+		waiting and how many start care coordination each week (based on \
+		Little’s Law).  If there is more demand for completing appointments than \
+		there is available capacity, then actual return visit interval will \
+		increase, even if the desired RVI doesn't change.  If the completing \
+		appointment rate drops to zero, then the wait is technically infinite. In \
+		the model, appointments are never cancelled due to high wait times, but \
+		for ease of display, Actual RVI is capped at 12 months (52 weeks).
+	|
+
+OUD Additional Appointment Supply for New MM Patients= GAME (
+	0)
+	~	appt/wk [0,?,0.5]
+	~	Manually increase the clinical hours allocated specifically to new \
+		patients, where these "carve-out" appointments come directly from reducing \
+		appointment hours available for existing patients.
+	|
+
+OUD Appointments Available for New Patients=
+	MAX(OUD Current Appointment Supply-OUD Appointments for Existing Patients,0)
+	+STEP(OUD Additional Appointment Supply for New MM Patients,Experiment Week)
+	~	appt/wk
+	~	Appointments available for new patients is the remaining supply of \
+		appointments, after demand from existing patients is satisfied.  The user \
+		can also set aside ADDITIONAL appointments specifically for new patients.  \
+		It is constrained from going below zero.
+	|
+
+OUD Appointments for Existing Patients=
+	MIN(OUD Desired Appointment Completion Rate,OUD Current Appointment Supply)
+	~	appt/wk
+	~	Appointments for existing patients consume appointment supply. The number \
+		of appointments used each week is the lesser of the existing patient \
+		demand (based on the number of appointments booked and the desired return \
+		visit interval) or the supply of available appointments per week.
+	|
+
+Total RVI=
+	"AUD Return Visit Interval (median)"+"DEP Return Visit Interval (median)"+"OUD Return Visit Interval (median)"\
+		+"OtherNeeds Return Visit Interval (median)"
+	~	wks
+	~	Sum of all RVIs, used to normalize diagnostic cohort RVIs.
+	|
+
+"Total Slots Allocation % (with X waiver)"=
+	"AUD Slots Allocation % (with X waiver)"+"DEP Slots Allocation % (with X waiver)"+"OUD Slots Allocation % (with X waiver)"\
+		+"OtherNeeds Slots Allocation % (with X waiver)"
+	~	Dmnl
+	~	Sum of slot allocation %s for providers with an X waiver, used to \
+		normalize slot allocation %s for each diagnostic cohort.
+	|
+
+"Total Slots Allocation % (without X waiver)"=
+	"AUD Slots Allocation % (without X waiver)"+"DEP Slots Allocation % (without X waiver)"\
+		+"OUD Slots Allocation % (without X waiver)"+"OtherNeeds Slots Allocation % (without X waiver)"
+	~	Dmnl
+	~	Sum of slot allocation %s for providers without an X waiver, used to \
+		normalize slot allocation %s for each diagnostic cohort.
+	|
+
+OUD Booking Rate=
+	(OUD Starting Rate/OUD Patients per Appointment)
+	+
+	(ZIDZ(ZIDZ(OUD Patients in MM , OUD Patients per Appointment) , OUD RVI used when Booking\
+		))
+	~	appt/wk
+	~	The booking appointment rate depends on the number of existing patients \
+		seen by the team (i.e., the quotent of the total patients in care and \
+		their average return visit interval) and the number of new patients booked \
+		each week.
+	|
+
+OUD Completing Rate=
+	OUD Appointments for Existing Patients
+	~	appt/wk
+	~	The rate at which appointments are completed is the lesser of the existing \
+		patient demand for care (driven by the number of booked appointments and \
+		the revisit interval) or current supply of appointments per week.
+	|
+
+OUD Current Appointment Supply=
+	(("Appointment Supply (no X-Waiver)"*"OUD % Slots Allocated to Each Diagnosis (no X)"\
+		)
+	+
+	("Appointment Supply (with X-Waiver)"*"OUD % Slots Allocated to Each Diagnosis (w X)"\
+		))
+	
+	+STEP(OUD Overbooks ,Experiment Week)-OUD Additional Appointment Supply for New MM Patients
+	~	appt/wk
+	~	appts available for patient care depend on the total number of \
+		appointments offered, how those appointments are allocated across the \
+		diagnostic cohorts, and the additional appointments squeezed into the \
+		schedule through overbooking.
+	|
+
+OUD Desired Appointment Completion Rate=
+	ZIDZ(OUD Appointments in MM,OUD RVI used when Completing)
+	~	appt/wk
+	~	The desired completion rate depends on the number of appointments to \
+		complete and the return visit interval that was used when those \
+		appointments were booked.
+	|
+
+"OUD True Missed Appointment %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','D3')
+	~	Dmnl [0,1,0.1]
+	~	The proportion of care coordination appointments with this team that   \
+		no-showed or were cancelled after the appointment was supposed to have \
+		happened. (pct)
+	|
+
+OtherNeeds Referral Rate inferred from Data= INITIAL(
+	"OtherNeeds Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		)
+	~	pts/wk
+	~	Sets the base referral rate to ensure that the number of patients waiting \
+		to start Care Coordination is not increasing or decreasing, but reflects \
+		the new patient wait time estimated from the team's data.  This stable \
+		number of patients waiting to start allows the user to see the relative \
+		effects of their experiments on new patient wait time.
+	|
+
+OUD fRVI= INITIAL(
+	OUD Engagement Duration/
+	(
+	(((OUD Patients per Appointment*OUD Current Appointment Supply)*(1-"OUD Actual Missed Appointment %"\
+		))/"OUD Starting Rate (mean)")
+	+"OUD Actual Missed Appointment %"-2
+	))
+	~	wks
+	~		|
+
+OUD Initial Appointments=
+	OUD Appt Completion Rate*OUD RVI used when Booking
+	~	appt
+	~		|
+
+OUD Initial Patients=
+	"OUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		*OUD Engagement Duration
+	~	pts
+	~		|
+
+OUD Initial Patients Waiting to Start=
+	"OUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		*OUD Target New Patient Wait Time
+	~	pts
+	~		|
+
+OUD Maximum Start Rate=
+	OUD Waiting to Start/OUD Minimum Time to Schedule
+	~	pts/wk
+	~	The maximum new patient start rate is determined by the new patient \
+		waiting list and minimum time to schedule patient appointments.
+	|
+
+OUD Median Engagement=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','D12')
+	~	wks [4,100,1]
+	~	The median number of weeks that patients stay engaged with the team, \
+		receiving care coordination visits according to team data. The visits can \
+		be with any member of the team.  This engagement time represents a \
+		patient's entire engagement in care coordination across treatment \
+		episodes,regardless of gaps in service. (wks)
+	|
+
+OUD Minimum Time to Schedule=
+	0.1
+	~	wk
+	~	The fastest possible time to schedule a new patient appointment.
+	|
+
+OUD New Patient Wait Time=
+	MIN(IF THEN ELSE(OUD Waiting to Start<0.05, 0.01, XIDZ(OUD Waiting to Start,OUD Starting Rate\
+		, 24)),24)
+	~	wk
+	~	The average wait time for new patients is based on the number of patients waiting \
+		and how many start care coordination each week (based on Little’s Law).  
+		This wait time is only useful when testing the effects of Wait Time on \
+		Referrals, or the effect of Additional Referrals. Otherwise, the model \
+		will adjust the number of referrals to maintain the desired new patient \
+		wait time (i.e., the team will only get as many referrals as they can \
+		handle).  If the new patient start rate drops to zero, then the wait is \
+		technically infinite, as no patients are leaving the queue. In the model, \
+		referrals are never discontinued due to high wait times, but for ease of \
+		display, new patient wait time is capped at 6 months (24 weeks). It is \
+		also constrained from going to zero as the number of patients waiting to \
+		start approaches zero.
+	|
+
+"OUD New Patient Wait Time (median)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','D7')
+	~	wk
+	~	An estimate of new patient wait time between their first care coordination   \
+		appointment being scheduled and that visit being completed with this team. \
+		(wks)
+	|
+
+"OUD Normalized % Patients by Diagnosis (no X)"=
+	ZIDZ("OUD Slots Allocation % (without X waiver)" 
+	,
+	"Total Slots Allocation % (without X waiver)")
+	~	Dmnl
+	~	The relative ratios of patients with each diagnosis, normalized to sum to \
+		100%.
+	|
+
+OUD Overbooks= GAME (
+	0)
+	~	appt/wk [0,?,1]
+	~	Manually adjust the number of additional appointments offered each week \
+		(over the official appointment capacity), with the assumption that these \
+		additional appointments come at the expense of non-patient facing care \
+		(e.g., team coordination, reminder calls, treatment planning, etc.).
+	|
+
+"OUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		=
+	OUD Appts for New Pts*OUD Patients per Appointment
+	~	pts/wk
+	~		|
+
+OUD Patients per Appointment=
+	1
+	~	pts/appt
+	~	Always 1 patient per appointment, except for group visits.
+	|
+
+OtherNeeds Effect of Wait Time on Referrals=
+	MIN((XIDZ(OtherNeeds Perceived Wait Time , OtherNeeds Target New Patient Wait Time, \
+		1))^-OtherNeeds Sensitivity of Referrals to Wait Time,1)
+	~	Dmnl
+	~	The effect new patient wait time has on referral rates. The deviation from \
+		the target wait time is adjusted by an exponent that reflects how \
+		sensitive providers' triage decisions are to changes in wait time. The \
+		negative sign on the exponent indicates that this is inversely coded, \
+		i.e., attractiveness drops as wait time increases. It is constrained from \
+		going above 1 (our assumption is that lower than expected new patient wait \
+		times do not increase referrals).
+	|
+
+OtherNeeds Ending Rate=
+	ZIDZ(OtherNeeds Patients in MM,OtherNeeds Engagement Duration)
+	~	pts/wk
+	~	The number of patients finishing the service is a function the number of \
+		patients in treatment and their median time in treatment.
+	|
+
+OtherNeeds Engagement Duration=
+	IF THEN ELSE(OtherNeeds User Median Engagement=0,OtherNeeds Median Engagement,IF THEN ELSE\
+		(Time<Experiment Week, OtherNeeds Median Engagement
+	,OtherNeeds User Median Engagement))
+	~	wks
+	~	The average patient engagement duration in Care Coordination, based on the \
+		team's data. The user can also enter their own value.  (wks)
+	|
+
+OtherNeeds fRVI= INITIAL(
+	OtherNeeds Engagement Duration/
+	(
+	(((OtherNeeds Patients per Appointment*OtherNeeds Current Appointment Supply)*(1-"OtherNeeds Actual Missed Appointment %"\
+		))/"OtherNeeds Starting Rate (mean)")
+	+"OtherNeeds Actual Missed Appointment %"-2
+	))
+	~	wks
+	~		|
+
+OtherNeeds Initial Appointments=
+	OtherNeeds Appt Completion Rate*OtherNeeds RVI used when Booking
+	~	appt
+	~		|
+
+OtherNeeds Initial Patients=
+	"OtherNeeds Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		*OtherNeeds Engagement Duration
+	~	pts
+	~		|
+
+OtherNeeds Initial Patients Waiting to Start=
+	"OtherNeeds Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		*OtherNeeds Target New Patient Wait Time
+	~	pts
+	~		|
+
+OtherNeeds Maximum Start Rate=
+	OtherNeeds Waiting to Start/OtherNeeds Minimum Time to Schedule
+	~	pts/wk
+	~	The maximum new patient start rate is determined by the new patient \
+		waiting list and minimum time to schedule patient appointments.
+	|
+
+OtherNeeds Median Engagement=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','E12')
+	~	wks [4,100,1]
+	~	The median number of weeks that patients stay engaged with the team, \
+		receiving care coordination visits according to team data. The visits can \
+		be with any member of the team.  This engagement time represents a \
+		patient's entire engagement in care coordination across treatment \
+		episodes,regardless of gaps in service. (wks)
+	|
+
+OtherNeeds Minimum Time to Schedule=
+	0.1
+	~	wk
+	~	The fastest possible time to schedule a new patient appointment.
+	|
+
+OtherNeeds New Patient Wait Time=
+	MIN(IF THEN ELSE(OtherNeeds Waiting to Start<0.05, 0.01, XIDZ(OtherNeeds Waiting to Start\
+		,OtherNeeds Starting Rate, 24)),24)
+	~	wk
+	~	The average wait time for new patients is based on the number of patients waiting \
+		and how many start care coordination each week (based on Little’s Law).  
+		This wait time is only useful when testing the effects of Wait Time on \
+		Referrals, or the effect of Additional Referrals. Otherwise, the model \
+		will adjust the number of referrals to maintain the desired new patient \
+		wait time (i.e., the team will only get as many referrals as they can \
+		handle).  If the new patient start rate drops to zero, then the wait is \
+		technically infinite, as no patients are leaving the queue. In the model, \
+		referrals are never discontinued due to high wait times, but for ease of \
+		display, new patient wait time is capped at 6 months (24 weeks). It is \
+		also constrained from going to zero as the number of patients waiting to \
+		start approaches zero.
+	|
+
+"OtherNeeds New Patient Wait Time (median)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','E7')
+	~	wk
+	~	An estimate of new patient wait time between their first care coordination   \
+		appointment being scheduled and that visit being completed with this team. \
+		(wks)
+	|
+
+"OtherNeeds Normalized % Patients by Diagnosis (no X)"=
+	ZIDZ("OtherNeeds Slots Allocation % (without X waiver)" 
+	,
+	"Total Slots Allocation % (without X waiver)")
+	~	Dmnl
+	~	The relative ratios of patients with each diagnosis, normalized to sum to \
+		100%.
+	|
+
+OtherNeeds Overbooks= GAME (
+	0)
+	~	appt/wk [0,?,1]
+	~	Manually adjust the number of additional appointments offered each week \
+		(over the official appointment capacity), with the assumption that these \
+		additional appointments come at the expense of non-patient facing care \
+		(e.g., team coordination, reminder calls, treatment planning, etc.).
+	|
+
+"OtherNeeds Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		=
+	OtherNeeds Appts for New Pts*OtherNeeds Patients per Appointment
+	~	pts/wk
+	~		|
+
+OtherNeeds Patients in MM= INTEG (
+	OtherNeeds Starting Rate-OtherNeeds Ending Rate,
+		OtherNeeds Initial Patients)
+	~	pts
+	~	Total number of patients in treatment, initially set to 1 patient, to show \
+		how the clinic fills up when the team has more hours available than their \
+		existing patients use.
+	|
+
+OtherNeeds Patients per Appointment=
+	1
+	~	pts/appt
+	~	Always 1 patient per appointment, except for group visits.
+	|
+
+OtherNeeds Perceived Wait Time=
+	SMOOTH(OtherNeeds New Patient Wait Time,OtherNeeds Time to Perceive Wait Time)
+	~	wk
+	~	Clinicians' perception of care delays for starting new patients.
+	|
+
+OtherNeeds Ratio of Appts for Existing Pts=
+	(OtherNeeds Engagement Duration+OtherNeeds RVI used when Booking)
+	/
+	((OtherNeeds RVI used when Booking*(1-"OtherNeeds Actual Missed Appointment %"))+OtherNeeds RVI used when Booking\
+		+OtherNeeds Engagement Duration)
+	~	Dmnl
+	~		|
+
+OtherNeeds Ratio of Appts for New Pts=
+	(OtherNeeds RVI used when Booking*(1-"OtherNeeds Actual Missed Appointment %"))
+	/
+	((OtherNeeds RVI used when Booking*(1-"OtherNeeds Actual Missed Appointment %"))+OtherNeeds RVI used when Booking\
+		+OtherNeeds Engagement Duration)
+	~	Dmnl
+	~		|
+
+OtherNeeds Relative RVI=
+	ZIDZ("OtherNeeds Return Visit Interval (median)" 
+	,
+	Total RVI)
+	~	Dmnl
+	~	The relative RVI for each diagnosis, normalized to sum to 100%.
+	|
+
+OtherNeeds Rescheduling Rate=
+	OtherNeeds Appointments to Reschedule/OtherNeeds Time to Reschedule
+	~	appt/wk
+	~	The rescheduling rate depends on the total number of appointments to \
+		reschedule and the average time it takes to reschedule them.
+	|
+
+OtherNeeds Return Visit Interval= GAME (
+	0)
+	~	wks [0,?,1]
+	~	Desired return visit interval, regardless of whether or not the team has \
+		enough supply for the patient demand or the effect on new patient starts \
+		(default is to use team's data instead).
+	|
+
+"OtherNeeds Return Visit Interval (median)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','E5')
+	~	wks [1,25,1]
+	~	The median return-to-clinic visit interval for care coordination visits \
+		with this team, calculated from the number of visits per patient over \
+		their entire engagement time. (wks)
+	|
+
+OtherNeeds RVI used when Completing=
+	DELAY FIXED(OtherNeeds RVI used when Booking, OtherNeeds RVI used when Booking, OtherNeeds RVI used when Booking\
+		)
+	~	wks
+	~	Appointments are completed based on the RVI in use at the time they were \
+		booked.  Any change in the RVI does not affect appointments already \
+		booked, only appointments being booked (i.e., appointments are not \
+		cancelled and rescheduled when RVI changes).
+	|
+
+OtherNeeds Sensitivity of Referrals to Wait Time= GAME (
+	1)
+	~	Dmnl [0,2,0.1]
+	~	The magnitude of the effect wait time has on the referral rate. A value of \
+		"zero" implies that there is no relationship between wait time, service \
+		attractiveness, and referral rate.  A value of "1" implies that a doubling \
+		of the new patient wait time over the target wait time will cause \
+		referring providers to cut their referral rate in half.  For the same \
+		situation, a value of "0.5" would reduce the referral rate to only 71% of \
+		its initial value, and a value of "1.5" would reduce the referral rate to \
+		35% of its initial value.
+	|
+
+"OtherNeeds Slots Allocation % (with X waiver)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','E13')
+	~	Dmnl
+	~	Percent of patients with each primary diagnosis (AUD, DEP, OUD, and \
+		OtherNeeds), based on team's own data.  These percentages are defined with \
+		all unique patients in set of clinics identified by team as primarliy MM \
+		AND where the primary provider HAS an X-Waiver in the denominator, and all \
+		unique patients with one of the four diagnosis types in the numberator.  \
+		These percentages sum to >1, as many patients have multiple diagnoses.
+	|
+
+"OtherNeeds Slots Allocation % (without X waiver)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','E14')
+	~	Dmnl
+	~	Percent of patients with each primary diagnosis (AUD, DEP, OUD, and \
+		OtherNeeds), based on team's own data.  These percentages are defined with \
+		all unique patients in set of clinics identified by team as primarliy MM \
+		AND where the primary provider DOES NOT HAVE an X-Waiver in the \
+		denominator, and all unique patients with one of the four diagnosis types \
+		in the numberator.  These percentages sum to >1, as many patients have \
+		multiple diagnoses.
+	|
+
+"OtherNeeds Slots Allocation (with X waiver)"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually set the % of the team's appointment slots allocated to each \
+		diagnosis, for clinics where the provider has a DEA X-Waiver. These values \
+		replaces the base case value, which is estimated from the team's data. Any \
+		set of percentages is possible, but they must sum to 1.
+	|
+
+"OtherNeeds Slots Allocation (without X waiver)"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually set the % of the team's appointment slots allocated to each \
+		diagnosis, for clinics where the provider does not have a DEA X-Waiver. \
+		These values replaces the base case value, which is estimated from the \
+		team's data. Any set of percentages is possible, but they must sum to 1.  \
+		For providers without X-Waivers, they should not allocate any time to OUD \
+		treatment, thus the value for the third % should always be zero.
+	|
+
+OtherNeeds Starting Rate=
+	MIN(
+	OtherNeeds Maximum Start Rate,OtherNeeds Appointments Available for New Patients*OtherNeeds Patients per Appointment\
+		)
+	~	pts/wk
+	~	The number of patients starting is a function the time the team allocates \
+		to care coordination and the number of patients already in care.  New \
+		patients can only start if there are more team hours available than all \
+		their current patients use.  The user can also fix the start rate to the \
+		average estimated from the team's data, which can be helpful in assessing \
+		the supply, RVI, true missed appointment %, etc., needed to match that \
+		real-world demand.
+	|
+
+"OtherNeeds Starting Rate (mean)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','E1')
+	~	pts/wk
+	~	An estimate of the number of new patients starting with the team per week, \
+		calculated from the number of patients seen for care coordination in one \
+		year who have never had a care coordination visit with this team before. \
+		(pts/wk)
+	|
+
+OtherNeeds Target New Patient Wait Time=
+	IF THEN ELSE(OtherNeeds Target Wait Time=0, "OtherNeeds New Patient Wait Time (median)"\
+		, IF THEN ELSE(Time<Experiment Week,"OtherNeeds New Patient Wait Time (median)"
+,OtherNeeds Target Wait Time))
+	~	wk
+	~	The acceptable average wait time for new patients to start Care \
+		Coordination, based on the team's data. The user can also enter their own \
+		new patient wait time goal.
+	|
+
+OtherNeeds Target Wait Time= GAME (
+	0)
+	~	wk [0,?,0.5]
+	~	The team's desired average wait time for new patients to Care Coordination \
+		(default is to use team's data instead).
+	|
+
+OtherNeeds Time to Perceive Wait Time=
+	4
+	~	wk
+	~	Time to measure, report, and respond to differences between desired and \
+		actual Return Visit Interval for a service. Set to 4 weeks, i.e., a \
+		monthly staff meeting update.
+	|
+
+OtherNeeds Time to Reschedule=
+	2
+	~	wk
+	~	Average time to reschedule an appointment that was missed is estimated at \
+		2 weeks, accounting for large variation in time to make productive contact \
+		with the patient and their availability.
+	|
+
+"OtherNeeds True Missed Appointment %"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','E3')
+	~	Dmnl [0,1,0.1]
+	~	The proportion of care coordination appointments with this team that   \
+		no-showed or were cancelled after the appointment was supposed to have \
+		happened. (pct)
+	|
+
+OUD Time to Reschedule=
+	2
+	~	wk
+	~	Average time to reschedule an appointment that was missed is estimated at \
+		2 weeks, accounting for large variation in time to make productive contact \
+		with the patient and their availability.
+	|
+
+OtherNeeds User Median Engagement= GAME (
+	0)
+	~	wks [0,?]
+	~	Manually adjust the median number of weeks that patients receive care \
+		coordination visits with the team. (wks)
+	|
+
+"OtherNeeds User-defined Referral Rate"= GAME (
+	-0.5)
+	~	pts/wk [-0.5,?,0.5]
+	~	Manually adjust the new patient referral rate.
+	|
+
+"OtherNeeds User-defined True Missed Appointment %"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually adjust the proportion of total appointments that are missed and \
+		rescheduled (i.e., rework).  This value replaces the base case value, \
+		which is estimated from the team's data.
+	|
+
+OtherNeeds Waiting to Start= INTEG (
+	OtherNeeds Referral Rate-OtherNeeds Starting Rate,
+		OtherNeeds Initial Patients Waiting to Start)
+	~	pts
+	~	Total number of patients waiting to start care coordination.
+	|
+
+"OUD % Slots Allocated to Each Diagnosis (no X)" =
+	IF THEN ELSE ("OUD Slots Allocation (without X waiver)" >=0:AND:Time>Experiment Week\
+		,"OUD Slots Allocation (without X waiver)" , "OUD Normalized % Slots Allocated (no X w RVI)"\
+		 )
+	~	Dmnl
+	~	The allocation of slots is determined by the team's data (default), but \
+		can instead be set manually by users.
+	|
+
+"OUD Return Visit Interval (median)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','D5')
+	~	wks [1,25,1]
+	~	The median return-to-clinic visit interval for care coordination visits \
+		with this team, calculated from the number of visits per patient over \
+		their entire engagement time. (wks)
+	|
+
+OUD RVI used when Completing=
+	DELAY FIXED(OUD RVI used when Booking, OUD RVI used when Booking, OUD RVI used when Booking\
+		)
+	~	wks
+	~	Appointments are completed based on the RVI in use at the time they were \
+		booked.  Any change in the RVI does not affect appointments already \
+		booked, only appointments being booked (i.e., appointments are not \
+		cancelled and rescheduled when RVI changes).
+	|
+
+OUD Sensitivity of Referrals to Wait Time= GAME (
+	1)
+	~	Dmnl [0,2,0.1]
+	~	The magnitude of the effect wait time has on the referral rate. A value of \
+		"zero" implies that there is no relationship between wait time, service \
+		attractiveness, and referral rate.  A value of "1" implies that a doubling \
+		of the new patient wait time over the target wait time will cause \
+		referring providers to cut their referral rate in half.  For the same \
+		situation, a value of "0.5" would reduce the referral rate to only 71% of \
+		its initial value, and a value of "1.5" would reduce the referral rate to \
+		35% of its initial value.
+	|
+
+"OUD Slots Allocation % (with X waiver)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','D13')
+	~	Dmnl
+	~	Percent of patients with each primary diagnosis (AUD, DEP, OUD, and \
+		OtherNeeds), based on team's own data.  These percentages are defined with \
+		all unique patients in set of clinics identified by team as primarliy MM \
+		AND where the primary provider HAS an X-Waiver in the denominator, and all \
+		unique patients with one of the four diagnosis types in the numberator.  \
+		These percentages sum to >1, as many patients have multiple diagnoses.
+	|
+
+OUD Appointments in MM= INTEG (
+	OUD Booking Rate+OUD Rescheduling Rate-OUD Completing Rate,
+		OUD Initial Appointments)
+	~	appt
+	~	Total number of appointments booked, initial value set 1, to show how the \
+		schedule fills up when the team books more appointments than they need to \
+		complete (based on the number of appointments on the books and the RVI \
+		used when booking them).
+	|
+
+OUD Appointments to Reschedule= INTEG (
+	OUD True Missed Appointment Rate-OUD Rescheduling Rate,
+		OUD True Missed Appointment Rate*OUD Time to Reschedule)
+	~	appt
+	~	The number of appointments to be rescheduled. This assumes that all missed \
+		appointments are eventually rescheduled.
+	|
+
+OUD Appt Completion Rate=
+	OUD Appts for Existing Pts
+	~	appt/wk
+	~		|
+
+OUD Appts for Existing Pts=
+	OUD Current Appointment Supply*OUD Ratio of Appts for Existing Pts
+	~	appt/wk
+	~		|
+
+OUD Appts for New Pts=
+	OUD Current Appointment Supply*OUD Ratio of Appts for New Pts
+	~	appt/wk
+	~		|
+
+OUD Target New Patient Wait Time=
+	IF THEN ELSE(OUD Target Wait Time=0, "OUD New Patient Wait Time (median)", IF THEN ELSE\
+		(Time<Experiment Week,"OUD New Patient Wait Time (median)"
+,OUD Target Wait Time))
+	~	wk
+	~	The acceptable average wait time for new patients to start Care \
+		Coordination, based on the team's data. The user can also enter their own \
+		new patient wait time goal.
+	|
+
+OUD Target Wait Time= GAME (
+	0)
+	~	wk [0,?,0.5]
+	~	The team's desired average wait time for new patients to Care Coordination \
+		(default is to use team's data instead).
+	|
+
+OUD Time to Perceive Wait Time=
+	4
+	~	wk
+	~	Time to measure, report, and respond to differences between desired and \
+		actual Return Visit Interval for a service. Set to 4 weeks, i.e., a \
+		monthly staff meeting update.
+	|
+
+"OUD User-defined Referral Rate"= GAME (
+	-0.5)
+	~	pts/wk [-0.5,?,0.5]
+	~	Manually adjust the new patient referral rate.
+	|
+
+OUD Perceived Wait Time=
+	SMOOTH(OUD New Patient Wait Time,OUD Time to Perceive Wait Time)
+	~	wk
+	~	Clinicians' perception of care delays for starting new patients.
+	|
+
+OUD Ratio of Appts for Existing Pts=
+	(OUD Engagement Duration+OUD RVI used when Booking)
+	/
+	((OUD RVI used when Booking*(1-"OUD Actual Missed Appointment %"))+OUD RVI used when Booking\
+		+OUD Engagement Duration)
+	~	Dmnl
+	~		|
+
+OUD User Median Engagement= GAME (
+	0)
+	~	wks [0,?]
+	~	Manually adjust the median number of weeks that patients receive care \
+		coordination visits with the team. (wks)
+	|
+
+OUD Patients in MM= INTEG (
+	OUD Starting Rate-OUD Ending Rate,
+		OUD Initial Patients)
+	~	pts
+	~	Total number of patients in treatment, initially set to 1 patient, to show \
+		how the clinic fills up when the team has more hours available than their \
+		existing patients use.
+	|
+
+"OUD User-defined True Missed Appointment %"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually adjust the proportion of total appointments that are missed and \
+		rescheduled (i.e., rework).  This value replaces the base case value, \
+		which is estimated from the team's data.
+	|
+
+OUD Waiting to Start= INTEG (
+	OUD Referral Rate-OUD Starting Rate,
+		OUD Initial Patients Waiting to Start)
+	~	pts
+	~	Total number of patients waiting to start care coordination.
+	|
+
+OUD Return Visit Interval= GAME (
+	0)
+	~	wks [0,?,1]
+	~	Desired return visit interval, regardless of whether or not the team has \
+		enough supply for the patient demand or the effect on new patient starts \
+		(default is to use team's data instead).
+	|
+
+OUD Ratio of Appts for New Pts=
+	(OUD RVI used when Booking*(1-"OUD Actual Missed Appointment %"))
+	/
+	((OUD RVI used when Booking*(1-"OUD Actual Missed Appointment %"))+OUD RVI used when Booking\
+		+OUD Engagement Duration)
+	~	Dmnl
+	~		|
+
+"OUD Slots Allocation % (without X waiver)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','D14')
+	~	Dmnl
+	~	Percent of patients with each primary diagnosis (AUD, DEP, OUD, and \
+		OtherNeeds), based on team's own data.  These percentages are defined with \
+		all unique patients in set of clinics identified by team as primarliy MM \
+		AND where the primary provider DOES NOT HAVE an X-Waiver in the \
+		denominator, and all unique patients with one of the four diagnosis types \
+		in the numberator.  These percentages sum to >1, as many patients have \
+		multiple diagnoses.
+	|
+
+"OUD Slots Allocation (without X waiver)"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually set the % of the team's appointment slots allocated to each \
+		diagnosis, for clinics where the provider does not have a DEA X-Waiver. \
+		These values replaces the base case value, which is estimated from the \
+		team's data. Any set of percentages is possible, but they must sum to 1.  \
+		For providers without X-Waivers, they should not allocate any time to OUD \
+		treatment, thus the value for the third % should always be zero.
+	|
+
+OUD Starting Rate=
+	MIN(
+	OUD Maximum Start Rate,OUD Appointments Available for New Patients*OUD Patients per Appointment\
+		)
+	~	pts/wk
+	~	The number of patients starting is a function the time the team allocates \
+		to care coordination and the number of patients already in care.  New \
+		patients can only start if there are more team hours available than all \
+		their current patients use.  The user can also fix the start rate to the \
+		average estimated from the team's data, which can be helpful in assessing \
+		the supply, RVI, true missed appointment %, etc., needed to match that \
+		real-world demand.
+	|
+
+"OUD Starting Rate (mean)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','D1')
+	~	pts/wk
+	~	An estimate of the number of new patients starting with the team per week, \
+		calculated from the number of patients seen for care coordination in one \
+		year who have never had a care coordination visit with this team before. \
+		(pts/wk)
+	|
+
+OUD Referral Rate inferred from Data= INITIAL(
+	"OUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"\
+		)
+	~	pts/wk
+	~	Sets the base referral rate to ensure that the number of patients waiting \
+		to start Care Coordination is not increasing or decreasing, but reflects \
+		the new patient wait time estimated from the team's data.  This stable \
+		number of patients waiting to start allows the user to see the relative \
+		effects of their experiments on new patient wait time.
+	|
+
+OUD Referral Rate=
+	IF THEN ELSE("OUD User-defined Referral Rate">0:AND:Time>Experiment Week, "OUD User-defined Referral Rate"\
+		, OUD Referral Rate inferred from Data)
+	
+	*OUD Effect of Wait Time on Referrals
+	~	pts/wk
+	~	The number of referrals cannot be directly estimated.  We use the team’s \
+		new patient wait time to estimate the referral rate, based on the starting \
+		rate and the number of patients in waiting to start.  That estimated \
+		referral rate is held constant after week zero, but can be affected by \
+		both the "Effect of Wait Time on Referrals" and any user input. This \
+		allows the user to observe relative changes in the new patient wait time \
+		given their assumptions on future referral patterns.
+	|
+
+OUD Rescheduling Rate=
+	OUD Appointments to Reschedule/OUD Time to Reschedule
+	~	appt/wk
+	~	The rescheduling rate depends on the total number of appointments to \
+		reschedule and the average time it takes to reschedule them.
+	|
+
+OUD Relative RVI=
+	ZIDZ("OUD Return Visit Interval (median)" 
+	,
+	Total RVI)
+	~	Dmnl
+	~	The relative RVI for each diagnosis, normalized to sum to 100%.
+	|
+
+"OUD Slots Allocation (with X waiver)"= GAME (
+	-0.01)
+	~	Dmnl [-0.01,1,0.01]
+	~	Manually set the % of the team's appointment slots allocated to each \
+		diagnosis, for clinics where the provider has a DEA X-Waiver. These values \
+		replaces the base case value, which is estimated from the team's data. Any \
+		set of percentages is possible, but they must sum to 1.
+	|
+
+"% Appointment Slots Where Provider has X-Waiver"= GAME (
+	-0.05)
+	~	Dmnl [-0.05,1,0.05]
+	~	Manually set the % of the team's total appointment slots where the \
+		provider has an X-Waiver. This value replaces the base case value, which \
+		is estimated from the team's data.
+	|
+
+"Appointment Slots % (with X waiver)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B15')
+	~	Dmnl [0,1]
+	~	The % of appointment slots where the provider has the DEA X-Waiver, \
+		allowing those slots to potentially be used to provide effective OUD \
+		therapy.
+	|
+
+Appointment Supply= GAME (
+	-1)
+	~	appt/wk [-1,?,1]
+	~	Manually adjust the number of official appointments offered for Medication \
+		Management, with the assumption that these appoints come at the expense of \
+		appointments offered for other services.
+	|
+
+"Appointment Supply (75th Percentile)"=
+	GET DIRECT CONSTANTS('ModelParameters.xlsx','MMParams','B10')
+	~	appt/wk
+	~	The baseline number of the appointments offered by all providers in the \
+		team, taken from the team's data. However, the number of appointments \
+		offered specifically for this service is currently unmeasurable.  We \
+		estimate the available supply from the upper quartile of appointments \
+		completed each week for this service.
+	|
+
+"Appointment Supply (no X-Waiver)"=
+	Official Total Appointment Supply*(1-"Proportion of Appointment Slots where Provider has X-Waiver"\
+		)
+	~	appt/wk
+	~	The baseline number of the appointments offered each week by providers who \
+		do NOT have a DEA X-Waiver.
+	|
+
+"Appointment Supply (with X-Waiver)"=
+	Official Total Appointment Supply*"Proportion of Appointment Slots where Provider has X-Waiver"
+	~	appt/wk
+	~	The number of the appointments offered each week by providers who have a \
+		DEA X-Waiver.
+	|
+
+Official Total Appointment Supply=
+	IF THEN ELSE (Appointment Supply>=0:AND:Time>Experiment Week,Appointment Supply, "Appointment Supply (75th Percentile)"\
+		)
+	~	appt/wk
+	~	The total number of official Medication Management appointments offered by \
+		the team each week.
+	|
+
+"Proportion of Appointment Slots where Provider has X-Waiver"=
+	IF THEN ELSE ("% Appointment Slots Where Provider has X-Waiver">=0:AND:Time>Experiment Week\
+		,"% Appointment Slots Where Provider has X-Waiver", "Appointment Slots % (with X waiver)"\
+		)
+	~	Dmnl
+	~	The % of appointment slots where the provider has the DEA X-Waiver.  \
+		Default value estimated from the team's data, but can by set to any % by \
+		the user.
+	|
+
+Experiment Week=
+	0
+	~	wk [0,200,25]
+	~	The time when user changes to experiment parameters take effect.
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 104
+	~	wk
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = -13
+	~	wk
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	wk [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.0625
+	~	wk [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Model
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,80,0
+10,1,"DEP Slots Allocation % (without X waiver)",-875,1113,75,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,2,Experiment Week,-809,-599,58,11,8,3,3,0,0,0,0,0
+10,3,"Appointment Supply (no X-Waiver)",-949,-483,68,20,8,3,0,0,0,0,0,0
+10,4,"% Appointment Slots Where Provider has X-Waiver",-441,-396,70,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,5,"Appointment Supply (with X-Waiver)",-662,-486,68,20,8,3,0,0,0,0,0,0
+10,6,Appointment Supply,-1133,-392,44,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,7,"Proportion of Appointment Slots where Provider has X-Waiver",-661,-396,89,30,8,3,0,0,0,0,0,0
+10,8,"Appointment Supply (75th Percentile)",-949,-318,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,9,7,3,0,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(-809,-440)|
+1,10,7,5,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-626,-441)|
+10,11,"Appointment Slots % (with X waiver)",-662,-303,70,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,12,4,7,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-534,-396)|
+1,13,11,7,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-661,-337)|
+10,14,Time,-810,-342,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,15,14,7,0,0,0,0,0,128,0,-1--1--1,,1|(-769,-356)|
+12,16,0,-2308,1546,381,381,6,135,0,8,-1,0,0,0,-1--1--1,0-0-0,|48||0-0-0
+Click "Hide" below to navigate through model explanation (Depths 0-1). The four primary diagnoses in this model are, AUD, DEP, OUD, and OtherNeeds, respectively.
+10,17,Official Total Appointment Supply,-949,-391,68,20,8,3,0,0,-1,0,0,0
+1,18,17,5,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-812,-436)|
+1,19,17,3,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-949,-430)|
+1,20,6,17,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-1059,-391)|
+1,21,8,17,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-949,-347)|
+1,22,14,17,0,0,0,0,0,128,0,-1--1--1,,1|(-858,-358)|
+12,23,0,-1673,-21,82,82,6,135,0,0,-1,0,0,0
+We could have switch to automatically set the "right" slot allocations , even if users change the RVI
+10,24,Total RVI,-179,-195,29,9,8,3,0,0,0,0,0,0
+10,25,"Total Slots Allocation % (without X waiver)",-1056,-182,65,16,8,3,0,0,-1,0,0,0
+10,26,"Total Slots Allocation % (with X waiver)",-498,-187,65,16,8,3,0,0,-1,0,0,0
+10,27,Experiment Week,-811,-544,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,28,27,17,0,0,0,0,0,128,0,-1--1--1,,1|(-874,-472)|
+1,29,27,7,0,0,0,0,0,128,0,-1--1--1,,1|(-745,-479)|
+10,30,DEP Patients in MM,632,1346,49,23,3,131,0,0,0,0,0,0
+10,31,DEP Appointments in MM,733,1078,48,22,3,131,0,0,0,0,0,0
+10,32,DEP Waiting to Start,363,1346,47,23,3,131,0,0,0,0,0,0
+12,33,48,140,1347,10,8,0,3,0,0,-1,0,0,0
+1,34,36,32,4,0,0,22,0,0,0,-1--1--1,,1|(264,1346)|
+1,35,36,33,100,0,0,22,0,0,0,-1--1--1,,1|(175,1346)|
+11,36,48,207,1346,6,8,34,3,0,0,1,0,0,0
+10,37,DEP Referral Rate,207,1366,59,11,40,131,0,0,-1,0,0,0
+1,38,40,30,4,0,0,22,0,0,0,-1--1--1,,1|(541,1346)|
+1,39,40,32,100,0,0,22,0,0,0,-1--1--1,,1|(449,1346)|
+11,40,3852,494,1346,6,8,34,3,0,0,1,0,0,0
+10,41,DEP Starting Rate,494,1365,59,11,40,3,0,0,-1,0,0,0
+12,42,48,864,1346,10,8,0,3,0,0,-1,0,0,0
+1,43,45,42,4,0,0,22,0,0,0,-1--1--1,,1|(813,1346)|
+1,44,45,30,100,0,0,22,0,0,0,-1--1--1,,1|(721,1346)|
+11,45,48,767,1346,6,8,34,3,0,0,1,0,0,0
+10,46,DEP Ending Rate,767,1365,56,11,40,3,0,0,-1,0,0,0
+12,47,48,476,1078,10,8,0,3,0,0,-1,0,0,0
+1,48,50,31,4,0,0,22,0,0,0,-1--1--1,,1|(638,1078)|
+1,49,50,47,100,0,0,22,0,0,0,-1--1--1,,1|(532,1078)|
+11,50,48,585,1078,6,8,34,3,0,0,1,0,0,0
+10,51,DEP Booking Rate,585,1104,60,11,40,131,0,0,-1,0,0,0
+12,52,48,943,1078,10,8,0,3,0,0,-1,0,0,0
+1,53,55,52,4,0,0,22,0,0,0,-1--1--1,,1|(906,1078)|
+1,54,55,31,100,0,0,22,0,0,0,-1--1--1,,1|(824,1078)|
+11,55,48,874,1078,6,8,34,3,0,0,1,0,0,0
+10,56,DEP Completing Rate,874,1104,54,20,40,131,0,0,-1,0,0,0
+10,57,DEP Appointments to Reschedule,841,952,49,22,3,131,0,0,0,0,0,0
+12,58,48,1013,952,10,8,0,3,0,0,-1,0,0,0
+1,59,61,57,4,0,0,22,0,0,0,-1--1--1,,1|(920,952)|
+1,60,61,58,100,0,0,22,0,0,0,-1--1--1,,1|(982,952)|
+11,61,48,956,952,6,8,34,3,0,0,1,0,0,0
+10,62,DEP True Missed Appointment Rate,956,980,61,20,40,3,0,0,-1,0,0,0
+1,63,65,31,4,0,0,22,0,0,0,-1--1--1,,1|(725,1008)|
+1,64,65,57,100,0,0,22,0,0,0,-1--1--1,,1|(761,952)|
+11,65,1292,725,952,6,8,34,3,0,0,2,0,0,0
+10,66,DEP Rescheduling Rate,655,952,60,20,40,131,0,0,-1,0,0,0
+10,67,DEP RVI used when Booking,720,1248,67,20,8,3,0,0,0,0,0,0
+10,68,DEP Desired Appointment Completion Rate,1009,1255,56,30,8,131,0,0,0,0,0,0
+10,69,DEP Appointments for Existing Patients,1022,1450,73,20,8,3,0,0,0,0,0,0
+10,70,DEP Appointments Available for New Patients,760,1553,62,30,8,3,0,0,0,0,0,0
+1,71,68,69,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(1040,1331)|
+1,72,69,70,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(941,1496)|
+1,73,30,51,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(531,1226)|
+1,74,31,68,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(880,1139)|
+1,75,40,51,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(481,1211)|
+10,76,DEP Patients per Appointment,422,1172,56,20,8,3,0,0,0,0,0,0
+1,77,76,51,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(483,1121)|
+1,78,67,51,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(721,1183)|
+1,79,69,56,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1068,1246)|
+10,80,DEP Median Engagement,758,1441,43,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,81,80,155,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(824,1459)|
+1,82,30,46,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(717,1391)|
+10,83,DEP Time to Reschedule,517,950,42,20,8,3,0,0,0,0,0,0
+1,84,83,66,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(576,952)|
+1,85,57,66,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(706,921)|
+1,86,55,62,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(934,1046)|
+10,87,DEP Additional Appointment Supply for New MM Patients,761,1636,79,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,88,DEP Actual RVI,838,1020,51,11,8,3,0,0,0,0,0,0
+1,89,31,88,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(817,1055)|
+1,90,56,88,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(839,1051)|
+1,91,83,57,0,0,0,0,0,64,1,-1--1--1,,1|(668,950)|
+12,92,0,628,1194,67,20,8,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Balancing Existing and New Patients
+12,93,0,627,1159,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,94,"DEP User-defined True Missed Appointment %",1226,926,77,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,95,94,159,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1170,950)|
+10,96,DEP Overbooks,977,1634,51,11,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,97,"DEP Return Visit Interval (median)",813,1307,59,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,98,97,67,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(742,1287)|
+10,99,DEP New Patient Wait Time,424,1442,57,20,8,131,0,0,0,0,0,0
+1,100,32,99,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(384,1374)|
+1,101,41,99,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(469,1381)|
+10,102,"DEP User-defined Referral Rate",122,1286,59,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,103,102,36,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(170,1320)|
+10,104,"DEP New Patient Wait Time (median)",332,1559,74,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,105,DEP Maximum Start Rate,364,1256,48,20,8,3,1,0,-1,0,0,0
+1,106,105,40,1,1,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(431,1300)|
+10,107,DEP Minimum Time to Schedule,271,1209,65,20,8,3,1,0,0,0,0,0
+1,108,107,105,1,1,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(358,1220)|
+1,109,32,105,1,1,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(348,1300)|
+10,110,DEP Return Visit Interval,624,1284,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,111,110,67,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(686,1280)|
+1,112,87,70,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(760,1599)|
+10,113,DEP Effect of Wait Time on Referrals,180,1565,61,20,8,3,0,0,0,0,0,0
+10,114,DEP Sensitivity of Referrals to Wait Time,317,1671,74,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,115,DEP Time to Perceive Wait Time,463,1655,65,20,8,3,0,0,0,0,0,0
+10,116,DEP Perceived Wait Time,465,1583,40,20,3,3,0,0,0,0,0,0
+1,117,116,113,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(253,1616)|
+1,118,114,113,1,0,0,0,0,128,0,-1--1--1,,1|(194,1616)|
+1,119,115,116,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(463,1625)|
+1,120,113,37,1,0,45,13,2,192,0,-1--1--1,|10||0-0-0,1|(150,1463)|
+1,121,99,116,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(495,1507)|
+10,122,DEP Target New Patient Wait Time,262,1490,60,20,8,131,0,0,0,0,0,0
+1,123,104,122,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(317,1518)|
+10,124,DEP Target Wait Time,399,1523,56,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,125,124,122,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(354,1493)|
+1,126,122,113,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(223,1507)|
+12,127,0,289,1438,65,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Wait Time Affects Referrals
+12,128,0,289,1400,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,129,Time,111,1402,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,130,129,37,0,2,0,0,0,64,0,-1--1--1,,1|(151,1387)|
+10,131,Time,702,1307,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,132,131,67,0,2,0,0,0,64,0,-1--1--1,,1|(707,1288)|
+10,133,DEP Referral Rate inferred from Data,247,1287,62,20,8,131,0,0,0,0,0,0
+1,134,133,36,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(226,1318)|
+10,135,"DEP Starting Rate (mean)",1466,1397,60,20,8,3,0,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,136,70,41,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(561,1461)|
+1,137,76,40,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(443,1267)|
+10,138,Time,411,1484,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,139,138,122,0,2,0,0,0,64,0,-1--1--1,,1|(359,1485)|
+10,140,"DEP True Missed Appointment %",1242,977,56,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10|BIU|255-0-0
+1,141,140,159,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1174,973)|
+10,142,DEP RVI used when Completing,821,1162,67,20,8,3,0,0,0,0,0,0
+1,143,67,142,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(737,1200)|
+1,144,142,68,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(882,1178)|
+10,145,DEP User Median Engagement,757,1488,57,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,146,145,155,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(836,1479)|
+10,147,Time,904,1370,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,148,147,155,0,2,0,0,0,64,0,-1--1--1,,1|(887,1386)|
+10,149,"DEP Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration",1826,1254,108,30,8,3,2,0,0,0,0,0
+10,150,DEP Initial Patients,2009,1277,35,20,8,3,2,0,0,0,0,0
+10,151,DEP Initial Appointments,1985,966,47,20,8,3,2,0,0,0,0,0
+1,152,151,31,0,2,0,0,0,128,1,-1--1--1,,1|(1366,1020)|
+1,153,150,30,0,2,0,0,0,128,1,-1--1--1,,1|(1334,1310)|
+10,154,DEP Ratio of Appts for Existing Pts,1653,1102,63,20,8,3,2,0,0,0,0,0
+10,155,DEP Engagement Duration,852,1422,59,20,8,3,0,0,0,0,0,0
+1,156,155,46,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(808,1392)|
+10,157,DEP Appts for Existing Pts,1597,969,46,20,8,3,2,0,0,0,0,0
+1,158,154,157,0,2,0,0,0,128,0,-1--1--1,,1|(1627,1041)|
+10,159,"DEP Actual Missed Appointment %",1103,980,61,20,8,131,0,0,0,0,0,0
+1,160,159,62,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1036,980)|
+10,161,Time,1102,923,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,162,161,159,0,2,0,0,0,64,0,-1--1--1,,1|(1102,940)|
+10,163,DEP Appts for New Pts,1626,1254,46,20,8,3,2,0,0,0,0,0
+1,164,163,149,0,2,0,0,0,128,0,-1--1--1,,1|(1688,1254)|
+1,165,149,150,0,2,0,0,0,128,0,-1--1--1,,1|(1947,1268)|
+10,166,DEP Patients per Appointment,1824,1355,61,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,167,166,149,0,2,0,0,0,128,0,-1--1--1,,1|(1824,1316)|
+10,168,"DEP Actual Missed Appointment %",1457,1145,67,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,169,168,154,0,2,0,0,0,128,0,-1--1--1,,1|(1550,1124)|
+10,170,DEP RVI used when Booking,1456,1059,53,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,171,170,154,0,2,0,0,0,128,0,-1--1--1,,1|(1542,1077)|
+10,172,DEP Engagement Duration,1465,1307,64,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,173,172,154,0,2,0,0,0,128,0,-1--1--1,,1|(1553,1209)|
+1,174,172,150,0,2,0,0,0,128,0,-1--1--1,,1|(1744,1291)|
+1,175,157,177,0,2,0,0,0,128,0,-1--1--1,,1|(1691,967)|
+1,176,170,151,0,2,0,0,0,128,0,-1--1--1,,1|(1716,1013)|
+10,177,DEP Appt Completion Rate,1810,966,56,20,8,3,2,0,0,0,0,0
+1,178,177,151,0,2,0,0,0,128,0,-1--1--1,,1|(1895,966)|
+10,179,DEP Ratio of Appts for New Pts,1618,1184,63,20,8,3,2,0,0,0,0,0
+1,180,170,179,0,2,0,0,0,128,0,-1--1--1,,1|(1530,1117)|
+1,181,168,179,0,2,0,0,0,128,0,-1--1--1,,1|(1532,1162)|
+1,182,172,179,0,2,0,0,0,128,0,-1--1--1,,1|(1535,1249)|
+1,183,179,163,0,2,0,0,0,128,0,-1--1--1,,1|(1620,1212)|
+10,184,DEP fRVI,1628,1357,31,11,8,3,2,0,0,0,0,0
+1,185,184,67,0,2,0,0,0,128,0,-1--1--1,,1|(1198,1305)|
+10,186,DEP Initial Patients Waiting to Start,2000,1174,64,20,8,3,2,0,0,0,0,0
+1,187,149,186,0,2,0,0,0,128,0,-1--1--1,,1|(1917,1211)|
+10,188,DEP Target New Patient Wait Time,1831,1176,65,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,189,188,186,0,2,0,0,0,128,0,-1--1--1,,1|(1909,1175)|
+1,190,186,32,0,2,0,0,0,128,1,-1--1--1,,1|(1179,1259)|
+1,191,149,133,0,2,0,0,0,128,1,-1--1--1,,1|(1020,1270)|
+10,192,"DEP % Slots Allocated to Each Diagnosis (no X)",-707,1310,83,20,8,3,0,0,0,0,0,0
+10,193,"DEP Normalized % Patients by Diagnosis (no X)",-875,1196,84,30,8,3,0,0,0,0,0,0
+10,194,"DEP Normalized % Slots Allocated (no X w RVI)",-708,1196,81,20,8,3,0,0,0,0,0,0
+1,195,194,192,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-707,1246)|
+10,196,DEP Relative RVI,-568,1109,56,11,8,3,0,0,0,0,0,0
+1,197,196,194,0,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(-624,1144)|
+1,198,193,194,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-786,1194)|
+10,199,"DEP Slots Allocation (without X waiver)",-905,1309,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,200,199,192,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-821,1309)|
+10,201,"DEP % Slots Allocated to Each Diagnosis (w X)",-409,1308,83,20,8,3,0,0,0,0,0,0
+10,202,"DEP Slots Allocation % (with X waiver)",-227,1110,75,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,203,"DEP Normalized % Patients by Diagnosis (w X)",-227,1194,82,30,8,3,0,0,0,0,0,0
+10,204,"DEP Normalized % Slots Allocated (w X w RVI)",-410,1191,81,20,8,3,0,0,0,0,0,0
+1,205,204,201,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-409,1242)|
+1,206,203,204,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-312,1190)|
+10,207,"DEP Slots Allocation (with X waiver)",-217,1308,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,208,207,201,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-298,1308)|
+1,209,196,204,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(-503,1142)|
+10,210,Time,-559,1271,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,211,210,192,0,0,0,0,0,64,0,-1--1--1,,1|(-602,1282)|
+1,212,210,201,0,0,0,0,0,128,0,-1--1--1,,1|(-517,1280)|
+10,213,Experiment Week,-559,1326,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,214,213,192,0,0,0,0,0,64,0,-1--1--1,,1|(-606,1321)|
+1,215,213,201,0,0,0,0,0,128,0,-1--1--1,,1|(-510,1320)|
+10,216,DEP Current Appointment Supply,-545,1398,68,20,8,3,0,0,0,0,0,0
+1,217,201,216,0,0,0,0,0,128,0,-1--1--1,,1|(-470,1349)|
+1,218,192,216,0,0,0,0,0,128,0,-1--1--1,,1|(-632,1350)|
+10,219,DEP Overbooks,-345,1398,41,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,220,213,216,0,0,0,0,0,128,0,-1--1--1,,1|(-553,1355)|
+1,221,1,193,0,0,0,0,0,64,0,-1--1--1,,1|(-875,1142)|
+1,222,202,203,0,0,0,0,0,64,0,-1--1--1,,1|(-227,1140)|
+10,223,"DEP Return Visit Interval (median)",-412,1030,65,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,224,223,196,0,0,0,0,0,128,0,-1--1--1,,1|(-492,1070)|
+10,225,Official Total Appointment Supply,1187,1556,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,226,DEP Current Appointment Supply,978,1555,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,227,DEP Additional Appointment Supply for New MM Patients,-764,1393,79,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,228,227,216,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(-655,1394)|
+1,229,226,69,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(996,1508)|
+1,230,226,70,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(870,1554)|
+12,231,0,974,1576,8,6,8,131,0,0,-1,0,0,0
+1,232,96,231,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(976,1609)|
+1,233,87,231,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(906,1611)|
+1,234,219,216,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-424,1398)|
+1,235,159,184,0,0,0,0,0,64,1,-1--1--1,,1|(1365,1168)|
+1,236,216,184,0,0,0,0,0,64,1,-1--1--1,,1|(553,1377)|
+1,237,155,184,0,0,0,0,0,64,1,-1--1--1,,1|(1246,1389)|
+1,238,76,184,0,0,0,0,0,64,1,-1--1--1,,1|(1030,1264)|
+1,239,135,184,0,0,0,0,0,64,1,-1--1--1,,1|(1554,1375)|
+10,240,DEP Current Appointment Supply,1816,1075,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,241,240,157,0,0,0,0,0,128,0,-1--1--1,,1|(1712,1025)|
+1,242,240,163,0,0,0,0,0,128,0,-1--1--1,,1|(1726,1159)|
+10,243,"Total Slots Allocation % (with X waiver)",-395,1121,61,24,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,244,"Total Slots Allocation % (without X waiver)",-728,1117,69,16,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,245,244,193,0,0,0,0,0,128,0,-1--1--1,,1|(-781,1146)|
+10,246,"Appointment Supply (no X-Waiver)",-655,1540,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,247,246,216,0,0,0,0,0,128,0,-1--1--1,,1|(-604,1474)|
+10,248,"Appointment Supply (with X-Waiver)",-452,1527,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,249,248,216,0,0,0,0,0,128,0,-1--1--1,,1|(-493,1468)|
+10,250,Experiment Week,307,1023,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,251,250,122,0,0,0,0,0,128,0,-1--1--1,,1|(285,1249)|
+1,252,250,37,0,0,0,0,0,128,0,-1--1--1,,1|(257,1192)|
+1,253,250,70,0,0,0,0,0,128,0,-1--1--1,,1|(524,1277)|
+1,254,250,155,0,0,0,0,0,128,0,-1--1--1,,1|(573,1218)|
+1,255,250,67,0,0,0,0,0,128,0,-1--1--1,,1|(506,1132)|
+1,256,250,159,0,0,0,0,0,128,0,-1--1--1,,1|(689,1002)|
+10,257,OtherNeeds Patients in MM,787,3281,49,23,3,131,0,0,0,0,0,0
+10,258,OtherNeeds Appointments in MM,888,3013,48,22,3,131,0,0,0,0,0,0
+10,259,OtherNeeds Waiting to Start,518,3281,47,23,3,131,0,0,0,0,0,0
+12,260,48,295,3282,10,8,0,3,0,0,-1,0,0,0
+1,261,263,259,4,0,0,22,0,0,0,-1--1--1,,1|(419,3281)|
+1,262,263,260,100,0,0,22,0,0,0,-1--1--1,,1|(330,3281)|
+11,263,48,362,3281,6,8,34,3,0,0,1,0,0,0
+10,264,OtherNeeds Referral Rate,362,3301,45,20,40,131,0,0,-1,0,0,0
+1,265,267,257,4,0,0,22,0,0,0,-1--1--1,,1|(696,3281)|
+1,266,267,259,100,0,0,22,0,0,0,-1--1--1,,1|(604,3281)|
+11,267,3788,649,3281,6,8,34,3,0,0,1,0,0,0
+10,268,OtherNeeds Starting Rate,649,3300,45,20,40,3,0,0,-1,0,0,0
+12,269,48,1019,3281,10,8,0,3,0,0,-1,0,0,0
+1,270,272,269,4,0,0,22,0,0,0,-1--1--1,,1|(968,3281)|
+1,271,272,257,100,0,0,22,0,0,0,-1--1--1,,1|(876,3281)|
+11,272,48,922,3281,6,8,34,3,0,0,1,0,0,0
+10,273,OtherNeeds Ending Rate,922,3300,41,20,40,3,0,0,-1,0,0,0
+12,274,48,631,3013,10,8,0,3,0,0,-1,0,0,0
+1,275,277,258,4,0,0,22,0,0,0,-1--1--1,,1|(793,3013)|
+1,276,277,274,100,0,0,22,0,0,0,-1--1--1,,1|(687,3013)|
+11,277,48,740,3013,6,8,34,3,0,0,1,0,0,0
+10,278,OtherNeeds Booking Rate,740,3039,45,20,40,131,0,0,-1,0,0,0
+12,279,48,1098,3013,10,8,0,3,0,0,-1,0,0,0
+1,280,282,279,4,0,0,22,0,0,0,-1--1--1,,1|(1061,3013)|
+1,281,282,258,100,0,0,22,0,0,0,-1--1--1,,1|(979,3013)|
+11,282,48,1029,3013,6,8,34,3,0,0,1,0,0,0
+10,283,OtherNeeds Completing Rate,1029,3039,56,20,40,131,0,0,-1,0,0,0
+10,284,OtherNeeds Appointments to Reschedule,996,2887,49,22,3,131,0,0,0,0,0,0
+12,285,48,1168,2887,10,8,0,3,0,0,-1,0,0,0
+1,286,288,284,4,0,0,22,0,0,0,-1--1--1,,1|(1075,2887)|
+1,287,288,285,100,0,0,22,0,0,0,-1--1--1,,1|(1137,2887)|
+11,288,48,1111,2887,6,8,34,3,0,0,1,0,0,0
+10,289,OtherNeeds True Missed Appointment Rate,1111,2915,82,20,40,3,0,0,-1,0,0,0
+1,290,292,258,4,0,0,22,0,0,0,-1--1--1,,1|(880,2943)|
+1,291,292,284,100,0,0,22,0,0,0,-1--1--1,,1|(916,2887)|
+11,292,1244,880,2887,6,8,34,3,0,0,2,0,0,0
+10,293,OtherNeeds Rescheduling Rate,810,2887,62,20,40,131,0,0,-1,0,0,0
+10,294,OtherNeeds RVI used when Booking,875,3183,72,20,8,3,0,0,0,0,0,0
+10,295,OtherNeeds Desired Appointment Completion Rate,1164,3190,83,30,8,131,0,0,0,0,0,0
+10,296,OtherNeeds Appointments for Existing Patients,1177,3385,85,30,8,3,0,0,0,0,0,0
+10,297,OtherNeeds Appointments Available for New Patients,915,3488,89,20,8,3,0,0,0,0,0,0
+1,298,295,296,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(1195,3266)|
+1,299,296,297,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(1096,3431)|
+1,300,257,278,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(686,3161)|
+1,301,258,295,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(1035,3074)|
+1,302,267,278,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(636,3146)|
+10,303,OtherNeeds Patients per Appointment,577,3107,69,20,8,3,0,0,0,0,0,0
+1,304,303,278,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(638,3056)|
+1,305,294,278,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(876,3118)|
+1,306,296,283,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1223,3181)|
+10,307,OtherNeeds Median Engagement,913,3376,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,308,307,382,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(979,3394)|
+1,309,257,273,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(872,3326)|
+10,310,OtherNeeds Time to Reschedule,672,2885,68,20,8,3,0,0,0,0,0,0
+1,311,310,293,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(731,2887)|
+1,312,284,293,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(861,2856)|
+1,313,282,289,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1089,2981)|
+10,314,OtherNeeds Additional Appointment Supply for New MM Patients,916,3571,96,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,315,OtherNeeds Actual RVI,993,2955,41,20,8,3,0,0,0,0,0,0
+1,316,258,315,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(972,2990)|
+1,317,283,315,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(994,2986)|
+1,318,310,284,0,0,0,0,0,64,1,-1--1--1,,1|(836,2885)|
+12,319,0,783,3129,67,20,8,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Balancing Existing and New Patients
+12,320,0,782,3094,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,321,"OtherNeeds User-defined True Missed Appointment %",1381,2861,94,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,322,321,386,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1325,2885)|
+10,323,OtherNeeds Overbooks,1132,3569,41,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,324,"OtherNeeds Return Visit Interval (median)",968,3242,81,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,325,324,294,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(897,3222)|
+10,326,OtherNeeds New Patient Wait Time,579,3377,60,20,8,131,0,0,0,0,0,0
+1,327,259,326,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(539,3309)|
+1,328,268,326,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(624,3316)|
+10,329,"OtherNeeds User-defined Referral Rate",277,3221,71,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,330,329,263,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(332,3260)|
+10,331,"OtherNeeds New Patient Wait Time (median)",487,3494,83,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,332,OtherNeeds Maximum Start Rate,519,3191,69,20,8,3,1,0,-1,0,0,0
+1,333,332,267,1,1,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(586,3235)|
+10,334,OtherNeeds Minimum Time to Schedule,426,3144,72,20,8,3,1,0,0,0,0,0
+1,335,334,332,1,1,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(513,3155)|
+1,336,259,332,1,1,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(503,3235)|
+10,337,OtherNeeds Return Visit Interval,779,3219,65,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,338,337,294,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(841,3215)|
+1,339,314,297,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(915,3534)|
+10,340,OtherNeeds Effect of Wait Time on Referrals,335,3500,76,20,8,3,0,0,0,0,0,0
+10,341,OtherNeeds Sensitivity of Referrals to Wait Time,472,3606,84,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,342,OtherNeeds Time to Perceive Wait Time,618,3590,68,20,8,3,0,0,0,0,0,0
+10,343,OtherNeeds Perceived Wait Time,620,3518,40,20,3,3,0,0,0,0,0,0
+1,344,343,340,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(408,3551)|
+1,345,341,340,1,0,0,0,0,128,0,-1--1--1,,1|(349,3551)|
+1,346,342,343,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(618,3560)|
+1,347,340,264,1,0,45,13,2,192,0,-1--1--1,|10||0-0-0,1|(305,3398)|
+1,348,326,343,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(650,3442)|
+10,349,OtherNeeds Target New Patient Wait Time,417,3425,77,20,8,131,0,0,0,0,0,0
+1,350,331,349,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(472,3453)|
+10,351,OtherNeeds Target Wait Time,554,3458,65,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,352,351,349,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(509,3428)|
+1,353,349,340,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(378,3442)|
+12,354,0,444,3373,65,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Wait Time Affects Referrals
+12,355,0,444,3335,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,356,Time,266,3337,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,357,356,264,0,2,0,0,0,64,0,-1--1--1,,1|(299,3324)|
+10,358,Time,857,3242,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,359,358,294,0,2,0,0,0,64,0,-1--1--1,,1|(862,3223)|
+10,360,OtherNeeds Referral Rate inferred from Data,402,3222,80,20,8,131,0,0,0,0,0,0
+1,361,360,263,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(381,3253)|
+10,362,"OtherNeeds Starting Rate (mean)",1621,3332,69,20,8,3,0,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,363,297,268,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(716,3396)|
+1,364,303,267,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(598,3202)|
+10,365,Time,566,3419,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,366,365,349,0,2,0,0,0,64,0,-1--1--1,,1|(522,3420)|
+10,367,"OtherNeeds True Missed Appointment %",1397,2912,77,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10|BIU|255-0-0
+1,368,367,386,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1329,2908)|
+10,369,OtherNeeds RVI used when Completing,976,3097,72,20,8,3,0,0,0,0,0,0
+1,370,294,369,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(892,3135)|
+1,371,369,295,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(1037,3113)|
+10,372,OtherNeeds User Median Engagement,912,3423,69,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,373,372,382,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(991,3414)|
+10,374,Time,1059,3305,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,375,374,382,0,2,0,0,0,64,0,-1--1--1,,1|(1042,3321)|
+10,376,"OtherNeeds Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration",1981,3189,114,30,8,3,2,0,0,0,0,0
+10,377,OtherNeeds Initial Patients,2164,3212,61,20,8,3,2,0,0,0,0,0
+10,378,OtherNeeds Initial Appointments,2140,2901,61,20,8,3,2,0,0,0,0,0
+1,379,378,258,0,2,0,0,0,128,1,-1--1--1,,1|(1514,2956)|
+1,380,377,257,0,2,0,0,0,128,1,-1--1--1,,1|(1476,3246)|
+10,381,OtherNeeds Ratio of Appts for Existing Pts,1808,3037,70,20,8,3,2,0,0,0,0,0
+10,382,OtherNeeds Engagement Duration,1007,3357,74,20,8,3,0,0,0,0,0,0
+1,383,382,273,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(970,3332)|
+10,384,OtherNeeds Appts for Existing Pts,1752,2904,61,20,8,3,2,0,0,0,0,0
+1,385,381,384,0,2,0,0,0,128,0,-1--1--1,,1|(1782,2976)|
+10,386,"OtherNeeds Actual Missed Appointment %",1258,2915,77,20,8,131,0,0,0,0,0,0
+1,387,386,289,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1194,2915)|
+10,388,Time,1257,2858,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,389,388,386,0,2,0,0,0,64,0,-1--1--1,,1|(1257,2875)|
+10,390,OtherNeeds Appts for New Pts,1776,3193,61,20,8,3,2,0,0,0,0,0
+1,391,390,376,0,2,0,0,0,128,0,-1--1--1,,1|(1845,3191)|
+1,392,376,377,0,2,0,0,0,128,0,-1--1--1,,1|(2092,3202)|
+10,393,OtherNeeds Patients per Appointment,1979,3290,74,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,394,393,376,0,2,0,0,0,128,0,-1--1--1,,1|(1979,3251)|
+10,395,"OtherNeeds Actual Missed Appointment %",1612,3080,82,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,396,395,381,0,2,0,0,0,128,0,-1--1--1,,1|(1709,3059)|
+10,397,OtherNeeds RVI used when Booking,1611,2994,78,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,398,397,381,0,2,0,0,0,128,0,-1--1--1,,1|(1706,3014)|
+10,399,OtherNeeds Engagement Duration,1620,3242,79,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,400,399,381,0,2,0,0,0,128,0,-1--1--1,,1|(1708,3144)|
+1,401,399,377,0,2,0,0,0,128,0,-1--1--1,,1|(1894,3226)|
+1,402,384,404,0,2,0,0,0,128,0,-1--1--1,,1|(1853,2902)|
+1,403,397,378,0,2,0,0,0,128,0,-1--1--1,,1|(1877,2947)|
+10,404,OtherNeeds Appt Completion Rate,1965,2901,58,20,8,3,2,0,0,0,0,0
+1,405,404,378,0,2,0,0,0,128,0,-1--1--1,,1|(2043,2901)|
+10,406,OtherNeeds Ratio of Appts for New Pts,1773,3119,68,20,8,3,2,0,0,0,0,0
+1,407,397,406,0,2,0,0,0,128,0,-1--1--1,,1|(1685,3052)|
+1,408,395,406,0,2,0,0,0,128,0,-1--1--1,,1|(1692,3098)|
+1,409,399,406,0,2,0,0,0,128,0,-1--1--1,,1|(1690,3184)|
+1,410,406,390,0,2,0,0,0,128,0,-1--1--1,,1|(1773,3149)|
+10,411,OtherNeeds fRVI,1783,3292,56,11,8,3,2,0,0,0,0,0
+1,412,411,294,0,2,0,0,0,128,0,-1--1--1,,1|(1343,3239)|
+10,413,OtherNeeds Initial Patients Waiting to Start,2155,3109,82,20,8,3,2,0,0,0,0,0
+1,414,376,413,0,2,0,0,0,128,0,-1--1--1,,1|(2072,3146)|
+10,415,OtherNeeds Target New Patient Wait Time,1986,3111,82,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,416,415,413,0,2,0,0,0,128,0,-1--1--1,,1|(2064,3112)|
+1,417,413,259,0,2,0,0,0,128,1,-1--1--1,,1|(1325,3195)|
+1,418,376,360,0,2,0,0,0,128,1,-1--1--1,,1|(1181,3205)|
+10,419,"OtherNeeds % Slots Allocated to Each Diagnosis (no X)",-552,3245,92,30,8,3,0,0,0,0,0,0
+10,420,"OtherNeeds Slots Allocation % (without X waiver)",-720,3048,79,30,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,421,"OtherNeeds Normalized % Patients by Diagnosis (no X)",-720,3131,94,20,8,3,0,0,0,0,0,0
+10,422,"OtherNeeds Normalized % Slots Allocated (no X w RVI)",-553,3131,95,20,8,3,0,0,0,0,0,0
+1,423,422,419,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-552,3176)|
+10,424,OtherNeeds Relative RVI,-413,3044,42,20,8,3,0,0,0,0,0,0
+1,425,424,422,0,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(-476,3083)|
+1,426,421,422,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-631,3129)|
+10,427,"OtherNeeds Slots Allocation (without X waiver)",-750,3244,70,30,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,428,427,419,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-669,3244)|
+10,429,"OtherNeeds % Slots Allocated to Each Diagnosis (w X)",-254,3243,67,30,8,3,0,0,0,0,0,0
+10,430,"OtherNeeds Slots Allocation % (with X waiver)",-72,3045,68,30,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,431,"OtherNeeds Normalized % Patients by Diagnosis (w X)",-72,3129,92,20,8,3,0,0,0,0,0,0
+10,432,"OtherNeeds Normalized % Slots Allocated (w X w RVI)",-254,3131,92,20,8,3,0,0,0,0,0,0
+1,433,432,429,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-254,3175)|
+1,434,431,432,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-157,3127)|
+10,435,"OtherNeeds Slots Allocation (with X waiver)",-62,3243,59,30,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,436,435,429,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-147,3243)|
+1,437,424,432,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(-339,3084)|
+10,438,Time,-404,3206,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,439,438,419,0,0,0,0,0,64,0,-1--1--1,,1|(-439,3214)|
+1,440,438,429,0,0,0,0,0,128,0,-1--1--1,,1|(-355,3217)|
+10,441,Experiment Week,-404,3261,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,442,441,419,0,0,0,0,0,64,0,-1--1--1,,1|(-447,3257)|
+1,443,441,429,0,0,0,0,0,128,0,-1--1--1,,1|(-347,3254)|
+10,444,OtherNeeds Current Appointment Supply,-390,3333,68,20,8,3,0,0,0,0,0,0
+1,445,429,444,0,0,0,0,0,128,0,-1--1--1,,1|(-323,3289)|
+1,446,419,444,0,0,0,0,0,128,0,-1--1--1,,1|(-467,3290)|
+10,447,OtherNeeds Overbooks,-190,3333,46,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,448,441,444,0,0,0,0,0,128,0,-1--1--1,,1|(-398,3290)|
+1,449,420,421,0,0,0,0,0,64,0,-1--1--1,,1|(-720,3087)|
+1,450,430,431,0,0,0,0,0,64,0,-1--1--1,,1|(-72,3085)|
+10,451,"OtherNeeds Return Visit Interval (median)",-257,2965,80,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,452,451,424,0,0,0,0,0,128,0,-1--1--1,,1|(-328,3001)|
+10,453,Official Total Appointment Supply,1342,3491,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,454,OtherNeeds Current Appointment Supply,1133,3490,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,455,OtherNeeds Additional Appointment Supply for New MM Patients,-609,3328,96,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,456,455,444,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(-492,3330)|
+1,457,454,296,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1149,3448)|
+1,458,454,297,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1038,3489)|
+12,459,0,1129,3511,8,6,8,131,0,0,-1,0,0,0
+1,460,323,459,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1130,3539)|
+1,461,314,459,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(1061,3546)|
+1,462,447,444,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-272,3333)|
+1,463,386,411,0,0,0,0,0,64,1,-1--1--1,,1|(1520,3103)|
+1,464,444,411,0,0,0,0,0,64,1,-1--1--1,,1|(695,3312)|
+1,465,382,411,0,0,0,0,0,64,1,-1--1--1,,1|(1397,3324)|
+1,466,303,411,0,0,0,0,0,64,1,-1--1--1,,1|(1179,3198)|
+1,467,362,411,0,0,0,0,0,64,1,-1--1--1,,1|(1707,3310)|
+10,468,OtherNeeds Current Appointment Supply,1971,3010,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,469,468,384,0,0,0,0,0,128,0,-1--1--1,,1|(1867,2960)|
+1,470,468,390,0,0,0,0,0,128,0,-1--1--1,,1|(1878,3096)|
+10,471,"Total Slots Allocation % (with X waiver)",-217,3049,61,24,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,472,471,431,0,0,0,0,0,128,0,-1--1--1,,1|(-147,3087)|
+10,473,"Total Slots Allocation % (without X waiver)",-580,3032,69,16,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,474,473,421,0,0,0,0,0,128,0,-1--1--1,,1|(-640,3075)|
+10,475,"Appointment Supply (no X-Waiver)",-500,3475,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,476,475,444,0,0,0,0,0,128,0,-1--1--1,,1|(-449,3409)|
+10,477,"Appointment Supply (with X-Waiver)",-297,3462,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,478,477,444,0,0,0,0,0,128,0,-1--1--1,,1|(-338,3403)|
+10,479,Experiment Week,462,2958,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,480,479,349,0,0,0,0,0,128,0,-1--1--1,,1|(440,3184)|
+1,481,479,264,0,0,0,0,0,128,0,-1--1--1,,1|(413,3122)|
+1,482,479,297,0,0,0,0,0,128,0,-1--1--1,,1|(683,3217)|
+1,483,479,382,0,0,0,0,0,128,0,-1--1--1,,1|(728,3153)|
+1,484,479,294,0,0,0,0,0,128,0,-1--1--1,,1|(661,3067)|
+1,485,479,386,0,0,0,0,0,128,0,-1--1--1,,1|(836,2937)|
+10,486,OUD Patients in MM,667,2191,49,23,3,131,0,0,0,0,0,0
+10,487,OUD Appointments in MM,768,1923,48,22,3,131,0,0,0,0,0,0
+10,488,OUD Waiting to Start,398,2191,47,23,3,131,0,0,0,0,0,0
+12,489,48,175,2192,10,8,0,3,0,0,-1,0,0,0
+1,490,492,488,4,0,0,22,0,0,0,-1--1--1,,1|(299,2191)|
+1,491,492,489,100,0,0,22,0,0,0,-1--1--1,,1|(210,2191)|
+11,492,48,242,2191,6,8,34,3,0,0,1,0,0,0
+10,493,OUD Referral Rate,242,2211,44,20,40,131,0,0,-1,0,0,0
+1,494,496,486,4,0,0,22,0,0,0,-1--1--1,,1|(576,2191)|
+1,495,496,488,100,0,0,22,0,0,0,-1--1--1,,1|(484,2191)|
+11,496,4828,529,2191,6,8,34,3,0,0,1,0,0,0
+10,497,OUD Starting Rate,529,2210,44,20,40,3,0,0,-1,0,0,0
+12,498,48,899,2191,10,8,0,3,0,0,-1,0,0,0
+1,499,501,498,4,0,0,22,0,0,0,-1--1--1,,1|(848,2191)|
+1,500,501,486,100,0,0,22,0,0,0,-1--1--1,,1|(756,2191)|
+11,501,48,802,2191,6,8,34,3,0,0,1,0,0,0
+10,502,OUD Ending Rate,802,2210,57,11,40,3,0,0,-1,0,0,0
+12,503,48,511,1923,10,8,0,3,0,0,-1,0,0,0
+1,504,506,487,4,0,0,22,0,0,0,-1--1--1,,1|(673,1923)|
+1,505,506,503,100,0,0,22,0,0,0,-1--1--1,,1|(567,1923)|
+11,506,48,620,1923,6,8,34,3,0,0,1,0,0,0
+10,507,OUD Booking Rate,620,1949,45,20,40,131,0,0,-1,0,0,0
+12,508,48,978,1923,10,8,0,3,0,0,-1,0,0,0
+1,509,511,508,4,0,0,22,0,0,0,-1--1--1,,1|(941,1923)|
+1,510,511,487,100,0,0,22,0,0,0,-1--1--1,,1|(859,1923)|
+11,511,48,909,1923,6,8,34,3,0,0,1,0,0,0
+10,512,OUD Completing Rate,909,1949,56,20,40,131,0,0,-1,0,0,0
+10,513,OUD Appointments to Reschedule,876,1797,49,22,3,131,0,0,0,0,0,0
+12,514,48,1048,1797,10,8,0,3,0,0,-1,0,0,0
+1,515,517,513,4,0,0,22,0,0,0,-1--1--1,,1|(955,1797)|
+1,516,517,514,100,0,0,22,0,0,0,-1--1--1,,1|(1017,1797)|
+11,517,48,991,1797,6,8,34,3,0,0,1,0,0,0
+10,518,OUD True Missed Appointment Rate,991,1825,61,20,40,3,0,0,-1,0,0,0
+1,519,521,487,4,0,0,22,0,0,0,-1--1--1,,1|(760,1853)|
+1,520,521,513,100,0,0,22,0,0,0,-1--1--1,,1|(796,1797)|
+11,521,412,760,1797,6,8,34,3,0,0,2,0,0,0
+10,522,OUD Rescheduling Rate,690,1797,62,20,40,131,0,0,-1,0,0,0
+10,523,OUD RVI used when Booking,755,2093,48,20,8,3,0,0,0,0,0,0
+10,524,OUD Desired Appointment Completion Rate,1044,2100,56,30,8,131,0,0,0,0,0,0
+10,525,OUD Appointments for Existing Patients,1057,2295,75,20,8,3,0,0,0,0,0,0
+10,526,OUD Appointments Available for New Patients,795,2398,64,30,8,3,0,0,0,0,0,0
+1,527,524,525,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(1075,2176)|
+1,528,525,526,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(976,2341)|
+1,529,486,507,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(566,2071)|
+1,530,487,524,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(915,1984)|
+1,531,496,507,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(516,2056)|
+10,532,OUD Patients per Appointment,457,2017,58,20,8,3,0,0,0,0,0,0
+1,533,532,507,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(518,1966)|
+1,534,523,507,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(756,2028)|
+1,535,525,512,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1103,2091)|
+10,536,OUD Median Engagement,793,2286,43,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,537,536,611,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(859,2304)|
+1,538,486,502,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(752,2236)|
+10,539,OUD Time to Reschedule,552,1795,43,20,8,3,0,0,0,0,0,0
+1,540,539,522,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(611,1797)|
+1,541,513,522,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(741,1766)|
+1,542,511,518,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(969,1891)|
+10,543,OUD Additional Appointment Supply for New MM Patients,796,2481,79,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,544,OUD Actual RVI,873,1865,52,11,8,3,0,0,0,0,0,0
+1,545,487,544,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(852,1900)|
+1,546,512,544,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(874,1896)|
+1,547,539,513,0,0,0,0,0,64,1,-1--1--1,,1|(704,1795)|
+12,548,0,663,2039,67,20,8,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Balancing Existing and New Patients
+12,549,0,662,2004,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,550,"OUD User-defined True Missed Appointment %",1261,1771,78,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,551,550,615,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1205,1795)|
+10,552,OUD Overbooks,1012,2479,52,11,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,553,"OUD Return Visit Interval (median)",848,2152,59,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,554,553,523,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(777,2132)|
+10,555,OUD New Patient Wait Time,459,2287,59,20,8,131,0,0,0,0,0,0
+1,556,488,555,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(419,2219)|
+1,557,497,555,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(504,2226)|
+10,558,"OUD User-defined Referral Rate",157,2131,60,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,559,558,492,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(205,2165)|
+10,560,"OUD New Patient Wait Time (median)",367,2404,76,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,561,OUD Maximum Start Rate,399,2101,50,20,8,3,1,0,-1,0,0,0
+1,562,561,496,1,1,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(466,2145)|
+10,563,OUD Minimum Time to Schedule,306,2054,66,20,8,3,1,0,0,0,0,0
+1,564,563,561,1,1,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(393,2065)|
+1,565,488,561,1,1,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(383,2145)|
+10,566,OUD Return Visit Interval,659,2129,56,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,567,566,523,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(721,2125)|
+1,568,543,526,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(795,2444)|
+10,569,OUD Effect of Wait Time on Referrals,215,2410,62,20,8,3,0,0,0,0,0,0
+10,570,OUD Sensitivity of Referrals to Wait Time,352,2516,74,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,571,OUD Time to Perceive Wait Time,498,2500,65,20,8,3,0,0,0,0,0,0
+10,572,OUD Perceived Wait Time,500,2428,40,20,3,3,0,0,0,0,0,0
+1,573,572,569,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(288,2461)|
+1,574,570,569,1,0,0,0,0,128,0,-1--1--1,,1|(229,2461)|
+1,575,571,572,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(498,2470)|
+1,576,569,493,1,0,45,13,2,192,0,-1--1--1,|10||0-0-0,1|(185,2308)|
+1,577,555,572,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(530,2352)|
+10,578,OUD Target New Patient Wait Time,297,2335,60,20,8,131,0,0,0,0,0,0
+1,579,560,578,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(352,2363)|
+10,580,OUD Target Wait Time,434,2368,57,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,581,580,578,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(389,2338)|
+1,582,578,569,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(258,2352)|
+12,583,0,324,2283,65,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Wait Time Affects Referrals
+12,584,0,324,2245,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,585,Time,146,2247,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,586,585,493,0,2,0,0,0,64,0,-1--1--1,,1|(179,2234)|
+10,587,Time,737,2152,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,588,587,523,0,2,0,0,0,64,0,-1--1--1,,1|(742,2133)|
+10,589,OUD Referral Rate inferred from Data,282,2132,62,20,8,131,0,0,0,0,0,0
+1,590,589,492,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(261,2163)|
+10,591,"OUD Starting Rate (mean)",1501,2242,62,20,8,3,0,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,592,526,497,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(596,2306)|
+1,593,532,496,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(478,2112)|
+10,594,Time,446,2329,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,595,594,578,0,2,0,0,0,64,0,-1--1--1,,1|(394,2330)|
+10,596,"OUD True Missed Appointment %",1277,1822,57,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10|BIU|255-0-0
+1,597,596,615,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1209,1818)|
+10,598,OUD RVI used when Completing,856,2007,68,20,8,3,0,0,0,0,0,0
+1,599,523,598,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(772,2045)|
+1,600,598,524,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(917,2023)|
+10,601,OUD User Median Engagement,792,2333,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,602,601,611,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(871,2324)|
+10,603,Time,939,2215,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,604,603,611,0,2,0,0,0,64,0,-1--1--1,,1|(922,2231)|
+10,605,"OUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration",1861,2099,110,30,8,3,2,0,0,0,0,0
+10,606,OUD Initial Patients,2044,2122,36,20,8,3,2,0,0,0,0,0
+10,607,OUD Initial Appointments,2020,1811,47,20,8,3,2,0,0,0,0,0
+1,608,607,487,0,2,0,0,0,128,1,-1--1--1,,1|(1401,1865)|
+1,609,606,486,0,2,0,0,0,128,1,-1--1--1,,1|(1368,2155)|
+10,610,OUD Ratio of Appts for Existing Pts,1688,1947,65,20,8,3,2,0,0,0,0,0
+10,611,OUD Engagement Duration,887,2267,60,20,8,3,0,0,0,0,0,0
+1,612,611,502,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(843,2237)|
+10,613,OUD Appts for Existing Pts,1632,1814,48,20,8,3,2,0,0,0,0,0
+1,614,610,613,0,2,0,0,0,128,0,-1--1--1,,1|(1662,1886)|
+10,615,"OUD Actual Missed Appointment %",1138,1825,63,20,8,131,0,0,0,0,0,0
+1,616,615,518,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1070,1825)|
+10,617,Time,1137,1768,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,618,617,615,0,2,0,0,0,64,0,-1--1--1,,1|(1137,1785)|
+10,619,OUD Appts for New Pts,1661,2099,48,20,8,3,2,0,0,0,0,0
+1,620,619,605,0,2,0,0,0,128,0,-1--1--1,,1|(1723,2099)|
+1,621,605,606,0,2,0,0,0,128,0,-1--1--1,,1|(1982,2113)|
+10,622,OUD Patients per Appointment,1859,2200,63,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,623,622,605,0,2,0,0,0,128,0,-1--1--1,,1|(1859,2161)|
+10,624,"OUD Actual Missed Appointment %",1492,1990,68,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,625,624,610,0,2,0,0,0,128,0,-1--1--1,,1|(1584,1970)|
+10,626,OUD RVI used when Booking,1491,1904,53,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,627,626,610,0,2,0,0,0,128,0,-1--1--1,,1|(1576,1922)|
+10,628,OUD Engagement Duration,1500,2152,66,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,629,628,610,0,2,0,0,0,128,0,-1--1--1,,1|(1588,2054)|
+1,630,628,606,0,2,0,0,0,128,0,-1--1--1,,1|(1780,2136)|
+1,631,613,633,0,2,0,0,0,128,0,-1--1--1,,1|(1727,1812)|
+1,632,626,607,0,2,0,0,0,128,0,-1--1--1,,1|(1751,1858)|
+10,633,OUD Appt Completion Rate,1845,1811,56,20,8,3,2,0,0,0,0,0
+1,634,633,607,0,2,0,0,0,128,0,-1--1--1,,1|(1930,1811)|
+10,635,OUD Ratio of Appts for New Pts,1653,2029,65,20,8,3,2,0,0,0,0,0
+1,636,626,635,0,2,0,0,0,128,0,-1--1--1,,1|(1565,1962)|
+1,637,624,635,0,2,0,0,0,128,0,-1--1--1,,1|(1567,2007)|
+1,638,628,635,0,2,0,0,0,128,0,-1--1--1,,1|(1570,2094)|
+1,639,635,619,0,2,0,0,0,128,0,-1--1--1,,1|(1655,2057)|
+10,640,OUD fRVI,1663,2202,32,11,8,3,2,0,0,0,0,0
+1,641,640,523,0,2,0,0,0,128,0,-1--1--1,,1|(1223,2149)|
+10,642,OUD Initial Patients Waiting to Start,2035,2019,65,20,8,3,2,0,0,0,0,0
+1,643,605,642,0,2,0,0,0,128,0,-1--1--1,,1|(1952,2056)|
+10,644,OUD Target New Patient Wait Time,1866,2021,65,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,645,644,642,0,2,0,0,0,128,0,-1--1--1,,1|(1943,2020)|
+1,646,642,488,0,2,0,0,0,128,1,-1--1--1,,1|(1214,2104)|
+1,647,605,589,0,2,0,0,0,128,1,-1--1--1,,1|(1054,2115)|
+10,648,"OUD % Slots Allocated to Each Diagnosis (no X)",-672,2155,84,20,8,3,0,0,0,0,0,0
+10,649,"OUD Slots Allocation % (without X waiver)",-840,1958,77,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,650,"OUD Normalized % Patients by Diagnosis (no X)",-840,2041,84,30,8,3,0,0,0,0,0,0
+10,651,"OUD Normalized % Slots Allocated (no X w RVI)",-673,2041,82,20,8,3,0,0,0,0,0,0
+1,652,651,648,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-672,2091)|
+10,653,OUD Relative RVI,-533,1954,58,11,8,3,0,0,0,0,0,0
+1,654,653,651,0,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(-589,1989)|
+1,655,650,651,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-751,2039)|
+10,656,"OUD Slots Allocation (without X waiver)",-870,2154,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,657,656,648,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-786,2154)|
+10,658,"OUD % Slots Allocated to Each Diagnosis (w X)",-374,2153,84,20,8,3,0,0,0,0,0,0
+10,659,"OUD Slots Allocation % (with X waiver)",-192,1955,77,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,660,"OUD Normalized % Patients by Diagnosis (w X)",-192,2039,82,30,8,3,0,0,0,0,0,0
+10,661,"OUD Normalized % Slots Allocated (w X w RVI)",-374,2041,82,20,8,3,0,0,0,0,0,0
+1,662,661,658,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-374,2090)|
+1,663,660,661,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-277,2037)|
+10,664,"OUD Slots Allocation (with X waiver)",-182,2153,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,665,664,658,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-263,2153)|
+1,666,653,661,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(-467,1989)|
+10,667,Time,-524,2116,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,668,667,648,0,0,0,0,0,64,0,-1--1--1,,1|(-567,2127)|
+1,669,667,658,0,0,0,0,0,128,0,-1--1--1,,1|(-482,2125)|
+10,670,Experiment Week,-524,2171,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,671,670,648,0,0,0,0,0,64,0,-1--1--1,,1|(-571,2166)|
+1,672,670,658,0,0,0,0,0,128,0,-1--1--1,,1|(-475,2165)|
+10,673,OUD Current Appointment Supply,-510,2243,68,20,8,3,0,0,0,0,0,0
+1,674,658,673,0,0,0,0,0,128,0,-1--1--1,,1|(-435,2194)|
+1,675,648,673,0,0,0,0,0,128,0,-1--1--1,,1|(-597,2195)|
+10,676,OUD Overbooks,-310,2243,41,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,677,670,673,0,0,0,0,0,128,0,-1--1--1,,1|(-518,2200)|
+1,678,649,650,0,0,0,0,0,64,0,-1--1--1,,1|(-840,1987)|
+1,679,659,660,0,0,0,0,0,64,0,-1--1--1,,1|(-192,1985)|
+10,680,"OUD Return Visit Interval (median)",-377,1875,65,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,681,680,653,0,0,0,0,0,128,0,-1--1--1,,1|(-457,1915)|
+10,682,Official Total Appointment Supply,1222,2401,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,683,OUD Current Appointment Supply,1013,2400,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,684,OUD Additional Appointment Supply for New MM Patients,-729,2238,96,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,685,684,673,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(-612,2240)|
+1,686,683,525,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1031,2353)|
+1,687,683,526,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(906,2399)|
+12,688,0,1009,2421,8,6,8,131,0,0,-1,0,0,0
+1,689,552,688,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1011,2454)|
+1,690,543,688,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(941,2456)|
+1,691,676,673,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-389,2243)|
+1,692,615,640,0,0,0,0,0,64,1,-1--1--1,,1|(1400,2013)|
+1,693,673,640,0,0,0,0,0,64,1,-1--1--1,,1|(587,2222)|
+1,694,611,640,0,0,0,0,0,64,1,-1--1--1,,1|(1282,2233)|
+1,695,532,640,0,0,0,0,0,64,1,-1--1--1,,1|(1066,2109)|
+1,696,591,640,0,0,0,0,0,64,1,-1--1--1,,1|(1590,2219)|
+10,697,OUD Current Appointment Supply,1851,1920,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,698,697,613,0,0,0,0,0,128,0,-1--1--1,,1|(1747,1870)|
+1,699,697,619,0,0,0,0,0,128,0,-1--1--1,,1|(1761,2004)|
+10,700,"Total Slots Allocation % (with X waiver)",-320,1979,61,24,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,701,"Total Slots Allocation % (without X waiver)",-689,1956,69,16,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,702,701,650,0,0,0,0,0,128,0,-1--1--1,,1|(-745,1988)|
+10,703,"Appointment Supply (no X-Waiver)",-620,2385,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,704,703,673,0,0,0,0,0,128,0,-1--1--1,,1|(-569,2319)|
+10,705,"Appointment Supply (with X-Waiver)",-417,2372,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,706,705,673,0,0,0,0,0,128,0,-1--1--1,,1|(-458,2313)|
+10,707,Experiment Week,342,1868,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,708,707,578,0,0,0,0,0,128,0,-1--1--1,,1|(320,2094)|
+1,709,707,493,0,0,0,0,0,128,0,-1--1--1,,1|(293,2032)|
+1,710,707,526,0,0,0,0,0,128,0,-1--1--1,,1|(559,2122)|
+1,711,707,611,0,0,0,0,0,128,0,-1--1--1,,1|(608,2063)|
+1,712,707,523,0,0,0,0,0,128,0,-1--1--1,,1|(541,1977)|
+1,713,707,615,0,0,0,0,0,128,0,-1--1--1,,1|(723,1847)|
+10,714,AUD Patients in MM,682,481,49,23,3,131,0,0,0,0,0,0
+10,715,AUD Appointments in MM,783,213,48,22,3,131,0,0,0,0,0,0
+10,716,AUD Waiting to Start,413,481,47,23,3,131,0,0,0,0,0,0
+12,717,48,190,482,10,8,0,3,0,0,-1,0,0,0
+1,718,720,716,4,0,0,22,0,0,0,-1--1--1,,1|(314,481)|
+1,719,720,717,100,0,0,22,0,0,0,-1--1--1,,1|(225,481)|
+11,720,48,257,481,6,8,34,3,0,0,1,0,0,0
+10,721,AUD Referral Rate,257,501,44,20,40,131,0,0,-1,0,0,0
+1,722,724,714,4,0,0,22,0,0,0,-1--1--1,,1|(591,481)|
+1,723,724,716,100,0,0,22,0,0,0,-1--1--1,,1|(499,481)|
+11,724,2892,544,481,6,8,34,3,0,0,1,0,0,0
+10,725,AUD Starting Rate,544,500,44,20,40,3,0,0,-1,0,0,0
+12,726,48,914,481,10,8,0,3,0,0,-1,0,0,0
+1,727,729,726,4,0,0,22,0,0,0,-1--1--1,,1|(863,481)|
+1,728,729,714,100,0,0,22,0,0,0,-1--1--1,,1|(771,481)|
+11,729,48,817,481,6,8,34,3,0,0,1,0,0,0
+10,730,AUD Ending Rate,817,500,57,11,40,3,0,0,-1,0,0,0
+12,731,48,526,213,10,8,0,3,0,0,-1,0,0,0
+1,732,734,715,4,0,0,22,0,0,0,-1--1--1,,1|(688,213)|
+1,733,734,731,100,0,0,22,0,0,0,-1--1--1,,1|(582,213)|
+11,734,48,635,213,6,8,34,3,0,0,1,0,0,0
+10,735,AUD Booking Rate,635,239,44,20,40,131,0,0,-1,0,0,0
+12,736,48,993,213,10,8,0,3,0,0,-1,0,0,0
+1,737,739,736,4,0,0,22,0,0,0,-1--1--1,,1|(956,213)|
+1,738,739,715,100,0,0,22,0,0,0,-1--1--1,,1|(874,213)|
+11,739,48,924,213,6,8,34,3,0,0,1,0,0,0
+10,740,AUD Completing Rate,924,239,55,20,40,131,0,0,-1,0,0,0
+10,741,AUD Appointments to Reschedule,891,87,49,22,3,131,0,0,0,0,0,0
+12,742,48,1063,87,10,8,0,3,0,0,-1,0,0,0
+1,743,745,741,4,0,0,22,0,0,0,-1--1--1,,1|(970,87)|
+1,744,745,742,100,0,0,22,0,0,0,-1--1--1,,1|(1032,87)|
+11,745,48,1006,87,6,8,34,3,0,0,1,0,0,0
+10,746,AUD True Missed Appointment Rate,1006,115,61,20,40,3,0,0,-1,0,0,0
+1,747,749,715,4,0,0,22,0,0,0,-1--1--1,,1|(795,147)|
+1,748,749,741,100,0,0,22,0,0,0,-1--1--1,,1|(821,95)|
+11,749,2252,795,95,6,8,34,3,0,0,2,0,0,0
+10,750,AUD Rescheduling Rate,727,95,62,20,40,131,0,0,-1,0,0,0
+10,751,AUD RVI used when Booking,770,383,48,20,8,3,0,0,0,0,0,0
+10,752,AUD Desired Appointment Completion Rate,1059,390,56,30,8,131,0,0,0,0,0,0
+10,753,AUD Appointments for Existing Patients,1072,585,74,20,8,3,0,0,0,0,0,0
+10,754,AUD Appointments Available for New Patients,810,688,64,30,8,3,0,0,0,0,0,0
+1,755,752,753,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(1090,466)|
+1,756,753,754,1,0,45,13,2,64,0,-1--1--1,|10||0-0-0,1|(991,631)|
+1,757,714,735,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(581,361)|
+1,758,715,752,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(930,274)|
+1,759,724,735,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(531,346)|
+10,760,AUD Patients per Appointment,472,307,57,20,8,3,0,0,0,0,0,0
+1,761,760,735,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(533,256)|
+1,762,751,735,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(771,320)|
+1,763,753,740,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1118,381)|
+10,764,AUD Median Engagement,808,576,43,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,765,764,846,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(874,594)|
+1,766,714,730,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(767,526)|
+10,767,AUD Time to Reschedule,567,85,43,20,8,3,0,0,0,0,0,0
+1,768,767,750,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(635,91)|
+1,769,741,750,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(771,69)|
+1,770,739,746,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(984,181)|
+10,771,AUD Additional Appointment Supply for New MM Patients,811,771,79,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,772,AUD Actual RVI,888,155,52,11,8,3,0,0,0,0,0,0
+1,773,715,772,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(867,190)|
+1,774,740,772,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(889,186)|
+1,775,767,741,0,0,0,0,0,64,1,-1--1--1,,1|(719,85)|
+12,776,0,678,329,67,20,8,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Balancing Existing and New Patients
+12,777,0,677,294,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,778,"AUD User-defined True Missed Appointment %",1276,61,77,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,779,778,850,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1220,85)|
+10,780,"Effect of \"Other MM Tasks Time\" on Missed Appointments",1211,358,70,27,3,131,0,0,0,0,0,0
+10,781,AUD Overbooks,1027,769,52,11,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+10,782,Sensitivity of Changes in Other MM Tasks Time on Missed Appointments,1300,278,102,30,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,783,Overbook Downside Onset Time,1118,266,73,20,8,131,1,0,-1,0,0,0
+1,784,782,780,1,0,0,0,0,128,0,-1--1--1,,1|(1257,350)|
+10,785,"AUD Return Visit Interval (median)",863,442,59,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+1,786,785,751,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(791,424)|
+10,787,AUD New Patient Wait Time,474,577,58,20,8,131,0,0,0,0,0,0
+1,788,716,787,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(434,509)|
+1,789,725,787,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(519,516)|
+10,790,"AUD User-defined Referral Rate",172,421,60,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,791,790,720,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(220,455)|
+10,792,"AUD New Patient Wait Time (median)",382,694,75,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,793,AUD Maximum Start Rate,414,391,49,20,8,3,1,0,-1,0,0,0
+1,794,793,724,1,1,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(481,435)|
+10,795,AUD Minimum Time to Schedule,321,344,66,20,8,3,1,0,0,0,0,0
+1,796,795,793,1,1,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(408,355)|
+1,797,716,793,1,1,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(398,435)|
+10,798,AUD Return Visit Interval,674,419,56,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,799,798,751,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(736,418)|
+1,800,780,746,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1133,191)|
+1,801,783,780,1,1,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(1161,289)|
+1,802,771,754,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(810,734)|
+10,803,AUD Effect of Wait Time on Referrals,230,700,62,20,8,3,0,0,0,0,0,0
+10,804,AUD Sensitivity of Referrals to Wait Time,367,806,74,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||0-128-0
+10,805,AUD Time to Perceive Wait Time,513,790,65,20,8,3,0,0,0,0,0,0
+10,806,AUD Perceived Wait Time,515,718,40,20,3,3,0,0,0,0,0,0
+1,807,806,803,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(303,751)|
+1,808,804,803,1,0,0,0,0,128,0,-1--1--1,,1|(244,751)|
+1,809,805,806,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(513,760)|
+1,810,803,721,1,0,45,13,2,192,0,-1--1--1,|10||0-0-0,1|(200,598)|
+1,811,787,806,1,0,43,13,2,192,0,-1--1--1,|10||0-0-0,1|(545,642)|
+10,812,AUD Target New Patient Wait Time,312,625,60,20,8,131,0,0,0,0,0,0
+1,813,792,812,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(367,653)|
+10,814,AUD Target Wait Time,449,658,57,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,815,814,812,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(404,628)|
+1,816,812,803,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(273,642)|
+12,817,0,339,573,65,20,8,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|B|0-0-0
+Wait Time Affects Referrals
+12,818,0,339,535,16,16,4,135,0,16,-1,0,0,0,0-0-0,0-0-0,|10|B|0-0-0
+B
+10,819,Time,161,537,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,820,819,721,0,2,0,0,0,64,0,-1--1--1,,1|(194,524)|
+10,821,Time,752,442,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,822,821,751,0,2,0,0,0,64,0,-1--1--1,,1|(757,423)|
+10,823,AUD Referral Rate inferred from Data,297,422,62,20,8,131,0,0,0,0,0,0
+1,824,823,720,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(276,453)|
+10,825,"AUD Starting Rate (mean)",1516,532,61,20,8,3,0,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,826,Use Team Data for Starting Rate or Return Visit Interval,906,351,93,20,8,131,0,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,827,754,725,1,0,43,13,2,64,0,-1--1--1,|10||0-0-0,1|(611,596)|
+1,828,760,724,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(493,402)|
+10,829,Time,461,619,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,830,829,812,0,2,0,0,0,64,0,-1--1--1,,1|(409,620)|
+10,831,"AUD True Missed Appointment %",1292,112,57,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10|BIU|255-0-0
+1,832,831,850,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1224,108)|
+10,833,AUD RVI used when Completing,871,297,68,20,8,3,0,0,0,0,0,0
+1,834,751,833,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(786,337)|
+1,835,833,752,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(932,313)|
+10,836,AUD User Median Engagement,807,623,58,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,837,836,846,1,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(886,614)|
+10,838,Time,954,505,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,839,838,846,0,2,0,0,0,64,0,-1--1--1,,1|(937,521)|
+10,840,"AUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration",1876,389,109,30,8,3,2,0,0,0,0,0
+10,841,AUD Initial Patients,2059,412,36,20,8,3,2,0,0,0,0,0
+10,842,AUD Initial Appointments,2035,101,47,20,8,3,2,0,0,0,0,0
+1,843,842,715,0,2,0,0,0,128,1,-1--1--1,,1|(1416,155)|
+1,844,841,714,0,2,0,0,0,128,1,-1--1--1,,1|(1383,445)|
+10,845,AUD Ratio of Appts for Existing Pts,1703,237,64,20,8,3,2,0,0,0,0,0
+10,846,AUD Engagement Duration,902,557,60,20,8,3,0,0,0,0,0,0
+1,847,846,730,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(858,527)|
+10,848,AUD Appts for Existing Pts,1647,104,47,20,8,3,2,0,0,0,0,0
+1,849,845,848,0,2,0,0,0,128,0,-1--1--1,,1|(1677,176)|
+10,850,"AUD Actual Missed Appointment %",1153,115,62,20,8,131,0,0,0,0,0,0
+1,851,850,746,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(1086,115)|
+10,852,Time,1152,58,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,853,852,850,0,2,0,0,0,64,0,-1--1--1,,1|(1152,75)|
+10,854,AUD Appts for New Pts,1676,389,47,20,8,3,2,0,0,0,0,0
+1,855,854,840,0,2,0,0,0,128,0,-1--1--1,,1|(1738,389)|
+1,856,840,841,0,2,0,0,0,128,0,-1--1--1,,1|(1997,403)|
+10,857,AUD Patients per Appointment,1874,490,62,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,858,857,840,0,2,0,0,0,128,0,-1--1--1,,1|(1874,451)|
+10,859,"AUD Actual Missed Appointment %",1507,280,68,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,860,859,845,0,2,0,0,0,128,0,-1--1--1,,1|(1600,260)|
+10,861,AUD RVI used when Booking,1506,194,53,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,862,861,845,0,2,0,0,0,128,0,-1--1--1,,1|(1591,212)|
+10,863,AUD Engagement Duration,1515,442,65,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,864,863,845,0,2,0,0,0,128,0,-1--1--1,,1|(1603,344)|
+1,865,863,841,0,2,0,0,0,128,0,-1--1--1,,1|(1794,426)|
+1,866,848,868,0,2,0,0,0,128,0,-1--1--1,,1|(1742,102)|
+1,867,861,842,0,2,0,0,0,128,0,-1--1--1,,1|(1766,148)|
+10,868,AUD Appt Completion Rate,1860,101,56,20,8,3,2,0,0,0,0,0
+1,869,868,842,0,2,0,0,0,128,0,-1--1--1,,1|(1945,101)|
+10,870,AUD Ratio of Appts for New Pts,1668,319,64,20,8,3,2,0,0,0,0,0
+1,871,861,870,0,2,0,0,0,128,0,-1--1--1,,1|(1580,252)|
+1,872,859,870,0,2,0,0,0,128,0,-1--1--1,,1|(1582,297)|
+1,873,863,870,0,2,0,0,0,128,0,-1--1--1,,1|(1585,384)|
+1,874,870,854,0,2,0,0,0,128,0,-1--1--1,,1|(1670,347)|
+10,875,AUD fRVI,1678,492,32,11,8,3,2,0,0,0,0,0
+1,876,826,751,0,0,0,0,0,128,0,-1--1--1,,1|(826,371)|
+1,877,875,751,0,2,0,0,0,128,0,-1--1--1,,1|(1238,439)|
+10,878,AUD Initial Patients Waiting to Start,2050,309,65,20,8,3,2,0,0,0,0,0
+1,879,840,878,0,2,0,0,0,128,0,-1--1--1,,1|(1967,346)|
+10,880,AUD Target New Patient Wait Time,1881,311,65,20,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,881,880,878,0,2,0,0,0,128,0,-1--1--1,,1|(1958,310)|
+1,882,878,716,0,2,0,0,0,128,1,-1--1--1,,1|(1229,394)|
+1,883,840,823,0,2,0,0,0,128,1,-1--1--1,,1|(1070,405)|
+10,884,"AUD % Slots Allocated to Each Diagnosis (no X)",-657,445,84,20,8,3,0,0,0,0,0,0
+10,885,"AUD Slots Allocation % (without X waiver)",-859,223,77,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,886,"AUD Normalized % Patients by Diagnosis (no X)",-825,331,84,30,8,3,0,0,0,0,0,0
+10,887,"AUD Normalized % Slots Allocated (no X w RVI)",-658,331,82,20,8,3,0,0,0,0,0,0
+1,888,887,884,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-657,381)|
+10,889,AUD Relative RVI,-518,244,57,11,8,3,0,0,0,0,0,0
+1,890,889,887,0,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(-574,279)|
+1,891,886,887,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-736,329)|
+10,892,"AUD Slots Allocation (without X waiver)",-855,444,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,893,892,884,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-771,444)|
+10,894,"AUD % Slots Allocated to Each Diagnosis (w X)",-359,443,84,20,8,3,0,0,0,0,0,0
+10,895,"AUD Slots Allocation % (with X waiver)",-177,245,77,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0
+10,896,"AUD Normalized % Patients by Diagnosis (w X)",-177,329,82,30,8,3,0,0,0,0,0,0
+10,897,"AUD Normalized % Slots Allocated (w X w RVI)",-359,331,82,20,8,3,0,0,0,0,0,0
+1,898,897,894,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-359,380)|
+1,899,896,897,1,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(-262,327)|
+10,900,"AUD Slots Allocation (with X waiver)",-167,443,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255
+1,901,900,894,1,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-248,443)|
+1,902,889,897,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(-452,279)|
+10,903,Time,-509,406,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,904,903,884,0,0,0,0,0,64,0,-1--1--1,,1|(-552,417)|
+1,905,903,894,0,0,0,0,0,128,0,-1--1--1,,1|(-467,415)|
+10,906,Experiment Week,-509,461,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,907,906,884,0,0,0,0,0,64,0,-1--1--1,,1|(-556,456)|
+1,908,906,894,0,0,0,0,0,128,0,-1--1--1,,1|(-460,455)|
+10,909,AUD Current Appointment Supply,-495,533,68,20,8,3,0,0,0,0,0,0
+1,910,894,909,0,0,0,0,0,128,0,-1--1--1,,1|(-420,484)|
+1,911,884,909,0,0,0,0,0,128,0,-1--1--1,,1|(-582,485)|
+10,912,AUD Overbooks,-295,533,41,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,913,906,909,0,0,0,0,0,128,0,-1--1--1,,1|(-503,490)|
+1,914,885,886,0,0,0,0,0,64,0,-1--1--1,,1|(-845,265)|
+1,915,895,896,0,0,0,0,0,64,0,-1--1--1,,1|(-177,275)|
+10,916,"AUD Return Visit Interval (median)",-362,165,65,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,917,916,889,0,0,0,0,0,128,0,-1--1--1,,1|(-442,205)|
+10,918,Measured versus Actual Time,1242,499,56,20,8,131,0,0,0,0,0,0
+10,919,Official Total Appointment Supply,1237,691,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,920,919,918,1,0,0,0,0,128,0,-1--1--1,,1|(1284,598)|
+1,921,918,780,0,0,0,0,0,128,0,-1--1--1,,1|(1228,438)|
+10,922,AUD Current Appointment Supply,1028,690,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,923,AUD Additional Appointment Supply for New MM Patients,-714,528,79,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,924,923,909,0,0,45,0,2,192,0,-1--1--1,|10||0-0-0,1|(-605,529)|
+1,925,922,753,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1046,643)|
+1,926,922,754,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(921,689)|
+12,927,0,1024,711,8,6,8,131,0,0,-1,0,0,0
+1,928,781,927,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(1026,744)|
+1,929,771,927,1,0,45,0,2,64,0,-1--1--1,|10||0-0-0,1|(956,746)|
+1,930,912,909,0,0,43,0,2,64,0,-1--1--1,|10||0-0-0,1|(-374,533)|
+1,931,850,875,0,0,0,0,0,64,1,-1--1--1,,1|(1415,303)|
+1,932,909,875,0,0,0,0,0,64,1,-1--1--1,,1|(602,512)|
+1,933,846,875,0,0,0,0,0,64,1,-1--1--1,,1|(1297,523)|
+1,934,760,875,0,0,0,0,0,64,1,-1--1--1,,1|(1080,399)|
+1,935,825,875,0,0,0,0,0,64,1,-1--1--1,,1|(1604,509)|
+10,936,AUD Current Appointment Supply,1866,210,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,937,936,848,0,0,0,0,0,128,0,-1--1--1,,1|(1762,160)|
+1,938,936,854,0,0,0,0,0,128,0,-1--1--1,,1|(1776,294)|
+10,939,"Appointment Supply (no X-Waiver)",-605,675,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,940,939,909,0,0,0,0,0,128,0,-1--1--1,,1|(-554,609)|
+10,941,"Appointment Supply (with X-Waiver)",-402,662,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,942,941,909,0,0,0,0,0,128,0,-1--1--1,,1|(-443,603)|
+10,943,Experiment Week,357,158,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,944,943,812,0,0,0,0,0,128,0,-1--1--1,,1|(335,384)|
+1,945,943,721,0,0,0,0,0,128,0,-1--1--1,,1|(308,322)|
+1,946,943,754,0,0,0,0,0,128,0,-1--1--1,,1|(574,412)|
+1,947,943,846,0,0,0,0,0,128,0,-1--1--1,,1|(623,353)|
+1,948,943,751,0,0,0,0,0,128,0,-1--1--1,,1|(556,267)|
+1,949,943,850,0,0,0,0,0,128,0,-1--1--1,,1|(739,137)|
+10,950,"AUD Slots Allocation % (without X waiver)",-1163,-99,82,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,951,"DEP Slots Allocation % (without X waiver)",-1167,-58,81,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,952,"OUD Slots Allocation % (without X waiver)",-1163,-14,82,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,953,"OtherNeeds Slots Allocation % (without X waiver)",-1177,32,79,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,954,950,25,0,0,0,0,0,128,0,-1--1--1,,1|(-1112,-138)|
+1,955,951,25,0,0,0,0,0,128,0,-1--1--1,,1|(-1114,-116)|
+1,956,952,25,0,0,0,0,0,128,0,-1--1--1,,1|(-1112,-94)|
+1,957,953,25,0,0,0,0,0,128,0,-1--1--1,,1|(-1116,-75)|
+10,958,"AUD Return Visit Interval (median)",-176,-143,65,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,959,"DEP Return Visit Interval (median)",-167,-88,65,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,960,"OUD Return Visit Interval (median)",-162,-44,65,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,961,"OtherNeeds Return Visit Interval (median)",-157,2,80,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,962,958,24,0,0,0,0,0,128,0,-1--1--1,,1|(-177,-167)|
+1,963,959,24,0,0,0,0,0,128,0,-1--1--1,,1|(-172,-140)|
+1,964,960,24,0,0,0,0,0,128,0,-1--1--1,,1|(-169,-118)|
+1,965,961,24,0,0,0,0,0,128,0,-1--1--1,,1|(-167,-95)|
+10,966,"AUD Slots Allocation % (with X waiver)",-352,-142,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,967,"DEP Slots Allocation % (with X waiver)",-348,-97,72,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,968,"OUD Slots Allocation % (with X waiver)",-352,-57,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,969,"OtherNeeds Slots Allocation % (with X waiver)",-348,9,68,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,970,969,26,0,0,0,0,0,128,0,-1--1--1,,1|(-423,-90)|
+1,971,968,26,0,0,0,0,0,128,0,-1--1--1,,1|(-421,-119)|
+1,972,967,26,0,0,0,0,0,128,0,-1--1--1,,1|(-419,-140)|
+1,973,966,26,0,0,0,0,0,128,0,-1--1--1,,1|(-424,-164)|
+1,974,25,886,0,1,0,0,0,64,0,-1--1--1,,1|(-946,61)|
+1,975,26,896,0,1,0,0,0,64,0,-1--1--1,,1|(-345,58)|
+10,976,"AUD % Slots Allocated (no X w RVI)",-1292,317,77,20,8,3,0,0,0,0,0,0
+1,977,886,976,0,0,0,0,0,64,0,-1--1--1,,1|(-1055,324)|
+1,978,889,976,0,0,0,0,0,64,0,-1--1--1,,1|(-888,278)|
+10,979,"DEP % Slots Allocated (no X w RVI)",-1248,1188,77,20,8,3,0,0,0,0,0,0
+1,980,193,979,0,0,0,0,0,64,0,-1--1--1,,1|(-1058,1192)|
+1,981,196,979,0,0,0,0,0,64,0,-1--1--1,,1|(-890,1146)|
+10,982,"OUD % Slots Allocated (no X w RVI)",-1237,2019,77,20,8,3,0,0,0,0,0,0
+1,983,650,982,0,0,0,0,0,64,0,-1--1--1,,1|(-1035,2030)|
+1,984,653,982,0,0,0,0,0,64,0,-1--1--1,,1|(-868,1984)|
+10,985,"OtherNeeds % Slots Allocated (no X w RVI)",-1175,3139,77,20,8,3,0,0,0,0,0,0
+1,986,421,985,0,0,0,0,0,64,0,-1--1--1,,1|(-949,3134)|
+1,987,424,985,0,0,0,0,0,64,0,-1--1--1,,1|(-769,3088)|
+10,988,Total x,-1851,1525,24,11,8,3,0,0,0,0,0,0
+1,989,985,988,0,0,0,0,0,128,0,-1--1--1,,1|(-1511,2333)|
+1,990,982,988,0,0,0,0,0,128,0,-1--1--1,,1|(-1543,1771)|
+1,991,979,988,0,0,0,0,0,128,0,-1--1--1,,1|(-1550,1357)|
+1,992,976,988,0,0,0,0,0,128,0,-1--1--1,,1|(-1570,919)|
+1,993,988,887,0,0,0,0,0,128,0,-1--1--1,,1|(-1263,937)|
+1,994,988,194,0,0,0,0,0,128,0,-1--1--1,,1|(-1308,1369)|
+1,995,988,651,0,0,0,0,0,128,0,-1--1--1,,1|(-1278,1775)|
+1,996,988,422,0,0,0,0,0,128,0,-1--1--1,,1|(-1210,2318)|
+10,997,"AUD % Slots Allocated (w X w RVI)",3,376,74,20,8,3,0,0,0,0,0,0
+1,998,896,997,0,0,0,0,0,64,0,-1--1--1,,1|(-89,351)|
+1,999,889,997,0,0,0,0,0,64,0,-1--1--1,,1|(-279,304)|
+10,1000,"DEP % Slots Allocated (w X w RVI)",0,1188,74,20,8,3,0,0,0,0,0,0
+1,1001,203,1000,0,0,0,0,0,64,0,-1--1--1,,1|(-116,1190)|
+1,1002,196,1000,0,0,0,0,0,64,0,-1--1--1,,1|(-299,1145)|
+10,1003,"OUD % Slots Allocated (w X w RVI)",0,2029,74,20,8,3,0,0,0,0,0,0
+1,1004,660,1003,0,0,0,0,0,64,0,-1--1--1,,1|(-98,2034)|
+1,1005,653,1003,0,0,0,0,0,64,0,-1--1--1,,1|(-281,1989)|
+10,1006,"OtherNeeds % Slots Allocated (w X w RVI)",131,3176,74,20,8,3,0,0,0,0,0,0
+1,1007,431,1006,0,0,0,0,0,64,0,-1--1--1,,1|(28,3152)|
+1,1008,424,1006,0,0,0,0,0,64,0,-1--1--1,,1|(-163,3104)|
+10,1009,Total y,76,2638,24,11,8,3,0,0,0,0,0,0
+1,1010,1006,1009,0,0,0,0,0,128,0,-1--1--1,,1|(103,2909)|
+1,1011,1003,1009,0,0,0,0,0,128,0,-1--1--1,,1|(37,2331)|
+1,1012,1000,1009,0,0,0,0,0,128,0,-1--1--1,,1|(37,1910)|
+1,1013,997,1009,0,0,0,0,0,128,0,-1--1--1,,1|(38,1504)|
+1,1014,1009,897,0,0,0,0,0,128,0,-1--1--1,,1|(-139,1495)|
+1,1015,26,203,0,0,0,0,0,64,0,-1--1--1,,1|(-364,489)|
+1,1016,26,660,0,0,0,0,0,64,0,-1--1--1,,1|(-346,912)|
+1,1017,1009,432,0,0,0,0,0,128,0,-1--1--1,,1|(-81,2874)|
+1,1018,1009,661,0,0,0,0,0,128,0,-1--1--1,,1|(-140,2349)|
+1,1019,1009,204,0,0,0,0,0,128,0,-1--1--1,,1|(-162,1925)|
+10,1020,Total Current Supply,-863,-183,40,16,8,3,0,0,0,0,0,0
+10,1021,AUD Current Appointment Supply,-847,-123,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1022,DEP Current Appointment Supply,-832,-63,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1023,OUD Current Appointment Supply,-831,-17,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1024,OtherNeeds Current Appointment Supply,-831,23,73,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1025,1021,1020,0,0,0,0,0,128,0,-1--1--1,,1|(-853,-148)|
+1,1026,1022,1020,0,0,0,0,0,128,0,-1--1--1,,1|(-845,-118)|
+1,1027,1023,1020,0,0,0,0,0,128,0,-1--1--1,,1|(-845,-95)|
+1,1028,1024,1020,0,0,0,0,0,128,0,-1--1--1,,1|(-845,-75)|
+10,1029,Total Current Supply,1382,692,44,16,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1030,1029,918,1,0,0,0,0,128,0,-1--1--1,,1|(1370,596)|
+10,1031,Average Actual RVI,-654,-184,58,9,8,3,0,0,0,0,0,0
+10,1032,AUD Actual RVI,-639,-124,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1033,DEP Actual RVI,-648,-94,43,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1034,OUD Actual RVI,-653,-57,44,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1035,OtherNeeds Actual RVI,-635,-10,46,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1036,1035,1031,0,0,0,0,0,128,0,-1--1--1,,1|(-644,-95)|
+1,1037,1033,1031,0,0,0,0,0,128,0,-1--1--1,,1|(-650,-137)|
+1,1038,1034,1031,0,0,0,0,0,128,0,-1--1--1,,1|(-653,-119)|
+1,1039,1032,1031,0,0,0,0,0,128,0,-1--1--1,,1|(-645,-152)|
+10,1040,Average Actual RVI,1074,215,50,16,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1041,1040,783,0,0,0,0,0,128,0,-1--1--1,,1|(1088,233)|
+10,1042,"Effect of \"Other MM Tasks Time\" on Missed Appointments",1123,1111,91,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1043,1042,62,0,0,0,0,0,128,0,-1--1--1,,1|(1038,1044)|
+10,1044,"Effect of \"Other MM Tasks Time\" on Missed Appointments",1140,1959,91,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1045,1044,518,0,0,0,0,0,128,0,-1--1--1,,1|(1065,1891)|
+10,1046,"Effect of \"Other MM Tasks Time\" on Missed Appointments",1237,3013,91,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1047,1046,289,0,0,0,0,0,128,0,-1--1--1,,1|(1173,2963)|
+10,1048,Use Team Data for Starting Rate or Return Visit Interval,859,1230,94,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1049,Use Team Data for Starting Rate or Return Visit Interval,903,2075,94,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1050,Use Team Data for Starting Rate or Return Visit Interval,1014,3163,94,30,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1051,1050,294,0,0,0,0,0,128,0,-1--1--1,,1|(940,3173)|
+1,1052,1049,523,0,0,0,0,0,128,0,-1--1--1,,1|(812,2085)|
+1,1053,1048,67,0,0,0,0,0,128,0,-1--1--1,,1|(782,1239)|
+10,1054,Total RVI,-583,186,37,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1055,Total RVI,-620,1026,37,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1056,Total RVI,-585,1874,37,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+10,1057,Total RVI,-440,2974,37,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128
+1,1058,1057,424,0,0,0,0,0,128,0,-1--1--1,,1|(-431,2997)|
+1,1059,1056,653,0,0,0,0,0,128,0,-1--1--1,,1|(-563,1907)|
+1,1060,1055,196,0,0,0,0,0,128,0,-1--1--1,,1|(-598,1060)|
+1,1061,1054,889,0,0,0,0,0,128,0,-1--1--1,,1|(-556,209)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*Interface
+$192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,90,0
+12,1,1838338,180,201,80,20,3,124,0,0,0,0,0,0
+,0,50,1
+12,2,986814,180,818,80,20,3,124,0,0,0,0,0,0
+#OUD Perceived Wait Time>SMOOTH#,-0.5,30,0.5
+12,3,1051842,180,512,80,20,3,124,0,0,0,0,0,0
+,-0.01,1,0.01
+12,4,1117870,180,745,80,20,3,124,0,0,0,0,0,0
+,0,16,0.5
+12,5,1445176,180,435,80,20,3,124,0,0,0,0,0,0
+,0,16,1
+12,6,1576224,180,279,80,20,3,124,0,0,0,0,0,0
+,0,100,1
+12,7,1576244,180,122,80,20,3,124,0,0,0,0,0,0
+,-1,200,1
+12,8,986910,180,665,80,20,3,124,0,0,0,0,0,0
+,0,1,1
+12,9,0,817,175,432,193,3,188,0,0,1,0,0,0
+Existing_Patients
+12,10,0,93,82,67,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+Supply Experiments:
+12,11,0,138,392,112,11,0,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+Engagement Pattern Experiments:
+12,12,1117698,897,741,80,20,3,252,0,0,0,0,0,0
+,0,2,0.1
+12,13,1445170,899,819,80,20,3,124,0,0,0,0,0,0
+,0,2,0.1
+12,14,0,789,705,78,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+Sensitivity Experiments:
+12,15,0,1117,736,136,19,8,135,0,0,-1,0,0,0
+= How much losing time for non-patient facing CC task affects no-show rate
+12,16,0,1089,819,105,25,8,135,0,0,-1,0,0,0
+= How much new patient wait time affects referrals to CC
+12,17,0,368,436,103,23,8,135,0,0,-1,0,0,0
+= Replace real-world RVI (calculated from team's data) with user input
+12,18,0,357,510,95,18,8,135,0,0,-1,0,0,0
+= Proportionally change the missed appointment %
+12,19,0,417,658,157,30,8,135,0,0,-1,0,0,0
+= Replace "new pt start rate that allows team to maintain desired RVI" with real-world new pt start rate (calculated from team's data)
+12,20,0,391,744,129,24,8,135,0,0,-1,0,0,0
+= Replace real-world new pt wait time (calculated from team's data) with user input
+12,21,0,409,822,146,28,8,135,0,0,-1,0,0,0
+= Proportional change to referral rate. Base Rate set to allow team to meet new pt wait time goal before any experiments.
+12,22,0,154,617,129,11,0,7,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|U|0-0-0
+New Patient and Referrals Experiments:
+12,23,0,920,523,329,151,3,188,0,0,1,0,0,0
+New_Patients
+12,24,856078,179,2,80,20,3,124,0,0,0,0,0,0
+Experiment Week,0,150,25
+///---\\\
+:GRAPH GRAPH
+:TITLE GRAPH
+:SCALE
+:VAR RVI used when Booking
+:VAR fRVI
+:L<%^E!@
+1:MM-April23-eqtest.vdf
+9:MM-April23-eqtest
+22:wks,wk
+15:0,0,0,0,0,0
+19:80,0
+27:2,
+34:0,
+4:Time
+5:AUD Referral Rate inferred from Data
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:3
+41:0
+42:1
+24:-13
+25:104
+26:104
