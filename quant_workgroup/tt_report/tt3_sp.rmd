@@ -133,8 +133,11 @@ unique_colA <- sppar1$X__1[which(!is.na(sppar1$X__1))] #unique group (in order)
 group_pos <- diff(which(!is.na(sppar1$X__1))) # position/rows between group
 max.pos <- length(unique_colA) 
 group_vec <- c(rep(unique_colA[-max.pos], group_pos),rep(unique_colA[max.pos], 3)) # repeat values until next occurance 
+unique_colD <- sppar1$X__4[which(!is.na(sppar1$X__4))] #unique desc group (in order)
+group_pos2 <- diff(which(!is.na(sppar1$X__4))) # position/rows between group
+max.pos2 <- length(unique_colD)
 uni_colD <- sppar1$X__4[which(!is.na(sppar1$X__4))] 
-def_vec <- c(rep(uni_colD, group_pos[1:length(uni_colD)]), rep("",11))
+def_vec <- c(rep(uni_colD[-max.pos2], group_pos2), rep(unique_colD[max.pos2],6))
 
 mcc <- sppar1 %>%
   mutate(group = group_vec,
@@ -146,18 +149,44 @@ mcc <- sppar1 %>%
          time = sub(".* (\\(.*\\))$", "\\1", group),
          time = sub("^High .*", "", time),
          group2 = sub("(.*) \\(.*\\)$", "\\1", group),
+         # Adjust Lables
+         group2 = replace(group2, group2 == "Start Rates", "New Patient Start Rate" ), 
+         time = replace(time, time == "Start Rates", "(pts/wk)"), 
+         group2 = replace(group2, group2 == "Time to Unflag", 
+                          "Time to Unflag High Risk patients" ), 
+         group2 = replace(group2, group2 == "High Risk Flag Rates", 
+                          "High Risk Patient Flag Rates"), 
+         time = replace(time, group2 == "High Risk Patient Flag Rates", "(pts/wk)"), 
+         time = replace(time, time == "Time to Unflag", "(wks)"), 
+         time = replace(time, time == "Wait Times", "(wks)"), 
+         group2 = replace(group2, group2 == "Time from Flag to Referral", 
+                          "Time from Flag to Step up/down" ), 
+         msr = replace(msr, time == "Time from Flag to Referral", ""),
+         time = replace(time, time == "Time from Flag to Referral", ""), 
+         group2 = replace(group2, group2 == "Engagement Time Before Clean Transfer", 
+                          "Engagement Time before Step up/down"), 
+         time = replace(time, time == "Engagement Time Before Clean Transfer", "(wks)"), 
+         group2 = replace(group2, group2 == "Engagement Time Before Quit", 
+                          "Engagement Time before Ending"), 
+         time = replace(time, group2 == "Engagement Time before Ending", "(wks)"), 
+         
          group = paste0(group2, " ", msr, time),
+         group = trimws(group),
          col_lab = gsub("^ *|(?<= ) | *$", "", col_lab, perl = TRUE),
          col_lab = sub(" High Symptom", "", col_lab),
          group = replace(group, group == "Symptom Proportions %Symptom Proportions",
-                         "Symptom Proportions (High Symptom %)")
+                         "Symptom Proportions (High Symptom %)"),
+         def = replace(def, group2 == "New Patient Wait Time", ""),
+         def = replace(def, group2 == "Time to Improve", ""),
          ) %>%
   select(group, col_lab, X__3, def) 
 
 
 rw_ord1 <- c("New Patient Start Rate (mean)(pts/wk)", "New Patient Wait Time (median)(wks)",
-             "High Risk Flag Rates (mean)(pts/wk)", "Time to Unflag High Risk Patients (median)(wks)",
-             "Engagement Time Before Ending (median)(wks)", "Symptom Proportions (High Symptom %)",
+             "High Risk Patient Flag Rates (mean)(pts/wk)", 
+             "Time to Unflag High Risk patients (median)(wks)",
+             "Engagement Time before Ending (median)(wks)", 
+             "Symptom Proportions (High Symptom %)",
              "Time to Improve (median)(wks)")
 mcc1 <- mcc %>%
   filter(group %in% rw_ord1) %>%
@@ -168,17 +197,23 @@ mcc1 <- mcc %>%
   mutate_if(is.numeric, round, 2)
 
 
-col_ord2 <- c("Time from Flag to Clean Transfer (median)(wks)",
+col_ord2 <- c("Time from Flag to Step up/down",
              "Engagement Time before Step up/down (median)(wks)", 
              "Wait Times (median)(wks)")
-rw_ord2 <- c("GMH to PCMHI", "GMH to SMH", "GMH to Inp", "PCMHI to SMH", "PCMHI to GMH",
-             "PCMHI to Inp", "SMH to GMH", "SMH to PCMHI", "SMH to Inp")
+rw_ord2 <- c("GMH to PC/PCMHI", "GMH to SMH", "GMH to Residential", "PC/PCMHI to SMH", 
+             "PC/PCMHI to GMH",
+             "PC/PCMHI to Residential", "SMH to GMH", "SMH to PC/PCMHI", "SMH to Residential")
 mcc2 <- mcc %>%
   filter(group %in% col_ord2) %>%
   select(-def) %>%
+  mutate(col_lab = sub("PCMHI", "PC/PCMHI", col_lab),
+         col_lab = sub("Res", "Residential", col_lab),
+         col_lab = sub("PC/PC/PCMHI", "PC/PCMHI", col_lab)
+         ) %>%
   spread(group, X__3) %>%
   slice(match(rw_ord2,col_lab)) %>%
-  mutate_if(is.numeric, round, 2)
+  select(col_lab, col_ord2) %>%
+  mutate_if(is.numeric, round, 1)
 
 ```
 
