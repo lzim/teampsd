@@ -1,9 +1,9 @@
 
 Elbogen EB, Wagner HR, Johnson SC, Kinneer P, Kang H, Vasterling JJ, Timko C, Beckham JC. Are Iraq and Afghanistan veterans using mental health services? New data from a national random-sample survey. Psychiatr Serv. 2013 Feb 1;64(2):134-41. doi: 10.1176/appi.ps.004792011.   PubMed ID: 23475498 http://ps.psychiatryonline.org/doi/pdf/10.1176/appi.ps.004792011
 
-Hermes ED, Hoff R, Rosenheck RA. Sources of the increasing number of Vietnam era veterans with a diagnosis of PTSD using VHA services. Psychiatr Serv. 2014 Jun 1;65(6):830-2. doi: 10.1176/appi.ps.201300232.   PubMed ID: 24733559
+Hermes ED, Hoff R, Rosenheck RA. Sources of the increasing number of Vietnam era veterans with a diagnosis of PTSD using VHA services. Psychiatr Serv. 2014 Jun 1;65(6):830-2. doi: 10.1176/appi.ps.201300232.   PubMed ID: 24733559 http://ps.psychiatryonline.org/doi/abs/10.1176/appi.ps.201300232
 
-Mott JM, Grubbs KM, Sansgiry S, Fortney JC, Cully JA. Psychotherapy Utilization Among Rural and Urban Veterans From 2007 to 2010. J Rural Health. 2015 Summer;31(3):235-43. doi: 10.1111/jrh.12099. Epub 2014 Dec 3.   PubMed ID: 25471067
+Mott JM, Grubbs KM, Sansgiry S, Fortney JC, Cully JA. Psychotherapy Utilization Among Rural and Urban Veterans From 2007 to 2010. J Rural Health. 2015 Summer;31(3):235-43. doi: 10.1111/jrh.12099. Epub 2014 Dec 3.   PubMed ID: 25471067 	http://doi.wiley.com/10.1111/jrh.12099
 
 Hankin CS, Spiro A 3rd, Miller DR, Kazis L. Mental disorders and mental health treatment among U.S. Department of Veterans Affairs outpatients: the Veterans Health Study. Am J Psychiatry. 1999 Dec;156(12):1924-30.   PubMed ID: 10588406
 
@@ -13,19 +13,19 @@ Fulton JJ, Calhoun PS, Wagner HR, Schry AR, Hair LP, Feeling N, Elbogen E, Beckh
 
 Karlin BE, Cross G. From the laboratory to the therapy room: National dissemination and implementation of evidence-based psychotherapies in the U.S. Department of Veterans Affairs Health Care System. Am Psychol. 2014 Jan;69(1):19-33. doi: 10.1037/a0033888. Epub 2013 Sep 2.   PubMed ID: 24001035
 
-Karlin BE, Brown GK, Trockel M, Cunning D, Zeiss AM, Taylor CB. National dissemination of cognitive behavioral therapy for depression in the Department of Veterans Affairs health care system: therapist and patient-level outcomes. J Consult Clin Psychol. 2012 Oct;80(5):707-18. Epub 2012 Jul 23.   PubMed ID: 22823859
+Karlin BE, Brown GK, Trockel M, Cunning D, Zeiss AM, Taylor CB. National dissemination of cognitive behavioral therapy for depression in the Department of Veterans Affairs health care system: therapist and patient-level outcomes. J Consult Clin Psychol. 2012 Oct;80(5):707-18. Epub 2012 Jul 23.   PubMed ID: 22823859 	http://doi.apa.org/getdoi.cfm?doi=10.1037/a0029328
 
-Ruzek JI, Karlin BE, & Zeiss AM. Implementation of Evidence-Based Psychological Treatments in the Veterans Health Administration. In: McHugh RK, Barlow DH, eds. Dissemination of evidence-based psychological treatments. New York, NY: Oxford University Press. , 2012.
+Ruzek JI, Karlin BE, & Zeiss AM. Implementation of Evidence-Based Psychological Treatments in the Veterans Health Administration. In: McHugh RK, Barlow DH, eds. Dissemination of evidence-based psychological treatments. New York, NY: Oxford University Press. , 2012. 
 
-Eftekhari A, Ruzek JI, Crowley JJ, Rosen CS, Greenbaum MA, Karlin BE. Effectiveness of national implementation of prolonged exposure therapy in Veterans Affairs care. JAMA Psychiatry. 2013 Sep;70(9):949-55. doi: 10.1001/jamapsychiatry.2013.36.   PubMed ID: 23863892
+Eftekhari A, Ruzek JI, Crowley JJ, Rosen CS, Greenbaum MA, Karlin BE. Effectiveness of national implementation of prolonged exposure therapy in Veterans Affairs care. JAMA Psychiatry. 2013 Sep;70(9):949-55. doi: 10.1001/jamapsychiatry.2013.36.   PubMed ID: 23863892 http://archpsyc.jamanetwork.com/article.aspx?doi=10.1001/jamapsychiatry.2013.36
 
-Watts BV, Shiner B, Zubkoff L, Carpenter-Song E, Ronconi JM, Coldwell CM. Implementation of evidence-based psychotherapies for posttraumatic stress disorder in VA specialty clinics. Psychiatr Serv. 2014 May 1;65(5):648-53. doi: 10.1176/appi.ps.201300176.   PubMed ID: 24430622
+Watts BV, Shiner B, Zubkoff L, Carpenter-Song E, Ronconi JM, Coldwell CM. Implementation of evidence-based psychotherapies for posttraumatic stress disorder in VA specialty clinics. Psychiatr Serv. 2014 May 1;65(5):648-53. doi: 10.1176/appi.ps.201300176.   PubMed ID: 24430622 http://ps.psychiatryonline.org/doi/pdf/10.1176/appi.ps.201300176
 
-Department of Defense, & Department of Veterans Affairs. The management of MDD Working Group. VA/DOD clinical practice guideline for management of major depressive disorder (MDD). , 2009.
+Department of Defense, & Department of Veterans Affairs. The management of MDD Working Group. VA/DOD clinical practice guideline for management of major depressive disorder (MDD). , 2009. https://www.healthquality.va.gov/guidelines/MH/mdd/VADoDMDDCPGFINAL82916.pdf
 
-Department of Veterans Affairs, & Department of Defense. VA/DoD Clinical practice guideline for the management of post-traumatic stress. , 2010.
+Department of Veterans Affairs, & Department of Defense. VA/DoD Clinical practice guideline for the management of post-traumatic stress. , 2010. https://www.healthquality.va.gov/guidelines/MH/ptsd/cpg_PTSD-full-201011612.PDF
 
-Department of Veterans Affairs, & Department of Defense. VA/DoD Clinical practice guideline for the management of substance use disorders. , 2009.
+Department of Veterans Affairs, & Department of Defense. VA/DoD Clinical practice guideline for the management of substance use disorders. , 2009. https://www.healthquality.va.gov/guidelines/MH/sud/VADODSUDCPGRevised22216.pdf
 
 Lemke S, Boden MT, Kearney LK, Krahn DD, Neuman MJ, Schmidt EM, Trafton JA. Measurement-based management of mental health quality and access in VHA: SAIL mental health domain. Psychol Serv. 2017 Feb;14(1):1-12. doi: 10.1037/ser0000097.   PubMed ID: 28134552
 
