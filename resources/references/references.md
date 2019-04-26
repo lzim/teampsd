@@ -1,5 +1,5 @@
 
-Elbogen EB, Wagner HR, Johnson SC, Kinneer P, Kang H, Vasterling JJ, Timko C, Beckham JC. Are Iraq and Afghanistan veterans using mental health services? New data from a national random-sample survey. Psychiatr Serv. 2013 Feb 1;64(2):134-41. doi: 10.1176/appi.ps.004792011.   PubMed ID: 23475498
+Elbogen EB, Wagner HR, Johnson SC, Kinneer P, Kang H, Vasterling JJ, Timko C, Beckham JC. Are Iraq and Afghanistan veterans using mental health services? New data from a national random-sample survey. Psychiatr Serv. 2013 Feb 1;64(2):134-41. doi: 10.1176/appi.ps.004792011.   PubMed ID: 23475498 http://ps.psychiatryonline.org/doi/pdf/10.1176/appi.ps.004792011
 
 Hermes ED, Hoff R, Rosenheck RA. Sources of the increasing number of Vietnam era veterans with a diagnosis of PTSD using VHA services. Psychiatr Serv. 2014 Jun 1;65(6):830-2. doi: 10.1176/appi.ps.201300232.   PubMed ID: 24733559
 
