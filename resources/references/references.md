@@ -5,13 +5,13 @@ Hermes ED, Hoff R, Rosenheck RA. Sources of the increasing number of Vietnam era
 
 Mott JM, Grubbs KM, Sansgiry S, Fortney JC, Cully JA. Psychotherapy Utilization Among Rural and Urban Veterans From 2007 to 2010. J Rural Health. 2015 Summer;31(3):235-43. doi: 10.1111/jrh.12099. Epub 2014 Dec 3.   PubMed ID: 25471067 	http://doi.wiley.com/10.1111/jrh.12099
 
-Hankin CS, Spiro A 3rd, Miller DR, Kazis L. Mental disorders and mental health treatment among U.S. Department of Veterans Affairs outpatients: the Veterans Health Study. Am J Psychiatry. 1999 Dec;156(12):1924-30.   PubMed ID: 10588406
+Hankin CS, Spiro A 3rd, Miller DR, Kazis L. Mental disorders and mental health treatment among U.S. Department of Veterans Affairs outpatients: the Veterans Health Study. Am J Psychiatry. 1999 Dec;156(12):1924-30.   PubMed ID: 10588406 http://ajp.psychiatryonline.org/doi/10.1176/ajp.156.12.1924
 
-Hoggatt KJ, Williams EC, Der-Martirosian C, Yano EM, Washington DL. National prevalence and correlates of alcohol misuse in women veterans. J Subst Abuse Treat. 2015 May;52:10-6. doi: 10.1016/j.jsat.2014.12.003. Epub 2014 Dec 19.   PubMed ID: 25661517
+Hoggatt KJ, Williams EC, Der-Martirosian C, Yano EM, Washington DL. National prevalence and correlates of alcohol misuse in women veterans. J Subst Abuse Treat. 2015 May;52:10-6. doi: 10.1016/j.jsat.2014.12.003. Epub 2014 Dec 19.   PubMed ID: 25661517 	http://linkinghub.elsevier.com/retrieve/pii/S0740547214002530
 
-Fulton JJ, Calhoun PS, Wagner HR, Schry AR, Hair LP, Feeling N, Elbogen E, Beckham JC. The prevalence of posttraumatic stress disorder in Operation Enduring Freedom/Operation Iraqi Freedom (OEF/OIF) Veterans: a meta-analysis. J Anxiety Disord. 2015 Apr;31:98-107. doi: 10.1016/j.janxdis.2015.02.003. Epub 2015 Feb 19. Review.   PubMed ID: 25768399
+Fulton JJ, Calhoun PS, Wagner HR, Schry AR, Hair LP, Feeling N, Elbogen E, Beckham JC. The prevalence of posttraumatic stress disorder in Operation Enduring Freedom/Operation Iraqi Freedom (OEF/OIF) Veterans: a meta-analysis. J Anxiety Disord. 2015 Apr;31:98-107. doi: 10.1016/j.janxdis.2015.02.003. Epub 2015 Feb 19. Review.   PubMed ID: 25768399 http://linkinghub.elsevier.com/retrieve/pii/S0887618515000262
 
-Karlin BE, Cross G. From the laboratory to the therapy room: National dissemination and implementation of evidence-based psychotherapies in the U.S. Department of Veterans Affairs Health Care System. Am Psychol. 2014 Jan;69(1):19-33. doi: 10.1037/a0033888. Epub 2013 Sep 2.   PubMed ID: 24001035
+Karlin BE, Cross G. From the laboratory to the therapy room: National dissemination and implementation of evidence-based psychotherapies in the U.S. Department of Veterans Affairs Health Care System. Am Psychol. 2014 Jan;69(1):19-33. doi: 10.1037/a0033888. Epub 2013 Sep 2.   PubMed ID: 24001035 http://doi.apa.org/getdoi.cfm?doi=10.1037/a0033888
 
 Karlin BE, Brown GK, Trockel M, Cunning D, Zeiss AM, Taylor CB. National dissemination of cognitive behavioral therapy for depression in the Department of Veterans Affairs health care system: therapist and patient-level outcomes. J Consult Clin Psychol. 2012 Oct;80(5):707-18. Epub 2012 Jul 23.   PubMed ID: 22823859 	http://doi.apa.org/getdoi.cfm?doi=10.1037/a0029328
 
