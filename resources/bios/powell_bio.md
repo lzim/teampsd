@@ -1,1 +1,1 @@
-
+Fawn Powell is an EES Learning Consultant for Team PSD. She provides consultation services related to strategic alignment, initial analysis of learning need, and recommendations for educational program. As a 10 year Navy Veteran, Fawn is invested in assisting in the planning and development of the best training for VHA providers, caring for veterans.
