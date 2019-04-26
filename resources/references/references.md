@@ -27,29 +27,30 @@ Department of Veterans Affairs, & Department of Defense. VA/DoD Clinical practic
 
 Department of Veterans Affairs, & Department of Defense. VA/DoD Clinical practice guideline for the management of substance use disorders. , 2009. https://www.healthquality.va.gov/guidelines/MH/sud/VADODSUDCPGRevised22216.pdf
 
-Lemke S, Boden MT, Kearney LK, Krahn DD, Neuman MJ, Schmidt EM, Trafton JA. Measurement-based management of mental health quality and access in VHA: SAIL mental health domain. Psychol Serv. 2017 Feb;14(1):1-12. doi: 10.1037/ser0000097.   PubMed ID: 28134552
+Lemke S, Boden MT, Kearney LK, Krahn DD, Neuman MJ, Schmidt EM, Trafton JA. Measurement-based management of mental health quality and access in VHA: SAIL mental health domain. Psychol Serv. 2017 Feb;14(1):1-12. doi: 10.1037/ser0000097.   PubMed ID: 28134552 http://doi.apa.org/getdoi.cfm?doi=10.1037/ser0000097
 
-Harris AH, Humphreys K, Bowe T, Kivlahan DR, Finney JW. Measuring the quality of substance use disorder treatment: evaluating the validity of the Department of Veterans Affairs continuity of care performance measure. J Subst Abuse Treat. 2009 Apr;36(3):294-305. doi: 10.1016/j.jsat.2008.05.011. Epub 2008 Oct 5.   PubMed ID: 18835678
+Harris AH, Humphreys K, Bowe T, Kivlahan DR, Finney JW. Measuring the quality of substance use disorder treatment: evaluating the validity of the Department of Veterans Affairs continuity of care performance measure. J Subst Abuse Treat. 2009 Apr;36(3):294-305. doi: 10.1016/j.jsat.2008.05.011. Epub 2008 Oct 5.   PubMed ID: 18835678 http://linkinghub.elsevier.com/retrieve/pii/S0740547208001177
 
 Rosen CS, Matthieu MM, Wiltsey Stirman S, Cook JM, Landes S, Bernardy NC, Chard KM, Crowley J, Eftekhari A, Finley EP, Hamblen JL, Harik JM, Kehle-Forbes SM, Meis LA, Osei-Bonsu PE, Rodriguez AL, Ruggiero KJ, Ruzek JI, Smith BN, Trent L, Watts BV. A Review of Studies on the System-Wide Implementation of Evidence-Based Psychotherapies for Posttraumatic Stress Disorder in the Veterans Health Administration. Adm Policy Ment Health. 2016 Nov;43(6):957-977. Review.   PubMed ID: 27474040
 
-Seal KH, Maguen S, Cohen B, Gima KS, Metzler TJ, Ren L, Bertenthal D, Marmar CR. VA mental health services utilization in Iraq and Afghanistan veterans in the first year of receiving new mental health diagnoses. J Trauma Stress. 2010 Feb;23(1):5-16. doi: 10.1002/jts.20493.   PubMed ID: 20146392
+Seal KH, Maguen S, Cohen B, Gima KS, Metzler TJ, Ren L, Bertenthal D, Marmar CR. VA mental health services utilization in Iraq and Afghanistan veterans in the first year of receiving new mental health diagnoses. J Trauma Stress. 2010 Feb;23(1):5-16. doi: 10.1002/jts.20493.   PubMed ID: 20146392 https://link.springer.com/article/10.1007%2Fs10488-016-0755-0
 
-Mott JM, Mondragon S, Hundt NE, Beason-Smith M, Grady RH, Teng EJ. Characteristics of U.S. veterans who begin and complete prolonged exposure and cognitive processing therapy for PTSD. J Trauma Stress. 2014 Jun;27(3):265-73. doi: 10.1002/jts.21927.   PubMed ID: 24948535
+Mott JM, Mondragon S, Hundt NE, Beason-Smith M, Grady RH, Teng EJ. Characteristics of U.S. veterans who begin and complete prolonged exposure and cognitive processing therapy for PTSD. J Trauma Stress. 2014 Jun;27(3):265-73. doi: 10.1002/jts.21927.   PubMed ID: 24948535 http://doi.wiley.com/10.1002/jts.21927
 
-Harpaz-Rotem I, Rosenheck RA. Serving those who served: retention of newly returning veterans from Iraq and Afghanistan in mental health treatment. Psychiatr Serv. 2011 Jan;62(1):22-7. doi: 10.1176/ps.62.1.pss6201_0022.   PubMed ID: 21209295
+Harpaz-Rotem I, Rosenheck RA. Serving those who served: retention of newly returning veterans from Iraq and Afghanistan in mental health treatment. Psychiatr Serv. 2011 Jan;62(1):22-7. doi: 10.1176/ps.62.1.pss6201_0022.   PubMed ID: 21209295 http://ps.psychiatryonline.org/doi/10.1176/ps.62.1.pss6201_0022
 
-Lin LA, Bohnert AS, Ilgen MA, Pfeiffer PN, Ganoczy D, Blow FC. Outpatient Provider Contact Prior to Unintentional Opioid Overdose Among VHA Service Users. Psychiatr Serv. 2015 Nov;66(11):1149-54. doi: 10.1176/appi.ps.201400194. Epub 2015 Jul 1.   PubMed ID: 26129993
+Lin LA, Bohnert AS, Ilgen MA, Pfeiffer PN, Ganoczy D, Blow FC. Outpatient Provider Contact Prior to Unintentional Opioid Overdose Among VHA Service Users. Psychiatr Serv. 2015 Nov;66(11):1149-54. doi: 10.1176/appi.ps.201400194. Epub 2015 Jul 1.   PubMed ID: 26129993 
+http://ps.psychiatryonline.org/doi/abs/10.1176/appi.ps.201400194
 
-Harris AH, Bowe T, Del Re AC, Finlay AK, Oliva E, Myrick HL, Rubinsky AD. Extended release naltrexone for alcohol use disorders: quasi-experimental effects on mortality and subsequent detoxification episodes. Alcohol Clin Exp Res. 2015 Jan;39(1):79-83. doi: 10.1111/acer.12597.   PubMed ID: 25623408
+Harris AH, Bowe T, Del Re AC, Finlay AK, Oliva E, Myrick HL, Rubinsky AD. Extended release naltrexone for alcohol use disorders: quasi-experimental effects on mortality and subsequent detoxification episodes. Alcohol Clin Exp Res. 2015 Jan;39(1):79-83. doi: 10.1111/acer.12597.   PubMed ID: 25623408 http://doi.wiley.com/10.1111/acer.12597
 
-Degenhardt L, Bucello C, Mathers B, Briegleb C, Ali H, Hickman M, McLaren J. Mortality among regular or dependent users of heroin and other opioids: a systematic review and meta-analysis of cohort studies. Addiction. 2011 Jan;106(1):32-51. doi: 10.1111/j.1360-0443.2010.03140.x. Epub 2010 Nov 4. Review.   PubMed ID: 21054613
+Degenhardt L, Bucello C, Mathers B, Briegleb C, Ali H, Hickman M, McLaren J. Mortality among regular or dependent users of heroin and other opioids: a systematic review and meta-analysis of cohort studies. Addiction. 2011 Jan;106(1):32-51. doi: 10.1111/j.1360-0443.2010.03140.x. Epub 2010 Nov 4. Review.   PubMed ID: 21054613 http://doi.wiley.com/10.1111/j.1360-0443.2010.03140.x
 
-Kaplan MS, Huguet N, McFarland BH, Newsom JT. Suicide among male veterans: a prospective population-based study. J Epidemiol Community Health. 2007 Jul;61(7):619-24. Erratum in: J Epidemiol Community Health. 2007 Aug;61(8):751.   PubMed ID: 17568055
+Kaplan MS, Huguet N, McFarland BH, Newsom JT. Suicide among male veterans: a prospective population-based study. J Epidemiol Community Health. 2007 Jul;61(7):619-24. Erratum in: J Epidemiol Community Health. 2007 Aug;61(8):751.   PubMed ID: 17568055 http://jech.bmj.com/cgi/doi/10.1136/jech.2006.054346
 
-Desai RA, Dausey DJ, Rosenheck RA. Mental health service delivery and suicide risk: the role of individual patient and facility factors. Am J Psychiatry. 2005 Feb;162(2):311-8.   PubMed ID: 15677596
+Desai RA, Dausey DJ, Rosenheck RA. Mental health service delivery and suicide risk: the role of individual patient and facility factors. Am J Psychiatry. 2005 Feb;162(2):311-8.   PubMed ID: 15677596 http://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.162.2.311
 
-Gradus JL, Suvak MK, Wisco BE, Marx BP, Resick PA. Treatment of posttraumatic stress disorder reduces suicidal ideation. Depress Anxiety. 2013 Oct;30(10):1046-53. doi: 10.1002/da.22117. Epub 2013 May 1.   PubMed ID: 23636925
+Gradus JL, Suvak MK, Wisco BE, Marx BP, Resick PA. Treatment of posttraumatic stress disorder reduces suicidal ideation. Depress Anxiety. 2013 Oct;30(10):1046-53. doi: 10.1002/da.22117. Epub 2013 May 1.   PubMed ID: 23636925 http://doi.wiley.com/10.1002/da.22117
 
 Hysong SJ. Meta-analysis: audit and feedback features impact effectiveness on care quality. Med Care. 2009 Mar;47(3):356-63. doi: 10.1097/MLR.0b013e3181893f6b. Review.   PubMed ID: 19194332
 
