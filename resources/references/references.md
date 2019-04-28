@@ -324,59 +324,54 @@ Glasgow RE, Riley WT. Pragmatic measures: what they are and why we need them. Am
 
 Singh MK, Ogrinc G, Cox KR, Dolansky M, Brandt J, Morrison LJ, Harwood B, Petroski G, West A, Headrick LA. The Quality Improvement Knowledge Application Tool Revised (QIKAT-R). Acad Med. 2014 Oct;89(10):1386-91. doi: 10.1097/ACM.0000000000000456.   PubMed ID: 25119555 http://content.wkhealth.com/linkback/openurl?sid=WKPTLP:landingpage&an=00001888-201410000-00026
 
-Rosseel Y, Oberski D, Byrnes J, et al. Package "lavaan" Version 0.5-23.1097. 2017.
+Rosseel Y, Oberski D, Byrnes J, et al. Package "lavaan" Version 0.5-23.1097. 2017. https://cran.r-project.org/web/packages/lavaan/lavaan.pdf
 
 Shavelson RJ, & Webb NM. Generalizability theory: A primer. Newbury Park, CA: Sage., 1991.
 
 Millsap RE, Kwok OM. Evaluating the impact of partial factorial invariance on selection in two populations. Psychol Methods. 2004 Mar;9(1):93-115.   PubMed ID: 15053721 http://doi.apa.org/getdoi.cfm?doi=10.1037/1082-989X.9.1.93
 
-Wolak M. Package "ICC" Version 2.3.0. 2015. 
+Wolak M. Package "ICC" Version 2.3.0. 2015. https://cran.r-project.org/web/packages/ICC/ICC.pdf
 
-Bates D, Maechler M, Bolker B, et al. Package "lme4" Version 1.1-13. 2017. 
+Bates D, Maechler M, Bolker B, et al. Package "lme4" Version 1.1-13. 2017. https://cran.r-project.org/web/packages/lme4/lme4.pdf
 
-Rotondi MA. Package "CRTSize" Version 1.0. 2015. 
+Rotondi MA. Package "CRTSize" Version 1.0. 2015. https://cran.r-project.org/web/packages/CRTSize/CRTSize.pdf
 
-Rotondi MA, & Donner A. Sample Size Estimation in Cluster Randomized Educational Trials: An Empirical Bayes Approach. J Educ Behav Stat. 2009;34:229-237.
+Rotondi MA, & Donner A. Sample Size Estimation in Cluster Randomized Educational Trials: An Empirical Bayes Approach. J Educ Behav Stat. 2009;34:229-237. http://jeb.sagepub.com/cgi/doi/10.3102/1076998609332756
 
-Ventana Systems Inc. Vensim@ Version 6.3. 2014. 
+Ventana Systems Inc. Vensim@ Version 6.3. 2014. https://vensim.com/vensim-6-3-released/
 
-Hyndman, R.J., & Khandakar, Y. Automatic time series forecasting: The forecast package for R. J Stat Softw. 2008;26. 
+Hyndman, R.J., & Khandakar, Y. Automatic time series forecasting: The forecast package for R. J Stat Softw. 2008;26. https://www.jstatsoft.org/article/view/v027i03
 
-Hyndman R, O'Hara-Wild Mi, Bergmeir C, et al. Package "forecast" Version 8.0. 2017.
+Hyndman R, O'Hara-Wild Mi, Bergmeir C, et al. Package "forecast" Version 8.0. 2017. https://cran.r-project.org/web/packages/forecast/forecast.pdf
 
-Mott JM, Hundt NE, Sansgiry S, Mignogna J, Cully JA. Changes in psychotherapy utilization among veterans with depression, anxiety, and PTSD. Psychiatr Serv. 2014 Jan 1;65(1):106-12. doi: 10.1176/appi.ps.201300056.   PubMed ID: 24081213
+Mott JM, Hundt NE, Sansgiry S, Mignogna J, Cully JA. Changes in psychotherapy utilization among veterans with depression, anxiety, and PTSD. Psychiatr Serv. 2014 Jan 1;65(1):106-12. doi: 10.1176/appi.ps.201300056.   PubMed ID: 24081213 https://www.ncbi.nlm.nih.gov/pubmed/24081213
 
-Oliva EM, Trafton JA, Harris AH, Gordon AJ. Trends in opioid agonist therapy in the Veterans Health Administration: is supply keeping up with demand? Am J Drug Alcohol Abuse. 2013 Mar;39(2):103-7. doi: 10.3109/00952990.2012.741167.   PubMed ID: 23421571
+Oliva EM, Trafton JA, Harris AH, Gordon AJ. Trends in opioid agonist therapy in the Veterans Health Administration: is supply keeping up with demand? Am J Drug Alcohol Abuse. 2013 Mar;39(2):103-7. doi: 10.3109/00952990.2012.741167.   PubMed ID: 23421571 http://www.tandfonline.com/doi/full/10.3109/00952990.2012.741167
 
-Diaz M, Neuhauser D. Pasteur and parachutes: when statistical process control is better than a randomized controlled trial. Qual Saf Health Care. 2005 Apr;14(2):140-3.   PubMed ID: 15805461
+Diaz M, Neuhauser D. Pasteur and parachutes: when statistical process control is better than a randomized controlled trial. Qual Saf Health Care. 2005 Apr;14(2):140-3.   PubMed ID: 15805461 http://qualitysafety.bmj.com/lookup/doi/10.1136/qshc.2005.013763
 
-Duclos A, Voirin N. The p-control chart: a tool for care improvement. Int J Qual Health Care. 2010 Oct;22(5):402-7. doi: 10.1093/intqhc/mzq037. Epub 2010 Jul 30.   PubMed ID: 20675711
+Duclos A, Voirin N. The p-control chart: a tool for care improvement. Int J Qual Health Care. 2010 Oct;22(5):402-7. doi: 10.1093/intqhc/mzq037. Epub 2010 Jul 30.   PubMed ID: 20675711 http://intqhc.oxfordjournals.org/cgi/doi/10.1093/intqhc/mzq037
 
-Ogrinc GS, & Headrick L. Fundamentals of health care improvement: A guide to improving your patients' care. : Joint Commission Resources, 2008.
+Ogrinc GS, & Headrick L. Fundamentals of health care improvement: A guide to improving your patients' care. : Joint Commission Resources, 2008. 
 
-Ogrinc G, Mooney SE, Estrada C, Foster T, Goldmann D, Hall LW, Huizinga MM, Liu SK, Mills P, Neily J, Nelson W, Pronovost PJ, Provost L, Rubenstein LV, Speroff T, Splaine M, Thomson R, Tomolo AM, Watts B. The SQUIRE (Standards for QUality Improvement Reporting Excellence) guidelines for quality improvement reporting: explanation and elaboration. Qual Saf Health Care. 2008 Oct;17 Suppl 1:i13-32. doi: 10.1136/qshc.2008.029058.   PubMed ID: 18836062
+Ogrinc G, Mooney SE, Estrada C, Foster T, Goldmann D, Hall LW, Huizinga MM, Liu SK, Mills P, Neily J, Nelson W, Pronovost PJ, Provost L, Rubenstein LV, Speroff T, Splaine M, Thomson R, Tomolo AM, Watts B. The SQUIRE (Standards for QUality Improvement Reporting Excellence) guidelines for quality improvement reporting: explanation and elaboration. Qual Saf Health Care. 2008 Oct;17 Suppl 1:i13-32. doi: 10.1136/qshc.2008.029058.   PubMed ID: 18836062 http://qualitysafety.bmj.com/lookup/doi/10.1136/qshc.2008.029058
 
-Buntin MB, Burke MF, Hoaglin MC, Blumenthal D. The benefits of health information technology: a review of the recent literature shows predominantly positive results. Health Aff (Millwood). 2011 Mar;30(3):464-71. doi: 10.1377/hlthaff.2011.0178. Review.   PubMed ID: 21383365
+Buntin MB, Burke MF, Hoaglin MC, Blumenthal D. The benefits of health information technology: a review of the recent literature shows predominantly positive results. Health Aff (Millwood). 2011 Mar;30(3):464-71. doi: 10.1377/hlthaff.2011.0178. Review.   PubMed ID: 21383365 http://content.healthaffairs.org/cgi/doi/10.1377/hlthaff.2011.0178
 
-Raffa SD, Maciejewski ML, Zimmerman LE, Damschroder LJ, Estabrooks PA, Ackermann RT, Tsai AG, Histon T, Goldstein MG. A System-Level Approach to Overweight and Obesity in the Veterans Health Administration. J Gen Intern Med. 2017 Apr;32(Suppl 1):79-82. doi: 10.1007/s11606-016-3948-z.   PubMed ID: 28271428
+Raffa SD, Maciejewski ML, Zimmerman LE, Damschroder LJ, Estabrooks PA, Ackermann RT, Tsai AG, Histon T, Goldstein MG. A System-Level Approach to Overweight and Obesity in the Veterans Health Administration. J Gen Intern Med. 2017 Apr;32(Suppl 1):79-82. doi: 10.1007/s11606-016-3948-z.   PubMed ID: 28271428 https://www.ncbi.nlm.nih.gov/pubmed/28271428
 
-Kilbourne AM, Elwy AR, Sales AE, Atkins D. Accelerating Research Impact in a Learning Health Care System: VA's Quality Enhancement Research Initiative in the Choice Act Era. Med Care. 2017 Jul;55 Suppl 7 Suppl 1:S4-S12. doi: 10.1097/MLR.0000000000000683.   PubMed ID: 27997456
+Kilbourne AM, Elwy AR, Sales AE, Atkins D. Accelerating Research Impact in a Learning Health Care System: VA's Quality Enhancement Research Initiative in the Choice Act Era. Med Care. 2017 Jul;55 Suppl 7 Suppl 1:S4-S12. doi: 10.1097/MLR.0000000000000683.   PubMed ID: 27997456 http://www.ucdenver.edu/academics/colleges/medicalschool/programs/ACCORDS/sharedresources/DandI/Documents/QUERI_2017.pdf
 
-Mabry PL, Olster DH, Morgan GD, Abrams DB. Interdisciplinarity and systems science to improve population health: a view from the NIH Office of Behavioral and Social Sciences Research. Am J Prev Med. 2008 Aug;35(2 Suppl):S211-24. doi: 10.1016/j.amepre.2008.05.018. Erratum in: Am J Prev Med. 2008 Dec;35(6):611.   PubMed ID: 18619402
+Mabry PL, Olster DH, Morgan GD, Abrams DB. Interdisciplinarity and systems science to improve population health: a view from the NIH Office of Behavioral and Social Sciences Research. Am J Prev Med. 2008 Aug;35(2 Suppl):S211-24. doi: 10.1016/j.amepre.2008.05.018. Erratum in: Am J Prev Med. 2008 Dec;35(6):611.   PubMed ID: 18619402 https://www.ncbi.nlm.nih.gov/pubmed/18619402
 
-Mabry PL, Milstein B, Abraido-Lanza AF, Livingood WC, Allegrante JP. Opening a window on systems science research in health promotion and public health. Health Educ Behav. 2013 Oct;40(1 Suppl):5S-8S. doi: 10.1177/1090198113503343.   PubMed ID: 24084401
+Mabry PL, Milstein B, Abraido-Lanza AF, Livingood WC, Allegrante JP. Opening a window on systems science research in health promotion and public health. Health Educ Behav. 2013 Oct;40(1 Suppl):5S-8S. doi: 10.1177/1090198113503343.   PubMed ID: 24084401 http://heb.sagepub.com/cgi/doi/10.1177/1090198113503343
 
-Luke DA, Stamatakis KA. Systems science methods in public health: dynamics, networks, and agents. Annu Rev Public Health. 2012 Apr;33:357-76. doi: 10.1146/annurev-publhealth-031210-101222. Epub 2012 Jan 3. Review.   PubMed ID: 22224885
+Luke DA, Stamatakis KA. Systems science methods in public health: dynamics, networks, and agents. Annu Rev Public Health. 2012 Apr;33:357-76. doi: 10.1146/annurev-publhealth-031210-101222. Epub 2012 Jan 3. Review.   PubMed ID: 22224885 http://www.annualreviews.org/doi/10.1146/annurev-publhealth-031210-101222
 
-Moore GF, Evans RE. What theory, for whom and in which context? Reflections on the application of theory in the development and evaluation of complex population health interventions. SSM Popul Health. 2017 Dec;3:132-135. doi: 10.1016/j.ssmph.2016.12.005.   PubMed ID: 29302610
+Moore GF, Evans RE. What theory, for whom and in which context? Reflections on the application of theory in the development and evaluation of complex population health interventions. SSM Popul Health. 2017 Dec;3:132-135. doi: 10.1016/j.ssmph.2016.12.005.   PubMed ID: 29302610 http://linkinghub.elsevier.com/retrieve/pii/S2352827316301719
 
-Monks T. Operational research as implementation science: definitions, challenges and research priorities. Implement Sci. 2016 Jun 6;11(1):81. doi: 10.1186/s13012-016-0444-0.   PubMed ID: 27268021
+Monks T. Operational research as implementation science: definitions, challenges and research priorities. Implement Sci. 2016 Jun 6;11(1):81. doi: 10.1186/s13012-016-0444-0.   PubMed ID: 27268021 http://implementationscience.biomedcentral.com/articles/10.1186/s13012-016-0444-0
 
-May CR, Johnson M, Finch T. Implementation, context and complexity. Implement Sci. 2016 Oct 19;11(1):141.   PubMed ID: 27756414
+May CR, Johnson M, Finch T. Implementation, context and complexity. Implement Sci. 2016 Oct 19;11(1):141.   PubMed ID: 27756414 http://implementationscience.biomedcentral.com/articles/10.1186/s13012-016-0506-3
 
-Brainard J, Hunter PR. Do complexity-informed health interventions work? A scoping review. Implement Sci. 2016 Sep 20;11(1):127. doi: 10.1186/s13012-016-0492-5. Review.   PubMed ID: 27647152  
-
-
- 
- 
-
+Brainard J, Hunter PR. Do complexity-informed health interventions work? A scoping review. Implement Sci. 2016 Sep 20;11(1):127. doi: 10.1186/s13012-016-0492-5. Review.   PubMed ID: 27647152 http://implementationscience.biomedcentral.com/articles/10.1186/s13012-016-0492-5
