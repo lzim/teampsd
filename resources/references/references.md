@@ -31,7 +31,7 @@ Lemke S, Boden MT, Kearney LK, Krahn DD, Neuman MJ, Schmidt EM, Trafton JA. Meas
 
 Harris AH, Humphreys K, Bowe T, Kivlahan DR, Finney JW. Measuring the quality of substance use disorder treatment: evaluating the validity of the Department of Veterans Affairs continuity of care performance measure. J Subst Abuse Treat. 2009 Apr;36(3):294-305. doi: 10.1016/j.jsat.2008.05.011. Epub 2008 Oct 5.   PubMed ID: 18835678 http://linkinghub.elsevier.com/retrieve/pii/S0740547208001177
 
-Rosen CS, Matthieu MM, Wiltsey Stirman S, Cook JM, Landes S, Bernardy NC, Chard KM, Crowley J, Eftekhari A, Finley EP, Hamblen JL, Harik JM, Kehle-Forbes SM, Meis LA, Osei-Bonsu PE, Rodriguez AL, Ruggiero KJ, Ruzek JI, Smith BN, Trent L, Watts BV. A Review of Studies on the System-Wide Implementation of Evidence-Based Psychotherapies for Posttraumatic Stress Disorder in the Veterans Health Administration. Adm Policy Ment Health. 2016 Nov;43(6):957-977. Review.   PubMed ID: 27474040
+Rosen CS, Matthieu MM, Wiltsey Stirman S, Cook JM, Landes S, Bernardy NC, Chard KM, Crowley J, Eftekhari A, Finley EP, Hamblen JL, Harik JM, Kehle-Forbes SM, Meis LA, Osei-Bonsu PE, Rodriguez AL, Ruggiero KJ, Ruzek JI, Smith BN, Trent L, Watts BV. A Review of Studies on the System-Wide Implementation of Evidence-Based Psychotherapies for Posttraumatic Stress Disorder in the Veterans Health Administration. Adm Policy Ment Health. 2016 Nov;43(6):957-977. Review.   PubMed ID: 27474040 https://link.springer.com/article/10.1007%2Fs10488-016-0755-0
 
 Seal KH, Maguen S, Cohen B, Gima KS, Metzler TJ, Ren L, Bertenthal D, Marmar CR. VA mental health services utilization in Iraq and Afghanistan veterans in the first year of receiving new mental health diagnoses. J Trauma Stress. 2010 Feb;23(1):5-16. doi: 10.1002/jts.20493.   PubMed ID: 20146392 https://link.springer.com/article/10.1007%2Fs10488-016-0755-0
 
@@ -52,57 +52,57 @@ Desai RA, Dausey DJ, Rosenheck RA. Mental health service delivery and suicide ri
 
 Gradus JL, Suvak MK, Wisco BE, Marx BP, Resick PA. Treatment of posttraumatic stress disorder reduces suicidal ideation. Depress Anxiety. 2013 Oct;30(10):1046-53. doi: 10.1002/da.22117. Epub 2013 May 1.   PubMed ID: 23636925 http://doi.wiley.com/10.1002/da.22117
 
-Hysong SJ. Meta-analysis: audit and feedback features impact effectiveness on care quality. Med Care. 2009 Mar;47(3):356-63. doi: 10.1097/MLR.0b013e3181893f6b. Review.   PubMed ID: 19194332
+Hysong SJ. Meta-analysis: audit and feedback features impact effectiveness on care quality. Med Care. 2009 Mar;47(3):356-63. doi: 10.1097/MLR.0b013e3181893f6b. Review.   PubMed ID: 19194332 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4170834/
 
-Foy R, Eccles MP, Jamtvedt G, Young J, Grimshaw JM, Baker R. What do we know about how to do audit and feedback? Pitfalls in applying evidence from a systematic review. BMC Health Serv Res. 2005 Jul 13;5:50.   PubMed ID: 16011811
+Foy R, Eccles MP, Jamtvedt G, Young J, Grimshaw JM, Baker R. What do we know about how to do audit and feedback? Pitfalls in applying evidence from a systematic review. BMC Health Serv Res. 2005 Jul 13;5:50.   PubMed ID: 16011811 	http://bmchealthservres.biomedcentral.com/articles/10.1186/1472-6963-5-50
 
-Ivers N, Jamtvedt G, Flottorp S, Young JM, Odgaard-Jensen J, French SD, O'Brien MA, Johansen M, Grimshaw J, Oxman AD. Audit and feedback: effects on professional practice and healthcare outcomes. Cochrane Database Syst Rev. 2012 Jun 13;(6):CD000259. doi: 10.1002/14651858.CD000259.pub3. Review.   PubMed ID: 22696318
+Ivers N, Jamtvedt G, Flottorp S, Young JM, Odgaard-Jensen J, French SD, O'Brien MA, Johansen M, Grimshaw J, Oxman AD. Audit and feedback: effects on professional practice and healthcare outcomes. Cochrane Database Syst Rev. 2012 Jun 13;(6):CD000259. doi: 10.1002/14651858.CD000259.pub3. Review.   PubMed ID: 22696318 	http://doi.wiley.com/10.1002/14651858.CD000259.pub3
 
-Flottorp SA, Jamtvedt G, Gibis B, et al. Using audit and feedback to health professionals to improve the quality and safety of health care. World Health Organ. 2010.
+Flottorp SA, Jamtvedt G, Gibis B, et al. Using audit and feedback to health professionals to improve the quality and safety of health care. World Health Organ. 2010. http://www.euro.who.int/__data/assets/pdf_file/0003/124419/e94296.pdf
 
-Ivers NM, Sales A, Colquhoun H, Michie S, Foy R, Francis JJ, Grimshaw JM. No more 'business as usual' with audit and feedback interventions: towards an agenda for a reinvigorated intervention. Implement Sci. 2014 Jan 17;9:14. doi: 10.1186/1748-5908-9-14.   PubMed ID: 24438584
+Ivers NM, Sales A, Colquhoun H, Michie S, Foy R, Francis JJ, Grimshaw JM. No more 'business as usual' with audit and feedback interventions: towards an agenda for a reinvigorated intervention. Implement Sci. 2014 Jan 17;9:14. doi: 10.1186/1748-5908-9-14.   PubMed ID: 24438584 https://www.ncbi.nlm.nih.gov/pubmed/24438584
+ 
+Colquhoun HL, Carroll K, Eva KW, Grimshaw JM, Ivers N, Michie S, Sales A, Brehaut JC. Advancing the literature on designing audit and feedback interventions: identifying theory-informed hypotheses. Implement Sci. 2017 Sep 29;12(1):117. doi: 10.1186/s13012-017-0646-0.   PubMed ID: 28962632 	http://implementationscience.biomedcentral.com/articles/10.1186/s13012-017-0646-0
 
-Colquhoun HL, Carroll K, Eva KW, Grimshaw JM, Ivers N, Michie S, Sales A, Brehaut JC. Advancing the literature on designing audit and feedback interventions: identifying theory-informed hypotheses. Implement Sci. 2017 Sep 29;12(1):117. doi: 10.1186/s13012-017-0646-0.   PubMed ID: 28962632
+Colquhoun H, Michie S, Sales A, Ivers N, Grimshaw JM, Carroll K, Chalifoux M, Eva K, Brehaut J. Reporting and design elements of audit and feedback interventions: a secondary review. BMJ Qual Saf. 2017 Jan;26(1):54-60. doi: 10.1136/bmjqs-2015-005004. Epub 2016 Jan 25.   PubMed ID: 26811541 http://qualitysafety.bmj.com/content/26/1/54.abstract
 
-Colquhoun H, Michie S, Sales A, Ivers N, Grimshaw JM, Carroll K, Chalifoux M, Eva K, Brehaut J. Reporting and design elements of audit and feedback interventions: a secondary review. BMJ Qual Saf. 2017 Jan;26(1):54-60. doi: 10.1136/bmjqs-2015-005004. Epub 2016 Jan 25.   PubMed ID: 26811541
+Landis-Lewis Z, Brehaut JC, Hochheiser H, Douglas GP, Jacobson RS. Computer-supported feedback message tailoring: theory-informed adaptation of clinical audit and feedback for learning and behavior change. Implement Sci. 2015 Jan 21;10:12. doi: 10.1186/s13012-014-0203-z.   PubMed ID: 25603806 http://implementationscience.biomedcentral.com/articles/10.1186/s13012-014-0203-z
 
-Landis-Lewis Z, Brehaut JC, Hochheiser H, Douglas GP, Jacobson RS. Computer-supported feedback message tailoring: theory-informed adaptation of clinical audit and feedback for learning and behavior change. Implement Sci. 2015 Jan 21;10:12. doi: 10.1186/s13012-014-0203-z.   PubMed ID: 25603806
+Atkinson JA, Wells R, Page A, Dominello A, Haines M, Wilson A. Applications of system dynamics modelling to support health policy. Public Health Res Pract. 2015 Jul 9;25(3):e2531531. doi: 10.17061/phrp2531531. Review.   PubMed ID: 26243490 http://www.phrp.com.au/issues/july-2015-volume-26-issue-3/applications-system-dynamics-modelling-support-health-policy/
 
-Atkinson JA, Wells R, Page A, Dominello A, Haines M, Wilson A. Applications of system dynamics modelling to support health policy. Public Health Res Pract. 2015 Jul 9;25(3):e2531531. doi: 10.17061/phrp2531531. Review.   PubMed ID: 26243490
+Diehl E, & Sterman JD. Effects of feedback complexity on dynamic decision making. Organ Behav Hum Decis Process. 1995;62:198-215. http://www.sciencedirect.com/science/article/pii/S0749597885710436
 
-Diehl E, & Sterman JD. Effects of feedback complexity on dynamic decision making. Organ Behav Hum Decis Process. 1995;62:198-215.
+Sterman JD. Modeling managerial behavior: Misperceptions of feedback in a dynamic decision making experiment. Manag Sci. 1989;35:321-339. http://pubsonline.informs.org/doi/abs/10.1287/mnsc.35.3.321
 
-Sterman JD. Modeling managerial behavior: Misperceptions of feedback in a dynamic decision making experiment. Manag Sci. 1989;35:321-339.
+Cronin MA, Gonzalez C, & Sterman JD. Why don't well-educated adults understand accumulation? A challenge to researchers, educators, and citizens. Organ Behav Hum Decis Process. 2009;108:116-130. https://www.sciencedirect.com/science/article/pii/S0749597808000447
 
-Cronin MA, Gonzalez C, & Sterman JD. Why don't well-educated adults understand accumulation? A challenge to researchers, educators, and citizens. Organ Behav Hum Decis Process. 2009;108:116-130.
+Sterman JD. Learning from evidence in a complex world. Am J Public Health. 2006 Mar;96(3):505-14. Epub 2006 Jan 31.   PubMed ID: 16449579 http://ajph.aphapublications.org/doi/10.2105/AJPH.2005.066043
 
-Sterman JD. Learning from evidence in a complex world. Am J Public Health. 2006 Mar;96(3):505-14. Epub 2006 Jan 31.   PubMed ID: 16449579
+Sterman JD. Learning in and about complex systems. Syst Dyn Rev. 1994;10:291-330. http://onlinelibrary.wiley.com/doi/10.1002/sdr.4260100214/abstract
 
-Sterman JD. Learning in and about complex systems. Syst Dyn Rev. 1994;10:291-330.
+Andersen DF, Vennix JA, Richardson GP, et al. Group model building: Problem structing, policy simulation and decision support. J Oper Res Soc. 2007;:691-694. http://www.jstor.org/stable/4622747
 
-Andersen DF, Vennix JA, Richardson GP, et al. Group model building: Problem structing, policy simulation and decision support. J Oper Res Soc. 2007;:691-694.
+Vennix JAM. Group model building: facilitating team learning using system dynamics. Chichester ; New York: J. Wiley, 1996: 1-297. https://www.tandfonline.com/doi/abs/10.1057/palgrave.jors.2600567
 
-Vennix JAM. Group model building: facilitating team learning using system dynamics. Chichester ; New York: J. Wiley, 1996: 1-297.
+Rouwette EAJA, Vennix JAM, & Mullekom T van. Group model building effectiveness: A review of assessment studies. Syst Dyn Rev. 2002;18:5-45. http://doi.wiley.com/10.1002/sdr.229
 
-Rouwette EAJA, Vennix JAM, & Mullekom T van. Group model building effectiveness: A review of assessment studies. Syst Dyn Rev. 2002;18:5-45.
+Bendoly E. System dynamics understanding in projects: Information sharing, psychological safety, and performance effects. Prod Oper Manag. 2014;23:1352-1369. http://doi.wiley.com/10.1111/poms.12024
 
-Bendoly E. System dynamics understanding in projects: Information sharing, psychological safety, and performance effects. Prod Oper Manag. 2014;23:1352-1369.
+Sterman JD. Does formal system dynamics training improve people's understanding of accumulation? Syst Dyn Rev. 2010;26:316-334. http://doi.wiley.com/10.1002/sdr.447
 
-Sterman JD. Does formal system dynamics training improve people's understanding of accumulation? Syst Dyn Rev. 2010;26:316-334.
+Simon HA. Bounded rationality and organizational learning. Organ Sci. 1991;2:125-134. http://pubsonline.informs.org/doi/pdf/10.1287/orsc.2.1.125
 
-Simon HA. Bounded rationality and organizational learning. Organ Sci. 1991;2:125-134.
+Rahmandad H, Repenning N, & Sterman J. Effects of feedback delay on learning. Syst Dyn Rev. 2009;25:309-338. http://doi.wiley.com/10.1002/sdr.427
 
-Rahmandad H, Repenning N, & Sterman J. Effects of feedback delay on learning. Syst Dyn Rev. 2009;25:309-338.
+Zimmerman L, Lounsbury DW, Rosen CS, Kimerling R, Trafton JA, Lindley SE. Participatory System Dynamics Modeling: Increasing Stakeholder Engagement and Precision to Improve Implementation Planning in Systems. Adm Policy Ment Health. 2016 Nov;43(6):834-849.   PubMed ID: 27480546 http://link.springer.com/10.1007/s10488-016-0754-1
 
-Zimmerman L, Lounsbury DW, Rosen CS, Kimerling R, Trafton JA, Lindley SE. Participatory System Dynamics Modeling: Increasing Stakeholder Engagement and Precision to Improve Implementation Planning in Systems. Adm Policy Ment Health. 2016 Nov;43(6):834-849.   PubMed ID: 27480546
+Oliva R. Model calibration as a testing strategy for system dynamics models. Eur J Oper Res. 2003;151:552-568. http://linkinghub.elsevier.com/retrieve/pii/S0377221702006227
 
-Oliva R. Model calibration as a testing strategy for system dynamics models. Eur J Oper Res. 2003;151:552-568.
+Trafton JA, Greenberg G, Harris AH, Tavakoli S, Kearney L, McCarthy J, Blow F, Hoff R, Schohn M. VHA mental health information system: applying health information technology to monitor and facilitate implementation of VHA Uniform Mental Health Services Handbook requirements. Med Care. 2013 Mar;51(3 Suppl 1):S29-36. doi: 10.1097/MLR.0b013e31827da836.   PubMed ID: 23407008 https://www.ncbi.nlm.nih.gov/pubmed/23407008
 
-Trafton JA, Greenberg G, Harris AH, Tavakoli S, Kearney L, McCarthy J, Blow F, Hoff R, Schohn M. VHA mental health information system: applying health information technology to monitor and facilitate implementation of VHA Uniform Mental Health Services Handbook requirements. Med Care. 2013 Mar;51(3 Suppl 1):S29-36. doi: 10.1097/MLR.0b013e31827da836.   PubMed ID: 23407008
+Barlas Y. Formal aspects of model validity and validation in system dynamics. Syst Dyn Rev. 1996;12:183-210. http://www.ie.boun.edu.tr/labs/sesdyn/publications/articles/Barlas_1996.pdf
 
-Barlas Y. Formal aspects of model validity and validation in system dynamics. Syst Dyn Rev. 1996;12:183-210.
-
-Hirsch G, Homer J, Trogdon J, Wile K, Orenstein D. Using simulation to compare 4 categories of intervention for reducing cardiovascular disease risks. Am J Public Health. 2014 Jul;104(7):1187-95. doi: 10.2105/AJPH.2013.301816. Epub 2014 May 15.   PubMed ID: 24832142
+Hirsch G, Homer J, Trogdon J, Wile K, Orenstein D. Using simulation to compare 4 categories of intervention for reducing cardiovascular disease risks. Am J Public Health. 2014 Jul;104(7):1187-95. doi: 10.2105/AJPH.2013.301816. Epub 2014 May 15.   PubMed ID: 24832142 
 
 Lich KH, Tian Y, Beadles CA, Williams LS, Bravata DM, Cheng EM, Bosworth HB, Homer JB, Matchar DB. Strategic planning to reduce the burden of stroke among veterans: using simulation modeling to inform decision making. Stroke. 2014 Jul;45(7):2078-84. doi: 10.1161/STROKEAHA.114.004694. Epub 2014 Jun 12.   PubMed ID: 24923722
 
