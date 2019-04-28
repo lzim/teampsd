@@ -282,65 +282,65 @@ Wallerstein NB, Duran B. Using community-based participatory research to address
 
 Aarons GA. Measuring provider attitudes toward evidence-based practice: consideration of organizational context and individual differences. Child Adolesc Psychiatr Clin N Am. 2005 Apr;14(2):255-71, viii. Review.   PubMed ID: 15694785 http://linkinghub.elsevier.com/retrieve/pii/S1056499304000410
 
-Aarons GA, Hurlburt M, Horwitz SM. Advancing a conceptual model of evidence-based practice implementation in public service sectors. Adm Policy Ment Health. 2011 Jan;38(1):4-23. doi: 10.1007/s10488-010-0327-7.   PubMed ID: 21197565 
+Aarons GA, Hurlburt M, Horwitz SM. Advancing a conceptual model of evidence-based practice implementation in public service sectors. Adm Policy Ment Health. 2011 Jan;38(1):4-23. doi: 10.1007/s10488-010-0327-7.   PubMed ID: 21197565 https://www.ncbi.nlm.nih.gov/pubmed/21197565
 
-Aarons GA, Ehrhart MG, Farahnak LR, Sklar M. Aligning leadership across systems and organizations to develop a strategic climate for evidence-based practice implementation. Annu Rev Public Health. 2014;35:255-74. doi: 10.1146/annurev-publhealth-032013-182447.   PubMed ID: 24641560 
+Aarons GA, Ehrhart MG, Farahnak LR, Sklar M. Aligning leadership across systems and organizations to develop a strategic climate for evidence-based practice implementation. Annu Rev Public Health. 2014;35:255-74. doi: 10.1146/annurev-publhealth-032013-182447.   PubMed ID: 24641560 http://www.annualreviews.org/doi/10.1146/annurev-publhealth-032013-182447
 
-Aarons GA, Green AE, Trott E, Willging CE, Torres EM, Ehrhart MG, Roesch SC. The Roles of System and Organizational Leadership in System-Wide Evidence-Based Intervention Sustainment: A Mixed-Method Study. Adm Policy Ment Health. 2016 Nov;43(6):991-1008.   PubMed ID: 27439504 
+Aarons GA, Green AE, Trott E, Willging CE, Torres EM, Ehrhart MG, Roesch SC. The Roles of System and Organizational Leadership in System-Wide Evidence-Based Intervention Sustainment: A Mixed-Method Study. Adm Policy Ment Health. 2016 Nov;43(6):991-1008.   PubMed ID: 27439504 http://link.springer.com/10.1007/s10488-016-0751-4
 
-Brimhall KC, Fenwick K, Farahnak LR, Hurlburt MS, Roesch SC, Aarons GA. Leadership, Organizational Climate, and Perceived Burden of Evidence-Based Practice in Mental Health Services. Adm Policy Ment Health. 2016 Sep;43(5):629-639. doi: 10.1007/s10488-015-0670-9.   PubMed ID: 26152770
+Brimhall KC, Fenwick K, Farahnak LR, Hurlburt MS, Roesch SC, Aarons GA. Leadership, Organizational Climate, and Perceived Burden of Evidence-Based Practice in Mental Health Services. Adm Policy Ment Health. 2016 Sep;43(5):629-639. doi: 10.1007/s10488-015-0670-9.   PubMed ID: 26152770 http://link.springer.com/10.1007/s10488-015-0670-9
 
-Senge P, & Forrester JW. Tests for building confidence in system dynamics models. 1980;14:209-228.
+Senge P, & Forrester JW. Tests for building confidence in system dynamics models. 1980;14:209-228. 
 
-Rahmandad H, & Sterman JD. Reporting guidelines for simulation-based research in social sciences: Reporting Guidelines for Simulation-Based Research. Syst Dyn Rev. 2012;28:396-411.
+Rahmandad H, & Sterman JD. Reporting guidelines for simulation-based research in social sciences: Reporting Guidelines for Simulation-Based Research. Syst Dyn Rev. 2012;28:396-411. http://doi.wiley.com/10.1002/sdr.1481
 
-Hovmand PS, Andersen DF, Rouwette E, et al. Group model-building "scripts" as a collaborative planning tool: Scripts as a collaborative planning tool. Syst Res Behav Sci. 2012;29:179-193.
+Hovmand PS, Andersen DF, Rouwette E, et al. Group model-building "scripts" as a collaborative planning tool: Scripts as a collaborative planning tool. Syst Res Behav Sci. 2012;29:179-193. https://pdfs.semanticscholar.org/c414/1f6aff64c1f9ded8cd7c245b7a16999bdc99.pdf
 
-Andersen D, & Richardson G. Scripts for group model building. Syst Dyn Rev. 1997;13:107-129.
+Andersen D, & Richardson G. Scripts for group model building. Syst Dyn Rev. 1997;13:107-129. http://www.albany.edu/~al8295/andersenrichardson1997.pdf
 
-Hovmand, Peter, S., et al. Scriptapedia 4.0.6. 2013.
+Hovmand, Peter, S., et al. Scriptapedia 4.0.6. 2013. https://www.systemdynamics.org/assets/conferences/2013/proceed/papers/P1405.pdf
 
-McCarthy JT, Hocum CL, Albright RC, Rogers J, Gallaher EJ, Steensma DP, Gudgell SF, Bergstralh EJ, Dillon JC, Hickson LJ, Williams AW, Dingli D. Biomedical system dynamics to improve anemia control with darbepoetin alfa in long-term hemodialysis patients. Mayo Clin Proc. 2014 Jan;89(1):87-94. doi: 10.1016/j.mayocp.2013.10.022.   PubMed ID: 24388026
+McCarthy JT, Hocum CL, Albright RC, Rogers J, Gallaher EJ, Steensma DP, Gudgell SF, Bergstralh EJ, Dillon JC, Hickson LJ, Williams AW, Dingli D. Biomedical system dynamics to improve anemia control with darbepoetin alfa in long-term hemodialysis patients. Mayo Clin Proc. 2014 Jan;89(1):87-94. doi: 10.1016/j.mayocp.2013.10.022.   PubMed ID: 24388026 http://linkinghub.elsevier.com/retrieve/pii/S0025619613009300
 
-Gallaher E, Steensma DP, Chrisope TR, et al. Individualized Medicine and Biophysical System Dynamics: An Example from Clinical Practice in End Stage Renal Disease. 2011.
+Gallaher E, Steensma DP, Chrisope TR, et al. Individualized Medicine and Biophysical System Dynamics: An Example from Clinical Practice in End Stage Renal Disease. 2011. https://www.researchgate.net/profile/David_Steensma/publication/265079095_Individualized_Medicine_and_Biophysical_System_Dynamics_An_Example_from_Clinical_Practice_in_End_Stage_Renal_Disease/links/54837d010cf2e5f7ceacc6ec.pdf
 
-Homer J. Levels of evidence in system dynamics modeling. Syst Dyn Rev. 2014;30:75-80.
+Homer J. Levels of evidence in system dynamics modeling. Syst Dyn Rev. 2014;30:75-80. http://doi.wiley.com/10.1002/sdr.1514
 
-Oliva R, & Sterman JD. Death spirals and virtuous cycles. In: Handbook of Service Science. : Springer, 2010: 321-358.
+Oliva R, & Sterman JD. Death spirals and virtuous cycles. In: Handbook of Service Science. : Springer, 2010: 321-358. https://www.researchgate.net/publication/226538976_Death_Spirals_and_Virtuous_Cycles_Human_Resource_Dynamics_in_Knowledge-Based_Services
 
-Snow G. Package "blockrand." 2015.
+Snow G. Package "blockrand." 2015. https://cran.r-project.org/web/packages/blockrand/blockrand.pdf
 
-Holowka DW, Marx BP, Gates MA, Litman HJ, Ranganathan G, Rosen RC, Keane TM. PTSD diagnostic validity in Veterans Affairs electronic records of Iraq and Afghanistan veterans. J Consult Clin Psychol. 2014 Aug;82(4):569-579. doi: 10.1037/a0036347. Epub 2014 Apr 14. Erratum in: J Consult Clin Psychol. 2014 Aug;82(4):579.   PubMed ID: 24731235
+Holowka DW, Marx BP, Gates MA, Litman HJ, Ranganathan G, Rosen RC, Keane TM. PTSD diagnostic validity in Veterans Affairs electronic records of Iraq and Afghanistan veterans. J Consult Clin Psychol. 2014 Aug;82(4):569-579. doi: 10.1037/a0036347. Epub 2014 Apr 14. Erratum in: J Consult Clin Psychol. 2014 Aug;82(4):579.   PubMed ID: 24731235 http://doi.apa.org/getdoi.cfm?doi=10.1037/a0036347
 
-Emmons KM, Weiner B, Fernandez ME, Tu SP. Systems antecedents for dissemination and implementation: a review and analysis of measures. Health Educ Behav. 2012 Feb;39(1):87-105. doi: 10.1177/1090198111409748. Epub 2011 Jul 1. Review.   PubMed ID: 21724933
+Emmons KM, Weiner B, Fernandez ME, Tu SP. Systems antecedents for dissemination and implementation: a review and analysis of measures. Health Educ Behav. 2012 Feb;39(1):87-105. doi: 10.1177/1090198111409748. Epub 2011 Jul 1. Review.   PubMed ID: 21724933 http://journals.sagepub.com/doi/10.1177/1090198111409748
 
-Rabin BA, Lewis CC, Norton WE, Neta G, Chambers D, Tobin JN, Brownson RC, Glasgow RE. Measurement resources for dissemination and implementation research in health. Implement Sci. 2016 Mar 22;11:42. doi: 10.1186/s13012-016-0401-y.   PubMed ID: 27000147
+Rabin BA, Lewis CC, Norton WE, Neta G, Chambers D, Tobin JN, Brownson RC, Glasgow RE. Measurement resources for dissemination and implementation research in health. Implement Sci. 2016 Mar 22;11:42. doi: 10.1186/s13012-016-0401-y.   PubMed ID: 27000147 http://www.implementationscience.com/content/11/1/42
 
-Lewis CC, Fischer S, Weiner BJ, Stanick C, Kim M, Martinez RG. Outcomes for implementation science: an enhanced systematic review of instruments using evidence-based rating criteria. Implement Sci. 2015 Nov 4;10:155. doi: 10.1186/s13012-015-0342-x. Review.   PubMed ID: 26537706
+Lewis CC, Fischer S, Weiner BJ, Stanick C, Kim M, Martinez RG. Outcomes for implementation science: an enhanced systematic review of instruments using evidence-based rating criteria. Implement Sci. 2015 Nov 4;10:155. doi: 10.1186/s13012-015-0342-x. Review.   PubMed ID: 26537706 http://implementationscience.biomedcentral.com/articles/10.1186/s13012-015-0342-x
 
-Glasgow RE. What does it mean to be pragmatic? Pragmatic methods, measures, and models to facilitate research translation. Health Educ Behav. 2013 Jun;40(3):257-65. doi: 10.1177/1090198113486805.   PubMed ID: 23709579
+Glasgow RE. What does it mean to be pragmatic? Pragmatic methods, measures, and models to facilitate research translation. Health Educ Behav. 2013 Jun;40(3):257-65. doi: 10.1177/1090198113486805.   PubMed ID: 23709579 http://heb.sagepub.com/cgi/doi/10.1177/1090198113486805
 
-Glasgow RE, Riley WT. Pragmatic measures: what they are and why we need them. Am J Prev Med. 2013 Aug;45(2):237-43. doi: 10.1016/j.amepre.2013.03.010.   PubMed ID: 23867032
+Glasgow RE, Riley WT. Pragmatic measures: what they are and why we need them. Am J Prev Med. 2013 Aug;45(2):237-43. doi: 10.1016/j.amepre.2013.03.010.   PubMed ID: 23867032 https://www.ncbi.nlm.nih.gov/pubmed/23867032
 
-Singh MK, Ogrinc G, Cox KR, Dolansky M, Brandt J, Morrison LJ, Harwood B, Petroski G, West A, Headrick LA. The Quality Improvement Knowledge Application Tool Revised (QIKAT-R). Acad Med. 2014 Oct;89(10):1386-91. doi: 10.1097/ACM.0000000000000456.   PubMed ID: 25119555
+Singh MK, Ogrinc G, Cox KR, Dolansky M, Brandt J, Morrison LJ, Harwood B, Petroski G, West A, Headrick LA. The Quality Improvement Knowledge Application Tool Revised (QIKAT-R). Acad Med. 2014 Oct;89(10):1386-91. doi: 10.1097/ACM.0000000000000456.   PubMed ID: 25119555 http://content.wkhealth.com/linkback/openurl?sid=WKPTLP:landingpage&an=00001888-201410000-00026
 
 Rosseel Y, Oberski D, Byrnes J, et al. Package "lavaan" Version 0.5-23.1097. 2017.
 
 Shavelson RJ, & Webb NM. Generalizability theory: A primer. Newbury Park, CA: Sage., 1991.
 
-Millsap RE, Kwok OM. Evaluating the impact of partial factorial invariance on selection in two populations. Psychol Methods. 2004 Mar;9(1):93-115.   PubMed ID: 15053721
+Millsap RE, Kwok OM. Evaluating the impact of partial factorial invariance on selection in two populations. Psychol Methods. 2004 Mar;9(1):93-115.   PubMed ID: 15053721 http://doi.apa.org/getdoi.cfm?doi=10.1037/1082-989X.9.1.93
 
-Wolak M. Package "ICC" Version 2.3.0. 2015.
+Wolak M. Package "ICC" Version 2.3.0. 2015. 
 
-Bates D, Maechler M, Bolker B, et al. Package "lme4" Version 1.1-13. 2017.
+Bates D, Maechler M, Bolker B, et al. Package "lme4" Version 1.1-13. 2017. 
 
-Rotondi MA. Package "CRTSize" Version 1.0. 2015.
+Rotondi MA. Package "CRTSize" Version 1.0. 2015. 
 
 Rotondi MA, & Donner A. Sample Size Estimation in Cluster Randomized Educational Trials: An Empirical Bayes Approach. J Educ Behav Stat. 2009;34:229-237.
 
-Ventana Systems Inc. Vensim@ Version 6.3. 2014.
+Ventana Systems Inc. Vensim@ Version 6.3. 2014. 
 
-Hyndman, R.J., & Khandakar, Y. Automatic time series forecasting: The forecast package for R. J Stat Softw. 2008;26.
+Hyndman, R.J., & Khandakar, Y. Automatic time series forecasting: The forecast package for R. J Stat Softw. 2008;26. 
 
 Hyndman R, O'Hara-Wild Mi, Bergmeir C, et al. Package "forecast" Version 8.0. 2017.
 
