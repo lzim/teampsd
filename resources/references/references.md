@@ -200,93 +200,93 @@ Powell BJ, Waltz TJ, Chinman MJ, Damschroder LJ, Smith JL, Matthieu MM, Proctor 
 
 Chambers DA, Glasgow RE, Stange KC. The dynamic sustainability framework: addressing the paradox of sustainment amid ongoing change. Implement Sci. 2013 Oct 2;8:117. doi: 10.1186/1748-5908-8-117.   PubMed ID: 24088228 http://implementationscience.biomedcentral.com/articles/10.1186/1748-5908-8-117
 
-Breuer E, Lee L, De Silva M, Lund C. Using theory of change to design and evaluate public health interventions: a systematic review. Implement Sci. 2016 May 6;11:63. doi: 10.1186/s13012-016-0422-6. Review.   PubMed ID: 27153985
+Breuer E, Lee L, De Silva M, Lund C. Using theory of change to design and evaluate public health interventions: a systematic review. Implement Sci. 2016 May 6;11:63. doi: 10.1186/s13012-016-0422-6. Review.   PubMed ID: 27153985 http://implementationscience.biomedcentral.com/articles/10.1186/s13012-016-0422-6
 
-Schierhout G, Hains J, Si D, Kennedy C, Cox R, Kwedza R, O'Donoghue L, Fittock M, Brands J, Lonergan K, Dowden M, Bailie R. Evaluating the effectiveness of a multifaceted, multilevel continuous quality improvement program in primary health care: developing a realist theory of change. Implement Sci. 2013 Oct 8;8:119. doi: 10.1186/1748-5908-8-119.   PubMed ID: 24098940
+Schierhout G, Hains J, Si D, Kennedy C, Cox R, Kwedza R, O'Donoghue L, Fittock M, Brands J, Lonergan K, Dowden M, Bailie R. Evaluating the effectiveness of a multifaceted, multilevel continuous quality improvement program in primary health care: developing a realist theory of change. Implement Sci. 2013 Oct 8;8:119. doi: 10.1186/1748-5908-8-119.   PubMed ID: 24098940 http://implementationscience.biomedcentral.com/articles/10.1186/1748-5908-8-119
+ 
+Nilsen P. Making sense of implementation theories, models and frameworks. Implement Sci. 2015 Apr 21;10:53. doi: 10.1186/s13012-015-0242-0.   PubMed ID: 25895742 http://implementationscience.biomedcentral.com/articles/10.1186/s13012-015-0242-0
 
-Nilsen P. Making sense of implementation theories, models and frameworks. Implement Sci. 2015 Apr 21;10:53. doi: 10.1186/s13012-015-0242-0.   PubMed ID: 25895742
+Sales A, Smith J, Curran G, Kochevar L. Models, strategies, and tools. Theory in implementing evidence-based findings into health care practice. J Gen Intern Med. 2006 Feb;21 Suppl 2:S43-9.   PubMed ID: 16637960 https://www.ncbi.nlm.nih.gov/pubmed/16637960
 
-Sales A, Smith J, Curran G, Kochevar L. Models, strategies, and tools. Theory in implementing evidence-based findings into health care practice. J Gen Intern Med. 2006 Feb;21 Suppl 2:S43-9.   PubMed ID: 16637960
+Damschroder LJ, & Lowery JC. Efficient Synthesis: Using Qualitative Comparative Analysis (QCA) and the CFIR across Diverse Studies. 2015. 
 
-Damschroder LJ, & Lowery JC. Efficient Synthesis: Using Qualitative Comparative Analysis (QCA) and the CFIR across Diverse Studies. 2015.
+Baumgartner M, & Thiem A. Often Trusted but Never (Properly) Tested: Evaluating Qualitative Comparative Analysis. Sociol Methods Res. 2017;:4912411770148. http://journals.sagepub.com/doi/10.1177/0049124117701487
 
-Baumgartner M, & Thiem A. Often Trusted but Never (Properly) Tested: Evaluating Qualitative Comparative Analysis. Sociol Methods Res. 2017;:4912411770148.
+Hug S. Qualitative Comparative Analysis: How Inductive Use and Measurement Error Lead to Problematic Inference. Polit Anal. 2013;21:252-265. https://www.cambridge.org/core/product/identifier/S1047198700013383/type/journal_article
 
-Hug S. Qualitative Comparative Analysis: How Inductive Use and Measurement Error Lead to Problematic Inference. Polit Anal. 2013;21:252-265.
+Krogslund C, Choi DD, & Poertner M. Fuzzy Sets on Shaky Ground: Parameter Sensitivity and Confirmation Bias in fsQCA. Polit Anal. 2015;23:21-41. https://www.cambridge.org/core/product/identifier/S104719870001158X/type/journal_article
 
-Krogslund C, Choi DD, & Poertner M. Fuzzy Sets on Shaky Ground: Parameter Sensitivity and Confirmation Bias in fsQCA. Polit Anal. 2015;23:21-41.
+Braumoeller B. QCAfalsePositive: Tests for Type I Error in Qualitative Comparative Analysis (QCA). 2015. https://cran.r-project.org/web/packages/QCAfalsePositive/index.html
+ 
+Powell BJ, Proctor EK, Glass JE. A Systematic Review of Strategies for Implementing Empirically Supported Mental Health Interventions. Res Soc Work Pract. 2014 Mar 1;24(2):192-212.   PubMed ID: 24791131 http://journals.sagepub.com/doi/10.1177/1049731513505778
 
-Braumoeller B. QCAfalsePositive: Tests for Type I Error in Qualitative Comparative Analysis (QCA). 2015.
+Williams NJ. Multilevel Mechanisms of Implementation Strategies in Mental Health: Integrating Theory, Research, and Practice. Adm Policy Ment Health. 2016 Sep;43(5):783-798. doi: 10.1007/s10488-015-0693-2. Review.   PubMed ID: 26474761 http://link.springer.com/10.1007/s10488-015-0693-2
 
-Powell BJ, Proctor EK, Glass JE. A Systematic Review of Strategies for Implementing Empirically Supported Mental Health Interventions. Res Soc Work Pract. 2014 Mar 1;24(2):192-212.   PubMed ID: 24791131
+Senge P. The Fifth Discipline. : Currency/Doubleday, 1990. 
 
-Williams NJ. Multilevel Mechanisms of Implementation Strategies in Mental Health: Integrating Theory, Research, and Practice. Adm Policy Ment Health. 2016 Sep;43(5):783-798. doi: 10.1007/s10488-015-0693-2. Review.   PubMed ID: 26474761
+Sweeney LB, & Sterman JD. Bathtub dynamics: initial results of a systems thinking inventory. Syst Dyn Rev. 2000;16:249-286. http://onlinelibrary.wiley.com/doi/10.1002/sdr.198/full
 
-Senge P. The Fifth Discipline. : Currency/Doubleday, 1990.
+Hysong SJ, Knox MK, Haidet P. Examining clinical performance feedback in Patient-Aligned Care Teams. J Gen Intern Med. 2014 Jul;29 Suppl 2:S667-74. doi: 10.1007/s11606-013-2707-7.   PubMed ID: 24715398 http://link.springer.com/10.1007/s11606-013-2707-7
 
-Sweeney LB, & Sterman JD. Bathtub dynamics: initial results of a systems thinking inventory. Syst Dyn Rev. 2000;16:249-286.
+Hysong SJ, Thomas CL, Spitzmüller C, Amspoker AB, Woodard L, Modi V, Naik AD. Linking clinician interaction and coordination to clinical performance in Patient-Aligned Care Teams. Implement Sci. 2016 Jan 15;11:7. doi: 10.1186/s13012-015-0368-0.   PubMed ID: 26772972 http://implementationscience.biomedcentral.com/articles/10.1186/s13012-015-0368-0
 
-Hysong SJ, Knox MK, Haidet P. Examining clinical performance feedback in Patient-Aligned Care Teams. J Gen Intern Med. 2014 Jul;29 Suppl 2:S667-74. doi: 10.1007/s11606-013-2707-7.   PubMed ID: 24715398
+Richardson GP. Concept models in group model building: G. P. Richardson: Concept Models in Group Model Building. Syst Dyn Rev. 2013;29:42-55. http://doi.wiley.com/10.1002/sdr.1487
 
-Hysong SJ, Thomas CL, Spitzmüller C, Amspoker AB, Woodard L, Modi V, Naik AD. Linking clinician interaction and coordination to clinical performance in Patient-Aligned Care Teams. Implement Sci. 2016 Jan 15;11:7. doi: 10.1186/s13012-015-0368-0.   PubMed ID: 26772972
+Richardson GP. Reflections on the foundations of system dynamics: Foundations of System Dynamics. Syst Dyn Rev. 2011;27:219-243. http://doi.wiley.com/10.1002/sdr.462
 
-Richardson GP. Concept models in group model building: G. P. Richardson: Concept Models in Group Model Building. Syst Dyn Rev. 2013;29:42-55.
+Garcia HA, McGeary CA, Finley EP, et al. Burnout among psychiatrists in the Veterans Health Administration. Burn Res. 2015;2:108-114. http://linkinghub.elsevier.com/retrieve/pii/S2213058615200265
 
-Richardson GP. Reflections on the foundations of system dynamics: Foundations of System Dynamics. Syst Dyn Rev. 2011;27:219-243.
+Garcia HA, Finley EP, Ketchum N, Jakupcak M, Dassori A, Reyes SC. A survey of perceived barriers and attitudes toward mental health care among OEF/OIF veterans at VA outpatient mental health clinics. Mil Med. 2014 Mar;179(3):273-8. doi: 10.7205/MILMED-D-13-00076.   PubMed ID: 24594461 http://publications.amsus.org/doi/abs/10.7205/MILMED-D-13-00076
 
-Garcia HA, McGeary CA, Finley EP, et al. Burnout among psychiatrists in the Veterans Health Administration. Burn Res. 2015;2:108-114.
+Garcia HA, Kelley LP, Rentz TO, et al. Pretreatment predictors of dropout from cognitive behavioral therapy for PTSD in Iraq and Afghanistan war veterans. Psychol Serv. 2011;8:1-11. http://doi.apa.org/getdoi.cfm?doi=10.1037/a0022705
 
-Garcia HA, Finley EP, Ketchum N, Jakupcak M, Dassori A, Reyes SC. A survey of perceived barriers and attitudes toward mental health care among OEF/OIF veterans at VA outpatient mental health clinics. Mil Med. 2014 Mar;179(3):273-8. doi: 10.7205/MILMED-D-13-00076.   PubMed ID: 24594461
+Senge, P.M. The fifth discipline: The art and practice of the learning organization. : Broadway Business, 2006. 
 
-Garcia HA, Kelley LP, Rentz TO, et al. Pretreatment predictors of dropout from cognitive behavioral therapy for PTSD in Iraq and Afghanistan war veterans. Psychol Serv. 2011;8:1-11.
+Meadows DH. Thinking in systems: A primer. : Chelsea Green Publishing, 2012. 
 
-Senge, P.M. The fifth discipline: The art and practice of the learning organization. : Broadway Business, 2006.
-
-Meadows DH. Thinking in systems: A primer. : Chelsea Green Publishing, 2012.
-
-Senge PM, ed. The dance of change: the challenges of sustaining momentum in learning organizations, 1st ed. New York: Currency/Doubleday, 1999: 1-596.
+Senge PM, ed. The dance of change: the challenges of sustaining momentum in learning organizations, 1st ed. New York: Currency/Doubleday, 1999: 1-596. 
 
 Sterman JD. Business Dynamics: Systems Thinking and Modeling for a Complex World. : McGraw-Hill Education, 2000: 1-1008.
 
-Rouwette EA, & Vennix JA. System dynamics and organizational interventions. Syst Res Behav Sci. 2006;23:451-466.
+Rouwette EA, & Vennix JA. System dynamics and organizational interventions. Syst Res Behav Sci. 2006;23:451-466. http://onlinelibrary.wiley.com/doi/10.1002/sres.772/abstract
 
-Akhnif E, Macq J, Idrissi Fakhreddine MO, Meessen B. Scoping literature review on the Learning Organisation concept as applied to the health system. Health Res Policy Syst. 2017 Mar 1;15(1):16. doi: 10.1186/s12961-017-0176-x. Review.   PubMed ID: 28249608
+Akhnif E, Macq J, Idrissi Fakhreddine MO, Meessen B. Scoping literature review on the Learning Organisation concept as applied to the health system. Health Res Policy Syst. 2017 Mar 1;15(1):16. doi: 10.1186/s12961-017-0176-x. Review.   PubMed ID: 28249608 http://health-policy-systems.biomedcentral.com/articles/10.1186/s12961-017-0176-x
 
-Morecroft J, & Sherman J. Modeling for learning organizations. Portland OR: Productivity Press, 1994.
+Morecroft J, & Sherman J. Modeling for learning organizations. Portland OR: Productivity Press, 1994. 
 
-Argyris C, & Schön DA. Organizational learning: A theory of action perspective. Reis. 1997;:345-348.
+Argyris C, & Schön DA. Organizational learning: A theory of action perspective. Reis. 1997;:345-348. 
 
-Forrester JW. Industrial Dynamics. Cambridge, MA: MIT Press, 1961.
+Forrester JW. Industrial Dynamics. Cambridge, MA: MIT Press, 1961. 
 
-Simon HA. Models of Man: Social and Rational-Mathematical Essays on Rational Human Behavior in a Social Setting. Oxford, UK: Wiley, 1957.
+Simon HA. Models of Man: Social and Rational-Mathematical Essays on Rational Human Behavior in a Social Setting. Oxford, UK: Wiley, 1957. 
 
-Huz S, Andersen DF, Richardson GP, et al. A framework for evaluating systems thinking interventions: an experimental approach to mental health system change. Syst Dyn Rev. 1997;13:149-169.
+Huz S, Andersen DF, Richardson GP, et al. A framework for evaluating systems thinking interventions: an experimental approach to mental health system change. Syst Dyn Rev. 1997;13:149-169. http://doi.wiley.com/10.1002/%28SICI%291099-1727%28199722%2913%3A2%3C149%3A%3AAID-SDR122%3E3.0.CO%3B2-S
 
-Evans JS. Dual-processing accounts of reasoning, judgment, and social cognition. Annu Rev Psychol. 2008;59:255-78. Review.   PubMed ID: 18154502
+Evans JS. Dual-processing accounts of reasoning, judgment, and social cognition. Annu Rev Psychol. 2008;59:255-78. Review.   PubMed ID: 18154502 http://www.annualreviews.org/doi/10.1146/annurev.psych.59.103006.093629
 
-Evans JS. In two minds: dual-process accounts of reasoning. Trends Cogn Sci. 2003 Oct;7(10):454-9.   PubMed ID: 14550493
+Evans JS. In two minds: dual-process accounts of reasoning. Trends Cogn Sci. 2003 Oct;7(10):454-9.   PubMed ID: 14550493 http://linkinghub.elsevier.com/retrieve/pii/S1364661303002250
 
-Evans JS, Stanovich KE. Dual-Process Theories of Higher Cognition: Advancing the Debate. Perspect Psychol Sci. 2013 May;8(3):223-41. doi: 10.1177/1745691612460685.   PubMed ID: 26172965
+Evans JS, Stanovich KE. Dual-Process Theories of Higher Cognition: Advancing the Debate. Perspect Psychol Sci. 2013 May;8(3):223-41. doi: 10.1177/1745691612460685.   PubMed ID: 26172965 http://journals.sagepub.com/doi/10.1177/1745691612460685
 
-Moore SM, Dolansky MA, Singh M, et al. The Systems Thinking Scale. 2010.
+Moore SM, Dolansky MA, Singh M, et al. The Systems Thinking Scale. 2010. https://nursing.case.edu/media/nursing/pdf-dox/STS_Manual.pdf
 
-Hovmand PS. Community Based System Dynamics. New York, NY: Springer New York, 2014.
+Hovmand PS. Community Based System Dynamics. New York, NY: Springer New York, 2014. http://link.springer.com/10.1007/978-1-4614-8763-0
 
-Minkler M, & Wallerstein N. Community-Based Participatory Research for Health: From Process to Outcomes. : John Wiley & Sons, 2011: 1-758.
+Minkler M, & Wallerstein N. Community-Based Participatory Research for Health: From Process to Outcomes. : John Wiley & Sons, 2011: 1-758. 
 
-Case AD, Byrd R, Claggett E, DeVeaux S, Perkins R, Huang C, Sernyak MJ, Steiner JL, Cole R, LaPaglia DM, Bailey M, Buchanan C, Johnson A, Kaufman JS. Stakeholders' perspectives on community-based participatory research to enhance mental health services. Am J Community Psychol. 2014 Dec;54(3-4):397-408. doi: 10.1007/s10464-014-9677-8.   PubMed ID: 25245601
+Case AD, Byrd R, Claggett E, DeVeaux S, Perkins R, Huang C, Sernyak MJ, Steiner JL, Cole R, LaPaglia DM, Bailey M, Buchanan C, Johnson A, Kaufman JS. Stakeholders' perspectives on community-based participatory research to enhance mental health services. Am J Community Psychol. 2014 Dec;54(3-4):397-408. doi: 10.1007/s10464-014-9677-8.   PubMed ID: 25245601 https://www.ncbi.nlm.nih.gov/pubmed/25245601
 
-Israel BA, Coombe CM, Cheezum RR, Schulz AJ, McGranaghan RJ, Lichtenstein R, Reyes AG, Clement J, Burris A. Community-based participatory research: a capacity-building approach for policy advocacy aimed at eliminating health disparities. Am J Public Health. 2010 Nov;100(11):2094-102. doi: 10.2105/AJPH.2009.170506. Epub 2010 Sep 23.   PubMed ID: 20864728
+Israel BA, Coombe CM, Cheezum RR, Schulz AJ, McGranaghan RJ, Lichtenstein R, Reyes AG, Clement J, Burris A. Community-based participatory research: a capacity-building approach for policy advocacy aimed at eliminating health disparities. Am J Public Health. 2010 Nov;100(11):2094-102. doi: 10.2105/AJPH.2009.170506. Epub 2010 Sep 23.   PubMed ID: 20864728 http://ajph.aphapublications.org/doi/10.2105/AJPH.2009.170506
 
-Wallerstein NB, Duran B. Using community-based participatory research to address health disparities. Health Promot Pract. 2006 Jul;7(3):312-23. Epub 2006 Jun 7.   PubMed ID: 16760238
+Wallerstein NB, Duran B. Using community-based participatory research to address health disparities. Health Promot Pract. 2006 Jul;7(3):312-23. Epub 2006 Jun 7.   PubMed ID: 16760238 http://hpp.sagepub.com/cgi/doi/10.1177/1524839906289376
 
-Aarons GA. Measuring provider attitudes toward evidence-based practice: consideration of organizational context and individual differences. Child Adolesc Psychiatr Clin N Am. 2005 Apr;14(2):255-71, viii. Review.   PubMed ID: 15694785
+Aarons GA. Measuring provider attitudes toward evidence-based practice: consideration of organizational context and individual differences. Child Adolesc Psychiatr Clin N Am. 2005 Apr;14(2):255-71, viii. Review.   PubMed ID: 15694785 http://linkinghub.elsevier.com/retrieve/pii/S1056499304000410
 
-Aarons GA, Hurlburt M, Horwitz SM. Advancing a conceptual model of evidence-based practice implementation in public service sectors. Adm Policy Ment Health. 2011 Jan;38(1):4-23. doi: 10.1007/s10488-010-0327-7.   PubMed ID: 21197565
+Aarons GA, Hurlburt M, Horwitz SM. Advancing a conceptual model of evidence-based practice implementation in public service sectors. Adm Policy Ment Health. 2011 Jan;38(1):4-23. doi: 10.1007/s10488-010-0327-7.   PubMed ID: 21197565 
 
-Aarons GA, Ehrhart MG, Farahnak LR, Sklar M. Aligning leadership across systems and organizations to develop a strategic climate for evidence-based practice implementation. Annu Rev Public Health. 2014;35:255-74. doi: 10.1146/annurev-publhealth-032013-182447.   PubMed ID: 24641560
+Aarons GA, Ehrhart MG, Farahnak LR, Sklar M. Aligning leadership across systems and organizations to develop a strategic climate for evidence-based practice implementation. Annu Rev Public Health. 2014;35:255-74. doi: 10.1146/annurev-publhealth-032013-182447.   PubMed ID: 24641560 
 
-Aarons GA, Green AE, Trott E, Willging CE, Torres EM, Ehrhart MG, Roesch SC. The Roles of System and Organizational Leadership in System-Wide Evidence-Based Intervention Sustainment: A Mixed-Method Study. Adm Policy Ment Health. 2016 Nov;43(6):991-1008.   PubMed ID: 27439504
+Aarons GA, Green AE, Trott E, Willging CE, Torres EM, Ehrhart MG, Roesch SC. The Roles of System and Organizational Leadership in System-Wide Evidence-Based Intervention Sustainment: A Mixed-Method Study. Adm Policy Ment Health. 2016 Nov;43(6):991-1008.   PubMed ID: 27439504 
 
 Brimhall KC, Fenwick K, Farahnak LR, Hurlburt MS, Roesch SC, Aarons GA. Leadership, Organizational Climate, and Perceived Burden of Evidence-Based Practice in Mental Health Services. Adm Policy Ment Health. 2016 Sep;43(5):629-639. doi: 10.1007/s10488-015-0670-9.   PubMed ID: 26152770
 
