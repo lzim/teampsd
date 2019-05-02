@@ -69,7 +69,7 @@ output:
 - Or, if your team has designated provider clinics, you can select by provider name.
 - Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
 - Follow the instructions in **Box A2.** 
-- After filtering, click add all. Fine tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
+- After filtering, click "add all." Fine tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
 ### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with already in your team data folder.** 
