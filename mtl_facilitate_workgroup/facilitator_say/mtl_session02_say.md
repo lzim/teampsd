@@ -45,32 +45,24 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## In-session Exercise (30 minutes): Patient data and team trends
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-1. A word about *MTL* on BISL, the VA's Business Intelligence Service Line:
+1. The team data is stored on the VA’s corporate data warehouse site referred to as BISL, the Business Intelligence Service Line. We will refer to this as the BISL sharepoint splash page. The information in this data file is Protected Health Information (PHI). You should always save your data file back to SharePoint or places that are appropriate for PHI. If you're attaching a data file to an email, encrypt the file.
 
-  a. The team data is stored on the VA’s corporate data warehouse site referred to as BISL, again the Business Intelligence Service Line. We will refer to this as the BISL sharepoint splash page. 
-
-  b. The information in this data file is Protected Health Information (PHI). Please save your data file back to SharePoint or places that are appropriate for PHI. If attaching a data file to an email, encrypt the file.
-
-2. To navigate to the data user interface (UI):  
+2. To navigate to the data user interface (data UI):  
 
   a.	Type mtl.how/data in your web browser. Internet Explorer works best for this resource.  
 
   b.	On the page titled “Select Your VISN”, click on your team’s VISN number.
 
   c.	On the page titled  “Select Your Facility”, click on the facility name for your team.
+  
+ ### :05 
 
 3. Let's explore the information available in the BISL sharepoint splash page
 
-  a. Once you have selected your facility name, a web access version of Excel will open on your screen.  
-
-  b. First, let's see how to manipulate the view with the various scroll bars:  
-     - A scroll bar on the far right lets you move up and down to see the entire data UI screen.  
-     - Another bar on the right side allows you to move up and down to see a list of variables that you can include in charts.  
-     - Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right        across columns.  
+  a. Once you have selected your facility name, a web version of Excel will open on your screen, showing charts from your facility's data.  
      
-  c. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right:  
-      -  Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"  
-      -  ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
+  b. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
+      -  Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"       -  ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
       -  SPTransfers  - data about Suicide Prevention transfers  
       -  dataDiag - data about Diagnoses  
       -  dataHF - data about Health Factors  
