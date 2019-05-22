@@ -6,6 +6,8 @@
 ## R version 3.5.3
 ## RStudio Desktop 1.1.463
 
+*You can check your version in R Studio by going to Help > About RStudio*
+
 R Analyses Packages Help Folders    |
 -----------------   |
 ggplot 2 - https://github.com/lzim/teampsd/tree/master/resources/r/ggplot2  |
