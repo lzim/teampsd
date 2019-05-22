@@ -22,6 +22,15 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### As you can see in the Done/Do table in the Learner See Guide:  
 
+**We've been _Modeling to Learn_ how to improve our use of systems thinking when making care decisions in our team.**
+
+Systems Thinking | Definition
+-- | -- 
+Complex | **Forest   not trees.**    Relationships among two or more   variables (wait times, improvement rate), or two or more settings (primary   care, general mental health).
+Feedback | **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (reinforcing)   or reduced (balancing) around the loop.
+System Behavior | **Movie   not snapshot.**    Trends over time.    Systems cause their own behavior   through feedback.
+Time | **Short   and   long term.**      Better understanding of change over   time   (e.g., worse before better, better   before worse).
+
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
