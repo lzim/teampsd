@@ -47,6 +47,12 @@ As this graphic is showing, what we're doing today is pulling a set of team data
 ## In-session Exercise (30 minutes): Team data for simulation
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
+### Navigate to the data UI at mtl.how/data. Remember that this is on the VA's SharePoint so it works best with Internet Explorer.
+
+You should have all the same permissions here as you do normally in the VA.
+It may take a minute the first time you do it, but it'll get faster as you return to it subsequently.
+After you navigate to your facility, scroll down and you will see two team data folders: one called "data UI" and one called "sim UI"
+
 ### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
 
 a. This is a different table from the one you generated last time by selecting the clinics that make up your team and then clicking "Get *Patient Level* Data." 
