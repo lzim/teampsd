@@ -70,16 +70,17 @@ c. There are team data produced for each module of *Modeling to Learn*, each sto
   + Measurement-based stepped care for suicide prevention (SP) - tab title *SPParams*
 
 ### 1. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
+[Choose a module]
 
-     - [Click on *CCParams* tab, use mouse to point to variables]  Key variables of interest in CC may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.
+   - *CCParams*: Key variables of interest in CC may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.
 
-     - [Click on *MMParams* tab, use mouse to point to variables]  Key variables of interest in MM may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and appointment slots with an X waiver as a percentage of the total and Slots Allocation percent for those with and without an X waiver.
+   - *MMParams*: Key variables of interest in MM may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and appointment slots with an X waiver as a percentage of the total and Slots Allocation percent for those with and without an X waiver.
 
-     - [Click on *PSYParams* tab, use mouse to point to variables]  Key variables that can be explored in PSY include median engagement duration and engagement after 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
+   - *PSYParams*: Key variables that can be explored in PSY include median engagement duration and engagement after 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
 
-     - [Click on *AggParams* tab, use mouse to point to variables]  Key variables in AGG are median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
+   - *AggParams*: Key variables in AGG are median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
 
-     - [Click on *SPParams* tab, use mouse to point to variables] In Suicide Prevention, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
+   - *SPParams*: In Suicide Prevention, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
 
 Check out the different modules that are highlighted in the team data on the screen. As we review, we will use the mouse to highlight key team data variables.
 
