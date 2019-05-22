@@ -54,9 +54,9 @@ You'll log in with your VA credentials and you should have all the same permissi
 
 Navigate to your facility as we did last time, or when you've done it a few times, it will automatically go to the facility that you're working with.
 
-Scrolling down to the team folder you will probably see that you have just one file there, called "data UI". We're going to click on that folder and open the Excel file, where we will use the second "Get Team Data" button to create a second file for use in the sim UI.
+Scroll down to the team folder. You will (probably) have just one file there, called "data UI". We will click on that folder and open the Excel file. Then we will use the second "Get Team Data" button to create a second data file for use by the sim UI.
 
-### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
+### Clicking the "Get Team Data Table for Sim UI" button produces a table of descriptive team data.
 
 a. This is a different table from the one you generated last time by selecting the clinics that make up your team and then clicking "Get *Patient Level* Data." 
 
