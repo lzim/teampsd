@@ -60,9 +60,9 @@ Scrolling down to the team folder you will probably see that you have just one f
 
 a. This is a different table from the one you generated last time by selecting the clinics that make up your team and then clicking "Get *Patient Level* Data." 
 
-b. Data are presented as means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
+b. Data in this file are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data, or parameters.
 
-c. There are team data produced for each module of *Modeling to Learn*. Each module has its own tab in the data file:
+c. There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
   + Care Coordination (CC) - tab title *CCParams*
   + Medication Management (MM) - tab title *MMParams*
   + Psychotherapy (PSY) - tab title *PSYParams*
