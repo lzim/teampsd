@@ -1,10 +1,10 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# Team PSD is currently using: 
+# Team PSD is using (current as of 2019_05_22): 
 
-## R version 3.5.1 
-## RStudio Desktop 1.1.456 
+## R version 3.5.3
+## RStudio Desktop 1.1.463
 
 R Analyses Packages Help Folders    |
 -----------------   |
