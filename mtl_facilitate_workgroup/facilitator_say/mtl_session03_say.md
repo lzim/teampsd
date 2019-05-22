@@ -27,7 +27,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will produce team data for the _MTL_ simulation user-interface (sim UI)| 
 
 ### After this session you will be able to:
 
@@ -40,18 +40,21 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions.
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
-As this graphic is showing, what we're doing today is pulling a set of team data from the data UI that describes trends in our team over the *last* two years, that we'll use in the sim UI to estimate plausible future trends in our team over the *next* two years, if we make certain team decisions.
+## Let's get started!
 
-### Let's get started!
+As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.
 
 ## In-session Exercise (30 minutes): Team data for simulation
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-### Navigate to the data UI at mtl.how/data. Remember that this is on the VA's SharePoint so it works best with Internet Explorer.
+### Navigate to the data UI at mtl.how/data. 
+Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer.
 
-You should have all the same permissions here as you do normally in the VA.
-It may take a minute the first time you do it, but it'll get faster as you return to it subsequently.
-After you navigate to your facility, scroll down and you will see two team data folders: one called "data UI" and one called "sim UI"
+You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
+
+Navigate to your facility as we did last time, or when you've done it a few times, it will automatically go to the facility that you're working with.
+
+Scrolling down to the team folder you will probably see that you have just one file there, called "data UI". We're going to click on that folder and open the Excel file, where we will use the second "Get Team Data" button to create a second file for use in the sim UI.
 
 ### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
 
