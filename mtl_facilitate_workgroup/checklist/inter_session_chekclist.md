@@ -11,7 +11,7 @@
 
 3) Review the targeted next level of systems thinking in the question, hypothesis, findings and decisions boxes for that session.
   - We want to further the systems thinking skills of the team with each session, specifically these four attributes:
-       + Complex - Forest not trees. Relationships among two or more variables (wait times, improvement rate), or two or more settings (primary care, general mental health).
-      + Feedback - Loop not line. Not simple cause and effect. The end of the story often influences the beginning, and is strengthened (reinforcing) or reduced (balancing) around the loop.
-      + System Behavior - Movie not snapshot. Trends over time.  Systems cause their own behavior through feedback.
-      + Time - Short and long term. Better understanding of change over time (e.g., worse before better, better before worse).
+       + Complex - **Forest not trees.** Relationships among two or more variables (wait times, improvement rate), or two or more settings (primary care, general mental health).
+      + Feedback - **Loop not line. Not simple cause and effect.** The end of the story often influences the beginning, and is strengthened (reinforcing) or reduced (balancing) around the loop.
+      + System Behavior - **Movie not snapshot.** Trends over time.  Systems cause their own behavior through feedback.
+      + Time - **Short and long term.** Better understanding of change over time (e.g., worse before better, better before worse).
