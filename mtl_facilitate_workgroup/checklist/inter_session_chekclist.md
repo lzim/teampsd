@@ -1,7 +1,7 @@
 ## Intersession Checklist
 
 
-#### Facilitator goals bewteen each session: ####
+#### Facilitator goals for prep between session: ####
 
 1) Divvy up in-session tasks - who will do what (e.g., cover the do/done, review the hypothesis from last meeting).
  - Co-facilitation model of Live Lead vs. Pre/Post lead and Session Note Taker. Clarify who will say which pieces and cover which tasks. We have learned that if this is not clarified exactly, items fall through the cracks and time is not spent efficiently.
