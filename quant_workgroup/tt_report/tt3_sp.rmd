@@ -149,8 +149,6 @@ mcc <- sppar1 %>%
          # Adjust Lables
          time = replace(time, group2 == "New Patient Wait Time", "(wks)"), 
          time = replace(time, time == "New Care Episode Start Rate", "(pts/wk)"), 
-         #group2 = replace(group2, group2 == "Time to Unflag", 
-          #                "Time to Unflag High Risk patients" ), 
          group2 = replace(group2, group2 == "High Risk Flag Rate", 
                           "High Risk Patient Flag Rates"), 
          time = replace(time, group2 == "High Risk Patient Flag Rates", "(pts/wk)"), 
@@ -159,9 +157,7 @@ mcc <- sppar1 %>%
          group2 = replace(group2, group2 == "Wait Time", 
                          "Wait Times" ), 
          msr = replace(msr, time == "Time from Flag to Step up/down", ""),
-         time = replace(time, time == "Time from Flag to Step up/down", ""), 
-         #group2 = replace(group2, group2 == "Engagement Time Before Clean Transfer", 
-          #                "Engagement Time before Step up/down"), 
+         time = replace(time, time == "Time from Flag to Step up/down", ""),  
          time = replace(time, time == "Engagement Time Before Step up/down", "(wks)"), 
          msr = replace(msr, group2 == "Engagement Time Before Ending", 
                           "(median)"), 
@@ -256,7 +252,7 @@ htmlTable(mcc1, header = c("", names(mcc1[-c(1,5)]),"Definition"), cgroup = c("M
 #List of files in Working Directory
 files <- list.files()
 files <- files[grepl("\\.xls",files)]
-files <- files[-grep("ModelParameters.xlsx|teamsprepostMayEBPsy.xlsx", files)]
+files <- files[-grep("ModelParameters.xlsx|pchart_data.xlsx", files)]
 
 # Read in files related to Experimental design
 dgn_read <- function(x){
@@ -454,4 +450,68 @@ sim %>%
   theme_bw() +
   theme(legend.position="top", legend.title=element_blank()) 
 
+```
+
+## P-Charts 
+
+```{r all_setup, include=FALSE}
+#Filter setup: refer to the filter chunk at the top of this file
+ldt <- seq(as.Date(paste(launch_date, "01", sep = "-")), length = 13, by = "-1 months")
+edt <- ldt[2] # end date of 1 year precondition
+sdt <- ldt[13] # start date of 1 year precondition
+dt <- read_excel("pchart_data.xlsx", sheet = "Sheet1")
+dt_fmt <- dt %>%
+  filter(team == tm) %>%
+  mutate(templatecount = as.numeric(templatecount)) %>%
+  mutate_at(vars(templatecount: diagvisitcount), funs(replace(., is.na(.), 0))) %>%
+  mutate(pct = templatecount / diagvisitcount,
+         Date = as.Date(paste(year, month, "01", sep = "-"))
+  )%>%
+  select(Date, team, pct) %>%
+  filter(Date >= as.Date("2014-11-01"))
+dt_yr1mn <- dt_fmt %>%
+  filter((Date >= sdt) & (Date <= edt)) %>%
+  mutate(avg_yr1 = mean(pct),
+         ucl_yr1 = avg_yr1 + 3*sd(pct),
+         lcl_yr1 = avg_yr1 - 3*sd(pct)) %>%
+  select(-Date, -pct) %>%
+  filter(row_number() == 1)
+dt_lims <- dt_fmt %>%
+  left_join(dt_yr1mn, by = "team") %>%
+  gather(type, Percentage, -Date, -team) %>%
+  mutate(type = replace(type, type == "avg_yr1", "average (first year)" ),
+         type = replace(type, type == "ucl_yr1", "UCL (first year)"),
+         type = replace(type, type == "lcl_yr1", "LCL (first year)"),
+         type = replace(type, type == "pct", paste0(team[type == "pct"], " Data")),
+         Percentage = round(Percentage * 100,0),
+         vacol = "#0083BE",
+         vacol = replace(vacol, type == "average (first year)", "#C4262E"),
+         vacol = replace(vacol, type == "LCL (first year)", "#685BC7"),
+         vacol = replace(vacol, type == "UCL (first year)", "#598527"))
+         
+dt_shd <- data.frame(team = unique(dt_lims$team),
+                     xmin= sdt, 
+                     xmax= edt, 
+                     ymin=-Inf, ymax=Inf) 
+vacol <- unique(dt_lims$vacol)
+names(vacol) <- unique(dt_lims$type)
+```
+
+## Individual Location Data
+#### Site
+
+
+```{r p_graph, echo=FALSE }
+dt_lims %>%
+  ggplot(aes(x = Date, y = Percentage, group = type, colour = type)) +
+  geom_line() + 
+  scale_color_manual(values = vacol, limits = c("LCL (first year)", "average (first year)",
+                                                "UCL (first year)")) +
+  guides(colour = guide_legend(reverse=T)) +
+  labs( y = "Evidence-based Psychotherapy (%)") +
+  scale_x_date(date_labels = "%Y %b", date_minor_breaks = "1 month") +
+  geom_rect(data = dt_shd, aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax), 
+            fill="grey", alpha=0.3, inherit.aes = FALSE) +
+  theme_bw() +
+  theme(legend.title=element_blank())
 ```
