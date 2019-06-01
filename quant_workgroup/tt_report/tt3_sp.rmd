@@ -20,11 +20,11 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
    + "sp_exp1.xlsx", and/or
    + "sp_exp2.xlsx", and/or 
    + "sp_exp3.xlsx" 
-   + "teamsprepostMayEBPsy.xlsx"
+   + "pchart_data.xlsx"
 - update the filter chuck to specify team and start date of MLT launch  
 
 ```{r filters, include=FALSE}
-tm <- "MenloPark" # Team Location
+tm <- "MP" # Team Location
 launch_date <- "2015-11" # MTL launch date in the clinic, format must be "yyyy-mm"
 
 ## For initial location

@@ -4,9 +4,7 @@ author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
      html_document: default
-     
-   
-     
+
 ---
 
 To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, please do as follow:
@@ -23,7 +21,7 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
    + "psy_exp1.xlsx", and/or
    + "psy_exp2.xlsx", and/or 
    + "psy_exp3.xlsx" 
-   + "teamsprepostMayEBPsy.xlsx"
+   + "pchart_data.xlsx"
 - update the filter chuck to specify team and start date of MLT launch  
 
 ```{r filters, include=FALSE}
@@ -127,19 +125,19 @@ barplot(table(factor(data[,x], levels = -1:1)),
 
 
 ```{r psy_datafiles, include=FALSE}
-psypar1a <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B35:D36")
+psypar1a <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B35:D36")
 
-psypar1b <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B44:D47")
+psypar1b <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B44:D47")
 
-flow <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B3:D7")
+flow <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B3:D7")
 
-rvi <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B8:D12")
+rvi <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B8:D12")
 
-med <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B13:D14")
+med <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B13:D14")
 
-rvi_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:D23")
+rvi_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B15:D23")
 
-med_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B24:D32")
+med_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B24:D32")
 ```
 
 ```{r psy_setup, include=FALSE}
@@ -150,10 +148,6 @@ psypar1 <- rbind.data.frame(psypar1a[2,], psypar1b) %>%
   mutate_if(is.numeric, funs(round(.,1))) %>%
   mutate_if(is.numeric, funs(as.character)) %>%
   slice(match(ord1, X__1))
-
-# psypar1$X__2[which(psypar1$X__1 == "Appointment Supply (75th percentile)")] <-  
-#   paste0(psypar1$X__2[which(psypar1$X__1 == "Appointment Supply (75th percentile)")], 
-#          " appt/wk")
 
 #Patient Flow 
 flow.order <- c("Starters Who Initiate %","Starters Who Return Later %", "Starters Who Quit %",
@@ -245,7 +239,7 @@ psy2 <- merge.data.frame(rvi2, med2, by = "Visit") %>%
 
 ```{r psy_datafiles2, include=FALSE}
 vacolor <- c("#003F72", "#0083BE","#598527")
-rvi_graph <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = FALSE, range = "B15:C32")
+rvi_graph <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:2, sep = "__"), range = "B15:C32")
 
 rvi_mod <- rvi_graph %>%
   mutate(Type = ifelse(grepl("RVI", X__1), "Freq", "Time"),
@@ -344,11 +338,11 @@ p2
 #List of files in Working Directory
 files <- list.files()
 files <- files[grepl("\\.xls",files)]
-files <- files[-grep("ModelParameters.xlsx|teamsprepostMayEBPsy.xlsx", files)]
+files <- files[-grep("ModelParameters.xlsx|pchart_data.xlsx", files)]
 
 # Read in files related to Experimental design
 dgn_read <- function(x){
-  dt <- read_excel(files[x], col_names = FALSE, range = "A12:B15")
+  dt <- read_excel(files[x], col_names = paste("X",1:2, sep = "__"), range = "A12:B15")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -390,7 +384,7 @@ sim_list <- lapply(1:length(files), sim_read)
 sim <- do.call("rbind", sim_list)
 
 
-bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A73:B82")
+bc <- read_excel(files[grep("bc", files)], col_names = paste("X",1:2, sep = "__"), range = "A73:B82")
 
 
 ## VA Color Pallete
@@ -555,7 +549,7 @@ edt <- ldt[2] # end date of 1 year precondition
 sdt <- ldt[13] # start date of 1 year precondition
 
 
-dt <- read_excel("teamsprepostMayEBPsy.xlsx", sheet = "Sheet1")
+dt <- read_excel("pchart_data.xlsx", sheet = "Sheet1")
 dt_fmt <- dt %>%
   filter(team == tm) %>%
   mutate(templatecount = as.numeric(templatecount)) %>%
@@ -622,7 +616,7 @@ dt_lims %>%
 ```{r sankey_setup, include=FALSE}
 # Read in files related to Sankey Experimental
 snk_read <- function(x){
-  dt <- read_excel(files[x], col_names = FALSE, range = "A86:B101")
+  dt <- read_excel(files[x], col_names = paste("X",1:2, sep = "__"), range = "A86:B101")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -655,7 +649,7 @@ snk_read <- function(x){
     filter(!(Experiment != "Base Case" & Code_A == "Base")) %>%
     select(-file_name)
   
-  dbar <- read_excel(files[x], col_names = FALSE, range = "A102:B111")
+  dbar <- read_excel(files[x], col_names = paste("X",1:2, sep = "__"), range = "A102:B111")
   dbar <- dbar %>%
     mutate(X__1 = sub("-Bars$", "", X__1),
            Code_A = sub("^(.*)-.*", "\\1", X__1),
@@ -841,6 +835,3 @@ sankeyNetwork(Links = snk[snk$Experiment == "Experiment 3",], Nodes = nodes,
 ```
 </div>
 </div>
-
-
-
