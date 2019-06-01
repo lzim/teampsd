@@ -3,13 +3,7 @@ title: 'Sim UI Experiments'
 author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
-     word_document: default   
-     html_document: default 
-     
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding,
-  output_dir = ".", output_format = "all") })     
-     
+     html_document: default   
 ---
 
 To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, please do as follow:
@@ -26,7 +20,7 @@ To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, ple
    + "sp_exp1.xlsx", and/or
    + "sp_exp2.xlsx", and/or 
    + "sp_exp3.xlsx" 
-   + "teamsprepostMayEBPsy.xlsx"
+   + "pchart_data.xlsx"
 - update the filter chuck to specify team and start date of MLT launch  
 
 ```{r filters, include=FALSE}
@@ -127,7 +121,7 @@ barplot(table(factor(data[,x], levels = -1:1)),
 ## Team Data Table - Suicide Prevention Module
 
 ```{r sppar_datafiles, include=FALSE}
-sppar1 <- read_excel("ModelParameters.xlsx", sheet = "SPParams", col_names = FALSE, range = "A2:D42")
+sppar1 <- read_excel("ModelParameters.xlsx", sheet = "SPParams", col_names = paste("X", 1:4, sep = "__"), range = "A2:D45")
 
 unique_colA <- sppar1$X__1[which(!is.na(sppar1$X__1))] #unique group (in order)
 group_pos <- diff(which(!is.na(sppar1$X__1))) # position/rows between group
@@ -137,38 +131,43 @@ unique_colD <- sppar1$X__4[which(!is.na(sppar1$X__4))] #unique desc group (in or
 group_pos2 <- diff(which(!is.na(sppar1$X__4))) # position/rows between group
 max.pos2 <- length(unique_colD)
 uni_colD <- sppar1$X__4[which(!is.na(sppar1$X__4))] 
-def_vec <- c(rep(uni_colD[-max.pos2], group_pos2), rep(unique_colD[max.pos2],6))
+def_vec <- c(rep(uni_colD[-max.pos2], group_pos2), rep(unique_colD[max.pos2],3))
 
 mcc <- sppar1 %>%
   mutate(group = group_vec,
          def = def_vec,
          col_lab = sub("(.*) \\(.*\\)$", "\\1", X__2),
          col_lab = sub(" %$", "", col_lab),
+         col_lab2 = sub("(\\w) .*", "\\1", col_lab),
+         col_lab = replace(col_lab, grepl("Threshold", col_lab), 
+                           col_lab2[grepl("Threshold", col_lab)]),
          msr = sub(".* (\\(.*\\))$", "\\1", X__2),
          msr = sub(".* %", "%", msr),
          time = sub(".* (\\(.*\\))$", "\\1", group),
          time = sub("^High .*", "", time),
          group2 = sub("(.*) \\(.*\\)$", "\\1", group),
          # Adjust Lables
-         group2 = replace(group2, group2 == "Start Rates", "New Patient Start Rate" ), 
-         time = replace(time, time == "Start Rates", "(pts/wk)"), 
-         group2 = replace(group2, group2 == "Time to Unflag", 
-                          "Time to Unflag High Risk patients" ), 
-         group2 = replace(group2, group2 == "High Risk Flag Rates", 
+         time = replace(time, group2 == "New Patient Wait Time", "(wks)"), 
+         time = replace(time, time == "New Care Episode Start Rate", "(pts/wk)"), 
+         group2 = replace(group2, group2 == "High Risk Flag Rate", 
                           "High Risk Patient Flag Rates"), 
          time = replace(time, group2 == "High Risk Patient Flag Rates", "(pts/wk)"), 
-         time = replace(time, time == "Time to Unflag", "(wks)"), 
-         time = replace(time, time == "Wait Times", "(wks)"), 
-         group2 = replace(group2, group2 == "Time from Flag to Referral", 
-                          "Time from Flag to Step up/down" ), 
-         msr = replace(msr, time == "Time from Flag to Referral", ""),
-         time = replace(time, time == "Time from Flag to Referral", ""), 
-         group2 = replace(group2, group2 == "Engagement Time Before Clean Transfer", 
-                          "Engagement Time before Step up/down"), 
-         time = replace(time, time == "Engagement Time Before Clean Transfer", "(wks)"), 
-         group2 = replace(group2, group2 == "Engagement Time Before Quit", 
-                          "Engagement Time before Ending"), 
-         time = replace(time, group2 == "Engagement Time before Ending", "(wks)"), 
+         time = replace(time, time == "Time to Unflag High Risk Patients", "(wks)"), 
+         time = replace(time, time == "Wait Time", "(wks)"), 
+         group2 = replace(group2, group2 == "Wait Time", 
+                         "Wait Times" ), 
+         msr = replace(msr, time == "Time from Flag to Step up/down", ""),
+         time = replace(time, time == "Time from Flag to Step up/down", ""),  
+         time = replace(time, time == "Engagement Time Before Step up/down", "(wks)"), 
+         msr = replace(msr, group2 == "Engagement Time Before Ending", 
+                          "(median)"), 
+         time = replace(time, group2 == "Engagement Time Before Ending", "(wks)"),
+         group2 = replace(group2, group2 == "User-supplied Threshold", 
+                          "User supplied Threshold"), 
+         time = replace(time, time == "User-supplied Threshold", "(wks)"), 
+         msr = replace(msr, group2 == "User supplied Threshold", "(median)"),
+         time = replace(time, time == "Time to Improve", "(wks)"), 
+         msr = replace(msr, group2 == "Time to Improve", ""),
          
          group = paste0(group2, " ", msr, time),
          group = trimws(group),
@@ -182,12 +181,14 @@ mcc <- sppar1 %>%
   select(group, col_lab, X__3, def) 
 
 
-rw_ord1 <- c("New Patient Start Rate (mean)(pts/wk)", "New Patient Wait Time (median)(wks)",
+rw_ord1 <- c("New Care Episode Start Rate (mean)(pts/wk)",
+             "User supplied Threshold (median)(wks)",
+             "New Patient Wait Time (median)(wks)",
              "High Risk Patient Flag Rates (mean)(pts/wk)", 
-             "Time to Unflag High Risk patients (median)(wks)",
-             "Engagement Time before Ending (median)(wks)", 
+             "Time to Unflag High Risk Patients (median)(wks)",
+             "Engagement Time Before Ending (median)(wks)", 
              "Symptom Proportions (High Symptom %)",
-             "Time to Improve (median)(wks)")
+             "Time to Improve (wks)")
 mcc1 <- mcc %>%
   filter(group %in% rw_ord1) %>%
   mutate(col_lab = replace(col_lab, col_lab == "PCMHI", "PC/PCMHI")) %>%
@@ -198,7 +199,7 @@ mcc1 <- mcc %>%
 
 
 col_ord2 <- c("Time from Flag to Step up/down",
-             "Engagement Time before Step up/down (median)(wks)", 
+             "Engagement Time Before Step up/down (median)(wks)", 
              "Wait Times (median)(wks)")
 rw_ord2 <- c("GMH to PC/PCMHI", "GMH to SMH", "GMH to Residential", "PC/PCMHI to SMH", 
              "PC/PCMHI to GMH",
@@ -251,11 +252,11 @@ htmlTable(mcc1, header = c("", names(mcc1[-c(1,5)]),"Definition"), cgroup = c("M
 #List of files in Working Directory
 files <- list.files()
 files <- files[grepl("\\.xls",files)]
-files <- files[-grep("ModelParameters.xlsx|teamsprepostMayEBPsy.xlsx", files)]
+files <- files[-grep("ModelParameters.xlsx|pchart_data.xlsx", files)]
 
 # Read in files related to Experimental design
 dgn_read <- function(x){
-  dt <- read_excel(files[x], col_names = FALSE, range = "A12:B15")
+  dt <- read_excel(files[x], col_names = paste("X",1:2, sep = "__"), range = "A11:B14")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -275,7 +276,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA130")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A16:DA294")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -297,7 +298,7 @@ sim_list <- lapply(1:length(files), sim_read)
 sim <- do.call("rbind", sim_list)
 
 
-bc <- read_excel(files[grep("bc", files)], col_names = FALSE, range = "A99:B130")
+bc <- read_excel(files[grep("bc", files)], col_names = paste("X",1:2, sep = "__"), range = "A198:B294")
 
 
 ## VA Color Pallete
@@ -451,18 +452,14 @@ sim %>%
 
 ```
 
-
 ## P-Charts 
 
 ```{r all_setup, include=FALSE}
-
 #Filter setup: refer to the filter chunk at the top of this file
 ldt <- seq(as.Date(paste(launch_date, "01", sep = "-")), length = 13, by = "-1 months")
 edt <- ldt[2] # end date of 1 year precondition
 sdt <- ldt[13] # start date of 1 year precondition
-
-
-dt <- read_excel("teamsprepostMayEBPsy.xlsx", sheet = "Sheet1")
+dt <- read_excel("pchart_data.xlsx", sheet = "Sheet1")
 dt_fmt <- dt %>%
   filter(team == tm) %>%
   mutate(templatecount = as.numeric(templatecount)) %>%
@@ -472,8 +469,6 @@ dt_fmt <- dt %>%
   )%>%
   select(Date, team, pct) %>%
   filter(Date >= as.Date("2014-11-01"))
-
-
 dt_yr1mn <- dt_fmt %>%
   filter((Date >= sdt) & (Date <= edt)) %>%
   mutate(avg_yr1 = mean(pct),
@@ -481,7 +476,6 @@ dt_yr1mn <- dt_fmt %>%
          lcl_yr1 = avg_yr1 - 3*sd(pct)) %>%
   select(-Date, -pct) %>%
   filter(row_number() == 1)
-
 dt_lims <- dt_fmt %>%
   left_join(dt_yr1mn, by = "team") %>%
   gather(type, Percentage, -Date, -team) %>%
@@ -499,17 +493,15 @@ dt_shd <- data.frame(team = unique(dt_lims$team),
                      xmin= sdt, 
                      xmax= edt, 
                      ymin=-Inf, ymax=Inf) 
-
 vacol <- unique(dt_lims$vacol)
 names(vacol) <- unique(dt_lims$type)
-
 ```
 
 ## Individual Location Data
 #### Site
 
 
-```{r mpd_graph, echo=FALSE }
+```{r p_graph, echo=FALSE }
 dt_lims %>%
   ggplot(aes(x = Date, y = Percentage, group = type, colour = type)) +
   geom_line() + 
