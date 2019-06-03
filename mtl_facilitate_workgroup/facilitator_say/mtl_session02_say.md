@@ -43,10 +43,10 @@ Hello! I'm __________ and I'm __________. *Navigating to the Learner See Guide f
 
 ## Let's get started!
 
-As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.
-
 ## In-session Exercise (30 minutes): Patient data and team trends
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.
+
 
 1. The team data is stored on the VA’s corporate data warehouse site referred to as BISL, the Business Intelligence Service Line. We will refer to this as the BISL sharepoint splash page. The information in this data file is Protected Health Information (PHI). You should always save your data file back to SharePoint or places that are appropriate for PHI. If you're attaching a data file to an email, encrypt the file.
 
