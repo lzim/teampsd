@@ -39,9 +39,11 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+## In-Session Exercise
 
 As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+
 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
