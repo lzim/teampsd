@@ -5,8 +5,9 @@
 ## Intersession Resources and Tasks
 1. The intersession checklist provides co-facilitator guidance for tailoring the  MTL 12-session Plan to their team.
 2. The intersession meeting uses the intersession checklist to prioritize and practice tailoring the SAY files to your team within the timestamps.
+3. Intersession preparation should help you to facilitate participatory and learning and systems thinking related to the team's highest priority need from session 1 through session 12 of the 12-session plan.
 
-## Guiding Facilitation Goals and Emphases _MTL_ Across the 12-Session plan
+## Facilitation Goals and Emphases _MTL_ Across the 12-Session plan
 
 _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 -- | -- | -- | --
@@ -15,7 +16,7 @@ _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 **s9-12** | Use C.F.B.T. Systems Thinking and plan for future team learning needs. | systems thinking | **tt3**
  
  
-### s1-4 - Partner to identify the team's highest priority learning need now. [participatory learning]
+## s1-4 - Partner to identify the team's highest priority learning need now. [participatory learning]
 - Introduce the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
 - Review hypoer local transparent team data resources related to the team's learning vision.
 - Dialogue about the team's highest priority learning need now using the _MTL Menu_
@@ -26,7 +27,7 @@ s2 | Team Data | The team learns to build their own team data for evaluating tea
 s3 | Team Data for Simulation | The team reviews "What is" team parameters related to their team vision and considers the benefits of "what if" simulation learning.
 s4 | Team Need | The engages in a dialogue about the highest priority team need now, so that there is consensus around the _MTL_ Learning Module selected for sessions 5-10.
 
-### s5-8 - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions [participatory learning + systems thinking]
+## s5-8 - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions [participatory learning + systems thinking]
 - Review the _MTL_ Fidelity Checklist to identify the additional participatory learning capacities for each session.
 - We want the team to build capacities to use _MTL_ without facilitation in the future.
 
@@ -37,7 +38,7 @@ s6 | **Tell a Systems Story** | Enter a Dynamic Hypothesis based on Systems stor
 s7 | **Test a Dynamic Hypothesis** | Test the Dynamic Hypothesis for the Base Case and Write up the Findings and Decisions
 s8 | **Compare Alternatives** | Test Dynamic Hypothesis for an alternative and write up the comparison against the Basecase in Findings and Decisions.
 
-### s9-12 - Use C.F.B.T. Systems Thinking and plan for future team learning needs. [systems thinking]
+## s9-12 - Use C.F.B.T. Systems Thinking and plan for future team learning needs. [systems thinking]
 - Review the targeted next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session.
 - We want to further the systems thinking skills of the team with each session, specifically these four C.F.B.T. attributes:
 
@@ -50,7 +51,7 @@ System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause 
 
 ### Intersession Tasks
 
-1) **Divvy up in-session tasks - who will do what (e.g., cover the do/done, review the hypothesis from last meeting).**
+1) **Divvy up in-session tasks - who will do what during today's meeting and during the live team meeting (e.g., cover the do/done, review the hypothesis from last meeting).**
 - Co-facilitation model of Live Lead vs. Pre/Post lead and Session Note Taker. Clarify who will say which pieces and cover which tasks. - - We have learned that if this is not clarified in advance and practiced, then items fall through the cracks and time is not spent efficiently.
 
 2) **Review and practice target time stamps for the session - what will you cover by when in the meeting.**
