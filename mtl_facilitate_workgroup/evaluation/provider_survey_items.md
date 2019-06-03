@@ -335,12 +335,13 @@ Psychometrics 	alpha = 0.90
 3.	Participation enhanced my ability to meet the needs of my patients. 
 4.	Participation increased my ability to have a greater impact than I could have on my own.
 5.	Participation increased my ability to make a contribution to my clinic or team. 
-Responses 	5 To a Very Great Extent     
- 	4 To a Large Extent     
- 			3 Somewhat      
+Responses 
+5 To a Very Great Extent     
+4 To a Large Extent     
+3 Somewhat      
 2 Very Little      
- 			1 Not at All      
-      Psychometrics 	alpha = 0.90     
+1 Not at All      
+Psychometrics alpha = 0.90     
 
 ### 10. Facilitator Quality: Engagement Principles
 #### Team Assessment
@@ -771,31 +772,31 @@ SITE NAME:
 Name of person completing sheet: 
 Role of person completing sheet: 			
 	Event 	Mode 	Personnel 	Time 	Activity 
-1	= prep time 	1 = phone 
-2	= one-on-one 2 = email 	1	= Provider / Case Manager 
-2	= Leadership - service level 
-3	= Leadership - facility level 
-4	= Leadership - VISN level 
-5	= Leadership - national level 
-6	= External facilitator 
-7	= Internal facilitator 
-8	= Clerk or admin support 
-9	= Peer Specialist(s) 
-10	= Peer Supervisor(s) 
-11	= Other 	1	= Assessment 
-2	= Preparation/planning 
-3	= Stakeholder engagement 
-4	= Education 
-5	= Ongoing process monitoring 
-6	= Program adaptation 
-7	= Problem identification and problem solving   8 = Data audit/feedback and evaluation of         implementation outcomes   9 = Program marketing 
-10	= Network development 
-11	= Other 
-3	= group 
-4	= site visit 
-5	= other 	3	= V-Tel 
-4	= in-person 
-5	= other 6 = not applicable (e.g., prep time 
+-	= prep time 	1 = phone 
+-	= one-on-one 2 = email 	1	= Provider / Case Manager 
+-	= Leadership - service level 
+-	= Leadership - facility level 
+-	= Leadership - VISN level 
+-	= Leadership - national level 
+-	= External facilitator 
+-	= Internal facilitator 
+-	= Clerk or admin support 
+-	= Peer Specialist(s) 
+-	= Peer Supervisor(s) 
+-	= Other 	1	= Assessment 
+-	= Preparation/planning 
+-	= Stakeholder engagement 
+-	= Education 
+-	= Ongoing process monitoring 
+-	= Program adaptation 
+-	= Problem identification and problem solving   8 = Data audit/feedback and evaluation of         implementation outcomes   9 = Program marketing 
+-	= Network development 
+-	= Other 
+-	= group 
+-	= site visit 
+-	= other 	3	= V-Tel 
+-	= in-person 
+-	= other 6 = not applicable (e.g., prep time 
 	
 Date 	Event Type 	Mode of Communication	Primary personnel with whom 
  	you interacted 	1 	2 	3 	4 	5 	6 	7 	8 	9 	10	 11	 Hour 	Min 	Primary Activity 	1 	2 	3 	4 	5 	6 	7 	8 	9 	10 	11 
