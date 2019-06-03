@@ -2,10 +2,10 @@
 
 ## Intersession Facilitation Checklist - Used by Co-Facilitators to prepare between Team Meetings
 
-### Facilitator Instructions for MTL 12-session Plan Team-Tailoring
-### Time-stamp Scripts that corresond to the SAY files
+### Intersession Checklists are facilitator Instructions for MTL 12-session Plan Team-Tailoring.
+### Practice and prioritize in advance using the Inter-session time-stamps that corresond to the tailoring SAY files to teams.
 
-## Guiding Facilitator Goals for _MTL_ Across the 12-Session plan
+## Guiding Facilitation Goals and Emphases _MTL_ Across the 12-Session plan
 
 _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 -- | -- | -- | --
