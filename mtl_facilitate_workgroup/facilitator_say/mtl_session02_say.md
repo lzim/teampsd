@@ -65,6 +65,26 @@ d. On the landing page, select your VISN. On the next page, select your team's f
 e. A web version of Excel will open on your screen, showing charts from your facility's data.  
   
 
+f. First, let's see how to manipulate the view with the various scroll bars: 
+
+- A scroll bar on the far right lets you move up and down to see the entire data UI screen. 
+
+- Another bar on the right side allows you to move up and down to see a list of variables that you can include in charts. 
+
+- Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns. 
+
+g. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right: 
+
+- Control - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List" 
+
+- ClinicSelection - this is where you select the the clinics your team would like to include in your dataset 
+
+- SPTransfers - data about Suicide Prevention transfers 
+
+h. Now let's look at the various worksheet tabs at the bottom of the Excel file:
+
+
+
 2. Let's explore the information available in the BISL sharepoint splash page
 
 Click on the View dropdown. What View options are there and what do they mean?
