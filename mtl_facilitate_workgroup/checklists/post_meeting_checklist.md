@@ -37,4 +37,4 @@ output:
 
 9. Team Emails: 1) Done, 2) Do, 3) Decided  
 
-10. Post team meeting notes here: https://github.com/lzim/teampsd/tree/master/qual_workgroup/coded_meetings/unformatted_files
+10. Post updated Inter-session details to Lucid Facilitator Meeting Series for this team:  https://mtl.how/lucid
