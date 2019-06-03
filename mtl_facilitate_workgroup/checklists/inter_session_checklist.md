@@ -1,4 +1,7 @@
-## Intersession Checklist
+## Intersession Facilitation Checklist 
+
+### Team-tailoring 
+### Time-stamp script
 
 
 #### Facilitator goals for prep between sessions: ####
