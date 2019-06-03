@@ -40,29 +40,49 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-
-## Let's get started!
-
-## In-session Exercise (30 minutes): Patient data and team trends
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
-As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.
+As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
+
+#TIME ICON
+15
+
+## Let's get started! Would the Team Lead like to "drive" today?
+### In-session Exercise (30 minutes): Patient data and team trends
+
+1. Using Internet Explorer browser, navigate to mtl.how/data. 
 
 
-1. The team data is stored on the VA’s corporate data warehouse site referred to as BISL, the Business Intelligence Service Line. We will refer to this as the BISL sharepoint splash page. The information in this data file is Protected Health Information (PHI). You should always save your data file back to SharePoint or places that are appropriate for PHI. If you're attaching a data file to an email, encrypt the file.
+a. This will take you to the VA’s corporate data warehouse site referred to as BISL, the Business Intelligence Service Line. You'll need to log in with your VA email and PIV passcode. Since this is a site that contains Protected Health Information (PHI), it will automatically allow access according to the permissions that are set up on your PIV. 
 
-2. To navigate to the data user interface (data UI):  
+b. We'll show you how files you pull from here will be saved back to the secure site, just keep in mind you need to manage PHI just as you do anytime, for example, you'll need to encrypt a file if you want to attach it to an email.
 
-  a.	Type mtl.how/data in your web browser. Internet Explorer works best for this resource.  
+c. We recommend using Explorer for this resource because SharePoint and Explorer are both Microsoft products and they "play best" with each other, and we're also going to be doing some things in Excel.
 
-  b.	On the page titled “Select Your VISN”, click on your team’s VISN number.
+d. On the landing page, select your VISN.
 
-  c.	On the page titled  “Select Your Facility”, click on the facility name for your team.
+e. On the next page, select your team's facility.
+
+f. A web version of Excel will open on your screen, showing charts from your facility's data.  
   
- ### :05 
+#TIME ICON
+20
 
-3. Let's explore the information available in the BISL sharepoint splash page
+2. Let's explore the information available in the BISL sharepoint splash page
 
-  a. Once you have selected your facility name, a web version of Excel will open on your screen, showing charts from your facility's data.  
+Click on the View dropdown. What View options are there and what do they mean?
+
+Count: Aggregate Data for Viz trends
+Data: Sortable report of data
+Diag: Diagnostic data
+Enc: Encounter types of visits
+HF: Health Factors data related to visits
+Meas: Measures or flag names
+Viz: Visualization of trends
+What filtering options are available?
+
+Filter to your clinic or division to see trends for the last two years.
+
+  a. 
      
   b. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
       -  Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"       -  ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
