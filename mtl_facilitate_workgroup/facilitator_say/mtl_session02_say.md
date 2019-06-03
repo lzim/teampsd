@@ -18,9 +18,9 @@ output:
 # [MTL Live Session 02](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
 
 # Today we're modeling to learn how to check our patient data and team trends.
-Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to check our patient data and team trends.
 
-### Looking at the Done/Do table in the Session 2 Learner See Guide at mtl.how:
+Hello! I'm __________ and I'm __________. As always, let's *navigate to the Learner See Guide for Session 2 at mtl.how.* Here we see that 
+## Today we're modeling to learn how to check our patient data and team trends.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -28,19 +28,22 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. |  
 
-
-### After this session, you will be able to:
-
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives
 
+### After this session, you will be able to:
+
 1. Describe the decisions your team made in producing your team data table.  
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.  
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
 
-### Let's get started!
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
+
+
+## Let's get started!
 
 ## In-session Exercise (30 minutes): Patient data and team trends
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
