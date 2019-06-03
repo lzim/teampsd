@@ -17,7 +17,7 @@ output:
 
 # [MTL Live Session 02](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
 
-Hello! I'm __________ and I'm __________. As always, let's *navigate to the Learner See Guide for Session 2 at mtl.how.* Here we see that 
+Hello! I'm __________ and I'm __________. *Navigating to the Learner See Guide for Session 2 at mtl.how,* we see that
 # Today we're modeling to learn how to check our patient data and team trends.
 
 ## Done and Do (15 minutes)
