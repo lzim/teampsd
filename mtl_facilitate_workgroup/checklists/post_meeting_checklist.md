@@ -29,7 +29,7 @@ output:
 
 5. What were the team's questions? (what did they ask?)  
 
-6. What is the team's guiding question and hypotheses? (what are they testing?)  
+6. What is the team's guiding question and hypotheses? (what is their highest priority need? what are they testing?)  
 
 7. Facilitator needs/questions (need for training, problems)  
 
