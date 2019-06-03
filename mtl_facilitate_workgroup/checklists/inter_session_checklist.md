@@ -2,8 +2,9 @@
 
 ## Intersession Facilitation Checklist - Used by Co-Facilitators to prepare between Team Meetings
 
-### Intersession Checklists are facilitator Instructions for MTL 12-session Plan Team-Tailoring.
-### Practice and prioritize in advance using the Inter-session time-stamps that corresond to the tailoring SAY files to teams.
+## Intersession Resources and Tasks
+1. The intersession checklist provides co-facilitator guidance for tailoring the  MTL 12-session Plan to their team.
+2. The intersession meeting uses the intersession checklist to prioritize and practice tailoring the SAY files to your team within the timestamps.
 
 ## Guiding Facilitation Goals and Emphases _MTL_ Across the 12-Session plan
 
@@ -15,6 +16,15 @@ _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
  
  
 ### s1-4 - Partner to identify the team's highest priority learning need now. [participatory learning]
+- Introduce the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
+- Review hypoer local transparent team data resources related to the team's learning vision.
+- Dialogue about the team's highest priority learning need now using the _MTL Menu_
+
+Session | Priority| Participatory Learning 
+s1 | Shared Vision | The team practices making team decisions as they move from an individual to shared vision, select their team lead and team meeting time
+s2 | Team Data | The team learns to build their own team data for evaluating team trends and patient data in relation to their team vision.
+s3 | Team Data for Simulation | The team reviews "What is" team parameters related to their team vision and considers the benefits of "what if" simulation learning.
+s4 | Team Need | The engages in a dialogue about the highest priority team need now, so that there is consensus around the _MTL_ Learning Module selected for sessions 5-10.
 
 ### s5-8 - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions [participatory learning + systems thinking]
 - Review the _MTL_ Fidelity Checklist to identify the additional participatory learning capacities for each session.
@@ -22,10 +32,10 @@ _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 
 Session | Capacity | Participatory Learning + Systems Thinking
 -- | -- | -- 
-S5 | **Experiments Section & Text**| Enter the Team's Learning Question based on the needs assessment and team data.
-S6 | **Tell a Systems Story** | Enter a Dynamic Hypothesis based on Systems story 
-S7 | **Test a Dynamic Hypothesis** | Test the Dynamic Hypothesis for the Base Case and Write up the Findings and Decisions
-S8 | **Compare Alternatives** | Test Dynamic Hypothesis for an alternative and write up the comparison against the Basecase in Findings and Decisions.
+s5 | **Experiments Section & Text**| Enter the Team's Learning Question based on the needs assessment and team data.
+s6 | **Tell a Systems Story** | Enter a Dynamic Hypothesis based on Systems story 
+s7 | **Test a Dynamic Hypothesis** | Test the Dynamic Hypothesis for the Base Case and Write up the Findings and Decisions
+s8 | **Compare Alternatives** | Test Dynamic Hypothesis for an alternative and write up the comparison against the Basecase in Findings and Decisions.
 
 ### s9-12 - Use C.F.B.T. Systems Thinking and plan for future team learning needs. [systems thinking]
 - Review the targeted next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session.
