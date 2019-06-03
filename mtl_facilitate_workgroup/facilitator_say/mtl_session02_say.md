@@ -17,10 +17,10 @@ output:
 
 # [MTL Live Session 02](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
 
-Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide for Session 2 at mtl.how, we see that
-## Today we're modeling to learn how to check our patient data and team trends.
+Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide for Session 2 at mtl.how, we see that 
+### Today we're modeling to learn how to check our patient data and team trends.
 
-## Done and Do (15 minutes)
+## Done and Do
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
@@ -30,23 +30,23 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives
-
 ### After this session, you will be able to:
 
 1. Describe the decisions your team made in producing your team data table.  
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.  
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
 
-
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
+
+## Let's get started! 
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
 
-#TIME ICON
-15
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15
 
-## Let's get started! Would the Team Lead like to "drive" today?
+Would the Team Lead like to "drive" today?
+
 ### In-session Exercise (30 minutes): Patient data and team trends
 
 1. Using Internet Explorer browser, navigate to mtl.how/data. 
@@ -64,8 +64,7 @@ e. On the next page, select your team's facility.
 
 f. A web version of Excel will open on your screen, showing charts from your facility's data.  
   
-#TIME ICON
-20
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20
 
 2. Let's explore the information available in the BISL sharepoint splash page
 
@@ -82,9 +81,7 @@ What filtering options are available?
 
 Filter to your clinic or division to see trends for the last two years.
 
-  a. 
-     
-  b. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
+b. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
       -  Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"       -  ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
       -  SPTransfers  - data about Suicide Prevention transfers  
       -  dataDiag - data about Diagnoses  
@@ -104,6 +101,10 @@ Filter to your clinic or division to see trends for the last two years.
       - “Diag” is diagnostic data based on visits in the team clinic dataset you selected.  
       - “HF” is health factor data associated with those visits.  
       - When you filter to your clinic or division, you will see trends for the last two years.  
+  
+  
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:30
+
 
 4. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your team data ui in Excel.
   a. Click on Control tab.  
@@ -117,6 +118,9 @@ Filter to your clinic or division to see trends for the last two years.
   d. Follow the instructions in **Box A2.** 
   e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A. 
 
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40
+
 6. We won't do this in today's session, but to view your individual patient data and trends, you will click on "Get-Patient-level Data."
   a. **When working with a team live, we will have already pulled a fresh data file to work with in a team's data folder.** 
   b. We will learn about the "Create Team Data Table for Sim UI" button in our next session.
@@ -129,6 +133,8 @@ Filter to your clinic or division to see trends for the last two years.
   b. What stands out to you?
   c. What is most important to you to check out first?
   d. what is most surprising?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50
 
 9. Click to view the "data" tabs, which show your team's individual patient information.
   a. Patients who have requested restricted access to their information have asterisks *******  
