@@ -20,7 +20,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/illustrations/mtl_toc.png"
      height = "525" width = "700">
 
-## NIH R01 Measures (83 items total)
+## NIH R01 Measures (83 provider items total)
 1.	**Acceptability of Intervention Measure (AIM)**
 2.	**Intervention Appropriateness Measure (IAM)**
 3.	**Feasibility of Intervention Measure (FIM)**
@@ -29,7 +29,7 @@ output:
 6.	**Team Decision Making Questionnaire (TDMQ)**
 7.	**Systems Thinking Scale (STS)**
 
-## HSRD IIR Measures (180 items total)
+## HSRD IIR Measures (75 provider items total)
 1.	**Acceptability of Intervention Measure (AIM)**
 2.	**Intervention Appropriateness Measure (IAM)**
 3.	**Feasibility of Intervention Measure (FIM)**
@@ -43,3 +43,5 @@ output:
 11.	**MTL Fidelity Checklist for 12-session Plan**
 12.	**Usual QI Fidelity Checklist for 12-session Plan**
 13.	**Quality Improvement Activity Tracking**
+
+*10 Co-facilitator Quality items, plus the Quality Improvement Activity Tracker
