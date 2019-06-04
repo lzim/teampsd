@@ -26,7 +26,7 @@ ____________
 ### _Resources:_ 
 ### Facilitation Goals and Emphasis Across the 12-Session plan
 
-_MTL_ Sessions | Primary Goal | Emphais | Team Time Report
+_MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 -- | -- | -- | --
 **1-4** | Partner to identify and validate the team's highest priority learning need now. | participatory learning | **tt1**
 **5-8** | Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions | participatory learning + systems thinking | **tt2**
