@@ -11,17 +11,19 @@
 1)	Download the SAY guide for the upcoming session and customize it for the individual team (i.e., put in “last time we talked about…” and “last time you asked about…”) Reiterate the main concern they voiced last time (think about both clinical/patient facing issues and team dynamics!) and relate every example or test back to it.
      -	Review post-checklist notes #2, 4, and 6, and write down the team’s issues
      -	Tie that issue to the examples you will use to in the Data/Sim UI – get specific! Decide what to cut, as there is much, much more in both the Data and Sim UI than can be covered in the 30 min available)
-     -	Determine how long each part of the activity should take and set time stamps to hit in the dress rehearsal
+     -	Determine how long each part of the activity should take and set time stamps to hit in the dress rehearsal  
+     
 2)	Do a timed dress rehearsal of the upcoming session
      -	Choose a Live Lead vs. Pre/Post lead and Session Note Taker and clarify who will say which pieces and cover which tasks.
      - Make sure your examples work! The data you pull up reflect their concern, or the results of the test support their hypothesis (or, if they don’t, then have an explanation for why).
      -	Make sure that everything you say gets the team closer to the goals for both the individual session and the set __(see tables below)__.
-     -	Adjust SAY file to fit desired time stamps
+     -	Adjust SAY file to fit desired time stamps  
+     
 3)	Quiz each other on the FAQs for the upcoming session, to be ready for the common questions about the session content
 
 
 
-### Facilitation Goals and Emphases _MTL_ Across the 12-Session plan
+### Facilitation Goals and Emphasis Across the 12-Session plan
 
 _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 -- | -- | -- | --
