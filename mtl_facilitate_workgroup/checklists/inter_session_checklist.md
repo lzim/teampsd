@@ -22,6 +22,7 @@ _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 - Dialogue about the team's highest priority learning need now using the _MTL Menu_
 
 Session | Priority| Participatory Learning 
+-- | -- | --
 s1 | Shared Vision | The team practices making team decisions as they move from an individual to shared vision, select their team lead and team meeting time
 s2 | Team Data | The team learns to build their own team data for evaluating team trends and patient data in relation to their team vision.
 s3 | Team Data for Simulation | The team reviews "What is" team parameters related to their team vision and considers the benefits of "what if" simulation learning.
