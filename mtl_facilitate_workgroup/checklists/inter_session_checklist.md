@@ -22,8 +22,8 @@
 3)	Quiz each other on the FAQs for the upcoming session, to be ready for the common questions about the session content
 
 
-
-### Facilitation Goals and Emphasis Across the 12-Session plan
+____________
+### Resources: Facilitation Goals and Emphasis Across the 12-Session plan
 
 _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 -- | -- | -- | --
