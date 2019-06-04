@@ -10,7 +10,7 @@
 ### Tasks
 1)	Download the SAY guide for the upcoming session and customize it for the individual team (i.e., put in “last time we talked about…” and “last time you asked about…”) Reiterate the main concern they voiced last time (think about both clinical/patient facing issues and team dynamics!) and relate every example or test back to it.
      -	Review post-checklist notes #2, 4, and 6, and write down the team’s issues
-     -	Tie that issue to the examples you will use to in the Data/Sim UI – get specific! Decide what to cut, as there is much, much more in both the Data and Sim UI than can be covered in the 30 min available)
+     -	Tie that issue to the examples you will use to in the Data/Sim UI – get specific! (Decide what to cut, as there is much, much more in both the Data and Sim UI than can be covered in the 30 min available)
      -	Determine how long each part of the activity should take and set time stamps to hit in the dress rehearsal  
      
 2)	Do a timed dress rehearsal of the upcoming session
