@@ -39,7 +39,7 @@ Hello! I'm __________ and I'm __________. Opening up the Learner See Guide for S
   
   
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> **00:15**
 
 ## In-Session Exercise
 
@@ -57,13 +57,16 @@ Who would like to "drive" today?
 
 **1. Open up a browser window in Internet Explorer, and navigate to mtl.how/data.**
 
-> a. This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site  contains Protected Health Information (PHI), so as a provider you will be granted access to patient data based on the permissions that are set up on your PIV. We'll show you how to save files you pull from here back to the secure site - and of course you'll follow all of the other practices you normally do to protect patient-level data.
+a. This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site  contains Protected Health Information (PHI), so as a provider you will be granted access to patient data based on the permissions that are set up on your PIV. We'll show you how to save files you pull from here back to the secure site - and of course you'll follow all of the other practices you normally do to protect patient-level data.
 
-> b. The reason we recommend using Explorer as your browser for this resource is because BISL is on the Microsoft SharePoint platform and plays best in Microsoft Explorer. We'll also be doing some things in Excel from here, so that will also work best in Explorer.
+b. The reason we recommend using Explorer as your browser for this resource is because BISL is on the Microsoft SharePoint platform and plays best in Microsoft Explorer. We'll also be doing some things in Excel from here, so that will also work best in Explorer.
 
-> c. On the landing page, select your VISN. On the next page, select your team's facility. A web version of Excel will open on your screen, showing charts from your facility's data.  
+c. On the landing page, select your VISN. On the next page, select your team's facility. A web version of Excel will open on your screen, showing charts from your facility's data.  
+
+
+**2. Let's explore the information available in the BISL sharepoint splash page.**  
   
-> d. First, let's see how to manipulate the view with the various scroll bars: 
+a. First, let's see how to manipulate the view with the various scroll bars: 
 
 - A scroll bar on the far right lets you move up and down to see the entire data UI screen. 
 
@@ -71,28 +74,31 @@ Who would like to "drive" today?
 
 - Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns. 
 
-> e. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right: 
+b. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
+
+      -  SPTransfers: data about Suicide Prevention transfers  
+      -  dataDiag: data about Diagnoses  
+      -  dataHF: data about Health Factors  
+      -  dataMeas: data about Measures or flag names  
+      -  vizDiag: visuals or charts about Diagnoses  
+      -  vizHF: visuals or charts about Health Factors  
+      -  vizEnc: visuals or charts about Encounters, types of visits  
+      -  visMeas: visuals or charts about Measures or flag names  
+      -  CCParams: parameters for the *MTL* Care Coordination module
+      -  MMParams: parameters for the *MTL* Medication Management module
+      -  PSYParams: parameters for the *MTL* Psychotherapy module
+      -  AggParams: parameters for the *MTL* Aggregate module
 
 - Control - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List" 
 
 - ClinicSelection - this is where you select the the clinics your team would like to include in your dataset 
 
-- SPTransfers - data about Suicide Prevention transfers 
-
-> f. Now let's look at the various worksheet tabs at the bottom of the Excel file:
-
-
-
-2. Let's explore the information available in the BISL sharepoint splash page
-
-Click on the View dropdown. What View options are there and what do they mean?
-
-Count: Aggregate Data for Viz trends
-Data: Sortable report of data
-Diag: Diagnostic data
-Enc: Encounter types of visits
-HF: Health Factors data related to visits
-Meas: Measures or flag names
+- Count: Aggregate Data for Viz trends
+- Data: Sortable report of data
+- Diag: Diagnostic data
+- Enc: Encounter types of visits
+- HF: Health Factors data related to visits
+- Meas: Measures or flag names
 Viz: Visualization of trends
 What filtering options are available?
 
@@ -100,20 +106,6 @@ Filter to your clinic or division to see trends for the last two years.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20
 
-b. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
-      -  Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"       -  ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
-      -  SPTransfers  - data about Suicide Prevention transfers  
-      -  dataDiag - data about Diagnoses  
-      -  dataHF - data about Health Factors  
-      -  dataMeas - data about Measures or flag names  
-      -  vizDiag - visuals or charts about Diagnoses  
-      -  vizHF - visuals or charts about Health Factors  
-      -  vizEnc - visuals or charts about Encounters, types of visits  
-      -  visMeas - visuals or charts about Measures or flag names  
-      -  CCParams - parameters for the *MTL* Care Coordination module
-      -  MMParams - parameters for the *MTL* Medication Management module
-      -  PSYParams - parameters for the *MTL* Psychotherapy module
-      -  AggParams - parameters for the *MTL* Aggregate module
         
   d. What are the options for filtering and sorting the data: 
       - At present there are four tabs to use for filtering and sorting your team data.  
