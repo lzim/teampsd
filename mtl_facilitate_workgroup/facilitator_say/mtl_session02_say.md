@@ -53,7 +53,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 Who would like to "drive" today?
 
 
-1. Using Internet Explorer browser, navigate to mtl.how/data. 
+### 1. Using Internet Explorer browser, navigate to mtl.how/data. 
 
 
 a. This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site  contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV. 
@@ -62,50 +62,50 @@ b. We'll show you how files you pull from here will be saved back to the secure 
 
 c. The reason we recommend using Explorer as your browser for this resource is because it's on a SharePoint platform, and Microsoft products "play best" with each other. We'll also be doing some things in Excel from here too.
 
-d. On the landing page, select your VISN. On the next page, select your team's facility.
+d. On the landing page, select your VISN **[ ]**. On the next page, select your team's facility.  
 
 e. A web version of Excel will open on your screen, showing charts from your facility's data.  
-  
 
-f. First, let's see how to manipulate the view with the various scroll bars: 
+f. First, let's see how to manipulate the view with the various scroll bars:  
 
-- A scroll bar on the far right lets you move up and down to see the entire data UI screen. 
+   + A scroll bar on the far right lets you move up and down to see the entire data UI screen. 
 
-- Another bar on the right side allows you to move up and down to see a list of variables that you can include in charts. 
+   + Another bar on the right side allows you to move up and down to see a list of variables that you can include in charts. 
 
-- Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns. 
+   + Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns. 
 
 g. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right: 
 
-- Control - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List" 
+   + Control - you can click on the cell next to the word "Station" and select your station number **[ ]**, then click "Get Clinic List" 
 
-- ClinicSelection - this is where you select the the clinics your team would like to include in your dataset 
+   + ClinicSelection - this is where you select the the clinics your team would like to include in your dataset 
 
-- SPTransfers - data about Suicide Prevention transfers 
+     ++ **[ ]** SPTransfers - review data about Suicide Prevention Transfers 
 
 h. Now let's look at the various worksheet tabs at the bottom of the Excel file:
 
 
 
-2. Let's explore the information available in the BISL sharepoint splash page
+### 2. Let's explore the information available in the BISL sharepoint splash page
 
-Click on the View dropdown. What View options are there and what do they mean?
+a. Click on the View dropdown. View options are there and what do they mean?
 
-Count: Aggregate Data for Viz trends
-Data: Sortable report of data
-Diag: Diagnostic data
-Enc: Encounter types of visits
-HF: Health Factors data related to visits
-Meas: Measures or flag names
-Viz: Visualization of trends
-What filtering options are available?
+   + Count: Aggregate Data for Viz trends
+   + Data: Sortable report of data
+   + Diag: Diagnostic data
+   + Enc: Encounter types of visits
+   + HF: Health Factors data related to visits
+   + Meas: Measures or flag names
+   + Viz: Visualization of trends
 
-Filter to your clinic or division to see trends for the last two years.
+    What filtering options are available?
+
+    Filter to your clinic or division to see trends for the last two years.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20
 
 b. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
-      -  Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"       -  ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
+      -  Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"         -  ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
       -  SPTransfers  - data about Suicide Prevention transfers  
       -  dataDiag - data about Diagnoses  
       -  dataHF - data about Health Factors  
@@ -119,7 +119,7 @@ b. On the right side of your screen you'll see a drop-down menu labeled VIEW. Th
       -  PSYParams - parameters for the *MTL* Psychotherapy module
       -  AggParams - parameters for the *MTL* Aggregate module
         
-  d. What are the options for filtering and sorting the data: 
+ c. What are the options for filtering and sorting the data: 
       - At present there are four tabs to use for filtering and sorting your team data.  
       - “Diag” is diagnostic data based on visits in the team clinic dataset you selected.  
       - “HF” is health factor data associated with those visits.  
@@ -131,7 +131,7 @@ b. On the right side of your screen you'll see a drop-down menu labeled VIEW. Th
 
 4. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your team data ui in Excel.
   a. Click on Control tab.  
-  b. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you. 
+  b. Click on the cell next to the word "Station" and click on your station number **[ ]**. If you have any issues with permissions, Team PSD can help you. 
   c. Click "Get Clinic List" and it will pull in clinics for your facility.
 
 5. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
