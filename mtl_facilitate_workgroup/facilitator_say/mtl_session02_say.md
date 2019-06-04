@@ -100,6 +100,7 @@ Who would like to "drive" today?
   + Viz: Visualization of trends
 
    b. What filtering options are available? Filter to your clinic or division to see trends for the last two years.
+   
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20
 
