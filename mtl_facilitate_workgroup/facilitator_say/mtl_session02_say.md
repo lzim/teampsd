@@ -75,16 +75,6 @@ Who would like to "drive" today?
 
     + Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns. 
 
-   f. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right: 
-
-    + Control - you can click on the cell next to the word "Station" and select your station number **[ ]**, then click "Get Clinic List" 
-
-    + ClinicSelection - this is where you select the the clinics your team would like to include in your dataset 
-
-       ++ **[ ]** SPTransfers - data about Suicide Prevention transfers 
-
-   g. Now let's look at the various worksheet tabs at the bottom of the Excel file:
-
 
 
 ### 2. Let's explore the information available in the BISL sharepoint splash page
@@ -99,7 +89,24 @@ Who would like to "drive" today?
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:20***
 
-   c. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
+ 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30***
+
+
+
+4. Your Team Data Folder - Scroll to your team folder at the bottom of the page. 
+  a. Open the data_ui folder and open your team data ui in Excel.
+  b. Click on Control tab.  
+  c. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you. 
+  d. Click "Get Clinic List" and it will pull in clinics for your facility.
+   f. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right: 
+
+    + Control - you can click on the cell next to the word "Station" and select your station number **[ ]**, then click "Get Clinic List" 
+
+    + ClinicSelection - this is where you select the the clinics your team would like to include in your dataset 
+
+       ++ **[ ]** SPTransfers - data about Suicide Prevention transfers 
+
 
 Title | Brief Description 
 -- | -- 
@@ -117,29 +124,15 @@ CCParams | parameters for the *MTL* Care Coordination module
 MMParams | parameters for the *MTL* Medication Management module
 PSYParams | parameters for the *MTL* Psychotherapy module
 AggParams | parameters for the *MTL* Aggregate module
-        
-   d. What are the options for filtering and sorting the data: 
-      - At present there are four tabs to use for filtering and sorting your team data.  
-      - “Diag” is diagnostic data based on visits in the team clinic dataset you selected.  
-      - “HF” is health factor data associated with those visits.  
-      - When you filter to your clinic or division, you will see trends for the last two years.  
+      
   
-  
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30***
-
-
-4. Your Team Data Folder - Scroll to your team folder at the bottom of the page. 
-  a. Open the data_ui folder and open your team data ui in Excel.
-  b. Click on Control tab.  
-  c. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you. 
-  d. Click "Get Clinic List" and it will pull in clinics for your facility.
-
 5. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
   a. You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
   b. Or, if your team as designated provider clinics, you can select by provider name.
   c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.
   d. Follow the instructions in **Box A2.** 
   e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A. 
+
 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40
