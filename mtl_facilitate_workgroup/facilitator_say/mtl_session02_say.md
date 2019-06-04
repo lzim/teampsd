@@ -104,19 +104,23 @@ Who would like to "drive" today?
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20
 
    c. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
-  + Control  - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"         + ClinicSelection  - this is where you select the the clinics your team would like to include in your dataset  
-  + SPTransfers  - data about Suicide Prevention transfers  
-  + dataDiag - data about Diagnoses  
-  + dataHF - data about Health Factors  
-  + dataMeas - data about Measures or flag names  
-  + vizDiag - visuals or charts about Diagnoses  
-  + vizHF - visuals or charts about Health Factors  
-  + vizEnc - visuals or charts about Encounters, types of visits  
-  + visMeas - visuals or charts about Measures or flag names  
-  + CCParams - parameters for the *MTL* Care Coordination module
-  + MMParams - parameters for the *MTL* Medication Management module
-  + PSYParams - parameters for the *MTL* Psychotherapy module
-  + AggParams - parameters for the *MTL* Aggregate module
+
+Title | Brief Description 
+-- | -- 
+Control | click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"  
+ClinicSelection | this is where you select the the clinics your team would like to include in your dataset  
+SPTransfers | data about Suicide Prevention transfers  
+dataDiag | data about Diagnoses  
+dataHF | data about Health Factors  
+dataMeas | data about Measures or flag names  
+vizDiag | visuals or charts about Diagnoses  
+vizHF | visuals or charts about Health Factors  
+vizEnc | visuals or charts about Encounters, types of visits  
+visMeas | visuals or charts about Measures or flag names  
+CCParams | parameters for the *MTL* Care Coordination module
+MMParams | parameters for the *MTL* Medication Management module
+PSYParams | parameters for the *MTL* Psychotherapy module
+AggParams | parameters for the *MTL* Aggregate module
         
    d. What are the options for filtering and sorting the data: 
       - At present there are four tabs to use for filtering and sorting your team data.  
