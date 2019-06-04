@@ -31,9 +31,9 @@ _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 **5-8** | Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions | participatory learning + systems thinking | **tt2**
 **9-12** | Use C.F.B.T. Systems Thinking and plan for future team learning needs. Ideally: Team is ready to implement a tested change in the real world| systems thinking | **tt3**
 
+### Additional Resources and Information
  
- 
-### Sesson 1-4 - Partner to identify the team's highest priority learning need now. [participatory learning]
+#### Sesson 1-4 - Partner to identify the team's highest priority learning need now. [participatory learning]
 - Introduce the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
 - Review hyper local transparent team data resources related to the team's learning vision.
 - Dialogue about the team's highest priority learning need now using the _MTL Menu_
@@ -45,7 +45,7 @@ s2 | Team Data | The team learns to build their own team data for evaluating tea
 s3 | Team Data for Simulation | The team reviews "What is" team parameters related to their team vision and considers the benefits of "what if" simulation learning.
 s4 | Team Need | The engages in a dialogue about the highest priority team need now, so that there is consensus around the _MTL_ Learning Module selected for sessions 5-10.
 
-### Sesson 5-8 - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions [participatory learning + systems thinking]
+#### Sesson 5-8 - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions [participatory learning + systems thinking]
 - Review the _MTL_ Fidelity Checklist to identify the additional participatory learning capacities for each session.
 - We want the team to build capacities to use _MTL_ without facilitation in the future.
 
@@ -56,7 +56,7 @@ s6 | **Tell a Systems Story** | Enter a Dynamic Hypothesis based on Systems stor
 s7 | **Test a Dynamic Hypothesis** | Test the Dynamic Hypothesis for the Base Case and Write up the Findings and Decisions
 s8 | **Compare Alternatives** | Test Dynamic Hypothesis for an alternative and write up the comparison against the Basecase in Findings and Decisions.
 
-### Sesson 9-12 - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]
+#### Sesson 9-12 - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]
 - Review the targeted next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session.
 - We want to further the systems thinking skills of the team with each session, specifically these four C.F.B.T. attributes:
 
@@ -68,12 +68,12 @@ System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause 
 |Time | **Short and long term.** | Better understanding of change over time (e.g., worse before better, better before worse).
 
 
-### Sessions 1-4 - Participatory Learning Timestamp Script
+#### Sessions 1-4 - Participatory Learning Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
 - It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
 
-### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
+#### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
 
 Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
 -- | --
@@ -85,12 +85,12 @@ Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | practice reflective listen to double-check your thinking about the team's relative consensus about their priorities _before_ going to the MTL menu in session 4 - **4. Prioritize and practice your active listening skills, particularly reflections that synthesize a) multiple team member's points of view, and b) multiple problems that are likely related, and c) the "throughline" across learning sessions.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
 
-## Sessions 5-10 - Simulation Sessions Timestamp Script
+#### Sessions 5-10 - Simulation Sessions Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
 - It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
 
-### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
+#### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
 
 Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
 -- | --
@@ -102,7 +102,7 @@ Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | describe findings/decisions and saving - **4. Prioritize and practice describing output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
 
-## Sessions 11-12 - Wrap-up Sessions Timestamp Script
+#### Sessions 11-12 - Wrap-up Sessions Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
 - It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
