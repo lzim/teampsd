@@ -62,96 +62,108 @@ Who would like to "drive" today?
 
    c. The reason we recommend using Explorer as your browser for this resource is because it's on a SharePoint platform, and Microsoft products "play best" with each other. We'll also be doing some things in Excel from here too.
 
-   d. On the landing page, select your VISN **[ ]**. On the next page, select your facility **[ ]**.
+   d. On the landing page, select your VISN **[ ]**. On the next page, select your team's facility **[ ]**.
 
       * A web version of Excel will open on your screen, showing charts from your facility's data.  
+  
+
+   e. First, let's see how to manipulate the view with the various scroll bars: 
+
+    + A scroll bar on the far right lets you move up and down to see the entire data UI screen. 
+
+    + Another bar on the right side allows you to move up and down to see a list of variables that you can include in charts. 
+
+    + Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns. 
+
+   f. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right: 
+
+    + Control - you can click on the cell next to the word "Station" and select your station number **[ ]**, then click "Get Clinic List" 
+
+    + ClinicSelection - this is where you select the the clinics your team would like to include in your dataset 
+
+       ++ **[ ]** SPTransfers - data about Suicide Prevention transfers 
+
+   g. Now let's look at the various worksheet tabs at the bottom of the Excel file:
+
 
 
 ### 2. Let's explore the information available in the BISL sharepoint splash page
 
-   a. Click on the View dropdown. What View options are there and what do they mean?
-
-  + Count: Aggregate Data for Viz trends
-  + Data: Sortable report of data
-  + Diag: Diagnostic data
-  + Enc: Encounter types of visits
-  + HF: Health Factors data related to visits
-  + Meas: Measures or flag names
-  + Viz: Visualization of trends
-
-   b. What filtering options are available? Filter to your clinic or division to see trends for the last two years.
+   a. Click on the View dropdown. We have four main data sets in the splashpage -- Diagnoses, Encounters, Health Factors, and Measures -- along with three ways to view each -- vizualized as charts of trends over time, as counts per month, and as raw data.  All is sortable and filterable.  
+   b. What filtering options are available? Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years.  For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.
+  + vizDiag: See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).  
+  + vizEnc: See trends in what services the facility/team is spending their time providing.
+  + vizHF: See trends in what specifics the faclility/team's patients are getting in their encounters (in vis," this is a very long list. "dataEnc" can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).
+  + vizMeas: See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?
    
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:20***
 
    c. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
 
 Title | Brief Description 
 -- | -- 
-countDiag | counts of Diagnoses 
-countEnc | counts of Encounters
-countHF | counts of Health Factors
-countMeas | counts of Measures or flag names
+Control | click on the cell next to the word "Station" and select your station number, then click "Get Clinic List"  
+ClinicSelection | this is where you select the the clinics your team would like to include in your dataset  
+SPTransfers | data about Suicide Prevention transfers  
 dataDiag | data about Diagnoses  
 dataHF | data about Health Factors  
 dataMeas | data about Measures or flag names  
 vizDiag | visuals or charts about Diagnoses  
-vizEnc | visuals or charts about Encounters, types of visits 
 vizHF | visuals or charts about Health Factors  
-vizMeas | visuals or charts about Measures or flag names  
-
+vizEnc | visuals or charts about Encounters, types of visits  
+visMeas | visuals or charts about Measures or flag names  
+CCParams | parameters for the *MTL* Care Coordination module
+MMParams | parameters for the *MTL* Medication Management module
+PSYParams | parameters for the *MTL* Psychotherapy module
+AggParams | parameters for the *MTL* Aggregate module
         
    d. What are the options for filtering and sorting the data: 
       - At present there are four tabs to use for filtering and sorting your team data.  
       - “Diag” is diagnostic data based on visits in the team clinic dataset you selected.  
-      - “HF” is health factor data associated with those visits such as evidence-based mental health templates or suicide risk screens.
+      - “HF” is health factor data associated with those visits.  
       - When you filter to your clinic or division, you will see trends for the last two years.  
   
   
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:30
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30***
 
 
-### 3. Next, we'll explore your team data folder.
-  a. Scroll to your team folder at the bottom of the page.  
-  b. Open the data_ui folder and open your team data ui in Excel.  
-  c. Click on Control tab.  
-  d. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you.  
-  e. Click "Get Clinic List" and it will pull in clinics for your facility.  
+4. Your Team Data Folder - Scroll to your team folder at the bottom of the page. 
+  a. Open the data_ui folder and open your team data ui in Excel.
+  b. Click on Control tab.  
+  c. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you. 
+  d. Click "Get Clinic List" and it will pull in clinics for your facility.
 
-### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.  
-  a. You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
-  b. Or, if your team as designated provider clinics, you can select by provider name.  
-  c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.  
-  d. Follow the instructions in **Box A2.**  
-  e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A.  
+5. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
+  a. You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
+  b. Or, if your team as designated provider clinics, you can select by provider name.
+  c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.
+  d. Follow the instructions in **Box A2.** 
+  e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A. 
 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40
 
-## Please Note:  It takes some time to run a query from the data UI to the VA Corporate Data Warehouse. 
-+ *Depending on the size of your team, it might take 15 minutes or so for the data UI to pull in a fresh set of team data, and Microsoft Excel will be unresponsive until it's finished this process.*
+6. Note that it takes some time to run a query from the data UI to the VA Corporate Data Warehouse. 
+  a. Depending on the size of your team, it might take 15 minutes or so for the data UI to pull in a fresh set of team data, and Microsoft Excel will be unresponsive until it's finished this process.
 
-### 5. To view your patient data and trends, you will click on "Get-Patient-level Data."  
-  a. We will learn about the "Create Team Data Table for Sim UI" button in our next session.  
-  b. **NOTE: When working with a team live, facilitators will have already pulled a fresh data file to work with in a team's data folder.**  
-
-### 6. Click to view the "viz" tabs, which show team trends.  
-  a. There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
-  b. What stands out to you?  
-  c. What is most important to you to check out first?  
-  d. what is most surprising?  
+7. Click to view the "viz" tabs, which show team trends.
+  a. There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
+  b. What stands out to you?
+  c. What is most important to you to check out first?
+  d. what is most surprising?
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50
 
-### 7. Click to view the "data" tabs, which show your team's individual patient information.  
-  a. Patients who have requested restricted access to their information have asterisks *******    
+8. Click to view the "data" tabs, which show your team's individual patient information.
+  a. Patients who have requested restricted access to their information have asterisks *******  
   b. Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
   c. Providers can filter to find specific patients, or produce reports.  
   d. What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
   e. What **viz** tab would you use to see what the most common service encounters or visits are?  
   f. Are there services that have been increasing over time? Are there services that  have been descreasing over time?  
-  g. With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
-  
+  g. With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
+
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
 
 ## Done and Do (15 minutes)
@@ -164,11 +176,11 @@ vizMeas | visuals or charts about Measures or flag names
 
 1. We encourage you to look around in your team data before next time.   
 
-2. Open the team data in Excel.  
-   a. We will learn about the "Create Team Data Table for Sim UI" button in our next session.  
-   b. Reminder: When working with a team live, we will have already pulled a fresh data file to work with in a team's data folder.  
+2. Open the team data in Excel. 
+   a. We will learn about the "Create Team Data Table for Sim UI" button in our next session. 
+   b. **When working with a team live, we will have already pulled a fresh data file to work with in a team's data folder.** 
 
-3. Review the individual tabs to find an individual patient and a team trend. Look through the different tabs:  
+3. To view your individual patient data and trends, you will click on "Get-Patient-level Data." Review the individual tabs to find an individual patient and a team trend. Look through the different tabs:
  + Health Factors (HF)  
  + Diagnostic (Diag)  
  + Encounters (Enc), and   
