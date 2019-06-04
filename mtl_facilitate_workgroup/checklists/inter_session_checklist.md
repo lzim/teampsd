@@ -86,11 +86,11 @@ Time Stamp | Tailored Team Learning Activity
 Time Stamp | Tailored Team Learning Activity
 -- | --
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | cue up last time q/h/f/d (and system behavior observed for sessions s7-s10)
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | review the team data the led to that q/h/f/d
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | review the relevant causal system story
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | adjust sliders and set up team's dynamic hypothesis (ID in advance the specific value adjustments you expect the team to make)**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | review the team data the led to that q/h/f/d **Prioritize and practice highlighted specific values from the Team Data table that are guiding the workto address the team's highest priority need.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | review the relevant causal system story **Prioritize and practice describing the complexity reveal most releveant to the team's highest priority need.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | adjust sliders and set up team's dynamic hypothesis **Prioritize and practice describing specific value adjustments you expect will be helpful for the team to experiement with related to their highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | run experiment
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | describe findings/decisions and saving **(ID the output charts you're going to check and discuss as a team)**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | describe findings/decisions and saving **Prioritize and practice describing output charts you're going to check and discuss as a team in relation to their team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
 
 ## Sessions 11-12 - Wrap-up Sessions Timestamp Script
