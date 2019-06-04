@@ -2,7 +2,7 @@
 
 # Intersession Facilitation Checklist - Used by Co-Facilitators to prepare between Team Meetings
 
-## Intersession Resources and Tasks
+## Intersession Tasks and Resources
 1. The **intersession _checklist_** provides co-facilitator guidance for tailoring the  MTL 12-session plan to their team.
 2. The **intersession _meeting_** uses the intersession checklist to prioritize and practice tailoring the SAY files to your team within the timestamps according to the _MTL_ theory of change.
 3. **Intersession preparation** should help you to _prioritize_ and _practice_ key emphases of **participatory learning** and **systems thinking** related to the team's highest priority need from session 1 through session 12 of the 12-session plan.
