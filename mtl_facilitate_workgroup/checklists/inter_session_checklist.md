@@ -59,7 +59,7 @@ System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause 
  - What will you prioritize to adhere to _MTL_ Fidelity while also tailoring to the team's highest priority need?
  - Co-facilitators should help each other stay on track for time.
 
-## Sessions 5-10 - Simulation Timestamp Script
+## Sessions 1-4 - Participatory Learning Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
 - It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
@@ -68,10 +68,34 @@ System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause 
 
 Time Stamp | Tailored Team Learning Activity
 -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | cue up last time q/h/f/d (and system behavior observed for sessions s7-s10
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | cue up the "throughline" between the team's learning vision, team data and team need
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | review the themes from the team vision that can be highlighted in the team data 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | plan reflections for the team's response to the prompt questions in the SAY file that relate to the team's vision
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | prepare to explain and answer questions regarding data related to the team's need
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | practice explaining where teams' can access additional information or request updates related to the data
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | practice reflective listen to double-check your thinking about the team's relative consensus about their priorities _before_ going to the MTL menu in session 4
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
+
+## Sessions 5-10 - Simulation Sessions Timestamp Script
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
+- It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
+
+### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
+
+Time Stamp | Tailored Team Learning Activity
+-- | --
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | cue up last time q/h/f/d (and system behavior observed for sessions s7-s10)
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | review the team data the led to that q/h/f/d
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | review the relevant causal system story
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | adjust sliders and set up team's dynamic hypothesis (ID in advance the specific value adjustments you expect the team to make)**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | run experiment
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | describe findings/decisions and saving **(ID the output charts you're going to check and discuss as a team)**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
+
+## Sessions 11-12 - Wrap-up Sessions Timestamp Script
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
+- It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
+
+### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
