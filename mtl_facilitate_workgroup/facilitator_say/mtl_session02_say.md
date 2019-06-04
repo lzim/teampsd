@@ -121,8 +121,6 @@ Who would like to "drive" today?
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40
-
  Note that it takes some time to run a query from the data UI to the VA Corporate Data Warehouse. 
   a. Depending on the size of your team, it might take 15 minutes or so for the data UI to pull in a fresh set of team data, and Microsoft Excel will be unresponsive until it's finished this process.
 
