@@ -20,7 +20,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/illustrations/mtl_toc.png"
      height = "525" width = "700">
 
-## NIH R01 Measures
+## NIH R01 Measures (83 provider items)
 1.	**Acceptability of Intervention Measure (AIM)**
 2.	**Intervention Appropriateness Measure (IAM)**
 3.	**Feasibility of Intervention Measure (FIM)**
@@ -173,7 +173,7 @@ When I want to make an improvement. . .
 20. I consider that the same action can have different effects over time, depending on the state of the system.
 
 
-## HSRD IIR Measures
+## HSRD IIR Measures (75 provider items)
 1.	**Acceptability of Intervention Measure (AIM)**
 2.	**Intervention Appropriateness Measure (IAM)**
 3.	**Feasibility of Intervention Measure (FIM)**
