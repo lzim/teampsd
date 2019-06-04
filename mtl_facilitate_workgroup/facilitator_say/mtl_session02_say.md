@@ -129,29 +129,29 @@ vizMeas | visuals or charts about Measures or flag names
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40
 
 ## Please Note:  It takes some time to run a query from the data UI to the VA Corporate Data Warehouse. 
-Depending on the size of your team, it might take 15 minutes or so for the data UI to pull in a fresh set of team data, and Microsoft Excel will be unresponsive until it's finished this process.
++ *Depending on the size of your team, it might take 15 minutes or so for the data UI to pull in a fresh set of team data, and Microsoft Excel will be unresponsive until it's finished this process.*
 
-### 5. To view your patient data and trends, you will click on "Get-Patient-level Data."
-  a. We will learn about the "Create Team Data Table for Sim UI" button in our next session. 
-  b. **NOTE: When working with a team live, facilitators will have already pulled a fresh data file to work with in a team's data folder.** 
+### 5. To view your patient data and trends, you will click on "Get-Patient-level Data."  
+  a. We will learn about the "Create Team Data Table for Sim UI" button in our next session.  
+  b. **NOTE: When working with a team live, facilitators will have already pulled a fresh data file to work with in a team's data folder.**  
 
-### 6. Click to view the "viz" tabs, which show team trends.
-  a. There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
-  b. What stands out to you?
-  c. What is most important to you to check out first?
-  d. what is most surprising?
+### 6. Click to view the "viz" tabs, which show team trends.  
+  a. There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
+  b. What stands out to you?  
+  c. What is most important to you to check out first?  
+  d. what is most surprising?  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50
 
-### 7. Click to view the "data" tabs, which show your team's individual patient information.
-  a. Patients who have requested restricted access to their information have asterisks *******  
+### 7. Click to view the "data" tabs, which show your team's individual patient information.  
+  a. Patients who have requested restricted access to their information have asterisks *******    
   b. Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
   c. Providers can filter to find specific patients, or produce reports.  
   d. What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
   e. What **viz** tab would you use to see what the most common service encounters or visits are?  
   f. Are there services that have been increasing over time? Are there services that  have been descreasing over time?  
-  g. With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
-
+  g. With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
+  
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
 
 ## Done and Do (15 minutes)
@@ -164,9 +164,9 @@ Depending on the size of your team, it might take 15 minutes or so for the data 
 
 1. We encourage you to look around in your team data before next time.   
 
-2. Open the team data in Excel. 
-   a. We will learn about the "Create Team Data Table for Sim UI" button in our next session. 
-   b. Reminder: When working with a team live, we will have already pulled a fresh data file to work with in a team's data folder.
+2. Open the team data in Excel.  
+   a. We will learn about the "Create Team Data Table for Sim UI" button in our next session.  
+   b. Reminder: When working with a team live, we will have already pulled a fresh data file to work with in a team's data folder.  
 
 3. Review the individual tabs to find an individual patient and a team trend. Look through the different tabs:  
  + Health Factors (HF)  
