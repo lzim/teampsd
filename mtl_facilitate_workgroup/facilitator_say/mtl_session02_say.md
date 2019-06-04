@@ -91,15 +91,19 @@ Who would like to "drive" today?
 
    a. Click on the View dropdown. What View options are there and what do they mean?
 
-  + Count: Aggregate Data for Viz trends
-  + Data: Sortable report of data
   + Diag: Diagnostic data
   + Enc: Encounter types of visits
   + HF: Health Factors data related to visits
   + Meas: Measures or flag names
   + Viz: Visualization of trends
+  + Count: Aggregate Data for Viz trends
+  + Data: Sortable report of data
 
-   b. What filtering options are available? Filter to your clinic or division to see trends for the last two years.
+   b. What filtering options are available? Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years.  For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.
+  + vizDiag: See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).  
+  + vizEnc: See trends in what services the facility/team is spending their time providing.
+  + vizHF: See trends in what specifics the faclility/team's patients are getting in their encounters (in vis," this is a very long list. "dataEnc" can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).
+  + vizMeas: See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?
    
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20
