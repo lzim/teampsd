@@ -19,7 +19,7 @@ output:
 
 # Today we're modeling to learn how to check our patient data and team trends.
 
-## Done and Do (15 minutes)
+## Done and Do
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |  
@@ -34,7 +34,7 @@ output:
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
-# In-session Exercise (30 minutes)
+# In-session Exercise
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ## *MTL* on BISL
@@ -98,7 +98,7 @@ output:
 
 ## With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
-## Done and Do (15 minutes)
+## Done and Do
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
