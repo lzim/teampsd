@@ -18,7 +18,7 @@ _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
  
 ## s1-4 - Partner to identify the team's highest priority learning need now. [participatory learning]
 - Introduce the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
-- Review hypoer local transparent team data resources related to the team's learning vision.
+- Review hyper local transparent team data resources related to the team's learning vision.
 - Dialogue about the team's highest priority learning need now using the _MTL Menu_
 
 Session | Priority| Participatory Learning 
