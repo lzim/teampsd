@@ -37,7 +37,7 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> Done by 00:15
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> __Done by 00:15__
 
 ## In-Session Exercise
 
