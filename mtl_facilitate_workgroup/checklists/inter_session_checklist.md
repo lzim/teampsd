@@ -23,7 +23,8 @@
 
 
 ____________
-### Resources: Facilitation Goals and Emphasis Across the 12-Session plan
+### _Resources:_ 
+###Facilitation Goals and Emphasis Across the 12-Session plan
 
 _MTL_ Sessions | Primary Goal | Emphais | Team Time Report
 -- | -- | -- | --
