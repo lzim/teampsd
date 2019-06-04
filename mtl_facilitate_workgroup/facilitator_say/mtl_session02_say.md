@@ -68,13 +68,11 @@ c. On the landing page, select your VISN. On the next page, select your team's f
   
 a. First, let's see how to manipulate the view with the various scroll bars: 
 
-- A scroll bar on the far right lets you move up and down to see the entire data UI screen. 
+- The scroll bar on the far right lets you move up and down on the page, so you can see the splash at the top and down below, once you have a folder here you'll see a team folder at the bottom. 
 
-- Another bar on the right side allows you to move up and down to see a list of variables that you can include in charts. 
+- Nested inside that, there's another set of scroll bars that let you move around in the Excel worksheet: One on the right to move up and down; one at the bottom to scroll side to side across the columns. 
 
-- Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns. 
-
-b. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
+b. Now let's explore what kind of information you can access with just one or two clicks from this splash page, because we know that busy clinicians often have very limited time to look anything up. On the right side of your screen you'll see a drop-down menu labeled VIEW. This is how you choose what would otherwise appear as tabs at the bottom of your Excel workbook. Click the down arrow to see the various worksheets available:  
 
       -  SPTransfers: data about Suicide Prevention transfers  
       -  dataDiag: data about Diagnoses  
