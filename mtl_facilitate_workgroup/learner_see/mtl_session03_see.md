@@ -19,7 +19,7 @@ output:
 
 # Today we're modeling to learn how to produce team data for simulation.
 
-## Done and Do (15 minutes)
+## Done and Do  
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
@@ -34,7 +34,7 @@ output:
 2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions.
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
-# In-session Exercise (30 minutes)
+# In-session Exercise  
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
@@ -67,7 +67,7 @@ output:
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)
 
-## Done and Do (15 minutes)
+## Done and Do  
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
