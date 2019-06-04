@@ -17,7 +17,7 @@ output:
 
 # [MTL Live Session 02](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
 
-Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide for Session 2 at mtl.how, we see that 
+Hello! I'm __________ and I'm __________. Opening up the Learner See Guide for Session 2 at mtl.how, we see that 
 ### Today we're modeling to learn how to check our patient data and team trends.
 
 ## Done and Do
@@ -34,14 +34,16 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 
 1. Describe the decisions your team made in producing your team data table.  
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.  
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
-
+3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
+  
+  
+  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15
 
 ## In-Session Exercise
 
-As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
+The graphic we're looking at is a nice visual to orient us to a couple of the unique resources that *Modeling to Learn* provides. We use the *MTL* data user interface, or data UI, to see *what is* - to look back at trends in team data over the past two years. We use the *MTL* simulation UI to project team trends forward 2 years into the future so we can answer *what if* questions about different decisions the team could make. Today in session 2, we're *looking back* using the data UI.
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 
@@ -53,21 +55,15 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 Who would like to "drive" today?
 
 
-1. Using Internet Explorer browser, navigate to mtl.how/data. 
+**1. Open up a browser window in Internet Explorer, and navigate to mtl.how/data.**
 
+> a. This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site  contains Protected Health Information (PHI), so as a provider you will be granted access to patient data based on the permissions that are set up on your PIV. We'll show you how to save files you pull from here back to the secure site - and of course you'll follow all of the other practices you normally do to protect patient-level data.
 
-a. This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site  contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV. 
+> b. The reason we recommend using Explorer as your browser for this resource is because BISL is on the Microsoft SharePoint platform and plays best in Microsoft Explorer. We'll also be doing some things in Excel from here, so that will also work best in Explorer.
 
-b. We'll show you how files you pull from here will be saved back to the secure site. Just keep in mind you need to protect patient PHI just as you do in other settings. So for example, if you want to attach a file to an email, you'll need to encrypt it.
-
-c. The reason we recommend using Explorer as your browser for this resource is because it's on a SharePoint platform, and Microsoft products "play best" with each other. We'll also be doing some things in Excel from here too.
-
-d. On the landing page, select your VISN. On the next page, select your team's facility.
-
-e. A web version of Excel will open on your screen, showing charts from your facility's data.  
+> c. On the landing page, select your VISN. On the next page, select your team's facility. A web version of Excel will open on your screen, showing charts from your facility's data.  
   
-
-f. First, let's see how to manipulate the view with the various scroll bars: 
+> d. First, let's see how to manipulate the view with the various scroll bars: 
 
 - A scroll bar on the far right lets you move up and down to see the entire data UI screen. 
 
@@ -75,7 +71,7 @@ f. First, let's see how to manipulate the view with the various scroll bars:
 
 - Then, just like you have in Excel, there are vertical and horizontal scroll bars to move up and down rows and left and right across columns. 
 
-g. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right: 
+> e. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right: 
 
 - Control - you can click on the cell next to the word "Station" and select your station number, then click "Get Clinic List" 
 
@@ -83,7 +79,7 @@ g. Next let's look at the various worksheet tabs at the bottom of the Excel file
 
 - SPTransfers - data about Suicide Prevention transfers 
 
-h. Now let's look at the various worksheet tabs at the bottom of the Excel file:
+> f. Now let's look at the various worksheet tabs at the bottom of the Excel file:
 
 
 
