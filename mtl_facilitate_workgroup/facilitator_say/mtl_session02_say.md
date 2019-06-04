@@ -82,17 +82,18 @@ Who would like to "drive" today?
    a. Click on the View dropdown. We have four main data sets in the splashpage -- Diagnoses, Encounters, Health Factors, and Measures -- along with three ways to view each -- vizualized as charts of trends over time, as counts per month, and as raw data.  All is sortable and filterable.  
    b. What filtering options are available? Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years.  For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.
    **Options:**
-  *+ vizDiag: See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).  
-  + vizEnc: See trends in what services the facility/team is spending their time providing.
-  *+ vizHF: See trends in what specifics the faclility/team's patients are getting in their encounters (in vis," this is a very long list. "dataEnc" can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).
-  *+ vizMeas: See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?   
+   
+  + *vizDiag: See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
+  + *vizEnc: See trends in what services the facility/team is spending their time providing.*
+  + *vizHF: See trends in what specifics the faclility/team's patients are getting in their encounters (in vis," this is a very long list. "dataEnc" can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
+  + *vizMeas: See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*   
 
  
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25***
 
 
 
-4. Your Team Data Folder - Scroll to your team folder at the bottom of the page. 
+## 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. 
   a. Open the data_ui folder and open your team data ui in Excel.
   b. Click on Control tab.  
   c. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you. 
@@ -124,7 +125,7 @@ PSYParams | parameters for the *MTL* Psychotherapy module
 AggParams | parameters for the *MTL* Aggregate module
       
   
-5. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
+## 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
   a. You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
   b. Or, if your team as designated provider clinics, you can select by provider name.
   c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.
@@ -135,10 +136,10 @@ AggParams | parameters for the *MTL* Aggregate module
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40
 
-6. Note that it takes some time to run a query from the data UI to the VA Corporate Data Warehouse. 
+ Note that it takes some time to run a query from the data UI to the VA Corporate Data Warehouse. 
   a. Depending on the size of your team, it might take 15 minutes or so for the data UI to pull in a fresh set of team data, and Microsoft Excel will be unresponsive until it's finished this process.
 
-7. Click to view the "viz" tabs, which show team trends.
+## 7?. Click to view the "viz" tabs, which show team trends.
   a. There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
   b. What stands out to you?
   c. What is most important to you to check out first?
@@ -146,7 +147,7 @@ AggParams | parameters for the *MTL* Aggregate module
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50
 
-8. Click to view the "data" tabs, which show your team's individual patient information.
+## 8?. Click to view the "data" tabs, which show your team's individual patient information.
   a. Patients who have requested restricted access to their information have asterisks *******  
   b. Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
   c. Providers can filter to find specific patients, or produce reports.  
