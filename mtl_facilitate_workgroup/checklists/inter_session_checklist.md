@@ -5,10 +5,10 @@
 ### Purpose
 1. The **intersession _checklist_** provides co-facilitator guidance for tailoring the  MTL 12-session plan to their team.
 2. The **intersession _meeting_** uses the intersession checklist to prioritize and practice tailoring the SAY files to your team within the timestamps according to the _MTL_ theory of change.
-3. **Intersession preparation** should help you to _prioritize_ and _practice_ key emphases of **participatory learning** and **systems thinking** related to the team's highest priority need from session 1 through session 12 of the 12-session plan.
+3. **Intersession _preparation_** should help you to prioritize and practice key emphases of **participatory learning** and **systems thinking** related to the team's priority need from session 1 through session 12 of the 12-session plan.
 
 ### Tasks
-1)	Download the SAY guide for the upcoming session and customize it for the individual team (i.e., put in “last time we talked about…” and “last time you asked about…”) Reiterate the main concern they voiced last time (think about both clinical/patient facing issues and team dynamics!) and relate every example or test back to it.
+1)	Download the Facilitator SAY guide for the upcoming session and customize it to the individual team. Fill in blanks and brackets with team-specific points to ensure that all tests and examples relate to their priority need (think about both clinical/patient facing issues and team dynamics) and provide continuity (“last time we talked about…”; “so-and-so asked about…”). 
      -	Review post-checklist notes #2, 4, and 6, and write down the team’s issues
      -	Tie that issue to the examples you will use to in the Data/Sim UI – get specific! (Decide what to cut, as there is much, much more in both the Data and Sim UI than can be covered in the 30 min available)
      -	Determine how long each part of the activity should take and set time stamps to hit in the dress rehearsal  
