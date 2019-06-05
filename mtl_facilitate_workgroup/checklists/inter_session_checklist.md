@@ -26,9 +26,9 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 Session | Priority| Participatory Learning 
 -- | -- | --
 s1 | Shared Vision | The team practices making team decisions as they move from an individual to shared vision, select their team lead and team meeting time
-s2 | Team Data | The team learns to build their own team data for evaluating team trends and patient data in relation to their team vision.
-s3 | Team Data for Simulation | The team reviews "What is" team parameters related to their team vision and considers the benefits of "what if" simulation learning.
-s4 | Team Need | The engages in a dialogue about the highest priority team need now, so that there is consensus around the _MTL_ Learning Module selected for sessions 5-10.
+s2 | Team Data Trends | The team learns to evaluate their own team data trends and patient data in relation to their team vision.
+s3 | Team Data for Simulation | The team selects the data that makes sense for their own context and shared vision, and builds the set of parameters they will use for "what if" simulation learning.
+s4 | Team Need | The team engages in a dialogue about the highest priority team need now, so that there is consensus around the _MTL_ Learning Module selected for sessions 5-10.
 
 ### Sesson 5-8 - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions [participatory learning + systems thinking]
 - Review the _MTL_ Fidelity Checklist to identify the additional participatory learning capacities for each session.
@@ -62,12 +62,12 @@ System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause 
 
 Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
 -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | cue up the "throughline" between the team's learning vision, team data and team need (quesetion 6 from the Post-Session debrief
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | cue up the "throughline" between the team's learning vision, team data and team need (question 6 from the Post-Session debrief
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | review the themes from the team vision that can be highlighted in the team data - **1. Prioritize and practice highlighting specific themes the team brought up when visioning that are guiding the in-session work to address the team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | plan reflections for the team's response to the prompt questions in the SAY file that relate to the team's vision - **2. Prioritize and practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | prepare to explain and answer questions regarding data related to the team's need - **3a. Prioritize and practice responding to frequently asked questions (FAQs) related team data related to the team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | practice explaining where teams' can access additional information or request updates related to the data **3b. Prioritize and practice responding to frequently asked questions (FAQs) related team data related to the team's highest priority need.**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | practice reflective listen to double-check your thinking about the team's relative consensus about their priorities _before_ going to the MTL menu in session 4 - **4. Prioritize and practice your active listening skills, particularly reflections that synthesize a) multiple team member's points of view, and b) multiple problems that are likely related, and c) the "throughline" across learning sessions.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | practice reflective listening to double-check your thinking about the team's relative consensus about their priorities _before_ going to the MTL menu in session 4 - **4. Prioritize and practice your active listening skills, particularly reflections that synthesize a) multiple team member's points of view, and b) multiple problems that are likely related, and c) the "throughline" across learning sessions.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
 
 ## Sessions 5-10 - Simulation Sessions Timestamp Script
