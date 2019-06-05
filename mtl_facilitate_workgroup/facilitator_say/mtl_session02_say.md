@@ -76,12 +76,13 @@ Who would like to "drive" today?
   + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data. Use the Refresh Data command to update the report.* Click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accesed the data in a while.  
   
    There is three ways to view each set of data:  
-     1. visualized or "viz" as charts of trends over time, 
-     2. vizualized or "viz" as counts per month, and 
+     1. visualized or "viz" as charts of trends over time,  
+     2. vizualized or "viz" as counts per month, and  
      3. vizualized or "viz" as raw data.  
       
-   c. All data is sortable and filterable. What filtering options are available? 
-   1. Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.
+   c. All data is sortable and filterable. What filtering options are available?  
+     1. Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years. 
+     2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.
    
    **Options:**
   + *vizDiag: See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
