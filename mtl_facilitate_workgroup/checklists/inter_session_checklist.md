@@ -26,9 +26,9 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 Session | Priority| Participatory Learning 
 -- | -- | --
 s1 | Shared Vision | The team practices making team decisions as they move from an individual to shared vision, select their team lead and team meeting time
-s2 | Team Data | The team learns to build their own team data for evaluating team trends and patient data in relation to their team vision.
-s3 | Team Data for Simulation | The team reviews "What is" team parameters related to their team vision and considers the benefits of "what if" simulation learning.
-s4 | Team Need | The engages in a dialogue about the highest priority team need now, so that there is consensus around the _MTL_ Learning Module selected for sessions 5-10.
+s2 | Team Data Trends | The team learns to evaluate their own team data trends and patient data in relation to their team vision.
+s3 | Team Data for Simulation | The team selects the data that makes sense for their own context and shared vision, and builds the set of parameters they will use for "what if" simulation learning.
+s4 | Team Need | The team engages in a dialogue about the highest priority team need now, so that there is consensus around the _MTL_ Learning Module selected for sessions 5-10.
 
 ### Sesson 5-8 - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions [participatory learning + systems thinking]
 - Review the _MTL_ Fidelity Checklist to identify the additional participatory learning capacities for each session.
