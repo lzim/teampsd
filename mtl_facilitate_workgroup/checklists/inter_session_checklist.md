@@ -7,25 +7,6 @@
 2. The intersession **_meeting_** uses the intersession checklist to prioritize and practice tailoring the SAY files to your team within the timestamps according to the _MTL_ theory of change.
 3. Intersession **_preparation_** should help you to prioritize and practice key emphases of **participatory learning** and **systems thinking** related to the team's priority need from session 1 through session 12 of the 12-session plan.
 
-### Tasks
-1)	Download the Facilitator SAY guide for the upcoming session and customize it to the individual team. Fill in blanks and brackets with team-specific points to ensure that all tests and examples relate to their priority need (think about both clinical/patient facing issues and team dynamics) and provide continuity (“last time we talked about…”; “so-and-so asked about…”). 
-     -	Review post-session checklist notes (especially #2, 4, 6) and note the team’s need.
-     -	Tie the examples you will use in the session (especially the data or sim UI) to the team's need. Be specific! There isn't time to cover all details of the *MTL* resources, so plan where to focus. The deciding factor is **the team's need**.
-     -	Consider and adjust the standard session time stamps if you think you'll need more time for some parts and less for others. 
-     
-2)   Review the session activities and make sure there are no technical concerns or back-end administrative tasks outstanding.
-     
-3)	Rehearse the upcoming session.
-     -	Choose a Live Lead and a Pre/Post Lead/Note-taker. 
-     -    Clarify who will say which pieces and cover which tasks in the script.
-     -    Test to make sure your examples work. Specific examples, results of data inquiries, sim experiments, etc., should relate to the team's need, be interpretable, and support their hypothesis. If not, prepare to explain.
-     -	Make sure that everything you say gets the team closer to the goals for both the individual session and the set __(see tables below)__.
-     -    Quiz each other on FAQ/anticipated questions from the team for the upcoming session.
-     -    Further adjust time stamps if indicated.
-   
-
-____________
-### _Resources:_ 
 ### Facilitation Goals and Emphasis Across the 12-Session plan
 
 _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
@@ -34,8 +15,7 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 **5-8** | Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions | participatory learning + systems thinking | **tt2**
 **9-12** | Use C.F.B.T. Systems Thinking and plan for future team learning needs. Ideally: Team is ready to implement a tested change in the real world| systems thinking | **tt3**
 
- 
- 
+
 ### Sesson 1-4 - Partner to identify the team's highest priority learning need now. [participatory learning]
 - Introduce the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
 - Review hyper local transparent team data resources related to the team's learning vision.
@@ -109,4 +89,33 @@ Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
 - It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
+
+
+### Team Tailoring and _MTL_ Theory of Change
+
+### Prioritize
+
+**1. Customize the Facilitator SAY guide for your individual team.** 
+
+- **Download or print** to fill in blanks and brackets to relate to their priority need to the highest priorities your practiced related to the _MTL_ theory of change. 
+
+- **Review post-session checklist** notes **especially #6** from the prior session and review the **_MTL_ Fidelity Checklist** 
+
+- **Prioritize continuity across sessions** from the **team vision,** **team data** and **team need.** (MTL sessions 1-4).
+from session to session, (“last time we talked about…”; “so-and-so asked about…”). 
+- This is essential for ensuring fidelity to the _MTL_ Theory of Change.
+
+### Practice
+
+**2. Rehearse the next session using the checklists above.**
+
+- **Clarify Co-Facilitator Roles** - Choose a Live Lead and a Pre/Post Lead/Note-taker. 
+
+- **Practice the highest priorities from the interesssion checklist** - ensure they can be communicated to the time within the timestamps.
+     -    Align the team-specific tailoring with the **goals** and **emphases** of the sessions according the **_MTL_ Theory of Change.**
+     -    Practice to make sure your examples work within the time-frame. Specific examples, results of data inquiries, sim experiments, etc., should relate to the team's need, be interpretable, and support their hypothesis. If not, prepare to explain.
+     -    Quiz each other on FAQ/anticipated questions from the team for the upcoming session.
+     
+3. **Review details** -  make sure there are no technical concerns or back-end administrative tasks outstanding.
+   
 
