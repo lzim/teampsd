@@ -3,24 +3,26 @@
 # Intersession Facilitation Checklist - Used by Co-Facilitators to prepare between Team Meetings
 
 ### Purpose
-1. The **intersession _checklist_** provides co-facilitator guidance for tailoring the  MTL 12-session plan to their team.
-2. The **intersession _meeting_** uses the intersession checklist to prioritize and practice tailoring the SAY files to your team within the timestamps according to the _MTL_ theory of change.
-3. **Intersession _preparation_** should help you to prioritize and practice key emphases of **participatory learning** and **systems thinking** related to the team's priority need from session 1 through session 12 of the 12-session plan.
+1. The intersession **_checklist_** provides co-facilitator guidance for tailoring the  MTL 12-session plan to their team.
+2. The intersession **_meeting_** uses the intersession checklist to prioritize and practice tailoring the SAY files to your team within the timestamps according to the _MTL_ theory of change.
+3. Intersession **_preparation_** should help you to prioritize and practice key emphases of **participatory learning** and **systems thinking** related to the team's priority need from session 1 through session 12 of the 12-session plan.
 
 ### Tasks
 1)	Download the Facilitator SAY guide for the upcoming session and customize it to the individual team. Fill in blanks and brackets with team-specific points to ensure that all tests and examples relate to their priority need (think about both clinical/patient facing issues and team dynamics) and provide continuity (“last time we talked about…”; “so-and-so asked about…”). 
-     -	Review post-checklist notes #2, 4, and 6, and write down the team’s issues
-     -	Tie that issue to the examples you will use to in the Data/Sim UI – get specific! (Decide what to cut, as there is much, much more in both the Data and Sim UI than can be covered in the 30 min available)
-     -	Determine how long each part of the activity should take and set time stamps to hit in the dress rehearsal  
+     -	Review post-session checklist notes (especially #2, 4, 6) and note the team’s need.
+     -	Tie the examples you will use in the session (especially the data or sim UI) to the team's need. Be specific! There isn't time to cover all details of the *MTL* resources, so plan where to focus. The deciding factor is **the team's need**.
+     -	Consider and adjust the standard session time stamps if you think you'll need more time for some parts and less for others. 
      
-2)	Do a timed dress rehearsal of the upcoming session
-     -	Choose a Live Lead vs. Pre/Post lead and Session Note Taker and clarify who will say which pieces and cover which tasks.
-     - Make sure your examples work! The data you pull up reflect their concern, or the results of the test support their hypothesis (or, if they don’t, then have an explanation for why).
+2)   Review the session activities and make sure there are no technical concerns or back-end administrative tasks outstanding.
+     
+3)	Rehearse the upcoming session.
+     -	Choose a Live Lead and a Pre/Post Lead/Note-taker. 
+     -    Clarify who will say which pieces and cover which tasks in the script.
+     -    Test to make sure your examples work. Specific examples, results of data inquiries, sim experiments, etc., should relate to the team's need, be interpretable, and support their hypothesis. If not, prepare to explain.
      -	Make sure that everything you say gets the team closer to the goals for both the individual session and the set __(see tables below)__.
-     -	Adjust SAY file to fit desired time stamps  
-     
-3)	Quiz each other on the FAQs for the upcoming session, to be ready for the common questions about the session content
-
+     -    Quiz each other on FAQ/anticipated questions from the team for the upcoming session.
+     -    Further adjust time stamps if indicated.
+   
 
 ____________
 ### _Resources:_ 
