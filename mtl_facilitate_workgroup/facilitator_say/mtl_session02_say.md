@@ -82,8 +82,8 @@ Who would like to "drive" today?
       3. Raw data: dataDiag, dataHF, and dataMeas.  
       
    d. All data is sortable and filterable. What filtering options are available?  
-      1. Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years. 
-      2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.
+      1. Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years.  
+      2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.  
    
    **Options:**
   + *vizDiag: See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
