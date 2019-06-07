@@ -68,10 +68,10 @@ s4 | Team Need | The team engages in a dialogue about the highest priority team 
 
 ### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
 
-Time Stamp | Prioritize tailored Team Learning | Practice
+Time Stamp | Prioritize tailored team learning | Edit SAY guide and practice
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up the "throughline" between the team's learning vision, team data and team need question 6 from the Post-Session debrief
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | **Review** the themes from the team vision that can be highlighted in the team data | **1. In the SAY guide, fill in the specific themes the team brought up when visioning during session 1.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up the "throughline" between the team's learning vision, team data and team need question 6 from the Post-Session debrief.
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | **Review** to identify the themes from the team vision that can be highlighted in the team data. | **1. In the SAY guide, fill in the specific themes the team brought up when visioning during session 1.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | **Plan** reflections for the team's response to the prompt questions in the SAY file that relate to the team's vision | **2. In the SAY guide, prioritize and fill in the specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | **In the SAY guide, prioritize and fill in answers to FAQs regarding data related to the team's need. | **3a. Prioritize and practice responding to frequently asked questions (FAQs) related team data related to the team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | **Practice explaining** where teams' can access additional information or request updates related to the data | **3b. Practice explaining the transparent data resources to the team.**
@@ -111,7 +111,7 @@ System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause 
 
 ### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
 
-Time Stamp | Prioritize tailored Team Learning | Practice
+Time Stamp | Prioritize tailored team learning | Edit SAY guide and practice
 -- | -- | --
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up last time q/h/f/d (and system behavior observed for sessions s7-s10)
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | **Review** the team data the led to that q/h/f/d | **1. Practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**
