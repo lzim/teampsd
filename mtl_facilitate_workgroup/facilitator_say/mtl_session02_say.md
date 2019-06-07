@@ -61,7 +61,7 @@ Who would like to "drive" today?
 
    c. We'll show you how files you pull from here will be saved back to the secure site. Just keep in mind you need to protect patient PHI just as you do in other settings. So for example, if you want to attach a file to an email, you'll need to encrypt it.  
 
-   d. On the landing page, select your VISN **[ ]**. On the next page, select your team's facility **[ ]**.  
+   d. On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
     + A web version of Excel will open on your screen, showing charts from your facility's data.  
 
 ### 2. Let's explore the information available in the BISL sharepoint splash page  
@@ -76,13 +76,18 @@ Who would like to "drive" today?
      
   + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data. Use the Refresh Data command to update the report.* Click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
   
-   c. There is three ways to view each set of data:  
+   c. There are three ways to view each set of data:  
       1. Counts per month: countDiag, countEnc, countHF, and countMeas;  
       2. Visual charts of trends over time:  vizDiag, vizEnc, vizHF, and vizMeas;  
       3. Raw data: dataDiag, dataHF, and dataMeas.  
       
-   d. All data is sortable and filterable. What filtering options are available?  
+   d. All data is sortable and filterable so that the team can transparently see how charting becomes VA data. What filtering options are available?  
       1. Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years.  
+      
+Time Stamp | Team Learning Priorities | Script for Session 2d1
+-- | -- | --
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
+00:15-00:20 |  |  |      
       2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.  
    
    **Options:**
