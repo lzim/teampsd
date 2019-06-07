@@ -121,8 +121,8 @@ Keep an eye on time |  |  |
 Rank | viz Options |  |  
 -- | -- | -- | 
 ___ | *vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
-___ | *vizEnc* See trends in what services the facility/team is spending their time providing.*
-___ | *vizHF* See trends in what specifics the facility/team's patients are getting in their encounters (in vis," this is a very long list. *dataEnc* | can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
+___ | *vizEnc* | See trends in what services the facility/team is spending their time providing.*
+___ | *vizHF* | See trends in what specifics the facility/team's patients are getting in their encounters (in vis," this is a very long list. *dataEnc* | can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
 ___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use ___ | disorder or depression or PTSD?*   
 
 
