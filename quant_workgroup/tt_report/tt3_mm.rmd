@@ -141,9 +141,7 @@ mmpar.table <- mmpar.table1 %>%
          X__5 = replace(X__5, X__1 == "Appointment Slots % (with X waiver)",
                         X__2[which(X__1 == "Appointment Slots % (with X waiver)")]),
          X__2 = replace(X__2, X__1 == "Appointment Slots % (with X waiver)", NA),
-         X__1 = sub(" in MM", "", X__1),
-         X__1 = replace(X__1, X__1 == "Median Engagement", "Engagement Duration (median)"),
-         X__1 = replace(X__1, X__1 == "Starting Rate (mean)", "Start Rate (mean)"), 
+         X__1 = sub(" in MM", "", X__1), 
          X__1 = replace(X__1, X__1 == "True Missed Appointment %", "True Missed Appointment "), 
          X__1 = paste0(X__1, stu)) %>%
   mutate_at(vars(2:5), funs(as.numeric(.))) %>%

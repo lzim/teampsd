@@ -134,7 +134,8 @@ uni_colD <- sppar1$X__4[which(!is.na(sppar1$X__4))]
 def_vec <- c(rep(uni_colD[-max.pos2], group_pos2), rep(unique_colD[max.pos2],3))
 
 mcc <- sppar1 %>%
-  mutate(group = group_vec,
+  mutate(X__2 = sub(" \\(threshold 39 wks\\)", "", X__2),
+         group = group_vec,
          def = def_vec,
          col_lab = sub("(.*) \\(.*\\)$", "\\1", X__2),
          col_lab = sub(" %$", "", col_lab),

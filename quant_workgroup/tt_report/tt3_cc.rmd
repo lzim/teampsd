@@ -6,7 +6,10 @@ output:
      html_document: default   
      word_document: default 
   
-     
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding,
+  output_dir = ".", output_format = "all") })     
+          
 ---
 
 To use the code in this Rmarkdown for each Team/Module in separate Rmarkdown, please do as follow:
@@ -131,7 +134,6 @@ stu <- c("(wks)", "(appt/wk)", "(wks)", "","", "(wks)")
 ccpar.table <- ccpar[c(12,10,5,3,1,7),1:3] %>% # Select row and order to match UI
   mutate(X__2 = formatC(X__2, digits = 2, format = "f"),
          X__1 = sub(" in CC", "", X__1),
-         X__1 = replace(X__1, X__1 == "Median Engagement", "Engagement Duration (median)"),
          X__1 = replace(X__1, X__1 == "Starting Rate (mean)", "Start Rate (mean)"),
          X__1 = paste0(X__1, stu))
 

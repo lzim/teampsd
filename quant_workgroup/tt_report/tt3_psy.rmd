@@ -3,8 +3,9 @@ title: 'Sim UI Experiments'
 author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
-     html_document: default
-
+    html_document: default   
+    word_document: default 
+  
 ---
 
 To use the code in this Rmarkdown for each Team/Model in separate Rmarkdown, please do as follow:
