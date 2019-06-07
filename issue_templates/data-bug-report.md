@@ -1,5 +1,5 @@
 ---
-Step 1: 1. Copy the text below. 
+Step 1: Copy the text below. 
 Step 2: Click the link to create a new issue for the data splashpage and data user interface https://github.com/lzim/teampsd/issues/new.
 Step 3: Edit the details to create a report that will help us improve mtl.how/data and the data UI.
 labels: bug
