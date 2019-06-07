@@ -8,27 +8,32 @@
 **1. Employee Education Services (EES) Workgroup**
 - ees_workgroup
 
-**2. Model Workgroup**
+**2. Issue Templates**
+- data-bug-report.md
+- guide-bug-report.md
+- sim-bug-report.md
+
+**3. Model Workgroup**
 - model_workgroup
 
-**3. *MTL Facilitate* Workgroup**
+**4. *MTL Facilitate* Workgroup**
   + *MTL Live*
   + *MTL Video*
   + *MTL Facilitate*
   
-**4. Publications Workgroup**
+**5. Publications Workgroup**
 - pubs_workgroup
 
-**5. Qualitative Workgroup**
+**6. Qualitative Workgroup**
 - qual_workgroup
 
-**6. Quantitative Workgroup**
+**7. Quantitative Workgroup**
 - quant_workgroup
 
-**7. Shared Team PSD Resources**
+**8. Shared Team PSD Resources**
 - resources
 
-**8. Simulation User-interface Workgroup**
+**9. Simulation User-interface Workgroup**
 - sim_ui_workgroup
 
-**9. VAPOR**
+**10. VAPOR**
