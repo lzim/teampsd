@@ -37,9 +37,9 @@
 
 _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 -- | -- | -- | --
-**1-4** | **Partner** to identify and validate the team's highest priority learning need now. | participatory learning | **tt1**
-**5-8** | **Build** capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. | participatory learning + systems thinking | **tt2**
-**9-12** | **Apply** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. | systems thinking | **tt3**
+**1-4** | **Partner** to identify and validate the team's highest priority learning need now. | **participatory learning** | **tt1**
+**5-8** | **Build** capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. | **participatory learning + systems thinking** | **tt2**
+**9-12** | **Apply** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. | **systems thinking** | **tt3**
 
 # There are 3 intersession timestamp scripts across the 12-session plan.
 
