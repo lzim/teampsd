@@ -10,10 +10,10 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 **5-8** | **Build** capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. | **participatory learning + systems thinking** | **tt2**
 **9-12** | **Apply** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. | **systems thinking** | **tt3**
 
-# B. There are 3 intersession timestamp scripts across the 12-session plan.
+# B. There are 3 intersession timestamp checklists used across the 12-session plan.
 
-**#** | **Sessions** | **30-35 Minute Exercise Timestamp Script**
--- | -- |
+**Checklist** | **Sessions** | **30-35 Minute Exercise Timestamp Script**
+-- | -- | -- 
 **1** | **Sessions 1-4** | **Participatory Learning** 
 **2** | **Sessions 5-10** | **Participatory Simulation Learning**
 **3** | **Sessions 11-12** | **Wrap-up and Future Learning**
