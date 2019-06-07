@@ -1,5 +1,5 @@
 ---
-name: ![Guide Issue](https://github.com/lzim/teampsd/issues/new).
+name: Create New Issue for SEE and SAY Guides https://github.com/lzim/teampsd/issues/new
 about: Create a report to help us improve the SAY and SEE guides
 title: ''
 labels: bug
