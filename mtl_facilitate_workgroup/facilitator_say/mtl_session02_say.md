@@ -41,9 +41,16 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 
 ## In-Session Exercise
 
-As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
+## Participatory Learning from Simulation
+This graphic illustrates how **_Modeling to Learn_** can helpe us to get more of our Veterans to the right right and the right time to meet their needs using participatory learning from simulation.
+- We use the data user interface (UI) to look back at team trends over the past two years.
+- We review the last two years of data to see *what is* in our team now. 
+- Backward looking data review is limited for guiding effective change.
+- Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it. 
+- It is also really demotivating to see trends we don't like, and not know what is causing the problem.
+- We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
-
+- Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.
 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -135,33 +142,37 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   
   b. Or, if your team as designated provider clinics, you can select by provider name.  
   
-  We 
-  **__________________ [Team Lead's name] which column did we find most helpful for creating this team's dataset?**
-  
   c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.  
+
+### **You already have a fresh data UI file to work with already in your team data folder.**  
+  a. It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
+  b. On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
+  
+- **Prior to today's session, __________________ [Team Lead's name] worked with us to build an initial team dataset.
+  
+- **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**
+  
+- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
   
   d. Follow the instructions in **Box A2.**  
   
   e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A.  
 
 ## 5. To view your team patient data and your team trends click on "Get-Patient-level Data." We will not do this in-session today.  
-
-  a. **You already have a fresh data UI file to work with already in your team data folder.**  
   
   b. We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.  
-
-### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse.  
-  + On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
 
 ## 6. Click to view the "viz" tabs, which show team trends.  
 
   a. Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ ]**.  Let's go to the **[ ]** viz tab to see data relevant to that issue.  
   
-  b. What stands out to you about **[ trend related to team vision]**?  
+  b. **What stands out to you about ________________________________**[fill-in team vision]**?  
   
-  c. What is most important to you to check out first to learn about **[ ]**?  
+  c. **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
+    [Prepare in advance, but ask this as an open-ended quesiton]?  
   
-  d. What is most surprising?  
+  d. **What is most surprising?**  
+    [Prepare in advance, but ask this as an open-ended quesiton]?  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40***
 
