@@ -49,7 +49,7 @@ Sessions 1-4 | Participatory Learning Timestamp Script
 Sessions 5-10 | Simulation Sessions Timestamp Script
 Sessions 11-12 | Wrap-up Sessions Timestamp Script
 
-# Sessons 1-4 Goals and Emphases - Partner to identify the team's highest priority learning need now. [participatory learning]
+## Sessons 1-4 Goals and Emphases - Partner to identify the team's highest priority learning need now. [participatory learning]
 1. Introduce the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
 2. Review hyper local transparent team data resources related to the team's learning vision.
 3. Dialogue about the team's highest priority learning need now using the _MTL Menu_
@@ -79,7 +79,7 @@ Time Stamp | Prioritize tailored Team Learning | Practice
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
 
 
-# Sessons 5-8 Goals and Emphases - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. [participatory learning + systems thinking]
+## Sessons 5-8 Goals and Emphases - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. [participatory learning + systems thinking]
 1. Review the _MTL_ Fidelity Checklist and overview below to identify the additional _MTL_ capacities for each session consistent with the _MTL_ theory of change.
 2. Tailor your review of new _MTL_ resources and skills to the team's highest priority need.
 3. Build team capacities to use _MTL_ data and simulation resources without facilitation in the future.
