@@ -92,7 +92,7 @@ s6 | **Tell a Systems Story** | Enter a Dynamic Hypothesis based on Systems stor
 s7 | **Test a Dynamic Hypothesis** | Test the Dynamic Hypothesis for the Base Case and Write up the Findings and Decisions
 s8 | **Compare Alternatives** | Test Dynamic Hypothesis for an alternative and write up the comparison against the Basecase in Findings and Decisions.
 
-# Sessons 9-12 Goals and Emphases - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]
+## Sessons 9-12 Goals and Emphases - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]
 1. Review the _MTL_ Fidelity Checklist and overview below to identify the additional _MTL_ capacities for each session consistent with the _MTL_ theory of change.
 2. Review the targeted next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session.
 3. Further the systems thinking skills of the team with each session, specifically these four C.F.B.T. systems thinking attributes:
