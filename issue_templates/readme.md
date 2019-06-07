@@ -9,13 +9,13 @@
 ## Issue Templates
 
  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how/)
-### For issues with the _MTL_ SEE (learner) or SAY (facilitator) session guides https://mtl.how, ping hq with this issue template:
+### GUIDES: For issues with the _MTL_ SEE (learner) or SAY (facilitator) session guides https://mtl.how, ping hq with this issue template:
 - [guide-bug-report.md](https://github.com/lzim/teampsd/blob/master/issue_templates/guide-bug-report.md)
 
  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)
-### For issues with the _MTL_ splashpage or the data user interface (UI) at https://mtl.how/data (VA users only), ping the quant_workgroup with this issue template:
+### DATA: For issues with the _MTL_ splashpage or the data user interface (UI) at https://mtl.how/data (VA users only), ping the quant_workgroup with this issue template:
 - [data-bug-report.md](https://github.com/lzim/teampsd/blob/master/issue_templates/data-bug-report.md)
 
  [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)
-### For issues with the _MTL_ simulation user interface (UI) at https://mtl.how/sim, ping the sim_workgroup with this issue template:
+### SIM: For issues with the _MTL_ simulation user interface (UI) at https://mtl.how/sim, ping the sim_workgroup with this issue template:
 - [sim-bug-report.md](https://github.com/lzim/teampsd/blob/master/issue_templates/sim-bug-report.md)
