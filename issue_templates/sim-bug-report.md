@@ -1,7 +1,7 @@
 ---
-name: Sim Bug report
-about: Create a report to help us improve
-title: ''
+Step 1: Copy the text below. 
+Step 2: Click the link to create a new issue for the simulation user interface https://github.com/lzim/teampsd/issues/new.
+Step 3: Edit the details to create a report that will help us improve the sim UI.
 labels: bug
 assignees: jamesmrollins
 
