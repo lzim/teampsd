@@ -1,6 +1,6 @@
 ---
-name: Guide Bug report
-about: Create a report to help us improve
+name: ![Guide Issue](https://github.com/lzim/teampsd/issues/new).
+about: Create a report to help us improve the SAY and SEE guides
 title: ''
 labels: bug
 assignees: lzim, staceypark
