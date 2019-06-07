@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 02 - Facilitator Say"
 author: "Team PSD"
-date: "September 2018"
+date: "June 2019"
 output: 
   github_document: default
   html_document: default
@@ -57,44 +57,59 @@ Who would like to "drive" today?
 
    a. This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
 
-   b. The reason we recommend using Explorer as your browser for this resource is because it's on a SharePoint platform, and Microsoft products "play best" with each other. We'll also be doing some things in Excel from here too.  
+   b. We recommend using Explorer as your browser for this resource is because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll being opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
 
-   c. We'll show you how files you pull from here will be saved back to the secure site. Just keep in mind you need to protect patient PHI just as you do in other settings. So for example, if you want to attach a file to an email, you'll need to encrypt it.  
+   c. We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
    d. On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
     + A web version of Excel will open on your screen, showing charts from your facility's data.  
 
-### 2. Let's explore the information available in the BISL sharepoint splash page  
+### 2. This splashpage is designed so see trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL sharepoint splash page:  
 
-   a. There is a scroll bar on the far right that allows the user to scroll up and down the page.  
-   
-   b. Click on the *View* dropdown to explore four main data sets in the splash page:  
-      1. Diagnoses: patient diagnoses,  
-      2. Encounters: Adjunctive, Group, Telephone work, etc.,  
-      3. Health Factors: evidence-based clinical reminders, patient standardizes measures, etc., and  
-      4. Measures: standardizes symptom scales commonly used in your clinic.  
-     
+   a. There are two sets scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls within the graphs on the page.
+
+#### There are three types View options on the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what they each display?
+
+View | Displays 
+-- | --
+Count | Count tables that match the viz graphs
+Data | Sortable report of de-identified individual patient data
+Viz | Visualization of trends over time.
+
+#### There are four main data sets in the splash page:  
+
+Data | Displays 
+-- | --
+Diag | Primary diagnoses on visits in that setting level
+Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
+HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
+Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags
+
+#### To sum up, there are three ways to view each set of data:  
+1. Counts per month: countDiag, countEnc, countHF, and countMeas;  
+2. Visual charts of trends over time:  vizDiag, vizEnc, vizHF, and vizMeas 
+3. Drill down patient-level data: dataDiag, dataHF, and dataMeas. 
+         
   + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data. Use the Refresh Data command to update the report.* Click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
   
-   c. There are three ways to view each set of data:  
-      1. Counts per month: countDiag, countEnc, countHF, and countMeas;  
-      2. Visual charts of trends over time:  vizDiag, vizEnc, vizHF, and vizMeas;  
-      3. Raw data: dataDiag, dataHF, and dataMeas.  
-      
-   d. All data is sortable and filterable so that the team can transparently see how charting becomes VA data. What filtering options are available?  
-      1. Filter to your **[ ]** to see trends relevant to your team vision of **[ ]** for the last two years.  
-      
+#### All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data. 
+
+1. Last meeting **________________________ [team members' names] mentioned concers with **__________________________ [themes from session 1 team vision].** 
+
 Time Stamp | Team Learning Priorities | Script for Session 2d1
 -- | -- | --
+**What filtering options are available?** |  |  |   
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
-00:15-00:20 |  |  |      
-      2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the team's patients.  
+00:15-00:20 |  |  |   
+
+2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**.
    
-   **Options:**
-  + *vizDiag: See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
-  + *vizEnc: See trends in what services the facility/team is spending their time providing.*
-  + *vizHF: See trends in what specifics the facility/team's patients are getting in their encounters (in vis," this is a very long list. "dataEnc" can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
-  + *vizMeas: See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*   
+viz Options |  |  
+-- | -- | 
+*vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
+*vizEnc* See trends in what services the facility/team is spending their time providing.*
+*vizHF* See trends in what specifics the facility/team's patients are getting in their encounters (in vis," this is a very long list. *dataEnc* | can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
+*vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*   
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25***
 
