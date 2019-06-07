@@ -76,19 +76,20 @@ Count | Count tables that match the viz graphs
 Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
-#### There are four main data sets in the splash page:  
+#### There are four main data sets in the splash page:
+[During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.]
 
-Data | Displays 
--- | --
-Diag | Primary diagnoses on visits in that setting level
-Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
-HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
-Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags
+Rank | Data | Displays 
+-- | -- | --
+___ | Diag | Primary diagnoses on visits in that setting level
+___ | Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
+___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
+___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags
 
 #### To sum up, there are three ways to view each set of data:  
-1. Counts per month: countDiag, countEnc, countHF, and countMeas;  
-2. Visual charts of trends over time:  vizDiag, vizEnc, vizHF, and vizMeas 
-3. Drill down patient-level data: dataDiag, dataHF, and dataMeas. 
+1. **Counts per month:** countDiag, countEnc, countHF, and countMeas;  
+2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas 
+3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas. 
          
   + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data. Use the Refresh Data command to update the report.* Click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
   
@@ -102,38 +103,40 @@ Time Stamp | Team Learning Priorities | Script for Session 2d1
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
 00:15-00:20 |  |  |   
 
-2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**.
+2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**. [During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.]
    
-viz Options |  |  
--- | -- | 
-*vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
-*vizEnc* See trends in what services the facility/team is spending their time providing.*
-*vizHF* See trends in what specifics the facility/team's patients are getting in their encounters (in vis," this is a very long list. *dataEnc* | can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
-*vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*   
+Rank | viz Options |  |  
+-- | -- | -- | 
+___ | *vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
+___ | *vizEnc* See trends in what services the facility/team is spending their time providing.*
+___ | *vizHF* See trends in what specifics the facility/team's patients are getting in their encounters (in vis," this is a very long list. *dataEnc* | can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
+___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use ___ | disorder or depression or PTSD?*   
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25***
 
 ## 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page.  
 
-  a. Open the data_ui folder and open your team data ui in Excel.  
+  a. Open the **team's data_ui folder** tailored with the team's name and **open your team data ui in Excel.**  
   
-  b. Click on Control tab.  
+  b. Click on **Control tab.**  
   
-  c. Click on the cell next to the word "Station" and click on your station number. If you have any issues with permissions, Team PSD can help you.  
+  c. Click on the cell next to the word **"Station"** and click on your station number. If you have any issues with permissions, Team PSD can help you.  
   
-  d. Click "Get Clinic List" and it will pull in clinics for your facility.  
+  d. Click **"Get Clinic List"** to pull in the VISTA clinics that 
   
   e. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right:  
   
-  + Control - you can click on the cell next to the word "Station" and select your station number **[ ]**, then click "Get Clinic List" 
-  + ClinicSelection - this is where you select the the clinics your team would like to include in your dataset 
-      ++ **[ ]** SPTransfers - data about Suicide Prevention transfers  
+  - **Control** - Click on the cell next to the word "Station" and select your station number **[ ]**, then click "Get Clinic List" 
+  - **ClinicSelection** - Select the the clinics your team would like to include in your team dataset.
   
 ## 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.  
 
   a. You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
   
   b. Or, if your team as designated provider clinics, you can select by provider name.  
+  
+  We 
+  **__________________ [Team Lead's name] which column did we find most helpful for creating this team's dataset?**
   
   c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.  
   
