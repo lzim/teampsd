@@ -1,6 +1,6 @@
 ---
-name: Data Bug report
-about: Create a report to help us improve
+name: Create New Issue for Data Splashpage and Data User Interface https://github.com/lzim/teampsd/issues/new
+about: Create a report to help us improve mtl.how/data and the data UI
 title: ''
 labels: bug
 assignees: holbrooa
