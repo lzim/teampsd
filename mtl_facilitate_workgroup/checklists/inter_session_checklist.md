@@ -18,7 +18,10 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 **2** | **Sessions 5-10** | **Participatory Simulation Learning**
 **3** | **Sessions 11-12** | **Wrap-up and Future Learning**
 
-# C. How to "Prioritize" and "Practice" during the intersession 
+# C. How to "Prioritize" and "Practice" during the intersession: 
+
+### Intersession Overview
+
 - **Identify team-tailored priorities** based on the _Modeling to Learn_ theory of change first. 
 - Then, **fill in the session SAY guide,** triaging what you will SAY, by narrowing down to what you've prioritized and practiced to fit within the **timestamps** below.
 
@@ -105,7 +108,7 @@ Feedback | **Loop not line. Not simple cause and effect.** | The end of the sto
 System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause their own behavior through feedback.
 |Time | **Short and long term.** | Better understanding of change over time (e.g., worse before better, better before worse).
 
-## 6. Sessions 5-10 - Simulation Sessions Timestamp Script
+## 6. Sessions 5-10 - Participatory Simulation Learning Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
 - It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
@@ -122,12 +125,12 @@ Time Stamp | Prioritize tailored team learning | Edit SAY guide and practice
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | **Describe** findings/decisions and saving | **4. Practice describing output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
 
-## 7. Sessions 11-12 - Wrap-up Sessions Timestamp Script
+## 7. Sessions 11-12 - Wrap-up and Future Learning Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
 - It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
 
-## 8. Summary of principles for team tailoring SAY guides in ways consistent with the _MTL_ theory of change during the intersession
+## 8. Summary of principles for team tailoring SAY guides in ways consistent with the _MTL_ theory of change during the intersession.
 
 ### Prioritize
 
