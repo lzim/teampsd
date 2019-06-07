@@ -1,10 +1,9 @@
 ---
-name: Create New Issue for Data Splashpage and Data User Interface https://github.com/lzim/teampsd/issues/new
-about: Create a report to help us improve mtl.how/data and the data UI
-title: ''
+Step 1: 1. Copy the text below. 
+Step 2: Click the link to create a new issue for the data splashpage and data user interface https://github.com/lzim/teampsd/issues/new.
+Step 3: Edit the details to create a report that will help us improve mtl.how/data and the data UI.
 labels: bug
 assignees: holbrooa
-
 ---
 
 **Describe the bug**
