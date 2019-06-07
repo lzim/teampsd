@@ -50,9 +50,9 @@ Sessions 5-10 | Simulation Sessions Timestamp Script
 Sessions 11-12 | Wrap-up Sessions Timestamp Script
 
 ## Sessons 1-4 Goals and Emphases - Partner to identify the team's highest priority learning need now. [participatory learning]
-1. Introduce the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
-2. Review hyper local transparent team data resources related to the team's learning vision.
-3. Dialogue about the team's highest priority learning need now using the _MTL Menu_
+1. **Introduce** the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
+2. **Review** hyper local transparent team data resources related to the team's learning vision.
+3. **Dialogue** about the team's highest priority learning need now using the _MTL Menu_
 
 Session | Priority| Participatory Learning 
 -- | -- | --
@@ -80,10 +80,11 @@ Time Stamp | Prioritize tailored team learning | Edit SAY guide and practice
 
 
 ## Sessons 5-8 Goals and Emphases - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. [participatory learning + systems thinking]
-1. Review the _MTL_ Fidelity Checklist and overview below to identify the additional _MTL_ capacities for each session consistent with the _MTL_ theory of change.
-2. Tailor your review of new _MTL_ resources and skills to the team's highest priority need.
-3. Build team capacities to use _MTL_ data and simulation resources without facilitation in the future.
-4. Review the targeted next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session.
+1. **Review** the _MTL_ Fidelity Checklist and overview below.
+2. **Identify** the new _MTL_ capacities for each session consistent with the _MTL_ theory of change.
+3. **Tailor** your review of new _MTL_ resources and skills to the team's highest priority need.
+4. **Build** team capacities to use _MTL_ data and simulation resources without facilitation in the future.
+5. **Target** the next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session.
 
 Session | Capacity | Participatory Learning + Systems Thinking
 -- | -- | -- 
@@ -93,9 +94,9 @@ s7 | **Test a Dynamic Hypothesis** | Test the Dynamic Hypothesis for the Base Ca
 s8 | **Compare Alternatives** | Test Dynamic Hypothesis for an alternative and write up the comparison against the Basecase in Findings and Decisions.
 
 ## Sessons 9-12 Goals and Emphases - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]
-1. Review the _MTL_ Fidelity Checklist and overview below to identify the additional _MTL_ capacities for each session consistent with the _MTL_ theory of change.
-2. Review the targeted next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session.
-3. Further the systems thinking skills of the team with each session, specifically these four C.F.B.T. systems thinking attributes:
+1. **Review** the _MTL_ Fidelity Checklist and overview below.
+2. **Identify** the new _MTL_ capacities for each session consistent with the _MTL_ theory of change.
+3. **Target** the next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session, specifically these four C.F.B.T. systems thinking attributes:
 
 C.F.B.T. | Systems Thinking | Considers
 -- | -- | --
