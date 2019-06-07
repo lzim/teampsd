@@ -108,9 +108,9 @@ ___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL
 
 #### All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data. 
 
-1. Last meeting **________________________ [team members' names] mentioned concers with **__________________________ [themes from session 1 team vision].** 
+1. Last meeting ________________________ [team members' names] mentioned concerns with **__________________________ [themes from session 1 team vision].** 
 
-Time Stamp | Team Learning Priorities | Script for Session 2d1
+Time Stamp | Team Learning Priorities | Script for Session 2
 -- | -- | --
 **What filtering options are available?** |  |  |   
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
