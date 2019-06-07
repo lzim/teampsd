@@ -37,9 +37,11 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:15___
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:10___
 
 ## In-Session Exercise
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
 
 ## Participatory Learning from Simulation
 This graphic illustrates how **_Modeling to Learn_** can helpe us to get more of our Veterans to the right right and the right time to meet their needs using participatory learning from simulation.
@@ -57,7 +59,9 @@ This graphic illustrates how **_Modeling to Learn_** can helpe us to get more of
 
 ## Let's get started! 
 
-Who would like to "drive" today?
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:20___
+
+**Who would like to "drive" today?** [Recommend the Team Lead]
 
 
 ### 1. Using Internet Explorer browser, navigate to mtl.how/data.  
@@ -99,7 +103,9 @@ ___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL
 3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas. 
          
   + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data. Use the Refresh Data command to update the report.* Click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
-  
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:20-00:25___
+
 #### All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data. 
 
 1. Last meeting **________________________ [team members' names] mentioned concers with **__________________________ [themes from session 1 team vision].** 
@@ -108,7 +114,7 @@ Time Stamp | Team Learning Priorities | Script for Session 2d1
 -- | -- | --
 **What filtering options are available?** |  |  |   
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
-00:15-00:20 |  |  |   
+Keep an eye on time |  |  |   
 
 2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**. [During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.]
    
@@ -119,7 +125,6 @@ ___ | *vizEnc* See trends in what services the facility/team is spending their t
 ___ | *vizHF* See trends in what specifics the facility/team's patients are getting in their encounters (in vis," this is a very long list. *dataEnc* | can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
 ___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use ___ | disorder or depression or PTSD?*   
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25***
 
 ## 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page.  
 
@@ -165,7 +170,8 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 ## 6. Click to view the "viz" tabs, which show team trends.  
 
   a. Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ ]**.  Let's go to the **[ ]** viz tab to see data relevant to that issue.  
-  
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
   b. **What stands out to you about ________________________________**[fill-in team vision]**?  
   
   c. **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
@@ -174,7 +180,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   d. **What is most surprising?**  
     [Prepare in advance, but ask this as an open-ended quesiton]?  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40***
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
 ## 7. Click to view the "data" tabs, which show your team's individual patient information.  
 
@@ -184,16 +190,29 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   
   c. Providers can filter to find specific patients, or produce reports.  
   
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
+
+[During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.]
+
+Time Stamp | Team Learning Priorities | Script 
+-- | -- | --
+**[Prioritize which questions you will use given this team's guiding vision.** |  |  |   
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
+Keep an eye on time |  |  |   
+
   d. What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
   
   e. What **viz** tab would you use to see what the most common service encounters or visits are?  
   
-  f. Are there services that have been increasing over time? Are there services that  have been descreasing over time?  
+  f. Are there services that have been **increasing over time?** 
   
-  g. With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
+  g. Are there services that have been **descreasing over time?**  
+  
+- With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
+
+
 
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:45***
 
 
 ## Done and Do (15 minutes)
