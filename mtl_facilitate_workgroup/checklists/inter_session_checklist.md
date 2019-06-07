@@ -43,11 +43,11 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 
 # There are 3 intersession timestamp scripts across the 12-session plan.
 
-Sessions | Script
--- | -- 
-Sessions 1-4 | Participatory Learning Timestamp Script
-Sessions 5-10 | Simulation Sessions Timestamp Script
-Sessions 11-12 | Wrap-up Sessions Timestamp Script
+**#** | **Sessions** | **30-35 Minute Exercise Timestamp Script**
+-- | -- |
+**1** | **Sessions 1-4** | **Participatory Learning** 
+**2** | **Sessions 5-10** | **Participatory Simulation Learning**
+**3** | **Sessions 11-12** | **Wrap-up and Future Learning**
 
 ## Sessons 1-4 Goals and Emphases - Partner to identify the team's highest priority learning need now. [participatory learning]
 1. **Introduce** the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
