@@ -9,6 +9,15 @@
 2. The intersession **_meeting_** uses the intersession checklist to prioritize and practice tailoring the SAY files to your team within the timestamps according to the _MTL_ theory of change.
 3. Intersession **_preparation_** should help you to prioritize and practice key emphases of **participatory learning** and **systems thinking** related to the team's priority need from session 1 through session 12 of the 12-session plan.
 
+### Before you begin
+#### There are four steps to prioritize and practice when tailoring your SAY guide to your team:
+
+1. **Download or print** to fill in blanks and brackets to relate to your team's highest priority need.
+2. **Review post-session checklist** notes **especially #6** from the prior session and review the **_MTL_ Fidelity Checklist** 
+3. **Apply the 4 "prioritize prompts** from thhe interssion guide to the SAY file 
+4. **Clarify Co-Facilitator Roles** - Choose a "**_Live Lead_**" (drives on-screen until handing off to the team lead) and a "**_Fidelity Facilitator_**" (ensures that key goals and priorities are emphasized on-time to maintain fidelity)."
+5. **Practice your priorities** from the interssion guide using the intersession and SAY file timestamps.
+
 ### Facilitation Goals and Emphasis Across the 12-Session plan
 
 _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
@@ -60,14 +69,14 @@ System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause 
 
 ### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
 
-Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
--- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | cue up the "throughline" between the team's learning vision, team data and team need (question 6 from the Post-Session debrief
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | review the themes from the team vision that can be highlighted in the team data - **1. Prioritize and practice highlighting specific themes the team brought up when visioning that are guiding the in-session work to address the team's highest priority need.**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | plan reflections for the team's response to the prompt questions in the SAY file that relate to the team's vision - **2. Prioritize and practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | prepare to explain and answer questions regarding data related to the team's need - **3a. Prioritize and practice responding to frequently asked questions (FAQs) related team data related to the team's highest priority need.**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | practice explaining where teams' can access additional information or request updates related to the data **3b. Prioritize and practice responding to frequently asked questions (FAQs) related team data related to the team's highest priority need.**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | practice reflective listening to double-check your thinking about the team's relative consensus about their priorities _before_ going to the MTL menu in session 4 - **4. Prioritize and practice your active listening skills, particularly reflections that synthesize a) multiple team member's points of view, and b) multiple problems that are likely related, and c) the "throughline" across learning sessions.**
+Time Stamp | Prioritize tailored Team Learning | Practice
+-- | -- | --
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up the "throughline" between the team's learning vision, team data and team need question 6 from the Post-Session debrief
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | **Review** the themes from the team vision that can be highlighted in the team data | **1. In the SAY guide, fill in the specific themes the team brought up when visioning during session 1.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | **Plan** reflections for the team's response to the prompt questions in the SAY file that relate to the team's vision | **2. In the SAY guide, prioritize and fill in the specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | **In the SAY guide, prioritize and fill in answers to FAQs regarding data related to the team's need. | **3a. Prioritize and practice responding to frequently asked questions (FAQs) related team data related to the team's highest priority need.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | **Practice explaining** where teams' can access additional information or request updates related to the data | **3b. Practice explaining the transparent data resources to the team.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | **Practice reflective** listening to double-check your thinking about the team's relative consensus about their priorities _before_ going to the MTL menu in session 4 | **4. Prepare and practice reflections that synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions.** 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
 
 ## Sessions 5-10 - Simulation Sessions Timestamp Script
@@ -77,14 +86,14 @@ Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
 
 ### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
 
-Time Stamp | Tailored Team Learning Activity w/4 Top Priorities to Practice
--- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | cue up last time q/h/f/d (and system behavior observed for sessions s7-s10)
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | review the team data the led to that q/h/f/d - **1. Prioritize and practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | review the relevant causal system story - **2. Prioritize and practice describing the complexity reveal (causal loop) most releveant to the team's highest priority need.**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | adjust sliders and set up team's dynamic hypothesis - **3. Prioritize and practice describing specific value adjustments you expect will be helpful for the team to experiement with related to their highest priority need.**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | run experiment
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | describe findings/decisions and saving - **4. Prioritize and practice describing output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
+Time Stamp | Prioritize tailored Team Learning | Practice
+-- | -- | --
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up last time q/h/f/d (and system behavior observed for sessions s7-s10)
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | **Review** the team data the led to that q/h/f/d | **1. Practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most releveant to the team's highest priority need.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | **Adjust** sliders and set up team's dynamic hypothesis | **3. Practice describing specific value adjustments you expect will be helpful for the team to experiement with related to their highest priority need.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | **Run** experiment
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | **Describe** findings/decisions and saving | **4. Practice describing output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | A good Done/Do Review is short, specific, simple and shown.
 
 ## Sessions 11-12 - Wrap-up Sessions Timestamp Script
