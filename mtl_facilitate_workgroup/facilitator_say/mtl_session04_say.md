@@ -45,21 +45,31 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 
 ## In-session Exercise (30 minutes): Menu results and team needs discussion
 
-1. Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*. You will receive a summary of this in your follow-up email. 
+### 1. Complete the *MTL Menu* on your own.
+  a. Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*. 
+  b. You will receive a summary of this in your follow-up email. 
 
-2. First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*  
+### 2. Review the team's results with your team
+  a. First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*  
 
-a. Where are there areas of high consensus? What issues does the team agree about?
+### 3. Look for areas of consensus among the team.  
+
+  a. Where are there areas of high consensus? What issues does the team agree about?  
   
-b. What the topics where team members' perspectives are more divergent?  
+### 4. Discuss items in which team members varied a lot in their rankings.  
 
-3. Let's think about what looks like the highest priority need for the team right now and which _Modeling to Learn_ module best addresses that need. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:
+  a. What the topics where team members' perspectives are more divergent?  
 
-  •	Care Coordination (CC)  
-  •	Medication Management (MM)  
-  •	Psychotherapy (PSY)  
-  •	Aggregrate team services (AGG)  
-  •	Measurement-based stepped care for suicide prevention (SP)
+### 5. Focus on the high priority needs to select a module.  
+
+  a. Let's think about what looks like the highest priority need for the team right now and which _Modeling to Learn_ module best addresses that need. *[Recap the highest priority need, recommended module, and why.]*  
+  b. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:  
+
+  + Care Coordination (CC)  
+  + Medication Management (MM)  
+  + Psychotherapy (PSY)  
+  + Aggregrate team services (AGG)  
+  + Measurement-based stepped care for suicide prevention (SP)  
   
  + CC shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
 
@@ -71,7 +81,7 @@ b. What the topics where team members' perspectives are more divergent?
 
  + SP shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
 
-4. *[Recap the highest priority need, recommended module, and why.]*
+
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ### That's it for _Modeling to learn_ how to prioritize team needs. Next is our Done/Do review.
