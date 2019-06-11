@@ -40,7 +40,7 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 
 ## 1. What you need 
 
-| Before you begin, you neeed to |
+| Before you begin, you need to |
 | -- |
 | 1. **Download or print** to fill in blanks for your team's highest priority need. |
 | 2. **Review post-session checklist** notes **especially #6** from the prior session. |
@@ -48,11 +48,11 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 
 | To complete the intersession checklist, you need to |
 | -- |
-| 1. **Apply the 4 "prioritize prompts** from the interssion guide to the SAY file. | 
+| 1. **Apply the 4 "prioritize prompts** from the intersession guide to the SAY file. | 
 | 2. **Clarify Co-Facilitator Roles** - Choose a "**_Live Lead_**" - The _live lead_ drives on-screen until handing off to the team lead. Choose a "**_Fidelity Facilitator_**" - The _fidelity facilitator_ ensures that key goals and priorities are emphasized on-time to maintain fidelity." |
-| 3. **Practice your priorities** from the interssion guide using the intersession and SAY file timestamps. |
+| 3. **Practice your priorities** from the intersession guide using the intersession and SAY file timestamps. |
 
-## 2. Sessons 1-4 Goals and Emphases - Partner to identify the team's highest priority learning need now. [participatory learning]
+## 2. Sessions 1-4 Goals and Emphases - Partner to identify the team's highest priority learning need now. [participatory learning]
 1. **Introduce** the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
 2. **Review** hyper local transparent team data resources related to the team's learning vision.
 3. **Dialogue** about the team's highest priority learning need now using the _MTL Menu_
@@ -82,7 +82,7 @@ Time Stamp | Prioritize tailored team learning | Edit SAY guide and practice
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
 
 
-## 4. Sessons 5-8 Goals and Emphases - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. [participatory learning + systems thinking]
+## 4. Sessions 5-8 Goals and Emphases - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. [participatory learning + systems thinking]
 1. **Review** the _MTL_ Fidelity Checklist and overview below.
 2. **Identify** the new _MTL_ capacities for each session consistent with the _MTL_ theory of change.
 3. **Tailor** your review of new _MTL_ resources and skills to the team's highest priority need.
@@ -96,7 +96,7 @@ s6 | **Tell a Systems Story** | Enter a Dynamic Hypothesis based on Systems stor
 s7 | **Test a Dynamic Hypothesis** | Test the Dynamic Hypothesis for the Base Case and Write up the Findings and Decisions
 s8 | **Compare Alternatives** | Test Dynamic Hypothesis for an alternative and write up the comparison against the Basecase in Findings and Decisions.
 
-## 5. Sessons 9-12 Goals and Emphases - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]
+## 5. Sessions 9-12 Goals and Emphases - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]
 1. **Review** the _MTL_ Fidelity Checklist and overview below.
 2. **Identify** the new _MTL_ capacities for each session consistent with the _MTL_ theory of change.
 3. **Target** the next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session, specifically these four C.F.B.T. systems thinking attributes:
@@ -128,7 +128,7 @@ Time Stamp | Prioritize tailored team learning | Edit SAY guide and practice
 ## 7. Sessions 11-12 - Wrap-up and Future Learning Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
-- It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
+- It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activities the team can do on their own between facilitated _MTL_ team meetings.
 
 ## 8. Summary of principles for team tailoring SAY guides in ways consistent with the _MTL_ theory of change during the intersession.
 
