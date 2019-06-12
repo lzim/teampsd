@@ -52,5 +52,7 @@
   + Issues and Dependencies for Immediate Resolution
   + Workgroup Action Items to Complete this Week
   
+**8. team_members**
+- Team PSD members' individual names.
   
  
