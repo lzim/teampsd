@@ -1,48 +1,41 @@
-## TRAINING Truncated Debriefing Checklist
+## TRAINING Debriefing Checklist (short-form)
 
-A. Rate Fidelity & Post-Session checklist items 1 & 3:
+## A. Rate Fidelity & Post-Session checklist items 1 & 3:
 
-1. Time management & trouble-shooting
+### 1. Time management & trouble-shooting
 
 We achieved _________ (0-100%) of our time stamp marks as planned when we prioritized and practiced during our intersession prep.
 
-3. How did the co-facilitation model go?
+### 3. How did the co-facilitation model go? 
 
-Responses 5 Strongly Agree 4 Agree 3 Neither Agree nor Disagree 2 Disagree 1 Strongly Disagree
+**Use the following Likert Scale for the Responses below**
+- [ ] 5 Strongly Agree 
+- [ ] 4 Agree 
+- [ ] 3 Neither Agree nor Disagree 
+- [ ] 2 Disagree 
+- [ ] 1 Strongly Disagree
 
-**Sessions 1-4**
+**Sessions 1-4 - Rate the following 5 items.** 
+- [ ] 1. We were clear about the purposes or goals of this improvement effort.
+- [ ] 2. We recognized the need to partner to create change and improvement.
+- [ ] 3. We made VHA data resources in this effort transparent. 
+- [ ] 4. We facilitated greater understanding and local team control over use of VHA data.
+- [ ] 5. Our (this) team has a clear and shared understanding of the problems we are trying to address.
 
-- [ ] We were clear about the purposes or goals of this improvement effort.
+**Sessions 5-9 - Rate the following 4 items.** 
+- [ ] 1. This project emphasizes what is important to our (this) team.
+- [ ] 2. We sought to support our existing capacities to best use local team resources and make local decisions.
+- [ ] 3. Even though we did not have total agreement, we did reach a kind of consensus that our (this) team all accepts.
+- [ ] 4. We are supporting shared team decision-making in this project.
 
-- [ ] We recognized the need to partner to create change and improvement.
-
-- [ ] We made VHA data resources in this effort transparent. 
-
-- [ ] We facilitated greater understanding and local team control over use of VHA data.
-
-- [ ] Our (this) team has a clear and shared understanding of the problems we are trying to address.
-
-**Sessions 5-9**
-
-
-- [ ] This project emphasizes what is important to our (this) team.
-
-- [ ] We sought to support our existing capacities to best use our local resources and make local decisions.
-
-- [ ] Even though we did not have total agreement, we did reach a kind of consensus that we all accept.
-
-- [ ] I feel comfortable with the way decisions are made in the project.
-
-**Sessions 10-12**
-
-- [ ] We recognized our local challenges and came up with good solutions.
-
-- [ ] We developed strategies that are likely to work for our team.
+**Sessions 10-12- Rate the following 2 items.** 
+- [ ] 1. We recognized local challenges for our (this) and came up with good solutions.
+- [ ] 2. We developed strategies that are likely to work for our (this) team.
 
 
-B. Document Intersession & Post-Session checklist items 6, 7 & 9:
+## B. Document Intersession & Post-Session checklist items 6, 7 & 9 (short-form)
 
-6. What is the team's guiding question and hypotheses? (what are they testing?)
+### 6. What is the team's guiding question and hypotheses? (what are they testing?)
 
 **Intersession Checklist 1 - 4 Priorities (s1-4)**
 
@@ -53,12 +46,9 @@ B. Document Intersession & Post-Session checklist items 6, 7 & 9:
 3a. Prioritized frequently asked questions (FAQs) related  to the team's highest priority need:
 _______________________________________
 
-3b. Reasons to empower the team with local transparent data resources:
-_______________________________________
+3b. Reasons to empower the team with local transparent data resources: _______________________________________
 
-4. Synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions.
-
-_______________________________________
+4. Synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions. _______________________________________
 
 
 **Intersession Checklist 2 - 4 Priorities (s5-10)** 
@@ -98,7 +88,7 @@ _______________________________________
 - [ ] ___ post-session _______________________________________
 
 
-[ ] **SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
+- [ ] **SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
 
 ## Sessions 1-4
 
@@ -138,10 +128,9 @@ Which module are you working with? - select, rank order (in order of priority), 
 
 ## Sessions 5-8
 
-- [ ] **SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
+**SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
 
-- [ ] ___ session 5 
-_______________________________________
+- [ ] ___ session 5 _______________________________________
 
 - [ ] ___ session 6 _______________________________________
 
@@ -165,7 +154,7 @@ Which module are you working with? - select, rank order (in order of priority), 
 - [ ] ___ SP _______________________________________
 
 
-[ ] **SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
+**SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
 
 - [ ] ___ session 9 _______________________________________
 
@@ -213,32 +202,35 @@ s5
 s6
 - [ ] Logged in and reviewed the systems story in the main sim tile. _______________________________________
 - [ ] Entered question text. _______________________________________
-- [ ]  Logged into our individual world and entered question and hypothesis text. _______________________________________
+- [ ] Logged into our individual world and entered question and hypothesis text. _______________________________________
 
 s7
-- [ ] Entered question, hypothesis, finding and decisions for base case. _______________________________________
-- [ ] Logged into mtl.how/sim and explored the expanded outputs dashboard for the basecase. _______________________________________
+- [ ] Entered question, hypothesis, finding and decisions for base case. _______________________________________
+- [ ] Logged into mtl.how/sim and explored the expanded outputs dashboard for the basecase. _______________________________________
 - [ ] Used the worksheet to prepare for experiment 1. _______________________________________
 
 s8
-- [ ] Team Lead ran Experiment 1. _______________________________________
+- [ ] Team Lead ran Experiment 1. _______________________________________
 - [ ] Team reviewed Expanded Outputs tile to compare the basecase and experiment 1. _______________________________________
-- [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
+- [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
 
 s9
-- [ ] Team Lead Ran Experiment 2. _______________________________________
+- [ ] Team Lead Ran Experiment 2. _______________________________________
 - [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs tile. _______________________________________
-- [ ] "D" Decision text was to run a 3rd experiment on your own in your individual world. _______________________________________
+- [ ] "D" Decision text was to run a 3rd experiment on your own in your individual world. _______________________________________
 
 s10
-- [ ] A team member ran experiment 3 during the team meeting. _______________________________________
+- [ ] A team member ran experiment 3 during the team meeting. _______________________________________
+- [ ] We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking. _______________________________________
+- [ ] Reviewed and compared the base case, exp 1, exp 2 and exp 3 to think about possible decisions/changes the team could make in their clinical care. _______________________________________
 
-- [ ] We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking. _______________________________________
+## C. Track Issues:
+## 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
 
-- [ ] Reviewed and compared the base case, exp 1, exp 2 and exp 3 to think about possible decisions/changes the team could make in their clinical care. _______________________________________
+- [ ] data: https://github.com/lzim/teampsd/blob/master/issue_templates/data-bug-report.md
 
-C. Track Issues:
-8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
+- [ ] sim: https://github.com/lzim/teampsd/blob/master/issue_templates/sim-bug-report.md
 
+- [ ] guide : https://github.com/lzim/teampsd/blob/master/issue_templates/guide-bug-report.md
 
 LZ to Add Group Supervision Preparation Instructions:
