@@ -55,9 +55,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 2. Specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
 
-3a. Prioritized frequently asked questions (FAQs) related  to the team's highest priority need: _______________________________________
-
-3b. Reasons to empower the team with local transparent data resources: _______________________________________
+3. Prioritized data-related frequently asked questions (FAQs) related  to the team's highest priority need: _______________________________________
 
 4. Synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions. _______________________________________
 
@@ -73,9 +71,9 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 4. Output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need: _______________________________________
 
 
-### 7. Facilitator needs/questions (need for training or problems with)
+### 7. Facilitator needs/questions - Select and briefly describethe training need or question. Rank to prioritize your facilitator need/question for group supervision.
 
-#### Cheatsheet needs/questions - select, rank order (in order of priority), and briefly describe issue or question:
+#### Cheatsheet needs/questions 
 
 - [ ] ___ meta _______________________________________
 
@@ -90,7 +88,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] ___ github _______________________________________
 
 
-#### Checklists needs/questions - select, rank order (in order of priority), and briefly describe issue or question:
+#### Checklists needs/questions 
 
 - [ ] ___ pre-session _______________________________________
 
@@ -103,7 +101,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 #### Sessions 1-4 -_**PARTNER** to identify and validate the team's highest priority learning need now. Participatory Learning Emphasized:_
 
-##### SEE guide - select, rank order (in order of priority), and briefly describe issue or question:
+##### SEE guide 
 
 - [ ] ___ session 1 _______________________________________
 
@@ -113,18 +111,16 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 - [ ] ___ session 4 _______________________________________
 
-##### MTL Resources - select, rank order (in order of priority), and briefly describe issue or question:
-
-- [ ] **mtl.how/data - select, rank order (in order of priority), and briefly describe issue or question:
+##### mtl.how/data  
 
 - [ ] ___ splash page _______________________________________
 
 - [ ] ___ data UI _______________________________________
 
 
-#### Sessions 5-9 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d. - Participatory Learning + Systems Thinking Emphasized:_
+#### Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d. - Participatory Learning + Systems Thinking Emphasized:_
 
-##### Which module are you working with? - select, rank order (in order of priority), and briefly describe issue or question for that module**
+##### MODULE Which module are you working with? 
 
 - [ ] ___ MM _______________________________________
 
@@ -135,9 +131,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] ___ SP _______________________________________
 
 
-#### Sessions 5-8
-
-#### SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
+##### SEE guide 
 
 - [ ] ___ session 5 _______________________________________
 
@@ -150,7 +144,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 #### Sessions 9 & 10 - _**APPLY** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. Systems Thinking emphasized.
 
-##### Which module are you working with? - select, rank order (in order of priority), and briefly describe issue or question for that module**
+##### MODULE Which module are you working with? 
 
 - [ ] ___ MM _______________________________________
 
@@ -161,7 +155,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] ___ SP _______________________________________
 
 
-##### SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
+##### SEE guide
 
 - [ ] ___ session 9 _______________________________________
 
