@@ -1,6 +1,18 @@
-## TRAINING Debriefing Checklist (short-form)
+## MTL F2F Fidelity TRAINING  (short-form)
 
-## A. Rate Fidelity & Post-Session checklist items 1 & 3:
+Date: _______________________________________
+
+Team: _______________________________________
+
+Session: _______________________________________
+
+Module: _______________________________________
+
+Rater: _______________________________________
+
+Role: _______________________________________ (facilitator or fidelity rater)
+
+## A. Post-Session Debriefing checklist items 1 & 3:
 
 ### 1. Time management & trouble-shooting
 
@@ -33,25 +45,24 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 2. We developed strategies that are likely to work for our (this) team.
 
 
-## B. Document Intersession & Post-Session checklist items 6, 7 & 9 (short-form)
+## B. Intersession checklist prioritizing Post-session Checklist items 6, 7 & 9 (short-form)
 
 ### 6. What is the team's guiding question and hypotheses? (what are they testing?)
 
-**Intersession Checklist 1 - 4 Priorities (s1-4)**
+#### PARTNER (s1-4) Intersession Checklist Priorities
 
 1. Specific themes the team brought up when visioning during session 1. _______________________________________
 
 2. Specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
 
-3a. Prioritized frequently asked questions (FAQs) related  to the team's highest priority need:
-_______________________________________
+3a. Prioritized frequently asked questions (FAQs) related  to the team's highest priority need: _______________________________________
 
 3b. Reasons to empower the team with local transparent data resources: _______________________________________
 
 4. Synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions. _______________________________________
 
 
-**Intersession Checklist 2 - 4 Priorities (s5-10)** 
+#### BUILD & APPLY (s5-10) Intersession Checklist Priorities
 
 1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
@@ -62,9 +73,9 @@ _______________________________________
 4. Output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need: _______________________________________
 
 
-7. Facilitator needs/questions (need for training or problems with:
+### 7. Facilitator needs/questions (need for training or problems with)
 
-- [ ] **Cheatsheet - select, rank order (in order of priority), and briefly describe issue or question:**
+#### Cheatsheet needs/questions - select, rank order (in order of priority), and briefly describe issue or question:
 
 - [ ] ___ meta _______________________________________
 
@@ -79,7 +90,7 @@ _______________________________________
 - [ ] ___ github _______________________________________
 
 
-- [ ] **Checklists - select, rank order (in order of priority), and briefly describe issue or question:**
+#### Checklists needs/questions - select, rank order (in order of priority), and briefly describe issue or question:
 
 - [ ] ___ pre-session _______________________________________
 
@@ -87,12 +98,12 @@ _______________________________________
 
 - [ ] ___ post-session _______________________________________
 
+- [ ] ___ fidelity _______________________________________
 
-- [ ] **SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
 
-## Sessions 1-4
+#### Sessions 1-4 -_**PARTNER** to identify and validate the team's highest priority learning need now. Participatory Learning Emphasized:_
 
-_Partner - Partner to identify and validate the team's highest priority learning need now. Participatory Learning Emphasized:_
+##### SEE guide - select, rank order (in order of priority), and briefly describe issue or question:
 
 - [ ] ___ session 1 _______________________________________
 
@@ -102,20 +113,18 @@ _Partner - Partner to identify and validate the team's highest priority learning
 
 - [ ] ___ session 4 _______________________________________
 
-**MTL Resources - select, rank order (in order of priority), and briefly describe issue or question:**
+##### MTL Resources - select, rank order (in order of priority), and briefly describe issue or question:
 
-- [ ] **mtl.how/data - select, rank order (in order of priority), and briefly describe issue or question:**
+- [ ] **mtl.how/data - select, rank order (in order of priority), and briefly describe issue or question:
 
 - [ ] ___ splash page _______________________________________
 
 - [ ] ___ data UI _______________________________________
 
 
-## Sessions 5-9
+#### Sessions 5-9 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d. - Participatory Learning + Systems Thinking Emphasized:_
 
-_Build - Build capacity for participatory learning from simulation using team q/h/f/d. - Participatory Learning + Systems Thinking Emphasized:_
-
-Which module are you working with? - select, rank order (in order of priority), and briefly describe issue or question for that module**
+##### Which module are you working with? - select, rank order (in order of priority), and briefly describe issue or question for that module**
 
 - [ ] ___ MM _______________________________________
 
@@ -126,9 +135,9 @@ Which module are you working with? - select, rank order (in order of priority), 
 - [ ] ___ SP _______________________________________
 
 
-## Sessions 5-8
+#### Sessions 5-8
 
-**SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
+#### SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
 
 - [ ] ___ session 5 _______________________________________
 
@@ -139,11 +148,9 @@ Which module are you working with? - select, rank order (in order of priority), 
 - [ ] ___ session 8 _______________________________________
 
 
-## Sessions 9 & 10
+#### Sessions 9 & 10 - _**APPLY** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. Systems Thinking emphasized.
 
-Apply C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. Systems Thinking emphasized.
-
-Which module are you working with? - select, rank order (in order of priority), and briefly describe issue or question for that module**
+##### Which module are you working with? - select, rank order (in order of priority), and briefly describe issue or question for that module**
 
 - [ ] ___ MM _______________________________________
 
@@ -154,18 +161,18 @@ Which module are you working with? - select, rank order (in order of priority), 
 - [ ] ___ SP _______________________________________
 
 
-**SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
+##### SEE guide - select, rank order (in order of priority), and briefly describe issue or question:**
 
 - [ ] ___ session 9 _______________________________________
 
 - [ ] ___ session 10 _______________________________________
 
 
-## 9. Team Decisions session by session:
+### 9. Team Decisions session by session:
 
 **Check-off the decisions made and list 
 
-s1
+#### s1
 - [ ] Team Vision _______________________________________
 
 - [ ] Team Lead _______________________________________
@@ -174,63 +181,58 @@ s1
 
 - [ ] Logged in to mtl.how/data to look at the splash page _______________________________________
 
-s2
+ #### s2
 - [ ] Selected the clinics that make up our team for the Team Data _______________________________________
 
 - [ ] Reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
 
 - [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data. _______________________________________ 
 
-
-**Make sure has the (zoom in/out) concept in s2 & s3.
-
-s3
+#### s3
 - [ ] Produced Team Data for the sim UI _______________________________________
  
 - [ ] Found **something** in the team data table _______________________________________
 
-s4
+#### s4
 - [ ] Completed the mtl.how/menu to prioritize our needs 
 - [ ] Selected an MTL simulation module
 - [ ] Checked to make sure we could log in to the sim UI at mtl.how/sim
 
-s5
+#### s5
 - [ ] Logged in and uploaded our team data to the sim UI
 - [ ] Reviewed our team data in the Experiments Tile.
 - [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. 
 
-s6
+#### s6
 - [ ] Logged in and reviewed the systems story in the main sim tile. _______________________________________
 - [ ] Entered question text. _______________________________________
 - [ ] Logged into our individual world and entered question and hypothesis text. _______________________________________
 
-s7
+#### s7
 - [ ] Entered question, hypothesis, finding and decisions for base case. _______________________________________
 - [ ] Logged into mtl.how/sim and explored the expanded outputs dashboard for the basecase. _______________________________________
 - [ ] Used the worksheet to prepare for experiment 1. _______________________________________
 
-s8
+#### s8
 - [ ] Team Lead ran Experiment 1. _______________________________________
 - [ ] Team reviewed Expanded Outputs tile to compare the basecase and experiment 1. _______________________________________
 - [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
 
-s9
+#### s9
 - [ ] Team Lead Ran Experiment 2. _______________________________________
 - [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs tile. _______________________________________
 - [ ] "D" Decision text was to run a 3rd experiment on your own in your individual world. _______________________________________
 
-s10
+#### s10
 - [ ] A team member ran experiment 3 during the team meeting. _______________________________________
 - [ ] We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking. _______________________________________
 - [ ] Reviewed and compared the base case, exp 1, exp 2 and exp 3 to think about possible decisions/changes the team could make in their clinical care. _______________________________________
 
 ## C. Track Issues:
-## 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
+### 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
 
 - [ ] data: https://github.com/lzim/teampsd/blob/master/issue_templates/data-bug-report.md
 
 - [ ] sim: https://github.com/lzim/teampsd/blob/master/issue_templates/sim-bug-report.md
 
 - [ ] guide : https://github.com/lzim/teampsd/blob/master/issue_templates/guide-bug-report.md
-
-LZ to Add Group Supervision Preparation Instructions:
