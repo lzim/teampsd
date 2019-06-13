@@ -227,6 +227,11 @@ Keep an eye on time |  |  |
 
 2. Go to mtl.how/data and open the team data in Excel.  
 
+While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the SharePoint-based splashpage:
+  + You can create a set of clinics (grids) that exactly represent your individual team
+  + All the patient-level data are identified (you can see their names)
+  + You can create the parameters used by the simulation tool (really what all these data are for!)
+
 3. Review your individual patient data and identify team trends:
  + Health Factors (HF)  
  + Diagnostic (Diag)  
