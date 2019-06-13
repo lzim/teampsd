@@ -71,7 +71,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 4. Output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need: _______________________________________
 
 
-### 7. Facilitator needs/questions - Select and briefly describethe training need or question. Rank to prioritize your facilitator need/question for group supervision.
+### 7. Facilitator needs/questions - Select and briefly describe the training need or question. Rank to prioritize your facilitator need/question for group supervision.
 
 #### Cheatsheet needs/questions 
 
@@ -99,7 +99,8 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] ___ fidelity _______________________________________
 
 
-#### Sessions 1-4 -_**PARTNER** to identify and validate the team's highest priority learning need now. Participatory Learning Emphasized:_
+#### Sessions 1-4 -_**PARTNER** to identify and validate the team's highest priority learning need now. 
+_Participatory Learning Emphasized:_
 
 ##### SEE guide 
 
@@ -118,7 +119,8 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] ___ data UI _______________________________________
 
 
-#### Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d. - Participatory Learning + Systems Thinking Emphasized:_
+#### Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d.  
+_Participatory Learning + Systems Thinking Emphasized:_
 
 ##### MODULE Which module are you working with? 
 
@@ -142,7 +144,8 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] ___ session 8 _______________________________________
 
 
-#### Sessions 9 & 10 - _**APPLY** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. Systems Thinking emphasized.
+#### Sessions 9 & 10 - _**APPLY** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. 
+_Systems Thinking emphasized._
 
 ##### MODULE Which module are you working with? 
 
@@ -162,40 +165,32 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] ___ session 10 _______________________________________
 
 
-### 9. Team Decisions session by session:
-
-**Check-off the decisions made and list 
+### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
 
 #### s1
 - [ ] Team Vision _______________________________________
-
 - [ ] Team Lead _______________________________________
-
 - [ ] Standing team meeting time _______________________________________
-
 - [ ] Logged in to mtl.how/data to look at the splash page _______________________________________
 
  #### s2
 - [ ] Selected the clinics that make up our team for the Team Data _______________________________________
-
 - [ ] Reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
-
 - [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data. _______________________________________ 
 
 #### s3
-- [ ] Produced Team Data for the sim UI _______________________________________
- 
-- [ ] Found **something** in the team data table _______________________________________
+- [ ] Produced Team Data for the sim UI. _______________________________________
+- [ ] Prioritized data for review in the team data table. _______________________________________
 
 #### s4
-- [ ] Completed the mtl.how/menu to prioritize our needs 
-- [ ] Selected an MTL simulation module
-- [ ] Checked to make sure we could log in to the sim UI at mtl.how/sim
+- [ ] Completed the mtl.how/menu to prioritize our needs. _______________________________________
+- [ ] Selected an MTL simulation module. _______________________________________
+- [ ] Checked to make sure we could log in to the sim UI at mtl.how/sim. _______________________________________
 
 #### s5
-- [ ] Logged in and uploaded our team data to the sim UI
-- [ ] Reviewed our team data in the Experiments Tile.
-- [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. 
+- [ ] Logged in and uploaded our team data to the sim UI _______________________________________
+- [ ] Reviewed our team data in the Experiments Tile. _______________________________________
+- [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. _______________________________________
 
 #### s6
 - [ ] Logged in and reviewed the systems story in the main sim tile. _______________________________________
@@ -222,7 +217,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking. _______________________________________
 - [ ] Reviewed and compared the base case, exp 1, exp 2 and exp 3 to think about possible decisions/changes the team could make in their clinical care. _______________________________________
 
-## C. Track Issues:
+## C. Post-Session Debriefing checklist item 8 - Track Issues
 ### 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
 
 - [ ] data: https://github.com/lzim/teampsd/blob/master/issue_templates/data-bug-report.md
