@@ -45,26 +45,43 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 
 ## In-session Exercise (30 minutes): Menu results and team needs discussion
 
+
+Time Stamp | Prioritize tailored team learning | Edit SAY guide and practice
+-- | -- | --
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up the "throughline" between the team's learning vision, team data and team need question 6 from the Post-Session debrief.
+
 ### 1. Complete the *MTL Menu* on your own.
   a. Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*. 
   b. You will receive a summary of this in your follow-up email. 
 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | **Review** to identify the themes from the team vision that should be highlighted in the team data. | **Decide which charts you need to review to choose between your top two module choices and bring the team to concensus on the module.**
+
 ### 2. Review the team's results with your team
-  a. First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*  
+  a. First we'll scan through the results and see what stands out. We talked about ___________ last session, so let's look at ___________ chart first. The left side of each chart is the high priority, and the right side is low priority.  *[Lead discussion; take notes.]*  
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | **Plan** reflections for team responses to the prompt questions that relate to the team's vision. | **2. In the SAY guide, fill in the specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need.**
 
 ### 3. Look for areas of consensus among the team.  
 
-  a. Where are there areas of high consensus? What issues does the team agree about?  
+  a. Where are there areas of high consensus? What issues does the team agree about?  When I hear ___________ , it makes me think of __________ module. 
   
 ### 4. Discuss items in which team members varied a lot in their rankings.  
 
   a. What the topics where team members' perspectives are more divergent?  
 
+
+
 ### 5. Focus on the high priority needs to select a module.  
 
-  a. Let's think about what looks like the highest priority need for the team right now and which _Modeling to Learn_ module best addresses that need. *[Recap the highest priority need, recommended module, and why.]*  
+a. Let's think about what looks like the highest priority need for the team right now and which _Modeling to Learn_ module best addresses that need. *[Recap the highest priority need, recommended module, and why.]*  
   b. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:  
+  Three modules focus on how a team provides a specific service -- care coordination, medication management, or psychotherapy; one module addresses issues balancing patients' needs and provider time across services; and one explores issues related to patients' symptoms and risk, along with referrals to and from the team to other settings.
+  We will use this module to explore "what-if" scenarios, to use the data we've been exploring to help us learn what improvement ideas will work better than others for our team.
 
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | **Reflect** with your co-facilitator double-check your thinking about the team's relative consensus about their priorities _before_ going to the MTL menu in session 4. | **4. Describe the relevant features of the choosen module, touching on a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions.** 
+
+**Examples below:** 
   + Care Coordination (CC)  
   + Medication Management (MM)  
   + Psychotherapy (PSY)  
@@ -93,6 +110,8 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. | 
 
 ### DO demo
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
 
 1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
 
