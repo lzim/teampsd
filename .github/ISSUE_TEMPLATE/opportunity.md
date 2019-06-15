@@ -2,7 +2,7 @@
 name: Issue
 about: Click the link to create a new issue for the simulation user interface https://github.com/lzim/teampsd/issues/new.
 title: Edit the details to create a report that will help us improve the sim UI.
-project: Bug Kanban
+project: 'Bug Kanban'
 ---
 
 **Describe the opportunity**
