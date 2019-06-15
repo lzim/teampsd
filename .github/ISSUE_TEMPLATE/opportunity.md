@@ -1,7 +1,7 @@
 ---
-Step 1: Click raw to copy the code text below. 
-Step 2: Click the link to create a new issue for the simulation user interface https://github.com/lzim/teampsd/issues/new.
-Step 3: Edit the details to create a report that will help us improve the sim UI.
+name: Click raw to copy the code text below. 
+about: Click the link to create a new issue for the simulation user interface https://github.com/lzim/teampsd/issues/new.
+title: Edit the details to create a report that will help us improve the sim UI.
 ---
 
 **Describe the opportunity**
@@ -49,3 +49,16 @@ If applicable, add screenshots to help explain your problem. You can use the Sni
 **9. Why is this feature important to you?**
 
 **10. Is there a deadline or other scheduled constraint driving your request?"**
+
+## I like this! 
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
+
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
+
+**Additional context**
+Add any other context or screenshots about the feature request here.
