@@ -26,7 +26,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. | 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority of __________ using the Model Diagram in the Sim UI. | 
 
 ### After this session you’ll be able to: 
 
@@ -35,7 +35,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Learning Objectives
 
-1. Describe the systems story of your team's highest priority. 
+1. Describe the systems story of _____ [the team's highest priority] _____. 
 2. Test out your thinking about causes of team challenges using the model diagram.
 3. Apply clinical expertise to develop a question for team learning using simulation.
 
@@ -44,9 +44,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 # In-session Exercise (30 minutes): The Model Diagram and Systems Story
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-### A. For this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll be able to play along with our scavenger hunt.  
+### The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your individual simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
 
-+ To log in to your Individual world, go to mtl.how/sim. Enter your username (email address) and password. Click **LOGIN**. A pop-up box appears with the text "Please select a World" on the blue bar. Select the world that starts with **"ind" from the drop-down menu**.  
+#### Part 1. + To start this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll actually be able to play along with our scavenger hunt on your own, instead of just watching us do it.  
+
++ Loggin in to your Individual world is at the same link we used last week, mtl.how/sim, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that starts with **"ind" from the drop-down menu**, so we can all use the simulation at the same time.  
 
 + Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.  
 
@@ -60,8 +62,9 @@ Also, depending on the size of your monitor and whether your browser window is f
    +  On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen. 
    +  On a MAC, to view the model in full screen click the **green button in the upper left of the browser** on your computer. To exit full screen, hover at the top of your computer screen, the toolbar will appear, click on "View", click on "Exit Full Screen."  
 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:10-00:15*** 
 
-### B. We're going on a scavenger hunt. We'll ask a series of questions and your job is to find the answer in the Model Diagram.  
+## Now we're ready for our scavenger hunt. We'll ask a series of questions and your job is to find the answer in the Model Diagram.  
 
 **Question 1: What are the two major units in each module?**  
 
@@ -80,51 +83,50 @@ Answer: Options to Reveal Complexity are found under the *Experiment Timeline* i
  
  Let's go on to the next question for our scavenger hunt.
 
+
+
+Time Stamp | Team Learning Priorities | Script 
+-- | -- | --
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | **Review** the team data the led to that q/h/f/d | **Practice highlighting specific variables relevant to the systems story associated with the team's highest priority need.**
+
 **Question 4 a and b:**  
   a. Where can you find descriptions for the variables in the Model Diagram?  
-   Answer: The **small circles with i inside throughout the sim UI** provide additional information when you click on them. There are 3 kinds of *i* variables in *Modeling to Learn*. First, there are red variables that are read in from team data. Seond, there are experimental variables - you can click on the *i* to understand what you are changing. Third, there are varables that are calculated by the model. Later we will present a fourth variable - simulated output variables - which are found in the Outputs section.  
+   Answer: The **small circles with i inside throughout the sim UI** provide additional information when you click on them. There are 3 kinds of *i* variables in *Modeling to Learn*. First, there are explanations for the red variables that are read in from team data. Seond, there are experimental variables - you can click on the *i* to understand what you are changing. Third, there explanations for the varables that are calculated by the model when you run a simulation. 
 
-  b. Now, let's explore what's in an "i" description.  
-     **For CC, MM, PSY, AGG:** How is the variable *Booking Rate* described?;
-     **For SP:** How is the variable *General Mental Health or GHM Care Quality* described?  
+  b. Now, let's explore what's in an "i" description of a variable in the model diagram.  
+     **Choose a variable relevant to the team's top priority, ask the team lead to click it, and read the i text, asking "How is variable _________ described?  Does this make sense for your team?**
 
-   + Variables with answers for each module:  
-     + CC - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"    
-     + MM - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
-     + PSY - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
-     + AGG - Booking Rate - Answer: If you click on *Booking Rate*, you see, "The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)"  
-     + SP - General Mental Health Care Quality - If you scroll down a bit on the left of the screen, you see *General Mental Health or GMH Care Quality*. When you click on this variable, you see, "Quality care has many dimensions, but in the *MTL* Suicide Prevention module we are mainly concerned with ow quality impacts the time it takes patients' symptoms to improve..."  
+
 
 **Question 5: What are the units of time in mtl.how/sim?**  
 
-Answer: It's weeks! We did a lot of work in the field with clinicians to figure out what the appropriate units of time would be for *MTL*. Weeks was the unit of time that seemed the most logical for clinicians. The units are also in the "i* boxes.  
+Answer: It's weeks! We did a lot of work in the field with clinicians to figure out what the appropriate units of time would be for *MTL*.  Any day can be very different from any other, and it's hard to remember what has happened over the course of a month.  Weeks was the unit of time that was the easiest for clinicians to hold in their minds. The units are also in the "i* boxes.  
 
 
-### C.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
+### Part 2.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
 
  + Let's do a quick orientation to the model diagram.  
- 
-
-   + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. A "B" with a circle arrow around it on the diagram is a symbol for a balancing loop. A balancing loop is one where, if one of the variables is held constant, the others will fluctuate up and down.  
+   + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. 
    
-   + In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback or balancing loop.  
+   + In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback loop and fully understand why behaviors happen in our clinics.  
    
    + On the model diagram, you see plus and minus signs next to the blue lines. **Use Thumbs to demonstrate +/- concept**:  
          + If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
          + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
+Time Stamp | Team Learning Priorities | Script 
+-- | -- | --
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:30-00:40 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most releveant to the team's highest priority need.  Describe that loop variable by variable.  Examples below:**
 
-  **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals
+
+  **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals 
   
  + We'll reveal the "Wait Time Affects Referrals" detail in the Care Coordination or CC model diagram. Then, scroll down to the lower left of the model diagram to see what has been revealed.
-
       + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
 
-    
  + The *Wait Time Affects Referrals* detail shows the connection between patient *Referral Rates*, patients *Waiting to Start* CC and *Target Wait Times* for patients. 
  
  + For this activity of telling a systems story, we are concerned patients are having to wait longer than we would like to start Care Coordination.  
-
 
  +  So, we'll start this systems story with the *Referral Rate* - the green box. As a clinician you know that when *Referral Rates* increase, there is an increase in the back log of patients *Waiting to Start* a service, in this case CC.  
  
@@ -159,14 +161,12 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
 
 
 
-**PSYCHOTHERAPY SYSTEMS STORY** - Balancing Existing and New Patients; Engagement After 3 Months
+**PSYCHOTHERAPY SYSTEMS STORY** - Balancing Existing and New Patients; Engagement After 3 Months 
 
  + The Psychotherapy or PSY module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.  
 
  + We'll reveal the "Balancing Patients" detail in the PSY model diagram.  
-
       + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
-
  
  +  For this activity of telling a systems story, we want patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.  
  
@@ -176,8 +176,8 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
   
  + As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. So, as the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients.  As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.  
 
-**AGGREGATE MIX OF SERVICES SYSTEMS STORY** 
 
+**AGGREGATE MIX OF SERVICES SYSTEMS STORY** 
 
  + Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the our team's appointments and patients data for each service. 
       + Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  
@@ -194,7 +194,7 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
      
       + As the *Return to Visit Interval* increases the *Booking Rate* decreases, you can tell this by the negative sign at the end of the light blue arrow leading from RVI to Booking Rate. Thus, the balancing loop is *Appointment Backlog Extends Return Visit Interval* is complete.  
 
-**MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery
+**MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery 
 
  + Starting with *Patient Load*, which is [CLICK ON ITEXT AND READ], one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
  
@@ -207,9 +207,19 @@ Answer: It's weeks! We did a lot of work in the field with clinicians to figure 
  + This causes more patients to flow into the “low symptom” group, so more patients can both end their care and be recommended to step down to a lower level of care. Now, click any one of the plus signs in a grep box to zoom out to the previous view [TOGGLE BACK TO STEPPED CARE VIEW].  
  
  + As more patients leave this setting, it further reduces the total number of patients in the GMH treatment setting, thus further decreasing the patient load and increasing quality. When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load. When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.” 
- + We have closed the loop, or brought our chain of causation full circle, and can now explain how this reinforcing loop of "Higher Care Quality Improves Recovery" could both energize our improvement efforts, or potentially derail them.
+
++ We have closed the loop, or brought our chain of causation full circle, and can now explain how this reinforcing loop of "Higher Care Quality Improves Recovery" could both energize our improvement efforts, or potentially derail them.
  
+
+## ??? Develop questions for learners to test their understanding / validity of these causal relationships in their clinics ???
+
+
+### Enter a question in the Text section.
+In the Question box, you briefly describe what your team wants to learn from this experiment. 
+
  + The last think to do is log out of the SIM UI! 
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:45*** 
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
