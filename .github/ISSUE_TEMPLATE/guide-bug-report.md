@@ -1,5 +1,5 @@
 ---
-name: Click raw to copy the code text below. 
+name: guide bug report
 about: Click the link to create a new issue related to the SEE and SAY guides https://github.com/lzim/teampsd/issues/new.
 title: Edit the details to create a report that will help us improve the SAY and SEE guides.
 labels: bug
