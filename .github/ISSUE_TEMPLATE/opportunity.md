@@ -1,12 +1,12 @@
 ---
 name: Issue
 about: Click the link to create a new issue for the simulation user interface https://github.com/lzim/teampsd/issues/new.
-title: Edit the details to create a report that will help us improve the sim UI.
-projects: 'Bug Kanban'
+title: Edit the details to create a report that will help us improve.
 ---
+**BEFORE FILLING OUT THIS TEMPLATE, PLEASE ASSIGN THIS ISSUE TO THE BUG KANBAN UNDER PROJECTS (YES, EVEN IF IT IS A FEATURE. ALL ISSUES START IN THE BUG KANBAN FOR TRIAGE). --------------------->**
 
 **Describe the opportunity**
-A clear and concise description of the opportunity.
+A clear and concise description of the opportunity for improvement.
 
 **READ THIS FIRST**
 - _A bug is a developed feature that has been working, that is no longer working._
@@ -43,23 +43,31 @@ If applicable, add screenshots to help explain your problem. You can use the Sni
 
 **FEATURE**
 
-**7. How would you like this feature to work? Describe your expectations in terms of outcomes/products/behaviors.**
+**7. How would you like this feature to work?**
+Describe your expectations in terms of outcomes/products/behaviors.
 
 **8. How urgent is this request? (Urgent/Not Urgent)**
 
 **9. Why is this feature important to you?**
 
-**10. Is there a deadline or other scheduled constraint driving your request?"**
-
-## I like this! 
-**Is your feature request related to a problem? Please describe.**
+**10. Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**11. Is there a deadline or other scheduled constraint driving your request?"**
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
+**12. Additional context**
 Add any other context or screenshots about the feature request here.
+
+**STOP HERE. INFORMATION BELOW IS TO BE FILLED OUT BY WORKGROUPS AS PART OF TRIAGE AND WORK BREAKDOWN PROCESS**
+
+**Estimated person hours to complete:**
+
+**Key people (use @ assignment for people whose input will be necessary):**
+
+**Key dependencies:**
+Are there other tasks that need to be completed first?
+
+**Constraints:**
+Is there a resource constraint that may affect the development of the feature?
+
+**Gantt chart needed? Attach link and/or screenshot.**
