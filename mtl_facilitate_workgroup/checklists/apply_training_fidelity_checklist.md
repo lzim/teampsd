@@ -75,9 +75,9 @@ _CONSIDER THESE QUESTIONS_
 Systems Thinking | Definition
 -- | -- 
 Complex | **Forest   not trees.**    Relationships among two or more   variables _______________________________________  [Tailor examples to the team: e.g., wait times, improvement rate], or two or more settings  _______________________________________  [Tailor examples to the team: e.g. primary   care, general mental health].
-Feedback | **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (reinforcing)   or reduced (balancing) around the loop.
-System Behavior | **Movie   not snapshot.**    Trends over time.    Systems cause their own behavior   through feedback.
-Time | **Short   _and_   long term.**      Better understanding of change over   time   (e.g., worse before better, better   before worse).
+Feedback | **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (reinforcing) _______________________________________ [Tailor to key reinforcing "systems story" for this team] or reduced (balancing) (reinforcing) _______________________________________ [Tailor to key balancing "systems story" for this team] around the loop.
+System Behavior | **Movie   not snapshot.**    Trends over time.    Systems cause their own behavior through feedback._______________________________________ [Tailor to team: Key system behavior output #1 for team] _______________________________________ [Tailor to team: Key system behavior output #2 for team] _______________________________________ [Tailor to team: Key system behavior output #3 for team] _______________________________________ [Tailor to team: Key system behavior output #4 for team] 
+Time | **Short   _and_   long term.**      Better understanding of change over   time   (e.g., worse before better, better   before worse)._______________________________________ [Tailor to team: System behavior output #1 pattern over next two years] _______________________________________ [Tailor to team: System behavior output #2 pattern over next two years] _______________________________________ [Tailor to team: System behavior output #3 pattern over next two years] _______________________________________ [Tailor to team: System behavior output #4 pattern over next two years] 
 
 
 ### 7. Facilitator needs/questions - Select and briefly describe the training need or question. Rank to prioritize your facilitator need/question for group supervision.
