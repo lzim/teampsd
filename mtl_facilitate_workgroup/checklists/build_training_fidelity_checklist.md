@@ -46,7 +46,15 @@ _CONSIDER THESE QUESTIONS_
 
 - **DIFFERENTIATE: I need to rule in  _______________________________________ or rule out  _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).**
 
-- **My GOAL for this session is that  _______________________________________
+- **My GOAL for this session is that the team will document the following Q/H/F/D by end of the session.**
+
+**Question: _______________________________________** 
+
+**Hypothesis: _______________________________________** 
+
+**Findings: _______________________________________** 
+
+**Decisions: _______________________________________** 
 
 1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
