@@ -41,11 +41,24 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 #### BUILD & APPLY (s5-10) Intersession Checklist Priorities
 
+_CONSIDER THESE QUESTIONS_
+- **NEED: Current working conceptualization of this team's need based on the 4 priorities below?**  _______________________________________
+
+- **DIFFERENTIATE: I need to rule in  _______________________________________ or rule out  _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).**
+
+- **My GOAL for this session is that  _______________________________________
+
 1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
 2. Complexity reveal (causal loop) most relevant to the team's highest priority need is: _______________________________________
 
-3. Specific value adjustments you expect will be helpful for the team to experiment with related to their highest priority need: _______________________________________
+3. Specific value adjustments you expect will be helpful for the team to experiment with related to their highest priority need: _______________________________________ 
+
+**Experiment (Session)** | **Variable(s) & Value(s) in BC** | **Variable(s) and Value Adjustment(s) in Experiment**
+-- | -- | -- 
+**Exp 1 (s8)** | _______________________________________ | _______________________________________  
+**Exp 2 (s9)** | _______________________________________  | _______________________________________ 
+**Exp 3 (s10)** | _______________________________________  | _______________________________________ 
 
 4. Output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need: _______________________________________
 
