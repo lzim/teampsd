@@ -29,11 +29,12 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 2 Disagree 
 - [ ] 1 Strongly Disagree
 
-**Sessions 5-8 - Rate the following 4 items.** 
-- [ ] 1. This project emphasizes what is important to our (this) team.
-- [ ] 2. We sought to support our existing capacities to best use local team resources and make local decisions.
-- [ ] 3. Even though we did not have total agreement, we did reach a kind of consensus that our (this) team all accepts.
-- [ ] 4. We are supporting shared team decision-making in this project.
+**Sessions 9-12 - Rate the following 4 items.** 
+- [ ] 1. We helped the team consider the problem at hand as in terms of interconnection. 
+- [ ] 2. We helped the team look beyond a specific variable/output to determine the dynamic cause of the problem.
+- [ ] 3. We helped the team to consider feedback bachanges can produce important results.
+- [ ] 4. We helped the team to consider that the same decision can have different effects over time, depending on the state of the system. 
+- [ ] 5. We are supporting shared team decision-making in this project.
 
 ## B. Intersession checklist prioritizing Post-session Checklist items 6, 7 & 9 (short-form)
 
