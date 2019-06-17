@@ -77,4 +77,52 @@
 
 - The shared team vision settled on is Shining the light to help you live your best life as we see and expand our best practices!
 
+# Team 4
 
+4. What was covered during the meeting?
+
+- The Learning Objectives of Modeling to Learn were discussed.
+
+- The team struggled to identify a lot of positive shared learning experiences in their BHIP team in General Mental Health (GMH).
+
+- Their individual visions included emphases about each providers frustrations with getting patients seen in a timely way, and being able to offer "top of license" care likely to get Veterans better.
+
+- They joined around their frustration with referring their patients to another team: the Speciaty Mental Health programs locally are Addiction Treatment Services, Telehealth, and a PTSD Clinical Team.
+
+ 
+
+5. What were the team's questions? (what did they ask?)
+
+- They asked what the team lead does.
+
+- They asked about research that informs Modeling to Learn.
+
+- They asked if we had examples that Modeling to Learn had helped other clinics and how other clinics used MTL.
+
+- They asked about whether the VANTS line and Adobe Connect link at https://mtl.how/live would be the same for the next meeting.
+
+ 
+
+6. What is the team's guiding question and hypotheses? (what are they testing?)
+
+- The vision coming out of this team is to improve the number of Veterans who get a course of psychotherapy in the GMH and local SMH programs and teams.
+
+- The team is really frustrated with referring to SMH and has atually given up on making these referrals. 
+
+- They are wondering whether the MISSION Act will help
+
+- They are frustrated that their Return-to-clinic Visit Intervals (RTC) are spread way out, so they don't get patients better.
+
+- They are angry with their SMH programs who have "protected" time to focus on EBPs, but won't take their patients, which they believe reduces their SAIL scores and leads to a lot of conflicts with local leadership.
+
+ - The shared team vision settled on is R.E.S.P.E.C.T. which stands for "Really. Effective. Streamling. Patients. Evidence-based Clinical Treatment."
+
+9. Team Emails: 1) Done, 2) Do, 3) Decided
+
+- The team decided that Dr. Klocek will be the team lead.
+
+- The team meetings are on Fridays at 9:30AM Pacific.
+
+ - The shared team vision settled on is R.E.S.P.E.C.T. which stands for "Really. Effective. Streamling. Patients. Evidence-based Clinical Treatment."
+
+ 
