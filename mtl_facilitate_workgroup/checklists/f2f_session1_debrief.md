@@ -111,7 +111,7 @@
 
 - They are wondering whether the MISSION Act will help
 
-- They are frustrated that their Return-to-clinic Visit Intervals (RTC) are spread way out, so they don't get patients better.
+- They are frustrated that their Return-to-clinic Visit Intervals (RVI) are spread way out, so they don't get patients better.
 
 - They are angry with their SMH programs who have "protected" time to focus on EBPs, but won't take their patients, which they believe reduces their SAIL scores and leads to a lot of conflicts with local leadership.
 
