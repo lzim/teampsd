@@ -4,7 +4,11 @@ Date: _______________________________________
 
 Team: _______________________________________
 
-Session: _______________________________________ (s1, s2, s3, s4)
+Co-facilitators: _______________________________________
+
+Session: _______________________________________
+
+Module: _______________________________________
 
 Rater: _______________________________________
 
@@ -37,6 +41,13 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 ### 6. What is the team's guiding question and hypotheses? (what are they testing?)
 
 #### PARTNER (s1-4) Intersession Checklist Priorities
+CONSIDER THESE QUESTIONS
+
+NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+
+DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+
+My GOAL for this session is to document the following themes and differential questions related to the teams need by end of the session.
 
 1. Specific themes the team brought up when visioning during session 1. _______________________________________
 
