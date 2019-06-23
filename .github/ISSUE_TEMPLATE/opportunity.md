@@ -2,8 +2,12 @@
 name: Issue
 about: Click the link to create a new issue for the simulation user interface https://github.com/lzim/teampsd/issues/new.
 title: Edit the details to create a report that will help us improve.
+labels: ''
+assignees: ''
+
 ---
-**BEFORE FILLING OUT THIS TEMPLATE, PLEASE ASSIGN THIS ISSUE TO THE BUG KANBAN UNDER PROJECTS (YES, EVEN IF IT IS A FEATURE. ALL ISSUES START IN THE BUG KANBAN FOR TRIAGE). --------------------->**
+
+**ASSIGN to PROJECT "issue_tracker"**  
 
 **Describe the opportunity**
 A clear and concise description of the opportunity for improvement.
