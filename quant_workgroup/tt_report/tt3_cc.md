@@ -4,12 +4,7 @@ author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
      html_document: default   
-     word_document: default 
-  
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding,
-  output_dir = ".", output_format = "all") })     
-          
+
 ---
 
 To use the code in this Rmarkdown for each Team/Module in separate Rmarkdown, please do as follow:
@@ -130,11 +125,10 @@ barplot(table(factor(data[,x], levels = -1:1)),
 ```{r cc_setup, include=FALSE}
 ccpar <- read_excel("ModelParameters.xlsx", sheet = "CCParams", col_names = paste("X",1:3, sep = "__"), range = "A1:C12")
 
-stu <- c("(wks)", "(appt/wk)", "(wks)", "","", "(wks)")
+stu <- c("(wks)", "(appt/wk)", "(wks)", "","(pts/wk)", "(wks)")
 ccpar.table <- ccpar[c(12,10,5,3,1,7),1:3] %>% # Select row and order to match UI
   mutate(X__2 = formatC(X__2, digits = 2, format = "f"),
          X__1 = sub(" in CC", "", X__1),
-         X__1 = replace(X__1, X__1 == "Starting Rate (mean)", "Start Rate (mean)"),
          X__1 = paste0(X__1, stu))
 
 

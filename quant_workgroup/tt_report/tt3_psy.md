@@ -695,13 +695,18 @@ visits <- snk %>%
 <div class = "row">
 <div class = "col-md-6">
 ```{r sankey_bc, echo=FALSE, warning=FALSE, message=FALSE,out.width='90%'}
-sankeyNetwork(Links = snk[snk$Experiment == "Base Case",], Nodes = nodes,
+
+snbc <- sankeyNetwork(Links = snk[snk$Experiment == "Base Case",], Nodes = nodes,
               Source = "source", Target = "target",
               Value = "Value", NodeID = "ID",
               fontSize= 8, nodeWidth = 12,  units = "patients",
               colourScale = va_color, fontFamily = "Myriad Pro")%>% 
   htmlwidgets::prependContent(htmltools::tags$h5("Patient Engagement Patterns"))
 
+snbc
+
+#rbokeh::widget2png(snbc, "sankey_bc.png")
+saveNetwork(snbc, "sankey_bc.html", selfcontained = TRUE)
 ```
 
 </div>
