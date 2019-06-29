@@ -6,72 +6,250 @@ labels: ''
 assignees: ''
 
 ---
+**ORIGINATOR**
+*Please follow the steps below to open an issue for the MTL Workgroups to address. Be sure to provide a descriptive title for the issue when saving.*
 
-**ASSIGN to PROJECT "issue_tracker"**  
 
-**Describe the opportunity**
-A clear and concise description of the opportunity for improvement.
+**Step 1** - Please assign this issue to the issue_tracker, under the “Projects” menu on the right side of your GitHub page.
 
-**READ THIS FIRST**
-- _A bug is a developed feature that has been working, that is no longer working._
-- _A feature is a function, product or characteristic that requires research, design and development._
+**Step 2** - Please answer the questions below by checking the appropriate boxes and providing brief narratives where appropriate:
 
-**If This Is a Bug, start with number 1 below, if a Feature, skip to number 7.**
+1. Is this issue a problem, such as a malfunction in the simulation, an error in documentation or similar concern, or is this a new idea
+   we should consider?
+   
+   - [ ] Problem *(continue to number 2 below)*
+   - [ ] New idea *(continue to number 7 below)*
 
-**1. Please describe the steps to reproduce the behavior.**
-a. Go to '...'
-b. Click on '....'
-c. Scroll down to '....'
-d. See error
+2. What team are you on (exg., Menlo Park, Team Blue)?
 
-**2. Please describe the expected behavior.**
-A clear and concise description of what you expected to happen.
 
-**3. Please provide a(n) screenshot(s) of the bug.**
-If applicable, add screenshots to help explain your problem. You can use the Snip tool available in Microsoft Windows 10.
+3. How urgent is this problem?
 
-**4. Please identify your operating system and browser version.**
- a. Operating System: [e.g. iOS]
- b. Browser [e.g. chrome, safari]
- c. Version [e.g. 22][You can find version by clicking on "help" then "about Chrome/edge/firefox" to get version information.]
+   - [ ] Urgent - *should be fixed right away!*
+   - [ ] Non-urgent - *can be prioritized within normal workstreams.*
 
-**5. If you are using a smartphone, please complete the following information, otherwise skip to number 6.**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+4. In the space provided below, please describe the behavior you expected from the simulation or otherwise describe what you expected to
+   see or hear. 
 
-**6. Additional context**
- - Which function, model or team data where you trying to use?
- - Provide any other relevant information that may affect this issue.
 
-**FEATURE**
 
-**7. How would you like this feature to work?**
-Describe your expectations in terms of outcomes/products/behaviors.
 
-**8. How urgent is this request? (Urgent/Not Urgent)**
 
-**9. Why is this feature important to you?**
 
-**10. Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**11. Is there a deadline or other scheduled constraint driving your request?"**
+5. Please provide a screenshot of the bug, if possible.  Make as many screenshots as you like that would be helpful to illustrate the  
+   issue.
 
-**12. Additional context**
-Add any other context or screenshots about the feature request here.
+   *<< Paste screenshots here>>*
 
+
+
+
+
+
+6.  Within which product did you notice the problem? *Check all that apply*
+
+   - [ ] SharePoint
+   - [ ] Data/Queries
+   - [ ] Team Data
+   - [ ] R-reports
+   - [ ] See Guide
+   - [ ] Say Guide
+   - [ ] Videos
+   - [ ] Post tests
+   - [ ] Fidelity Checklist
+   - [ ] Other?  Please describe here >>
+   
+   Care Coordination Simulation
+   - [ ] Model Diagram
+   - [ ] Outputs and Text
+   - [ ] Experiments
+   - [ ] Export function
+   - [ ] Save function
+   - [ ] Run/reset function
+   - [ ] "i" Information
+   - [ ] Team Data Table
+   
+   Medication Management
+   - [ ] Model Diagram
+   - [ ] Outputs and Text
+   - [ ] Experiments
+   - [ ] Export function
+   - [ ] Save function
+   - [ ] Run/reset function
+   - [ ] "i" Information
+   - [ ] Team Data Table
+   
+   Psychotherapy
+   - [ ] Model Diagram
+   - [ ] Outputs and Text
+   - [ ] Experiments
+   - [ ] Export function
+   - [ ] Save function
+   - [ ] Run/reset function
+   - [ ] "i" Information
+   - [ ] Team Data Table
+   
+   Aggregate 
+   - [ ] Model Diagram
+   - [ ] Outputs and Text
+   - [ ] Experiments
+   - [ ] Export function
+   - [ ] Save function
+   - [ ] Run/reset function
+   - [ ] "i" Information
+   - [ ] Team Data Table
+   
+   Suicide Prevention
+   - [ ] Model Diagram
+   - [ ] Outputs and Text
+   - [ ] Experiments
+   - [ ] Export function
+   - [ ] Save function
+   - [ ] Run/reset function
+   - [ ] "i" Information
+   - [ ] Team Data Table
+   
+  
+7. What kind of device are you using?
+   - [ ] Tablet
+   - [ ] Smartphone
+   - [ ] PC
+
+8. What browser were you using?
+   - [ ] Chrome  *What version?*
+   - [ ] Edge    *What version?*
+   - [ ] Safari  *What version?*
+
+9. Please describe your idea below.  Feel free to provide a scan or screen capture of a sketch of your idea.
+
+
+
+
+
+
+
+
+
+10. Why is this idea important, in terms of your work?
+
+
+
+
+
+
+11. How is this idea related to a problem you face in your daily practice?
+
+
+
+
+
+12. Is there a deadline or other scheduled constraint driving your request that we should be aware of? *This will help us to prioritize
+    this request.*
+
+
+     **THANK YOU!!**
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
 **STOP HERE. INFORMATION BELOW IS TO BE FILLED OUT BY WORKGROUPS AS PART OF TRIAGE AND WORK BREAKDOWN PROCESS**
+---------------------------------------------------------------------------------------------------------------------------------------
 
-**Estimated person hours to complete:**
+**Executive Summary**
 
-**Key people (use @ assignment for people whose input will be necessary):**
+*Estimated person-hours to complete:*
 
-**Key dependencies:**
-Are there other tasks that need to be completed first?
+*Estimated date for completion:*
 
-**Constraints:**
-Is there a resource constraint that may affect the development of the feature?
+*Lead team for effort:*
 
-**Gantt chart needed? Attach link and/or screenshot.**
+*Key people (use @ assignment for people whose input will be necessary):*
+
+
+
+**Step 1 - Complete the Interdependencies Table**
+
+Workgroup Leads review information provided by originator and collaborate to identify interdependencies. Then they describe modifications that are needed in the appropriate column and estimate hours needed to make changes:
+ 
+● *Workgroup Products* - This column identifies the workgroups and the products for which they are responsible. This column can be
+  modified by a workgroup lead on an ad-hoc basis to add one-time products or can be modified to include new and enduring products.
+  
+● *Dependency?* - This column is used by the workgroup leads during collaboration to identify the existence of an interdependency.
+
+● *Description of Change or Action Needed* - Workgroup leads briefly describe the change required.
+
+● *Hours* - Workgroup leads estimate the person-hours required to complete the task.
+
+
+Workgroup Products        | Dependency?  | Description of Change Needed               |  Hours Estimate
+------------------------- | -------------|--------------------------------------------|-----------------
+**Documentation**            
+Brochures                 |              |                                            |
+MTL See Guide             |              |                                            |
+MTL Say Guide             |              |                                            |
+MTL Videos                |              |                                            |
+Post Test                 |              |                                            |
+**Investigators**         |              |                                            |
+Presentation              |              |                                            |
+Quarterly Report          |              |                                            |
+Annual Report             |              |                                            |
+**Qualitative**           |              |                                            |
+MTL Fidelity Checklists   |              |                                            |
+Systems Thinking Codebook |              |                                            |
+CFIR Codebooks            |              |                                            | 
+**Quantitative**          |              |                                            |
+Data UI                   |              |                                            |
+Data Queries              |              |                                            |
+SharePoint                |              |                                            |
+Excel Outputs             |              |                                            |
+ModelParameters           |              |                                            |
+tt Reports                |              |                                            |
+**Model**
+CC                        |              |                                            |
+MM                        |              |                                            |
+PSY                       |              |                                            |
+AGG                       |              |                                            |
+SP                        |              |                                            |
+**Sim User Interface**    |              |                                            |
+Model Diagram             |              |                                            |
+"i"Information            |              |                                            |
+Experiments               |              |                                            |
+Outputs/Charts            |              |                                            |
+Exports                   |              |                                            |
+Master Crosswalk Table    |              |                                            |
+
+**Step 2 - Identify Constraints that may affect the team’s ability to complete the necessary actions.** 
+
+Describe the constraint in terms of capability, capacity or affect on grant research goals. If there are no constraints identified, then leave the table blank.
+
+●  Type - The type of constraint identifies one or more resource areas that are affected.  
+
+●  Workgroup - this is the workgroup responsible for developing a new or modifying an existing product.
+
+●  Discussion/recommendation - A brief narrative that expands the information regardingthe constraint and ideally a recommendation for
+   overcoming the constraint.
+
+**Type Constraint (check all that apply) / Workgroup(s) Affected / Discussion/Recommendation**
+
+- [ ] Capacity      
+- [ ] Cost         
+- [ ] Schedule     
+- [ ] Interference 
+- [ ] Capability   
+- [ ] Other (describe)
+
+**Step 3 - Identify supported milestones.** *Affix the milestone at the issue level using available GitHub milestones.*
+
+**Step 4 - Indicate the due date for completing the actions identified above, assuming constraints are removed.**
+
+
+**Step 5 - Identify the lead workgroup for the action (check one):**
+
+- [ ] Documentation
+- [ ] Investigators
+- [ ] Quantitative
+- [ ] Qualitative
+- [ ] Model
+- [ ] Sim UI
+
+**Step 6 - Go to the top of this section and complete Executive Summary information**
