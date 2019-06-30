@@ -246,5 +246,5 @@ Describe the constraint in terms of capability, capacity or affect on grant rese
 
 **Step 6 - Go to the top of this section and complete Executive Summary information**
 
-Note to Workgroups:  Use the issue thread to document further discussion, althernatives development and estimates.  However, be sure to update this form if dates, team responsibility or other information changes.
+Note to Workgroups:  Use the issue thread to document further discussion, alternatives development and estimates.  However, be sure to update this form if dates, team responsibility or other information changes.
 
