@@ -61,6 +61,15 @@ assignees: ''
    
 **Simulations**
    
+   Home
+   - [ ] Login 
+   - [ ] Session
+   - [ ] Experiment Maintenance Tile
+   - [ ] Team Data Menu Maintenance
+   - [ ] Chat
+   - [ ] Help
+   - [ ] Facilitator Dashboard
+   
    Care Coordination
    - [ ] Model Diagram
    - [ ] Outputs and Text
