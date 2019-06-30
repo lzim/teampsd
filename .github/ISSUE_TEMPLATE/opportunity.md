@@ -12,7 +12,7 @@ assignees: ''
 
 **Step 1** - Please assign this issue to the issue_tracker, under the “Projects” menu on the right side of your GitHub page.
 
-**Step 2** - Please answer the questions below by checking the appropriate boxes and providing brief narratives where appropriate:
+**Step 2** - Please answer the questions below by placing a lowercase "x" between the applicable brackets below and providing brief narratives where appropriate:
 
 1. Is this issue a problem, such as a malfunction in the simulation, an error in documentation or similar concern, or is this a new idea
    we should consider?
