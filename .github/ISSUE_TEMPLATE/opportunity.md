@@ -12,24 +12,22 @@ assignees: ''
 
 **Step 1** - Please assign this issue to the issue_tracker, under the “Projects” menu on the right side of your GitHub page.
 
-**Step 2** - Please answer the questions below by placing a lowercase "x" between the applicable brackets below and providing brief narratives where appropriate:
+**Step 2** - Please answer the questions below by placing a lowercase "x" between the applicable brackets below and providing brief narratives and screenshots where appropriate:
 
 1. Is this issue a problem, such as a malfunction in the simulation, an error in documentation or similar concern, or is this a new idea
    we should consider?
    
-   - [ ] Problem *(continue to number 2 below)*
-   - [ ] New idea *(continue to number 7 below)*
-
+   - [ ] Problem 
+   - [ ] New idea
+   
 2. What team are you on (exg., Menlo Park, Team Blue)?
 
+3. How urgent is this issue?
 
-3. How urgent is this problem?
-
-   - [ ] Urgent - *should be fixed right away!*
+   - [ ] Urgent - *should be addressed right away!*
    - [ ] Non-urgent - *can be prioritized within normal workstreams.*
 
-4. In the space provided below, please describe the behavior you expected from the simulation or otherwise describe what you expected to
-   see or hear. 
+4. In the space provided below, please describe the information or behavior you expected from the product or otherwise describe what you expected to see or hear. 
 
 
 
@@ -37,22 +35,23 @@ assignees: ''
 
 
 
-5. Please provide a screenshot of the bug, if possible.  Make as many screenshots as you like that would be helpful to illustrate the  
-   issue.
+5. Please provide a screenshot of the bug, if possible.  Make as many screenshots as you like that would be helpful to illustrate the issue.
 
    *<< Paste screenshots here>>*
 
 
 
-
-
-
 6.  Within which product did you notice the problem? *Check all that apply*
+
+    Data Products
 
    - [ ] SharePoint
    - [ ] Data/Queries
    - [ ] Team Data
    - [ ] R-reports
+   
+    Instructional Products
+     
    - [ ] See Guide
    - [ ] Say Guide
    - [ ] Videos
@@ -60,7 +59,9 @@ assignees: ''
    - [ ] Fidelity Checklist
    - [ ] Other?  Please describe here >>
    
-   Care Coordination Simulation
+   Simulations
+   
+   Care Coordination
    - [ ] Model Diagram
    - [ ] Outputs and Text
    - [ ] Experiments
@@ -110,7 +111,6 @@ assignees: ''
    - [ ] "i" Information
    - [ ] Team Data Table
    
-  
 7. What kind of device are you using?
    - [ ] Tablet
    - [ ] Smartphone
@@ -121,13 +121,10 @@ assignees: ''
    - [ ] Edge    *What version?*
    - [ ] Safari  *What version?*
 
+
+**<< If you are highlighting a new idea, please continue >>**
+
 9. Please describe your idea below.  Feel free to provide a scan or screen capture of a sketch of your idea.
-
-
-
-
-
-
 
 
 
@@ -135,12 +132,7 @@ assignees: ''
 
 
 
-
-
-
 11. How is this idea related to a problem you face in your daily practice?
-
-
 
 
 
@@ -148,7 +140,7 @@ assignees: ''
     this request.*
 
 
-     **THANK YOU!!**
+**THANK YOU!!**
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -253,3 +245,6 @@ Describe the constraint in terms of capability, capacity or affect on grant rese
 - [ ] Sim UI
 
 **Step 6 - Go to the top of this section and complete Executive Summary information**
+
+Note to Workgroups:  Use the issue thread to document further discussion, althernatives development and estimates.  However, be sure to update this form if dates, team responsibility or other information changes.
+
