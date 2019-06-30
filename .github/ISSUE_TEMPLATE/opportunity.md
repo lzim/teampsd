@@ -43,15 +43,15 @@ assignees: ''
 
 6.  Within which product did you notice the problem? *Check all that apply*
 
-    Data Products
+**Data Products**
 
    - [ ] SharePoint
    - [ ] Data/Queries
    - [ ] Team Data
    - [ ] R-reports
    
-    Instructional Products
-     
+**Instructional Products**
+  
    - [ ] See Guide
    - [ ] Say Guide
    - [ ] Videos
@@ -59,7 +59,7 @@ assignees: ''
    - [ ] Fidelity Checklist
    - [ ] Other?  Please describe here >>
    
-   Simulations
+**Simulations**
    
    Care Coordination
    - [ ] Model Diagram
