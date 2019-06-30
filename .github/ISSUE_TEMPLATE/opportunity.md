@@ -57,6 +57,7 @@ assignees: ''
    - [ ] Videos
    - [ ] Post tests
    - [ ] Fidelity Checklist
+   - [ ] Cheatsheets
    - [ ] Other?  Please describe here >>
    
 **Simulations**
