@@ -209,7 +209,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA243")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA244")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
