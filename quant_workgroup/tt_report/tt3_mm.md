@@ -1,53 +1,72 @@
 ---
-title: 'Sim UI Experiments'
+title: 'Team Time Report 3 MM'
 author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
-     html_document: default   
-     word_document: default 
-     
+     html_document: default 
 ---
 
-To use the code in this Rmarkdown for each Team/Module in separate Rmarkdown, please do as follow:
+Instructions: To use the code in this Rmarkdown, please follow the steps below::
   
-- ensure that all library packages (as listed in the library chunk) are installed
-   + uncomment the line pkgs (list of packages)
-   + uncomment the line  install.packages(pkgs)
-   + run the two lines in the console
-   + comment out these lines before kniting the Rmd file
-- change the working directory in RStudio to the location of the RMarkdown and include datafiles:
+1. Click on Raw
+
+2. To ensure all necessary packages are installed, Copy + Paste the below lines in a new RMarkdown file in R Studio and hit Enter:  
+pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable", "Hmisc")  
+install.packages(pkgs)
+
+2. Copy + Paste necessary sections of below in the RMarkdown file created in #1 based on which TeamTime Report is being produced (look for places in code indicating where to stop for each tt report).
+
+3. Set working directory in RStudio to the location of the RMarkdown file from #2.  
+
+4. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
    + "mtl_menu.csv"
    + "ModelParameters.xlsx"
-   + "mm_bc.xlsx", 
-   + "mm_exp1.xlsx", and/or
-   + "mm_exp2.xlsx", and/or 
-   + "mm_exp3.xlsx" 
+   + "mm_bc.xlsx"
+   + "mm_exp1.xlsx"
+   + "mm_exp2.xlsx" 
+   + "mm_exp3.xlsx"
    + "pchart_data.xlsx"
-- update the filter chuck to specify team and start date of MLT launch  
+   + "tt_title.png"
+   
+5. In the code copied in RMarkdown, update the first chunk called "{r filters}" to specify team location (tm) and start date (launch_date) of MTL launch with this team.
+
+6. In the code copied in RMarkdown, add the TeamTime Report # and Team Vision.
+
+7. Click on the dropdown next to "Knit" in RStudio. Click on "Knit to HTML."
+
+8. Click on "Open in Browser" once the code finishes running and the report pops up.
+
+9. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
+
+------------------------------------------------------------------------------------------------------------------
+
+---
+output:
+     html_document: default 
+---
 
 ```{r filters, include=FALSE}
 tm <- "MP" # Team Location
 launch_date <-  "2015-11" # MTL launch date in the clinic, format must be "yyyy-mm"
 
-## For initial location
 ## True pre-condition is April 2014- Mar 2015; however data doesn't exist until Nov 2014
 ## Mixed Precondition:  Nov 2014 - Oct 2015 
-## Therefore, enter "2015-11" for first MTL location
-
 ```
 
 ```{r library, include=FALSE}
-# pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable")
-# install.packages(pkgs)
-
 library(tidyverse)
 library(readxl)
 library(huxtable)
 library(htmlTable)
-
+library(Hmisc)
 ```
 
+![](tt_title.png){style="width:50%"}
 
+# Team Time Report (insert # here)
+# Team Vision: (insert team vision here)
+
+<P style="page-break-before: always">
 
 ## MTL Menu
 ``` {r,echo=FALSE, fig.width=4, fig.height=4,fig.show='hold'}
@@ -82,6 +101,18 @@ cols <- c("x",
           patient satisfaction with care.",
           "Staffing - How to improve team care with our 
           existing staff mix.",
+          "Suicide Prevention - How to manage 
+          high risk patients.",
+          "Stepped Care - How to decide when to step patients 
+          up to specialty care.",
+          "Stepped Care - How to decide when to step patients 
+          down to primary care.",
+          "Care Continuum - How to manage patient care 
+          across care settings, e.g., primary care, 
+          general mental health and specialty mental health.",
+          "Measurement Based Care - How implementation of 
+          measurement based care will improve 
+          patient care or reduce patient risk.",         
           "Intake evaluations",
           "Care coordination",
           "Medication management",
@@ -120,6 +151,7 @@ barplot(table(factor(data[,x], levels = -1:1)),
 }
 ```
 
+<P style="page-break-before: always">
 
 ## Team Data Table - Medication Management Module
 
@@ -171,8 +203,9 @@ htmlTable(mmpar.table, header = c(rep("",6)), rnames = FALSE, css.cell = "paddin
 
 ```
 
-
-
+<P style="page-break-before: always">
+     
+(STOP HERE FOR tt1 and delete this text)
 
 ## Sim UI Experiments - Medication Management Module
 
@@ -279,6 +312,8 @@ tt_ht
 
 ```
 
+<P style="page-break-before: always">
+
 #### Changes to Model Parameters Relative to Base Case
 
 ```{r mpar, echo=FALSE, warning=FALSE}
@@ -381,6 +416,10 @@ sim %>%
   theme(legend.position="top", legend.title=element_blank()) 
 
 ```
+
+<P style="page-break-before: always">
+
+(STOP HERE FOR tt2 and delete this text)
 
 ## P-Charts 
 
