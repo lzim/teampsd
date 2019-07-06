@@ -11,7 +11,7 @@ Instructions: To use the code in this Rmarkdown, please follow the steps below::
 1. Click on Raw
 
 2. To ensure all necessary packages are installed, Copy + Paste the below lines in a new RMarkdown file in R Studio and hit Enter:  
-pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable", "networkD3", "plotly", "Hmisc")
+pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable", "networkD3", "plotly", "Hmisc")  
 install.packages(pkgs)
 
 2. Copy + Paste necessary sections of below in the RMarkdown file created in #1 based on which TeamTime Report is being produced (look for places in code indicating where to stop for each tt report).
