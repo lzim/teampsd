@@ -1,5 +1,5 @@
 ---
-title: 'Team Time Report 3 CC’
+title: 'Team Time Report 3 CC'
 author: "TeamPSD"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output:
@@ -19,6 +19,7 @@ install.packages(pkgs)
 3. Set working directory in RStudio to the location of the RMarkdown file from #2.  
 
 4. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
+   + "tt_title.png"
    + "mtl_menu.csv"
    + "ModelParameters.xlsx"
    + "cc_bc.xlsx"
@@ -26,7 +27,7 @@ install.packages(pkgs)
    + "cc_exp2.xlsx" 
    + "cc_exp3.xlsx"
    + "pchart_data.xlsx"
-   + "tt_title.png"
+
    
 5. In the code copied in RMarkdown, update the first chunk called "{r filters}" to specify team location (tm) and start date (launch_date) of MTL launch with this team.
 
