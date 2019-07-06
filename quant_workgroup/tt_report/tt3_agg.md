@@ -214,7 +214,7 @@ htmlTable(agg_def, header = c("Concept", "Definition"), rnames = FALSE, css.cell
 ```
 <P style="page-break-before: always">
      
-(STOP HERE FOR TT1 and delete this text)
+(STOP HERE FOR tt1 and delete this text)
 
 ## Sim UI Experiments - Aggregate Module
 
@@ -412,7 +412,7 @@ sim %>%
 
 <P style="page-break-before: always">
 
-(STOP HERE FOR TT2 and delete this text)
+(STOP HERE FOR tt2 and delete this text)
 
 ## P-Charts
 
