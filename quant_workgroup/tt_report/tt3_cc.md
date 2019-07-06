@@ -21,10 +21,10 @@ install.packages(pkgs)
 4. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
    + "mtl_menu.csv"
    + "ModelParameters.xlsx"
-   + "agg_bc.xlsx"
-   + "agg_exp1.xlsx"
-   + "agg_exp2.xlsx" 
-   + "agg_exp3.xlsx"
+   + "cc_bc.xlsx"
+   + "cc_exp1.xlsx"
+   + "cc_exp2.xlsx" 
+   + "cc_exp3.xlsx"
    + "pchart_data.xlsx"
    + "tt_title.png"
    
