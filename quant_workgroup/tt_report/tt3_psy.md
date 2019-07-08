@@ -14,11 +14,11 @@ Instructions: To use the code in this Rmarkdown, please follow the steps below::
 pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable", "networkD3", "plotly", "Hmisc")  
 install.packages(pkgs)
 
-2. Copy + Paste necessary sections of below in the RMarkdown file created in #1 based on which TeamTime Report is being produced (look for places in code indicating where to stop for each tt report).
+3. Copy + Paste necessary sections of below in the RMarkdown file created in #1 based on which TeamTime Report is being produced (look for places in code indicating where to stop for each tt report).
 
-3. Set working directory in RStudio to the location of the RMarkdown file from #2.  
+4. Set working directory in RStudio to the location of the RMarkdown file from #2.  
 
-4. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
+5. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
    + "tt_title.png"
    + "mtl_menu.csv"
    + "ModelParameters.xlsx"
@@ -29,15 +29,15 @@ install.packages(pkgs)
    + "pchart_data.xlsx"
 
    
-5. In the code copied in RMarkdown, update the first chunk called "{r filters}" to specify team location (tm) and start date (launch_date) of MTL launch with this team.
+6. In the code copied in RMarkdown, update the first chunk called "{r filters}" to specify team location (tm) and start date (launch_date) of MTL launch with this team.
 
-6. In the code copied in RMarkdown, add the TeamTime Report # and Team Vision.
+7. In the code copied in RMarkdown, add the TeamTime Report # and Team Vision.
 
-7. Click on the dropdown next to "Knit" in RStudio. Click on "Knit to HTML."
+8. Click on the dropdown next to "Knit" in RStudio. Click on "Knit to HTML."
 
-8. Click on "Open in Browser" once the code finishes running and the report pops up.
+9. Click on "Open in Browser" once the code finishes running and the report pops up.
 
-9. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
+10. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -495,9 +495,10 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### Compare Services: Supply Used by Pts <3mo
+
 
 ```{r graphs, echo=FALSE}
+#### Compare Services: Supply Used by Pts <3mo
 sim %>%
   filter(Services == "Supply Used by Pts <3mo")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -505,13 +506,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   #facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Supply Used by Pts <3mo")
 
 ```
 
-#### Compare Services: Supply Used by Pts >3mo
+
 
 ```{r graphs2, echo=FALSE}
+#### Compare Services: Supply Used by Pts >3mo
 sim %>%
   filter(Services == "Supply Used by Pts >3mo")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -519,13 +522,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Supply Used by Pts >3mo")
 
 ```
 
-#### Compare Services: Supply Used by New Patients
+
 
 ```{r graphs3, echo=FALSE}
+#### Compare Services: Supply Used by New Patients
 sim %>%
   filter(Services == "Supply Used by New Patients")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -533,13 +538,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Supply Used by New Patients")
 
 ```
 
-#### Compare Services: Starting Rate
+
 
 ```{r graphs4, echo=FALSE}
+#### Compare Services: Starting Rate
 sim %>%
   filter(Services == "Starting Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -547,13 +554,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Starting Rate")
 
 ```
 
-#### Compare Services: Initiation Rate
+
 
 ```{r graphs5, echo=FALSE}
+#### Compare Services: Initiation Rate
 sim %>%
   filter(Services == "Initiation Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -561,11 +570,12 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Initiation Rate")
 
 ```
 
-#### Compare Services: Graduation Rate
+
 
 ```{r graphs6, echo=FALSE}
 sim %>%
@@ -575,7 +585,8 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Graduation Rate")
 
 ```
 
