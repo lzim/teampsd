@@ -152,7 +152,9 @@ barplot(table(factor(data[,x], levels = -1:1)),
 }
 ```
 <P style="page-break-before: always">
+     
 ## Team Data Table - Aggregate Module
+
 ```{r agg_setup, include=FALSE}
 aggpar <- read_excel("ModelParameters.xlsx", sheet = "AggParams", col_names = paste("X",1:9, sep = "__"), range = "A1:I12")
 
