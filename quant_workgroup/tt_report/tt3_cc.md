@@ -37,7 +37,7 @@ install.packages(pkgs)
 
 9. Click on "Open in Browser" once the code finishes running and the report pops up.
 
-20. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
+10. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -316,9 +316,10 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### Compare Services: Booking Rate
+
 
 ```{r graphs, echo=FALSE}
+#### Compare Services: Booking Rate
 sim %>%
   filter(Services == "Booking Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -326,13 +327,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Booking Rate")
 
 ```
 
-#### Compare Services: Appointments in CC
+
 
 ```{r graphs2, echo=FALSE}
+#### Compare Services: Appointments in CC
 sim %>%
   filter(Services == "Appointments in CC")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -340,13 +343,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Appointments in CC")
 
 ```
 
-#### Compare Services: Completing Rate
+
 
 ```{r graphs3, echo=FALSE}
+#### Compare Services: Completing Rate
 sim %>%
   filter(Services == "Completing Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -354,13 +359,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Completing Rate")
 
 ```
 
-#### Compare Services: Referral Rate
+
 
 ```{r graphs4, echo=FALSE}
+#### Compare Services: Referral Rate
 sim %>%
   filter(Services == "Referral Rate")  %>%
   filter(mv2 != "Referral Rate_1") %>%
@@ -369,13 +376,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Referral Rate")
 
 ```
 
-#### Compare Services: Waiting to Start
+
 
 ```{r graphs5, echo=FALSE}
+#### Compare Services: Waiting to Start
 sim %>%
   filter(Services == "Waiting to Start")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -383,13 +392,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Waiting to Start")
 
 ```
 
-#### Compare Services: Starting Rate
+
 
 ```{r graphs6, echo=FALSE}
+#### Compare Services: Starting Rate
 sim %>%
   filter(Services == "Start Rate")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -397,7 +408,8 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank())  +
+  ggtitle("Compare Services: Starting Rate")
 
 ```
 

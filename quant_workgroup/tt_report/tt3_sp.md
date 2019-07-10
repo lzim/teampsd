@@ -14,11 +14,11 @@ Instructions: To use the code in this Rmarkdown, please follow the steps below::
 pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable", "Hmisc")  
 install.packages(pkgs)
 
-2. Copy + Paste necessary sections of below in the RMarkdown file created in #1 based on which TeamTime Report is being produced (look for places in code indicating where to stop for each tt report).
+3. Copy + Paste necessary sections of below in the RMarkdown file created in #1 based on which TeamTime Report is being produced (look for places in code indicating where to stop for each tt report).
 
-3. Set working directory in RStudio to the location of the RMarkdown file from #2.  
+4. Set working directory in RStudio to the location of the RMarkdown file from #2.  
 
-4. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
+5. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
    + "tt_title.png"
    + "mtl_menu.csv"
    + "ModelParameters.xlsx"
@@ -29,15 +29,15 @@ install.packages(pkgs)
    + "pchart_data.xlsx"
 
    
-5. In the code copied in RMarkdown, update the first chunk called "{r filters}" to specify team location (tm) and start date (launch_date) of MTL launch with this team.
+6. In the code copied in RMarkdown, update the first chunk called "{r filters}" to specify team location (tm) and start date (launch_date) of MTL launch with this team.
 
-6. In the code copied in RMarkdown, add the TeamTime Report # and Team Vision.
+7. In the code copied in RMarkdown, add the TeamTime Report # and Team Vision.
 
-7. Click on the dropdown next to "Knit" in RStudio. Click on "Knit to HTML."
+8. Click on the dropdown next to "Knit" in RStudio. Click on "Knit to HTML."
 
-8. Click on "Open in Browser" once the code finishes running and the report pops up.
+9. Click on "Open in Browser" once the code finishes running and the report pops up.
 
-9. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
+10. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -410,9 +410,10 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### GMH Patient Load
+
 
 ```{r graphs, echo=FALSE}
+#### GMH Patient Load
 sim %>%
   filter(Services == "GMH Patient Load")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -420,13 +421,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("GMH Patient Load")
 
 ```
 
-#### GMH Ratio of High to Low Symptom Patients
+
 
 ```{r graphs2, echo=FALSE}
+#### GMH Ratio of High to Low Symptom Patients
 sim %>%
   filter(Services == "GMH Ratio of High to Low Symptom Patients")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -434,13 +437,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("GMH Ratio of High to Low Symptom Patients")
 
 ```
 
-#### GMH High Risk Flag Patients
+
 
 ```{r graphs3, echo=FALSE}
+#### GMH High Risk Flag Patients
 sim %>%
   filter(Services == "GMH High Risk Flag Patients")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -448,13 +453,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("GMH High Risk Flag Patients")
 
 ```
 
-#### GMH Patients Waiting to Start
+
 
 ```{r graphs4, echo=FALSE}
+#### GMH Patients Waiting to Start
 sim %>%
   filter(Services == "GMH Patients Waiting to Start")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -462,11 +469,12 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("GMH Patients Waiting to Start")
 
 ```
 
-#### GMH to SMH Recommend Step up Rate
+
 
 ```{r graphs5, echo=FALSE}
 sim %>%
@@ -476,13 +484,15 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("GMH to SMH Recommend Step up Rate")
 
 ```
 
-#### GMH to PC/PCMHI Patients Waiting for Step down
+
 
 ```{r graphs6, echo=FALSE}
+#### GMH to PC/PCMHI Patients Waiting for Step down
 sim %>%
   filter(Services == "GMH to PC/PCMHI Patients Waiting for Step down")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -490,7 +500,8 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("GMH to PC/PCMHI Patients Waiting for Step down")
 
 ```
 

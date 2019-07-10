@@ -14,11 +14,11 @@ Instructions: To use the code in this Rmarkdown, please follow the steps below::
 pkgs <- c("readxl", "tidyverse", "huxtable","htmlTable", "Hmisc")  
 install.packages(pkgs)
 
-2. Copy + Paste necessary sections of below in the RMarkdown file created in #1 based on which TeamTime Report is being produced (look for places in code indicating where to stop for each tt report).
+3. Copy + Paste necessary sections of below in the RMarkdown file created in #1 based on which TeamTime Report is being produced (look for places in code indicating where to stop for each tt report).
 
-3. Set working directory in RStudio to the location of the RMarkdown file from #2.  
+4. Set working directory in RStudio to the location of the RMarkdown file from #2.  
 
-4. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
+5. Add the below items to the same working directory as #3. For instructions on where to find these items, check out the [tt_report READ.ME file](https://github.com/lzim/teampsd/tree/master/quant_workgroup/tt_report):
    + "tt_title.png"
    + "mtl_menu.csv"
    + "ModelParameters.xlsx"
@@ -29,15 +29,15 @@ install.packages(pkgs)
    + "pchart_data.xlsx"
 
    
-5. In the code copied in RMarkdown, update the first chunk called "{r filters}" to specify team location (tm) and start date (launch_date) of MTL launch with this team.
+6. In the code copied in RMarkdown, update the first chunk called "{r filters}" to specify team location (tm) and start date (launch_date) of MTL launch with this team.
 
-6. In the code copied in RMarkdown, add the TeamTime Report # and Team Vision.
+7. In the code copied in RMarkdown, add the TeamTime Report # and Team Vision.
 
-7. Click on the dropdown next to "Knit" in RStudio. Click on "Knit to HTML."
+8. Click on the dropdown next to "Knit" in RStudio. Click on "Knit to HTML."
 
-8. Click on "Open in Browser" once the code finishes running and the report pops up.
+9. Click on "Open in Browser" once the code finishes running and the report pops up.
 
-9. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
+10. In your browser, hit "Ctrl + P" to print and either "Print" or "Save as PDF" (name file as teamname _ tt# _ modulename i.e. teamabe_tt3_agg).
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -151,8 +151,9 @@ barplot(table(factor(data[,x], levels = -1:1)),
 )
 }
 ```
+
 <P style="page-break-before: always">
-     
+
 ## Team Data Table - Aggregate Module
 
 ```{r agg_setup, include=FALSE}
@@ -335,9 +336,10 @@ hux(par_chng) %>%
 
 
 #### Team Graphs
-#### Compare Services: Patients Waiting for Intake Evaluation
+
 
 ```{r graphs, echo=FALSE}
+#### Compare Services: Patients Waiting for Intake Evaluation
 sim %>%
   filter(Variables == "Patients Waiting for Intake Evaluation")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -345,12 +347,14 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Patients Waiting for Intake Evaluation")
 ```
 
-#### Compare Services: Patients Waiting to Start a Service
+
 
 ```{r graphs2, echo=FALSE}
+#### Compare Services: Patients Waiting to Start a Service
 sim %>%
   filter(Variables == "Patients Waiting to Start a Service")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -358,12 +362,14 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Patients Waiting to Start a Service")
 ```
 
-#### Compare Services: Patients in Service
+
 
 ```{r graphs3, echo=FALSE}
+#### Compare Services: Patients in Service
 sim %>%
   filter(Variables == "Patients in Service")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -371,12 +377,14 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Patients in Service")
 ```
 
-#### Compare Services: Work Pressure
+
 
 ```{r graphs4, echo=FALSE}
+#### Compare Services: Work Pressure
 sim %>%
   filter(Variables == "Work Pressure")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -384,12 +392,14 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Work Pressure")
 ```
 
-#### Compare Services: Actual Return Visit Interval
+
 
 ```{r graphs5, echo=FALSE}
+#### Compare Services: Actual Return Visit Interval
 sim %>%
   filter(Variables == "Actual Return Visit Interval")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -397,12 +407,14 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Actual Return Visit Interval")
 ```
 
-#### Compare Services: Actual Hours Available for Service
+
 
 ```{r graphs6, echo=FALSE}
+#### Compare Services: Actual Hours Available for Service
 sim %>%
   filter(Variables == "Actual Hours Available for Service")  %>%
   ggplot(aes(x = week, y = values, group = Experiment, colour = Experiment)) +
@@ -410,7 +422,8 @@ sim %>%
   scale_color_manual(values = vacol) +
   facet_wrap( ~ Services) +
   theme_bw() +
-  theme(legend.position="top", legend.title=element_blank()) 
+  theme(legend.position="top", legend.title=element_blank()) +
+  ggtitle("Compare Services: Actual Hours Available for Service")
 ```
 
 <P style="page-break-before: always">
