@@ -1,7 +1,7 @@
 # Team 1
 6. What is the team's guiding question and hypotheses? (what are they testing?)
 
-- The vision coming out of this team is to improve the number of Veterans who get OUD therapy, without compormising the quality of care received by the team's other patients.
+- The vision coming out of this team is to improve the number of Veterans who get OUD therapy, without compromising the quality of care received by the team's other patients.
 
 - The team is really frustrated with their schedules, which are always too full to safely start more OUD patients (specifically not being sure they can get them in at the necessary 30 day interval). 
 
@@ -11,7 +11,7 @@
 
 - They are getting a lot of pressure from leadership to start more OUD patients, but don't see any resources coming to support that change.
 
-- One providers on the team voiced concern about the push to see more OUD patients was distracting people from their AUD patients, and those patients weren't receiving the attention they should / used to get.
+- One provider on the team voiced concern about the push to see more OUD patients and tht it was distracting people from their AUD patients, and those patients weren't receiving the attention they should / used to get.
 
 - After some back-and-forth, team settled on the shared vision of "Fight Opioid Addiction Now!"
 
