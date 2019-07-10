@@ -15,7 +15,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
      height = "150" width = "250">  
 
-# MTL Facilitate Pre-checklist
+# MTL Facilitate Post-checklist
 
 ## Facilitator Debriefing Checklist - 
 
