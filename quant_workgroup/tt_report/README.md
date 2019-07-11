@@ -4,6 +4,7 @@
      
 Files needed for tt reports:
 + "tt_title.png" - Download here: https://github.com/lzim/teampsd/tree/master/resources/logos/tt_title.png
+ (click download and then right click to save image to your directory)
 + "mtl_menu.csv" - redcap.stanford.edu > Data Exports, Reports, and Stats > Export Data > Uncheck "Export survey identifier field and survey timestamp field(s)?" > Choose "CSV / Microsoft Excel (raw data)" > Export Data > Click on Icon > Rename to mtl_menu.csv
 + "ModelParameters.xlsx" - mtl.how/facilitate > Model  
 
