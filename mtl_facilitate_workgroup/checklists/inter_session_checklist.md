@@ -2,13 +2,16 @@
 
 # Intersession Checklist 
 
+# Suggestion: Insert the menu of MTL sessions here, by Sesssion number (1-12) and session description/name. This would help with orientation to the Primary Goals, stated below. 
+
+
 # A. There are 3 primary facilitation goals and emphases across the 12-Session plan.
 
 _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 -- | -- | -- | --
 **1-4** | **Partner** to identify and validate the team's highest priority learning need now. | **participatory learning** | **tt1**
 **5-8** | **Build** capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. | **participatory learning + systems thinking** | **tt2**
-**9-12** | **Apply** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. | **systems thinking** | **tt3**
+**9-12** | **Apply** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may also now be ready to implement a shared change in the real world. | **systems thinking** | **tt3**
 
 # B. There are 3 intersession timestamp checklists used across the 12-session plan.
 
@@ -67,7 +70,7 @@ s4 | Team Need | The team engages in a dialogue about the highest priority team 
 ## 3. Sessions 1-4 - Participatory Learning Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
-- It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
+- It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activities the team can do on their own between facilitated _MTL_ team meetings.
 
 ### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
 
@@ -111,7 +114,7 @@ System Behavior | **Movie not snapshot.** | Trends over time.  Systems cause 
 ## 6. Sessions 5-10 - Participatory Simulation Learning Timestamp Script
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15 - Ideally no more than the first 5 minutes Done/Do Review 
-- It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activites the team can do on their own between facilitated _MTL_ team meetings.
+- It's ideal to keep the first Done/Do Review short to save more time for the In-session Exercise and the Done/Do at the end that shows, simple, short, specific (4's) learning activities the team can do on their own between facilitated _MTL_ team meetings.
 
 ### Prepare, Prioritize and Practice 30-35 minutes of In-session Exercise During the Intersession Prep Meeting
 
