@@ -516,9 +516,11 @@ sim %>%
 ldt <- seq(as.Date(paste(launch_date, "01", sep = "-")), length = 13, by = "-1 months")
 edt <- ldt[2] # end date of 1 year precondition
 sdt <- ldt[13] # start date of 1 year precondition
+
 dt <- read_excel("pchart_data.xlsx", sheet = "Sheet1")
 dt_fmt <- dt %>%
   filter(team == tm) %>%
+  rename(templatecount = templateUniqueVisits, diagvisitcount = diagvisitcount) %>% # Rename the variable is necessary
   mutate(templatecount = as.numeric(templatecount)) %>%
   mutate_at(vars(templatecount: diagvisitcount), funs(replace(., is.na(.), 0))) %>%
   mutate(pct = templatecount / diagvisitcount,
