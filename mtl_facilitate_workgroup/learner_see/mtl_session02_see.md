@@ -39,7 +39,7 @@ output:
 
 ## *MTL* on BISL
 
-### 1. Go to mtl.how/data. First select your VISN and then select your facility.
+### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)  
 
 ### 2. Explore the information available in the BISL sharepoint splash page
