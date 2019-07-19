@@ -44,7 +44,7 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
 
 ## Participatory Learning from Simulation
-This graphic illustrates how **_Modeling to Learn_** can helpe us to get more of our Veterans to the right right and the right time to meet their needs using participatory learning from simulation.
+This graphic illustrates how **_Modeling to Learn_** can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
 - We use the data user interface (UI) to look back at team trends over the past two years.
 - We review the last two years of data to see *what is* in our team now. 
 - Backward looking data review is limited for guiding effective change.
