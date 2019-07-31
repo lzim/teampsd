@@ -196,7 +196,7 @@ Time Stamp | Team Learning Priorities | Script
 
 **MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery 
 
- + Starting with *Patient Load*, which is [CLICK ON ITEXT AND READ], one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
+ + Starting with *Patient Load*, which is [CLICK ON I TEXT AND READ], one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
  
  + When *Care Quality* increases, the number of patients in the grey box labeled *Effect of MBC on Patient Symptoms and Risk* decreases, which then decreases *Patient Load*, further increasing *Care Quality*.  Let's zoom in to this part of the diagram to see how that works by clicking on the plus sign in the upper right corner of the grey box [CLICK ON MEASUREMENT BASED CARE VIEW]. 
  
@@ -204,7 +204,7 @@ Time Stamp | Team Learning Priorities | Script
       + First, high-symptom patients improve faster than before (see the arrow to “Time to Improve” which affects the number of patients each week whose symptoms improve enough to be eligible to be stepped down to a less intense level of care), and  
       + Second, patients with high risk flags improve faster than before (see the arrow to “Time to UnFlag” which affects the rate at which patients with high risk flags have those flags removed).  
 
- + This causes more patients to flow into the “low symptom” group, so more patients can both end their care and be recommended to step down to a lower level of care. Now, click any one of the plus signs in a grep box to zoom out to the previous view [TOGGLE BACK TO STEPPED CARE VIEW].  
+ + This causes more patients to flow into the “low symptom” group, so more patients can both end their care and be recommended to step down to a lower level of care. Now, click any one of the plus signs in a grey box to zoom out to the previous view [TOGGLE BACK TO STEPPED CARE VIEW].  
  
  + As more patients leave this setting, it further reduces the total number of patients in the GMH treatment setting, thus further decreasing the patient load and increasing quality. When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load. When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.” 
 
