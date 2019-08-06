@@ -43,7 +43,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 4. We are supporting shared team decision-making in this project.
 
 **Sessions 10-12- Rate the following 2 items.** 
-- [ ] 1. We recognized local challenges for our (this) and came up with good solutions.
+- [ ] 1. We recognized local challenges for our (this) team and came up with good solutions.
 - [ ] 2. We developed strategies that are likely to work for our (this) team.
 
 
