@@ -87,7 +87,7 @@
 
 - Their individual visions included emphases about each providers frustrations with getting patients seen in a timely way, and being able to offer "top of license" care likely to get Veterans better.
 
-- They joined around their frustration with referring their patients to another team: the Speciaty Mental Health programs locally are Addiction Treatment Services, Telehealth, and a PTSD Clinical Team.
+- They joined around their frustration with referring their patients to another team: the Speciaty Mental Health programs locally are Addiction Treatment Services, Telehealth, and a PTSD Clinical Team. The PCT is their primary frustration.
 
  
 
