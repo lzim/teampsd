@@ -55,10 +55,13 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 ### 3. Look for areas of consensus among the team.  
 
   a. Where are there areas of high consensus? What issues does the team agree about?  
+  _Decide what charts from DataUI to show to reinforce concensus, specifically relating to teams priority needs / assist with our differential.  Should be similar to charts shown in Session 3._
   
 ### 4. Discuss items in which team members varied a lot in their rankings.  
 
   a. What the topics where team members' perspectives are more divergent?  
+  _Decide what charts from DataUI to show to reinforce concensus, specifically relating to teams priority needs / assist with our differential.  Should be similar to charts shown in Session 3._
+
 
 ### 5. Focus on the high priority needs to select a module.  
 
