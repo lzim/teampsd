@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Learner See"
 author: "Team PSD"
-date: "October 2018"
+date: "August 2019"
 output: 
   github_document: default
   html_document: default
@@ -31,7 +31,7 @@ output:
 
 ## Learning Objectives
 
-1. Describe the team data in the experiments tile.
+1. Describe the team data in the Experiments section.
 2. Test out the simulation user-interface for more information about team data.
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
@@ -43,25 +43,25 @@ output:
 ## Check the name of your team data file in Explorer
 1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation. 
 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
-3. The team data file for simulation is in our team folder, in the team_data_sim folder
+3. The team data file for simulation is in our team folder, in the team_data_sim_ui folder.
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)
 
 ## Log in to the sim UI in Chrome
 
-4. Log in to the Sim UI.
+4. Log in to the sim UI.
 
 + Open a new browser window in Google Chrome and go to mtl.how/sim.
 
 + Enter your login credentials and click the "Login" button.
 
-+ A box instructing you to *Please select a World* will appear. If you are working collaboratively with your team in *MTL* please select your team world denoted by "team" in the title of the world. If you are exploring the Sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
++ A box instructing you to *Please select a World* will appear. If you are working collaboratively with your team in *MTL* please select your team world denoted by "team" in the title of the world. If you are exploring the sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
 
 + Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)
 
-5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
+5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, sections with blue headers).
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_exp_maint.gif)
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_team_data_menu_maint.gif)
@@ -72,16 +72,16 @@ output:
 
 + Select the team data you want to use.
 
-+ * For CC & MM, you need to select your Learning Mode before hitting Play.  
+  + For CC & MM, you need to select your Learning Mode before hitting Play.  
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/learning_mode.gif)
 
 + Click Play.
 
-7. Orient yourself to the Main Page of the Sim UI (same information and buttons at top; 3 tiles with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
+7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_sections.gif)
 
-8. Expand the Experiments tile by clicking on the white down arrow in the right corner of the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
+8. Expand the Experiments section by clicking on the white down arrow in the right corner of the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
 
 + What types of decisions does the team make that affect these variables?
 
