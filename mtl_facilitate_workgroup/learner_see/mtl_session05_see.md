@@ -31,7 +31,7 @@ output:
 
 ## Learning Objectives
 
-1. Describe the team data in the experiments tile.
+1. Describe the team data in the experiments section.
 2. Test out the simulation user-interface for more information about team data.
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
@@ -77,11 +77,11 @@ output:
 
 + Click Play.
 
-7. Orient yourself to the Main Page of the Sim UI (same information and buttons at top; 3 tiles with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
+7. Orient yourself to the Main Page of the Sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_sections.gif)
 
-8. Expand the Experiments tile by clicking on the white down arrow in the right corner of the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
+8. Expand the Experiments section by clicking on the white down arrow in the right corner of the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
 
 + What types of decisions does the team make that affect these variables?
 
