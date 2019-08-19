@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "September 2018"
+date: "August 2019"
 output: 
   github_document: default
   html_document: default
@@ -35,7 +35,7 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
 ## Learning Objectives
 
-1. Describe the team data in the Experiments tile.
+1. Describe the team data in the Experiments section.
 2. Test out the simulation user-interface for more information about team data.
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
@@ -60,41 +60,44 @@ h) Simulation helps us to place a better initial bet about what is likely to pay
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 
+# In-session Exercise (30 minutes)
+# Session 5 In-Session Exercise
 ### Let's get started:
 
-# In-session Exercise (30 minutes): Log in; upload and review team data
+**1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation.**
 
-**1. In session 3, we used the *MTL* data UI at mtl.how/data to produce our team data file for use in simulation. 
+**2. Now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
 
-**2. We want to locate that file now because the first thing we will do when we open the SIM UI is to load that data file we created. 
-
-**3. Using Internet Explorer, go to mtl.how/data. The team data file for simulation is in the team folder named team_data_sim. 
-
-**4. Now, leave that browser window as it is - we'll come back to it in a minute - and open a new window for the sim UI. This works best in Chrome.
-
-a) Go to mtl.how/sim, enter your username and password, and click the green Login button.   
-
-b) When you're asked to Select a World, click the down-arrow to open the drop-down menu and see the choices.   
-
-c) When we're working together, we'll be in the Team world.   
-
-d) Each team member also has their own individual world you can play in as much as you want - there's nothing you can "break" and no veterans will be harmed as you experiment virtually. But for team sessions we'll use the team world.   
-
-e) Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.  
+**3. The team data file for simulation is in our team folder, in the team_data_sim_ui folder.**
+a) We want to locate that file now because the first thing we will do when we open the SIM UI is to load that data file we created.
 
 
-**5. Let's orient ourselves to what's on the landing page:
+
+## Log in to the sim UI in Chrome
+**4. Log in to the sim UI.**
++ Open a new brower window in Google Chrome and go to mtl.how/sim.
++ Enter your login credentials and click the "Login" button.
++ A box instructing you to *Please select a World* will appear. If you are working collaboratively with your team in *MTL* please select your team world denoted by "team" in the title of the world. If you are exploring the sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
+a) When we're working together, we'll be in the Team world.   
++ Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
+
+
+**5. Orient yourself to the landing page (team name, navigation icon, player name, welcome text, sections with blue headers).**
 
 a) At the top left is the *MTL* logo. That’s on every page in the sim UI, and it works as a Home button (just like the button next to it), bringing you back to this landing page.
 
 b) Reading across on that row you see your Team name followed by five navigation icons: Home, Play, Chat, Help, and Logoff. These are pretty self-explanatory, but I want to highlight the Logoff button and mention that it's always best to log off when you’re finished with a session in the sim UI. At the far right along the top is your picture (if you’ve uploaded it) and your name.
    
-c) Below that row is the *MTL* welcome text, and under that there are 3 sections headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.
+c) Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.
   
-d) If you're not designated as TeamLead, you won't see all of these features. But everyone is designated “TeamLead” for their individual world and will see everything when you're logged in there.
+d) If you're not designated as a Team Lead, you won't see all of these features. But everyone is designated as “Team Lead” for their individual worlds and will see all of the sections when you're logged in there.
   
 
-**6. Now we'll Start a New Session.   
+**6. Start a New Session.** 
++ Select the module your team decided to use.
++ Select the team data you want to use.
+  + For CC & MM, you need to select your Learning Mode before hitting Play.
++ Click Play.
 
 a) In the section on the left, you see two main choices: Join the Current Session or Start a New Session. Since this is the first time we've logged in to this world, there is no “current session”. After this, there will be, and details about it will show up underneath the Join Current Session option. For today, we will start a new session.   
 
@@ -106,9 +109,9 @@ d) This dropdown list is the Team Data Menu, which is managed by the far right s
 
 e) There are 3 options under the blue bar: Delete, Rename, and Add. We want to Add your team data file to the menu we just saw, so we select Add.   
 
-f) It's important to enter the filename EXACTLY as it is named in the team_data_sim folder, so the best thing is to copy and paste it in here.   
+f) It's important to enter the filename EXACTLY as it is named in the team_data_sim_ui folder, so the best thing is to copy and paste it in here.   
 
-g) Go to the browser window showing the team data folder, grab the name of the team data file (Control C), and paste it into the Add or Change Filename text box (Control V). Make sure it didn’t get cut off and that it has the Excel extension; that is, the filename ends in .xlsx.   
+g) Go back to the Internet Explorer browser window showing the team_data_sim_uifolder, grab the name of the team data file (Control C), and paste it into the Add or Change Filename text box (Control V). Make sure it didn’t get cut off and that it has the Excel extension; that is, the filename ends in .xlsx.   
 
 h) If you need to make a correction, you can click the check-box by it and use the Rename function. But we should have the correct file name there, so we click Save and Voila! Our team data file will now be available for us in the Choose Team Data menu!  
 
@@ -119,15 +122,19 @@ j) Now let’s go back to the section on the far left, choose Start a New Sessio
 k) The very first time we use a given team data file, you may notice a short delay as the sim reads in the data. After that, it should open up the sim UI Main Page pretty quickly.  
 
 
-**7.	Let's explore the Main Page of the SimUI:
+**7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; three sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).**
 
 a) It has the same information and buttons across the top as on the landing page; and there's a new set of sections with blue headers.  
 
 b) The blue bar of the large section on the left names the module and team data file we selected, and in that section is the model diagram for the _________ module, with an Experiment Timeline section at the top.  
 
-c) To the right of the main section are 3 blue bars labelled Outputs, Experiments, and Text. The Text section can be moved around by placing the cursor over the blue bar and dragging. It can also be expanded, shrunk, or closed by clicking the icons on the right side of the blue bar: the open square/double square, or the circle with an X. Expanding it opens up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Output section and selecting Expand.  
+c) To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. The Text section can be moved around by placing the cursor over the blue bar and dragging. It can also be expanded, shrunk, or closed by clicking the icons on the right side of the blue bar: the open square with arrow, or the circle with an X. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.  
 
-**8. The next thing we want to do is to explore the Team Data Table, which is in the upper part of the Experiments Section. Let's move the Text over and expand Experiments.
+**8. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar. Click on the "i" in the red circle next to Team Data and read the "i" information for the Team Data Table.**
++ What types of decisions does the team make that affect these variables?
++ How do the values in this table strike you?
++ Do they line up with how you think things really are?
+The next thing we want to do is to explore the Team Data Table, which is in the upper part of the Experiments Section. Let's move the Text over and expand Experiments.
 
 a) The data in this table come from - you guessed it, the team data file. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
 
@@ -138,7 +145,18 @@ b) To see how the values in this table were calculated from team data, click on 
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/icons/information.png) = INFORMATION
 
-**9. Let's review the variables in the table and their units.
+**9. Find the Team Data Table variables in the system diagram at the left.**
++ True Missed Appointments %
+
++ Appointment Supply
+
++ Return Visit Interval
+
++ Engagement Duration	
+
++ New Patient Start Rate (AGG)
+a) Think about how the values in the table line up with how you think things really are in your team. There may be differences, for example, if things have changed a lot over the past few months. Just keep those thoughts in mind, because you can experiment with different values over the next few sessions. 
+b) Also think about what types of decisions the team has within its control that affect these variables. The variables may suggest some of the kinds of decisions front-line staff can explore for optimizing care for veterans in ways that work for staff.
    
 CARE COORDINATION MODULE Team Data Table
 
@@ -154,11 +172,10 @@ AGGREGATE MODULE Team Data Table
 
 SUICIDE PREVENTION MODULE Team Data Table
 
-   + Think about how the values in the table line up with how you think things really are in your team. There may be differences, for example, if things have changed a lot over the past few months. Just keep those thoughts in mind, because you can experiment with different values over the next few sessions. 
-  
-   + Also think about what types of decisions the team has within its control that affect these variables. The variables may suggest some of the kinds of decisions front-line staff can explore for optimizing care for veterans in ways that work for staff.
+ 
 
-10. Before we close the browser window, let's log out of the sim UI. It's best practice to do that any time you need to turn off or leave your computer for a while.
+**10. Log out of the sim UI.**
+a) Before we close the browser window, let's log out of the sim UI. It's best practice to do that any time you need to turn off or leave your computer for a while.
 
 
 ### That's it for _Modeling to Learn_ how to log in to our team world. Since we're finished with this session, we'll LOGOFF of the Sim UI. Next is our Done/Do review.  
