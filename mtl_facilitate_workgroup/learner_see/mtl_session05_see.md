@@ -42,13 +42,14 @@ output:
 
 ## Check the name of your team data file in Explorer
 1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation. 
-2. Let's now go back to mtl.how/data in an Internet Explorer window and copy (Ctrl+C) the name of that team data file so we can upload it to the Sim UI. It is in our team folder, in the team_data_sim_ui folder.
+2. Let's now go back to mtl.how/data in an Internet Explorer window and copy (Ctrl+C) the name of that team data file so we can upload it to the Sim UI. 
+3. The team data file for simulation is in our team folder, in the team_data_sim_ui folder.
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)
 
 ## Log in to the sim UI in Chrome
 
-3. Log in to the sim UI.
+4. Log in to the sim UI.
 
 + Open a new browser window in Google Chrome and go to mtl.how/sim.
 
