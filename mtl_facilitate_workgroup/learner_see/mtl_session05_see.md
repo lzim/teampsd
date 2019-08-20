@@ -60,7 +60,7 @@ output:
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)
 
-## Orient yourself to the landing page
+## Check out the landing page
 
 4. Notice the Team name, navigation icons, player name across the top; the welcome text, and the sections with blue headers. 
 
@@ -81,7 +81,7 @@ output:
 
 + Click Play.
 
-## Orient yourself to the Sim UI Main Page
+## Familiarize yourself with the Sim UI Main Page
 
 7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
 
