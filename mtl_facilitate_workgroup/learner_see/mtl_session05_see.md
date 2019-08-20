@@ -42,14 +42,13 @@ output:
 
 ## Check the name of your team data file in Explorer
 1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation. 
-2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
-3. The team data file for simulation is in our team folder, in the team_data_sim_ui folder.
+2. Let's now go back to mtl.how/data in an Internet Explorer window and copy (Ctrl+C) the name of that team data file so we can upload it to the Sim UI. It is in our team folder, in the team_data_sim_ui folder.
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)
 
 ## Log in to the sim UI in Chrome
 
-4. Log in to the sim UI.
+3. Log in to the sim UI.
 
 + Open a new browser window in Google Chrome and go to mtl.how/sim.
 
@@ -61,8 +60,13 @@ output:
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)
 
-5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, sections with blue headers).
+## Orient yourself to the landing page
+
+4. Notice the Team name, navigation icons, player name across the top; the welcome text, and the sections with blue headers. 
+
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_exp_maint.gif)
+
+5. In the Team Data Menu Maintenance section on the right, click Add and paste (Ctrl+V) the filename you saved from the data UI into the box.
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_team_data_menu_maint.gif)
 
@@ -70,12 +74,14 @@ output:
 
 + Select the module your team decided to use. 
 
-+ Select the team data you want to use.
++ Select the team data you just uploaded.
 
-  + For CC & MM, you need to select your Learning Mode before hitting Play.  
+  + For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.  
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/learning_mode.gif)
 
 + Click Play.
+
+## Orient yourself to the Sim UI Main Page
 
 7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
 
@@ -87,17 +93,9 @@ output:
 
 + How do the values in this table strike you? Do they line up with how you think things really are?
 
-9. Find the Team Data Table variables in the system diagram at the left.
+9. Look for the Team Data Table variables in the system diagram at the left.
 
-+ True Missed Appointments %
-
-+ Appointment Supply
-
-+ Return Visit Interval
-
-+ Engagement Duration	
-
-+ New Patient Start Rate (AGG)
+## Log out!
 
 10. Log out of the Sim UI
 
