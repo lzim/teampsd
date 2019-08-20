@@ -61,9 +61,7 @@ output:
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)
 
-## Check out the landing page
-
-4. Notice the Team name, navigation icons, player name across the top; the welcome text, and the sections with blue headers. 
+5. Review the Home page (Team name e, navigation icons, player name; welcome text, and the sections with blue headers).
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_exp_maint.gif)
 
