@@ -155,6 +155,7 @@ b) To see how the values in this table were calculated from team data, click on 
 + Engagement Duration	
 
 + New Patient Start Rate (AGG)
+
 a) Think about how the values in the table line up with how you think things really are in your team. There may be differences, for example, if things have changed a lot over the past few months. Just keep those thoughts in mind, because you can experiment with different values over the next few sessions. 
 b) Also think about what types of decisions the team has within its control that affect these variables. The variables may suggest some of the kinds of decisions front-line staff can explore for optimizing care for veterans in ways that work for staff.
    
