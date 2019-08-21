@@ -13,33 +13,28 @@ output:
 ---
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+     height = "114" width = "190">  
 
 # [MTL Live Session 05](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd "MTL Live Session 05")
 
 # Today we're modeling to learn how to log in to our team world.
-Hello! I'm __________ and I'm __________ and today we're modeling to learn how to log in to our team world.  
 
-### As you see in the Done and Do table of your Learner See Guide:
-
-## Done and Do (15 minutes)
+## Done and Do [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "25" width = "25"> 15]
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the sim UI at mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. | 
 
-### After this session you will be able to:
+## Learning Objectives - After this session you will be able to:
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
-
-## Learning Objectives
 
 1. Describe the team data in the Experiments section.
 2. Test out the simulation user-interface for more information about team data.
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
-## Participatory Learning from Simulation
+## Participatory Learning from Simulation [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "25" width = "25">_____ ]
 
 a) In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what is* in our team now. For example, we saw that ___________________ 
 
