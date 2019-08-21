@@ -66,7 +66,9 @@ h) Simulation helps us to place a better initial bet about what is likely to pay
 
 **1. In session 3, we used the data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation.**
 
-**2. Now, let's go back to mtl.how/data in an Internet Explorer window and navigate to our eam_data_sim_ui folder. Copy (Ctrl+C) the name of our team data for sim UI file. We will use this to upload that file to the Sim UI.
+**2. Let's now go back to mtl.how/data in an Internet Explorer window and copy (Ctrl+C) the name of that team data file so we can upload it to the Sim UI.
+
+**3. The team data file for simulation is in our team folder, in the team_data_sim_ui folder.**
 
 ## Log in to the sim UI in Chrome
 **4. Log in to the sim UI.**
@@ -77,7 +79,7 @@ a) When we're working together, we'll be in the Team world.
 + Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
 
 
-**5. Orient yourself to the landing page (team name, navigation icon, player name, welcome text, sections with blue headers).**
+**5. Review the Home page (Team name e, navigation icons, player name; welcome text, and the sections with blue headers).**
 
 a) At the top left is the *MTL* logo. That’s on every page in the sim UI, and it works as a Home button (just like the button next to it), bringing you back to this landing page.
 
@@ -93,6 +95,7 @@ d) If you're not designated as a Team Lead, you won't see all of these features.
 + Select the team data you want to use.
   + For CC & MM, you need to select your Learning Mode before hitting Play.
 + Click Play.
++ In the Team Data Menu Maintenance section on the right, click Add and paste (Ctrl+V) the filename you saved from the data UI into the box.
 
 a) In the section on the left, you see two main choices: Join the Current Session or Start a New Session. Since this is the first time we've logged in to this world, there is no “current session”. After this, there will be, and details about it will show up underneath the Join Current Session option. For today, we will start a new session.   
 
@@ -140,7 +143,7 @@ b) To see how the values in this table were calculated from team data, click on 
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/icons/information.png) = INFORMATION
 
-**9. Find the Team Data Table variables in the system diagram at the left.**
+**9. Look for the Team Data Table variables in the system diagram at the left.**
 + True Missed Appointments %
 
 + Appointment Supply
@@ -161,12 +164,14 @@ MEDICATION MANAGEMENT MODULE Team Data Table
 
 
 PSYCHOTHERAPY MODULE Team Data Table
+
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/psy_team_data_table.png">
 
 AGGREGATE MODULE Team Data Table
 
 
 SUICIDE PREVENTION MODULE Team Data Table
+
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/sp_team_data_table.png">
 
  
