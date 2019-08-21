@@ -47,7 +47,7 @@ output:
   - Measurement-based stepped care for suicide prevention (SP)
 
 ### 1. Select a module for review
-- Find a variable that is important to you team. How is it estimated in this table? What are it's units?
+- Find a variable that is important to you team. How is it estimated in this table? What are its units?
 - Where can you find even more detailed information about your team data?
 - Check out the last two columns. What is the difference between these two columns?
 
