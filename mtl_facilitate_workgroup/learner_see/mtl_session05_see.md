@@ -65,9 +65,6 @@ output:
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_exp_maint.gif)
 
-5. In the Team Data Menu Maintenance section on the right, click Add and paste (Ctrl+V) the filename you saved from the data UI into the box.
-
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_team_data_menu_maint.gif)
 
 6. Start a New Session
 
@@ -79,8 +76,10 @@ output:
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/learning_mode.gif)
 
 + Click Play.
++ In the Team Data Menu Maintenance section on the right, click Add and paste (Ctrl+V) the filename you saved from the data UI into the box.
 
-## Familiarize yourself with the Sim UI Main Page
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_team_data_menu_maint.gif)
+
 
 7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
 
