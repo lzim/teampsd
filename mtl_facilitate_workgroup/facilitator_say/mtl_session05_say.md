@@ -41,7 +41,7 @@ Hello! I'm __________ and I'm __________ and today we're modeling to learn how t
 
 ## Participatory Learning from Simulation
 
-a) In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what is* in our team now.  
+a) In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what is* in our team now. For example, we saw that ___________________ 
 
 b) Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it.  
 
@@ -49,11 +49,11 @@ c) It's also really demotivating to see trends we don't like and not know what's
 
 d) Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends.  
 
-e) We'll start asking *what if* questions about different decisions the team could make.   
+e) We'll start asking *what if* questions about different decisions the team could make. 
 
 f) With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove".   
 
-g) And even more importantly, this virtual world lets us test our "what if" questions without any risk to the lives of veterans.   
+g) And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.   
 
 h) Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
 
@@ -64,14 +64,9 @@ h) Simulation helps us to place a better initial bet about what is likely to pay
 # Session 5 In-Session Exercise
 ### Let's get started:
 
-**1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation.**
+**1. In session 3, we used the data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation.**
 
-**2. Now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
-
-**3. The team data file for simulation is in our team folder, in the team_data_sim_ui folder.**
-a) We want to locate that file now because the first thing we will do when we open the SIM UI is to load that data file we created.
-
-
+**2. Now, let's go back to mtl.how/data in an Internet Explorer window and navigate to our eam_data_sim_ui folder. Copy (Ctrl+C) the name of our team data for sim UI file. We will use this to upload that file to the Sim UI.
 
 ## Log in to the sim UI in Chrome
 **4. Log in to the sim UI.**
