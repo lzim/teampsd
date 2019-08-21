@@ -161,12 +161,13 @@ MEDICATION MANAGEMENT MODULE Team Data Table
 
 
 PSYCHOTHERAPY MODULE Team Data Table
-
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/psy_team_data_table.png">
 
 AGGREGATE MODULE Team Data Table
 
 
 SUICIDE PREVENTION MODULE Team Data Table
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/sp_team_data_table.png">
 
  
 
