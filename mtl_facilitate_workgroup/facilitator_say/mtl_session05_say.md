@@ -46,7 +46,7 @@ d) With the sim UI we have a way to test our hypotheses about those questions th
 
 e) Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
 
-## In-session Exercise - Let's get started! [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## In-session Exercise [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
 
 **The Team Lead, or whoever is willing to drive today: open an Internet Explorer browser and a Chrome browser, then share both applications in Adobe Connect.**
 
@@ -112,7 +112,7 @@ c. Click Save. We will discuss naming more next time. For now, just click the do
 
 d. Log out of the sim UI. It's best practice to do that any time you need to turn off or leave your computer for a while.
 
-### That's it for _Modeling to Learn_ how to log in to our team world. Since we're finished with this session, we'll LOGOFF of the Sim UI. Next is our Done/Do review.  
+### That's it for _Modeling to Learn_ how to log in to our team world.   
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
