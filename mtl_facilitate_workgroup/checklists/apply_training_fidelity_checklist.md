@@ -40,7 +40,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 ### 6. What is the team's guiding question and hypotheses? (what are they testing?)
 
-#### BUILD & APPLY (s5-s8) Intersession Checklist Priorities
+#### BUILD & APPLY (s9-12) Intersession Checklist Priorities
 
 _CONSIDER THESE QUESTIONS_
 - **NEED: Current working conceptualization of this team's need based on the 4 priorities below?**  _______________________________________
@@ -109,10 +109,11 @@ Time | **Short   _and_   long term.**      Better understanding of change over  
 - [ ] ___ fidelity _______________________________________
 
 
-#### Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d.  
+#### Sessions 9-12 - _**APPLY** capacity for participatory learning from simulation using team q/h/f/d.  
 _Participatory Learning + Systems Thinking Emphasized:_
 
 ##### MODULE Which module are you working with? 
+- [ ] ___ CC ______________________________________
 
 - [ ] ___ MM _______________________________________
 
@@ -125,24 +126,24 @@ _Participatory Learning + Systems Thinking Emphasized:_
 
 ##### SEE guide 
 
-- [ ] ___ session 5 _______________________________________
+- [ ] ___ session 9 _______________________________________
 
-- [ ] ___ session 6 _______________________________________
+- [ ] ___ session 10 _______________________________________
 
-- [ ] ___ session 7 _______________________________________
+- [ ] ___ session 11 _______________________________________
 
-- [ ] ___ session 8 _______________________________________
+- [ ] ___ session 12 _______________________________________
 
 
 ##### SAY guide 
 
-- [ ] ___ session 5 _______________________________________
+- [ ] ___ session 9 _______________________________________
 
-- [ ] ___ session 6 _______________________________________
+- [ ] ___ session 10 _______________________________________
 
-- [ ] ___ session 7 _______________________________________
+- [ ] ___ session 11 _______________________________________
 
-- [ ] ___ session 8 _______________________________________
+- [ ] ___ session 12 _______________________________________
 
 
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
