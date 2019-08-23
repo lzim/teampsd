@@ -163,8 +163,9 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   
   e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A.  
 
-## 5. To view your team patient data and your team trends click on "Get-Patient-level Data." We will not do this in-session today.  
+## 5. To view your team patient data and your team trends click on "Get-Patient-level Data." With your team lead (________), we selected the following clinics to represent your team.  
   
+  a. Are these clinics familiar and correct? 
   b. We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.  
 
 ## 6. Click to view the "viz" tabs, which show team trends.  
