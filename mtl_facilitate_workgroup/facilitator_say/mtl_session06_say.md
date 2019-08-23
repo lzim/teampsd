@@ -1,7 +1,7 @@
 ---
-title: "MTL Session 6 - Faciliator Say"
+title: "MTL Session 6 - Facilitator Say"
 author: "Team PSD"
-date: "September 2018"
+date: "August 2019"
 output: 
   github_document: default
   html_document: default
@@ -26,7 +26,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority of __________ using the Model Diagram in the Sim UI. | 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority of __________ using the Model Diagram in the sim UI. | 
 
 ### After this session you’ll be able to: 
 
@@ -35,7 +35,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Learning Objectives
 
-1. Describe the systems story of _____ [the team's highest priority] _____. 
+1. Describe the systems story of your team's highest priority. 
 2. Test out your thinking about causes of team challenges using the model diagram.
 3. Apply clinical expertise to develop a question for team learning using simulation.
 
