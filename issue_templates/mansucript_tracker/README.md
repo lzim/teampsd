@@ -4,7 +4,7 @@ _This checklist will ensure all manuscript components are completed as issues mo
 
 **Please ensure all checklist items are covered for each manuscript.**
 
-### OSF
+### 1. OSF
 
 - [ ] OSF Project created, and project linked to **manuscript_tracker**
 
@@ -13,7 +13,7 @@ _This checklist will ensure all manuscript components are completed as issues mo
 - [ ] All authors added to OSF project as contributors 
 
 
-### Authorship
+### 2. Authorship
 
 - [ ] Shinyapp used to determine 1) **eligible** and 2) **responsible** authors
 
@@ -24,7 +24,7 @@ _This checklist will ensure all manuscript components are completed as issues mo
 - [ ] Workflow determined during **#manuscriptmonday** 
 
 
-### Write & Analyze
+### 3. Write & Analyze
 
 #### Conceptualization
 
@@ -88,14 +88,14 @@ _This checklist will ensure all manuscript components are completed as issues mo
 
 - [ ] Graphs
 
-### Edit
+### 4. Edit
 
 - [ ] Team members pinged and tasked with editing
 
 - [ ] Paper returned to **Write and Analyze** column if necessary
 
 
-### Approve Letter
+### 5. Approve Letter
 
 - [ ] Final edits on OSF
 
@@ -118,14 +118,14 @@ _This checklist will ensure all manuscript components are completed as issues mo
 - [ ] All authors sign approve letter to the editor
 
 
-### Submit/Under Review
+### 6. Submit/Under Review
 
 - [ ] Manuscript & Letter to editor uploaded to online portal
 
 - [ ] Submitted manucript uploaded to OSF project
 
 
-### Respond and Revise
+### 7. Revise and Respond
 
 - [ ] Review editor feedback and assign responses across co-authors
 
@@ -152,14 +152,14 @@ _This checklist will ensure all manuscript components are completed as issues mo
     - mentees: check with Lindsey (minimum) 
 
 
-### Resubmit
+### 8. Resubmit
 
 - [ ] Draft letter to editor
 
 - [ ] Upload revised manuscript to the portal
 
 
-### Acceptance or Select Alternative Outlet
+### 9. Acceptance or Select Alternative Outlet
 
 - [ ] Receive acceptance from journal
 
@@ -168,7 +168,7 @@ _This checklist will ensure all manuscript components are completed as issues mo
 - [ ] Plan to submit to an alternative outlet 
 
 
-### Publish & Publicize
+### 10. Publish & Publicize
  
 - [ ] Publish paper (electronic, paper, etc.)
 
