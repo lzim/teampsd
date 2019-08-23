@@ -39,7 +39,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 ### 6. What is the team's guiding question and hypotheses? (what are they testing?)
 
-#### BUILD & APPLY (s5-10) Intersession Checklist Priorities
+#### BUILD & APPLY (s5-s8) Intersession Checklist Priorities
 
 _CONSIDER THESE QUESTIONS_
 - **NEED: Current working conceptualization of this team's need based on the 4 priorities below?**  _______________________________________
@@ -103,6 +103,7 @@ _CONSIDER THESE QUESTIONS_
 _Participatory Learning + Systems Thinking Emphasized:_
 
 ##### MODULE Which module are you working with? 
+- [ ] ___ CC ______________________________________
 
 - [ ] ___ MM _______________________________________
 
@@ -137,26 +138,6 @@ _Participatory Learning + Systems Thinking Emphasized:_
 
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
 
-#### s1
-- [ ] Team Vision _______________________________________
-- [ ] Team Lead _______________________________________
-- [ ] Standing team meeting time _______________________________________
-- [ ] Logged in to mtl.how/data to look at the splash page _______________________________________
-
- #### s2
-- [ ] Selected the clinics that make up our team for the Team Data _______________________________________
-- [ ] Reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
-- [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data. _______________________________________ 
-
-#### s3
-- [ ] Produced Team Data for the sim UI. _______________________________________
-- [ ] Prioritized data for review in the team data table. _______________________________________
-
-#### s4
-- [ ] Completed the mtl.how/menu to prioritize our needs. _______________________________________
-- [ ] Selected an MTL simulation module. _______________________________________
-- [ ] Checked to make sure we could log in to the sim UI at mtl.how/sim. _______________________________________
-
 #### s5
 - [ ] Logged in and uploaded our team data to the sim UI _______________________________________
 - [ ] Reviewed our team data in the Experiments Tile. _______________________________________
@@ -177,15 +158,6 @@ _Participatory Learning + Systems Thinking Emphasized:_
 - [ ] Team reviewed Expanded Outputs tile to compare the basecase and experiment 1. _______________________________________
 - [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
 
-#### s9
-- [ ] Team Lead Ran Experiment 2. _______________________________________
-- [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs tile. _______________________________________
-- [ ] "D" Decision text was to run a 3rd experiment on your own in your individual world. _______________________________________
-
-#### s10
-- [ ] A team member ran experiment 3 during the team meeting. _______________________________________
-- [ ] We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking. _______________________________________
-- [ ] Reviewed and compared the base case, exp 1, exp 2 and exp 3 to think about possible decisions/changes the team could make in their clinical care. _______________________________________
 
 ## C. Post-Session Debriefing checklist item 8 - Track Issues
 ### 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
