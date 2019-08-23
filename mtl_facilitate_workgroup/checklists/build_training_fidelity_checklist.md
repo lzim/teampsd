@@ -39,7 +39,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 ### 6. What is the team's guiding question and hypotheses? (what are they testing?)
 
-#### BUILD & APPLY (s5-10) Intersession Checklist Priorities
+#### BUILD & APPLY (s5-s12) Intersession Checklist Priorities
 
 _CONSIDER THESE QUESTIONS_
 - **NEED: Current working conceptualization of this team's need based on the 4 priorities below?**  _______________________________________
