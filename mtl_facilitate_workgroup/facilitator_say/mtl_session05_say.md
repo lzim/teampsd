@@ -70,7 +70,7 @@ d. An important thing to note is that this application has a responsive web desi
 
 a. At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).
 
-b. Scaning across that row you see your Team name followed by five navigation icons: Home, Play, Chat, Help, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).
+b. Scanning across that row you see your Team name followed by five navigation icons: Home, Play, Chat, Help, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).
    
 c. Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.
   
@@ -78,7 +78,15 @@ d. If you're not designated as a Team Lead, you won't see all of these features.
 
 e. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!  
   
-**4. Now we're on the Sim UI Main Page.** [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 4. Start a New Session
+
+a. Select the module the team decided to use.
+
+b. Select the team data you just uploaded.
+
+c. Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)  
+
+## 5. Now we're on the Sim UI Main Page. ** [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
 
 **Don't be too concerned about the newness and complexity you see here! We will take it one bite at a time, and we're just going to zoom in on the parts that are most related to your team's top priority question about _________.** 
 
