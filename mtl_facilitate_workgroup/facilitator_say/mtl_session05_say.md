@@ -60,7 +60,7 @@ b. Navigate to the team_data_sim_ui folder and click the "..." so you can copy t
 
 a. In your Google Chrome browser, go to mtl.how/sim.
 
-b. Enter your login credentials - that's your VA email address for the username and the default password, which is password@123 - and click "Login".
+b. Enter your login credentials - username is your VA email address and password should have been provided to you in your Post Session 4 email.
 
 c. Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!
 
