@@ -9,9 +9,7 @@
 - ees_workgroup
 
 **2. Issue Templates**
-- data-bug-report.md
-- guide-bug-report.md
-- sim-bug-report.md
+- https://github.com/lzim/teampsd/tree/master/issue_templates/mansucript_tracker
 
 **3. Model Workgroup**
 - model_workgroup
