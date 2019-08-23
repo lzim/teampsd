@@ -6,6 +6,4 @@
 ## Works in Progress
   
   **R**
-  
-  - r
-  - Help Code
+
