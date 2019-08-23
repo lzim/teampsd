@@ -50,13 +50,13 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
 
 **The Team Lead, or whoever is willing to drive today: open an Internet Explorer browser and a Chrome browser, then share both applications in Adobe Connect.**
 
-**1. Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI.** [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 1. Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
 
 a. In session 3, we showed how we used "Get Team Data Table for Sim UI" in the data user interface to produce our team data for simulation. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.
 
 b. Navigate to the team_data_sim_ui folder and click the "..." so you can copy the filename of your team data for the sim UI.
 
-**2. Go to the sim UI and upload the data file** [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 2. Go to the sim UI and upload the data file [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
 
 a. In your Google Chrome browser, go to mtl.how/sim.
 
@@ -66,7 +66,7 @@ c. Click the down-arrow in the *Please select a World* pop-up. You see two optio
 
 d. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that there the sim UI may look different on different devices, but all the same functionality is still there.
 
-**3. Let's explore what's on the Home page** [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 3. Let's explore what's on the Home page [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
 
 a. At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).
 
@@ -78,7 +78,7 @@ d. If you're not designated as a Team Lead, you won't see all of these features.
 
 e. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!  
   
-## 4. Start a New Session
+## 4. Start a New Session and review the Sim UI Main Page. [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
 
 a. Select the module the team decided to use.
 
@@ -86,17 +86,23 @@ b. Select the team data you just uploaded.
 
 c. Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)  
 
-## 5. Now we're on the Sim UI Main Page. ** [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+e. You see the same information and buttons across the top as the Home page. 
 
-**Don't be too concerned about the newness and complexity you see here! We will take it one bite at a time, and we're just going to zoom in on the parts that are most related to your team's top priority question about _________.** 
+d. There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.
 
-a. You see the same information and buttons across the top as the Home page. There's a new set of sections with blue headers below that.
+f. To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.
 
-b. The blue bar of the large section on the left names the module and team data file we selected, and inside that section is the model diagram for the _________ module, with an Experiment Timeline section at the top. This is a glimpse of what we're moving into, which is a new way of thinking about your team data. Instead of thinking of it as individual quantities or trends, we see that all those variables are *relational*. Where we're used to thinking about two variables at a time - if we change this it will affect that - now we're going to be able to see, if we change this, how it could affect all these other things.
+e. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.
 
-c) To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar: the open square with arrow, or the circle with an X. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.  
+## 5. Record the team's high-level learning Question. [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
 
-**5. Now let's look at your Team Data Table** [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+a. Open and expand the Outputs and Text section if you need to.
+
+b. Type your question about _________________________________ into the Question box.
+
+c. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.
+
+## 6. Check out the Team Data Table [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
 
 a. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar. 
 
@@ -108,17 +114,7 @@ d. What types of decisions does the team make that affect these variables?
 
 e. Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice ___________________________________________
 
-f. Notice that the values in this table feed into the system diagram on the left. See if you can find ______  in the system diagram.
-
-**6. Before we exit the Sim UI, let's record the team's top questions in the text box so you'll have them on hand when we come back next time.** [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
-
-a. Open and expand the Outputs and Text section if you need to.
-
-b. Type your question about _________________________________ into the Question box.
-
-c. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.
-
-d. Log out of the sim UI. It's best practice to do that any time you need to turn off or leave your computer for a while.
+## 7. Log out of the sim UI. 
 
 ### That's it for _Modeling to Learn_ how to log in to our team world.   
 
