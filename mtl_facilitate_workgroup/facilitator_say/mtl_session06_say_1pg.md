@@ -32,9 +32,9 @@ output:
 3. Apply clinical expertise to develop a question for team learning using simulation.
 
 ## Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team-specific rationale** _______________________________ 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team-specific rationale** ____________________________________________________ 
 - [ ] <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150"> Provide rationale for building capacity for participatory learning from simulation.
-- [ ] A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
+- [ ] A Systems Story is a description of the causal connections that create the problem your team is prioritizing _________________.  
 
 ## Team lead shares Chrome and logs in to your Individual world at **mtl.how/sim**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 05 Question** ____________________________________________________ 
