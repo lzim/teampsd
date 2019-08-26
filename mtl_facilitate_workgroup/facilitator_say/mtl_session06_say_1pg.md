@@ -45,9 +45,9 @@ output:
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority** ____________________________________________________ 
 - [ ] **Experiment Timeline** Over what time frame does an experiment run? Two years from today.
-- [ ] **Blue circle "i"** are calculated by simulation user interface from the red variables that are read in from team data. 
+- [ ] **Blue circle "i"** provide information on how model variables are calculated by simulation user interface, from the red variables that are read in from team data.   
 - [ ] **Reveal complexity** shows more of the model diagram being shown but the model still accounts for all the complexity.
-- [ ] **Red variables** are red in from team data.
+- [ ] **Red variables** are read in from team data.
 
 ## Introducing stocks/flows and polarities among key variables related to the team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority** ____________________________________________________ 
@@ -65,6 +65,6 @@ output:
 
 ## Have Team Lead pull up the sesison 06 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
-- [ ] Log into your individual world and enter a Question and Hypothesis about the base case experimental run in the Text section.
+- [ ] Log into your individual world at mtl.how/sim and enter a Question and Hypothesis about the base case experimental run in the Text section.
 - [ ] Log out  out of the SIM UI! 
 - [ ] Team post session 06 email will be sent.
