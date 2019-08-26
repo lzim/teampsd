@@ -46,9 +46,10 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your individual simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
 
-#### Part 1. + To start this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll actually be able to play along with our scavenger hunt on your own, instead of just watching us do it.  
+#### Part 1: Where in the MTL World Is...
++ To start this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll actually be able to play along with our scavenger hunt on your own, instead of just watching us do it.  
 
-+ Loggin in to your Individual world is at the same link we used last week, mtl.how/sim, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that starts with **"ind" from the drop-down menu**, so we can all use the simulation at the same time.  
++ Login in to your Individual world is at the same link we used last week, mtl.how/sim, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that starts with **"ind" from the drop-down menu**, so we can all use the simulation at the same time.  
 
 + Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.  
 
@@ -65,47 +66,41 @@ Also, depending on the size of your monitor and whether your browser window is f
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:10-00:15*** 
 
 ## Now we're ready for our scavenger hunt. We'll ask a series of questions and your job is to find the answer in the Model Diagram.  
++ **Facilitators will ask team members to find certain information on the mtl.how/sim main section.**
++ **Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box. **
++ **If at any time you are not sure how to find something, ask for help. The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.**
 
-**Question 1: What are the two major units in each module?**  
-
-Answer: Each *Modeling to Learn* module examines the flows of *Appointments* and the flow of *Patients*. You can see this in the model diagram --[use mouse to show location of text] *Appointments* in the top left and *Patients* in the middle on the left.
-
-**Question 2: Over what time frame does an experiment run?**  
+**Question 1: Over what time frame does an experiment run?**  
 
 Answer: You can find the time frame in the **Experiment Timeline** section up at the top of the model diagram section. Experiments simulate the plausible future out **two years from today**.  
 
-**Question 3: What happens in the diagram when you *Reveal Complexity*?**  
+**Question 2: Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the _Rates_ into the chat box?**
+
+Answer: The **small circles with i inside throughout the sim UI** provide additional information when you click on them. There are 3 kinds of *i* variables in *Modeling to Learn*. First, there are explanations for the red variables that are read in from team data. Second, there are experimental variables - you can click on the *i* to understand what you are changing. Third, there explanations for the varables that are calculated by the model when you run a simulation. 
+
+**Question 3: Describe in one sentence what happens in the diagram as you click to Reveal complexity**  
 
 Answer: Options to Reveal Complexity are found under the *Experiment Timeline* in each module.  
    + You can select the check-boxes under *Reveal Complexity* to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex.  
    + When we reveal the different *Reveal Complexity* options, additional colored boxes and light and dark blue arrows appear on the main model diagram.  As was just noted, you can play with clicking and unclicking the *Reveal Complexity* options [use mouse to show this] and study what appears on the screen.  
    + You should know that the amount of the model diagram being shown does NOT have anything to do with how the model itself is running when you run experiments - it's ONLY an option to let you control how much of the actual model's complexity you're viewing in the diagram.  
- 
- Let's go on to the next question for our scavenger hunt.
+   
+**Question 4: What is the significance of the variables in the red boxes?**
+
+Answer: Red means read in from team data. 
+
+#### Part 2: Telling a Systems Story**  
 
 
++ **Starting Point: Main model section with no additional complexities revealed. **
+***Tip:* If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.**  
++ **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
 
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | **Review** the team data the led to that q/h/f/d | **Practice highlighting specific variables relevant to the systems story associated with the team's highest priority need.**
 
-**Question 4 a and b:**  
-  a. Where can you find descriptions for the variables in the Model Diagram?  
-   Answer: The **small circles with i inside throughout the sim UI** provide additional information when you click on them. There are 3 kinds of *i* variables in *Modeling to Learn*. First, there are explanations for the red variables that are read in from team data. Seond, there are experimental variables - you can click on the *i* to understand what you are changing. Third, there explanations for the varables that are calculated by the model when you run a simulation. 
-
-  b. Now, let's explore what's in an "i" description of a variable in the model diagram.  
-     **Choose a variable relevant to the team's top priority, ask the team lead to click it, and read the i text, asking "How is variable _________ described?  Does this make sense for your team?**
-
-
-
-**Question 5: What are the units of time in mtl.how/sim?**  
-
-Answer: It's weeks! We did a lot of work in the field with clinicians to figure out what the appropriate units of time would be for *MTL*.  Any day can be very different from any other, and it's hard to remember what has happened over the course of a month.  Weeks was the unit of time that was the easiest for clinicians to hold in their minds. The units are also in the "i* boxes.  
-
-
-### Part 2.	Now we’ll use the Model Diagram to tell a systems story about the needs and questions the team identified as your priority. 
-
- + Let's do a quick orientation to the model diagram.  
++ Let's do a quick orientation to the model diagram.  
    + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. 
    
    + In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback loop and fully understand why behaviors happen in our clinics.  
@@ -210,8 +205,6 @@ Time Stamp | Team Learning Priorities | Script
 
 + We have closed the loop, or brought our chain of causation full circle, and can now explain how this reinforcing loop of "Higher Care Quality Improves Recovery" could both energize our improvement efforts, or potentially derail them.
  
-
-## ??? Develop questions for learners to test their understanding / validity of these causal relationships in their clinics ???
 
 
 ### Enter a question in the Text section.
