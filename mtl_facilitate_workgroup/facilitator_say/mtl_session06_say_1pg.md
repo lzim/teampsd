@@ -26,7 +26,7 @@ output:
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45"> Do: We will tell a systems story about the team's top priority of _______________________________ using the Model Diagram in the sim UI.
 
 ## Show the Learning Objectives on the Screen - TEAM PRIORITIES to EMPHASIZE ____________________________________________________
-- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> Learning Objectives for Session 6
+- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> **Learning Objectives for Session 6**
 1. Describe the systems story of your team's highest priority. 
 2. Test out your thinking about causes of team challenges using the model diagram.
 3. Apply clinical expertise to develop a question for team learning using simulation.
