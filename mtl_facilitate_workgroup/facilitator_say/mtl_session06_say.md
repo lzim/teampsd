@@ -67,7 +67,7 @@ Also, depending on the size of your monitor and whether your browser window is f
 
 ## Now we're ready for our scavenger hunt. We'll ask a series of questions and your job is to find the answer in the Model Diagram.  
 + **Facilitators will ask team members to find certain information on the mtl.how/sim main section.**
-+ **Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box. **
++ **Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.**
 + **If at any time you are not sure how to find something, ask for help. The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.**
 
 **Question 1: Over what time frame does an experiment run?**  
@@ -92,8 +92,10 @@ Answer: Red means read in from team data.
 #### Part 2: Telling a Systems Story**  
 
 
-+ **Starting Point: Main model section with no additional complexities revealed. **
++ **Starting Point: Main model section with no additional complexities revealed.**
+
 ***Tip:* If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.**  
+
 + **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
 
 Time Stamp | Team Learning Priorities | Script 
