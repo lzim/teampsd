@@ -59,8 +59,8 @@ output:
 - [ ] The navy blue circles or gauges are always a **rate per week.** 
 - [ ] The navy blue rectangles are **stocks** or states where patients or appointments accumulate.
 - [ ] **Close the feedback loop** Trace the loop all the way around until we are back where we started.
-- [ ] **Use Thumbs + plus means two variables move in the same direction (both up/both down)-TEAM VARIABLES to EMPHASIZE ____________________________________________________
-- [ ] **Use Thumbs - minus means two variables move in opposite directions (1 thumb up, 1 thumb down)- TEAM PRIORITIES to EMPHASIZE ____________________________________________________
+- [ ] **Use Thumbs + plus** means two variables move in the same direction (both up/both down)-TEAM VARIABLES to EMPHASIZE ____________________________________________________
+- [ ] **Use Thumbs - minus** means two variables move in opposite directions (1 thumb up, 1 thumb down)- TEAM PRIORITIES to EMPHASIZE ____________________________________________________
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Recommended time 00:35-00:45**  
 
