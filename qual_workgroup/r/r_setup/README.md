@@ -3,9 +3,7 @@
 
 # Qualitative Workgroup
 
-## Works in Progress
+1. R Library setup
+2. R Markdown cheatsheet
   
-  **R**
-  
-  - r
-  - Help Code
+
