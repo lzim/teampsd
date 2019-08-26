@@ -32,12 +32,12 @@ output:
 3. Apply clinical expertise to develop a question for team learning using simulation.
 
 ## Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team-specific rationale** ____________________________________________________ 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team-specific rationale** __________________
 - [ ] <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150"> Provide rationale for building capacity for participatory learning from simulation.
 - [ ] A Systems Story is a description of the causal connections that create the problem your team is prioritizing _________________.  
 
 ## Team lead shares Chrome and logs in to your Individual world at **mtl.how/sim**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 05 Question** ____________________________________________________ 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 05 Question** __________________
 - [ ] **Re-size** your screen to get more or less of the diagram
 - [ ] Select to continue with the **same module** 
 - [ ] Navigate to the **experiment section** to pull up the **question** from last time.
@@ -45,9 +45,9 @@ output:
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority** ____________________________________________________ 
 - [ ] **Experiment Timeline** Over what time frame does an experiment run? Two years from today.
-- [ ] **Blue circle "i"** are calculated by simulation user interface from the red variables that are read in from team data. 
+- [ ] **Blue circle "i"** provide information on how model variables are calculated by simulation user interface, from the red variables that are read in from team data.   
 - [ ] **Reveal complexity** shows more of the model diagram being shown but the model still accounts for all the complexity.
-- [ ] **Red variables** are red in from team data.
+- [ ] **Red variables** are read in from team data.
 
 ## Introducing stocks/flows and polarities among key variables related to the team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority** ____________________________________________________ 
@@ -60,11 +60,11 @@ output:
 ## Cover complexity reveal (causal loop) and base case hypothesis related to the team's priority 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority** ____________________________________________________  
 - [ ] Cover the **basecase values** in the complexity reveal (causal loop) most releveant to the team's highest priority need.
-- [ ] As you tell the story, **ENTER TEXT** about **dynamic hypothesis** What do you expect will happen over the next two years if the team continues with business as usual? 
+- [ ] As you tell the story, **ENTER TEXT** about **basecase** and **dynamic hypothesis** What do you expect will happen over the next two years if the team continues with business as usual? 
 - [ ] **Save** the text.
 
 ## Have Team Lead pull up the sesison 06 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
-- [ ] Log into your individual world and enter a Question and Hypothesis about the base case experimental run in the Text section.
+- [ ] Log into your individual world at mtl.how/sim and enter a Question and Hypothesis about the base case experimental run in the Text section.
 - [ ] Log out  out of the SIM UI! 
 - [ ] Team post session 06 email will be sent.
