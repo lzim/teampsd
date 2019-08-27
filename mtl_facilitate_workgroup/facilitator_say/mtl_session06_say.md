@@ -75,7 +75,7 @@ Navigate to experiment section to pull up the Question from last time.
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 
-## Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team. We'll ask a series of questions and your job is to find the answer.  
+### Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team. We'll ask a series of questions and your job is to find the answer.  
 + **Facilitators will ask team members to find certain information on the mtl.how/sim main section.**
 + **Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.**
 + **If at any time you are not sure how to find something, ask for help. The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.**
