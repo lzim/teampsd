@@ -57,14 +57,14 @@ output:
 - [ ] **Use Thumbs + plus** means two variables move in the same direction (both up/both down)-TEAM VARIABLES to EMPHASIZE ____________________________________________________
 - [ ] **Use Thumbs - minus** means two variables move in opposite directions (1 thumb up, 1 thumb down)- TEAM PRIORITIES to EMPHASIZE ____________________________________________________
 
-## Cover complexity reveal (causal loop) and base case hypothesis related to the team's priority 
+## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 - [ ] Cover the **basecase values** in the complexity reveal (causal loop) most releveant to the team's highest priority need.
-- [ ] As you tell the story, **ENTER TEXT** about **basecase** and **dynamic hypothesis** What do you expect will happen over the next two years if the team continues with business as usual? 
+- [ ] As you tell the story, **ENTER TEXT** about **basecase question** and **dynamic hypothesis** What do you expect will happen over the next two years if the team continues with business as usual? 
 - [ ] **Save** the text.
 
-## Have Team Lead pull up the sesison 06 SEE guide Done/Do review.
+## Have Team Lead pull up the session 06 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
-- [ ] Log into your individual world at mtl.how/sim and enter a Question and Hypothesis about the base case experimental run in the Text section.
+- [ ] Log into your individual world at mtl.how/sim and refine the Question and Hypothesis about the base case experimental run in the Text section.
 - [ ] Log out  out of the SIM UI! 
 - [ ] Team post session 06 email will be sent.
