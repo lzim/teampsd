@@ -54,7 +54,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-4.	Open the Expanded Outputs section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new changes are made in your team, and you run the simulation out to its 2-year end just using data pulled in from your team data file.
+4.	Open the Expanded Outputs section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new changes are made in your team, and run the simulation out to its 2-year end just using data pulled in from your team data file.
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_outputs_text_section.gif)
 
