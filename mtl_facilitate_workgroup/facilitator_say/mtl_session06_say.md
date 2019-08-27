@@ -232,7 +232,7 @@ In the Hypothesis box, briefly describe what you expect to happen over the next 
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
-Today we told a systems story about our team's top priority and entered a question in the Text section. Before next time, please log into your individual world and enter a Question and Hypothesis about the base case experimental run in the Text section.
+Today we told a systems story about our team's top priority and entered a question and hypothesis in the Text section. Before next time, please log into your individual world and enter a Question and Hypothesis about the base case experimental run in the Text section.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
