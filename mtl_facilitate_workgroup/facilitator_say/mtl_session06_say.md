@@ -45,7 +45,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | Start in-session exercise | **Provide team-specific reational for building capcity for participatory learning from simulation.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | Start in-session exercise | **Provide team-specific rational for building capcity for participatory learning from simulation.**
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ### The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your individual simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
@@ -53,8 +53,7 @@ Time Stamp | Team Learning Priorities | Script
 
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | Team lead shares chrome and login into Individual world | **Provide team-specific reational for building capcity for participatory learning from simulation.**
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | Team lead shares chrome and login into Individual world | **Provide team-specific rational for building capcity for participatory learning from simulation and pull up Question from last time.**
 
 #### Part 1: Where in the MTL World Is...
 + To start this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll actually be able to play along with our scavenger hunt on your own, instead of just watching us do it.  
