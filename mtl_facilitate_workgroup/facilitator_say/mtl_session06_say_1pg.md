@@ -45,7 +45,7 @@ output:
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 - [ ] **Experiment Timeline** Over what time frame does an experiment run? Two years from today.
-- [ ] **Blue circle "i"** provide information on how model variables are calculated by simulation user interface, from the red variables that are read in from team data.   
+- [ ] **Blue circle "i"** provide information on how model variables are calculated by simulation user interface, from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. **Red circle "i" in the team data table** provide information for the red variables that are read in from team data. **"i" in the Experiments section** provide information on how the experimental variables are changing when you run the experiment.
 - [ ] **Reveal complexity** shows more of the model diagram being shown but the model still accounts for all the complexity.
 - [ ] **Red variables** are read in from team data.
 
