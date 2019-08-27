@@ -41,7 +41,7 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-# **In-session Exercise – Part 1: Where in the MTL World Is…**  
+# **In-session Exercise – Part 1**  
 
 * Facilitators will ask team members to find certain information on the mtl.how/sim main section.
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
@@ -54,7 +54,7 @@ output:
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)
 
-# **In-session Exercise – Part 2: Telling a Systems Story**  
+# **In-session Exercise – Part 2**  
 
 * Starting Point: Main model section with no additional complexities revealed.  
 
