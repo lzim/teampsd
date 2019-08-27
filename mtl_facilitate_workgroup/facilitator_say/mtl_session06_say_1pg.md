@@ -43,14 +43,14 @@ output:
 - [ ] Navigate to the **experiment section** to pull up the **question** from last time.
 
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority** ____________________________________________________ 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 - [ ] **Experiment Timeline** Over what time frame does an experiment run? Two years from today.
 - [ ] **Blue circle "i"** provide information on how model variables are calculated by simulation user interface, from the red variables that are read in from team data.   
 - [ ] **Reveal complexity** shows more of the model diagram being shown but the model still accounts for all the complexity.
 - [ ] **Red variables** are read in from team data.
 
 ## Introducing stocks/flows and polarities among key variables related to the team's priority
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority** ____________________________________________________ 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority**__________________
 - [ ] The navy blue circles or gauges are always a **rate per week.** 
 - [ ] The navy blue rectangles are **stocks** or states where patients or appointments accumulate.
 - [ ] **Close the feedback loop** Trace the loop all the way around until we are back where we started.
@@ -58,7 +58,7 @@ output:
 - [ ] **Use Thumbs - minus** means two variables move in opposite directions (1 thumb up, 1 thumb down)- TEAM PRIORITIES to EMPHASIZE ____________________________________________________
 
 ## Cover complexity reveal (causal loop) and base case hypothesis related to the team's priority 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority** ____________________________________________________  
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 - [ ] Cover the **basecase values** in the complexity reveal (causal loop) most releveant to the team's highest priority need.
 - [ ] As you tell the story, **ENTER TEXT** about **basecase** and **dynamic hypothesis** What do you expect will happen over the next two years if the team continues with business as usual? 
 - [ ] **Save** the text.
