@@ -118,7 +118,7 @@ Answer: Red means read in from team data.
          + If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
          + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
-## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
+# Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 
   **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals 
