@@ -17,11 +17,11 @@ output:
 
 # [MTL Live Session 06](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session06_see.Rmd "MTL Live Session 06")
 
-# Today we're modeling to learn how to tell a systems story.
+## Today we're modeling to learn how to tell a systems story.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to tell a systems story.
 
 # Done and Do (15 minutes)
-# Navigate to the SEE guide to show Done and Do
+## Navigate to the SEE guide to show Done and Do
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:00-00:10** 
 
 ### As you see in the Done and Do table of your Learner See Guide:
@@ -31,7 +31,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority of __________ using the Model Diagram in the sim UI. | 
 
-# Emphasize team priority with the learning objectives on the screen
+## Emphasize team priority with the learning objectives on the screen
 
 ### After this session you’ll be able to: 
 
@@ -45,13 +45,13 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 3. Apply clinical expertise to develop a question for team learning using simulation.
 
 # In-session Exercise (30 minutes)
-# Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation
+## Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team-specific rationale** __________________
 
 ### The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your individual simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
 
 
-# Team lead shares Chrome and logs in to your Individual world at **mtl.how/sim**
+## Team lead shares Chrome and logs in to your Individual world at **mtl.how/sim**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 05 Question** __________________
 
 ### Let's explore the MTL Home Page.
@@ -72,7 +72,7 @@ Also, depending on the size of your monitor and whether your browser window is f
 Navigate to experiment section to pull up the Question from last time.
 
 # In-Session Exercise - Part 1
-# Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
+## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 
 ## Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team. We'll ask a series of questions and your job is to find the answer.  
@@ -99,7 +99,8 @@ Answer: Options to Reveal Complexity are found under the *Experiment Timeline* i
 
 Answer: Red means read in from team data. 
 
-# Introducing stocks/flows and polarities among key variables related to the team's priority
+# In-Session Exercise - Part 1
+## Introducing stocks/flows and polarities among key variables related to the team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority**__________________
 
 + **Starting Point: Main model section with no additional complexities revealed.**
@@ -118,7 +119,7 @@ Answer: Red means read in from team data.
          + If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
          + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
-# Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
+## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 
   **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals 
@@ -226,7 +227,7 @@ In the Hypothesis box, briefly describe what you expect to happen over the next 
 Today we told a systems story about our team's top priority and entered a Question and Hypothesis in the Text section. Before next time, please log into your individual world and refine your Question and Hypothesis about the base case experimental run in the Text section.
 
 # Done and Do (15 minutes)
-# Have Team Lead pull up the session 06 SEE guide Done/Do review.
+## Have Team Lead pull up the session 06 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55** 
 
 <!-- Do/Done Tables -->
