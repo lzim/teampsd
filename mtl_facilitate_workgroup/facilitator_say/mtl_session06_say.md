@@ -51,11 +51,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your individual simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
 
 
-## Team lead shares Chrome and logs in to your Individual world at **mtl.how/sim**
+## Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 05 Question** __________________
 
 ### Let's explore the MTL Home Page.
-+ To start this session, you should log in to your Individual world at **mtl.how/sim**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that starts with **"ind" from the drop-down menu**, so we can all use the simulation at the same time. 
++ To start this session, you should log in to your team world at **mtl.how/sim**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that starts with **"team" from the drop-down menu**.
 
 + Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.  
 
@@ -63,7 +63,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 + "Select Team Data" will appear. Click on that and choose the team dataset from the drop-down menu. Then hit **Play**. (If you don't see any data to select in the Team Data menu, go back to the instructions in Session 4 to see how to upload your team dataset.)  
 
-Now check what you're seeing against what we're showing on the screen. It should look the same, except that it will have YOUR  name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
+Now check what you're seeing against what we're showing on the screen. It should have your TEAM name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
 
 Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model diagram. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
    +  On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen. 
@@ -215,7 +215,7 @@ Answer: Red means read in from team data.
  
 
 ### Enter a basecase question and hypothesis in the Text section.
-In the Question box,  briefly describe what your team wants to learn from this experiment. 
+In the Question box, add a basecase question about no new decisions in addition to the team need question that the team wrote last session.. 
 In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.
 
  + The last think to do is log out of the SIM UI! 
