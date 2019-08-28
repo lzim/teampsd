@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Facilitator Say"
 author: "Team PSD"
-date: "August 2019"
+date: "Edited August 27, 2019 by SP & JF"
 output: 
   github_document: default
   html_document: default
@@ -17,16 +17,21 @@ output:
 
 # [MTL Live Session 06](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session06_see.Rmd "MTL Live Session 06")
 
-# Today we're modeling to learn how to tell a systems story.
+## Today we're modeling to learn how to tell a systems story.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to tell a systems story.
+
+# Done and Do (15 minutes)
+## Navigate to the SEE guide to show Done and Do
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:00-00:10** 
 
 ### As you see in the Done and Do table of your Learner See Guide:
 
-## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority of __________ using the Model Diagram in the sim UI. | 
+
+## Emphasize team priority with the learning objectives on the screen
 
 ### After this session you’ll be able to: 
 
@@ -39,26 +44,18 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 2. Test out your thinking about causes of team challenges using the model diagram.
 3. Apply clinical expertise to develop a question for team learning using simulation.
 
-### Let's get started:
-
-# In-session Exercise (30 minutes): The Model Diagram and Systems Story
-
-Time Stamp | Team Learning Priorities | Script 
--- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | Start in-session exercise | **Provide team-specific rational for building capcity for participatory learning from simulation.**
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+# In-session Exercise (30 minutes)
+## Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team-specific rationale** __________________
 
 ### The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your individual simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
 
 
-Time Stamp | Team Learning Priorities | Script 
--- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | Team lead shares chrome and login into Individual world | **Provide team-specific rational for building capcity for participatory learning from simulation and pull up Question from last time.**
+## Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 05 Question** __________________
 
-#### Part 1: Where in the MTL World Is...
-+ To start this session, you should log in to your Individual world at **mtl.how/sim**. That way you'll actually be able to play along with our scavenger hunt on your own, instead of just watching us do it.  
-
-+ Login in to your Individual world is at the same link we used last week, mtl.how/sim, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that starts with **"ind" from the drop-down menu**, so we can all use the simulation at the same time.  
+### Let's explore the MTL Home Page.
++ To start this session, you should log in to your team world at **mtl.how/sim**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that starts with **"team" from the drop-down menu**.
 
 + Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.  
 
@@ -66,7 +63,7 @@ Time Stamp | Team Learning Priorities | Script
 
 + "Select Team Data" will appear. Click on that and choose the team dataset from the drop-down menu. Then hit **Play**. (If you don't see any data to select in the Team Data menu, go back to the instructions in Session 4 to see how to upload your team dataset.)  
 
-Now check what you're seeing against what we're showing on the screen. It should look the same, except that it will have YOUR team's name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
+Now check what you're seeing against what we're showing on the screen. It should have your TEAM name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
 
 Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model diagram. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
    +  On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen. 
@@ -74,11 +71,11 @@ Also, depending on the size of your monitor and whether your browser window is f
    
 Navigate to experiment section to pull up the Question from last time.
 
-Time Stamp | Team Learning Priorities | Script 
--- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:30 | Introduce the Simulation User Interface Main Section with the Model Diagram | **Practice highlighting specific variables relevant to the team's highest priority need.**
+# In-Session Exercise - Part 1
+## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 
-## Now we're ready for our scavenger hunt. We'll ask a series of questions and your job is to find the answer in the Model Diagram.  
+### Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team. We'll ask a series of questions and your job is to find the answer.  
 + **Facilitators will ask team members to find certain information on the mtl.how/sim main section.**
 + **Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.**
 + **If at any time you are not sure how to find something, ask for help. The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.**
@@ -102,8 +99,9 @@ Answer: Options to Reveal Complexity are found under the *Experiment Timeline* i
 
 Answer: Red means read in from team data. 
 
-#### Part 2: Telling a Systems Story**  
-
+# In-Session Exercise - Part 1
+## Introducing stocks/flows and polarities among key variables related to the team's priority
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority**__________________
 
 + **Starting Point: Main model section with no additional complexities revealed.**
 
@@ -111,9 +109,6 @@ Answer: Red means read in from team data.
 
 + **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
 
-Time Stamp | Team Learning Priorities | Script 
--- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:30-00:40 | **Review** the team data the led to that q/h/f/d | **Practice highlighting specific variables relevant to the systems story associated with the team's highest priority need.**
 
 + Let's do a quick orientation to the model diagram.  
    + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. 
@@ -124,10 +119,8 @@ Time Stamp | Team Learning Priorities | Script
          + If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
          + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
 
-Time Stamp | Team Learning Priorities | Script 
--- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most releveant to the team's highest priority need.  Describe that loop variable by variable.  Examples below:**
-
+## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 
   **CARE COORDINATION SYSTEMS STORY** - Wait Time Affects Referrals 
   
@@ -204,7 +197,7 @@ Time Stamp | Team Learning Priorities | Script
      
       + As the *Return to Visit Interval* increases the *Booking Rate* decreases, you can tell this by the negative sign at the end of the light blue arrow leading from RVI to Booking Rate. Thus, the balancing loop is *Appointment Backlog Extends Return Visit Interval* is complete.  
 
-**MEASUREMENT-BASED STEPPED CARE FOR SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery 
+**MEASUREMENT-BASED STEPPED CARE AND SUICIDE PREVENTION SYSTEMS STORY** - Higher Care Quality Improves Recovery 
 
  + Starting with *Patient Load*, which is [CLICK ON I TEXT AND READ], one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  
  
@@ -221,8 +214,8 @@ Time Stamp | Team Learning Priorities | Script
 + We have closed the loop, or brought our chain of causation full circle, and can now explain how this reinforcing loop of "Higher Care Quality Improves Recovery" could both energize our improvement efforts, or potentially derail them.
  
 
-### Enter a question and hypothesis in the Text section.
-In the Question box, you briefly describe what your team wants to learn from this experiment. 
+### Enter a basecase question and hypothesis in the Text section.
+In the Question box, add a basecase question about no new decisions in addition to the team need question that the team wrote last session.. 
 In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.
 
  + The last think to do is log out of the SIM UI! 
@@ -231,13 +224,16 @@ In the Hypothesis box, briefly describe what you expect to happen over the next 
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
-Today we told a systems story about our team's top priority and entered a question and hypothesis in the Text section. Before next time, please log into your individual world and enter a Question and Hypothesis about the base case experimental run in the Text section.
+Today we told a systems story about our team's top priority and entered a Question and Hypothesis in the Text section. Before next time, please log into your individual world and refine your Question and Hypothesis about the base case experimental run in the Text section.
 
-## Done and Do (15 minutes)
+# Done and Do (15 minutes)
+## Have Team Lead pull up the session 06 SEE guide Done/Do review.
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55** 
+
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim. Use the question we entered during the session and add our own hypothesis about the Base Case run in the Text section. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim. and refine the question and hypothesis we entered during the session about the Base Case run in the Text section.  |
 
 DO demo
 

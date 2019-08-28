@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Learner See"
 author: "Team PSD"
-date: "August 2019"
+date: "Edited August 27, 2019 by SP & JF"
 output: 
   github_document: default
   html_document: default
@@ -41,7 +41,7 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-# **In-session Exercise – Part 1: Where in the MTL World Is…**  
+# **In-session Exercise – Part 1**  
 
 * Facilitators will ask team members to find certain information on the mtl.how/sim main section.
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
@@ -54,7 +54,7 @@ output:
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)
 
-# **In-session Exercise – Part 2: Telling a Systems Story**  
+# **In-session Exercise – Part 2**  
 
 * Starting Point: Main model section with no additional complexities revealed.  
 
@@ -73,4 +73,4 @@ Describe the connection between the model diagram and the team data table. How a
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)Log in to our individual world at mtl.how/sim. Use the question we entered during the session and add our own hypothesis about the Base Case run in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_text_fields.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)Log in to our individual world at mtl.how/sim. and refine the question and hypothesis we entered during the session about the Base Case run in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_text_fields.gif)|
