@@ -36,11 +36,11 @@ output:
 - [ ] <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150"> Provide rationale for building capacity for participatory learning from simulation.
 - [ ] A Systems Story is a description of the causal connections that create the problem your team is prioritizing _________________.  
 
-## Team lead shares Chrome and logs in to your Individual world at **mtl.how/sim**
+## Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 05 Question** __________________
 - [ ] **Re-size** your screen to get more or less of the diagram
 - [ ] Select to continue with the **same module** 
-- [ ] Navigate to the **experiment section** to pull up the **question** from last time.
+- [ ] Navigate to the **experiment section** to pull up the **question** on the team need from last time.
 
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority**__________________ 
@@ -60,7 +60,7 @@ output:
 ## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 - [ ] Cover the **basecase values** in the complexity reveal (causal loop) most releveant to the team's highest priority need.
-- [ ] As you tell the story, **ENTER TEXT** about **basecase question** and **dynamic hypothesis** What do you expect will happen over the next two years if the team continues with business as usual? 
+- [ ] As you tell the story, **ENTER TEXT** about a **basecase question** and **dynamic hypothesis** in addition to the team need question. What do you expect will happen over the next two years if the team continues with business as usual? 
 - [ ] **Save** the text.
 
 ## Have Team Lead pull up the session 06 SEE guide Done/Do review.
