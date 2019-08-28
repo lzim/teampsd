@@ -61,7 +61,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 - [ ] Cover the **basecase values** in the complexity reveal (causal loop) most releveant to the team's highest priority need.
 - [ ] As you tell the story, **ENTER TEXT** about a **basecase question** and **dynamic hypothesis** in addition to the team need question. What do you expect will happen over the next two years if the team continues with business as usual? 
-- [ ] **Save** the text.
+- [ ] **Save** (not Save & Reset) the text.
 
 ## Have Team Lead pull up the session 06 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
