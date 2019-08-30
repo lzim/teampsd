@@ -41,10 +41,6 @@ install.packages(pkgs)
 
 ------------------------------------------------------------------------------------------------------------------
 
----
-output:
-     html_document: default 
----
 
 ```{r filters, include=FALSE}
 tm <- "MP" # Team Location
@@ -184,8 +180,8 @@ mcc <- sppar1 %>%
          time = sub("^High .*", "", time),
          group2 = sub("(.*) \\(.*\\)$", "\\1", group),
          # Adjust Lables
-         time = replace(time, group2 == "New Patient Wait Time", "(wks)"), 
-         time = replace(time, time == "New Care Episode Start Rate", "(pts/wk)"), 
+         time = replace(time, group2 == "New Episode of Care Wait Time", "(wks)"), 
+         time = replace(time, time == "New Episode of Care Start Rate", "(pts/wk)"), 
          group2 = replace(group2, group2 == "High Risk Flag Rate", 
                           "High Risk Patient Flag Rates"), 
          time = replace(time, group2 == "High Risk Patient Flag Rates", "(pts/wk)"), 
@@ -199,10 +195,9 @@ mcc <- sppar1 %>%
          msr = replace(msr, group2 == "Engagement Time Before Ending", 
                           "(median)"), 
          time = replace(time, group2 == "Engagement Time Before Ending", "(wks)"),
-         group2 = replace(group2, group2 == "User-supplied Threshold", 
-                          "User supplied Threshold"), 
-         time = replace(time, time == "User-supplied Threshold", "(wks)"), 
-         msr = replace(msr, group2 == "User supplied Threshold", "(median)"),
+         
+         time = replace(time, time == "User-supplied Gap Threshold", "(wks)"), 
+         msr = replace(msr, group2 == "User-supplied Gap Threshold", "(median)"),
          time = replace(time, time == "Time to Improve", "(wks)"), 
          msr = replace(msr, group2 == "Time to Improve", ""),
          
@@ -211,16 +206,16 @@ mcc <- sppar1 %>%
          col_lab = gsub("^ *|(?<= ) | *$", "", col_lab, perl = TRUE),
          col_lab = sub(" High Symptom", "", col_lab),
          group = replace(group, group == "Symptom Proportions %Symptom Proportions",
-                         "Symptom Proportions (High Symptom %)"),
-         def = replace(def, group2 == "New Patient Wait Time", ""),
-         def = replace(def, group2 == "Time to Improve", ""),
+                         "Symptom Proportions (High Symptom %)")
+         #def = replace(def, group2 == "New Patient Wait Time", ""),
+         #def = replace(def, group2 == "Time to Improve", "")
          ) %>%
   select(group, col_lab, X__3, def) 
 
 
-rw_ord1 <- c("New Care Episode Start Rate (mean)(pts/wk)",
-             "User supplied Threshold (median)(wks)",
-             "New Patient Wait Time (median)(wks)",
+rw_ord1 <- c("New Episode of Care Start Rate (mean)(pts/wk)",
+             "User-supplied Gap Threshold (median)(wks)",
+             "New Episode of Care Wait Time (median)(wks)",
              "High Risk Patient Flag Rates (mean)(pts/wk)", 
              "Time to Unflag High Risk Patients (median)(wks)",
              "Engagement Time Before Ending (median)(wks)", 
@@ -516,7 +511,6 @@ sim %>%
 ldt <- seq(as.Date(paste(launch_date, "01", sep = "-")), length = 13, by = "-1 months")
 edt <- ldt[2] # end date of 1 year precondition
 sdt <- ldt[13] # start date of 1 year precondition
-
 dt <- read_excel("pchart_data.xlsx", sheet = "Sheet1")
 dt_fmt <- dt %>%
   filter(team == tm) %>%

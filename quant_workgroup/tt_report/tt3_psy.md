@@ -42,11 +42,6 @@ install.packages(pkgs)
 
 ------------------------------------------------------------------------------------------------------------------
 
----
-output:
-     html_document: default 
----
-
 ```{r filters, include=FALSE}
 tm <- "MP" # Team Location
 launch_date <-  "2015-11" # MTL launch date in the clinic, format must be "yyyy-mm"
@@ -161,7 +156,7 @@ barplot(table(factor(data[,x], levels = -1:1)),
 
 
 ```{r psy_datafiles, include=FALSE}
-psypar1a <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B35:D36")
+psypar1a <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B33:D36")
 
 psypar1b <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:3, sep = "__"), range = "B44:D47")
 
@@ -178,9 +173,12 @@ med_after <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names =
 
 ```{r psy_setup, include=FALSE}
 # Team Data Table/Appointment Supply columns
-ord1 <- c("Appointment Supply (75th percentile)", "AUD within 3 months %", "DEP within 3 months %",
+ord1 <- c("New Patient Start Rate","Appointment Supply (75th percentile)", "AUD within 3 months %", "DEP within 3 months %",
           "OUD within 3 months %", "PTSD within 3 months %")
-psypar1 <- rbind.data.frame(psypar1a[2,], psypar1b) %>%
+psypar1bedit <- psypar1b %>%
+  mutate(X__2 = 100 * X__2)
+
+psypar1 <- rbind.data.frame(psypar1a[c(4,1),], psypar1bedit) %>%
   mutate_if(is.numeric, funs(round(.,1))) %>%
   mutate_if(is.numeric, funs(as.character)) %>%
   slice(match(ord1, X__1))
@@ -211,7 +209,7 @@ flow1 <- flow %>%
   mutate(X__2 = round(X__2, 2) * 100)
 
 # Return Visit Interval less than 3months
-rvi1 <- c("N/A", "See table below", "See table below",  
+rvi1 <- c("N/A", "See table below", "N/A",  
           round(rvi$X__2[which(rvi$X__1 == "Initiators Who Complete RVI")],2) ,
           "See table below",
           round(rvi$X__2[which(rvi$X__1 == "Initiators Who Quit Early RVI")],2), 
@@ -219,57 +217,64 @@ rvi1 <- c("N/A", "See table below", "See table below",
           "See table below")
 
 # Median Engagement Duration less than 3months
-med1 <- c("NA", "See table below", "See table below",
-          round(med$X__2[which(med$X__1 == "Initiators Who Quit Early Duration")], 2),
-          "See table below", 
+med1 <- c("Always 1 week", "See table below", "Always 1 week",
           round(med$X__2[which(med$X__1 == "Initiators Who Graduate Duration")],2),
+          "See table below", 
+          round(med$X__2[which(med$X__1 == "Initiators Who Quit Early Duration")], 2),
           "12 wks", "See table below")
 
 
 # Return Visit Interval after 3months
-visit.order <- c("From 1 Visit", "From 2 to 7 Visits", "From 8 or More Visits")
+#visit.order <- c("From 1 Visit", "From 2 to 7 Visits", "From 8 or More Visits")
 rvi2 <- rvi_after %>%
-  mutate(Visit = sub("^(.*) Who .*", "\\1", X__1),
-         X__3 = sub(".* (.*) RVI$", "\\1", X__1)) %>%
-  select(-X__1) %>%
-  spread(X__3, X__2) %>%
-  mutate(Visit = replace(Visit, Visit =="Starters", "From 1 Visit"),
-         Visit = replace(Visit, Visit =="Initiators", "From 2 to 7 Visits"),
-         Visit = replace(Visit, Visit =="Completers", "From 8 or More Visits")) %>%
-  slice(match(visit.order, Visit)) %>%
-  select(Visit, Low, Medium, High) %>%
-  rename(`1st Quartile` = Low, Mean = Medium, `4th Quartile` = High) %>%
-  mutate_if(is.numeric, funs(round(.,2)))
+  mutate(Visit = sub("^(.*) (Low|Medium|High) .*", "\\1", X__1),
+         X__3 = sub(".* (.*) RVI$", "\\1", X__1),
+         type = "rvi") %>%
+  select(-X__1) 
 
-
-# Median Engagement Duration after than 3months
+# Median Engagement Duration after3months
 med2 <- med_after %>%
   mutate(X__3 = sub(".* (.*) Duration$", "\\1", X__1),
-         Visit = sub("^(.*) Who.*","\\1", X__1)) %>%
-  select(-X__1) %>%
-  spread(X__3, X__2) %>%
-  mutate(Visit = replace(Visit, Visit =="Starters", "From 1 Visit"),
-         Visit = replace(Visit, Visit =="Initiators", "From 2 to 7 Visits"),
-         Visit = replace(Visit, Visit =="Completers", "From 8 or More Visits"))%>%
-  slice(match(visit.order, Visit)) %>%
-  select(Visit, Low, Medium, High) %>%
-  #rename(`1st Quartile` = Low, Mean = Medium, `4th Quartile` = High) %>%
-  mutate_if(is.numeric, funs(round(.,2)))
-
+         Visit = sub("^(.*) (Low|Medium|High) .*","\\1", X__1),
+         Visit = sub("Later", "", Visit),
+         type = "duration") %>%
+  select(-X__1) 
 
 # Upper Table without Definition
-psy1 <- psypar1[,-3] %>%
-  rename(AppSupply = X__1, rate = X__2) %>%
-  add_row(AppSupply = "", rate = "") %>%
-  add_row(AppSupply = "", rate = "") %>%
-  add_row(AppSupply = "", rate = "") %>%
-  cbind(.,flow1[,-3], rvi1, med1)
+psy1a <- psypar1[,-3] %>%
+  rename(AppSupply = X__1, rate = X__2)
+
+psy1b <- data.frame(AppSupply = rep("",2), rate = rep("",2)) %>%
+  rbind(psy1a[5:6,]) %>%
+  rename(AppSupply2 = AppSupply, rate2 = rate)
+
+psy1 <- cbind(psy1a[1:4,],psy1b)
+
+# Middle Table without Definition
+psy2 <- cbind(flow1[,-3], med1, rvi1)
 
 # Lower Table without Definition
-psy2 <- merge.data.frame(rvi2, med2, by = "Visit") %>%
-  add_row(`1st Quartile` = "1st Quartile", Mean = "Mean", 
-          `4th Quartile` = "4th Quartile", `Low` = "1st Quartile",
-          `Medium` = "Mean", `High` = "4th Quartile", .before = 1)
+psy3 <- bind_rows( med2, rvi2) %>%
+   spread(X__3, X__2) %>%
+  select(type, Visit, Low, Medium, High)
+  
+psy3starter <- psy3 %>%
+  filter(grepl("Starters",Visit)) %>%
+  arrange(type) %>%
+  select(Low, Medium, High)
+
+psy3initiator <- psy3 %>%
+  filter(grepl("Initiators",Visit)) %>%
+  arrange(type) %>%
+  select(Low, Medium, High)
+
+psy3completer <- psy3 %>%
+  filter(grepl("Completers",Visit)) %>%
+  arrange(type) %>%
+  select(Low, Medium, High)
+      
+psy3all <- cbind(psy3starter,psy3initiator,psy3completer) 
+psy3all <- rbind(names(psy3all), psy3all) 
 
 ```
 
@@ -278,10 +283,11 @@ vacolor <- c("#003F72", "#0083BE","#598527")
 rvi_graph <- read_excel("ModelParameters.xlsx", sheet = "PSYParams", col_names = paste("X",1:2, sep = "__"), range = "B15:C32")
 
 rvi_mod <- rvi_graph %>%
-  mutate(Type = ifelse(grepl("RVI", X__1), "Freq", "Time"),
+  mutate(Type = ifelse(grepl("RVI", X__1), "Time", "Freq"),
         `Flow Group` = sub("(.*) Low|Medium|High", "\\1", X__1),
-         `Flow Group` = sub("RVI", "Later", `Flow Group`),
+         `Flow Group` = sub("RVI", "", `Flow Group`),
          `Flow Group` = sub(" Duration", "", `Flow Group`),
+         `Flow Group` = sub(" Later", "", `Flow Group`),
          `Flow Group` = gsub("^ *|(?<= ) | *$", "", `Flow Group`, perl = TRUE),
          percentile = sub(".* (Low|Medium|High) .*", '\\1', X__1),
          percentile = replace(percentile, percentile == "Medium", "Median")) %>%
@@ -290,18 +296,17 @@ rvi_mod <- rvi_graph %>%
 
 eng <- rvi_mod %>%
   filter(Type == "Freq") %>%
-  mutate(week = 1 / week,
-         week = replace(week, week==Inf, 0),
-         `Flow Group` = factor(`Flow Group`, levels = c("Starters Who Return Later",
-                                                        "Initiators Who Return Later",
-                                                        "Completers Who Return Later")),
+  mutate(week = replace(week, week==Inf, 0),
+         `Flow Group` = factor(`Flow Group`, levels = c("Starters Who Return",
+                                                        "Initiators Who Return",
+                                                        "Completers Who Return")),
          percentile = factor(percentile, levels = c("Low", "Median", "High")))
 
 
 rvi_only <- rvi_mod %>%
   filter(Type == "Time") %>%
-  mutate(`Flow Group` = factor(`Flow Group`, levels = c("Starters Who Return Later",
-                                                        "Initiators Who Return Later",
+  mutate(`Flow Group` = factor(`Flow Group`, levels = c("Starters Who Return",
+                                                        "Initiators Who Return",
                                                         "Completers Who Return")),
          percentile = factor(percentile, levels = c("Low", "Median", "High")))
 
@@ -316,7 +321,7 @@ p1 <- ggplot(eng, aes(percentile, week, fill = percentile)) +
   geom_bar( stat = "identity", width = 1) +
   scale_fill_manual(values = vacolor, name=element_blank(), guide = FALSE) +
   facet_wrap(~`Flow Group`, strip.position = "bottom", scales = "free_x") +
-  labs(x = "", y = "Weeks", title = "Return Visit Interval", #subtitle = "(Weeks Between Visit)",
+  labs(x = "", y = "Weeks", title = "Engagement Duration after 3 Months" , subtitle = "(Weeks Between Visit)",
        caption = "Low = 25th %ile, Median = 50th %ile, High = 75th %ile") +
   theme_bw() +
   theme(panel.spacing = unit(0, "lines"), 
@@ -330,7 +335,7 @@ p2 <- ggplot(rvi_only, aes(percentile, week, fill = percentile)) +
   geom_bar( stat = "identity", width = 1) +
   scale_fill_manual(values = vacolor, name=element_blank(), guide = FALSE) +
   facet_wrap(~`Flow Group`, strip.position = "bottom", scales = "free_x") +
-  labs(x = "", y= "Weeks", title = "Duration of Engagement", subtitle = "(Weeks Between Visit)",
+  labs(x = "", y= "Weeks", title = "Return-to-Clinic Visit Interval after 3 Months (wks)", #subtitle = "(Weeks Between Visit)",
        caption = "Low = 25th %ile, Median = 50th %ile, High = 75th %ile") +
   theme_bw() +
   theme(panel.spacing = unit(0, "lines"), 
@@ -347,14 +352,14 @@ p2 <- ggplot(rvi_only, aes(percentile, week, fill = percentile)) +
 
 #### Psy Table without definition (similar to the UI)
 ```{r psy_table, echo=FALSE}
-htmlTable(psy1, header = c(rep("",2), "Patient Flow", "", "Return Visit \nInterval (wks)", "Median Engagement \nDuration (wks)"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lllrcc")
+htmlTable(psy1, header = rep("",4), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="Team Data", align = "lllrcc")
 
+htmlTable(psy2, header = c( "Patient Flow", "", "Engagement \nDuration (wks)", "Return Visit \nInterval (wks)"), rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", caption ="First 3 Months", align = "lllrcc")
 
-htmlTable(psy2, header = c("", "Return Visit", "Interval after 3", "Months (wks)",
-                           "Engagement Duration", "after 3", "Months (wks)"),
-          rnames = FALSE, css.cell = "padding-left: 1em; padding-right: 1em;", 
-          #caption ="Team Data", 
-          align = "lcccccc" )
+htmlTable(psy3all, header = c("Starter", " who ", "Returns", "Initiators", " who ", "Returns", "Completers", " who ", "Returns"),
+          rnames = c("", "Engagement Duration (wks)", "Return-to-Clinic Visit Interval"), css.cell = "padding-left: 1em; padding-right: 1em;", 
+          caption ="After 3 months", 
+          align = "ccccccccc" )
 
 ```
 

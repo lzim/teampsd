@@ -41,10 +41,6 @@ install.packages(pkgs)
 
 ------------------------------------------------------------------------------------------------------------------
 
----
-output:
-     html_document: default 
----
 
 ```{r filters, include=FALSE}
 tm <- "MP" # Team Location
@@ -173,7 +169,8 @@ aggpar_hd_appt <- aggpar[2,]  %>%
 aggpar.table.head <- aggpar[6,] %>%
   select(X__1, X__2, X__9) %>%
   mutate_at(vars(2), funs(formatC(as.numeric(.),digits = 1, format = "f"))) %>%
-  bind_rows(aggpar_hd_appt)
+  bind_rows(aggpar_hd_appt) %>%
+  mutate(X__3 = c("(pt/wk)", rep("(hrs/wk)",8)))
 
 aggpar.table.body <- aggpar[c(1,5,3,4),] %>%
   mutate_at(vars(2:8), funs(formatC(as.numeric(.),digits = 2, format = "f"))) %>%
@@ -188,11 +185,13 @@ aggpar.table.body.shrt <- as.data.frame(aggpar.table.body.shrt) %>%
   mutate(X__1 = row.names(.)) %>%
   select(X__1, everything()) %>%
   mutate_if(is.factor,funs(as.character)) %>%
+  mutate(V1 = as.character(100 * as.numeric(V1)),
+         V4 = as.character(100 * as.numeric(V4))) %>%
   rename( X__2 = V1, X__3 = V2, X__4 = V3, X__5 = V4)
 
 aggpar.test <- aggpar.table.head %>%
   bind_rows(aggpar.table.body.shrt) %>%
-  add_row(X__2 = "True Missed Appointments %", X__3 = "Return Visit Interval (median)",
+  add_row(X__2 = "True Missed Appointments %", X__3 = "Return Visit Interval (median)(wks)",
           X__4 = "Engagement Duration (median)(wks)", 
           X__5 = "Service Proportions from Team Data %", .before = 10) %>%
   select(-X__9)

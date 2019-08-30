@@ -41,10 +41,6 @@ install.packages(pkgs)
 
 ------------------------------------------------------------------------------------------------------------------
 
----
-output:
-     html_document: default 
----
 
 ```{r filters, include=FALSE}
 tm <- "MP" # Team Location
