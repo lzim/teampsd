@@ -50,7 +50,7 @@ My GOAL for this session is to document the following themes and differential qu
 
 NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team). 
 
 My GOAL for this session is to document the following themes and differential questions related to the teams need by end of the session.
 
