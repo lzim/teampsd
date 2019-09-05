@@ -36,13 +36,13 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 4. We facilitated greater understanding and local team control over use of VHA data.
 - [ ] 5. Our (this) team has a clear and shared understanding of the problems we are trying to address.
 
-**Sessions 5-9 - Rate the following 4 items.** 
+**Sessions 5-8 - Rate the following 4 items.** 
 - [ ] 1. This project emphasizes what is important to our (this) team.
 - [ ] 2. We sought to support our existing capacities to best use local team resources and make local decisions.
 - [ ] 3. Even though we did not have total agreement, we did reach a kind of consensus that our (this) team all accepts.
 - [ ] 4. We are supporting shared team decision-making in this project.
 
-**Sessions 10-12- Rate the following 2 items.** 
+**Sessions 9-12- Rate the following 2 items.** 
 - [ ] 1. We recognized local challenges for our (this) team and came up with good solutions.
 - [ ] 2. We developed strategies that are likely to work for our (this) team.
 
@@ -62,7 +62,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 4. Synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions. _______________________________________
 
 
-#### BUILD & APPLY (s5-10) Intersession Checklist Priorities
+#### BUILD & APPLY (s5-s10) Intersession Checklist Priorities
 
 1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
