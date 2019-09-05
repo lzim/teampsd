@@ -20,14 +20,14 @@ Target New Patient Wait Time=
 		new patient wait time goal.
 	|
 
-"If New Patient Start Rate is selected, then RVI ="=
+"If New Pt Start Rate then RVI="=
 	fRVI
 	~	wks
 	~	for Sim UI, Base Case Values table
 	~	:SUPPLEMENTARY 
 	|
 
-"If Existing Patient RVI is selected, then New Pt. Starts ="=
+"If Existing Pt RVI then New Pt Starts ="=
 	"Appts for New Ptsw/DataRVI" * Patients per Appointment
 	~	pts/wk
 	~	for Sim UI, Base Case Values table
@@ -843,7 +843,7 @@ B
 1,202,201,199,0,0,0,0,0,128,0,-1--1--1,,1|(1908,319)|
 1,203,199,3,0,0,0,0,0,128,1,-1--1--1,,1|(1176,403)|
 1,204,151,122,0,0,0,0,0,128,1,-1--1--1,,1|(1018,413)|
-10,205,"If Existing Patient RVI is selected, then New Pt. Starts =",2112,172,74,24,8,3,0,0,0,0,0,0
+10,205,"If Existing Pt RVI then New Pt Starts =",2112,172,74,24,8,3,0,0,0,0,0,0
 10,206,"Appts for New Ptsw/DataRVI",1813,187,43,16,8,3,0,0,0,0,0,0
 1,207,206,205,0,0,0,0,0,128,0,-1--1--1,,1|(1939,180)|
 10,208,"Ratio of Appts for New Ptsw/DataRVI",1634,185,58,16,8,3,0,0,0,0,0,0
@@ -854,7 +854,7 @@ B
 1,213,176,208,0,0,0,0,0,128,0,-1--1--1,,1|(1542,318)|
 1,214,192,206,0,0,0,0,0,128,0,-1--1--1,,1|(1807,119)|
 1,215,170,205,0,0,0,0,0,128,0,-1--1--1,,1|(2062,333)|
-10,216,"If New Patient Start Rate is selected, then RVI =",1686,572,67,24,8,3,0,0,0,0,0,0
+10,216,"If New Pt Start Rate then RVI=",1686,572,67,24,8,3,0,0,0,0,0,0
 1,217,188,216,0,0,0,0,0,128,0,-1--1--1,,1|(1641,524)|
 10,218,"Adjusted New Patient Wait Time (median)",318,692,66,16,8,3,0,0,0,0,0,0
 1,219,89,218,0,0,43,0,2,192,0,-1--1--1,|10||0-0-0,1|(322,724)|
@@ -919,7 +919,6 @@ Experiment Week,0,150,25
 :VAR RVI used when Booking
 :VAR fRVI
 :L<%^E!@
-1:CC-Sept4-test-MatchRVI.vdf
 9:CC-Sept4-test-MatchRVI
 22:wks,wk
 15:0,0,0,0,0,0
@@ -927,7 +926,7 @@ Experiment Week,0,150,25
 27:2,
 34:0,
 4:Time
-5:"Adjusted New Patient Wait Time (median)"
+5:"Actual Missed Appointment %"
 35:Date
 36:YYYY-MM-DD
 37:2000
