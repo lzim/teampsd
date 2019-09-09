@@ -3,15 +3,17 @@
      
 ## To create gifs, you need to:
 1. Capture screen recording of steps using PowerPoint or Screencast-o-matic. This will create an .mp4 file
-2. Convert the .mp4 file to a .gif file using ezgif
+2. Convert the .mp4 to a .gif file using ezgif
 
-# How to Create a Screen Recording using PowerPoint (for versions 2013, or 2016 and after)
+## How to Create a Screen Recording using PowerPoint (for versions 2013, or 2016 and after)
 
 
-# How to Create a Screen Recording using Screen O Matic
+## How to Create a Screen Recording using Screen O Matic
 
 ![] https://screencast-o-matic.com/
 
+## How to convert an .mp4 to .gif file using Ezgif
+1. Go to ezgif.com
 - Go to ezgif.com and select "Video to Gif"
 - Choose file downloaded earlier and upload video
 - Crop and cut video as necessary
