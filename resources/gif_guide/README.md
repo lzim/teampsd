@@ -13,13 +13,15 @@
 ![] https://screencast-o-matic.com/
 
 ## How to convert an .mp4 to .gif file using Ezgif
-1. Go to ezgif.com
-- Go to ezgif.com and select "Video to Gif"
-- Choose file downloaded earlier and upload video
-- Crop and cut video as necessary
-- Convert Video to Gif
-- Save and you're done!  
-![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_8.gif)  
-![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_9.gif)  
-![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_10.gif)  
-![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/gif_guide_11.gif)
+1. Go to ezgif.com & select "Video to Gif" at the top
+
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ezgif_how_to_1.gif)  
+
+2. Click "Choose File" and select the mp4 screen recording made in the steps above. Then, click "Upload Video".
+
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ezgif_how_to_2.gif)  
+
+3. Edit "start time" and "end time" if necessary (use this to trim the video to a shorter duration). Then, click on "Optimize for static background" and click "Convert to Gif". Once it loads, save the gif & upload to https://github.com/lzim/teampsd/tree/master/resources/gifs
+
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ezgif_how_to_3.gif)  
+
