@@ -9,11 +9,10 @@
 
 
 ## How to Create a Screen Recording using Screen O Matic
-
-![] https://screencast-o-matic.com/
+1. Go to https://screencast-o-matic.com/
 
 ## How to convert an .mp4 to .gif file using Ezgif
-1. Go to ezgif.com & select "Video to Gif" at the top
+1. Go to https://ezgif.com & select "Video to Gif" at the top
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ezgif_how_to_1.gif)  
 
@@ -21,7 +20,7 @@
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ezgif_how_to_2.gif)  
 
-3. Edit "start time" and "end time" if necessary (use this to trim the video to a shorter duration). Then, click on "Optimize for static background" and click "Convert to Gif". Once it loads, save the gif & upload to https://github.com/lzim/teampsd/tree/master/resources/gifs
+3. Edit "start time" and "end time" to desired length. Then, click on "Optimize for static background" and click "Convert to Gif". Once it loads, save the gif & upload to https://github.com/lzim/teampsd/tree/master/resources/gifs
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ezgif_how_to_3.gif)  
 
