@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Learner See"
 author: "Team PSD"
-date: "October 2018"
+date: "edited by SP, Sep 9, 2019"
 output: 
   github_document: default
   html_document: default
@@ -42,7 +42,7 @@ output:
 ## Running a Base Case
 
 1. Log in to your team world at mtl.how/sim.
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)
 
 2. *Join Current Session* to pick up where the team left off.
 
