@@ -291,7 +291,7 @@ files <- files[-grep("ModelParameters.xlsx|pchart_data.xlsx", files)]
 
 # Read in files related to Experimental design
 dgn_read <- function(x){
-  dt <- read_excel(files[x], col_names = paste("X",1:2, sep = "__"), range = "A11:B14")
+  dt <- read_excel(files[x], col_names = paste("X",1:2, sep = "__"), range = "A12:B15")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -311,7 +311,7 @@ dgn <- do.call("rbind", dgn_list)
 
 #Read in files related to graph paramenters
 sim_read <- function(x){
-  dt <- read_excel(files[x], col_names = TRUE, range = "A16:DA294")
+  dt <- read_excel(files[x], col_names = TRUE, range = "A17:DA133")
   dt <- dt %>%
     mutate(file_name = files[x],
            Experiment = sub(".*_(.*)\\.xls.*", "\\1", file_name),
@@ -333,7 +333,7 @@ sim_list <- lapply(1:length(files), sim_read)
 sim <- do.call("rbind", sim_list)
 
 
-bc <- read_excel(files[grep("bc", files)], col_names = paste("X",1:2, sep = "__"), range = "A198:B294")
+bc <- read_excel(files[grep("bc", files)], col_names = paste("X",1:2, sep = "__"), range = "A101:B133")
 
 
 ## VA Color Pallete
