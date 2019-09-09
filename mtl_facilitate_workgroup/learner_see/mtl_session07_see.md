@@ -42,7 +42,7 @@ output:
 ## Running a Base Case
 
 1. Log in to your team world at mtl.how/sim.
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)
 
 2. *Join Current Session* to pick up where the team left off.
 
