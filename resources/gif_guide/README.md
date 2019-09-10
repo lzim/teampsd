@@ -6,15 +6,25 @@
 2. Convert the .mp4 to a .gif file using ezgif
 
 ## How to Create a Screen Recording using PowerPoint (for versions 2013, or 2016 and after)
+1. Open Powerpoint with a new blank PowerPoint template and click on "Insert" > "Screen Recording".
 
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ppt_how_to_1.jpg)  
+
+2. Select the area you want to record and hit "Record." Hit the "Stop" button once you're done.
+
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ppt_how_to_2.png)  
+
+3. Go back to the PowerPoint template where you'll see the screen recording. Right click on the recording, click on "Save Media As", and save the .mp4 file.
+
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/ppt_how_to_3.jpg)  
 
 ## How to Create a Screen Recording using Screen O Matic
 1. Go to https://screencast-o-matic.com/ and click "Start recording for free". Then, click "Launch Free Recorder." (If this is your first time, download the applet onto your computer). Click on "Open Screen Recorder Launcher .app."
 ![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/screenomatic_how_to_1.gif)  
 
-2. Once the app launches, move/adjust the screen as desired and select record. Once you're finished, stop recording and download the .mp4 file. 
+2. Once the app launches, move/adjust the screen as desired and select record. Once you're finished, stop recording and save the .mp4 file. 
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/screenomatic_how_to_1.gif)  
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/screenomatic_how_to_2.gif)  
 
 ## How to convert an .mp4 to .gif file using Ezgif
 1. Go to https://ezgif.com & select "Video to Gif" at the top
