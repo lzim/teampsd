@@ -9,7 +9,12 @@
 
 
 ## How to Create a Screen Recording using Screen O Matic
-1. Go to https://screencast-o-matic.com/
+1. Go to https://screencast-o-matic.com/ and click "Start recording for free". Then, click "Launch Free Recorder." (If this is your first time, download the applet onto your computer). Click on "Open Screen Recorder Launcher .app."
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/screenomatic_how_to_1.gif)  
+
+2. Once the app launches, move/adjust the screen as desired and select record. Once you're finished, stop recording and download the .mp4 file. 
+
+![](https://github.com/lzim/teampsd/blob/master/resources/gif_guide/screenomatic_how_to_1.gif)  
 
 ## How to convert an .mp4 to .gif file using Ezgif
 1. Go to https://ezgif.com & select "Video to Gif" at the top
