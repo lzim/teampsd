@@ -64,7 +64,7 @@ Most likely, I have been working, and others on the team have been working. If w
 
 - Look for the branch you want to delete and click on the trashcan icon next to it to delete.
 
-![](https://www.wikihow.com/images/e/e8/Delete-a-GitHub-Branch-Step-4.jpg0
+![](https://www.wikihow.com/images/e/e8/Delete-a-GitHub-Branch-Step-4.jpg)
 
 
 
