@@ -54,7 +54,7 @@ Most likely, I have been working, and others on the team have been working. If w
 ![](https://static.packt-cdn.com/products/9781783553716/graphics/B03497_01_09.jpg)
 
 **To access previous versions of a file:**
-1. Click on the "History" button at the top right.** This will show you a list of commits made to the file in that repository and you can trace it back to the version of your choice.
+1. **Click on the "History" button at the top right.** This will show you a list of commits made to the file in that repository and you can trace it back to the version of your choice.
 
 ![](https://static.packt-cdn.com/products/9781783553716/graphics/B03497_01_09.jpg)
 
