@@ -46,8 +46,9 @@ Most likely, I have been working, and others on the team have been working. If w
 **Summary: We all need to *begin* and *end* all of our working sessions on our own branches by using pull requests. Pull requests are the way to stay consistently current 💯with everyone's work, as reflected by the master branch.  This helps us review, edit, format and collaborate in real-time with parallel workflows to avoid rework.** 
 
 # mtl.how/teampsd vs. mtl.how Pull Request workflow
-- TeamPSD respository is for our **"works in progress"** while the mtl.how repository has the **"best versions"** of our materials. 
+- TeamPSD respository is for our **"works in progress"** while the MTL.How repository has the **"best versions"** of our materials. 
 - The two repositories cannot automatically "update" each other. Meaning, if anything is changed in one repository, **it has to manually be updated in the other repository.**
+- Once a file has been fully updated via pull requests in mtl.how/teampsd, HQ will move the file over to the corresponding place in mtl.how.
 
 **To Copy & Paste code, click on the "Raw" button in the top right.** After, create a regular pull request as outlined above to merge the changes.
 
@@ -58,7 +59,7 @@ Most likely, I have been working, and others on the team have been working. If w
 
 ![](https://static.packt-cdn.com/products/9781783553716/graphics/B03497_01_09.jpg)
 
-2. **Or, you can delete your branch and start again from the most recent version on the master branch.**
+2. **Or, you can delete your branch and start a new branch from the most recent version on the master branch.**
 - Click on "Branches" from the main repository page
 ![](https://help.github.com/assets/images/help/branches/branches-link.png)
 
