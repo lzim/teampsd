@@ -4,6 +4,7 @@
 ## To create gifs, you need to:
 1. Capture screen recording of steps using PowerPoint or Screencast-o-matic. This will create an .mp4 file
 2. Convert the .mp4 to a .gif file using ezgif
+3. **Note:** When updating gifs that already exist, delete the old gif and upload the new gif using the ***same name***. This will ensure that the gif updates across all materials without causing broken links or needing to update the link in every place.
 
 ## How to Create a Screen Recording using PowerPoint (for versions 2013, or 2016 and after)
 1. Open Powerpoint with a new blank PowerPoint template and click on "Insert" > "Screen Recording".
