@@ -1,8 +1,7 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# GitHub Pull Requests
-
+# GitHub Pull Requests Overview
 
 **TEAM PSD Pull Request Tutorial**
 - **Understanding pull requests**, aka: *why it's important to sync your own branch with the master branch before you do any work on your own branch*, aka: *how to move from a self-oriented view (everyone needs to incorporate my work) to a team-oriented view (we all need to incorporate each others work in our own work - **in real time**).*
@@ -45,3 +44,9 @@ Most likely, I have been working, and others on the team have been working. If w
 
 
 **Summary: We all need to *begin* and *end* all of our working sessions on our own branches by using pull requests. Pull requests are the way to stay consistently current 💯with everyone's work, as reflected by the master branch.  This helps us review, edit, format and collaborate in real-time with parallel workflows to avoid rework.** 
+
+# mtl.how/teampsd vs. mtl.how Pull Request workflow
+- TeamPSD respository is for our **"works in progress"** while the mtl.how repository has the **"best versions"** of our materials. 
+- The two repositories cannot automatically "update" each other. Meaning, if anything is changed in one repository, it has to manually be updated in the other repository.
+
+by Copying & Pasting the changes to the appropriate file and updating the file using a pull request (as outlined above).
