@@ -1,8 +1,7 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# GitHub Pull Requests
-
+# GitHub Pull Requests Overview
 
 **TEAM PSD Pull Request Tutorial**
 - **Understanding pull requests**, aka: *why it's important to sync your own branch with the master branch before you do any work on your own branch*, aka: *how to move from a self-oriented view (everyone needs to incorporate my work) to a team-oriented view (we all need to incorporate each others work in our own work - **in real time**).*
@@ -45,3 +44,30 @@ Most likely, I have been working, and others on the team have been working. If w
 
 
 **Summary: We all need to *begin* and *end* all of our working sessions on our own branches by using pull requests. Pull requests are the way to stay consistently current 💯with everyone's work, as reflected by the master branch.  This helps us review, edit, format and collaborate in real-time with parallel workflows to avoid rework.** 
+
+# mtl.how/teampsd vs. mtl.how Pull Request workflow
+- TeamPSD respository is for our **"works in progress"** while the MTL.How repository has the **"best versions"** of our materials. 
+- The two repositories cannot automatically "update" each other. Meaning, if anything is changed in one repository, **it has to manually be updated in the other repository.**
+- Once a file has been fully updated via pull requests in mtl.how/teampsd, HQ will move the file over to the corresponding place in mtl.how.
+
+**To Copy & Paste code, click on the "Raw" button in the top right.** After, create a regular pull request as outlined above to merge the changes.
+
+![](https://static.packt-cdn.com/products/9781783553716/graphics/B03497_01_09.jpg)
+
+**To access previous versions of a file:**
+1. **Click on the "History" button at the top right.** This will show you a list of commits made to the file in that repository and you can trace it back to the version of your choice.
+
+![](https://static.packt-cdn.com/products/9781783553716/graphics/B03497_01_09.jpg)
+
+2. **Or, you can delete your branch and start a new branch from the most recent version on the master branch.**
+- Click on "Branches" from the main repository page
+![](https://help.github.com/assets/images/help/branches/branches-link.png)
+
+- Look for the branch you want to delete and click on the trashcan icon next to it to delete.
+
+![](https://www.wikihow.com/images/e/e8/Delete-a-GitHub-Branch-Step-4.jpg)
+
+
+
+
+
