@@ -47,6 +47,15 @@ Most likely, I have been working, and others on the team have been working. If w
 
 # mtl.how/teampsd vs. mtl.how Pull Request workflow
 - TeamPSD respository is for our **"works in progress"** while the mtl.how repository has the **"best versions"** of our materials. 
-- The two repositories cannot automatically "update" each other. Meaning, if anything is changed in one repository, it has to manually be updated in the other repository.
+- The two repositories cannot automatically "update" each other. Meaning, if anything is changed in one repository, **it has to manually be updated in the other repository.**
 
-by Copying & Pasting the changes to the appropriate file and updating the file using a pull request (as outlined above).
+**You can find the code to Copy & Paste by clicking on the "Raw" button.** After, create a regular pull request as outlined above to merge the changes.
+
+![](https://raw.githubusercontent.com/tonesto7/pushover-manager/master/images/ST-GitHub.png)
+
+
+
+
+
+
+
