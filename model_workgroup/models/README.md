@@ -2,10 +2,11 @@
      height = "200" width = "600">  
 # Model Workgroup
 
-***MTL 1.6* Models - Released August 2018**
+***MTL 1.8* Models - Released May 2019**
 
 - Care Coordination
 - Medication Management
 - Psychotherapy
 - Aggregate
+- Suicide Prevention
 - ModelParameters.xlsx (this file will be necessary to run these .mdl files in Vensim)
