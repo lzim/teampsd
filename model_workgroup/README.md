@@ -13,12 +13,13 @@ output:
      height = "200" width = "600">  
 # Model Workgroup
 
-**1. *MTL 1.6* Models - Released August 2018**
+**1. *MTL 1.8* Models - Released May 2019**
 
 - Care Coordination
 - Medication Management
 - Psychotherapy
 - Aggregate
+- Suicide Prevention
 
 **2. Quad charts**
 
