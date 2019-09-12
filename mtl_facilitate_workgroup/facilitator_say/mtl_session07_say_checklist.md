@@ -28,41 +28,39 @@ output:
 ## Emphasize team priority with the learning objectives on the screen 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> **Learning Objectives for Session 7**
 1. Describe the base case of no new decisions in your team. 
-2. Test out your thinking about what is likely to cause **oscillation** in team trends. 
-3. Apply **systems thinking** to develop a hypothesis about your team's clinical priority. 
+2. Test out your thinking about what is likely to cause oscillation in team trends. 
+3. Apply systems thinking to develop a hypothesis about your team's clinical priority. 
 
 ## Start in-session exercise and provide rationale for running a base case with no new decisions. 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team-specific rationale** __________________
 - [ ] <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150"> Provide **rationale** for preparing for running a base case of no new decisions prior to running simulation experiments.
 - [ ] The first step in learning from simulation is to run a **base case simulation** against which all **future experiments** will be compared.   
 
-## Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+## Team lead navigates using Chrome to log in to the Team world at **mtl.how/sim**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 06 Question** __________________
 - [ ] Join current session to pick up where the team left off in Session 06.
 - [ ] Orient to main page: Team name, module, and selected data file.
-- [ ] Navigate to the team's Session 06 question.
+- [ ] Pull upthe team's **Session 06 question and dynamic hypothesis** about the basecase.
 
-## Creating a Base Case question and hypothesis related to our team making no new decisions
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority**__________________ 
-- [ ] Provide rationale for creating a **team question and hypothesis** related to a BC with no new decisions. 
-- [ ] Example question: What happens to ____________ (from the team's priority) if we make no new decisions? 
-- [ ] Example hypothesis: Outline the systems story your team believes will cause the outcomes your team expects to observe (AGG, CC, MM, PSY, or SP)
-- [ ] Input our team's BC question and hypothesis into the Text box.
-- [ ] Continue to describe the **causal loop** most relevant to the team's highest priority need. 
+## Use session 6 complexity reveal (feedback loop) to explain the likely 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority Causal Loop**__________________ **Specific Varibles and Values from Priority Causal Loop **_______________
+- [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the team makes no new decisions. 
+- [ ] Example question: "What happens to ____________ (from the team's priority), over the next two years if we make no new decisions?"
+- [ ] Example hypothesis, using specific **variables** and **values**: "If we make no decisions in our team, then due to the **Feedback Loop: Balancing New and Existing Patients,** over the next two years, we will continue to see approximately 90 patients each week who have been engaged in care for longer than their first three months, and 25 patients each week who are in their own first 12 weeks of psychotherapy." 
 
-## Running the Base Case of no new decisions
+## Run the Base Case of no new decisions
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority**__________________
-- [ ] Set all **experiment sliders** to **"bc" or "zero"** except **purple sliders**, which start with a default value of **"1"**.
-- [ ] Hit "Run"!
-- [ ] Go to the Expanded Outputs section and **Save** (without resetting) our run. 
+- [ ] Set all **red** and **green** **experiment sliders** to **"bc" or "zero"** except **purple sesnitivity sliders**, which start with a default middle value of **"1"**.
+- [ ] Hit the **Green Run Button**!
+- [ ] Go to the **Expanded Outputs** section and **Save** (without resetting) our run. 
 
-## Practice describing specific output charts related to the team's highest priority need using Base Case data
+## Describe the output charts of the _specific variables_ and _values_ related to the team's highest priority need using Base Case data
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 - [ ] Look at the results with the **team specific to the team's question and hypothesis** for the BC run.
-- [ ] What does the team notice about the results related to their highest priority need? 
-- [ ] Describe team findings in the *Our Findings* textbox, and explain how the findings relate to the team's question and hypothesis. 
-- [ ] Based on what the team learned in this base case experiment, what does the team want to try next? 
-- [ ] Record next steps in the *Our Decisions* textbox to help guide future experiements. 
+- [ ] What does the team notice about the results for **variables related to their highest priority need**? 
+- [ ] Describe team **System Behavior** findings in the *Our Findings* textbox 
+- [ ] How **Basecase System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority:
+- [ ] **Decisions:** Based on what the team learned in this base case experiment, what will the team use _Modeling to Learn_ to learn next?
 
 ## Have Team Lead pull up the session 06 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
