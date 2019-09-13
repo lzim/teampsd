@@ -56,7 +56,7 @@ output:
 
 4.	Expand the Outputs and Text section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new changes are made in your team, and run the simulation out to its 2-year end just using data pulled in from your team data file.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_bc_qh.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_bc_qh.gif)
 
 5.	Run; then Save (without resetting) the run with the name Base Case.
 
