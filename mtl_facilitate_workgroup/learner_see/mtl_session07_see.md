@@ -56,7 +56,7 @@ output:
 
 4.	Expand the Outputs and Text section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new changes are made in your team, and run the simulation out to its 2-year end just using data pulled in from your team data file.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_bc_qh.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_bc_qh.gif)
 
 5.	Run; then Save (without resetting) the run with the name Base Case.
 
@@ -81,4 +81,4 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Q/H/F/D boxes of the Outputs and Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_text_fields.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Outputs and Text section to prepare for experiment 1. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_bc_qh.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Q/H/F/D boxes of the Outputs and Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_bc_qh.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Outputs and Text section to prepare for experiment 1. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_results_dash.gif)|
