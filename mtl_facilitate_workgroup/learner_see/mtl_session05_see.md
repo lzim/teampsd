@@ -63,9 +63,7 @@ output:
 
 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers). Open the Team Data Menu Maintenance section and click Add. Paste the name of your team data file into the box and click Save. 
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_home.gif)
-
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_exp_maint.gif)
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_home.gif" height = "100" width = "140">
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_team_data_menu_maint.gif)
 
