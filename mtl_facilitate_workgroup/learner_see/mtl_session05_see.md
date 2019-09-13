@@ -59,9 +59,12 @@ output:
 
 + Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_home.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)
 
 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers). Open the Team Data Menu Maintenance section and click Add. Paste the name of your team data file into the box and click Save. 
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_home.gif)
+
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_exp_maint.gif)
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_team_data_menu_maint.gif)
