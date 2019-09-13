@@ -1,5 +1,5 @@
 ---
-title: "MTL Session 6 - Facilitator Say"
+title: "MTL Session 7 - Facilitator Say"
 author: "Team PSD"
 date: "Edited August 27, 2019 by SP & JF"
 output: 
@@ -43,7 +43,8 @@ output:
 - [ ] Pull upthe team's **Session 06 question and dynamic hypothesis** about the basecase.
 
 ## Use session 6 complexity reveal (feedback loop) to explain the likely 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority Causal Loop**__________________ **Specific Varibles and Values from Priority Causal Loop **_______________
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority Causal Loop**__________________   
+**Specific Variables and Values from Priority Causal Loop**_______________
 - [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the team makes no new decisions. 
 - [ ] Example question: "What happens to ____________ (from the team's priority), over the next two years if we make no new decisions?"
 - [ ] Example hypothesis, using specific **variables** and **values**: "If we make no decisions in our team, then due to the **Feedback Loop: Balancing New and Existing Patients,** over the next two years, we will continue to see approximately 90 patients each week who have been engaged in care for longer than their first three months, and 25 patients each week who are in their own first 12 weeks of psychotherapy." 
