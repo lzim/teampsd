@@ -119,7 +119,7 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 - [ ] **Red variables** covered:
 
 #### 4. Introducing stocks/flows and polarities among key variables related to the team's priority
-### _Team Priority covered with this team_:
+#### _Team Priority covered with this team_:
 - [ ] **Navy blue circle/rate**:
 - [ ] **Navy blue rectangle/rate**: 
 - [ ] **Causal feedback loop**:
@@ -136,26 +136,38 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 - [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 7.
 
 
-## **Session 7 Checklist**
+## Session 7
 
-- [ ] Team rationale for running basecase: 
+####  1. Provide team-specific rationale for running a base case with no new decisions.
+- [ ] **Team-specific rationale**: 
 
-- [ ] Basecase of no new decisions question:
+#### 2. Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+- [ ] **Question and Hypothesis text from s6**:
 
-- [ ] Basecase of no new decisions hypothesis:
+#### 3. Use session 6 complexity reveal (feedback loop) to explain the likely
+#### _Team Priority Causal Loop covered with this team_:
+#### _Specific Variables and Values from Team Priority Causal Loop covered with this team_:
+- [ ] **Causal system story for Team Priority**: 
 
-- [ ] Causal loop most relevant to team priority: 
+#### 4. Run the Base Case of no new decisions
+#### _Team Priority covered with this team_:
+- [ ] **Red and green experiment sliders**:
+- [ ] **Purple sensitivity sliders**: 
+- [ ] **Causal feedback loop**:
+- [ ] Variables related with **positive polarity** (+):
+- [ ] Variables related with **negative polarity** (-):
 
-- [ ] Outputs and Results relevant to team priority: 
+#### 5. Describe the output charts of the specific variables and values related to the team's highest priority need using Base Case data
+### _Team Priority covered with this team_:
+- [ ]  **Basecase results for team question and hypothesis**:
+- [ ]  **Basecase results for variables related to highest priority need**:
+- [ ]  **Basecase system behavior findings text**: 
+- [ ]  **Basecase system behavior findings** in complexity reveal (causal loop): 
+- [ ]  **Basecase decisions text**: 
 
-- [ ] Team findings: 
-
-- [ ] Team decisions: 
-
-
-NEED: Current working conceptualization of this team's need? 
-
-DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
+#### Summary
+- [ ] NEED: Current **working conceptualization** of this team's need?: 
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 7.
 
 
 ## **Session 8 Checklist**
