@@ -40,7 +40,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 06 Question** __________________
 - [ ] Join current session to pick up where the team left off in Session 06.
 - [ ] Orient to main page: Team name, module, and selected data file.
-- [ ] Pull upthe team's **Session 06 question and dynamic hypothesis** about the basecase.
+- [ ] Pull up the team's **Session 06 question and dynamic hypothesis** about the basecase.
 
 ## Use session 6 complexity reveal (feedback loop) to explain the likely 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority Causal Loop**__________________   
