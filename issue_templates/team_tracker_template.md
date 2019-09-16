@@ -1,207 +1,265 @@
-## MTL Co-Facilitation Team Tracker Template
-- - - 
-_This checklist will assit co-facilitators with tracking team information accross the 12-session plan._
+## **Session 1 Checklist**
 
-Note: Each facilitator pair should provide adequate information to best assist future facilitators and provide enough knowledge of team needs and Q/H/F/D.
+- [ ] Teams best case scenario:
 
+- [ ] Themes within personal visions: 
 
-#### Please ensure all information is entered for each session
+- [ ] Selected team vision:
 
-### Phase 1: PARTNER
+- [ ] Standing meeting time: 
 
-**Session 1 Checklist**
+- [ ] Team lead: 
 
-- [ ] What is the team's shared vision? 
-- [ ] Specific themes the team brought up while visioning during session 1?
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
 
-NEED: Current working conceptualization of this team's need? _______________________________________
+NEED: Current working conceptualization of this team's need? 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization.
+DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
 
-My GOAL for this session is to document the following themes and differential questions related to the teams need by end of the session.
 
-Specific themes the team brought up when visioning during session 1. _______________________________________
+## **Session 2 Checklist**
 
-**Session 2 Checklist**
+- [ ] Splashpage information explored relevant to team vision: 
 
-- [ ] What team data trends were observed during session? 
-- [ ] What specific values were noticed within the team data table that relate to the team's highest priority need? 
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
+- [ ] Rankings of the highest priority data categories for team: 
 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+- [ ] Team data prioritized relevant to team need: 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization.
+- [ ] Column most helpful for creating this team's dataset: 
 
-My GOAL for this session is to document the following themes and differential questions related to the teams need by end of the session.
+- [ ] What stands out to the team:
 
+- [ ] Most surprising piece of data for team: 
 
-**Session 3 Checklist**
+- [ ] Services changing over time: 
 
-- [ ] What data were chosen for the team's context and shared vision to utilize during the "what-if" simulation learning?
-- [ ] What data-related FAQs were prioritized consistent with the team's highest priority need? 
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+NEED: Current working conceptualization of this team's need? 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team). 
+DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
 
-My GOAL for this session is to document the following themes and differential questions related to the teams need by end of the session.
 
+## **Session 3 Checklist**
 
-**Session 4 Checklist**
-- [ ] What consensus was reached regarding the team's highest priority need? What module was agreed upon for session 5? 
-- [ ] What multiple points of view, variables, and problems were addressed to find a "through line" for the team as a whole?
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
+- [ ] 1st module chosen for overview: 
 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+- [ ] Variable chosen as important within 1st module: 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+- [ ] 2nd module chosen for overview: 
 
-My GOAL for this session is to document the following themes and differential questions related to the teams need by end of the session.
+- [ ] Variable chosen as important within 2nd module: 
 
-### Phase 2: BUILD
+- [ ] Team data table values to explore: 
 
-**Session 5 Checklist**
-- [ ] What specific values from the Team Data Table were addressed today? 
-- [ ] What was the team's learning question entered based on the needs assessment and team data? 
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
+- [ ] Surprising data values to team: 
 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+- [ ] Data values that confirm team need: 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+- [ ] Team fills out mtl.how/menu
 
-My GOAL for this session is that the team will document the following Q/H/F/D by end of the session.
 
-Question: _______________________________________
+NEED: Current working conceptualization of this team's need? 
 
-Hypothesis: _______________________________________
+DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
 
-Findings: _______________________________________
 
-Decisions: _______________________________________
 
-**Session 6 Checklist**
-- [ ] What was the team's dynamic hypothesis? 
-- [ ] What causal loop was identified that was most relevant to the team's highest priority need? 
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+## **Session 4 Checklist**
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+- [ ] Mtl.how/menu results: 
 
-My GOAL for this session is that the team will document the following Q/H/F/D by end of the session.
+- [ ] Team consensus: 
 
-Question: _______________________________________
+- [ ] Items with variance: 
 
-Hypothesis: _______________________________________
+- [ ] Module selected: 
 
-Findings: _______________________________________
+- [ ] Team need further prioritized: 
 
-Decisions: _______________________________________
 
-**Session 7**
-- [ ] What findings and decisions were made relative to the base case and dynamic hypothesis? 
-- [ ] What specific value adjustments do you expect to be helpful for the team to experiment with related to their highest priority need?
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+NEED: Current working conceptualization of this team's need? 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
 
-My GOAL for this session is that the team will document the following Q/H/F/D by end of the session.
 
-Question: _______________________________________
 
-Hypothesis: _______________________________________
+## **Session 5 Checklist**
 
-Findings: _______________________________________
+- [ ] Team's high-level learning Question:
 
-Decisions: _______________________________________
+- [ ] Team decisions affecting variables: 
 
-**Session 8**
-- [ ] What alternatives did the team test against their basecase for experiment 1? 
-- [ ] What comparison did they make between their alternative case and basecase? 
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
+- [ ] "i" information discussed: 
 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+- [ ] Values noticed and discussed: 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+- [ ] Encourage team members to "play" in the Sim between sessions.
 
-My GOAL for this session is that the team will document the following Q/H/F/D by end of the session.
 
-Question: _______________________________________
+NEED: Current working conceptualization of this team's need? 
 
-Hypothesis: _______________________________________
+DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
 
-Findings: _______________________________________
 
-Decisions: _______________________________________
 
-**Session 9**
-- [ ] Was CFBT Systems Thinking utilized to interact with the team? How? 
-- [ ] What variables are of particular interest to the team within the output section for experiment 2? 
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
+## Session 6
 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+####  1. Provide team-specific rationale for building capacity for participatory learning from simulation
+- [ ] **Team-specific rationale**: 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+#### 2. Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+- [ ] **Question text from s4-S5**:
 
-My GOAL for this session is that the team will document the following Q/H/F/D by end of the session.
+#### 3. Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
+#### _Team Priority covered with this team_:
+- [ ] **Experiment Timeline**: 
+- [ ] **Blue circle "i"**:
+- [ ] **Red circle "i" in the team data table** provide information for the red variables that are read in from team data:
+- [ ] **"i" for Red Variable in Experiments section**: 
+- [ ] **Reveal complexity for Team Priority**: 
+- [ ] **Red variables** covered:
 
-Question: _______________________________________
+#### 4. Introducing stocks/flows and polarities among key variables related to the team's priority
+#### _Team Priority covered with this team_:
+- [ ] **Navy blue circle/rate**:
+- [ ] **Navy blue rectangle/rate**: 
+- [ ] **Causal feedback loop**:
+- [ ] Variables related with **positive polarity** (+):
+- [ ] Variables related with **negative polarity** (-):
 
-Hypothesis: _______________________________________
+#### 5. Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
+### _Team Priority covered with this team_:
+- [ ]  **Basecase values** in complexity reveal (causal loop):
+- [ ]  **Basecase dynamic hypothesis text**: 
 
-Findings: _______________________________________
+#### Summary
+- [ ] NEED: Current **working conceptualization** of this team's need?: 
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 7.
 
-Decisions: _______________________________________
 
-### Phase 3: APPLY
+## Session 7
 
-**Session 10**
-- [ ] Which output charts did you review with the team for experiment 3?
-- [ ] What data observations were made in the session for experiment 3?
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
-NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
+####  1. Provide team-specific rationale for running a base case with no new decisions.
+- [ ] **Team-specific rationale**: 
 
-DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
+#### 2. Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+- [ ] **Question and Hypothesis text from s6**:
 
-My GOAL for this session is that the team will document the following Q/H/F/D by end of the session.
+#### 3. Use session 6 complexity reveal (feedback loop) to explain the likely
+#### _Team Priority Causal Loop covered with this team_:
+#### _Specific Variables and Values from Team Priority Causal Loop covered with this team_:
+- [ ] **Causal system story for Team Priority**: 
 
-Question: _______________________________________
+#### 4. Run the Base Case of no new decisions
+#### _Team Priority covered with this team_:
+- [ ] **Red and green experiment sliders**:
+- [ ] **Purple sensitivity sliders**: 
+- [ ] **Causal feedback loop**:
+- [ ] Variables related with **positive polarity** (+):
+- [ ] Variables related with **negative polarity** (-):
 
-Hypothesis: _______________________________________
+#### 5. Describe the output charts of the specific variables and values related to the team's highest priority need using Base Case data
+### _Team Priority covered with this team_:
+- [ ]  **Basecase results for team question and hypothesis**:
+- [ ]  **Basecase results for variables related to highest priority need**:
+- [ ]  **Basecase system behavior findings text**: 
+- [ ]  **Basecase system behavior findings** in complexity reveal (causal loop): 
+- [ ]  **Basecase decisions text**: 
 
-Findings: _______________________________________
+#### Summary
+- [ ] NEED: Current **working conceptualization** of this team's need?: 
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 7.
 
-Decisions: _______________________________________
 
-**Session 11**
-- [ ] How does the team hope to use the previous experiments to guide their clinical decisions? 
-- [ ] What concerns does the team have regarding implementing these changes? 
-- [ ] What were the team's questions? 
-- [ ] What is the team's guiding question and hypotheses?
-- [ ] What are your facilitator needs before next session? 
+## **Session 8 Checklist**
 
-**Session 12**
-- [ ] What resources did the team find most helpful? 
-- [ ] What were the team's questions? 
+- [ ] Specific data values highlighted:
+
+- [ ] Causal loop most relelvant to team priority: 
+
+- [ ] Stocks and flows relevant to team priority:
+
+- [ ] Specific value adjustments relevant to team priority:
+
+- [ ] Experiment 1 Question:
+
+- [ ] Experiment 1 Hypothesis: 
+
+- [ ] Dashboard items discussed:
+
+- [ ] Team findings Experiment 1: 
+
+- [ ] Team decisions Experiement 1: 
+
+
+NEED: Current working conceptualization of this team's need? 
+
+DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
+
+
+
+## **Session 9 Checklist**
+
+- [ ] What did team learn from experiement 1: 
+
+- [ ] Experiment 2 Question:
+
+- [ ] Experiment 2 Hypothesis: 
+
+- [ ] Dashboard items discussed:
+
+- [ ] Team findings Experiment 2: 
+
+- [ ] Team decisions Experiement 2: 
+
+- [ ] Results compared:
+
+
+NEED: Current working conceptualization of this team's need? 
+
+DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
+
+
+
+## **Session 10 Checklist**
+
+- [ ] What did team learn from experiements 1 & 2: 
+
+- [ ] Experiment 3 Question:
+
+- [ ] Experiment 3 Hypothesis: 
+
+- [ ] Dashboard items discussed:
+
+- [ ] Team findings Experiment 3: 
+
+- [ ] Team decisions Experiement 3: 
+
+- [ ] Results compared:
+
+
+NEED: Current working conceptualization of this team's need? 
+
+DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
+
+
+## **Session 11 Checklist**
+
+- [ ] Insight for future team decisions: 
+
+- [ ] Decisions team wants to implement:
+
+- [ ] Concrete actions team will take:
+
+- [ ] Decision alignment with team priority: 
+
+- [ ] Data to watch over time: 
+
+
+
+## **Session 12 Checklist**
+
+- [ ] Lingering questions team has: 
+
+- [ ] Resources team found helpful: 
+
+- [ ] Final team thoughts: 

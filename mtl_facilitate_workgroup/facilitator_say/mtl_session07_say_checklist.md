@@ -40,7 +40,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 06 Question** __________________
 - [ ] Join current session to pick up where the team left off in Session 06.
 - [ ] Orient to main page: Team name, module, and selected data file.
-- [ ] Pull upthe team's **Session 06 question and dynamic hypothesis** about the basecase.
+- [ ] Pull up the team's **Session 06 question and dynamic hypothesis** about the basecase.
 
 ## Use session 6 complexity reveal (feedback loop) to explain the likely 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:30 - Team Priority Causal Loop**__________________   
@@ -51,9 +51,9 @@ output:
 
 ## Run the Base Case of no new decisions
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority**__________________
-- [ ] Set all **red** and **green** **experiment sliders** to **"bc" or "zero"** except **purple sesnitivity sliders**, which start with a default middle value of **"1"**.
+- [ ] Set all **red** and **green** **experiment sliders** to **"bc" or "zero"** except **purple sensitivity sliders**, which start with a default middle value of **"1"**.
 - [ ] Hit the **Green Run Button**!
-- [ ] Go to the **Expanded Outputs** section and **Save** (without resetting) our run. 
+- [ ] Go to the **Expanded Outputs** section and **Save** (not Save & Reset) our run. 
 
 ## Describe the output charts of the _specific variables_ and _values_ related to the team's highest priority need using Base Case data
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
