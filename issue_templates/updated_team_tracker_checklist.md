@@ -101,26 +101,39 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 
 
-## **Session 6 Checklist**
+## Session 6
 
-- [ ] The problem the team is prioritizing is:
+####  1. Provide team-specific rationale for building capacity for participatory learning from simulation
+- [ ] **Team-specific rationale**: 
 
-- [ ] The red variables discussed in session were: 
+#### 2. Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+- [ ] **Question text from s4-S5**:
 
-- [ ] Team variables emphasized during + demo:
+#### 3. Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
+#### _Team Priority covered with this team_:
+- [ ] **Experiment Timeline**: 
+- [ ] **Blue circle "i"**:
+- [ ] **Red circle "i" in the team data table** provide information for the red variables that are read in from team data:
+- [ ] **"i" for Red Variable in Experiments section**: 
+- [ ] **Reveal complexity for Team Priority**: 
+- [ ] **Red variables** covered:
 
-- [ ] Team priorities emphasized during - demo: 
+#### 4. Introducing stocks/flows and polarities among key variables related to the team's priority
+### _Team Priority covered with this team_:
+- [ ] **Navy blue circle/rate**:
+- [ ] **Navy blue rectangle/rate**: 
+- [ ] **Causal feedback loop**:
+- [ ] Variables related with **positive polarity** (+):
+- [ ] Variables related with **negative polarity** (-):
 
-- [ ] Basecase values most relevant to team priority: 
+#### 5. Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
+### _Team Priority covered with this team_:
+- [ ]  **Basecase values** in complexity reveal (causal loop):
+- [ ]  **Basecase dynamic hypothesis text**: 
 
-- [ ] Basecase Question: 
-
-- [ ] Dynamic hypothesis: 
-
-
-NEED: Current working conceptualization of this team's need? 
-
-DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
+#### Summary
+- [ ] NEED: Current **working conceptualization** of this team's need?: 
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 7.
 
 
 ## **Session 7 Checklist**
