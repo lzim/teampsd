@@ -36,11 +36,11 @@ output:
 5. Log into [mtl.how/live (Adobe Connect)](https://mtl.how/live) and dial into 1-800-767-1750; Code 27379 (VANTS phone line) to join the meeting.  Assign all facilitators/coders to "presenter" role. 
 
 ## Live Lead Facilitator (should be done during the post-session debrief and reviewed during the prep meeting)
-1. Check the [session guide (see file)](https://github.com/lzim/teampsd/tree/master/mtl_facilitate_workgroup/mtl_live_guide), faciliator guide (say file) and fidelity checklist for the session.
+1. Check the [session guide (see file)](https://mtl.how), [faciliator guide (say file)](https://mtl.how) and [facilitator say checklist](https://mtl.how) for the session.
 
 2. Check [mtl.how/sim](https://mtl.how/sim) in *team* and *facilitator* roles to review the last team meeting.
 
-3. [Check the co-facilitator debriefing notes from the last team meeting.](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/session7_notes.Rmd)
+3. [Check the co-facilitator debriefing notes from the last team meeting.](https://mtl.how/team_tracker)
 
 4. Check the [systems thinking codebook](https://github.com/lzim/teampsd/tree/master/qual_workgroup/qual_codebooks/systems_thinking) to prepare notes that target a new dimension or level systems thinking improvement on team question, hypothesis, findings, and decisions for discussion.
 
