@@ -1,7 +1,7 @@
 ---
 title: "Modeling to Learn Facilitate Post-checklist"
 author: "Team PSD"
-date: "September 2018"
+date: "edited by SP; Sept 20, 2019"
 output: 
   github_document: default
   html_document: default
@@ -16,6 +16,9 @@ output:
      height = "150" width = "250">  
 
 # MTL Facilitate Post-checklist
+
+## Fidelity Ratings - 
+[mtl.how/fidelity](https://mtl.how/fidelity)
 
 ## Facilitator Debriefing Checklist - 
 
