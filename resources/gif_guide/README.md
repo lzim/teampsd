@@ -6,8 +6,9 @@
 2. Convert the .mp4 to a .gif file using ezgif.
 3. Upload gif to https://github.com/lzim/teampsd/tree/master/resources/gifs
 
-## Naming Gifs
-**Note:** When updating gifs that already exist, delete the old gif and upload the new gif using the ***same name***. This will ensure that the gif updates across all materials without causing broken links or needing to update the link in every place.
+## Note
+1. When updating gifs that already exist, delete the old gif and upload the new gif using the ***same name***. This will ensure that the gif updates across all materials without causing broken links or needing to update the link in every place.
+2. All general sim gifs have been created in AGG so far. It is helpful to continue keeping it in the AGG model, as this reduces the dependencies and rework when any model updates/changes occur. We only need to check gifs when changes to AGG occur for model specific chnages.
 
 ## How to Create a Screen Recording using PowerPoint (for versions 2013, or 2016 and after)
 1. Open Powerpoint with a new blank PowerPoint template and click on "Insert" > "Screen Recording".
