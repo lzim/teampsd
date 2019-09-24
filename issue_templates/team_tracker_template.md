@@ -127,7 +127,7 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 - [ ] Variables related with **negative polarity** (-):
 
 #### 5. Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
-### _Team Priority covered with this team_:
+#### _Team Priority covered with this team_:
 - [ ]  **Basecase values** in complexity reveal (causal loop):
 - [ ]  **Basecase dynamic hypothesis text**: 
 
@@ -158,7 +158,7 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 - [ ] Variables related with **negative polarity** (-):
 
 #### 5. Describe the output charts of the specific variables and values related to the team's highest priority need using Base Case data
-### _Team Priority covered with this team_:
+#### _Team Priority covered with this team_:
 - [ ]  **Basecase results for team question and hypothesis**:
 - [ ]  **Basecase results for variables related to highest priority need**:
 - [ ]  **Basecase system behavior findings text**: 
@@ -167,33 +167,43 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 #### Summary
 - [ ] NEED: Current **working conceptualization** of this team's need?: 
-- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 7.
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 8.
 
 
-## **Session 8 Checklist**
+## Session 8 
 
-- [ ] Specific data values highlighted:
+#### 1. Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+- [ ] **Previous experiment values and text from s7 basecase**:
 
-- [ ] Causal loop most relelvant to team priority: 
+#### 2. Review team-specific rationale for the base case findings 
+- [ ] **Team-specific causal system story for findings**: 
+- [ ] **"d" decisions text on team consensus about specific values**: to experiment with 
 
-- [ ] Stocks and flows relevant to team priority:
+#### 3. Use sessions 06 & 07 causal complexity reveal (feedback loop) to enter hypothesis text for experiment 1
+#### _Team Priority Causal Loop covered with this team_:
+#### _Specific Variables and Values from Team Priority Causal Loop covered with this team_:
+- [ ] **Causal system story for Team Priority**: 
+- [ ] **Experiment 1 team question **:
 
-- [ ] Specific value adjustments relevant to team priority:
+#### 4. Enter hypothesis text and adjust sliders for experiment 1
+#### _Team Priority covered with this team_:
+- [ ] **Experiment 1 team hypothesis **:
+- [ ] **Red and green experiment sliders**:
+- [ ] **Purple sensitivity sliders**: 
 
-- [ ] Experiment 1 Question:
+#### 5. Run experiment 1
+#### _Team Priority covered with this team_:
 
-- [ ] Experiment 1 Hypothesis: 
+#### 6. Compare basecase and experiment 1 output charts of the psecific variables and values relate dto the team's highest priority need _________ [output variable]
+#### _Team Priority covered with this team_:
+- [ ]  **Experiment 1 system behavior findings text on variables related to team's highest priority need**: 
+- [ ]  **Basecase vs. Experiment 1 system behavior findings** in complexity reveal (causal loop): 
+- [ ]  **Experiment 1 decisions text**: 
 
-- [ ] Dashboard items discussed:
+#### Summary
+- [ ] NEED: Current **working conceptualization** of this team's need?: 
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 9.
 
-- [ ] Team findings Experiment 1: 
-
-- [ ] Team decisions Experiement 1: 
-
-
-NEED: Current working conceptualization of this team's need? 
-
-DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
 
 
 
