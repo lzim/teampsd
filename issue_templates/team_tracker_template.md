@@ -167,7 +167,7 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 #### Summary
 - [ ] NEED: Current **working conceptualization** of this team's need?: 
-- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 7.
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 8.
 
 
 ## Session 8 
@@ -179,10 +179,11 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 - [ ] **Team-specific causal system story for findings**: 
 - [ ] **"d" decisions text on team consensus about specific values**: to experiment with 
 
-#### 3. Use sessions 6 & 7 causal complexity reveal (feedback loop) to enter hypothesis text for experiment 1
+#### 3. Use sessions 06 & 07 causal complexity reveal (feedback loop) to enter hypothesis text for experiment 1
 #### _Team Priority Causal Loop covered with this team_:
 #### _Specific Variables and Values from Team Priority Causal Loop covered with this team_:
 - [ ] **Causal system story for Team Priority**: 
+- [ ] **Experiment 1 team question **:
 
 #### 4. Enter hypothesis text and adjust sliders for experiment 1
 #### _Team Priority covered with this team_:
@@ -201,7 +202,7 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 #### Summary
 - [ ] NEED: Current **working conceptualization** of this team's need?: 
-- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 7.
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 9.
 
 
 
