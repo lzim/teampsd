@@ -43,10 +43,10 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - [ ] <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150"> Provide rationale for **always comparing simulation experiments against the base case** of no new decisions.
 - [ ] Review the **"d" decisions text** regarding the **team consensus** about **specific values** _______________ the team would like to experiment with today.    
 
-## Use sessions 06 & 07 **causal complexity reveal (feedback loop)** to enter **hypothesis text** for **experiement 1** 
+## Use sessions 06 & 07 **causal complexity reveal (feedback loop)** to enter **question text** for **experiment 1** 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
-- [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiement 1** 
+- [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiment 1** 
 - [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiement 1]**?"
 
 ## Enter hypothesis text and adjust sliders for experiment 1
@@ -67,7 +67,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Have Team Lead pull up the session 08 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
-- [ ] Done: We ran experiment 1 and compared results against the bc, and entered our Question, Hypothesis, Findings and Decision for Experiement 1 in the Text section.
+- [ ] Done: We ran experiment 1 and compared results against the bc, and entered our Question, Hypothesis, Findings and Decision for Experiment 1 in the Text section.
 - [ ] Do: Log into mtl.how/sim and Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2.
 - [ ] Demo for team how to reload team's prior Question, Hypothesis, Findings and Decision. 
 - [ ] Reminder to click "Save" and log out. 
