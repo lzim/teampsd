@@ -43,13 +43,13 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - [ ] <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150"> Provide rationale for **always comparing simulation experiments against the base case** of no new decisions.
 - [ ] Review the **"d" decisions text** regarding the **team consensus** about **specific values** _______________ the team would like to experiment with today.    
 
-## Use sessions 06 & 07 **causal complexity reveal (feedback loop)** to enter **question text** for **experiment 1** 
+## Bring session 07 "d" _decision_ text to be the _question_ text for experiment 1. Collapse and move Text to right, to use session 07 _causal complexity reveal (feedback loop)_ to revise _basecase_ hypothesis for experiment 1.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 - [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiment 1** 
 - [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiement 1]**?"
 
-## Enter hypothesis text and adjust sliders for experiment 1
+## Move Text to left and refine/enter _specific values_ for experiment 1 in *hypothesis text* as you adjust sliders
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:25-00:35  - Team Priority**__________________
 - [ ] Example **experiment 1 hypothesis,** using specific **variables** and **values**: "If we **reduce the engagement duration** to 12 or 14 weeks in our team, then due to the **Feedback Loop: Balancing New and Existing Patients,** over the next two years, we will ___________." 
 - [ ] Set all other **red** and **green** **experiment sliders** to **"bc" or "zero"** except **purple sesnitivity sliders**, which start with a default middle value of **"1"**.
