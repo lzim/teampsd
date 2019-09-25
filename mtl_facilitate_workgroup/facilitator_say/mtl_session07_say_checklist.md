@@ -61,7 +61,7 @@ output:
 - [ ] What does the team notice about the results for **variables related to their highest priority need**? 
 - [ ] Describe team **System Behavior** findings in the *Our Findings* textbox 
 - [ ] How **Basecase System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority:
-- [ ] **Decisions:** Based on what the team learned in this base case experiment, what will the team use _Modeling to Learn_ to learn next?
+- [ ] **Decisions:** Based on what the team learned in this base case experiment, what **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn next?
 
 ## Have Team Lead pull up the session 06 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
