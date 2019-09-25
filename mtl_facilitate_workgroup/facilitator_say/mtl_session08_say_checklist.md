@@ -47,7 +47,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 - [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiment 1** 
-- [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiement 1]**?"
+- [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiment 1]**?"
 
 ## Move Text to left and refine/enter _specific values_ for experiment 1 in *hypothesis text* as you adjust sliders
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:25-00:35  - Team Priority**__________________
@@ -63,11 +63,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:40-00:50 - Team Priority**__________________
 - [ ] Enter team **findings text** about the results for **variables related to their highest priority need**? 
 - [ ] Describe how **Difference between Basecase and Experiment System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority in the *Our Findings* textbox
-- [ ] **Decisions:** Based on what the team learned, what will the team **decide to do in clinical practice** (if anything) and/or decide to use _Modeling to Learn_ to learn next?
+- [ ] **Decisions:** Based on what the team learned, what will the team **decide to do in clinical practice** (if anything) and/or:
+- [ ] **Decisions:** What **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn next?
 
 ## Have Team Lead pull up the session 08 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
-- [ ] Done: We ran experiment 1 and compared results against the bc, and entered our Question, Hypothesis, Findings and Decision for Experiment 1 in the Text section.
-- [ ] Do: Log into mtl.how/sim and Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2.
-- [ ] Demo for team how to reload team's prior Question, Hypothesis, Findings and Decision. 
+- [ ] Done: We **ran experiment 1** and **compared results against the bc,** and entered our Question, Hypothesis, Findings and Decision for Experiment 1 in the Text section.
+- [ ] Do: Log into mtl.how/sim and Explore the bc and experiment 1, and draft a dynamic hypothesis to **prepare for experiment 2.**
+- [ ] Demo for team how to **reload team's prior Question, Hypothesis, Findings and Decision text.** 
 - [ ] Reminder to click "Save" and log out. 
