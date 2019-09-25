@@ -173,23 +173,24 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 ## Session 8 
 
 #### 1. Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
-- [ ] **Previous experiment values and text from s7 basecase**:
+- [ ] **Review _findings_ and _decisions_ text from s7 basecase**:
 
-#### 2. Review team-specific rationale for the base case findings 
+#### 2. Pull up **q/h/f/d** from session07 and ask **team lead** to review **team-specific** rationale for the **base case** findings
 - [ ] **Team-specific causal system story for findings**: 
-- [ ] **"d" decisions text on team consensus about specific values**: to experiment with 
+- [ ] **Team-tailored rationale** for _always_ **comparing experiments against basecase:**
+- [ ] **"d" decisions text on team consensus about specific values** to use in **experiment 1**
 
-#### 3. Use sessions 06 & 07 causal complexity reveal (feedback loop) to enter hypothesis text for experiment 1
+#### 3. Bring team session 07 "d" _decision_ text revised to be _question_ text for experiment 1: 
 #### _Team Priority Causal Loop covered with this team_:
-#### _Specific Variables and Values from Team Priority Causal Loop covered with this team_:
+#### _Specific Variables and Values from Team Priority Causal Loop covered with this team:_
 - [ ] **Causal system story for Team Priority**: 
-- [ ] **Experiment 1 team question **:
+- [ ] _Example question:_ "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiment 1]**?"
 
-#### 4. Enter hypothesis text and adjust sliders for experiment 1
-#### _Team Priority covered with this team_:
-- [ ] **Experiment 1 team hypothesis **:
-- [ ] **Red and green experiment sliders**:
-- [ ] **Purple sensitivity sliders**: 
+#### 4. Move Text to left and refine/enter _specific values_ for experiment 1 in *hypothesis text* as you adjust sliders
+#### _Team Priority covered with this team for Experiment 1_:
+- [ ] **Team hypothesis text specific variables** _Example hypothesis:_ **experiment 1 hypothesis,** using specific **variables** and **values**: "If we **reduce the engagement duration** to 12 or 14 weeks in our team, then due to the **Feedback Loop: Balancing New and Existing Patients,** over the next two years, we will ___________." 
+- [ ] **Red and/or green experiment slider values**:
+- [ ] **Purple sensitivity sliders (explain/document if in team priority complexity reveal)**: 
 
 #### 5. Run experiment 1
 #### _Team Priority covered with this team_:
@@ -198,7 +199,8 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 #### _Team Priority covered with this team_:
 - [ ]  **Experiment 1 system behavior findings text on variables related to team's highest priority need**: 
 - [ ]  **Basecase vs. Experiment 1 system behavior findings** in complexity reveal (causal loop): 
-- [ ]  **Experiment 1 decisions text**: 
+- [ ] **Decisions:** Based on what the team learned, what will the team **decide to do in clinical practice** (if anything) and/or:
+- [ ] **Decisions:** What **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn from **experiment 2** next?
 
 #### Summary
 - [ ] NEED: Current **working conceptualization** of this team's need?: 
