@@ -1,7 +1,7 @@
 ---
 title: "Modeling to Learn Facilitate Pre-checklist"
 author: "Team PSD"
-date: "September 2018"
+date: "edited by SP, 2019/09/26"
 output: 
   github_document: default
   html_document: default
@@ -29,7 +29,7 @@ output:
 ## Pre/Post Co-facilitator
 2. Log into [mtl.how/data](https://mtl.how/data) (Data UI) and to upload any new sim UI team data from the team to the simulation (if necessary).
 
-3. Log into [mtl.how/facilitate (Admin Forio Epicenter)](https://mtl.how/facilitate) to map all facilitators/coders as team leads to the relevant team world. 
+3. Log into [mtl.how/facilitate (Admin Forio Epicenter)](https://mtl.how/facilitate) to map all facilitators as team leads to the relevant team world. 
 
 4. Log into [mtl.how/sim (Sim UI)](https://mtl.how/sim) to make sure the model file reads into the sim correctly.    
 
