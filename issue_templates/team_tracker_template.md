@@ -204,7 +204,7 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 #### Summary
 - [ ] NEED: Current **working conceptualization** of this team's need?: 
-- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 9.
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 10.
 
 
 
