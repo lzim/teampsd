@@ -49,12 +49,24 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
 **We'll work to apply these skills as we review our combined experiment today.**
 
-1. Log in to mtl.how/sim and join the current session.
+1.	Log in to your individual or team world at mtl.how/sim.
+
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
+
+   - If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
+
+   - If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
+   
 2. From the experiment tile, pull up the prior experiment and click the red "Go" button.
+
 3. Check the box to include the text from that experiment and click "Go" again.
+
 4. Note that the sliders have moved to the settings for that experiment.
+
 5. Open the Expanded Outputs tile and select another earlier experiment to compare to the one you have just pulled up.
+
 6. Note the variables that were manipulated in the two experiments.
+
 7. Review the findings from the two experiments in the results dashboard and the text entered for Hypothesis, Findings and Decisions.
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_compare_alt.gif)
@@ -65,14 +77,18 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
 
-8. Collapse the Expanded Outputs tile and move it to the side to reveal the system diagram.
+8. Collapse the Expanded Outputs tile and move it to the side to reveal the model diagram.
+
 9. Use the diagram to tell a system story about the differences in the two experiments.
+
 10. Consider running a combination experiment that incorporates the sliders manipulated in both experiments.
+
 11. Replace text in the Q/H/F/D boxes to reflect the team's hypotheses and expectations for the combined experiment.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
 12. Save, name, and run the combined experiment.
+
 13. Discuss and record results and decisions, including your thinking about long-term trends in your clinic's EBP reach under various decision scenarios.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 

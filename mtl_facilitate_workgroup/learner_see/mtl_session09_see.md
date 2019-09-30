@@ -39,13 +39,13 @@ output:
 
 ## Running an Experiment
 
-1.	Login to your team world at mtl.how/sim.
+1.	Log in to your individual or team world at mtl.how/sim.
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
 
-2.	Review your saved runs. Rename your saved runs if you feel you need to.
+2.	If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
-3.	Review the data files you have uploaded for use and make sure you have what you want.
+3.	If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
 
 4.	You can *Join Current Session* or *Start a New Session* in the module. If you *Start a New Session* select the team data file you’d like to use.
 
@@ -53,7 +53,7 @@ output:
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_compare_alt.gif)
 
-6.	Study the system diagram and team data. Decide together what change you want to experiment with that might give your team the desired result.
+6.	Study the systems story on the model diagram and team data table. Decide together what change you want to experiment with that might give your team the desired result.
 
 7.	To create a new run, building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
 
