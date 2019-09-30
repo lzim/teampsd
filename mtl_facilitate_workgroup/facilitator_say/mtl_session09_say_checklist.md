@@ -22,8 +22,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Navigate to the SEE guide to show Done and Do
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:00-00:05** 
-- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">  **Done:** We logged in to mtl.how/sim and explored the results of the **Base Case (bc)** in the Expanded Outputs section to prepare for experiment 1. We reviewed our **hypothesis text** about the Base Case ___________________.
-- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45"> **Do:** We will **test a dynamic hypothesis** about ___________ **experiment 1,** comparing results against the bc in the MTL sim UI Outputs section.
+- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">  **Done:** We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2.
+- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45"> **Do:** We will run experiment 2 to compare alternatives.
 
 ## Emphasize team priority with the learning objectives on the screen
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:05-00:10** 
@@ -46,12 +46,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 - [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years - _relative to the Base Case and Experiment 1_ - if the **team's decisions reflect experiment 2** 
-- [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiment 1]**?"
+- [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiment 2]**?"
 
 ## Move Text to left and refine/enter _specific values_ for experiment 2 in *hypothesis text* as you adjust sliders
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:25-00:35  - Team Priority**__________________
 - [ ] Example **experiment 2 hypothesis,** using specific **variables** and **values**: "Relative to the Base Case and Experiment 1, if we **reduce the engagement duration** to 12 or 14 weeks in our team, then due to the **Feedback Loop: Balancing New and Existing Patients,** over the next two years, we will ___________." 
-- [ ] Set all other **red** and **green** **experiment sliders** to **"bc" or "zero"** except **purple sesnitivity sliders**, which start with a default middle value of **"1"**.
+- [ ] Set all other **red** and **green** **experiment sliders** to **"bc" or "zero"** except **purple sensitivity sliders**, which start with a default middle value of **"1"**.
 
 ## Run experiment 2
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:35-00:40  - Team Priority**__________________
