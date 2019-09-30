@@ -1,7 +1,7 @@
 ---
 title: "Modeling to Learn Facilitate Post-checklist"
 author: "Team PSD"
-date: "edited by SP, 2019/09/26"
+date: "edited by SP, 2019/09/30"
 output: 
   github_document: default
   html_document: default
@@ -26,7 +26,7 @@ Submit fidelity ratings for the session at [mtl.how/fidelity](https://mtl.how/fi
 
 2. Facilitator needs/questions (need for training, problems)  
 
-3. Things that Team PSD should know - problems with UI, data, upcoming issues  
+3. Create issue cards at [mtl.how/issues](https:/mtl.how/issues) to alert co-facilitators of issues they may encounter and to signal support groups of issues to resolve.
 
 4. Add team details on what was covered during the session following the team_tracker checklist on each team card at [mtl.how/team_tracker](https://mtl.how/team_tracker).
 
