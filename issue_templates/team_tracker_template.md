@@ -195,7 +195,7 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 #### 5. Run experiment 1
 #### _Team Priority covered with this team_:
 
-#### 6. Compare basecase and experiment 1 output charts of the psecific variables and values relate dto the team's highest priority need _________ [output variable]
+#### 6. Compare basecase and experiment 1 output charts of the specific variables and values related to the team's highest priority need _________ [output variable]
 #### _Team Priority covered with this team_:
 - [ ]  **Experiment 1 system behavior findings text on variables related to team's highest priority need**: 
 - [ ]  **Basecase vs. Experiment 1 system behavior findings** in complexity reveal (causal loop): 
@@ -211,24 +211,39 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 ## **Session 9 Checklist**
 
-- [ ] What did team learn from experiement 1: 
+#### 1. Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+- [ ] **Review _previous experiment values_ and _text_ from s07 and s08 to review Experiment 1 compared to the Base Case**:
 
-- [ ] Experiment 2 Question:
+#### 2. Pull up **q/h/f/d** from session08 and ask **team lead** to review **team-specific** rationale for the **Experiment 1** findings from the "Findings" Text
+#### _Team-specific causal system story for findings:_
+- [ ] **Team-tailored rationale** for _always_ **comparing simulation experiments against basecase** of no new decisions:
+- [ ] **"d" decisions text on team consensus about specific values** to use in **experiment 2**
 
-- [ ] Experiment 2 Hypothesis: 
+#### 3. Bring team session 08 "d" _decision_ text revised to be _question_ text for experiment 2: 
+#### _Team Priority Causal Loop covered with this team_:
+#### _Specific Variables and Values from Team Priority Causal Loop covered with this team:_
+- [ ] **Causal system story for Team Priority**: 
+- [ ] _Example question:_ "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiment 2]**?"
 
-- [ ] Dashboard items discussed:
+#### 4. Move Text to left and refine/enter _specific values_ for experiment 2 in *hypothesis text* as you adjust sliders
+#### _Team Priority covered with this team for Experiment 2_:
+- [ ] **Team hypothesis text specific variables** _Example hypothesis:_ **experiment 2 hypothesis,** using specific **variables** and **values**: "Relative to the Base Case and Experiment 1, if we **reduce the engagement duration** to 12 or 14 weeks in our team, then due to the **Feedback Loop: Balancing New and Existing Patients**, over the next two years, we will ___________." 
+- [ ] **Red and/or green experiment slider values**:
+- [ ] **Purple sensitivity sliders (explain/document if in team priority complexity reveal)**: 
 
-- [ ] Team findings Experiment 2: 
+#### 5. Run experiment 2
+#### _Team Priority covered with this team_:
 
-- [ ] Team decisions Experiement 2: 
+#### 6. Compare experiment 2 against basecase and experiment 1 output charts of the specific variables and values related to the team's highest priority need _________ [output variable]
+#### _Team Priority covered with this team_:
+- [ ]  **Experiment 2 system behavior findings text on variables related to team's highest priority need**: 
+- [ ]  **Basecase vs. Experiment 1 vs. Experiment 2 system behavior findings** in complexity reveal (causal loop): 
+- [ ] **Decisions:** Based on what the team learned, what will the team **decide to do in clinical practice** (if anything) and/or:
+- [ ] **Decisions:** What **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn from **experiment 2** next?
 
-- [ ] Results compared:
-
-
-NEED: Current working conceptualization of this team's need? 
-
-DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
+#### Summary
+- [ ] NEED: Current **working conceptualization** of this team's need?: 
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 9.
 
 
 
