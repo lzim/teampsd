@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 - Facilitator Say"
 author: "Team PSD"
-date: "September 2018"
+date: "Edited 10/4/2019 by LZ"
 output: 
   github_document: default
   html_document: default
@@ -36,8 +36,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Learning Objectives
 
 1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes.
-2.	Test your understanding of the system story by describing what’s happening when it produces a runaway increase or decrease in some output.
-3.	Apply your thinking to anticipate the long-term trend in your clinic’s EBP reach under two different decision scenarios.
+2.	Test your understanding of the system story by describing what’s happening when it produces a system behavior over time.
+3.	Apply your thinking to anticipate the short and long term trends in your team's care quality under different decision scenarios.
 
 ### Let's get started:
 
@@ -48,40 +48,40 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 Systems Thinking | Definition
 -- | -- 
-Complex | **Forest   not trees.**    Relationships among two or more   variables (wait times, improvement rate), or two or more settings (primary   care, general mental health).
+Complex | **Forest   not trees.**    Relationships among two or more units (patients, weeks) variables (wait times, improvement rate), or two or more settings (primary   care, general mental health).
 Feedback | **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (reinforcing)   or reduced (balancing) around the loop.
 System Behavior | **Movie   not snapshot.**    Trends over time.    Systems cause their own behavior   through feedback.
 Time | **Short   and   long term.**      Better understanding of change over   time   (e.g., worse before better, better   before worse).
 
-**We'll work to apply these skills as we review our combined experiment today.**
+**We'll work to apply these skills as we review our combined experiment 3 today.**
 
 1. Log in to mtl.how/sim and join the current session.  
 
-2. From the *Experiment* tile, pull up the prior experiment and click the red "Go" button.  
+2. From the *Experiment* tile, pull up experiment 2 and click the red "Go" button.  
 
-3. Check the box to include the text from that experiment and click "Go" again.  
+3. Check the box to include the text from experiment 2 and click "Go" again.  
 
-4. Note that the sliders have moved to the settings for that experiment.  
+4. Note that the sliders have moved to the settings for experiment 2.
 
-5. Open the *Expanded Outputs* tile and select another earlier experiment to compare to the one you have just pulled up.  
+5. Open the *Expanded Outputs* tile and select the base case and experiment 1 compare to the one you have just pulled up.  
 
 6. Note the variables that were manipulated in the two experiments.  
 
 7. Review the findings from the two experiments in the *Results Dashboard* and the text entered for Hypothesis, Findings and Decisions.  
 8. Collapse the Expanded Outputs tile and move it to the side to reveal the system diagram.  
 
-9. Use the diagram to tell a system story about the differences in the two experiments.  
+9. Use the moodel diagram to tell a causal system story that explains the different system behaviors produced under the 
 
-10. We want to run a third experiment so we should consider running a combination experiment that incorporates the sliders manipulated in both experiments.  
+10. We want to run a third experiment so we should consider running an experiment that combines the team decisions reflected in the prior experiments.  
 
-11. Now that we've reviewed our past experiments, we are ready to develop *Our Question* and formulate *Our Hypothesis* for our 3rd experiment. 
+11. Now that we've reviewed our past experiments, we are ready to develop *Our Question* and formulate *Our Hypothesis* for our combined third experiment. 
 
 **Plan for Experiment 3**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
 
-  Let's start with drafting *Our Question*:
+  Let's start with editing our *Our Question* using the text from our session 09 Decision Text box:
   
    + **CC**: What happens when we experiment with increasing our overall Appointment Supply in Care Coordination and increasing our targeted Return Visit Interval for existing patients?
      
@@ -115,14 +115,14 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
 **Run Experiment 3**  
 
-  + Restate the change to be tested, and move the Text box with the Question and Hypothesis text to the left, in order to reveal the experiment sliders.  
+  + Restate the new care decisions that are being simulated, and move the Text box with the Question and Hypothesis text to the left, in order to reveal the experiment sliders.  
   
-  + Move each slider named in the question to its desired value, and click  the green “Run” icon.  Name this run according to the variables you changed.  
+  + Move each slider named in the question to its desired value, and click  the green “Run” icon.  Name this run according to the variables you adjusted.  
   
   + To name the run, click on the down arrow next to Variable, choose the variable name you changed, for example, Appointment Supply or Return Visit Interval. Click *Add*. This will insert an abbreviation of that variable into the experiment name. Next, click on the down arrow next to Number, choose the number that represents the new value you used in your experiment.  Finally, click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.  
   
 
-**Compare Results**  
+**Compare System Behaviors**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
@@ -151,10 +151,14 @@ In summary, increasing quality in GMH and reducing the delays on stepping patien
    
    + **SP**: For either of these improvement efforts to be truly successful, Primary Care needs to expand their capacity to see mental health patients. We will take these findings to our chief, to show how our two settings are connected, and that our well-intended actions to improve care or remove barriers between our settings could have a detrimental effect on mental health access in Primary Care. We will propose a series of trainings to PC staff to increase their comfort taking on mental health patients, and thus increase their capacity. We will conduct more experiments to try to estimate the size of the capacity increase necessary to prevent an increase in wait time.
 
+**Add the Decisions Text to Reflect New Decisions that could be incorporated in Clinical Practice**  
+
+- [Facilitator should model for the team, and highlight the C.F.B.T. systems thinking concepts that are included in the q/h/f/d text boxes.
+- Note the dominant causal feedback that produces the system behaviors, and note the highest leverage (high yield) decisions that are most clinically feasible for the team to implement in their care. 
 
 ## That's it for _Modeling to Learn_ how to use systems thinking. Next is our Done/Do review.
 
-Today we logged in to the sim UI to run experiment 3 and explored the results using systems thinking skills. Before next time, review and compare the base case with experiments 1, 2 and 3 and think about possible clinical care changes the team could make.  
+Today we logged in to the sim UI to run experiment 3 and explored the system behaviors using systems thinking skills. Before next time, review and compare the base case with experiments 1, 2 and 3 and consider new team care decisions that you can apply in practice.  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
