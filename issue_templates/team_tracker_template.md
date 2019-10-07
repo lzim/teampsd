@@ -243,30 +243,45 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 #### Summary
 - [ ] NEED: Current **working conceptualization** of this team's need?: 
-- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 9.
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 10.
 
 
 
 ## **Session 10 Checklist**
 
-- [ ] What did team learn from experiements 1 & 2: 
+#### 1. Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
+- [ ] **Review _previous experiment values_ and _text_ from s07, s08, and s09 to review Basecase, Experiment 1, & Experiment 2.**
 
-- [ ] Experiment 3 Question:
+#### 2. Pull up **q/h/f/d** from session09 and ask **team lead** to review **team-specific** rationale for the **Experiment 2** findings from the "Findings" Text
+#### _Team-specific causal system story for findings:_
+- [ ] **Team-tailored rationale** for _always_ **comparing simulation experiments against basecase** of no new decisions:
+- [ ] **"d" decisions text on team consensus about specific values** to use in **experiment 3**
 
-- [ ] Experiment 3 Hypothesis: 
+#### 3. Bring team session 09 "d" _decision_ text revised to be _question_ text for experiment 3: 
+#### _Team Priority Causal Loop covered with this team_:
+#### _Specific Variables and Values from Team Priority Causal Loop covered with this team:_
+- [ ] **Causal system story for Team Priority**: 
+- [ ] _Example question:_ "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiment 3]**?"
 
-- [ ] Dashboard items discussed:
+#### 4. Move Text to left and refine/enter _specific values_ for experiment 3 in *hypothesis text* as you adjust sliders
+#### _Team Priority covered with this team for Experiment 3_:
+- [ ] **Team hypothesis text specific variables** _Example hypothesis:_ **experiment 3 hypothesis,** using specific **variables** and **values**: "Combining Experiment 1 & Experiment 2, if we **reduce the engagement duration** to 12 or 14 weeks in our team, and increase the **return visit interval** from 5 to 10 weeks, then due to the **Feedback Loop: Balancing New and Existing Patients**, over the next two years, we will ___________." 
+- [ ] **Red and/or green experiment slider values**:
+- [ ] **Purple sensitivity sliders (explain/document if in team priority complexity reveal)**: 
 
-- [ ] Team findings Experiment 3: 
+#### 5. Run experiment 3
+#### _Team Priority covered with this team_:
 
-- [ ] Team decisions Experiement 3: 
+#### 6. Compare experiment 3 against basecase, experiment 1, & experiment 2 output charts of the specific variables and values related to the team's highest priority need _________ [output variable]
+#### _Team Priority covered with this team_:
+- [ ]  **Experiment 3 system behavior findings text on variables related to team's highest priority need**: 
+- [ ]  **Basecase vs. Experiment 1 vs. Experiment 2 vs. Experiment 3 system behavior findings** in complexity reveal (causal loop): 
+- [ ] **Decisions:** Based on what the team learned, what will the team **decide to do in clinical practice** (if anything) and/or:
+- [ ] **Decisions:** What **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn from **experiment 3** next?
 
-- [ ] Results compared:
-
-
-NEED: Current working conceptualization of this team's need? 
-
-DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next session. 
+#### Summary
+- [ ] NEED: Current **working conceptualization** of this team's need?: 
+- [ ] DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during session 11.
 
 
 ## **Session 11 Checklist**
