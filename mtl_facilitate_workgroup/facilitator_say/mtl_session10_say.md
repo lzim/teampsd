@@ -35,8 +35,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Learning Objectives
 
-1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes.
-2.	Test your understanding of the system story by describing what’s happening when it produces a system behavior over time.
+1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time.
+2.	Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time.
 3.	Apply your thinking to anticipate the short and long term trends in your team's care quality under different decision scenarios.
 
 ### Let's get started:
@@ -48,40 +48,67 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 Systems Thinking | Definition
 -- | -- 
-Complex | **Forest   not trees.**    Relationships among two or more units (patients, weeks) variables (wait times, improvement rate), or two or more settings (primary   care, general mental health).
+Complex | **Forest   not trees.**    Relationships among two or more units (patients, weeks) variables (stocks: patients waiting to start, flows: improvement rate), or two or more settings (primary   care, general mental health).
 Feedback | **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (reinforcing)   or reduced (balancing) around the loop.
 System Behavior | **Movie   not snapshot.**    Trends over time.    Systems cause their own behavior   through feedback.
 Time | **Short   and   long term.**      Better understanding of change over   time   (e.g., worse before better, better   before worse).
 
 **We'll work to apply these skills as we review our combined experiment 3 today.**
 
-1. Log in to mtl.how/sim and join the current session.  
+_If you did not reset the Team World at the end of Session 9:_
 
-2. From the *Experiment* tile, pull up experiment 2 and click the red "Go" button.  
+1. Log in to mtl.how/sim and join the current session, which should be at the end of the **Experiment 2.** 
 
-3. Check the box to include the text from experiment 2 and click "Go" again.  
+- The advantage of starting **session 10** at the end of the Experiment 2 run in the Team World, is that you can compare the **system behaviors** of Experiment 2 (the current run) against both the Base Case (alternative 1) and Experiment 1 (alternative 2). 
 
-4. Note that the sliders have moved to the settings for experiment 2.
+- You can also **refine the Experiment 2 text** with the team to further build applied systems thinking skills. 
 
-5. Open the *Expanded Outputs* tile and select the base case and experiment 1 compare to the one you have just pulled up.  
+- Expand the **Outputs and Text Section** and select the Base Case and Experiment 1 compare to the Experiment 2 results.
 
-6. Note the variables that were manipulated in the two experiments.  
+_If you reset the Team World at the end of Session 9:_
 
-7. Review the findings from the two experiments in the *Results Dashboard* and the text entered for Hypothesis, Findings and Decisions.  
-8. Collapse the Expanded Outputs tile and move it to the side to reveal the system diagram.  
+1. Log in to mtl.how/sim and join the current session.
 
-9. Use the moodel diagram to tell a causal system story that explains the different system behaviors produced under the 
+- From the **Experiment Section,** pull up experiment 2 and click the red "Go" button.  
 
-10. We want to run a third experiment so we should consider running an experiment that combines the team decisions reflected in the prior experiments.  
+- Check the box **Include the text from experiment 2 and click "Go."** again.  
 
-11. Now that we've reviewed our past experiments, we are ready to develop *Our Question* and formulate *Our Hypothesis* for our combined third experiment. 
+- Note that the **Experiment Sliders automatically adjust** to the settings selected for experiment 2. 
 
-**Plan for Experiment 3**  
+- Hit **Run** to re-run Experiment 2, for comparison against the Base Case and Experiment 1.
+
+2. In the **Results Dashboard** review how the causal feedback explains why the simulated **team practice decisions** produce the specific **variables and values** produced in the system behaviors over time.
+
+3. Minimize **Outputs and Text** and move the text to the **Right** to reveal the causal system diagram.  
+
+4. **Refine/edit Experiment 2 text** to capture the causal explanations for the differences between the Base Case, Experiment 1 and Experiment 2 entered for Hypothesis, Findings and Decisions.  
+
+5. **Right click** or use **Control + C** to **copy the Decisions Text,** and then click **Save and Reset** to save the refined text edits for Experiment 2.
+
+6. Once reset, **Right click** or use **Control + V** to **Paste the Decision Text** in the **Question Box** for Experiment 3. Refine the text as necessary to reflect today's learning goal to combine the team decisions reflected in Experiment 1 and 2. 
+
+7. **Use then causal system story in the model diagram to craft a **Dynamic Hypothesis** that explains the expected system behaviors that will be produced under the combined decisions reflected in Experiment 3. 
+
+8. Minimize the **Outputs and Text** Section and move the text to the **Left** to reveal the **Experiment Section** and adjust sliders to reflect the combined Experiment 3.
+
+9. Hit the green **Run** button to run Experiment 3.
+
+10. In the **Results Dashboard** review how the causal feedback explains why the **combined team practice decisions** produce the **relative differences in specific variables and values** produced in the system behaviors over time.
+
+11. **Enter Findings text** that causally explains the differences between the Base Case, Experiment 1, Experiment 2, and Experiment 3. 
+
+- Model systems thinking for the team, by highlighting the C.F.B.T. systems thinking concepts that are included in the q/h/f/d text boxes.
+
+- Note the **dominant causal feedback that produces the system behaviors,** and note the **highest leverage (high yield) decisions** that are most **clinically feasible** for the team to implement in their care. 
+
+10. **Enter Decisions Text** to reflect **new practice decisions the team would like to consider next** and then click **Save** to save the text edits for Experiment 3.
+
+
+**Module Specific Examples for Experiment 3**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
-
-  Let's start with editing our *Our Question* using the text from our session 09 Decision Text box:
+  Let's start with editing our **Our Question** using the text from our session 09 Decision Text box:
   
    + **CC**: What happens when we experiment with increasing our overall Appointment Supply in Care Coordination and increasing our targeted Return Visit Interval for existing patients?
      
@@ -164,6 +191,6 @@ Today we logged in to the sim UI to run experiment 3 and explored the system beh
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran exp 3 and discussed the results using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran exp 3 and discussed the results using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible new decisions team could make in their daily clinical care. |
 
 ## Until next time, thank you for *Modeling to Learn*!
