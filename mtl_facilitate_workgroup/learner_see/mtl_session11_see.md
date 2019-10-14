@@ -32,7 +32,7 @@ output:
 ## Learning Objectives
 
 1.	Describe what your team has prioritized as decisions to implement in your clinic. 
-2.	Test your team’s plan against your individual and shared, team vision.
+2.	Test your team’s plan against your individual and shared team vision.
 3.	Apply your team’s plan in clinical decisions.
 
 # In-session Exercise (30 minutes): Connect learning and decisions from experiments to original team vision, question, and need
@@ -43,7 +43,7 @@ output:
 
 3.  What hypotheses did we test? 
 
-4.  What insights we will keep in mind as we make clinic decisions?
+4.  What insights will we keep in mind as we make clinic decisions?
 
 5.  What new approaches or targets do we want to focus on?
 
