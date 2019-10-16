@@ -285,10 +285,39 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 
 ## **Session 11 Checklist**
+#### 1. Facilitator prepare team-tailored C.F.B.T. rationale for the session 11 discussion: We've been *Modeling to Learn* how to use systems thinking when making care decisions in our team.
 
+- [ ] Complex (Forest not trees.):
+
+- [ ] Feedback (Loop not line.):
+
+- [ ] System behavior (Movie not snapshot.):
+
+- [ ] Time (Short and long term.):
+
+**Team Decisions made in *Modeling to Learn***:
+- [ ] Team lead:
+
+- [ ] Shared vision:
+
+- [ ] Key **team trends** from sessions 2 & 3:
+
+- [ ] **Highest team priority need** from session 4:
+
+- [ ] **Causal system story** of team's need using **causal feedback** from session 5-10:
+
+- [ ] **New individual and team practice decisions** that apply C.F.B.T. systems thinking skills (exp 1):
+
+- [ ] **New individual and team practice decisions** that apply C.F.B.T. systems thinking skills (exp 2):
+
+- [ ] **New individual and team practice decisions** that apply C.F.B.T. systems thinking skills (exp 3):
+
+#### 2. Discuss new individual and team practice decisions using C.F.B.T. systems thinking rational for why a practice decision would lead to desired outcomes over time.
 - [ ] Insight for future team decisions: 
 
-- [ ] Decisions team wants to implement:
+- [ ] Decisions team wants to adopt:
+
+- [ ] Key insights from decisions within team's control:
 
 - [ ] Concrete actions team will take:
 
@@ -300,8 +329,15 @@ DIFFERENTIATE: I need to rule in (      ) or rule out (      ) during next sessi
 
 ## **Session 12 Checklist**
 
-- [ ] Lingering questions team has: 
+#### We completed Modeling to Learn!
+- [ ] Brief summary of themes to highlight with team:
 
-- [ ] Resources team found helpful: 
+- [ ] Concise review of **causal system story of team problem**:
 
-- [ ] Final team thoughts: 
+- [ ] Concise review of **feasible practice decisions to prioritize**:
+
+- [ ] Resources team found helpful in data UI: 
+
+- [ ] Resources team found helpful in sim UI (which module would be most appropriate for future needs): 
+
+- [ ] Lead person(s) and time frame for actions above: 
