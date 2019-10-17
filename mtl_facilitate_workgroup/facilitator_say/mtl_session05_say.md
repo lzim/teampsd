@@ -14,7 +14,7 @@ output:
 
 # [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"  height = "114" width = "190">](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md)
 
-# [Session 05](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md "MTL Live Session 05") 
+# [MTL Live Session 05](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md "MTL Live Session 05") 
 # Today we're modeling to learn how to log in to our team world.
 
 ## Done and Do [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md)
