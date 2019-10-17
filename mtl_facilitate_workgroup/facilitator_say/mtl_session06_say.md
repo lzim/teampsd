@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Facilitator Say"
 author: "Team PSD"
-date: "Edited Sept 6, 2019 by TR"
+date: "RH Oct 17 2019 "
 output: 
   github_document: default
   html_document: default
@@ -12,10 +12,10 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session06_say.md)  
 
-# [MTL Live Session 06](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session06_see.Rmd "MTL Live Session 06")
+# [MTL Live Session 06](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session06_say.md "MTL Live Session 06")
 
 ## Today we're modeling to learn how to tell a systems story.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to tell a systems story.
@@ -27,7 +27,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### As you see in the Done and Do table of your Learner See Guide:
 
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session06_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session06_say.md) **Do** |
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority of __________ using the Model Diagram in the sim UI. | 
 
@@ -36,7 +36,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### After this session you’ll be able to: 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session06_say.md)
 
 ## Learning Objectives
 
@@ -142,7 +142,7 @@ Today we told a systems story about our team's top priority and entered a Questi
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55** 
 
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session06_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session06_say.md) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim. and refine the question and hypothesis we entered during the session about the Base Case run in the Text section.  |
 
