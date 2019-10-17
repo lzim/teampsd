@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "August 2019"
+date: "RH 17 Oct 2019"
 output: 
   github_document: default
   html_document: default
@@ -12,21 +12,21 @@ output:
   powerpoint_presentation: default
 ---
 
-# <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"  height = "114" width = "190">      
+# [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"  height = "114" width = "190">](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md)
 
-# [Session 05](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd "MTL Live Session 05") 
+# [Session 05](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md "MTL Live Session 05") 
 # Today we're modeling to learn how to log in to our team world.
 
-## Done and Do [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## Done and Do [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the sim UI at mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. | 
 
-## Learning Objectives - After this session you will be able to: [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> ___ ]
+## Learning Objectives - After this session you will be able to: [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> ___ ]
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md) 
 
 1. Describe the team data in the Experiments section.
 2. Test out the simulation user-interface for more information about team data.
@@ -120,7 +120,7 @@ e. Close the "i" information and look over the values - how do they strike you? 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session05/s05_facilitator/README.md) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments Tile. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. | 
 
