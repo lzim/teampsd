@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Facilitator Say"
 author: "Edited TR"
-date: "RH Oct 17 2019"
+date: "RH Oct 18 2019"
 output: 
   github_document: default
   html_document: default
@@ -13,9 +13,9 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session07_say.md)
+     height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md)
 
-# [MTL Live Session 07](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session07_say.md "MTL Live Session 07")
+# [MTL Live Session 07](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md "MTL Live Session 07")
 
 
 # Today we're modeling to learn how to evaluate our Base Case of no new decisions.
@@ -24,17 +24,17 @@ output:
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:00-00:10 | **Review** progress to date and learning objectives for this session | **Practice describing specific learning/skills developed last session and confirm consensus on team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) 00:00-00:10 | **Review** progress to date and learning objectives for this session | **Practice describing specific learning/skills developed last session and confirm consensus on team's highest priority need.**
 
 
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session07_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session07_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim. We used the question we entered during the previous session and added our own hypothesis about the Base Case run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run a "BC" simulation and review the impact of making no new decision on ___________ [the variables relevant to the team's question] in the _MTL_ sim UI Expanded Outputs section.| 
 
 
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "50" width = "50" style ="display: inline-block"/>](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session07_say.md) **Learning Objectives:**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "50" width = "50" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Learning Objectives:**
 
 1. Describe the base case of no new decisions in your team.
 2. Test out your thinking about what is likely to cause oscillation in team trends.
@@ -134,14 +134,14 @@ Today we entered our Question, Hypothesis, Findings and Decisions for our base c
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session07_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/teampsd/edit/master/mtl_facilitate_workgroup/facilitator_say/mtl_session07_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. |
 
 ### DO Demo
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
 
 1. Log back into the SIM UI, choose "Team world," and "Join Current Experiment."
 
