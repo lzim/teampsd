@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 11 - Faciliator Say"
 author: "Team PSD"
-date: "October 16, 2019 Edited by LZ"
+date: "RH Oct 18 2019"
 output: 
   github_document: default
   html_document: default
@@ -12,10 +12,10 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/facilitator_say/mtl_session11_say.md)  
 
-# [MTL Live Session 11](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session11_see.Rmd "MTL Live Session 11")
+# [MTL Live Session 11](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/facilitator_say/mtl_session11_say.md "MTL Live Session 11")
 
 # Today we're modeling to learn how to make _future_ team decisions.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to make future team decisions.
@@ -24,7 +24,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/facilitator_say/mtl_session11_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/facilitator_say/mtl_session11_say.md) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's learning using C.F.B.T. systems thinking skills and prioritize ways to implement new practice decisions in our clinical care. | 
 
@@ -32,7 +32,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### After this session you will be able to:
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/facilitator_say/mtl_session11_say.md) 
 
 ## Learning Objectives
 
@@ -66,7 +66,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/facilitator_say/mtl_session11_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/facilitator_say/mtl_session11_say.md) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We discussed the team's learning and new individual and team practice decisions that apply C.F.B.T. systems thinking skills. | Reflect on our team's vision for _MTL_ and our _MTL_ participatory learning experience to prepare next steps and wrap-up _MTL_.| 
  
