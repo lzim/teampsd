@@ -24,7 +24,7 @@ output:
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) 00:00-00:10 | **Review** progress to date and learning objectives for this session | **Practice describing specific learning/skills developed last session and confirm consensus on team's highest priority need.**
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:00-00:10 | **Review** progress to date and learning objectives for this session | **Practice describing specific learning/skills developed last session and confirm consensus on team's highest priority need.**
 
 
 <!-- Do/Done Tables -->
@@ -141,7 +141,7 @@ Today we entered our Question, Hypothesis, Findings and Decisions for our base c
 ### DO Demo
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
 
 1. Log back into the SIM UI, choose "Team world," and "Join Current Experiment."
 
