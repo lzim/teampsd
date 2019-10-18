@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 4 Pre Email"
 author: "Team PSD"
-date: "September 2018"
+date: "RH Oct 18 2019"
 output: 
   github_document: default
   html_document: default
@@ -14,19 +14,19 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500"> 
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "130" width = "500">](https://github.com/lzim/mtl/blob/master/session04/s04_learner/mtl_session04_see.md) 
 
 # This week we're modeling to learn how to prioritize team needs.
 
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Produced Team Data for the sim UI.**|
 
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/session04/s04_learner/mtl_session04_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "45" width = "75">](http://mtl.how/menu) **1. Find something in the team data table. 2. Complete the _MTL_ Menu at https://mtl.how/menu before the team meeting.**  |
