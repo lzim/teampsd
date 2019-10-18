@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 8 - Facilitator Say"
 author: "Team PSD"
-date: "September 2018"
+date: "RH Oct 18 2019"
 output: 
   github_document: default
   html_document: default
@@ -12,10 +12,10 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md)  
 
-# [MTL Live Session 08](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd "MTL Live Session 08")
+# [MTL Live Session 08](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md "MTL Live Session 08")
 
 # Today we're modeling to learn how to test a dynamic hypothesis.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to test a dynamic hypothesis.
@@ -24,14 +24,14 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the Expanded Outputs section to prepare for experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis about ___________ by running experiment 1 and comparing results against the bc.
 
 ### After this MTL session, you will be able to:
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) 
 
 ## Learning Objectives
 
@@ -39,7 +39,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 2. Test your dynamic hypothesis about your team's clinical priority.
 3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:05-00:10
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  00:05-00:10
 
 ### Let's get started! Who wants to drive today?
 
@@ -199,7 +199,7 @@ In an interconnected system, with causal interdependencies over time, simulation
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. | 
 
