@@ -50,24 +50,34 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 ### 1. Navigate to the data UI at mtl.how/data. 
 Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer.
 
-  a. You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.  
-
-  b. Navigate to your facility as we did last time, or when you've done it a few times, it will automatically go to the facility that you're working with.  
-
-  c. Scroll down to the team folder. You will (probably) have just one file there, called "data UI". We will click on that folder and open the Excel file. Then we will use the second "Get Team Data" button to create a second data file for use by the sim UI.  
+- You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.  
+- Scroll down to your team folder. You should have two folders: data_ui and team_data_sim_ui. Click on the "data_ui" folder and open the Excel file. 
 
 ### 2. Clicking the "Get Team Data Table for Sim UI" button produces a table of descriptive team data.
 
-  a. This is a different table from the one you generated last time by selecting the clinics that make up your team and then clicking "Get *Patient Level* Data." 
+#### You already have a fresh Team Data Table for Sim UI file to work with in the team_data_sim_ui folder.
+- It takes some time to generate a team data table for all modules using your team's data.
 
-  b. Data in this file are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data, or parameters.
+- On average (depending on the size of your team) it may take 15 minutes or so to generate a team data table. And, Microsoft Excel will be unresponsive until it is finished.
 
-  c. There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
+- This is a different table from the one you generated last time by selecting the clinics that make up your team and then clicking "Get *Patient Level* Data." 
+
+- Data in this file are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data, or parameters.
+
+- There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
    + Care Coordination (CC) - tab title *CCParams*
    + Medication Management (MM) - tab title *MMParams*
    + Psychotherapy (PSY) - tab title *PSYParams*
    + Aggregate team services (AGG) - tab title *AggParams*
    + Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
+
+- Click on the **SPReferrals tab**
+
+Use this tab to select clinics that your team refers to for the Suicide Prevention module. The data pull will track patients stepped up/down between your team's clinics and the ones you select below. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics below, return to the "ClinicSelection" tab and select from the Module drop-down either "All with SP" or "SP," then click "Create Team Data Table for Sim UI." 
+
+- Navigate back to your team folder at mtl.how/data. Click on the "team_data_sim_ui" folder and open the Excel file.
+
+ 
 
 ### 3. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
 [Choose a module]  
