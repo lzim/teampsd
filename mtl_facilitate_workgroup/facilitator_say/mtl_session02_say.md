@@ -129,13 +129,15 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
  ___ |*dataMeas* | can be sorted by measurement type, to see more detail on what happens in any one measurement type.*
 
 
+## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
+
 ### 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
 - Select your station at the Control tab: Click on **Control tab.** Click on the dropdown next to the word **"Station"** and click on your station (or sta3n) number. If you have any issues with permissions, Team PSD can help you.  
   
 -  Click **"Get Clinic List"** and it will pull in clinics for that facility/station.
    
-### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. With your team lead (________), we selected the following clinics to represent your team.   
+### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. 
 
 - You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
   
@@ -151,7 +153,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." 
 
-#### **You already have a fresh data UI file to work with already in your team data folder.**  
+## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.   
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
   
@@ -165,7 +167,9 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ### 6. Click to view the "viz" tabs, which show team trends.  
 
-- Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ ]**.  Let's go to the **[ ]** viz tab to see data relevant to that issue.  
+- Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+
+- You can further drill up/down in the "viz" tabs by right clicking on any cell and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
 - **What stands out to you about ________________________________**[fill-in team vision]**?  
