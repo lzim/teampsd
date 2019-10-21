@@ -66,18 +66,18 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 ### 1. Using Internet Explorer browser, navigate to mtl.how/data.  
 
-   a. This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
+- This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
 
-   b. We recommend using Explorer as your browser for this resource is because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll being opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
+- We recommend using Explorer as your browser for this resource is because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll being opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
 
-   c. We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
+- We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
-   d. On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
+- On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
     + A web version of Excel will open on your screen, showing charts from your facility's data.  
 
 ### 2. This splashpage is designed so see trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL sharepoint splash page:  
 
-   a. There are two sets scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls within the graphs on the page.
+- There are two sets scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls within the graphs on the page.
 
 #### There are three types View options on the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what they each display?
 
@@ -165,26 +165,26 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ## 6. Click to view the "viz" tabs, which show team trends.  
 
-  a. Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ ]**.  Let's go to the **[ ]** viz tab to see data relevant to that issue.  
+- Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ ]**.  Let's go to the **[ ]** viz tab to see data relevant to that issue.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
-  b. **What stands out to you about ________________________________**[fill-in team vision]**?  
+- **What stands out to you about ________________________________**[fill-in team vision]**?  
   
-  c. **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
+- **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
     [Prepare in advance, but ask this as an open-ended quesiton]?  
   
-  d. **What is most surprising?**  
+- **What is most surprising?**  
     [Prepare in advance, but ask this as an open-ended quesiton]?  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
 ## 7. Click to view the "data" tabs, which show your team's individual patient information.  
 
-  a. Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
+- Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
   
-  b. Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
+- Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
   
-  c. Providers can filter to find specific patients, or produce reports.  
+- Providers can filter to find specific patients, or produce reports.  
   
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
 
@@ -196,13 +196,13 @@ Time Stamp | Team Learning Priorities | Script
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
 Keep an eye on time |  |  |   
 
-  d. What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
+- What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
   
-  e. What **viz** tab would you use to see what the most common service encounters or visits are?  
+- What **viz** tab would you use to see what the most common service encounters or visits are?  
   
-  f. Are there services that have been **increasing over time?** 
+- Are there services that have been **increasing over time?** 
   
-  g. Are there services that have been **descreasing over time?**  
+- Are there services that have been **descreasing over time?**  
   
 - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
 
