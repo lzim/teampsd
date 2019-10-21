@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Facilitator Say"
 author: "Team PSD"
-date: "June 2019"
+date: "SP 2019 oct 21"
 output: 
   github_document: default
   html_document: default
@@ -67,7 +67,7 @@ Remember that this is on the VA's secure SharePoint site, so it works best with 
    + Medication Management (MM) - tab title *MMParams*
    + Psychotherapy (PSY) - tab title *PSYParams*
    + Aggregate team services (AGG) - tab title *AggParams*
-   + Measurement-based stepped care for suicide prevention (SP) - tab title *SPParams*
+   + Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
 
 ### 3. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
 [Choose a module]  
@@ -79,7 +79,7 @@ Remember that this is on the VA's secure SharePoint site, so it works best with 
    + *PSYParams*: Key variables that can be explored in PSY include median engagement duration and engagement after 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.  
    + *AggParams*: Key variables in AGG are median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.  
 
-   + *SPParams*: In Suicide Prevention, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.  
+   + *SPParams*: In SP, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.  
 
   Check out the different modules that are highlighted in the team data on the screen. As we review, we will use the mouse to highlight key team data variables.  
 
