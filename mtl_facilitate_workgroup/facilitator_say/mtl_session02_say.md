@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 02 - Facilitator Say"
 author: "Team PSD"
-date: "June 2019"
+date: "SP 2019 Oct 21 2019"
 output: 
   github_document: default
   html_document: default
@@ -92,7 +92,7 @@ Viz | Visualization of trends over time.
 
 Rank | Data | Displays 
 -- | -- | --
-___ | Diag | Primary diagnoses on visits in that setting level
+___ | Diag | Primary diagnoses only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have on primary diagnosis. For more detail, open up the data UI).
 ___ | Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
 ___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags
@@ -122,51 +122,46 @@ Rank | viz Options |  |
 -- | -- | -- | 
 ___ | *vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
 ___ | *vizEnc* | See trends in what services the facility/team is spending their time providing.*
-___ | *vizHF* | See trends in what specifics the facility/team's patients are getting in their encounters (in vis," this is a very long list. *dataEnc* | can be sorted by encounter type, to see more detail on what happens in any one encounter type in each service).*
-___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use ___ | disorder or depression or PTSD?*   
+___ | *vizHF* | See trends in what specifics the facility/team's patients are getting in their encounters (in vis, this is a very long list.)
+___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*   
+ ___ |*dataDiag* | can be sorted by primary diagnosis type based on icd10 code, to see more detail on what happens in any one diagnosis type*
+ ___ |*dataHF* | can be sorted by health factor type, to see more detail on what happens in any one health factor type .*
+ ___ |*dataMeas* | can be sorted by measurement type, to see more detail on what happens in any one measurement type.*
 
 
-## 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page.  
+## 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
-  a. Open the **team's data_ui folder** tailored with the team's name and **open your team data ui in Excel.**  
+- Select your station at the Control tab: Click on **Control tab.** Click on the dropdown next to the word **"Station"** and click on your station (or sta3n) number. If you have any issues with permissions, Team PSD can help you.  
   
-  b. Click on **Control tab.**  
-  
-  c. Click on the cell next to the word **"Station"** and click on your station number. If you have any issues with permissions, Team PSD can help you.  
-  
-  d. Click **"Get Clinic List"** to pull in the VISTA clinics that 
-  
-  e. Next let's look at the various worksheet tabs at the bottom of the Excel file, from left to right:  
-  
-  - **Control** - Click on the cell next to the word "Station" and select your station number **[ ]**, then click "Get Clinic List" 
-  - **ClinicSelection** - Select the the clinics your team would like to include in your team dataset.
-  
-## 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.  
+-  Click **"Get Clinic List"** and it will pull in clinics for that facility/station.
+   
+## 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. With your team lead (________), we selected the following clinics to represent your team.   
 
-  a. You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
+- You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
   
-  b. Or, if your team as designated provider clinics, you can select by provider name.  
+- Or, if your team has designated provider clinics, you can select by provider name.  
   
-  c. Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.  
+- Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
+
+- Follow the instructions in **Box A2.**  
+  
+- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Box B6) to add them to column A.  
+ 
+- In the future, if you want to quickly get the same list of clinics again, you can click on the gray "Get previous clinic list form last click of Get Patient-level Data" button (Box B3) to add them column A.
+
+## 5. To view your team patient data and your team trends click on "Get-Patient-level Data." 
 
 ### **You already have a fresh data UI file to work with already in your team data folder.**  
-  a. It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
-  b. On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
+- It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
+- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
   
 - **Prior to today's session, __________________ [Team Lead's name] worked with us to build an initial team dataset.
   
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**
   
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
-  
-  d. Follow the instructions in **Box A2.**  
-  
-  e. After filtering, you can double-click on clinics to add them to column A, or you can highlight the clincis and click the gray "add all" button to add them to column A.  
 
-## 5. To view your team patient data and your team trends click on "Get-Patient-level Data." With your team lead (________), we selected the following clinics to represent your team.  
-  
-  a. Are these clinics familiar and correct? 
-  b. We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.  
+- We will look at the **"Create Team Data Table for Sim UI"** button and its associated tab **"SPReferrals"** next time.
 
 ## 6. Click to view the "viz" tabs, which show team trends.  
 
@@ -185,7 +180,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ## 7. Click to view the "data" tabs, which show your team's individual patient information.  
 
-  a. Patients who have requested restricted access to their information have asterisks *******  
+  a. Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
   
   b. Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
   
