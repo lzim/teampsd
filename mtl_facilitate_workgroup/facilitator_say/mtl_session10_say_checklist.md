@@ -29,7 +29,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Emphasize team priority with the learning objectives on the screen
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:05-00:10** 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> 
-**Learning Objectives for Session 9**
+**Learning Objectives for Session 10**
 1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time.
 2.	Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time.
 3.	Apply your thinking to anticipate the short and long term trends in your team's care quality under different decision scenarios.
