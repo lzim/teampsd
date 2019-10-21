@@ -129,13 +129,13 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
  ___ |*dataMeas* | can be sorted by measurement type, to see more detail on what happens in any one measurement type.*
 
 
-## 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+### 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
 - Select your station at the Control tab: Click on **Control tab.** Click on the dropdown next to the word **"Station"** and click on your station (or sta3n) number. If you have any issues with permissions, Team PSD can help you.  
   
 -  Click **"Get Clinic List"** and it will pull in clinics for that facility/station.
    
-## 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. With your team lead (________), we selected the following clinics to represent your team.   
+### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. With your team lead (________), we selected the following clinics to represent your team.   
 
 - You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
   
@@ -149,9 +149,9 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
  
 - In the future, if you want to quickly get the same list of clinics again, you can click on the gray "Get previous clinic list form last click of Get Patient-level Data" button (Box B3) to add them column A.
 
-## 5. To view your team patient data and your team trends click on "Get-Patient-level Data." 
+### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." 
 
-### **You already have a fresh data UI file to work with already in your team data folder.**  
+#### **You already have a fresh data UI file to work with already in your team data folder.**  
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
   
@@ -163,7 +163,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - We will look at the **"Create Team Data Table for Sim UI"** button and its associated tab **"SPReferrals"** next time.
 
-## 6. Click to view the "viz" tabs, which show team trends.  
+### 6. Click to view the "viz" tabs, which show team trends.  
 
 - Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ ]**.  Let's go to the **[ ]** viz tab to see data relevant to that issue.  
 
@@ -178,7 +178,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
-## 7. Click to view the "data" tabs, which show your team's individual patient information.  
+### 7. Click to view the "data" tabs, which show your team's individual patient information.  
 
 - Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
   
@@ -207,9 +207,7 @@ Keep an eye on time |  |  |
 - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
 
 
-
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
-
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
