@@ -48,7 +48,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ### 1. Navigate to the data UI at mtl.how/data. 
-Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer.
+- Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer.
 
 - You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.  
 - Scroll down to your team folder. You should have two folders: data_ui and team_data_sim_ui. Click on the "data_ui" folder and open the Excel file. 
@@ -71,12 +71,14 @@ Remember that this is on the VA's secure SharePoint site, so it works best with 
    + Aggregate team services (AGG) - tab title *AggParams*
    + Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
 
-- Click on the **SPReferrals tab**
+- We have already produced a team data table for you, but to do it yourself:
+	- Select a set of clinics in **ClinicSelection tab** similar to what you did last session. In the future, you can pull up the same clinics used last time for creating the team data table by clicking on the gray "Get previous clinic list from Create Team Data Table for Sim UI file" button (Box B4) to add them column A.
+	- Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to for the Suicide Prevention module. The data pull will track patients stepped up/down between your team's clinics and the ones you select below. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab. 
+	- Click on the module drop-down. You can choose any of the modules individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps with the **SPReferrals tab**.
+	- Click on "create Team Data Table for Sim UI"
+		- 
 
-Use this tab to select clinics that your team refers to for the Suicide Prevention module. The data pull will track patients stepped up/down between your team's clinics and the ones you select below. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics below, return to the "ClinicSelection" tab and select from the Module drop-down either "All with SP" or "SP," then click "Create Team Data Table for Sim UI." 
-
-- Navigate back to your team folder at mtl.how/data. Click on the "team_data_sim_ui" folder and open the Excel file.
-
+- Navigate back to your team folder at mtl.how/data. Click on the "team_data_sim_ui" folder and open the Excel file to find the team data table already produced for you.
  
 
 ### 3. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
