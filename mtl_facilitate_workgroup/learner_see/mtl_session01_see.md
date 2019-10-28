@@ -64,7 +64,7 @@ b. Now picture the team learning over the next 6 months in a ‘best-case’ sce
 
 a. What is team communication like?
 
-b. How does the team relate to one another?
+b. How do team members relate to one another?
 
 c. How is VA data used?
 
@@ -86,9 +86,9 @@ e. If not, which would we most like to address (align around), and why?
 
 Overall "Modeling to Learn" objectives include activities and competencies that…
 
-a. …are meaningful for you and align your learning goals with your team.
+a. …are meaningful for you and align your learning goals with your team's.
 
-b. …develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.
+b. …develop systems thinking skills - help you see how several things fit together and understand causes that are hard to see without data and modeling resources.
 
 c. …make VA data, initiatives and standards transparent to you. 
 
