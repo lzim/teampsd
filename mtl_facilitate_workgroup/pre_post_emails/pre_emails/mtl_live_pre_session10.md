@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 Pre Email"
 author: "Team PSD"
-date: "September 2018"
+date: "RH Oct 18 2019"
 output: 
   github_document: default
   html_document: default
@@ -14,13 +14,12 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500"> 
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png" height = "130" width = "500">](https://github.com/lzim/mtl/blob/master/session10/s10_learner/mtl_session10_see.md) 
 
 # This week we're modeling to learn how to use systems thinking.
 
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/session09/s09_learner/mtl_session09_see.md) **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, exp 1, and exp 2.** |
@@ -31,7 +30,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/> **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* |
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/session10/s10_learner/mtl_session10_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Run a third experiment on our own in our individual world.**  |
