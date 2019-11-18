@@ -56,7 +56,7 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 2.	Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 
-3.	Apply your clinical expertise to make individual and team decisions in response to findings.
+3.	Apply your clinical expertise to make individual and team decisions in response to findings from the *MTL* Data UI.
 
 ## Pre-Test: No
 
