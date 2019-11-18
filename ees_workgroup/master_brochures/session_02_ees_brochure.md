@@ -1,5 +1,5 @@
 ---
-title: "*Modeling to Learn* Accreditation Master Brochure for *MTL-Data*"
+title: "*Modeling to Learn-Data* Accreditation Master Brochure"
 date: "18 November 2019"
 output: 
   github_document: default
