@@ -1,6 +1,6 @@
 ---
-title: "*Modeling to Learn* Session 2 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "28 September 2018"
+title: "*Modeling to Learn* Accreditation Master Brochure for *MTL-Data*"
+date: "18 November 2019"
 output: 
   github_document: default
   html_document: default
@@ -11,25 +11,23 @@ output:
 ---
 
 <!-- MTL Logo, HTML img tag -->
-# *Modeling to Learn* how to check our patient data and team trends.
+# *Modeling to Learn: Learning from Local Data* 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
-## Session 2: Accreditation Master Brochure
-
-## Title: *Modeling to Learn* how to check our patient data and team trends.
+## Title: *Modeling to Learn: Learning from Local Data*
 
 ## Client Program Office: National Center for PTSD, Training and Dissemination Division
 
-## Program Start Date(s) and time(s): N/A (asynchronous video)
+## Program Start Date(s) and time(s): TBD
 
 ## Purpose Statement:  
 
-The purpose of this course is to empower local clinic staff to use real-time clinic data and a customized system modeling tool to make decisions that optimize their delivery of timely, evidence-based psychotherapies and pharmacotherapies (EBPs).
+The purpose of this course is to empower local clinic staff to use real-time clinic data to optimize their delivery of timely, evidence-based psychotherapies and pharmacotherapies (EBPs).
 
-Over the past decade, Veterans Health Administration has invested in the dissemination of EBPs in the outpatient mental health system based on substantial evidence of EBP effectiveness as compared to usual care.1-3 EBPs are high-value treatments that meet veterans’ mental health care needs and can reduce chronic impairment and prevent suicide and overdose.4-9 Despite their demonstrated effectiveness, however, access to EBPs is not always timely and the reach of EBPs for common and costly high-risk conditions like PTSD, depression and opioid use disorder often are low (3%- 28%).10-12 For these reasons, the Veterans Administration prioritizes high-value quality improvement initiatives to increase timely Veteran access to effective mental health care.
+Over the past decade, Veterans Health Administration has invested in the dissemination of EBPs in the outpatient mental health system based on substantial evidence of EBP effectiveness as compared to usual care.1-3 EBPs are high-value treatments that meet veterans’ mental health care needs and can reduce chronic impairment and prevent suicide and overdose.4-9 Despite their demonstrated effectiveness, however, access to EBPs is not always timely and the reach of EBPs for common and costly high-risk conditions like PTSD, depression and opioid use disorder often are low (3% - 28%).10-12 For these reasons, the Veterans Administration prioritizes high-value quality improvement initiatives to increase timely Veteran access to effective mental health care.
 
-Modeling to Learn provides interactive tools for visualizing real-time team data and simulating the effects of team decisions on EBP reach. Through a series of remotely facilitated workshops, front line staff use these tools to build systems thinking capacity; increase their understanding of interrelated factors affecting team outcomes – including decisions within their control; conduct virtual experiments to test the effects of various team decisions on multiple desired outcomes; and make team decisions to optimize EBP reach within existing resource constraints.
+Modeling to Learn provides an interactive tool for visualizing real-time team data. Through a series of remotely facilitated workshops, front line staff use this tool to view hyper-local trends over the past two years and use this information to shed light on possible decisions within their control to optimize EBP reach within existing resource constraints.
 
 ## Target Audience: 
 
