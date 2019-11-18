@@ -54,7 +54,7 @@ output:
 
 ### 2. Select a second module for review 
 - Check out the last two columns. 
-- Find a variable that is important to you team. How is it estimated in this table? What are it's units?
+- Find a variable that is important to you team. How is it estimated in this table? What are its units?
 - Where can you find even more detailed information about your team data?
 
 ### 3. Are there any team data table values you would like to explore in the team data UI?
