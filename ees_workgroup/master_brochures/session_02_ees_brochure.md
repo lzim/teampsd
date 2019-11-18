@@ -11,7 +11,6 @@ output:
 ---
 
 <!-- MTL Logo, HTML img tag -->
-# *Modeling to Learn: Learning from Local Data* 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
