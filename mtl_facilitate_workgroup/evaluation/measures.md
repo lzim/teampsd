@@ -43,7 +43,7 @@ Please answer these questions on a scale of 1 to 5, where 1 = completely disagre
 3.	[Participatory System Dynamics OR Audit and Feedback] seems applicable.
 4.	[Participatory System Dynamics OR Audit and Feedback] seems like a good match.
 
-### 3. Feasibility of Intervention Measure (IAM)
+### 3. Feasibility of Intervention Measure (FIM)
 Please answer these questions on a scale of 1 to 5, where 1 = completely disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, and 5 = completely agree
 1.	[Participatory System Dynamics OR Audit and Feedback] seems implementable.
 2.	[Participatory System Dynamics OR Audit and Feedback] seems possible.
