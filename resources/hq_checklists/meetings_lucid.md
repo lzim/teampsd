@@ -1,21 +1,27 @@
-## Meeting Facilitation on Lucid
+## Meeting Recording and Note Taking on Lucid Meetings
 
 ### Starting a Lucid Meeting
-- [ ] 1. If you are starting/ending the meeting, always login using Lindsey's account.
-- [ ] 2. Hit "Record" on the audio.
+- [ ] 1. Navigate to **www.lucidmeeting.com**. 
 
+- [ ] 2. Make sure to **Login** using **LZ Email** and **LZ Password**.
 
-### During a Lucid Meeting
-- [ ] If it can tracked in a GitHub issue, include all Decisions and Action Items in the relevant GitHub issue.
+### [ ] 3. Confirmatation and Consent 
+- [ ] Ask meeting atteendees **Is everyone ok with us recording this meeting?**  
 
-Otherwise...
-- [ ] Track final decisions using the "Decisions" tag. It is not useful to track intermittent suggestions instead of the final decision as this is our record for folks who missed the meeting and for us to refer back to later
-- [ ] Use the "Issues" tag to note any issues brought up that we need to revisit later.
-- [ ] Use the "Action Item
+- [ ] Once you have **Confirmation** then select the **Record** button.
+
+### Note Taking During a Lucid Meeting
+- [ ] 1. Follow the structure of the **Agenda**.  
+
+- [ ] 2. When **Taking Notes** focus on  **Decisions Made** and not on **General discussion**.
+
+- [ ] 3. When taking notes on a **Issue** with a **GitHub Number** comments should be tracked in the corresponding **GitHub Numbered Issue** directly  (e.g. https://github.com/lzim/teampsd/issues/819).
+
+- [ ] 4. Label notes as **Decision** or as **Action Item** with agreed upon **Due Date**.
+
+- [ ] 5. Make sure to **Re-Read and Clean Up Notes**. All notes must be **Clear** and **Easy to Read** with **Headers** and **Bolding** to reflect **Final Decisions** and **Next steps**.
+
 
 ### Ending a Lucid Meeting
+- [ ] 1. Before you **End the Meeting** double-check that no one else is **Still Writing Notes** as changes will be **Lost**, then select **End Meeting**
 
-- [ ] 1. Before you end the meeting, double-check that no one else is still writing any notes.
-- [ ] 2. Click "Publish" to Basecamp once you end the meeting.
-- [ ] 3. Re-read the meeting record and clean up notes. Make sure all notes are clear with headers and reflect final decisions and next steps.
-- [ ] 4. Send out "Follow-Up" email. **Note**: If there is an accompanying mtl.how/live recording - 1) Backup the recording, 2) Email the Lucid follow-up to only yourself, 3) Forward the Lucid follow-up using regular email including the link to the backed-up recording to meeting attendees.
