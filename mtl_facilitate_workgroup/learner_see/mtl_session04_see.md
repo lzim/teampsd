@@ -24,7 +24,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session04/s04_learner/mtl_session04_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session04/s04_learner/mtl_session04_see.md) **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu (behind VA firewall) to prioritize our needs. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results (behind VA firewall) to prioritize our team needs and select an _MTL_ module. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| 
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session04/s04_learner/mtl_session04_see.md)
@@ -37,7 +37,7 @@ output:
 
 # In-session Exercise (30 minutes)
 
-1. Complete the [*MTL* Menu](https://mtl.how/menu) on your own.
+1. Complete the [*MTL* Menu](https://mtl.how/menu) (behind VA firewall) on your own.
 
 2. Review the team's results in your team. 
 - What stands out to you?
