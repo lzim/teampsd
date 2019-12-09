@@ -2,6 +2,7 @@
 title: "MTL Session 3 - Learner See"
 author: "Team PSD"
 date: "SP Oct 16, 2019"
+rev: "Jane Nov 15, 2019"
 output: 
   github_document: default
   html_document: default
@@ -44,7 +45,7 @@ output:
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Aggregate team services (AGG)
-  - Measurement-based stepped care for suicide prevention (SP)
+  - Measurement-based stepped care and suicide prevention (SP)
 
 ### 1. Select a module for review
 - Find a variable that is important to you team. How is it estimated in this table? What are its units?
@@ -53,7 +54,7 @@ output:
 
 ### 2. Select a second module for review 
 - Check out the last two columns. 
-- Find a variable that is important to you team. How is it estimated in this table? What are it's units?
+- Find a variable that is important to you team. How is it estimated in this table? What are its units?
 - Where can you find even more detailed information about your team data?
 
 ### 3. Are there any team data table values you would like to explore in the team data UI?
@@ -71,4 +72,4 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced Team Data for the sim UI. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced Team Data for the sim UI. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu (behind VA firewall). ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)|
