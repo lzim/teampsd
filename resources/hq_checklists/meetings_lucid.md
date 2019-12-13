@@ -5,7 +5,7 @@
 
 - [ ] 2. Make sure to **Login** using **LZ Email** and **LZ Password**.
 
-### [ ] 3. Confirmatation and Consent 
+[ ] 3. Confirmatation and Consent 
 - [ ] Ask meeting atteendees **Is everyone ok with us recording this meeting?**  
 
 - [ ] Once you have **Confirmation** then select the **Record** button.
