@@ -3,7 +3,7 @@
 - [ ] 1. On your own calendar, click on **New Meeting** in the top left.
 
 - [ ] 2. In the **To** section: add all meeting attendees by email including Lindsey.  
-**Note**: If Lindsey is traveling, her gmail calendar may need to be included.
+**Note**: If Lindsey is traveling or teleworking on the day of the meeting, include her gmail.
 
 - [ ] 3. In the **Subject** field: Create a title descriptive enough for anyone to know what the meeting is about. Include the first & last name of main attendees involved & relevant context of the meeting (i.e. "Connect w/Jane Doe for TeamPSD Mentorship).
 
