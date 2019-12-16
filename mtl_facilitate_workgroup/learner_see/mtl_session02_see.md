@@ -21,7 +21,7 @@ output:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">] (https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Do** |
 | --- | --- |  
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.  <img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/data_ui_login.gif" height="200px" width="350px" />  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. <img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/session2_data_ui_2.gif" height="200px" width='400px'/>|  
  
