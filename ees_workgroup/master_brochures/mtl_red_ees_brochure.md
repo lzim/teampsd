@@ -56,7 +56,8 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 2.	Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 
-3.	Apply your clinical expertise to make individual and team decisions in response to findings from the *MTL* Data UI.
+3.	*Apply your clinical expertise to make individual and team decisions in response to findings from the *MTL* Data UI.*
+**(Apply your clinicial expertise to identify new information about a team patient in the "data" tabs.)**
 
 ## Pre-Test: No
 
@@ -81,9 +82,9 @@ NYSED
 
 | Time | Agenda Item | Who | Type |
 |:-----------	|:---------------|:----------------|:-----------------------|
-| 15 Minutes | Done and Do | Facilitator | Interactive participant-controlled, data table and trend review; learner polls, small group discussions, Q and A sessions |
-| 30 Minutes | Team Activity on Local Data Trends | Facilitator | Interactive: participant-controlled, data tble and trend review; learner polls, small group discussions, Q and A sessions |
-| 15 Minute | Done and Do | Facilitator | Interactive - participant-controlled, data table and trend review; learner polls, small group discussions, Q and A sessions |
+| 15 Minutes | Done and Do | Facilitator | Interactive participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
+| 30 Minutes | Team Activity on *Local Data Trends* **(Shared Vision)** | Facilitator | Interactive: participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
+| 15 Minutes | Done and Do | Facilitator | Interactive - participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
 
 ## Faculty and Planning Committee Listing: (Lindsey/Stacey to provide contacts to Elizabeth)
 
