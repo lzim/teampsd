@@ -25,7 +25,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session12/s12_facilitator/mtl_session12_say.md)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session12/s12_facilitator/mtl_session12_say.md)   **Do** |
 | --- | --- | 
-| We discussed the **new practice decisions** we are prioritizing across our team. | Reflect on our _MTL_ **participatory learning** and finalize our team plan for next steps. | 
+| We reflected on our team's vision for MTL and our MTL experience to prepare for planning next steps . | Reflect together on our team's vision and MTL experience and make a team plan for next steps. | 
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session12/s12_facilitator/mtl_session12_say.md)   
