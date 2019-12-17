@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session10/s10_learner/mtl_session10_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session10/s10_learner/mtl_session10_see.md) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran a third experiment in our individual world.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run exp 3 and discuss the bc, exp 1, exp 2 and exp 3 using Complex, Feedback, Behavior, Time (CFBT) systems thinking skills. | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran a third experiment in our individual world.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 3 and discuss the Base Case (bc), experiment 1, experiment 2 and experiment 3 using Complex, Feedback, Behavior, Time (CFBT) systems thinking skills. | 
 
 
 <!-- Learning Objectives Icon --> 
