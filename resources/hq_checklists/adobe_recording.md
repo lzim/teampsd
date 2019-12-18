@@ -11,6 +11,7 @@
  - [ ] The **Camera** is plugged in
  - [ ] In the **Tool Bar** find the **Microphone Icon** and connect the audio by pulling down on the **Microphone Icon** and selecting **Connect My Audio**  (icon should turn green)
  - [ ] In the **Tool Bar** find the **Camera Icon** and connect it by pulling down on the **Camera Icon** and selecting **Start My Webcam** (icon should turn green)
+ - [ ] Be sure to place the **Phone on Speaker** and place the **Camera** angled towards the phone's speaker to ensure quality audio is recorded.
   
 #### [ ] 4. In the tool bar 
 - [ ] Select **Meeting**
