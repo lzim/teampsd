@@ -21,11 +21,11 @@
 - [ ] 6. In the **Time** section: 
 - [ ] Double check that everyone is **available** in the time window specified.  
 - [ ] Ensure that time slots are **Pacific** and **Central** as needed
-- [ ] **Note**: Double check that **Lindsey** is not **walking/driving** to a another meeting before/after the one you are scheduling
-- [ ] If Lindsey is travelling to another location she needs **buffer time** to accomodate for travel time.
+- [ ] **Note**: Double check that **Lindsey** is not **walking/driving** to another meeting before/after the one you are scheduling
+- [ ] If Lindsey is travelling to another location, she needs **buffer time** to accommodate for travel time.
 
 - [ ] 7. In the main **Body** of the email:
 - [ ] Give **context of meeting & re-write meeting** details included in the "Location" section earlier. 
-- [ ] Include **timezones** (i.e. Pacific and Central) when specifying times as many partners are not in the same time zone.
+- [ ] Include **time zones** (i.e. Pacific and Central) when specifying times as many partners are not in the same time zone.
 
-- [ ] 8. If a meeting needs to be reschedule contact **VANTS** again to book another line Number **304-262-7600**  with code **27379** .
+- [ ] 8. If a meeting needs to be reschedule contact **VANTS** again to book another line Number **304-262-7600**  with code **27379**.
