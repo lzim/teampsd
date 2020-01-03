@@ -1,14 +1,11 @@
 
-# Team PSD Principles		
+# Team PSD Guiding Principles		
 		
-### **1. Written Communication** 		
-- Others smarter and busier.
-- Include all details to make informed decisions.
-- Use emojis as digital stand-in for facial expression.
-- Business hours only.
+### 1. Effective Communication 		
+Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you. Whether it's in emails, meeting agendas, or GitHub issues, always include the full context and details necessary to make an informed decision (and make sure you are up to speed on the context and details before responding). Use emojis or humor (as appropriate) to help maintain a positive and collegial vibe.
 
-
-### **2. High Visibility**		
+### 2. Transparent & Reproducible Workflow
+High Visibility		
 - Work seen by many in VA and elsewhere.
 - Check role/responsibility of a person before contacting. 
 - Check with @LZIM if unsure.
@@ -16,7 +13,7 @@
 - Documentation is public facing.
 - Use email for private discussions.
 
-### **3. Self-Checking** 		
+### 3. Self-Checking*	
 - Double / triple check all work.
 - Save the team time or you rework.
 - Orient and reorient to team_tracker / issue_tracker.
@@ -44,16 +41,15 @@
 
 ### **8.  Tracking / Tagging & File Saving**		
 - Include links to documents / issues when tagging.
-- Tag @staceypark for general support.
+
 - Use file naming convention - all lower case, no spaces, use dates as needed (YYYYMMDD).
 - Shared drive is accessed by all.
 - Consider existing folders before creating a new one.
 		
 ### **9. Writing Style**		
 - Paired down.
-- Clear and concise.
-- Facilitate reading - bolding / numbering / bulleting.
-- Use examples for guidance.
+
+
 
 ### **10. Meetings & Collaboration**		
 - Review information others already have - be prepared.
