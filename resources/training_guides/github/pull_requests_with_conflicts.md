@@ -1,7 +1,7 @@
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# PULL REQUESTS with CONFLICTS
+# Pull Requests with Conflicts
 
 In this example, I manually resolved conflicts in two files *by accepting all the text in order to avoid any possible deletion of work across the team*.
 
