@@ -1,7 +1,20 @@
+---
+title: "TeamPSD Guiding Principles"
+author: "Team PSD"
+date: "edited by SP 2020_01_03"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
 
 # TeamPSD Guiding Principles		
 		
-### 1. Always use effective communication.  		
+### 1. Use effective communication.  		
 - Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you. 
 - Use clear and concise language, with formatting (bold, underline, bullets, etc) to emphasize the main points. 
 - Whether it's in emails, meeting agendas, or GitHub issues, always include the full context and details necessary to make an informed decision (and make sure you are up to speed on the context and details before responding). 
@@ -15,19 +28,15 @@
 - Most of our work is public-facing with the exception of any items that include Protected Health Information (PHI) or Personally Identifiable Information (PII). All of our public materials are free to download and use. 
 - We use R, a free open-source coding language and a specific file naming convention to ensure all of our matierals are machine & human readable (all lower case, no spaces, with dates as yyyy_mm_dd i.e. teampsd_guiding_principles_2020_01_01).
 - Use email for any private discussions. Host any private files in password-protected locations or in folders behind the VA firewall. When in doubt, ask an HQ member or err on the side of caution.
-- Make sure work your work and accompanying documentation allows other team members or scientists in the field to reproduce and understand your work.
+- Make sure your work and accompanying documentation allows other team members or scientists in the field to reproduce and understand your work without further questions.
 
 ### 4. Any time saved is team time.
-- Ask questions early and often to prevent escalating issues down the road. Refer to existing resources (cheatsheets, checklists, etc.) as well for questions.
+- Ask questions early and often to prevent escalating issues down the road. Refer to existing resources (cheatsheets, checklists, etc.) as well for clarification.
 - Double check all work before handing it off to the next team member to reduce rework.
-- We work in a participatory manner and iterate often based on field feedback. As such, we often need to reorganize our order of priorities accordingly.
-- Think through and prioritize work that have interdependencies across the team.
+- Think through dependencies across the team and partners and prioritize work based on the most recent information you have.
 - Manage workflow asynchronously (via GitHub) and only schedule meetings when absolutely necessary.
 
 ### 5. Use active listening skills to ensure understanding.	
-- We work daily with team members and partners that are experts in their respective fields. 
-with experts from Reflect-back requests and instructions.
-- Ask lots of questions and clarification.
-- Find / ask for existing documentation.
-
-	
+- We work daily with team members and partners that are experts in their respective fields, and it is easy lose track of a complex discussion.
+- Reflect-back requests and decisions in your own words.
+- Ask for clarification and slow down if necessary.	
