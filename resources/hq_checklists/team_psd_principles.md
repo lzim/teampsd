@@ -12,7 +12,7 @@
 - Work seen by many in VA and elsewhere.
 - Check role/responsibility of a person before contacting. 
 - Check with @LZIM if unsure.
-- Read all  prior communication before responding or contacting.
+- Read all prior communication before responding or contacting.
 - Documentation is public facing.
 - Use email for private discussions.
 
@@ -20,7 +20,7 @@
 - Double / triple check all work.
 - Save the team time or you rework.
 - Orient and reorient to team_tracker / issue_tracker.
-- Use cheetsheets and checklist. 
+- Use cheatsheets and checklist. 
 
 ### **4. Team Dependencies**		
 - Prioritize work that impacts team.
@@ -28,14 +28,14 @@
 - Reorganize to-do list daily.
 
 ### **5. Cost of time**		
-- Be prepapred save time.
+- Be prepared save time.
 - Be mindful of time.
 - Be on time.
 
 ### **6. Active Listening**		
-- Reflect back requests.
-- Ask lots of questions.
-- Find / ask for existing docummentation.
+- Reflect-back requests and instructions.
+- Ask lots of questions and clarification.
+- Find / ask for existing documentation.
 
 ### **7. Teamwork Iteration**		
 - Best possible effort prior to sending to team.
