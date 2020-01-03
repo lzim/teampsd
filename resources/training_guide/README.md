@@ -1,2 +1,3 @@
 structure of each training guide
-training guide template
+
+link to training guide template
