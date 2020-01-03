@@ -9,3 +9,5 @@ link to training guide template
 
 *Tip #2: To “check out” this training guide as a to-do item, copy + paste the “raw” version of this entire document into a new “issue” under the TeamPSD repository. For more instructions, click here (hyperlink here).*
 
+
+[training_guide_template](https://github.com/lzim/teampsd/blob/training_sp/resources/training_guides/training_guide_template.md)
