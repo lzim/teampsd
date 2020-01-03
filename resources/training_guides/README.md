@@ -1,4 +1,7 @@
-structure of each training guide
+# TeamPSD Training Guides
+
+
+Check out the structure of each training guide
 
 link to training guide template
 
