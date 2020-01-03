@@ -2,7 +2,7 @@
 
 ## How to update/add a Demo Course Code
 
-1. Navigate to mtl.how/facilitate
+1. Type mtl.how/facilitate in any browser window.
 
 2. From the mtl.how/demo project, click on VA MTL DEMO - PROD.  
 
