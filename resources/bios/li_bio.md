@@ -1,0 +1,1 @@
+Jennifer Li is a Health Services Research Assistant and part of the “headquarters” team on TeamPSD.  Jennifer received her BS in Psychology from San Jose State University.  Her research interests include education, UI/UX design, and healthcare. In her spare time, Jennifer enjoys going to the gym, drinking milk tea, and petting dogs.
