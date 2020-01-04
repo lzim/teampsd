@@ -39,5 +39,5 @@ output:
 
 ### 5. Use active listening skills to ensure understanding.	
 - We work daily with team members and partners that are experts in their respective fields, and it is easy lose track of a complex discussion.
-- Reflect-back requests and decisions in your own words.
+- We've found that reflecting-back requests and decisions in your own words has been the best method to reduce miscommunication.
 - Ask for clarification and slow down if necessary.	
