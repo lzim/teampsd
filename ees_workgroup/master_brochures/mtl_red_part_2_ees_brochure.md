@@ -95,7 +95,7 @@ Office/Facility
 
 City, State 
 
-Planning Member for (discipline)
+Planning Member for (discipline) 
 
 ## References
 
