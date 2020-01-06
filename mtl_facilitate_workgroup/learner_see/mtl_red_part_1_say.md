@@ -12,7 +12,7 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
      height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md)
 
 # [MTL Red Part 1](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md "MTL Live Session 02")
