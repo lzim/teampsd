@@ -1,5 +1,5 @@
 ---
-title: "*Modeling to Learn-Data* Accreditation Master Brochure"
+title: "*Modeling to Learn Red, Part 1* Accreditation Master Brochure"
 date: "18 November 2019"
 output: 
   github_document: default
@@ -14,7 +14,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
-## Title: *Modeling to Learn Red*
+## Title: *Modeling to Learn Red, Part 1*
 
 ## Client Program Office: National Center for PTSD, Training and Dissemination Division
 
@@ -52,12 +52,11 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the decisions your team made in producing your team data table.
+1.	Describe the criteria determined to build your team in the *MTL* Data User Interface.
 
-2.	Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+2.	Test your expectations about team historical trends against actual results in the "data", "viz" and "count" tabs.
 
-3.	*Apply your clinical expertise to make individual and team decisions in response to findings from the MTL Data UI.*
-**(Apply your clinicial expertise to identify new information about a team patient in the "data" tabs.)**
+3.	Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
 
 ## Pre-Test: No
 
@@ -82,11 +81,11 @@ NYSED
 
 | Time | Agenda Item | Who | Type |
 |:-----------	|:---------------|:----------------|:-----------------------|
-| 15 Minutes | Done and Do | Facilitator | Interactive participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
-| 30 Minutes | Team Activity on *Local Data Trends* **(Shared Vision)** | Facilitator | Interactive: participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
-| 15 Minutes | Done and Do | Facilitator | Interactive - participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
+| 15 Minutes | Done and Do | Facilitator | Interactive participant-controlled, data table and trend review; learner polls, small group discussions, Q and A sessions |
+| 30 Minutes | Team Activity on Local Data Trends | Facilitator | Interactive: participant-controlled, data table and trend review; learner polls, small group discussions, Q and A sessions |
+| 15 Minutes | Done and Do | Facilitator | Interactive - participant-controlled, data table and trend review; learner polls, small group discussions, Q and A sessions |
 
-## Faculty and Planning Committee Listing: (Lindsey/Stacey to provide contacts to Elizabeth)
+## Faculty and Planning Committee Listing: ** *Lindsey/Stacey to provide contacts to Elizabeth* **
 
 Name with Credentials (degrees)
 
