@@ -17,7 +17,7 @@ output:
 
 # [MTL Red Part 1](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md "MTL Live Session 02")
 
-# Today we're modeling to learn how to check our patient data and team trends.
+# Today we're modeling to learn from patient data and team trends.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
