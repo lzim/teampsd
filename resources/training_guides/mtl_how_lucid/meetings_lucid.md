@@ -1,4 +1,4 @@
-## Meeting Facilitation on Lucid
+## Meeting Facilitation and Management on Lucid
 
 ### Starting a Lucid Meeting
 - [ ] 1. If you are starting/ending the meeting, always login using Lindsey's account.
