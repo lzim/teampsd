@@ -2,6 +2,7 @@
 title: "MTL Session 1 - Learner See"
 author: "Team PSD"
 date: "SP Oct 16, 2019"
+release: "MTL 1.8"
 output: 
   github_document: default
   html_document: default
@@ -102,5 +103,5 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 <!-- Done/Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session01/s01_learner/mtl_session01_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session01/s01_learner/mtl_session01_see.md) **Do** |
 | --- | --- | 
-| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email TeamPSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. <img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/data_ui_login.gif" height="200px" width="350px" /> |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We selected a Team Vision to orient our learning throughout the *MTL* program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout *MTL*. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email TeamPSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. <img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/data_ui_login.gif" height="200px" width="350px" /> |
 
