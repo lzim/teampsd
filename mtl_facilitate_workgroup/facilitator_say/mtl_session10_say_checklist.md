@@ -2,6 +2,7 @@
 title: "MTL Session 10 - Facilitator Say Checklist"
 author: "Team PSD"
 date: "Edited 10/7/2019 by LZ"
+release: "MTL 1.8"
 output: 
   github_document: default
   html_document: default
