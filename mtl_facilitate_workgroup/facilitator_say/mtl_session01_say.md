@@ -2,6 +2,7 @@
 title: "MTL Session 1"
 author: "Team PSD"
 date: "September 2018"
+release: "MTL 1.8"
 output: 
   github_document: default
   html_document: default
