@@ -2,6 +2,7 @@
 title: "MTL Session 11 - Learner See"
 author: "Team PSD"
 date: "RH Oct 16 2019"
+release: "MTL 1.8"
 output: 
   github_document: default
   html_document: default
@@ -23,7 +24,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session11/s11_learner/mtl_session11_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session11/s11_learner/mtl_session11_see.md) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_results_dash.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's learning and prioritize ways to implement it in our clinical care. | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_results_dash.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's learning using C.F.B.T. systems thinking skills and prioritize ways to implement new practice desisions in our clinical care. | 
 
 
 <!-- Learning Objectives Icon --> 
@@ -33,7 +34,7 @@ output:
 
 1.	Describe what your team has prioritized as decisions to implement in your clinic. 
 2.	Test your team’s plan against your individual and shared team vision.
-3.	Apply your team’s plan in clinical decisions.
+3.	Apply your team’s plan in clinical decisions using C.F.B.T. systems thinking.
 
 # In-session Exercise (30 minutes): Connect learning and decisions from experiments to original team vision, question, and need
 
