@@ -1,8 +1,6 @@
-# mtl.how/demo Admin Cheatsheet
+# How to update/add a Demo Course Code
 
-## How to update/add a Demo Course Code
-
-1. Navigate to mtl.how/facilitate
+1. Type mtl.how/facilitate in any browser window.
 
 2. From the mtl.how/demo project, click on VA MTL DEMO - PROD.  
 
@@ -26,7 +24,7 @@
 ![](https://github.com/lzim/teampsd/blob/master/resources/cheatsheets/mtl_how_demo_admin/demo_upload_file.PNG)
 
 
-## How to update the Demo "dummy" Model Parameters file:
+
 
 
 

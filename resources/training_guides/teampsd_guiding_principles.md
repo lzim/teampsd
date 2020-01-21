@@ -31,13 +31,15 @@ output:
 - Think through dependencies across the team and partners and prioritize work based on the most recent information you have.
 - Manage workflow asynchronously (via GitHub) and only schedule meetings when absolutely necessary.
 
-### 4. Use effective communication.  		
+### 4. Use effective communication (across all types of communication including emails, GitHub, Lucid, etc.).  		
 - Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you. 
-- Use clear and concise language, with formatting (bold, underline, bullets, etc) to emphasize the main points. 
-- Whether it's in emails, meeting agendas, or GitHub issues, always include the full context and details necessary to make an informed decision (and make sure you are up to speed on the context and details before responding). 
-- Use emojis or humor (as appropriate) to help maintain a positive and collegial vibe.
+- Use clear and concise language, with formatting (bold, underline, bullets, etc) to emphasize the main decisions or issues making sure to include the "Who" "What" and "When".
+- Always include the full context and details necessary to make an informed decision (and make sure you are up to speed on the context and details before responding). 
+- Use complete sentences as much as possible and write in the active voice for clarity
+- Often the team looks back to previous records of meetings, GitHub discussions, etc. to remember and track decisions that were already made or if they missed the meetings where an issue may have been discussed. As such, we always need to keep the most accurate record possible to reduce rework and provide clarity.
+- Use emojis or humor (as appropriate) to help maintain a positive and collegial vibe. Turn on your webcam as much as possible for the face-to-face interaction.
 
-### 5. Use active listening skills to ensure understanding.	
-- We work daily with team members and partners that are experts in their respective fields, and it is easy lose track of a complex discussion.
-- We've found that reflecting-back requests and decisions in your own words has been the best method to reduce miscommunication.
+### 5. Use active listening skills to ensure understanding and accurate tracking.	
+- We work daily with team members and partners that are experts in their respective fields, and it is easy to lose track of a complex discussion.
+- We've found that reflecting-back requests and decisions in your own words has been the best method to reduce miscommunication and to keep track of all of our decisions or issues accurately. If you ever need help while scribing, always "tap" someone else on the team for assistance.
 - Ask for clarification and slow down if necessary.	
