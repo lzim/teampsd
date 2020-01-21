@@ -19,6 +19,8 @@ output:
 2.
 3.
 
+## Training Objectives:
+
 ## Point of Contact: (Add only the name, not email here)
 
 ## Full Instructions
@@ -27,14 +29,19 @@ output:
 ## Quick Checklist:
 #### Common Mistakes:
 
-## Training Checklist
+## Training Record:
 #### Practice
-- [ ] Practice run-through #1 completed on: ________________ with _________________________  
-- [ ] Practice run-through #2 completed on: ________________ with _________________________  
-- [ ] Practice run-through #3 completed on: ________________ with _________________________  
+###
+- [ ] Exercise 1:   
+Completed on: ________________ with _________________________ 
+
+- [ ] Exercise 2: 
+Completed on: ________________ with _________________________  
 
 #### Supervised 
-- [ ] Live run-through (supervised) #1 completed on: ________________ with _________________________  
-- [ ] Live run-through (supervised) #2 completed on: ________________ with _________________________  
-- [ ] Live run-through (supervised) #3 completed on: ________________ with _________________________  
+- [ ] Supervised 1:
+Completed on: ________________ with _________________________  
+
+- [ ] Supervised 2: 
+Completed on: ________________ with _________________________  
 
