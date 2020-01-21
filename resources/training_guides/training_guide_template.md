@@ -32,16 +32,16 @@ output:
 ## Training Record:
 #### Practice
 ###
-- [ ] Exercise 1:   
+- [ ] Exercise 1: (describe task here)     
 Completed on: ________________ with _________________________ 
 
-- [ ] Exercise 2: 
+- [ ] Exercise 2: (describe task here)        
 Completed on: ________________ with _________________________  
 
 #### Supervised 
-- [ ] Supervised 1:
+- [ ] Supervised 1: (describe task here)        
 Completed on: ________________ with _________________________  
 
-- [ ] Supervised 2: 
+- [ ] Supervised 2: (describe task here)        
 Completed on: ________________ with _________________________  
 
