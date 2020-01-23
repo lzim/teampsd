@@ -55,7 +55,7 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the team data in the experiments tile.
+1.	Describe the team data in the experiments section.
 
 2.	Test out the simulation user interface for more information about team data.
 
