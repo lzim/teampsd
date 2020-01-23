@@ -55,7 +55,7 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the base case of no changes in your team.
+1.	Describe the base case of no new decisions in your team.
 
 2.	Test out your thinking about what is likely to cause oscillation in team treands.
 
