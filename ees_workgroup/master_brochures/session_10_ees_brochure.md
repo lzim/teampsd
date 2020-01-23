@@ -57,7 +57,7 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes.
 
-2.	Test your understanding of the system story by describing what is happening when the model produces a runaway increase or decrease in some ouput.
+2.	Test your understanding of the system story by describing what is happening when the model produces a runaway increase or decrease in some output.
 
 3.	Apply your thinking to anticipate the long-term trend in your clinic's EBP reach under two different decision scenarios.
 
