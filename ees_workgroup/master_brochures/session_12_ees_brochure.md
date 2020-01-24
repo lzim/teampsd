@@ -55,7 +55,7 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1. Describe what your team has learned throughout the MTL 12-session program. 
+1. Describe what your team has learned throughout the *MTL* 12-session program. 
 
 2. Test out with each other how your new practice decisions based on systems thinking align with your team’s shared vision.
 
