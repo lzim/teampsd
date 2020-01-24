@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 11 - Faciliator Say"
 author: "Team PSD"
-date: "Rh Oct 18 2019"
+date: "Rh Oct 18 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -37,9 +37,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Learning Objectives
 
-1.	Describe what your team has prioritized as decisions to implement in your clinic. 
-2.	Test your team’s plan against your individual and shared, team vision.
-3.	Apply your team’s plan in clinical decisions using C.F.B.T. systems thinking.
+1. Describe what your team has prioritized as decisions to implement in your clinic.
+
+2. Test your team's plan against your individual and shared team vision.
+
+3. Apply your team's plan in clinical decisions using C.F.B.T. systems thinking. 
+
 
 ### Let's get started:
 
