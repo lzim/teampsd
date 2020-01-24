@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 - Learner See"
 author: "Team PSD"
-date: "RH Oct 16 2019"
+date: "RH Oct 16 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -32,9 +32,11 @@ output:
 
 ## Learning Objectives
 
-1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes.
-2.	Test your understanding of the system story by describing what’s happening when it produces a runaway increase or decrease in some output.
-3.	Apply your thinking to anticipate the long-term trend in your clinic’s EBP reach under two different decision scenarios.
+1. Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time. 
+
+2. Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time. 
+
+3. Apply your thinking to anticipate the short and long term trends in your team’s care quality under different decision scenarios. 
 
 
 # In-session Exercise (30 minutes)
