@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 - Facilitator Say"
 author: "Team PSD"
-date: "RH Oct 18 2019"
+date: "RH Oct 18 2019, Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -36,9 +36,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Learning Objectives
 
-1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time.
-2.	Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time.
-3.	Apply your thinking to anticipate the short and long term trends in your team's care quality under different decision scenarios.
+1. Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time. 
+
+2. Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time. 
+
+3. Apply your thinking to anticipate the short and long term trends in your team’s care quality under different decision scenarios. 
+
 
 ### Let's get started:
 
