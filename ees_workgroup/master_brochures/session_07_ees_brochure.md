@@ -61,6 +61,7 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
 
+
 ## Pre-Test: No
 
 ## Post-Test: Yes
