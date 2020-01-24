@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 8 - Learner See"
 author: "Team PSD"
-date: "RH Oct 16 2018"
+date: "RH Oct 16 2018 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -32,8 +32,11 @@ output:
 ## Learning Objectives
 
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
+
 2. Test your dynamic hypothesis about your team's clinical priority.
-3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
+
+3. Apply systems thinking to describe your team's findings, insights, and conclusions from your experiment.
+
 
 # In-session Exercise (30 minutes)
 
