@@ -37,8 +37,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Learning Objectives
 
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
+
 2. Test your dynamic hypothesis about your team's clinical priority.
-3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
+
+3. Apply systems thinking to describe your team's findings, insights, and conclusions from your experiment.
+
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  00:05-00:10
 
