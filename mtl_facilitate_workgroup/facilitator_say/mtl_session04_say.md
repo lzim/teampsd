@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 04 - Facilitator Say"
 author: "Team PSD"
-date: "September 2018"
+date: "September 2018 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
