@@ -38,8 +38,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Learning Objectives
 
 1. Describe your team trends over the last two years based on the estimates in the team data table.
-2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions.
+
+2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions. 
+
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
+
 
 ## Let's get started!
 
