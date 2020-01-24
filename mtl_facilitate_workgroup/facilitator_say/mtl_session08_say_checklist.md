@@ -29,9 +29,13 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Emphasize team priority with the learning objectives on the screen
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:05-00:10** 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> **Learning Objectives for Session 8**
+
+
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
+
 2. Test your dynamic hypothesis about your team's clinical priority.
-3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
+
+3. Apply systems thinking to describe your team's findings, insights, and conclusions from your experiment.
 
 ## Team lead navigates using Chrome to log in to the Team world at **mtl.how/sim**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team's Session 06 Question** __________________
