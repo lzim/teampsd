@@ -28,9 +28,12 @@ output:
 
 ## Emphasize team priority with the learning objectives on the screen 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> **Learning Objectives for Session 7**
+
 1. Describe the base case of no new decisions in your team. 
+
 2. Test out your thinking about what is likely to cause oscillation in team trends. 
-3. Apply systems thinking to develop a hypothesis about your team's clinical priority. 
+
+3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
 
 ## Start in-session exercise and provide rationale for running a base case with no new decisions. 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15 - Team-specific rationale** __________________
