@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 1 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "24 January 2020"
+date: "28 September 2018" Edited by Rita "24 January 2020"
 output: 
   github_document: default
   html_document: default
