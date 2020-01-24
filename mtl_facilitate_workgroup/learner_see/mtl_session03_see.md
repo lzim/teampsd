@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Learner See"
 author: "Team PSD"
-date: "SP Oct 16, 2019 & Jane Nov 15, 2019"
+date: "SP Oct 16, 2019 & Jane Nov 15, 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -32,8 +32,11 @@ output:
 ## Learning Objectives
 
 1. Describe your team trends over the last two years based on the estimates in the team data table.
-2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions.
+
+2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions. 
+
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
+
 
 # In-session Exercise (30 minutes)
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
