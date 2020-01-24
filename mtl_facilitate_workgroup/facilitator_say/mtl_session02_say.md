@@ -33,9 +33,11 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 ## Learning Objectives
 ### After this session, you will be able to:
 
-1. Describe the decisions your team made in producing your team data table.  
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.  
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.  
+1. Describe the decisions your team made in producing your team data table.
+
+2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+
+3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:10___
