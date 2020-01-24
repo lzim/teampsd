@@ -29,9 +29,12 @@ output:
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-1. Describe the team data in the Experiments section.
+1. Describe the team data in the Experiments section. 
+
 2. Test out the simulation user-interface for more information about team data.
+
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
+
 
 ## Participatory Learning from Simulation [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">_____ ]
 
