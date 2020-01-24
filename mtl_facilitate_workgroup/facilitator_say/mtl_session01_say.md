@@ -48,6 +48,7 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 3. Identify a shared team vision for learning from *Modeling to Learn*.
 
 
+
 ### Let's get started!
 
 ## In-session Exercise (30 minutes): Team vision
