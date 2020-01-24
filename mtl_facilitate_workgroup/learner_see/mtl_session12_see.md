@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Learner See"
 author: "Team PSD"
-date: "RH Oct 2019"
+date: "RH Oct 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -31,9 +31,12 @@ output:
 
 ## Learning Objectives
 
-1. Describe what your team has learned and prioritzed throughout the *MTL* 12-session program.
-2. Test how your team's plan aligns with your team's shared vision.
-3. Apply decisions that your team has prioritized to implement in the clinic.
+1. Describe what your team has learned throughout the *MTL* 12-session program. 
+
+2. Test out with each other how your new practice decisions based on systems thinking align with your team’s shared vision.
+
+3. Apply the new decisions that your team has prioritized.  
+
 
 # In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
 
