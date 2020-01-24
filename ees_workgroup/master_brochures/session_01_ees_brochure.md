@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 1 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "28 September 2018"
+date: "Jan 24 2020"
 output: 
   github_document: default
   html_document: default
