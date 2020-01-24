@@ -37,9 +37,12 @@ Time Stamp | Prioritize tailored team learning | Script
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "50" width = "50" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Learning Objectives:**
 
-1. Describe the base case of no new decisions in your team.
-2. Test out your thinking about what is likely to cause oscillation in team trends.
+1. Describe the base case of no new decisions in your team. 
+
+2. Test out your thinking about what is likely to cause oscillation in team trends. 
+
 3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
+
 
 ### After this review, pass control over to the team.  Ask the Team Lead to log into the SimUI, join the current session, and share their screen.  
 
