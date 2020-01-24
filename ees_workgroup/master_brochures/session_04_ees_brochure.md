@@ -55,11 +55,12 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the high priority needs reported across the team.
+1. Describe the high priority needs reported across the team.
 
-2.	Test out how these needs are experienced across the team through team dialogue.
+2. Test out how these needs are experienced across the team through team dialogue.
 
-3.	Consider the team vision and apply team decision-making to select a high-priority module of MTL.
+3. Consider the team vision and apply team decision-making to select a high-priority module of MTL.
+
 
 ## Pre-Test: No
 
