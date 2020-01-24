@@ -41,9 +41,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Learning Objectives
 
-1. Describe the systems story of your team's highest priority. 
+1. Describe the systems story of your team's highest priority.
+
 2. Test out your thinking about causes of team challenges using the model diagram.
+
 3. Apply clinical expertise to develop a question for team learning using simulation.
+
 
 # In-session Exercise (30 minutes)
 ## Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation
