@@ -55,11 +55,11 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
+1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
 
-2.	Test your dynamic hypothesis about your team's clinical priority
+2. Test your dynamic hypothesis about your team's clinical priority.
 
-3.	Apply systems thinking to describe your team's findings, insights ad conclusions from your experiment.
+3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment. 
 
 ## Pre-Test: No
 
