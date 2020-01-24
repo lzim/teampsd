@@ -55,11 +55,12 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the decisions your team made in producing your team data table.
+1. Describe the decisions your team made in producing your team data table.
 
-2.	Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 
-3.	Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
+3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
+
 
 ## Pre-Test: No
 
