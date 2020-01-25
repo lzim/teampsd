@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Learner See"
 author: "Team PSD"
-date: "edited by RH Oct 16, 2019"
+date: "edited by RH Oct 16, 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -32,9 +32,12 @@ output:
 
 ## Learning Objectives
 
-1. Describe the team data in the experiments tile.
+1. Describe the team data in the Experiments section. 
+
 2. Test out the simulation user-interface for more information about team data.
+
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
+
 
 # In-session Exercise (30 minutes)
 

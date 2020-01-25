@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 10 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "03 October 2018"
+date: "03 October 2018" Edited by Rita "24 January 2020"
 output: 
   github_document: default
   html_document: default
@@ -55,11 +55,12 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes.
+1. Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time. 
 
-2.	Test your understanding of the system story by describing what is happening when the model produces a runaway increase or decrease in some ouput.
+2. Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time. 
 
-3.	Apply your thinking to anticipate the long-term trend in your clinic's EBP reach under two different decision scenarios.
+3. Apply your thinking to anticipate the short and long term trends in your team’s care quality under different decision scenarios. 
+
 
 ## Pre-Test: No
 
