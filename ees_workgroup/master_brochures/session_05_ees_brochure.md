@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 5 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "03 October 2018"
+date: "03 October 2018 Edited by Rita 24 January 2020"
 output: 
   github_document: default
   html_document: default
@@ -55,11 +55,12 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the team data in the experiments tile.
+1. Describe the team data in the Experiments section. 
 
-2.	Test out the simulation user interface for more information about team data.
+2. Test out the simulation user-interface for more information about team data.
 
-3.	Apply clinical expertise to consider the decisions the team makes that affect these variables.
+3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
+
 
 ## Pre-Test: No
 

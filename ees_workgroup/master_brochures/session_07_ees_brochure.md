@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 7 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "03 October 2018"
+date: "03 October 2018 Edited by Rita 24 January 2020"
 output: 
   github_document: default
   html_document: default
@@ -55,11 +55,12 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the base case of no changes in your team.
+1. Describe the base case of no new decisions in your team. 
 
-2.	Test out your thinking about what is likely to cause oscillation in team treands.
+2. Test out your thinking about what is likely to cause oscillation in team trends. 
 
-3.	Apply systems thinking to develop a hypothesis about your team's clinical priority.
+3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
+
 
 ## Pre-Test: No
 

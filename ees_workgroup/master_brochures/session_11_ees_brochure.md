@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 11 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "03 October 2018"
+date: "03 October 2018 Edited by Rita 24 January 2020"
 output: 
   github_document: default
   html_document: default
@@ -55,11 +55,12 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe what your team has prioritized as decisions to implement in your clinic.
+1. Describe what your team has prioritized as decisions to implement in your clinic.
 
-2.	Test your team's plan against your individual and shared, team vision.
+2. Test your team's plan against your individual and shared team vision.
 
-3.	Apply your team's plan in clinical decisions.
+3. Apply your team's plan in clinical decisions using C.F.B.T. systems thinking. 
+
 
 ## Pre-Test: No
 

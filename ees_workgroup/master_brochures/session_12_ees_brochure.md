@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 12 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "03 October 2018"
+date: "03 October 2018 Edited by Rita 24 January 2020"
 output: 
   github_document: default
   html_document: default
@@ -55,11 +55,11 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe what your team has learned and prioritized throughout the MTL 12 session program.
+1. Describe what your team has learned throughout the *MTL* 12-session program. 
 
-2.	Test how your team's plan aligns with your team's shared vision.
+2. Test out with each other how your new practice decisions based on systems thinking align with your team’s shared vision.
 
-3.	Apply decisions that your team has prioritized to implement in the clinic.
+3. Apply the new decisions that your team has prioritized.  
 
 ## Pre-Test: No
 

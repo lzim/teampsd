@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 6 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "03 October 2018"
+date: "03 October 2018 Edited by Rita 24 January 2020"
 output: 
   github_document: default
   html_document: default
@@ -55,11 +55,12 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the systems story of your team's highest priority.
+1. Describe the systems story of your team's highest priority.
 
-2.	Test out your thinking about causes of team challenges using the model diagram.
+2. Test out your thinking about causes of team challenges using the model diagram.
 
-3.	Apply clinical expertise to develop a question for team learning using simulation.
+3. Apply clinical expertise to develop a question for team learning using simulation.
+
 
 ## Pre-Test: No
 

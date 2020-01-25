@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 9 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "03 October 2018"
+date: "03 October 2018 Edited by Rita 24 January 2020"
 output: 
   github_document: default
   html_document: default
@@ -55,11 +55,11 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
+1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
 
-2.	Test your dynamic hypothesis about your team's clinical priority
+2. Test your dynamic hypothesis about your team's clinical priority.
 
-3.	Apply systems thinking to describe your team's findings, insights ad conclusions from your experiment.
+3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment. 
 
 ## Pre-Test: No
 
