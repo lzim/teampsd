@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 2 - Learner See"
 author: "Team PSD"
-date: "SP Oct 16, 2019"
+date: "SP Oct 16, 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -32,8 +32,11 @@ output:
 ## Learning Objectives
 
 1. Describe the decisions your team made in producing your team data table.
-2. Test out your expectations about team historical trends using the "viz" tabs.
+
+2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
+
 
 # In-session Exercise (30 minutes)
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">

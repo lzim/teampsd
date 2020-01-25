@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Learner See"
 author: "Team PSD"
-date: "edited by RH Oct16 2019"
+date: "edited by RH Oct16 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -33,9 +33,12 @@ output:
 
 ## Learning Objectives
 
-1. Describe the base case of no new decisions in your team.
-2. Test out your thinking about what is likely to cause oscillation in team trends.
+1. Describe the base case of no new decisions in your team. 
+
+2. Test out your thinking about what is likely to cause oscillation in team trends. 
+
 3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
+
 
 # In-session Exercise (30 minutes)
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">

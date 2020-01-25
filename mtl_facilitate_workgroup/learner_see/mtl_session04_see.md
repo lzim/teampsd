@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 4 - Learner See"
 author: "Team PSD"
-date: "SP Oct 16, 2019 & Jane Nov 18, 2019"
+date: "SP Oct 16, 2019 & Jane Nov 18, 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -32,7 +32,9 @@ output:
 ## Learning Objectives
 
 1. Describe the high priority needs reported across the team.
+
 2. Test out how these needs are experienced across the team through team dialogue.
+
 3. Consider the team vision and apply team decision-making to select a high-priority module of *MTL*.
 
 # In-session Exercise (30 minutes)
