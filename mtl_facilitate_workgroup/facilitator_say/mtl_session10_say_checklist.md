@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "Edited 10/7/2019 by LZ"
+date: "Edited 10/7/2019 by LZ, Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -31,9 +31,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:05-00:10** 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> 
 **Learning Objectives for Session 10**
-1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time.
-2.	Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time.
-3.	Apply your thinking to anticipate the short and long term trends in your team's care quality under different decision scenarios.
+
+1. Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time. 
+
+2. Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time. 
+
+3. Apply your thinking to anticipate the short and long term trends in your team’s care quality under different decision scenarios. 
 
 ## Facilitator provides rationale: We've been _Modeling to Learn_ how to improve our use of systems thinking when making care decisions in our team.
  <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15** 

@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Facilitator Say"
 author: "Team PSD"
-date: "RH Oct 18 2019"
+date: "RH Oct 18 2019 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -38,8 +38,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Learning Objectives
 
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
+
 2. Test your dynamic hypothesis about your team's clinical priority.
-3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
+
+3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment. 
+
 
 ### Let's get started:
 

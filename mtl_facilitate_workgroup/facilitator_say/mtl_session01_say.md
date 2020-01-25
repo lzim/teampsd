@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1"
 author: "Team PSD"
-date: "September 2018"
+date: "September 2018 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -42,8 +42,12 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 ## Learning Objectives
 
 1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
+
 2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
-3. Identify a shared team vision for learning from *Modeling to Learn*.  
+
+3. Identify a shared team vision for learning from *Modeling to Learn*.
+
+
 
 ### Let's get started!
 

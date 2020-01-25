@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 04 - Facilitator Say"
 author: "Team PSD"
-date: "September 2018"
+date: "September 2018 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -39,8 +39,11 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 ## Learning Objectives
 
 1. Describe the high priority needs reported across the team.
+
 2. Test out how these needs are experienced across the team through team dialogue.
+
 3. Consider the team vision and apply team decision-making to select a high-priority module of *MTL*.
+
 
 ### Let's get started:
 
