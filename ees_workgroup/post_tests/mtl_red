@@ -4,7 +4,7 @@ b.	Provide required quality data to VA administrators
 c.	Document use of ICD-10 codes
 d.	Create a team vision for better data management
 
-2.	The website at which you access the MTL data UI is:
+2.	The URL for accessing the MTL data UI is:
 a.	mtl.how/dataUI
 b.	mtl.data/user
 c.	mtl.how/data
@@ -16,25 +16,25 @@ b.	Business Information Services Library.
 c.	Big data. Intelligent processing. Save Lives.
 d.	Basic Intellectual Standard Licensing. 
 
-4.	On the BISL splash page, MTL data UI users have the opportunity to narrow down the data they can view by two main categories. Those categories are:
+4.	On the BISL splash page, MTL data UI users can narrow down the data they view by two main categories:
 a.	divisionname, locationname
 b.	locationname, clinicname
 c.	clinic, team
 d.	diagnoses, facility
 
-5.	On the BISL splash page, MTL data UI users have the opportunity to VIEW different types of data. Which list below represents types of data that are available to view on the splash page?
-a.	Diagnostic, Encounter, Health Factors and Measurement
+5.	On the BISL splash page, MTL data UI users can view different types of data:
+a.	Diagnostic, Encounter, Health Factors and Measures
 b.	Health Trends, Encounters, and Patient Appointments
 c.	Ordinal, Binomial and Categorical data 
 d.	Structured Patient and Unstructured Clinician data
 
-6.	New team data files will be located:
-a.	In the data_ui folder at the bottom of the BISL page
-b.	On a secured server in your division
+6.	New team data files are stored:
+a.	In the folder at the bottom of the BISL splash page
+b.	On a secure server in your division
 c.	On your computer in a password protected file
-d.	In the Site Contents folder on the left side of the BISL page
+d.	In the Site Contents folder on the left side of the BISL splash page
 
-7.	The ClinicSelection tab allows the user to:
+7.	The Clinic Selection tab allows the user to:
 a.	Select only clinics in which the user sees patients
 b.	Select any clinic in the VA
 c.	Select providers serving in clinics outside your VISN
