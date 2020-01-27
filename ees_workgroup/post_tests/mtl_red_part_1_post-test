@@ -1,3 +1,21 @@
+---
+title: "*Modeling to Learn* Red Part 1 Post-test
+date: "27 January 2020"
+output: 
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
+  word_document: default
+---
+
+# *Modeling to Learn* Red - Part 2
+<!-- MTL Logo, HTML img tag -->
+
+## Post-test	
+ 
+
 1.	A primary purpose of the *Modeling to Learn* data user interface (MTL data UI), is to help a clinic team:
 a.	Use patient data and team trends to enhance clinic team decisions
 b.	Provide required quality data to VA administrators
