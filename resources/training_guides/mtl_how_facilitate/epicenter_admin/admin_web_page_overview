@@ -1,5 +1,5 @@
 ---
-title: "Epicenter Administration Website Overview"
+title: "EP - Epicenter Administration Website Overview"
 author: "jrollins"
 date: "jmr 27_01_2020"
 output: 
@@ -37,7 +37,7 @@ Upon completion of this module, the learner will be able to:
 
 1.  **Navigate to the Project Home page.** Using the link provided in the External Links section above, navigate to the Epicenter login page and login. You should be in the Dashboard landing page (see below).  Click where indicated.
  
-!.[.].(https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/EP1.png)
+Ep1
 
 2.  **Veterans Affairs Project Home Page**
 There are really only three MTL projects, each organized into a DEV, TEST and PROD instance.  These instances have specific uses and although you may have access to all, you may not interact with all of them.
@@ -50,6 +50,7 @@ PROD – This is the Production instance that is available to the MTL Community 
 
 Left-hand Navigation – The left-hand navigation contains Team Home, Members, End Users and Settings selections.  We are mainly concerned with Members and End Users selections, which we discuss later on in training.
  
+Ep2
 
 3. **Navigate to Members.**
 Click “Members” on the left-hand menu. Members are people within the project organization, who are either authors or customer support.  Authors can create and delete projects, add members, change member roles and have full administrative privileges. Customer support members can perform most administrative tasks, short of project maintenance (adding, deleting, etc.). _Members are usually added or deleted at the direction of the Principal Investigator (PI) or by members of Praxis Analytix._
@@ -58,19 +59,21 @@ Click “Members” on the left-hand menu. Members are people within the project
 
  
 
-
+Ep3
 
 4. **Navigate to End Users**
 Click “End Users” on the left-hand menu. All individuals who are registered to use a given group-world as a student, admin or other must have an End User account.  These accounts are identified by the person’s name and the email with which the registered. Changes to user accounts, such as name or passwords, can be made here by admins.
 
 
  
-
+Ep4
 
 5. **Navigate to a Project Instance.**
 Click VA Sim UI – TEST instance.  The VA Sim UI – Test page will appear. Notice these elements on the page.
 
  
+
+Ep5
 
 6.  **Navigate to the Model Directory.**
 The Model directory contains all Vensim model and Team Data files. 
@@ -78,10 +81,14 @@ The Model directory contains all Vensim model and Team Data files.
 Delete a file – To delete a file, click the checkbox and a delete button will appear. Click the delete button.
   
 
+Ep6
+
 Upload a file – Click the “Upload” button and select “Upload a File” from the drop down to upload a file. 
 
  
 
+
+Ep7
 
 7. **Navigate to the Interface Directory.”
 The Interface directory contains information that can be changed by the user. We are mainly concerned with the DynamicData folder, as it contains user customizable files.
@@ -89,31 +96,34 @@ The Interface directory contains information that can be changed by the user. We
 Click Dynamic Data – Inside this folder is the model-popup-information.xlsx file.  This file contains the Sim UI “i” information text that is used in the pop ups. When this file is updated, it must be first deleted – then replaced by an updated file.
 
  
+Ep8
 
 Manipulate a File – If you want to view the contents of the model-popup-information.xlsx file, you must click it.  Then select “View Raw.”  The file will download, and you can review it using Microsoft Excel.
 
 a.
  
-
+Ep9
 
 
 b.
  
-
+Ep10
 
 8.  **Navigate to Groups Directory**
 Epicenter has a two-tiered hierarchy for organizing users; namely, “Groups” and “Worlds.” However, for simplicity, the VA project has consolidated groups and worlds into a single tier. See “Group Management” lesson for more information regarding groups and procedures for setting them up.
 
 Navigate to the Group Directory.
-
  
+
+Ep11
+
 
 Click “Add Group.” 
 
 
  
 
-
+Ep12
  
 ## Quick Checklist:
 
@@ -122,6 +132,7 @@ _There is no checklist provided for this module._
 #### Common Mistakes:
 
 1. Users sometimes attempt to “Add” a file, instead of “Upload” a file. The “Add” function only adds a custom markdown file that can be edited from inside Epicenter.  It is not relevant for our needs.
+
 2. Use care when uploading files: 
 
 a.  While most uploading functions know to append a file with the same name, Epicenter sometimes chokes on this function.  Therefore, delete a file you intend to replace first, then upload the replacement.
