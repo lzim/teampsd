@@ -37,7 +37,7 @@ Upon completion of this module, the learner will be able to:
 
 1.  **Navigate to the Project Home page.** Using the link provided in the External Links section above, navigate to the Epicenter login page and login. You should be in the Dashboard landing page (see below).  Click where indicated.
 
-![](resources/training_guides/mtl_how_facilitate/graphics/EP1.png)
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/EP1.png)
 Ep1
 
 2.  **Veterans Affairs Project Home Page**
