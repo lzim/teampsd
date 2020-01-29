@@ -49,14 +49,14 @@ Team naming convention for Epicenter groups is broken down into 4 parts:
 
 Put together, it looks like: 640a0_mpd_pct_team
 
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm1.png  
-Gm1
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm1.png  
+Gm1)
 
 2.  **Edit a Group**
 Although the Edit a Group page appears to allow editing of group information, it does not.  Only the group’s Start, and Expiration dates are truly editable, with one exception.  If the group has expired, then changing the expiration date will not work. 
 
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm2.png 
-Gm2
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm2.png 
+Gm2)
 
 3. **Add a Group**
 a. Ignore Organization Name and Event name.  
@@ -67,8 +67,8 @@ e. Ignore Maximum End Users and Run Limit.
 f. Click “Create Group.”
 
  
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm3.png
-Gm3
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm3.png
+Gm3)
 
 4. **Add End Users**
 End Users can be loaded individually, provided they are already an End User (remember checking the End Users list on the Project Home Page?). End Users can also be loaded in bulk. When loaded in bulk, Epicenter will check to see if they are an End User, and if not, will assign them an End User account using the name, username and password contained in the master_end_user_template.xlsx. The Bulk-Add End Users will be the most common way to set up a team.
@@ -80,14 +80,14 @@ c. Find the related file. Click “Open.”
 d. If there are End Users in the Bulk Add file already listed as End Users elsewhere, you will be given an option to overwrite the existing End User file (See gm5). You should “Keep and Add to Group” to prevent overwriting the existing End User File.
 
  
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm4.png 
-gm4
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm4.png 
+gm4)
 
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm5a.png
-Gm5a
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm5a.png
+Gm5a)
 
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm5b.png
-Gm5b
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm5b.png
+Gm5b)
 
 5. **Multiplayer Assignments**
 When new End Users are first assigned to a Group, they only are listed in the End User Details tab.  To use the Sim UI, they must be assigned to World001.  Keep in mind there can be many worlds, but all users must be assigned to World001.  Typically, one user is considered the Team Lead, and the rest are players.  However, there is no limit on the number of Team Leads there can be. Team Leads are presented with a different Home Page when logging into the Sim UI.
@@ -101,15 +101,15 @@ f. Click on “Save” to preserve settings.
 g. Repeat for each player.
 
  
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm6.png
-Gm6
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm6.png
+Gm6)
 
 6.  **Making End Users Inactive**
 An End User assigned to a World can be made inactive by checking the box and clicking the “X” next to Unassign. When unassigned, the users will stay on the list, but will not have a world assignment.  Without assignment to World001, they will not be able to login to a Sim UI session with this Group.
 
  
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm7.png
-Gm7
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm7.png
+Gm7)
 
 7. **Making End Users Inactive**
 Making End Users Inactive removes them from the Multiplayer Assignments list and to the Inactive Users list. This done by checking the checkbox next to the user’s name and then selecting the red “X” next to “Make Inactive.” _This action is not recommended, because it changes to the calculations of the team statistics in the Facilitator panel._ Unassigning users is the preferred way. 
@@ -117,11 +117,11 @@ Making End Users Inactive removes them from the Multiplayer Assignments list and
 8.  **Assigning a Facilitator**
 Facilitators are assigned in the End User Details tab.  Select the “Edit” icon under the Actions column. Select the “Yes” radio button to make the selected user a Facilitator.  Note that a Facilitator cannot be assigned to any World.  Be sure to make inactive before making a Facilitator. Also, when a person is assigned as a Facilitator, they will be presented with a Facilitator Dashboard Home Page when the login to the Sim UI. 
 
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm7a.png 
-gm7a
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm7a.png 
+gm7a)
 
-https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm7b.png 
-gm7b
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm7b.png 
+gm7b)
 
 ## Quick Checklist:
 
