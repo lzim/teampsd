@@ -49,13 +49,13 @@ Team naming convention for Epicenter groups is broken down into 4 parts:
 
 Put together, it looks like: 640a0_mpd_pct_team
 
-![] (https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm1.png  
+![] (https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/gm1.png  
 Gm1)
 
 2.  **Edit a Group**
 Although the Edit a Group page appears to allow editing of group information, it does not.  Only the group’s Start, and Expiration dates are truly editable, with one exception.  If the group has expired, then changing the expiration date will not work. 
 
-![] (https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm2.png 
+![] (https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/gm2.png 
 Gm2)
 
 3. **Add a Group**
@@ -67,7 +67,7 @@ e. Ignore Maximum End Users and Run Limit.
 f. Click “Create Group.”
 
  
-![] (https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm3.png
+![] (https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/gm3.png
 Gm3)
 
 4. **Add End Users**
@@ -80,13 +80,13 @@ c. Find the related file. Click “Open.”
 d. If there are End Users in the Bulk Add file already listed as End Users elsewhere, you will be given an option to overwrite the existing End User file (See gm5). You should “Keep and Add to Group” to prevent overwriting the existing End User File.
 
  
-![] (https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm4.png 
+![] (https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/gm4.png 
 gm4)
 
-![] (https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm5a.png
+![] (https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/gm5a.png
 Gm5a)
 
-![] (https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm5b.png
+![] (https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/gm5b.png
 Gm5b)
 
 5. **Multiplayer Assignments**
