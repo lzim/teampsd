@@ -41,7 +41,7 @@ Upon completion of this module, the learner will be able to:
 
 1.  **Navigate to the Groups directory.** The Groups directory contains a listing of all groups that can currently login to this instance of the Sim UI. Groups follow a naming convention as is described below. See Gm1 for an illustration of the web page.
 
-Team naming convention for Epicenter groups is broken down into 4 parts:
+Team naming convention for Epicenter groups is broken down into 4 parts below. Note that you can ask the Team Lead for this information:
 1.	3-digit numeric health care system + 2 digit alphanumeric location (i.e. 640a0)
 2.	3-digit alpha location code (i.e. mpd)
 3.	local team name (i.e. pct)
@@ -55,7 +55,7 @@ Gm1
 2.  **Edit a Group**
 Although the Edit a Group page appears to allow editing of group information, it does not.  Only the group’s Start, and Expiration dates are truly editable, with one exception.  If the group has expired, then changing the expiration date will not work. 
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm2.png) 
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/Gm2.png) 
 Gm2
 
 3. **Add a Group**
@@ -67,7 +67,7 @@ e. Ignore Maximum End Users and Run Limit.
 f. Click “Create Group.”
 
  
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm3.png)
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/Gm3.png)
 Gm3
 
 4. **Add End Users**
@@ -117,7 +117,7 @@ Making End Users Inactive removes them from the Multiplayer Assignments list and
 8.  **Assigning a Facilitator**
 Facilitators are assigned in the End User Details tab.  Select the “Edit” icon under the Actions column. Select the “Yes” radio button to make the selected user a Facilitator.  Note that a Facilitator cannot be assigned to any World.  Be sure to make inactive before making a Facilitator. Also, when a person is assigned as a Facilitator, they will be presented with a Facilitator Dashboard Home Page when the login to the Sim UI. 
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm7a.png)
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/7a.png)
 gm7a
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/gm7b.png)
