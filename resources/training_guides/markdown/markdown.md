@@ -143,9 +143,87 @@ Formatted View:
    - Item 3b
       - Item 3b-1
       - Item 3b-2
+
+**Images**
+To add images, make sure that the image has a "place" that the code can "speak to." 
+For example, in GitHub when adding an image to a document, the image needs to exist somewhere on the Internet (often in another place on GitHub), but it **CANNOT** exist within the folders of your computer. The Internet cannot "communicate" to your computer to look for and render the image.  
+Conversely, when working from your computer, the image needs to exist somewhere in the folders of the computer you are working on (specifically within the same folder that the file exists), but it **CANNOT** exist on a random page on the Internet.
+
+
+Code View:
+```
+![]()
+```
+
+Formatted View:
+- Item 1
+- Item 2
+- Item 3
+   - Item 3a
+   - Item 3b
+      - Item 3b-1
+      - Item 3b-2
       
 
+**Task Lists**
+To add images, make sure that the image has a "place" that the code can "speak to." 
+For example, in GitHub when adding an image to a document, the image needs to exist somewhere on the Internet (often in another place on GitHub), but it **CANNOT** exist within the folders of your computer. The Internet cannot "communicate" to your computer to look for and render the image.  
+Conversely, when working from your computer, the image needs to exist somewhere in the folders of the computer you are working on (specifically within the same folder that the file exists), but it **CANNOT** exist on a random page on the Internet.
 
+
+Code View:
+```
+![]()
+```
+
+Formatted View:
+- Item 1
+- Item 2
+- Item 3
+   - Item 3a
+   - Item 3b
+      - Item 3b-1
+      - Item 3b-2
+
+**Tables**
+To add images, make sure that the image has a "place" that the code can "speak to." 
+For example, in GitHub when adding an image to a document, the image needs to exist somewhere on the Internet (often in another place on GitHub), but it **CANNOT** exist within the folders of your computer. The Internet cannot "communicate" to your computer to look for and render the image.  
+Conversely, when working from your computer, the image needs to exist somewhere in the folders of the computer you are working on (specifically within the same folder that the file exists), but it **CANNOT** exist on a random page on the Internet.
+
+
+Code View:
+```
+![]()
+```
+
+Formatted View:
+- Item 1
+- Item 2
+- Item 3
+   - Item 3a
+   - Item 3b
+      - Item 3b-1
+      - Item 3b-2
+      
+*Usename @mtentions ofwah**
+To add images, make sure that the image has a "place" that the code can "speak to." 
+For example, in GitHub when adding an image to a document, the image needs to exist somewhere on the Internet (often in another place on GitHub), but it **CANNOT** exist within the folders of your computer. The Internet cannot "communicate" to your computer to look for and render the image.  
+Conversely, when working from your computer, the image needs to exist somewhere in the folders of the computer you are working on (specifically within the same folder that the file exists), but it **CANNOT** exist on a random page on the Internet.
+
+
+Code View:
+```
+![]()
+```
+
+Formatted View:
+- Item 1
+- Item 2
+- Item 3
+   - Item 3a
+   - Item 3b
+      - Item 3b-1
+      - Item 3b-2
 #### Common Mistakes:
 Double check that you've used the correct number of spaces for the type of formatting you want to do.
 
