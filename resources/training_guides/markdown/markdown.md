@@ -164,22 +164,42 @@ To create multiple levels, in the list add 3 spaces before the number for each n
       - Item 3b-1
       - Item 3b-2
 
-### 8. Images
-To add images, make sure that the image has a "place" that the code can "speak to." 
-For example, in GitHub when adding an image to a document, the image needs to exist somewhere on the Internet (often in another place on GitHub), but it **CANNOT** exist within the folders of your computer. The Internet cannot "communicate" to your computer to look for and render the image.  
+### 8. Links & Images
+To hyperlink a piece of text, put the linked text in brackets ([]) and the link in parentheses ( () ).
 
-You can use Markdown formatting for images or the HTML image tag. The benefit of the HTML image tag is the ability to specify the height and width of the image. You can find the link to the image needed for the code by navigating to the image, then copy + paste the link at the top of the webpage. 
+
+To add images, you can either use Markdown formatting or the HTML image tag. The benefit of the HTML image tag is the ability to specify the height and width of the image. You can find the link to the image needed for the code by navigating to the image, then copy + paste the link at the top of the webpage. 
+
+Finally, to create a hyperlinked image, combine the code for for hyperlinking text and the HTML image tag. 
 
 #### Code View:
 ```
+Hyperlink text  
+[insert text here](insert link here - i.e. https://github.com)
+
+Add image  
 Markdown format - ![](include the link to the image here - i.e. https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)  
 
 HTML image tag - <img src="include the link to the image here i.e. https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png" height="100" width="500">    
+
+Hyperlink image  
+[insert HTML image tag here - i.e. <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md)
 ```
 
 #### Formatted View:
-![](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)  
+
+Hyperlink text  
+[insert text here](https://github.com)
+
+Add image  
+Markdown format - ![](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)  
+
+HTML image tag - 
 <img src="https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png" height="100" width="500">
+
+Hyperlink image  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md)
+
       
 
 ### 9. Task Lists
@@ -252,10 +272,19 @@ You can cross-reference issues in any issue or pull requests in the comments thr
 ## Training Record:
 #### Practice
 ###
-- [ ] Exercise 1: (describe task here)     
+- [ ] Exercise 1: In the space below, create a section of text with:
+1. Level 2 header of any text 
+2. 3 sentences of any text each separated by a carriage return and numbered as a numbered list.
+3. Sentence 1 should be both bolded and italicized.
+4. Sentence 2 should have one sub-item of any text that is indented one level.
+5. Sentence 3 should be followed by two bulleted items of any text.
+
 Completed on: ________________ with _________________________ 
 
-- [ ] Exercise 2: (describe task here)        
+- [ ] Exercise 2: In the space below, create a section of text with:  
+1. 3 task list items
+2. Task 1 should be an image (choose any image you want) with a height of 200 and width of 400.
+3. Task 2 should 
 Completed on: ________________ with _________________________  
 
 #### Supervised 
