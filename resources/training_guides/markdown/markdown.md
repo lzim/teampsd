@@ -19,12 +19,15 @@ output:
 ## Point of Contact: Stacey
 
 ## Full Instructions
-TeamPSD uses markdown language across multiple workgroups and workflows including GitHub and OSF.
-Markdown is a markup language that allows for simple formatting. 
+TeamPSD uses Markdown, a markup language for simple formatting, across multiple workgroups and workflows including GitHub and OSF. We add the ".md" file extension to our file names in GitHub to change "Raw Code" into a formatted file using Markdown language. 
 
-At any point in time, when working in GitHub, you can switch between the "code view" to the "formatted view" by clicking on "preview changes" at the top.  
+Pro Tip: When using Markdown in GitHub in "Edit" mode, you can switch between the "Code View" and the "Formatted View" by clicking on "Preview Changes" at the top left.  
 
 <img src="https://help.github.com/assets/images/help/repository/edit-readme-preview-changes.png" height="250" width="400">
+
+You can also see the "Code View" on a saved file, by clicking on "Raw" in the top right corner to see the "Code View" of the file.
+
+<img src="https://ugotsta.files.wordpress.com/2015/07/github-raw-button.png" height="250" width="800">
 
 Below are the formatting needs you will most often encounter:  
 
@@ -231,8 +234,6 @@ Be careful that you are pinging the correct person. Many people have similar nam
 
 ### 12. Cross-referencing Issues
 You can cross-reference issues in any issue or pull requests in the comments thread. We use this function to ensure that issues that are related to each other in terms of dependency or may have related conversations that are split are "cross-referenced" to each other. To "cross-reference" an issue, use a single hashtag (#) followed by the issue number (with no spaces).  
-Where
-
 
 #### Code View:
 ```
