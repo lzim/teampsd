@@ -29,7 +29,8 @@ output:
 1. **How to Create a New Issue**
 For instructions click [here](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue)
 
-2. **TeamPSD has 3 types of templates**
+2. **TeamPSD has 3 types of templates**  
+
 a) [Issues & Features](https://github.com/lzim/teampsd/blob/master/.github/ISSUE_TEMPLATE/issue.md)  
 This template is the default template when you go to "create a new issue" in Step 1. We use this format only for items that are "issues" (products or functions that already exist but are broken) and "features" (products or functions that do not already exist and need to be scoped out).
 
