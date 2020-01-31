@@ -30,8 +30,8 @@ Note: If you need instructions on how to download Adobe Connect or Share Screens
 
 **1. Login as a Host**
 - Type "mtl.how/live" in any search bar and open up the Adobe Connect app.
-- At the login screen, click on "Registered User"
-login.png
+- At the login screen, click on "Registered User"  
+![](https://github.com/lzim/teampsd/blob/sop_training/resources/training_guides/mtl_how_live/login.png)  
 - Type in the username and password for the TeamPSD Adobe Connect Host account (this information can be found in the TeamPSD folder)
 
 **2. Manage Attendees**
@@ -60,8 +60,8 @@ In this pod, you can also change the status of any attendee by hovering over the
 **5. Backup Recording in TeamPSD folder**
 - Click on "Meeting," then "Manage Meeting" Information.  
 ![](https://usu.service-now.com/manage-meeting-infomation-link.png)
-- This will prompt you to login again. Again, click on "Registered User" and login with the TeamPSD account. This will take you to the Adobe Connect admin dashboard.
-login.png
+- This will prompt you to login again. Again, click on "Registered User" and login with the TeamPSD account. This will take you to the Adobe Connect admin dashboard.  
+![](https://github.com/lzim/teampsd/blob/sop_training/resources/training_guides/mtl_how_live/login.png)  
 - Click on "Recordings" at the top. This will show you a list of all the Adobe Connect recordings from our team. Find the one you just created, then click on the drop down next to "Actions" and select "Make Offline."  
 ![](https://support.automaticsync.com/hc/article_attachments/360001232463/Adobe_Connect_1.jpg)  
 - This will prompt a save dialgoue window to pop-up. Save it to the appropriate TeamPSD folder based on your workgroup's workflow.
