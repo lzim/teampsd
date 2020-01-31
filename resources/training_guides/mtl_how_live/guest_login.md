@@ -1,7 +1,27 @@
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
-     height = "200" width = "600">  
-# mtl.how/live (Adobe Connect) Guide  
+---
+title: "MTL How Live"
+author: "Team PSD"
+date: "SP 2020_01_30)"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
 
+## External links needed:
+1. https://mtl.how/live
+2.
+3.
+
+## Training Objectives:
+
+## Point of Contact: Stacey Park
+
+## Full Instructions
 1. Login to mtl.how/live
 - Type "mtl.how/live" in any search bar
 - Enter as a guest
