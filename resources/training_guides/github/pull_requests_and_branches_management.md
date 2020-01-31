@@ -24,7 +24,13 @@ Upon completion of this module, the learner will be able to:
 
 ## Full Instructions
 
-### TeamPSD Pull Request Tutorial
+## How to Create Your Own Branch
+For instructions on creating and deleting branches, click [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository). Note: **Never** delete branches that are not your own.  
+
+**Why do we create branches?** It is important to always create branches to edit or create new files when working in the GitHub repository to prevent version control issues. For example, if two people are working on the same file at the same time in the branch, then one or both parties could lose their edits.
+
+
+### Pull Request Tutorial
 - **Understanding pull requests**, aka: *why it's important to sync your own branch with the master branch before you do any work on your own branch*, aka: *how to move from a self-oriented view (everyone needs to incorporate my work) to a team-oriented view (we all need to incorporate each others work in our own work - **in real time**).*
 
 **In this example, even though I only made the 'lz_mtl_facilitate_pilot' branch yesterday afternoon...**
@@ -57,7 +63,12 @@ Upon completion of this module, the learner will be able to:
 5. **At the end of my working session on my own branch**, when I create the **pull request** there are likely going be differences in both directions: **my own branch** to **master** (**master <- lz_mtl_facilitate_pilot**) and **master** to **my own branch**  (**lz_mtl_facilitate_pilot <- master**).
 Most likely, I have been working, and others on the team have been working. If we were working on the same files, then creating the **pull request** begins the team process of *discussing and comparing the changes** across the team.  **So, be sure to leave some time for the pull request process, in case you need to review and discuss conflicts between your pull requests and others before you wrap-up your work session.**
 
-6. **Once you select the green "Create pull request" button at the top,** make sure to 
+6. **Once you select the green "Create pull request" button at the top,** make sure to add:
+- **Reviewers** - Select team members whose review or feedback you need on this code.
+- **Assignee** - Select team members that will be responsible for **merging the pull request into the master branch.** This will likely be an HQ member.
+- **Labels**- Review labels list and select all potential _MTL_ dependencies and indicators of responsible workgroup.
+- **Projects** - **DO NOT add pull requests to any projects.**
+- **Milestones** - Select the dependent Monthly Milestone.  
 
 
 *Hint 1* - **The surest way to make sure you are current with master** is to start your own fresh branch before you work. If you do so, there should be no edits in either direction in the beginning, but there are still likely to be differences on that new branch from the master when you wrap-up your work. ***So...it's cleaner and way easier to track if you have only one working copy (branch) you are using,** especially if there are outstanding pull requests from one of your branches that is being reviewed by the team.*
