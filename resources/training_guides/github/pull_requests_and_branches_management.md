@@ -70,6 +70,7 @@ Most likely, I have been working, and others on the team have been working. If w
 - **Projects** - **DO NOT add pull requests to any projects.**
 - **Milestones** - Select the dependent Monthly Milestone.  
 
+Note: **DO NOT** edit in the branch you used to create the pull request once the pull request has been created. Once you create a pull request, this means you are handing your work off for review. If another team member is reviewing your work while you are simultaneously continuing to edit that branch, their review will become moot as the content changes underneath them.  
 
 *Hint 1* - **The surest way to make sure you are current with master** is to start your own fresh branch before you work. If you do so, there should be no edits in either direction in the beginning, but there are still likely to be differences on that new branch from the master when you wrap-up your work. ***So...it's cleaner and way easier to track if you have only one working copy (branch) you are using,** especially if there are outstanding pull requests from one of your branches that is being reviewed by the team.*
 
