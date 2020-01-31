@@ -1,6 +1,25 @@
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
-     height = "200" width = "600">  
+---
+title: "Pull Requests Management"
+author: "Team PSD"
+date: "SP 2020_01_30"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
 
+# Markdown Language
+
+## Training Objectives:
+Upon completion of this module, the learner will be able to:
+
+1. Use pieces of Markdown code for basic formatting of text
+2. Produce tables and graphics using Markdown
+3. Understand the difference between the "Code View" and "Formatted View" of text when using Markdown
 # GitHub Pull Requests Overview
 
 **TEAM PSD Pull Request Tutorial**
