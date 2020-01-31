@@ -45,7 +45,7 @@ Click [here](https://help.github.com/en/github/managing-your-work-on-github/edit
 **3. How to Delete Labels**  
 Click [here](https://help.github.com/en/github/managing-your-work-on-github/deleting-a-label) for instructions.
 
-**4. Purpose of Labels**
+**4. Purpose of Labels**  
 Labels are used for two purposes in TeamPSD:
 1. Dependency check: select all labels that correspond that have a potential dependency with the issue  
 For example, an issue changing the name of a variable in the simulation user-interface may have a dependency with the learner SEE guides, facilitator SAY guides, and cheatsheets where the variable name may also need to be updated.
