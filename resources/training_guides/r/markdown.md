@@ -40,6 +40,7 @@ Below are the markdown options you will most often use:
 ### 1. YAML Header
 A YAML header is used only at the top of every document, meaning for example, we DO NOT use this on issue cards but we DO use this on Learner SEE guides.
 - The text coming after each section of the YAML header **must be contained within quotes ("text")** to format properly.
+- In the author section, we will always put "TeamPSD". Oftentimes our work is a collection of the efforts and ideas of multiple team members past and present.
 - In the date section, **DO NOT erase the previous person's record of name and date the file was worked on.** Instead, **add** your name and date in while still keeping the record of previous contributors to the document in the YAML header.
 - The output section outlines all of the possible ways the document can be outputted in R. For more instructions on that, click here.
 
