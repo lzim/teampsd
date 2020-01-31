@@ -15,8 +15,14 @@ output:
 # Markdown Language
 
 ## Training Objectives:
+Upon completion of this module, the learner will be able to:
 
-## Point of Contact: Stacey
+1. Use pieces of Markdown code for basic formatting of text
+2. Produce tables and graphics using Markdown
+3. Understand the difference between the "Code View" and "Formatted View" of text when using Markdown
+
+
+## Point of Contact: Stacey Park
 
 ## Full Instructions
 TeamPSD uses Markdown, a markup language for simple formatting, across multiple workgroups and workflows including GitHub and OSF. We add the ".md" file extension to our file names in GitHub to change "Raw Code" into a formatted file using Markdown language. 
@@ -29,13 +35,13 @@ You can also see the "Code View" on a saved file, by clicking on "Raw" in the to
 
 <img src="https://ugotsta.files.wordpress.com/2015/07/github-raw-button.png" height="250" width="800">
 
-Below are the formatting needs you will most often encounter:  
+Below are the markdown options you will most often use:  
 
 ### 1. YAML Header
-A YAML header is used at the top of every document, meaning we DO NOT use this on issue cards but we DO use this on Learner SEE guides.
+A YAML header is used only at the top of every document, meaning for example, we DO NOT use this on issue cards but we DO use this on Learner SEE guides.
 - The text coming after each section of the YAML header **must be contained within quotes ("text")** to format properly.
-- In the data section, **DO NOT erase the previous person's record of name and date the file was worked on.** Instead, **add** your name and date in while still keeping the record of previous contributors to the document in the YAML header.
-- The output section outlines all of the possible ways the document can be outputted. To output the document in one of these other formats, click here.
+- In the date section, **DO NOT erase the previous person's record of name and date the file was worked on.** Instead, **add** your name and date in while still keeping the record of previous contributors to the document in the YAML header.
+- The output section outlines all of the possible ways the document can be outputted in R. For more instructions on that, click here.
 
 #### Code View: 
 ```
@@ -74,7 +80,7 @@ Followed by a carriage return.
 
 
 ### 3. Bold
-To bold a piece of text, use double asterisks (**) before and after the text with no space.
+To bold a piece of text, use double asterisks (**) before and after the text with no spaces between the text and symbols.
 
 #### Code View:
 ```
@@ -85,7 +91,7 @@ To bold a piece of text, use double asterisks (**) before and after the text wit
 **This is how you bold text.** 
 
 ### 4. Italicize
-To italicize a piece of text, use single asterisks (*) or an underscore (_) before and after the text with no space.
+To italicize a piece of text, use single asterisks (*) or an underscore (_) before and after the text with no spaces between the text and symbols.
 
 #### Code View:
 ```
@@ -99,7 +105,7 @@ _Or you can italicize like this._
 
 
 ### 5. Headers
-Headers are created by using hashtags (#) with an increasing number of hashtags used to create smaller and smaller headers. Before the relevant piece of text, add hashtag(s) and a space.  
+Headers are created by using hashtags (#) with an increasing number of hashtags used to create smaller and smaller headers. Before the relevant piece of text, add hashtag(s) followed by a space before the text.  
 
 #### Code View:
 ```
@@ -116,8 +122,7 @@ Headers are created by using hashtags (#) with an increasing number of hashtags 
 #### This is a Level 4 Header.
 
 ### 6. Numbered Lists
-To create numbered lists, use numbers followed by a period with a carriage return per numbered item.
-To create multiple levels, in the list add 3 spaces before the number for each new level.
+To create numbered lists, use numbers and a period followed by a space before the text, with a carriage return per numbered item. To create multiple levels, in the list add 3 spaces before the number for each new level.
 
 #### Code View:
 ```
@@ -141,7 +146,7 @@ To create multiple levels, in the list add 3 spaces before the number for each n
       
 
 ### 7. Bulleted Lists
-To create numbered lists, use dashes followed by a carriage return per bullet item.
+To create numbered lists, use dashes followed by a space before the text, with a carriage return per bullet item.
 To create multiple levels, in the list add 3 spaces before the number for each new level.  
 
 #### Code View:
@@ -167,10 +172,9 @@ To create multiple levels, in the list add 3 spaces before the number for each n
 ### 8. Links & Images
 To hyperlink a piece of text, put the linked text in brackets ([]) and the link in parentheses ( () ).
 
+To add images, you can either use Markdown formatting (![]()) or the HTML image tag (<img src="" height="" width="">). The benefit of the HTML image tag is the ability to specify the height and width of the image. You can find the link to the image needed for the code by navigating to the image on your browser, then copy + paste the link at the top of the webpage. 
 
-To add images, you can either use Markdown formatting or the HTML image tag. The benefit of the HTML image tag is the ability to specify the height and width of the image. You can find the link to the image needed for the code by navigating to the image, then copy + paste the link at the top of the webpage. 
-
-Finally, to create a hyperlinked image, combine the code for for hyperlinking text and the HTML image tag. 
+Finally, to create a hyperlinked image, combine the code for hyperlinking text and the HTML image tag([<img src="" height="" width="">]()). 
 
 #### Code View:
 ```
@@ -183,7 +187,7 @@ Markdown format - ![](include the link to the image here - i.e. https://github.c
 HTML image tag - <img src="include the link to the image here i.e. https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png" height="100" width="500">    
 
 Hyperlink image  
-[insert HTML image tag here - i.e. <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md)
+[insert HTML image tag here - i.e. <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height="175" width="290">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md)
 ```
 
 #### Formatted View:
@@ -198,12 +202,12 @@ HTML image tag -
 <img src="https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png" height="100" width="500">
 
 Hyperlink image  
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height="175" width="290">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md)
 
       
 
 ### 9. Task Lists
-You can create task lists that you can "check off" (either by manually putting an "x" between the brackets or by clicking on the square box that the code produces in the formatted version.  
+You can create task lists with boxes that you can "check off". To "check off" the boxes, either manually put an "x" between the brackets or click on the square box that the code produces in the formatted version.  
 
 #### Code View:
 ```
@@ -275,16 +279,18 @@ You can cross-reference issues in any issue or pull requests in the comments thr
 - [ ] Exercise 1: In the space below, create a section of text with:
 1. Level 2 header of any text 
 2. 3 sentences of any text each separated by a carriage return and numbered as a numbered list.
-3. Sentence 1 should be both bolded and italicized.
+3. Sentence 1 should be formatted as a task list item and the box should be checked off. The text of Sentence 1 should be both bolded and italicized.
 4. Sentence 2 should have one sub-item of any text that is indented one level.
 5. Sentence 3 should be followed by two bulleted items of any text.
 
 Completed on: ________________ with _________________________ 
 
-- [ ] Exercise 2: In the space below, create a section of text with:  
-1. 3 task list items
-2. Task 1 should be an image (choose any image you want) with a height of 200 and width of 400.
-3. Task 2 should 
+- [ ] Exercise 2: In the space below, create a 2 by 2 table with:  
+1. Top left and right quadrants should be bolded text of your choice.
+2. Bottom left and right quadrants should have any image found in mtl.how/teampsd.
+3. The image in the bottom left quadrant should hyperlink to mtl.how/demo.
+4. The image in the bottom right quadrant should hyperlink to mtl.how/team.
+
 Completed on: ________________ with _________________________  
 
 #### Supervised 
