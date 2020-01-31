@@ -183,9 +183,9 @@ Hyperlink text
 [insert text here](insert link here - i.e. https://github.com)
 
 Add image  
-Markdown format - ![](include the link to the image here - i.e. https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)  
+Markdown format - ![](include the link to the image here - i.e. https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png?raw=true)  
 
-HTML image tag - <img src="include the link to the image here i.e. https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png" height="100" width="500">    
+HTML image tag - <img src="include the link to the image here i.e. https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png?raw=true" height="100" width="500">    
 
 Hyperlink image  
 [insert HTML image tag here - i.e. <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height="175" width="290">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md)
@@ -197,10 +197,10 @@ Hyperlink text
 [insert text here](https://github.com)
 
 Add image  
-Markdown format - ![](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png)  
+Markdown format - ![](https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png?raw=true)  
 
 HTML image tag - 
-<img src="https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png" height="100" width="500">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/logos/modeling_to_learn_sm.png?raw=true" height="100" width="500">
 
 Hyperlink image  
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png" height="175" width="290">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md)
