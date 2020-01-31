@@ -42,7 +42,7 @@ In this pod, you can also change the status of any attendee by hovering over the
 ![](https://helpx.adobe.com/content/dam/help/en/adobe-connect/using/sharing-content-meeting/_jcr_content/main-pars/image_1739292169/screen_share_notification_control.png)  
 **3. Record Audio & ScreenShare for a Meeting**
 - Before you record, make sure you have a webcam. This will be your "microphone". Turn on your microphone by clicking on the microphone button in the top nav bar and making sure it is **green**. Put your phone on speaker and place the webcam close to the phone to ensure good audio quality.  
-(![]https://computing.cua.edu/res/images/training/adobeconnect/microphonestudent/mic-001.jpg)
+![]https://computing.cua.edu/res/images/training/adobeconnect/microphonestudent/mic-001.jpg)
 - Click “Meeting” on the top left and then choose “Record meeting”.  
 ![](https://sites.google.com/a/tc.columbia.edu/adobe-connect-help/_/rsrc/1472780474773/recording-a-meeting/Screen%20shot%202011-08-11%20at%201.24.20%20PM.png)
 - Write a brief description of the meeting contents. Make sure to follow the TeamPSD convention (all lowercase, no spaces). Then, hit Ok.  
@@ -52,19 +52,24 @@ your meeting.
 ![](https://sites.google.com/a/tc.columbia.edu/adobe-connect-help/_/rsrc/1472780470820/recording-a-meeting/Screen%20shot%202011-08-11%20at%201.16.45%20PM.png?height=200&width=320)  
 
 **4. End Meeting**
-- After the meeting is done, make sure that an
-
-
+- After the meeting is done, take any messages from the "Chat" and copy+paste into the Lucid Chat section. Then, click on the upper right drop down on the pod, and "Clear Chat." We want to keep a record of the chat as folks often send important feedback through there.  
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmz7KId2eBZk4uwp2bMgK1QsyNmO431SEY_2ObWLLDzuy5M5KDSA&s
+- End the meeting by clicking on "Meeting," then "End Meeting." This will boot everyone out of the current Adobe Connect session. It is important to do **End Meeting** instead of **Exit Adobe Connect**, as the meeting room will continue to run and charge resources if we do not end.  
 ![](https://ocio.osu.edu/sites/default/files/assets/Services/Connect/EndMeeting.jpg)
 
 **5. Backup Recording in TeamPSD folder**
-- Click on https://usu.service-now.com/manage-meeting-infomation-link.png
+- Click on "Meeting," then "Manage Meeting" Information.  
+!{](https://usu.service-now.com/manage-meeting-infomation-link.png)
+- This will prompt you to login again. Again, click on "Registered User" and login with the TeamPSD account. This will take you to the Adobe Connect admin dashboard.
+login.png
+- Click on "Recordings" at the top. This will show you a list of all the Adobe Connect recordings from our team. Find the one you just created, then click on the drop down next to "Actions" and select "Make Offline."  
+![](https://support.automaticsync.com/hc/article_attachments/360001232463/Adobe_Connect_1.jpg)  
+- This will prompt a save dialgoue window to pop-up. Save it to the appropriate TeamPSD folder based on your workgroup's workflow.
 
 
-
-https://dhwwtar19mmjy.cloudfront.net/apowercom/wp-content/uploads/2015/05/recadobeconnect2.jpg.webp
-## Quick Checklist:
 #### Common Mistakes:
+1. Make sure to turn on your microphone or else you will get visuals but no audio in the recording.
+2. 
 
 ## Training Record:
 #### Practice
