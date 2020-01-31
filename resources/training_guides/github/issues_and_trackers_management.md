@@ -46,6 +46,8 @@ Make sure to add:
 
 The team member working on the issue will later edit the bottom half of the issue to scope and cost the work.  
 
+**Cards using this template will go through either the issue_tracker (mtl.how/issues) or the feature_tracker (mtl.how/features) which have respective columns for ranking and prioritizing items and progressing them along the tracker as they get finished.**
+
 b) [Documents](https://github.com/lzim/teampsd/blob/master/issue_templates/document_tracker.md)  
 This template is used in the document_tracker to track the steps needed to update documents across each of the 12 sessions of *Modeling to Learn* in the 5 columns of the document_tracker.  
 
@@ -53,12 +55,16 @@ If this template needs to be used, go to "Step 1" to create a new issue, delete 
 
 Make sure to check off items as they get completed. No box should be left unchecked when the card is closed.
 
+**Cards using this template will go be placed in one of the 5 columns of the document tracker (mtl.how/documents). Document cards do not flow through the tracker. Rather they stay in their respective columns of the tracker at all times. They are opened or closed as changes made in the issue_tracker and feature_tracker create documentation dependencies.**
+
 c) [Manuscripts](https://github.com/lzim/teampsd/blob/master/issue_templates/mansucript_tracker/README.md)  
 This template is used when a new card needs to be created for a new manuscript. The naming convention for the card is "abbreviated-grant-name_abbreviated-paper-name_abbreviated-journal-name". For example, "r21_mm_gmb" would mean the paper is related to the R21 grant (r21), focused on the Medication Management module (mm), and will be submitted to the Journal of the American Medical Association (jama). Once the OSF project is created for this manuscript, the link to the project is added in the title as well.
 
 If this template needs to be used, go to "Step 1" to create a new issue, delete the template contents in the issue and copy + paste the manuscript template instead.
 
 You will notice that the sections of the issue match the columns of the manuscript_tracker. The card should not advance to the next column unless all of the boxes for that column are checked off.
+
+**Cards using this template will go through the manuscript_tracker (mtl.how/manuscripts) as the manuscript progresses to getting done.**
 
 ## Training Record:
 #### Practice
