@@ -54,11 +54,6 @@ You would attach the label "document" to indicate that documents may need to upd
 2. Indicator of Responsible Workgroup: indicate the workgroup responsible for working on the issue
 For example, if there is an issue for changing the name of a varialbe in the simulation user-interface, James/sim_ui workgroup would be responsible for making that change and we would attach the "sim_ui" label to the Issue card or Pull Request.
 
-## Quick Checklist:
-1. For instructions on filtering by labels in issues click here
-2. For instructions on filtering by labels in any of the trackers click here
-3. For instructions on how to attach labels to an issue (click here) or a pull request (click here)
-
 ## Training Record:
 #### Practice
 ###
