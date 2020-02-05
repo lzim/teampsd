@@ -14,9 +14,9 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session09/s09_facilitator/mtl_session09_say.md)  
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 09](https://github.com/lzim/mtl/blob/master/session09/s09_facilitator/mtl_session09_say.md "MTL Live Session 09")
+# MTL Live Session 09
 
 # Today we're modeling to learn how to compare alternatives.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to compare alternatives.  
@@ -26,14 +26,14 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session09/s09_facilitator/mtl_session09_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session09/s09_facilitator/mtl_session09_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
 
 ### After this session you’ll be able to:
 
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session09/s09_facilitator/mtl_session09_say.md) 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -56,7 +56,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **2.  Plan for Experiment 2**  
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
   + Before we run Experiment 2, our team needs to discuss “What new decisions do we want to test this week?”  
      + We need to minimize the Expanded Outputs by clicking on the “box” in the upper right corner of the window, so we can see both the model and type text into the *Our Question* and the *Our Hypothesis* boxes.  
@@ -74,7 +74,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
      + **SP**: As compared to Experiment 1 and the base case, what if we implemented stepped care between our clinic and PC/PCMHI?  How will patient flow and wait times change over the short- and long-term?
 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
   + Research into experiential learning with simulation has shown that it is more impactful if the group “stakes a claim” before seeing the results of a possible future scenario.  
      + Ask, “What do you think the effects will be of simulating these new decisions?  How much better or worse will things get in our team over the next two years?”  Encourage the team to be specific about the **variables,** **specific values**, and to consider their decisions and the likely impact over time using the **causal systems story.**
@@ -104,7 +104,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **4. Compare Results**  
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
   + Now that you’ve run the scenario, prioritize review of _ the expected relative differences as compared to the Base Case and Experiment 1._ in relation to the team's highest priority need.  First, expand the “Outputs” by clicking on the white box in the upper right corner.  Charts for six key variables should already be shown in the “Results Dashboard.”  If other variables are needed, then click into the drop-down under any chart to select another variable.  
 
@@ -124,7 +124,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
       [CLICK BACK TO GMH EXPANDED OUTPUTS TO FINISH TYPING TEXT]
       
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
   + Ask the team to decide what **new decisions** they want to test next. Ideally, the **highest leverage** and **most feasible (i.e., decisions that individual and the team have under their control)** experiments were tested in session 8 (Experiment 1) and session 9 (Experiment 2). Therefore, _to apply systems thinking_ in session 10, as the team to consider a combination of experiments 1 and 2.  Ask the team to type in the Decisions box, _both_ 1) what they would like to experiment with next, and 2) any _new decisions they may make in their clinical practice based on what they learned._  Once they have finished, click the “Save” icon in the upper right.  
       
@@ -146,7 +146,7 @@ Today we ran experiment 2 and used the control panel of the expanded outputs sec
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session09/s09_facilitator/mtl_session09_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session09/s09_facilitator/mtl_session09_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs and Text Section to compare bc, experiment 1, and experiment 2. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
 
