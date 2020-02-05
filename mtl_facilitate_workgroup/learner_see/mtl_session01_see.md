@@ -14,7 +14,7 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session01/s01_learner/mtl_session01_see.md)
+     height = "175" width = "290" class="inactiveLink">](#)
 
 # [MTL Live Session 01](https://github.com/lzim/mtl/blob/master/session01/s01_learner/mtl_session01_see.md "MTL Live Session 01")
 
