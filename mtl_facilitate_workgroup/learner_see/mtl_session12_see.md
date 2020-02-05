@@ -16,7 +16,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](#.) 
 
-# [*MTL* Live Session 12]
+# MTL Live Session 12
 
 # Today we're modeling to learn how to turn team learning into a team plan.
 
