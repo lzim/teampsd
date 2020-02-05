@@ -13,21 +13,21 @@ output:
   powerpoint_presentation: default
 ---
 
-# <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"  height = "114" width = "190">      
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"  height = "114" width = "190">](#DontClick)        
 
-# [Session 05](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd "MTL Live Session 05") 
+# Session 05
 # Today we're modeling to learn how to log in to our team world.
 
-## Done and Do [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## Done and Do
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick)   **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the sim UI at mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. | 
 
 ## Learning Objectives - After this session you will be able to: [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> ___ ]
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> ](#DontClick)  
 
 1. Describe the team data in the Experiments section. 
 
@@ -36,9 +36,9 @@ output:
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
 
-## Participatory Learning from Simulation [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">_____ ]
+## Participatory Learning from Simulation [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)  _____ ]
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)  
 
 a) In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what is* in our team now. For example, we saw that ___________________ 
 
@@ -50,17 +50,17 @@ d) With the sim UI we have a way to test our hypotheses about those questions th
 
 e) Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
 
-## In-session Exercise [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## In-session Exercise [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)   __ ]
 
 **The Team Lead, or whoever is willing to drive today: open an Internet Explorer browser and a Chrome browser, then share both applications in Adobe Connect.**
 
-## 1. Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 1. Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
 a. In session 3, we showed how we used "Get Team Data Table for Sim UI" in the data user interface to produce our team data for simulation. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.
 
 b. Navigate to the team_data_sim_ui folder and click the "..." so you can copy the filename of your team data for the sim UI.
 
-## 2. Go to the sim UI and upload the data file [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 2. Go to the sim UI and upload the data file [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
 a. In your Google Chrome browser, go to mtl.how/sim.
 
@@ -70,7 +70,7 @@ c. Click the down-arrow in the *Please select a World* pop-up. You see two optio
 
 d. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that there the sim UI may look different on different devices, but all the same functionality is still there.
 
-## 3. Let's explore what's on the Home page [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 3. Let's explore what's on the Home page [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
 a. At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).
 
@@ -82,7 +82,7 @@ d. If you're not designated as a Team Lead, you won't see all of these features.
 
 e. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!  
   
-## 4. Start a New Session and review the Sim UI Main Page. [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 4. Start a New Session and review the Sim UI Main Page. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
 a. Select the module the team decided to use.
 
@@ -98,7 +98,7 @@ f. To the right of the main section are 3 blue bars labeled Outputs and Text, Ex
 
 e. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.
 
-## 5. Record the team's high-level learning Question. [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 5. Record the team's high-level learning Question. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]
 
 a. Open and expand the Outputs and Text section if you need to.
 
@@ -106,7 +106,7 @@ b. Type your question about _________________________________ into the Question 
 
 c. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.
 
-## 6. Check out the Team Data Table [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> __ ]
+## 6. Check out the Team Data Table [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
 a. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar. 
 
@@ -124,7 +124,7 @@ e. Close the "i" information and look over the values - how do they strike you? 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick)   **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. | 
 
