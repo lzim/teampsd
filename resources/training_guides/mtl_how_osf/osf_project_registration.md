@@ -28,7 +28,7 @@
 
 ###  Edit a Draft Registration (https://help.osf.io/hc/en-us/articles/360019930933-Edit-a-Draft-Registration)
 -	Despite the OSF guide saying that draft forms are auto-saved, be sure to check when the draft was last auto saved
-    - If it says ‘a few seconds ago’, it does not mean that it will save the edits/changes you made
+    - Even if it says ‘a few seconds ago’, it will **not ALWAYS** mean that it will save the edits/changes you made
     - Instead, click on ‘Review’ to review the edits you made, then ‘<-- Back’ before exiting out of your draft
   ![image](https://user-images.githubusercontent.com/59668647/73768669-4468ad80-472e-11ea-8f02-1e483ca4cc73.png)
     
