@@ -30,6 +30,28 @@
 -	Despite the OSF guide saying that draft forms are auto-saved, be sure to check when the draft was last auto saved
     - If it says ‘a few seconds ago’, it does not mean that it will save the edits/changes you made
     - Instead, click on ‘Review’ to review the edits you made, then ‘<-- Back’ before exiting out of your draft
-    ![image](https://user-images.githubusercontent.com/59668647/73768669-4468ad80-472e-11ea-8f02-1e483ca4cc73.png)
+  ![image](https://user-images.githubusercontent.com/59668647/73768669-4468ad80-472e-11ea-8f02-1e483ca4cc73.png)
     
 ## Managing Registration Guides
+
+### View Your Registration Form (https://help.osf.io/hc/en-us/articles/360019738854-View-Your-Registration-Form)
+-	Embargoed registrations can still be viewed and metadata can be edited
+-	Cannot make any more changes when registration is finalized and registered
+
+### End an Embargo Early (https://help.osf.io/hc/en-us/articles/360019930973-End-an-Embargo-Early)
+-	When you are ready to make your registration public, you can end an embargo early
+
+### Add subjects to a registration (https://help.osf.io/hc/en-us/articles/360036260714-Add-subjects-to-a-registration)
+-	Must have admin permissions to edit subjects on a registration
+
+### Withdraw a Registration (https://help.osf.io/hc/en-us/articles/360019738874-Withdraw-a-Registration)
+-	Once a registration is withdrawn, it cannot be undone
+-	Metadata (Description, Category, Publication, DOI, Affiliated Institutions License, and Tags) will be left behind
+
+### Edit Registration Metadata (https://help.osf.io/hc/en-us/articles/360035806634-Edit-Registration-Metadata)
+-	When finalizing a registration, the only information that can be changed is the metadata (Description, Category, Publication, DOI, Affiliated Institutions License, and Tags)
+
+### Create a View-only Link for Embargoed Registrations (https://help.osf.io/hc/en-us/articles/360042097853-Create-a-View-only-Link-for-a-Registration)
+-	View-only links allow for embargoed registrations to be seen by to share the private contents with non-contributors
+-	anonymized view-only link can hide contributor names on the registration's "Overview" page and in the "Recent Activity" section 
+-	Must have admin privileges to create view-only links
