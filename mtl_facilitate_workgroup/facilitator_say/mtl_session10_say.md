@@ -14,9 +14,9 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session10/s10_facilitator/mtl_session10_say.md)  
+     height = "175" width = "290">](#.) 
 
-# [MTL Live Session 10](https://github.com/lzim/mtl/blob/master/session10/s10_facilitator/mtl_session10_say.md "MTL Live Session 10")
+# MTL Live Session 10
 
 # Today we're modeling to learn how to use systems thinking.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to use systems thinking.
@@ -25,14 +25,14 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session10/s10_facilitator/mtl_session10_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session10/s10_facilitator/mtl_session10_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran a third experiment in our individual world.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run exp 3 and discuss the bc, exp 1, exp 2 and exp 3 using Complex, Feedback, Behavior, Time (CFBT) systems thinking skills. | 
 
 ### After this session, you'll be able to:
 
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session10/s10_facilitator/mtl_session10_say.md) 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
 ## Learning Objectives
 
@@ -110,7 +110,7 @@ _If you reset the Team World at the end of Session 9:_
 
 **Module Specific Examples for Experiment 3**  
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
   Let's start with editing our **Our Question** using the text from our session 09 Decision Text box:
   
@@ -125,7 +125,7 @@ _If you reset the Team World at the end of Session 9:_
    + **SP**: What happens to our high-risk patient populations if we implemented both measurement based care and stepped care?  
 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
 
   + Research into experiential learning with simulation has shown that it is more impactful if the group “stakes a claim” before seeing the results of a possible future scenario.  
   
@@ -155,7 +155,7 @@ _If you reset the Team World at the end of Session 9:_
 
 **Compare System Behaviors**  
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
    + **CC**: Our True Missed Appointment rate is similar that achieved with just increasing RVI.
    
@@ -170,7 +170,7 @@ Furthermore, if we look back at "Patient Load," then we see that the total numbe
 However, as expected, not all patients benefit from these changes.  Patients stepping down from our team to Primary Care now have their highest wait time across all our experiments - 60 weeks!  Simultaneously increasing quality in GMH and reducing the delays on stepping patients down to Primary Care puts incredible pressure on Primary Care to see more mental health patients.  [CHANGE PATIENT LOAD TO "GMH to PC/PCMHI Recommend Step Down Rate"] Even as our team reacts to the increasing wait time, and the "Recommend Step Down to PC Rate" drops from a high of recommending 11 patients per week step down to only 6.2, this is always more patients per week that Primary Care can start.  
 In summary, increasing quality in GMH and reducing the delays on stepping patients down to PC puts additional pressure on PC to see more MH patients – pressure that they can’t currently accommodate.  All predictions confirmed!
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* 
 
    + **CC**: We're going to increase our RVI and decrease new patient wait time to integrate more new patients into CC without negatively impacting our Team's Missed Appointment %. 
    
@@ -193,7 +193,7 @@ Today we logged in to the sim UI to run experiment 3 and explored the system beh
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session10/s10_facilitator/mtl_session10_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session10/s10_facilitator/mtl_session10_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran exp 3 and discussed the results using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible new decisions team could make in their daily clinical care. |
 
