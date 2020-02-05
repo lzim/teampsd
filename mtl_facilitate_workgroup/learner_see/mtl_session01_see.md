@@ -24,7 +24,7 @@ output:
 <!-- Done/Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" alt = "Done" height = "80" width = "80">](#) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" alt = "Do" height = "90" width = "90">](#) **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_live.gif)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_live.gif)](#Learning-Objectives)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "Learning Objectives" height = "90" width = "90" style ="display: inline-block">](#)
