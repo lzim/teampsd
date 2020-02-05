@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn Red, Part 1* Accreditation Master Brochure"
-date: "18 November 2019"
+date: "18 November 2019, edited by JB 6 Jan 2020"
 output: 
   github_document: default
   html_document: default
