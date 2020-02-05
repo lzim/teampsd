@@ -14,7 +14,7 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#) 
+     height = "175" width = "290">](#z) 
 
 # [*MTL* Live Session 12]
 
