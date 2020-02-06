@@ -14,9 +14,9 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md)  
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 08](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md "MTL Live Session 08")
+# MTL Live Session 08
 
 # Today we're modeling to learn how to test a dynamic hypothesis.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to test a dynamic hypothesis.
@@ -25,14 +25,14 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and explored the results of the Base Case (bc) run in the Results Dashboard of the Outputs and Text section to prepare for experiment 1. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis about ___________ by running experiment 1 and comparing results against the bc.
 
 ### After this MTL session, you will be able to:
 
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
 ## Learning Objectives
 
@@ -43,7 +43,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 3. Apply systems thinking to describe your team's findings, insights, and conclusions from your experiment.
 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  00:05-00:10
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:05-00:10
 
 ### Let's get started! Who wants to drive today?
 
@@ -52,7 +52,7 @@ Providers know there's a lot of interdependencies that make improving care chall
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up last time q/h/f/d | 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:10-00:15 | **Cue** up last time q/h/f/d | 
 
 
 1.	Log in to the team world at mtl.how/sim.
@@ -73,7 +73,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | **Review** the team data the led to that q/h/f/d | **1. Practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:15-00:20 | **Review** the team data the led to that q/h/f/d | **1. Practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**
 
    + Click on the red down arrow and select the base case experiment from the last session.  
    + When you click the red "Go" button, a blue and white pop up box will appear with the title "Review Previous Settings." Because you've selected the base case experiment, all of the values showing in the Experimental Values box should show either BC or 1.  
@@ -82,7 +82,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most releveant to the team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:20-00:25 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most releveant to the team's highest priority need.**
 
 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.  Click on ____________ under "reveal complexity" to see the systems story relevant to the experiment you decided on  in the last session. 
    In the system story, the rectangles that look like the levels of gas that you have in your gas tank are showing states in care where patients can accumulate. For example, in this team we see ___ patients in the ________ stock.  The these patients are influenced by circles here that look like a speedometer. For example, this ______ rate shows that about __ patients per week in this team move from__________________ [show with mouse work]. These rates influence and are influenced by the states of care, or “stocks” and represent the patients/week that flow in to our out of that state. 
@@ -96,13 +96,13 @@ Time Stamp | Prioritize tailored team learning | Script
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | **Adjust** sliders and set up team's dynamic hypothesis | **3. Practice describing specific value adjustments you expect will be helpful for the team to experiement with related to their highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:25-00:35 | **Adjust** sliders and set up team's dynamic hypothesis | **3. Practice describing specific value adjustments you expect will be helpful for the team to experiement with related to their highest priority need.**
 
 7.	Let's create a new experiment building off of the previous one which focused on the base case - what happens if we make no new decisions. The important thing for learning is to stake a claim about your expectations, so the simulation output can teach you something.  This process can also help us to reconcile differences and achieve consensus about ways to move forward and take action for improvement. You all probably won't agree about what the likely impact of any change, but we can use Modeling to Learn engage in participatory learning to find out.
 
 The first step is to revise the text in all the text boxes to reflect the experiment you want to do now: 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim)**Example Questions and Hypotheses:** *Briefly describe what your team wants to learn from this experiment and outline the systems story your team believes will cause the outcomes your team expects to observe.*
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Questions and Hypotheses:** *Briefly describe what your team wants to learn from this experiment and outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
  + **CC** 
      + Q: What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
@@ -133,7 +133,7 @@ The first step is to revise the text in all the text boxes to reflect the experi
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | **Run** experiment
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:35-00:40  | **Run** experiment
 
 9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
   + To name the run, click on the down arrow next to Variable, choose the variable name you changed, for example, Appointment Supply or Return Visit Interval. Click *Add*. This will insert an abbreviation of that variable into the experiment name.  
@@ -143,7 +143,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | **Describe** findings/decisions and saving | **4. Practice describing output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:40-00:50 | **Describe** findings/decisions and saving | **4. Practice describing output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
 
 
 
@@ -163,7 +163,7 @@ ___Example of chart review for SP:___
    + Thus, low symptom patients build up in our clinics. Also, PC is taking more patients than they can handle, so their quality declines, and GMH gets more patients stepping up from PC --> demand for GMH goes up!  Something that we think is outside of our control is actually a result of our own decision.
 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Example Findings:** *Describe your team's findings, insights and conclusions from this experiment.* 
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Findings:** *Describe your team's findings, insights and conclusions from this experiment.* 
 
  + **CC** - Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.
 
@@ -178,7 +178,7 @@ ___Example of chart review for SP:___
 11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run. 
 + Type in the *Our Decision* text box a question that describes what your team wants to learn from changing a specific variable or variables in the model.
 
- [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Example Decisions:** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
+ [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Decisions:** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
 
 **CC** - Next time we will experiment with adjusting our Return Visit Interval.
 
@@ -203,7 +203,7 @@ In an interconnected system, with causal interdependencies over time, simulation
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session08/s08_facilitator/mtl_session08_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. | 
 
@@ -211,7 +211,7 @@ In an interconnected system, with causal interdependencies over time, simulation
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
 
 
 DO Demo
