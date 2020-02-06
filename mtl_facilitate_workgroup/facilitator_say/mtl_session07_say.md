@@ -14,9 +14,9 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md)
+     height = "175" width = "290">](#.)
 
-# [MTL Live Session 07](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md "MTL Live Session 07")
+# MTL Live Session 07
 
 
 # Today we're modeling to learn how to evaluate our Base Case of no new decisions.
@@ -25,17 +25,17 @@ output:
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:00-00:10 | **Review** progress to date and learning objectives for this session | **Practice describing specific learning/skills developed last session and confirm consensus on team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:00-00:10 | **Review** progress to date and learning objectives for this session | **Practice describing specific learning/skills developed last session and confirm consensus on team's highest priority need.**
 
 
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim. We used the question we entered during the previous session and added our own hypothesis about the Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run a "BC" simulation and review the impact of making no new decision on ___________ [the variables relevant to the team's question] in the _MTL_ sim UI Expanded Outputs section.| 
 
 
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "50" width = "50" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Learning Objectives:**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "50" width = "50" style ="display: inline-block"/>](#.) **Learning Objectives:**
 
 1. Describe the base case of no new decisions in your team. 
 
@@ -52,7 +52,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:10-00:20 | **Cue** up the team's question from Session 5 and hypothesis from Session 6 **Review** the team data that supports the team's questionand the systems story that supports the team's hypothesis | **Practice highlighting specific values from the Team Data table and variables from the complexity reveal (causal loop) that are guiding the in-session work to address the team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:10-00:20 | **Cue** up the team's question from Session 5 and hypothesis from Session 6 **Review** the team data that supports the team's questionand the systems story that supports the team's hypothesis | **Practice highlighting specific values from the Team Data table and variables from the complexity reveal (causal loop) that are guiding the in-session work to address the team's highest priority need.**
 
 **During the time it takes the team lead to start screen share and navigate to the sim, present the purpose of the exercise:**
 
@@ -60,11 +60,11 @@ The purpose for this activity is to test the hypothesis you developed in the las
 By the end, the team should be able to run an experiment in the SimUI, explore results, and be able to explain the systems causes that generated those results.
 "In the last session, you all created a question about your team's top improvement priority and the Systems Story that surrounds that issue.  Today we're going to make that story come alive -- we are going to run a simulation, and see the impact of these system causes over the next two years, as as function of our local capacities and constrains, as estimated with our local data.  The first step in learning from simulation is to run a base case or “status quo” simulation against which all future experiments will be compared.  Last time, you hypothesized that _____________ (include specific variables, loops, data)."
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#.)
 
 Now, in the window floating on the right side of the screen, **add** to the team's question about the Base Case in the *Our Question* text box. Here you'll briefly describe what your team wants to learn from this experiment of no new decisions. 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Example Question to add:** What happens to ______________ (from the team's priority) if we make no new decisions?
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Question to add:** What happens to ______________ (from the team's priority) if we make no new decisions?
 
 There is important research showing that is not likely to improve team decisions to click around and run experiments without stating what you expect will happen over the next two years when you hit run. 
 
@@ -72,14 +72,14 @@ In order to benefit from experiential simulation learning, you need to create a 
 
 4.	**Add** your hypothesis about the Base Case run results in the *Our Hypothesis* text box. Reference team data value relevant to the team's question. We want to be as specific as possible, and we have the question, hypothesis, findings and decisions boxes here, which the teams can use as a lab notebook to track their thinking. They can then save their work, so that they can efficiently pick up where they left off, which is critical when time for team huddles in the clinic is very tight. 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Example Hypotheses to add:** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Hypotheses to add:** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
 
 ### -- Module specific Hypotheses, Findings, and Decisions are incldued in a table below --
 
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:20-00:25 | **Run** a simulation and save results | **Ask the team lead to narrate this process.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:20-00:25 | **Run** a simulation and save results | **Ask the team lead to narrate this process.**
 
 Helpful tip: To run the Base Case, let’s first make sure that all the Experiment sliders are indeed set for the Base Case. When you look in the Experiments section, you should see that the box next to each slider says either zero or bc. If it says bc, it means the value the model will run is the number from the Team Data Table. A few sliders have a different setting. If you see a purple Sensitivity slider, it will start at a default value of 1, which is the mid-range, between no relationship between those two variables, and a very strong relationship. (And if there’s a Team Data vs Balanced switch, Balanced will be the default setting.)
 
@@ -104,7 +104,7 @@ The Save menu helps you enter a name for each run based on what sliders you move
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:25-00:40 | **Describe** findings/decisions and saving | **Practice describing specific output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:25-00:40 | **Describe** findings/decisions and saving | **Practice describing specific output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
 
 
 7.	Now let’s look at the Results. Notice that each chart has a title below it and a drop-down menu. You have a wide selection of variables to choose from to look at results. The units are shown inside the chart at the top left – usually Weeks, Patients, Appointments, or a Percent, or a rate like Patients per Week.
@@ -115,16 +115,16 @@ What do you notice about the results for ________ [relavant to the team's questi
 
 8.	Describe what you see in the *Our Findings* textbox, and explain why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)  
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Example Findings:** *Describe your team's findings, insights and conclusions from this experiment.*  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Findings:** *Describe your team's findings, insights and conclusions from this experiment.*  
 
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:40-00:50 | **Come to consensus** on the next experiment | **Practice guiding the team to the highest leverage experiments (changes that will impact the most patients) that represent actions they could take today.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:40-00:50 | **Come to consensus** on the next experiment | **Practice guiding the team to the highest leverage experiments (changes that will impact the most patients) that represent actions they could take today.**
 
 9.	Now that we have an experiment to compare against, what changes to your clinic do you want to try next? What is the first improvement idea you want to try as a team? Record this next step in the *Our Decisions* textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?) 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Example Decisions:** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Decisions:** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
 10.	Save and Reset when you’re ready, so we can start with a fresh experiment when we pick up next time.  
 
@@ -138,14 +138,14 @@ Today we entered our Question, Hypothesis, Findings and Decisions for our base c
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session07/s07_facilitator/mtl_session07_say.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Outputs and Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs and Text section to prepare for experiment 1. |
 
 ### DO Demo
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/> 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
 
 1. Log back into the SIM UI, choose "Team world," and "Join Current Experiment."
 
