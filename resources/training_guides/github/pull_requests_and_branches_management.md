@@ -104,7 +104,7 @@ Note: **DO NOT** edit in the branch you used to create the pull request once the
 
 ## Training Record:
 #### Practice
-- [ ] Exercise 1: Create your own branch in GitHub and create a file under the "training guides" folder. Create a pull request for this branch.
+- [ ] Exercise 1: Create your own branch in GitHub and create a file under the "training guides" folder. Include a YAML header in the file as well as some random bit of text. Create a pull request for this branch.
 Completed on: ________________ with _________________________ 
 
 - [ ] Exercise 2: Create a new branch in GitHub and delete the file you created in "Exercise 1". Create a pull request for this new branch.
