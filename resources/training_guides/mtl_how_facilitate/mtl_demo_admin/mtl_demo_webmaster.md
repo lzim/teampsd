@@ -72,7 +72,9 @@ Navigate to MTL Demo Administration Web Page and login.
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-3.png)
 WM1-3
 
-   b. The Export User Data section has a listing of all users who have signed up for a demo instance of the SIM UI.  The Sim UI demo give them a full representation of the Sim UI, but with a notional set of team data. The “usual” demo user has a 14-day expiration date.  However, a course code can be assigned to create a custom expiration date. More on the course code later.
+      b. The Export User Data section has a listing of all users who have signed up for a demo instance of the SIM UI.  The Sim UI demo give them a full representation of the Sim UI, but with a notional set of team data. The “usual” demo user has a 14-day expiration date.  However, a course code can be assigned to create a custom expiration date. More on the course code later.
+
+
 
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-4.png)
