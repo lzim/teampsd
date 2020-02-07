@@ -120,10 +120,10 @@ WM1-7
 4. **Demo Users Evaluation and Export**
 
 Demo users self-register and are given an access token with a 14-day expiration date.  Users with a Course Code are given a 90-day token.  
-   a. The length of “Remaining Days to Expired” of any user can be adjusted in this section; ** However, the field cannot be adjusted once it has passed the expiration date. **  
-   b. Any demo user with unexpired access can be assigned a course code. *A course code must be registered in the course_code.xlsx spreadsheet in the Dynamic Data folder in Epicenter.*  
-   c. A list of Demo users can be exported to a spreadsheet using the “Export” button.  
-   d. Any number of users can be selected and deleted from the record. 
+a. The length of “Remaining Days to Expired” of any user can be adjusted in this section; ** However, the field cannot be adjusted once it has passed the expiration date. **  
+b. Any demo user with unexpired access can be assigned a course code. *A course code must be registered in the course_code.xlsx spreadsheet in the Dynamic Data folder in Epicenter.*  
+c. A list of Demo users can be exported to a spreadsheet using the “Export” button.  
+d. Any number of users can be selected and deleted from the record. 
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-8.png) 
 WM1-8
@@ -131,11 +131,11 @@ WM1-8
 5. **Resource Management Section**
 
 The Resource Management Section contains all of the Demo site’s dynamic web contents, such as files, slides and graphics. Resources in the top 4 lines of the table are fixed resources and cannot be deleted or added onto. However, the text and associated links are editable.  
-   a.  How to add a link and link title to text.  
-      1. When the code reads the phrase “##Link1##” it will look for the first link in the Link column.  
-      2. It will use the first title associated in the Title column to display in the body of the text.  
-      3. When the user looks on the screen, they will see a blue text consistent with the title and execute the associated link.  
-      4. All text sections can accommodate up to 6 links and associated titles.
+a.  How to add a link and link title to text.  
+1. When the code reads the phrase “##Link1##” it will look for the first link in the Link column.  
+2. It will use the first title associated in the Title column to display in the body of the text.  
+3. When the user looks on the screen, they will see a blue text consistent with the title and execute the associated link.  
+4. All text sections can accommodate up to 6 links and associated titles.
       
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-9.png)
@@ -191,17 +191,16 @@ WM1-14
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-15.png) 
 WM1-15
 
-6.  **How to Add, Delete or Edit a Slider.**
+6.  **How to Add, Delete or Edit a Slider.**  
 
    a. To Add a slide, click the “Add Slide” button and a row will appear.  Add the name of the graphics file to be presented in the box.  Epicenter supports most graphics formats.
    
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-16.png)
 WM1-16
 
-6.  **How to Add, Delete or Edit a Slider.** - Continued
+6.  **How to Add, Delete or Edit a Slider.** - Continued  
 
-   b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.
-   
+   b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.   
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-17.png)
 WM1-17
