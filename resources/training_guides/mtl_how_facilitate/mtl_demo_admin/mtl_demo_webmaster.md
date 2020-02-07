@@ -131,7 +131,6 @@ WM1-8
 5. **Resource Management Section**
 
 The Resource Management Section contains all of the Demo site’s dynamic web contents, such as files, slides and graphics. Resources in the top 4 lines of the table are fixed resources and cannot be deleted or added onto. However, the text and associated links are editable. 
-
    a.  How to add a link and link title to text.
       1. When the code reads the phrase “##Link1##” it will look for the first link in the Link column. 
       2. It will use the first title associated in the Title column to display in the body of the text.
@@ -185,8 +184,9 @@ WM1-13
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-14.png) 
 WM1-14
 
-5. **Resource Management Section** - Continued  
-   5. Click the link field to enter the link associated with the text and the graphic.
+5. **Resource Management Section** - Continued
+
+      5. Click the link field to enter the link associated with the text and the graphic.
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-15.png) 
 WM1-15
