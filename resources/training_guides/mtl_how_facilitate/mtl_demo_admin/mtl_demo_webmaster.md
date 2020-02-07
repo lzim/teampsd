@@ -83,25 +83,27 @@ WM1-3
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-4.png)
 WM1-4
 
-   3. **Admin Web Page Orientation** - Continued
+3. **Admin Web Page Orientation** - Continued
    
    c. The Resource Management section enables the webmaster to change text, graphics and links on the Demo web page. It controls:
-
-      4 fixed elements of the Demo web page:
-      - Contact Us (for email address storage only)
-      - Demo Page (header)
-      - Modeling to Learn (Sub header)
-      - Modeling to Learn Dashboard (header on Admin page),
+   
+   4 fixed elements of the Demo web page:
+   - Contact Us (for email address storage only)
+   - Demo Page (header)
+   - Modeling to Learn (Sub header)
+   - Modeling to Learn Dashboard (header on Admin page),
+   
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-5.png)
  WM1-5
 
-3c. **Admin Web Page Orientation** - Continued  
-5 subsection elements that are infinitely expandable:
--	Run
--	Videos
--	Slides
--	Papers
--	Funding  
+3. **Admin Web Page Orientation** - Continued  
+
+   5 subsection elements that are infinitely expandable:
+   - Run
+   - Videos
+   - Slides
+   - Papers
+   - Funding  
   
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-6.png)
 WM1-6
