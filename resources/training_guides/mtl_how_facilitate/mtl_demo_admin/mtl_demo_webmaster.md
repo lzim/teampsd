@@ -119,7 +119,7 @@ WM1-7
 
 4. **Demo Users Evaluation and Export**
 Demo users self-register and are given an access token with a 14-day expiration date.  Users with a Course Code are given a 90-day token.  
-   a. The length of “Remaining Days to Expired” of any user can be adjusted in this section; ** However, the field cannot be adjusted once it has passed the expiration date. **  
+   a. The length of “Remaining Days to Expired” of any user can be adjusted in this section; *However, the field cannot be adjusted once it has passed the expiration date.*  
    b. Any demo user with unexpired access can be assigned a course code. *A course code must be registered in the course_code.xlsx spreadsheet in the Dynamic Data folder in Epicenter.*  
    c. A list of Demo users can be exported to a spreadsheet using the “Export” button.  
    d. Any number of users can be selected and deleted from the record. 
