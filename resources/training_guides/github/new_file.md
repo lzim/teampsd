@@ -42,6 +42,21 @@ This will give you a formatted version of the file using Markdown language inste
 ![](https://help.github.com/assets/images/help/repository/write-commit-message-quick-pull.png)
 
 7. Afterwards, before you hit "Commit" Make sure you are not commiting to directly to the master branch. **NEVER commit directly to the master branch**.
-If you have already created your own branch, commit it there, or follow the fialgous to create a new branch, using the changes you just made and hit "Propose new file".  
+If you have already created your own branch, commit it there, or follow the dialogue below to create a new branch, using the changes you just made and hit "Propose new file".  
 ![](https://help.github.com/assets/images/help/repository/choose-commit-branch.png)  
 ![](https://help.github.com/assets/images/help/repository/new-file-commit-button.png)  
+
+## Training Record:  
+#### Practice  
+- [ ] Exercise 1:  
+Completed on: ________________ with _________________________  
+
+- [ ] Exercise 2:   
+Completed on: ________________ with _________________________   
+
+#### Supervised   
+- [ ] Supervised 1:   
+Completed on: ________________ with _________________________   
+
+- [ ] Supervised 2:       
+Completed on: ________________ with _________________________   
