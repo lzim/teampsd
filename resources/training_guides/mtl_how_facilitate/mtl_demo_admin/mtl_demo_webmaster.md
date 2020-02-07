@@ -71,14 +71,12 @@ Navigate to MTL Demo Administration Web Page and login.
 
    a. The web page header contains information regarding the Resources Management Section and has specific instructions on how to use special characters for “boldface” and “italics.” These instructions are customizable. 
 
- 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-3.png)
 WM1-3  
 
 3. **Admin Web Page Orientation** - Continued
 
    b. The Export User Data section has a listing of all users who have signed up for a demo instance of the SIM UI.  The Sim UI demo give them a full representation of the Sim UI, but with a notional set of team data. The “usual” demo user has a 14-day expiration date.  However, a course code can be assigned to create a custom expiration date. More on the course code later.
-
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-4.png)
 WM1-4
@@ -134,8 +132,7 @@ The Resource Management Section contains all of the Demo site’s dynamic web co
       2. It will use the first title associated in the Title column to display in the body of the text.  
       3. When the user looks on the screen, they will see a blue text consistent with the title and execute the associated link.  
       4. All text sections can accommodate up to 6 links and associated titles.
-      
- 
+    
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-9.png)
 WM1-9  
 
@@ -144,7 +141,6 @@ WM1-9
    b. How to delete a section.  
       1. Select a section using the checkbox.  
       2.  Click “delete” button
-
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-10.png)
 WM1-10
@@ -155,8 +151,7 @@ WM1-10
    
       1. Select a section name from the drop down menu
 
- 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-11.png)
+ ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-11.png)
 WM1-11
 
 5. **Resource Management Section** - Continued
@@ -169,8 +164,6 @@ WM1-12
 5. **Resource Management Section** - Continued
 
       3. Click the text field to enter text. If you want links in the text, use the link procedure in paragraph 5 a. 
-
-
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-13.png) 
 WM1-13
