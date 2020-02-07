@@ -31,6 +31,12 @@ Upon completion of this module, the learner will be able to:
 
 ## Full Instructions
 1. **TeamPSD has 3 types of templates for cards**  
+
+The templates for these can all be found in the TeamPSD repository under:
+- For Issues & Features: [.github/ISSUE_TEMPLATE](https://github.com/lzim/teampsd/tree/master/.github/ISSUE_TEMPLATE)
+- For Manuscripts & Documents: [issue_templates](https://github.com/lzim/teampsd/tree/master/issue_templates)
+
+
 a) [Issues & Features](https://github.com/lzim/teampsd/blob/master/.github/ISSUE_TEMPLATE/issue.md)  
 This template is the default template when you go to "create a new issue" in [here](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue).  
 
