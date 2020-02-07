@@ -130,11 +130,11 @@ WM1-8
 
 5. **Resource Management Section**
 
-The Resource Management Section contains all of the Demo site’s dynamic web contents, such as files, slides and graphics. Resources in the top 4 lines of the table are fixed resources and cannot be deleted or added onto. However, the text and associated links are editable. 
-   a.  How to add a link and link title to text.
-      1. When the code reads the phrase “##Link1##” it will look for the first link in the Link column. 
-      2. It will use the first title associated in the Title column to display in the body of the text.
-      3. When the user looks on the screen, they will see a blue text consistent with the title and execute the associated link.
+The Resource Management Section contains all of the Demo site’s dynamic web contents, such as files, slides and graphics. Resources in the top 4 lines of the table are fixed resources and cannot be deleted or added onto. However, the text and associated links are editable.  
+   a.  How to add a link and link title to text.  
+      1. When the code reads the phrase “##Link1##” it will look for the first link in the Link column.  
+      2. It will use the first title associated in the Title column to display in the body of the text.  
+      3. When the user looks on the screen, they will see a blue text consistent with the title and execute the associated link.  
       4. All text sections can accommodate up to 6 links and associated titles.
       
  
