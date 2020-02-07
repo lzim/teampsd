@@ -12,9 +12,9 @@ output:
   powerpoint_presentation: default
 ---
 
-# Team PSD Webmaster 
+Team PSD Webmaster (first level header)
 
-## External links needed: 
+External links needed: (second level header)
 Epicenter Login
 https://forio.com/epicenter/sign-in
 
@@ -24,7 +24,7 @@ https://forio.com/app/va/va-psd-test-team/login.html
 Team PSD Web Page (TEST)
 https://forio.com/app/va/va-psd-test-team/teampsd.html
 
-## Training Assumptions: 
+Training Assumptions: (second level header)
 1. Learners have established a username and login with Forio Epicenter.
 2. Learners have logged in at least once and have bookmarked the login page in their browser (see External Links).
 3. Learners have successfully mastered Epicenter Administration Web Page Overview.
