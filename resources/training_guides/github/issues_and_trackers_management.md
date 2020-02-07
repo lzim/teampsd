@@ -21,17 +21,15 @@ output:
 4. https://github.com/lzim/teampsd/blob/master/issue_templates/mansucript_tracker/README.md
 
 ## Training Objectives:
-
-## Point of Contact: Stacey Park
-
-## Full Instructions
 Upon completion of this module, the learner will be able to:
 
 1. How to create a new issue for Issue & Feature trackers and understand how cards get advanced in the tracker.
 2. How to create new cards for the Document tracker and understand how cards are opened/closed in the tracker.
 3. How to create new cards in the Manuscript tracker and understand how cards are advanced in the tracker relative to the template.
 
+## Point of Contact: Stacey Park
 
+## Full Instructions
 1. **TeamPSD has 3 types of templates for cards**  
 a) [Issues & Features](https://github.com/lzim/teampsd/blob/master/.github/ISSUE_TEMPLATE/issue.md)  
 This template is the default template when you go to "create a new issue" in [here](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue).  
