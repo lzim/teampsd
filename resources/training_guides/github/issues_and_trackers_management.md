@@ -27,16 +27,19 @@ output:
 ## Full Instructions
 Upon completion of this module, the learner will be able to:
 
-1. How to create a new issue for Issue & Feature trackers
-2. How to create new cards for the Document & Manuscript trackers
+1. How to create a new issue for Issue & Feature trackers and understand how cards get advanced in the tracker.
+2. How to create new cards for the Document tracker and understand how cards are opened/closed in the tracker.
+3. How to create new cards in the Manuscript tracker and understand how cards are advanced in the tracker relative to the template.
 
-1. **How to Create a New Issue**
-For instructions click [here](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue)
 
-2. **TeamPSD has 3 types of templates**  
-
+1. **TeamPSD has 3 types of templates for cards**  
 a) [Issues & Features](https://github.com/lzim/teampsd/blob/master/.github/ISSUE_TEMPLATE/issue.md)  
-This template is the default template when you go to "create a new issue" in Step 1. We use this format only for items that are "issues" (products or functions that already exist but are broken) and "features" (products or functions that do not already exist and need to be scoped out).  
+This template is the default template when you go to "create a new issue" in [here](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue).  
+
+You can also navigate to this page by going to the Issues button at the top next to "Code". Click on "New Issue", then "Get Started".
+![](https://help.github.com/assets/images/help/repository/repo-tabs-issues.png)
+
+We use this pre-populated template only for items that are "issues" (products or functions that already exist but are broken) and "features" (products or functions that do not already exist and need to be scoped out).  
 
 Make sure to add:
 - **Projects** - Unless you create an issue specifically for the document or manuscript trackers, always assign the issue to "issue_tracker." In the "issue_tracker" this will automatically go to the "needs_triage" section. During the Monday Workgroup Leads meeting and Thursday Support Workgroups meeting, issues that are in that "needs_triage" column will be scoped and prioritized.  
@@ -46,19 +49,19 @@ Make sure to add:
 
 The team member working on the issue will later edit the bottom half of the issue to scope and cost the work.  
 
-**Cards using this template will go through either the issue_tracker (mtl.how/issues) or the feature_tracker (mtl.how/features) which have respective columns for ranking and prioritizing items and progressing them along the tracker as they get finished.**
+**Cards using this template will go through either the issue_tracker (https://mtl.how/issues) or the feature_tracker (https://mtl.how/features) which have respective columns for ranking and prioritizing items and progressing them along the tracker as they get finished.**
 
 b) [Documents](https://github.com/lzim/teampsd/blob/master/issue_templates/document_tracker.md)  
 This template is used in the document_tracker to track the steps needed to update documents across each of the 12 sessions of *Modeling to Learn* in the 5 columns of the document_tracker.  
 
-If this template needs to be used, go to "Step 1" to create a new issue, delete the template contents in the issue and copy + paste the documents template instead.
+If this template needs to be used, "create a new issue" [here](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), delete the template contents in the issue and copy + paste the documents template instead.
 
 Make sure to check off items as they get completed. No box should be left unchecked when the card is closed.
 
-**Cards using this template will go be placed in one of the 5 columns of the document tracker (mtl.how/documents). Document cards do not flow through the tracker. Rather they stay in their respective columns of the tracker at all times. They are opened or closed as changes made in the issue_tracker and feature_tracker create documentation dependencies.**
+**Cards using this template will go be placed in one of the 5 columns of the document tracker (https://mtl.how/documents). Document cards do not flow through the tracker. Rather they stay in their respective columns of the tracker at all times. They are opened or closed as changes made in the issue_tracker and feature_tracker create documentation dependencies.**
 
 c) [Manuscripts](https://github.com/lzim/teampsd/blob/master/issue_templates/mansucript_tracker/README.md)  
-This template is used when a new card needs to be created for a new manuscript. The naming convention for the card is "abbreviated-grant-name_abbreviated-paper-name_abbreviated-journal-name". For example, "r21_mm_gmb" would mean the paper is related to the R21 grant (r21), focused on the Medication Management module (mm), and will be submitted to the Journal of the American Medical Association (jama). Once the OSF project is created for this manuscript, the link to the project is added in the title as well.
+This template is used when a new card needs to be created for a new manuscript associated with a project in [OSF](https://mtl.how/osf). The naming convention for the card is "abbreviated-grant-name_abbreviated-paper-name_abbreviated-journal-name". For example, "r21_mm_gmb" would mean the paper is related to the R21 grant (r21), focused on the Medication Management module (mm), and will be submitted to the Journal of the American Medical Association (jama). Once the OSF project is created for this manuscript, the link to the project is added to the end as well.
 
 If this template needs to be used, go to "Step 1" to create a new issue, delete the template contents in the issue and copy + paste the manuscript template instead.
 
@@ -68,16 +71,10 @@ You will notice that the sections of the issue match the columns of the manuscri
 
 ## Training Record:
 #### Practice
-###
-- [ ] Exercise 1: Create an issue using the Issue Template about a real potential issue that could occur across TeamPSD:
- 1. Assign all fellow trainees to the issue
- 2. Pick labels that you think are appropriate to the Issue you describe and be ready to explain why you chose these labels.
- 3. Assign to the ro1_launch milestone.
- 
+- [ ] Exercise 1: Create a potentially realistic issue using the Issue Template. Make sure to complete all of the right hand side items of the issue based on the issue content you creatd. Be ready to explain your rationale of which labels, assignees, etc. you chose based on the issue you created.  
 Completed on: ________________ with _________________________ 
 
-- [ ] Exercise 2: Find an open issue in the issue_tracker or feature_tracker. Think about all the potential documentation dependencies it may have across the document_tracker. List below the related document_tracker cards that this issue may need to be considered for.
-
+- [ ] Exercise 2: Create a new dummy card in the manuscript tracker. Make sure to follow each part of the template. You can look to other cards already created to make sure yours is correct. (For the OSF link, just use "mtl.how/osf").
 Completed on: ________________ with _________________________  
 
 #### Supervised 
