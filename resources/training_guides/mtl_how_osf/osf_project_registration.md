@@ -1,7 +1,7 @@
 ---
 title: "Training Guide: OSF Project Registration"
 author: "Team PSD"
-date: "edited by JL 2020_02_07)"
+date: "edited by JL 2020_02_07"
 output: 
   github_document: default
   html_document: default
