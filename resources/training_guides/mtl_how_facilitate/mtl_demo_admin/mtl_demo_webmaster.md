@@ -120,7 +120,7 @@ WM1-7
 4. **Demo Users Evaluation and Export**
 
 Demo users self-register and are given an access token with a 14-day expiration date.  Users with a Course Code are given a 90-day token.  
-a. The length of “Remaining Days to Expired” of any user can be adjusted in this section; ** However, the field cannot be adjusted once it has passed the expiration date. **  
+   a. The length of “Remaining Days to Expired” of any user can be adjusted in this section; ** However, the field cannot be adjusted once it has passed the expiration date. **  
 b. Any demo user with unexpired access can be assigned a course code. *A course code must be registered in the course_code.xlsx spreadsheet in the Dynamic Data folder in Epicenter.*  
 c. A list of Demo users can be exported to a spreadsheet using the “Export” button.  
 d. Any number of users can be selected and deleted from the record. 
@@ -131,7 +131,7 @@ WM1-8
 5. **Resource Management Section**
 
 The Resource Management Section contains all of the Demo site’s dynamic web contents, such as files, slides and graphics. Resources in the top 4 lines of the table are fixed resources and cannot be deleted or added onto. However, the text and associated links are editable.  
-a.  How to add a link and link title to text.  
+   a.  How to add a link and link title to text.  
 1. When the code reads the phrase “##Link1##” it will look for the first link in the Link column.  
 2. It will use the first title associated in the Title column to display in the body of the text.  
 3. When the user looks on the screen, they will see a blue text consistent with the title and execute the associated link.  
