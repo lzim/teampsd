@@ -1,4 +1,28 @@
-## Training Guide: OSF Project (Grant) Registration
+---
+title: "Training Guide: OSF Project Registration"
+author: "Team PSD"
+date: "edited by JL 2020_02_07)"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
+
+# Training Guide: OSF Project (Grant) Registration
+
+
+## External links needed:
+1. Will update
+2.
+3.
+
+## Point of Contact: Jennifer Li (HQ Workgroup)
+
+## Instructions
 
 ### Prior to registering a project:
 -	Know what type of registration form do you need? where are you now with your project?
@@ -55,3 +79,6 @@
 -	View-only links allow for embargoed registrations to be seen by to share the private contents with non-contributors
 -	anonymized view-only link can hide contributor names on the registration's "Overview" page and in the "Recent Activity" section 
 -	Must have admin privileges to create view-only links
+
+## Quick Checklist:
+#### Common Mistakes:
