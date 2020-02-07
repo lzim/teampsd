@@ -38,11 +38,11 @@ output:
 
 **3.	The *Modeling to Learn* SPReferrals tab allows your team to:**
   
-  a.	Select clinics that your team refers to for suicide prevention
+  a.	Select clinics that your team refers to or receives referrals from
   
   b.	Select evidence-based care strategies linked to suicide prevention
   
-  c.	Select General Mental Health and Primary Care clinics for referral
+  c.	Select patients who need specialty mental health care
   
   d.	Select clinics that your team refers to for medication management
 
@@ -52,11 +52,11 @@ output:
   
   b.	A table of descriptive team data
   
-  c.	An Excel file with parameters and variables 
+  c.	An Excel file with parameters and definitions 
   
   d.	All of the above
 
-**5.	The team data UI Excel file contains tabs with titles:**
+**5.	The team data Excel file contains tabs with titles:**
   
   a.	CCParams, MMParams, PSYParams, AggParams, SPParams, and DataNotes
   
@@ -64,11 +64,11 @@ output:
   
   c.	Specific Station names included in the VISN data 
   
-  d.	Care Coordination, Medication Mgmt, Psychotherapy, and Suicide Prevention
+  d.	Care Coordination, Medication Management, Psychotherapy, and Suicide Prevention
 
 **6.	The ClinicSelection tab allows the user to:**
   
-  a.	Select clinics only in the user’s VISN 
+  a.	Select only clinics in the user’s VISN 
   
   b.	Select only clinics in which the user sees patients
   
@@ -106,7 +106,7 @@ output:
   
   d.	24 months
 
-**10.	The PARAMS tabs in the data UI, contain:**
+**10.	The PARAMS tabs in the data UI contain:**
   
   a.	Calculated statistics for the team’s past 2 years
   
