@@ -39,7 +39,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 1. Describe your team trends over the last two years based on the estimates in the team data table.
 
-2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions. 
+2. Test your understanding of how team parameters are estimated through review of the descriptions and definitions. 
 
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
@@ -72,16 +72,16 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
    + Care Coordination (CC) - tab title *CCParams*
    + Medication Management (MM) - tab title *MMParams*
    + Psychotherapy (PSY) - tab title *PSYParams*
-   + Aggregate team services (AGG) - tab title *AggParams*
+   + Aggregate mix of services (AGG) - tab title *AggParams*
    + Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
 
 - We have already produced a team data table for you, but to do it yourself:
 	- Select a set of clinics in **ClinicSelection tab** similar to what you did last session. In the future, you can pull up the same clinics used last time for creating the team data table by clicking on the gray "Get previous clinic list from Create Team Data Table for Sim UI file" button (Box B4) to add them column A.
-	- Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to for the Suicide Prevention module. The data pull will track patients stepped up/down between your team's clinics and the ones you select below. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab. 
-	- Click on the module drop-down. You can choose any of the modules individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps with the **SPReferrals tab**.
-	- Click on "create Team Data Table for Sim UI"
+	- Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab. 
+	- Click on the module drop-down. You can choose any module individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps using the **SPReferrals tab**.
+	- Click on "create Team Data Table for Sim UI".
 	- If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
-	- The file you generate will have all five module tabs and labels, but will produce "zeroes/0" as values for parameters of the modules that **were not** selected.
+	- The file you generate will have all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
 - Navigate back to your team folder at mtl.how/data. Click on the "team_data_sim_ui" folder and open the Excel file to find the team data table already produced for you.
  
 ### 3. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
