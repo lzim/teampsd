@@ -190,14 +190,12 @@ WM1-14
 WM1-15
 
 6.  **How to Add, Delete or Edit a Slider.**  
-
    a. To Add a slide, click the “Add Slide” button and a row will appear.  Add the name of the graphics file to be presented in the box.  Epicenter supports most graphics formats.
    
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-16.png)
 WM1-16
 
 6.  **How to Add, Delete or Edit a Slider.** - Continued  
-
    b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.   
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-17.png)
