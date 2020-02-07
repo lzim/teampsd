@@ -1,5 +1,5 @@
 ---
-title: "Issues"
+title: "Issues and Trackers Management"
 author: "Team PSD"
 date: "SP 2020_01_30"
 output: 
@@ -12,7 +12,7 @@ output:
   powerpoint_presentation: default
 ---
 
-# Insert Title Here
+# Issues and Trackers Management
 
 ## External links needed:
 1. https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue
