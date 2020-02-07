@@ -70,11 +70,9 @@ Navigate to MTL Demo Administration Web Page and login.
 
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-3.png)
-WM1-3
+WM1-3  
 
-      b. The Export User Data section has a listing of all users who have signed up for a demo instance of the SIM UI.  The Sim UI demo give them a full representation of the Sim UI, but with a notional set of team data. The “usual” demo user has a 14-day expiration date.  However, a course code can be assigned to create a custom expiration date. More on the course code later.
-
-
+   b. The Export User Data section has a listing of all users who have signed up for a demo instance of the SIM UI.  The Sim UI demo give them a full representation of the Sim UI, but with a notional set of team data. The “usual” demo user has a 14-day expiration date.  However, a course code can be assigned to create a custom expiration date. More on the course code later.
 
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-4.png)
@@ -128,11 +126,12 @@ The Resource Management Section contains all of the Demo site’s dynamic web co
       
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-9.png)
-WM1-9
+WM1-9  
 
-   b. How to delete a section.
-      1. Select a section using the checkbox.
-	2.  Click “delete” button
+   5. **Resource Management Section** - Continued  
+      b. How to delete a section.  
+         1. Select a section using the checkbox.  
+         2.  Click “delete” button
 
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-10.png)
