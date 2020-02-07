@@ -53,12 +53,15 @@ Upon completion of this module, the learner will be able to:
 
 ## Full Instructions 
 
-1.  **Navigate to VA MTL Demo – TEST Instance in Epicenter.** Before you can gain access to the MTL DEMO Admin Page, you have to set yourself up as a facilitator in the Epicenter VA MTL DEMO – TEST instance. Inside the instance, there is a group called team_mtl_demo-jan-2019. Navigate to the group and set yourself up as a facilitator.     
+1.  **Navigate to VA MTL Demo – TEST Instance in Epicenter.**
+
+Before you can gain access to the MTL DEMO Admin Page, you have to set yourself up as a facilitator in the Epicenter VA MTL DEMO – TEST instance. Inside the instance, there is a group called team_mtl_demo-jan-2019. Navigate to the group and set yourself up as a facilitator.     
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-1.png)
 WM1-1
 
 2.  **Login to Admin Web Page**
+
 Navigate to MTL Demo Administration Web Page and login.
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-2.png)
@@ -72,22 +75,27 @@ Navigate to MTL Demo Administration Web Page and login.
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-3.png)
 WM1-3  
 
+3. **Admin Web Page Orientation** - Continued
+
    b. The Export User Data section has a listing of all users who have signed up for a demo instance of the SIM UI.  The Sim UI demo give them a full representation of the Sim UI, but with a notional set of team data. The “usual” demo user has a 14-day expiration date.  However, a course code can be assigned to create a custom expiration date. More on the course code later.
 
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-4.png)
 WM1-4
 
+   3. **Admin Web Page Orientation** - Continued
+   
    c. The Resource Management section enables the webmaster to change text, graphics and links on the Demo web page. It controls:
 
-4 fixed elements of the Demo web page:
-   - Contact Us (for email address storage only)
-   - Demo Page (header)
-   - Modeling to Learn (Sub header)
-   - Modeling to Learn Dashboard (header on Admin page),
+      4 fixed elements of the Demo web page:
+      - Contact Us (for email address storage only)
+      - Demo Page (header)
+      - Modeling to Learn (Sub header)
+      - Modeling to Learn Dashboard (header on Admin page),
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-5.png)
  WM1-5
 
+3c. **Admin Web Page Orientation** - Continued  
 5 subsection elements that are infinitely expandable:
 -	Run
 -	Videos
@@ -98,6 +106,7 @@ WM1-4
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-6.png)
 WM1-6
 
+  3. **Admin Web Page Orientation** - Continued  
   d. The MTL Demo – Slider section allows you to add, delete or edit the name of a slider graphics file. 
 
 *Note: The .gif is the standard motion file for Team PSD, because it is the only motion file accepted by GitHub. Furthermore, due to file size limitations in GitHub, the .gif can only be about 14 seconds long with a standard resolution screen cast.* 
@@ -138,6 +147,7 @@ WM1-9
 WM1-10
 
 
+  5. **Resource Management Section** - Continued  
   c. How to add a section with a clickable graphic. *Note: In sections with graphics, both the graphic and a link embedded within the text will execute the link.*
       1. Select a section name from the drop down menu
 
@@ -145,34 +155,39 @@ WM1-10
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-11.png)
 WM1-11
 
-2. Click the graphic to edit the name. *Be sure to click the checkbox before clicking away, otherwise the name edit will not save.*
+5. **Resource Management Section** - c Continued  
+   2. Click the graphic to edit the name. *Be sure to click the checkbox before clicking away, otherwise the name edit will not save.*
  
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-12.png)
 WM1-12
 
-3. Click the text field to enter text. If you want links in the text, use the link procedure in paragraph 5 a. 
+5. **Resource Management Section** - Continued  
+   3. Click the text field to enter text. If you want links in the text, use the link procedure in paragraph 5 a. 
 
 
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-13.png) 
 WM1-13
       
-4. Click the link title field to enter the title of your link embedded in text.
+5. **Resource Management Section** - Continued  
+   4. Click the link title field to enter the title of your link embedded in text.
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-14.png) 
 WM1-14
 
-5. Click the link field to enter the link associated with the text and the graphic.
+5. **Resource Management Section** - Continued  
+   5. Click the link field to enter the link associated with the text and the graphic.
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-15.png) 
 WM1-15
 
 6.  **How to Add, Delete or Edit a Slider.**
-  a. To Add a slide, click the “Add Slide” button and a row will appear.  Add the name of the graphics file to be presented in the box.  Epicenter supports most graphics formats. 
+      a. To Add a slide, click the “Add Slide” button and a row will appear.  Add the name of the graphics file to be presented in the box.  Epicenter supports most graphics formats. 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-16.png) 
 WM1-16
 
-  b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.
+  6.  **How to Add, Delete or Edit a Slider.** - Continued  
+        b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-17.png) 
 WM1-17
