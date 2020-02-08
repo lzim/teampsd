@@ -34,9 +34,7 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 ### After this session, you will be able to:
 
 1. Describe the decisions your team made in producing your team data table.
-
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
-
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 
@@ -67,7 +65,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 
-### 1. Using Internet Explorer browser, navigate to mtl.how/data.  
+### 1. Using an Internet Explorer browser, navigate to mtl.how/data.  
 
 - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
 
@@ -76,13 +74,13 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
 - On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
-    + A web version of Excel will open on your screen, showing charts from your facility's data.  
+    + A web version of Excel will open on your screen, showing your facility's data in charts.  
 
-### 2. This splashpage is designed so see trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL sharepoint splash page:  
+### 2. This splashpage is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
 
-- There are two sets scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls within the graphs on the page.
+- There are two sets of scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls through the graphs on the page.
 
-#### There are three types View options on the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what they each display?
+#### There are three types View options in the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
 
 View | Displays 
 -- | --
@@ -95,17 +93,17 @@ Viz | Visualization of trends over time.
 
 Rank | Data | Displays 
 -- | -- | --
-___ | Diag | Primary diagnoses only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have on primary diagnosis. For more detail, open up the data UI).
+___ | Diag | Primary diagnoses only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have on primary diagnosis. For more detail, open up the data UI.)
 ___ | Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
-___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags
+___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
 
 #### To sum up, there are three ways to view each set of data:  
 1. **Counts per month:** countDiag, countEnc, countHF, and countMeas;  
 2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas 
 3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas. 
          
-  + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data. Use the Refresh Data command to update the report.* Click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
+  + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data*, use the Refresh Data command to update the report and click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:20-00:25___
 
@@ -123,13 +121,13 @@ Keep an eye on time |  |  |
    
 Rank | viz Options |  |  
 -- | -- | -- | 
-___ | *vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient).*
+___ | *vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient.)*
 ___ | *vizEnc* | See trends in what services the facility/team is spending their time providing.*
 ___ | *vizHF* | See trends in what specifics the facility/team's patients are getting in their encounters (in vis, this is a very long list.)
 ___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*   
- ___ |*dataDiag* | can be sorted by primary diagnosis type based on icd10 code, to see more detail on what happens in any one diagnosis type*
- ___ |*dataHF* | can be sorted by health factor type, to see more detail on what happens in any one health factor type .*
- ___ |*dataMeas* | can be sorted by measurement type, to see more detail on what happens in any one measurement type.*
+ ___ |*dataDiag* | can be sorted by primary diagnosis type based on ICD-10 code to see more detail on what happens in any one diagnosis type*
+ ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
+ ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
 
 ## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
@@ -148,11 +146,11 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   
 - Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
 
-- Follow the instructions in **Box A2.**  
+- Follow the instructions in **Box A2**. 
   
 - After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Box B6) to add them to column A.  
  
-- In the future, if you want to quickly get the same list of clinics again, you can click on the gray "Get previous clinic list form last click of Get Patient-level Data" button (Box B3) to add them column A.
+- In the future, if you want to quickly get the same list of clinics again, you can click on the gray "Get previous clinic list from last click of Get Patient-level Data" button (Box B3) to add them to column A.
 
 ### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." 
 
@@ -229,13 +227,13 @@ Keep an eye on time |  |  |
 2. Go to mtl.how/data and open the team data in Excel.  
 
 While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the SharePoint-based splashpage:
-  + You can create a set of clinics (grids) that exactly represent your individual team
-  + All the patient-level data are identified (you can see their names)
-  + You can create the parameters used by the simulation tool (really what all these data are for!)
+  + You can select a set of clinics (grids) that exactly represent your individual team.
+  + All the patient-level data are identified with patient names.
+  + You can create the parameters used by the simulation user interface.
 
 3. Review your individual patient data and identify team trends:
  + Health Factors (HF)  
- + Diagnostic (Diag)  
+ + Diagnoses (Diag)  
  + Encounters (Enc), and   
  + Suicide Prevention (SP)  
 

@@ -53,15 +53,16 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 
 ## In-session Exercise (30 minutes): Team vision
 
-+ We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with “Modeling to Learn.” This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
++ We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with *Modeling to Learn*. This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
 
- + Identifying a shared purpose can be deeply motivating. We want to identify a shared purpose about what we are trying to achieve as a team participating in Modeling to Learn. The team learning goal provides the focus and energy for committing to learning together over time. We have limited time, we want to identify what is most central to team learning goals and connect this to daily team care delivery.
+ + Identifying a shared purpose can be deeply motivating. We want to identify a shared purpose about what we are trying to achieve as a team participating in *Modeling to Learn*. The team learning goal provides the focus and energy for committing to learning together over the coming weeks. We have limited time, so we want to identify what is most central to team learning goals and connect this to daily team care delivery.
 
-+ Team learning is all about ‘alignment’ and getting people working in synch with one another to meet the needs of our Veteran patients. We will explore “What is” (retrospective data) and vision forward to “what we would like it to be” (future oriented). 
++ Team learning is all about ‘alignment’ and getting people working in sync with one another to meet the needs of our Veteran patients. We will explore “what is” (retrospective data) and vision forward to “what we would like it to be” (future-oriented). 
 
-+ The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What’s can be done better?” in a way that reflects common team aspirations. 
++ The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What can be done better?” in a way that reflects common team aspirations. 
 
 ### 1. Prior Team Learning Prompt (5 minutes)
+
 a. First, we want to set ground rules for our learning sessions. Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an “aha!” Something finally made sense, or you could finally do something you couldn’t before.
 
 b. Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list.
@@ -89,7 +90,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 + Think about your Personal Vision for your team:  
 
   a. What is team communication like?  
-  b. How does the team relate to one another?  
+  b. How do team members relate to one another?  
   c. How is VA data used?  
   d. How are decisions, plans and changes made?  
   
@@ -108,7 +109,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 + Putting it all together, overall *Modeling to Learn* objectives include activities and competencies that:  
 
   a. Are meaningful for you and align your learning goals with your team.  
-  b. Develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.  
+  b. Develop systems thinking skills that help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.  
   c. Make VA data, initiatives and standards transparent to you.  
   d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
 
@@ -116,10 +117,10 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 ### 6. Select the Team Vision  
 
-+ To wrap up, let's hone in on our Team Vision  
++ To wrap up, let's home in on our Team Vision  
 
-  a. You can further wordsmith the Team Vision after the session if you want.  
-  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the MTL program.  
+  a. You can further word-smith the Team Vision after the session if you want.  
+  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.  
 
 
 ### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
@@ -135,17 +136,17 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 1. We will help the team decide on a Team Lead and standing meeting time over the next week or two. The role of the Team Lead is to:
 
- + be the main point of contact between the team and *Modeling to Learn* facilitators;
+ + be the main point of contact between the team and *Modeling to Learn* co-facilitators;
 
- + help with scheduling MTL-related team meetings;
+ + help with scheduling *MTL*-related team meetings;
   
  + become familiar with *MTL* resources and help team members trouble-shoot - mainly mtl.how/live (Adobe Connect, used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
 
- + provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under facilitators' guidance.  
+ + provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
 
 2. Ideal characteristics of the Team Lead include
 
- + Having strong relationships with fellow clinic team members;
+ + Having strong relationships with fellow team members;
 
  + Being organized;
 
@@ -162,7 +163,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
  + Clinic schedules; and
  
  + Clinicians' availability.
-
-4. All team members will receive a post-session email the week after each session from the _Modeling to Learn_ staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
+ 
+4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
 ## Until next time, thank you for _Modeling to Learn_!
