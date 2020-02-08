@@ -34,9 +34,7 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 ### After this session, you will be able to:
 
 1. Describe the decisions your team made in producing your team data table.
-
-2. Test out your expectations against team historical trends displayed in the "viz" tabs.
-
+2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 
