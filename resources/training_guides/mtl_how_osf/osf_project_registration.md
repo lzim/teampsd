@@ -90,5 +90,5 @@ output:
 
 ## Quick Checklist:
 #### Common Mistakes:
-- Choosing the wrong registration form
+- [Choosing the wrong registration form] (https://github.com/lzim/teampsd/blob/osf_project_registration_jl_01_28_2020/resources/training_guides/mtl_how_osf/osf_project_registration.md#prior-to-registering-a-project)
 - Relying on OSF's Auto-Save funtion
