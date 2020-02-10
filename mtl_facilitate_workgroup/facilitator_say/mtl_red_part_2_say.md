@@ -86,23 +86,10 @@ Hello! I'm __________ and I'm __________.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We examined team parameters fo CC, MM, PSY, AGG, and SP. !|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and consider its implications for team decisions. !|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We examined team parameters fo CC, MM, PSY, AGG, and SP.|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and consider its implications for team decisions.|
 
 ### DO demo
 
-1. We encourage you to look around in your team data before next time.   
-
-2. Go to mtl.how/data and open the team data in Excel.  
-
-While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI over the SharePoint-based splashpage:
-  + You can select a set of clinics (grids) that exactly represent your individual team.
-  + All the patient-level data are identified with patient names.
-  + You can create parameters that represent averages or medians for the team over the past two years.
-
-3. Review your individual patient data and identify team trends:
- + Health Factors (HF)  
- + Diagnoses (Diag)  
- + Encounters (Enc), and   
- + Suicide Prevention (SP)  
+We encourage you to look around in the team data table before next time. Test whether you can find a piece of data you decide to look for. Just take a minute, if you can, to become familiar with the format and content of the data table. Remember, you can click through the Params tabs, 1 for each module, to dig into the details of how each parameter is calculated in the text columns to the right of the numerical data. 
 
 ## Until next time, thank you for _Modeling to Learn_!
