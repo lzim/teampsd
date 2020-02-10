@@ -142,11 +142,11 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
   
-- **Prior to today's session, __________________ [Team Lead's name] worked with us to build an initial team dataset.
+- **Prior to today's session, __________________ [Team Lead's name] worked with us to build an initial team dataset.**
   
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**
   
-- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
+- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
 - We will look at the **"Create Team Data Table for Sim UI"** button and its associated tab **"SPReferrals"** next time.
 
@@ -157,13 +157,13 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 - You can further drill up/down in the "viz" tabs by right clicking on any cell and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
-- **What stands out to you about ________________________________**[fill-in team vision]**?  
+- **What stands out to you about ________________________________**[fill in team vision]**?  
   
-- **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
-    [Prepare in advance, but ask this as an open-ended quesiton]?  
+- **What is most important to you to check out first related to  ________________________________**[fill in team vision]?
+    [Prepare in advance, but ask this as an open-ended quesiton.]  
   
 - **What is most surprising?**  
-    [Prepare in advance, but ask this as an open-ended quesiton]?  
+    [Prepare in advance, but ask this as an open-ended quesiton.]  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
