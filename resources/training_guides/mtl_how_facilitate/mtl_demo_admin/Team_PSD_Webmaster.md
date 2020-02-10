@@ -125,9 +125,7 @@ WM2-10
 
 3. **Admin Web Page Orientation** - Continued
 
-   d. The Team PSD – Slider section allows you to add, delete or edit the name of a slider graphics file, change its sequence and adjust the delay time between slides.
-   
-   *Note: The sliders are provided by James Rollins using Adobe Illustrator and are provided in a .png format. Currently, there are no dynamics in the Admin panel to adjust the content of the slides.*
+   d. The Team PSD – Slider section allows you to add, delete or edit the name of a slider graphics file, change its sequence and adjust the delay time between slides. *Note: The sliders are provided by James Rollins using Adobe Illustrator and are provided in a .png format. Currently, there are no dynamics in the Admin panel to adjust the content of the slides.*
 
 This section:
  
@@ -202,12 +200,10 @@ WM2-17
 
 6. **How to Add, Delete or Edit a Slider**
 
- 
+   a. To Add a slide, click the “Add Slide” button and a row will appear. Add the name of the graphics file to be presented in the box.  Epicenter supports most graphics formats.  
+   b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.  
+   
 WM2-17
-
-   a. To Add a slide, click the “Add Slide” button and a row will appear. Add the name of the graphics file to be presented in the box.  Epicenter supports most graphics formats. 
-
-   b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.
 
 ## Quick Checklist:
 
