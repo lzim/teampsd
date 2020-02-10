@@ -1,6 +1,6 @@
 ---
-title: "*Modeling to Learn-Data* Accreditation Master Brochure"
-date: "18 November 2019"
+title: "*Modeling to Learn Red, Part 1* Accreditation Master Brochure"
+date: "18 November 2019, edited by JB 6 Jan 2020"
 output: 
   github_document: default
   html_document: default
@@ -14,7 +14,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 
-## Title: *Modeling to Learn Red*
+## Title: *Modeling to Learn Red, Part 1*
 
 ## Client Program Office: National Center for PTSD, Training and Dissemination Division
 
@@ -22,11 +22,11 @@ output:
 
 ## Purpose Statement:  
 
-The purpose of this course is to empower local clinic staff to use real-time clinic data **(and a customized system modeling tool ot make decisions that)** to optimize their delivery of timely, evidence-based psychotherapies and pharmacotherapies (EBPs).
+The purpose of this course is to empower local clinic staff to use real-time clinic data to optimize their delivery of timely, evidence-based psychotherapies and pharmacotherapies (EBPs).
 
 Over the past decade, Veterans Health Administration has invested in the dissemination of EBPs in the outpatient mental health system based on substantial evidence of EBP effectiveness as compared to usual care.1-3 EBPs are high-value treatments that meet veterans’ mental health care needs and can reduce chronic impairment and prevent suicide and overdose.4-9 Despite their demonstrated effectiveness, however, access to EBPs is not always timely and the reach of EBPs for common and costly high-risk conditions like PTSD, depression and opioid use disorder often are low (3% - 28%).10-12 For these reasons, the Veterans Administration prioritizes high-value quality improvement initiatives to increase timely Veteran access to effective mental health care.
 
-Modeling to Learn provides an interactive tool for visualizing *hyper-local,* real-time team data **(and simulating the effects of team decisions on EBP reach)**. Through a series of remotely facilitated workshops, front line staff **(use this tool to build systems thinking capcity; increase their understanding of interrlated factors affecting team outcomes - including decisions within their control; conduct virtual experiments to test the effects of various team decisions on multiple desired outcomes; and make)** *view current data and local trends over the past two years and apply this information to* team decisions to optimize EBP reach within exising resource constraints.
+Modeling to Learn provides an interactive tool for visualizing *hyper-local,* real-time team data. Through a series of remotely facilitated workshops, front line staff *view current data and local trends over the past two years and apply this information to* team decisions to optimize EBP reach within exising resource constraints.
 
 ## Target Audience: 
 
@@ -52,12 +52,11 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the decisions your team made in producing your team data table.
+1.	Describe the criteria determined to build your team in the *MTL* Data User Interface.
 
-2.	Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+2.	Test your expectations about team historical trends against actual results in the "data", "viz" and "count" tabs.
 
-3.	*Apply your clinical expertise to make individual and team decisions in response to findings from the MTL Data UI.*
-**(Apply your clinicial expertise to identify new information about a team patient in the "data" tabs.)**
+3.	Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
 
 ## Pre-Test: No
 
@@ -82,9 +81,9 @@ NYSED
 
 | Time | Agenda Item | Who | Type |
 |:-----------	|:---------------|:----------------|:-----------------------|
-| 15 Minutes | Done and Do | Facilitator | Interactive participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
-| 30 Minutes | Team Activity on *Local Data Trends* **(Shared Vision)** | Facilitator | Interactive: participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
-| 15 Minutes | Done and Do | Facilitator | Interactive - participant-controlled, *data table and trend review* **(computer-based modeling)**; learner polls, small group discussions, Q and A sessions |
+| 15 Minutes | Done and Do | Facilitator | Interactive participant-controlled, data table and trend review; learner polls, small group discussions, Q and A sessions |
+| 30 Minutes | Team Activity on Local Data Trends | Facilitator | Interactive: participant-controlled, data table and trend review; learner polls, small group discussions, Q and A sessions |
+| 15 Minutes | Done and Do | Facilitator | Interactive - participant-controlled, data table and trend review; learner polls, small group discussions, Q and A sessions |
 
 ## Faculty and Planning Committee Listing: (Lindsey/Stacey to provide contacts to Elizabeth)
 
