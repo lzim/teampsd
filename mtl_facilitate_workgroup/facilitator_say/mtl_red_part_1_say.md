@@ -13,54 +13,38 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
      height = "175" width = "290">  
 
-# [MTL Live Session 02](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
+# [MTL Red Part 1](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
 
-Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide for Session 2 at mtl.how, we see that 
-### Today we're modeling to learn how to check our patient data and team trends.
+Hello! I'm __________ and I'm __________.
+### Today we're modeling to learn from patient data and team trends.
 
-## Done and Do
+## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
-| --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of ___________; selected our Team Lead __________; and set a standing team meeting time at __________. We logged in to mtl.how/data to look at the splash page.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_ relevant to our Team Vision. |  
-
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Do** |
+| --- | --- |  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the splash page. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data.|  
+ 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) 
 
 ## Learning Objectives
-### After this session, you will be able to:
 
-1. Describe the decisions your team made in producing your team data table.
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
+1.	Describe the criteria determined to build your team in the *MTL* Data User Interface.
 
+2.	Test your expectations about team historical trends against actual results in the "data", "viz" and "count" tabs.
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:10___
+3.	Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
 
-## In-Session Exercise
+# In-session Exercise (30 minutes)
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
-
-## Participatory Learning from Simulation
-This graphic illustrates how **_Modeling to Learn_** can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
-- We use the data user interface (UI) to look back at team trends over the past two years.
-- We review the last two years of data to see *what is* in our team now. 
-- Backward looking data review is limited for guiding effective change.
-- Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it. 
-- It is also really demotivating to see trends we don't like, and not know what is causing the problem.
-- We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
-- Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.
-
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Let's get started! 
-
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:20___
 
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
@@ -73,14 +57,14 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
-- On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
+- On the landing page, select your VISN. On the next page, select your team's facility.  
     + A web version of Excel will open on your screen, showing your facility's data in charts.  
 
-### 2. This splashpage is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
+### 2. This splash page is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
 
 - There are two sets of scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls through the graphs on the page.
 
-#### There are three types View options in the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
+#### There are three types of View options in the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
 
 View | Displays 
 -- | --
@@ -212,7 +196,7 @@ Keep an eye on time |  |  |
 - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
 
 
-### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
+### That's it for *Modeling to Learn* from patient data and team trends. Next is our Done/Do review. 
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -226,10 +210,10 @@ Keep an eye on time |  |  |
 
 2. Go to mtl.how/data and open the team data in Excel.  
 
-While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the SharePoint-based splashpage:
+While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI over the SharePoint-based splashpage:
   + You can select a set of clinics (grids) that exactly represent your individual team.
   + All the patient-level data are identified with patient names.
-  + You can create the parameters used by the simulation user interface.
+  + You can create parameters that represent averages or medians for the team over the past two years.
 
 3. Review your individual patient data and identify team trends:
  + Health Factors (HF)  
