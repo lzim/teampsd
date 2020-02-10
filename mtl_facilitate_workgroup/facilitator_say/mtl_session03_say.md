@@ -51,13 +51,13 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 ## In-session Exercise (30 minutes): Team data for simulation
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-### 1. Navigate to the data UI at mtl.how/data. 
+### Navigate to the data UI at mtl.how/data. 
 - Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer.
 
 - You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.  
 - Scroll down to your team folder. You should have two folders: data_ui and team_data_sim_ui. Click on the "data_ui" folder and open the Excel file. 
 
-### 2. Clicking the "Get Team Data Table for Sim UI" button produces a table of descriptive team data.
+### Clicking the "Get Team Data Table for Sim UI" button produces a table of descriptive team data.
 
 #### You already have a fresh Team Data Table for Sim UI file to work with in the team_data_sim_ui folder.
 - It takes some time to generate a team data table for all modules using your team's data.
@@ -84,7 +84,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 	- The file you generate will have all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
 - Navigate back to your team folder at mtl.how/data. Click on the "team_data_sim_ui" folder and open the Excel file to find the team data table already produced for you.
  
-### 3. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
+### 1. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
 [Choose a module]  
 
    + *CCParams*: Key variables of interest in CC may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.  
@@ -106,7 +106,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 	This column [highlight column] gives the description or definition of the variable. 
 	This column [highlight column] contains additional details about how individual patient data are extracted and used to calculate your team’s historical trends.  
 
-### 4. Let’s select a second module for review.
+### 2. Let’s select a second module for review.
 
 - Check out the last 2 columns, to the right of the numerical data.  
 	This column [highlight column] gives the description or definition of the variable.  
@@ -117,17 +117,17 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 -  Where can you find even more detailed information about your team data?  
     + You can click on the “DataNotes” tab for a breakdown of how the patient cohort is defined, which CPT codes are used to define each service, and the patient engagement patterns (for the Psychotherapy module).  
 
-### 5. Are there any team data table values you would like to explore in the team data UI?
+### 3. Are there any team data table values you would like to explore in the team data UI?
 
 -  Which ones? Open the data UI to examine your question.  
 
-### 6. Do you see any team data values that differ a lot from what you would expect?
+### 4. Do you see any team data values that differ a lot from what you would expect?
 
 - If so, what is it surprising? 
 
 - Does the estimation definition help you to interpret the variable value?  
 
-### 7. Do you see any team data values that confirm your thoughts about high priority team needs?
+### 5. Do you see any team data values that confirm your thoughts about high priority team needs?
 
 - What are you noticing? 
 
