@@ -69,7 +69,7 @@ Navigate to MTL Demo Administration Web Page and login.
 
 3. **Admin Web Page Orientation**
 
-   a. The web page header contains information regarding the Resources Management Section and has specific instructions on how to use special characters for “boldface” and “italics.” These instructions are customizable. 
+   a. The Web Page Header contains information regarding the Resources Management Section and has specific instructions on how to use special characters for “boldface” and “italics.” These instructions are customizable. 
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-3.png)
 WM1-3  
@@ -108,9 +108,7 @@ WM1-6
 
 3. **Admin Web Page Orientation** - Continued
 
-   d. The MTL Demo – Slider section allows you to add, delete or edit the name of a slider graphics file. 
-
-*Note: The .gif is the standard motion file for Team PSD, because it is the only motion file accepted by GitHub. Furthermore, due to file size limitations in GitHub, the .gif can only be about 14 seconds long with a standard resolution screen cast.* 
+   d. The MTL Demo – Slider section allows you to add, delete or edit the name of a slider graphics file. *Note: The .gif is the standard motion file for Team PSD, because it is the only motion file accepted by GitHub. Furthermore, due to file size limitations in GitHub, the .gif can only be about 14 seconds long with a standard resolution screen cast.* 
 
 ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM1-7.png) 
 WM1-7
