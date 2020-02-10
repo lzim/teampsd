@@ -10,21 +10,17 @@ slidy_presentation: default
 pdf_document: default
 ---
 
-<!--MTL Logo -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_testdontguess_sm.png"
-     height = "130" width = "500">  
 
 # FACILITATOR MANUAL
-
 
 
 # Table of Contents
 
 ## Preface
-    Introduction <teampsd/facilitation_guide/manual_intro.rmd> 
-    Acknowledgments <teampsd/facilitation_guide/manual_acknowledgments.rmd>
+    Introduction <teampsd/facilitation_guide/manual_intro.rm> 
+    Acknowledgments <teampsd/facilitation_guide/manual_acknowledgments.rm>
 
-## Course Guidance <teampsd/facilitation_guide/manual_courseguidance.rmd>
+## Course Guidance <teampsd/facilitation_guide/manual_courseguidance.rm>
     
     Staffing and Roles
     -Pre-meeting emails
@@ -70,6 +66,6 @@ pdf_document: default
 
 ## Appendices
     Appendix A. Icon Glossary
-    Appendix B. Terms and Acronyms <teampsd/facilitation_guide/manual_termsandacronyms.rmd>
+    Appendix B. Terms and Acronyms <teampsd/facilitation_guide/manual_termsandacronyms.rm>
     Appendix C. Using the Data Interface in SharePoint
-    Appendix D. Using the Model Interface in Forio <teampsd/facilitation_guide/manual_usingsimui.rmd>
+    Appendix D. Using the Model Interface in Forio <teampsd/facilitation_guide/manual_usingsimui.rm>
