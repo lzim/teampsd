@@ -18,7 +18,7 @@ output:
 Epicenter Login
 https://forio.com/epicenter/sign-in
 
-MTL Demo Administration Web Pate (TEST)Login
+MTL Demo Administration Web Pate (TEST) Login
 https://forio.com/app/va/va-psd-test-demo/login.html
 
 MTL Demo Web Page (TEST)
@@ -205,8 +205,8 @@ _There is no checklist provided for this module._
 
 2. There are many errors associated with graphics files:
 
-- The graphics file has the wrong extension in the name.  For example, the name says samplefile.jpg, when it is really samplefile.png. 
-- The Admin did not upload the graphics file into the correct directory on Epicenter.
+   - The graphics file has the wrong extension in the name.  For example, the name says samplefile.jpg, when it is really samplefile.png. 
+   - The Admin did not upload the graphics file into the correct directory on Epicenter.
 3. Admins will attempt to add more days to a demo account after the account has expired.
 4. Admins will forget to update the course code in the course_code.xlsx spreadsheet.
 5. Admins will incorrectly enter the course code in the course_code.xlsx spreadsheet. 
