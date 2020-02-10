@@ -62,7 +62,7 @@ Upon completion of this module, the learner will be able to:
 Before you can gain access to the Team PSD Admin Page, you have to set yourself up as a facilitator in the Epicenter VA TEAM PSD – TEST instance. Inside the instance, there is a group called team_psd_may-2019. Navigate to the group and set yourself up as a facilitator.
     
  
- 
+![]((https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-1.png) 
 WM2-1
 
 2. **Login to Admin Web Page**
