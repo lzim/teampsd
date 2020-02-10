@@ -33,7 +33,7 @@ output:
 ## Instructions
 
 ### Prior to registering a project:
--	Know what type of registration form do you need? where are you now with your project?
+-	Know what type of registration form you need? Where are you now with your project?
     - [(1) Understanding Registration Forms](https://help.osf.io/hc/en-us/articles/360019738794-Understand-Registration-Forms), you can also click on the (i) icon during registration process for the same information found here
 -	Are you waiting for something on your project? Embargo or publicize immediately? 
     -	OSF can leave the registration in embargo for up to 4 years
@@ -47,7 +47,7 @@ output:
 
 ## Creating a Registration
 ### [(2) Register Your Project](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
--	Must know what type of [(1) Registration Forms](https://help.osf.io/hc/en-us/articles/360019738794-Understand-Registration-Forms) registration form you need
+-	Must know what type of [(1) Registration Forms](https://help.osf.io/hc/en-us/articles/360019738794-Understand-Registration-Forms) registration form you need prior to starting
 -	Most common registration type is: OSF Preregistration and Open-Ended Registration
 -	Follow Steps 1-7 in [(2) Register Your Project](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project). Step 7 will send an email to the admins to accept or cancel the registration. 
 
@@ -90,5 +90,5 @@ output:
 
 ## Quick Checklist:
 #### Common Mistakes:
-- [Choosing the wrong registration form] (https://github.com/lzim/teampsd/blob/osf_project_registration_jl_01_28_2020/resources/training_guides/mtl_how_osf/osf_project_registration.md#prior-to-registering-a-project)
-- Relying on OSF's Auto-Save funtion
+- [Choosing the wrong registration form](https://github.com/lzim/teampsd/blob/osf_project_registration_jl_01_28_2020/resources/training_guides/mtl_how_osf/osf_project_registration.md#prior-to-registering-a-project)
+- [Relying on OSF's Auto-Save funtion](https://github.com/lzim/teampsd/blob/osf_project_registration_jl_01_28_2020/resources/training_guides/mtl_how_osf/osf_project_registration.md#5-edit-a-draft-registration)
