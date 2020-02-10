@@ -203,7 +203,7 @@ WM2-17
    a. To Add a slide, click the “Add Slide” button and a row will appear. Add the name of the graphics file to be presented in the box.  Epicenter supports most graphics formats.  
    b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.  
    
-WM2-17
+WM2-18
 
 ## Quick Checklist:
 
