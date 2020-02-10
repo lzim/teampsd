@@ -62,7 +62,8 @@ output:
 -	Despite the OSF guide saying that draft forms are auto-saved, be sure to check when the draft was last auto saved
     - Even if it says ‘a few seconds ago’, it will **not ALWAYS** mean that it will save the edits/changes you made
     - Instead, click on ‘Review’ to review the edits you made, then ‘<-- Back’ before exiting out of your draft
-  ![image](https://user-images.githubusercontent.com/59668647/73768669-4468ad80-472e-11ea-8f02-1e483ca4cc73.png)
+ ![OSF REVIEW BUTTON FOR SAVE FEAUTURE](https://user-images.githubusercontent.com/59668647/74198956-aab26c00-4c17-11ea-9818-74e86ff7db23.PNG)
+
     
 ## Managing Registration Guides
 
