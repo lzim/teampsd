@@ -47,7 +47,7 @@ output:
 
 ## Creating a Registration
 ### [(2) Register Your Project](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
--	Must know what type of [(1) Registration Forms](https://help.osf.io/hc/en-us/articles/360019738794-Understand-Registration-Forms) registration form you need prior to starting
+-	Must know what type of [(1) Registration Form](https://help.osf.io/hc/en-us/articles/360019738794-Understand-Registration-Forms) you need prior to starting
 -	Most common registration type is: OSF Preregistration and Open-Ended Registration
 -	Follow Steps 1-7 in [(2) Register Your Project](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project). Step 7 will send an email to the admins to accept or cancel the registration. 
 
