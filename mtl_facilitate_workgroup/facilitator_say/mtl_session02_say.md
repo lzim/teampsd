@@ -54,7 +54,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it. 
 - It is also really demotivating to see trends we don't like, and not know what is causing the problem.
 - We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 - Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.
 
 
