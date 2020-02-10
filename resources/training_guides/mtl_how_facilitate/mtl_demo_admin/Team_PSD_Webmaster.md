@@ -60,10 +60,8 @@ Upon completion of this module, the learner will be able to:
 1. **Navigate to VA Team PSD – TEST Instance in Epicenter.**
 
 Before you can gain access to the Team PSD Admin Page, you have to set yourself up as a facilitator in the Epicenter VA TEAM PSD – TEST instance. Inside the instance, there is a group called team_psd_may-2019. Navigate to the group and set yourself up as a facilitator.
-    
  
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-1.png)  
-
+ ![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-1.png)  
 WM2-1
 
 2. **Login to Admin Web Page**
@@ -71,17 +69,14 @@ WM2-1
 Navigate to Team PSD Administration Web Page and login.  
 https://forio.com/app/va/va-psd-test-team/login.html
 
-
- 
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-2.png)  
 WM2-2
 
 3. **Admin Web Page Orientation**
 
    a. The Web Page Header contains information regarding the Sections and has specific instructions on how to use special characters for “boldface” and “italics.” These instructions are customizable. 
 
- 
-
-
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-3.png) 
 WM2-3
 
 3. **Admin Web Page Orientation** - Continued
@@ -90,22 +85,22 @@ WM2-3
 
 This section:
  
- 
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-6.png)  
 WM2-6
 
 Provides content for this part of the web page,
  
-
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-7.png) 
 WM2-7
 
 and this section:
  
-
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-8.png) 
 WM2-8
 
 Provides content for the header in the Admin Panel shown below.
 
- 
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-3.png) 
 WM2-3  
 
 3. **Admin Web Page Orientation** - Continued
@@ -114,14 +109,12 @@ WM2-3
 
 This section provides the sequence, photo file name, text and photo frame color:
 
- 
-  WM2-9
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-9.png) 
+WM2-9
 
 For this part of the web page shown below.
 
-  
-
-
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-10.png) 
 WM2-10
 
 3. **Admin Web Page Orientation** - Continued
@@ -130,20 +123,21 @@ WM2-10
 
 This section:
  
-
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-11.png) 
 WM2-11
 
 Provides content for the section of the webpage shown below:
 
 
  
-
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-12.png) 
 WM2-12
 
 4. **Resource Management Section**
 
 The Resource Management Section contains the web site’s dynamic section contents, such as icon graphics, text, hypertext and links.
- 
+
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-13.png)  
 WM2-13
 
 4. **Resource Management Section** - Continued
@@ -173,28 +167,28 @@ WM2-13
       1. Select the workgroup from the drop-down menu.
       2. Click “Add Member.”
 
- 
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-14.png)  
 WM2-14
 
 5. **How to Add, Delete or Edit a Biography**- Continued
 
       3. The Admin page will add a new empty section. Click the Empty to begin adding content to the columns. *Note: Uploading portraits is tricky, as there isn’t a utility to size, crop or center the photo. If you don’t have a graphics program, try sizing photo to 150x150 dpi. Be sure to add your photo to the Dynamic Data folder and that the names are the same. Otherwise, the web page will not be able to find the file in the Dynamic Data folder.*
 
- 
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-15.png)  
 WM2-15
 
 5. **How to Add, Delete or Edit a Biography** - Continued
 
    b. To delete a member, click on the checkbox associated with the row and click “Delete” button.
 
- 
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-16.png)  
 WM2-16
 
 5. **How to Add, Delete or Edit a Biography** - Continued
 
    c. To edit a member, click on the associated item in the column you wish to edit. A window to edit will appear. *Be sure to click the checkbox before clicking away, otherwise the name edit will not save.*
 
- 
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-17.png) 
 WM2-17
 
     
@@ -204,6 +198,7 @@ WM2-17
    a. To Add a slide, click the “Add Slide” button and a row will appear. Add the name of the graphics file to be presented in the box.  Epicenter supports most graphics formats.  
    b. To delete one or more slides, click the checkboxes associated with the slide and then click the “Delete” button.  
    
+![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/WM2-18.png)    
 WM2-18
 
 ## Quick Checklist:
