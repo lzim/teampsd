@@ -17,32 +17,43 @@ pdf_document: default
 # Table of Contents
 
 ## Preface
-    Introduction - what it is, who it's for, where it came from, purpose, goals, guiding principles
-    Acknowledgments - key individuals, VA offices, funding
-
-## Course Guidance <teampsd/facilitation_guide/manual_courseguidance.rm>
     
-    Staffing and Roles - this list needs overhaul
-    -Pre-meeting emails
-    -Pre-meeting checklist
-    -During-meeting checklist
-    -Post-meeting debrief
-    -Post-meeting emails
+    Introduction
+    - What it is
+    - Who it's for
+    - Where it came from
+    - Purpose
+    - Goals
+    - Guiding principles
+    
+    Acknowledgments
+    - VA offices and key individuals
+    - Partners
+    - Funding
+    - Intellectual sources 
+
+## Course Guidance
+    
+    Staffing and Roles
+    - HQ
+    - Team PSD
+    - Facilitators
+    - Participating teams' leadership
     
        
     Technology and Mechanics
-    -How to phone in to VANTS line; troubleshooting
-    -How to login to AdobeConnect; troubleshooting
-    -How to login to DataUI; troubleshooting
-    -How to login to SimUI; troubleshooting
+    - How to phone in to VANTS line; troubleshooting
+    - How to login to AdobeConnect; troubleshooting
+    - How to login to DataUI; troubleshooting
+    - How to login to SimUI; troubleshooting
     
-    Course Schedule (pre-prep, overview of 12-session plan, objectives for Partner/Build/Apply, session outline)
+    Facilitation
+    - Schedule (pre-prep, overview of 12-session plan, objectives for Partner/Build/Apply, session outline)
+    - Session Guides (See, Say, Checklist, fidelity - where/how to use these documents)
+    - Fidelity
+    - Continuing Education Credits - requirements, CEU/session/discipline, template for EES to build brochures, troubleshooting
+    - Communications (pre/post emails, TeamTime reports, co-fac communications, TeamPSD communications)
     
-    Session Guides (See, Say, Checklist, fidelity - where/how to use these documents)
-    
-    Continuing Education Credits - requirements, CEU/session/discipline, template for EES to build brochures, troubleshooting
-    
-    Communications
 
 ## Session Guides - wow, this is way out of date! :)
     Session 1. Our Vision
