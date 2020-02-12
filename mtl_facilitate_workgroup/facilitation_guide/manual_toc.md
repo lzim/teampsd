@@ -17,36 +17,34 @@ pdf_document: default
 # Table of Contents
 
 ## Preface
-    Introduction <teampsd/facilitation_guide/manual_intro.rm> 
-    Acknowledgments <teampsd/facilitation_guide/manual_acknowledgments.rm>
+    Introduction - what it is, who it's for, where it came from, purpose, goals, guiding principles
+    Acknowledgments - key individuals, VA offices, funding
 
 ## Course Guidance <teampsd/facilitation_guide/manual_courseguidance.rm>
     
-    Staffing and Roles
+    Staffing and Roles - this list needs overhaul
     -Pre-meeting emails
     -Pre-meeting checklist
     -During-meeting checklist
     -Post-meeting debrief
     -Post-meeting emails
     
-    Target Audience
-    -Team rosters: Names, Emails, Team and Individual Log-ins and Passwords, Discipline, who the Team Lead is
-    
+       
     Technology and Mechanics
     -How to phone in to VANTS line; troubleshooting
     -How to login to AdobeConnect; troubleshooting
     -How to login to DataUI; troubleshooting
     -How to login to SimUI; troubleshooting
     
-    Course Schedule
+    Course Schedule (pre-prep, overview of 12-session plan, objectives for Partner/Build/Apply, session outline)
     
-    Session Guides
+    Session Guides (See, Say, Checklist, fidelity - where/how to use these documents)
     
-    Continuing Education Credits
+    Continuing Education Credits - requirements, CEU/session/discipline, template for EES to build brochures, troubleshooting
     
     Communications
 
-## Session Guides
+## Session Guides - wow, this is way out of date! :)
     Session 1. Our Vision
     Session 2. Our Data
     Session 3. Our Systems
