@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1"
 author: "Team PSD"
-date: "September 2018 Edited by Rita 24 January 2020"
+date: "Edited By Anthony Pichardo February 5,2020 | September 2018 Edited by Rita 24 January 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,10 +13,10 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#DontLink)
 
-# [MTL Live Session 01](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session01_see.Rmd "MTL Live Session 01")
+# MTL Live Session 01
 
 ## Today we're modeling to learn how to align our team vision.
 
@@ -30,14 +30,14 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 
 ## Do and Done (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
 
 ### By the end of this session you will be able to:
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
 ## Learning Objectives
 
@@ -113,7 +113,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
   c. Make VA data, initiatives and standards transparent to you.  
   d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ### 6. Select the Team Vision  
 
@@ -128,7 +128,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 ## Done/Do (15 minutes)  
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a team lead and email Team PSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. | 
 
