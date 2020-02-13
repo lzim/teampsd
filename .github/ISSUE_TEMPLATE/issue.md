@@ -12,12 +12,11 @@ assignees: ''
 
 << Paste screenshots here>>
  
-**2. Click on the right:**
-a. **Projects** - assign to **issue_tracker.**
-b. **Assignee** - assign relevant team members.
-c. **Labels**- review and select all potential _MTL_ dependencies.
-d. **Milestones** - select the dependent milestone.
-
+**2. Click on the right:**  
+a. **Projects** - assign to **issue_tracker.**  
+b. **Assignee** - assign relevant team members.  
+c. **Labels**- review and select labels to indicate the responsible workgroup and all potential dependencies 
+d. **Milestones** - select the dependent milestone.  
 
 -----------------------------------------------------------------------------------------
 **Workgroups leads**
