@@ -8,7 +8,7 @@ assignee: ''
 ---
 
 **1. Add description:** 
-
+*Description should link to dependencies at the top level. If there is a dependent issue for this work to begin it should be linked as well as if there's an issue that is dependent on this issue it should be linked.*
 
 << Paste screenshots here>>
  
