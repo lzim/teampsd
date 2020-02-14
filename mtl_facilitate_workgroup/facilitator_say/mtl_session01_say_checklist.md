@@ -16,7 +16,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">  
 
-# MTL Live Session 07 Facilitator Checklist
+# MTL Live Session 01 Facilitator Checklist
 (https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session01_see.Rmd "MTL Live Session 01")
 
 ## Today we're modeling to learn how to align our team vision.
