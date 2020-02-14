@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "February 5,2020 Edited by Anthony | Edited by Rita 24 January 2020 | Aug 2019"
+date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | Edited by Rita 24 January 2020 | Aug 2019"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -40,7 +40,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)  
 
-a) In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what is* in our team now. For example, we saw that ___________________ 
+a) In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what IS* in our team now. For example, we saw that ___________________ 
 
 b) Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.   
 
@@ -56,9 +56,9 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
 
 ## 1. Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
-a. In session 3, we showed how we used "Get Team Data Table for Sim UI" in the data user interface to produce our team data for simulation. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.
+a. In session 3, we showed how we used "Get Team Data Table" button in the data user interface to produce our team data for simulation. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.
 
-b. Navigate to the team_data_sim_ui folder and click the "..." so you can copy the filename of your team data for the sim UI.
+b. Navigate to the team_data_sim_ui folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.
 
 ## 2. Go to the sim UI and upload the data file [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
@@ -68,13 +68,13 @@ b. Enter your login credentials - username is your VA email address and password
 
 c. Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!
 
-d. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that there the sim UI may look different on different devices, but all the same functionality is still there.
+d. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.
 
 ## 3. Let's explore what's on the Home page [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
 a. At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).
 
-b. Scanning across that row you see your Team name followed by five navigation icons: Home, Play, Chat, Help, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).
+b. Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).
    
 c. Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.
   
