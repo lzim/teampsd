@@ -15,7 +15,8 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">  
 
-# [*MTL* Live Session 12](https://github.com/lzim/mtl/edit/master/session12/s12_learner/mtl_session12_see.md "MTL Live Session 12")
+
+# MTL Live Session 12 Facilitator Say Checklist
 
 # Today we're modeling to learn how to make _future_ team decisions.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to make future team decisions.
