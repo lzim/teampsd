@@ -16,7 +16,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](#DontClick)    
 
-# MTL Live Session 06
+# MTL Live Session 06 Facilitator Checklist
 
 ## Today we're modeling to learn how to tell a systems story.
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to tell a systems story.

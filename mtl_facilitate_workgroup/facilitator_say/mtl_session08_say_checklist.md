@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 8 - Facilitator Say"
 author: "Team PSD"
-date: "Edited September 19, 2019 by LZ, Edited by Rita 24 January 2020"
+date: "Edited by Rita 24 January 2020, Edited by DK 14 February 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -16,7 +16,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](#.)  
 
-# MTL Live Session 08
+# MTL Live Session 08 Facilitator Checklist
 
 # Today we're modeling to learn how to test a dynamic hypothesis.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to test a dynamic hypothesis.
@@ -28,7 +28,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Emphasize team priority with the learning objectives on the screen
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:05-00:10** 
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#.) **Learning Objectives for Session 8**
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#.) 
+## Learning Objectives for Session 8
 
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
 

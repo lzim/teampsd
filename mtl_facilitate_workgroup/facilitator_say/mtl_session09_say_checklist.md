@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "September 30, 2019 - edited by LZ, Edited by Rita 24 January 2020, Edited by Anthony 5 February 2020"
+date: "Edited by Anthony 5 February 2020, Edited by DK 14 Feb 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -16,7 +16,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](#DontClick)  
 
-# MTL Live Session 09
+# MTL Live Session 09 Facilitator Say Checklist
 
 # Today we're modeling to learn how to compare alternatives.  
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to compare alternatives.  
