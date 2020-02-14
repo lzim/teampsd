@@ -2,8 +2,8 @@
 name: Issue
 about: Create a new issue.
 title: 'Deadline + Product: Short description (ex. 8/12 AGG: Missing feedback loop)'
-labels: ''
-assignees: ''
+label: ''
+assignee: ''
 
 ---
 
@@ -15,7 +15,7 @@ assignees: ''
 **2. Click on the right:**  
 a. **Projects** - assign to **issue_tracker.**  
 b. **Assignee** - assign relevant team members.  
-c. **Labels**- review and select labels to indicate the responsible workgroup and all potential dependencies 
+c. **Label**- review and select label to indicate the responsible workgroup
 d. **Milestones** - select the dependent milestone.  
 
 -----------------------------------------------------------------------------------------
