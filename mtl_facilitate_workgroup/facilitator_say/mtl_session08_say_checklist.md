@@ -16,7 +16,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](#.)  
 
-# MTL Live Session 08
+# MTL Live Session 08 Facilitator Checklist
 
 # Today we're modeling to learn how to test a dynamic hypothesis.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to test a dynamic hypothesis.
