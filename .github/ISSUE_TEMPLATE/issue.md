@@ -14,7 +14,7 @@ assignee: ''
  
 **2. Click on the right:**  
 a. **Projects** - assign to **issue_tracker.**  
-b. **Assignee** - assign relevant team members.  
+b. **Assignee** - assign the team member producing work for the issue.  
 c. **Label**- review and select label to indicate the responsible workgroup
 d. **Milestones** - select the dependent milestone.  
 
