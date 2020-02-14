@@ -16,7 +16,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](#DontClick)  
 
-# MTL Live Session 09
+# MTL Live Session 09 Facilitator Say Checklist
 
 # Today we're modeling to learn how to compare alternatives.  
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to compare alternatives.  
