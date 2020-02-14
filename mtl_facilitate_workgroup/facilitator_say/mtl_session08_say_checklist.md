@@ -28,7 +28,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Emphasize team priority with the learning objectives on the screen
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:05-00:10** 
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#.) **Learning Objectives for Session 8**
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#.) 
+## Learning Objectives for Session 8
 
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
 
