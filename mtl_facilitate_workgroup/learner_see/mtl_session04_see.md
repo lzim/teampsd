@@ -56,7 +56,7 @@ These are the *MTL* available modules
 - Care Coordination (CC)
 - Medication Management (MM)
 - Psychotherapy (PSY)
-- Aggregrate team services (AGG)
+- Aggregate team services (AGG)
 - Measurement-based stepped care and suicide prevention (SP)
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
