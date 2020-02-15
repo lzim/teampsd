@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Facilitator Say"
 author: "Edited TR"
-date: "RH Oct 18 2019 Edited by Rita 24 January 2020"
+date: "RH Oct 18 2019 Edited by Rita 24 January 2020 Ed Jane 14Feb20"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -31,7 +31,7 @@ Time Stamp | Prioritize tailored team learning | Script
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim. We used the question we entered during the previous session and added our own hypothesis about the Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run a "BC" simulation and review the impact of making no new decision on ___________ [the variables relevant to the team's question] in the _MTL_ sim UI Expanded Outputs section.| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim. We used the question we entered during the previous session and added our own hypothesis about the Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run a "BC" simulation and review the impact of making no new decisions on ___________ [the variables relevant to the team's question] in the _MTL_ sim UI Outputs section.| 
 
 
 <!-- Learning Objectives Icon --> 
@@ -52,7 +52,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:10-00:20 | **Cue** up the team's question from Session 5 and hypothesis from Session 6 **Review** the team data that supports the team's questionand the systems story that supports the team's hypothesis | **Practice highlighting specific values from the Team Data table and variables from the complexity reveal (causal loop) that are guiding the in-session work to address the team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:10-00:20 | **Cue** up the team's question from Session 5 and hypothesis from Session 6 **Review** the team data that supports the team's question and the systems story that supports the team's hypothesis. | **Practice highlighting specific values from the Team Data table and variables from the complexity reveal (causal loop) that are guiding the in-session work to address the team's highest priority need.**
 
 **During the time it takes the team lead to start screen share and navigate to the sim, present the purpose of the exercise:**
 
