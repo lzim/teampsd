@@ -48,20 +48,25 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## In-session Exercise (30 minutes): Comparing experiments 1 and 2
 
-**1. Review Past Experiment**
+**Review Past Experiment**
 
-  + We're going to pull up experiment 1. To do this, let's log in to the team world at mtl.how/sim.  Type in your name and password, then hit “Join Current Session.” Pull up past experiments and text by clicking on the blue “Output” header, and then the “Expand” icon in the upper middle.  Scroll down, and click on the drop down list under “Select Experiment” in the “Control Panel.”  Select your base case experiment for Alternative 1, and your previous experiment for Alternative 2.  
+1. Log in to your team world at mtl.how/sim.
 
-  + Looking at the charts here in the Expanded Outputs section, ask “What did we learn last time?”  *If the team needs prompting, then ask them to click on the question mark that is just above the drop-down list and read out their Question, Hypothesis, Findings, and Decisions from their last experiment.*  
+2. Now is a time you can review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
-**2.  Plan for Experiment 2**  
+3. You can also review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
+
+4. Click to Join Current Session.
+
+5. To refresh your memory and pick up where we left off last time, select the experiment from the last session and check the box to include the text. Review those text fields and the charts. What did we learn last time?
+
+**Plan for Experiment 2**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
-  + Before we run Experiment 2, our team needs to discuss “What new decisions do we want to test this week?”  
-     + We need to minimize the Expanded Outputs by clicking on the “box” in the upper right corner of the window, so we can see both the model and type text into the *Our Question* and the *Our Hypothesis* boxes.  
-    
-  + Ask the team enter and revise the "d" decision for Experiment 2 (decided in session 8) into the *Our Question* box. The question should clearly state a directional change in at least one variable over time. Ideally, the qustion will be framed as a comparison. For example, "As compared to Experiment 1 and the base case, what will happen over the next two years if we decide to..."
+6. To think further about what to test next and a hypothesis about the outcomes, minimize the Outputs and Text section so you can see both that and the model diagram. Study the systems story in the model diagram, and the data in the team data table. Decide together what change you want to experiment with that might give your team the desired result.
+
+7. To create a new run, building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now. You can cut the text from the Our Decisions and move it to Our Question. Delete text in Our Findings. Now edit the team's question. It should clearly state a specific directional change in at least one variable over time. Ideally, the qustion will be framed as a comparison. For example, "As compared to Experiment 1 and the base case, could we increase/decrease ... over the next two years if we decide to..."
   
      + **CC**: As compared to Experiment 1 and the base case, what will happen to the Starting Rate and New Patient Wait Time over the next two years, if we lengthen our team's average Return to Clinic Visit Interval (RVI), in units of weeks, by a certain amount?  
 
@@ -76,12 +81,10 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-  + Research into experiential learning with simulation has shown that it is more impactful if the group “stakes a claim” before seeing the results of a possible future scenario.  
-     + Ask, “What do you think the effects will be of simulating these new decisions?  How much better or worse will things get in our team over the next two years?”  Encourage the team to be specific about the **variables,** **specific values**, and to consider their decisions and the likely impact over time using the **causal systems story.**
-     + **Reveal complexities in the model diagram** to support the team telling the systems story supporting the causal relationship between the new decisions and the expected **system behavior over time.** Ask the team why this will happen. The hypotheses must track the effects of a **new decision** through the causal story of the **system problem,** following the causal arrows in the model diagram.  
+Now enter the team's hypothesis about the results. As we've discussed, research into experiential learning with simulation has shown that it is more impactful if the group “stakes a claim” before seeing the results of a scenario.  
+     + Ask, “What do you think the effects will be of simulating these new decisions?  How much better or worse will things get in the team over the next two years?”  Encourage the team to be specific about the **variables,** **specific values**, and to consider their decisions and the likely impact over time using the **causal systems story.**
+     + **Reveal complexities in the model diagram** to support the team telling the systems story supporting the causal relationship between the new decisions and the expected **system behavior over time.** Ask the team why this will happen. The hypothesis must track the effects of a **new decision** through the causal story of the **system problem,** following the causal arrows in the model diagram.  
   + Example: Reducing the Missed Appointment % will cause the amount of rework to decrease, and the total number of appointments on the calendar will drop.  This will free up provider time, and allow more hours to go toward starting new patients.  This in turn will add more patients to the team, and eventually the team will fill up all the extra slots, and the start rate will balance out at a new, but higher, rate than before.  
-  
-     + Move the Text Section with the Question and Hypothesis text to the **right,** in order to reveal the **causal system story.** _As you review the model diagram_, type the expected causal impacts of these new decision (variables and value adjustments) into the “Our Hypothesis” box, focus on _the expected relative differences that will be observed as compared to the Base Case and Experiment 1._   
     
      + **CC**: Increasing the Return Visit Interval will have the effect of increasing the Appointment Supply for New CC Patients by decreasing the Appointments for Existing Patients. Just as in Experiment 1, the increased Appointment Supply for New CC Patients will increase the Starting Rate and decrease New Patient Wait Times. But decreasing the Appointments for Existing Patients will also lower the Completing Rate for CC patients.  
   
@@ -94,21 +97,25 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
      + **SP**: With this change, clinicians in both settings will be more likely to step their patients between the two settings, as all the confusion and negotiation needed to step a patient between these settings will have been removed.  After implementing stepped care between our two settings, when one of our patients is low symptom, they will spend less time with our team before their provider feels comfortable recommending the patient step down to PC (see the arrow between "GMH and PC/PCMHI Implement Stepped Care" and "GMH to PC/PCMHI Engagement Time before Step down"), and for high symptom patients seen in the Primary Care setting, on average they will spend less time there before their provider recommends stepping up to General Mental Health. To see this causal connection, we must zoom in to that part of the process, by clicking on the plus sign in the grey "GMH Patients Waiting to Start" box.  We expect this smoother flow between the two settings to increase the number of openings for new patients in each setting, thus increasing the start rates and decreasing the number of patients waiting for both settings. Also, for Primary Care, they will be able to step more high symptom patients up to the right level of care sooner, so the number of patients in PC with a high risk flag will decline, as fewer high-symptom patients will remain in Primary Care for as long as before.  
   
 
-**3.  Run Experiment 2**  
+**Run Experiment 2**  
 
+8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
 
-
-  + Move the Text Section with the Question and Hypothesis text to the **left,** in order to reveal the **Experiment Section.** _As you adjust sliders up/down in the Experiments section_, refine the text in the Hypothesis box to reflect the new practice decisions to be tested, _and the expected relative differences that will be observed as compared to the Base Case and Experiment 1._ Move each slider named in the question to its desired value, and click the green “Run” icon.  Name this run to track the specific variables and values tested in that experiment.  
+  + Drag the Text Section to the left so you can open the **Experiment Section.** _As you adjust sliders up/down in the Experiments section_, refine the text in the Hypothesis box to reflect the new practice decisions to be tested, _and the expected relative differences that will be observed as compared to the Base Case and Experiment 1._ Move each slider named in the question to its desired value.
   
-  + To name the run, click on the down arrow next to Variable, choose the variable name you changed, for example, Appointment Supply or Return Visit Interval. Click *Add*. This will insert an abbreviation of that variable into the experiment name. Next, click on the down arrow next to Number, choose the number that represents the new value you used in your experiment.  Finally, click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.  
+9. Run and then Save (without resetting). Name this run according to the variables and values you set.
+  
+  + To name the run, open the Variable drop-down menu, scroll to the first variable you changed and click *Add*. This will insert an abbreviation of that variable into the experiment name. Next highlight and Add the value you set that variable to. Do the same to add the next altered variable to the name. When you're finished, click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.  
 
-**4. Compare Results**  
+**Compare Results**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
-  + Now that you’ve run the scenario, prioritize review of _ the expected relative differences as compared to the Base Case and Experiment 1._ in relation to the team's highest priority need.  First, expand the “Outputs” by clicking on the white box in the upper right corner.  Charts for six key variables should already be shown in the “Results Dashboard.”  If other variables are needed, then click into the drop-down under any chart to select another variable.  
+10. Compare Runs to see the how the current experiment differs from the base case and Experiment 1.
 
-  + _As you review the model diagram_, type the findings and explanation into the “Findings” text box. Review how the systems story in the hypothesis box explains expected and unexpected results of the simulated team decisions. Be specific about the _how the relative quantitative impact of Experiment 2, as compared to Experiment 1 and the base case, is explained by the causal system story._
++ Prioritize review of _the expected relative differences as compared to the Base Case and Experiment 1._ in relation to the team's highest priority need. Expand the “Outputs” section to see the full Results Dashboard.  Charts for six key variables will be shown.  If other variables are needed, use the drop-down menu under any chart.  
+
+Record your Findings. _As you review the model diagram_, type the findings and explanation into the “Our Findings” text box. Review how the systems story in Our Hypothesis explains or differs from the results of the simulated team decisions. Be specific about _how the relative quantitative impact of Experiment 2, as compared to Experiment 1 and the base case, is explained by the causal systems story._
       
      + **CC**: As compared to Experiment 1 and the base case, increasing the RVI increased the Appointment Supply for New CC Patients by decreasing the Appointments for Existing Patients. The increased Appointment Supply increased the Starting Rate for about 9 months and then it decreased. Same is true for New Patient Wait Times; a decline over time. But decreasing the Appointments for Existing Patients resulted in a sharp decrease in the Completing Rate for CC patients but it increased over time and reached a steady state at 1 year.  
      
@@ -126,7 +133,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
-  + Ask the team to decide what **new decisions** they want to test next. Ideally, the **highest leverage** and **most feasible (i.e., decisions that individual and the team have under their control)** experiments were tested in session 8 (Experiment 1) and session 9 (Experiment 2). Therefore, _to apply systems thinking_ in session 10, as the team to consider a combination of experiments 1 and 2.  Ask the team to type in the Decisions box, _both_ 1) what they would like to experiment with next, and 2) any _new decisions they may make in their clinical practice based on what they learned._  Once they have finished, click the “Save” icon in the upper right.  
+11. Discuss what **new decisions** the team wants to test next. Ideally, the **highest leverage** and **most feasible (i.e., decisions that individual and the team have under their control)** experiments were tested in session 8 (Experiment 1) and session 9 (Experiment 2). Therefore, _to apply systems thinking_ in session 10, ask the team to consider a combination of experiments 1 and 2.  Ask the team to type in the Decisions box, _both_ 1) what they would like to experiment with next, and 2) any _new decisions they may make in their clinical practice based on what they learned._
       
      + **CC**: We decided to try a combination of experiments 1 and 2. We will experiment with both increasing our overall Appointment Supply in care coordination and increasing our targeted Return Visit Interval for existing patients. As I meet with more stable patients, I will consider who may appropriately have a longer RVI, which may free me to see more new patients, and increase overall scheduling flexibility for all my patients. 
   
@@ -138,30 +145,28 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
   
      + **SP**: With this experiment, we have seen the impacts of increasing coordination and efficiency in stepping patients between settings, but without increasing quality of care. Next, let’s conduct a combined experiment, where we implement both measurement-based care and streamline stepping between GMH and PC/PCMHI. I can begin to collect standardized measures from more patients to guide my care decisions in our team, and between my team and other teams in our clinic.
 
-*Don't forget to log off the simulation model!*
+12. Save and Reset, and *Don't forget to log off the sim UI.*
 
 ### That's it for *Modeling to Learn* how to compare alternatives. Next is our Done/Do review.
 
-Today we ran experiment 2 and used the control panel of the expanded outputs section to compare the base case, experiment 1 and experiment 2. 
+
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs and Text Section to compare bc, experiment 1, and experiment 2. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Today we ran experiment 2 and used the Control Panel in the Outputs and Text section to compare base case, experiment 1 and experiment 2 results.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in your individual world. |
 
 DO Demo
 
-1. Before next time, please try to run a third experiment in your individual world. We recommend that you try an experiment that combines the effects of your Experiment 1 and Experiment 2. 
+1. If you can, run a third experiment in your Individual world. You might consider one that combines the decisions of your Experiment 1 and Experiment 2. 
 
-2. Do do this, log back into the SIM UI.
+2. To do this, log back into the SIM UI. In Experiments, select your Experiment 2 run from the list of saved experiments. Click GO and select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
 
-3. In Experiments, select your Experiment 2 run from the list of saved experiments. Click on GO and select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
+4. Expand the OUTPUTS AND TEXT section to reveal all the text and results saved from the run. Use these to refine and document your Question and Hypothesis for Experiment 3.
 
-4. Go to the OUTPUT section. Expand it fully (two clicks!) to reveal all the information saved from the run.
+5. When you set the sliders for this experiment, remember that they are starting ou set as you had them for Experiment 2. Run the simulation and note your Findings and Decisions.
 
-5. Study the output and use it to further develop and refine your decisions about your next experiment, in preparation for running Experiment 3.
-
-6. And, as always, save your work.
+6. As always, save your work and log off.   
 
 ## Until next time, thank you for *Modeling to Learn*!
