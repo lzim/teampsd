@@ -159,16 +159,14 @@ Record your Findings. _As you review the model diagram_, type the findings and e
 
 DO Demo
 
-1. Before next time, please try to run a third experiment in your individual world. We recommend that you try an experiment that combines the effects of your Experiment 1 and Experiment 2. 
+1. If you can, run a third experiment in your Individual world. You might consider one that combines the decisions of your Experiment 1 and Experiment 2. 
 
-2. Do do this, log back into the SIM UI.
+2. To do this, log back into the SIM UI. In Experiments, select your Experiment 2 run from the list of saved experiments. Click GO and select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
 
-3. In Experiments, select your Experiment 2 run from the list of saved experiments. Click on GO and select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
+4. Expand the OUTPUTS AND TEXT section to reveal all the text and results saved from the run. Use these to refine and document your Question and Hypothesis for Experiment 3.
 
-4. Go to the OUTPUT section. Expand it fully (two clicks!) to reveal all the information saved from the run.
+5. When you set the sliders for this experiment, remember that they are starting ou set as you had them for Experiment 2. Run the simulation and note your Findings and Decisions.
 
-5. Study the output and use it to further develop and refine your decisions about your next experiment, in preparation for running Experiment 3.
-
-6. And, as always, save your work.
+6. As always, save your work and log off.   
 
 ## Until next time, thank you for *Modeling to Learn*!
