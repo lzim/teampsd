@@ -145,7 +145,7 @@ Record your Findings. _As you review the model diagram_, type the findings and e
   
      + **SP**: With this experiment, we have seen the impacts of increasing coordination and efficiency in stepping patients between settings, but without increasing quality of care. Next, let’s conduct a combined experiment, where we implement both measurement-based care and streamline stepping between GMH and PC/PCMHI. I can begin to collect standardized measures from more patients to guide my care decisions in our team, and between my team and other teams in our clinic.
 
-12. Save and Reset, and *Don't forget to log off the sin UI.*
+12. Save and Reset, and *Don't forget to log off the sim UI.*
 
 ### That's it for *Modeling to Learn* how to compare alternatives. Next is our Done/Do review.
 
