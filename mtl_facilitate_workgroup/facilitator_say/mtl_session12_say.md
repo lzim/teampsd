@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Facilitator Say"
 author: "Team PSD"
-date: "RH Oct 18 2019 Edited by Rita 24 January 2020"
+date: "RH Oct 18 2019 Edited by Rita 24 January 2020 Rita Edited by 18 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -73,7 +73,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
        + In Medication Management (MM) we can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for our providers with and without x-waivers.
 
-       + In Psychotherapy (PSY), we can look at different patterns of engagement that patients may follow. In the team data tablefor PSY, you can pull up charts to see a profile of the team's historic patient engagement pattern; and in the Outputs section you can look at the Sankey diagram to compare patient engagement patterns and the associated appointment usage for different experiments.
+       + In Psychotherapy (PSY), we can look at different patterns of engagement that patients may follow. In the team data table for PSY, you can pull up charts to see a profile of the team's historic patient engagement pattern; and in the Outputs section you can look at the Sankey diagram to compare patient engagement patterns and the associated appointment usage for different experiments.
 
        + In the Aggregate (AGG) module, we can test hypotheses about our mix of services. The unique feature here is that in Outputs, we can choose to compare different experiments, as we do in all the modules; or we can compare the effects of a given experiment across the different services. 
 
