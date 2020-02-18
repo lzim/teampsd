@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "Edited by Anthony 5 February 2020, Edited by DK 14 Feb 2020"
+date: "Edited by Anthony 5 February 2020, Edited by DK 14 Feb 2020 Edited Rita Feb18 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -42,11 +42,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - [ ] On **Main Page** team lead navigate to **Experiment Section** to **pull up previous experiment values & text** for **Sessions 07 and 08** to review Experiment 1 as compared to the Base Case.
 
 ## Pull up **q/h/f/d** from session08 and ask **team lead** to review the rationale for the **Experiment 1** findings from the "Findings" Text
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:15-00:20** - Team-specific **caual system story for findings** __________________
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:15-00:20** - Team-specific **causal system story for findings** __________________
 - [ ] [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150">](#DontClick) Provide rationale for **always comparing simulation experiments against the base case** of no new decisions.
 - [ ] Review the **"d" decisions text** regarding the **team consensus** about **specific values** _______________ the team would like to experiment with today.    
 
-## Bring session 08 "d" _decision_ text to be the _question_ text for experiment 2. Collapse and move Text to right, to use session 07 and session 08 _causal complexity reveal (feedback loop)_ to revise _basecase_ hypothesis for experiment 2.
+## Bring session 08 "d" _decision_ text to be the _question_ text for experiment 2. Collapse and move Text to right, to use session 07 and session 08 _causal complexity reveal (feedback loop)_ to revise _Base Case_ hypothesis for experiment 2.
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 - [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years - _relative to the Base Case and Experiment 1_ - if the **team's decisions reflect experiment 2** 
@@ -65,7 +65,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Compare **Experiment 2** against **Base Case** and **Experiment 1** output charts of the _specific variables_ and _values_ related to the team's highest priority need ________________[output variable]
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:40-00:50 - Team Priority**__________________
 - [ ] Enter team **findings text** about the results for **variables related to their highest priority need**? 
-- [ ] Describe how **Differences between Basecase and Experiment 1 and 2 System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority in the *Our Findings* textbox
+- [ ] Describe how **Differences between Base Case and Experiment 1 and 2 System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority in the *Our Findings* textbox
 - [ ] **Decisions:** Based on what the team learned, what will the team **decide to do in clinical practice** (if anything) and/or:
 - [ ] **Decisions:** What **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn next?
 
