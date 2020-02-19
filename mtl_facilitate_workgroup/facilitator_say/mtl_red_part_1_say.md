@@ -13,22 +13,22 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
+     height = "175" width = "290">](#)  
 
-# [MTL Red Part 1](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
+# MTL Red Part 1
 
 Hello! I'm __________ and I'm __________.
 ### Today we're modeling to learn from patient data and team trends.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#) **Do** |
 | --- | --- |  
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the splash page. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data.|  
  
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#) 
 
 ## Learning Objectives
 
@@ -40,9 +40,9 @@ Hello! I'm __________ and I'm __________.
 
 # In-session Exercise (30 minutes)
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#) ___00:10-00:15___
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/>](#) 
 
 ## Let's get started! 
 
@@ -89,7 +89,7 @@ ___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL
          
   + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data*, use the Refresh Data command to update the report and click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:20-00:25___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#) ___00:20-00:25___
 
 #### All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data. 
 
@@ -98,7 +98,7 @@ ___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL
 Time Stamp | Team Learning Priorities | Script for Session 2
 -- | -- | --
 **What filtering options are available?** |  |  |   
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#)  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
 Keep an eye on time |  |  |   
 
 2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**. [During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.]
@@ -156,33 +156,33 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - You can further drill up/down in the "viz" tabs by right clicking on any cell and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#) ***00:25-00:35***
 - **What stands out to you about ________________________________**[fill in team vision]**?  
   
 - **What is most important to you to check out first related to  ________________________________**[fill in team vision]?
-    [Prepare in advance, but ask this as an open-ended quesiton.]  
+    [Prepare in advance, but ask this as an open-ended question.]  
   
 - **What is most surprising?**  
-    [Prepare in advance, but ask this as an open-ended quesiton.]  
+    [Prepare in advance, but ask this as an open-ended question.]  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#) ***00:35-00:40***
 
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.  
 
 - Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
   
-- Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
+- Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
   
 - Providers can filter to find specific patients, or produce reports.  
   
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#) ***00:40-00:50***  
 
 [During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.]
 
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
 **[Prioritize which questions you will use given this team's guiding vision.** |  |  |   
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#)  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
 Keep an eye on time |  |  |   
 
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
@@ -191,7 +191,7 @@ Keep an eye on time |  |  |
   
 - Are there services that have been **increasing over time?** 
   
-- Are there services that have been **descreasing over time?**  
+- Are there services that have been **decreasing over time?**  
   
 - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
 
@@ -200,7 +200,7 @@ Keep an eye on time |  |  |
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. | 
 
