@@ -2,32 +2,26 @@
 name: Issue
 about: Create a new issue.
 title: 'Deadline + Product: Short description (ex. 8/12 AGG: Missing feedback loop)'
-labels: ''
-assignees: ''
+label: ''
+assignee: ''
 
 ---
 
 **1. Add description:** 
 
-
 << Paste screenshots here>>
  
 **2. Click on the right:**  
-a. **Projects** - assign to **issue_tracker.**  
-b. **Assignee** - assign relevant team members.  
-c. **Labels**- review and select labels to indicate the responsible workgroup and all potential dependencies 
-d. **Milestones** - select the dependent milestone.  
+i. **Pipelines** - prioritize in a TeamPSD (& Workgroup) pipeline  
+ii. **Assignee** - assign to an individual team member producing work for the issue  
+iii. **Label**- assign workgroup (lead) responsible for tracking the task  
+iv. **Projects** - assign to domain-specific TeamPSD tracker (issues, features, document, manuscript, team)  
+v. **Milestones** - select monthly sprint milestone within th workgroup   
+vi. **Estimate** - Estimate task in complexity points   
+vii. **Epics** - assign to team-wide epic and TeamPSD master plan project  
+viii. **Releases** - assign to key team release grouped with other relevant issues  
 
------------------------------------------------------------------------------------------
-**Workgroups leads**
-**Identify Constraints (check all that apply):**
-- [ ]   Capacity
-- [ ]   Cost
-- [ ]   Schedule
-- [ ]   Interference
-- [ ]   Capability
-- [ ]   Other (describe)
+**3. Once you hit "Submit new issue**, underneath the first comment:   
+viiii. **Add dependency** - assess for and add dependencies *blocking* & *blocked by* this issue
 
-_Add estimated person-hours to complete:_
 
-**Edit the due date (if necessary)**
