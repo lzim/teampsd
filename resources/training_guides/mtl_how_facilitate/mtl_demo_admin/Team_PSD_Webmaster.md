@@ -228,7 +228,7 @@ Wile E. Coyote (also known simply as "the Coyote") and the Road Runner are a duo
 
 **SUBTASKS:**
 1. Upload a graphics file to the appropriate location in Epicenter.
-2.Create a new member in the Sim UI section of the Team PSD website (Test instance).
+2. Create a new member in the Sim UI section of the Team PSD website (Test instance).
 3. Properly link the graphics file to the new section.
 4. Add the text in the text field and,
 
