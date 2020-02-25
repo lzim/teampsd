@@ -1,7 +1,7 @@
 ---
 title: "MTL Session Red, Part 1 - Learner See"
 author: "Team PSD"
-date: "01_06_2020"
+date: "01_06_2020. Edited by AP_2020_02_25"
 output: 
   github_document: default
   html_document: default
@@ -74,7 +74,7 @@ output:
 
 ### 5. To view your team patient data and your team trends, click "Get-Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with in your team data folder.** 
-- We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
+- We will learn about the "Create Team Data Table" button in our next team meeting.
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
