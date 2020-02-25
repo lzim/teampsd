@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1 - Learner See"
 author: "Team PSD"
-date: "AP Feb 5, 2020 | SP Oct 16, 2019 Edited by Rita 24 January 2020"
+date: "SP Oct 16, 2019 | RH Jan 24, 2020 | AP Feb 5, 2020 | RH Feb 25, 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -31,11 +31,11 @@ output:
 
 ## Learning Objectives
 
-1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
+**1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.**
 
-2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
+**2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."**
 
-3. Identify a shared team vision for learning from *Modeling to Learn*.
+**3. Identify a shared team vision for learning from *Modeling to Learn*.**
 
 
 # In-session Exercise (30 minutes)
@@ -66,37 +66,39 @@ b. Now picture the team learning over the next 6 months in a ‘best-case’ sce
 
 ### 3. Personal Vision (5 minutes)  
 
-a. What is team communication like?
+a. **What is team communication like?**
 
-b. How do team members relate to one another?
+b. **How do team members relate to one another?**
 
-c. How is VA data used?
+c. **How is VA data used?**
 
-d. How are decisions, plans and changes made?
+d. **How are decisions, plans and changes made?**
+
 
 ### 4. Review in Team (5 minutes)  
 
-a. What stands out to you?
+**a. What stands out to you?**
 
-b. Why did we choose these?
+**b. Why did we choose these?**
 
-c. What makes them so relevant or important to us?
+**c. What makes them so relevant or important to us?**
 
-d. Can we address them all (bearing in mind our resources and time)?
+**d. Can we address them all (bearing in mind our resources and time)?**
 
-e. If not, which would we most like to address (align around), and why?
+**e. If not, which would we most like to address (align around), and why?**
+
 
 ### 5. Putting it Together (10 minutes)
 
 Overall "Modeling to Learn" objectives include activities and competencies that…
 
-a. …are meaningful for you and align your learning goals with your team's.
+a. …Are meaningful for you and align your learning goals with your team's.
 
-b. …develop systems thinking skills - help you see how several things fit together and understand causes that are hard to see without data and modeling resources.
+b. …Develop systems thinking skills - help you see how several things fit together and understand causes that are hard to see without data and modeling resources.
 
-c. …make VA data, initiatives and standards transparent to you. 
+c. …Make VA data, initiatives and standards transparent to you. 
 
-d. …empower you to realize ongoing improvements in team quality of care and team quality of work life.
+d. …Empower you to realize ongoing improvements in team quality of care and team quality of work life.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
