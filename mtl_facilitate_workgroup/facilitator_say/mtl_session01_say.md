@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1"
 author: "Team PSD"
-date: "Edited By Anthony Pichardo February 5,2020 | September 2018 Edited by Rita 24 January 2020"
+date: "Edited By: RH Jan 24 2020 | Anthony Pichardo February 5,2020 | RH Feb 25 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -90,8 +90,11 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 + Think about your Personal Vision for your team:  
 
   a. What is team communication like?  
+  
   b. How do team members relate to one another?  
+  
   c. How is VA data used?  
+  
   d. How are decisions, plans and changes made?  
   
 ### 4. Review in Team (5 minutes)  
@@ -99,19 +102,27 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 + Reflecting as a team on those individual visions:  
 
   a. What stands out to you?  
+  
   b. Why did we choose these?  
+  
   c. What makes them so relevant or important to us?  
+  
   d. Can we address them all (bearing in mind our resources and time)?  
+  
   e. If not, which would we most like to address (align around), and why?  
+
 
 ### 5. Putting it Together (10 minutes)  
 
 + Putting it all together, overall *Modeling to Learn* objectives include activities and competencies that:  
 
   a. Are meaningful for you and align your learning goals with your team.  
+ 
   b. Develop systems thinking skills that help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.  
+ 
   c. Make VA data, initiatives and standards transparent to you.  
-  d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
+ 
+ d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
@@ -119,8 +130,9 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 + To wrap up, let's home in on our Team Vision  
 
-  a. You can further word-smith the Team Vision after the session if you want.  
-  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.  
+ a. You can further word-smith the Team Vision after the session if you want.  
+ 
+ b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.  
 
 
 ### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
@@ -134,36 +146,39 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 ## DO Demo
 
-1. We will help the team decide on a Team Lead and standing meeting time over the next week or two. The role of the Team Lead is to:
+### 1. We will help the team decide on a Team Lead and standing meeting time over the next week or two. The role of the Team Lead is to:
 
- + be the main point of contact between the team and *Modeling to Learn* co-facilitators;
-
- + help with scheduling *MTL*-related team meetings;
-  
- + become familiar with *MTL* resources and help team members trouble-shoot - mainly mtl.how/live (Adobe Connect, used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
-
- + provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
-
-2. Ideal characteristics of the Team Lead include
-
- + Having strong relationships with fellow team members;
-
- + Being organized;
-
- + Having basic computer knowledge (some Excel experience is good);
-
- + Attention to detail; and
-
- + Committment to process improvement and the use of data to improve care.
-
-3. Some considerations for choosing a standing meeting time are
-
- + Whether the team works at a central location or is geographically dispersed; 
+ a. Be the main point of contact between the team and *Modeling to Learn* co-facilitators;
  
- + Clinic schedules; and
+ b. Help with scheduling *MTL*-related team meetings;
  
- + Clinicians' availability.
+ c. Become familiar with *MTL* resources and help team members trouble-shoot - mainly mtl.how/live (Adobe Connect, used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
  
-4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
+ d. Provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
+
+
+### 2. Ideal characteristics of the Team Lead include
+
+ a. Having strong relationships with fellow team members;
+ 
+ b. Being organized;
+ 
+ c. Having basic computer knowledge (some Excel experience is good);
+ 
+ d. Attention to detail; and
+ 
+ e. Committment to process improvement and the use of data to improve care.
+
+
+### 3. Some considerations for choosing a standing meeting time are
+
+ a. Whether the team works at a central location or is geographically dispersed; 
+ 
+ b. Clinic schedules; and
+ 
+ c. Clinicians' availability.
+ 
+
+### 4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
 ## Until next time, thank you for _Modeling to Learn_!
