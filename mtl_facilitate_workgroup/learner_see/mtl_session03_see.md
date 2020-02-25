@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Learner See"
 author: "Team PSD"
-date: "AP Feb 5, 2020 | SP Oct 16, 2019 & Jane Nov 15, 2019 Edited by Rita 24 January 2020"
+date: "SP Oct 16, 2019 | Jane Nov 15, 2019 | RH Jan 24 2020 | AP Feb 5, 2020 | RH Feb 25 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -41,8 +41,9 @@ output:
 # In-session Exercise (30 minutes)
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
-- Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
+### Navigate to the data UI at mtl.how/data, log in with your VA credentials. When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
+
+- Data are **means**, **medians** and **percentages** of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
 - There are team data produced for each module of *Modeling to Learn*
   - Care Coordination (CC)
   - Medication Management (MM)
@@ -51,23 +52,23 @@ output:
   - Measurement-based stepped care and suicide prevention (SP)
 
 ### 1. Select a module for review
-- Find a variable that is important to you team. How is it estimated in this table? What are its units?
-- Where can you find even more detailed information about your team data?
-- Check out the last two columns. What is the difference between these two columns?
+- Find a variable that is important to you team. **How is it estimated in this table? What are its units?**
+- **Where can you find even more detailed information about your team data?**
+- **Check out the last two columns. What is the difference between these two columns?**
 
 ### 2. Select a second module for review 
 - Check out the last two columns. 
-- Find a variable that is important to you team. How is it estimated in this table? What are its units?
-- Where can you find even more detailed information about your team data?
+- Find a variable that is important to you team. **How is it estimated in this table? What are its units?**
+- **Where can you find even more detailed information about your team data?**
 
 ### 3. Are there any team data table values you would like to explore in the team data UI?
-- If so, which ones? Open the data UI to examine your question.
+- If so, **which ones?** Open the data UI to examine your question.
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
-- If so, what is surprising? Does the estimation definition (second to last columnn, text in red) help you to interpret the variable value?
+- If so, **what is surprising?** **Does the estimation definition** (second to last columnn, text in red) **help you to interpret the variable value?**
 
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
-- If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
+- If so, **what are you noticing?** **In what ways does the team data fit with your day-to-day clinical practice in your team?**
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)](#DontLink)
 
