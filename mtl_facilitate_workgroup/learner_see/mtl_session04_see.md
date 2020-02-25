@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 4 - Learner See"
 author: "Team PSD"
-date: "AP Feb 5, 2020 | SP Oct 16, 2019 & Jane Nov 18, 2019 Edited by Rita 24 January 2020"
+date: "SP Oct 16, 2019 |Jane Nov 18, 2019 |RH Jan 24 2020 | AP Feb 5, 2020 | RH Feb 25 2020 "
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -39,18 +39,18 @@ output:
 
 # In-session Exercise (30 minutes)
 
-1. Complete the [*MTL* Menu](https://mtl.how/menu) (behind VA firewall) on your own.
+1. Using Internet Explorer navigate to **mtl.how/menu** (behind VA firewall) and on your own complete your teams learning needs.
 
 2. Review the team's results in your team. 
-- What stands out to you?
+- **What stands out to you?**
 
 3. Look for areas of consensus among the team. 
-- What does the team agree about?
+- **What does the team agree about?**
 
 4. Discuss items in which team members varied a lot in their rankings. 
-- Where does the team have more variable perspectives?
+- **Where does the team have more variable perspectives?**
 
-5. Focus on the high priority needs to select a module for sessions 5-10 of *Modeling to Learn*. What is the highest priority need for your team now?
+5. Focus on the high priority needs to select a module for sessions 5-10 of *Modeling to Learn*. **What is the highest priority need for your team now?**
 
 These are the *MTL* available modules
 - Care Coordination (CC)
