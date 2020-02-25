@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 2 - Learner See"
 author: "Team PSD"
-date: "AP Feb 5, 2020 | SP Oct 16, 2019 Edited by Rita 24 January 2020"
+date: "AP Feb 5, 2020 | SP Oct 16, 2019, RH Jan 24 2020, RH Feb 25 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -15,6 +15,8 @@ output:
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](#DontLink)
+     
+### **Disclaimer:** If you are a self-directed learner, then some of the details in the guides may not apply to you.  These guides were developed for Facilitated _Modelling to Learn_ Live Team Meetings.  
 
 # MTL Live Session 02
 
