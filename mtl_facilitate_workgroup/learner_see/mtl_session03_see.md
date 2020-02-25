@@ -65,10 +65,10 @@ output:
 - If so, **which ones?** Open the data UI to examine your question.
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
-- If so, **what is surprising?** **Does the estimation definition** (second to last columnn, text in red) **help you to interpret the variable value?**
+- **If so, what is surprising?** **Does the estimation definition** (second to last columnn, text in red) **help you to interpret the variable value?**
 
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
-- If so, **what are you noticing?** **In what ways does the team data fit with your day-to-day clinical practice in your team?**
+- **If so, what are you noticing?** **In what ways does the team data fit with your day-to-day clinical practice in your team?**
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)](#DontLink)
 
