@@ -51,7 +51,7 @@ Hello! I'm __________ and I'm __________.
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 
-### When you click the "Get Team Data Table" button, it produces a table of descriptive team data.
+### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
 - There are team data produced for each module of *Modeling to Learn*
   - Care Coordination (CC)
@@ -71,7 +71,7 @@ Hello! I'm __________ and I'm __________.
 - Where can you find even more detailed information about your team data?
 
 ### 3. Are there any team data table values you would like to explore in the team data UI?
-- If so, which ones? Open the data UI to examine your question.
+- If so, which ones? Open the Data UI to examine your question.
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 - If so, what is surprising? Does the estimation definition (second to last columnn, text in red) help you to interpret the variable value?
