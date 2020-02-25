@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 2 - Learner See"
 author: "Team PSD"
-date: "AP Feb 5, 2020 | SP Oct 16, 2019 Edited by Rita 24 January 2020"
+date: "SP Oct 16, 2019 | RH Jan 24 2020 | AP Feb 5, 2020 | RH Feb 25 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -31,11 +31,11 @@ output:
 
 ## Learning Objectives
 
-1. Describe the decisions your team made in producing your team data table.
+**1. Describe the decisions your team made in producing your team data table.**
 
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+**2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.**
 
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
+**3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.**
 
 
 # In-session Exercise (30 minutes)
@@ -49,35 +49,38 @@ output:
 ### 2. Explore the information available in the BISL Sharepoint splash page.
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_splashpage.gif)](#DontLink)
 
-- Click on the View dropdown. What View options are there and what do they mean? Hints:
-  - Count: Aggregate Data for Viz trends
-  - Data: Sortable report of data
-  - Diag: Diagnostic data 
-  - Enc: Encounter types of visits
-  - HF: Health Factors data related to visits
-  - Meas: Measures or flag names
-  - Viz: Visualization of trends  
+- Click on the View dropdown. **What view options are there and what do they mean?** Hints:
 
-- What filtering options are available? 
+View | Displays 
+-- | --
+Count | Aggregate Data for Viz trends
+Data | Sortable report of data
+Diag | Diagnostic data 
+Enc | Encounter types of visits
+HF |  Health Factors data related to visits
+Meas |  Measures or flag names
+Viz |  Visualization of trends  
+
+- **What filtering options are available?** 
   - Filter to your clinic or division to see trends for the last two years.
 
 ## Your Team Data Folder
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
-- Select your station using the control tab. If you have any issues with permissions, TeamPSD can help you.
-- Click "Get Clinic List" and it will pull in clinics for your facility.
+- Select your station using the **Control tab**. If you have any issues with permissions, TeamPSD can help you.
+- Click **"Get Clinic List"** and it will pull in clinics for your facility/station.
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)](#DontLink)
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
-- You can sort and filter by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
-- Or, if your team has designated provider clinics, you can select by provider name.
-- Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
+- You can sort and filter by **Clinic Name**, **Division Name**, **Physical Location**, **Primary** and **Secondary Stopcode**.
+- Or, if your team has designated provider clinics, you can select by **Provider Name**.
+- Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by **"ZZ"**). You can see the de-activated clinics in column I.
 - Follow the instructions in **Box A2.** 
-- After filtering, click Add All. Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
+- After filtering, click **"Add All"**. Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
 ### 5. To view your team patient data and your team trends, click "Get-Patient-level Data." We will not do this in-session today.
-- **You already have a fresh data UI file to work with in your team data folder.** 
-- We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
+- You already have a fresh data UI file to work with in your team data folder.
+- We will learn about the **"Create Team Data Table for Sim UI"** button in our next team meeting.
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
@@ -86,9 +89,10 @@ output:
 
 ### 6. Click to view the "viz" tabs, which show team trends.
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-- What stands out to you?
-- What is most important to you to check out first?
-- What is most surprising?
+
+- **What stands out to you?**
+- **What is most important to you to check out first?**
+- **What is most surprising?**
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)
 
@@ -98,7 +102,7 @@ output:
 - Providers can filter to find specific patients, or produce reports. 
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
 - What **viz** tab would you use to see what the most common service encounters or visits are?
-- Are there services that have been increasing over time? Are there services that have been descreasing over time?
+- **Are there services that have been increasing over time? Are there services that have been descreasing over time?**
 
 ## With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
