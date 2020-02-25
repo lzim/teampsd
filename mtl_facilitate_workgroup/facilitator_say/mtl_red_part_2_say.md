@@ -1,7 +1,7 @@
 ---
 title: "MTL Red Part 2 - Facilitator Say"
 author: "Team PSD"
-date: "Created by JB Feb 02, 2020 from SP 2019 Oct 21 2019, Edited by Rita 24 January 2020"
+date: "Edited by AP Feb 25, 2020 Edited by JB Feb 02, 2020 , Edited by Rita 24 January 2020 from SP 2019 Oct 21 2019"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -25,7 +25,7 @@ Hello! I'm __________ and I'm __________.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will examine calculated team parameters fo CC, MM, PSY, AGG, and SP.|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data.| We will examine calculated team parameters fo CC, MM, PSY, AGG, and SP.|
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md)
@@ -86,7 +86,7 @@ Hello! I'm __________ and I'm __________.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We examined team parameters fo CC, MM, PSY, AGG, and SP.|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and consider its implications for team decisions.|
+| We examined team parameters fo CC, MM, PSY, AGG, and SP.|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and consider its implications for team decisions.|
 
 ### DO demo
 
