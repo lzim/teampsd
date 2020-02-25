@@ -66,26 +66,26 @@ b. Now picture the team learning over the next 6 months in a **‘best-case’**
 
 ### 3. Personal Vision (5 minutes)  
 
-**a. What is team communication like?**
+a. What is team communication like?
 
-**b. How do team members relate to one another?**
+b. How do team members relate to one another?
 
-**c. How is VA data used?**
+c. How is VA data used?
 
-**d. How are decisions, plans and changes made?**
+d. How are decisions, plans and changes made?
 
 
 ### 4. Review in Team (5 minutes)  
 
-**a. What stands out to you?**
+a. What stands out to you?
 
-**b. Why did we choose these?**
+b. Why did we choose these?
 
-**c. What makes them so relevant or important to us?**
+c. What makes them so relevant or important to us?
 
-**d. Can we address them all (bearing in mind our resources and time)?**
+d. Can we address them all (bearing in mind our resources and time)?
 
-**e. If not, which would we most like to address (align around), and why?**
+e. If not, which would we most like to address (align around), and why?
 
 
 ### 5. Putting it Together (10 minutes)
