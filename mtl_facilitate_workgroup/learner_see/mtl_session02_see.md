@@ -31,11 +31,11 @@ output:
 
 ## Learning Objectives
 
-**1. Describe the decisions your team made in producing your team data table.**
+1. Describe the decisions your team made in producing your team data table.
 
-**2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.**
+2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 
-**3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.**
+3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 
 # In-session Exercise (30 minutes)
@@ -90,9 +90,9 @@ Viz |  Visualization of trends
 ### 6. Click to view the "viz" tabs, which show team trends.
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 
-- **What stands out to you?**
-- **What is most important to you to check out first?**
-- **What is most surprising?**
+- What stands out to you?
+- What is most important to you to check out first?
+- What is most surprising?
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)
 
