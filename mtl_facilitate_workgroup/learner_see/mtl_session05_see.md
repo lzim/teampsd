@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Learner See"
 author: "Team PSD"
-date: "Edited by: AP Feb 5, 2020 | Rita 24 January 2020 | RH Oct 16, 2019"
+date: "Edited by RH Oct 16, 2019 | RH Jan 24 2020 | AP Feb 5, 2020 | RH Feb 25 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -39,33 +39,33 @@ output:
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
 
-# In-session Exercise (30 minutes)
+# In-Session Exercise (30 minutes)
 
 # Session 5 In-Session Exercise
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ## Check the name of your team data file in Explorer
-1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation. 
-2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
-3. The team data file for simulation is in our team folder, in the team_data_sim folder. Copy the name of the team data file.
+1. In Session 3, we used our **"team data UI"** and clicked **"Get Team Data Table for Sim UI"** to produce our team data for simulation. 
+2. Let's now go back to **mtl.how/data** in an Internet Explorer window to check the name of our **"team data file"**.
+3. The team data file for simulation is in our team folder, in the **team_data_sim** folder. **Copy the name of the team data file**.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)](#DontLink)
 
 ## Log in to the sim UI in Chrome
 
-4. Log in to the Sim UI.
+4. **"Log in"** to the **"Sim UI"**.
 
-+ Open a new browser window in Google Chrome and go to mtl.how/sim.
++ Open a new browser window in **"Google Chrome"** and go to **mtl.how/sim**.
 
-+ Enter your login credentials and click the "Login" button.
++ Enter your login credentials and click the **"Login"** button.
 
-+ A box instructing you to *Please select a World* will appear. If you are working collaboratively with your team in *MTL* please select your team world denoted by "team" in the title of the world. If you are exploring the Sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
++ A box instructing you to ***Please select a World*** will appear. If you are working collaboratively with your team in *MTL* please select your team world denoted by **"team"** in the title of the world. If you are exploring the Sim UI on your own, please select your individual world denoted by **"ind"** in the title of the world. Click **"Select World."**
 
-+ Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
++ **Note:** Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)](#DontLink)
 
-5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers). Open the Team Data Menu Maintenance section and click Add. Paste the name of your team data file into the box and click Save. 
+5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers). Open the **"Team Data Menu Maintenance"** section and click **"Add"**. **"Paste"** the **"name"** of your **"team data file"** into the box and click **"Save"**. 
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_home.gif)](#DontLink)
 
@@ -73,28 +73,28 @@ output:
 
 6. Start a New Session
 
-+ Select the module your team decided to use. 
++ Select the **"module"** your team decided to use. 
 
-+ Select the team data you want to use.
++ Select the **"team data"** you want to use.
 
-+ * For CC & MM, you need to select your Learning Mode before hitting Play.  
++ * For **"CC & MM"**, you need to select your **"Learning Mode"** before hitting **"Play"**.  
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/learning_mode.gif)](#DontLink)
 
-+ Click Play.
++ Click **"Play"**.
 
-7. Orient yourself to the Main Page of the Sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Text and Experiments).
+7. Orient yourself to the **"Main Page"** of the Sim UI (same information and buttons at top; 3 sections with blue headers - one showing the **"module"** and **"team data"** selected in its header; the others headed **"Outputs"** and **"Text"** and **"Experiments"**).
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_sections.gif)](#DontLink)
 
-8. Drag or minimize the Text section and expand the Experiments section by clicking in the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
+8. Drag or minimize the **"Text"** section and expand the **"Experiments"** section by clicking in the blue bar. Click on the **"i"** in the red circle next to **"Team Data"** and read the **“i”** information for the **"Team Data"** table.
 
-+ What types of decisions does the team make that affect these variables?
++ **What types of decisions does the team make that affect these variables?**
 
-+ How do the values in this table strike you? Do they line up with how you think things really are?
++ **How do the values in this table strike you? Do they line up with how you think things really are?**
 
-9. Look for some of the Team Data table variables in the system diagram at the left.
+9. Look for some of the **"Team Data"** table variables in the system diagram at the left.
 
-10. Log out of the Sim UI
+10. **"Log out"** of the Sim UI
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
