@@ -44,7 +44,7 @@ output:
 
 a. Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.  
 
-b. Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list:  
+b. Jot down on scratch paper what it was that made it a good learning experience. **What were the characteristics of the experience?** Compile a team list:  
 
 *Most likely the following are true:*   
 * The learning was hands-on and experiential.
@@ -62,17 +62,17 @@ b. Jot down on scratch paper what it was that made it a good learning experience
 
 a. Create team language for learning, aligning team decisions when there are roadblocks to consensus. Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings; the key people you rely on outside the team; the information and data you use to coordinate care plans, and the feelings you associate with it.  
 
-b. Now picture the team learning over the next 6 months in a ‘best-case’ scenario, where things are happening in the team the way that you would ideally like them to. This is your “dream team” situation.  
+b. Now picture the team learning over the next 6 months in a **‘best-case’** scenario, where things are happening in the team the way that you would ideally like them to. This is your **“dream team”** situation.  
 
 ### 3. Personal Vision (5 minutes)  
 
-a. **What is team communication like?**
+**a. What is team communication like?**
 
-b. **How do team members relate to one another?**
+**b. How do team members relate to one another?**
 
-c. **How is VA data used?**
+**c. How is VA data used?**
 
-d. **How are decisions, plans and changes made?**
+**d. How are decisions, plans and changes made?**
 
 
 ### 4. Review in Team (5 minutes)  
