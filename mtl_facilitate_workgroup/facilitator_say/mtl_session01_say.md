@@ -122,7 +122,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
  
   c. Make VA data, initiatives and standards transparent to you.  
  
- d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
+  d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
@@ -130,9 +130,9 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 + To wrap up, let's home in on our Team Vision  
 
- a. You can further word-smith the Team Vision after the session if you want.  
+  a. You can further word-smith the Team Vision after the session if you want.  
  
- b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.  
+  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.  
 
 
 ### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
