@@ -1,7 +1,7 @@
 ---
 title: "MTL Red, Part 2 - Learner See"
 author: "Team PSD"
-date: "01 Jan 2020"
+date: "01 Jan 2020, RH Feb 25 2020"
 output: 
   github_document: default
   html_document: default
@@ -14,7 +14,7 @@ output:
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
      height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md)
-
+### **Disclaimer:** If you are a self-directed learner, then some of the details in the guides may not apply to you.  These guides were developed for Facilitated _Modelling to Learn_ Live Team Meetings.  
 # [MTL Red Part 2](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md "MTL Live Session 03")
 
 # Today we're modeling to learn from calculated team parameters.
