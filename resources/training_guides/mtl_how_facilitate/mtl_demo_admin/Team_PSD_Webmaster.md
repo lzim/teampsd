@@ -220,7 +220,7 @@ _There is no checklist provided for this module._
 - [ ] **Exercise:** You have been tasked to welcome a new member of the team to the Sim UI workgroup section in the Team PSD website (TEST instance).
 
 **GIVEN:**
-1. A photo at this link https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/wiley_e_coyote.png
+1. A photo at this link https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/wiley_e_coyote.png
 
 2. A biography (copy from below)
 
@@ -228,7 +228,7 @@ Wile E. Coyote (also known simply as "the Coyote") and the Road Runner are a duo
 
 **SUBTASKS:**
 1. Upload a graphics file to the appropriate location in Epicenter.
-2.Create a new member in the Sim UI section of the Team PSD website (Test instance).
+2. Create a new member in the Sim UI section of the Team PSD website (Test instance).
 3. Properly link the graphics file to the new section.
 4. Add the text in the text field and,
 
