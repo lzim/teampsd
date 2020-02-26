@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | Edited by Rita 24 January 2020 | Aug 2019"
+date: "Edited by: Aug 2019 | RH Jan 24 2020 | February 5, 2020 Edited by Anthony | 14 Feb 2020 Ed Jane | Edited by RH Feb 25 2020 "
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -130,14 +130,14 @@ e. Close the "i" information and look over the values - how do they strike you? 
 
 ### DO demo
 
-1. For next time, if you can, log in to to the sim UI at mtl.how/sim. 
+a. For next time, if you can, log in to to the sim UI at mtl.how/sim. 
 
-2. Remember that when you first enter your log-in credentials, you'll be able to choose between your Team world and your Individual world. If you choose your Team world, it will already have a "session" started - because we did that today when we chose the module and selected the team data file that we had added. So you will choose Join Current Session and click Play.
+b. Remember that when you first enter your log-in credentials, you'll be able to choose between your Team world and your Individual world. If you choose your Team world, it will already have a "session" started - because we did that today when we chose the module and selected the team data file that we had added. So you will choose Join Current Session and click Play.
 
-3. If you're ambitious to dig in and "play" in the sim, you can choose your Individual world and add the team data to the team data menu the same way we did just now. Then you can choose the module, select the data, and click Play. You can explore to your heart's content in your Individual world without worrying that you'll "break" anything or change anything for the rest of your team.
+c. If you're ambitious to dig in and "play" in the sim, you can choose your Individual world and add the team data to the team data menu the same way we did just now. Then you can choose the module, select the data, and click Play. You can explore to your heart's content in your Individual world without worrying that you'll "break" anything or change anything for the rest of your team.
 
-4. Whichever way you get to hitting Play from the Sim UI landing page, it will take you to the main page for the module. We encourage you to explore the interface more. 
+d. Whichever way you get to hitting Play from the Sim UI landing page, it will take you to the main page for the module. We encourage you to explore the interface more. 
 
-5. In particular, check out the “i” information available throughout the sim UI - in the Experiments section and in the model diagram - to prepare for our next session. 
+e. In particular, check out the “i” information available throughout the sim UI - in the Experiments section and in the model diagram - to prepare for our next session. 
 
 ## Until next time, thank you for _Modeling to Learn_!
