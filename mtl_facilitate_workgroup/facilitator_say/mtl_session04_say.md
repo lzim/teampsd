@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 04 - Facilitator Say"
 author: "Team PSD"
-date: "AP February 5, 2020 | Sept 2018 Ed by Rita 24 Jan 2020 - by Jane 13 Feb 2020"
+date: "Edited by: Sept 2018, |RH Jan 24 2020 Jane 13 Feb 2020, AP February 5, 2020 | RH Feb 25 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -102,17 +102,17 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 
 ### DO demo
 
-1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
+  a. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
 
-2. Remember, all the _MTL_ resources can be accessed from your home base at mtl.how if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
+  b. Remember, all the _MTL_ resources can be accessed from your home base at mtl.how if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
 
-3. Unlike the data UI, which requires us to use the VA's default browser, Internet Explorer, this UI works better with Chrome. We recommend you use that.
+  c. Unlike the data UI, which requires us to use the VA's default browser, Internet Explorer, this UI works better with Chrome. We recommend you use that.
 
-4. The sim UI is designed for use with a variety of devices, from large-monitor desktops to tablets and smartphones. The view adjusts for different sizes and aspect ratios so you may notice some slight variations in how it looks, but the basic functionality is the same on all of them.
+ d. The sim UI is designed for use with a variety of devices, from large-monitor desktops to tablets and smartphones. The view adjusts for different sizes and aspect ratios so you may notice some slight variations in how it looks, but the basic functionality is the same on all of them.
 
-5. To log in to the sim UI, you will need your username and password. Once you enter your credentials, you'll be asked to select a World, and you'll see 2 options in the drop-down menu: a team world and an individual world. We'll describe these more next time. For now you should choose the one that ends with "ind" for individual. Click Log In, and check out the *MTL* sim UI landing page. 
+ e. To log in to the sim UI, you will need your username and password. Once you enter your credentials, you'll be asked to select a World, and you'll see 2 options in the drop-down menu: a team world and an individual world. We'll describe these more next time. For now you should choose the one that ends with "ind" for individual. Click Log In, and check out the *MTL* sim UI landing page. 
 
-7. You won't be able to go further than that yet, but feel free to look around at what's on that page.
+ f. You won't be able to go further than that yet, but feel free to look around at what's on that page.
 
 
 ## Until next time, thank you for *Modeling to Learn*!
