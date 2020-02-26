@@ -23,7 +23,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Navigate to the SEE guide to show Done and Do
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:00-00:05** 
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#.)  **Done:** We logged in to mtl.how/sim and explored the results of the **Base Case (bc)** in the Expanded Outputs section to prepare for experiment 1. We reviewed our **hypothesis text** about the Base Case ___________________.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#.)  **Done:** We logged in to mtl.how/sim and explored the results of the **base case (bc)** in the Expanded Outputs section to prepare for experiment 1. We reviewed our **hypothesis text** about the base case ___________________.
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45">](#.) **Do:** We will **test a dynamic hypothesis** about ___________ **experiment 1,** comparing results against the bc in the MTL sim UI Outputs section.
 
 ## Emphasize team priority with the learning objectives on the screen
@@ -49,7 +49,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - [ ] [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150">](#.) Provide rationale for **always comparing simulation experiments against the Base Case** of no new decisions.
 - [ ] Review the **"d" decisions text** regarding the **team consensus** about **specific values** _______________ the team would like to experiment with today.    
 
-## Bring session 07 "d" _decision_ text to be the _question_ text for experiment 1. Collapse and move Text to right, to use session 07 _causal complexity reveal (feedback loop)_ to revise _Base Case_ hypothesis for experiment 1.
+## Bring session 07 "d" _decision_ text to be the _question_ text for experiment 1. Collapse and move Text to right, to use session 07 _causal complexity reveal (feedback loop)_ to revise _s Case_ hypothesis for experiment 1.
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 - [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiment 1** 
@@ -65,10 +65,10 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - [ ] Hit the **Green Run Button**!
 - [ ] Go to the **Expanded Outputs** section and **Save** (without resetting) our run. 
 
-## Compare **Base Case** and **experiment 1** output charts of the _specific variables_ and _values_ related to the team's highest priority need ________________[output variable]
+## Compare **base case** and **experiment 1** output charts of the _specific variables_ and _values_ related to the team's highest priority need ________________[output variable]
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:40-00:50 - Team Priority**__________________
 - [ ] Enter team **findings text** about the results for **variables related to their highest priority need**? 
-- [ ] Describe how **Difference between Base Case and Experiment System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority in the *Our Findings* textbox
+- [ ] Describe how **Difference between base case and Experiment System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority in the *Our Findings* textbox
 - [ ] **Decisions:** Based on what the team learned, what will the team **decide to do in clinical practice** (if anything) and/or:
 - [ ] **Decisions:** What **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn next?
 
