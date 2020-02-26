@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Facilitator Say"
 author: "Team PSD"
-date: "RH Oct 18 2019 Edited by Rita 24 January 2020 Ed Jane 24Feb2020"
+date: "RH Oct 18 2019 Edited by Rita 24 January 2020 Rita Edited by 18 2020, Ed Jane 24Feb2020""
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -71,8 +71,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
        + In Care Coordination (CC), you can compare multiple experiments and look at things like how Overwork Affects No-Shows and how you Balance New and Existing Patients.
 
-       + In Medication Management (MM) you can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for your providers with and without x-waivers.
-
+       + In Medication Management (MM) you can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for your providers with and without x-waivers.^
        + In Psychotherapy (PSY), you can look at different patterns of engagement that patients may follow. In the team data table for PSY, you can pull up charts to see a profile of the team's historical patient engagement pattern; and in the Outputs section you can look at the Sankey diagram to compare patient engagement patterns and the associated appointment usage for different experiments.
 
        + In the Aggregate (AGG) module, you can test hypotheses about your overall mix of services. The unique feature here is that in Outputs, you can choose to compare either different experiments (as you can in all the modules), or you can compare the effects of a given experiment across the different services. 
