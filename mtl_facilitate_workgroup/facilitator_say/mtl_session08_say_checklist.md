@@ -49,7 +49,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - [ ] [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150">](#.) Provide rationale for **always comparing simulation experiments against the Base Case** of no new decisions.
 - [ ] Review the **"d" decisions text** regarding the **team consensus** about **specific values** _______________ the team would like to experiment with today.    
 
-## Bring session 07 "d" _decision_ text to be the _question_ text for experiment 1. Collapse and move Text to right, to use session 07 _causal complexity reveal (feedback loop)_ to revise _s Case_ hypothesis for experiment 1.
+## Bring session 07 "d" _decision_ text to be the _question_ text for experiment 1. Collapse and move Text to right, to use session 07 _causal complexity reveal (feedback loop)_ to revise _base case_ hypothesis for experiment 1.
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 - [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiment 1** 
