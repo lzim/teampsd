@@ -96,7 +96,7 @@ Rank | Data | Displays
 ___ | Diag | Primary diagnoses only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have on primary diagnosis. For more detail, open up the data UI.)
 ___ | Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
-___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
+___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
 
 #### To sum up, there are three ways to view each set of data:  
 1. **Counts per month:** countDiag, countEnc, countHF, and countMeas;  
@@ -176,10 +176,10 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 - **What stands out to you about ________________________________**[fill-in team vision]**?  
   
 - **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
-    [Prepare in advance, but ask this as an open-ended quesiton]?  
+    [Prepare in advance, but ask this as an open-ended question]?  
   
 - **What is most surprising?**  
-    [Prepare in advance, but ask this as an open-ended quesiton]?  
+    [Prepare in advance, but ask this as an open-ended question]?  
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
 
@@ -187,7 +187,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
   
-- Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
+- Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
   
 - Providers can filter to find specific patients, or produce reports.  
   
@@ -207,7 +207,7 @@ Keep an eye on time |  |  |
   
 - Are there services that have been **increasing over time?** 
   
-- Are there services that have been **descreasing over time?**  
+- Are there services that have been **decreasing over time?**  
   
 - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
 
