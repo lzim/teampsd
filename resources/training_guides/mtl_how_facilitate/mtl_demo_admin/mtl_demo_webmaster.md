@@ -118,7 +118,8 @@ Demo users self-register and are given an access token with a 14-day expiration 
    a. The length of “Remaining Days to Expired” of any user can be adjusted in this section; *However, the field cannot be adjusted once it has passed the expiration date.*  
    b. Any demo user with unexpired access can be assigned a course code. *A course code must be registered in the course_code.xlsx spreadsheet in the Dynamic Data folder in Epicenter.*  
    c. A list of Demo users can be exported to a spreadsheet using the “Export” button.  
-   d. Any number of users can be selected and deleted from the record. 
+   d. Any number of users can be selected and deleted from the record.
+   e. Before a user can re-register, **they must be deleted as an End User in Epicenter.** 
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/WM1-8.png) 
 WM1-8
@@ -200,7 +201,6 @@ _There is no checklist provided for this module._
 
 1. The most common error on this page is to forget to click the Check button after entering text.  This is very discouraging, especially with longer paragraph.  Recommend editing text in MS-Notepad or related word processor prior to uploading into text fields.
 
-
 2. There are many errors associated with graphics files:
 
    - The graphics file has the wrong extension in the name.  For example, the name says samplefile.jpg, when it is really samplefile.png. 
@@ -208,6 +208,7 @@ _There is no checklist provided for this module._
 3. Admins will attempt to add more days to a demo account after the account has expired.
 4. Admins will forget to update the course code in the course_code.xlsx spreadsheet.
 5. Admins will incorrectly enter the course code in the course_code.xlsx spreadsheet. 
+6. When a Demo user account expires, they must be removed as an End User from Epicenter before they can re-register.
 
 ## Training Record: 
 
@@ -227,7 +228,7 @@ _There is no checklist provided for this module._
 2. Create a new section in the resources of the MTL DEMO website (Test instance).
 3. Properly link the graphics file to the new section.
 4. Add the text in the text field and,
-4. Embed a link in the text with the title, “THE GREATEST TITLE”
+5. Embed a link in the text with the title, “THE GREATEST TITLE”
 
 
 Completed on: ________________ with _________________________ 
