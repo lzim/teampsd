@@ -15,7 +15,7 @@ output:
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](#.)  
-### **Disclaimer:** If you are a self-directed learner, then some of the details in the guides may not apply to you.  These guides were developed for Facilitated _Modelling to Learn_ Live Team Meetings.  
+### **Disclaimer:** If you are a self-directed learner, then some of the details in the guides may not apply to you.  These guides were developed for Facilitated _Modeling to Learn_ Live Team Meetings.  
 # MTL Live Session 11
 
 # Today we're modeling to learn how to make future team decisions.
