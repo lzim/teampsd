@@ -13,20 +13,20 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
-     height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md)
+     height = "175" width = "290">](#DontLink)
 
-# [MTL Red Part 1](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md "MTL Live Session 02")
+# MTL Red Part 1
 
 # Today we're modeling to learn from patient data and team trends.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](DontLink) **Do** |
 | --- | --- |  
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the splash page.  <img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/data_ui_login.gif" height="200px" width="350px" />  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data. <img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/session2_data_ui_2.gif" height="200px" width='400px'/>|  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the splash page.  <img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/data_ui_login.gif" height="200px" width="350px" />  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data. [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/session2_data_ui_2.gif" height="200px" width='400px'/>](#DontLink)|  
  
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink) 
 
 ## Learning Objectives
 
@@ -41,10 +41,10 @@ output:
 ## *MTL* on BISL
 
 ### 1. Using an Internet Explorer browser, go to mtl.how/data. First select your VISN and then select your facility.
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)  
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)](#DontLink)  
 
 ### 2. Explore the information available in the BISL Sharepoint splash page.
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_splashpage.gif)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_splashpage.gif)](#DontLink)
 
 - Click on the View dropdown. What View options are there and what do they mean? Hints:
   - Count: Aggregate Data for Viz trends
@@ -63,7 +63,7 @@ output:
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 - Select your station using the control tab. If you have any issues with permissions, TeamPSD can help you.
 - Click "Get Clinic List" and it will pull in clinics for your facility.
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)  
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)](#DontLink)  
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
@@ -79,7 +79,7 @@ output:
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#DontLink)
 
 ### 6. Click to view the "viz" tabs, which show team trends.
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
@@ -87,7 +87,7 @@ output:
 - What is most important to you to check out first?
 - What is most surprising?
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)
 
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.
 - Patients who have requested restricted access to their information have asterisks (****) in Columns F & G. If you are a VA provider, you can still identify patients from Column H.
@@ -101,7 +101,7 @@ output:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session02/s02_learner/mtl_session02_see.md) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)| 
 
