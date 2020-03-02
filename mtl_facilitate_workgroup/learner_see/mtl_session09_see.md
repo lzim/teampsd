@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Learner See"
 author: "Team PSD"
-date: "RH Oct 16 2019 Edited by Rita 24 January 2020"
+date: "Edited by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
