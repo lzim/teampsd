@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1"
 author: "Team PSD"
-date: "Edited By Anthony Pichardo February 5,2020 | September 2018 Edited by Rita 24 January 2020"
+date: "Edited RH Jan 24 2020 | Anthony Pichardo February 5,2020 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,10 +13,8 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontLink)
-
-# MTL Live Session 01
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
+     height = "270" width = "590">](#DontLink)  
 
 ## Today we're modeling to learn how to align our team vision.
 

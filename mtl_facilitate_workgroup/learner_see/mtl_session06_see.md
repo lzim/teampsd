@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Learner See"
 author: "Team PSD"
-date: "Edited Oct 16 2019 Edited by Rita 24 January 2020 Edited by AP Feb 5 2020"
+date: "Edited Oct 16 2019 | RH Jan 24 2020 | AP Feb 5 2020 }RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,9 +13,10 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontLink)  
 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
+     height = "270" width = "590">](#DontLink)  
+**Disclaimer**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 # MTL Live Session 06
 
 # Today we're modeling to learn how to tell a systems story.

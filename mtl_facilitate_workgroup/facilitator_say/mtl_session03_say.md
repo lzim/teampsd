@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Facilitator Say"
 author: "Team PSD"
-date: "SP 2019 oct 21; Rita 24Jan2020; Jane 02Feb20202; AP 2020 Feb 5"
+date: "SP 2019 oct 21| RH 24 Jan2020| Jane 02Feb20202 |  AP 2020 Feb 5 | RH March 2 2020|"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -12,9 +12,8 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
-
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontLink)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s03_teamdata_title.png"
+     height = "270" width = "590">](#DontLink)  
 
 # MTL Live Session 03
 

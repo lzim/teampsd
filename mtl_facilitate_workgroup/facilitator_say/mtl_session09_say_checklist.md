@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "Edited by Anthony 5 February 2020, Edited by DK 14 Feb 2020 Edited Rita Feb18 2020"
+date: "Edited by Anthony 5 February 2020, Edited by DK 14 Feb 2020 | RH Feb 18 2020 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,9 +13,9 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontClick)  
-
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s09_compare_alternatives_title.png"
+     height = "270" width = "590">](#DontLink)
+     
 # MTL Live Session 09 Facilitator Say Checklist
 
 # Today we're modeling to learn how to compare alternatives.  
