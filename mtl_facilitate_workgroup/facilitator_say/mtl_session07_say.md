@@ -35,7 +35,9 @@ Time Stamp | Prioritize tailored team learning | Script
 
 
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "50" width = "50" style ="display: inline-block"/>](#.) **Learning Objectives:**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
+
+## Learning Objectives:
 
 1. Describe the base case of no new decisions in your team. 
 
