@@ -12,10 +12,9 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
-
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#.)  
-
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s09_compare_alternatives_title.png"
+     height = "270" width = "590">](#.)  
+**Disclaimer**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 # MTL Live Session 09
 
 # Today we're modeling to learn how to compare alternatives.
