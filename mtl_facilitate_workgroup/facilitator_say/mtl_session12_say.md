@@ -12,9 +12,9 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s12_team_plan_title.png"
+height = "270" width = "590">](#DontLink)   
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#.)    
 
 # MTL Live Session 12
 
