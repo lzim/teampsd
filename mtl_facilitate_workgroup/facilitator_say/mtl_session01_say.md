@@ -14,7 +14,7 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
-     height = "270" width = "590">](#DontLink)  
+     height = "175" width = "420">](#DontLink)  
 
 ## Today we're modeling to learn how to align our team vision.
 
