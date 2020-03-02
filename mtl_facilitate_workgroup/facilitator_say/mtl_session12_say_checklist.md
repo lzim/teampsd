@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Faciliator Say Checklist"
 author: "Team PSD"
-date: "Feb 14, 2020 Edited by DK"
+date: "Feb 14, 2020 Edited by DK | RH March 2 2020"
 output: 
   github_document: default
   html_document: default
@@ -11,10 +11,8 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
-
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
-
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s12_team_plan_title.png"
+height = "270" width = "590">](#DontLink)   
 
 # MTL Live Session 12 Facilitator Say Checklist
 
