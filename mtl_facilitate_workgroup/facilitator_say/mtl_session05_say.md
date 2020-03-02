@@ -14,7 +14,7 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s05_teamworld_title.png"
-     height = "270" width = "590">](#DontLink)  
+     height = "175" width = "420">](#DontLink)  
 
 # Session 05
 # Today we're modeling to learn how to log in to our team world.
