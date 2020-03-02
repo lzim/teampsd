@@ -13,11 +13,10 @@ output:
   powerpoint_presentation: default
 ---
 
-<[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
      height = "270" width = "590">](#DontLink)
 
 # MTL Live Session 01 Facilitator Checklist
-(https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session01_see.Rmd "MTL Live Session 01")
 
 ## Today we're modeling to learn how to align our team vision.
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to align our team vision
