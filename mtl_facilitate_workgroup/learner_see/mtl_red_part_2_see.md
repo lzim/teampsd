@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: Data UI and team data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| We will examine calculated team parameters fo CC, MM, PSY, AGG, and SP. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data_ui and team_data_table. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| We will examine calculated team parameters fo CC, MM, PSY, AGG, and SP. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)|
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](https://github.com/lzim/mtl/blob/master/session03/s03_learner/mtl_session03_see.md)
@@ -62,7 +62,7 @@ output:
 - If so, which ones? Open the data UI to examine your question.
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
-- If so, what is surprising? Does the estimation definition (second to last columnn, text in red) help you to interpret the variable value?
+- If so, what is surprising? Does the estimation definition (second to last column, text in red) help you to interpret the variable value?
 
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
 - If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
