@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "Created February 7, 2020 DK"
+date: "Created February 7, 2020 DK \ RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,8 +13,8 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+<[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
+     height = "270" width = "590">](#DontLink)
 
 # MTL Live Session 01 Facilitator Checklist
 (https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session01_see.Rmd "MTL Live Session 01")
