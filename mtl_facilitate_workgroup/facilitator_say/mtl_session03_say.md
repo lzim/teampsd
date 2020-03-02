@@ -57,7 +57,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.  
 - Scroll down to your team folder. You should have two folders: data_ui and team_data_sim_ui. Click on the "data_ui" folder and open the Excel file. 
 
-### Clicking the "Get Team Data Table for Sim UI" button produces a table of descriptive team data.
+### Clicking the "Create Team Data Table" button produces a table of descriptive team data.
 
 #### You already have a fresh Team Data Table for Sim UI file to work with in the team_data_sim_ui folder.
 - It takes some time to generate a team data table for all modules using your team's data.
