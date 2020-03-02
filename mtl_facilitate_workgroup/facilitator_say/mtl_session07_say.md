@@ -14,7 +14,7 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s07_base_case_title.png"
-     height = "270" width = "590">](#DontLink.)  
+     height = "270" width = "590">](#DontLink)  
 
 # MTL Live Session 07
 
