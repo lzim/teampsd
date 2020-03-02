@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Learner See"
 author: "Team PSD"
-date: "Edited by: AP Feb 5, 2020 | Rita 24 January 2020 | RH Oct 16, 2019"
+date: "Edited by: RH Oct 16, 2019 | RH 24 Jan 2020 | AP Feb 5, 2020 | RH March 2 2020 "
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,8 +13,8 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontLink)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s05_teamworld_title.png"
+     height = "270" width = "590">](#DontLink)  
 
 # MTL Live Session 05
 
