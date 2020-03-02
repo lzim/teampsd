@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Facilitator Say"
 author: "Edited TR"
-date: "RH Oct 18 2019 Edited by Rita 24 January 2020 Ed Jane 14Feb20 Ed Jane 16Feb20"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | Ed Jane 14Feb20 | Ed Jane 16Feb20 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,8 +13,8 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#.)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s07_base_case_title.png"
+     height = "270" width = "590">](#DontLink.)  
 
 # MTL Live Session 07
 
