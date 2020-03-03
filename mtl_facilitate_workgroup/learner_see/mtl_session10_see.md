@@ -55,8 +55,6 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
 1.	Log in to mtl.how/sim and join the current session.
 
-    + Log in to your individual or team world at mtl.how/sim.
-
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)
 
    - If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
