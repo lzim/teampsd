@@ -99,6 +99,7 @@ d. Click Play. (For the Care Coordination and Medication Management (CC & MM) mo
 e. You see the same information and buttons across the top as the Home page.   
   
 f. There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.  
+
 g. To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.    
 
 h. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
