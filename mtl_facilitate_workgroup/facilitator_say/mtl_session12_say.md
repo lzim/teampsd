@@ -63,12 +63,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### 5. Lead person(s) and time frame for the above actions: _______________ 
 
-### 6. Celebrate completion of *Modeling to Learn*!  
-  
-  
-# MTL RESOURCES
+### 6. Celebrate completion of *Modeling to Learn*!    
 
-   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  
+
+# MTL RESOURCES  
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  
       
  + You will continue to have access to the sim UI at mtl.how/sim. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.  
 
@@ -105,6 +104,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 + It's great if you make a concrete action plan, identify a point person, and call on us as needed.
 
 ### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review:  
+
 
 
 ## Done and Do (15 minutes)
