@@ -87,37 +87,40 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
   
    g. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!    
   
-## 4. Log in to the sim UI.  
-    a. Start a New Session and review the Sim UI Main Page.   
-   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
-    b. Select the module the team decided to use.  
+    
+## 4. Log in to the sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
+   a. Start a New Session and review the Sim UI Main Page.   
+   
+   b. Select the module the team decided to use.  
+   
+   c. Select the team data you just uploaded.  
+   
+   d. Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)   
+   
+   e. You see the same information and buttons across the top as the Home page.   
   
-    c. Select the team data you just uploaded.  
-  
-    d. Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)   
-  
-    e. You see the same information and buttons across the top as the Home page.   
-  
-    f. There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.  
-    g. To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.  
+   f. There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.  
+   g. To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.  
 
-    h. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
+   h. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
 
-## 5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue header  
-    a. Record the team's high-level learning Question. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]
-    b. Open and expand the Outputs and Text section if you need to.  
+## 5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue header   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]  
+   a. Record the team's high-level learning Question.
+   
+   b. Open and expand the Outputs and Text section if you need to.  
 
-    c. Type your question about _________________________________ into the Question box.  
+   c. Type your question about _________________________________ into the Question box.  
 
-    d. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.  
+   d. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.  
 
-## 6. Start a New Session    
-    a. Check out the Team Data Table [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]   
-    b. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar.  
+## 6. Start a New Session [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
+   a. Check out the Team Data Table  
+    
+   b. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar.  
 
-    c. The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
+   c. The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
 
-    d. Click on the "i" in the red circle next to Team Data and read the "i" information. Throughout the Sim UI, we use "i" symbols for information pop-ups. Here, the "i" information is telling you how the data that you record, that you reviewed and chose in the data UI, are used to calculate or estimate the values in this Team Data Table.  
+   d. Click on the "i" in the red circle next to Team Data and read the "i" information. Throughout the Sim UI, we use "i" symbols for information pop-ups. Here, the "i" information is telling you how the data that you record, that you reviewed and chose in the data UI, are used to calculate or estimate the values in this Team Data Table.  
 
    e. What types of decisions does the team make that affect these variables?  
 
