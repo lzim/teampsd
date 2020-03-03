@@ -101,8 +101,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 1. **Counts per month:** countDiag, countEnc, countHF, and countMeas;  
 2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas 
 3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas. 
-         
-  + NOTE: If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data*, use the Refresh Data command to update the report and click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
+     
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:20-00:25___
 
@@ -133,9 +132,6 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ### 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
-- Select your station at the Control tab: Click on **Control tab.** Click on the dropdown next to the word **"Station"** and click on your station (or sta3n) number. If you have any issues with permissions, Team PSD can help you.  
-  
--  Click **"Get Clinic List"** and it will pull in clinics for that facility/station.
    
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. 
 
@@ -163,7 +159,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
 
-- We will look at the **"Create Team Data Table for Sim UI"** button and its associated tab **"SPReferrals"** next time.
+- We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time.
 
 ### 6. Click to view the "viz" tabs, which show team trends.  
 
