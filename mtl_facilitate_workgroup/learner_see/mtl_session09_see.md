@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Learner See"
 author: "Team PSD"
-date: "Edited by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020"
+date: "Edited by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -47,7 +47,7 @@ output:
 
 2.	If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
-3.	If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
+3.	If you logged into your *individual world*, review the data files you have uploaded in the Team Data Dropdown Maintenance section and make sure you have the data file you want.
 
 4.	You can *Join Current Session* or *Start a New Session* in the module. If you *Start a New Session* select the team data file you’d like to use.
 
