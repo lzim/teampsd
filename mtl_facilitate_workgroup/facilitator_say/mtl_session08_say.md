@@ -47,7 +47,10 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### Let's get started! Who wants to drive today?
 
-## In-session Exercise (30 minutes): Running an experiment
+## In-session Exercise (30 minutes)
+
+## Running an experiment
+
 Providers know there are a lot of interdependencies that make improving care in the clinic challenging. Often, because we’re embedded in such a large care system, we may be “flying blind” with regard to how our own care decisions fit within all that is going on locally. We can use simulation to help reveal the connections and figure out which changes work, which don't, and which are sustainable, a lot faster and safer than in the real world.
 
 Time Stamp | Prioritize tailored team learning | Script
