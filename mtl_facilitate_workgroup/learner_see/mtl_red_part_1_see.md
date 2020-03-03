@@ -74,7 +74,7 @@ output:
 
 ### 5. To view your team patient data and your team trends, click "Get-Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with in your team data folder.** 
-- We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
+- We will learn about the "Create Team Data Table" button in our next team meeting.
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
@@ -103,5 +103,5 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data table. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)| 
 
