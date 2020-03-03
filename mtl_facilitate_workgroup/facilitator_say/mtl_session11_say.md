@@ -54,7 +54,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
   + Throughout *Modeling to Learn*, we've made lots of team decisions. Let's review them and see what they mean for future decisions. What shared vision for *Modeling to Learn* did the team decide on in Session 1? We've tied our experiments and decisions throughout *MTL* to that vision.
    
 ### 2. What team need and questions did we identify
-In sessions 2 and 3 we explored team data and trends using the *MTL* data UI. We learned how to find an individual patient, how to visualize trends over time for our own care or the teams' as a whole. And we built our team data file for use in the sim. In session 4 we completed the *MTL* Menu to prioritize our team's need. What questions did we identify and study over the next 5 sessions, using the sim UI to better understand the **causal systems story** of our team's need over time? 
++ In sessions 2 and 3 we explored team data and trends using the *MTL* data UI. We learned how to find an individual patient, how to visualize trends over time for our own care or the teams' as a whole. And we built our team data file for use in the sim. In session 4 we completed the *MTL* Menu to prioritize our team's need. What questions did we identify and study over the next 5 sessions, using the sim UI to better understand the **causal systems story** of our team's need over time? 
 
 ### 3. What hypotheses did we test?
     
