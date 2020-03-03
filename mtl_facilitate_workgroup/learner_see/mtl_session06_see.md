@@ -54,8 +54,8 @@ output:
 
 1. Over what timeframe does an experiment run?  
 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the *Rates* into the chat box.  
-3. Describe in one sentence what happens in the diagram as you click to Reveal Complexity.  
-4. What is the significance of the variables in the red boxes?  
+3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"  
+4. What is the significance of the variables in the "red boxes"?  
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)](#DontLink)  
 
