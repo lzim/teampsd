@@ -58,10 +58,10 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
 ## Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
 
 
-1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation.  
+1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation.    
 a. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.  
  
-b. Navigate to the team_data_sim_ui folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.    
+b. Navigate to the team_data_sim_ui folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.      
 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.  
 a. Go to the sim UI and upload the data file [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
    
