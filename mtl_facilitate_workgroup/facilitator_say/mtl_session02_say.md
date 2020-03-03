@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 02 - Facilitator Say"
 author: "Team PSD"
-date: " Edited by SP 2019 Oct 21 2019 | RH Jan 24 2020 | AP 2020 Feb 5 | RH March 2 2020 "
+date: " Edited by SP 2019 Oct 21 2019 | RH Jan 24 2020 | AP 2020 Feb 5 | RH March 2 2020 | RH march 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -64,7 +64,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 
-### 1. Using an Internet Explorer browser, navigate to mtl.how/data.  
+### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
 
 - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
 
@@ -75,7 +75,9 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
     + A web version of Excel will open on your screen, showing your facility's data in charts.  
 
-### 2. This splashpage is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
+### 2.  Explore the information available in the BISL Sharepoint splash page.
+
+- This splashpage is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
 
 - There are two sets of scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls through the graphs on the page.
 
@@ -131,7 +133,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
 
-### 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
 - Select your station at the Control tab: Click on **Control tab.** Click on the dropdown next to the word **"Station"** and click on your station (or sta3n) number. If you have any issues with permissions, Team PSD can help you.  
   
@@ -151,7 +153,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
  
 - In the future, if you want to quickly get the same list of clinics again, you can click on the gray "Get previous clinic list from last click of Get Patient-level Data" button (Box B3) to add them to column A.
 
-### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." 
+### 5. To view your team patient data and your team trends click "Get-Patient-level Data." We will not do this in-session today.
 
 ## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.   
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
