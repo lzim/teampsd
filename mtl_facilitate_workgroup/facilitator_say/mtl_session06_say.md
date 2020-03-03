@@ -78,10 +78,14 @@ Navigate to Text section to pull up the Question from last time.
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 
 ### Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team.  
-1. Over what timeframe does an experiment run?
-2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.
-3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"
-4. What is the significance of the variables in the "red boxes"?
+
+### 1. Over what timeframe does an experiment run?
+
+### 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.
+
+### 3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"
+
+### 4. What is the significance of the variables in the "red boxes"?
 
 See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
 
