@@ -63,7 +63,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### 5. Lead person(s) and time frame for the above actions: _______________ 
 
-### 6. Celebrate completion of *Modeling to Learn*!
+### 6. Celebrate completion of *Modeling to Learn*!  
   
   
 # MTL RESOURCES
@@ -104,7 +104,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
    
 + It's great if you make a concrete action plan, identify a point person, and call on us as needed.
 
-### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review:
+### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review:  
 
 
 ## Done and Do (15 minutes)
