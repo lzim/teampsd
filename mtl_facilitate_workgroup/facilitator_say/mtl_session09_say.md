@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Facilitator Say"
 author: "Team PSD"
-date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | RH Feb 18 2020 | RH March 2 2020"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | RH Feb 18 2020 | RH March 2 2020 | RH march 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -50,23 +50,28 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **Review Past Experiment**
 
-1. Log in to your team world at mtl.how/sim.
+### 1. Log in to your individual or team world at mtl.how/sim.
 
-2. Now is a time you can review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
+### 2. Review your saved runs. Rename your saved runs if you feel you need to.
+  + Now is a time you can review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
-3. You can also review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
+### 3. Review the data files you have uploaded for use and make sure you have what you want.
+  + You can also review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
 
-4. Click to Join Current Session.
+### 4. You can Join Current Session or Start a New Session in the Aggregate module. If you Start a New Session select the team data file you’d like to use.
+  + Click to Join Current Session.
 
-5. To refresh your memory and pick up where we left off last time, select the experiment from the last session and check the box to include the text. Review those text fields and the charts. What did we learn last time?
+### 5. To refresh your memory and pick up where you left off last time, Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
 
 **Plan for Experiment 2**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
-6. To think further about what to test next and a hypothesis about the outcomes, minimize the Outputs and Text section so you can see both that and the model diagram. Study the systems story in the model diagram, and the data in the team data table. Decide together what change you want to experiment with that might give your team the desired result.
+### 6. Study the systems story on the model diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
+  + To think further about what to test next and a hypothesis about the outcomes, minimize the Outputs and Text section so you can see both that and the model diagram. Study the systems story in the model diagram, and the data in the team data table. Decide together what change you want to experiment with that might give your team the desired result.
 
-7. To create a new run, building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now. You can cut the text from the Our Decisions and move it to Our Question. Delete text in Our Findings. Now edit the team's question. It should clearly state a specific directional change in at least one variable over time. Ideally, the question will be framed as a comparison. For example, "As compared to Experiment 1 and the base case, could we increase/decrease ... over the next two years if we decide to..."
+### 7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
+  + To create a new run, building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now. You can cut the text from the Our Decisions and move it to Our Question. Delete text in Our Findings. Now edit the team's question. It should clearly state a specific directional change in at least one variable over time. Ideally, the question will be framed as a comparison. For example, "As compared to Experiment 1 and the base case, could we increase/decrease ... over the next two years if we decide to..."
   
      + **CC**: As compared to Experiment 1 and the base case, what will happen to the Starting Rate and New Patient Wait Time over the next two years, if we lengthen our team's average Return to Clinic Visit Interval (RVI), in units of weeks, by a certain amount?  
 
@@ -99,11 +104,12 @@ Now enter the team's hypothesis about the results. As we've discussed, research 
 
 **Run Experiment 2**  
 
-8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
+### 8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
+Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
 
   + Drag the Text Section to the left so you can open the **Experiment Section.** _As you adjust sliders up/down in the Experiments section_, refine the text in the Hypothesis box to reflect the new practice decisions to be tested, _and the expected relative differences that will be observed as compared to the Base Case and Experiment 1._ Move each slider named in the question to its desired value.
   
-9. Run and then Save (without resetting). Name this run according to the variables and values you set.
+### 9. Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
   
   + To name the run, open the Variable drop-down menu, scroll to the first variable you changed and click *Add*. This will insert an abbreviation of that variable into the experiment name. Next highlight and Add the value you set that variable to. Do the same to add the next altered variable to the name. When you're finished, click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.  
 
@@ -111,7 +117,8 @@ Now enter the team's hypothesis about the results. As we've discussed, research 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
-10. Compare Runs to see the how the current experiment differs from the base case and Experiment 1.
+### 10. Compare Runs to see the difference the between base case and the current experimental run.
+  + Compare Runs to see the how the current experiment differs from the base case and Experiment 1.
 
 + Prioritize review of _the expected relative differences as compared to the Base Case and Experiment 1._ in relation to the team's highest priority need. Expand the “Outputs” section to see the full Results Dashboard.  Charts for six key variables will be shown.  If other variables are needed, use the drop-down menu under any chart.  
 
@@ -133,7 +140,8 @@ Record your Findings. _As you review the model diagram_, type the findings and e
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
-11. Discuss what **new decisions** the team wants to test next. Ideally, the **highest leverage** and **most feasible (i.e., decisions that individual and the team have under their control)** experiments were tested in session 8 (Experiment 1) and session 9 (Experiment 2). Therefore, _to apply systems thinking_ in session 10, ask the team to consider a combination of experiments 1 and 2.  Ask the team to type in the Decisions box, _both_ 1) what they would like to experiment with next, and 2) any _new decisions they may make in their clinical practice based on what they learned._
+### 11. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run.  
+  + Discuss what **new decisions** the team wants to test next. Ideally, the **highest leverage** and **most feasible (i.e., decisions that individual and the team have under their control)** experiments were tested in session 8 (Experiment 1) and session 9 (Experiment 2). Therefore, _to apply systems thinking_ in session 10, ask the team to consider a combination of experiments 1 and 2.  Ask the team to type in the Decisions box, _both_ 1) what they would like to experiment with next, and 2) any _new decisions they may make in their clinical practice based on what they learned._
       
      + **CC**: We decided to try a combination of experiments 1 and 2. We will experiment with both increasing our overall Appointment Supply in care coordination and increasing our targeted Return Visit Interval for existing patients. As I meet with more stable patients, I will consider who may appropriately have a longer RVI, which may free me to see more new patients, and increase overall scheduling flexibility for all my patients. 
   
@@ -145,7 +153,8 @@ Record your Findings. _As you review the model diagram_, type the findings and e
   
      + **SP**: With this experiment, we have seen the impacts of increasing coordination and efficiency in stepping patients between settings, but without increasing quality of care. Next, let’s conduct a combined experiment, where we implement both measurement-based care and streamline stepping between GMH and PC/PCMHI. I can begin to collect standardized measures from more patients to guide my care decisions in our team, and between my team and other teams in our clinic.
 
-12. Save and Reset, and *Don't forget to log off the sim UI.*
+### 12. Save and Reset when ready.
+  +*Don't forget to log off the sim UI.*
 
 ### That's it for *Modeling to Learn* how to compare alternatives. Next is our Done/Do review.
 
