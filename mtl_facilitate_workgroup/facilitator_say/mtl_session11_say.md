@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 11 - Faciliator Say"
 author: "Team PSD"
-date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | Ed Jane 17Feb20 | RH Feb 18 2020 | RH March 2 2020"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | Ed Jane 17Feb20 | RH Feb 18 2020 | RH March 2 2020 | RH march 3 2020 "
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -46,23 +46,29 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### Let's get started:
 
-## In-session Exercise (30 minutes): Pulling together team learnings, decisions, and vision
+## In-session Exercise (30 minutes) 
+### Connect learning and decisions from experiments to original team vision, question, and need
+  + Pulling together team learnings, decisions, and vision
 
-1. Throughout *Modeling to Learn*, we've made lots of team decisions. Let's review them and see what they mean for future decisions. What shared vision for *Modeling to Learn* did the team decide on in Session 1? We've tied our experiments and decisions throughout *MTL* to that vision.
+### 1. What shared vision did the team decide on in session 1?
+  + Throughout *Modeling to Learn*, we've made lots of team decisions. Let's review them and see what they mean for future decisions. What shared vision for *Modeling to Learn* did the team decide on in Session 1? We've tied our experiments and decisions throughout *MTL* to that vision.
    
-2. In sessions 2 and 3 we explored team data and trends using the *MTL* data UI. We learned how to find an individual patient, how to visualize trends over time for our own care or the teams' as a whole. And we built our team data file for use in the sim. In session 4 we completed the *MTL* Menu to prioritize our team's need. What questions did we identify and study over the next 5 sessions, using the sim UI to better understand the **causal systems story** of our team's need over time? 
+### 2. What team need and questions did we identify
+In sessions 2 and 3 we explored team data and trends using the *MTL* data UI. We learned how to find an individual patient, how to visualize trends over time for our own care or the teams' as a whole. And we built our team data file for use in the sim. In session 4 we completed the *MTL* Menu to prioritize our team's need. What questions did we identify and study over the next 5 sessions, using the sim UI to better understand the **causal systems story** of our team's need over time? 
 
-3. What hypotheses did we test?
+### 3. What hypotheses did we test?
     
-4. Let's discuss what our Findings and Decisions mean for the team going forward. _As we discuss new individual and team practice decisions keep in mind the systems thinking rationale for **why** a practice decision would lead to desired outcomes over time._ As we discuss these questions consider **Complexity,** **Feedback,** and **System Behavior** over **Time.** What insights will we keep in mind as we make future clinic decisions? 
+### 4. What insights will we keep in mind as we make clinic decisions?
+  + Let's discuss what our Findings and Decisions mean for the team going forward. _As we discuss new individual and team practice decisions keep in mind the systems thinking rationale for **why** a practice decision would lead to desired outcomes over time._ As we discuss these questions consider **Complexity,** **Feedback,** and **System Behavior** over **Time.** What insights will we keep in mind as we make future clinic decisions? 
 
-5. What new decisions, approaches, or targets do we want to adopt in our team? Let's think about the key insights we've gotten about decisions that are within our control.
+### 5. What new approaches or targets do we want to focus on?
+  + What new decisions, approaches, or targets do we want to adopt in our team? Let's think about the key insights we've gotten about decisions that are within our control.
 
-6. What concrete actions will the team take in the real world?
+### 6. What concrete actions will the team take in the real world?
 
-7. How do these decisions align with the team's shared vision, question and needs?
+### 7. How do these decisions align with the team's shared vision, question and needs?
 
-8. What data will we watch to see how we're doing?
+### 8. What data will we watch to see how we're doing?
     
     
 ### That's it for _Modeling to Learn_ how to make _future team decisions_. Next is our Done/Do review.
