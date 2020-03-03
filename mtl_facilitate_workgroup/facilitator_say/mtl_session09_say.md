@@ -47,7 +47,8 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### Let's get started:
 
 ## In-session Exercise (30 minutes)
-  + Comparing experiments 1 and 2
+  + Comparing experiments 1 and 2  
+  
 
 ## **Running An Experiment**
   + Review Past Experiment
