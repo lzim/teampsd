@@ -104,8 +104,7 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
     h. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
 
 ## 5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue header  
-    a. Record the team's high-level learning Question.   
-   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]
+    a. Record the team's high-level learning Question. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]
     b. Open and expand the Outputs and Text section if you need to.  
 
     c. Type your question about _________________________________ into the Question box.  
@@ -113,8 +112,7 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
     d. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.  
 
 ## 6. Start a New Session    
-    a. Check out the Team Data Table 
-   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]   
+    a. Check out the Team Data Table [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]   
     b. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar.  
 
     c. The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
