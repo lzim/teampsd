@@ -46,9 +46,11 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### Let's get started:
 
-## In-session Exercise (30 minutes): Comparing experiments 1 and 2
+## In-session Exercise (30 minutes)
+  + Comparing experiments 1 and 2
 
-**Review Past Experiment**
+**Running An Experiment**
+  + Review Past Experiment
 
 ### 1. Log in to your individual or team world at mtl.how/sim.
 
