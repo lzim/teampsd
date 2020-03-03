@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 - Learner See"
 author: "Team PSD"
-date: "Edited by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020"
+date: "Edited by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -59,7 +59,7 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
    - If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
-   - If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
+   - If you logged into your *individual world*, review the data files you have uploaded in the Team Data Dropdown Maintenance section and make sure you have the data file you want.
    
 2. From the experiment tile, pull up the prior experiment and click the red "Go" button.
 
