@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | RH Jan 24 2020 | Aug 2019 | RH March 2 2020"
+date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | RH Jan 24 2020 | Aug 2019 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -77,7 +77,7 @@ a. At the top left is the *MTL* logo. That’s on each page, and it works as a H
 
 b. Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).
    
-c. Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.
+c. Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.
   
 d. If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.
 
