@@ -153,7 +153,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
  
 - In the future, if you want to quickly get the same list of clinics again, you can click on the gray "Get previous clinic list from last click of Get Patient-level Data" button (Box B3) to add them to column A.
 
-### 5. To view your team patient data and your team trends click "Get-Patient-level Data." We will not do this in-session today.
+### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
 ## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.   
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
