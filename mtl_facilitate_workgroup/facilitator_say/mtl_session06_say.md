@@ -103,7 +103,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **Starting Point: Main model section with no additional complexities revealed.**
 
-+ ***Tip:** If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.**  
++ **_Tip_:** _If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view_. 
 
 + **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
 
