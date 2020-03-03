@@ -191,7 +191,7 @@ ___Example of chart review for SP:___
  + **SP** – As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years. The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place. However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate. Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year. However, because there have been no changes in Primary Care, the number of patients waiting to step down to PC hs increased substantially – from about 110 to 170, who are all undoubtedly waiting significantly longer than before.
 
 ### 11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run.  
- + based on what you saw here, and what further experiments you want to run in the Sim. 
+ + Based on what you saw here, and what further experiments you want to run in the Sim. 
  + Type those into the *Our Decision* text box.
 
  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Decisions:** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
