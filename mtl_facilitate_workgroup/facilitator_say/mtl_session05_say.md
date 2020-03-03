@@ -84,76 +84,72 @@ d. Scanning across that row you see your Team name followed by six navigation ic
   
 e. Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
   
- f. If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
+f. If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
   
- g. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!    
+g. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!       
+4. Log in to the sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
+a. Start a New Session and review the Sim UI Main Page.   
+   
+b. Select the module the team decided to use.  
+   
+c. Select the team data you just uploaded.  
+   
+d. Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)   
+   
+e. You see the same information and buttons across the top as the Home page.   
   
+f. There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.  
+g. To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.  
+
+h. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
+
+5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue header   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]  
+a. Record the team's high-level learning Question.
+   
+b. Open and expand the Outputs and Text section if you need to.  
+
+c. Type your question about _________________________________ into the Question box.  
+
+d. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.  
+
+6. Start a New Session [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
+a. Check out the Team Data Table  
     
-## 4. Log in to the sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
-   a. Start a New Session and review the Sim UI Main Page.   
-   
-   b. Select the module the team decided to use.  
-   
-   c. Select the team data you just uploaded.  
-   
-   d. Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)   
-   
-   e. You see the same information and buttons across the top as the Home page.   
-  
-   f. There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.  
-   g. To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.  
+b. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar.  
 
-   h. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
+c. The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
 
-## 5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue header   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]  
-   a. Record the team's high-level learning Question.
-   
-   b. Open and expand the Outputs and Text section if you need to.  
+d. Click on the "i" in the red circle next to Team Data and read the "i" information. Throughout the Sim UI, we use "i" symbols for information pop-ups. Here, the "i" information is telling you how the data that you record, that you reviewed and chose in the data UI, are used to calculate or estimate the values in this Team Data Table.  
 
-   c. Type your question about _________________________________ into the Question box.  
+e. What types of decisions does the team make that affect these variables?  
 
-   d. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.  
+f. Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice ___________________________________________  
 
-## 6. Start a New Session [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
-   a. Check out the Team Data Table  
-    
-   b. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar.  
 
-   c. The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
+7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).  
+a. Log out of the sim UI.   
 
-   d. Click on the "i" in the red circle next to Team Data and read the "i" information. Throughout the Sim UI, we use "i" symbols for information pop-ups. Here, the "i" information is telling you how the data that you record, that you reviewed and chose in the data UI, are used to calculate or estimate the values in this Team Data Table.  
+8. Expand the Experiments section and read the "i" information for the Team Data Table.  
+a. Open the section by clicking on the white down arrow in the right corner of the blue bar.  
 
-   e. What types of decisions does the team make that affect these variables?  
+b. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.  
 
-   f. Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice ___________________________________________  
+c. What types of decisions does the team make that affect these variables?  
 
-## 7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).  
+d. How do the values in this table strike you? Do they line up with how you think things really are?  
 
-   a. Log out of the sim UI.   
+9. Find the Team Data Table variables in the system diagram at the left.  
+a. True Missed Appointments %  
 
-## 8. Expand the Experiments section and read the "i" information for the Team Data Table.  
+b. Appointment Supply  
 
-   a. Open the section by clicking on the white down arrow in the right corner of the blue bar.  
+c. Return Visit Interval  
 
-   b. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.  
+d. Engagement Duration  
 
-   c. What types of decisions does the team make that affect these variables?  
+e. New Patient Start Rate (AGG)  
 
-   d. How do the values in this table strike you? Do they line up with how you think things really are?  
-
-## 9. Find the Team Data Table variables in the system diagram at the left.  
-
-   a. True Missed Appointments %  
-
-   b. Appointment Supply  
-
-   c. Return Visit Interval  
-
-   d. Engagement Duration  
-
-   e. New Patient Start Rate (AGG)  
-
-## 10. Log out of the Sim UI  
+10. Log out of the Sim UI  
 
 ### That's it for _Modeling to Learn_ how to log in to our team world.   
 
