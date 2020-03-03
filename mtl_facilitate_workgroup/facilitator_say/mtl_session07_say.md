@@ -59,7 +59,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 ### 2. Join Current Session to pick up where the team left off.
 
-**During the time it takes the team lead to start screen share and navigate to the sim, present the purpose of the exercise:**
++ During the time it takes the team lead to start screen share and navigate to the sim, present the purpose of the exercise:
 
 + The purpose for this activity is to test the hypothesis you developed in the last session.   
 By the end, the team should be able to run an experiment in the SimUI, explore results, and be able to explain the systems causes that generated those results.
