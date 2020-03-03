@@ -61,26 +61,26 @@ Time Stamp | Prioritize tailored team learning | Script
 
 **During the time it takes the team lead to start screen share and navigate to the sim, present the purpose of the exercise:**
 
-The purpose for this activity is to test the hypothesis you developed in the last session.   
++ The purpose for this activity is to test the hypothesis you developed in the last session.   
 By the end, the team should be able to run an experiment in the SimUI, explore results, and be able to explain the systems causes that generated those results.
 
-"In the last session, you all created a question about your team's top improvement priority and the Systems Story that surrounds that issue.  Today we're going to make that story come alive -- we are going to run a simulation, and see the impact of these system causes over the next two years, as as function of our local capacities and constrains, as estimated with our local data.  The first step in learning from simulation is to run a base case or “status quo” simulation against which all future experiments will be compared.  Last time, you hypothesized that _____________ (include specific variables, loops, data)."
++ "In the last session, you all created a question about your team's top improvement priority and the Systems Story that surrounds that issue.  Today we're going to make that story come alive -- we are going to run a simulation, and see the impact of these system causes over the next two years, as as function of our local capacities and constrains, as estimated with our local data.  The first step in learning from simulation is to run a base case or “status quo” simulation against which all future experiments will be compared.  Last time, you hypothesized that _____________ (include specific variables, loops, data)."
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#.)
 
 ### 3. Orient yourself to the main page: Team Name (when you're in your individual world, the team name is your name); selected module (CC, MM, PSY, AGG, or SP); selected data file. All slider settings in the Experiments section are at Base Case or default values.
 
-Now, in the window floating on the right side of the screen, **add** to the team's question about the Base Case in the *Our Question* text box. Here you'll briefly describe what your team wants to learn from this experiment of no new decisions. 
++ Now, in the window floating on the right side of the screen, **add** to the team's question about the Base Case in the *Our Question* text box. Here you'll briefly describe what your team wants to learn from this experiment of no new decisions. 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Question to add:** What happens to ______________ (from the team's priority) if we make no new decisions?
 
-There is important research showing that is not likely to improve learning to click around and run experiments without stating what you *expect* will happen over the next two years before you run the simulation. 
++ There is important research showing that is not likely to improve learning to click around and run experiments without stating what you *expect* will happen over the next two years before you run the simulation. 
 
-In order to benefit from experiential simulation learning, you need to create a hypothesis -- an if/then statement about what you believe will happen over the next two years as a consequence of your change. Through this process you can be surprised, have some things confirmed, but perhaps also find that when more variables and complexity are accounted for, there may be counter-intuitive findings too. 
++ In order to benefit from experiential simulation learning, you need to create a hypothesis -- an if/then statement about what you believe will happen over the next two years as a consequence of your change. Through this process you can be surprised, have some things confirmed, but perhaps also find that when more variables and complexity are accounted for, there may be counter-intuitive findings too. 
 
 ### 4.	Expand the Outputs and Text section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new changes are made in your team, and run the simulation out to its 2-year end just using data pulled in from your team data file.
 
-**Add** your hypothesis about the Base Case run results in the *Our Hypothesis* text box. Reference team data value relevant to the team's question. We want to be as specific as possible, and we have the question, hypothesis, findings and decisions boxes here, which the teams can use as a lab notebook to track their thinking. They can then save their work, so that they can efficiently pick up where they left off, which is critical when time for team huddles in the clinic is very tight. 
++ **Add** your hypothesis about the Base Case run results in the *Our Hypothesis* text box. Reference team data value relevant to the team's question. We want to be as specific as possible, and we have the question, hypothesis, findings and decisions boxes here, which the teams can use as a lab notebook to track their thinking. They can then save their work, so that they can efficiently pick up where they left off, which is critical when time for team huddles in the clinic is very tight. 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Hypotheses to add:** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
 
@@ -90,26 +90,26 @@ Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:20-00:25 | **Run** a simulation and save results | **Ask the team lead to narrate this process.**
 
-Helpful tip: To run the Base Case, let’s first make sure that all the Experiment sliders are indeed set for the Base Case. When you look in the Experiments section, you should see that the box next to each slider says either zero or bc. If it says bc, it means the value the model will run is the number from the Team Data Table. A few sliders have a different setting. If you see a purple Sensitivity slider, it will start at a default value of 1, which is the mid-range, between no relationship between those two variables, and a very strong relationship. (And if there’s a Team Data vs Balanced switch, Balanced will be the default setting.)
++ Helpful tip: To run the Base Case, let’s first make sure that all the Experiment sliders are indeed set for the Base Case. When you look in the Experiments section, you should see that the box next to each slider says either zero or bc. If it says bc, it means the value the model will run is the number from the Team Data Table. A few sliders have a different setting. If you see a purple Sensitivity slider, it will start at a default value of 1, which is the mid-range, between no relationship between those two variables, and a very strong relationship. (And if there’s a Team Data vs Balanced switch, Balanced will be the default setting.)
 
 ### 5. Run; then Save (without resetting) the run with the name Base Case.  
-Once we’ve verified that sliders are set for the Base Case and we’ve entered our question and hypothesis, we’re ready to hit **Run**. (drum roll!)  
++ Once we’ve verified that sliders are set for the Base Case and we’ve entered our question and hypothesis, we’re ready to hit **Run**. (drum roll!)  
 
-Now let’s open the Outputs section and see what we find. The quick way to do this is to click the "expand" button in the blue bar of the Texts section.  
++ Now let’s open the Outputs section and see what we find. The quick way to do this is to click the "expand" button in the blue bar of the Texts section.  
 
-This opens the full Outputs and Text section, which now shows all the Text boxes and a larger Results Dashboard where you can see several charts at once, and a Control Panel on the left.  
++ This opens the full Outputs and Text section, which now shows all the Text boxes and a larger Results Dashboard where you can see several charts at once, and a Control Panel on the left.  
 
-Before we go further, it’s a good time to go ahead and Save this run.  
+## Before we go further, it’s a good time to go ahead and Save this run.  
 
-  + Saving without Resetting will capture the text that we’ve written in the boxes and the settings and results of our run. We’ll still be able to enter more text to finish our consideration of this test as long as we don’t re-set the sim. 
++ Saving without Resetting will capture the text that we’ve written in the boxes and the settings and results of our run. We’ll still be able to enter more text to finish our consideration of this test as long as we don’t re-set the sim. 
   
-  + So, click on *Save* at the top and then click *Yes*. This warning is just a reminder of how important it is to record your thinking in the Text boxes so your learning from what you’ve done doesn’t evaporate. 
++ So, click on *Save* at the top and then click *Yes*. This warning is just a reminder of how important it is to record your thinking in the Text boxes so your learning from what you’ve done doesn’t evaporate. 
 
-The Save menu helps you enter a name for each run based on what sliders you moved. In this case, it’s the Base Case, so on the Variable drop-down menu just select Base Case and click *Add*.  
++ The Save menu helps you enter a name for each run based on what sliders you moved. In this case, it’s the Base Case, so on the Variable drop-down menu just select Base Case and click *Add*.  
 
-  + You’ll see “bc” entered in the Experiment Name field and now you can click *Save* again in the top right.  
++ You’ll see “bc” entered in the Experiment Name field and now you can click *Save* again in the top right.  
   
-  + **Caution**: Only choose the *Save and Reset* button at the bottom when you’re finished recording all you need to in the Text section. Or you can choose *Discard* if you weren’t ready to save or name the run.  
++ **Caution**: Only choose the *Save and Reset* button at the bottom when you’re finished recording all you need to in the Text section. Or you can choose *Discard* if you weren’t ready to save or name the run.  
 
 
 Time Stamp | Prioritize tailored team learning | Script
@@ -117,22 +117,20 @@ Time Stamp | Prioritize tailored team learning | Script
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:25-00:40 | **Describe** findings/decisions and saving | **Practice describing specific output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need.**
 
 ### 6. Review the Current Experiment Values in the Control Panel: You should see all variables at Base Case or default values.  
-In the Control Panel on the left, review the Current Experiment Values. This is where you can remind yourself of the settings for the current experiment or check to make sure they are what you meant to set. You should see all variables at Base Case or default values.
++ In the Control Panel on the left, review the Current Experiment Values. This is where you can remind yourself of the settings for the current experiment or check to make sure they are what you meant to set. You should see all variables at Base Case or default values.
 
 ### 7.	Orient yourself to the charts in the Results Dashboard (axes, units, legend, drop-down menu options).  
-Now let’s look at the Results. Notice that each chart has a title below it and a drop-down menu. You have a wide selection of variables to choose from to look at results. The units are shown inside the chart at the top left – usually Weeks, Patients, Appointments, or a Percent, or a rate like Patients per Week.
++ Now let’s look at the Results. Notice that each chart has a title below it and a drop-down menu. You have a wide selection of variables to choose from to look at results. The units are shown inside the chart at the top left – usually Weeks, Patients, Appointments, or a Percent, or a rate like Patients per Week.
 
-The axes adjust dynamically – so even if the units of two side-by-side charts are the same, you have to check the scale before comparing them visually.
++ The axes adjust dynamically – so even if the units of two side-by-side charts are the same, you have to check the scale before comparing them visually.
 
-Describe what you see in the *Our Findings* textbox.
++ Describe what you see in the *Our Findings* textbox.
 
 ### 8. Describe what you see in the Our Findings box. What do you notice about the results? Do they match your hypothesis? Compare the values in the charts with the Team Data Table numbers.  
-
-What do you notice about the results for ________ [relevant to the team's question]? Does it match your hypothesis? How does this behavior compare to our hypothesis?  
++ What do you notice about the results for ________ [relevant to the team's question]? Does it match your hypothesis? How does this behavior compare to our hypothesis?  
 
 ### 9. Record your Findings - what you learned from the Results compared to your Hypothesis.  
-
-Add to the *Our Findings* text box your explanation for why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)  
++ Add to the *Our Findings* text box your explanation for why the results do or do not conform to your hypothesis. (Our Findings. Describe your team’s findings, insights and conclusions from this experiment.)  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Findings:** *Describe your team's findings, insights and conclusions from this experiment.*  
 
@@ -142,20 +140,18 @@ Time Stamp | Prioritize tailored team learning | Script
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:40-00:50 | **Come to consensus** on the next experiment | **Practice guiding the team to the highest leverage experiments (changes that will impact the most patients) that represent actions they could take today.**
 
 ### 10.	In Our Decisions, record what these findings suggest doing differently in your team. Also write down what the team decided to investigate next.
-
-Now that we have an experiment to compare against, what changes do you want to test next? What is the first improvement idea you want to try as a team? Record this next step in the *Our Decisions* textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?) 
++ Now that we have an experiment to compare against, what changes do you want to test next? What is the first improvement idea you want to try as a team? Record this next step in the *Our Decisions* textbox. (Our Decisions. Based on what you learned in this experiment, what changes are you ready to make in your practice?) 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Decisions:** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
 ### 11.	Save and Reset when ready. Notice that the sim UI automatically adds the date to the name of the run for you. Remember to log off before you exit the browser window.
-
-Save and Reset when you’re ready, so we can start with a fresh experiment when we pick up next time. Now log out of the sim UI.  
++ Save and Reset when you’re ready, so we can start with a fresh experiment when we pick up next time. Now log out of the sim UI.  
 
 
 
 ### That’s it for _Modeling to Learn_ how to evaluate the Base Case of no new decisions. Next is our Done/Do review.  
 
-Today we entered our Question, Hypothesis, Findings and Decisions for our base case run in the Text section. Before next time, please log in to mtl.how/sim and explore the results of the base case run in the Results Dashboard found in the Outputs and Text expanded view.  
++ Today we entered our Question, Hypothesis, Findings and Decisions for our base case run in the Text section. Before next time, please log in to mtl.how/sim and explore the results of the base case run in the Results Dashboard found in the Outputs and Text expanded view.  
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
