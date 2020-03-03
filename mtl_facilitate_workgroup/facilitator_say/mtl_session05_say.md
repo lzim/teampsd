@@ -58,34 +58,35 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
 ## Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
 1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation.  
-   a. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.  
-   
-   b. Navigate to the team_data_sim_ui folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.  
-2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.  
-   a. Go to the sim UI and upload the data file [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
-   
-   b. In your Google Chrome browser, go to mtl.how/sim.  
-   
-   c. Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email.  
-  
-   d. Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!  
+a. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.  
  
-   e. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.  
+b. Navigate to the team_data_sim_ui folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.  
+
+2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.  
+a. Go to the sim UI and upload the data file [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
+   
+b. In your Google Chrome browser, go to mtl.how/sim.  
+   
+c. Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email.  
+  
+d. Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!  
+ 
+e. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.  
 
 3. The team data file for simulation is in our team folder, in the team_data_sim folder.  
-   a. Copy the name of the team data file.  
+a. Copy the name of the team data file.  
   
-   b. Let's explore what's on the Home page [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
+b. Let's explore what's on the Home page [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
   
-   c. At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).  
+c. At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).  
   
-   d. Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).  
+d. Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).  
   
-   e. Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
+e. Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
   
-   f. If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
+ f. If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
   
-   g. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!    
+ g. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!    
   
     
 ## 4. Log in to the sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
