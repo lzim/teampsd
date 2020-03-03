@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Facilitator Say"
 author: "Team PSD"
-date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | RH Feb 18 2020 | RH March 2 2020"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | RH Feb 18 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -54,7 +54,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 2. Now is a time you can review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
-3. You can also review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
+3. You can also review the data files you have uploaded in the Team Data Dropdown Maintenance section and make sure you have the data file you want.
 
 4. Click to Join Current Session.
 
