@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 - Learner See"
 author: "Team PSD"
-date: "Edited by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020"
+date: "Edited by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -53,7 +53,9 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
 **We'll work to apply these skills as we review our combined experiment today.**
 
-1.	Log in to your individual or team world at mtl.how/sim.
+1.	Log in to mtl.how/sim and join the current session.
+
+    + Log in to your individual or team world at mtl.how/sim.
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)
 
