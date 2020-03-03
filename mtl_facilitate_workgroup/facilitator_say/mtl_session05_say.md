@@ -55,13 +55,13 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
 
 **The Team Lead, or whoever is willing to drive today: open an Internet Explorer browser and a Chrome browser, then share both applications in Adobe Connect.**
 
-## Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
+## Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
+
 
 1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation.  
 a. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.  
  
-b. Navigate to the team_data_sim_ui folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.  
-
+b. Navigate to the team_data_sim_ui folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.    
 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.  
 a. Go to the sim UI and upload the data file [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
    
@@ -71,7 +71,7 @@ c. Enter your login credentials - username is your VA email address and password
   
 d. Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!  
  
-e. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.  
+e. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.    
 
 3. The team data file for simulation is in our team folder, in the team_data_sim folder.  
 a. Copy the name of the team data file.  
