@@ -43,7 +43,7 @@ output:
 
 ## *MTL* on BISL
 
-### 1. Using an Internet Explorer browser, go to mtl.how/data. First select your VISN and then select your facility.
+### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)](#DontLink)
 
 ### 2. Explore the information available in the BISL Sharepoint splash page.
@@ -75,7 +75,7 @@ output:
 - Follow the instructions in **Box A2.** 
 - After filtering, click Add All. Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
-### 5. To view your team patient data and your team trends, click "Get-Patient-level Data." We will not do this in-session today.
+### 5. To view your team patient data and your team trends click "Get-Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with in your team data folder.** 
 - We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
 

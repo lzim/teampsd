@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Learner See"
 author: "Team PSD"
-date: "Edited by RH Oct 2019 | RH Jan 24 2020 | RH March 2 2020"
+date: "Edited by RH Oct 2019 | RH Jan 24 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -49,7 +49,7 @@ height = "175" width = "420">](#DontLink)
 
     - *MTL* data UI 
     
-    - *MTL* sim UI (Which module would be most appropriate to our further need and questions?)
+    - *MTL* sim UI (Which module would be most appropriate to our future need and questions)
 
 5. Lead person(s) and time frame for the above actions 
 

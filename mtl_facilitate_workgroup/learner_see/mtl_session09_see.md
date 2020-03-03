@@ -41,23 +41,29 @@ output:
 
 ## Running an Experiment
 
-1.	Log in to your individual or team world at mtl.how/sim.
+1.	Log in to your individual or team world at [mtl.how/sim](http://mtl.how/sim).
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)
 
-2.	If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
+2.	Review your saved runs. Rename your saved runs if you feel you need to.
 
-3.	If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
+    + If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. 
+    
+3.	Review the data files you have uploaded for use and make sure you have what you want.
 
-4.	You can *Join Current Session* or *Start a New Session* in the module. If you *Start a New Session* select the team data file you’d like to use.
+    + If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section.
+    
+4.	You can *Join Current Session* or *Start a New Session* in the Aggregate module. If you *Start a New Session* select the team data file you’d like to use.
 
-5.	To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields as shown below. Review those text fields.
+
+5.	To refresh your memory and pick up where you left off last time, Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_compare_alt.gif)](#.)
 
-6.	Study the systems story on the model diagram and team data table. Decide together what change you want to experiment with that might give your team the desired result.
+6.	Study the systems story on the model diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
 
-7.	To create a new run, building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
+
+7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
 
 ### Experiment 2
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
