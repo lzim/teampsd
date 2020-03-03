@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Learner See"
 author: "Team PSD"
-date: "Edited Oct 16 2019 Edited by Rita 24 January 2020 Edited by AP Feb 5 2020"
+date: "Edited Oct 16 2019 | RH Jan 24 2020 | AP Feb 5 2020 |RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,9 +13,10 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontLink)  
 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
+     height = "175" width = "420">](#DontLink)  
+**Disclaimer**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 # MTL Live Session 06
 
 # Today we're modeling to learn how to tell a systems story.
@@ -45,7 +46,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)  
 
-# **In-session Exercise – Part 1**  
+# **In-session Exercise – Part 1: Where in the MTL World Is…**  
 
 * Facilitators will ask team members to find certain information on the mtl.how/sim main section.
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
@@ -53,12 +54,12 @@ output:
 
 1. Over what timeframe does an experiment run?  
 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the *Rates* into the chat box.  
-3. Describe in one sentence what happens in the diagram as you click to Reveal Complexity.  
-4. What is the significance of the variables in the red boxes?  
+3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"  
+4. What is the significance of the variables in the "red boxes"?  
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)](#DontLink)  
 
-# **In-session Exercise – Part 2**  
+# **In-session Exercise – Part 2: Telling a Systems Story**  
 
 * Starting Point: Main model section with no additional complexities revealed.  
 

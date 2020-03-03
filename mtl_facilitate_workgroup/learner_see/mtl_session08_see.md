@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 8 - Learner See"
 author: "Team PSD"
-date: "RH Oct 16 2018 Edited by Rita 24 January 2020"
+date: "Edited by RH Oct 16 2018 | RH Jan 24 2020 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,9 +13,9 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#.)
-
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s08_dynamic_hypothesis_title.png"
+     height = "175" width = "420">](#DontLink)  
+     **Disclaimer**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 # MTL Live Session 08
 
 # Today we're modeling to learn how to test a dynamic hypothesis.
@@ -54,19 +54,19 @@ output:
 
 + Once you have logged in to the model, the Text box will appear on the right. You can move, "x out" of or expand the Text box at any time.
 
-5.	To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields as demonstrated below. Review those text fields.
+5.	To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_previous_exp.gif)](#.)
 
-6.	Study the system diagram and team data. Decide together what change you want to experiment with that might give the team the desired result.
+6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result.
 
-7.	To create a new run, building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
+7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-8.	Adjust experiment sliders for the new experiment keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values).
+8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values).
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_adjust_sliders.gif)](#.)
 

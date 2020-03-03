@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Facilitator Say"
 author: "Team PSD"
-date: "SP 2019 oct 21; Rita 24Jan2020; Jane 02Feb20202; AP 2020 Feb 5"
+date: "SP 2019 oct 21| RH 24 Jan2020| Jane 02Feb20202 |  AP 2020 Feb 5 | RH March 2 2020|"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -12,9 +12,8 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
-
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontLink)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s03_teamdata_title.png"
+     height = "175" width = "420">](#DontLink)  
 
 # MTL Live Session 03
 
@@ -55,11 +54,11 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer.
 
 - You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.  
-- Scroll down to your team folder. You should have two folders: data_ui and team_data_sim_ui. Click on the "data_ui" folder and open the Excel file. 
+- Scroll down to your team folder. You should have two folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file. 
 
-### Clicking the "Get Team Data Table for Sim UI" button produces a table of descriptive team data.
+### Clicking the "Create Team Data Table" button produces a table of descriptive team data.
 
-#### You already have a fresh Team Data Table for Sim UI file to work with in the team_data_sim_ui folder.
+#### You already have a fresh Team Data Table for Sim UI file to work with in the team_data_table folder.
 - It takes some time to generate a team data table for all modules using your team's data.
 
 - On average (depending on the size of your team) it may take 15 minutes or so to generate a team data table. And, Microsoft Excel will be unresponsive until it is finished.
@@ -82,7 +81,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 	- Click on "create Team Data Table for Sim UI".
 	- If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
 	- The file you generate will have all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
-- Navigate back to your team folder at mtl.how/data. Click on the "team_data_sim_ui" folder and open the Excel file to find the team data table already produced for you.
+- Navigate back to your team folder at mtl.how/data. Click on the "team_data_table" folder and open the Excel file to find the team data table already produced for you.
  
 ### 1. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
 [Choose a module]  

@@ -80,7 +80,7 @@ Rank | Data | Displays
 ___ | Diag | Primary diagnoses only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have on primary diagnosis. For more detail, open up the data UI.)
 ___ | Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
-___ | Meas| Standaridzed symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
+___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
 
 #### To sum up, there are three ways to view each set of data:  
 1. **Counts per month:** countDiag, countEnc, countHF, and countMeas;  

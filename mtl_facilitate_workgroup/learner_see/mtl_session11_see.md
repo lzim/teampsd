@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 11 - Learner See"
 author: "Team PSD"
-date: "RH Oct 16 2019 Edited by Rita 24 January 2020 "
+date: "Editd by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,8 +13,9 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#.)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s11_team_decisions_title.png"
+     height = "175" width = "420">](#DontLlink)  
+**Disclaimer**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
 # MTL Live Session 11
 
@@ -39,7 +40,9 @@ output:
 3. Apply your team's plan in clinical decisions using C.F.B.T. systems thinking. 
 
 
-# In-session Exercise (30 minutes): Connect learning and decisions from experiments to original team vision, question, and need
+# In-session Exercise (30 minutes): 
+
+## Connect learning and decisions from experiments to original team vision, question, and need
 
 1.  What shared vision did the team decide on in session 1?
 
@@ -56,6 +59,7 @@ output:
 7.  How do these decisions align with the team's shared vision, question and needs?
 
 8.  What data will we watch to see how we're doing?
+
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->

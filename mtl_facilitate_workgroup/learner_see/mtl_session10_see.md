@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 - Learner See"
 author: "Team PSD"
-date: "RH Oct 16 2019 Edited by Rita 24 January 2020"
+date: "Edited by RH Oct 16 2019 | RH Jan 24 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,8 +13,9 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#.)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s10_systems_thinking_title.png"
+     height = "175" width = "420">](#DontLink)  
+**Disclaimer**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
 # MTL Live Session 10
 
@@ -52,7 +53,7 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
 **We'll work to apply these skills as we review our combined experiment today.**
 
-1.	Log in to your individual or team world at mtl.how/sim.
+1.	Log in to mtl.how/sim and join the current session.
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)
 

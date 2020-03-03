@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Facilitator Say"
 author: "Team PSD"
-date: "RH Oct 18 2019 Edited by Rita 24 January 2020 Edited by Rita Feb18 2020"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | RH Feb 18 2020 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,9 +13,9 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#.)  
-
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s09_compare_alternatives_title.png"
+     height = "175" width = "420">](#DontLink)
+     
 # MTL Live Session 09
 
 # Today we're modeling to learn how to compare alternatives.

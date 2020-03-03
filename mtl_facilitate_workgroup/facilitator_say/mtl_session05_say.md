@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | Edited by Rita 24 January 2020 | Aug 2019"
+date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | RH Jan 24 2020 | Aug 2019 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,7 +13,8 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"  height = "114" width = "190">](#DontClick)        
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s05_teamworld_title.png"
+     height = "175" width = "420">](#DontLink)  
 
 # Session 05
 # Today we're modeling to learn how to log in to our team world.
