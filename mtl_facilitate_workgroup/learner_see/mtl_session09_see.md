@@ -60,9 +60,7 @@ output:
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_compare_alt.gif)](#.)
 
-6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
-
-    + Study the systems story on the model diagram and team data table. 
+6.	Study the systems story on the model diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
 
 
 7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
