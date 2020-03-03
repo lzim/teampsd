@@ -49,17 +49,17 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - _MTL Co-Facilitators_ prepare a brief summary of themes to highlight with the team ____________________
 
 ### 3. How will we coordinate our efforts going forward based on our learning? 
-  + How will we align our new practice decisions with systems thinking going forward based on our learning?
+  + How will we align our new practice decisions with systems thinking going forward based on our learning?  
 
-- _MTL Co-Facilitators_ prepare concise review of **causal system story of team problem** ____________________
+- _MTL Co-Facilitators_ prepare concise review of **causal system story of team problem** ____________________  
 
-- _MTL Co-Facilitators_ prepare concise review of **feasible practice decisions to prioritize** ____________________
+- _MTL Co-Facilitators_ prepare concise review of **feasible practice decisions to prioritize** ____________________  
 
-### 4. What *MTL* resources will the team use or revisit in the future?
+### 4. What *MTL* resources will the team use or revisit in the future?  
 
-    - *MTL* data UI? (What data will be most helpful to check back in on?)
-    
-    - *MTL* sim UI? (Which module would be most appropriate to your further need and questions?)
+ +  *MTL* data UI? (What data will be most helpful to check back in on?)  
+   
+ + *MTL* sim UI? (Which module would be most appropriate to your further need and questions?)  
 
 ### 5. Lead person(s) and time frame for the above actions: _______________ 
 
@@ -84,12 +84,13 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
        
   + Another resource is the library of *MTL* videos, available at mtl.how/video. For sessions 5 through 10 which involve simulation, there are recordings not just for the module your team decided to use, but for all 5. Like *Modeling to Learn* Live, MTL Videos are accredited through TMS for continuing education credits.
 
-+ Finally, you can join the *Modeling to Learn* listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov. 
++ Finally, you can join the *Modeling to Learn* listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov.   
 
-## 3. Now let's make a plan for how the team will keep modeling to learn going forward.  
+
+## Now let's make a plan for how the team will keep modeling to learn going forward.  
   + How could you, as a clinician, or the team as a whole, see using these resources to continue quality improvement through team decision-making?  
    
-  + Is there another big question you'd like to explore through simulated experiments - either in the same module or a different one?  
+ + Is there another big question you'd like to explore through simulated experiments - either in the same module or a different one?  
  
  + Could it be helpful to refer back the model diagram as a reminder of the systems stories it tells about decisions you make as a team? 
 
