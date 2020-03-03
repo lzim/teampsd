@@ -42,7 +42,7 @@ output:
 # In-session Exercise (30 minutes)
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
+### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
 - There are team data produced for each module of *Modeling to Learn*
   - Care Coordination (CC)
