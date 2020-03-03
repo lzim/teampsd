@@ -85,7 +85,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 	- The file you generate will have all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
 - Navigate back to your team folder at mtl.how/data. Click on the "team_data_sim_ui" folder and open the Excel file to find the team data table already produced for you.
  
-### 1. Let's select a module for review 
+### 1. Select a module for review 
 
    + To show what data are used to tailor each *MTL* module to your team.
 [Choose a module]  
@@ -123,19 +123,19 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 ### 3. Are there any team data table values you would like to explore in the team data UI?
 
--  Which ones? Open the data UI to examine your question.  
+-  If so, which ones? Open the data UI to examine your question.  
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 
 - If so, what is it surprising? 
 
-- Does the estimation definition help you to interpret the variable value?  
+- Does the estimation definition (second to last column, text in red) help you to interpret the variable value?  
 
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
 
-- What are you noticing? 
+- If so, what are you noticing? 
 
-- In what ways does the team data fit with your day-to-day experience?
+- In what ways does the team data fit with your day-to-day clinical practice in your team?
   
 ### That's it for _Modeling to learn_ how to produce team data for simulation. Next is our Done/Do review.
 
