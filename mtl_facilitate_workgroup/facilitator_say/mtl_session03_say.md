@@ -58,7 +58,9 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 ### Clicking the "Create Team Data Table" button produces a table of descriptive team data.
 
+
 #### You already have a fresh Team Data Table file to work with in the team_data_table folder.
+
 - It takes some time to generate a team data table for all modules using your team's data.
 
 - On average (depending on the size of your team) it may take 15 minutes or so to generate a team data table. And, Microsoft Excel will be unresponsive until it is finished.

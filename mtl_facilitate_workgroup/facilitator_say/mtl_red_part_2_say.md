@@ -1,7 +1,7 @@
 ---
 title: "MTL Red Part 2 - Facilitator Say"
 author: "Team PSD"
-date: "Created by JB Feb 02, 2020 from SP 2019 Oct 21 2019, Edited by Rita 24 January 2020"
+date: "Edited by AP Feb 25, 2020 Edited by JB Feb 02, 2020 , Edited by Rita 24 January 2020 from SP 2019 Oct 21 2019"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -25,7 +25,8 @@ Hello! I'm __________ and I'm __________.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will examine calculated team parameters fo CC, MM, PSY, AGG, and SP.|
+
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data_ui and team_data_table.| We will examine calculated team parameters fo CC, MM, PSY, AGG, and SP.|
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
@@ -51,7 +52,7 @@ Hello! I'm __________ and I'm __________.
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 
-### When you click the "Get Team Data Table" button, it produces a table of descriptive team data.
+### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
 - There are team data produced for each module of *Modeling to Learn*
   - Care Coordination (CC)
@@ -71,7 +72,7 @@ Hello! I'm __________ and I'm __________.
 - Where can you find even more detailed information about your team data?
 
 ### 3. Are there any team data table values you would like to explore in the team data UI?
-- If so, which ones? Open the data UI to examine your question.
+- If so, which ones? Open the Data UI to examine your question.
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 - If so, what is surprising? Does the estimation definition (second to last column, text in red) help you to interpret the variable value?
@@ -86,7 +87,7 @@ Hello! I'm __________ and I'm __________.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We examined team parameters fo CC, MM, PSY, AGG, and SP.|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and consider its implications for team decisions.|
+| We examined team parameters fo CC, MM, PSY, AGG, and SP.|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and consider its implications for team decisions.|
 
 ### DO demo
 
