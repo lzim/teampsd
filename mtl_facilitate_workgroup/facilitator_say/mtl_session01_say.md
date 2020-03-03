@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1"
 author: "Team PSD"
-date: "Edited RH Jan 24 2020 | Anthony Pichardo February 5,2020 | RH March 2 2020"
+date: "Edited RH Jan 24 2020 | Anthony Pichardo February 5,2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -114,12 +114,6 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ### 6. Select the Team Vision  
-
-+ To wrap up, let's home in on our Team Vision  
-
-  a. You can further word-smith the Team Vision after the session if you want.  
-  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.  
-
 
 ### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
 
