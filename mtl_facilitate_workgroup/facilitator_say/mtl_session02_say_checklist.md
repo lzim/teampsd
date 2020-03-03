@@ -91,7 +91,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas 
 3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas. 
          
-+ **Potential Troubleshoot:** If you click on a data option and get an error message: *PivotTable Operation Failed: the PivotTable report was saved without the underlying data. Use the Refresh Data command to update the report.* Click OK. Go up to the word DATA above the Excel chart and choose *Refresh All Connections.* This error may appear if you have not accessed the data in a while.  
+
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:20-00:25___
 
@@ -117,9 +117,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 ## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
 
 ### 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
-    [ ] Select your station at the Control tab: Click on **Control tab.** 
-    [ ] Click on the dropdown next to the word **"Station"** and click on your station (or sta3n) number.  
-    [ ] Click **"Get Clinic List"** and it will pull in clinics for that facility/station.
+ 
    
 ### 4. Go to the ClinicSelection tab. 
     [ ] Use columns C-H to select the clinics that make up your team. 
