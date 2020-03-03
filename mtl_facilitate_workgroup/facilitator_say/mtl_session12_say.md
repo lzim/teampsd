@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Facilitator Say"
 author: "Team PSD"
-date: "Edited by RH Oct 18 2019 | RH Jan 24 2020  | RH Feb 18 2020 |  Ed Jane 24Feb2020 | RH March 2 2020"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020  | RH Feb 18 2020 |  Ed Jane 24Feb2020 | RH March 2 2020 | RH mMrch 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -43,26 +43,27 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 # In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
 
-1. We completed _Modeling to Learn_! Let's review and plan!
+### 1. We completed _Modeling to Learn_! Let's review and plan!
 
-2. What has the team learned throughout the *Modeling to Learn* 12-session program? 
+### 2. What has the team learned throughout the *Modeling to Learn* 12-session program? 
 - _MTL Co-Facilitators_ prepare a brief summary of themes to highlight with the team ____________________
 
-3. How will we align our new practice decisions with systems thinking going forward based on our learning?
+### 3. How will we coordinate our efforts going forward based on our learning? 
+  + How will we align our new practice decisions with systems thinking going forward based on our learning?
 
 - _MTL Co-Facilitators_ prepare concise review of **causal system story of team problem** ____________________
 
 - _MTL Co-Facilitators_ prepare concise review of **feasible practice decisions to prioritize** ____________________
 
-4. What *MTL* resources will the team use or revisit in the future?
+### 4. What *MTL* resources will the team use or revisit in the future?
 
     - *MTL* data UI? (What data will be most helpful to check back in on?)
     
     - *MTL* sim UI? (Which module would be most appropriate to your further need and questions?)
 
-5. Lead person(s) and time frame for the above actions: _______________ 
+### 5. Lead person(s) and time frame for the above actions: _______________ 
 
-6. Celebrate completion of *Modeling to Learn*!
+### 6. Celebrate completion of *Modeling to Learn*!
    
 #### MTL RESOURCES
 
