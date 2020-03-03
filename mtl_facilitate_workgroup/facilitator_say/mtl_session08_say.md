@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 8 - Facilitator Say"
 author: "Team PSD"
-date: "RH Oct 18 2019 | RH Jan 24 2020 | Ed Jane16Fed20 | RH Feb 18 2020 | RH March 2 2020"
+date: "RH Oct 18 2019 | RH Jan 24 2020 | Ed Jane16Fed20 | RH Feb 18 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -63,7 +63,7 @@ Time Stamp | Prioritize tailored team learning | Script
   
    + A team may need to rename experiments if they want to be sure they are able to differentiate between experiments or if they incorrectly named a file in a prior session. If you need to rename any of your saved runs, check the box to the left of the file name, click Rename*, change the name, and Save.  
 
-3.	The section on the right side of the *MTL* Home page is "Team Data Menu Maintenance". This lets you alter what you see in the drop-down menu for selecting a data file when you want to Start a New Session (in the Session section). You can *Delete*, *Rename*, or *Add* data files. You would not want to rename a data file unless you did not already have it entered exactly as it is named in the Data UI.
+3.	The section on the right side of the *MTL* Home page is "Team Data Dropdown Maintenance". This lets you alter what you see in the drop-down menu for selecting a data file when you want to Start a New Session (in the Session section). You can *Delete*, *Rename*, or *Add* data files. You would not want to rename a data file unless you did not already have it entered exactly as it is named in the Data UI.
 
 4.	And finally, in the Session section on the left, you can either *Join Current Session*, or you can *Start a New Session* by selecting a radio button next to the desired module and then clicking "Play."   
    
