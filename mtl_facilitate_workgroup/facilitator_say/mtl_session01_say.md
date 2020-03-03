@@ -115,6 +115,13 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 ### 6. Select the Team Vision  
 
+
++ To wrap up, let's home in on our Team Vision  
+
+  a. You can further word-smith the Team Vision after the session if you want.  
+  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.  
+
+
 ### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
 
 
