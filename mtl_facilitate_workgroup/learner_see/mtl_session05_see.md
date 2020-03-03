@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Learner See"
 author: "Team PSD"
-date: "Edited by: RH Oct 16, 2019 | RH 24 Jan 2020 | AP Feb 5, 2020 | RH March 2 2020 "
+date: "Edited by: RH Oct 16, 2019 | RH 24 Jan 2020 | AP Feb 5, 2020 | RH March 2 2020 | RH March 3 2020 "
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -66,7 +66,7 @@ output:
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)](#DontLink)
 
-5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers). Open the Team Data Menu Maintenance section and click Add. Paste the name of your team data file into the box and click Save. 
+5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers). Open the Team Data Dropdown Maintenance section and click Add. Paste the name of your team data file into the box and click Save. 
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_home.gif)](#DontLink)
 
