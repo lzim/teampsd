@@ -49,7 +49,7 @@ height = "175" width = "420">](#DontLink)
 
     - *MTL* data UI 
     
-    - *MTL* sim UI (Which module would be most appropriate to our further need and questions)
+    - *MTL* sim UI (Which module would be most appropriate to our future need and questions)
 
 5. Lead person(s) and time frame for the above actions 
 
