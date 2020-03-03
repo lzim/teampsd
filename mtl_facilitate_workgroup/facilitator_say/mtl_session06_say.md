@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Facilitator Say"
 author: "Team PSD"
-date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 |  Edited By Anthony Pichardo 5 February 2020 | RH Feb 14 2020 | RH March 2 2020"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 |  Edited By Anthony Pichardo 5 February 2020 | RH Feb 14 2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -73,11 +73,15 @@ Also, depending on the size of your monitor and whether your browser window is f
    
 Navigate to Text section to pull up the Question from last time.
 
-# In-Session Exercise - Part 1
+# In-Session Exercise - Part 1: Where in the MTL World Is…
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 
 ### Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team.  
+1. Over what timeframe does an experiment run?
+2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.
+3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"
+4. What is the significance of the variables in the "red boxes"?
 
 See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
 
@@ -87,7 +91,7 @@ Inside the Experiment Timeline box you also see a set of options to Reveal Compl
    
 What is the significance of the variables in the red boxes? In our convention, Red means read in from team data. 
 
-# In-Session Exercise - Part 1
+# In-Session Exercise - Part 2: Telling a Systems Story
 ## Introducing stocks/flows and polarities among key variables related to the team's priority
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:30-00:40  - Team Priority**__________________
 
