@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Learner See"
 author: "Team PSD"
-date: "Edited Oct 16 2019 | RH Jan 24 2020 | AP Feb 5 2020 }RH March 2 2020"
+date: "Edited Oct 16 2019 | RH Jan 24 2020 | AP Feb 5 2020 |RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -46,7 +46,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)  
 
-# **In-session Exercise – Part 1**  
+# **In-session Exercise – Part 1: Where in the MTL World Is…**  
 
 * Facilitators will ask team members to find certain information on the mtl.how/sim main section.
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
@@ -59,7 +59,7 @@ output:
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)](#DontLink)  
 
-# **In-session Exercise – Part 2**  
+# **In-session Exercise – Part 2: Telling a Systems Story**  
 
 * Starting Point: Main model section with no additional complexities revealed.  
 
