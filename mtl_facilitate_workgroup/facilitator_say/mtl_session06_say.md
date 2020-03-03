@@ -87,13 +87,13 @@ Navigate to Text section to pull up the Question from last time.
 
 ### 4. What is the significance of the variables in the "red boxes"?
 
-See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
+- See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
 
-Notice the blue circle "i" in the diagram. These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. Red circle "i" in the team data table provides information for the red variables that are read in from team data. Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.
+- Notice the blue circle "i" in the diagram. These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. Red circle "i" in the team data table provides information for the red variables that are read in from team data. Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.
 
-Inside the Experiment Timeline box you also see a set of options to Reveal Complexity. You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex. The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the complexity regardless of how much is being viewed at the time.  
+- Inside the Experiment Timeline box you also see a set of options to Reveal Complexity. You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex. The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the complexity regardless of how much is being viewed at the time.  
    
-What is the significance of the variables in the red boxes? In our convention, Red means read in from team data. 
+- What is the significance of the variables in the red boxes? In our convention, Red means read in from team data. 
 
 # In-Session Exercise - Part 2: Telling a Systems Story
 ## Introducing stocks/flows and polarities among key variables related to the team's priority
