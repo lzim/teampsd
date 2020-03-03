@@ -92,11 +92,14 @@ output:
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_sections.gif)](#DontLink)
 
-8. Expand the Experiments tile by clicking on the white down arrow in the right corner of the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
+8. Expand the Experiments section and read the "i" information for the Team Data Table.
+   + Open the section by clicking on the white down arrow in the right corner of the blue bar. 
+   
+   + Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
 
    + What types of decisions does the team make that affect these variables?
 
-    + How do the values in this table strike you? Do they line up with how you think things really are?
+   + How do the values in this table strike you? Do they line up with how you think things really are?
 
 9. Find the Team Data Table variables in the system diagram at the left.
 
