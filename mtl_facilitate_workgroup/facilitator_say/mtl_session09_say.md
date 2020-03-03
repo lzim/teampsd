@@ -174,7 +174,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Today we ran experiment 2 and used the Control Panel in the Outputs and Text section to compare base case, experiment 1 and experiment 2 results.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in your individual world. |
 
-DO Demo
+## DO Demo
 
 1. If you can, run a third experiment in your Individual world. You might consider one that combines the decisions of your Experiment 1 and Experiment 2. 
 
