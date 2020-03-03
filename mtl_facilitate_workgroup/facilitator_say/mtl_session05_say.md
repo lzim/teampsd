@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | RH Jan 24 2020 | Aug 2019 | RH March 2 2020"
+date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | RH Jan 24 2020 | Aug 2019 | RH March 2 2020 | AP March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -57,9 +57,9 @@ e) Simulation helps us to place a better initial bet about what is likely to pay
 
 ## 1. Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
-a. In session 3, we showed how we used "Get Team Data Table" button in the data user interface to produce our team data for simulation. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.
+a. In session 3, we showed how we used "Create Team Data Table" button in the data user interface to produce our team data for simulation. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.
 
-b. Navigate to the team_data_sim_ui folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.
+b. Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.
 
 ## 2. Go to the sim UI and upload the data file [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
