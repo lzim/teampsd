@@ -65,7 +65,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### 5. To refresh your memory and pick up where you left off last time, Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
 
-**Plan for Experiment 2**  
+## **Plan for Experiment 2**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
@@ -106,7 +106,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
   + **SP**: With this change, clinicians in both settings will be more likely to step their patients between the two settings, as all the confusion and negotiation needed to step a patient between these settings will have been removed.  After implementing stepped care between our two settings, when one of our patients is low symptom, they will spend less time with our team before their provider feels comfortable recommending the patient step down to PC (see the arrow between "GMH and PC/PCMHI Implement Stepped Care" and "GMH to PC/PCMHI Engagement Time before Step down"), and for high symptom patients seen in the Primary Care setting, on average they will spend less time there before their provider recommends stepping up to General Mental Health. To see this causal connection, we must zoom in to that part of the process, by clicking on the plus sign in the grey "GMH Patients Waiting to Start" box.  We expect this smoother flow between the two settings to increase the number of openings for new patients in each setting, thus increasing the start rates and decreasing the number of patients waiting for both settings. Also, for Primary Care, they will be able to step more high symptom patients up to the right level of care sooner, so the number of patients in PC with a high risk flag will decline, as fewer high-symptom patients will remain in Primary Care for as long as before.  
   
 
-**Run Experiment 2**  
+## **Run Experiment 2**  
 
 ### 8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
   + Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
@@ -116,7 +116,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ### 9. Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
   + To name the run, open the Variable drop-down menu, scroll to the first variable you changed and click *Add*. This will insert an abbreviation of that variable into the experiment name. Next highlight and Add the value you set that variable to. Do the same to add the next altered variable to the name. When you're finished, click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.  
 
-**Compare Results**  
+## **Compare Results**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
@@ -129,7 +129,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
       
 + **CC**: As compared to Experiment 1 and the base case, increasing the RVI increased the Appointment Supply for New CC Patients by decreasing the Appointments for Existing Patients. The increased Appointment Supply increased the Starting Rate for about 9 months and then it decreased. Same is true for New Patient Wait Times; a decline over time. But decreasing the Appointments for Existing Patients resulted in a sharp decrease in the Completing Rate for CC patients but it increased over time and reached a steady state at 1 year.  
      
-  + **MM**: Well, our fears are confirmed: as compared to Experiment 1 and the base case, if we increase the proportion of x-waiver slots to 10%, it does increase the starting rate for OUD MM to about 1 patient/month. But it also increased the wait times for patients with other needs.  
+ + **MM**: Well, our fears are confirmed: as compared to Experiment 1 and the base case, if we increase the proportion of x-waiver slots to 10%, it does increase the starting rate for OUD MM to about 1 patient/month. But it also increased the wait times for patients with other needs.  
   
 + **PSY**: Against the base case, we found that the total number of patients served by the team stayed the same (N=371). Of the 371, n=249 were Initiators and n=187 were Completers. Among Completers, n=7 graduated and were done. Regarding the starting rate for new patients, it decreased compared to our base case and our Experiment 1.  
   
@@ -150,7 +150,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 + Therefore, _to apply systems thinking_ in session 10, ask the team to consider a combination of experiments 1 and 2.  Ask the team to type in the Decisions box, _both_ 1) what they would like to experiment with next, and 2) any _new decisions they may make in their clinical practice based on what they learned._
       
-   + **CC**: We decided to try a combination of experiments 1 and 2. We will experiment with both increasing our overall Appointment Supply in care coordination and increasing our targeted Return Visit Interval for existing patients. As I meet with more stable patients, I will consider who may appropriately have a longer RVI, which may free me to see more new patients, and increase overall scheduling flexibility for all my patients. 
+ + **CC**: We decided to try a combination of experiments 1 and 2. We will experiment with both increasing our overall Appointment Supply in care coordination and increasing our targeted Return Visit Interval for existing patients. As I meet with more stable patients, I will consider who may appropriately have a longer RVI, which may free me to see more new patients, and increase overall scheduling flexibility for all my patients. 
   
  + **MM**: This tradeoff is not a good one for the team. Increasing referrals and reallocating appointments is not enough to serve the new OUD patients without an impact on our other patients. We will use the simulation to identify more optimized practice decisions. 
   
@@ -161,7 +161,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 + **SP**: With this experiment, we have seen the impacts of increasing coordination and efficiency in stepping patients between settings, but without increasing quality of care. Next, let’s conduct a combined experiment, where we implement both measurement-based care and streamline stepping between GMH and PC/PCMHI. I can begin to collect standardized measures from more patients to guide my care decisions in our team, and between my team and other teams in our clinic.
 
 ### 12. Save and Reset when ready.
-  +*Don't forget to log off the sim UI.*
+ + *Don't forget to log off the sim UI.*
 
 ### That's it for *Modeling to Learn* how to compare alternatives. Next is our Done/Do review.
 
