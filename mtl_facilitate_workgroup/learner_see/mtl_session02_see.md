@@ -64,9 +64,7 @@ output:
 ## Your Team Data Folder
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
-- Select your station using the control tab. If you have any issues with permissions, TeamPSD can help you.
-- Click "Get Clinic List" and it will pull in clinics for your facility.
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)](#DontLink)
+
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
@@ -77,7 +75,7 @@ output:
 
 ### 5. To view your team patient data and your team trends click "Get-Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with in your team data folder.** 
-- We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
+- We will learn about the "Create Team Data Table" button in our next team meeting.
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
