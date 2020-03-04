@@ -60,21 +60,23 @@ Time | **Short and long term.**  Better understanding of change over time (e.g.,
 
 ### 1. Log in to mtl.how/sim and join the current session.
 
-### 2. From the experiment tile, pull up the prior experiment and click the red "Go" button.
+### 2. From the experiment section, pull up the prior experiment and click the red "Go" button.
 
 ### 3. Check the box to include the text from that experiment and click "Go" again.
 
 ### 4. Note that the sliders have moved to the settings for that experiment.
++ The experiment sliders automatically adjust to the prior experiment we just selected.
 
-### 5. Open the Expanded Outputs tile and select another earlier experiment to compare to the one you have just pulled up.
+### 5. Open the Outputs and Text section and select another earlier experiment to compare to the one you have just pulled up.
++ Select the two previous experiments, basecase from Session 7 and experiment 1 from Session 8, to compare.
 
 ### 6. Note the variables that were manipulated in the two experiments.
 
 ### 7. Review the findings from the two experiments in the results dashboard and the text entered for Hypothesis, Findings and Decisions.
 
-### 8. Collapse the Expanded Outputs tile and move it to the side to reveal the model diagram.
+### 8. Collapse the Outputs and Text section and move it to the side to reveal the causal system model diagram.
 
-### 9. Use the diagram to tell a system story about the differences in the two experiments.
+### 9. Use the diagram to tell a causal systems story about the differences in the two experiments.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
@@ -89,10 +91,10 @@ Time | **Short and long term.**  Better understanding of change over time (e.g.,
   + Ask, “What do you think the effects will be of these changes?  How much better will things get?”  Push the team to be as specific as possible, both with their change and the result.  
   
 ### 12. Save, name, and run the combined experiment.
-  + Move the text to the left to adjust the experiment sliders to reflect the desired Experiment 3. Save, Name, and Run the experiment.
+  + Move the text to the left to adjust the experiment sliders to reflect the desired Experiment 3, then save, name, and run the experiment.
 
 ### 13.  Discuss and record results and decisions, including your thinking about long-term trends in your clinic's EBP reach under various decision scenarios.
-  + In the Results Dashboard, review how causal feedback explains why the decisions in experiment 3 combine to produce the relative differences in specific variables and values over time. Enter your Findings about causal relationships that explain the differences in short- and long-term trends between the Base Case, Experiment 1, Experiment 2, and Experiment 3. Document decisions the team will consider implementing in the clinic.
+  + In the Results Dashboard, review how causal feedback explains why the decisions in experiment 3 combine to produce the relative differences in specific variables and values over time. Enter your Findings about causal relationships that explain the differences in short- and long-term trends between the base case, experiment 1, experiment 2, and experiment 3. Document decisions the team will consider implementing in the clinic.
 
 - _Model systems thinking for the team by highlighting the C.F.B.T. systems thinking concepts that are included in the q/h/f/d text boxes._
 
