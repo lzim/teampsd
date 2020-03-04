@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Facilitator Say"
 author: "Team PSD"
-date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 |  Edited By Anthony Pichardo 5 February 2020 | RH Feb 14 2020 | RH March 2 2020 | RH March 3 2020"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 |  Edited By Anthony Pichardo 5 February 2020 | RH Feb 14 2020 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -65,45 +65,40 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 + Since we logged in to the Team World last time, you'll see the **name of the module and the dataset we chose under the first option**, Join Current Session. Select that and hit Play.  
 
-+ Now check what you're seeing against what we're showing on the screen. It should have your TEAM name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
+Now check what you're seeing against what we're showing on the screen. It should have your TEAM name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
 
-+ Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model diagram. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
- 
- +  On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen. 
- 
- +  On a MAC, to view the model in full screen click the **green button in the upper left of the browser** on your computer. To exit full screen, hover at the top of your computer screen, the toolbar will appear, click on "View", click on "Exit Full Screen."  
+Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model section. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
+   +  On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen. 
+   +  On a MAC, to view the model in full screen click the **green button in the upper left of the browser** on your computer. To exit full screen, hover at the top of your computer screen, the toolbar will appear, click on "View", click on "Exit Full Screen."  
    
-+ Navigate to Text section to pull up the Question from last time.
+Navigate to Text section to pull up the Question from last time.
 
-# In-Session Exercise - Part 1: Where in the MTL World Is…
+# In-Session Exercise - Part 1
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 
 ### Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team.  
 
 ### 1. Over what timeframe does an experiment run?
+See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
 
 ### 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.
 
+Notice the blue circle "i" in the diagram. These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. Red circle "i" in the team data table provides information for the red variables that are read in from team data. Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.
+
 ### 3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"
+Inside the Experiment Timeline box you also see a set of options to Reveal Complexity. You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex. The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the complexity regardless of how much is being viewed at the time.  
 
 ### 4. What is the significance of the variables in the "red boxes"?
+In our convention, Red means read in from team data. 
 
-- See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
-
-- Notice the blue circle "i" in the diagram. These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. Red circle "i" in the team data table provides information for the red variables that are read in from team data. Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.
-
-- Inside the Experiment Timeline box you also see a set of options to Reveal Complexity. You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex. The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the complexity regardless of how much is being viewed at the time.  
-   
-- What is the significance of the variables in the red boxes? In our convention, Red means read in from team data. 
-
-# In-Session Exercise - Part 2: Telling a Systems Story
+# In-Session Exercise - Part 1
 ## Introducing stocks/flows and polarities among key variables related to the team's priority
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:30-00:40  - Team Priority**__________________
 
-**Starting Point: Main model section with no additional complexities revealed.**
++ **Starting Point: Main model section with no additional complexities revealed.**
 
-+ **_Tip_:** _If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view_. 
+***Tip:* If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.**  
 
 + **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
 
@@ -123,11 +118,9 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 __Walk-throughs of each loop in each module are included in a table below.__
 
 ### Enter a basecase question and hypothesis in the Text section.
-+ In the Question box, add a basecase question about no new decisions in addition to the team need question that the team wrote last session.
-
-+ In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.  
-
-+ Click on the Save (not Save & Reset) button in the upper right corner of the Text section. This will allow us to quickly pull it up at the next session.
+In the Question box, add a basecase question about no new decisions in addition to the team need question that the team wrote last session.
+In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.
+Click on the Save (not Save & Reset) button in the upper right corner of the Text section. This will allow us to quickly pull it up at the next session.
 
  + The last thing to do is log out of the SIM UI! 
 
@@ -146,7 +139,7 @@ Today we told a systems story about our team's top priority and entered a Questi
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim. and refine the question and hypothesis we entered during the session about the Base Case run in the Text section.  |
 
-# DO demo
+DO demo
 
 1. Log back into the SIM UI.
 
