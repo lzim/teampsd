@@ -67,7 +67,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 Now check what you're seeing against what we're showing on the screen. It should have your TEAM name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
 
-Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model diagram. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
+Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model section. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
    +  On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen. 
    +  On a MAC, to view the model in full screen click the **green button in the upper left of the browser** on your computer. To exit full screen, hover at the top of your computer screen, the toolbar will appear, click on "View", click on "Exit Full Screen."  
    
@@ -79,13 +79,18 @@ Navigate to Text section to pull up the Question from last time.
 
 ### Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team.  
 
+### 1. Over what timeframe does an experiment run?
 See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
+
+### 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.
 
 Notice the blue circle "i" in the diagram. These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. Red circle "i" in the team data table provides information for the red variables that are read in from team data. Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.
 
+### 3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"
 Inside the Experiment Timeline box you also see a set of options to Reveal Complexity. You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex. The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the complexity regardless of how much is being viewed at the time.  
-   
-What is the significance of the variables in the red boxes? In our convention, Red means read in from team data. 
+
+### 4. What is the significance of the variables in the "red boxes"?
+In our convention, Red means read in from team data. 
 
 # In-Session Exercise - Part 1
 ## Introducing stocks/flows and polarities among key variables related to the team's priority

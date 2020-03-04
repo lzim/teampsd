@@ -41,85 +41,105 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)  
 
-a) In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what IS* in our team now. For example, we saw that ___________________ 
+ + In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what IS* in our team now. For example, we saw that ___________________ 
 
-b) Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.   
+ + Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.   
 
-c) Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends. We'll start asking *what if* questions about different decisions the team could make. 
+ + Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends. We'll start asking *what if* questions about different decisions the team could make. 
 
-d) With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove". And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.   
+ + With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove". And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.   
 
-e) Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
+ + Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
 
 ## In-session Exercise [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)   __ ]
 
 **The Team Lead, or whoever is willing to drive today: open an Internet Explorer browser and a Chrome browser, then share both applications in Adobe Connect.**
 
-## 1. Go to the Data UI to copy the name of our team data file so we can upload it to the Sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
-a. In session 3, we showed how we used "Create Team Data Table" button in the data user interface to produce our team data for simulation. We want to grab the filename from there, so in your Explorer browser and go to mtl.how/data.
+### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation.  [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ] 
 
-b. Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team data for the sim UI.
+### 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team_data_table file. 
++ We want to grab the filename from there so we can upload it to the sim UI. Open an Explorer browser window and go to mtl.how/data.  
 
-## 2. Go to the sim UI and upload the data file [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
+### 3. The team data file for simulation is in our team folder, in the team_data_table folder. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]   
++ Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team_data_table.      
 
-a. In your Google Chrome browser, go to mtl.how/sim.
+### 4. Log in to the sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
++ Open a new browser window in Google Chrome and go to mtl.how/sim. **The *Modeling to Learn* simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile.**
 
-b. Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email.
++ Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email. Use all lowercase.
 
-c. Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!
++ Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!  
+ 
++ An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.  
 
-d. An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.
+### 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers).   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]  
+ 
++ At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).  
+  
++ Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).  
+  
++ Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
+  
++ If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
+ 
++ We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!   
 
-## 3. Let's explore what's on the Home page [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
 
-a. At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).
+### 6. Start a New Session [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
 
-b. Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).
++ Start a New Session and review the sim UI Main Page.   
    
-c. Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Menu Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.
++ Select the module your team decided to use.  
+   
++ Select the team data you just uploaded.  
+   
++ Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)   
+
+### 7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments). 
+
++ You see the same information and buttons across the top as the Home page.   
   
-d. If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.
++ There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.  
++ To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.    
 
-e. We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!  
-  
-## 4. Start a New Session and review the Sim UI Main Page. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
++ You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
 
-a. Select the module the team decided to use.
++ Record the team's high-level learning Question.
+   
++ Open and expand the Outputs and Text section if you need to.  
 
-b. Select the team data you just uploaded.
++ Type your question about _________________________________ into the Question box.  
 
-c. Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)  
++ Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "bc" (stands for base case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.  
 
-e. You see the same information and buttons across the top as the Home page. 
++ Check out the Team Data Table  
+    
 
-d. There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.
+### 8. Expand the Experiments section and read the "i" information for the Team Data Table.  
++ Open the section by clicking on the white down arrow in the right corner of the blue bar.  
 
-f. To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.
++ The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
 
-e. You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.
++ Click on the "i" in the red circle next to Team Data and read the "i" information. Throughout the Sim UI, we use "i" symbols for information pop-ups. Here, the "i" information is telling you how the data that you record, that you reviewed and chose in the data UI, are used to calculate or estimate the values in this Team Data Table.  
 
-## 5. Record the team's high-level learning Question. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]
++ What types of decisions does the team make that affect these variables?  
 
-a. Open and expand the Outputs and Text section if you need to.
++ Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice ___________________________________________  
 
-b. Type your question about _________________________________ into the Question box.
 
-c. Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "BC" (stands for Base Case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.
+### 9. Find the Team Data Table variables in the system diagram at the left.  
++ True Missed Appointments %  
 
-## 6. Check out the Team Data Table [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]
++ Appointment Supply  
 
-a. Expand the Experiments Section by clicking on the right down arrow in the right corner of the blue bar. 
++ Return Visit Interval  
 
-b. The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".
++ Engagement Duration  
 
-c. Click on the "i" in the red circle next to Team Data and read the "i" information. Throughout the Sim UI, we use "i" symbols for information pop-ups. Here, the "i" information is telling you how the data that you record, that you reviewed and chose in the data UI, are used to calculate or estimate the values in this Team Data Table.
++ New Patient Start Rate (AGG)  
 
-d. What types of decisions does the team make that affect these variables?
-
-e. Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice ___________________________________________
-
-## 7. Log out of the sim UI. 
+### 10. Log out of the Sim UI  
 
 ### That's it for _Modeling to Learn_ how to log in to our team world.   
 

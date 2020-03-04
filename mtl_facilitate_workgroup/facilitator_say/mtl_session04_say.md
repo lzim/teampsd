@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 04 - Facilitator Say"
 author: "Team PSD"
-date: "AP February 5, 2020 | Sept 2018 | RH 24 Jan 2020 | by Jane 13 Feb 2020 | RH March 2 2020"
+date: "AP February 5, 2020 | Sept 2018 | RH 24 Jan 2020 | by Jane 13 Feb 2020 | RH March 2 2020 |RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -47,31 +47,36 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 
 ### Let's get started:
 
-## In-session Exercise (30 minutes): Menu results and team needs discussion
+## In-session Exercise (30 minutes)
+
+  + Menu results and team needs discussion
 
 ### 1. Complete the *MTL Menu* on your own.
-  a. Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*. 
-  
-  b. You will receive a summary of this in your follow-up email. 
+   - Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*. 
+   - You will receive a summary of this in your follow-up email. 
 
-### 2. Review the team's results with your team
-  a. First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*  
+### 2. Review the team's results with your team.
+   - What stands out to you?
+   - First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*  
 
 ### 3. Look for areas of consensus among the team.  
-
-  a. Where are there areas of high consensus? What issues does the team agree about?  
-  _Decide which Menu results to show to reinforce consensus, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3._
+   - What does the team agree about?
+   - Where are there areas of high consensus? What issues does the team agree about?  
+  
+_Decide which Menu results to show to reinforce consensus, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3._
   
 ### 4. Discuss items in which team members varied a lot in their rankings.  
+   - Where does the team have more variable perspectives?
+   - What are the topics where team members' perspectives are more divergent?  
 
-  a. What are the topics where team members' perspectives are more divergent?  
-  _Decide which Menu results to show to discuss divergence, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3._
+_Decide which Menu results to show to discuss divergence, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3._
 
 
-### 5. Focus on high priority needs to select a module.  
+### 5. Focus on the high priority needs to select a module for sessions 5-10 of Modeling to Learn
+   -  What is the highest priority need for your team now?
+   - Let's think about which _Modeling to Learn_ module best addresses that need. *[Recap the highest priority need, recommended module, and why.]*  
 
-  a. Let's think about what looks like the highest priority need for the team right now, and which _Modeling to Learn_ module best addresses that need. *[Recap the highest priority need, recommended module, and why.]*  
-  b. There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:  
+There are currently 5 _MTL_ modules available for teams to focus on in sessions 5 through 10:  
 
   + Care Coordination (CC)  
   + Medication Management (MM)  
@@ -79,15 +84,15 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
   + Aggregate mix of services (AGG)  
   + Measurement-based stepped care and suicide prevention (SP)  
   
- + CC shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking, and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
+     + CC shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking, and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
 
- + MM enables you to experiment with how team decisions about referrals, time allocation, and visit frequency impact the quality of medication management for patients. Your team can explore scenarios to balance these tradeoffs and better meet the specific needs of patients with depression, alcohol use disorder and opioid use disorder. Insights you gain can help you increase local reach of evidence-based pharmacotherapies. 
+     + MM enables you to experiment with how team decisions about referrals, time allocation, and visit frequency impact the quality of medication management for patients. Your team can explore scenarios to balance these tradeoffs and better meet the specific needs of patients with depression, alcohol use disorder and opioid use disorder. Insights you gain can help you increase local reach of evidence-based pharmacotherapies. 
 
- + PSY shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies. 
+     + PSY shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies. 
 
- + AGG shows how a variety of team decisions interact to affect your overall mix of services. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking, and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care. You can compare the effects of different decisions on outcomes in one service, or you can compare the effects of one decision on different services.
+     + AGG shows how a variety of team decisions interact to affect your overall mix of services. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking, and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care. You can compare the effects of different decisions on outcomes in one service, or you can compare the effects of one decision on different services.
 
- + SP shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
+     + SP shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)  

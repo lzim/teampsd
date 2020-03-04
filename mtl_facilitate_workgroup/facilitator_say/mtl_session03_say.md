@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Facilitator Say"
 author: "Team PSD"
-date: "SP 2019 oct 21| RH 24 Jan2020| Jane 02Feb20202 |  AP 2020 Feb 5 | RH March 2 2020|"
+date: "SP 2019 oct 21| RH 24 Jan2020| Jane 02Feb20202 |  AP 2020 Feb 5 | RH March 2 2020| RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -47,7 +47,9 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.
 
-## In-session Exercise (30 minutes): Team data for simulation
+## In-session Exercise (30 minutes)
+    
+    + Team data for simulation
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ### Navigate to the data UI at mtl.how/data. 
@@ -85,14 +87,17 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 	- The file you generate will have all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
 - Navigate back to your team folder at mtl.how/data. Click on the "team_data_table" folder and open the Excel file to find the team data table already produced for you.
  
-### 1. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.
+### 1. Select a module for review 
+
+   + To show what data are used to tailor each *MTL* module to your team.
 [Choose a module]  
 
    + *CCParams*: Key variables of interest in CC may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.  
 
    + *MMParams*: Key variables of interest in MM may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and slots allocation percent for providers with and without an X waiver.  
 
-   + *PSYParams*: Key variables that can be explored in PSY include median engagement duration and engagement after the patient's first 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.  
+   + *PSYParams*: Key variables that can be explored in PSY include median engagement duration and engagement after the patient's first 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks. 
+   
    + *AggParams*: Key variables in AGG include median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.  
 
    + *SPParams*: In SP, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.  
@@ -107,7 +112,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 	This column [highlight column] gives the description or definition of the variable. 
 	This column [highlight column] contains additional details about how individual patient data are extracted and used to calculate your team’s historical trends.  
 
-### 2. Let’s select a second module for review.
+### 2. Select a second module for review.
 
 - Check out the last 2 columns, to the right of the numerical data.  
 	This column [highlight column] gives the description or definition of the variable.  
@@ -120,19 +125,19 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 ### 3. Are there any team data table values you would like to explore in the team data UI?
 
--  Which ones? Open the data UI to examine your question.  
+-  If so, which ones? Open the data UI to examine your question.  
 
-### 4. Do you see any team data values that differ a lot from what you would expect?
+### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 
 - If so, what is it surprising? 
 
-- Does the estimation definition help you to interpret the variable value?  
+- Does the estimation definition (second to last column, text in red) help you to interpret the variable value?  
 
-### 5. Do you see any team data values that confirm your thoughts about high priority team needs?
+### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
 
-- What are you noticing? 
+- If so, what are you noticing? 
 
-- In what ways does the team data fit with your day-to-day experience?
+- In what ways does the team data fit with your day-to-day clinical practice in your team?
   
 ### That's it for _Modeling to learn_ how to produce team data for simulation. Next is our Done/Do review.
 
