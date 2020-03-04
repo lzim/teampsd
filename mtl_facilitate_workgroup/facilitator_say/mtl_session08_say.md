@@ -62,24 +62,22 @@ Time Stamp | Prioritize tailored team learning | Script
 
 ### 2. If you logged into your individual world, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
-### 3.	If you logged into your individual world, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
-
-### 4.	You can Join Current Session or Start a New Session in any module. If you Start a New Session select the team data file you’d like to use.
-
    + On the *MTL* Home page, you will see the "Experiment Maintenance" section in the middle. This is where you can review your saved runs by clicking the blue bar to expand the section.  
 
    + Here, you are able to *Delete*, *Rename*, or *Export* your experiments.
   
    + A team may need to rename experiments if they want to be sure they are able to differentiate between experiments or if they incorrectly named a file in a prior session. If you need to rename any of your saved runs, check the box to the left of the file name, click Rename*, change the name, and Save.  
-
-  + The section on the right side of the *MTL* Home page is "Team Data Menu Maintenance". This lets you alter what you see in the drop-down menu for selecting a data file when you want to Start a New Session (in the Session section). You can *Delete*, *Rename*, or *Add* data files. You would not want to rename a data file unless you did not already have it entered exactly as it is named in the Data UI.
-
-
-  + And finally, in the Session section on the left, you can either *Join Current Session*, or you can *Start a New Session* by selecting a radio button next to the desired module and then clicking "Play."   
    
+### 3.	If you logged into your individual world, review the data files you have uploaded in the Team Data Dropdown Maintenance section and make sure you have the data file you want.
+
+  + The section on the right side of the *MTL* Home page is "Team Data Menu Maintenance". This lets you alter what you see in the drop-down menu for selecting a data file when you want to Start a New Session (in the Session section). You can *Delete*, *Rename*, or *Add* data files. You would not want to rename a data file unless you did not already have it entered exactly as it is named at mtl.how/data.
+
+
+### 4.	You can Join Current Session or Start a New Session in any module. If you Start a New Session select the team data file you’d like to use.
+
    + If you *Start a New Session* you will need to select the team data file you would like to use for this session. Click the "Select Team Data" icon. A pop-up box will appear that says, "Please select a model input file." Click to open the drop-down menu and choose the data file you would like to use.  
 
-### 5.	To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
+### 5.	To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs Text fields. Review those text fields.
 
   + You will see the main, model diagram section, the *Outputs and Text* section, and the *Experiments* section, with a smaller, floating *Text* section. You can drag that section over or "X out" of it to make room to open the *Experiments* section. To pick up where we left off last time, expand the *Experiments* section by clicking on the blue bar. At the top you will see, "Select Previous Experiment to Set Experimental Values to a Former State." 
 
@@ -98,8 +96,8 @@ Time Stamp | Prioritize tailored team learning | Script
 
 ### 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result.
   
-  + Study the system diagram and team data, and decide together what change you want to experiment with that might give you the desired result.  Click on ____________ under "reveal complexity" to see the systems story relevant to the experiment you decided on  in the last session. 
-   In the diagram, the rectangles that look like the levels of gas that you have in your gas tank are showing states in care where patients or appointments can accumulate or drop. For example, in this team we see ___ patients in the ________ stock.  The number of patients in a state are influenced by flow rates - designated by circles here that look like speedometers. For example, this ______ rate shows that about __ patients per week in this team move from_________ to _________ [show with mouse work]. 
+  + Click on ____________ under "reveal complexity" to see the systems story relevant to the experiment you decided on  in the last session. 
+  + In the diagram, the rectangles that look like the levels of gas that you have in your gas tank are showing states in care where patients or appointments can accumulate or drop. For example, in this team we see ___ patients in the ________ stock.  The number of patients in a state are influenced by flow rates - designated by circles here that look like speedometers. For example, this ______ rate shows that about __ patients per week in this team move from_________ to _________ [show with mouse work]. 
 
   + Example:
     + First, explore the Appointments section of the diagram and see how Appointment Supply links to a number of variables.  
@@ -112,7 +110,7 @@ Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:25-00:35 | **Adjust** sliders and set up team's dynamic hypothesis | **3. Practice describing specific value adjustments you expect will be helpful for the team to experiment with related to their highest priority need.**
 
-### 7.	To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now:
+### 7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now:
 
   + Let's create a new experiment building off of the previous one, the base case of no new decisions. The important thing for learning is to stake a claim about your expectations, so the simulation output can teach you something. This process can also help teams to reconcile differences and achieve consensus about ways to move forward and take action for improvement. You all probably won't agree about what the likely impact of any change will be, but we can use Modeling to Learn engage in participatory learning to find out.
 
@@ -143,7 +141,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 ### 8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values).
 
-  + Slide the Text box to the left, over the model diagram. This will allow you to adjust experiment sliders for the new experiment.  
+  + Slide the Text box to the left, over the model section. This will allow you to adjust experiment sliders for the new experiment.  
   + In the experiments section we also have experimental sliders with “i” information that tells you what you’re changing when you adjust that slider in your experiment.  
   + Keep in mind that the previous run’s settings are in effect -- in this case, we have only run the bc or base case so the default values from the team data are the previous run settings.  
   + A quick tip -- make note of the service or services you selected to change and the new values, that is, what you changed the numbers to, so you have that information available for naming the experiment when you save it.  
@@ -210,6 +208,8 @@ In an interconnected system, with causal interdependencies over time, simulation
 
 
 ### 12. Save and Reset when ready.
+
++ Log out of the SIM UI.
  
 ### That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review.
  
