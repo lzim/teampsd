@@ -12,21 +12,21 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 04](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session04_see.Rmd "MTL Live Session 04")
+# MTL Live Session 04
 
 # Today we're modeling to learn how to prioritize team needs.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#.)| 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
 ## Learning Objectives
 
@@ -57,11 +57,11 @@ These are the *MTL* available modules
 - Aggregrate team services (AGG)
 - Measurement-based stepped care for suicide prevention (SP)
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#.)
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)| 
 
