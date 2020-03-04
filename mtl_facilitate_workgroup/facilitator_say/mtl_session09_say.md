@@ -46,35 +46,32 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ### Let's get started:
 
-# In-session Exercise (30 minutes)
-  + Comparing experiments 1 and 2  
-  
+# In-session Exercise (30 minutes): Comparing experiments 1 and 2    
 
-## **Running An Experiment**
-  + Review Past Experiment
+## Review Past Experiment
 
 ### 1. Log in to your individual or team world at mtl.how/sim.
 
 ### 2. Review your saved runs. Rename your saved runs if you feel you need to.
-  + Now is a time you can review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
+  + Now is a time you can review your saved runs in the Experiment Maintenance section.
 
 ### 3. Review the data files you have uploaded for use and make sure you have what you want.
-  + You can also review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
+  + You can also review the data files you have uploaded in the Team Data Menu Maintenance section.
 
-### 4. You can Join Current Session or Start a New Session in the Aggregate module. If you Start a New Session select the team data file you’d like to use.
-  + Click to Join Current Session.
+### 4. You can Join Current Session or Start a New Session. If you Start a New Session select the team data file you’d like to use.
 
-### 5. To refresh your memory and pick up where you left off last time, Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
+### 5. To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
++ What did we learn last time?
 
 ## **Plan for Experiment 2**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
-### 6. Study the systems story on the model diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
-  + To think further about what to test next and a hypothesis about the outcomes, minimize the Outputs and Text section so you can see both that and the model diagram. Study the systems story in the model diagram, and the data in the team data table. Decide together what change you want to experiment with that might give your team the desired result.
+### 6. Study the systems story on the model diagram section and team data, and decide together what change you want to experiment with, that might give you the desired result.
+  + To think further about what to test next and a hypothesis about the outcomes, minimize the Outputs and Text section so you can see both that and the model diagram. 
 
 ### 7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now: 
-  + To create a new run, building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now. You can cut the text from the Our Decisions and move it to Our Question. Delete text in Our Findings. Now edit the team's question. It should clearly state a specific directional change in at least one variable over time. Ideally, the question will be framed as a comparison. For example, "As compared to Experiment 1 and the base case, could we increase/decrease ... over the next two years if we decide to..."
+  + You can cut the text from the Our Decisions and move it to Our Question. Delete text in Our Findings. Now edit the team's question. It should clearly state a specific directional change in at least one variable over time. Ideally, the question will be framed as a comparison. For example, "As compared to Experiment 1 and the base case, could we increase/decrease ... over the next two years if we decide to..."
   
   + **CC**: As compared to Experiment 1 and the base case, what will happen to the Starting Rate and New Patient Wait Time over the next two years, if we lengthen our team's average Return to Clinic Visit Interval (RVI), in units of weeks, by a certain amount?  
 
@@ -110,8 +107,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## **Run Experiment 2**  
 
 ### 8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
-  + Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
-
   + Drag the Text Section to the left so you can open the **Experiment Section.** _As you adjust sliders up/down in the Experiments section_, refine the text in the Hypothesis box to reflect the new practice decisions to be tested, _and the expected relative differences that will be observed as compared to the Base Case and Experiment 1._ Move each slider named in the question to its desired value.
   
 ### 9. Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
@@ -122,7 +117,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
 ### 10. Compare Runs to see the difference the between base case and the current experimental run.
- + Compare Runs to see the how the current experiment differs from the base case and Experiment 1.
 
 + Prioritize review of _the expected relative differences as compared to the Base Case and Experiment 1._ in relation to the team's highest priority need. Expand the “Outputs” section to see the full Results Dashboard.  Charts for six key variables will be shown.  If other variables are needed, use the drop-down menu under any chart.  
 
@@ -147,7 +141,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
 ### 11. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run.  
-  + Discuss what **new decisions** the team wants to test next. Ideally, the **highest leverage** and **most feasible (i.e., decisions that individual and the team have under their control)** experiments were tested in session 8 (Experiment 1) and session 9 (Experiment   
+  + Discuss what **new decisions** the team wants to test next. Ideally, the **highest leverage** and **most feasible (i.e., decisions that individual and the team have under their control)** experiments were tested in session 8 (Experiment 1) and session 9 (Experiment 2).   
 
 + Therefore, _to apply systems thinking_ in session 10, ask the team to consider a combination of experiments 1 and 2.  Ask the team to type in the Decisions box, _both_ 1) what they would like to experiment with next, and 2) any _new decisions they may make in their clinical practice based on what they learned._
       
