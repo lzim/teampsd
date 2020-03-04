@@ -10,7 +10,7 @@ output:
   word_document: default
 ---
 
-# *Modeling to Learn* how to how to compare alternatives.
+# *Modeling to learn* how to make _future_ team decisions.  
 <!-- MTL Logo, HTML img tag -->
 ## Session 11: Post-test Questions	
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
