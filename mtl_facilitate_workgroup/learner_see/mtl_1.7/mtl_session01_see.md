@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 1 - Learner See"
 author: "Team PSD"
-date: "Edited by SP Oct 16, 2019 |RH Jan 24 2020 |AP Feb 5, 2020 |RH March 02 2020"
-release: "MTL 1.7"
+date: "October 2018"
+release: 1.7
 output: 
   github_document: default
   html_document: default
@@ -13,10 +13,8 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
-     height = "175" width = "420">](#DontLink)
-
-**Disclaimer**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
 # MTL Live Session 01
 
@@ -24,21 +22,18 @@ output:
 
 ## Done and Do (15 minutes)
 <!-- Done/Do Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" alt = "Done" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" alt = "Do" height = "90" width = "90">](#.) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.)   **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_live.gif)](#.)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_live.gif)](#.)  | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
 
 <!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "Learning Objectives" height = "90" width = "90" style ="display: inline-block">](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)   
 
 ## Learning Objectives
 
-1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
-
+1. Describe your own vision for what you would like your team to get from *Modeling to Learn.*
 2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
-
-3. Identify a shared team vision for learning from *Modeling to Learn*.
-
+3. Identify a shared team vision for learning from *Modeling to Learn.*
 
 # In-session Exercise (30 minutes)
 
@@ -70,7 +65,7 @@ b. Now picture the team learning over the next 6 months in a ‘best-case’ sce
 
 a. What is team communication like?
 
-b. How do team members relate to one another?
+b. How does the team relate to one another?
 
 c. How is VA data used?
 
@@ -92,21 +87,23 @@ e. If not, which would we most like to address (align around), and why?
 
 Overall "Modeling to Learn" objectives include activities and competencies that…
 
-a. …are meaningful for you and align your learning goals with your team's.
+a. …are meaningful for you and align your learning goals with your team.
 
-b. …develop systems thinking skills - help you see how several things fit together and understand causes that are hard to see without data and modeling resources.
+b. …develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.
 
 c. …make VA data, initiatives and standards transparent to you. 
 
 d. …empower you to realize ongoing improvements in team quality of care and team quality of work life.
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 ### 6. Select the Team Vision
 
 ## Done and Do (15 minutes)
 <!-- Done/Do Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.)   **Do** |
 | --- | --- | 
-| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.info@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email TeamPSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/data_ui_login.gif" height="200px" width="350px" />](#DontLink) |
+| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:lindsey.zimmerman@va.gov;stacey.park2@va.gov) Select a Team Lead and email TeamPSD to set up our standing team meeting time. |
+
+
 
