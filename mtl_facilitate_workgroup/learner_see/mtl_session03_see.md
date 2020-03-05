@@ -49,7 +49,18 @@ output:
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Aggregate team services (AGG)
-  - Measurement-based stepped care and suicide prevention (SP)
+  - Measurement-based stepped care and suicide prevention (SP)*
+
+#### New for _MTL_ 2.0
+- In the future, if you would like to use the same clinic selections for pulling new parameters, you can select the "Get previous clinic list from Create Team Data Table file" arrow in Column B.
+
+- You can now generate a team data table for all the modules without SP (called "All without SP" in the dropdown next to the "Create Team Data Table" button), or all the modules with SP (called "All with SP" in the dropdown next to the "Create Team Data Table" button).
+
+- When you select a team data table option for specific modules, the data UI will generate 0s for all other parameters that were not chosen.
+
+-*
+
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md).
 
 ### 1. Select a module for review
 - Find a variable that is important to you team. How is it estimated in this table? What are its units?
