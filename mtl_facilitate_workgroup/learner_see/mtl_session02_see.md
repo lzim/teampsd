@@ -62,6 +62,11 @@ output:
 
 - What filtering options are available? 
   - Filter to your clinic or division to see trends for the last two years.
+  
+#### New for _MTL_ 2.0
+- You can now switch between View options through a dropdown menu in the top-right corner instead of clicking on Excel spreadsheet tabs at the bottom of the sheet.
+
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
 ## Your Team Data Folder
 
