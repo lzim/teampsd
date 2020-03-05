@@ -82,7 +82,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - After filtering, click the "Add All" arrow in columnn B. Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
 #### New for _MTL_ 2.0
-- In the future, if you would like to use the same clinic selections for pulling new data, you can select the "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B.
+- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
