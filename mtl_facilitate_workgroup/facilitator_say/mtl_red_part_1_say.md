@@ -42,25 +42,9 @@ Hello! I'm __________ and I'm __________.
 
 ## In-Session Exercise
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:10-00:15___
-
-## Participatory Learning from Simulation
-This graphic illustrates how **_Modeling to Learn_** can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
-- We use the data user interface (UI) to look back at team trends over the past two years.
-- We review the last two years of data to see *what is* in our team now. 
-- Backward looking data review is limited for guiding effective change.
-- Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it. 
-- It is also really demotivating to see trends we don't like, and not know what is causing the problem.
-- We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. What we're doing today is that *looking back* using the data UI.
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
-- Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.
-
-
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) 
-
 ## Let's get started! 
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:10-00:20___
 
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
