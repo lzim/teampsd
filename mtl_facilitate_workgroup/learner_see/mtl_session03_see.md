@@ -59,6 +59,8 @@ output:
 - Click on the module drop-down to select the module you want and select "Create Team Data Table."
   
 #### New for _MTL_ 2.0
+- The "SPTransfers" tab is now called "SPReferrals."
+
 - "Create Team Data Table for Sim UI" is now called "Create Team Data Table."
 
 - In the future, if you would like to use the same clinic selections for pulling new parameters, you can select the "Get previous clinic list from Create Team Data Table file" arrow in Column B (Cell B4).
@@ -67,7 +69,7 @@ output:
 
 - When you select a team data table option for specific modules, the team_data_table file you generate will have all five module tabs and labels, but will populate 0s for all other parameters that were **not** selected.
 
-	- If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
+	- If you include SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md).
 
