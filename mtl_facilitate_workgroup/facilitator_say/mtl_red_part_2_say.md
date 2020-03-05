@@ -63,7 +63,7 @@ Hello! I'm __________ and I'm __________.
 
 - This is a different table from the one you generated last time by selecting the clinics that make up your team and then clicking "Get *Patient Level* Data." 
 
-- Data in this file are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data, or parameters.
+- Data in this file are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*.
 
 - There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
    + Care Coordination (CC) - tab title *CCParams*
@@ -71,6 +71,10 @@ Hello! I'm __________ and I'm __________.
    + Psychotherapy (PSY) - tab title *PSYParams*
    + Aggregate mix of services (AGG) - tab title *AggParams*
    + Measurement Based Stepped Care and Suicide Prevention (SP) - tab title *SPParams*
+   
+- The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent. 
+  - In order to capture parameters that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).  
+  - For parameters that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
 
 - We have already produced a team data table for you, but to do it yourself:
 
