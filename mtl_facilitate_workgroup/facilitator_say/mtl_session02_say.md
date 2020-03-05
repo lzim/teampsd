@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 02 - Facilitator Say"
 author: "Team PSD"
-date: " Edited by SP 2019 Oct 21 2019 | RH Jan 24 2020 | AP 2020 Feb 5 | RH March 2 2020 | RH march 3 2020"
+date: " Edited by SP 2019 Oct 21 2019 | RH Jan 24 2020 | AP 2020 Feb 5 | RH March 2 2020 | RH march 3 2020 | SP mar 5 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -68,7 +68,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
 
-- We recommend using Explorer as your browser for this resource is because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll being opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
+- We recommend using Explorer or Edge as your browser for this resource because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
@@ -79,7 +79,6 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 - This splashpage is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
 
-- There are two sets of scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls through the graphs on the page.
 
 #### There are three types View options in the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
 
@@ -94,7 +93,7 @@ Viz | Visualization of trends over time.
 
 Rank | Data | Displays 
 -- | -- | --
-___ | Diag | Primary diagnoses only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have on primary diagnosis. For more detail, open up the data UI.)
+___ | Diag | Primary diagnosis only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have one primary diagnosis. For more detail, open up the data UI.)
 ___ | Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
 ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
@@ -129,25 +128,28 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
  ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
  ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
-
 ## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+- If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
 
+- Click on the data_ui file. This will show a preview in your Explorer or Edge browser window.
+
+- Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
    
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. 
 
-- You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
-  
-- Or, if your team has designated provider clinics, you can select by provider name.  
+- This data_ui file has already been specified for your facility/station. 
+
+- You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
   
 - Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
 
 - Follow the instructions in **Box A2**. 
   
-- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Box B6) to add them to column A.  
+- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.  
  
-- In the future, if you want to quickly get the same list of clinics again, you can click on the gray "Get previous clinic list from last click of Get Patient-level Data" button (Box B3) to add them to column A.
+- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
 ### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
@@ -159,7 +161,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**
   
-- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
+- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
 - We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time.
 
@@ -167,7 +169,17 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
-- You can further drill up/down in the "viz" tabs by right clicking on any cell and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
+- You can further drill up/down in the "viz" tabs by right clicking on any trend line and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
+
+- The viz tabs will also always return to default selections everytime the team clicks on "Get Patient-level Data" to refresh data in their data_ui file.
+
+- Note: If you use the "Quick Explore" drill down using patient names, all of the asterisked patients will be grouped together. 
+
+- You can also right click on the line in a trend visualization and filter to hide a selected item or keep only the selected item.
+
+- vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses. 
+
+- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combintations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 - **What stands out to you about ________________________________**[fill-in team vision]**?  
@@ -215,7 +227,7 @@ Keep an eye on time |  |  |
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_ui and team_data_table. | 
 
 ### DO demo
 
@@ -226,12 +238,12 @@ Keep an eye on time |  |  |
 While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the SharePoint-based splashpage:
   + You can select a set of clinics (grids) that exactly represent your individual team.
   + All the patient-level data are identified with patient names.
-  + You can create the parameters used by the simulation user interface.
+  + You can create the team data table parameters used by the simulation user interface.
 
 3. Review your individual patient data and identify team trends:
  + Health Factors (HF)  
  + Diagnoses (Diag)  
  + Encounters (Enc), and   
- + Suicide Prevention (SP)  
+ + Measurement Based Stepped Care and Suicide Prevention (SP)  
 
 ## Until next time, thank you for _Modeling to Learn_!
