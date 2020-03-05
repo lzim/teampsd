@@ -93,7 +93,7 @@ Viz | Visualization of trends over time.
 
 Rank | Data | Displays 
 -- | -- | --
-___ | Diag | Primary diagnoses only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have on primary diagnosis. For more detail, open up the data UI.)
+___ | Diag | Primary diagnosis only on visits in that setting level. (Note: In DataDiag, unique visits are shown, since each visit can only have one primary diagnosis. For more detail, open up the data UI.)
 ___ | Enc| Encounter or visits types, such as medication management, psychotherapy, intakes etc.
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
 ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
@@ -164,7 +164,17 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
-- You can further drill up/down in the "viz" tabs by right clicking on any cell and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
+- You can further drill up/down in the "viz" tabs by right clicking on any trend line and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
+
+- The viz tabs will also always return to default selections everytime the team clicks on "Get Patient-level Data" to refresh data in their data_ui file.
+
+- Note: If you use the "Quick Explore" drill down using patient names, all of the asterisked patients will be grouped together. 
+
+- You can also right click on the line in a trend visualization and filter to hide a selected item or keep only the selected item.
+
+- vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses. 
+
+- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combintations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 - **What stands out to you about ________________________________**[fill-in team vision]**?  
