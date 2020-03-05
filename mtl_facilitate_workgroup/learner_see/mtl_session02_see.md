@@ -64,9 +64,13 @@ output:
   - Filter to your clinic or division to see trends for the last two years.
   
 #### New for _MTL_ 2.0
-- You can now switch between View options through a dropdown menu in the top-right corner instead of clicking on Excel spreadsheet tabs at the bottom of the sheet.
+- You can now switch between View and filtering options via the dropdown menu in the top-right corner and grey buttons, instead of through the tabs on the Excel spreadsheet. We are no longer directly showing an Excel sheet on the Splashpage.
+
+- There is no need to use the "Data > Refresh Connections" button anymore and it will not respond as the data pull and refresh workflow has changed. 
 
 - vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD. 
+
+- Patient SSID is no longer asterisked out in the Splashpage. It has been completely removed. Please go to the data UI to see Patient SSID information.
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
@@ -77,11 +81,15 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
 
 
+#### New for _MTL_ 2.0
+- If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station. With this feature, there is also no need to select the "Station" from the "Control" tab anymore in Step 4.
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
+
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). For de-activated clinics, you can find the date of de-activation in column I.
 - Follow the instructions in **Box A2.** 
-- After filtering, click the "Add All" arrow in columnn B. Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
+- After filtering, click the "Add All" arrow in column B (Cell B6). Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
 #### New for _MTL_ 2.0
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
