@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Facilitator Say"
 author: "Team PSD"
-date: "SP 2019 oct 21| RH 24 Jan2020| Jane 02Feb20202 |  AP 2020 Feb 5 | RH March 2 2020| RH March 3 2020"
+date: "SP 2019 oct 21| RH 24 Jan2020| Jane 02Feb20202 |  AP 2020 Feb 5 | RH March 2 2020| RH March 3 2020 | SP Mar 5 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -27,7 +27,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We opened mtl.how/data in Explorer and looked at the two team folders: data_UI and team_data_table. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will produce team data for the _MTL_ simulation user-interface (sim UI).| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We opened mtl.how/data in Explorer and looked at the two team folders: data_ui and team_data_table. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will produce team data for the _MTL_ simulation user-interface (sim UI).| 
 
 ### After this session you will be able to:
 
@@ -75,6 +75,10 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
    + Psychotherapy (PSY) - tab title *PSYParams*
    + Aggregate mix of services (AGG) - tab title *AggParams*
    + Measurement Based Stepped Care and Suicide Prevention (SP) - tab title *SPParams*
+
+- The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent. 
+  - In order to capture parameters that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).  
+  - For parameters that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
 
 - We have already produced a team data table for you, but to do it yourself:
 
@@ -138,7 +142,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 - In what ways does the team data fit with your day-to-day clinical practice in your team?
   
-### That's it for _Modeling to learn_ how to produce team data for simulation. Next is our Done/Do review.
+### That's it for _Modeling to Learn_ how to produce team data for simulation. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
