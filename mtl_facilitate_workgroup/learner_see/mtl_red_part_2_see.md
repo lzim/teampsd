@@ -17,7 +17,7 @@ output:
 
 # MTL Red Part 2
 
-# Today we're modeling to learn from calculated team parameters.
+# Today we're modeling to learn how to calculate team parameters.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
