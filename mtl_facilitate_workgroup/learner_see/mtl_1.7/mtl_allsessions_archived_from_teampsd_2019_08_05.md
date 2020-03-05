@@ -12,21 +12,21 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.) 
 
-# [MTL Live Session 01](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session01_see.Rmd "MTL Live Session 01")
+# MTL Live Session 01
 
 ## Today we're modeling to learn how to align our team vision.
 
 ## Do and Done (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_live.gif)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_live.gif)](#.)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
 ## Learning Objectives
 
@@ -98,26 +98,26 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 
 ## Do and Done (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:lindsey.zimmerman@va.gov;stacey.park2@va.gov) Select a Team Lead and email TeamPSD to set up our standing team meeting time. |
 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 02](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session02_see.Rmd "MTL Live Session 02")
+# MTL Live Session 02
 
 # Today we're modeling to learn how to check our patient data and team trends.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |  
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)|  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)](#.)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#.)|  
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/we_decided_learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
 ## Learning Objectives
 
@@ -130,7 +130,7 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 ## *MTL* on BISL
 
 ### 1. Go to mtl.how/data First select your VISN and then select your facility.
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)  
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)](#.)  
 
 ### 2. Explore the information available in the BISL sharepoint splash page
 - How many scroll bars are there?  Where are they? 
@@ -143,7 +143,7 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your team data ui in Excel.
 - Select your station using the control tab. If you have any issues with permissions, Team PSD can help you.
 - Click "Get Clinic List" and it will pull in clinics for your facility.
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)  
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)](#.)  
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 - You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
@@ -159,7 +159,7 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your today.
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#.)
 
 ### 6. Click to view the "viz" tabs, which show team trends.
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
@@ -167,7 +167,7 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 - What is most important to you to check out first?
 - what is most surprising?
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#.)
 
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.
 - Patients who have requested restricted access to their information have asterisks *******
@@ -181,25 +181,25 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#.)| 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 03](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session03_see.Rmd "MTL Live Session 03")
+# MTL Live Session 03
 
 # Today we're modeling to learn how to produce team data for simulation.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI) ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data UI and team data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce team data for the _MTL_ simulation user-interface (sim UI) [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)](#.)|
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -237,29 +237,29 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
 - If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)](#.)
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced Team Data for the sim UI. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced Team Data for the sim UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)](#.)|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#.)|
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 04](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session04_see.Rmd "MTL Live Session 04")
+# MTL Live Session 04
 
 # Today we're modeling to learn how to prioritize team needs.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#.)| 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -292,26 +292,26 @@ These are the *MTL* available modules
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)| 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 05](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session05_see.Rmd "MTL Live Session 05")
+# MTL Live Session 05
 
 
 # Today we're modeling to learn how to log in to our team world.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the sim UI at mtl.how/sim. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_2.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the sim UI at mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_2.gif)](#.)| 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -328,7 +328,7 @@ These are the *MTL* available modules
 2. Let's now go back to mtl.how/data in an Explorer window to check the name of our team data file.
 3. The team data file for simulation is in our team folder, in the team_data_sim folder
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)](#.)
 
 ## Log in to the sim UI in Chrome
 
@@ -338,7 +338,7 @@ These are the *MTL* available modules
 
 + Enter your login credentials and hit enter.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)
 
 5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
 
@@ -352,7 +352,7 @@ These are the *MTL* available modules
 
 7. Orient yourself to the Main Page of the Sim UI (same information and buttons at top; 3 tiles with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_2.gif)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_2.gif)](#.)
 
 8. Expand the Experiments tile and read the “i” information for the Team Data Table.
 
@@ -378,26 +378,26 @@ These are the *MTL* available modules
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments Tile. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_3.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments Tile. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_3.gif)](#.)| 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 06](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session06_see.Rmd "MTL Live Session 06")
+# MTL Live Session 06
 
 # Today we're modeling to learn how to tell a systems story.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_3.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)| 
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_3.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)](#.)| 
 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
 ## Learning Objectives
 
@@ -421,7 +421,7 @@ These are the *MTL* available modules
 3. Question 3: Describe in one sentence what happens in the model as you "Reveal Complexity?"  
 4. Question 4: What is the significance of the variables in the "red boxes?"  
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)](#.)
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 
@@ -443,14 +443,14 @@ These are the *MTL* available modules
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim and enter our question and hypothesis about the Base Case run in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_4.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim and enter our question and hypothesis about the Base Case run in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)](#.)|
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 07](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session07_see.Rmd "MTL Live Session 07")
+# MTL Live Session 07
 
 
 # Today we're modeling to learn how to evaluate our Base Case of no new decisions.
@@ -458,12 +458,12 @@ These are the *MTL* available modules
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section.  ![](https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/sim_ui_5.gif) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim and entered our question and hypothesis about the Base Case (bc) in the Text section.  [![](https://raw.githubusercontent.com/lzim/teampsd/sdp_2018_11_21/resources/gifs/sim_ui_5.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will review the _MTL_ sim UI Expanded Outputs section and run a bc simulation.[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)](#.)| 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -476,13 +476,13 @@ These are the *MTL* available modules
 ## Running a Base Case
 
 1. Login to your team world at mtl.how/sim.
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)
 
 2. You can *Join Current Session* or *Start a New Session* in any module.
 
 2.	Orient yourself to the main page: Team Name; selected module; selected data file.  All settings in the Experiments tile are at Base Case or default values. 
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_2.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_2.gif)](#.)
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 
@@ -490,7 +490,7 @@ These are the *MTL* available modules
 
 3.	Open the Expanded Outputs section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no changes are made and you run the simulation out to its 2-year end just using the data pulled in from your team data file. 
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)](#.)
 
 4.	Run; then Save (without resetting) the run with the name Base Case.
 
@@ -511,25 +511,25 @@ These are the *MTL* available modules
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Text section. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)](#.)|
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 08](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session08_see.Rmd "MTL Live Session 08")
+# MTL Live Session 08
 
 # Today we're modeling to learn how to test a dynamic hypothesis.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the Expanded Outputs section to prepare for experiment 1. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis by running experiment 1 and comparing results against the bc. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif) |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and explored the results of the Base Case (bc) in the Expanded Outputs section to prepare for experiment 1. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_9.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will test a dynamic hypothesis by running experiment 1 and comparing results against the bc. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.) |
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -543,7 +543,7 @@ These are the *MTL* available modules
 
 1.	Login to your team world at mtl.how/sim.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)
 
 2.	Review your saved runs. Rename your saved runs if you feel you need to.
 
@@ -553,7 +553,7 @@ These are the *MTL* available modules
 
 5.	To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)](#.)
 
 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
 
@@ -565,15 +565,15 @@ These are the *MTL* available modules
 
 8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (this time that just means all the base case/default values).
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_10.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_10.gif)](#.)
 
 9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_8.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_8.gif)](#.)
 
 10.	Compare Experiments to see the difference the between base case and the current experimental run. 
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.)
 
 Record what you learned:
 
@@ -588,27 +588,27 @@ Record what you learned:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif) | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)](#.) | 
 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 09](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session09_see.Rmd "MTL Live Session 09")
+# MTL Live Session 09
 
 # Today we're modeling to learn how to compare alternatives.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -622,7 +622,7 @@ Record what you learned:
 
 1.	Login to your team world at mtl.how/sim.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.)
 
 2.	Review your saved runs. Rename your saved runs if you feel you need to.
 
@@ -632,7 +632,7 @@ Record what you learned:
 
 5.	To refresh your memory and pick up where you left off last time, Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)](#.)
 
 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
 
@@ -645,15 +645,15 @@ Record what you learned:
 
 8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_10.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_10.gif)](#.)
 
 9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_8.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_8.gif)](#.)
 
 10.	Compare Runs to see the difference the between base case and the current experimental run.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.)
 
 Record what you learned:
 
@@ -667,26 +667,26 @@ Record what you learned:
  
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, exp 1, and exp 2. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, exp 1, and exp 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 10](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session10_see.Rmd "MTL Live Session 10")
+# MTL Live Session 10
 
 # Today we're modeling to learn how to use systems thinking.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran a third experiment in our individual world.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run exp 3 and discuss the bc, exp 1, exp 2 and exp 3 using Complex, Feedback, Behavior, Time (CFBT) systems thinking skills. | 
 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -705,7 +705,7 @@ Record what you learned:
 6. Note the variables that were manipulated in the two experiments.
 7. Review the findings from the two experiments in the results dashboard and the text entered for Hypothesis, Findings and Decisions.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)](#.)
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
@@ -718,7 +718,7 @@ Record what you learned:
 10. Consider running a combination experiment that incorporates the sliders manipulated in both experiments.
 11. Replace text in the Q/H/F/D boxes to reflect the team's hypotheses and expectations for the combined experiment.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)](#.)
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
@@ -731,26 +731,26 @@ Record what you learned:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran exp 3 and discussed the results using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran exp 3 and discussed the results using systems thinking skills. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.)|
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [MTL Live Session 11](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session11_see.Rmd "MTL Live Session 11")
+# MTL Live Session 11
 
 # Today we're modeling to learn how to make team decisions.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's learning and prioritize ways to implement it in our clinical care. | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's learning and prioritize ways to implement it in our clinical care. | 
 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -778,25 +778,25 @@ Record what you learned:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We discussed the team's learning and prioritized ways to implement it in our clinical care. | Reflect on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps.| 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
+     height = "175" width = "290">](#.)  
 
-# [*MTL* Live Session 12](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session12_see.Rmd "MTL Live Session 12")
+# *MTL* Live Session 12
 
 # Today we're modeling to learn how to turn team learning into a team plan.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | We reflected on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps. | Reflect together on our team's vision and _MTL_ experience and make a team plan for next steps. | 
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
 
 ## Learning Objectives
 
@@ -826,7 +826,7 @@ Record what you learned:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Visit mtl.how for ongoing release updates and assistance using _MTL_ resources. | 
 
