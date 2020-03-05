@@ -148,7 +148,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - Follow the instructions in **Box A2**. 
   
-- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cel B6) to add them to column A.  
+- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.  
  
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
