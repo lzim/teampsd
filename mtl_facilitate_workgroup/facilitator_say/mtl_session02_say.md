@@ -128,13 +128,18 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
  ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
  ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
-
 ## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+- If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
 
+- Click on the data_ui file. This will show a preview in your Explorer or Edge browser window.
+
+- Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
    
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. 
+
+- This data_ui file has already been specified for your facility/station. 
 
 - You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
   
@@ -142,7 +147,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - Follow the instructions in **Box A2**. 
   
-- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Box B6) to add them to column A.  
+- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cel B6) to add them to column A.  
  
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
