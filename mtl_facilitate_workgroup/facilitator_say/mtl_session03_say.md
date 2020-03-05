@@ -47,9 +47,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.
 
-## In-session Exercise (30 minutes)
-    
-    + Team data for simulation
+## In-session Exercise (30 minutes): Team data table for simulation
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ### Navigate to the data UI at mtl.how/data. 
@@ -76,9 +74,10 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
    + Medication Management (MM) - tab title *MMParams*
    + Psychotherapy (PSY) - tab title *PSYParams*
    + Aggregate mix of services (AGG) - tab title *AggParams*
-   + Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
+   + Measurement Based Stepped Care and Suicide Prevention (SP) - tab title *SPParams*
 
 - We have already produced a team data table for you, but to do it yourself:
+
 	- Select a set of clinics in **ClinicSelection tab** similar to what you did last session. In the future, you can pull up the same clinics used last time for creating the team data table by clicking on the gray "Get previous clinic list from Create Team Data Table file" button (Box B4) to add them column A.
 	- Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab. 
 	- Click on the module drop-down. You can choose any module individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps using the **SPReferrals tab**.
