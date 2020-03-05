@@ -43,22 +43,30 @@ output:
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
+- We will not do this in-session today. You already have a fresh Team Data Table to work with in your team team_data_table folder.
+
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
 - There are team data produced for each module of *Modeling to Learn*
   - Care Coordination (CC)
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Aggregate team services (AGG)
-  - Measurement-based stepped care and suicide prevention (SP)*
-
+  - Measurement-based stepped care and suicide prevention (SP)
+  
+- Select a set of clinics in **ClinicSelection tab** similar to what you did for the data UI. 
+- If you want to produce a team data table for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Measurement Based Stepped Care and Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab. 
+	- Click on the module drop-down to select the module you want. 
+  
 #### New for _MTL_ 2.0
-- In the future, if you would like to use the same clinic selections for pulling new parameters, you can select the "Get previous clinic list from Create Team Data Table file" arrow in Column B.
+- "Create Team Data Table for Sim UI" is now called "Create Team Data."
+
+- In the future, if you would like to use the same clinic selections for pulling new parameters, you can select the "Get previous clinic list from Create Team Data Table file" arrow in Column B (Cell B4).
 
 - You can now generate a team data table for all the modules without SP (called "All without SP" in the dropdown next to the "Create Team Data Table" button), or all the modules with SP (called "All with SP" in the dropdown next to the "Create Team Data Table" button).
 
-- When you select a team data table option for specific modules, the data UI will generate 0s for all other parameters that were not chosen.
+- When you select a team data table option for specific modules, the team_data_table file you generate will have all five module tabs and labels, but will populate 0s for all other parameters that were **not** selected.
 
-- "Create Team Data Table for Sim UI" is now called "Create Team Data."
+	- If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md).
 
