@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 02 - Facilitator Say"
 author: "Team PSD"
-date: " Edited by SP 2019 Oct 21 2019 | RH Jan 24 2020 | AP 2020 Feb 5 | RH March 2 2020 | RH march 3 2020"
+date: " Edited by SP 2019 Oct 21 2019 | RH Jan 24 2020 | AP 2020 Feb 5 | RH March 2 2020 | RH march 3 2020 | SP mar 5 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -147,7 +147,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - Follow the instructions in **Box A2**. 
   
-- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cel B6) to add them to column A.  
+- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.  
  
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
@@ -161,7 +161,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**
   
-- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
+- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
 - We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time.
 
