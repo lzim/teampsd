@@ -58,12 +58,11 @@ output:
 
 - When you select a team data table option for specific modules, the data UI will generate 0s for all other parameters that were not chosen.
 
--*
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md).
 
 ### 1. Select a module for review
-- Find a variable that is important to you team. How is it estimated in this table? What are its units?
+- Find a variable that is important to your team. How is it estimated in this table? What are its units?
 - Where can you find even more detailed information about your team data?
 - Check out the last two columns. What is the difference between these two columns?
 
@@ -87,4 +86,4 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced team data for the MTL simulation user-interface (sim UI). [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)](#DontLink)|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu (behind VA firewall) to prioritize your needs. Responses are confidential. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#DontLink)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced team data table for the MTL simulation user-interface (sim UI). [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session3_data_ui_params.gif)](#DontLink)|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu (behind VA firewall) to prioritize your needs. Responses are confidential. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_menu.gif)](#DontLink)|
