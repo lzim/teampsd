@@ -19,7 +19,7 @@ output:
 # MTL Red Part 2
 
 Hello! I'm __________ and I'm __________.
-### Today we're modeling to learn from calculated team parameters.
+### Today we're modeling to learn how to calculate team parameters.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
@@ -134,7 +134,7 @@ Hello! I'm __________ and I'm __________.
 
 - In what ways does the team data fit with your day-to-day clinical practice in your team?
   
-### That's it for _Modeling to learn_ how to produce team data for simulation. Next is our Done/Do review.
+### That's it for _Modeling to learn_ how to calculate team parameters. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
