@@ -62,8 +62,6 @@ output:
 
 - What filtering options are available? 
   - Filter to your clinic or division to see trends for the last two years.
-  
-On the Splashpage, only show primary diagnoses 
 
 ## Your Team Data Folder
 
@@ -76,10 +74,15 @@ On the Splashpage, only show primary diagnoses
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). For de-activated clinics, you can find the date of de-activation in column I.
 - Follow the instructions in **Box A2.** 
-- After filtering, click Add All. Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
+- After filtering, click the "Add All" arrow in columnn B. Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
-### 5. To view your team patient data and your team trends click "Create Patient-level Data." We will not do this in-session today.
-- **You already have a fresh data UI file to work with in your team data folder.** 
+#### New for _MTL_ 2.0
+- In the future, if you would like to use the same clinic selections for pulling new data, you can select the "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B.
+
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
+
+### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
+- **You already have a fresh data UI file to work with in your team data_ui folder.** 
 - We will learn about the "Create Team Data Table" button in our next team meeting.
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
@@ -87,7 +90,7 @@ On the Splashpage, only show primary diagnoses
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#DontLink)
 
-### 6. Click to view the "viz" tabs, which show team trends.
+### 6. Click to view the "viz" tab, which show team trends.
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 - What stands out to you?
 - What is most important to you to check out first?
@@ -95,13 +98,13 @@ On the Splashpage, only show primary diagnoses
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)
 
-### 7. Click to view the "data" tabs, which show your team's individual patient information.
+### 7. Click to view the "data" tab, which show your team's individual patient information.
 - Patients who have requested restricted access to their information have asterisks (****) in Columns F & G. If you are a VA provider, you can still identify patients from Column H.
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 - Providers can filter to find specific patients, or produce reports. 
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
-- What **viz** tab would you use to see what the most common service encounters or visits are?
-- Are there services that have been increasing over time? Are there services that have been descreasing over time?
+- What **viz** option would you use to see what the most common service encounters or visits are?
+- Are there services that have been increasing over time? Are there services that have been decreasing over time?
 
 ## With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
@@ -109,5 +112,5 @@ On the Splashpage, only show primary diagnoses
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in the data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_UI and team_data_table. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)|
 
