@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Facilitator Say"
 author: "Team PSD"
-date: "Edited by RH Oct 18 2019 | RH Jan 24 2020  | RH Feb 18 2020 |  Ed Jane 24Feb2020 | RH March 2 2020 | RH mMrch 3 2020"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020  | RH Feb 18 2020 |  Ed Jane 24Feb2020 | RH March 2 2020 | RH March 3 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -78,9 +78,9 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
    + In the Aggregate (AGG) module, you can test hypotheses about your overall mix of services. The unique feature here is that in Outputs, you can choose to compare either different experiments (as you can in all the modules), or you can compare the effects of a given experiment across the different services. 
 
-   + Finally, the Measurement Based Stepped Care and Suicide Prevention(SP)  module allows you to run experiments involving multiple mental health care settings, to see how decisions made in one setting impact patient care and wait times across the continuum of care.
+   + The Measurement Based Stepped Care and Suicide Prevention(SP) module allows you to run experiments involving multiple mental health care settings, to see how decisions made in one setting impact patient care and wait times across the continuum of care.  
        
-   + Another resource is the library of *MTL* videos, available at mtl.how/video. For sessions 5 through 10 which involve simulation, there are recordings not just for the module your team decided to use, but for all 5. Like *Modeling to Learn* Live, MTL Videos are accredited through TMS for continuing education credits.
+   + Another resource is the library of *MTL* videos, available at mtl.how/video. For sessions 5 through 10 which involve simulation, there are recordings not just for the module your team decided to use, but for all 5. Like *Modeling to Learn* Live, MTL Videos are accredited through TMS for continuing education credits.  
 
    + Finally, you can join the *Modeling to Learn* listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov. 
 
