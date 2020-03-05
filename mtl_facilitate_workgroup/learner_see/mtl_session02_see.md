@@ -66,6 +66,8 @@ output:
 #### New for _MTL_ 2.0
 - You can now switch between View options through a dropdown menu in the top-right corner instead of clicking on Excel spreadsheet tabs at the bottom of the sheet.
 
+- vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD. 
+
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
 ## Your Team Data Folder
@@ -105,6 +107,19 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - What stands out to you?
 - What is most important to you to check out first?
 - What is most surprising?
+
+#### New for _MTL_ 2.0
+- Click on any trend line and then "Quick Explore" (look for the magnifying glass). In the "Explore" box, pick the item you want to explore and click "Drill To." Keep using the Quick Explore to drill until you reach the data you want. To return to the original settings, click on the gray "Reset Pivot Chart."
+
+- The viz tabs will also return to default selections, when you click "Get Patient-level Data" for new data pulls.
+
+- Right click on a trend line and filter to hide a selected item or only keep the selected item.
+
+- vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses.
+
+- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary.
+
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)](#DontLink)
 
