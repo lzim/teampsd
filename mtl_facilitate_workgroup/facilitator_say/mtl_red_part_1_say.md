@@ -33,9 +33,9 @@ Hello! I'm __________ and I'm __________.
 ## Learning Objectives
 ### After this session, you will be able to:
 
-1. Describe the decisions your team made in producing your team data table.
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
+1. Describe the criteria determined to build your team in the MTL Data User Interface.
+2. Test your expectations about team historical trends against actual results in the "data", "viz" and "count" tabs.
+3. Apply your clinical expertise to translate learnings from the MTL Data UI into team decisions.
 
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:10___
