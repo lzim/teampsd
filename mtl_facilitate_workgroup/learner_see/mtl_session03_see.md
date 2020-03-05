@@ -58,6 +58,7 @@ output:
 
 - When you select a team data table option for specific modules, the data UI will generate 0s for all other parameters that were not chosen.
 
+- "Create Team Data Table for Sim UI" is now called "Create Team Data."
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md).
 
