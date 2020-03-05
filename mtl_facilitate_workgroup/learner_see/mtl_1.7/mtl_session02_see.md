@@ -2,7 +2,7 @@
 title: "MTL Session 2 - Learner See"
 author: "Team PSD"
 date: "November 2018"
-release: 1.7
+release: "MTL 1.7"
 output: 
   github_document: default
   html_document: default
