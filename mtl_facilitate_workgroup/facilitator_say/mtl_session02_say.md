@@ -68,7 +68,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
 
-- We recommend using Explorer as your browser for this resource is because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll being opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
+- We recommend using Explorer or Edge as your browser for this resource because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
@@ -79,7 +79,6 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 - This splashpage is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
 
-- There are two sets of scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls through the graphs on the page.
 
 #### There are three types View options in the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
 
@@ -137,9 +136,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
    
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. 
 
-- You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
-  
-- Or, if your team has designated provider clinics, you can select by provider name.  
+- You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
   
 - Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
 
@@ -147,7 +144,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
   
 - After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Box B6) to add them to column A.  
  
-- In the future, if you want to quickly get the same list of clinics again, you can click on the gray "Get previous clinic list from last click of Get Patient-level Data" button (Box B3) to add them to column A.
+- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
 ### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
@@ -215,7 +212,7 @@ Keep an eye on time |  |  |
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_UI and team_data_table. | 
 
 ### DO demo
 
@@ -226,12 +223,12 @@ Keep an eye on time |  |  |
 While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the SharePoint-based splashpage:
   + You can select a set of clinics (grids) that exactly represent your individual team.
   + All the patient-level data are identified with patient names.
-  + You can create the parameters used by the simulation user interface.
+  + You can create the team data table parameters used by the simulation user interface.
 
 3. Review your individual patient data and identify team trends:
  + Health Factors (HF)  
  + Diagnoses (Diag)  
  + Encounters (Enc), and   
- + Suicide Prevention (SP)  
+ + Measurement Based Care and Suicide Prevention (SP)  
 
 ## Until next time, thank you for _Modeling to Learn_!
