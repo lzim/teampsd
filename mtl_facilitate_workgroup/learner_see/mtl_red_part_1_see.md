@@ -37,7 +37,6 @@ output:
 3.	Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
 
 # In-session Exercise (30 minutes)
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ## *MTL* on BISL
 
