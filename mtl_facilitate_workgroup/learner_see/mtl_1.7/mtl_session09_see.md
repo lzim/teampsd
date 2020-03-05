@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 9 - Learner See"
 author: "Team PSD"
-date: "October 2018"
-release: 1.7
+date: "November 2018"
+release: "MTL 1.7"
 output: 
   github_document: default
   html_document: default
@@ -24,7 +24,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.)  **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.)  **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_5.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_5.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
 
 
 <!-- Learning Objectives Icon --> 
@@ -42,7 +42,7 @@ output:
 
 1.	Login to your team world at [mtl.how/sim](http://mtl.how/sim).
 
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_1.gif)](#.) 
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_1.gif)](#.) 
 
 2.	Review your saved runs. Rename your saved runs if you feel you need to.
 
@@ -52,7 +52,7 @@ output:
 
 5.	To refresh your memory and pick up where you left off last time, Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.
 
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_7.gif)](#.) 
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_7.gif)](#.) 
 
 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give you the desired result.
 
@@ -65,15 +65,15 @@ output:
 
 8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect.
 
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_10.gif)](#.) 
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_10.gif)](#.) 
 
 9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
 
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_8.gif)](#.) 
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_8.gif)](#.) 
 
 10.	Compare Runs to see the difference the between base case and the current experimental run.
 
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.) 
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_6.gif)](#.) 
 
 Record what you learned:
 
@@ -89,4 +89,4 @@ Record what you learned:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.)  **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.)  **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, exp 1, and exp 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_6.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, exp 1, and exp 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_6.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
