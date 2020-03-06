@@ -113,7 +113,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
     - See if someone already answered your question online in the Community of Practice.
     - Set up a GitHub account to ask your question directly in the Community of Practice.
     - Email your question to mtl.help@va.gov
-  - **Make sure to never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov. The 
+  - **Make sure to never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov.**
   - To include screenshots in the "Community" button, you can:
     - Copy & paste from Snipping Tool
     - Drag & drop a screenshot file
