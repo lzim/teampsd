@@ -67,7 +67,7 @@ output:
 
 - You can now generate a team data table for all the modules without SP (called "All without SP" in the dropdown next to the "Create Team Data Table" button), or all the modules with SP (called "All with SP" in the dropdown next to the "Create Team Data Table" button).
 
-- When you select a team data table option for specific modules, the team_data_table file you generate will have all five module tabs and labels, but will populate 0s for all other parameters that were **not** selected.
+- The team_data_table file you generate will automatically be saved into the team_data_table folder. Regardless of the module selection you make, the team_data_table file will include all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
 
 	- If you include SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
 
