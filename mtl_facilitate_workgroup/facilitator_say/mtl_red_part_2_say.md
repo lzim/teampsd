@@ -2,7 +2,7 @@
 title: "MTL Red Part 2 - Facilitator Say"
 author: "Team PSD"
 date: "SP 2019 Oct 21 2019, Rita 24 January 2020, JB Feb 02, 2020, AP Feb 25, 2020, SP Mar 5 2020"
-release: "MTL 1.8"
+release: "MTL 2.0"
 output: 
   github_document: default
   html_document: default
