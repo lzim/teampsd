@@ -26,7 +26,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)   **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the simulation user interface (sim UI) at mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_sections.gif)](#DontLink)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the simulation user interface (sim UI) at mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data table to the sim UI and review our data in the Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_sections.gif)](#DontLink)| 
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -67,28 +67,88 @@ output:
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_login.gif)](#DontLink)
 
-5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
-   + Open the Team Data Menu Maintenance section and click Add. 
+#### New for _MTL_ 2.0
 
-   + Paste the name of your team data file into the box and click Save. 
+- If there is a critical issue that everyone needs to be alerted to, there will be a red pop-up titled "Andon Alert!," upon login, alerting everyone to the issue. These issues are our top priority to resolve. Once you dismiss this alert once, it will not reappear. 
+
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
+
+
+5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_home.gif)](#DontLink)
 
+   + Open the Team Data Dropdown Maintenance section and click Add. 
+
+   + Paste the name of your team data table file into the box and click Save. 
+
+
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_team_data_menu_maint.gif)](#DontLink)
+   
+#### New for _MTL_ 2.0
+
+- The "Chat" icon is now called "Team." Click here to chat with your team or facilitator.
+
+- The "Help" icon is now called "More Info." Click here for more info on the sim UI.
+
+- Click on the "News" icon for news flashes on discussion items that we would appreciate your input on in the Community of Practice. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
+
+- Click on the "Report Bug" Icon in the top nav bar to report issues.
+  - **Make sure to never include any PII/PHI in your description and screenshot.**
+  - To include screenshots, you can:
+    - Copy & paste from Snipping Tool
+    - Drag & drop a screenshot file
+    - Upload your screenshot file
+    
+- Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. Each red tutor pop-up includes icons for:
+  - Video: Links to the relevant TMS video for this section.
+  - Guide: Links to the relevant session guide for this section.
+  - Back/Next: Move back or next in the tutor instructions for this section.
+  - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section. 
+
+- Click on the "Community" button on the bottom right if:
+  - You have an idea
+  - You like something
+  - You have a question:
+    - See if someone already answered your question online in the Community of Practice.
+    - Set up a GitHub account to ask your question directly in the Community of Practice.
+    - Email your question to mtl.help@va.gov
+  - To include screenshots in the "Community" button, you can:
+    - Copy & paste from Snipping Tool
+    - Drag & drop a screenshot file
+    - Upload your screenshot file
+   
+
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
+
 
 6. Start a New Session
 
    + Select the module your team decided to use. 
 
    + Select the team data you want to use.
-
-   + For CC & MM, you need to select your Learning Mode before hitting Play.  
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/learning_mode.gif)](#DontLink)
-
+   
    + Click Play.
 
-7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
+#### New for _MTL_ 2.0
 
+   + For CC & MM, you need to select your Learning Mode before hitting Play.  
+   + Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
+   + **Note:** Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the *Modeling to Learn* program.
+
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/learning_mode.gif)](#DontLink)
+
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
+
+
+7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
+
+#### New for _MTL_ 2.0
+- The "Outputs" section is now called "Outputs and Text."
+- To get the "Text" pop-up from the "Outputs and Text" section, click on the "T" icon with the arrow. Click once more on the "Expand" icon in the top right of the "Text" pop-up to get to the expanded view of the "Outputs and Text" section that show the Q/H/F/D text and 6 Output charts in one view.
+  - Click on the "Minimize" icon in the top right of the expanded "Outputs and Text" view to return to the "Text" pop-up.
+
+For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sections.gif)](#DontLink)
 
@@ -119,4 +179,4 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_pop_ups.gif)](#DontLink)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_pop_ups.gif)](#DontLink)| 
