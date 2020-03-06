@@ -69,6 +69,11 @@ output:
 Make notes where you have questions or are unsure about the relationships depicted.
 Describe the connection between the model diagram and the team data table. How are they linked?
 
+  - What are the main units _Modeling to Learn_?
+    - Appointments/week
+    - Patients/week
+    - Episodes of Care (SP)
+
 Enter a Question & Hypothesis in the Text section about the base case of no new decisions and hit Save when you're done.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#DontLink)   **Our Question.** *Briefly describe what your team wants to learn from this experiment.*  

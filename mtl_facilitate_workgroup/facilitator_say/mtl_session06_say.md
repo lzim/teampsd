@@ -102,6 +102,10 @@ In our convention, Red means read in from team data.
 
 + **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
 
+  - What are the main units _Modeling to Learn_?
+    - Appointments/week
+    - Patients/week
+    - Episodes of Care (SP): Episodes of Care appears on the model diagram for Measurement Based Stepped Care and Suicide Prevention and in the Team Data Table. However, all of the Output charts are still in the units of appointments, appointments/week, patients, or patients/week.
 
 + Let's do a quick orientation to the model diagram.  
    + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. 
