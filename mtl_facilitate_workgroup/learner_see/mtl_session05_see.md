@@ -2,7 +2,7 @@
 title: "MTL Session 5 - Learner See"
 author: "Team PSD"
 date: "Edited by: RH Oct 16, 2019 | RH 24 Jan 2020 | AP Feb 5, 2020 | RH March 2 2020 | SP Mar 5 2020 "
-release: "MTL 1.8"
+release: "MTL 2.0"
 output: 
   github_document: default
   html_document: default
