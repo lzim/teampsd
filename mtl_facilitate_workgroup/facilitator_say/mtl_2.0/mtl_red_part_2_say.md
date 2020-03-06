@@ -47,7 +47,7 @@ Hello! I'm __________ and I'm __________.
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 ### Navigate to the data UI at mtl.how/data. 
-- Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer.
+- Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer or Edge.
 
 - You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.  
 - Scroll down to your team folder. You should have two folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file. 
@@ -83,7 +83,8 @@ Hello! I'm __________ and I'm __________.
 	- Click on the module drop-down. You can choose any module individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps using the **SPReferrals tab**.
 	- Click on "Create Team Data Table".
 	- If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
-	- The file you generate will have all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
+	- The team_data_table file you generate will automatically be saved into the team_data_table folder. Regardless of the module selection you make, the team_data_table file will include all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
+	
 - Navigate back to your team folder at mtl.how/data. Click on the "team_data_table" folder and open the Excel file to find the team data table already produced for you.
  
 ### 1. Select a module for review 
