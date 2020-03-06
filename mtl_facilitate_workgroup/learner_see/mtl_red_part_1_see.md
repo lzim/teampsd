@@ -2,6 +2,7 @@
 title: "MTL Session Red, Part 1 - Learner See"
 author: "Team PSD"
 date: "01_06_2020. Edited by AP_2020_02_25, SP Mar 5, 2020"
+release: "MTL 2.0"
 output: 
   github_document: default
   html_document: default

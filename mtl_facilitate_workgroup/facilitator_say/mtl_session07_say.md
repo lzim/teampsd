@@ -2,7 +2,7 @@
 title: "MTL Session 7 - Facilitator Say"
 author: "Edited TR"
 date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 | Ed Jane 14Feb20 | Ed Jane 16Feb20 | RH March 2 2020, RH March 3 2020"
-release: "MTL 1.8"
+release: "MTL 2.0"
 output: 
   github_document: default
   html_document: default
