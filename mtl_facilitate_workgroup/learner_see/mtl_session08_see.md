@@ -46,8 +46,6 @@ mtl_2.0/
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#.)
 
-***MTL 2.0.*** For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md).
-
 2.	If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
 
 3.	If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.
