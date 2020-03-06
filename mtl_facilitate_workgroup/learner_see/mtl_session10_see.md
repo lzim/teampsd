@@ -79,6 +79,8 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session09_see.md)**
 
+***MTL 2.0.*** For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session10_see.md).
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* 

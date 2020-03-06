@@ -62,6 +62,7 @@ output:
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md)**
 
+
 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result.
 
 7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now:
@@ -76,17 +77,20 @@ output:
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md)**
 
+
 9.	Run and then Save (without resetting). Name this run according to the variable setting(s) you changed.
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_save_exp.gif)](#.)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md)**
 
+
 10.	Compare Experiments to see the difference the between base case and the current experimental run. 
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_results_dash.gif)](#.)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md)**
+
 
 Record what you learned:
 
@@ -104,3 +108,4 @@ Record what you learned:
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_results_dash.gif)](#.) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_text_fields.gif)](#.) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md)** | 
+
