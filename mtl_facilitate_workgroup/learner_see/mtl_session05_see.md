@@ -69,7 +69,7 @@ output:
 
 #### New for _MTL_ 2.0
 
-- If there is a critical issue that everyone needs to be alerted to, there will be a red pop-up titled "Andon Alert!," upon login, alerting everyone to the issue. These issues are our top priority to resolve. Once you dismiss this alert once, it will not reappear. 
+- If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve. Once you dismiss this alert once, it will not reappear. 
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
 
