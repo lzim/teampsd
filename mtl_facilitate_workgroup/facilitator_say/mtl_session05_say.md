@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | RH Jan 24 2020 | Aug 2019 | RH March 2 2020 | AP March 3 2020"
+date: "14 Feb 2020 Ed Jane |February 5,2020 Edited by Anthony | RH Jan 24 2020 | Aug 2019 | RH March 2 2020 | AP March 3 2020 | SP Mar 5 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -73,11 +73,45 @@ output:
  
 + An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.  
 
++ If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve due to their level of criticality. Once you dismiss this alert once, it will not reappear. Note, this alert will appear in both your team and individual worlds, so you will need to dismiss it twice.
+
 ### 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers).   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]  
  
 + At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).  
   
-+ Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded it).  
++ Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, Report Bug, Tutor, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded by clicking on the "Avatar" function).  
+
+  - Click on the "Team" icon to chat with your team or facilitator.
+
+  - Click on the "More Info" icon for more info on the sim UI.
+
+  - Click on the "News" icon for news flashes on discussion items that we would appreciate your input on in the Community of Practice. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
+
+  - Click on the "Report Bug" Icon in the top nav bar to report issues.
+    - **Make sure to never include any PII/PHI in your description and screenshot.**
+    - To include screenshots, you can:
+      - Copy & paste from Snipping Tool
+      - Drag & drop a screenshot file
+      - Upload your screenshot file
+    
+  - Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. Each red tutor pop-up includes icons for:
+    - Video: Links to the relevant TMS video for this section.
+    - Guide: Links to the relevant session guide for this section.
+    - Back/Next: Move back or next in the tutor instructions for this section.
+    - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section. 
+
+  - Click on the "Community" button on the bottom right if:
+    - You have an idea
+    - You like something
+    - You have a question:
+      - See if someone already answered your question online in the Community of Practice.
+      - Set up a GitHub account to ask your question directly in the Community of Practice.
+      - Email your question to mtl.help@va.gov
+    - **Make sure to never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**
+    - To include screenshots in the "Community" button, you can:
+      - Copy & paste from Snipping Tool
+      - Drag & drop a screenshot file
+      - Upload your screenshot file
   
 + Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
   
@@ -94,14 +128,23 @@ output:
    
 + Select the team data you just uploaded.  
    
-+ Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)   
++ Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)  
 
-### 7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments). 
+  - Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
+  
+  - **Note:** Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the _Modeling to Learn_ program.
+
+ - **Existing Patient Return-to-Clinic Visit Interval:** Choose this learning mode to prioritize the Existing Patients Return-to-Clinic Visit Interval (RVI) estimated from team data, and only start new patients in remaining open slots after the existing patient RVI, appointment supply, and missed appointments are all taken into account.
+ 
+ - **New Patient Start Rate:** Choose this learning mode to prioritize the New Patient Start Rate estimated from team data, and only see existing patients in remaining open slots after the new patient start rate, appointment supply, and missed appointments are all taken into account.
+
+
+### 7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
 
 + You see the same information and buttons across the top as the Home page.   
   
 + There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.  
-+ To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you minimize it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.    
++ To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the top right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you close it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.    
 
 + You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
 
