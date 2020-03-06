@@ -69,6 +69,8 @@ output:
 
 #### New for _MTL_ 2.0
 
+- If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.
+
 - If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve. Once you dismiss this alert once, it will not reappear. 
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
