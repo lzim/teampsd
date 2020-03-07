@@ -87,6 +87,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - Click on the data_ui file. This will show a preview in your Explorer or Edge browser window.
 - Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
 
+
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
