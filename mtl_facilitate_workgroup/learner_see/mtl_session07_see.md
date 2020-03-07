@@ -52,9 +52,6 @@ output:
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)** 
 
-
-***MTL 2.0.*** For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md).
-
 2. *Join Current Session* to pick up where the team left off.
 
 3.	Orient yourself to the main page: Team Name (when you're in your individual world, the team name is your name); selected module (CC, MM, PSY, AGG, or SP); selected data file. All slider settings in the Experiments section are at Base Case or default values.
@@ -62,8 +59,6 @@ output:
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sections.gif?raw=true)](#.)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)** 
-
-***MTL 2.0.*** For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md).
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.* 
 

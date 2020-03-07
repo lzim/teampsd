@@ -72,6 +72,7 @@ output:
 
 - Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
 
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
@@ -96,6 +97,8 @@ output:
   - What is most important to you to check out first?
   - What is most surprising?
 
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)
+
 - Click on any trend line and then "Quick Explore" (look for the magnifying glass). In the "Explore" box, pick the item you want to explore and click "Drill To." Keep using the Quick Explore to drill until you reach the data you want. 
   -To return to the original settings, click on the gray "Reset Pivot Chart."
   - The viz tabs will also return to default selections, when you click "Get Patient-level Data" for new data pulls.
@@ -104,13 +107,17 @@ output:
 
 - vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses.
 
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag_mtl_2.0.gif)](#DontLink)
+
 
 ### 7. Click to view the "data" tab, which show your team's individual patient information.
 - Patients who have requested restricted access to their information have asterisks (****) in Columns F & G. If you are a VA provider, you can still identify patients from Column H.
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 - Providers can filter to find specific patients, or produce reports. 
 - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary.
+
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/primary_diagnoses.png)](#DontLink)
+
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
 - What **viz** option would you use to see what the most common service encounters or visits are?
 - Are there services that have been increasing over time? Are there services that have been decreasing over time?
