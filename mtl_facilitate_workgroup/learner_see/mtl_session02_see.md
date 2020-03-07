@@ -46,10 +46,15 @@ output:
 ### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
 + For best results, please use Internet Explorer or Edge. SharePoint is a Microsoft platform and works best with Microsoft web browsers.
 
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) 
+
+**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
+
 
 ### 2. Explore the information available in the BISL SharePoint splash page.
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
+
+**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
 - Click on the View dropdown in the top right corner. What View options are there and what do they mean? Hints:
   - Count: Aggregate Data for Viz trends
@@ -90,8 +95,6 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - Follow the instructions in **Box A2.** 
 - After filtering, click the "Add All" arrow in column B (Cell B6). Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)
-
 #### New for _MTL_ 2.0
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
@@ -102,6 +105,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 ### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with in your team data_ui folder.** 
 - We will learn about the "Create Team Data Table" button in our next team meeting.
+
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)
 
 #### New for _MTL_ 2.0
 - "Create Team Data Table for Sim UI" is now called "Create Team Data."
@@ -122,6 +127,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - What is most surprising?
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)
+
+**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
 #### New for _MTL_ 2.0
 - Click on any trend line and then "Quick Explore" (look for the magnifying glass). In the "Explore" box, pick the item you want to explore and click "Drill To." Keep using the Quick Explore to drill until you reach the data you want. To return to the original settings, click on the gray "Reset Pivot Chart."
