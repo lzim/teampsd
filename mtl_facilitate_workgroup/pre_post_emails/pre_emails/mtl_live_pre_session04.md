@@ -11,7 +11,6 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
-https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s04_teamneeds_title.png?raw=true
 
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s04_teamneeds_title.png"
