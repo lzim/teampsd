@@ -20,8 +20,9 @@ output:
 3.
 
 ## Training Objectives:
+Familiarize team members with the process of propagating the splash pages and making any modifications to the Sharepoint site.
 
-## Point of Contact: (Add only the name, not email here)
+## Point of Contact: Anthony Pichardo
 
 ## Full Instructions
 (Include detailed explanations of each step with the context and the rationale for each step as well as screenshots or gifs. For instructions on adding screenshots or gifs, click here)
