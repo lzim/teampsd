@@ -16,3 +16,6 @@ for issues that are new manuscripts to be tracked and moved through mtl.how/manu
 
 ### Click [Documents](https://github.com/lzim/teampsd/blob/master/issue_templates/document_tracker.md) 
 for issues that are new documents to be tracked and opened/closed at mtl.how/documents.
+
+### Click [Team](https://github.com/lzim/teampsd/blob/master/issue_templates/team_tracker.md) 
+for issues that are the meta resource card for each of the 12 sessions on the mtl.how/team_tracker.
