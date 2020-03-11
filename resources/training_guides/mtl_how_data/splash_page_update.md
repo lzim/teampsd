@@ -52,5 +52,5 @@ The Sharepoint page at mtl.how enables a lot of flexibility in terms of the look
 
 #### 3. Usage Data
 
-#### 4. Community
+
 
