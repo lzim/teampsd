@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "Created February 7, 2020 DK \ RH March 2 2020"
+date: "Created February 7, 2020 DK \ RH March 2 2020 \ JB March 11 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -35,6 +35,7 @@ output:
 ## Learning Objectives
 1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
 2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
+3. Identify a shared team vision for learning from Modeling to Learn.
 
 ## Start in-session exercise. Provide clarity on what we are trying to accomplish together with “Modeling to Learn” and the importance of creating a team learning goal.
 **Goal:**  to move from “my vision” to “our vision” using shared decision-making. Together, the clinic team lead and facilitation team will explore “What’s can be done better?” in a way that reflects common team aspirations. 
