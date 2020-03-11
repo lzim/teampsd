@@ -15,9 +15,8 @@ output:
 # Splash Page Updates and Changes
 
 ## External links needed:
-1.
-2.
-3.
+1. mtl.how/data
+
 
 ## Training Objectives:
 Familiarize team members with the process of propagating the splash pages and making any modifications to the Sharepoint site.
