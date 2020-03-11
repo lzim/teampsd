@@ -1,7 +1,7 @@
 ---
-title: "Insert Title Here"
+title: "Splash Page"
 author: "Team PSD"
-date: "Insert Most Recent Edited Date & Initials (i.e. edited by SP 2020_01_01)"
+date: "Edited by AP 03_10_2020"
 output: 
   github_document: default
   html_document: default
