@@ -48,7 +48,7 @@ REDCap or Research Electronic Data Capture, is a secure web application for buil
 1. Go to the VA RedCAP link: https://vhacdwweb05.vha.med.va.gov/index.php?action=myprojects
 - Note: This is a VA webiste and is only available within the VA firewall.
 2. Username will be your VA username/alias available in the GAL in Outlook. 
-3. If you don't have an account, or need to create a new account for other folks, go (here)[https://vhacdwweb05.vha.med.va.gov/index.php?action=myprojects].
+3. If you don't have an account, or need to create a new account for other folks, go [here](https://vhacdwweb05.vha.med.va.gov/index.php?action=myprojects).
 - Enter YOUR VA email address.
 - Check the box "Creating new VA REDCap accounts."
 - Download the .csv that is attached and fill it out with the names, VA emails, and VA usernames for accounts you are requesting and upload it back to the form.
