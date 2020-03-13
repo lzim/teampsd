@@ -31,11 +31,13 @@ By the end of this training, learners will be able to:
 
 ## Full Instructions
 
-### REDCap Introduction
+### General Overview
 1. What is REDCap?
-2. When does TeamPSD use REDCAP?
-- We use it in the _Modeling to Learn_ program at Session 4 for the _Modeling to Learn_ Menu (mtl.how/menu) for assessing team needs and priorities to pick an _MTL_ module to use starting Session 5
-- surveys for R01 & IIR teams (this is the only research part of our project!)
+2. When does TeamPSD use REDCAP? 
+
+  a. We use it in the _Modeling to Learn_ program at Session 4 for the _Modeling to Learn_ Menu (mtl.how/menu) for assessing team needs and priorities to pick an _MTL_ module to use starting Session 5
+  
+  b. surveys for R01 & IIR teams (this is the only research part of our project!)
 
 
 VA RedCAP link: https://vhacdwweb05.vha.med.va.gov/index.php?action=myprojects
