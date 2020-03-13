@@ -56,7 +56,7 @@ REDCap or Research Electronic Data Capture, is a secure web application for buil
 
 
 ### Overview of REDCap
-This [overview video of REDCap - Video](https://redcap.vanderbilt.edu/consortium/videoplayer.php?video=redcap_overview03.mp4&title=Detailed+Overview+of+REDCap+%2814+min%29&text=This+14-minute+video+provides+a+thorough+overview+of+REDCap+and+much+of+its+functionality.+%0A%09%09%09%09%09%09%09%09%09This+video+is+an+excellent+place+to+begin+learning+about+REDCap+and+what+it+is+capable+of.&referer=REDCAP_PUBLIC) video includes how to create new projects in REDCap and how to edit records.
+This [overview video of REDCap](https://redcap.vanderbilt.edu/consortium/videoplayer.php?video=redcap_overview03.mp4&title=Detailed+Overview+of+REDCap+%2814+min%29&text=This+14-minute+video+provides+a+thorough+overview+of+REDCap+and+much+of+its+functionality.+%0A%09%09%09%09%09%09%09%09%09This+video+is+an+excellent+place+to+begin+learning+about+REDCap+and+what+it+is+capable+of.&referer=REDCAP_PUBLIC) video includes how to create new projects in REDCap and how to edit records.
 
 #### Learning Check:
 1. In what situation would an HQ member enter data in a record *instead* of the learner?
