@@ -1,7 +1,7 @@
 ---
 title: "VA REDCap "
 author: "Team PSD"
-date: "Insert Most Recent Edited Date & Initials (i.e. edited by SP 2020_01_01)"
+date: "SP 2020_03_13"
 output: 
   github_document: default
   html_document: default
@@ -33,7 +33,7 @@ By the end of this training, learners will be able to:
 
 ### General Overview
 1. What is REDCap?
-REDCap or Research Electronic Data Capture, is a secure web application for building and managing online surveys and databases. REDCap was originally created by a small team at Vanderbilt, and has since expanded across thousands of non-profit and government organizations. Each system is independently maintained and supported - we specifically are using the VA REDCap. You can check out FAQ's, videos, etc. at the main REDCap website [here](https://www.project-redcap.org/).
+- REDCap or Research Electronic Data Capture, is a secure web application for building and managing online surveys and databases. REDCap was originally created by a small team at Vanderbilt, and has since expanded across thousands of non-profit and government organizations. Each system is independently maintained and supported - we specifically are using the VA REDCap. You can check out FAQ's, videos, etc. at the main REDCap website [here](https://www.project-redcap.org/).
 
 2. When does TeamPSD use REDCAP? 
 - We use it in the _Modeling to Learn_ program at Session 4 for the _Modeling to Learn_ Menu (mtl.how/menu) that assesses team needs and priorities to pick an _MTL_ module to use starting Session 5
