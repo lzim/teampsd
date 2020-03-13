@@ -68,10 +68,19 @@ This [introduction to instrument development](https://redcap.vanderbilt.edu/cons
 #### Learning Check:
 1. What are the differences between settings at the "project" level and the "instrument" level"?
 
-### Managing Design, Auotmation, and Participant Management
+### Managing Design, Automation, and Participant Management
 Follow [this PDF](https://www.mc.vanderbilt.edu/crc/workshop_files/2014-09-19.pdf) through for a walkthrough of different customization options for designing and queuing instruments, managing invitations and participants. 
 
 #### Learning Check:
+1. How will we use the survey queuing function with teams and why is it important? What can happen if we get this logic incorrect?
+
+### User Rights & Roles
+Review [this PDF](https://cri.uchicago.edu/wp-content/uploads/2015/12/REDCap-User-Rights-Best-Practices.pdf) that outlines the rights and abilities for different types of access by role to help make decisions on what roles team members should be assigned.
+
+#### Learning Check:
+1. What are the groups of team members that will need access to REDCap? How will they interact with the platform and what user roles will be most appropriate?
+
+#### OVERALL Learning Check:
 1. Let's review the vocab we learned today specific to REDCap and how it maps to our _Modeling to Learn_ or TeamPSD language:
 - Users
 - Projects
@@ -86,5 +95,3 @@ Follow [this PDF](https://www.mc.vanderbilt.edu/crc/workshop_files/2014-09-19.pd
 1. If you're clicking through any of the surveys to test them, make sure to delete your records afterwards so it does not affect our data reports and analysis. 
 
 2. Are you or someone unable to see specific menu options that they typically expect to see? Check the user roles.
-
-
