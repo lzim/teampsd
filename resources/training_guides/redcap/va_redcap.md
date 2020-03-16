@@ -1,7 +1,7 @@
 ---
 title: "VA REDCap "
 author: "Team PSD"
-date: "SP 2020_03_13"
+date: "SP 2020_03_16"
 output: 
   github_document: default
   html_document: default
@@ -25,7 +25,7 @@ By the end of this training, learners will be able to:
 1. Create a new project with appropriate titles, purpose, and template
 2. Understand the different types of user roles and their privileges
 3. Create REDCap accounts for new users
-4. Use survey queue for creating a logic where all users can use a single link but still getpa to their individual survey
+4. Use survey queue for creating a logic where all users can use a single link but still get to their individual survey
 
 ## Point of Contact: Stacey Park, Platform Manager
 
@@ -59,36 +59,53 @@ By the end of this training, learners will be able to:
 This [overview video of REDCap](https://redcap.vanderbilt.edu/consortium/videoplayer.php?video=redcap_overview03.mp4&title=Detailed+Overview+of+REDCap+%2814+min%29&text=This+14-minute+video+provides+a+thorough+overview+of+REDCap+and+much+of+its+functionality.+%0A%09%09%09%09%09%09%09%09%09This+video+is+an+excellent+place+to+begin+learning+about+REDCap+and+what+it+is+capable+of.&referer=REDCAP_PUBLIC) video includes how to create new projects in REDCap and how to edit records.
 
 #### Learning Check:
-1. In what situation would an HQ member enter data in a record *instead* of the learner?
-2. A learner has a question about their survey data, where do you go to check or edit their record?
+1. Our team will not typically fill in survey records for our participants. Based on what we learned about our TeamPSD's survey uses, why might this be the case?
+2. While we typically wouldn't enter/edit records, in what situation might an HQ member enter data in a record *instead* of the learner?
+3. A learner has a question about their survey data, where do you go to check or edit their record?
+4. Can you create more than one instrument in the same project? If so, how?
+5. How do you add new users to a project? (More detailed distinctions between the user rights and roles is covered further down in the this training). 
+6. Where do you go to view records? What types of data views can you access here? How do you export data?
+7. (Note: **DO NOT** put your fake project in production.) Once you put your project in production, how do you make changes?
 
 ### How to Create and Work with Instruments
 This [introduction to instrument development](https://redcap.vanderbilt.edu/consortium/videoplayer.php?video=intro_instrument_dev.mp4&title=Introduction+to+Instrument+Development+%286+min%29&text=&referer=REDCAP_PUBLIC) and [online instrument designer view](https://redcap.vanderbilt.edu/consortium/videoplayer.php?video=online_designer01.flv&title=The+Online+Designer+%285+min%29&text=&referer=REDCAP_PUBLIC) details how to use "instruments" in REDCap.
 
 #### Learning Check:
-1. What are the differences between settings at the "project" level and the "instrument" level"?
+1. Where do you click to build **new** instruments? Where do you click to view **existing** instruments?
+2. How do you move, add, and edit instrument fields in the online designer (what buttons do you click or clicking do you do)?
+3. Where do you go to view the status of each record? What do each of the colors mean on this dashboard?
+4. What is another way you can update instruments fields?
+5. Where do you go to view the mode of the project (development, production, etc.)?
+6. (Go to second video)
+7. How do you enable/disable, rename, or delete surveys?
+8. What are the five buttons on each field instrument and what are their functions?
+9. **STOP** at timestamp 5:00 minutes on the second video.
+10. ***Within*** a survey instrument, click on "Survey Settings." What customization options do you see here and where can we apply our TeamPSD style here?
 
 ### Managing Design, Automation, and Participant Management
-Follow [this PDF](https://www.mc.vanderbilt.edu/crc/workshop_files/2014-09-19.pdf) through for a walkthrough of different customization options for designing and queuing instruments, managing invitations and participants. 
+Follow [this PDF](https://www.mc.vanderbilt.edu/crc/workshop_files/2014-09-19.pdf) through for a walkthrough of different customization options for designing and queuing instruments, managing invitations and participants.
 
 #### Learning Check:
-1. How will we use the survey queuing function with teams and why is it important? What can happen if we get this logic incorrect?
-
+1. **SKIP** the "Design Options, Notifications, Automated Invitations" section.
+2. How will we use the survey queuing function with our _Modeling to Learn_ teams and why is it important? What can happen if we get this logic incorrect?
+3. On the "Public Survey Link" page, where can you find the link to the survey? Since we use co-branded links, what is the next step to ensure that the co-branded link goes to the correct page?
+4. Why might we want to use the login or access code function?
+ 
 ### User Rights & Roles
 Review [this PDF](https://cri.uchicago.edu/wp-content/uploads/2015/12/REDCap-User-Rights-Best-Practices.pdf) that outlines the rights and abilities for different types of access by role to help make decisions on what roles team members should be assigned.
 
 #### Learning Check:
-1. What are the groups of team members that will need access to REDCap? How will they interact with the platform and what user roles will be most appropriate?
+1. What are the groups of team members that will need access to VA REDCap? How will they interact with the platform and what user roles will be most appropriate?
 
 #### OVERALL Learning Check:
-1. Let's review the vocab we learned today specific to REDCap and how it maps to our _Modeling to Learn_ or TeamPSD language:
+1. Define each of the words below and what vocabulary they map to in our _Modeling to Learn_ or TeamPSD language (i.e. Users in REDCap = HQ or Team Members in TeamPSD):
 - Users
 - Projects
 - Instruments
 - Participants
 - Queue
 - Records
-- Invitations
+
 
 #### Common Mistakes:
 
