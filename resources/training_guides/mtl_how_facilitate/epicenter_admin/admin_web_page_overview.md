@@ -37,7 +37,7 @@ Upon completion of this module, the learner will be able to:
 
 1.  **Navigate to the Project Home page.** Using the link provided in the External Links section above, navigate to the Epicenter login page and login. You should be in the Dashboard landing page (see below).  Click where indicated.
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/EP1.png)
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/EP1.png)
 Ep1
 
 2.  **Veterans Affairs Project Home Page**
@@ -51,25 +51,25 @@ PROD – This is the Production instance that is available to the MTL Community 
 
 Left-hand Navigation – The left-hand navigation contains Team Home, Members, End Users and Settings selections.  We are mainly concerned with Members and End Users selections, which we discuss later on in training.
  
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep2.png)
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep2.png)
 Ep2
 
 3. **Navigate to Members.**
 Click “Members” on the left-hand menu. Members are people within the project organization, who are either authors or customer support.  Authors can create and delete projects, add members, change member roles and have full administrative privileges. Customer support members can perform most administrative tasks, short of project maintenance (adding, deleting, etc.). _Members are usually added or deleted at the direction of the Principal Investigator (PI) or by members of Praxis Analytix._
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep3.png)
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep3.png)
 Ep3
 
 4. **Navigate to End Users**
 Click “End Users” on the left-hand menu. All individuals who are registered to use a given group-world as a student, admin or other must have an End User account.  These accounts are identified by the person’s name and the email with which the registered. Changes to user accounts, such as name or passwords, can be made here by admins.
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep4.png) 
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep4.png) 
 Ep4
 
 5. **Navigate to a Project Instance.**
 Click VA Sim UI – TEST instance.  The VA Sim UI – Test page will appear. Notice these elements on the page.
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep5.png)
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep5.png)
 Ep5
 
 6.  **Navigate to the Model Directory.**
@@ -77,12 +77,12 @@ The Model directory contains all Vensim model and Team Data files.
 
 Delete a file – To delete a file, click the checkbox and a delete button will appear. Click the delete button.
   
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep6.png)
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep6.png)
 Ep6
 
 Upload a file – Click the “Upload” button and select “Upload a File” from the drop down to upload a file. 
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep7.png) 
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep7.png) 
 Ep7
 
 7. **Navigate to the Interface Directory.”
@@ -90,18 +90,18 @@ The Interface directory contains information that can be changed by the user. We
 
 Click Dynamic Data – Inside this folder is the model-popup-information.xlsx file.  This file contains the Sim UI “i” information text that is used in the pop ups. When this file is updated, it must be first deleted – then replaced by an updated file.
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep8.png)
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep8.png)
 Ep8
 
 Manipulate a File – If you want to view the contents of the model-popup-information.xlsx file, you must click it.  Then select “View Raw.”  The file will download, and you can review it using Microsoft Excel.
 
 a.
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep9.png) 
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep9.png) 
 Ep9
 
 
 b.
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep10.png) 
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep10.png) 
 Ep10
 
 8.  **Navigate to Groups Directory**
@@ -109,13 +109,13 @@ Epicenter has a two-tiered hierarchy for organizing users; namely, “Groups” 
 
 Navigate to the Group Directory.
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep11.png)
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep11.png)
 Ep11
 
 
 Click “Add Group.” 
 
-![](https://github.com/lzim/teampsd/blob/admin_training/resources/training_guides/mtl_how_facilitate/graphics/ep12.png)
+![](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_facilitate/graphics/ep12.png)
 Ep12
  
 ## Quick Checklist:
