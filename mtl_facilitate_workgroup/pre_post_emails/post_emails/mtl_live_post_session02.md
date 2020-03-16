@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 2 Post Email"
 author: "Team PSD"
-date: "September 2018"
+date: "September 2018 | RH March 16 2020"
 output: 
   github_document: default
   html_document: default
@@ -14,8 +14,9 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500"> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png"
+     height = "175" width = "420">](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/learner_see/mtl_session02_see.md)
+
 
 # We decided on team clinics for the data UI.
 
