@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 Post Email"
 author: "Team PSD"
-date: "September 2018 | RH March 16 2020"
+date: "September 2018 | RH March 16 2020 | RH March 17 2020"
 output: 
   github_document: default
   html_document: default
@@ -14,7 +14,7 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s10_systems_thinking_title.png" height = "175" width = "420">](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/learner_see/mtl_session10_see.md) 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s10_systems_thinking_title.png" height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session10/s10_learner/mtl_session10_see.md) 
 
 # We decided to compare bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care.
 
