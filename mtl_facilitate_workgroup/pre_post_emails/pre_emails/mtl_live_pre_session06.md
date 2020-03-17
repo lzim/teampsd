@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 Pre Email"
 author: "Team PSD"
-date: "RH Oct 18 2019"
+date: "RH Oct 18 2019 | RH March 16 2020 | RH March 17 2020"
 output: 
   github_document: default
   html_document: default
@@ -14,8 +14,8 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500">](https://github.com/lzim/mtl/blob/master/session06/s06_learner/mtl_session06_see.md) 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
+     height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session06/s06_learner/mtl_session06_see.md) 
 
 # This week we're modeling to learn how to tell a systems story.
 

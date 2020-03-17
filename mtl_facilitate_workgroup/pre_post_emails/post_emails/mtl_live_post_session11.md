@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 11 Post Email"
 author: "Team PSD"
-date: "September 2018"
+date: "September 2018 | RH March 16 2020 |RH March 17 2020"
 output: 
   github_document: default
   html_document: default
@@ -14,9 +14,9 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_testdontguess_sm.png"
-     height = "130" width = "500"> 
-
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s11_team_decisions_title.png"
+     height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session11/s11_learner/mtl_session11_see.md) 
+     
 # We decided to make the following changes.
 
 <!-- Do/Done Tables -->
