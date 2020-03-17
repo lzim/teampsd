@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 Post Email"
 author: "Team PSD"
-date: "September 2018 | RH March 16 2020"
+date: "September 2018 | RH March 16 2020 | RH March 17 2020"
 output: 
   github_document: default
   html_document: default
@@ -15,7 +15,7 @@ output:
 
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s03_teamdata_title.png"
-     height = "175" width = "420">](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/learner_see/mtl_session03_see.md) 
+     height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) 
 
 # We decided to find something in the team data table and complete mtl.how/menu.
 
