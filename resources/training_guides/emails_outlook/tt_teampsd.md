@@ -43,7 +43,17 @@
 - [ ] In the "Subject Line," start with "[tt###_teampsd]" followed by a one-line summary of the important updates.
   - "###" = the three digit report number
   - Including this header in the subject line helps people find the report later, and distinguishes this TeamTime report as the internal TeamPSD newsletter version instead of the version for the _Modeling to Learn_ teams.
- 
+  
+### Send Report
+- [ ] Send report by:
+  - Using scheduled delivery
+    - Click on the "Options" tab at the top
+    - Click on "Delay Delivery"
+    - In the pop-up window, check "Do Not Deliver Before" and set the date to Monday morning of the next week at 5am Pacific (which is 8am Eastern or start of tour for our East Coast partners!)
+    - Click "Close"
+    - Click "Send"
+  - Sometime the scheduled delivery can be buggy. You can also just keep the email as a draft over the weekend and click "Send" firt thing Monday AM at 7:30am Pacific.
+
 ### Tips:
 - Copy & paste from Outlook to Word by changing your image "Wrap" settings. For all images and text boxes:
   - Right click on the item
