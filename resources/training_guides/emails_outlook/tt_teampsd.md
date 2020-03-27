@@ -9,19 +9,28 @@
  
  ### Within the Word Doc, in order from top to bottom:
  - [ ] Update the report number under the team time logo.
- - [ ] Within the VA Light Blue box include:
-  - Go to https://github.com/lzim/teampsd/pulse and screenshot the issues/pull requests overview stats for the past week.
-  - Add a shout-out to the person with the most commits next to the above screenshot, with a VA Light Blue star icon 
-  - Go to mtl.how/lucid in Lindsey's team account. Click on "Records" at the top, and then click on "Decisions." Count the # of decisions made in the past week, and add this # with the VA Light Blue "Decisions" icon.
-  records decisions
-   - Add any updates relevant across the team with screenshots and links if necessary.
- - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one.
- - [ ] For mtl.how/bugs, mtl.how/features, mtl.how/manuscripts, and mtl.how/documentation, go to each of these shortlinks and screenshot the trackers. Replace the existing screenshots with the new ones. 
-   - Make sure the text for each of the short links is hyperlinked to the matching link. To hyperlink:
+ - [ ] Place weekly announcements at the top  of the report - any updates relevant across the team with screenshots and links if necessary.
+ - [ ] For mtl.how/zenhub, replace the existing screenshots with new ones for the Control Chart and Burndown Report.
+   - For the Control Chart
+     - Go to mtl.how/zenhub
+     - Hover over the left-hand menu.
+     - Click on Reports > Control Charts
+     - Change the Custom Pipeline range dates to the current week (the week you're drafting the report!)
+     - Set the Start Pipeline to "Priority Epic" and the Completed Pipeline to "Closed"
+     - Screenshot only the stats numbers and not the control chart itself
+   - For the Burndown Report
+     - Go to mtl.how/zenhub
+     - Hover over the left-hand menu.
+     - Click on Reports > Burndown Report
+     - Screenshot the chart, including the story points and issues counts underneath it.
+   - Hyperlink both screenshots to mtl.how/zenhub. To hyperlink:
      - Right-click on relevant text
      - Click on "Link"
      - Paste the link into "Address"
      - Click on "Ok"
+ - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one.
+ - [ ] For mtl.how/bugs, mtl.how/features, mtl.how/manuscripts, and mtl.how/documents, go to each of these shortlinks and screenshot the trackers. Replace the existing screenshots with the new ones. 
+   - Make sure the text for each of the short links is hyperlinked to the matching link. 
    - Make sure the screenshots for each of the trackers are hyperlinked to their matching trackers as well.
    - Screenshots should be large enough that the text is readable and meaningful.
  
@@ -30,7 +39,7 @@
 - [ ] Ctrl + C to copy
 - [ ] Open a new Outlook email and in the body, Ctrl + V to paste your tt report
 - [ ] Double check:
-  - All fonts are in Myriad Pro
+  - All fonts are in Myriad Pro (or the most similar sans-serif font)
   - All colors are consistent with TeamPSD style which can be found [here](https://github.com/lzim/teampsd/blob/teampsd_style/colors.md). 
     - We use VA Light Blue for linked text, icons, and the announcements text box. We use VA Light Red for the arrows that separate each section.
   - All items are aligned and not covering each other, or off the page.
