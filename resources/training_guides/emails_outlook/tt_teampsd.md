@@ -10,15 +10,25 @@
  ### Within the Word Doc, in order from top to bottom:
  - [ ] Update the report number under the team time logo.
  - [ ] Place weekly announcements at the top  of the report - any updates relevant across the team with screenshots and links if necessary.
- - [ ] Add ZenHub reports by taking screen-shots of Burndown Report and Control Chart and replacing prior ones
-  - Go to teampsd's ZenHub workspace mtl.how/zenhub and get a run a generate a Burndown Report of the closed issues since the start of the current epic and a Control Chart - select the previous week and number of closed issues 
- - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one.
- - [ ] For mtl.how/bugs, mtl.how/features, mtl.how/manuscripts, and mtl.how/documentation, go to each of these shortlinks and screenshot the trackers. Replace the existing screenshots with the new ones. 
-   - Make sure the text for each of the short links is hyperlinked to the matching link. To hyperlink:
+ - [ ] For mtl.how/zenhub, replace the existing screenshots with new ones for the Control Chart and Burndown Report.
+   - For the Control Chart
+     - Go to mtl.how/zenhub
+     - Click on Reports > Control Charts
+     - Change the Custom Pipeline range to the current week.
+     - Set the Start Pipeline to "Priority Epic" and the Completed Pipeline to "Closed"
+     - Screenshot only the stats numbers and not the control chart itself
+   - For the Burndown Report
+     - Go to mtl.how/zenhub
+     - Click on Reports > Burndown Report
+     - Screenshot the chart, including the story points and issues counts underneath it
+   - Hyperlink both screenshots to mtl.how/zenhub. To hyperlink:
      - Right-click on relevant text
      - Click on "Link"
      - Paste the link into "Address"
      - Click on "Ok"
+ - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one.
+ - [ ] For mtl.how/bugs, mtl.how/features, mtl.how/manuscripts, and mtl.how/documents, go to each of these shortlinks and screenshot the trackers. Replace the existing screenshots with the new ones. 
+   - Make sure the text for each of the short links is hyperlinked to the matching link. 
    - Make sure the screenshots for each of the trackers are hyperlinked to their matching trackers as well.
    - Screenshots should be large enough that the text is readable and meaningful.
  
@@ -27,7 +37,7 @@
 - [ ] Ctrl + C to copy
 - [ ] Open a new Outlook email and in the body, Ctrl + V to paste your tt report
 - [ ] Double check:
-  - All fonts are in Myriad Pro
+  - All fonts are in Myriad Pro (or the most similar sans-serif font)
   - All colors are consistent with TeamPSD style which can be found [here](https://github.com/lzim/teampsd/blob/teampsd_style/colors.md). 
     - We use VA Light Blue for linked text, icons, and the announcements text box. We use VA Light Red for the arrows that separate each section.
   - All items are aligned and not covering each other, or off the page.
