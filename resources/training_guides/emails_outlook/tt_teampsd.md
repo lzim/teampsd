@@ -11,7 +11,7 @@
  - [ ] Update the report number under the team time logo.
  - [ ] Place weekly announcements at the top  of the report - any updates relevant across the team with screenshots and links if necessary.
  - [ ] Add ZenHub reports by taking screen-shots of Burndown Report and Control Chart and replacing prior ones
-  - go to teampsd's ZenHub workspace mtl.how/zenhub and get a run a generate a Burndown Report of the closed issues since the start of the current epic and a Control Chart - select the previous week and number of closed issues 
+  - Go to teampsd's ZenHub workspace mtl.how/zenhub and get a run a generate a Burndown Report of the closed issues since the start of the current epic and a Control Chart - select the previous week and number of closed issues 
 - Go to mtl.how/lucid in Lindsey's team account. Click on "Records" at the top, and then click on "Decisions." Count the # of decisions made in the past week, and add this # with the VA Light Blue "Decisions" icon.
   records decisions
  - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one.
