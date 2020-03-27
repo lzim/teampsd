@@ -13,14 +13,16 @@
  - [ ] For mtl.how/zenhub, replace the existing screenshots with new ones for the Control Chart and Burndown Report.
    - For the Control Chart
      - Go to mtl.how/zenhub
+     - Hover over the left-hand menu.
      - Click on Reports > Control Charts
-     - Change the Custom Pipeline range to the current week.
+     - Change the Custom Pipeline range dates to the current week (the week you're drafting the report!)
      - Set the Start Pipeline to "Priority Epic" and the Completed Pipeline to "Closed"
      - Screenshot only the stats numbers and not the control chart itself
    - For the Burndown Report
      - Go to mtl.how/zenhub
+     - Hover over the left-hand menu.
      - Click on Reports > Burndown Report
-     - Screenshot the chart, including the story points and issues counts underneath it
+     - Screenshot the chart, including the story points and issues counts underneath it.
    - Hyperlink both screenshots to mtl.how/zenhub. To hyperlink:
      - Right-click on relevant text
      - Click on "Link"
