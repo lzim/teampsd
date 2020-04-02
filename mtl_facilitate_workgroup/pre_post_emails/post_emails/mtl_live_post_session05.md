@@ -26,7 +26,7 @@ output:
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Uploaded and reviewed our team data in the sim UI Experiments section.** 
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "75" width = "75"> **Do** |
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75"> **Do** |
 | --- |
 |**Before Our Next Team Meeting on (Include Date and Time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Check the "i" information in the Model Diagram and Experiments section in the sim UI at [mtl.how/sim](https://mtl.how/sim).**  |
