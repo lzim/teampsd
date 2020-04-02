@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 Pre Email"
 author: "Team PSD"
-date: "Rh Oct 18 2019 | RH March 16 2020 | RH March 17 2020"
+date: "Rh Oct 18 2019 | RH March 16 2020 | RH March 17 2020 | RH April 2 2020"
 output: 
   github_document: default
   html_document: default
@@ -21,12 +21,12 @@ output:
 # This week we're modeling to learn how to log in to our team world in the sim UI.
 
 <!-- Do/Done Tables -->
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/session04/s04_learner/mtl_session04_see.md) **Done** | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session04/s04_learner/mtl_session04_see.md) **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "45" width = "75">](http://mtl.how/menu) **Selected MTL Module: either care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP), or aggregate (AGG).** |
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/session05/s05_learner/mtl_session05_see.md) **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session05/s05_learner/mtl_session05_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting on (Include Date and Time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to the _MTL_ sim UI at https://mtl.how/sim. Note: Use all lowercase for login info. Use Chrome for the best experience.** |
