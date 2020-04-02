@@ -20,7 +20,7 @@ output:
 # We decided on a booster or follow-up assistance plan.
 
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65"> **Done** | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session12/s12_learner/mtl_session12_see.md) **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | **We completed _Modeling to Learn_!** 
