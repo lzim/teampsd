@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 Post Email"
 author: "Team PSD"
-date: "September 2018 | RH March 16 2020 | RH March 17 2020"
+date: "September 2018 | RH March 16 2020 | RH March 17 2020 | RH April 2 2020"
 output: 
   github_document: default
   html_document: default
@@ -20,12 +20,12 @@ output:
 # We decided to find something in the team data table and complete mtl.how/menu.
 
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65">  **Done** | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Produced our Team Data for the sim UI.** 
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75"> **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session04/s04_learner/mtl_session04_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting on (Include Date and Time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "45" width = "75">](http://mtl.how/menu) **1. Find something in the team data table at [mtl.how/data](https://mtl.how/data). 2. Complete the [mtl.how/menu](https://mtl.how/menu).**  |
