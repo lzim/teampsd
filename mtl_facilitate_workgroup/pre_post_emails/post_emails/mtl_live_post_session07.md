@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 Post Email"
 author: "Team PSD"
-date: "September 2018 | RH March 26 2020 | RH March 17 2020"
+date: "September 2018 | RH March 26 2020 | RH March 17 2020 | RH April 2 2020"
 output: 
   github_document: default
   html_document: default
@@ -20,7 +20,7 @@ output:
 # We decided to review team data, bc and team needs (mtl.how/menu results) to select the "what if" experiment for next time.
 
 <!-- Do/Done Tables -->
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65"> **Done** | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session07/s07_learner/mtl_session07_see.md) **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Entered question, hypothesis, findings and decisions for the Base Case run in the Q/H/F/D boxes of the Text section.** 
