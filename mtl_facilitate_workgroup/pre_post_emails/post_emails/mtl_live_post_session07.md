@@ -30,7 +30,7 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.* |
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/> **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*|
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75"> **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session08/s08_learner/mtl_session08_see.md)**Do** |
 | --- |
 |**Before Our Next Team Meeting on (Include Date and Time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to [mtl.how/sim](https://mtl.how/sim) and explore the results of the Base Case run to prepare for experiment 1.**  |
