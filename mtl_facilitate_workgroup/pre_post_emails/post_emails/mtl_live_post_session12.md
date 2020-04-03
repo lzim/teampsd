@@ -25,7 +25,7 @@ output:
 |**At Our Last Team Meeting**|
 | **We completed _Modeling to Learn_!** 
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75"> **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://mtl.how) **Do** |
 | --- |
 |**Going Forward**
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "45" width = "75">](http://mtl.how) **Follow the team plan for next steps. Log in to [mtl.how](https://mtl.how) for ongoing release updates and assistance using _MTL_ resources.** |
