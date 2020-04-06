@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 Pre Email"
 author: "Team PSD"
-date: "RH Oct 18 2019 | RH March 16 2020 | RH March 17 2020 | RH April 2 2020"
+date: "RH Oct 18 2019 | RH March 16 2020 | RH March 17 2020 | RH April 6 2020"
 output: 
   github_document: default
   html_document: default
@@ -19,13 +19,13 @@ output:
 
 # This week we're modeling to learn how to turn team learning into a team plan. 
 <!-- Do/Done Tables -->
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session11/s11_learner/mtl_session11_see.md) **Done**  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session11/s11_learner/mtl_session11_see.md) **Done**  
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Discussed the team's learning and prioritized ways to implement it in our clinical care.** | 
 
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session12/s12_learner/mtl_session12_see.md) **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session12/s12_learner/mtl_session12_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Reflect on our Team Vision and our _MTL_ experience to prepare for planning next steps.**  |
