@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 Pre Email"
 author: "Team PSD"
-date: "RH Oct 18 2019 | RH March 16 2020 | RH March 17 2020 | RH April 2 2020"
+date: "RH Oct 18 2019 | RH March 16 2020 | RH March 17 2020 | RH April 6 2020"
 output: 
   github_document: default
   html_document: default
