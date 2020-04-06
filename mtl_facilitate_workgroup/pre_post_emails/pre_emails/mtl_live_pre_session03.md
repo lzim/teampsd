@@ -21,13 +21,13 @@ output:
 
 
 <!-- Do/Done Tables -->
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md) **Done** | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md) **Done** | 
 | --- |
 |**At Our Last Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Selected the clinics that make up our team.** |
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data)  |
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **1. Review the HF, Diag, Enc and SP tabs to find a patient (zoom in) and find a team trend (zoom out). 2. Log in to mtl.how/data and find Team data UI and team_data folders.** |
