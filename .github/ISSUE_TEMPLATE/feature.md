@@ -7,15 +7,15 @@ assignee: ''
 
 ---
 
-**Sidebar Clicks**
-i. **Pipelines** - prioritize in a TeamPSD (& Workgroup) pipeline  
-ii. **Assignee** - assign to an individual team member producing work for the issue  
-iii. **Label**- assign workgroup (lead) responsible for tracking the task  
-iv. **Projects** - assign to domain-specific TeamPSD tracker (issues, features, document, manuscript, team)  
-v. **Milestones** - select monthly sprint milestone within the workgroup   
-vi. **Estimate** - Estimate task in complexity points   
-vii. **Epics** - assign to team-wide epic and TeamPSD master plan project  
-viii. **Releases** - assign to key team release grouped with other relevant issues  
+**Sidebar Clicks** 
+
+i. **Pipeline** - Open Projects 
+ii. **Label**- assign workgroup (lead) responsible for tracking the task  
+iii. **Projects** - Feature Tracker
+iv. **Milestones** - select monthly sprint milestone within the workgroup   
+v. **Estimate** - Estimate project in complexity points   
+vi. **Epics** - assign to team-wide epic and TeamPSD master plan project  
+vii. **Releases** - assign to key team release grouped with other relevant issues  
 
 
 **1. Description: What is the goal of the project and what is the problem that it will solve?** 
