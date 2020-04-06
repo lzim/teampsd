@@ -9,9 +9,9 @@ assignee: ''
 
 **Sidebar Clicks** 
 
-i. **Pipeline** - Open Projects 
+i. **Pipeline** - Open Projects  
 ii. **Label**- assign workgroup (lead) responsible for tracking the task  
-iii. **Projects** - Feature Tracker
+iii. **Projects** - Feature Tracker  
 iv. **Milestones** - select monthly sprint milestone within the workgroup   
 v. **Estimate** - Estimate project in complexity points   
 vi. **Epics** - assign to team-wide epic and TeamPSD master plan project  
