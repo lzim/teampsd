@@ -23,7 +23,7 @@ vii. **Releases** - assign to key team release grouped with other relevant issue
 
  
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**
-#### This card will stay in work_breakdown until requirements are outlined. During the design phase it should move to operations/research_to_do a be given a ranking. After ranking has been assigned and only once work has begun should card move to under_development in the feature tracker.
+#### This card will stay in work_breakdown until requirements are outlined. During the design phase it should move to operations/research_to_do and be assigned a ranking. After ranking has been assigned and only once work has begun should card move to under_development in the tracker.
 
 
 1. [ ] Requirement 1 -R1
