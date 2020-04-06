@@ -15,28 +15,28 @@
    - For the Control Chart
      - Go to mtl.how/zenhub
      - Hover over the left-hand menu.
-     - Click on Reports > Control Charts
-     - Change the Custom Pipeline range dates to the current week (the week you're drafting the report)
-     - Set the Start Pipeline to "Priority Epic" and the Completed Pipeline to "Closed"
-     - Screenshot only the stats numbers and not the control chart itself
+     - Click on Reports > Control Charts.
+     - Change the Custom Pipeline range dates to the range of the current Epic from start to end.
+     - Set the Start Pipeline to "Priority Epic" and the Completed Pipeline to "Closed".
+     - Screenshot only the stats numbers and not the control chart itself.
    - For the Burndown Report
-     - Go to mtl.how/zenhub
+     - Go to mtl.how/zenhub.
      - Hover over the left-hand menu.
      - Click on Reports > Burndown Report make sure to select the range dates to the current week (the week you're drafting 
-       the report) but do not select any pipeline
+       the report) but do not select any pipeline.
      - Screenshot the chart, including the story points and issues counts underneath it.
    - Hyperlink both screenshots to mtl.how/zenhub. To hyperlink:
-     - Right-click on relevant text
-     - Click on "Link"
-     - Paste the link into "Address"
-     - Click on "Ok"
+     - Right-click on relevant text.
+     - Click on "Link".
+     - Paste the link into "Address".
+     - Click on "Ok".
  - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one. Ensure that any discrepancies are address by workgroup leads and reflected in the calendar.
  - [ ] For mtl.how/bugs, mtl.how/features, mtl.how/manuscripts, and mtl.how/documents, go to each of these shortlinks and screenshot the trackers. Replace the existing screenshots with the new ones. 
    - Make sure the text for each of the short links is hyperlinked to the matching link. 
-   - All the screenshots are to have 5 columns 
-       - Features tracker - work_breakdown to functional_testing
-       - Manuscript tracker - 01_OSF_project to approval_letter
-       - Documents tracker - describe_learners to dependent_products
+   - All the screenshots are to have 5 columns (to increase visibility take screenshots in full-screen mode). 
+       - Features tracker - work_breakdown to functional_testing.
+       - Manuscript tracker - 01_OSF_project to approval_letter.
+       - Documents tracker - describe_learners to dependent_products.
    - Make sure the screenshots for each of the trackers are hyperlinked to their matching trackers as well.
    - Screenshots should be large enough that the text is readable and meaningful.
  
