@@ -19,10 +19,11 @@ vii. **Releases** - assign to key team release grouped with other relevant issue
 
 
 **1. Description: What is the goal of this feature and what is the problem that it will solve?** 
-
+------------
 
  
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
+-------------
 
 #### This card will stay in work_breakdown until all requirements are outlined. During the design phase it should move to operations/research_to_do.
 
@@ -54,11 +55,13 @@ vii. **Releases** - assign to key team release grouped with other relevant issue
 				- [ ] STEP n 
 				
 **3. Development:**
+----------------
 ####  Once work has begun card should move to under_development.
 *Reference the design step that the issue card is for*  
 Issue Cards related to Work:
 
 **4. Review**: 
+----------------
 #### At this stage the card should move to functional testing or measurement and use the test cases outlined above
 *Reference issue cards and the verification method they are linked to here.*  
 Issue Cards related to Verification:
