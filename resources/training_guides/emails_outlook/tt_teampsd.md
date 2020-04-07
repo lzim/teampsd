@@ -33,7 +33,7 @@
  - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one. Ensure that any discrepancies or duplicate meetings are addressed by workgroup leads and reflected in the calendar.
  - [ ] For mtl.how/bugs, mtl.how/features, mtl.how/manuscripts, and mtl.how/documents, go to each of these shortlinks and screenshot the trackers. Replace the existing screenshots with the new ones. 
    - Make sure the text for each of the short links is hyperlinked to the matching link. 
-   - All the screenshots are to have 5 columns (to increase visibility take screenshots in full-screen mode), except the Bug tracker. Screenshots for each of the trackers should show these columns:
+   - All the screenshots should show the first 5 columns of each tracker (except the Bug tracker, which should show all 6 columns). To increase visibility take screenshots in full-screen mode. Screenshots for each of the trackers should specifically show these columns:
      - Bug tracker - needs_triage to closed.
      - Features tracker - work_breakdown to functional_testing.
      - Manuscript tracker - 01_osf_project to 05_approval_letter.
