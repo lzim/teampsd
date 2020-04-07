@@ -9,28 +9,35 @@
  
  ### Within the Word Doc, in order from top to bottom:
  - [ ] Update the report number under the team time logo.
- - [ ] Place weekly announcements at the top  of the report - any updates relevant across the team with screenshots and links if necessary.
- - [ ] For mtl.how/zenhub, replace the existing screenshots with new ones for the Control Chart and Burndown Report.
+ - [ ] Place weekly announcements at the top  of the report within the first box of text, including any updates relevant across the team with screenshots and links if necessary. Make sure that _MTL_ or _Modeling to Learn_ is in italics, consistent with TeamPSD style, throughout the report.
+ - [ ] For mtl.how/zenhub replace the existing Epic information (e.g. “april” priority is underway and ends 4/24) with current information. 
+   - For screenshots, replace the existing ones with new ones for the Control Chart and Burndown Report.
    - For the Control Chart
      - Go to mtl.how/zenhub
      - Hover over the left-hand menu.
-     - Click on Reports > Control Charts
-     - Change the Custom Pipeline range dates to the current week (the week you're drafting the report!)
-     - Set the Start Pipeline to "Priority Epic" and the Completed Pipeline to "Closed"
-     - Screenshot only the stats numbers and not the control chart itself
+     - Click on Reports > Control Charts.
+     - Change the Custom Pipeline range dates to the range of the current Epic from start to end.
+     - Set the Start Pipeline to "Priority Epic" and the Completed Pipeline to "Closed".
+     - Screenshot only the stats numbers and not the control chart itself.
    - For the Burndown Report
-     - Go to mtl.how/zenhub
+     - Go to mtl.how/zenhub.
      - Hover over the left-hand menu.
-     - Click on Reports > Burndown Report
+     - Click on Reports > Burndown Report make sure to select the range dates to the current week (the week you're drafting 
+       the report) but do not select any pipeline.
      - Screenshot the chart, including the story points and issues counts underneath it.
    - Hyperlink both screenshots to mtl.how/zenhub. To hyperlink:
-     - Right-click on relevant text
-     - Click on "Link"
-     - Paste the link into "Address"
-     - Click on "Ok"
- - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one.
+     - Right-click on relevant text.
+     - Click on "Link".
+     - Paste the link into "Address".
+     - Click on "Ok".
+ - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one. Ensure that any discrepancies or duplicate meetings are addressed by workgroup leads and reflected in the calendar.
  - [ ] For mtl.how/bugs, mtl.how/features, mtl.how/manuscripts, and mtl.how/documents, go to each of these shortlinks and screenshot the trackers. Replace the existing screenshots with the new ones. 
    - Make sure the text for each of the short links is hyperlinked to the matching link. 
+   - All the screenshots should show the first 5 columns of each tracker (except the Bug tracker, which should show all 6 columns). To increase visibility take screenshots in full-screen mode. Screenshots for each of the trackers should specifically show these columns:
+     - Bug tracker - needs_triage to closed.
+     - Features tracker - work_breakdown to functional_testing.
+     - Manuscript tracker - 01_osf_project to 05_approval_letter.
+     - Documents tracker - describe_learners to depend_products.
    - Make sure the screenshots for each of the trackers are hyperlinked to their matching trackers as well.
    - Screenshots should be large enough that the text is readable and meaningful.
  
@@ -43,6 +50,7 @@
   - All colors are consistent with TeamPSD style which can be found [here](https://github.com/lzim/teampsd/blob/teampsd_style/colors.md). 
     - We use VA Light Blue for linked text, icons, and the announcements text box. We use VA Light Red for the arrows that separate each section.
   - All items are aligned and not covering each other, or off the page.
+  - _Modeling to Learn_ or _MTL_ is always italicized.
   
 ### Setup Recipients & Subject Line:
 - [ ] In the "To" line of the email, include two groups:
@@ -61,7 +69,7 @@
     - In the pop-up window, check "Do Not Deliver Before" and set the date to Monday morning of the next week at 5am Pacific (which is 8am Eastern or start of tour for our East Coast partners!)
     - Click "Close"
     - Click "Send"
-  - Sometime the scheduled delivery can be buggy. You can also just keep the email as a draft over the weekend and click "Send" firt thing Monday AM at 7:30am Pacific.
+  - Sometime the scheduled delivery can be buggy. You can also just keep the email as a draft over the weekend and click "Send" first thing Monday AM at 7:30am Pacific.
 
 ### Tips:
 - Copy & paste from Outlook to Word by changing your image "Wrap" settings. For all images and text boxes:
