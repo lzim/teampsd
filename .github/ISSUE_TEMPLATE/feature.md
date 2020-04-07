@@ -52,14 +52,15 @@ vii. **Releases** - assign to key team release grouped with other relevant issue
 				- [ ] STEP 2 
 				- [ ] STEP n 
 				
-**3. Development**
+**3. Development:**
 ####  Once work has begun card should move to under_development.
 *Reference the design step that the issue card is for*
-Work Related Issues:
+Issue Cards related to Work:
 
 **4. Review**: 
-#### At this stage the card should move to functional testing or measurement following the test cases outlined above
-*Reference issue cards and the test case they are linked to here.*
+#### At this stage the card should move to functional testing or measurement and use the test cases outlined above
+*Reference issue cards and the verification method they are linked to here.*
+Issue Cards related to Verification:
   
 #### Once all checkboxes are marked this feature should be moved to the done column.
 
