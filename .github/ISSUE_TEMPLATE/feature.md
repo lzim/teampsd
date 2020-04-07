@@ -18,11 +18,12 @@ vi. **Epics** - assign to team-wide epic and TeamPSD master plan project
 vii. **Releases** - assign to key team release grouped with other relevant issues  
 
 
-**1. Description: What is the goal of the project and what is the problem that it will solve?** 
+**1. Description: What is the goal of this feature and what is the problem that it will solve?** 
 
 
  
-**2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**
+**2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
+
 #### This card will stay in work_breakdown until all requirements are outlined. During the design phase it should move to operations/research_to_do.
 
 
