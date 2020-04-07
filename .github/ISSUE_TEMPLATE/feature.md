@@ -9,11 +9,11 @@ assignee: ''
 
 **Sidebar Clicks** 
 
-i. **Pipeline** - Open Projects (Will stay here until card is closed)   
+i. **Pipeline** - Open Features (Will stay here until card is closed)   
 ii. **Label**- assign workgroup (lead) responsible for tracking the task  
 iii. **Projects** - Feature Tracker (work_breakdown)  
 iv. **Milestones** - select monthly sprint milestone within the workgroup   
-v. **Estimate** - Estimate project in complexity points   
+v. **Estimate** - Estimate feature in complexity points   
 vi. **Epics** - assign to team-wide epic and TeamPSD master plan project  
 vii. **Releases** - assign to key team release grouped with other relevant issues  
 
@@ -23,39 +23,44 @@ vii. **Releases** - assign to key team release grouped with other relevant issue
 
  
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**
-#### This card will stay in work_breakdown until requirements are outlined. During the design phase it should move to operations/research_to_do and be assigned a ranking. After ranking has been assigned and only once work has begun should card move to under_development in the tracker.
+#### This card will stay in work_breakdown until all requirements are outlined. During the design phase it should move to operations/research_to_do.
 
 
-1. [ ] Requirement 1 -R1
+1. [ ] Requirement 1
 	- Design: 
-		- [ ] Step1 - R1D1
-			- Test Cases :
-				- [ ] STEP 1 -R1D1T1 
-				- [ ] STEP 2 –R1D1T2
-				- [ ] STEP n –R1D1Tn
-		- [ ] STEP n – R1Dn
-			- Test Cases :
-				- [ ] STEP 1 - R1DnT1
-				- [ ] STEP 2 – R1DnT2
-				- [ ] STEP n – R1DnTn
+		- [ ] Step 1
+			- Verfication Methods :
+				- [ ] STEP 1 
+				- [ ] STEP 2 
+				- [ ] STEP n 
+		- [ ] STEP n 
+			- Verification Methods :
+				- [ ] STEP 1 
+				- [ ] STEP 2 
+				- [ ] STEP n 
        
-1. [ ] Requirment n - Rn
+1. [ ] Requirment n
 	- Design:
-		- [ ] Step 1 – RnD1
-			- Test Cases :
-				- [ ] STEP 1 - RnD1T1
-				- [ ] STEP 2 – RnD1T2
-				- [ ] STEP n – RnD1Tn
-		- [ ] Step n – R1Dn
-			- Test Cases :
-				- [ ] STEP 1 - RnDnT1
-				- [ ] STEP 2 – RnDnT2
-				- [ ] STEP n – RnDnTn
+		- [ ] Step 1 
+			- Verfication Methods :
+				- [ ] STEP 1 
+				- [ ] STEP 2 
+				- [ ] STEP n 
+		- [ ] Step n 
+			- Verfication Methods :
+				- [ ] STEP 1 
+				- [ ] STEP 2 
+				- [ ] STEP n 
+				
+**3. Development**
+####  Once work has begun card should move to under_development.
+*Reference the design step that the issue card is for*
+Work Related Issues:
 
-**3. Reviewer(s)**: 
+**4. Review**: 
 #### At this stage the card should move to functional testing or measurement following the test cases outlined above
-  Reference issue cards and the test case they are linked to here.
+*Reference issue cards and the test case they are linked to here.*
   
-#### Once all checkboxes are marked this project should be moved to the done column.
+#### Once all checkboxes are marked this feature should be moved to the done column.
 
 
