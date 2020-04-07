@@ -9,7 +9,7 @@
  
  ### Within the Word Doc, in order from top to bottom:
  - [ ] Update the report number under the team time logo.
- - [ ] Place weekly announcements at the top  of the report within the first box of text that already includes any updates relevant across the team with screenshots and links if necessary. Make sure that _MTL_ or _Modeling to Learn_ is in italics, consistent with TeamPSD style, throughout the report.
+ - [ ] Place weekly announcements at the top  of the report within the first box of text, including any updates relevant across the team with screenshots and links if necessary. Make sure that _MTL_ or _Modeling to Learn_ is in italics, consistent with TeamPSD style, throughout the report.
  - [ ] For mtl.how/zenhub replace the existing Epic information (e.g. “april” priority is underway and ends 4/24) with current information. 
    - For screenshots, replace the existing ones with new ones for the Control Chart and Burndown Report.
    - For the Control Chart
@@ -30,7 +30,7 @@
      - Click on "Link".
      - Paste the link into "Address".
      - Click on "Ok".
- - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one. Ensure that any discrepancies are address by workgroup leads and reflected in the calendar.
+ - [ ] For mtl.how/lucid, take a screenshot of the next two weeks from Lindsey's team Lucid calendar. Make sure to ping all Workgroup Leads regarding updates and changes prior to taking this screenshot. Replace the existing screenshot with the new one. Ensure that any discrepancies or duplicate meetings are addressed by workgroup leads and reflected in the calendar.
  - [ ] For mtl.how/bugs, mtl.how/features, mtl.how/manuscripts, and mtl.how/documents, go to each of these shortlinks and screenshot the trackers. Replace the existing screenshots with the new ones. 
    - Make sure the text for each of the short links is hyperlinked to the matching link. 
    - All the screenshots are to have 5 columns (to increase visibility take screenshots in full-screen mode), except the Bug tracker. Screenshots for each of the trackers should show these columns:
