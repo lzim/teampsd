@@ -27,7 +27,6 @@ Example:
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
 -------------
 
-#### This card will stay in work_breakdown until all requirements are outlined. During the design phase it should move to operations/research_to_do.
 
 <details>
 <summary>Requirement 1</summary>
@@ -75,9 +74,7 @@ Example:
 </details>
 
 
-<div >
-<button name="button" onclick="http://www.google.com">Click me</button>
-</div>
+
 
 
 **3. Review**: 
