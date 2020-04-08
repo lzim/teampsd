@@ -17,6 +17,7 @@ v. **Estimate** - Estimate feature in complexity points
 vi. **Epics** - assign to team-wide epic and TeamPSD master plan project  
 vii. **Releases** - assign to key team release grouped with other relevant issues  
 
+*delete the above after completing*
 
 **1. Feature Description: What is the goal of this feature and why are we working on it?** 
 ------------
