@@ -27,22 +27,31 @@ Example:
  
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
 <details>
- <summary> Requirement Helper </summary>
+<summary> Requirement Helper </summary>
  1. Requirement Definition (What & Why)
-
+ </br></br>
 2. Verification Method (How)
 
-Documentation of requirements - Review of definition of the requirements.
-Analysis - Code, data, model reviewed.
-Test - Procedures must be well documented.
-Inspect - Purpose, methods and procedures must be well documented so result can be duplicated using the same inspection procedures. May include inspection of design or an algorthm (aka process map of process).
-Demonstrate - A comprehensive demonstration and/or application of the functions and features of the system or its components
-Infer from “Why”/purpose of requirement definition.
+<strong>Documentation of requirements</strong> - Review of definition of the requirements.  
+
+<strong>Analysis</strong> - Code, data, model reviewed. 
+
+<strong>Test</strong> - Procedures must be well documented.  
+
+<strong>Inspect</strong> - Purpose, methods and procedures must be well documented so result can be duplicated using the same inspection procedures. May include inspection of design or an algorthm (aka process map of process).
+
+<strong>Demonstrate</strong> - A comprehensive demonstration and/or application of the functions and features of the system or its components.  
+
+<strong>Infer</strong> - from “Why”/purpose of requirement definition.  
+</br></br>
 3. Reviewer (Who)
 
-Within Workgroup Member
-Verify across workgroups
-Required or Optional?
+Within Workgroup Member  
+
+Verify across workgroups  
+
+Required or Optional?  
+</br> </br>
 4. Location in Tracker
 </details>
 
