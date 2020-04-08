@@ -28,7 +28,7 @@ Example:
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
 -------------
 
-
+- [ ] Requirement 1 Met
 <details>
 <summary>Requirement 1</summary>
 
@@ -74,7 +74,7 @@ Example:
 
 </details>
 
-<button type=button onclick=print(Content) > Add a requirement </button>
+<button type=button onclick=print(Content) > Add a requirement button </button>
 
 
 
