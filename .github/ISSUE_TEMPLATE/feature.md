@@ -41,8 +41,8 @@ Example:
   3. Reviewer (Who & When)  
   Example:  
   - [x] Verified design with Lindsey & Stacey at **sim_UI_workgroup** on 04/07/2020.
-  4. Location in Tracker
-  _Determine rules for advancement through kanban defined by checklist._
+  4. Location in Tracker  
+  *Upon Approval Card can move to operations/research_to_do*
 
   ---
   1. Step 2 Design Definition (What & Why)  
@@ -54,8 +54,8 @@ Example:
   3. Reviewer (Who & When)  
    Example:    
   - [ ] Verified design prototype with Lindsey & Stacey at **sim_UI_workgroup** on 04/14/2020.
-  4. Location in Tracker
-  _Determine rules for advancement through kanban defined by checklist._
+  4. Location in Tracker  
+  _After approval card can move to under_development once work has begun._
 
   ---
   1. Step 3 Build/Test Definition (What & Why)  
@@ -69,9 +69,8 @@ Example:
    Example:  
   - [X] Anthony ran test scripts outlined in Design Document on 04/18/2020.
   - [ ] Verified demo with Lindsey & Stacey at **sim_UI_workgroup** on 04/21/2020.
-  4. Location in Tracker
-  _Determine rules for advancement through kanban defined by checklist._
-
+  4. Location in Tracker  
+  _Once Review has begun Card should either move to functional_testing or measurement based on the test being done._
 </details>
 
 <button type=button onclick=print(Content) > Add a requirement button </button>
