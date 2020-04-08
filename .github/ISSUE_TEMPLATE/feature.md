@@ -73,7 +73,7 @@ Example:
 
 </details>
 
-
+<button type=button onclick=print(Content) > Add a requirement </button>
 
 
 
