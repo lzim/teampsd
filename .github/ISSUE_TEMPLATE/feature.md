@@ -21,6 +21,7 @@ vii. **Releases** - assign to key team release grouped with other relevant issue
 **1. Feature Description: What is the goal of this feature and why are we working on it?** 
 ------------
 Example:
+
 **Want to create a Community of Practice for the users of the SIM UI to access in order to have a forum for discussion and to ask/answer questions** 
  
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
@@ -31,36 +32,41 @@ Example:
 <details>
 <summary>Requirement 1</summary>
 
-  1. Step 1 Requirement Definition (What & Why)
-  Example: 
-  **Community Button links out of Sim UI to the GitHub Community of Practice.**
-  2. Verification Method (How)
+  1. Step 1 Requirement Definition (What & Why)   
   Example:  
-  - [X] Documentation of requirements - Reviewed definition of the requirements at **sim_UI_workgroup** on 4/07/2020.
-  3. Reviewer (Who & When)
+  **Community Button links out of Sim UI to the GitHub Community of Practice.**  
+  2. Verification Method (How)   
+  Example:  
+  - [X] Documentation of requirements - Reviewed definition of the requirements at **sim_UI_workgroup** on 4/07/2020.  
+  3. Reviewer (Who & When)  
   Example:  
   - [x] Verified design with Lindsey & Stacey at **sim_UI_workgroup** on 04/07/2020.
   4. Location in Tracker
   _Determine rules for advancement through kanban defined by checklist._
 
   ---
-  1. Step 2 Design Definition (What & Why)
+  1. Step 2 Design Definition (What & Why)  
+   Example:  
   **Create Community Button that links out of Sim UI to the GitHub Community of Practice through a new "I have a question" ["Community   Button" > "I have a question" Button > GitHub "Community of Practice"].**
-  2. Verification Method (How)
+  2. Verification Method (How)  
+   Example:  
   - [ ] Design document of the 3 buttons within the Button - Review this design at **sim_UI_workgroup** on 4/14/2020.
-  3. Reviewer (Who & When)
+  3. Reviewer (Who & When)  
+   Example:    
   - [ ] Verified design prototype with Lindsey & Stacey at **sim_UI_workgroup** on 04/14/2020.
   4. Location in Tracker
   _Determine rules for advancement through kanban defined by checklist._
 
   ---
-  1. Step 3 Build/Test Definition (What & Why)
-  **Implement the new buttons on the SIM UI**
-  2. Verification Method (How)
-  Example:
-  - [X] Analysis - Code tested by Anthony on 04/18/2020.
-  - [ ] Demonstration of the new design/functionality on the platform - Review this demo at **sim_UI_workgroup** on 4/21/2020.
-  3. Reviewer (Who & When)
+  1. Step 3 Build/Test Definition (What & Why)  
+  Example:  
+  **Implement the new buttons on the SIM UI** 
+  2. Verification Method (How)  
+  Example:  
+  - [X] Analysis - Code tested by Anthony on 04/18/2020.  
+  - [ ] Demonstration of the new design/functionality on the platform - Review this demo at **sim_UI_workgroup** on 4/21/2020.  
+  3. Reviewer (Who & When)    
+   Example:    
   - [ ] Verified demo with Lindsey & Stacey at **sim_UI_workgroup** on 04/21/2020.
   4. Location in Tracker
   _Determine rules for advancement through kanban defined by checklist._
