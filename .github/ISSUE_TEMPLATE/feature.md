@@ -75,12 +75,10 @@ Example:
 </details>
 
 
+<div >
 <button name="button" onclick="http://www.google.com">Click me</button>
+</div>
 
-
-def foo():
-    if not bar:
-        return True
 
 **3. Review**: 
 ----------------
