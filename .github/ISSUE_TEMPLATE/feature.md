@@ -26,7 +26,29 @@ Example:
 **Want to create a Community of Practice for the users of the SIM UI to access in order to have a forum for discussion and to ask/answer questions** 
  
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
+<details>
+ <summary> Requirement Helper </summary>
+ 1. Requirement Definition (What & Why)
+
+2. Verification Method (How)
+
+Documentation of requirements - Review of definition of the requirements.
+Analysis - Code, data, model reviewed.
+Test - Procedures must be well documented.
+Inspect - Purpose, methods and procedures must be well documented so result can be duplicated using the same inspection procedures. May include inspection of design or an algorthm (aka process map of process).
+Demonstrate - A comprehensive demonstration and/or application of the functions and features of the system or its components
+Infer from “Why”/purpose of requirement definition.
+3. Reviewer (Who)
+
+Within Workgroup Member
+Verify across workgroups
+Required or Optional?
+4. Location in Tracker
+</details>
+
 -------------
+
+
 
 - [ ] Requirement 1 Met
 <details>
