@@ -60,7 +60,7 @@ Required or Optional?
 
 
 - [ ] Requirement 1 Met
-<details>
+<details open=true>
 <summary>Requirement 1</summary>
 
   1. Step 1 Requirement Definition (What & Why)   
@@ -105,7 +105,6 @@ Required or Optional?
 </details>
 
 <button type=button onclick=print(Content) > Add a requirement button </button>
-
 
 
 **3. Review**: 
