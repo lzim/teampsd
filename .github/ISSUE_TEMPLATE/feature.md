@@ -66,16 +66,21 @@ Example:
   - [X] Analysis - Code tested by Anthony on 04/18/2020.  
   - [ ] Demonstration of the new design/functionality on the platform - Review this demo at **sim_UI_workgroup** on 4/21/2020.  
   3. Reviewer (Who & When)    
-   Example:    
+   Example:  
+  - [X] Anthony ran test scripts outlined in Design Document on 04/18/2020.
   - [ ] Verified demo with Lindsey & Stacey at **sim_UI_workgroup** on 04/21/2020.
   4. Location in Tracker
   _Determine rules for advancement through kanban defined by checklist._
 
 </details>
 
-<script >
-<button type="button">Add a new requirement</button>
-</script>
+
+<button name="button" onclick="http://www.google.com">Click me</button>
+
+
+def foo():
+    if not bar:
+        return True
 
 **3. Review**: 
 ----------------
