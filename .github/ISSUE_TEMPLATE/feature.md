@@ -33,6 +33,7 @@ Example:
 
 <details>
 <summary> Requirement Helper </summary>
+ 
  1. Requirement Definition (What & Why)
  </br>
  - [ ] -Insert Requirement-
@@ -58,7 +59,6 @@ Within Workgroup Member
 Verify across workgroups  
 
 Required or Optional?  
-
 </details>
 
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
@@ -69,7 +69,8 @@ Required or Optional?
 - [ ] Requirement 1 Met
 <details open=true>
 <summary>Requirement 1</summary>
-
+<div>
+ 
   1. Requirement Definition (What & Why) - Must be complete before moving to Operations/Research_To_do     
   Example:  
   - [X] **Community Button links out of Sim UI to the GitHub Community of Practice.**  
@@ -105,7 +106,7 @@ Required or Optional?
    Example:  
   - [X] Anthony ran test scripts outlined in Design Document on 04/18/2020.
   - [ ] Verified demo with Lindsey & Stacey at **sim_UI_workgroup** on 04/21/2020.
- 
+ </div>
 </details>
 
 <button type=button onclick=print(Content) > Add a requirement button </button>
