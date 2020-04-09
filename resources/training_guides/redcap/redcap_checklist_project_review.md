@@ -4,7 +4,7 @@
 **Getting on REDCAP**
 - Got to the VA RedCap portal on an internet browser.
 - Log in with VHA Username and Password.
-- Use RedCap Map for additioanl information and guidance [flowchart].
+- Use RedCap Map for additioanl information and guidance [flowchart](https://github.com/lzim/teampsd/blob/rita_2020_04_08_redcap_checklist_project_review/resources/training_guides/redcap/va_redcap_map.jpeg).
 - If you don't have a VA RedCap account follow instructions on the main VA RedCap login page to request an account.
 - If you have an account but need access to a particular project send HQ an email asking for access - include the projet name in your request.
 
