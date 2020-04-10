@@ -109,7 +109,7 @@ Required or Optional?
  </div>
 </details>
 
-Note: To add another requirement copy and paste the helper above (Including the <details></details> tags) and paste below.
+Note: To add another requirement copy and paste the helper above (Including the \<details>\</details> tags) and paste below.
 
 
 **3. Review**: 
