@@ -16,17 +16,17 @@
      - Go to mtl.how/zenhub
      - Hover over the left-hand menu.
      - Click on Reports > Control Charts.
-     - At the top, adjust to the key **current milestone**
-     - At the top, **make sure the dates align with the month's priority epic**, _which is listed on the **epic** and in the **roadmap** (i.e. from **start** of epic to **end of epic**)
-     - On the upper right hand side, select the **default of "closed" Burn Pipeline drop down**.
+     - At the top, select "Custom Range" for dates and set the dates to align with the current epic by using the "Start" and "End" dates found on the **Roadmap**.
+     - For the "Start Pipeline," select "Priority Epic" and for the "Completed Pipeline," select "Closed."
+     - Make sure all four repos are selected (Repos 4/4) for the data.
      - Screenshot only the stats numbers and not the control chart itself.
    - For the Burndown Report
      - Go to mtl.how/zenhub
      - Hover over the left-hand menu.
      - Click on Reports > Burndown Report. 
-     - At the top, adjust to the key **current milestone**.
-     - At the top, **make sure the dates align with the month's priority epic**, _which is listed on the **epic** and in the **roadmap** (i.e. from **start** of epic to **end of epic**).
-     - On the upper right hand side, select the **default of "closed" Burn Pipeline drop down**.
+     - At the top, select the **current milestone**.
+     - For the date range, set the "Start" and "Due by" dates to align with the current epic by using the "Start" and "End date found on the **Roadmap**.
+     - On the upper right hand side, double check that "Closed" (default) is selected for the "Burn Pipeline".
      - Screenshot the chart, including the story points and issues counts underneath it.
    - Hyperlink both screenshots to mtl.how/zenhub. To hyperlink:
      - Right-click on relevant text.
