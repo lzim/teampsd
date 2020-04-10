@@ -68,7 +68,7 @@ Required or Optional?
 
 - [ ] Requirement 1 Met
 <details open=true>
-<summary>Requirement 1</summary>
+<summary>Requirement 1 -Rename to "What" of this requirement</summary>
 <div>
  
   1. Requirement Definition (What & Why) - Must be complete before moving to Operations/Research_To_do     
