@@ -10,7 +10,7 @@ HTML Note: Please leave the text contained within the <> tags alone. Markdown te
 
 Kanban Note: To move along in the tracker every checkbox at a given step must be complete across all requirements.
 
-Issue Cards: If a step has tasks associated with it please include it at the appropriate step.
+Issue Cards: If a step has tasks associated with it please include the issue # at the appropriate step.
 
 **Sidebar Clicks** 
 
