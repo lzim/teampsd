@@ -16,14 +16,17 @@
      - Go to mtl.how/zenhub
      - Hover over the left-hand menu.
      - Click on Reports > Control Charts.
-     - Change the Custom Pipeline range dates to the range of the current Epic from start to end.
-     - Set the Start Pipeline to "Priority Epic" and the Completed Pipeline to "Closed".
+     - At the top, adjust to the key **current milestone**
+     - At the top, **make sure the dates align with the month's priority epic**, _which is listed on the **epic** and in the **roadmap** (i.e. from **start** of epic to **end of epic**)
+     - On the upper right hand side, select the **default of "closed" Burn Pipeline drop down**.
      - Screenshot only the stats numbers and not the control chart itself.
    - For the Burndown Report
-     - Go to mtl.how/zenhub.
+     - Go to mtl.how/zenhub
      - Hover over the left-hand menu.
-     - Click on Reports > Burndown Report make sure to select the range dates to the current week (the week you're drafting 
-       the report) but do not select any pipeline.
+     - Click on Reports > Burndown Report. 
+     - At the top, adjust to the key **current milestone**.
+     - At the top, **make sure the dates align with the month's priority epic**, _which is listed on the **epic** and in the **roadmap** (i.e. from **start** of epic to **end of epic**).
+     - On the upper right hand side, select the **default of "closed" Burn Pipeline drop down**.
      - Screenshot the chart, including the story points and issues counts underneath it.
    - Hyperlink both screenshots to mtl.how/zenhub. To hyperlink:
      - Right-click on relevant text.
