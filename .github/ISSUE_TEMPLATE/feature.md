@@ -67,7 +67,7 @@ Required or Optional?
 
 
 - [ ] Requirement 1 Met
-<details open=true>
+<details >
 <summary>Requirement 1 -Rename to "What" of this requirement</summary>
 <div>
  
