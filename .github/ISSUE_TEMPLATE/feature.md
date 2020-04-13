@@ -6,23 +6,31 @@ label: ''
 assignee: ''
 
 ---
-HTML Note: Please leave the text contained within the <> tags alone. Markdown text is encouraged for formatting.
 
-Kanban Note: To move along in the tracker every checkbox at a given step must be complete across all requirements.
+1. **Markdown** language to be used, include:
+- [ ] **BOLD**
+- [ ] _Italic_
+- [ ] Use **Numbering**  or **Bullets** 
 
-Issue Cards: If a step has tasks associated with it please include the issue # at the appropriate step.
+2.  **HTML** 
+- [ ] Text contained within the <> tags remains unchanged - this is a fixed section header.
+- [ ] Description is to be inserted within after the <> arrows for each section of the Feature template
+- [ ] To add another requirement, copy and paste the helper (Including the \<details>\</details> tags) and paste below the relevant section.
 
-**Sidebar Clicks** 
+3. **Kanban**  
+- [ ] For a **Feature** to progress across the Kanban columns the entire list of requirements within the **Master Card** needs to be checked first
+- [ ] If a **Feature** requirement has tasks associated with it cross reference the issue # at the appropriate step.
+
+
+**Guidance for 6 Sidebar Clicks - Delete this text after completing the 9 clicks** 
 
 i. **Pipeline** - Open Features (Will stay here until card is closed)   
 ii. **Label**- assign workgroup (lead) responsible for tracking the task  
 iii. **Projects** - Feature Tracker (work_breakdown)  
 iv. **Milestones** - select monthly sprint milestone within the workgroup   
-v. **Estimate** - Estimate feature in complexity points   
-vi. **Epics** - assign to team-wide epic and TeamPSD master plan project  
-vii. **Releases** - assign to key team release grouped with other relevant issues  
+v. **Epics** - assign to team-wide epic and TeamPSD master plan project  
+vi. **Releases** - assign to key team release grouped with other relevant issues  
 
-*delete the above after completing*
 
 **1. Feature Description: What is the goal of this feature and why are we working on it?** 
 ------------
@@ -40,17 +48,16 @@ Example:
  </br>
 2. Verification Method (How)
 
-- [ ] <strong>Documentation of requirements</strong> - Review of definition of the requirements.  
+- [ ] **Documentation of requirements** - Review of definition of the requirements.  
 
-- [ ] <strong>Analysis</strong> - Code, data, model reviewed. 
+- [ ] **Analysis** - Code, data, model reviewed. 
 
-- [ ] <strong>Test</strong> - Procedures must be well documented.  
+- [ ] **Test** - Procedures must be well documented.  
 
-- [ ] <strong>Inspect</strong> - Purpose, methods and procedures must be well documented so result can be duplicated using the same inspection procedures. May include inspection of design or an algorthm (aka process map of process).
+- [ ] **Inspect** - Purpose, methods and procedures must be well documented so result can be duplicated using the same inspection procedures. May include inspection of design or an algorthm (aka process map of process).
 
-- [ ] <strong>Demonstrate</strong> - A comprehensive demonstration and/or application of the functions and features of the system or its components.  
-
-- [ ] <strong>Infer</strong> - from “Why”/purpose of requirement definition.  
+- [ ] **Demonstrate** - A comprehensive demonstration and/or application of the functions and features of the system or its components.  
+- [ ] **Infer** - from “Why”/purpose of requirement definition.  
 </br></br>
 3. Reviewer (Who)
 
