@@ -33,8 +33,10 @@ v. **Epics** - assign to team-wide epic and TeamPSD master plan project
 vi. **Releases** - assign to key team release grouped with other relevant issues  
 
 
-**1. Feature Description: What is the goal of this feature and why are we working on it?** 
+**1. Feature Description** 
 ------------
+- [ ] Insert brief description answering the following question:  **What is the goal of this feature and why are we working on it?** 
+
 Example:
 
 **Want to create a Community of Practice for the users of the SIM UI to access in order to have a forum for discussion and to ask/answer questions** 
@@ -81,51 +83,50 @@ Required or Optional?
 -------------
 
 
-
 - [ ] Requirement 1 Met
 <details >
 <summary>Requirement 1 -Rename to "What" of this requirement</summary>
 <div>
  
-  1. Requirement Definition (What & Why) - Must be complete before moving to Operations/Research_To_do     
+  1. **Requirement Definition (What & Why)** - Must be complete before moving to Operations/Research_To_do     
   Example:  
-  - [X] **Community Button links out of Sim UI to the GitHub Community of Practice.**  
-  2. Verification Method (How)   
+  - [X] Community Button links out of Sim UI to the GitHub Community of Practice. 
+  2. **Verification Method (How)**   
   Example:  
   - [X] Documentation of requirements - Reviewed definition of the requirements at **sim_UI_workgroup** on 4/07/2020.  
-  3. Reviewer (Who & When)  
+  3. **Reviewer (Who & When)**  
   Example:  
   - [x] Verified design with Lindsey & Stacey at **sim_UI_workgroup** on 04/07/2020.
 
 
   ---
-  1. Design Definition (What & Why)  - Must be complete before card moves to under_development
+  1. **Design Definition (What & Why)**  - Must be complete before card moves to under_development
    Example:  
-  - [X] **Create Community Button that links out of Sim UI to the GitHub Community of Practice through a new "I have a question" ["Community   Button" > "I have a question" Button > GitHub "Community of Practice"].**
-  2. Verification Method (How)  
+  - [X] Create Community Button that links out of Sim UI to the GitHub Community of Practice through a new "I have a question" ["Community   Button" > "I have a question" Button > GitHub "Community of Practice"].
+  2. **Verification Method** (How)  
    Example:  
   - [ ] Design document of the 3 buttons within the Button - Review this design at **sim_UI_workgroup** on 4/14/2020.
-  3. Reviewer (Who & When)  
+  3. **Reviewer** (Who & When)  
    Example:    
   - [ ] Verified design prototype with Lindsey & Stacey at **sim_UI_workgroup** on 04/14/2020.
   
 
   ---
-  1. Build/Test (What & Why)  
+  1. **Build/Test** (What & Why)  
   Example:  
-  - [X] **Implement the new buttons on the SIM UI** 
-  2. Verification Method (How)  - Once build is complete card can move to functional_testing or measurement
+  - [X] Implement the new buttons on the SIM UI
+  2. **Verification Method** (How)  - Once build is complete card can move to functional_testing or measurement
   Example:  
   - [X] Analysis - Code tested by Anthony on 04/18/2020.  
   - [ ] Demonstration of the new design/functionality on the platform - Review this demo at **sim_UI_workgroup** on 4/21/2020.  
-  3. Reviewer (Who & When)    
+  3. **Reviewer** (Who & When)    
    Example:  
   - [X] Anthony ran test scripts outlined in Design Document on 04/18/2020.
   - [ ] Verified demo with Lindsey & Stacey at **sim_UI_workgroup** on 04/21/2020.
  </div>
 </details>
 
-Note: To add another requirement copy and paste the helper above (Including the \<details>\</details> tags) and paste below.
+*Note: To add another requirement copy and paste the helper above (Including the \<details>\</details> tags) and paste below.*
 
 
 **3. Review**: 
