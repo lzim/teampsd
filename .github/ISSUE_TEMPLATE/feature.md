@@ -6,6 +6,7 @@ label: ''
 assignee: ''
 
 ---
+Notes:
 
 1. **Markdown** language to be used, include:
 - [ ] **BOLD**
@@ -22,7 +23,7 @@ assignee: ''
 - [ ] If a **Feature** requirement has tasks associated with it cross reference the issue # at the appropriate step.
 
 
-**Guidance for 6 Sidebar Clicks - Delete this text after completing the 9 clicks** 
+**Guidance for 6 Sidebar Clicks - Delete this text after completing the 6 clicks** 
 
 i. **Pipeline** - Open Features (Will stay here until card is closed)   
 ii. **Label**- assign workgroup (lead) responsible for tracking the task  
@@ -44,20 +45,28 @@ Example:
  
  1. Requirement Definition (What & Why)
  </br>
+ 
  - [ ] -Insert Requirement-
+ 
  </br>
 2. Verification Method (How)
 
+#### Applicable for Requirements Phase:
+
 - [ ] **Documentation of requirements** - Review of definition of the requirements.  
 
+#### Applicable for Design Phase
+
+- [ ] **Analysis** - Code, data, model reviewed. 
+- [ ] **Infer** - from “Why”/purpose of requirement definition.   
+- [ ] **Inspect** - Purpose, methods and procedures must be well documented so result can be duplicated using the same inspection procedures. May include inspection of design or an algorthm (aka process map of process).  
+
+#### Applicable for Build/Test Phase
+
+- [ ] **Demonstrate** - A comprehensive demonstration and/or application of the functions and features of the system or its components. 
+- [ ] **Test** - Procedures must be well documented. 
 - [ ] **Analysis** - Code, data, model reviewed. 
 
-- [ ] **Test** - Procedures must be well documented.  
-
-- [ ] **Inspect** - Purpose, methods and procedures must be well documented so result can be duplicated using the same inspection procedures. May include inspection of design or an algorthm (aka process map of process).
-
-- [ ] **Demonstrate** - A comprehensive demonstration and/or application of the functions and features of the system or its components.  
-- [ ] **Infer** - from “Why”/purpose of requirement definition.  
 </br></br>
 3. Reviewer (Who)
 
