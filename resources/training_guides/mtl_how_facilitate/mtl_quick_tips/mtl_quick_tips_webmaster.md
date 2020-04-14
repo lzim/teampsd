@@ -14,15 +14,15 @@ output:
 
 # Quick Tips Webmaster
 ## External links needed: 
-1.  LOGIN:  https://forio.com/app/va/va-psd-test/login.html  Be sure to use a facilitator login to get to the Quick Tips Administration Page.
-2.  EPICENTER: https://forio.com/epicenter/va/va-psd-test/static/files/DynamicData/Admin/QuickTip
+
+LOGIN:  https://forio.com/app/va/va-psd-test/login.html  Be sure to use a facilitator login to get to the Quick Tips Administration Page.
+
+
 ## Training/Testing Objectives:
 Upon completion of the outline below, the learner will have successfully:
 1.  Navigated to the Quick Tips Administration web page using a facilitator login.
 2.  Added a Quick Tip narrative to the text box.
-3.  Added a Quick Tip Icon Title.
-4.  Added a Quick Tip Icon Filename.
-5.  Uploaded a Quick Tip icon to the proper place on Forio Epicenter (see EPICENTER link above).
+3.  Added a Quick Tip Icon Filename.
 
 ## Point of Contact: James Rollins
 
@@ -45,10 +45,10 @@ Upon completion of the outline below, the learner will have successfully:
    
  3.  **Add a new Tip**
    - Click the blue "Add Tip" button.
-   - A new line and sequence number will be displayed at the bottom of the list. Note that the Icon Title, Icon Filename and Text Description have red italisized _"Empty"_ words.
-   - Click on a red _"Empty"_ to edit the field.  **Be sure to click on the checkbox before clicking away, or your changes will be lost!**
-   - The icon title 
+   - A new line and sequence number will be displayed at the bottom of the list. Note that the Icon Filename and Text Description have red italisized _"Empty"_ words.
+   - Click on the red _"Empty"_ in the Text Description column to edit the field. Add in your desired text message. **Be sure to click on the checkbox before clicking away, or your changes will be lost!**
+   - Click on the red _"Empty"_ in the Icon Filename.  Enter the name of the icon filename (must be from the list of filenames below).  Additional icons can be requested from the author of this document.  **Be sure to click on the checkbox before clicking away, or your changes will be lost!**
+
+   qt_3
 
 
-## Quick Checklist:
-#### Common Mistakes:
