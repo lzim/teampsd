@@ -9,18 +9,18 @@ assignee: ''
 Notes:
 
 1. **Markdown** language to be used, include:
-- [ ] **BOLD**
-- [ ] _Italic_
-- [ ] Use **Numbering**  or **Bullets** 
+- **BOLD**
+- _Italic_
+- Use **Numbering**  or **Bullets** 
 
 2.  **HTML** 
-- [ ] Text contained within the <> tags remains unchanged - this is a fixed section header.
-- [ ] Description is to be inserted within after the <> arrows for each section of the Feature template
-- [ ] To add another requirement, copy and paste the helper (Including the \<details>\</details> tags) and paste below the relevant section.
+- Text contained within the <> tags remains unchanged - this is a fixed section header.
+Description is to be inserted within after the <> arrows for each section of the Feature template
+- To add another requirement, copy and paste the helper (Including the \<details>\</details> tags) and paste below the relevant section.
 
 3. **Kanban**  
-- [ ] For a **Feature** to progress across the Kanban columns the entire list of requirements within the **Master Card** needs to be checked first
-- [ ] If a **Feature** requirement has tasks associated with it cross reference the issue # at the appropriate step.
+- For a **Feature** to progress across the Kanban columns the entire list of requirements within the **Master Card** needs to be checked first
+- If a **Feature** requirement has tasks associated with it cross reference the issue # at the appropriate step.
 
 
 **Guidance for 6 Sidebar Clicks - Delete this text after completing the 6 clicks** 
@@ -43,15 +43,15 @@ Example:
  
 
 <details>
-<summary> Requirement Helper </summary>
+<summary> Requirement Helper - Use as a template for defining your requirements</summary>
  
  1. Requirement Definition (What & Why)
- </br>
+
  
  - [ ] -Insert Requirement-
  
- </br>
-2. Verification Method (How)
+
+2. Verification Method (How) (Select one of the below methods to verify that you've met the requirement above)
 
 #### Applicable for Requirements Phase:
 
@@ -69,14 +69,11 @@ Example:
 - [ ] **Test** - Procedures must be well documented. 
 - [ ] **Analysis** - Code, data, model reviewed. 
 
-</br></br>
+
 3. Reviewer (Who)
 
-Within Workgroup Member  
+- [ ] Who will review and sign on this requirement being met
 
-Verify across workgroups  
-
-Required or Optional?  
 </details>
 
 **2. Requirements, Design, and Test Cases: Outline of the necessary requirements, design, and test steps**  
@@ -86,7 +83,6 @@ Required or Optional?
 - [ ] Requirement 1 Met
 <details >
 <summary>Requirement 1 -Rename to "What" of this requirement</summary>
-<div>
  
   1. **Requirement Definition (What & Why)** - Must be complete before moving to Operations/Research_To_do     
   Example:  
@@ -123,7 +119,7 @@ Required or Optional?
    Example:  
   - [X] Anthony ran test scripts outlined in Design Document on 04/18/2020.
   - [ ] Verified demo with Lindsey & Stacey at **sim_UI_workgroup** on 04/21/2020.
- </div>
+
 </details>
 
 *Note: To add another requirement copy and paste the helper above (Including the \<details>\</details> tags) and paste below.*
