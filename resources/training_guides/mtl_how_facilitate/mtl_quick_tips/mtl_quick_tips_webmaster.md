@@ -33,6 +33,7 @@ Upon completion of the outline below, the learner will have successfully:
   - Once logged in, you will be presented with the screen shown below.
   - Click on the "Tips" eyeglasses icon to navigate to the Quick Tip Loading Screen Administration page.
   
+  ![](https://github.com/lzim/teampsd/blob/quick_tips_webmaster/resources/training_guides/mtl_how_facilitate/mtl_quick_tips/qt_1.png)
   qt_1
   
  2. **Familiarize yourself with the page contents.**
@@ -40,6 +41,7 @@ Upon completion of the outline below, the learner will have successfully:
    - Click the checkbox to select a single Quick Tip. Then click the red "Delete" button to delete the Quick Tip.
    - Click on sequence to edit the sequence number.  Note that the sequence can be reorganized at any time. The Sim UI will use the Quick Tips in the order indicated and recycle to the lowest number, once the highest number has been displayed.
    
+   ![](https://github.com/lzim/teampsd/blob/quick_tips_webmaster/resources/training_guides/mtl_how_facilitate/mtl_quick_tips/qt_2.png)
    qt_2
    
    
@@ -49,6 +51,10 @@ Upon completion of the outline below, the learner will have successfully:
    - Click on the red _"Empty"_ in the Text Description column to edit the field. Add in your desired text message. **Be sure to click on the checkbox before clicking away, or your changes will be lost!**
    - Click on the red _"Empty"_ in the Icon Filename.  Enter the name of the icon filename (must be from the list of filenames below).  Additional icons can be requested from the author of this document.  **Be sure to click on the checkbox before clicking away, or your changes will be lost!**
 
+![](https://github.com/lzim/teampsd/blob/quick_tips_webmaster/resources/training_guides/mtl_how_facilitate/mtl_quick_tips/qt_3.png)
    qt_3
 
-
+![](https://github.com/lzim/teampsd/blob/quick_tips_webmaster/resources/training_guides/mtl_how_facilitate/mtl_quick_tips/qt_4.png)
+   qt_4
+   
+   
