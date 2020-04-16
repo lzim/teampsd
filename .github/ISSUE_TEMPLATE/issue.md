@@ -1,7 +1,7 @@
 ---
 name: Issue
 about: Create a new issue.
-title: 'Deadline + Product: Short description (ex. 8/12 AGG: Missing feedback loop)'
+title: 'Due + "Bug" or "Task": Short description (ex. 8/12 Bug AGG: Missing feedback loop)'
 label: ''
 assignee: ''
 
