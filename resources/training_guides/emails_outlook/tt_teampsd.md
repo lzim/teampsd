@@ -18,7 +18,7 @@
      - Click on Reports > Control Charts.
      - At the top, select "Custom Range" for dates and set the dates to align with the current epic by using the "Start" and "End" dates found on the **Roadmap**.
      - For the "Start Pipeline," select "Priority Epic" and for the "Completed Pipeline," select "Closed."
-     - Make sure all four repos are selected (Repos 4/4) for the data.
+     - Make sure all repos are selected (Repos 2/2) for the data.
      - Screenshot only the stats numbers and not the control chart itself.
    - For the Burndown Report
      - Go to mtl.how/zenhub
