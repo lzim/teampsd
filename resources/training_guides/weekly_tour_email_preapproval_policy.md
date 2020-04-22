@@ -1,5 +1,6 @@
 ## Team PSD Weekly Tour & Email Pre-approval Policy for Adjusting Tour 
 
+## SECTION A Team PSD weekly schedule
 ### Team PSD Tour Work Schedule/Tour of Duty*
 - [ ] The weekly tour is from **7:30am to 4pm Pacific Monday through Friday**.
 - [ ] All Team PSD core members are expected to be at their desks or workstations at the start of their scheduled tour of duty. This includes employees who are telecommuting.
@@ -51,6 +52,9 @@
 - [ ] If you require a leave of absence notify Dr. Zimmerman as soon as possible..
 - [ ] No leave of absence can be taken until approval is granted in writing.
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code and discussed with HR.
+
+
+## SECTION B Team PSD weekly schedule Preapproval Policy
 
 ## More Detailed Information
 - [ ] * More detailed information can be located in shared drive in file named **teampsd_weekly_schedule_2020_04_22.docx**
