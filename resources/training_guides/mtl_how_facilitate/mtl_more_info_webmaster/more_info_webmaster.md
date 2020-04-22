@@ -56,7 +56,8 @@ Upon completion of the outline below, the learner will have successfully:
     b. MTL More Information Module Section Maintenance
       - Click the blue "Add Section" button to add another Module section.
       - Click the checkbox to select a single module. Then click the red "Delete" button to delete the module.
-      - Click on sequence to edit the sequence number.  Note that the sequence can be reorganized at any time. 
+      - Click on sequence to edit the sequence number.  Note that the sequence can be reorganized at any time.
+      - When adding bulleted lists to the Complexity Reveals or Experiments fields, be sure to put a dash in front of the sentence, follwed by hard return for each line. The code will recognize the hard return as a new line and format it accordingly
  
   ![](https://github.com/lzim/teampsd/blob/quick_tips_webmaster/resources/training_guides/mtl_how_facilitate/mtl_more_info_webmaster/moi3.png)
    MOI_3
