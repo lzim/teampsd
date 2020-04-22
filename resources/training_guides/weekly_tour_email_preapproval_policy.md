@@ -29,6 +29,12 @@
 - [ ] Requests for vacation time will need to be made formally via email to Dr. Lindsey Zimmerman (i.e. a text message is not sufficient).
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code.
 
+### Process for Sick Leave** 
+- [ ] If sick and unable to work notify Dr. Zimmerman as soon as possible.
+- [ ] Send an email with the date(s) you are sick and when you anticipate returning to work (i.e. a text message is not sufficient).
+- [ ] Submit request for sick leave through ADP. 
+- [ ] Your time sheet will be updated to reflect your sick leave.
+
 ### Process to Request Jury Duty Leave** 
 - [ ] If you are required to attend Jury Duty a minimum of 1 week written approval in advance is needed.
 - [ ] No Jury Duty can be attended  until approval is granted in writing.
@@ -40,13 +46,6 @@
 (i.e. a text message is not sufficient) and when you anticipate returning to work.
 - [ ] No bereavement leave can be taken until approval is granted in writing.
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code.
-
-### Process for Sick Leave** 
-- [ ] If sick and unable to work notify Dr. Zimmerman as soon as possible.
-- [ ] Send an email with the date(s) you are sick and when you anticipate returning to work (i.e. a text message is not sufficient).
-- [ ] Submit request for sick leave through ADP. 
-- [ ] Your time sheet will be updated to reflect your sick leave.
-
 
 ### Process to Request Leave of Absence** 
 - [ ] If you require a leave of absence notify Dr. Zimmerman as soon as possible..
