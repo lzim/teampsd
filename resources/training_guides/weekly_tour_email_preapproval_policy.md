@@ -1,4 +1,9 @@
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/team_psd_logo_sm.png"
+     height = "175" width = "420">](#DontLink)
+
+
 # Team PSD Weekly Tour & Email Pre-approval Policy for Adjusting Tour 
+
 
 
 ## Team PSD Tour Work Schedule/Tour of Duty*
