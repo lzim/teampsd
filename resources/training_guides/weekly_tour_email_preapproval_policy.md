@@ -10,14 +10,9 @@
 - [ ] Details of individual Team PSD schedules can be found in shared TeamPSD drive in file named **teampsd_weekly_schedule_2020_04_22.docx**
 
 ### Process to Change Regular Tour*** 
-- [ ] Any scheduled changes to the regular Team PSD tour require a minimum of 24 hours written approval in advance**.
+- [ ] Any scheduled changes to the regular Team PSD tour require written approval in advance. Applies to all types of leave - Vacation, Sick, Jury Duty, Bereavement and Leave of Absence.
 - [ ] No scheduled changes to the tour can be made until approval is granted in writing.
 - [ ] Requests for changes to a regular tour will need to be made formally via email to Dr. Lindsey Zimmerman (i.e. a text message is not sufficient).
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code.
-- [ ] For PAVIR employees detailed information can be located in [Eemployee Handbook[(https://github.com/lzim/teampsd/blob/rita_2020_04_22_weekly_tour_request_change/resources/training_guides/EE%202017%20Handbook%20.pdf)
-
-## More Detailed Information
-- [ ] * More detailed information can be located in shared drive in file named **teampsd_weekly_schedule_2020_04_22.docx**
-- [ ] ** Applies to all types of leave - Vacation, Sick, Jury Duty, Bereavement and Leave of Absence
-
+- [ ] For PAVIR employees detailed information on leave policy can be located in [Eemployee Handbook[(https://github.com/lzim/teampsd/blob/rita_2020_04_22_weekly_tour_request_change/resources/training_guides/EE%202017%20Handbook%20.pdf)
 
