@@ -14,5 +14,5 @@
 - [ ] No scheduled changes to the tour can be made until approval is granted in writing.
 - [ ] Requests for changes to a regular tour will need to be made formally via email to Dr. Lindsey Zimmerman (i.e. a text message is not sufficient).
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code.
-- [ ] For PAVIR employees detailed information on leave policy can be located in [Eemployee Handbook](https://github.com/lzim/teampsd/blob/rita_2020_04_22_weekly_tour_request_change/resources/training_guides/EE%202017%20Handbook%20.pdf)
+- [ ] For PAVIR employees detailed information on leave policy can be located in [Employee Handbook](https://github.com/lzim/teampsd/blob/rita_2020_04_22_weekly_tour_request_change/resources/training_guides/EE%202017%20Handbook%20.pdf)
 
