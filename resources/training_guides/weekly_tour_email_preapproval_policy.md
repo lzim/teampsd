@@ -17,7 +17,7 @@
 - [ ] Weekly **HQ Workgroup Meeting** at **12:30pm Pacific on Thursday**
 - [ ] Team PSD members must attend their appropriate weekly workgroup meetings (e.g. Workgroup Leads Meeting, Quant Workgroup Meeting, MTL Facilitate Workgroup)
 
-### Team PSD Process to Change Regular Tour
+### Process to Change Regular Tour
 - [ ] Any scheduled changes to the regular Team PSD tour require a minimum of 24 hours written approval in advance.
 - [ ] No scheduled changes to the tour can be made until approval is granted in writing.
 - [ ] Requests for changes to a regular tour will need to be made formally via email to Dr. Lindsey Zimmerman (i.e. a text message is not sufficient).
