@@ -1,4 +1,4 @@
-## Team PSD Weekly Tour & Email Pre-approval Policy for Adjusting Tour 
+# Team PSD Weekly Tour & Email Pre-approval Policy for Adjusting Tour 
 
 
 ## Team PSD Tour Work Schedule/Tour of Duty*
@@ -6,9 +6,7 @@
 - [ ] All Team PSD core members are expected to be at their desks or workstations at the start of their scheduled tour of duty. This includes employees who are telecommuting.
 - [ ] A scheduled lunch-break between **12pm and 12:30pm** daily.
 - [ ] In addition, Team PSD has 2 daily wellness breaks at **9am** and **2pm** Pacific.
-
-### Team PSD Standing Meetings  
-- [ ] Details of the standing meetings can be found [here](https://github.com/lzim/teampsd/blob/rita_2020_04_22_weekly_tour_request_change/resources/training_guides/teampsd_weekly_schedule.pdf)
+- [ ] Additional tour details including Team PSD and National Center for PTSD standing meetings can be found [here](https://github.com/lzim/teampsd/blob/rita_2020_04_22_weekly_tour_request_change/resources/training_guides/teampsd_weekly_schedule.pdf)
 - [ ] Details of individual Team PSD schedules can be found in shared TeamPSD drive in file named **teampsd_weekly_schedule_2020_04_22.docx**
 
 ### Process to Change Regular Tour*** 
