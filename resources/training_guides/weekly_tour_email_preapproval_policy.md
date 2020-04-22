@@ -1,7 +1,8 @@
 ## Team PSD Weekly Tour & Email Pre-approval Policy for Adjusting Tour 
 
-### Team PSD Weekly Tour*
+### Team PSD Tour Work Schedule/Tour of Duty*
 - [ ] The weekly tour is from **7:30am to 4pm Pacific Monday through Friday**.
+- [ ] All Team PSD core members are expected to be at their desks or workstations at the start of their scheduled tour of duty. This includes employees who are telecommuting.
 - [ ] A scheduled lunch-break between **12pm and 12:30pm** daily.
 - [ ] In addition, Team PSD has 2 daily wellness breaks at **9am** and **2pm** Pacific.
 
@@ -22,32 +23,35 @@
 - [ ] Requests for changes to a regular tour will need to be made formally via email to Dr. Lindsey Zimmerman (i.e. a text message is not sufficient).
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code.
 
-### Team PSD Process to Request Vacation Leave** 
+### Process to Request Vacation Leave** 
 - [ ] Any requests for vacation leave require a minimum of 72 hours written approval in advance.
 - [ ] No vacation can be taken until approval is granted in writing.
 - [ ] Requests for vacation time will need to be made formally via email to Dr. Lindsey Zimmerman (i.e. a text message is not sufficient).
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code.
 
-### Team PSD Process to Request Jury Duty Leave** 
+### Process to Request Jury Duty Leave** 
 - [ ] If you are required to attend Jury Duty a minimum of 1 week written approval in advance is needed.
 - [ ] No Jury Duty can be attended  until approval is granted in writing.
 - [ ] Requests for Jury Duty will need to be made formally via email to Dr. Lindsey Zimmerman (i.e. a text message is not sufficient).
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code.
 
-
-### Team PSD Process to Request Bereavement Leave** 
+### Process to Request Bereavement Leave** 
 - [ ] If you have a bereavement and unable to work notify Dr. Zimmerman as soon as possible.
 (i.e. a text message is not sufficient) and when you anticipate returning to work.
 - [ ] No bereavement leave can be taken until approval is granted in writing.
 - [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code.
 
-
-### Team PSD Process for Sick Leave** 
+### Process for Sick Leave** 
 - [ ] If sick and unable to work notify Dr. Zimmerman as soon as possible.
-- [ ] Send an email with the date(s) you are sick and when you anticipate returning to work (i.e. a text message is not sufficient) 
-- [ ] Submit request for sick leave through ADP 
+- [ ] Send an email with the date(s) you are sick and when you anticipate returning to work (i.e. a text message is not sufficient).
+- [ ] Submit request for sick leave through ADP. 
 - [ ] Your time sheet will be updated to reflect your sick leave.
 
+
+### Process to Request Leave of Absence** 
+- [ ] If you require a leave of absence notify Dr. Zimmerman as soon as possible..
+- [ ] No leave of absence can be taken until approval is granted in writing.
+- [ ] If approval is granted, changes need to be reflected in ADP with the appropriate code and discussed with HR.
 
 ## More Detailed Information
 - [ ] * More detailed information can be located in shared drive in file named **teampsd_weekly_schedule_2020_04_22.docx**
