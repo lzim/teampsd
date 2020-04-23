@@ -1,7 +1,7 @@
 ---
 title: "Splash Page"
 author: "Team PSD"
-date: "Edited by AP 03_10_2020"
+date: "Edited by AP 04_23_2020"
 output: 
   github_document: default
   html_document: default
@@ -30,15 +30,17 @@ Familiarize team members with the process of propagating the splash pages and ma
 2. [Sharepoint Updates](#Sharepoint-Updates)
 
 ### Splash Page Update
-This update should be done on a monthly basis in order to populate the splash pages with the most recent data. This process includes four key steps--database table updates, updating the SplashMothership, running the data propagation, and validating the results.
+This update should be done on a monthly basis in order to populate the splash pages with the most recent data. This process involves four steps:
 
-#### 1. Database Table Updates
+For detailed instructions on this update process please follow the steps outlined in the quant_workgroup/splash_pages folder
 
-#### 2. Updating the SplashMothership
+ - [ ] Database Table Updates
+  
+ - [ ] Updating the SplashMothership
 
-#### 3. Run the Data Propagation
+ - [ ] Run the Data Propagation
 
-#### 4. Validate Results
+ - [ ] Validate Results
 
 
 ### Sharepoint Updates
