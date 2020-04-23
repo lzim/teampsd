@@ -24,7 +24,7 @@ Familiarize team members with the process of propagating the splash pages and ma
 ## Point of Contact: Anthony Pichardo
 
 ## Full Instructions
-(Include detailed explanations of each step with the context and the rationale for each step as well as screenshots or gifs. For instructions on adding screenshots or gifs, click here)
+
 ### Sections:
 1. [Splash Page Update](#Splash-Page-Update)
 2. [Sharepoint Updates](#Sharepoint-Updates)
