@@ -23,15 +23,16 @@ output:
 2. The style and content within TeamPSD documents accomodates for human and computer readable format to name files, meaning all lowercase, underscores, and dates (as necesary) with a name that will be meaningful to whoever reads it. 
 3. Other style guidelines on TeamPSD materials 
 
-### **Checklist Editing Exisitng Team PSD Files for Consistent Header Style**  
-1. Open up the specific file you want to edit.  
-2. Create a new working branch and name it using all lowercase, no spaces (use underscores), and your initials - 
+### **Creating and Editing Pull Requests**
+1. Open up the specific **document file** you want to edit.  
+2. Create a **new working branch** and name it using all lowercase, no spaces (use underscores) and your initials.
+3. Follow the **checklist** below to edit the **level 1-5 headers** in the document.
+3. Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
+4. Cross reference the **pull request** with the **task issue card** that refers to the TeamPSD documentation being edited.
+5. Cross reference the **task issue card** with the **pull request**.
+6. Use 
 
-i.e. "facilitation_guide_sp".    
-![](https://raw.githubusercontent.com/lzim/teampsd/videos/github_workflow_1.gif)  
-
-2. Make sure you're in the branch you just created instead of the original branch.  Click the pencil icon to edit.  Edit the file and add comments on changes you made.  Click on "Commit".  
-![](https://raw.githubusercontent.com/lzim/teampsd/videos/github_workflow_2.gif)  
+### **Checklist Editing Existing Team PSD Files for Consistent Header Style**  
 
 ### **Creating and Editing Pull Requests**
 1. Go to "Pull Requests" and click on "New Pull Request". The "Base" branch should be the original branch (most likely "master").  The "Compare" branch will be the branch you created. Click on "Create a New Pull Request".  Add "Reviewers" and click on "TeamPSD" for the "Project section. Click on "Create Pull Request".   
