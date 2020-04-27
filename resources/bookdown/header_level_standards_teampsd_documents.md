@@ -38,11 +38,11 @@ output:
 
 ![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
 
-Size of headers options | Description | Rmarkdown Code | When to use
--- | -- | -- | --
-1 | Largest | # |  
-2 | Medium | ## |  
-3 | Small | ### |  
-4 | Smaller | #### |  
-5 | Smalest | ##### |  
+Size of headers options | Description | Rmarkdown Code | When to use | Location | Number of instances
+-- | -- | -- | -- | -- | --
+1 | Largest | # | Title of document | Top of document | 1 max
+2 | Medium | ## | Section headings | Throughout the document | As needed for Section headings
+3 | Small | ### | Subheadings of Sections | Throughout the document | As needed for Subsection headings
+4 | Smaller | #### | Subheadings of Subsections | Throughout the document | As needed for Subheading of Subsectionssection headings
+5 | Smalest | ##### |   |   |  
 
