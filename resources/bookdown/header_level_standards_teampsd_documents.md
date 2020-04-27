@@ -44,5 +44,5 @@ Size of headers options | Description | Rmarkdown Code | When to use | Location 
 2 | Medium | ## | Section headings | Throughout the document | As needed for Section headings
 3 | Small | ### | Subheadings of Sections | Throughout the document | As needed for Subsection headings
 4 | Smaller | #### | Subheadings of Subsections | Throughout the document | As needed for Subheading of Subsectionssection headings
-5 | Smalest | ##### |   |   |  
+5 | Smallest | ##### |   |   |  
 
