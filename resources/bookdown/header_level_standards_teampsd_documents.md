@@ -35,3 +35,10 @@ output:
 6. Use the **style guide** below to edit TeamPSD documents. 
 
 ### **Checklist Editing Existing Team PSD Files for Consistent Header Style**  
+- [ ] Size of headers options
+1. # Largest
+2. ## Medium
+3. ### Small
+4. #### Smaller
+5. ##### Smalest
+- [ ] When to use each size of headers
