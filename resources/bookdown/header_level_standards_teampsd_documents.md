@@ -1,7 +1,7 @@
 ---
 title: "TeamPSD GitHub Guide for Level 1-5 headers"
 author: "Team PSD"
-date: "RH April 27 2020|"
+date: "RH April 27 2020"
 output: 
   github_document: default
   html_document: default
@@ -16,7 +16,9 @@ output:
 
 
 # TeamPSD GitHub Guide for Level 1-5 headers 
-
+1. Checklist for how to review existing resources to conform to a consistent TeamPSD style and standard use of Markdown for the manual
+2. Define Level 1-5 headers in a standard way
+3. YAML will be removed when knitted and Level 1 Header needs to be the first item in each of the documents
 
 ### **Style**
 1. We use R Markdown format for syntax and style for all TeamPSD documents - [guide available](https://rmarkdown.rstudio.com/).  
@@ -30,20 +32,6 @@ output:
 3. Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
 4. Cross reference the **pull request** with the **task issue card** that refers to the TeamPSD documentation being edited.
 5. Cross reference the **task issue card** with the **pull request**.
-6. Use 
+6. Use the **style guide** below to edit TeamPSD documents. 
 
 ### **Checklist Editing Existing Team PSD Files for Consistent Header Style**  
-
-### **Creating and Editing Pull Requests**
-1. Go to "Pull Requests" and click on "New Pull Request". The "Base" branch should be the original branch (most likely "master").  The "Compare" branch will be the branch you created. Click on "Create a New Pull Request".  Add "Reviewers" and click on "TeamPSD" for the "Project section. Click on "Create Pull Request".   
-![](https://raw.githubusercontent.com/lzim/teampsd/videos/github_workflow_3.gif)  
-
-
- 
- Checklist for how to review existing resources to conform to a consistent TeamPSD style and standard use of Markdown for the manual
- Define how to use a Level 1-5 headers in a standard way
- YAML will be removed when knitted and Level 1 Header needs to be the first item in each of the documents
- NOTE: Consitent w/the #hqhuddle week of 4/20/2020 we'll keep YAML headers in the GitHub original source material, they are removed when knitting using .Rmd 
- Review of the specific documents that are in the manual (between Rita, Jenn, Jane, & Debbie).
- Team PSD members can use an RProject for knitting "teampsd_bookdown.rproj"
- Ultimately, we we also add the bookdown RProject to Team PSD in "teampsd_manual" folder.
