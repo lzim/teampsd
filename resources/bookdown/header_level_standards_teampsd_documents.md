@@ -38,7 +38,7 @@ output:
 
 ![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
 
-Size of headers options | Description | Rmarkdown Code | When to use | Location | Number of instances
+Size of headers options | Description | Markdown Code | When to use | Location | Number of instances
 -- | -- | -- | -- | -- | --
 1 | Largest | # | Title of document | Top of document | 1 max
 2 | Medium | ## | Section headings | Throughout the document | As needed for Section headings
