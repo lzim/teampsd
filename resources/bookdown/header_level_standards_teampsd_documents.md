@@ -21,7 +21,7 @@ output:
 3. YAML will be removed when knitted and Level 1 Header needs to be the first item in each of the documents
 
 ### **Style**
-1. We use R Markdown format for syntax and style for all TeamPSD documents - [guide available](https://rmarkdown.rstudio.com/).  
+1. General Markdown syntax [guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 2. The style and content within TeamPSD documents accomodates for human and computer readable format to name files, meaning all lowercase, underscores, and dates (as necesary) with a name that will be meaningful to whoever reads it. 
 3. Other style guidelines on TeamPSD materials 
 
@@ -36,6 +36,8 @@ output:
 
 ### **Checklist Editing Existing Team PSD Files for Consistent Header Style**  
 
+![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
+
 Size of headers options | Description | Rmarkdown Code | When to use
 -- | -- | -- | --
 1 | Largest | # |  
@@ -43,7 +45,4 @@ Size of headers options | Description | Rmarkdown Code | When to use
 3 | Small | ### |  
 4 | Smaller | #### |  
 5 | Smalest | ##### |  
-
-
-- [ ] When to use each size of headers
 
