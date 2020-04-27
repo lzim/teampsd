@@ -1,11 +1,12 @@
- 
- ---
-title: "TeamPSD GitHub Guide"
-author: "Rita Hitching"
-date: "April 27, 2020"
-output:
+---
+title: "TeamPSD GitHub Guide for Level 1-5 headers"
+author: "Team PSD"
+date: "RH April 27 2020|"
+output: 
   github_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
   ioslides_presentation: default
   slidy_presentation: default
 ---
