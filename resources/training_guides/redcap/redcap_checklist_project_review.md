@@ -29,11 +29,15 @@ Prior to reviewing:
 
 During review:
 
+**General Project Settings**
 - [ ] You will be redirected to the **"Project Setup" tab** for the project you are reviewing. 
 - [ ] Review the project attributes in the **"Main Project Settings" header**.
    - Click on the **grey “modify project title, purpose, etc.” button** to edit the title or purpose of the project if necessary.
      - Look for typos and grammar mistakes.
      - Look for outdated language and update to current MTL language (i.e QI, TAS, etc.).
+     
+**Project Instruments**
+- [ ] Within each project there **may be several instruments** - be sure to **review each individually**.
 - [ ] To review the instruments, click on the **“Online designer” button** under the **"Design your data collection instruments & enable your surveys" header**.
    - All of your instruments will be shown under the "Instrument name" subheader in the **grey "Data Collection Instruments" header**. Click on the instrument name itself to review all the measures/variables within the instrument.
         - Compare the measures/variables that you are reviewing against the appropriate original document.
@@ -44,18 +48,21 @@ During review:
    - Click on the **green icon with forked arrows** located above the title of the measure/variable. 
 - [ ] Be sure to check the **survey queue** within each project.
    - Within the **"Online designer" tab**, click on the “**Survey Queue” button** under the **"Survey Options" subheader** within the main **"Data Collection Instruments" header**.
-- [ ] Within each project there **may be several instruments** - be sure to **review each individually**.
+
+**Project & Instruments as a Survey**
 - [ ] If the project is a survey, be sure to enable the project and instruments as a survey.
    - To enable the project as a survey, start from the **"Project Setup" tab**, and look under the **"Main project settings" header**.
        - Click **Enable** next to the option “Use surveys in this project?” 
-       - To enable instruments as a survey, start from the **"Project Setup" tab** and click on the **“Online designer” button** under the **"Design your data collection instruments & enable your surveys" header**.
+   - To enable instruments as a survey, start from the **"Project Setup" tab** and click on the **“Online designer” button** under the **"Design your data collection instruments & enable your surveys" header**.
            - In the **"Enabled as survey" subheader** within the **"Data Collection Instruments" header**, click on the **grey button with Enable in green text**. 
-           - It will change to a **green shield with a checkmark** to indicate that the instrument has been enabled as a survey
+           - It will change to a **green shield with a checkmark** to indicate that the instrument has been enabled as a survey.
            
-Team PSD Style:
-- [ ]	Make sure Team PSD Style (logos, font, colors) is correctly incorporated based on the project. 
-   - Make sure that your project and instrument(s) are enabled as a surveys.
-   - Back in the **"Online Designer" tab**, under **Data Collection Instruments**, click on the **green shield icon with a check mark** underneath the **"Enabled as survey" subheader** to edit/add logos, font, colors, and etc.
+**Team PSD Style**
+- [ ]	Make sure Team PSD Style (logos, colors, etc.) is correctly incorporated based on the project. 
+   - Make sure that your project and instrument(s) are enabled as surveys.
+   - To edit/add to the style of an instrument, click on the **"Online Designer" button** within the **"Project Setup" tab**, under the main **"Data Collection Instruments" header**, click on the **"Survey settings" button** underneath the **"Survey-related options" subheader**.
+      - Under the **"Survey Design Options" subheader**, you can find the options edit/add logos, colors, and etc.
+- [ ] Within each project there **may be several instruments** - if applicable, be sure to **make edits for each individual instrument**.
 
 **Tips**
 - [ ] Be mindful to **save changes** at each step - REDCap records changes within each section.
