@@ -1,0 +1,6 @@
+book_filename: "Team_PSD_Bookdown"
+language:
+  ui:
+    chapter_name: "Chapter "
+new_session: yes
+rmd_files: ["index.Rmd", "teampsd_guiding_principles.md", "teampsd_emails.md",  "new_file.md", "github_guide.md", "issues_and_trackers_management.md", "pull_requests_with_conflicts.md", "pull_requests_and_branches_management.md", "repositories.md", "meeting_facilitation.md", "guest_login.md", "host_login.md", "osf_project_registration.md", "course_code.md", "admin_web_page_overview.md", "mtl_demo_webmaster.md", "group_management.md", "Team_PSD_Webmaster.md", "training_outline.md", "rqda_gui.md", "markdown.md", "source%20compiling_mac.md", "scheduling_outlook.md", "tt_teampsd.md", "va_redcap.md"]
