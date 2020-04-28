@@ -14,9 +14,7 @@ I have an account:
 I do not have an account:
 - [ ] Use the [REDCap Map](hyperlink this from GH) for additional information and guidance on how to attain an account.
 
-**RedCap Training**
-
-From TeamPSD:
+**Team PSD RedCap Training**
 - [ ] If you are new to REDCap, click here to review a [training guide](https://github.com/lzim/teampsd/blob/master/resources/training_guides/redcap/va_redcap.md) designed for TeamPSD Members.
 
 **REDCap Project Review**
