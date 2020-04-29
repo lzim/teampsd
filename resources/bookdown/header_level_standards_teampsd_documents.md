@@ -49,7 +49,7 @@ H6 | Written text |   | For documentation writing | For all text | For all othe
 - [ ] If the document is **missing a YAML header** be sure to **insert** one at the **top of the document** using the YAML code [here].(https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
  ￼￼![image](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/github_code_yaml_header.png).
 - [ ] If the document is **Has a YAML header** be sure to **update** the **date section** with current date and your initials **RH April 29 2020**.
-- [ ] Ensure the document has a **title** using **header 1** - by adding the **markdown code** before the title **#** use case [example].(https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md).  
+- [ ] Ensure the document has a **title** using **header 1** - by adding the **markdown code** before the title **#** use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md).  
 - [ ] Each **section** within a document needs **section headings** to facilitate reading, for section headings add the **markdown code** before the subheading title **##** and **add additional ##** for increasingly smaller header section.
 - [ ] Once the document has been edited to be **consistent** in **style** follow the steps for a **pull request** to update the document. 
 
