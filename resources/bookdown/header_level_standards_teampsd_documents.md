@@ -25,20 +25,15 @@ output:
 2. The style and content within TeamPSD documents accomodates for human and computer readable format to name files, meaning all lowercase, underscores, and dates (as necesary) with a name that will be meaningful to whoever reads it. 
 3. Other style guidelines on TeamPSD materials 
 
-### **Creating and Editing Pull Requests**
+### **Reviewing & Editing a Document**
 1. Open up the specific **document file** you want to edit.  
 2. Create a **new working branch** and name it using all lowercase, no spaces (use underscores) and your initials.
 3. Follow the **checklist** below to edit the **level 1-5 headers** in the document.
-3. Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
-4. Cross reference the **pull request** with the **task issue card** that refers to the TeamPSD documentation being edited.
-5. Cross reference the **task issue card** with the **pull request**.
-6. Use the **style guide** below to edit TeamPSD documents. 
 
-### **Checklist Editing Existing Team PSD Files for Consistent Header Style**  
+
+### **Visual Guide for Consistent Header Style in Team PSD Documentation**  
 
 ![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
-
-## Team PSD Documentation
 
 Header Size | Description | Markdown Code | When to use | Location | Number of instances
 :-- | :--| :--| :--| :-- | :--
@@ -49,5 +44,11 @@ H4 | Smaller | #### | Subheadings of Subsections | Throughout | As needed for Su
 H5 | Smallest | ##### | For individual Headings | Throughout | As needed for Subsection headings
 H6 | Written text |   | For documentation writing | For all text | For all other text
 
+### **Checklist Editing Existing Team PSD Files for Consistent Header Style**  
 
 
+### **Making a Pull Requests**
+1. Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
+2. Cross reference the **pull request** with the **task issue card** that refers to the TeamPSD documentation being edited.
+3. Cross reference the **task issue card** with the **pull request**.
+4. Use the **style guide** below to edit TeamPSD documents. 
