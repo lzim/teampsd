@@ -69,13 +69,13 @@ output:
   - Filter to your clinic or division to see trends for the last two years.
   
 #### New for _MTL_ 2.0
-- You can now switch between View and filtering options via the dropdown menu in the top-right corner and grey buttons, instead of through the tabs on the Excel spreadsheet. We are no longer directly showing an Excel sheet on the Splashpage.
+- You can now switch between View and filtering options via the dropdown menu in the top-right corner and grey buttons, instead of through the tabs on the Excel spreadsheet. We are no longer directly showing an Excel sheet on the splash page.
 
 - There is no need to use the "Data > Refresh Connections" button anymore and it will not respond as the data pull and refresh workflow has changed. 
 
 - vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD. 
 
-- Patient SSID is no longer asterisked out in the Splashpage. It has been completely removed. Please go to the data UI to see Patient SSID information.
+- Patient SSID is no longer asterisked out in the splash page. It has been completely removed. Please go to the data UI to see Patient SSID information.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
 
