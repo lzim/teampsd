@@ -85,10 +85,10 @@ output:
 
   - Click on the "More Info" icon for more info on the sim UI.
 
-  - Click on the "News" icon for news flashes on discussion items that we would appreciate your input on in the Community of Practice. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
+  - Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
 
   - Click on the "Report Bug" Icon in the top nav bar to report issues.
-    - **Make sure to never include any PII/PHI in your description and screenshot.**
+    - **Never include any PII/PHI in your description and screenshot.**
     - To include screenshots, you can:
       - Copy & paste from Snipping Tool
       - Drag & drop a screenshot file
@@ -107,7 +107,7 @@ output:
       - See if someone already answered your question online in the Community of Practice.
       - Set up a GitHub account to ask your question directly in the Community of Practice.
       - Email your question to mtl.help@va.gov
-    - **Make sure to never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**
+    - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**
     - To include screenshots in the "Community" button, you can:
       - Copy & paste from Snipping Tool
       - Drag & drop a screenshot file
@@ -128,7 +128,7 @@ output:
    
 + Select the team data you just uploaded.  
    
-+ Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)  
++ Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, after you click Play, you need to select your Learning Mode.)  
 
   - Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
   
