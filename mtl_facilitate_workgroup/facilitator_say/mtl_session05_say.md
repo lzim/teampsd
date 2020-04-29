@@ -85,7 +85,7 @@ output:
 
   - Click on the "More Info" icon for more info on the sim UI.
 
-  - Click on the "News" icon for news flashes on discussion items that we would appreciate your input on in the Community of Practice. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
+  - Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
 
   - Click on the "Report Bug" Icon in the top nav bar to report issues.
     - **Make sure to never include any PII/PHI in your description and screenshot.**
@@ -128,7 +128,7 @@ output:
    
 + Select the team data you just uploaded.  
    
-+ Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, you need to select your Learning Mode before you click Play.)  
++ Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, after you click play, you need to select your Learning Mode.)  
 
   - Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
   
