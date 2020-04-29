@@ -1,7 +1,7 @@
 ---
 title: "TeamPSD GitHub Guide for Level 1-5 headers"
 author: "Team PSD"
-date: "RH April 27 2020"
+date: "RH April 29 2020"
 output: 
   github_document: default
   html_document: default
@@ -38,11 +38,16 @@ output:
 
 ![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
 
-Size of headers options | Description | Markdown Code | When to use | Location | Number of instances
--- | -- | -- | -- | -- | --
-1 | Largest | # | Title of document | Top of document | 1 max
-2 | Medium | ## | Section headings | Throughout the document | As needed for Section headings
-3 | Small | ### | Subheadings of Sections | Throughout the document | As needed for Subsection headings
-4 | Smaller | #### | Subheadings of Subsections | Throughout the document | As needed for Subheading of Subsectionssection headings
-5 | Smallest | ##### |   |   |  
+## Team PSD Documentation
+
+Header Size | Description | Markdown Code | When to use | Location | Number of instances
+:-- | :--| :--| :--| :-- | :--
+H1 | Largest | # | Title of document | Top of document | 1 max
+H2 | Medium | ## | Section headings | Throughout | As needed for Section headings
+H3 | Small | ### | Subheadings of Sections | Throughout | As needed for Subsection headings
+H4 | Smaller | #### | Subheadings of Subsections | Throughout | As needed for Subheadings
+H5 | Smallest | ##### | For individual Headings | Throughout | As needed for Subsection headings
+H6 | Written text |   | For documentation writing | For all text | For all other text
+
+
 
