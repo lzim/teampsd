@@ -100,7 +100,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 - The "Help" icon is now called "More Info." Click here for more info on the sim UI.
 
-- Click on the "News" icon for news flashes on discussion items that we would appreciate your input on in the Community of Practice. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
+- Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_news_notification.gif)](#DontLink)
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_andon_alert.png)](#DontLink) 
@@ -108,7 +108,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - Click on the "Report Bug" Icon in the top nav bar to report issues.
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/report_bug.gif)](#DontLink) 
 
-  - **Make sure to never include any PII/PHI in your description and screenshot.**
+  - **Never include any PII/PHI in your description and screenshot.**
   - To include screenshots, you can:
     - Upload your screenshot file
     - Drag & drop a screenshot file
@@ -134,7 +134,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
     
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/community_button.gif)](#DontLink) 
 
-  - **Make sure to never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov.**
+  - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email.**
   - To include screenshots in the "Community" button, you can:
     - Copy & paste from Snipping Tool
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/snip_tool_community.gif)](#DontLink) 
@@ -156,7 +156,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 #### New for _MTL_ 2.0
 
-   + For CC & MM, you need to select your Learning Mode before hitting Play.  
+   + For CC & MM, after clicking Play, you will need to select your Learning Mode.  
    + Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
    + **Note:** Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the *Modeling to Learn* program.
 
