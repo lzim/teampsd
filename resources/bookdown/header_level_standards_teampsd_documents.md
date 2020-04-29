@@ -15,23 +15,23 @@ output:
      height = "200" width = "600">  
 
 
-# TeamPSD GitHub Guide for Level 1-5 headers 
+# TeamPSD GitHub Style Guide for Level 1-5 Headers Across All Team PSD Documentation
 1. Checklist for how to review existing resources to conform to a consistent TeamPSD style and standard use of Markdown for the manual
 2. Define Level 1-5 headers in a standard way
 3. YAML will be removed when knitted and Level 1 Header needs to be the first item in each of the documents
 
-### **Style**
+## Style
 1. General Markdown syntax [guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 2. The style and content within TeamPSD documents accomodates for human and computer readable format to name files, meaning all lowercase, underscores, and dates (as necesary) with a name that will be meaningful to whoever reads it. 
 3. Other style guidelines on TeamPSD materials 
 
-### **Reviewing & Editing a Document**
+## Reviewing & Editing Team PSD Documents
 1. Open up the specific **document file** you want to edit.  
 2. Create a **new working branch** and name it using all lowercase, no spaces (use underscores) and your initials.
 3. Follow the **checklist** below to edit the **level 1-5 headers** in the document.
 
 
-### **Visual Guide for Consistent Header Style in Team PSD Documentation**  
+## Visual Illustration for Consistent Header Style in Team PSD Documentation  
 
 ![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
 
@@ -44,10 +44,10 @@ H4 | Smaller | #### | Subheadings of Subsections | Throughout | As needed for Su
 H5 | Smallest | ##### | For individual Headings | Throughout | As needed for Subsection headings
 H6 | Written text |   | For documentation writing | For all text | For all other text
 
-### **Checklist Editing Existing Team PSD Files for Consistent Header Style**  
+## Checklist Editing Existing Team PSD Files for Consistent Header Style 
 
 
-### **Making a Pull Requests**
+### Making a Pull Requests
 1. Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
 2. Cross reference the **pull request** with the **task issue card** that refers to the TeamPSD documentation being edited.
 3. Cross reference the **task issue card** with the **pull request**.
