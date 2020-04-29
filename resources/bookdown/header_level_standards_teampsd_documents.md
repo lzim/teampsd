@@ -59,9 +59,9 @@ output:
   ioslides_presentation: default
   slidy_presentation: default
 ---
-- [ ] If the document is **HAS a YAML header** be sure to **update** the **date section** with current date and your initials **RH April 29 2020**
-- [ ]
-- [ ]
+- [ ] If the document is **Has a YAML header** be sure to **update** the **date section** with current date and your initials **RH April 29 2020**
+- [ ] Ensure the document has a **title** using **header 1** - by adding the **markdown code** before the title **#** use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md)  
+- [ ] Each **section** within a document needs **section headings** to facilitate reading, for section headings add the **markdown code** before the subheading title **##** use case [example]
 - [ ]
 - [ ]
 
