@@ -31,7 +31,6 @@ output:
 
 
 ## Visual Illustration for Consistent Header Style in TeamPSD Documentation  
-
 Header Size | Description | Markdown Code | When to use | Location | Number of instances
 :-- | :--| :--| :--| :-- | :--
 H1 | Largest | # | Title of document | Top of document | 1 max
@@ -41,13 +40,26 @@ H4 | Smaller | #### | Subheadings of Subsections | Throughout | As needed for Su
 H5 | Smallest | ##### | For individual Headings | Throughout | As needed for Subsection headings
 H6 | Written text |   | For documentation writing | For all text | For all other text
 
-￼￼
-![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
+￼￼![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
+
 
 ## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
-- [ ]
-- [ ]
-- [ ]
+- [ ] Ensure document has a **YAML header**  - [example](https://github.com/lzim/teampsd/blob/master/resources/training_guides/github/github_guide.md)
+- [ ] If the document is **missing a YAML header** be sure to **insert** one at the **top of the document** using the code:
+---
+title: "TeamPSD GitHub Guide"
+author: "YOUR NAME"
+date: "CURRENT DATE"
+output:
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  powerpoint_presentation: default
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+- [ ] If the document is **HAS a YAML header** be sure to **update** the **date section** with current date and your initials **RH April 29 2020**
 - [ ]
 - [ ]
 - [ ]
