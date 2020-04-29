@@ -1,7 +1,7 @@
 ---
 name: Issue
 about: Create a new issue.
-title: 'Deadline + Product: Short description (ex. 8/12 AGG: Missing feedback loop)'
+title: 'Due + "Bug" or "Task": Short description (ex. 8/12 Bug AGG: Missing feedback loop)'
 label: ''
 assignee: ''
 
@@ -19,9 +19,9 @@ iv. **Projects** - assign to domain-specific TeamPSD tracker (issues, features, 
 v. **Milestones** - select monthly sprint milestone within the workgroup   
 vi. **Estimate** - Estimate task in complexity points   
 vii. **Epics** - assign to team-wide epic and TeamPSD master plan project  
-viii. **Releases** - assign to key team release grouped with other relevant issues  
+iix. **Releases** - assign to key team release grouped with other relevant issues  
 
-**3. Once you hit "Submit new issue**, underneath the first comment:   
-viiii. **Add dependency** - assess for and add dependencies *blocking* & *blocked by* this issue
+**3. If you anticipate that your **issue card** or **bug card** will have **dependencies** these can be added once the issue has been submitted.   
+ix. **Add dependencies** - assess for and add dependencies *blocking* & *blocked by* this issue
 
 
