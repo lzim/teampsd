@@ -21,8 +21,8 @@ output:
 3. YAML will be removed when knitted and Level 1 Header needs to be the first item in each of the documents.
 
 ## Style
-1. General Markdown syntax [guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
-2. Other style guidelines on TeamPSD materials 
+1. General Markdown syntax [guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf).
+2. Other style guidelines on TeamPSD materials. 
 
 ## Reviewing & Editing TeamPSD Documents
 - [ ] Open up the specific **document file** you want to edit.  
