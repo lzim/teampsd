@@ -44,8 +44,8 @@ H6 | Written text |   | For documentation writing | For all text | For all othe
 
 
 ## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
-- [ ] Ensure document has a **YAML header**  - [example](https://github.com/lzim/teampsd/blob/master/resources/training_guides/github/github_guide.md)
-- [ ] If the document is **missing a YAML header** be sure to **insert** one at the **top of the document** using the YAML code [here](
+- [ ] Example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
+- [ ] If the document is **missing a YAML header** be sure to **insert** one at the **top of the document** using the YAML code [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
   
 - [ ] If the document is **Has a YAML header** be sure to **update** the **date section** with current date and your initials **RH April 29 2020**
 - [ ] Ensure the document has a **title** using **header 1** - by adding the **markdown code** before the title **#** use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md)  
