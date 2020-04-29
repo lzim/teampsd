@@ -29,20 +29,6 @@ output:
 - [ ] Create a **new working branch** and name it using all lowercase, no spaces (use underscores) and your initials.
 - [ ] Follow the **checklist** below to edit the **level 1-5 headers** in the document.
 
-
-## Visual Illustration for Consistent Header Style in TeamPSD Documentation  
-Header Size | Description | Markdown Code | When to use | Location | Number of instances
-:-- | :--| :--| :--| :-- | :--
-H1 | Largest | # | Title of document | Top of document | 1 max
-H2 | Medium | ## | Section headings | Throughout | As needed for Section headings
-H3 | Small | ### | Subheadings of Sections | Throughout | As needed for Subsection headings
-H4 | Smaller | #### | Subheadings of Subsections | Throughout | As needed for Subheadings
-H5 | Smallest | ##### | For individual Headings | Throughout | As needed for Subsection headings
-H6 | Written text |   | For documentation writing | For all text | For all other text
-
-￼￼![image](https://user-images.githubusercontent.com/54862187/80425076-d13b8700-8897-11ea-9242-ac6575067aea.png)
-
-
 ## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
  ￼￼![image](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_document_style_guide.png)
 - [ ] Example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
