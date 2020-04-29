@@ -56,7 +56,7 @@ Do not place a space before a comma, but always place one after a comma.
 
 tabPrior <- table(df[df$daysFromOpt < 0, "campaignid"])
 total <- sum(x[, 1])
-total <- sum(x[1, ])
+total <- sum(x[1, ])  
 **BAD**:
 
 tabPrior <- table(df[df$daysFromOpt<0, "campaignid"])  # Needs spaces around '<'  
