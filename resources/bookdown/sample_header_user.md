@@ -12,6 +12,8 @@ output:
   slidy_presentation: default
 ---
 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
 
 1. # TeamPSD Style Guide  
 You can go use this header as a document title. Use the markdown language **# Title**
