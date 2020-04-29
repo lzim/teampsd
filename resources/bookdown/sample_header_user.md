@@ -1,4 +1,3 @@
-**Add YAML** or **Update YAML**
 ---
 title: "TeamPSD Style GitHub"
 author: "Rita Hitching"
@@ -12,6 +11,8 @@ output:
   ioslides_presentation: default
   slidy_presentation: default
 ---
+
+
 1. # TeamPSD Style Guide  
 You can go use this header as a document title. Use the markdown language **# Title**
 
