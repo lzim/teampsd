@@ -11,13 +11,27 @@ output:
   slidy_presentation: default
 ---
 
+Section A / Chapter 1	Team PSD Project Management - Workgroups
+Section A / Chapter 2	Team PSD Project Management - Partners
 # Team PSD Project Management
 
-## Project Management within Team PSD
+## Chapter 1: Project Management within Team PSD
 Explanation of Team PSD Project Management workgroups, members, roles, purpose etc.
+Section 1. Guiding Principles
+Section 2. Vision & Mission
+Section 3. Workgroups
+Section 4. Publications 
+Section 5. National Center for PTSD 
+Section 6. PAVIR
 
-## Team PSD Workgroups
-Explanation of each Team PSD workgroup EES, VAPOR, Qant, Qual etc.
+## Chapter 2: Team PSD Workgroups
+Explanation of each Team PSD workgroups
+1. VAPOR
+2. Qant
+3. Qual 
+4. EES
+5. Facilitation
+6. Co-investigators
 
 ### Team PSD Workgroup: Veterans Advisory Partnership for Operations Research (VAPOR) monthly
 Explanation and details of VAPOR role within Team PSD, VAPOR members
@@ -28,7 +42,7 @@ Explanation and details of VAPOR role within Team PSD, VAPOR members
 5. Tammy Thompson
 
 #### Team PSD & VAPOR Meeting Frequency
-Explanation of specific details of Team PSD and VAPOR - such as once monthly meeting.
+Explanation of specific details of Team PSD and VAPOR monthly meeting
 
 
 ## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
