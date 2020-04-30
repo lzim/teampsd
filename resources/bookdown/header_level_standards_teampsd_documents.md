@@ -16,7 +16,7 @@ output:
      
 # Style Guide & Checklist for Team PSD Documents
 
-<img src = "https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/document_header_guide_example.png" height = "600" width = "600">  
+<img src = "https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_document_style_guide.png"  height = "400" width = "600">   
 
 
 ## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
