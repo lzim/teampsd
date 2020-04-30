@@ -16,39 +16,7 @@ output:
      
 # Style Guide & Checklist for Team PSD Documents
 
-
-
-
-# Team PSD Project Management
-
-## Chapter 1: Project Management within Team PSD
-Explanation of Team PSD Project Management workgroups, members, roles, purpose etc.
-1. Section Guiding Principles
-2. Section Vision & Mission
-3. Section Workgroups
-4. Section Publications 
-5. Section National Center for PTSD 
-6. Section PAVIR
-
-## Chapter 2: Team PSD Workgroups
-Explanation of each Team PSD workgroups
-1. VAPOR
-2. Qant
-3. Qual 
-4. EES
-5. Facilitation
-6. Co-investigators
-
-### Team PSD Workgroup: Veterans Advisory Partnership for Operations Research (VAPOR) monthly
-Explanation and details of VAPOR role within Team PSD, VAPOR members
-1. Donald DC Barlow
-2. Leroy Edwards
-3. Ren Kramer
-4. Erik Ontiveros
-5. Tammy Thompson
-
-#### Team PSD & VAPOR Meeting Frequency
-Explanation of specific details of Team PSD and VAPOR monthly meeting
+<img src = "https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/document_header_guide_example.png" height = "600" width = "600">  
 
 
 ## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
