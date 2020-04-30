@@ -16,9 +16,12 @@ output:
      
 # Style Guide & Checklist for Team PSD Documents
 
-## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
-- [ ] Example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_document_style_guide.png) 
-- [ ] Example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
+## Details of Style Guide
+- Example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_document_style_guide.png) 
+- Example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
+
+
+### Checklist Editing Existing TeamPSD Files for Consistent Header Style 
 - [ ] If the document is **missing a YAML header** be sure to **insert** one at the **top of the document** using the YAML code [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
 - [ ] If the document is **has a YAML header** be sure to **update** the **date section** with current date and your initials **RH April 29 2020**.
 - [ ] Ensure the document has a **title** using **header 1** - by adding the **markdown code** before the title **#** use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md).  
@@ -26,7 +29,7 @@ output:
 - [ ] Once the document has been edited to be **consistent** in **style** follow the steps for a **pull request** to update the document. 
 
 
-## Making a Pull Requests
+### Making a Pull Requests
 - [ ] Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
 - [ ] Cross reference the **pull request** with the **task issue card** that refers to the TeamPSD documentation being edited.
 - [ ] Cross reference the **task issue card** with the **pull request**.
