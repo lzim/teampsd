@@ -14,7 +14,29 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
      
+
+# TeamPSD Documents Style Guide
+
+## Documents Style Guide Basics
+
+### Documents Style Guide Colors & Fonts
+
+#### Documents Style Guide List of Colors
+
+#### Documents Style Guide List of Fonts
+
+
+
+
+
+
+
+
+
+
 # Style Guide & Checklist for Team PSD Documents
+
+
 
 ## Details of Style Guide
 - Example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_document_style_guide.png) 
