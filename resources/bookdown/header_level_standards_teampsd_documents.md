@@ -11,16 +11,24 @@ output:
   slidy_presentation: default
 ---
 
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+     
+# Style Guide & Checklist for Team PSD Documents
+
+
+
+
 # Team PSD Project Management
 
 ## Chapter 1: Project Management within Team PSD
 Explanation of Team PSD Project Management workgroups, members, roles, purpose etc.
-Section 1. Guiding Principles
-Section 2. Vision & Mission
-Section 3. Workgroups
-Section 4. Publications 
-Section 5. National Center for PTSD 
-Section 6. PAVIR
+1. Section Guiding Principles
+2. Section Vision & Mission
+3. Section Workgroups
+4. Section Publications 
+5. Section National Center for PTSD 
+6. Section PAVIR
 
 ## Chapter 2: Team PSD Workgroups
 Explanation of each Team PSD workgroups
