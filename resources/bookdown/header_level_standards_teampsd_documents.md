@@ -29,6 +29,28 @@ output:
 - [ ] Create a **new working branch** and name it using all lowercase, no spaces (use underscores) and your initials.
 - [ ] Follow the **checklist** below to edit the **level 1-5 headers** in the document.
 
+# Example
+
+# Team PSD Project Management
+
+## Project Management within Team PSD
+Explanation of Team PSD Project Management workgroups, members, roles, purpose etc.
+
+## Team PSD Workgroups
+Explanation of each Team PSD workgroup EES, VAPOR, Qant, Qual etc.
+
+### Team PSD Workgroup: Veterans Advisory Partnership for Operations Research (VAPOR) monthly
+Explanation and details of VAPOR role within Team PSD, VAPOR members
+1. Donald DC Barlow
+2. Leroy Edwards
+3. Ren Kramer
+4. Erik Ontiveros
+5. Tammy Thompson
+
+#### Team PSD & VAPOR Meeting Frequency
+Explanation of specific details of Team PSD and VAPOR - such as once monthly meeting.
+
+
 ## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
  ￼￼![image](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_document_style_guide.png)
 - [ ] Example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
@@ -40,7 +62,7 @@ output:
 - [ ] Once the document has been edited to be **consistent** in **style** follow the steps for a **pull request** to update the document. 
 
 
-### Making a Pull Requests
+## Making a Pull Requests
 - [ ] Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
 - [ ] Cross reference the **pull request** with the **task issue card** that refers to the TeamPSD documentation being edited.
 - [ ] Cross reference the **task issue card** with the **pull request**.
