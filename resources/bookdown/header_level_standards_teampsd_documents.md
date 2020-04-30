@@ -16,10 +16,8 @@ output:
      
 # Style Guide & Checklist for Team PSD Documents
 
-<img src = "https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_document_style_guide.png"  height = "300" width = "600">   
-
-
 ## Checklist Editing Existing TeamPSD Files for Consistent Header Style 
+- [ ] Example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_document_style_guide.png) 
 - [ ] Example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
 - [ ] If the document is **missing a YAML header** be sure to **insert** one at the **top of the document** using the YAML code [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
 - [ ] If the document is **has a YAML header** be sure to **update** the **date section** with current date and your initials **RH April 29 2020**.
