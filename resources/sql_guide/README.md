@@ -17,4 +17,4 @@ output:
 
 
 
-### This folder contains information pertaining to the Microsoft SQL Server DBMS (Database Management System) as well as the Structured Programming Language (SQL). 
+This folder contains information pertaining to the Microsoft SQL Server DBMS (Database Management System) as well as the Structured Programming Language (SQL). 
