@@ -1,10 +1,32 @@
+---
+title: "TeamPSD Active Listening Guide"
+author: "Team PSD"
+date: "RH May 1 2020"
+output: 
+  github_document: default
+  html_document: default
+  pdf_document: default
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+     
+# Team PSD Guide for Active Listening for Effective Communication
+
+
 ## Active listening is a stance. 
 Taking the stance that misunderstanding is the norm and using skills appropriate to that reality.
 
+## Recommended Suggestions for effective active listening
+Some useful suggestions for active listening for effective communication include:
+
 ### 1. General skills: Reflecting content for efficiency and interpersonal rapport (i.e., avoiding rework and frustration)
-- "When in doubt, check it out" - It's the listener's job to help the speaker understand what they are getting or what they missed.
-- Let the speaker know when you're falling behind. Stop them before the conversation exceeds your understanding.
-- Use the same precise language/vocabulary, esp. Team PSD or _MTL_ terms with specific meanings.
+#### - "When in doubt, check it out" - It's the listener's job to help the speaker understand what they are getting or what they missed.
+#### - Let the speaker know when you're falling behind. Stop them before the conversation exceeds your understanding.
+#### - Use the same precise language/vocabulary, esp. Team PSD or _MTL_ terms with specific meanings.
 
 ### 2. "Chunking" components of what someone said (e.g., listen for the "and" when someone is speaking)
 - Listen for the main points.
