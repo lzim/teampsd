@@ -1,4 +1,3 @@
-pre
 ---
 title: "SQL Basicsl"
 author: "Team PSD"
