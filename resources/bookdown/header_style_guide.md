@@ -23,12 +23,7 @@ output:
 
 
 
-# Team PSD Document Title 
-Documents Style Guide Basics
-## Purpose of the document 
-Guide for consistent style of Team PSD documents
-### Section Headings
-Documents Style Guide Colors & Fonts
-#### Section Subheadings 
-Documents Style Guide List of Colors
-Documents Style Guide List of Fonts
+# Team PSD Document Title (e.g. Documents Style Guide Basics)
+## Purpose of the document (e.g. Guide for consistent style of Team PSD documents)
+### Section Headings (e.g. Style Guide Colors & Fonts)
+#### Section Subheadings (e.g Style Guide List of Colors or Style Guide List of Fonts)
