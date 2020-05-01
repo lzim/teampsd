@@ -16,9 +16,13 @@ output:
      
 # Header Style Guide Team PSD Documents
 
-
 ## Details of Style Guide
 - Visual example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/draft_document_style_guide.png) 
+- Visual example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
+- [Checklist for Editing Existing TeamPSD documents](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/header_level_standards_teampsd_documents.md)
+
+
+
 
 # TeamPSD Documents Style Guide
 
@@ -29,10 +33,4 @@ output:
 #### Documents Style Guide List of Colors
 
 #### Documents Style Guide List of Fonts
-
-- Visual example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
-
-
-[Checklist for Editing Existing TeamPSD documents](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/header_level_standards_teampsd_documents.md)
-
 
