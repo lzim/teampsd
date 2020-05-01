@@ -37,7 +37,7 @@ output:
 ## Style Guide Checklist for Team PSD Documents
 
 ### Details of Style Guide
-- Example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/draft_document_style_guide.png) and [here](
+- Example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/draft_document_style_guide.png) 
 - Example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
 
 
