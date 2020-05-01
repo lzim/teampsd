@@ -22,7 +22,7 @@ output:
 - Example of well formated document [here](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklists/pre_meeting_checklist.md)
 - Example of badly formated document [here](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_demo/course_code.md) 
 - Example of the same document [before] and [after] using style guide
-[Checklist for Editing Existing TeamPSD documents](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/header_level_standards_teampsd_documents.md)
+- [Checklist for Editing Existing TeamPSD documents](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/header_level_standards_teampsd_documents.md)
 
 
 |Header|	Markdown code|	Use|	Example|
