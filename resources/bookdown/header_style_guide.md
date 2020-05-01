@@ -21,10 +21,16 @@ output:
 - Visual example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
 - Example of well formated document [here](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklists/pre_meeting_checklist.md)
 - Example of badly formated document [here](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_demo/course_code.md) 
-- [Checklist for Editing Existing TeamPSD documents](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/header_level_standards_teampsd_documents.md)
+- Example of the same document [before] and [after] using style guide
+[Checklist for Editing Existing TeamPSD documents](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/header_level_standards_teampsd_documents.md)
+- 
 
+YAML headers
+H1 (#) use for document title ("Guide for consistent style of Team PSD documents")
+H2 (##) use for document sub section headers ("Style Guide Basics")
+H2 (##) use for titles of maps ("Create New Document Map")
+H1 (#) use for new header of a longer document
 
-# INSERT Team PSD Document Title Here (e.g. Documents Style Guide Basics)
-## INSERT Purpose of the document Here (e.g. Guide for consistent style of Team PSD documents)
-### INSERT Section Headings Here (e.g. Style Guide Colors & Fonts)
-#### INSERT Section Subheadings Here (e.g Style Guide List of Colors or Style Guide List of Fonts)
+H3 (###) use for numbered steps (e.g. Style Guide List of Colors: 1. Red 2. Blue, 3. White)
+H4 (####) use for genereal test (e.g "The primary colors for our style guide are blue, red, and white...")
+
