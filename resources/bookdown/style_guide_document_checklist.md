@@ -22,19 +22,20 @@ output:
 - [ ] **Update YAML header** with **date section** with current date and your initials **Initials & Date**.
 
 ## Style Guide
-- [ ] Document has a H1 header title 
+- [ ] **Document has a H1 header title** 
 - If not add a **H1 header title** - use the **markdown code #** to create a suitable title or use text in document for guidance use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md).  
-- [ ] Document has a H2 section headers
+- [ ] **Document has a H2 section headers**
 - If not add the **markdown code ##** before section headings 
-- [ ] Document has a H3 subsection headers
+- [ ] **Document has a H3 subsection headers**
 - If not add the **markdown code ###** before subection headings 
-- [ ] Document has a H4 headers for list or instructions
-- [ ] Document has consistent use of bullets / numbering within sections
+- [ ] **Document has a H4 headers** for list or instructions
+- If not add the **markdown code ####** before list or instructions headings 
+- [ ] **Document has consistent use of bullets / numbering **within sections
 - If not **edit** numbering or bulleting for consistency
-- [ ] Document has been spell checked
-Look for any spelling or grammatical errors and edit if needed.
-- [ ] Commit changes to document
-- [ ] Make a pull request
+- [ ] **Document has been spell checked**
+- **Edit** any spelling or grammatical errors if needed.
+- [ ] **Commit changes to document**
+- [ ] **Make a pull request**
 
 ## Making a Pull Requests
 - [ ] Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
