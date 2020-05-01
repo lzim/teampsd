@@ -15,17 +15,31 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-1. # TeamPSD Style Guide  
-You can go use this header as a document title. Use the markdown language **# Title**
+# Guide for consistent style of Team PSD documents  
+Use this header as a document title - markdown language .#.
 
-2. ## **Style Basics**  
-You can go use this header as a section title. Use the markdown language  **## Section Heading**
+## Guide for consistent font use in Team PSD documents
+Use this header as a section title - markdown language .##. 
 
-3. ### **Style Basics in Additional Detail**
-You can go use this header as a subsection title. Use the markdown language  **### Sub-section Heading**
+### Style Guide Font Size
+Use this header as a subsection title - markdown language .###. 
 
-4. #### **Style Basics in Specific Detail**
-You can use this header as a way to distinguish sections within a document - such as a list. Use the markdown language  **#### to highlight sections within text**
+## Guide for consistent color use in Team PSD documents
+Use this header as a section title - markdown language .##. 
 
-5. ##### **Style Basics in Very Specific Detail**
-You can use this header as a way to distinguish within section portions of a document - such as subsections of a list. Use the markdown language  **##### to highlight sections within text**
+### Guide Choice of color
+Use this header as a subsection title - markdown language .###. 
+
+#### Guide List of Colors
+Use this header as a list title - markdown language .####. 
+
+
+|Header|	Markdown code|	Use|	Example|
+| ------------- | ------------- |------------- | ------------- |
+|YAML headers|Markdown|	Every document|	[example](https://github.com/lzim/teampsd/tree/master/model_workgroup)|
+|H1	|.#.	  | Use for document title                     | Guide for consistent header style of Team PSD documents|
+|H2	|.##.	  | Use for document sub section headers       | Style Guide Basics|
+|H2	|.##.	  | Use for titles of maps	                   | Create New Document Map|
+|H1	|.#.	  | Use for new title in a longer document	   | Guide for consistent color use in Team PSD documents|
+|H3	|.###.  | Use for numbered steps 	                   | Style Guide List of Colors: 1. Red 2. Blue, 3. White|
+|H4	|.####.	| Use for genereal text you want to hilight	 | The primary colors for our style guide are blue, red, and white...|
