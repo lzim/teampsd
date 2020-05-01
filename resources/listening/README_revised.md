@@ -59,7 +59,8 @@ Some useful suggestions for active listening for effective communication include
 #### Focus on consensus
 - It's best to end with a summary of the key points of consensus and the key take aways of what to do next.
 
-### 6. After you reflect, add to what the person is saying (a key to improv is "yes, and..." - don't reject ideas, just try to understand first and then build on the ideas).
+### 6. After you reflect, add to what the person is saying 
+- A key to improv is "yes, and..." - don't reject ideas, just try to understand first and then build on the ideas).
 #### Positive interaction
 - Forward momentum comes from making sure you understand the person and add your own contribution.
 #### Focus on understanding
