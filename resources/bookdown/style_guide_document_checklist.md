@@ -18,7 +18,7 @@ output:
 
 ## YAML Headers Checklist
 - [ ] **Add YAML header if document does not have one**. 
-- [ ] **Insert one at the top of the document using the YAML code** [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
+- [ ] **Insert one at the top of the document using the YAML code** [here](https://github.com/lzim/teampsd/blob/master/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
 - [ ] **Update YAML header with date and your initials**
 
 ## Style Guide Checklist
