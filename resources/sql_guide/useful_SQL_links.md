@@ -15,18 +15,12 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# Useful SQL Links
+# Title
 
-## Links that are useful
+## Sub Headings
 
-### What is Microsoft SQL Server
+### Section Headings
 
-[Microsoft SQl Tutorial](https://www.sqlservertutorial.net/)
-
-[MIcrosft SQL Bsics](https://github.com/lzim/teampsd/blob/ash_2020_may_sql/resources/sql_guide/readme_sql.md)
-
-<img src = "https://github.com/lzim/teampsd/blob/ash_2020_may_sql/resources/sql_guide/sql_file_access.png"
-     height = "600" width = "600">  
 
 
 
