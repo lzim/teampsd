@@ -19,13 +19,13 @@ output:
 
 ## Meeting Facilitation and Management on Lucid
 Steps needed for effective meeting faciliation and management
-### 1. Edit agenda
-### 2. Add documents
-### 3. Send meeting reminder in advance and remind to RSVP
-### 4. Take notes on decisions, action items, and issues using buttons
-### 5. Publish to basecamp
-### 6. Send followup email
 
+#### 1. Edit agenda
+#### 2. Add documents
+#### 3. Send meeting reminder in advance and remind to RSVP
+#### 4. Take notes on decisions, action items, and issues using buttons
+#### 5. Publish to basecamp
+#### 6. Send follow-up email
 
 
 ### Starting a Lucid Meeting
@@ -41,9 +41,9 @@ Steps needed for effective meeting faciliation and management
 - [ ] 2. Use the "Action Item
 
 ### Ending a Lucid Meeting
-
 - [ ] 1. Before you end the meeting, double-check that no one else is still writing any notes.
-End the meeting.
-- [ ] 2. Re-read the meeting record and clean up notes. Make sure all notes are clear with headers and reflect final decisions and next steps indicating the "Who" "What" and "When". Tag any "Decisions" or "Issues" using their respective tags. If any of the decisions relate to open GitHub issues, update the GitHub thread as well.
-- [ ] 3. Click "Publish" to Basecamp once you end the meeting.
-- [ ] 4. Click send out "Follow-Up" email. **Note**: If there is an accompanying mtl.how/live recording - 1) Backup the recording (instructions here), 2) Email the Lucid follow-up to only yourself, 3) Forward the Lucid follow-up using regular email to all attendees including the link to the backed-up recording to meeting attendees.
+- [ ] 2. End the meeting.
+- [ ] 3. Re-read the meeting record and clean up notes. Make sure all notes are clear with headers and reflect final decisions and next steps indicating the "Who" "What" and "When". 
+- [ ] 4. Tag any "Decisions" or "Issues" using their respective tags. If any of the decisions relate to open GitHub issues, update the GitHub thread as well.
+- [ ] 5. Click "Publish" to Basecamp once you end the meeting.
+- [ ] 6. Click send out "Follow-Up" email. **Note**: If there is an accompanying mtl.how/live recording - 1) Backup the recording (instructions here), 2) Email the Lucid follow-up to only yourself, 3) Forward the Lucid follow-up using regular email to all attendees including the link to the backed-up recording to meeting attendees.
