@@ -23,14 +23,15 @@ output:
 - Example of badly formated document [here](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_demo/course_code.md) 
 - Example of the same document [before] and [after] using style guide
 [Checklist for Editing Existing TeamPSD documents](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/header_level_standards_teampsd_documents.md)
-- 
 
-YAML headers
-H1 (#) use for document title ("Guide for consistent style of Team PSD documents")
-H2 (##) use for document sub section headers ("Style Guide Basics")
-H2 (##) use for titles of maps ("Create New Document Map")
-H1 (#) use for new header of a longer document
 
-H3 (###) use for numbered steps (e.g. Style Guide List of Colors: 1. Red 2. Blue, 3. White)
-H4 (####) use for genereal test (e.g "The primary colors for our style guide are blue, red, and white...")
-
+|Header|	Markdown code|	Use|	Example|
+| ------------- | ------------- |------------- | ------------- |
+|YAML headers|Markdown|	Every document|	[example]|
+|H1 | .#.	  | Use for document title                     | Guide for consistent header style of Team PSD documents
+|H1	|.#.	  | Use for document title                     | Guide for consistent header style of Team PSD documents
+|H2	|.##.	  | Use for document sub section headers       | Style Guide Basics
+|H2	|.##.	  | Use for titles of maps	                   | Create New Document Map
+|H1	|.#.	  | Use for new title in a longer document	   | Guide for consistent color use in Team PSD documents
+|H3	|.###.  | Use for numbered steps 	                   | Style Guide List of Colors: 1. Red 2. Blue, 3. White
+|H4	|.####.	| Use for genereal text you want to hilight	 | The primary colors for our style guide are blue, red, and white...
