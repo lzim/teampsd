@@ -28,10 +28,9 @@ output:
 |Header|	Markdown code|	Use|	Example|
 | ------------- | ------------- |------------- | ------------- |
 |YAML headers|Markdown|	Every document|	[example]|
-|H1 | .#.	  | Use for document title                     | Guide for consistent header style of Team PSD documents
-|H1	|.#.	  | Use for document title                     | Guide for consistent header style of Team PSD documents
-|H2	|.##.	  | Use for document sub section headers       | Style Guide Basics
-|H2	|.##.	  | Use for titles of maps	                   | Create New Document Map
-|H1	|.#.	  | Use for new title in a longer document	   | Guide for consistent color use in Team PSD documents
-|H3	|.###.  | Use for numbered steps 	                   | Style Guide List of Colors: 1. Red 2. Blue, 3. White
-|H4	|.####.	| Use for genereal text you want to hilight	 | The primary colors for our style guide are blue, red, and white...
+|H1	|.#.	  | Use for document title                     | Guide for consistent header style of Team PSD documents|
+|H2	|.##.	  | Use for document sub section headers       | Style Guide Basics|
+|H2	|.##.	  | Use for titles of maps	                   | Create New Document Map|
+|H1	|.#.	  | Use for new title in a longer document	   | Guide for consistent color use in Team PSD documents|
+|H3	|.###.  | Use for numbered steps 	                   | Style Guide List of Colors: 1. Red 2. Blue, 3. White|
+|H4	|.####.	| Use for genereal text you want to hilight	 | The primary colors for our style guide are blue, red, and white...|
