@@ -20,8 +20,8 @@ output:
 - Visual example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/draft_document_style_guide.png) 
 - Visual example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
 - Example of well formated document [here](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklists/pre_meeting_checklist.md)
-- Example of badly formated document [here](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_demo/course_code.md) and [here](https://github.com/lzim/teampsd/blob/master/sim_ui_workgroup/sim_ui_diagram_files/README.Rmd)
-- Example of the same document [before] and [after] using style guide
+- Example of badly formated document [here](https://github.com/lzim/teampsd/blob/master/resources/citation/README.md)and [here](https://github.com/lzim/teampsd/blob/master/sim_ui_workgroup/sim_ui_diagram_files/README.Rmd)
+- Example of the same document [before](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_demo/course_code.md) and [after] using style guide
 - [Checklist for Editing Existing TeamPSD documents](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/header_level_standards_teampsd_documents.md)
 
 
