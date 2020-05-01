@@ -17,8 +17,4 @@ output:
 
 
 
-# Basic SQL Instructions
-
-## Basic Guide to using SQL
-
-### Steps to use SQ server
+# This folder contains information pertaining to the Microsoft SQL Server DBMS (Database Management System) as well as SQL (Structured Programming Language). 
