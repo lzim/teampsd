@@ -80,11 +80,11 @@ Although SQL follows ANSI standards, each SQL database vendor may also add its o
 ![SQL_5](https://user-images.githubusercontent.com/39805164/80828663-8329ca80-8b9a-11ea-8f33-e5dd7c3e1073.png)
 
 ### SYNTAX
-- [SELECT] (https://docs.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15)
-- [UPDATE] (https://docs.microsoft.com/en-us/sql/t-sql/queries/update-transact-sql?view=sql-server-ver15) 
-- [INSERT] (https://docs.microsoft.com/en-us/sql/t-sql/statements/insert-transact-sql?view=sql-server-ver15) 
-- [DELETE] (https://docs.microsoft.com/en-us/sql/t-sql/statements/delete-transact-sql?view=sql-server-ver15) 
-- [CREATE] (https://docs.microsoft.com/en-us/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15) 
+- [SELECT](https://docs.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15)
+- [UPDATE](https://docs.microsoft.com/en-us/sql/t-sql/queries/update-transact-sql?view=sql-server-ver15) 
+- [INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/insert-transact-sql?view=sql-server-ver15) 
+- [DELETE](https://docs.microsoft.com/en-us/sql/t-sql/statements/delete-transact-sql?view=sql-server-ver15) 
+- [CREATE](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15) 
 
 
 ## 8. SQL Server Data Types
