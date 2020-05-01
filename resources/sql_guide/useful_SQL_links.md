@@ -1,7 +1,7 @@
 ---
-title: "MTL Session 1 Pre Email"
+title: "Useful SQL Links"
 author: "Team PSD"
-date: "RH March 19 2020 | RH March 20 2020 | RH March 30 | RH March 31 2020 | April 17 2020|"
+date: "An May 1 2020"
 output: 
   github_document: default
   html_document: default
@@ -11,3 +11,17 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
+
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+     height = "200" width = "600">  
+
+# Useful SQL Links
+
+## Links that are useful
+
+### What is Microsoft SQL Server
+
+[Microsoft SQl Tutorial](https://www.sqlservertutorial.net/)
+
+
+
