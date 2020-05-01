@@ -23,5 +23,6 @@ output:
 
 [Microsoft SQl Tutorial](https://www.sqlservertutorial.net/)
 
+[MIcrosft SQL Bsics](https://github.com/lzim/teampsd/blob/ash_2020_may_sql/resources/sql_guide/readme_sql.md)
 
 
