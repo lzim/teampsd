@@ -14,7 +14,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# Checklist Reviweing & Editing Existing TeamPSD Documents for Consistent Header Style 
+# Checklist for Reviewing & Editing Existing TeamPSD Documents for Consistent Header Style 
 
 ## YAML Headers Checklist
 - [ ] **Add YAML header if document does not have one**. 
