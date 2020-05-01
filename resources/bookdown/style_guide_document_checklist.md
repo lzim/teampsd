@@ -16,12 +16,12 @@ output:
 
 # Checklist Editing Existing TeamPSD Files for Consistent Header Style 
 
-## YAML Headers
+## YAML Headers Checklist
 - [ ] **Add YAML header if document does not have one**. 
 - [ ] **Insert one at the top of the document using the YAML code** [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
 - [ ] **Update YAML header with date and your initials**
 
-## Style Guide
+## Style Guide Checklist
 - [ ] **Document has a H1 header title** 
 - If not add a H1 header title - use the markdown code .#. to create a suitable title or use text in document for guidance use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md).  
 - [ ] **Document has a H2 section headers**
