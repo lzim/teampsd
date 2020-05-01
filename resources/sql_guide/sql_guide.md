@@ -22,7 +22,7 @@ output:
 1. SQL Server Management Studio (SSMS) - After Login   
 1. What Is SQL  
 1. SQL Commands in a Nutshell  
-1. SQL DDL, DDL and DML
+1. SQL DQL, DDL and DML
 1. SQL Server Data Types  
 1. SQL DDL   
 1. SQL DQL
@@ -74,5 +74,19 @@ Although SQL follows ANSI standards, each SQL database vendor may also add its o
 ## 6. SQL Commands in a Nutshell  
 
 ![SQL_4](https://user-images.githubusercontent.com/39805164/80828250-d4858a00-8b99-11ea-8415-56ead9b48b9e.png)
+
+## 7. SQL DQL, DDL and DML
+
+![SQL_5](https://user-images.githubusercontent.com/39805164/80828663-8329ca80-8b9a-11ea-8f33-e5dd7c3e1073.png)
+
+### SYNTAX
+- [SELECT] (https://docs.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15)
+- [UPDATE] (https://docs.microsoft.com/en-us/sql/t-sql/queries/update-transact-sql?view=sql-server-ver15) 
+- [INSERT] (https://docs.microsoft.com/en-us/sql/t-sql/statements/insert-transact-sql?view=sql-server-ver15) 
+- [DELETE] (https://docs.microsoft.com/en-us/sql/t-sql/statements/delete-transact-sql?view=sql-server-ver15) 
+- [CREATE] (https://docs.microsoft.com/en-us/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15) 
+
+
+## 8. SQL Server Data Types
 
 
