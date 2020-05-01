@@ -17,13 +17,24 @@ output:
 # Checklist Editing Existing TeamPSD Files for Consistent Header Style 
 
 ## YAML Headers
-- [ ] If the document is **missing a YAML header** be sure to **insert** one at the **top of the document** using the YAML code [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
-- [ ] If the document is **has a YAML header** be sure to **update** the **date section** with current date and your initials **Initials & Date**.
+- [ ] **Add YAML header** if document does not have one. 
+- [ ] **Insert** one at the **top of the document** using the YAML code [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) you can copy the exact code from the top of the document  
+- [ ] **Update YAML header** with **date section** with current date and your initials **Initials & Date**.
 
 ## Style Guide
-- [ ] Ensure the document has a **title** using **header 1** - by adding the **markdown code** before the title **#** use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md).  
-- [ ] Each **section** within a document needs **section headings** to facilitate reading, for section headings add the **markdown code** before the subheading title **##** and **add additional ##** for increasingly smaller header section.
-- [ ] Once the document has been edited to be **consistent** in **style** follow the steps for a **pull request** to update the document. 
+- [ ] Document has a H1 header title 
+- If not add a **H1 header title** - use the **markdown code #** to create a suitable title or use text in document for guidance use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md).  
+- [ ] Document has a H2 section headers
+- If not add the **markdown code ##** before section headings 
+- [ ] Document has a H3 subsection headers
+- If not add the **markdown code ###** before subection headings 
+- [ ] Document has a H4 headers for list or instructions
+- [ ] Document has consistent use of bullets / numbering within sections
+- If not **edit** numbering or bulleting for consistency
+- [ ] Document has been spell checked
+Look for any spelling or grammatical errors and edit if needed.
+- [ ] Commit changes to document
+- [ ] Make a pull request
 
 ## Making a Pull Requests
 - [ ] Go to **pull requests** and  make a **new pull request** and **assign** a reviewer. 
