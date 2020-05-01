@@ -28,9 +28,9 @@ output:
 - If not add the markdown code .##. before section headings 
 - [ ] **Document has a H3 subsection headers**
 - If not add the markdown code .###. before subection headings 
-- [ ] **Document has a H4 headers** for list or instructions
+- [ ] **Document has a H4 headers for list or instructions**
 - If not add the markdown code .####. before list or instructions headings 
-- [ ] **Document has consistent use of bullets / numbering **within sections
+- [ ] **Document has consistent use of bullets / numbering within sections**
 - If not edit numbering or bulleting for consistency
 - [ ] **Document has been spell checked**
 - Edit any spelling or grammatical errors if needed.
