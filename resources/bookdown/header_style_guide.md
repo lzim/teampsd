@@ -29,3 +29,15 @@ output:
 3. [before](https://github.com/lzim/teampsd/tree/master/resources/listening) and [after](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/listening/README_revised.md)
 
 - Checklist for Editing Existing TeamPSD documents [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/style_guide_document_checklist.md)
+
+
+**Header Style Guide in See & Say Guides** | **Header Style Guide in Other Team PSD Documents** | **Rationale **
+-- | -- | --
+YAML headers | Every document | Essential to keep track of when a document was created, by whom and revisions to a document were made
+H1 (#) used for session title and ”Today we modeling to learn...”: line | Document Title | Document needs a title to orient reader, only one title per document, or major section of a larger document
+H2 (##) used for Done/Do, which is also in a table. Icons in the table will be height = "75" width = "110, links, etc. | Subheadings | Section headers are helpful to truncate information within a document, it helps the reader to see the main areas the document aims to cover.
+H2 (##) used for Learning Objectives, with icon. | Subsections | A document may have more than one H2 header, as there may be multiple sections within a document.
+H1 (#) used for In-Session Exercise | Add additional titles for longer documents | A larger document may need more than one H1 header, especially if it helps to break up a long document.  The suggestion for a H1 header is when the content of the document differs significantly from the H2 subsection header and avoids confusion for the reader.
+H3 (###) is for numbered steps. | Numbered steps in a checklist or action items. | Sections within a document may include a range of numbered steps that benefit by being organized into H3 headers, to be distinguished from other text.
+H4 (####) is for “New for _MTL 2.0,” etc. | Use for general text you want to emphasize a section of text | A H4 header, is visually identical to **bolding** within a document , but may be useful when the entire section should stand out for the main text and **bolding** is impractical.
+
