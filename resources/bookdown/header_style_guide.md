@@ -27,7 +27,7 @@ output:
 
 |Header|	Markdown code|	Use|	Example|
 | ------------- | ------------- |------------- | ------------- |
-|YAML headers|Markdown|	Every document|	[example]|
+|YAML headers|Markdown|	Every document|	[example](https://github.com/lzim/teampsd/tree/master/model_workgroup)|
 |H1	|.#.	  | Use for document title                     | Guide for consistent header style of Team PSD documents|
 |H2	|.##.	  | Use for document sub section headers       | Style Guide Basics|
 |H2	|.##.	  | Use for titles of maps	                   | Create New Document Map|
