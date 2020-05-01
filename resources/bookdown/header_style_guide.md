@@ -14,7 +14,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
      
-# Header Style Guide Team PSD Documents
+# Header Style Guide for Team PSD Documents
 
 ## Details of Style Guide
 - Visual example of style guide document [here](https://github.com/lzim/teampsd/tree/rita_2020_04_27_issue_1364/resources/bookdown) 
