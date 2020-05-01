@@ -111,7 +111,7 @@ The extent of the overlap, if any, is determined by how many records in Table 1 
 - RIGHT JOIN: All records on the right + matched records on the left
 - FULL OUTER JOIN: Every record from both (even if they have no match)
 
-Please note that if a JOIN is not used between two tables a Cartesian Product is produced, which is most cases in not the desired output.
+**Please note that if a JOIN is not used between two tables a Cartesian Product is produced, which is most cases in not the desired output.**
 
 ![SQL_9](https://user-images.githubusercontent.com/39805164/80834920-917de380-8ba6-11ea-84b2-e4f19c501910.png)
 
