@@ -26,6 +26,6 @@ output:
 - Examples of the same document before and after using style guide:
 1. [before](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_demo/course_code.md) and [after](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/master/resources/training_guides/mtl_how_demo/course_code.md) 
 2. [before](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_lucid/meeting_facilitation.md) and [after](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/training_guides/mtl_how_lucid/meeting_facilitation_revised.md)
-3. [before] (https://github.com/lzim/teampsd/tree/master/resources/listening) and [after](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/listening/README_revised.md)
+3. [before](https://github.com/lzim/teampsd/tree/master/resources/listening) and [after](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/listening/README_revised.md)
 
 - Checklist for Editing Existing TeamPSD documents [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/style_guide_document_checklist.md)
