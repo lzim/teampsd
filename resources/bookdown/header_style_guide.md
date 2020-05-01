@@ -31,8 +31,8 @@ output:
 - Checklist for Editing Existing TeamPSD documents [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/style_guide_document_checklist.md)
 
 
-**Header Style Guide in See & Say Guides** | **Header Style Guide in Other Team PSD Documents** | **Rationale **
--- | -- | --
+**Header Style Guide in See & Say Guides** | **Header Style Guide in Other Team PSD Documents** | **Rationale**
+-- | -- | :--:
 YAML headers | Every document | Essential to keep track of when a document was created, by whom and revisions to a document were made
 H1 (#) used for session title and ”Today we modeling to learn...”: line | Document Title | Document needs a title to orient reader, only one title per document, or major section of a larger document
 H2 (##) used for Done/Do, which is also in a table. Icons in the table will be height = "75" width = "110, links, etc. | Subheadings | Section headers are helpful to truncate information within a document, it helps the reader to see the main areas the document aims to cover.
