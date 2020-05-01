@@ -1,6 +1,5 @@
-
 ---
-title: "SQL Basicsl"
+title: "SQL Basics"
 author: "Team PSD"
 date: "AN May 1 2020"
 output: 
