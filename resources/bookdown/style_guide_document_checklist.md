@@ -31,7 +31,7 @@ output:
 - [ ] **Document has a H4 headers for list or instructions**
 - If not add the markdown code .####. before list or instructions headings 
 - [ ] **Document has consistent use of bullets / numbering within sections**
-- If not edit numbering or bulleting for consistency
+- Edit numbering or bulleting for consistency
 - [ ] **Document has been spell checked**
 - Edit any spelling or grammatical errors if needed.
 - [ ] **Commit changes to document**
