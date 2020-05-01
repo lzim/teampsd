@@ -14,24 +14,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
      
-
-# TeamPSD Documents Style Guide
-
-## Documents Style Guide Basics
-
-### Documents Style Guide Colors & Fonts
-
-#### Documents Style Guide List of Colors
-
-#### Documents Style Guide List of Fonts
-
-
-
-
-
-
-
-
+# Style Guide Team PSD Documents
 
 
 ## Style Guide Checklist for Team PSD Documents
