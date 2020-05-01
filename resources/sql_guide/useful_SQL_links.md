@@ -25,8 +25,8 @@ output:
 
 [MIcrosft SQL Bsics](https://github.com/lzim/teampsd/blob/ash_2020_may_sql/resources/sql_guide/readme_sql.md)
 
-
-[Create and Connect to a Microsoft SQL Server Database](https://d1.awsstatic.com/tmt/tmt_create-microsoft-sql-server-db/ms-sql-0.2e375be7253a9e337bcd7865860af9b0a5bf3034.png)
+<img src = "https://github.com/lzim/teampsd/blob/ash_2020_may_sql/resources/sql_guide/sql_file_access.png"
+     height = "600" width = "600">  
 
 
 
