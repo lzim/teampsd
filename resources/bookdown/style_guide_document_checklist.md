@@ -25,17 +25,19 @@ output:
 - [ ] **Document has a H1 header title** 
 - If not add a H1 header title - use the markdown code .#. to create a suitable title or use text in document for guidance use case [example](https://github.com/lzim/teampsd/edit/master/resources/training_guides/github/repositories.md).  
 - [ ] **Document has a H2 section headers**
-- If not add the markdown code .##. before section headings 
+- If not add the markdown code .##. before section headings. 
 - [ ] **Document has a H3 subsection headers**
-- If not add the markdown code .###. before subection headings 
+- If not add the markdown code .###. before subection headings. 
 - [ ] **Document has a H4 headers for list or instructions**
-- If not add the markdown code .####. before list or instructions headings 
+- If not add the markdown code .####. before list or instructions headings. 
 - [ ] **Document has consistent use of bullets / numbering within sections**
-- Edit numbering or bulleting for consistency
+- Edit numbering or bulleting for consistency.
 - [ ] **Document has been spell checked**
 - Edit any spelling or grammatical errors if needed.
 - [ ] **Commit changes to document**
+- Green button "Committ Changes" at the bottom of the document.
 - [ ] **Make a pull request**
+
 
 ## Making a Pull Requests
 - [ ] **Make new pull request**
