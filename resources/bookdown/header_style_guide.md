@@ -17,8 +17,8 @@ output:
 # Header Style Guide Team PSD Documents
 
 ## Details of Style Guide
-- Visual example of **style guide** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/draft_document_style_guide.png) 
-- Visual example of **YAML** and **Headers** document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
+- Visual example of style guide document [here](https://github.com/lzim/teampsd/tree/rita_2020_04_27_issue_1364/resources/bookdown) 
+- Visual example of YAML and Headers document [here](https://github.com/lzim/teampsd/blob/rita_2020_04_27_issue_1364/resources/bookdown/sample_header_user.md) 
 - Example of well formated document [here](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/checklists/pre_meeting_checklist.md)
 - Example of badly formated document [here](https://github.com/lzim/teampsd/blob/master/resources/citation/README.md)and [here](https://github.com/lzim/teampsd/blob/master/sim_ui_workgroup/sim_ui_diagram_files/README.Rmd)
 - Examples of the same document before and after using style guide:
