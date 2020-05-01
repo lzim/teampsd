@@ -89,4 +89,34 @@ Although SQL follows ANSI standards, each SQL database vendor may also add its o
 
 ## 8. SQL Server Data Types
 
+A basic understanding of SQL Server data types is necessary when creating table objects in SQL Server.
+
+![SQL_6](https://user-images.githubusercontent.com/39805164/80830373-b3269d00-8b9d-11ea-8581-dc7d6a70af8a.png)
+
+
+## 9.  SQL DDL 
+
+![SQL_7](https://user-images.githubusercontent.com/39805164/80830626-229c8c80-8b9e-11ea-95bd-125cae94c865.png)
+
+## 10.  SQL DQL
+
+![SQL_8](https://user-images.githubusercontent.com/39805164/80830832-8aeb6e00-8b9e-11ea-8cce-c9b40da2fc20.png)
+
+## 11.  SQL JOIN Types
+
+The extent of the overlap, if any, is determined by how many records in Table 1 (T1) match the records in Table 2 (T2). Depending on what subset of data we would like to select from the two tables, the four join types can be visualized by highlighting the corresponding sections of the Venn diagram:
+
+- INNER JOIN (or just JOIN): Only records that match exactly between the two tables 
+- LEFT JOIN: All records on the left + matched records on the right
+- RIGHT JOIN: All records on the right + matched records on the left
+- FULL OUTER JOIN: Every record from both (even if they have no match)
+
+Please note that if a JOIN is not used between two tables a Cartesian Product is produced, which is most cases in not the desired output.
+
+![SQL_9](https://user-images.githubusercontent.com/39805164/80834920-917de380-8ba6-11ea-84b2-e4f19c501910.png)
+
+
+## 12. SQL DML - UPDATE
+
+
 
