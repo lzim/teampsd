@@ -30,7 +30,7 @@ output:
 1. SQL DML - UPDATE 
 1. SQL DML - DELETE
 1. SQL DML - INSERT
-1. SQL SERVER TEMPORARY TABLES
+1. SQL SERVER TEMPORARY Tables
 
 ## 1. What is Microsoft SQL Server
 
@@ -118,5 +118,19 @@ The extent of the overlap, if any, is determined by how many records in Table 1 
 
 ## 12. SQL DML - UPDATE
 
+![SQL_10](https://user-images.githubusercontent.com/39805164/80838084-06541c00-8bad-11ea-841a-288d26a87250.png)
 
+## 13. SQL DML - DELETE
+
+![SQL_11](https://user-images.githubusercontent.com/39805164/80838327-a1e58c80-8bad-11ea-9ac8-cc0a30ffc37c.png)
+
+## 14. SQL DML - INSERT
+
+![SQL_12](https://user-images.githubusercontent.com/39805164/80838613-4c5daf80-8bae-11ea-9336-66f99b66d1a1.png)
+
+## 15. SQL SERVER TEMPORARY Tables
+
+SQL Server **Temporary** tables are prefixed by a **"#"** character. They have a single session lifetime, which means they are dropped when the session ends. They can be used as intermediate steps in very large SQL scripts to reduce complexity.
+
+![SQL_13](https://user-images.githubusercontent.com/39805164/80838978-13720a80-8baf-11ea-95ff-013e9e8c1242.png)
 
