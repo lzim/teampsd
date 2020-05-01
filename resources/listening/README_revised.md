@@ -24,11 +24,11 @@ Taking the stance that misunderstanding is the norm and using skills appropriate
 Some useful suggestions for active listening for effective communication include:
 
 ### 1. General skills: Reflecting content for efficiency and interpersonal rapport (i.e., avoiding rework and frustration)
-#### - "When in doubt, check it out" 
+#### "When in doubt, check it out" 
 - It's the listener's job to help the speaker understand what they are getting or what they missed.
-#### - Let the speaker know when you're falling behind. 
+#### Let the speaker know when you're falling behind. 
 - Stop them before the conversation exceeds your understanding.
-#### - Use the same precise language/vocabulary
+#### Use the same precise language/vocabulary
 - Example Team PSD or _MTL_ terms with specific meanings.
 
 ### 2. "Chunking" components of what someone said (e.g., listen for the "and" when someone is speaking)
