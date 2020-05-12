@@ -27,3 +27,6 @@ jobs:
       uses: reviewdog/action-stylelint@v1.0.1
       with:
         github_token: ${{ secrets.github_token }}
+        reporter: github-pr-review # Change reporter.
+        stylelint_input: '**/*.css'
+        
