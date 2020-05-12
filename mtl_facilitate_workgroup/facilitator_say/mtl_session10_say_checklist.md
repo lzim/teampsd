@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 10 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "Edited 10/7/2019 by LZ, Edited by Rita 24 January 2020, Edited by Anthony 5 February 2020"
+date: "Edited 10/7/2019 by LZ | RH Jan 24 2020 | Edited by Anthony 5 February 2020, Edited by DK 14 Feb 2020 | RH Feb 18 2020 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,10 +13,10 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontClick)  
-
-# MTL Live Session 10
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s10_systems_thinking_title.png"
+     height = "175" width = "420">](#DontLink)  
+     
+# MTL Live Session 10 Facilitator Say Checklist
 
 # Today we're modeling to learn how to use systems thinking.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. 
@@ -55,7 +55,7 @@ Time | **Short   and   long term.**      Better understanding of change over tim
 - [ ] On **Main Page** team lead navigate to **Experiment Section** to **pull up previous experiment values & text** to review Experiment 2, and Experiment 1 as compared to the Base Case.
 
 ## Pull up **q/h/f/d** from session 09 and ask **team lead** to review the rationale for the relative differences among **Experiment 2,** **Experiment 1,** and the **Base Case** findings from the "Findings" Text
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:15-00:20** - Team-specific **caual system story for findings** __________________
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:15-00:20** - Team-specific **causal system story for findings** __________________
 _If you did not reset the Team World at the end of Session 9:_
 - [ ] Log in to mtl.how/sim and join the current session, which should be at the end of the **Experiment 2.** 
 

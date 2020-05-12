@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Faciliator Say Checklist"
 author: "Team PSD"
-date: "Feb 6, 2020 Edited by DK"
+date: "Feb 14, 2020 Edited by DK | RH March 2 2020"
 output: 
   github_document: default
   html_document: default
@@ -11,11 +11,10 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s12_team_plan_title.png"
+height = "175" width = "420">](#DontLink)   
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">  
-
-# [*MTL* Live Session 12](https://github.com/lzim/mtl/edit/master/session12/s12_learner/mtl_session12_see.md "MTL Live Session 12")
+# MTL Live Session 12 Facilitator Say Checklist
 
 # Today we're modeling to learn how to make _future_ team decisions.
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to make future team decisions.

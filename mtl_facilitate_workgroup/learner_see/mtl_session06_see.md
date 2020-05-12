@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 6 - Learner See"
 author: "Team PSD"
-date: "Edited Oct 16 2019 Edited by Rita 24 January 2020 Edited by AP Feb 5 2020"
-release: "MTL 1.8"
+date: "Edited Oct 16 2019 | RH Jan 24 2020 | AP Feb 5 2020 |RH March 2 2020 | RH March 3 2020 | SP Mar 5 2020"
+release: "MTL 2.0"
 output: 
   github_document: default
   html_document: default
@@ -13,19 +13,19 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontLink)  
 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
+     height = "175" width = "420">](#DontLink)  
+**Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 # MTL Live Session 06
 
 # Today we're modeling to learn how to tell a systems story.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)   **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_pop_ups.gif)](#DontLink)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI.[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)](#DontLink)  | 
-
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI.[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)**  | 
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)  
@@ -45,7 +45,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)  
 
-# **In-session Exercise – Part 1**  
+# **In-session Exercise – Part 1: Where in the MTL World Is…**  
 
 * Facilitators will ask team members to find certain information on the mtl.how/sim main section.
 + Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.  
@@ -53,12 +53,15 @@ output:
 
 1. Over what timeframe does an experiment run?  
 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the *Rates* into the chat box.  
-3. Describe in one sentence what happens in the diagram as you click to Reveal Complexity.  
-4. What is the significance of the variables in the red boxes?  
+3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"  
+4. What is the significance of the variables in the "red boxes"?  
 
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)](#DontLink)  
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink)  
 
-# **In-session Exercise – Part 2**  
+**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)**
+
+
+# **In-session Exercise – Part 2: Telling a Systems Story**  
 
 * Starting Point: Main model section with no additional complexities revealed.  
 
@@ -79,4 +82,5 @@ Enter a Question & Hypothesis in the Text section about the base case of no new 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)   **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_reveals.gif)](#DontLink)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)Log in to our individual world at mtl.how/sim and refine the question and hypothesis we entered during the session about the base case (bc) run in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_text_fields.gif)](#DontLink)  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)**  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)Log in to our individual world at mtl.how/sim and refine the question and hypothesis we entered during the session about the base case (bc) run in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_text_fields.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)**  |
+

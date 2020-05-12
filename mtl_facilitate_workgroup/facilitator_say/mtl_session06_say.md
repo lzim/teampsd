@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 6 - Facilitator Say"
 author: "Team PSD"
-date: "RH Oct 18 2019 Edited by Rita 24 January 2020 Edited By Anthony Pichardo 5 February 2020"
-release: "MTL 1.8"
+date: "Edited by RH Oct 18 2019 | RH Jan 24 2020 |  Edited By Anthony Pichardo 5 February 2020 | RH Feb 14 2020 | RH March 2 2020 | SP Mar 5 2020"
+release: "MTL 2.0"
 output: 
   github_document: default
   html_document: default
@@ -13,8 +13,8 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#DontClick)    
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
+     height = "175" width = "420">](#DontLink)   
 
 # MTL Live Session 06
 
@@ -52,56 +52,45 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:10-00:15 - Team-specific rationale** __________________
 
-### The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your individual simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
+### The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your Team simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, _________________ .  
 
 
 ## Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:15-00:20 - Team's Session 05 Question** __________________
 
 ### Let's explore the MTL Home Page.
-+ To start this session, you should log in to your team world at **mtl.how/sim**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that starts with **"team" from the drop-down menu**.
++ To start this session, you should log in to your team world at **mtl.how/sim**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that ends with **"team" from the drop-down menu**.
 
 + Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.  
 
-+ If you've gone into the ____ (CC, MM, PSY, AGG, or SP) Module before, you'll see the **name of the module and the dataset you chose under the first option**, Join Current Session. If so, select that and hit Play. If not, look **below and select the ____ (CC, MM, PSY, AGG, or SP) module**.  
-
-+ "Select Team Data" will appear. Click on that and choose the team dataset from the drop-down menu. Then hit **Play**. (If you don't see any data to select in the Team Data menu, go back to the instructions in Session 4 to see how to upload your team dataset.)  
++ Since we logged in to the Team World last time, you'll see the **name of the module and the dataset we chose under the first option**, Join Current Session. Select that and hit Play.  
 
 Now check what you're seeing against what we're showing on the screen. It should have your TEAM name at the **top left**, and YOUR name and photo at the **top right**, and YOUR team's dataset listed in the **blue bar of the main section above the model diagram, here**.  
 
-Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model diagram. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
+Also, depending on the size of your monitor and whether your browser window is full-screen or less, you might see more or less than what we're showing of the model section. The model screen is a dynamic graphic, so the main model diagram will adjust if you re-size the browser window.
    +  On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen. 
    +  On a MAC, to view the model in full screen click the **green button in the upper left of the browser** on your computer. To exit full screen, hover at the top of your computer screen, the toolbar will appear, click on "View", click on "Exit Full Screen."  
    
-Navigate to experiment section to pull up the Question from last time.
+Navigate to Text section to pull up the Question from last time.
 
 # In-Session Exercise - Part 1
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:20-00:30 - Team Priority**__________________ 
 
-### Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team. We'll ask a series of questions and your job is to find the answer.  
-+ **Facilitators will ask team members to find certain information on the mtl.how/sim main section.**
-+ **Find the answer and “chat” it back to the Facilitator by typing your answer into the chat box.**
-+ **If at any time you are not sure how to find something, ask for help. The Facilitator will provide assistance by sending a hint or giving verbal support to all participants.**
+### Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team.  
 
-**Question 1: Over what time frame does an experiment run?**  
+### 1. Over what timeframe does an experiment run?
+See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
 
-Answer: You can find the time frame in the **Experiment Timeline** section up at the top of the model diagram section. Experiments simulate the plausible future out **two years from today**.  
+### 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.
 
-**Question 2: Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the _Rates_ into the chat box?**
+Notice the blue circle "i" in the diagram. These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. Red circle "i" in the team data table provides information for the red variables that are read in from team data. Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.
 
-Answer: The **small circles with i inside throughout the sim UI** provide additional information when you click on them. There are 3 kinds of *i* variables in *Modeling to Learn*. First, there are explanations for the red variables that are read in from team data. Second, there are experimental variables - you can click on the *i* to understand what you are changing. Third, there explanations for the varables that are calculated by the model when you run a simulation. 
+### 3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"
+Inside the Experiment Timeline box you also see a set of options to Reveal Complexity. You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex. The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the complexity regardless of how much is being viewed at the time.  
 
-**Question 3: Describe in one sentence what happens in the diagram as you click to Reveal complexity**  
-
-Answer: Options to Reveal Complexity are found under the *Experiment Timeline* in each module.  
-   + You can select the check-boxes under *Reveal Complexity* to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex.  
-   + When we reveal the different *Reveal Complexity* options, additional colored boxes and light and dark blue arrows appear on the main model diagram.  As was just noted, you can play with clicking and unclicking the *Reveal Complexity* options [use mouse to show this] and study what appears on the screen.  
-   + You should know that the amount of the model diagram being shown does NOT have anything to do with how the model itself is running when you run experiments - it's ONLY an option to let you control how much of the actual model's complexity you're viewing in the diagram.  
-   
-**Question 4: What is the significance of the variables in the red boxes?**
-
-Answer: Red means read in from team data. 
+### 4. What is the significance of the variables in the "red boxes"?
+In our convention, Red means read in from team data. 
 
 # In-Session Exercise - Part 1
 ## Introducing stocks/flows and polarities among key variables related to the team's priority
@@ -113,6 +102,10 @@ Answer: Red means read in from team data.
 
 + **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
 
+  - What are the main units _Modeling to Learn_?
+    - Appointments/week
+    - Patients/week
+    - Episodes of Care (SP): Episodes of Care appears on the model diagram for Measurement Based Stepped Care and Suicide Prevention and in the Team Data Table. However, all of the Output charts are still in the units of appointments, appointments/week, patients, or patients/week.
 
 + Let's do a quick orientation to the model diagram.  
    + The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments. 
@@ -120,20 +113,20 @@ Answer: Red means read in from team data.
    + In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback loop and fully understand why behaviors happen in our clinics.  
    
    + On the model diagram, you see plus and minus signs next to the blue lines. **Use Thumbs to demonstrate +/- concept**:  
-         + If there is a plus sign between two variables, this means they move in the same direction (thumbs up - both up for increasing or both down for decreasing).  
-         + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down).  
+         + If there is a plus sign between two variables, this means they move in the same direction (thumbs both up for increasing or both down for decreasing).  
+         + If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down; and reverse).  
 
 ## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:40-00:50 - Team Priority**__________________
 
-__Walk-throughs of each loop in each model are included in a table below.__
+__Walk-throughs of each loop in each module are included in a table below.__
 
 ### Enter a basecase question and hypothesis in the Text section.
 In the Question box, add a basecase question about no new decisions in addition to the team need question that the team wrote last session.
 In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.
 Click on the Save (not Save & Reset) button in the upper right corner of the Text section. This will allow us to quickly pull it up at the next session.
 
- + The last think to do is log out of the SIM UI! 
+ + The last thing to do is log out of the SIM UI! 
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   ***00:50-00:55*** 
 
@@ -176,7 +169,7 @@ DO demo
 |  **PSYCHOTHERAPY** | **-- Balancing Existing and New Patients; Engagement After 3 Months --** |
 ||The Psychotherapy or PSY module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.  We'll reveal the "Balancing Patients" detail in the PSY model diagram.  Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  For this activity of telling a systems story, we want patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.  
 || The *Reveal Complexity* detail for Balancing Patients shows the flow of patients and appointments in the PSY model. We see patients start psychotherapy and a certain number of patients get their first visit of PSY and end there; you can see this in the model here [use mouse to show "Patients in First Visit"]. We know that other patients will go on for additional visits. In the model diagram, we can explore data for patients who attend 2 to 7 visits [use mouse to show "Patients in Visit 2 to 7"] but they haven't yet completed a full course of PSY. Next, there is a subset of patients will go on to achieve 7 or more visits in their own first 3 months. Some will graduate and some will continue treatment after 3 months. Obviously our team wants patients to complete a full course of PSY without decreasing the new patients that can start.  
-|| So, starting on the left side of the screen in the blue box. We can see that as the *Starting Rate* for PSY increases, it increases the Booking Rate. Remember, we follow the blue line upward to *Booking Rate* and there is a plus *+* sign which means the Starting Rate and Booking Rate move in the same direction. As the *Booking Rate* increases, this increases the appointments on the books for PSY [use mounse to show booking rate to appointments in PSY].  As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. So, as the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients.  As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.  
+|| So, starting on the left side of the screen in the blue box. We can see that as the *Starting Rate* for PSY increases, it increases the Booking Rate. Remember, we follow the blue line upward to *Booking Rate* and there is a plus *+* sign which means the Starting Rate and Booking Rate move in the same direction. As the *Booking Rate* increases, this increases the appointments on the books for PSY [use mouse to show booking rate to appointments in PSY].  As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. So, as the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients.  As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.  
 |**AGGREGATE** |**-- Appointment Backlog Extends Return Visit Interval (under RVI and Wait Times) --**|
 ||Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the our team's appointments and patients data for each service. Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  Let's show the "RVI and Wait Times" under *Reveal Complexity* in the AGG model.  Our team is going to be losing two staff members in the near future. Since the aggregate module shows the interactions between all services offered by our team, we want to use this module to explore how we can best allocate appointments across services with reduced staffing levels. We also want to know what will happen to patient wait times if we change patient return-to-clinic visit intervals (RVI) and/or if the remaining staff members decide to work overtime or not.  
 || Let's walk through a systems story focused on the balancing loop titled "Appointment Backlog Extends Return Visit Interval right here on the model diagram [mouse over balancing loop on screen].  Let's start In the Appointments section of the diagram with the *Booking Rate*. As the *Booking Rate* goes up, the *Appointments* increase. If there are more patients who need an appointment then there are appointments or clinical hours available, clinicians may feel work pressure. This is the light blue arrow with the plus *+* sign leading from *Appointments* to *Work Pressure*.  
@@ -193,11 +186,11 @@ DO demo
 ||In the Stepped Care View, start with Patient Load, which is the ratio of the total number of patients seen over the manageable total patients (i.e., demand over supply). One way that increasing patient load influences the team is the effect the team's ability to assess and develop effective treatment plans for each patients. If the team has fewer patients than before, then they have more time to focus on patients early in care, who still need to establish whether or not a patient is high symptom and start them on an effective treatment plan.  In the Measurement Base Care View, this effect directly impacts the variable "Time to Detect," where an increase in the Patient Load causes the Time to Detect to increase, and vice versa. There is no limit to the positive effect decreasing workload has on providers' ability to assess patients and develop effective treatment plans.  
 ||This causes more patients to move through their care journey faster than before, so, all else being equal, more patients end treatment or step down to a lower level of care than before.  Back in the Stepped Care View, as more patients leave this setting, patient load drops even farther, and Time to Detect falls even more. When moving this direction, this type of reinforcing loop is often called a “virtuous circle.” However, this feedback loop also works in the opposite direction, where small increases in the number of patients in care can lead to higher Time to Detect, more patients staying in the "Early in Care” status longer, resulting in even higher patient load.  When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral. We have closed the loop, or brought our chain of causation full circle, and can now explain how this reinforcing loop of "Work Pressure Delays Care Decisions " could both energize our improvement efforts, or potentially derail them.
 ||**-- Work Pressure Reduces Access Loop --**|
- || In the Stepped Care View, start with Patient Load, which is the ratio of the total number of patients seen over the manageable total patients (i.e., demand over supply). One way that decreasing patient load influences the team is the effect the team's ability to start new patients. If the team has fewer established patients than before, then they have more open slots on their schedule for new patients.  This effect directly impacts the "Total New Episode of Care Start Rate" ("Total" referring to the fact that this rate is all new episodes of care, regardless of where a patient is coming from).  This effect seeks to represent the physical reality of having a schedule based on a fixed team capacity, where the team can only offer so many hours per week.  There is no limit to the detremental effect increasing workload has on start rate -- a high-enough Patient Load could cut new care episode starts to zero.
-||Any initial increase in the episode of care start rate is quickly undone, as these new patients become established patients, and their recurring appointments fill up the more and more of the open slots on the schedule. The limiting factor of team capacity prevent this initial change from being sustained.  This is also true of a decrease in the start rate, as a team that starts fewer new patients but has the same number of patients leaving (either ending or steppnig up/down) will soon have more open slots than they had before, allowing the start rate to increase.  A feedback loop that counter-acts change is called a "balancing loop," as any initial change will be washed out in the long run.  This type of loop is helpful in maintaining performance, but if ignored, can often lead to unsustained imporvement efforts.  
+ || In the Stepped Care View, start with Patient Load, which is the ratio of the total number of patients seen over the manageable total patients (i.e., demand over supply). One way that decreasing patient load influences the team is the effect the team's ability to start new patients. If the team has fewer established patients than before, then they have more open slots on their schedule for new patients.  This effect directly impacts the "Total New Episode of Care Start Rate" ("Total" referring to the fact that this rate is all new episodes of care, regardless of where a patient is coming from).  This effect seeks to represent the physical reality of having a schedule based on a fixed team capacity, where the team can only offer so many hours per week.  There is no limit to the detrimental effect increasing workload has on start rate -- a high-enough Patient Load could cut new care episode starts to zero.
+||Any initial increase in the episode of care start rate is quickly undone, as these new patients become established patients, and their recurring appointments fill up the more and more of the open slots on the schedule. The limiting factor of team capacity prevent this initial change from being sustained.  This is also true of a decrease in the start rate, as a team that starts fewer new patients but has the same number of patients leaving (either ending or stepping up/down) will soon have more open slots than they had before, allowing the start rate to increase.  A feedback loop that counter-acts change is called a "balancing loop," as any initial change will be washed out in the long run.  This type of loop is helpful in maintaining performance, but if ignored, can often lead to unstained improvement efforts.  
 ||**-- Access Pressure Increases Patient Starts --**|
 ||In the Stepped Care View, start with "Patients Waiting to Start Care," which is the total number of patients who have been referred to this team, regardless of where they are coming from.  If there are more patients waiting than before, then the wait time to start with this team increases above the acceptable value (the "Desired Wait Time," which is estimated from the team's data), and the team feels more pressure to start these patients to bring wait times back down. The team will then start more new episodes of care than before to alleviate the high wait time, even if they don't have the capacity to effectively treat these patients.  This effect is limited to 2x, as even the highest increase in wait times could only double the original episode of care start rate.  
-|| As the team starts more episodes of care, the number of patients waiting drops, and the wait time falls back to the desired wait time.  This is also true if the team experiences a decrease in wait times, as the team would then start fewer new episodes of care than before, until the wait time rose back to the desired value.  A feedback loop that counter-acts change is called a "balancing loop," as any initial change will be washed out in the long run.  This type of loop is helpful in maintaining performance, but if ignored, can often lead to unsustained imporvement efforts.  
+|| As the team starts more episodes of care, the number of patients waiting drops, and the wait time falls back to the desired wait time.  This is also true if the team experiences a decrease in wait times, as the team would then start fewer new episodes of care than before, until the wait time rose back to the desired value.  A feedback loop that counter-acts change is called a "balancing loop," as any initial change will be washed out in the long run.  This type of loop is helpful in maintaining performance, but if ignored, can often lead to unstained improvement efforts.  
 ||**-- Overwork and Burnout Reduce Care Quality --**|
 ||In the Stepped Care View, start with Patient Load, which is the ratio of the total number of patients seen over the manageable total patients (i.e., demand over supply). One way that increasing Patient Load influences the team is by increasing the team's fatigue. If the team experiences a sustained increase in fatigue, eventually the total patients the team can manage effectively decreases (as providers have less time for each patient, make more mistakes, and take more sick days). If sustained for long enough, high fatigue will cause burnout and providers leaving the team, which drastically reduces the number of patients the team can manage. 
 || Unless something else changes in the team, as fatigue and burnout continue to build up, Patient Load will grow even more (the denominator is reduced, thus the ratio increases), forcing remaining providers to work even hard than before, and Manageable Total Patients falls even more. When moving this direction, this type of reinforcing loop is often called a “vicious circle,” or a “death spiral.”  Unfortunately, this systems story doesn't work the other way, as below-average workload cannot increase supply -- we assume that no individual provider will  book more appointments just because their team has fewer patients across their panels (shrinking numerator) or the team gets a new provider (growing denominator).  |

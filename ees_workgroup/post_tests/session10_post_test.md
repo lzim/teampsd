@@ -1,6 +1,6 @@
 ---
-title: "*Modeling to Learn* Session 9 Post-test for *MTL Live* and *MTL Video*"
-date: "15 October 2018"
+title: "*Modeling to Learn* Session 10 Post-test for *MTL Live* and *MTL Video*"
+date: "5 March 2020"
 output: 
   github_document: default
   html_document: default
@@ -12,7 +12,7 @@ output:
 
 # *Modeling to Learn* how to how to compare alternatives.
 <!-- MTL Logo, HTML img tag -->
-## Session 9: Post-test Questions	
+## Session 10: Post-test Questions	
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "130" width = "500">  
 

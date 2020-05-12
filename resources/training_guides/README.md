@@ -5,7 +5,7 @@
 - Guides 
 
 ### New Training Guide: 
-To create a new training guide, use the training guide template here: [training_guide_template](https://github.com/lzim/teampsd/blob/training_sp/resources/training_guides/training_guide_template.md)
+To create a new training guide, use the training guide template here: [training_guide_template](https://github.com/lzim/teampsd/blob/master/resources/training_guides/training_guide_template.md)
 
 ### Print Hardcopy of Any Training Guide:
 

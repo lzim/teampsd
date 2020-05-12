@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Facilitator Say"
 author: "Team PSD"
-date: "Edited August 27, 2019 by SP & JF"
+date: "Edited August 27, 2019 by SP & JF | RH Feb 18 2020 | RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
@@ -13,10 +13,10 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
-     height = "175" width = "290">](#.)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s07_base_case_title.png"
+     height = "175" width = "420">](#DontLink)  
 
-# MTL Live Session 07
+# MTL Live Session 07 Facilitator Checklist
 
 ## Today we're modeling to learn how to evaluate our Base Case of no new decisions.
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to evaluate our Base Case of no new decisions.
@@ -24,7 +24,7 @@ output:
 ## Navigate to the SEE guide to show Done and Do
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:00-00:10** 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#.)  Done: We logged in to our individual world at mtl.how/sim. We entered in our own hypothesis about the Base Case in the Text section.
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45">](#.) Do: We will run a "BC" simulation and review the impact of **making no new decisions** on ________________ in the MTL sim UI Outputs section.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45">](#.) Do: We will run a "bc" simulation and review the impact of **making no new decisions** on ________________ in the MTL sim UI Outputs section.
 
 ## Emphasize team priority with the learning objectives on the screen 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#.) **Learning Objectives for Session 7**
@@ -61,7 +61,7 @@ output:
 
 ## Describe the output charts of the _specific variables_ and _values_ related to the team's highest priority need using Base Case data
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:40-00:50 - Team Priority**__________________
-- [ ] Look at the results with the **team specific to the team's question and hypothesis** for the BC run.
+- [ ] Look at the results with the **team specific to the team's question and hypothesis** for the bc run.
 - [ ] What does the team notice about the results for **variables related to their highest priority need**? 
 - [ ] Describe team **System Behavior** findings in the *Our Findings* textbox 
 - [ ] How **Basecase System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority:
@@ -70,6 +70,6 @@ output:
 ## Have Team Lead pull up the session 06 SEE guide Done/Do review.
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:50-00:55**  
 - [ ] Done: We entered our Question, Hypothesis, Findings and Decision for our Base Case (bc) in the Text section.
-- [ ] Do: Log into mtl.how/sim and explore the results of the BC run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. 
+- [ ] Do: Log into mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. 
 - [ ] Demo for team how to reload team's prior Question, Hypothesis, Findings and Decision. 
 - [ ] Reminder to click "Save" and log out. 
