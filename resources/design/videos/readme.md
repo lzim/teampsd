@@ -69,7 +69,7 @@ The Game DVR feature can capture any application’s window.
 2. **Look for the Game Bar** that will appear. 
 3. **Select “Yes, this is a game”** even if the application isn’t a game. 
 
-![](resources/design/videos/pc_screencast.png)
+![](https://github.com/lzim/teampsd/tree/master/resources/design/videos/pc_screencast.png)
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
@@ -82,7 +82,8 @@ The Game DVR feature can capture any application’s window.
 3. Under _Microphone_, **select none** to turn off audio recording.
 4. Under _Options_ in the _Onscreen Controls,_ **adjust the recording window,** setup a _Timer_, and where to _Save To_ your recording.
 
-![](resources/design/videos/mac_screencast.png)
+![](https://github.com/lzim/teampsd/tree/master/resources/design/videos/mac_screencast.png)
+
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
