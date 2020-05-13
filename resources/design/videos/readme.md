@@ -1,6 +1,6 @@
 ---
 title: "Participatory Design - Videos"
-author: "Team PSD" - LZ & ELA
+author: "Team PSD - LZ & ELA"
 date: "May 13, 2020"
 release: "Team PSD 2.0"
 output: 
@@ -78,9 +78,10 @@ The Game DVR feature can capture any application’s window.
 #### Record any window on your Mac.
 
 1. **Press Shift-Command-5**. The _Onscreen Controls_ will appear.
-2. Once the _Onscreen Controls_ appear, **click the down arrow** under _Options_, located next to the record button.
-3. Under _Microphone_, **select none** to turn off audio recording.
-4. Under _Options_ in the _Onscreen Controls,_ **adjust the recording window,** setup a _Timer_, and where to _Save To_ your recording.
+2. Once the _Onscreen Controls_ appear, click on one of the buttons with the record circle in the bottom right (4th icon from the left - **Record Entire Screen** or 5th icon from the left - **Record Selected Portion**)
+3. **Click the down arrow** under _Options_, located next to the record button.
+4. Under _Microphone_, **select none** to turn off audio recording.
+5. Under _Options_ in the _Onscreen Controls,_ **adjust the recording window,** setup a _Timer_, and where to _Save To_ your recording.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/design/videos/mac_screencast.png" width = "600"> 
 
