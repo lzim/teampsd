@@ -84,7 +84,7 @@ The Game DVR feature can capture any application’s window.
 5. Under _Options_ in the _Onscreen Controls,_ **adjust the recording window,** setup a _Timer_, and where to _Save To_ your recording.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/design/videos/mac_screencast.png" width = "600"> 
 
-6. To stop recording, click the Stop Recording button in the menu bar or press Command-Control-Esc (Escape).
+6. In the _Menu Bar_, **click the Stop Recording button** or **press Command-Control-Esc (Escape)** to stop recording.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/design/videos/stop_recording.png" width = "600">
 
