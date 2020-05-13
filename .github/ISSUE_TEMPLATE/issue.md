@@ -1,34 +1,27 @@
 ---
 name: Issue
 about: Create a new issue.
-title: 'Deadline + Product: Short description (ex. 8/12 AGG: Missing feedback loop)'
-labels: ''
-assignees: ''
+title: 'Due + "Bug" or "Task": Short description (ex. 8/12 Bug AGG: Missing feedback loop)'
+label: ''
+assignee: ''
 
 ---
 
 **1. Add description:** 
 
-
 << Paste screenshots here>>
  
-**2. Click on the right:**
-a. **Projects** - assign to **issue_tracker.**
-b. **Assignee** - assign relevant team members.
-c. **Labels**- review and select all potential _MTL_ dependencies.
-d. **Milestones** - select the dependent milestone.
+**2. Click on the right:**  
+i. **Pipelines** - prioritize in a TeamPSD (& Workgroup) pipeline  
+ii. **Assignee** - assign to an individual team member producing work for the issue  
+iii. **Label**- assign workgroup (lead) responsible for tracking the task  
+iv. **Projects** - assign to domain-specific TeamPSD tracker (issues, features, document, manuscript, team)  
+v. **Milestones** - select monthly sprint milestone within the workgroup   
+vi. **Estimate** - Estimate task in complexity points   
+vii. **Epics** - assign to team-wide epic and TeamPSD master plan project  
+iix. **Releases** - assign to key team release grouped with other relevant issues  
+
+**3. If you anticipate that your **issue card** or **bug card** will have **dependencies** these can be added once the issue has been submitted.   
+ix. **Add dependencies** - assess for and add dependencies *blocking* & *blocked by* this issue
 
 
------------------------------------------------------------------------------------------
-**Workgroups leads**
-**Identify Constraints (check all that apply):**
-- [ ]   Capacity
-- [ ]   Cost
-- [ ]   Schedule
-- [ ]   Interference
-- [ ]   Capability
-- [ ]   Other (describe)
-
-_Add estimated person-hours to complete:_
-
-**Edit the due date (if necessary)**

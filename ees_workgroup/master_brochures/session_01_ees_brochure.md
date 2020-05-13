@@ -1,6 +1,6 @@
 ---
 title: "*Modeling to Learn* Session 1 Accreditation Master Brochure for *MTL Live* and *MTL Video*"
-date: "28 September 2018"
+date: "28 September 2018 Edited by Rita 24 January 2020"
 output: 
   github_document: default
   html_document: default
@@ -54,12 +54,12 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 •	Trainees (e.g., practicum, intern, resident and fellow)
 
 ## Objectives: 
+1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
 
-1.	Describe your own vision for what you would like your team to get from Modeling to Learn.
+2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
 
-2.	Test out your thinking with your team about what your shared vision is for becoming a "dream team."
+3. Identify a shared team vision for learning from *Modeling to Learn*.
 
-3.	Identify a shared team vision for learning from Modeling to Learn.
 
 ## Pre-Test: No
 

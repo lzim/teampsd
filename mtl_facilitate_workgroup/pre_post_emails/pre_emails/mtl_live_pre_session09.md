@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 Pre Email"
 author: "Team PSD"
-date: "September 2018"
+date: "RH Oct 18 2019 | RH March 16 2020 | RH March 17 2020 | RH April 6 2020"
 output: 
   github_document: default
   html_document: default
@@ -14,12 +14,12 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500"> 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s09_compare_alternatives_title.png"
+     height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session09/s09_learner/mtl_session09_see.md) 
 
 # This week we're modeling to learn how to compare alternatives.
 
-|<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "65" width = "65"> **Done** |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session08/s08_learner/mtl_session08_see.md) **Done** |
 | --- |
 |**At Our Last Team Meeting**  | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Ran experiment 1 and compared the results to the Base Case.** |
@@ -32,7 +32,7 @@ output:
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](http://mtl.how/sim) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  |
 
 
-|<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "75" width = "75"> **Do** |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session09/s09_learner/mtl_session09_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting**  |
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Explore the Base Case and experiment 1 results in our team world. Log into your individual world and draft a dynamic hypothesis for experiment 2.**  |
