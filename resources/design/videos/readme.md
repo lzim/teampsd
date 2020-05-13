@@ -1,6 +1,6 @@
 ---
 title: "Participatory Design - Videos"
-author: "Team PSD - LZ & ELA"
+author: "Team PSD - LZ, ELA, SP"
 date: "May 13, 2020"
 release: "Team PSD 2.0"
 output: 
