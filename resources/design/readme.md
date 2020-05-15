@@ -4,7 +4,7 @@
 # Team PSD 2.0 
 
 User-centered participatory learning and design of **Team PSD 2.0**.
-- **Team PSD 2.0** is more scalable due to continuous integration, deployment and documention.
+- **Team PSD 2.0** is more scalable due to continuous integration, deployment and documentation.
 - We aim for a completely free, accessible, transparent and reproducible workflow (aka **"open science"**).
 - **Our mission** to improve how healthcare quality improvement decisions are made enlists diverse team members and partners.
 - We want to **empower** effective contributions from all potential stakeholders.
@@ -18,10 +18,10 @@ User-centered participatory learning and design of **Team PSD 2.0**.
     - shared decision-making
 
 ## Schedule: Team PSD is using our **may_epic** to reboot Team PSD.
-- **Week 1:** HQ, quant and Sim UI/Model workgroups develope user personas.
+- **Week 1:** HQ, quant and Sim UI/Model workgroups developed user personas.
 - **Week 2:** HQ, quant and Sim UI/Model develop hypotheses for testing prototypes (or fast and cheap minimum viable products) for these user personas. 
   - During week 2, we will use prototyping with personas to identify the upgraded/integrated/automated workflows that follow the _pareto principle_.
-  - To maximize the value of what we learn to build, we are identifying CI/CD fixes at a root level (20%) that will solve our 80% of our users' workflow painpoints.
+  - To maximize the value of what we learn to build, we are identifying CI/CD fixes at a root level (20%) that will solve our 80% of our users' workflow pain points.
 
 - **Week 3:** HQ (#1192 **Team PSD Manual**) and Quant (**R21 Wrap-up**) set up their 20% Team PSD 2.0 workflow independently.
 - **Week 4:** Finish user persona/testing work.
