@@ -80,6 +80,8 @@ The MVP hypothesis testing process relies on the personas - but we have a **subs
 - [ ] detailed_documentation_needed_recent_github_devotee
 - [ ] efficient_value_added_highly_standardized
 - [ ] multistretch_standardize
+
+
 **Mental Models**
 Using the existing **user persona library**
 - Prototype with current personas in mind
