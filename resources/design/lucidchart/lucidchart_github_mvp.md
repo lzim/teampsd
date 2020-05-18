@@ -48,20 +48,18 @@ Guiding MVP learning/development an _iterative design process across the team_ t
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/lucidchart_github_ci_process.png" height = "600" width = "600">
      
 
-#### Resources & Assumptions: 
-- **Resources**
+### Resources & Assumptions: 
+
+#### Resources
 ### 1. MS Teams > Design > Persona 
 ### 2. Prototyping Wiki - instructions &  develop/refine hypotheses
 ### 3. [Map](https://app.lucidchart.com/documents/view/66445ce8-04fd-44e7-920c-d429aa25d441)
-- **Assumptions**:
+#### Assumptions & Pain Points
 Clarify all - to make sure users can create, edit/update a LucidCharts flow-maps at scale and asynchronously.
-### 1. User pain points
-
 **Documentation**
 - Have a need for up to the minute documentation - latest version - that supports TeamPSD members
 - Want a way to update documentation that is in real time without manual changes to each document that has a link to a map
 - Want TeamPSD members to be able to make contributions themselves to a map and have those changes be reflected in relevant documentation
-
 **Scale**
 - Need to scale the use of maps to contribute to documentation and to orient users by having all users know how to make a map and bring it to GitHub. 
 _ Currently users don't know how to make maps and how to bring them into GitHub
@@ -72,10 +70,9 @@ _ Users that know how to make maps - are not using a consistent approach and it 
 (iv)  Connector symbol are incorrect in many maps - need to standardize the process - leading to mistakes
 (v)   Maps are not brand consisten or use logo appropriately.
 (Vi)  Naming of process is inconsistent - no convention and/or organization (will worsen when links need to use)
-
-**Considerations**:
-- **Persona Privacy** - The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accomodate for **candor** but having some **perona maps** on LucidChart.
-- **Personas**
+**Considerations & Persona Privacy**
+The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accomodate for **candor** but having some **perona maps** on LucidChart.
+**Current Personas**
 - [ ] busy_forward_thinking
 - [ ] fast_learner_need_for_transparency
 - [ ] independent_guidance_when_needed
@@ -83,24 +80,72 @@ _ Users that know how to make maps - are not using a consistent approach and it 
 - [ ] detailed_documentation_needed_recent_github_devotee
 - [ ] efficient_value_added_highly_standardized
 - [ ] multistretch_standardize
-
 **Mental Models**
 Using the existing **user persona library**
 - Prototype with current personas in mind
 - Expand the current personas to include **Jane and Debbie** next.
-
 **Account for Learning**
 - Prototyping must account for user learning - how to become comfortable with LucidChart to a level that enables creation of maps and adding them to GitHub
 - Include **commensurate video think aloud protocol** to refine instructions for different user personas.
 - Aim that everyone can make an effective, continuous integrated GitHub/Lucid Chart contributions themselves by end of May.
 
 
-# Process 
+## Cognitive Interview & Screen Casting
+**CTA Think ALoud**
+Test ability to build on existing LucidChart knowledge by adding integration to GitHub forked TeamPSD repo. Think of the average use - don't use pro account. Test if I can teach my self - link GitHub forked repo and LucidChart. Prototype of prototype LucidChart & GitHub continuous integration to improve the Team PSD 2.0 workflow. Final prototypes can be added by pull-requests to other users repos.
+
+**Problem & Hypothesis for Solution**: Team PSD pain points include: Being able to orient themselves to the workflow of TeamPSD and the need for documentation to support this. Need for companion visual guides / maps to orient TeamPSD users to the workflow. Current approach is labor and cost intensive - process involves manual updates to LucidChart documents every time changes are made to the TeamPSD documentation.
+
+**Hypothesis**: Team & I need to scale up the use of flow maps to improve user documentation. CTA Prototype Video on Youtube
+CTA Prototype for Persona on MS Teams.  CTA Prototype for Persona - Need Detailed Documentation:
+
+**Week 2 & Day 1**:
+Trying to implement the LucidChart & GitHub integration myself.
+Unsure how the process is going to work - seems simple - but not sure
+Need to have links that update in real time - maps that open - not hyper links
+Suggestions from Marketplace of a connector to solve the pain point.
+
+**Week 2 & Day 2**:
+Found a connector and implemented it - no working solution that meets my needs
+Unsure if connecting on LucidChart also connects on GitHub
+Not all able to see all the repos
+Not able to create issues in own repo
+Links to LucidChart remain - no map presenting itself.
+
+**Week 2 & Day 3**:
+Problems persist - no solution that seems to be effective.
+Discussed with others and watched videos and read documentation
+Created a new repo and was able to generate issues - able to paste a link but maps not opening
+Played around with repo and making it private enabled the links to be displayed.
+Error occurred when repo was made public
+Not sure how current prototype is going to work for members that are using public repos
+
+**Week 2 & Day 4**:
+Contacted LucidChart for support and send several emails and screen shots of errors.
+They provided some guidance but were unsure of the true functionality of the connector they have on marketplace.
+Changes made to a map are not reflected within the published link - problem remains unsolved in part.
+
+**Recording prototype video**:
+By recording realized that the links take a long time to open and that changes are not reflected rapidly enough.
+Need to consider these hurdles in light of the personas on the team (e.g. busy_pi)
+
+## Documentation for Personas
+Need to write a detailed guide on what I did and how I did it for other personas.
+**Questions**:
+Could all the personas use my instructions? Particularly those in qual team or less familiar with maps in general? Do I have templates that are correct or useful? In my experience working with others on LucidChart - they find the platform frustrating and hard to learn.
+**Instructions to Personas & Order or Operations**
+Make a guide for other user personas - that includes:
+1. How they think
+2. Why they may use LucidCharts
+3. When they might use the maps
+4. Where - grants / presentations/etc.
+
+## Process 
 - The process of linking LucidChart maps and GitHub needs to be made within issues or pull requests - using published links provided by LucidChart 
 - Guidance on [LucidChart](https://www.lucidchart.com/blog/lucidchart-for-github) and GitHub recommended  the [LucidChart Connector information](https://github.com/marketplace/lucidchart-connector)  
 
-## Process for Proposed LucidChart & GitHub Integration and MVP 
-- [ ] Fork TeamPSD Repo
+## Instructions for Proposed LucidChart & GitHub Integration 
+- [ ]  Fork TeamPSD Repo
 - [ ]  Go to GitHub market place and use GitHub app for integration labelled [LucidChart Connector](https://www.lucidchart.com/pages/integrations/github) and follow prompts to install & configure 
 - [ ] Within your forked repo create an issue to follow the process of linking LucidChart maps and GitHub within issues or pull requests - using the published links provided by LucidChart 
 - [ ] Configuration for this forked repo did work
