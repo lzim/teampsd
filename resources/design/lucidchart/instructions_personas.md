@@ -103,9 +103,10 @@ In order to work asynchronously you will need to:
 ### Integration LucidChart & GitHub 
 - Already done for all users 
 
-### Creating & Inserting Flow Maps in GitHub**
+### Creating & Inserting Flow Maps in GitHub
 ### 1. Log in to LucidChart 
 - Use the main TeamPSD account and log in details
+- Details in TeamPSD folder
 
 ### 2. Creating a Flow Map
 - Choose from the existing [templates](https://app.lucidchart.com/documents#/templates?folder_id=home)
