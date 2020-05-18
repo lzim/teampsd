@@ -44,7 +44,12 @@ Make a guide for other user personas - that includes:
 
 
 
-## Instructions for Proposed LucidChart & GitHub Integration for busy_forward_thinking or fast_learner_need_for_transparency or multistretch_standardize or independent_guidance_when_needed
+## Instructions for Proposed LucidChart & GitHub Integration for More Familiar User:
+
+### busy_forward_thinking
+### fast_learner_need_for_transparency 
+### multistretch_standardize
+### independent_guidance_when_needed
 
 ### Flow Maps & Documentation
 If you need a flow map to enhance your work in GitHub your options are:
@@ -76,7 +81,10 @@ OR
 - Link will turn into a flow map within 1-2 minutes.
 
 
-## Instructions for Proposed LucidChart & GitHub Integration for integration_language_expert or efficient_value_added_highly_standardized or Jane or Debbie
+## Instructions for Proposed LucidChart & GitHub Integration for Less Familiar Users
+### integration_language_expert
+### efficient_value_added_highly_standardized
+### Jane or Debbie
 
 If you need a flow map to enhance your work in GitHub your options are:
 ### 1. Create a new map using a template [LucidChart](https://app.lucidchart.com/documents#/templates?folder_id=home)
