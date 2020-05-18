@@ -130,3 +130,10 @@ Changes made to a map are not reflected within the published link - problem rema
 **Recording prototype video**:
 By recording realized that the links take a long time to open and that changes are not reflected rapidly enough.
 Need to consider these hurdles in light of the personas on the team (e.g. busy_pi)
+
+**Week 3 & Day 5**:
+Peristent issues with maps updating in real time and reflecting changes made on LucidChart in GitHub. Contacted GitHub support again. 
+Recorded several videos on how to use LucidChart to make:
+### 1. a flow map using an existing template
+### 2. creat ia new document without a template
+### 3. using a document to generate a template
