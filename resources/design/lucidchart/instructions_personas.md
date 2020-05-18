@@ -44,7 +44,7 @@ Make a guide for other user personas - that includes:
 
 
 
-## Instructions for Proposed LucidChart & GitHub Integration for busy_forward_thinking
+## Instructions for Proposed LucidChart & GitHub Integration for busy_forward_thinking or fast_learner_need_for_transparency or multistretch_standardize or independent_guidance_when_needed
 
 ### Flow Maps & Documentation
 If you need a flow map to enhance your work in GitHub your options are:
@@ -76,32 +76,54 @@ OR
 - Link will turn into a flow map within 1-2 minutes.
 
 
+## Instructions for Proposed LucidChart & GitHub Integration for integration_language_expert or efficient_value_added_highly_standardized or Jane or Debbie
 
+If you need a flow map to enhance your work in GitHub your options are:
+### 1. Create a new map using a template [LucidChart](https://app.lucidchart.com/documents#/templates?folder_id=home)
+OR
+### 2. Link an existing flow map into a markdown document [example](https://app.lucidchart.com/documents/edit/5fb53911-fd04-466f-b419-83b34ebb8544/0_0).
 
+In order to be able to bring maps into your documentation you will need to:
+### 3. Configure (get two applications to work together) you will need a connector or API (Application Programming Interface).  
+In order to work asynchronously you will need to:
+### 4. Create your forked repo (your version of the TeamPSD Repo)
+- See video on how to do this
+- Log in to GitHub
+- Select the **fork** sign on the top right hand side
+- Label your repo (e.g. debbie_sandbox)
+- Ensure that all the setting are in the **Features** include **issues** as the **published links** from **LucidChart** need to be inserted into an **issue** or **pull request**
 
-
-Fork TeamPSD Repo
-- [ ]  Go to GitHub market place and use GitHub app for integration labelled [LucidChart Connector](https://www.lucidchart.com/pages/integrations/github) and follow prompts to install & configure 
-- [ ] Within your forked repo create an issue to follow the process of linking LucidChart maps and GitHub within issues or pull requests - using the published links provided by LucidChart 
-- [ ] Configuration for this forked repo did work
-
-## Within TeamPSD 
-- [ ] Attempted the process of adding the published links provided by LucidChart to an issue on TeamPSD Repo
-- [ ] Realize that the configuration did work for this Repo
-
-## Entire Team Solution 
-### Step 1 - Log in to GitHub
-### Step 2 Got to Market Place & Search for LucidChart
+### Integration Your Repo in GitHub to LucidChart
+- See video on how to do this
+- Within your forked repo of [TeamPSD](https://github.com/lzim/teampsd) 
+- Go to GitHub market place at the top of the navigation bar and search for [LucidChart Connector](https://www.lucidchart.com/pages/integrations/github) and follow prompts to install & configure 
+- You will need to give GitHub access to your repo
 ![image](https://user-images.githubusercontent.com/54862187/81884965-2f31c500-954e-11ea-913d-9c91c33c5155.png)
-### Step 3 Select Configure Access to your forked TeamPSD repo
 
-## Guidance for TeamPSD Users
-## Generating Published Links in LucidChart
-- [ ] **Open** a LucidChart document of interest
-- [ ] Select **Share**
-- [ ] Select **Advanced**
-- [ ] Select **Publish**
-- [ ] Select **Generate Publish Link**
-- [ ] Copy **Published Link** by selecting the **blue paperclip** and paste link into GitHub Issue or pull request
+### Integration LucidChart & GitHub 
+- Already done for all users 
+
+### Creating & Inserting Flow Maps in GitHub**
+### 1. Log in to LucidChart 
+- Use the main TeamPSD account and log in details
+
+### 2. Creating a Flow Map
+- Choose from the existing [templates](https://app.lucidchart.com/documents#/templates?folder_id=home)
+- Generate your flow map using the content of the template.
+- Save your flow diagram 
+
+### 3. Linking and Existing Flow Map
+- Open the existing map you want to add to your document (edit/add) 
+- Save your flow diagram 
+
+### 4. Generating a Published Link for Any Flow Map
+- Open a LucidChart document of interest
+- Select **Share**
+- Select **Advanced**
+- Select **Publish**
+- Select **Generate Publish Link**
+- Copy **Published Link** by selecting the **blue paperclip** and paste link into GitHub Issue or pull request
+- Paste link into GitHub Issue or pull request
+- Link will turn into a flow map within 1-2 minutes.
 
 
