@@ -97,7 +97,7 @@ Using the existing **user persona library**
 
 # Process 
 - The process of linking LucidChart maps and GitHub needs to be made within issues or pull requests - using published links provided by LucidChart 
-- Guidance on LucidChart (https://www.lucidchart.com/blog/lucidchart-for-github) and GitHub recommended  the [LucidChart Connector information](https://github.com/marketplace/lucidchart-connector)  
+- Guidance on [LucidChart](https://www.lucidchart.com/blog/lucidchart-for-github) and GitHub recommended  the [LucidChart Connector information](https://github.com/marketplace/lucidchart-connector)  
 
 ## Process for Proposed LucidChart & GitHub Integration and MVP 
 - [ ] Fork TeamPSD Repo
