@@ -55,25 +55,31 @@ Guiding MVP learning/development an _iterative design process across the team_ t
 ### 3. [Map](https://app.lucidchart.com/documents/view/66445ce8-04fd-44e7-920c-d429aa25d441)
 
 - **Assumptions**:
+Clarify all - to make sure users can create, edit/update a LucidCharts flow-maps at scale and asynchronously.
+
 ### 1. User pain points
+**Documentation**
+- Have a need for up to the minute documentation - latest version - that supports TeamPSD members
+- Want a way to update documentation that is in real time without manual changes to each document that has a link to a map
+- Want TeamPSD members to be able to make contributions themselves to a map and have those changes be reflected in relevant documentation
+
+
+**Scale**
+- Need to scale the use of maps to contribute to documentation and to orient users by having all users know how to make a map and bring it to GitHub. 
+_ Currently users don't know how to make maps and how to bring them into GitHub
+_ Users that know how to make maps - are not using a consistent approach and it leads to frustration and re-work. Issues include:
+(i)    Need consistent look and feel maps on GitHub (colors, fonts, choice of process, etc.).
+(ii)  Currently multiple templates on LucidChart - unsure which to use.
+(iii) Maps have (a) inconsistent naming conventions and organization (this will be more and more problematic with links)
+(iv)  Connector symbol are incorrect in many maps - need to standardize the process - leading to mistakes
+(v)   Maps are not brand consisten or use logo appropriately.
+(Vi)  Naming of process is inconsistent - no convention and/or organization (will worsen when links need to use)
+
+**Persona Privacy**
+The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accomodate for **candor** but having some **perona maps** on LucidChart.
+
+
 ### 2. Mental models
-
-
-
-Here are some of **assumptions** that I see you made already at this point of your prototype that should have been checked out with users before proceeding to avoid rework:
-
-1. We definitely do not want these **non-PSD style** maps on GitHub!  
-	- The major team pain point is getting the **Lucid** <> **GitHub** continuous integration standardized and accessible for all Team PSD users to contribute _themselves_).
-	- We need to **scale** Lucid contributions, **but folks can’t tell how to do so.** It’s frustrating and leads to re-work!
-		- **User POV Lucid Chart Scale Problems we’ve discussed:** 
-			- Multiple templates, 
-			- Inconsistent naming conventions and organization (this will be more and more problematic with links),
-			- Connector symbol mistakes on the account, 
-			- Use of the non-brand dark red remains, etc. that 
-**all needs to be cleaned up, to make sure anyone can create, edit/update a Lucid Charts flow map asynchronously at scale.**)
-
-2. There is also **a significant problem:** Keeping our **_persona_** resources **private:**
-	- Remove these links immediately!
 
 3. Use your **GitHub** branches to **_prototype_** with other users. 
 	- **Prototypes are handled with pull-requests to other users repos.** 
