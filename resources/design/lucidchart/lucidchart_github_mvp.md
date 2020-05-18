@@ -26,16 +26,16 @@ Test ability to build on existing LucidChart knowledge by adding integration to 
 # Problem & Hypothesis for Solution
 
 ### Team PSD pain points include:
-- Being able to orient themselves to the workflow of TeamPSD and the need for documentation to support this
-- Need for companion visual guides / maps to orient TeamPSD users to the workflow 
-- Current approach is labor and cost intensive - process involves manual updates to LucidChart documents every time changes are made to the TeamPSD documentation
+- Being able to orient themselves to the workflow of TeamPSD and the need for documentation to support this.
+- Need for companion visual guides / maps to orient TeamPSD users to the workflow. 
+- Current approach is labor and cost intensive - process involves manual updates to LucidChart documents every time changes are made to the TeamPSD documentation.
 
 ### Possible Solution 
-- Team currently uses LucidChart as the platform of chooice to design visual representations of our workflow and platforms
-- Several users manually create maps that are used to enhance documentation within TeamPSD
+- Team currently uses LucidChart as the platform of chooice to design visual representations of our workflow and platforms.
+- Several users manually create maps that are used to enhance documentation within TeamPSD.
 - The process is currently cumbersome and inconsistent. We have developed basic templates with suggeted guidance of colors and shapes - but the process remains inconsistent and out of date.
 - We need to update in real time changes to documentation and TeamPSD guides that rely on the use of LucidChart maps to orient users (e.g. ZenHub).
-- We currently use GitHUb for all documentation and are using existing resources to compile a TeamPSD manual
+- We currently use GitHUb for all documentation and are using existing resources to compile a TeamPSD manual.
 - A possible MVP prototype that integraties our two platforms GitHub and LucidChart for updating documentation guides and training manuals would relieves the team's pain point of real time updates. 
 
 ### Research Solution in GitHub Market Place
@@ -43,6 +43,9 @@ Test ability to build on existing LucidChart knowledge by adding integration to 
 
 ### User-Centered Hypotheses
 Guiding MVP learning/development an _iterative design process across the team_ to avoid rework with a focus of the [_Pareto Principle_](https://betterexplained.com/articles/understanding-the-pareto-principle-the-8020-rule/) **80/20 rule** in parallel with everyone else’s **distributed** prototyping work.
+
+https://app.lucidchart.com/documents/view/66445ce8-04fd-44e7-920c-d429aa25d441
+
 
 - **Resources & Assumptions**:  
 - **Resources**
@@ -53,8 +56,6 @@ Guiding MVP learning/development an _iterative design process across the team_ t
 ### 2. Mental models
 
 
-
-- empathy <> define <> ideate <> prototype <> test
 
 Here are some of **assumptions** that I see you made already at this point of your prototype that should have been checked out with users before proceeding to avoid rework:
 
