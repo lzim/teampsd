@@ -21,9 +21,9 @@ output:
 
 
 **Objective of MVP of LucidChart and GitHub** 
-Test ability to build on existing LucidChart knowledge by adding integration to GitHub forked TeamPSD repo. Think of the average use - don't use pro account. Test if I can teach my self - link GitHub forked repo and LucidChart. Prototype of LucidChart & GitHUb for Team PSD continuous integration to improve the Team PSD 2.0 workflow.
+Test ability to build on existing LucidChart knowledge by adding integration to GitHub forked TeamPSD repo. Think of the average use - don't use pro account. Test if I can teach my self - link GitHub forked repo and LucidChart. Prototype of prototype **LucidChart & GitHub** continuous integration to improve the Team PSD 2.0 workflow. Final prototypes can be **added by pull-requests to other users repos**.   
 
-# Problem & Hypothesis for Solution
+## Problem & Hypothesis for Solution
 
 ### Team PSD pain points include:
 - Being able to orient themselves to the workflow of TeamPSD and the need for documentation to support this.
@@ -48,21 +48,19 @@ Guiding MVP learning/development an _iterative design process across the team_ t
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/lucidchart_github_ci_process.png" height = "600" width = "600">
      
 
-- **Resources & Assumptions**:  
+#### Resources & Assumptions: 
 - **Resources**
 ### 1. MS Teams > Design > Persona 
 ### 2. Prototyping Wiki - instructions &  develop/refine hypotheses
 ### 3. [Map](https://app.lucidchart.com/documents/view/66445ce8-04fd-44e7-920c-d429aa25d441)
-
 - **Assumptions**:
 Clarify all - to make sure users can create, edit/update a LucidCharts flow-maps at scale and asynchronously.
-
 ### 1. User pain points
+
 **Documentation**
 - Have a need for up to the minute documentation - latest version - that supports TeamPSD members
 - Want a way to update documentation that is in real time without manual changes to each document that has a link to a map
 - Want TeamPSD members to be able to make contributions themselves to a map and have those changes be reflected in relevant documentation
-
 
 **Scale**
 - Need to scale the use of maps to contribute to documentation and to orient users by having all users know how to make a map and bring it to GitHub. 
@@ -75,24 +73,32 @@ _ Users that know how to make maps - are not using a consistent approach and it 
 (v)   Maps are not brand consisten or use logo appropriately.
 (Vi)  Naming of process is inconsistent - no convention and/or organization (will worsen when links need to use)
 
-**Persona Privacy**
-The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accomodate for **candor** but having some **perona maps** on LucidChart.
+**Considerations**:
+- **Persona Privacy** - The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accomodate for **candor** but having some **perona maps** on LucidChart.
+- **Personas**
+- [ ] busy_forward_thinking
+- [ ] fast_learner_need_for_transparency
+- [ ] independent_guidance_when_needed
+- [ ] integration_language_expert
+- [ ] detailed_documentation_needed_recent_github_devotee
+- [ ] efficient_value_added_highly_standardized
+- [ ] multistretch_standardize
+
+**Mental Models**
+Using the existing **user persona library**
+- Prototype with current personas in mind
+- Expand the current personas to include **Jane and Debbie** next.
+
+**Account for Learning**
+- Prototyping must account for user learning - how to become comfortable with LucidChart to a level that enables creation of maps and adding them to GitHub
+- Include **commensurate video think aloud protocol** to refine instructions for different user personas.
+- Aim that everyone can make an effective, continuous integrated GitHub/Lucid Chart contributions themselves by end of May.
 
 
-### 2. Mental models
-
-3. Use your **GitHub** branches to **_prototype_** with other users. 
-	- **Prototypes are handled with pull-requests to other users repos.** 
-	- _Which users are testing asynchronously and in parallel, whether they can use your instructions to establish bidirectional GitHub <> Lucid Charts?_
-	- **Jane and Debbie** need to be oriented next week on this, _have you prototyped enough with the existing **user persona library** to be ready to expand to these users?_
-
-4. Since we want to make sure that all users can update their Lucid Charts in a style consistent way **your prototyping must account for user learning:**
-	- Review your **concurrent video think aloud protocol observation** to refine user instructions for doing so are clear
-	- Ideally since we’re at the end of week 2, you aim to be clear about the **80/20 approach that the team will learn over the new couple weeks, so that everyone can make an effective, continuous integrated GitHub/Lucid Chart contributions themselves.**
-
-### Process 
+# Process 
 - The process of linking LucidChart maps and GitHub needs to be made within issues or pull requests - using published links provided by LucidChart 
 - Guidance on LucidChart (https://www.lucidchart.com/blog/lucidchart-for-github) and GitHub recommended  the [LucidChart Connector information](https://github.com/marketplace/lucidchart-connector)  
+
 ## Process for Proposed LucidChart & GitHub Integration and MVP 
 - [ ] Fork TeamPSD Repo
 - [ ]  Go to GitHub market place and use GitHub app for integration labelled [LucidChart Connector](https://www.lucidchart.com/pages/integrations/github) and follow prompts to install & configure 
@@ -121,6 +127,4 @@ The MVP hypothesis testing process relies on the personas - but we have a **subs
 - [ ] Select **Generate Publish Link**
 - [ ] Copy **Published Link** by selecting the **blue paperclip** and paste link into GitHub Issue or pull request
 
-
-Want to contribute? Great!
 
