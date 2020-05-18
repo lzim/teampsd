@@ -44,13 +44,16 @@ Test ability to build on existing LucidChart knowledge by adding integration to 
 ### User-Centered Hypotheses
 Guiding MVP learning/development an _iterative design process across the team_ to avoid rework with a focus of the [_Pareto Principle_](https://betterexplained.com/articles/understanding-the-pareto-principle-the-8020-rule/) **80/20 rule** in parallel with everyone else’s **distributed** prototyping work.
 
-https://app.lucidchart.com/documents/view/66445ce8-04fd-44e7-920c-d429aa25d441
 
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/lucidchart_github_ci_process.png" height = "600" width = "600">
+     
 
 - **Resources & Assumptions**:  
 - **Resources**
 ### 1. MS Teams > Design > Persona 
 ### 2. Prototyping Wiki - instructions &  develop/refine hypotheses
+### 3. [Map](https://app.lucidchart.com/documents/view/66445ce8-04fd-44e7-920c-d429aa25d441)
+
 - **Assumptions**:
 ### 1. User pain points
 ### 2. Mental models
