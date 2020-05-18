@@ -134,6 +134,6 @@ Need to consider these hurdles in light of the personas on the team (e.g. busy_p
 **Week 3 & Day 5**:
 Peristent issues with maps updating in real time and reflecting changes made on LucidChart in GitHub. Contacted GitHub support again. 
 Recorded several videos on how to use LucidChart to make:
-### 1. a flow map using an existing template
-### 2. creat ia new document without a template
-### 3. using a document to generate a template
+1. flow map using an existing template
+2. creat ia new document without a template
+3. using a document to generate a template
