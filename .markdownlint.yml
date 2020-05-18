@@ -9,6 +9,7 @@
   # These lines ensure what folder(s) Markdownlint should be avoiding
   "markdownlint.ignore": [
         "mtl_facilitate_workgroup/*.md"
+        "ees_workgroup/master_brochures/*.md"
     ]
     
 }
