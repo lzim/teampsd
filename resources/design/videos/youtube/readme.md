@@ -17,10 +17,13 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# YouTube Video CTA Library for Team PSD 2.0 - Participatory Learning and Design _at Scale_
+# Add to the Team PSD 2.0 YouTube Video Library 
+
+Team PSD user persona video "cognitive think alouds" (CTAs) started with the Team PSD 2.0 Reboot in May 2020.
+Our goal: Team PSD Participatory Learning, Design and Research _at Scale_
 
 ### Instructions
-**Post user-persona videos** testing Team PSD prototypes (aka MVPs: 'minimum viable products') to **YouTube.**
+**Post user persona videos** testing Team PSD prototypes (aka MVPs: 'minimum viable products') to **YouTube.**
 
 ### Step 1 - Create a Google Account
 If you don’t already have an account **Select this link** to create a Google account
@@ -28,7 +31,7 @@ If you don’t already have an account **Select this link** to create a Google a
 [https://accounts.google.com/SignUpWithoutGmail](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp&nogm=true)
 - A Gmail is not required to sign up.
 - This email is only used to login and will not be public.
-- Uploaded user-persona videos will be posted under the Brand Account **LZPhD**.
+- Uploaded user persona videos will be posted under the Brand Account **LZPhD**.
 
 ### Step 2 - Share Email with Brand Account Manager
 - **Share the email** associated with your Google account with a **brand account manager** to process an invitation.
@@ -68,7 +71,7 @@ If you don’t already have an account **Select this link** to create a Google a
    
    - **You are now a manager** Congratulations!
 
-### Step 4 - Upload User-Persona Video
+### Step 4 - Upload User Persona Video
 
   - **Select** Get started.
   
@@ -93,7 +96,7 @@ If you don’t already have an account **Select this link** to create a Google a
   - **Select** Upload video.
 <img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_uploadvideo.png" width="300">
 
-  - Find the user-persona video file you’d like to upload. 
+  - Find the user persona video file you’d like to upload. 
 
 ### Step 5 - Video Details During Upload 
 
@@ -121,7 +124,7 @@ If you don’t already have an account **Select this link** to create a Google a
   
 ### Step 6 - Speed Up or Slow Down YouTube Viewing
 
-  - While viewing your user-persona video in YouTube, **click** the gear icon located on the bottom right.
+  - While viewing your user persona video in YouTube, **click** the gear icon located on the bottom right.
 
   - **Select** the “Speed” option.
   
