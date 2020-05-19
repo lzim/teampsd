@@ -123,7 +123,8 @@ If you don’t already have an account **Select this link** to create a Google a
   - While viewing your video in YouTube, **click** the gear icon located on the bottom right.
 
   - **Select** the “Speed” option.
+  
+  <img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_speed_lrg.png" width="300">
 
   -	**Choose** a range of speeds.
   
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_speed_lrg.png" width="300">
