@@ -75,8 +75,6 @@ If you don’t already have an account **Select this link** to create a Google a
 <img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_getstarted_lrg.png" width="300">
 
   - **Select** the YouTube red icon.
-  
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_redicon_lrg.png" width="300">
 
   - Your YouTube dashboard will open up.
 
