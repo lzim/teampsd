@@ -20,7 +20,7 @@ output:
 # Add to the Team PSD 2.0 YouTube Video Library 
 
 Team PSD user persona video "cognitive think alouds" (CTAs) started with the Team PSD 2.0 Reboot in May 2020.
-Our goal: Team PSD Participatory Learning, Design and Research _at Scale_
+- _Our Open Science Commitment_: Team PSD Participatory Learning, Design and Research _at Scale_
 
 ### Instructions
 **Post user persona videos** testing Team PSD prototypes (aka MVPs: 'minimum viable products') to **YouTube.**
