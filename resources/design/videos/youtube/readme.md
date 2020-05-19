@@ -28,7 +28,7 @@ If you don’t already have an account **Select this link** to create a Google a
 [https://accounts.google.com/SignUpWithoutGmail](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp&nogm=true)
 - A Gmail is not required to sign up.
 - This email is only used to login and will not be public.
-- Uploaded screencasts will post under the Brand Account **LZPhD**.
+- Uploaded user-persona videos will be posted under the Brand Account **LZPhD**.
 
 ### Step 2 - Share Email with Brand Account Manager
 - **Share the email** associated with your Google account with a **brand account manager** to process an invitation.
@@ -68,7 +68,7 @@ If you don’t already have an account **Select this link** to create a Google a
    
    - **You are now a manager** Congratulations!
 
-### Step 4 - Upload Screencast
+### Step 4 - Upload User-Persona Video
 
   - **Select** Get started.
   
@@ -93,7 +93,7 @@ If you don’t already have an account **Select this link** to create a Google a
   - **Select** Upload video.
 <img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_uploadvideo.png" width="300">
 
-  - Find the screencast file you’d like to upload. 
+  - Find the user-persona video file you’d like to upload. 
 
 ### Step 5 - Video Details During Upload 
 
@@ -121,7 +121,7 @@ If you don’t already have an account **Select this link** to create a Google a
   
 ### Step 6 - Speed Up or Slow Down YouTube Viewing
 
-  - While viewing your video in YouTube, **click** the gear icon located on the bottom right.
+  - While viewing your user-persona video in YouTube, **click** the gear icon located on the bottom right.
 
   - **Select** the “Speed” option.
   
