@@ -44,17 +44,25 @@ If you don’t already have an account **Select this link** to create a Google a
    [https://myaccount.google.com/brandaccounts](https://myaccount.google.com/brandaccounts)
 
    - **Click** Pending invitations.
+   
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_pendinginvitation_lrg.png" width="300">
 
    - **Select** LZPhD.
 
    - **Accept invitation**.
+   
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_becomemanager_lrg.png" width="300">
 
    - **Scroll down**: "Act as LZPhD on": 
     **Select** the YouTube red icon.
     
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_redicon_lrg.png" width="300">
+    
    - **Navigate** to the inbox associated with your Google account.
    
    - You will see a confirmation in your inbox that reads, "You are now a manager of LZPhD".
+   
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_email_lrg.png" width="300">
    
    - **Select** the new email. 
    
@@ -63,10 +71,14 @@ If you don’t already have an account **Select this link** to create a Google a
 ### Step 4 - Upload Screencast
 
   - **Select** Get started.
+  
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_getstarted_lrg.png" width="300">
 
   - **Select** the YouTube red icon.
+  
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_redicon_lrg.png" width="300">
 
-  - This will open up your YouTube dashboard.
+  - Your YouTube dashboard will open up.
 
   - **Navigate to the top right** and **select** your circular profile pic.
 
@@ -74,7 +86,9 @@ If you don’t already have an account **Select this link** to create a Google a
 
   - **Select** LZPhD.
 
-  - On the top right, **Select** the video camera + icon (Create). 
+  - On the top right, **Select** the video camera + icon (Create).
+  
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_video_icon_lrg.png" width="300">
 
   - **Select** Upload video.
 
@@ -112,4 +126,6 @@ If you don’t already have an account **Select this link** to create a Google a
 
   - **Select** the “Speed” option.
 
-  -	**Choose** a range of speeds. 
+  -	**Choose** a range of speeds.
+  
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_speed_lrg.png" width="300">
