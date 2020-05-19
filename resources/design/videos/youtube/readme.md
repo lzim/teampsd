@@ -81,20 +81,19 @@ If you don’t already have an account **Select this link** to create a Google a
   - Your YouTube dashboard will open up.
 
   - **Navigate to the top right** and **select** your circular profile pic.
+  
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_videobar.png" width="300">
 
   - From the drop-down menu, **select switch accounts**.
 
   - **Select** LZPhD.
 
   - On the top right, **Select** the video camera + icon (Create).
-  
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_video_icon_lrg.png" width="300">
 
   - **Select** Upload video.
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_uploadvideo.png" width="300">
 
   - Find the screencast file you’d like to upload. 
-
-  - **Scroll down** and **follow along** to view the page details. 
 
 ### Step 5 - Video Details During Upload 
 
