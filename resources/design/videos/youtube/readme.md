@@ -22,3 +22,94 @@ output:
 ### Instructions
 **Post user-persona videos** testing Team PSD prototypes (aka MVPs: 'minimum viable products') to **YouTube.**
 
+### Step 1 - Create a Google Account
+If you don’t already have an account **Select this link** to create a Google account
+
+[https://accounts.google.com/SignUpWithoutGmail](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp&nogm=true)
+- A Gmail is not required to sign up.
+- This email is only used to login and will not be public.
+- Uploaded screencasts will post under the Brand Account **LZPhD**.
+
+### Step 2 - Share Email with Brand Account Manager
+- **Share the email** associated with your Google account with a **brand account manager** to process an invitation.
+- A **brand account manager** is any manager that already has access to the YouTube channel.
+- **Communicate** through Microsoft Teams.
+
+
+### Step 3 - Manage YouTube Invitation
+
+   - **Login** to your Google account
+  
+   - **Select** this link
+   [https://myaccount.google.com/brandaccounts](https://myaccount.google.com/brandaccounts)
+
+   - **Click** Pending invitations.
+
+   - **Select** LZPhD.
+
+   - **Accept invitation**.
+
+   - **Scroll down**: "Act as LZPhD on": 
+    **Select** the YouTube red icon.
+    
+   - **Navigate** to the inbox associated with your Google account.
+   
+   - You will see a confirmation in your inbox that reads, "You are now a manager of LZPhD".
+   
+   - **Select** the new email. 
+   
+   - **You are now a manager** Congratulations!
+
+### Step 4 - Upload Screencast
+
+  - **Select** Get started.
+
+  - **Select** the YouTube red icon.
+
+  - This will open up your YouTube dashboard.
+
+  - **Navigate to the top right** and **select** your circular profile pic.
+
+  - From the drop-down menu, **select switch accounts**.
+
+  - **Select** LZPhD.
+
+  - On the top right, **Select** the video camera + icon (Create). 
+
+  - **Select** Upload video.
+
+  - Find the screencast file you’d like to upload. 
+
+  - **Scroll down** and **follow along** to view the page details. 
+
+### Step 5 - Video Details During Upload 
+
+ -	Use this naming convention **"date_skill_training_user"** ex: **"2020_05_13_git_ch1_busy_pi"**
+
+ -	A description is not necessary at this time.
+
+ -	No playlist.
+  
+**Audience**
+  -	**Select, Yes, it is made for kids**. This will remove any advertisements. 
+
+  -	**Click Next** advance to next screen
+
+  -	**Click Next**, no video elements at this time.
+  
+
+**Visibility**
+  -	**Select Unlisted** only people with the link can see it.
+
+  -	**Click Save** and your video will continue processing. 
+
+  -	You can safely **logout of YouTube** when your **screencast is fully uploaded.**
+
+  
+### Step 6 - Speed Up or Slow Down YouTube Viewing
+
+  - While viewing your video in YouTube, **click** the gear icon located on the bottom right.
+
+  - **Select** the “Speed” option.
+
+  -	**Choose** a range of speeds. 
