@@ -72,7 +72,7 @@ If you don’t already have an account **Select this link** to create a Google a
 
   - **Select** Get started.
   
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_getstarted_lrg.png" width="300">
+<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_getstarted.png" width="300">
 
   - **Select** the YouTube red icon.
 
