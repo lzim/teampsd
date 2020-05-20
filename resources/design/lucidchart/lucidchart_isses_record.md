@@ -31,12 +31,21 @@ output:
 3. Support and suggested guidance on how to troubleshoot your integration of LucidChart and GitHub will be provided in the issue ticket within 24 hours.
 
 
-# Screen Capture Instructions 
+## Screen Capture Instructions 
 
-## Screen Shots
-### Reminder on how to take screen shots for Mac [users](https://www.wikihow.com/Take-a-Screenshot-on-a-Mac)
+### Screen Shots
+#### Reminder on how to take screen shots for Mac [users](https://www.wikihow.com/Take-a-Screenshot-on-a-Mac)
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_1.png"      height = "478" width = "348">  
 
-### Reminder on how to take screen shots for PC [users](https://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_2.png" 
+height = "488" width = "526">  
+
+#### Reminder on how to take screen shots for PC [users](https://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_1.png"
+height = "688" width = "300">  
+
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_2.png"
+height = "500" width = "300">  
 
 ## _How_ to create Screencast Videos - No Audio 
 
