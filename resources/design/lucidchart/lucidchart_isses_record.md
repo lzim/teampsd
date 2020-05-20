@@ -42,7 +42,7 @@ height = "388" width = "426">
 
 #### Reminder on how to take screen shots for PC [users](https://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_1.png"
-height = "872" width = "732">  
+height = "572" width = "432">  
 
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_2.png"
 height = "500" width = "300">  
