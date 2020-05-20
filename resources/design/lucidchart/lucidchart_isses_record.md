@@ -32,20 +32,20 @@ output:
 
 
 ## Screen Capture Instructions 
+**Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
 ### Screen Shots
 #### Reminder on how to take screen shots for Mac [users](https://www.wikihow.com/Take-a-Screenshot-on-a-Mac)
-<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_1.png"      height = "378" width = "248">  
 
-<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_2.png" 
-height = "388" width = "426">  
+| Mac Screenshot Entire Screen| Mac Screenshot Portion of Screen|
+| -----|-----|
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_1.png" height = "378" width = "248">  | <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_2.png" height = "388" width = "426"> |  
 
 #### Reminder on how to take screen shots for PC [users](https://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
-<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_1.png"
-height = "572" width = "432">  
 
-<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_2.png"
-height = "500" width = "300">  
+| PC Screenshot Option 1 | Pc Screenshot Option 2|
+| -----|-----|
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_1.png" height = "572" width = "432"> |   <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_2.png" height = "595" width = "426"> |  
 
 ## _How_ to create Screencast Videos - No Audio 
 
@@ -59,7 +59,6 @@ The Game DVR feature can capture any application’s window.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/design/videos/pc_screencast.png" width = "600"> 
 
-**Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
 ### Mac
 #### Record any window on your Mac.
