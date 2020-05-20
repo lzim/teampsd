@@ -25,7 +25,7 @@ Instructions to integrate GitHub and LucidChart.
 ### Flow Maps & Documentation
 If you need a flow map to enhance your work in GitHub your options are:
 1. Create a new map using a template [LucidChart](https://app.lucidchart.com/documents#/templates?folder_id=home)
-OR
+- OR
 2. Link an existing flow map into a markdown document [example](https://app.lucidchart.com/documents/edit/5fb53911-fd04-466f-b419-83b34ebb8544/0_0).
 
 
@@ -44,20 +44,20 @@ OR
 - Already done for all users 
 - No action needed
 
-### Creating & Inserting Flow Maps in GitHub**
-1. Log in to LucidChart 
+### Creating & Inserting Flow Maps in GitHub
+**1. Log in to LucidChart** 
 - Use LZ credentials in TeamPSD folder **LucidChart**
 
-2. Creating
+**2. Creating**
 - Choose from the existing [templates](https://app.lucidchart.com/documents#/templates?folder_id=home)
 - Generate your flow map using the content of the template.
 - Save your flow diagram 
 
-3. Linking
+**3. Linking**
 - Open the existing map you want to add to your document (edit/add) 
 - Save your flow diagram 
 
-4. Generating a Published Link
+**4. Generating a Published Link**
 - Select **Share** > **Advanced** > **Publish** > **Generate Publish Link** > Copy **Published Link** (select the **blue paperclip**) > paste link into GitHub Issue or pull request
 - Link will turn into a flow map within 1-2 minutes.
 
