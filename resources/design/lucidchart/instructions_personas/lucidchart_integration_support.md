@@ -28,8 +28,7 @@ output:
 - (ii)  a detailed description of the integration problems or other issues you may be experiencing.
 - (iii) take any screens shots of your integration problems and add them to your issue.
 - (iV) if possible record a screen capture of your integration problem.
-- (a) details on how to make a screen capture below and add details to issue.  
-- (b) if you'd like additional information on screen recording go [here](https://github.com/lzim/teampsd/tree/master/resources/design/videos).
+- (a) details on how to make a screen capture recording [here](https://github.com/lzim/teampsd/tree/master/resources/design/videos) and add details to issue. 
 - (c) instructions on where to upload your videos in our TeamPSD library [here](https://github.com/lzim/teampsd/tree/master/resources/design/videos/youtube)
 3. Support and suggested guidance on how to troubleshoot your integration of LucidChart and GitHub will be provided in the issue ticket within 24 hours.
 
@@ -50,31 +49,3 @@ output:
 | -----|-----|
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_1.png" height = "572" width = "432"> |   <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_2.png" height = "595" width = "426"> |  
 
-## _How_ to create Screencast Videos - No Audio 
-
-### PC
-#### Record any window on your PC.
-The Game DVR feature can capture any application’s window. 
-
-1. **Press Windows + G** in any application on Windows 10. 
-2. **Look for the Game Bar** that will appear. 
-3. **Select “Yes, this is a game”** even if the application isn’t a game. 
-
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/design/videos/pc_screencast.png" width = "600"> 
-
-
-### Mac
-#### Record any window on your Mac.
-
-1. **Press Shift-Command-5**. The _Onscreen Controls_ will appear.
-2. Once the _Onscreen Controls_ appear, click on one of the buttons with the record circle in the bottom right (4th icon from the left - **Record Entire Screen** or 5th icon from the left - **Record Selected Portion**)
-3. **Click the down arrow** under _Options_, located next to the record button.
-4. Under _Microphone_, **select none** to turn off audio recording.
-5. Under _Options_ in the _Onscreen Controls,_ **adjust the recording window,** setup a _Timer_, and where to _Save To_ your recording.
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/design/videos/mac_screencast.png" width = "600"> 
-
-6. In the _Menu Bar_, **click the Stop Recording button** or **press Command-Control-Esc (Escape)** to stop recording.
-
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/design/videos/stop_recording.png" width = "600">
-
-**Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
