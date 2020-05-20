@@ -17,7 +17,7 @@ output:
      height = "200" width = "600">  
 
 
-# LucidChart and GitHub MVP for Continuous Integration Documentation for Personas
+# # Team PSD 2.0 Participatory Learning and Design _at Scale_ - LucidChart and GitHub MVP for Continuous Integration Documentation for Personas
 
 Need to write a detailed guide on what I did and how I did it for other personas.
 **Questions**:
@@ -41,7 +41,6 @@ Make a guide for other user personas - that includes:
 ## Process 
 - The process of linking LucidChart maps and GitHub needs to be made within issues or pull requests - using published links provided by LucidChart 
 - Guidance on [LucidChart](https://www.lucidchart.com/blog/lucidchart-for-github) and GitHub recommended  the [LucidChart Connector information](https://github.com/marketplace/lucidchart-connector)  
-
 
 
 ## Instructions for Proposed LucidChart & GitHub Integration for More Familiar User:
