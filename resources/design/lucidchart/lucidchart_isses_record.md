@@ -35,14 +35,14 @@ output:
 
 ### Screen Shots
 #### Reminder on how to take screen shots for Mac [users](https://www.wikihow.com/Take-a-Screenshot-on-a-Mac)
-<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_1.png"      height = "478" width = "348">  
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_1.png"      height = "378" width = "248">  
 
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_2.png" 
-height = "488" width = "526">  
+height = "388" width = "426">  
 
 #### Reminder on how to take screen shots for PC [users](https://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_1.png"
-height = "688" width = "300">  
+height = "872" width = "732">  
 
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_2.png"
 height = "500" width = "300">  
