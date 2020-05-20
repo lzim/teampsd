@@ -1,8 +1,7 @@
-
 ---
 title: "LucidChart GitHub Integration MVP"
 author: "Rita Hitching"
-date: "RH May 18 2020"
+date: "RH May 20 2020"
 output: 
   github_document: default
   html_document: default
