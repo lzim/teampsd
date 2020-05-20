@@ -26,8 +26,11 @@ output:
 2. In the ticket provide the following details:
 - (i)   persona and name of your repo.
 - (ii)  a detailed description of the integration problems or other issues you may be experiencing.
-- (iii) take any screens shots of your integration problems.
-- (iV) if possible record a screen capture of your integration problem  - details on how to make a screen capture belo.  If you'd like additional information on screen recording go [here](https://github.com/lzim/teampsd/tree/master/resources/design/videos).
+- (iii) take any screens shots of your integration problems and add them to your issue.
+- (iV) if possible record a screen capture of your integration problem.
+- (a) details on how to make a screen capture below and add details to issue.  
+- (b) if you'd like additional information on screen recording go [here](https://github.com/lzim/teampsd/tree/master/resources/design/videos).
+- (c) instructions on where to upload your videos in our TeamPSD library [here](https://github.com/lzim/teampsd/tree/master/resources/design/videos/youtube)
 3. Support and suggested guidance on how to troubleshoot your integration of LucidChart and GitHub will be provided in the issue ticket within 24 hours.
 
 
