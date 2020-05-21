@@ -50,11 +50,12 @@ Guiding MVP learning/development an _iterative design process across the team_ t
 
 ### Resources & Assumptions: 
 
-#### Resources
-### 1. MS Teams > Design > Persona 
-### 2. Prototyping Wiki - instructions &  develop/refine hypotheses
-### 3. [Map](https://app.lucidchart.com/documents/view/66445ce8-04fd-44e7-920c-d429aa25d441)
-#### Assumptions & Pain Points
+### Resources
+1. MS Teams > Design > Persona 
+2. Prototyping Wiki - instructions &  develop/refine hypotheses
+3. [Map](https://app.lucidchart.com/documents/view/66445ce8-04fd-44e7-920c-d429aa25d441)
+
+### Assumptions & Pain Points
 Clarify all - to make sure users can create, edit/update a LucidCharts flow-maps at scale and asynchronously.
 **Documentation**
 - Have a need for up to the minute documentation - latest version - that supports TeamPSD members
