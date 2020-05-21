@@ -38,5 +38,5 @@ output:
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/mtl_basic_flowmap.png"
      height = "412" width = "584">  
      
-## YoutTube Video How to Creat a Flowmap on LucidChart
+## Watch YouTube Video How to Creat a Flowmap on LucidChart
 [<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/youtube_create_flow_map.png" height = "412" width = "584">](https://youtu.be/4Ihee2A7seE)
