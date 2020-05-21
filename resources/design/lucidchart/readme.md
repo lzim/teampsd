@@ -21,7 +21,7 @@ output:
 
 
 **Objective of MVP of LucidChart and GitHub** 
-Test ability to build on existing LucidChart knowledge by adding integration to GitHub forked TeamPSD repo. Think of the average use - don't use pro account. Test if I can teach my self - link GitHub forked repo and LucidChart. Prototype of prototype **LucidChart & GitHub** continuous integration to improve the Team PSD 2.0 workflow. Final prototypes can be **added by pull-requests to other users repos**.   
+Test ability to build on existing LucidChart knowledge by adding integration to GitHub forked TeamPSD repo. Think of the average use - don't use pro account. Test if I can teach my self - link GitHub forked repo and LucidChart. Prototype of prototype **LucidChart & GitHub** continuous integration to improve the Team PSD 2.0 workflow. Final prototypes can be **added by pull-requests to other users’ repos**.   
 
 ## Problem & Hypothesis for Solution
 
@@ -31,15 +31,15 @@ Test ability to build on existing LucidChart knowledge by adding integration to 
 - Current approach is labor and cost intensive - process involves manual updates to LucidChart documents every time changes are made to the TeamPSD documentation.
 
 ### Possible Solution 
-- Team currently uses LucidChart as the platform of chooice to design visual representations of our workflow and platforms.
+- Team currently uses LucidChart as the platform of choice to design visual representations of our workflow and platforms.
 - Several users manually create maps that are used to enhance documentation within TeamPSD.
-- The process is currently cumbersome and inconsistent. We have developed basic templates with suggeted guidance of colors and shapes - but the process remains inconsistent and out of date.
+- The process is currently cumbersome and inconsistent. We have developed basic templates with suggested guidance of colors and shapes - but the process remains inconsistent and out of date.
 - We need to update in real time changes to documentation and TeamPSD guides that rely on the use of LucidChart maps to orient users (e.g. ZenHub).
-- We currently use GitHUb for all documentation and are using existing resources to compile a TeamPSD manual.
-- A possible MVP prototype that integraties our two platforms GitHub and LucidChart for updating documentation guides and training manuals would relieves the team's pain point of real time updates. 
+- We currently use GitHub for all documentation and are using existing resources to compile a TeamPSD manual.
+- A possible MVP prototype that integrates our two platforms GitHub and LucidChart for updating documentation guides and training manuals would relieves the team's pain point of real time updates. 
 
 ### Research Solution in GitHub Market Place
-- Research on GitHub and LucidChart plaftorms suggested that documentation integration indicates that LucidCharts maps can be updated in real time in GitHub by multiple users concurrently.
+- Research on GitHub and LucidChart platforms suggested that documentation integration indicates that LucidCharts maps can be updated in real time in GitHub by multiple users concurrently.
 
 ### User-Centered Hypotheses
 Guiding MVP learning/development an _iterative design process across the team_ to avoid rework with a focus of the [_Pareto Principle_](https://betterexplained.com/articles/understanding-the-pareto-principle-the-8020-rule/) **80/20 rule** in parallel with everyone else’s **distributed** prototyping work.
@@ -69,10 +69,10 @@ _ Users that know how to make maps - are not using a consistent approach and it 
 (ii)  Currently multiple templates on LucidChart - unsure which to use.
 (iii) Maps have (a) inconsistent naming conventions and organization (this will be more and more problematic with links)
 (iv)  Connector symbol are incorrect in many maps - need to standardize the process - leading to mistakes
-(v)   Maps are not brand consisten or use logo appropriately.
+(v)   Maps are not brand consistent or use logo appropriately.
 (Vi)  Naming of process is inconsistent - no convention and/or organization (will worsen when links need to use)
 **Considerations & Persona Privacy**
-The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accomodate for **candor** but having some **perona maps** on LucidChart.
+The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accommodate for **candor** but having some **persona maps** on LucidChart.
 **Current Personas**
 - [ ] busy_forward_thinking
 - [ ] fast_learner_need_for_transparency
@@ -94,12 +94,12 @@ Using the existing **user persona library**
 
 
 ## Cognitive Interview & Screen Casting
-**CTA Think ALoud**
-Test ability to build on existing LucidChart knowledge by adding integration to GitHub forked TeamPSD repo. Think of the average use - don't use pro account. Test if I can teach my self - link GitHub forked repo and LucidChart. Prototype of prototype LucidChart & GitHub continuous integration to improve the Team PSD 2.0 workflow. Final prototypes can be added by pull-requests to other users repos.
+**CTA Think Aloud**
+Test ability to build on existing LucidChart knowledge by adding integration to GitHub forked TeamPSD repo. Think of the average use - don't use pro account. Test if I can teach my self - link GitHub forked repo and LucidChart. Prototype of prototype LucidChart & GitHub continuous integration to improve the Team PSD 2.0 workflow. Final prototypes can be added by pull-requests to other users’ repos.
 
 **Problem & Hypothesis for Solution**: Team PSD pain points include: Being able to orient themselves to the workflow of TeamPSD and the need for documentation to support this. Need for companion visual guides / maps to orient TeamPSD users to the workflow. Current approach is labor and cost intensive - process involves manual updates to LucidChart documents every time changes are made to the TeamPSD documentation.
 
-**Hypothesis**: Team & I need to scale up the use of flow maps to improve user documentation. CTA Prototype Video on Youtube
+**Hypothesis**: Team & I need to scale up the use of flow maps to improve user documentation. CTA Prototype Video on YouTube
 CTA Prototype for Persona on MS Teams.  CTA Prototype for Persona - Need Detailed Documentation:
 
 **Week 2 & Day 1**:
@@ -133,8 +133,8 @@ By recording realized that the links take a long time to open and that changes a
 Need to consider these hurdles in light of the personas on the team (e.g. busy_pi)
 
 **Week 3 & Day 5**:
-Peristent issues with maps updating in real time and reflecting changes made on LucidChart in GitHub. Contacted GitHub support again. 
+Persistent issues with maps updating in real time and reflecting changes made on LucidChart in GitHub. Contacted GitHub support again. 
 Recorded several videos on how to use LucidChart to make:
 1. flow map using an existing template
-2. creat ia new document without a template
+2. create a new document without a template
 3. using a document to generate a template
