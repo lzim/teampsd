@@ -5,28 +5,5 @@
   "MD007": { "indent": 4 },
   "no-hard-tabs": false,
   "whitespace": false
-  
-This vignette describes the steps necessary to edit/add rules to this Markdownlint yaml/yml file.
-For a video, go to this link: -insert unlisted link to prototype-
-
-# Looking through and understanding the built-in rules for Markdownlint
-
-Let’s first look at and understand the rules that are pre-baked into Markdownlint here: 
-https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
-
-How to read the RULES.md
-Let's take a look at the first rule, MD001 - Header levels should only increment by one level at a time.
-
-
-# Convention for adding or editing rules
-
-For rules without parameters:
-Start with the rule number within quotation marks followed by a colon, I will use the first rule for example.
-"MD001": 
-
-
-# Testing the markdownlint yaml to see if the rules have been applied
-
-
     
 }
