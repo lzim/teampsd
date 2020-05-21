@@ -20,9 +20,9 @@ output:
 # Team PSD 2.0 Participatory Learning and Design _at Scale_ LucidChart and GitHub Integration
 If you need a flow map to enhance your work in GitHub your options are:
 
-1. Create a new map using a template [LucidChart](https://app.lucidchart.com/documents#/templates?folder_id=home)
-- OR
-2. Link an existing flow map into a markdown document [example](https://app.lucidchart.com/documents/edit/5fb53911-fd04-466f-b419-83b34ebb8544/0_0).
+| New Flowmap | Existing Flowmap|
+|-------| -----|
+| 1. Create a new map using a template [LucidChart](https://app.lucidchart.com/documents#/templates?folder_id=home)| 2. Link an existing flow map into a markdown document [example](https://app.lucidchart.com/documents/edit/5fb53911-fd04-466f-b419-83b34ebb8544/0_0)|
 
 ## Integration Functions Within Issues or Pull Requests 
 - The process of linking LucidChart maps and GitHub needs to be made within issues or pull requests - using published links provided by LucidChart 
