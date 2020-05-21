@@ -64,7 +64,9 @@ Using **MD003 - Heading style.** for example:
 5) In the **search log**, type in your **markdown file name** to find it quickly within all the markdown files the linter is searching through.
 6) Identify the rules the linter looked for and where it detected markdown mistakes that occured. 
 
-If the build properly detected the rules that you purposefully wrote to fail and pass in your markdown file, then you have successfully added/edited the `.markdownlint.yml` with new/revised rules. You can then continue with your pull request to merge the `.markdownlint.yml` into the Master branch. 
+If the build properly detected the rules that you purposefully wrote to fail and pass in your markdown file, then you have successfully added/edited the `.markdownlint.yml` with new/revised rules. 
+
+You can then continue with your pull request to merge the `.markdownlint.yml` into the Master branch. 
 
 
 # Hester's Formatting:
