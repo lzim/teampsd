@@ -19,7 +19,7 @@ output:
 
 # Team PSD 2.0 Participatory Learning and Design _at Scale_ 
 
-## LucidChart and GitHub MVP & CI for Persona: detailed_documentation_needed & Jane & Debbie
+## LucidChart and GitHub MVP & CI
 
 ### Flow Maps & Documentation
 If you need a flow map to enhance your work in GitHub your options are:
