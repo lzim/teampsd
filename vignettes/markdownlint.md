@@ -36,6 +36,7 @@ The **description** also includes **code snippets** that show you the definition
 Start with the rule number within quotation marks followed by a colon and then `True` to indicate that you are activating the rule.
 
 Using `MD001 - Header levels should only increment by one level at a time.` for example:
+
 `"MD001": True`
 
 2) For rules with paramters:
@@ -45,6 +46,7 @@ then curly brackets with the parameter name within quotation marks followed by a
 and lastly, the parameter option in quotation marks all within the curly brackets.
 
 Using `MD003 - Heading style.` for example:
+
 `"MD003": { "style": "atx_closed" }`
 
 ## 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
