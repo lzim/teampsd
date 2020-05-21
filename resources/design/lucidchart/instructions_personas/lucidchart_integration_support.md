@@ -22,7 +22,7 @@ output:
 **LucidChart Integration Issues**: if you are following instructions on how to integrate LucidChart & GitHub and are encoutering problems, we can help. 
 
 **Getting Help with LucidChart Integration**: 
-1. Create and a new [issue]( ticket with the title **LucidChart & GitHub Integration Problems** and tag **@ritahitching**.
+1. Create and a new issue ticket with the title **LucidChart & GitHub Integration Problems** and tag **@ritahitching**.
 2. In the ticket provide the following details:
 - (i)   persona and name of your repo.
 - (ii)  a detailed description of the integration problems or other issues you may be experiencing.
