@@ -13,29 +13,24 @@ For a video, go to this link: https://youtu.be/mPaXA1DlIlk
 Let’s first look at and understand the rules that are pre-baked into Markdownlint here: 
 https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
 
-1) 
+1) How to read the Rules.md
 
-To change  `assignment_linter`.
-```r
-#' @describeIn linters checks that '<-' is always used for assignment
-#' @export
-assignment_linter <- function(source_file) {
-  lapply(ids_with_token(source_file, "EQ_ASSIGN"),
-    function(id) {
-      parsed <- source_file$parsed_content[id, ]
-      Lint(
-        filename = source_file$filename,
-        line_number = parsed$line1,
-        column_number = parsed$col1,
-        type = "style",
-        message = "Use <-, not =, for assignment.",
-        line = source_file$lines[parsed$line1],
-        linter = "assignment_linter"
-        )
-    })
-}
-```
+Let's take a look at the first rule, `MD001 - Header levels should only increment by one level at a time.`
 
+We can see that there are sections broken down as tags, aliases, and a description and code snippets of examples related to the rule.
+
+If we look at another rule, let's look at `MD003 - Heading style.`
+
+In addition to the tags, aliases, and description, there is an additional section called 'parameters'.
+
+Within parameters, we see the main parameter being 'style' and then choices regarding the parameter style such as:
+`"consistent", "atx", "atx_closed", "setext", "setext_with_atx", "setext_with_atx_closed"; default "consistent"`
+
+The description also includes code snippets that show you the definitions of each of the parameter choices. 
+
+
+
+Hester's Example:
 Lets walk through the parts of the linter individually.
 
 ## Writing the linter ##
