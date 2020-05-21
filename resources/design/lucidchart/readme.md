@@ -73,6 +73,7 @@ _ Users that know how to make maps - are not using a consistent approach and it 
 (Vi)  Naming of process is inconsistent - no convention and/or organization (will worsen when links need to use)
 **Considerations & Persona Privacy**
 The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accommodate for **candor** but having some **persona maps** on LucidChart.
+
 **Current Personas**
 - [ ] busy_forward_thinking
 - [ ] fast_learner_need_for_transparency
