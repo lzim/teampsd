@@ -19,13 +19,21 @@
 #How to read the RULES.md
 #Let's take a look at the first rule, MD001 - Header levels should only increment by one level at a time.
 
+
 # 2) Convention for adding or editing rules
 
 # For rules without parameters:
 
-# Start with the rule number within quotation marks followed by a colon, I will use the first rule for example.
-# "MD001": 
+# Start with the rule number within quotation marks followed by a colon and then True
+# I will use the first rule for example.
+# "MD001": True
 
 # For rules with paramters:
 
-# 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request
+# Start with the rule number within quotation marks followed by a colon and 
+# then curly brackets with the parameter name within quotation marks followed by a colon
+# and lastly, the parameter option in quotation marks all within the curly brackets.
+#I will use the first 3 for example.
+# "MD003": { "style": "atx_closed" }
+
+# 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
