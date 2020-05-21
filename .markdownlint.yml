@@ -12,7 +12,7 @@ For a video, go to this link: -insert unlisted link to prototype-
 # Looking through and understanding the built-in rules for Markdownlint
 
 Let’s first look at and understand the rules that are pre-baked into Markdownlint here: 
-https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md
+https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
 
 How to read the RULES.md
 Let's take a look at the first rule, MD001 - Header levels should only increment by one level at a time.
