@@ -22,7 +22,7 @@ Guidance on flowmaps and video guides.
 ## Flowmaps
 ### Team PSD Brand Control Flowmap
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/team_psd_version_control_flowmap.png"
-     height = "583" width = "1358">  
+     height = "500" width = "1000">  
      
 ### Team PSD Dynamic Preset Library - Shapes, Fonts, Colors 
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/preset_team_psd_shapes_fonts_colors_library.png"
@@ -30,11 +30,11 @@ Guidance on flowmaps and video guides.
      
 ### Team PSD Basic Flowmap
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/team_psd_basic_flowmap.png"
-     height = "200" width = "600">  
+     height = "412" width = "584">  
      
 ### MTL Basic Flowmap
 <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/mtl_basic_flowmap.png"
-     height = "200" width = "600">  
+     height = "412" width = "584">  
      
 ## Creating a Team PSD Flowmap Video
 
