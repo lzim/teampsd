@@ -19,7 +19,7 @@ Let's take a look at the first rule, **MD001 - Header levels should only increme
 
 We can see that there are sections broken down as **tags**, **aliases**, and a **description and code snippets** of examples related to the rule.
 
-2) If we look at another rule, let's look at **MD003 - Heading style.**.
+2) If we look at another rule, let's look at **MD003 - Heading style**.
 
 In addition to the **tags**, **aliases**, and **description**, there is an additional section called **parameters**.
 
