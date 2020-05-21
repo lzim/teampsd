@@ -9,7 +9,7 @@ This vignette describes the steps necessary to edit/add rules to  the `.markdown
 
 For a video, go to this link: https://youtu.be/mPaXA1DlIlk
 
-## Built-in rules for Markdownlint
+## 1) Built-in rules for Markdownlint
 Let’s first look at and understand the rules that are pre-baked into Markdownlint here: 
 https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
 
@@ -19,7 +19,7 @@ Let's take a look at the first rule, `MD001 - Header levels should only incremen
 
 We can see that there are sections broken down as tags, aliases, and a description and code snippets of examples related to the rule.
 
-If we look at another rule, let's look at `MD003 - Heading style.`
+2) If we look at another rule, let's look at `MD003 - Heading style.`
 
 In addition to the tags, aliases, and description, there is an additional section called 'parameters'.
 
@@ -28,9 +28,33 @@ Within parameters, we see the main parameter being 'style' and then choices rega
 
 The description also includes code snippets that show you the definitions of each of the parameter choices. 
 
+## 2) Convention for adding or editing rules
+
+1) For rules without parameters:
+
+Start with the rule number within quotation marks followed by a colon and then True
+I will use the first rule for example.
+"MD001": True
+
+2) For rules with paramters:
+
+Start with the rule number within quotation marks followed by a colon and 
+then curly brackets with the parameter name within quotation marks followed by a colon
+and lastly, the parameter option in quotation marks all within the curly brackets.
+I will use the third rule for example.
+"MD003": { "style": "atx_closed" }
+
+## 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
+
+Create a markdown file that tests the rules you added. 
+At least one rule should purposefully pass and one rule should purposefully fail with respect to the content in the markdown file.
+Create a pull request and you should notice a CI/Build near the bottom of the pull request where you could make a comment.
+Your build will fail with a red X, and click on details on the right.
+In the search log, type in your markdown file name to find it quickly within all the markdown files the linter is searching through.
+Identify the rules the linter looked for and where it detected markdown mistakes that occured. 
 
 
-Hester's Example:
+# Hester's Formatting:
 Lets walk through the parts of the linter individually.
 
 ## Writing the linter ##
