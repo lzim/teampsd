@@ -70,6 +70,40 @@ You can then continue with your pull request to merge the `.markdownlint.yml` in
 
 
 # Hester's Formatting:
+---
+title: "Creating new linters"
+author: "Jim Hester"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Creating new linters}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+This vignette describes the steps necessary to create a new linter.
+
+A good example of a simple linter is the `assignment_linter`.
+```r
+#' @describeIn linters checks that '<-' is always used for assignment
+#' @export
+assignment_linter <- function(source_file) {
+  lapply(ids_with_token(source_file, "EQ_ASSIGN"),
+    function(id) {
+      parsed <- source_file$parsed_content[id, ]
+      Lint(
+        filename = source_file$filename,
+        line_number = parsed$line1,
+        column_number = parsed$col1,
+        type = "style",
+        message = "Use <-, not =, for assignment.",
+        line = source_file$lines[parsed$line1],
+        linter = "assignment_linter"
+        )
+    })
+}
+```
+
 Lets walk through the parts of the linter individually.
 
 ## Writing the linter ##
@@ -189,3 +223,4 @@ list before the `NULL` at the end.
 Push your changes to a branch of your fork of the
 [lintr](https://github.com/jimhester/lintr) repository, and submit a pull
 request to get your linter merged into lintr!
+
