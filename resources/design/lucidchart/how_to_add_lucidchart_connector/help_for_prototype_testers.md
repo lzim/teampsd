@@ -47,5 +47,5 @@ output:
 
 | PC Screenshot Option 1 | Pc Screenshot Option 2|
 | -----|-----|
-<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_1.png" height = "572" width = "432"> |   <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/pc_screenshot_2.png" height = "595" width = "426"> |  
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/pc_screenshot_1_repo.png" height = "572" width = "432"> |   <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/pc_screenshot_2_repo.png" height = "595" width = "426"> |  
 
