@@ -26,6 +26,11 @@ If you need a flow map to enhance your work in GitHub your options are:
 
 ## Integration Functions Within Issues or Pull Requests 
 - The process of linking LucidChart maps and GitHub needs to be made within issues or pull requests - using published links provided by LucidChart 
+- Example within an **issue** [here](https://github.com/ritahitching/teampsd_hitching_sandbox/issues/4)
+![image](https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/lucidchart_within_an_issue.png)
+
+
+- Exmple within a **pull request** [here](
 - Guidance on [LucidChart](https://www.lucidchart.com/blog/lucidchart-for-github) and GitHub recommended  the [LucidChart Connector information](https://github.com/marketplace/lucidchart-connector)  
 
 ## Integration Process
