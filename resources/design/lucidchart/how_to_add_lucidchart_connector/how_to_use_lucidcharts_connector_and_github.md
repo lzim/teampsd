@@ -69,7 +69,7 @@ In order to work asynchronously you will need to fork the TeamPSd repo (creating
 - Save your flow diagram 
 - Generate a pubslihed link to paste into GitHub issues, pull requests or markdown files
 
-### 4. Generating a Published Link for Any Flow Map
+### Generating a Published Link for Any Flow Map
 - Open a LucidChart document of interest
 - Select **Share**
 - Select **Advanced**
