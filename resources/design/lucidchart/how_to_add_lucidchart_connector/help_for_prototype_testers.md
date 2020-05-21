@@ -41,7 +41,7 @@ output:
 
 | Mac Screenshot Entire Screen| Mac Screenshot Portion of Screen|
 | -----|-----|
-<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_1.png" height = "378" width = "248">  | <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/mac_screenshot_22.png" height = "388" width = "426"> |  
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/mac_screenshot_repo.png" height = "378" width = "248">  | <img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/mac_screenshot_2_repo.png" height = "388" width = "426"> |  
 
 #### Reminder on how to take screen shots for PC [users](https://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
 
