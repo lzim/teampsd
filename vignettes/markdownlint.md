@@ -24,6 +24,7 @@ We can see that there are sections broken down as **tags**, **aliases**, and a *
 In addition to the **tags**, **aliases**, and **description**, there is an additional section called **parameters**.
 
 Within parameters, we see the main parameter being 'style' and then choices regarding the parameter style such as:
+
 `"consistent", "atx", "atx_closed", "setext", "setext_with_atx", "setext_with_atx_closed"; default "consistent"`
 
 The **description** also includes **code snippets** that show you the definitions of each of the parameter choices. 
@@ -33,7 +34,9 @@ The **description** also includes **code snippets** that show you the definition
 1) For rules without parameters:
 
 Start with the rule number within quotation marks followed by a colon and then True
+
 Using `MD001 - Header levels should only increment by one level at a time.` for example.
+
 `"MD001": True`
 
 2) For rules with paramters:
@@ -41,7 +44,9 @@ Using `MD001 - Header levels should only increment by one level at a time.` for 
 Start with the rule number within quotation marks followed by a colon and 
 then curly brackets with the parameter name within quotation marks followed by a colon
 and lastly, the parameter option in quotation marks all within the curly brackets.
+
 Using `MD003 - Heading style.` for example:
+
 `"MD003": { "style": "atx_closed" }`
 
 ## 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
