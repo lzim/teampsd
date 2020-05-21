@@ -70,17 +70,6 @@ You can then continue with your pull request to merge the `.markdownlint.yml` in
 
 
 # Hester's Formatting:
----
-title: "Creating new linters"
-author: "Jim Hester"
-date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Creating new linters}
-  %\VignetteEngine{knitr::rmarkdown}
-  \usepackage[utf8]{inputenc}
----
-
 This vignette describes the steps necessary to create a new linter.
 
 A good example of a simple linter is the `assignment_linter`.
