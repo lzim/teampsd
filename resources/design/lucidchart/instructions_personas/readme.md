@@ -33,15 +33,5 @@ Make a guide for other user personas - that includes:
 3. When they might use the maps
 4. Where - grants / presentations/etc.
 
-**Personas**
-- [ ]  busy_forward_thinking
-- [ ]  fast_learner_need_for_transparency
-- [ ]  independent_guidance_when_needed
-- [ ]  integration_language_expert
-- [ ]  detailed_documentation_needed_recent_github_devotee
-- [ ]  efficient_value_added_highly_standardized
-- [ ]  multistretch_standardize
-
-
 
 
