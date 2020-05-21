@@ -17,7 +17,9 @@ output:
      height = "200" width = "600">  
      
 # Team PSD 2.0 Participatory Learning and Design at Scale LucidChart Templates
-Guidance on flowmaps and video guides.
+1. Log in to LucidChart - use LZ log in details available in TeamPSD drive
+2. Use template from Templates in LucidChart - bring published link to GitHub
+3. Guidance on flowmaps and video guides available on [YouTube](https://www.youtube.com/user/LZPhD/videos)
 
 ## Flowmaps
 ### Team PSD Brand Control Flowmap
