@@ -5,12 +5,12 @@ date: "2020 May 21"
 output: .md
 ---
 
-This vignette describes the steps necessary to edit/add rules to  the `.markdownlint.yml` file in the root of the repo.
+This vignette describes the steps necessary to edit/add rules to  the `.markdownlint.yml` file in the root of the repository.
 
 For a video, go to this link: https://youtu.be/mPaXA1DlIlk
 
 ## 1) Built-in rules for Markdownlint
-Let’s first look at and understand the rules that are pre-baked into Markdownlint here: 
+Let’s first look at and understand the rules that are pre-baked into Markdownlint here at David Anson's repository, who is the creator of Markdownlint:
 https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
 
 1) How to read the Rules.md
@@ -19,15 +19,19 @@ Let's take a look at the first rule, **MD001 - Header levels should only increme
 
 We can see that there are sections broken down as **tags**, **aliases**, and a **description and code snippets** of examples related to the rule.
 
+The tags and aliases are to help us find the rule we are looking for where we are at the home page of David Anson's Markdownlint repository: https://github.com/DavidAnson/markdownlint
+
+The **description** and **code snippets** describe and show you the definitions of what the rule is attempting to scan for and address.
+
 2) If we look at another rule, let's look at **MD003 - Heading style**.
 
-In addition to the **tags**, **aliases**, and **description**, there is an additional section called **parameters**.
+In addition to the **tags**, **aliases**, **description**, **code snippets**, there is an additional section called **parameters**.
 
 Within parameters, we see the main parameter being `style` and then choices regarding the parameter style such as:
 
 `"consistent", "atx", "atx_closed", "setext", "setext_with_atx", "setext_with_atx_closed"; default "consistent"`
 
-The **description** also includes **code snippets** that show you the definitions of each of the parameter choices. 
+The **description** and **code snippets** also show you the definitions and how each of the parameters look like.
 
 ## 2) Convention for adding or editing rules
 
@@ -39,10 +43,11 @@ Using **MD001 - Header levels should only increment by one level at a time.** fo
 
 `"MD001": True`
 
-2) For rules with paramters:
+2) For rules with parameters:
 
 Start with the **rule number** within **quotation marks** followed by a **colon** and 
 then **curly brackets** with the **parameter name** within **quotation marks** followed by a **colon**.
+
 Lastly, type in the **parameter option** in **quotation marks** all within the **curly brackets**.
 
 Using **MD003 - Heading style.** for example:
