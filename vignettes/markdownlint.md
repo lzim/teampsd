@@ -46,12 +46,15 @@ Using `MD003 - Heading style.` for example:
 
 ## 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
 
-Create a markdown file that tests the rules you added. 
-At least one rule should purposefully pass and one rule should purposefully fail with respect to the content in the markdown file.
-Create a pull request and you should notice a CI/Build near the bottom of the pull request where you could make a comment.
-Your build will fail with a red X, and click on details on the right.
-In the search log, type in your markdown file name to find it quickly within all the markdown files the linter is searching through.
-Identify the rules the linter looked for and where it detected markdown mistakes that occured. 
+1) Create a markdown file that tests the rules you added. 
+2) At least one rule should purposefully pass and one rule should purposefully fail with respect to the content in the markdown file.
+3) Create a pull request and you should notice a CI/Build near the bottom of the pull request where you could make a comment.
+4) Then CI Build will complete the linting when you see that the build has failed by showing a red X
+5) Click on **details** on the right.
+5) In the **search log**, type in your **markdown file name** to find it quickly within all the markdown files the linter is searching through.
+6) Identify the rules the linter looked for and where it detected markdown mistakes that occured. 
+
+If the build properly detected the rules that you purposefully wrote to fail and pass in your markdown file, then you have successfully added/edited the `.markdownlint.yml` with new/revised rules. You can then continue with your pull request to merge the `.markdownlint.yml` into the Master branch. 
 
 
 # Hester's Formatting:
