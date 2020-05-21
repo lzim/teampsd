@@ -39,10 +39,6 @@ In order to work asynchronously you will need to fork the TeamPSd repo (creating
 - Label your repo (e.g. debbie_sandbox)
 - Ensure that all the setting are in the **Features** include **issues** as the **published links** from **LucidChart** need to be inserted into an **issue** or **pull request**
 
-### YouTube Video How to Fork TeamPSd Repo
-[<img src = "   " height = "412" width = "584">]( )
-
-
 ## Instructions Integration GitHub & LucidChart
 - Within your forked repo of [TeamPSD](https://github.com/lzim/teampsd) 
 - Go to GitHub market place at the top of the navigation bar and search for [LucidChart Connector](https://www.lucidchart.com/pages/integrations/github) and follow prompts to install & configure 
