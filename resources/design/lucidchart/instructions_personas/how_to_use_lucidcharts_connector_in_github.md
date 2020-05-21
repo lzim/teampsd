@@ -50,7 +50,7 @@ In order to work asynchronously you will need to fork the TeamPSd repo (creating
 ![image](https://user-images.githubusercontent.com/54862187/81884965-2f31c500-954e-11ea-913d-9c91c33c5155.png)
 
 ### YouTube Video How to Integrate GitGub & LucidChart
-[<img src = "  " height = "412" width = "584">]( )
+[<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/youtube_github_lucidchart_connector.png" height = "412" width = "584">](https://youtu.be/RZweyqqj2mw)
 
 ## Creating & Inserting Flow Maps in GitHub
 1. Log in to LucidChart 
