@@ -33,7 +33,14 @@
 # Start with the rule number within quotation marks followed by a colon and 
 # then curly brackets with the parameter name within quotation marks followed by a colon
 # and lastly, the parameter option in quotation marks all within the curly brackets.
-#I will use the first 3 for example.
+# I will use the first 3 for example.
 # "MD003": { "style": "atx_closed" }
 
 # 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
+
+# Create a markdown file that tests the rules you added. 
+# At least one rule should purposefully pass and one rule should purposefully fail with respect to the content in the markdown file.
+# Create a pull request and you should notice a CI/Build near the bottom of the pull request where you could make a comment.
+# Your build will fail with a red X, and click on details on the right.
+# In the search log, type in your markdown file name to find it quickly within all the markdown files the linter is searching through.
+# Identify the rules the linter looked for and where it detected markdown mistakes that occured. 
