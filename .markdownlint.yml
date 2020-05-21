@@ -14,10 +14,18 @@
 # 1) Looking through and understanding the built-in rules for Markdownlint#
 
 # Let’s first look at and understand the rules that are pre-baked into Markdownlint here: 
-#https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
+# https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
 
 #How to read the RULES.md
-#Let's take a look at the first rule, MD001 - Header levels should only increment by one level at a time.
+# Let's take a look at the first rule, MD001 - Header levels should only increment by one level at a time.
+# We can see that there are sections broken down tags, aliases, and descriptions and code snippets of examples related to the rule.
+
+# If we look at another rule, let's look at MD003 - Heading style.
+# There is an additional section called 'parameters'.
+# Within parameters, we see the main parameter being 'style' 
+# and then choices regarding the parameter style such as:
+# "consistent", "atx", "atx_closed", "setext", "setext_with_atx", "setext_with_atx_closed"; default "consistent"
+# The description also includes code snippets that show you the definitions of each of the parameter choices. 
 
 
 # 2) Convention for adding or editing rules
