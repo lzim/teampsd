@@ -37,7 +37,7 @@ If you need a flow map to enhance your work in GitHub your options are:
 1. Create forked TeamPDD repo
 2. Configure (get GitHub and LucidChart to work together).
 
-## Fork TeamPSd Repo (your version of the TeamPSD Repo)
+## Fork TeamPSD Repo (your version of the TeamPSD Repo)
 In order to work asynchronously you will need to fork the TeamPSd repo (creating your own version of the TeamPSD Repo)
 - Log in to GitHub
 - Select the **fork** sign on the top right hand side
@@ -46,31 +46,36 @@ In order to work asynchronously you will need to fork the TeamPSd repo (creating
 ![image](https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/fork_teampsd_repo.png)
 
 ## Instructions Integration GitHub & LucidChart
+
+### GitHub Marketplace
 - Within your forked repo of [TeamPSD](https://github.com/lzim/teampsd) 
 - Go to GitHub market place at the top of the navigation bar and search for [LucidChart Connector](https://www.lucidchart.com/pages/integrations/github) and follow prompts to install & configure 
 - You will need to give GitHub access to your repo
 ![image](https://user-images.githubusercontent.com/54862187/81884965-2f31c500-954e-11ea-913d-9c91c33c5155.png)
 
-### YouTube Video How to Integrate GitGub & LucidChart
+
+
+
+### Watch YouTube Video How to Install GitGub & LucidChart Connector
 [<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/youtube_github_lucidchart_connector.png" height = "412" width = "584">](https://youtu.be/RZweyqqj2mw)
 
 ## Creating & Inserting Flow Maps in GitHub
-1. Log in to LucidChart 
+
+**1. Log in to LucidChart** 
 - Use the main TeamPSD account and log in details
 - Details in TeamPSD folder
-
-2. Creat a Flow Map
+**2. Creat a Flow Map**
 - Choose from the existing [templates](https://app.lucidchart.com/documents#/templates?folder_id=home)
 - Generate your flow map using the content of the template.
 - Save your flow diagram 
 - Generate a pubslihed link to paste into GitHub issues, pull requests or markdown files
-
-3. Link an Existing Flow Map
+**3. Link an Existing Flow Map**
 - Open the existing map you want to add to your document and make necessary edits
 - Save your flow diagram 
 - Generate a pubslihed link to paste into GitHub issues, pull requests or markdown files
 
-### Generating a Published Link for Any Flow Map
+## Generating a Published Link for Any Flow Map
+### Pubslihed Links
 - Open a LucidChart document of interest
 - Select **Share**
 - Select **Advanced**
@@ -80,7 +85,9 @@ In order to work asynchronously you will need to fork the TeamPSd repo (creating
 - Paste link into GitHub Issue or pull request
 - Link will turn into a flow map within 1-2 minutes.
 
-### YouTube Video How to Make or Edit LucidChart Flowmaps & Generate Published Links
+
+
+### Watch YouTube Video How to Make or Edit LucidChart Flowmaps & Generate Published Links
 [<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/youtube_create_flowmaps_links.png" height = "412" width = "584">](https://youtu.be/4Ihee2A7seE)
 
 
