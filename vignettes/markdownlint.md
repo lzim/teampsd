@@ -33,7 +33,7 @@ The **description** also includes **code snippets** that show you the definition
 
 1) For rules without parameters:
 
-Start with the rule number within quotation marks followed by a colon and then `True` to indicate that you are activating the rule.
+Start with the **rule number** within **quotation marks** followed by a **colon** and then type `True` to indicate that you are activating the rule.
 
 Using `MD001 - Header levels should only increment by one level at a time.` for example:
 
@@ -41,9 +41,9 @@ Using `MD001 - Header levels should only increment by one level at a time.` for 
 
 2) For rules with paramters:
 
-Start with the rule number within quotation marks followed by a colon and 
-then curly brackets with the parameter name within quotation marks followed by a colon
-and lastly, the parameter option in quotation marks all within the curly brackets.
+Start with the **rule number** within **quotation marks** followed by a **colon** and 
+then **curly brackets** with the **parameter name** within **quotation marks** followed by a **colon**.
+Lastly, type in the **parameter option** in **quotation marks** all within the **curly brackets**.
 
 Using `MD003 - Heading style.` for example:
 
