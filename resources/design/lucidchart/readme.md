@@ -45,7 +45,7 @@ Test ability to build on existing LucidChart knowledge by adding integration to 
 Guiding MVP learning/development an _iterative design process across the team_ to avoid rework with a focus of the [_Pareto Principle_](https://betterexplained.com/articles/understanding-the-pareto-principle-the-8020-rule/) **80/20 rule** in parallel with everyone else’s **distributed** prototyping work.
 
 
-<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/lucidchart_github_ci_process.png" height = "600" width = "600">
+<img src = "https://github.com/ritahitching/teampsd_hitching_sandbox/blob/master/resources/design/lucidchart/images/lucidchart_github_ci_process.png" height = "600" width = "600">
      
 
 ### Resources & Assumptions: 
