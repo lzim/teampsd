@@ -33,16 +33,16 @@ The description also includes code snippets that show you the definitions of eac
 1) For rules without parameters:
 
 Start with the rule number within quotation marks followed by a colon and then True
-I will use the first rule for example.
-"MD001": True
+Using `MD001 - Header levels should only increment by one level at a time.` for example.
+`"MD001": True`
 
 2) For rules with paramters:
 
 Start with the rule number within quotation marks followed by a colon and 
 then curly brackets with the parameter name within quotation marks followed by a colon
 and lastly, the parameter option in quotation marks all within the curly brackets.
-I will use the third rule for example.
-"MD003": { "style": "atx_closed" }
+Using `MD003 - Heading style.` for example:
+`"MD003": { "style": "atx_closed" }`
 
 ## 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
 
