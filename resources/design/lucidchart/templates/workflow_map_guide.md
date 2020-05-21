@@ -19,6 +19,6 @@ output:
 
 # LucidChart - How to Create an Effective Work Flow Map on LucidChart
 
-1. log in
-2. Use template
-3. Include 
+1. Log in to LucidChart
+2. Use template from Templates
+3. Include published link to GitHub
