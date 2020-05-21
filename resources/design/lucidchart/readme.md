@@ -65,12 +65,13 @@ Clarify all - to make sure users can create, edit/update a LucidCharts flow-maps
 - Need to scale the use of maps to contribute to documentation and to orient users by having all users know how to make a map and bring it to GitHub. 
 _ Currently users don't know how to make maps and how to bring them into GitHub
 _ Users that know how to make maps - are not using a consistent approach and it leads to frustration and re-work. Issues include:
-(i)    Need consistent look and feel maps on GitHub (colors, fonts, choice of process, etc.).
-(ii)  Currently multiple templates on LucidChart - unsure which to use.
-(iii) Maps have (a) inconsistent naming conventions and organization (this will be more and more problematic with links)
-(iv)  Connector symbol are incorrect in many maps - need to standardize the process - leading to mistakes
-(v)   Maps are not brand consistent or use logo appropriately.
-(Vi)  Naming of process is inconsistent - no convention and/or organization (will worsen when links need to use)
+- (i)   Need consistent look and feel maps on GitHub (colors, fonts, choice of process, etc.).
+- (ii)  Currently multiple templates on LucidChart - unsure which to use.
+- (iii) Maps have (a) inconsistent naming conventions and organization (this will be more and more problematic with links)
+- (iv)  Connector symbol are incorrect in many maps - need to standardize the process - leading to mistakes
+- (v)   Maps are not brand consistent or use logo appropriately.
+- (Vi)  Naming of process is inconsistent - no convention and/or organization (will worsen when links need to use)
+
 **Considerations & Persona Privacy**
 The MVP hypothesis testing process relies on the personas - but we have a **substantial problem** of needing to keep the persona details **private** to accommodate for **candor** but having some **persona maps** on LucidChart.
 
