@@ -21,7 +21,7 @@ output:
 # Team PSD 2.0 Participatory Learning and Design _at Scale_
 
 ## Hypothesis:
-Hypothesis:LucidChart & GitHub connector as part of continuous integration to improve the Team PSD 2.0 workflow. LucidChart connector indicates that it may solve the pain point of needing to update documentation in real time across documents that incorporate flow-maps. 
+LucidChart & GitHub connector as part of continuous integration to improve the Team PSD 2.0 workflow. LucidChart connector may solve the pain point of needing to update documentation in real time across documents that include flowmaps. In addition, LucidChart can provide structure to ensure brand consistent flowmaps and provide preview of maps for discussion within issues and as part of version control in pull requests.
 
 ### 1. Can we set up a test for LucidChart flow-maps - that ensures that TeamPSD style is used by users when adding flow maps to TeamPSD repo?
 - (i) LucidChart connector enables users to show versions of their flow maps within issues and pull requests without others users needing to go to leave the GitHub platform and go to LucidChart to view the flow-maps.
