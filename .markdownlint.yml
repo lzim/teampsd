@@ -5,6 +5,17 @@
   "MD007": { "indent": 4 },
   "no-hard-tabs": false,
   "whitespace": false
+  
+This vignette describes the steps necessary to edit/add rules to this Markdownlint yaml/yml file.
+
+# Looking through and understanding the built-in rules for Markdownlint
+Let’s first look at and understand the rules that are pre-baked into Markdownlint here: 
+https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md
+
+Starting with
+# Convention for adding or editing rules 
+# Testing the markdownlint yaml to see if the rules have been applied
+
 
     
 }
