@@ -16,8 +16,9 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
+# Team PSD 2.0 Participatory Learning and Design at Scale
 
-# LucidChart and GitHub MVP for Continuous Integration
+## LucidChart and GitHub MVP for Continuous Integration
 
 
 **Objective of MVP of LucidChart and GitHub** 
