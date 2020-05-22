@@ -9,6 +9,8 @@ This vignette describes the steps necessary to edit/add rules to  the `.markdown
 
 For a video, go to this link: https://youtu.be/mPaXA1DlIlk
 
+Before beginning, let's **first start create a branch** to work off of within your repository, since you will need to initiate a pull request by the end of this guide. 
+
 ## 1) Built-in rules for Markdownlint
 Let’s first look at and understand the rules that are pre-baked into Markdownlint here at David Anson's repository, who is the creator of Markdownlint:
 https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
