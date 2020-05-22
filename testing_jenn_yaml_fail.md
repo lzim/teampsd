@@ -8,7 +8,7 @@
   "whitespace": false
 }
 
-# Testing Jenn's Prototype
+# Testing Jenn's Prototype with the aim to fail test
 
 ## Not sure how it really works
 
