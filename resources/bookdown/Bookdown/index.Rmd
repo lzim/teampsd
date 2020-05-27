@@ -2,10 +2,10 @@
 title: "Team PSD Manual"
 author: "Team PSD"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
 link-citations: yes
-description: "This is the Team PSD one stop shop."
-preview : FALSE
+preview: yes
+site: bookdown::bookdown_site
+description: This is the Team PSD one stop shop.
 ---
 
 # Preface
@@ -24,7 +24,7 @@ install.packages("bookdown", "HelpersMG", "readr")
 ```{r include=FALSE}
 library(HelpersMG)
 library(readr)
-#Parse table of contents
+#Parse table of contents for documents to be downloaded
 read_markdown <- function(file, trim_ws = TRUE, ...){
   if (length(file) > 1) {
     lines <- file
@@ -56,7 +56,7 @@ parse_yaml <- function(document){
   if(grepl("\\.*md", document) && !grepl("\\index\\.Rmd", document)){
     md <- read_file(document)
   #remove everything before the H1
-    md_no_yaml <- sub(".*#","#", x = md)
+    md_no_yaml <- sub(".*?#","#", x = md)
     writeLines(md_no_yaml, con=document, useBytes=T)
     print(md_no_yaml)
   }
