@@ -47,3 +47,4 @@ jobs:
           EMAIL: ${{ secrets.EMAIL }}               # must be a verified email
           GH_TOKEN: ${{ secrets.GITHUB_PAT }} # https://github.com/settings/tokens
           BUILD_DIR: _book/                     # "_site/" by default
+
