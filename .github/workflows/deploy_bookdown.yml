@@ -20,7 +20,7 @@ jobs:
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown","HelpersMG","readr"))'
       - name: Render Book
-        run: Rscript -e 'bookdown::render_book("/origin/resources/bookdown/Bookdown/index.Rmd")'
+        run: Rscript -e 'bookdown::render_book("index.Rmd")'
       - uses: actions/upload-artifact@v1
         with:
           name: _book
@@ -36,6 +36,8 @@ jobs:
    steps:
      - name: Checkout
        uses: actions/checkout@master
+       with:
+          ref: gh-pages
      - name: Download artifact
        uses: actions/download-artifact@v1.0.0
        with:
