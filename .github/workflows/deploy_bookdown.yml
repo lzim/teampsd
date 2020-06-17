@@ -28,8 +28,9 @@ jobs:
   
 # deploy to gh pages yml
   build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
+   runs-on: ubuntu-latest
+   needs: bookdown
+   steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
