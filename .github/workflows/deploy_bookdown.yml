@@ -35,7 +35,7 @@ jobs:
    needs: bookdown
    steps:
      - name: Checkout
-       uses: actions/checkout@gh-pages
+       uses: actions/checkout@v2
      - name: Download artifact
        uses: actions/download-artifact@v1.0.0
        with:
