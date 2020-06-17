@@ -27,9 +27,6 @@ jobs:
           path: _book/
   
 # deploy to gh pages yml
-name: Build and Deploy
-on: [push]
-jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
