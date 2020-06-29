@@ -56,6 +56,16 @@ Using **MD003 - Heading style.** for example:
 
 `"MD003": { "style": "atx_closed" }`
 
+3) Use a note to document and describe the rule:
+
+To add a note, use `#` followed by a space and then the description of the rule to provide an easier way of identifying what the rule is tasked to lint for.
+
+Using **MD003 - Heading style.** for example:
+
+`# Heading style`
+
+`"MD003": { "style": "atx_closed" }`
+
 ## 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
 
 1) Create a markdown file that tests the rules you added. 
