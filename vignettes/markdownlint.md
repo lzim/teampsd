@@ -66,10 +66,23 @@ Using **MD003 - Heading style.** for example:
 
 `"MD003": { "style": "atx_closed" }`
 
+**Common Error:** 
+Remember to add a **comma** at the end of the rule **UNLESS** your rule is the last rule in the overall list.
+
+**Example:**
+
+`# Unordered list indentation`
+
+`"MD007": { "indent": 4 },`
+
+`# Heading style`
+
+`"MD003": { "style": "atx_closed" }`
+
 ## 3) Testing the markdownlint yaml to see if the rules have been applied by using a pull request.
 
 1) Create a markdown file that tests the rules you added. 
-2) At least one rule should purposefully pass and one rule should purposefully fail with respect to the content in the markdown file.
+2) At least one rule should purposefully pass and one rule should purposefully fail with respect to the rules you have chosen in the markdown file.
 3) Create a pull request and you should notice a CI/Build near the bottom of the pull request where you could make a comment.
 4) Then CI Build will complete the linting when you see that the build has failed by showing a red X
 5) Click on **details** on the right.
@@ -78,4 +91,4 @@ Using **MD003 - Heading style.** for example:
 
 If the build properly detected the rules that you purposefully wrote to fail and pass in your markdown file, then you have successfully added/edited the `.markdownlint.yml` with new/revised rules. 
 
-You can then continue with your pull request to merge the `.markdownlint.yml` into the Master branch. 
+You can then delete your test file and continue with your pull request to merge the `.markdownlint.yml` into the Master branch to implement the new linting rules.
