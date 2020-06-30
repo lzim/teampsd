@@ -39,7 +39,7 @@ The **description** and **code snippets** also show you the definitions and how 
 
 1) For rules without parameters:
 
-Start with the **rule number** within **quotation marks** followed by a **colon** and then type `True` to indicate that you are activating the rule.
+Start with the **rule number** within **quotation marks** followed by a **colon**, then  **space**, then type `True` to indicate that you are activating the rule.
 
 Using **MD001 - Header levels should only increment by one level at a time.** for example:
 
@@ -47,10 +47,10 @@ Using **MD001 - Header levels should only increment by one level at a time.** fo
 
 2) For rules with parameters:
 
-Start with the **rule number** within **quotation marks** followed by a **colon** and 
-then **curly brackets** with the **parameter name** within **quotation marks** followed by a **colon**.
+Start with the **rule number** within **quotation marks** followed by a **colon**, **space**, 
+then **left curly bracket**, space, followed by the **parameter name** within **quotation marks** and a **colon**, and then **space**.
 
-Lastly, type in the **parameter option** in **quotation marks** all within the **curly brackets**.
+Lastly, type in the **parameter option** within **quotation marks**, **space**, and ending the rule with the remaining **right curly bracket** to close off the brackets. 
 
 Using **MD003 - Heading style.** for example:
 
@@ -58,7 +58,7 @@ Using **MD003 - Heading style.** for example:
 
 3) Use a note to document and describe the rule:
 
-To add a note, use `#` followed by a space and then the description of the rule to provide an easier way of identifying what the rule is tasked to lint for.
+To add a note, use `#` followed by a **space** and then the description of the rule to provide an easier way of identifying what the rule is tasked to lint for.
 
 Using **MD003 - Heading style.** for example:
 
@@ -66,8 +66,9 @@ Using **MD003 - Heading style.** for example:
 
 `"MD003": { "style": "atx_closed" }`
 
-**Common Error:** 
-Remember to add a **comma** at the end of the rule **UNLESS** your rule is the last rule in the overall list.
+**Common Errors:** 
+1. Keep in mind of spaces to be consistent within YAML/YML files.
+2. Remember to add a **comma** at the end of the rule **UNLESS** your rule is the last rule in the overall list.
 
 **Example:**
 
