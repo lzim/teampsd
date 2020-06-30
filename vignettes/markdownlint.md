@@ -7,7 +7,7 @@ output: .md
 
 This vignette describes the steps necessary to edit/add rules to  the `.markdownlint.yml` file in the root of the repository.
 
-For a video, click [here](https://mtl.how).
+For a video, click [here](https://youtu.be/dhrLOyaFDSg).
 
 Before beginning, let's **first start create a branch** to work off of within your repository, since you will need to initiate a pull request by the end of this guide. 
 
