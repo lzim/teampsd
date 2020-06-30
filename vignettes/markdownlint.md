@@ -48,7 +48,7 @@ Using **MD001 - Header levels should only increment by one level at a time.** fo
 2) For rules with parameters:
 
 Start with the **rule number** within **quotation marks** followed by a **colon**, **space**, 
-then **left curly bracket**, space, followed by the **parameter name** within **quotation marks** and a **colon**, and then **space**.
+then **left curly bracket**, **space**, followed by the **parameter name** within **quotation marks** and a **colon**, and then **space**.
 
 Lastly, type in the **parameter option** within **quotation marks**, **space**, and ending the rule with the remaining **right curly bracket** to close off the brackets. 
 
