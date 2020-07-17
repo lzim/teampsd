@@ -3,7 +3,7 @@ on:
      branches:
        - master
 
-  
+
 
 name: renderbook
 
@@ -25,7 +25,7 @@ jobs:
         with:
           name: _book
           path: _book/
-  
+
 # deploy to gh pages yml
   build-and-deploy:
    runs-on: ubuntu-latest
@@ -44,5 +44,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: "_book" # The folder the action should deploy.
+          FOLDER: _book
+          TARGET_FOLDER: _book # The folder the action should deploy.
           CLEAN: true
