@@ -16,7 +16,7 @@ Design Thinking - Team PSD Manual (and all that it includes):
 - Hasso-Plattner Institute of Design at Stanford (d.school).
 - Using resources from the non-profit Interaction Design foundation (interaction-design.org)
 
-[design thinking process image here ]
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/design_thinking.png">](#DontLink)
 
 ---------
 
@@ -117,7 +117,7 @@ Worst possible idea.**
 3. Has an end goal: What does a Team PSD member want to achieve?
 4. Addresses a pain point: What is the hardest/most frustrating aspect of the situation/context?
 
-(rebecca persona)
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/persona_example.png">](#DontLink)
 
 ---------
 
@@ -128,6 +128,3 @@ Worst possible idea.**
 ---------
 5. **Test** - test your prototype with the personas in question.
 - Does the prototype address the personas needs and pain points?
-
-
-
