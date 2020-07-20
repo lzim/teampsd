@@ -1,7 +1,7 @@
 ---
-title: "TeamPSD Design Workshop Manual"
-author: "Jennifer Li"
-date: "July 2020"
+title: "TeamPSD Design Workshop Manual: Day 1"
+author: "TeamPSD"
+date: "May 2020"
 output:
   github_document: default
   html_document: default
