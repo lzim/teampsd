@@ -9,6 +9,7 @@ output:
   slidy_presentation: default
 ---
 # TeamPSD Design Workshop Manual
+
 ## Day 1: Design Thinking
 Design Thinking - Team PSD Manual (and all that it includes):
 - Using Good UX (user-experience) Design...
@@ -18,9 +19,7 @@ Design Thinking - Team PSD Manual (and all that it includes):
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/design_thinking.png">](#DontLink)
 
----------
-
-1. **Empathize** - To gain an empathic understanding of the need or problem you are trying to solve in terms of people, **processes** that set aside individual **assumptions** to get insight into the need.
+### 1. **Empathize** - To gain an empathic understanding of the need or problem you are trying to solve in terms of people, **processes** that set aside individual **assumptions** to get insight into the need.
 - **What?** Details of what to do (what happened).
    - This is when we **analyze** observe and document details that relate to
 users.
@@ -32,9 +31,8 @@ a. **List assumptions**
 b. **Ask**: How could this not be true?
 c. **Ask**: What if we could do this twice as well in half the time?
 
----------
 
-2. **Define the problem** - This is when we **synthesize** observations into holistic **point of view** (POV). **Goal is to make linkages, so that we define the right problem to address.**
+### 2. **Define the problem** - This is when we **synthesize** observations into holistic **point of view** (POV). **Goal is to make linkages, so that we define the right problem to address.**
 
 [Example POV: Busy, nationally distributed, cross-functional team of scientists has many partners, is about to hire more people, leads a national participatory system dynamics simulation learning program in, and is gaining increasing national and international interest in partnership HMW...]
 
@@ -71,9 +69,7 @@ Because...
 3. What what was most **surprising**?
 4. What would we have **missed** if we hadnʼt asked why?
 
----------
-
-3. **Ideate** - Expand the problem space by identifying and testing out elements that would circumvent problems.
+### 3. **Ideate** - Expand the problem space by identifying and testing out elements that would circumvent problems.
 - time-limit
 - quantity over quality
 - no distractions
@@ -119,12 +115,9 @@ Worst possible idea.**
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/persona_example.png">](#DontLink)
 
----------
-
-4. **Prototype** - inexpensive, scaled down version with the **key features** to investigate the problem and solution. **Goal is to identify the best possible solution**.
+### 4. **Prototype** - inexpensive, scaled down version with the **key features** to investigate the problem and solution. **Goal is to identify the best possible solution**.
 - Solutions are investigated, accepted, improved, re-examined, rejected based on user-experiences.
 - Should give much better sense sense of constraints and how users would behave, think, and feels when interaction with it.
 
----------
-5. **Test** - test your prototype with the personas in question.
+### 5. **Test** - test your prototype with the personas in question.
 - Does the prototype address the personas needs and pain points?
