@@ -32,7 +32,8 @@ This guide will help you learn the basic user interface functions of Microsoft T
 - and more!
 
 ## Additional Tips/Functions
-### - Switch Organizations
+
+### Switch Organizations
 To switch out of an organization:
 1. Click on the **organization you are currently in**, located next your profile picture & name.
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_organization_1.png" height = "90" width = "480">](#DontLink)
@@ -40,13 +41,13 @@ To switch out of an organization:
 2. To switch out of the organization, click on the **organization you want to switch into**.
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_organization_2.png" height = "160" width = "480">](#DontLink)
 
-### - Channel Meetings
+### Channel Meetings
 To know where a meeting call is being held in a channel:
 1. Look to see the **purple video icon** next to a **channel's name**.
 
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_video_icon_channel.png" height = "150" width = "480">](#DontLink)
 
-### - Edit Message/Reply
+### Edit Message/Reply
 To edit a message:
 1. Drag your cursor over to an existing comment and **click on the 3 dots** next to the 6 "react" emojis.
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_3_dots.png" height = "210" width = "580">](#DontLink)
@@ -58,12 +59,12 @@ To edit a message:
 3. After finishing your edit, select the **check mark button** to publish or the **"x button"** to exit out of the draft.
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_check_mark_edit_message.png" height = "180" width = "550">](#DontLink)
 
-### - Markdown
+### Markdown
 Teams is Markdown friendly!
 1. Try using **basic markdown** such as bolding or italicizing text in a comment/reply.
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_markdown_comment.png" height = "110" width = "780">](#DontLink)
 
-### - Meeting Call in Context
+### Meeting Call in Context
 Tp start a meeting call within the same conversation thread to keep context:
 1. In the conversation thread, click on the **reply button**.
 
@@ -73,12 +74,12 @@ Tp start a meeting call within the same conversation thread to keep context:
 
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_reply_video_call_button.png" height = "110" width = "480">](#DontLink)
 
-### - "React" to a Comment
+### "React" to a Comment
 To "React" to a comment or reply to acknowledge it:
 1. Drag your cursor over to an existing comment and **select 1 of the 6 emojis** to "react" to it.
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_react_comment.png" height = "210" width = "580">](#DontLink)
 
-### - Link a Comment/Discussion/File
+### Link a Comment/Discussion/File
 To link to a specific thread or comment or file:
 1. Drag your cursor over to an existing comment and **click on the 3 dots** next to the 6 "react" emojis.
 [<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_3_dots.png" height = "210" width = "580">](#DontLink)
