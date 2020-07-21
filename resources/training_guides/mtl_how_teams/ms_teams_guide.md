@@ -38,8 +38,10 @@ This guide will help you learn the basic user interface functions of Microsoft T
 - To edit a message:
 1. Drag your cursor over to an existing comment and *click on the 3 dots* next to the 6 "react" emojis.
 2. Select the *pencil icon Edit button*.
-3. After finishing your edit, select the *check mark button*.
+3. After finishing your edit, select the *check mark button* to publish or the "x button" to exit out of the draft.
 
+- Teams is Markdown friendly!
+1. Try using basic markdown such as bolding or italicizing text in a comment/reply.
 
 - Start a meeting call within the same conversation thread to keep context:
 1. In the conversation thread, click on the *reply button*.
