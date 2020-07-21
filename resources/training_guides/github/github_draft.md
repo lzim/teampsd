@@ -39,17 +39,17 @@ This repository holds the backend code that needs to stay internal for our grant
 ### Workflow
 ![teampsd_2 0_organization_workflow](https://user-images.githubusercontent.com/59668647/88051957-5d172500-cb0e-11ea-9e8a-d343e293d6d3.png)
 
-# Basics of GitHub 
+## Basics of GitHub 
 To go through a quick overview on repositories, branches, commits, and opening/merging pull requests, click [here](https://guides.github.com/activities/hello-world/).
 
 For a glossary of GitHub terms, click [here](https://docs.github.com/en/github/getting-started-with-github/github-glossary).
 
-### Style
+## Style
 We use R Markdown format for syntax and style which you can refer to here (ADD HYPERLINK). Use a human and computer readable format to name files, meaning all lowercase, underscores, and dates (as necesary) with a name that will be meaningful to whoever reads it. 
 
 We will update with links to style guides.
 
-### ZenHub for Project Management
+## ZenHub for Project Management
 Our team uses the GitHub Google Chrome extension, [ZenHub](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US), for project management.
 
 #### ZenHub Flow - Issue Card
@@ -57,15 +57,15 @@ Our team uses the GitHub Google Chrome extension, [ZenHub](https://chrome.google
 To create an issue card, begin [here](https://github.com/lzim/teampsd/issues/new/choose) and follow the flow to create and maintain your issue card. 
 ![Zenhub Flow my version to learn](https://user-images.githubusercontent.com/59668647/88049640-5ab2cc00-cb0a-11ea-89a0-a09d13d4761d.png)
 
-### Files
-#### Create and Edit Files
+## Files
+### Create and Edit Files
 
 1. To create files, choose the branch or folder you want and click "Create New File."  
 2. To view the file's code, simply click "Raw" in the top right corner of the file, next to "Blame" and "History."  
 3. To view comments that you/others have added, you can click on "History" and then check for an "ellipses" symbol. This symbol indicates that a comment has been added to the commit. To see the comment, click on the ellipses. 
 ![](https://raw.githubusercontent.com/lzim/teampsd/videos/github_workflow_5.gif)  
 
-#### Upload Files
+###  Upload Files
 To upload files, choose the branch or folder you want and upload the file. The file will be named as it was in your computer, so make sure to give the file a name according that is simple and reflective of its contents to anyone that reads the file name.  
 
 ### Download Files
