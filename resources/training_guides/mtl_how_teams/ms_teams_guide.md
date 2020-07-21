@@ -39,7 +39,7 @@ This guide will help you learn the basic user interface functions of Microsoft T
 To switch out of an organization:
 
 1. Click on the **organization you are currently in**, located next your profile picture & name.
-![](https://github.com/lijenn/teampsdprototype/blob/master/resources/training_guides/mtl_how_teams/teams_organization_1.png)
+![image](https://user-images.githubusercontent.com/59668647/88048075-81bbce80-cb07-11ea-80af-a9f94bd6a63a.png)
 
 
 2. To switch out of the organization, click on the **organization you want to switch into**.
@@ -51,49 +51,58 @@ To know where a meeting call is being held in a channel:
 
 1. Look to see the **purple video icon** next to a **channel's name**.
 
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_video_icon_channel.png" height = "150" width = "480">
+![image](https://user-images.githubusercontent.com/59668647/88048114-94ce9e80-cb07-11ea-92f6-df64f512c1b1.png)
+
 
 ### Edit Message/Reply
 To edit a message:
 
 1. Drag your cursor over to an existing comment and **click on the 3 dots** next to the 6 "react" emojis.
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_3_dots.png" height = "210" width = "580">
+![image](https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png)
+
 
 2. Select the **pencil icon Edit button**.
 
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_edit_comment.png" height = "330" width = "280">
+![image](https://user-images.githubusercontent.com/59668647/88048218-ccd5e180-cb07-11ea-984e-d4e46fa329b9.png)
 
 3. After finishing your edit, select the **check mark button** to publish or the **"x button"** to exit out of the draft.
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_check_mark_edit_message.png" height = "180" width = "550">
+![image](https://user-images.githubusercontent.com/59668647/88048270-e0814800-cb07-11ea-9c0e-51baf0b3c383.png)
+
 
 ### Markdown
 Teams is Markdown friendly!
 
 1. Try using **basic markdown** such as bolding or italicizing text in a comment/reply.
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_markdown_comment.png" height = "110" width = "780">
+![image](https://user-images.githubusercontent.com/59668647/88048320-fa228f80-cb07-11ea-940e-e11212b8b93e.png)
+
 
 ### Meeting Call in Context
 Tp start a meeting call within the same conversation thread to keep context:
 
 1. In the conversation thread, click on the **reply button**.
 
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_reply_button.png" height = "340" width = "580">
+![image](https://user-images.githubusercontent.com/59668647/88048378-10305000-cb08-11ea-921d-b31fb86e5b7b.png)
+
 
 2. Click on the **video icon button** to begin a call.
 
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_reply_video_call_button.png" height = "110" width = "480">
+![image](https://user-images.githubusercontent.com/59668647/88048451-33f39600-cb08-11ea-8082-dddbf10ac0c4.png)
+
 
 ### "React" to a Comment
 To "React" to a comment or reply to acknowledge it:
 
 1. Drag your cursor over to an existing comment and **select 1 of the 6 emojis** to "react" to it.
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_react_comment.png" height = "210" width = "580">
+![image](https://user-images.githubusercontent.com/59668647/88048496-4a015680-cb08-11ea-9105-2cda75a780b6.png)
+
 
 ### Link a Comment/Discussion/File
 To link to a specific thread or comment or file:
 
 1. Drag your cursor over to an existing comment and **click on the 3 dots** next to the 6 "react" emojis.
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_3_dots.png" height = "210" width = "580">
+![image](https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png)
+
 
 2. Click on **hyperlink icon copy link button** to copy the link to the location of that thread/comment/file. 
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_copy_link_button.png" height = "330" width = "280">
+![image](https://user-images.githubusercontent.com/59668647/88048555-61d8da80-cb08-11ea-86be-d4cc0ca2d411.png)
+
