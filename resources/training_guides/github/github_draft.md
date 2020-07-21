@@ -14,6 +14,9 @@ TeamPSD's main platform for project tracking is GitHub + the extension of [ZenHu
 
 We :heart: GitHub for sharing the same commitment and values in having a free and open science workflow. 
 
+## Standard Operating Procedure (SOP)
+Before beginning to contribute to TeamPSD's workflow, ensure that you read through our [Standard Operating Procedures (SOP)](https://github.com/lzim/teampsd/wiki/TeamPSD-Policy-&-Procedure-SOP) to understand our rules and policies and orient to our team using GitHub.
+
 ## GitHub Repositories
 
 ### Non-VA Repositories
