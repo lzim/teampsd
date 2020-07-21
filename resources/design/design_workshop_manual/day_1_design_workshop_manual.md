@@ -17,7 +17,7 @@ Design Thinking - Team PSD Manual (and all that it includes):
 - Hasso-Plattner Institute of Design at Stanford (d.school).
 - Using resources from the non-profit Interaction Design foundation (interaction-design.org)
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/design_thinking.png">](#DontLink)
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/design_thinking.jpg">](#DontLink)
 
 ### 1. **Empathize** - To gain an empathic understanding of the need or problem you are trying to solve in terms of people, **processes** that set aside individual **assumptions** to get insight into the need.
 - **What?** Details of what to do (what happened).
