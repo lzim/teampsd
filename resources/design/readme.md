@@ -10,7 +10,7 @@ User-centered participatory learning and design of **Team PSD 2.0**
 - **Our mission** to improve how healthcare quality improvement decisions are made enlists diverse team members and partners.
 - We want to **empower** effective contributions from all potential stakeholders.
 
-## Synthesizing Participatory Learning and Participatory Design 
+## Synthesize Participatory Learning and Participatory Design 
 
 - **Team PSD** already developed [_Modeling to Learn_](https://mtl.how/) to scale nationally in the Veterans Health Administration.
   - The **participatory learning** principles we scaled in _Modeling to Learn_ are:
@@ -18,7 +18,7 @@ User-centered participatory learning and design of **Team PSD 2.0**
     - mutual learning
     - shared decision-making
 
-## Team PSD 2.0 Schedule
+### Schedule/Process
 
 Schedule: Team PSD is using our **may_epic** to reboot Team PSD.
 
@@ -37,7 +37,7 @@ Schedule: Team PSD is using our **may_epic** to reboot Team PSD.
 - **week 3:** review of the results of user persona testing of your MVPs (with concurrent video and retrospective verbal)
 - **week 4:** review the user-persona artifacts mindfully and empathically to discover new understandings you might have missed or still need to learn.
 
-## Persona and Prototyping 
+### Persona and Prototyping 
 
 - **User-centered hypotheses test assumptions** that include user _training needs._
 - **User points of view (POV)** of our **'limited Team PSD scale' problem** means that _upskilling_ user training costs must be tested.
