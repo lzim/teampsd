@@ -12,12 +12,14 @@ output:
 ## Day 2: Team PSD Manual Workshop Artifacts
 
 **“Gandy Dancers” process for building the railroads**
+
 - Used **song** to lay and adjust track and build the railroads.
 - We are working to develop our Team PSD **processes** (song) for building our railroad (not building the track), our **processes** and **platforms** for building. Like a **song**, it should keep us in time w/one another and feel good!
 - In this metaphor, the **“train”** is our **mission** to improve care for Veterans. We will have to **learn** to better use our platform to support this mission.
 - **Takeaway: We want our platform to support a reliable way of working together** (picture those hammers!)
 
 **GitHub will continue to be our song (platform) for building our railroad because learning to use its standards will scale.**
+
 - **Learning**: Some team members are “unlearning,” some “relearning,” and others just “learning” the GitHub platform.
    - Fortunately, **all** team members have experience learning new platforms to do their work.
 - It is already **standard** and
@@ -39,6 +41,7 @@ output:
 
 **Our Team PSD “Works in Progress” repository will be the manual (SOP) for how to contribute to Team PSD.**
 **Why?**
+
 - No change: **The Team PSD repo already is our manual.**
 - Change: We are not [yet] **configured** to use this repo across the team to meet **all** team members [userʼs] needs at **our growing scale**.
 - 45 team members and partners...and growing...
@@ -47,23 +50,32 @@ output:
 - **Metaphor for this goal: We cannot simply “make a table,” when what we need is scalable way for any Team PSD partner to contribute to making of tables that scale.**
 
 **DIMENSIONS of our PROBLEM OF SCALE:**
+
 - **Team: Shared understanding and language** is harder to maintain as we grow beyond our founding team.
 - **Partners: Joining the team** is harder unless we use existing standards.
 - **Platforms: Maintaining quality in production** is hard to maintain relying solely on individual peopleʼs disciplined adherence to an SOP.
 - **Production: Constant change is the norm and improvement desirable**, but hard without means for **continuous integration**.
 
 **Q & A**
+
 **Q:	What is continuous integration?**
+
 A:	Merging all working copies into master several times a day.
+
 Q:	How cool, but donʼt we already do that?
+
 A:	Yes! So we are very close, hereʼs what weʼre missing: **We are relying on people** to provide rapid feedback about defects in our code base, so that they can be identified and corrected ASAP (itʼs not that *fun*, is it?).
+
 A & Q. No. So what would be different if we used continuous integration on our Team PSD Repo?
+
 **A: We will use more of GitHubʼs native (&/or integrated) tools to automate testing and build our documentation.**
-##### - These are two things we probably spend over 80% of team time doing by hand...
+
+- **These are two things we probably spend over 80% of team time doing by hand...**
 - So, when thereʼs a missed dependency, which inevitable, because we still struggle to do better than *discover this by hand*...that leads to rework, it hurts!!!
 - Our SOPʼs reliance on people leads to social friction, where there could be intellectual friction supported by the right tools.
 
 **OBSERVATIONS that led to this Workshop:**
+
 - e.g., If all team members need to achieve Jamesʼ level of discipline, our SOP doesnʼt scale.
 - e.g., If we all to scan the horizon to identify dependencies that our GitHub, ZenHub, Workgroup Leads, Workgroup and huddles still just didnʼt catch, then our SOP doesnʼt scale.
 - e.g., If we read through a list of well-specified requirements using the exact same words (e.g., “parser,” “database processes”) and donʼt realize weʼre not speaking the same language, then our SOP doesnʼt scale.
@@ -73,9 +85,11 @@ A & Q. No. So what would be different if we used continuous integration on our T
 - Ouch!
 
 **UPGRADING OUR INDIVIDUAL MENTAL MODELS**
+
 **Assumptions about Team PSDʼs need for an improved way of building our railroad through GitHub, we could...**
 
 **OUR SHARED VISION:**
+
 1. **Update** all the files on Team PSD with a key stroke.
 2. **Test** scripts instead of use checklists.
 3. **Shared (team) or even universal (global) language** so that we all envision the exact same thing.
@@ -84,7 +98,9 @@ A & Q. No. So what would be different if we used continuous integration on our T
 7. **Manage change** through consistent process.
 
 **HOW?**
+
 - ***How*** **might we (HMW) address our pain points?**
+
 1. **Learn how** to do my job differently on GitHub.
 2. **Focus on the benefits** of learning how to better use GitHub as a tool for our purpose.
 3. **Discover** and flex GitHub capabilities to scale the “SOP.”
@@ -96,6 +112,7 @@ A & Q. No. So what would be different if we used continuous integration on our T
 9. **Automate** using complete repository configuration.
 
 **Key to avoiding Potemkin Village: Remember our “users” here are Team PSD Members and Partners, not Modeling to Learn learners.**
+
 1. A Potemkin Village is construction whose purpose is to provide an external facade to hide the fact that its faring poorly.
 2. We are **NOT** a Potemkin Village:
    Partners are SO impressed with what we have done making ***Modeling to Learn*** **achieve our 3 participatory principles at scale**: 
@@ -129,9 +146,11 @@ We have added two new team members who have experience with the types of enterpr
 Our mission and values require it of us.
 
 **We rebooting our “user” focus to Team PSD.**
+
 **Team PSD optimization, not Modeling to Learn optimization.**
 
 **35 Active Listening Highlights: Our individual Team PSD Repo users - whys? (Teams notes)**
+
 1. automation
 2. “seeing” how things are used
 3. accessibility
