@@ -10,7 +10,7 @@ output:
 ---
 
 # GitHub 
-TeamPSD's main platform for project tracking is GitHub with the extension of [ZenHub](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US) for project management. 
+TeamPSD's main platform for project tracking is GitHub + the extension of [ZenHub](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US) for project management. 
 
 We :heart: GitHub for sharing the same commitment and values in having a free and open science workflow. 
 
