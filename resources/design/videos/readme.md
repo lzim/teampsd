@@ -17,13 +17,16 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# Team PSD 2.0 Participatory Learning and Design _at Scale_
+## Participatory Learning and Design _at Scale_
 
 ### Instructions
+
 Make **user-persona videos** testing Team PSD prototypes (aka MVPs: 'minimum viable products').
 
 ### Principles for Participatory Design Artifacts
+
 1. **Scale** 
+
      - **We want to develop and test prototypes iteratively and asynchronously.** 
      - **We are using the GitHub platform to continuously integrate distributed Team PSD contributions.**
      - This means:
@@ -31,18 +34,21 @@ Make **user-persona videos** testing Team PSD prototypes (aka MVPs: 'minimum via
           - **Prototype** developers review artifacts iteratively (by user) and asynchronously (on their own without the user).
           - All our Team PSD prototype user test artifacts include user **learning ('upskilling').**
 2. **Learning**
+
      - **Team PSD processes include participatory learning.** 
           - **Prototyping** includes individual learning from existing online trainings.
      - We are **upskilling** to improve scale across our nationally distributed team and array of partners.
           - **Continuous integration** of Team PSD universal standard languages.
      
 ### Methods for these Design Artifacts
+
 - We adapted **cognitive think-aloud protocols _to scale_.**
      - We assess **usability** and **user experience.**
      - We enlist **mixed-methods** (qual + quan).
      - These are the instructions for **passive screen video observation of usability.**
 
 ### Context - _Why_ this is critical for Team PSD 2.0 to scale?
+
 - To scale Team PSD processes, we evaluate the **usability** and **user experience** of Team PSD prototypes.
      - **Passive Screen Video Observation** 
           - Usability (quantitative MVP tests)
@@ -58,11 +64,12 @@ Make **user-persona videos** testing Team PSD prototypes (aka MVPs: 'minimum via
           - All prototypes are teaching our learners a skill they need to contribute to the team.
           - As we upskill, we continuously integrate prototypes, which scales learning _and_ improvement across Team PSD. 
 
-## _How_ to create Screencast Videos - No Audio 
+## Screencast Videos - No Audio 
 
 ### PC
 
 #### Record any window on your PC.
+
 The Game DVR feature can capture any application’s window. 
 
 1. **Press Windows + G** in any application on Windows 10. 
@@ -90,10 +97,12 @@ The Game DVR feature can capture any application’s window.
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
-## Purpose: Our Team PSD 2.0 User and Prototype Design Libraries
+### Purpose: Our Team PSD 2.0 User and Prototype Design Libraries
+
 1. **Participatory design** helps our team to scale Team PSD improvements.
 2. **We identify:** a) how team users learn, b) how learning differs by skill, c) how trainings are used to learn, and d) how this changes over time.
 3. **Prototyping is asynchronous and distributed:** 
+
      - Team PSD **users** learn and prototype when it is best for them.
      - Team PSD **MVP developers** review artifacts when it is best for them.
      - Team PSD prototypes are **iteratively integrated** during design and user testing.
