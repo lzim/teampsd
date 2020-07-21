@@ -21,6 +21,7 @@ Design Thinking - Team PSD Manual (and all that it includes):
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/design_thinking.jpg">](#DontLink)
 
 ### 1. **Empathize** - To gain an empathic understanding of the need or problem you are trying to solve in terms of people, **processes** that set aside individual **assumptions** to get insight into the need.
+
 - **What?** Details of what to do (what happened).
    - This is when we **analyze** observe and document details that relate to
 users.
@@ -30,7 +31,9 @@ users.
 **Exercises for assumptions** (remember: everything is a perspective):
 
 a. **List assumptions**
+
 b. **Ask**: How could this not be true?
+
 c. **Ask**: What if we could do this twice as well in half the time?
 
 
@@ -39,15 +42,19 @@ c. **Ask**: What if we could do this twice as well in half the time?
 [Example POV: Busy, nationally distributed, cross-functional team of scientists has many partners, is about to hire more people, leads a national participatory system dynamics simulation learning program in, and is gaining increasing national and international interest in partnership HMW...]
 
 2a.	**A problem statement: Focuses on**
+
 - **Specific peopleʼs needs** (not the technology or specs),
 - **Value and insights for the project** (not the technical requirements), yet it is...
 - ...narrow enough to be **managed within our constraints**
 
 **Exercises for definitions with how-why/why-how laddering** (a variant of **5 whys** principle):
+
 a. Asking **"Why?"** Explores to understand **root causes** (abstract, more common across people)
+
 b. ...then **“How might we?”** to get to a **specific** problem/challenge we can solve (concrete)
 
 **Part I - The HMW Brainstorm...HMW**
+
 - use the efficiency of GitHub [good]
 - remove the [bad] steep learning curve
 - integrate with existing GH norms the best part [explore the opposite]
@@ -60,14 +67,17 @@ b. ...then **“How might we?”** to get to a **specific** problem/challenge we
 - divvy up chunks for each workgroup [break up POV]
  
 **Part II**
+
 1. “**Why** do we need to integrate our manuals, workflows and processes on GitHub to achieve Team PSD values? (if start with Why, phrase as a need and make it meaningful.”
 
 Because...
 
 2. “**How** do we use manuals, workflows and process on GitHub now?”
+
 - [describe]
 - **"Why?"**
 - **“Why?”**
+
 3. What what was most **surprising**?
 4. What would we have **missed** if we hadnʼt asked why?
 
@@ -78,7 +88,9 @@ Because...
 - no bad ideas
 
 **Part I.**
+
 **SCAMPER** - Review our **existing** Team PSD workgroups/workflow (SOP), platform & processes, resources and review them through seven **lenses**.
+
 - **Substitute** to improve - Can I substitute (replace) people, rules, names, processes?
 - **Combine** to achieve something different - Can I merge, maximize...?
 - **Adapt** to solve it - Which part could change? Which context could change?
@@ -89,8 +101,10 @@ Because...
 
 **Do any answers stand out as viable solutions?**
 
-**Part II.
-Worst possible idea.**
+**Part II.**
+
+**Worst possible idea.**
+
 1. Come up with as many bad ideas as we can.
 2. List all the properties of the bad ideas.
 3. List what is it that makes these ideas bad.
@@ -98,7 +112,9 @@ Worst possible idea.**
 5. Mix/match and substitute bad ideas to see what happens.
 
 **Part III.**
+
 **Exercises using Personas** to distill essences of each [Team PSD Manual] user type, who they are and what they do with the relevant resources in relevant contexts. **The goal mapping usersʼ needs to design functionality**.
+
 - Based on **observation** of real users.
 - Shaped iteratively by defining **needs** AND **users**.
 - **Context**: How will this help in context?
