@@ -39,7 +39,7 @@ This guide will help you learn the basic user interface functions of Microsoft T
 To switch out of an organization:
 
 1. Click on the **organization you are currently in**, located next your profile picture & name.
-![](https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_organization_1.png)
+![](https://github.com/lijenn/teampsdprototype/blob/master/resources/training_guides/mtl_how_teams/teams_organization_1.png)
 
 
 2. To switch out of the organization, click on the **organization you want to switch into**.
