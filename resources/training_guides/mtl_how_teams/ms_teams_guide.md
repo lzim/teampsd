@@ -39,10 +39,12 @@ This guide will help you learn the basic user interface functions of Microsoft T
 To switch out of an organization:
 
 1. Click on the **organization you are currently in**, located next your profile picture & name.
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_organization_1.png" height = "90" width = "480">
+![](https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_organization_1.png)
+
 
 2. To switch out of the organization, click on the **organization you want to switch into**.
-<img src = "https://github.com/lijenn/teampsdprototype/blob/lijenn_teams_guide/resources/training_guides/mtl_how_teams/teams_organization_2.png" height = "160" width = "480">
+![image](https://user-images.githubusercontent.com/59668647/88027821-ab1b3100-caec-11ea-95f0-7105e57fd497.png)
+
 
 ### Channel Meetings
 To know where a meeting call is being held in a channel:
