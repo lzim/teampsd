@@ -12,6 +12,7 @@ output:
 
 ## Day 1: Design Thinking
 Design Thinking - Team PSD Manual (and all that it includes):
+
 - Using Good UX (user-experience) Design...
 - The Sciences of the Artificial, Herbert Simon
 - Hasso-Plattner Institute of Design at Stanford (d.school).
@@ -27,6 +28,7 @@ users.
 - **Why?** Motivations/purpose (test this out...)
 
 **Exercises for assumptions** (remember: everything is a perspective):
+
 a. **List assumptions**
 b. **Ask**: How could this not be true?
 c. **Ask**: What if we could do this twice as well in half the time?
