@@ -1,0 +1,10 @@
+{
+  # This file contains the rules that Markdownlint is linting for within this repositories markdownfiles.
+  # Please not remove/alter the 1st three rules (default, no-hard-tabs, & whitespace)
+  "default": false,
+  "no-hard-tabs": false,
+  "whitespace": false,
+  # Please add on additional rules from here on:
+  # Unordered list indentation
+  "MD007": { "indent": 4 }
+}
