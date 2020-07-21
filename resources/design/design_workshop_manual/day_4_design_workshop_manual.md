@@ -15,11 +15,13 @@ output:
 - 1PM today: **#1192 & #1220 & Dependency Post-Mortems in the language of CI**
 
 **“Song” for building the Railroad...Metaphor**
+
 - **Gandy Dancers** used their songs to build the railroads for well over 150 years.
 - And, railroads supported other development, innovation and wealth (e.g. Stanford University).
 - But, not only were gandy dancers ultimately replaced, the railways themselves in large-part were ultimately were **technologically outgrown** (i.e., is Stanford known as one of the most prominent railroad universities in the world?)
 
 **Team PSD is outgrowing our unscalable workflow!**
+
    - **We will learn this together (mutual learning) as we always do :)**
 
 **_How sure am I that we have to better integrate existing coding standards to survive?_**
@@ -27,6 +29,7 @@ output:
 **A. The _threat_: Our only cover is daylight.**
 
 **Part 1: Look at how normed this is...**
+
 - **COVID19 Modeling Uncertainty - All available, but “wrong” vs...**
 - **COVID19 Pre-prints, Communication Response Time & Data Availability - Not available**
 - **COVID-19 Open Science Framework Example (normed)**
@@ -47,19 +50,24 @@ https://github.com/probot/probot
 https://githubsatellite.com/schedule/
 
 **C. Put in a values consistent way: We are the Leads in this space and people want to know how they can do this too!**
+
 - The list of mentees, senior scientist that want to retrain and partners that want to help is **long**…
 
 **We are using 7 Team PSD user _personas_ to test native GitHub Continuous Integration _prototypes_:**
+
 - Reviewing Cognitive Interview results elicited **_diverse mental models_ about the prototype _training_ and the prototype _capabilities_**.
 
 *These were all present before our workshop, we are trying to gain new **empathic understanding** of each user type.
+
 - **Huge time-savings!** Reported range for GH Apps **1.5 - 3 hours** inclusive of cognitive interviewing.
 
 **User Point of View (POV) Problem Statement, Team PSD doesnʼt scale.**
+
 - Team Personas
 - Team Position Description (PDs)
 
 **Design Workshop “TO BE” Key Words:**
+
 1. **“Automate”**
 2. **“Shared language”**
 3. **“See/Test”**
@@ -67,8 +75,10 @@ https://githubsatellite.com/schedule/
 5. **“Increase time for/Focus** on transparent Team PSD Science” (not just our MTL intervention)
 
 **Design Workshop “AS IS” Key Words**
+
 1. Not using our **tools/platform** correctly, why? The team doesnʼt know how...
 2. ***Upskill, so we can**
+
 - **“Speak the same language!”** Learn more about our diverse Team PSD user-types and their mental models.
 - **“Google for yourself”** - Use of existing standards are empowering! time-saving!
 - **“Simplify to existing standards”** - Key to onboarding new members & staying current to collaborate, retain funding.
@@ -80,6 +90,7 @@ https://githubsatellite.com/schedule/
 **Coming out of this workshop, our may_epic priority is the Team PSD 2.0 release** (#1192 & #1220), with **_critical focus on wrapping up the R21_**
 
 These are our steps:
+
 1. **Clarify why** the team needs new skills,
 2. **Identify the skills** that are most valuable,
 3. **Develop the most feasible/viable plan for how** the team will obtain the necessary skills, using our personas
@@ -90,22 +101,28 @@ b.	followed by top-priority _Team PSD-specific_ prototypes next week
 5. **Synthesize into a new “root” Team PSD repo (SOP continuously integrated, deployed and documented; manual & document tracker)**
 
 Our **Team PSD Manual Design Thinking Workshop** is confronting our individual assumptions to design better solutions.
+
 - The payoff can be immense in **team results**,
 - overall **quality of work life**, and
 - increased **individual and team opportunities**.
 
 **Thursday & Friday Outline**
+
 **“Thereʼs an app for that!”**
 
 **1192 & Dependent Issues Process Post-Mortem**
+
 **Using new shared GitHub “CI” language/understanding, how might we (HMW)**
+
 - a) **enlist a native GH feature to solve 80% of our pain** (upstream & downstream?),
 - b) what can be and should be done in **May**?
 - c) **who will learn what new skills** to develop the Team PSD-specific prototype for user testing? Why?
 - d) what is the **user-centered hypothesisv you are trying to reject/validate with your prototype (minimal viable product or “MVP”)
 
 **1220 & Dependent Issues Process Post-Mortem**
+
 **Using new shared GitHub “CI” language/understanding, how might we (HMW)**
+
 - a) **enlist a native GH feature to solve 80% of our pain** (upstream & downstream?),
 - b) what can be and should be done in **May**?
 - c) **who will learn what new skill**s to develop the Team PSD-specific prototype for user testing? Why?
@@ -115,6 +132,7 @@ Our **Team PSD Manual Design Thinking Workshop** is confronting our individual a
 **Friday Finalize**
 
 One pager of what we are doing in the team
+
 - Language map 
   - Git
   - YAML Node.js
@@ -124,6 +142,7 @@ One pager of what we are doing in the team
   - .r
 
 **Repo map:**
+
 - **Everything MTL “mtl” describe, detail** (Sim UI, SEE & SAY, Models, model & data documentarian) (1220) - 100% open source (get the help!)
 - **Everything Team PSD** - team **document** _how_ to “teampsd” (1192) - 100% “living document” and “self-help”
 - Team PSD Open Science **disseminate** scientists & VA???
@@ -132,9 +151,11 @@ One pager of what we are doing in the team
 - **teampsd** - set up SOP build for repo
 
 What should we do first, why?
+
 - capabilities
 
 Who needs to learn what?
+
 - training
 
 What metrics will we use next week to evaluate our user-centered hypotheses about our Team PSD-specific prototypes?
