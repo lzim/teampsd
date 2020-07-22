@@ -42,9 +42,9 @@ Make **user-persona Concurrent Think Aloud videos** testing Team PSD prototypes 
 
 #### Record Screen (No Audio) 
 
-##### PC User (VA or Non-VA)
+#### PC User (VA or Non-VA)
 
-##### Non-VA, Windows 10 users only: Record screen using Game DVR 
+#### Non-VA, Windows 10 users only: Record screen using Game DVR 
 
 The Game DVR feature can capture any application’s window. 
 
@@ -56,7 +56,7 @@ The Game DVR feature can capture any application’s window.
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
-##### VA or Non-VA: Record screen using PowerPoint
+#### VA or Non-VA: Record screen using PowerPoint
 
 Powerpoint can has a built-in ability to screencastcapture any application’s window. 
 
@@ -68,9 +68,9 @@ Follow the guide [here](https://support.microsoft.com/en-us/office/record-your-s
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
-##### Mac User
+#### Mac User
 
-##### Record any window on your Mac.
+#### Record any window on your Mac.
 
 1. **Press Shift-Command-5**. The _Onscreen Controls_ will appear.
 2. Once the _Onscreen Controls_ appear, click on one of the buttons with the record circle in the bottom right (4th icon from the left - **Record Entire Screen** or 5th icon from the left - **Record Selected Portion**)
