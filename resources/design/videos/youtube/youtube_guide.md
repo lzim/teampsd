@@ -82,7 +82,7 @@ If you don’t already have a gmail/Google account, **select this link** to crea
 
   - **Select** the YouTube red icon.
   
-![](https://user-images.githubusercontent.com/59668647/88176110-a6817600-cbdb-11ea-96f1-26804b84b52d.png)
+![](https://user-images.githubusercontent.com/59668647/88176665-78506600-cbdc-11ea-97b0-3d3cd30ed4ff.png)
 
   - Your YouTube dashboard will open up.
 
