@@ -2,7 +2,7 @@
 
 In week 3, we want to share our MVPs with the user to collect user feedback.
 
-To collect feedback, we are using 2 Think Aloud protocols: **Concurrent Screencast Video (no audio) and Retrospective Verbal.**
+To collect feedback, users will be participating in 2 Think Aloud protocols: **Concurrent Screencast Video (no audio) and Retrospective Verbal.**
 
 1.  **A Concurrent Screencast Video Think Aloud** requires users to screencast themselves going through the MVP prototype, but without audio so they can focus soley on using the MVP.
 2.  **A Retrospective Verbal Think Aloud** occurs after the Concurrent Screencase Video Think Aloud in which users think about how they felt about the MVP, what went wrong, what went right, what was missing, etc and write it up afterwards.
@@ -22,6 +22,8 @@ pain points and needs with only 20% effort.*
 - quantity over quality
 - no distractions
 - no bad ideas
+
+**Exercises to think through when reviewing the user persona CTA & RTAs:**
 
 **Part I.**
 
