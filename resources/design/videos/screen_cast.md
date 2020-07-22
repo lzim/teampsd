@@ -44,7 +44,7 @@ Make **user-persona Concurrent Think Aloud videos** testing Team PSD prototypes 
 
 #### PC User (VA or Non-VA)
 
-#### Non-VA, Windows 10 users only: Record screen using Game DVR 
+**Non-VA, Windows 10 users only: Record screen using Game DVR **
 
 The Game DVR feature can capture any application’s window. 
 
@@ -52,25 +52,29 @@ The Game DVR feature can capture any application’s window.
 2. **Look for the Game Bar** that will appear. 
 3. **Select “Yes, this is a game”** even if the application isn’t a game. 
 
-![image](https://user-images.githubusercontent.com/59668647/88048959-170b9280-cb09-11ea-9234-cb53a14325df.png)
+![](https://user-images.githubusercontent.com/59668647/88048959-170b9280-cb09-11ea-9234-cb53a14325df.png)
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
-#### VA or Non-VA: Record screen using PowerPoint
+**VA or Non-VA: Record screen using PowerPoint**
 
-Powerpoint can has a built-in ability to screencastcapture any application’s window. 
+![](https://user-images.githubusercontent.com/59668647/88177837-5526b600-cbde-11ea-9711-260c8ddd7337.png)
 
-Follow the guide [here](https://support.microsoft.com/en-us/office/record-your-screen-in-powerpoint-0b4c3f65-534c-4cf1-9c59-402b6e9d79d0#OfficeVersion=Newer_versions).
+Powerpoint can has a built-in ability to screencast your desktop and input the video onto a slide in blank powerpoint presentation. 
 
-1. Follow steps 1-6 under the header: Record from your computer screen and embed the recording in PowerPoint.
-2. VA User: Your PowerPoint Version on your VA machine will be able to screencast with the instructions in the guide above.
-3. Non-VA User: Be sure to check your PowerPoint versions as this only works in *PowerPoint for Microsoft 365, PowerPoint 2019, PowerPoint 2016, PowerPoint 2013.*
+You can save the video file separately afterwards.
+
+Follow the guide [**here**](https://support.microsoft.com/en-us/office/record-your-screen-in-powerpoint-0b4c3f65-534c-4cf1-9c59-402b6e9d79d0#OfficeVersion=Newer_versions).
+
+1. Follow **steps 1-6** under the header: **Record from your computer screen and embed the recording in PowerPoint.**
+2. **VA Machine User**: Your PowerPoint Version on your VA machine will be able to screencast with the instructions in the guide above.
+3. **Non-VA Machine User**: Be sure to check your PowerPoint versions as this only works in *PowerPoint for Microsoft 365, PowerPoint 2019, PowerPoint 2016, PowerPoint 2013.*
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
 #### Mac User
 
-#### Record any window on your Mac.
+**Record any window on your Mac.**
 
 1. **Press Shift-Command-5**. The _Onscreen Controls_ will appear.
 2. Once the _Onscreen Controls_ appear, click on one of the buttons with the record circle in the bottom right (4th icon from the left - **Record Entire Screen** or 5th icon from the left - **Record Selected Portion**)
@@ -81,7 +85,7 @@ Follow the guide [here](https://support.microsoft.com/en-us/office/record-your-s
 
 6. In the _Menu Bar_, **click the Stop Recording button** or **press Command-Control-Esc (Escape)** to stop recording.
 
-![image](https://user-images.githubusercontent.com/59668647/88048985-22f75480-cb09-11ea-9d7a-c04d989f1dcc.png)
+![](https://user-images.githubusercontent.com/59668647/88048985-22f75480-cb09-11ea-9d7a-c04d989f1dcc.png)
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
      
