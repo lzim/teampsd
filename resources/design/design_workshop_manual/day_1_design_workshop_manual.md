@@ -14,7 +14,7 @@ output:
 
 **Week 1:** Gather user-centered hypotheses
 
-**Week 2:** Clarify user assumptions w/ Minimum Viable Product (MVP) 
+**Week 2:** Clarify user assumptions w/ Minimum Viable Product (MVP) test
 
 **Week 3:** Review results of user persona testing of your MVP Prototype (with concurrent video and retrospective verbal)
 
@@ -32,7 +32,7 @@ In week 1, we want to gather the user centered hypotheses of the user/user group
 
 Hypotheses should consist of the user's needs, pain points, and consider the background and context of the user. 
 
-*Week 1 follows the first phase of the process for design thinking which involves the ability to **empathize** with the user's current state of experience.*
+*Week 1 follows the **first phase of the process for design thinking** which involves the ability to **empathize** with the user's current state of experience.*
 
 1. **Empathize** - To gain an empathic understanding of the need or problem you are trying to solve in terms of people, **processes** that set aside individual **assumptions** to get insight into the need.
 
@@ -60,7 +60,7 @@ In week 2, we want to narrow down the week 1 user centered hypotheses by clarify
 
 Assumptions the designer has based on week 1 hypotheses should clarified to **define** only the most crucial and necessary needs and pain points that will be addressed **before prototyping a minimum viable product (MVP)**. This will prevent creating/designing for needs that **do not solve 80% of the user's pain points with only 20% effort** being used in the development of the MVP and test and **quickly rule out MVPs** that do not respond to needs of the users in a **fast and cheap** manner.
 
-*Week 2 follows the 2nd phase of the process for design thinking which involves the ability to **define** with the user's specific set of problems that needs to be immediately addressed.*
+*Week 2 follows the **2nd phase of the process for design thinking** which involves the ability to **define** with the user's specific set of problems that needs to be immediately addressed.*
 
 2. **Define the problem** - This is when we **synthesize** observations into holistic **point of view** (POV). 
 
