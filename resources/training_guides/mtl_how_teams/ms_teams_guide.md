@@ -15,7 +15,7 @@ output:
 # MS Teams
 TeamPSD and the VA are both using [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app) as their main communication platform.
 
-TeamPSD is using the **Free Version of Microsoft Teams** so the entire team can get used to it as the VA begins to roll it out system-wide by early August.  
+TeamPSD is currently using the **Free Version of Microsoft Teams** so the entire team can get used to it as the VA begins to roll it out system-wide between mid-July to early August.  
 
 ## Quick Start Guide
 To review the basics of Microsoft Teams, check out their [Quick Start Guide](https://www.chorus.co/media/2989/quickstart-guide-to-teams-chorus.pdf).
@@ -46,7 +46,7 @@ To switch out of an organization:
 ![](https://user-images.githubusercontent.com/59668647/88027821-ab1b3100-caec-11ea-95f0-7105e57fd497.png)
 
 
-### Channel Meetings
+### Meet in a Channel
 To know where a meeting call is being held in a channel:
 
 1. Look to see the **purple video icon** next to a **channel's name**.
@@ -69,15 +69,15 @@ To edit a message:
 ![](https://user-images.githubusercontent.com/59668647/88048270-e0814800-cb07-11ea-9c0e-51baf0b3c383.png)
 
 
-### Markdown
+### Use Markdown
 Teams is Markdown friendly!
 
 1. Try using **basic markdown** such as bolding or italicizing text in a comment/reply.
 ![](https://user-images.githubusercontent.com/59668647/88048320-fa228f80-cb07-11ea-940e-e11212b8b93e.png)
 
 
-### Meeting Call in Context
-Tp start a meeting call within the same conversation thread to keep context:
+### Start a Call in a Thread
+To start a meeting call within the same conversation thread to keep context:
 
 1. In the conversation thread, click on the **reply button**.
 
@@ -103,6 +103,7 @@ To link to a specific thread or comment or file:
 ![](https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png)
 
 
-2. Click on **hyperlink icon copy link button** to copy the link to the location of that thread/comment/file. 
+2. Click on **hyperlink icon copy link button** to copy the link to the location of that thread/comment/file.
+
 ![](https://user-images.githubusercontent.com/59668647/88048555-61d8da80-cb08-11ea-86be-d4cc0ca2d411.png)
 
