@@ -17,37 +17,13 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-## Participatory Learning and Design _at Scale_
+### Create Screencast Video
 
-### Instructions
+#### Instructions
 
-Make **user-persona videos** testing Team PSD prototypes (aka MVPs: 'minimum viable products').
+Make **user-persona Concurrent Think Aloud videos** testing Team PSD prototypes (aka MVPs: 'minimum viable products').
 
-### Principles for Participatory Design Artifacts
-
-1. **Scale** 
-
-     - **We want to develop and test prototypes iteratively and asynchronously.** 
-     - **We are using the GitHub platform to continuously integrate distributed Team PSD contributions.**
-     - This means:
-          - **Users** test, produce artifacts, and add them to the Team PSD library to be used by multiple prototype developers.
-          - **Prototype** developers review artifacts iteratively (by user) and asynchronously (on their own without the user).
-          - All our Team PSD prototype user test artifacts include user **learning ('upskilling').**
-2. **Learning**
-
-     - **Team PSD processes include participatory learning.** 
-          - **Prototyping** includes individual learning from existing online trainings.
-     - We are **upskilling** to improve scale across our nationally distributed team and array of partners.
-          - **Continuous integration** of Team PSD universal standard languages.
-     
-### Methods for these Design Artifacts
-
-- We adapted **cognitive think-aloud protocols _to scale_.**
-     - We assess **usability** and **user experience.**
-     - We enlist **mixed-methods** (qual + quan).
-     - These are the instructions for **passive screen video observation of usability.**
-
-### Context - _Why_ this is critical for Team PSD 2.0 to scale?
+#### Context - _Why_ this is critical for Team PSD 2.0 to scale?
 
 - To scale Team PSD processes, we evaluate the **usability** and **user experience** of Team PSD prototypes.
      - **Passive Screen Video Observation** 
@@ -64,11 +40,11 @@ Make **user-persona videos** testing Team PSD prototypes (aka MVPs: 'minimum via
           - All prototypes are teaching our learners a skill they need to contribute to the team.
           - As we upskill, we continuously integrate prototypes, which scales learning _and_ improvement across Team PSD. 
 
-## Screencast Videos - No Audio 
+#### Record Screen (No Audio) 
 
-### PC
+##### PC User (VA or Non-VA)
 
-#### Record any window on your PC.
+###### Non-VA, Windows 10 users only: Record screen using Game DVR 
 
 The Game DVR feature can capture any application’s window. 
 
@@ -80,9 +56,21 @@ The Game DVR feature can capture any application’s window.
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
-### Mac
+###### VA or Non-VA: Record screen using PowerPoint
 
-#### Record any window on your Mac.
+Powerpoint can has a built-in ability to screencastcapture any application’s window. 
+
+Follow the guide [here](https://support.microsoft.com/en-us/office/record-your-screen-in-powerpoint-0b4c3f65-534c-4cf1-9c59-402b6e9d79d0#OfficeVersion=Newer_versions).
+
+1. Follow steps 1-6 under the header: Record from your computer screen and embed the recording in PowerPoint.
+2. VA User: Your PowerPoint Version on your VA machine will be able to screencast with the instructions in the guide above.
+3. Non-VA User: Be sure to check your PowerPoint versions as this only works in *PowerPoint for Microsoft 365, PowerPoint 2019, PowerPoint 2016, PowerPoint 2013.*
+
+**Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
+
+##### Mac User
+
+###### Record any window on your Mac.
 
 1. **Press Shift-Command-5**. The _Onscreen Controls_ will appear.
 2. Once the _Onscreen Controls_ appear, click on one of the buttons with the record circle in the bottom right (4th icon from the left - **Record Entire Screen** or 5th icon from the left - **Record Selected Portion**)
@@ -96,16 +84,5 @@ The Game DVR feature can capture any application’s window.
 ![image](https://user-images.githubusercontent.com/59668647/88048985-22f75480-cb09-11ea-9d7a-c04d989f1dcc.png)
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
-
-### Purpose: Our Team PSD 2.0 User and Prototype Design Libraries
-
-1. **Participatory design** helps our team to scale Team PSD improvements.
-2. **We identify:** a) how team users learn, b) how learning differs by skill, c) how trainings are used to learn, and d) how this changes over time.
-3. **Prototyping is asynchronous and distributed:** 
-
-     - Team PSD **users** learn and prototype when it is best for them.
-     - Team PSD **MVP developers** review artifacts when it is best for them.
-     - Team PSD prototypes are **iteratively integrated** during design and user testing.
-     - Design artifacts are **machine and human readable** for use across the team now and in the future.
      
 **Reference:** van den Haak, Maaike, De Jon, Menno, Schellens, & Peter Jan. (2003). Retrospective vs. concurrent think-aloud protocols: Testing the usability of an online library catalogue. _Behavior & Information Technology, 22._ https://doi.org/10.1080/0044929031000
