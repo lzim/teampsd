@@ -50,26 +50,26 @@ If you don’t already have a gmail/Google account, **select this link** to crea
 
    - **Click** Pending invitations.
    
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_pendinginvitation_lrg.png" width="300">
+![](https://user-images.githubusercontent.com/59668647/88175856-4ab6ed00-cbdb-11ea-951d-ead0bed6fe4d.png)
 
    - **Select** LZPhD.
 
    - **Accept invitation**.
    
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_becomemanager_lrg.png" width="300">
+![](https://user-images.githubusercontent.com/59668647/88176014-8487f380-cbdb-11ea-8324-941e2caadbbe.png)
 
    - **Scroll down**: "Act as LZPhD on": 
    
-    **Select** the YouTube red icon.
+   - **Select** the YouTube red icon.
     
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_actaslzphd.png" width="300">
+![](https://user-images.githubusercontent.com/59668647/88176060-99648700-cbdb-11ea-8cf0-8b7ffab70bcf.png)
     
    - **Navigate** to the inbox associated with your Google account.
    
    - You will see a confirmation in your inbox that reads, "You are now a manager of LZPhD".
    
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_email_lrg.png" width="300">
-   
+![](https://user-images.githubusercontent.com/59668647/88176081-9d90a480-cbdb-11ea-8776-c992a9aee1e9.png)   
+
    - **Select** the new email. 
    
    - **You are now a manager** Congratulations!
@@ -78,17 +78,17 @@ If you don’t already have a gmail/Google account, **select this link** to crea
 
   - **Select** Get started.
   
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_getstarted.png" width="300">
+![](https://user-images.githubusercontent.com/59668647/88176094-a1bcc200-cbdb-11ea-8e85-1ed529d93438.png)
 
   - **Select** the YouTube red icon.
   
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_redicon_lrg.png" width="300">
+![](https://user-images.githubusercontent.com/59668647/88176110-a6817600-cbdb-11ea-96f1-26804b84b52d.png)
 
   - Your YouTube dashboard will open up.
 
   - **Navigate to the top right** and **select** your circular profile pic.
   
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_videobar.png" width="300">
+![](https://user-images.githubusercontent.com/59668647/88176122-aa14fd00-cbdb-11ea-89fb-fda8b1328655.png)
 
   - From the drop-down menu, **select switch accounts**.
 
@@ -98,7 +98,7 @@ If you don’t already have a gmail/Google account, **select this link** to crea
 
   - **Select** Upload video.
   
-<img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_uploadvideo.png" width="300">
+![](https://user-images.githubusercontent.com/59668647/88176392-0c6dfd80-cbdc-11ea-8678-26cde3cb9b7e.png)
 
   - Find the user persona video file you’d like to upload. 
 
@@ -134,6 +134,6 @@ If you don’t already have a gmail/Google account, **select this link** to crea
 
   - **Select** the “Speed” option.
   
-  <img src="https://github.com/erinash/teampsd/blob/master/resources/design/videos/guide_screenshots/youtube_speed_lrg.png" width="300">
+![](https://user-images.githubusercontent.com/59668647/88176162-b436fb80-cbdb-11ea-91c5-03cd13e00743.png)
 
   -	**Choose** a range of speeds.
