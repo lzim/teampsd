@@ -4,7 +4,7 @@ In week 4, your **prototype and MVPs should be able to be fully incorporated int
 developing solutions that do not solve 80% of our team's needs and utilizing only 20% effort in order to fail fast and fail cheap by quickly ruling out 
 assumptions and solutions that do not work.
 
-*Week 4 follows the last phase of the process for design thinking which involves the ability to **review tests** of your MVP and **reflect** on those tests
+*Week 4 follows the **last phase of the process for design thinking** which involves the ability to **review tests** of your MVP and **reflect** on those tests
 that can help you even better mindfully and empathize with users, ultimately to further improve your skills for month's design process.*
 
 5. **Test** - Review tests your prototype with the user personas in question & look for 2nd story perspectives.
