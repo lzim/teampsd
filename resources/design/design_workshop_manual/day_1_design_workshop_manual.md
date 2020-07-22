@@ -8,19 +8,33 @@ output:
   ioslides_presentation: default
   slidy_presentation: default
 ---
-# TeamPSD Design Workshop Manual
+# Team PSD 2.0 Monthly Process
 
-## Day 1: Design Thinking
-Design Thinking - Team PSD Manual (and all that it includes):
+**Team PSD 2.0 Process for monthly sprints/epics:**
 
-- Using Good UX (user-experience) Design...
-- The Sciences of the Artificial, Herbert Simon
-- Hasso-Plattner Institute of Design at Stanford (d.school).
-- Using resources from the non-profit Interaction Design foundation (interaction-design.org)
+**Week 1:** Gather user-centered hypotheses
+
+**Week 2:** Clarify user assumptions w/ Minimum Viable Product (MVP) 
+
+**Week 3:** Review results of user persona testing of your MVP Prototype (with concurrent video and retrospective verbal)
+
+**Week 4:** Review user persona artifacts and second story perspectives mindfully and empathically to discover new understandings you might have missed or still need to learn
+
+Team PSD's monthly process is based on the design thinking principles of **user experience**, which attemps to account for a **person's needs**, **pain points**, **goals**, and **emotional experience** when using a **product/service** and/or going through a **process** and **system**.
+
+Our monthly **process for each monthly sprint/epic** is based on the **process for design thinking**:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/design_thinking.jpg">](#DontLink)
 
-### 1. **Empathize** - To gain an empathic understanding of the need or problem you are trying to solve in terms of people, **processes** that set aside individual **assumptions** to get insight into the need.
+## Week 1: Gather User Hypotheses
+
+In week 1, we want to gather the user centered hypotheses of the user/user group that we want to help and design for either by meeting with them and/or referring to their user personas.
+
+Hypotheses should consist of the user's needs, pain points, and consider the background and context of the user. 
+
+*Week 1 follows the first phase of the process for design thinking which involves the ability to **empathize** with the user's current state of experience.*
+
+1. **Empathize** - To gain an empathic understanding of the need or problem you are trying to solve in terms of people, **processes** that set aside individual **assumptions** to get insight into the need.
 
 - **What?** Details of what to do (what happened).
    - This is when we **analyze** observe and document details that relate to
@@ -36,8 +50,21 @@ b. **Ask**: How could this not be true?
 
 c. **Ask**: What if we could do this twice as well in half the time?
 
+Example of a User Persona:
 
-### 2. **Define the problem** - This is when we **synthesize** observations into holistic **point of view** (POV). **Goal is to make linkages, so that we define the right problem to address.**
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/persona_example.png">](#DontLink)
+
+## Week 2: Clarify User Assumptions w/ MVP test
+
+In week 2, we want to narrow down the week 1 user centered hypotheses by clarifying assumptions based on those hypotheses.
+
+Assumptions the designer has based on week 1 hypotheses should clarified to **define** only the most crucial and necessary needs and pain points that will be addressed **before prototyping a minimum viable product (MVP)**. This will prevent creating/designing for needs that **do not solve 80% of the user's pain points with only 20% effort** being used in the development of the MVP and test and **quickly rule out MVPs** that do not respond to needs of the users in a **fast and cheap** manner.
+
+*Week 2 follows the 2nd phase of the process for design thinking which involves the ability to **define** with the user's specific set of problems that needs to be immediately addressed.*
+
+2. **Define the problem** - This is when we **synthesize** observations into holistic **point of view** (POV). 
+
+**Goal is to make linkages, so that we define the right problem to address.**
 
 [Example POV: Busy, nationally distributed, cross-functional team of scientists has many partners, is about to hire more people, leads a national participatory system dynamics simulation learning program in, and is gaining increasing national and international interest in partnership HMW...]
 
@@ -80,62 +107,3 @@ Because...
 
 3. What what was most **surprising**?
 4. What would we have **missed** if we hadnʼt asked why?
-
-### 3. **Ideate** - Expand the problem space by identifying and testing out elements that would circumvent problems.
-- time-limit
-- quantity over quality
-- no distractions
-- no bad ideas
-
-**Part I.**
-
-**SCAMPER** - Review our **existing** Team PSD workgroups/workflow (SOP), platform & processes, resources and review them through seven **lenses**.
-
-- **Substitute** to improve - Can I substitute (replace) people, rules, names, processes?
-- **Combine** to achieve something different - Can I merge, maximize...?
-- **Adapt** to solve it - Which part could change? Which context could change?
-- **Modify** (Magnify and Minify) - Can emphasize, add, grow, tone down...?
-- **Put to another use** - Could X, Y, Z person use it? Who else? How else could it be used?
-- **Eliminate** - What would happen if we trim, narrow, reduce, effort, time, costs, rules? I can eliminate X by...
-- **Reverse** (rearrange) - What if this process was reverse? Could we change the schedule or pace?
-
-**Do any answers stand out as viable solutions?**
-
-**Part II.**
-
-**Worst possible idea.**
-
-1. Come up with as many bad ideas as we can.
-2. List all the properties of the bad ideas.
-3. List what is it that makes these ideas bad.
-4. Search for the opposite of the worst attribute.
-5. Mix/match and substitute bad ideas to see what happens.
-
-**Part III.**
-
-**Exercises using Personas** to distill essences of each [Team PSD Manual] user type, who they are and what they do with the relevant resources in relevant contexts. **The goal mapping usersʼ needs to design functionality**.
-
-- Based on **observation** of real users.
-- Shaped iteratively by defining **needs** AND **users**.
-- **Context**: How will this help in context?
-- **Goal**: Goal-directed personaʼs enable good tests.
-- **Role**: Role-directed perspective.
-- **Hypothesis**:
-- **Description**: values, interests, education, needs, attitudes, desires, limitations, goals
-- **Situations/scenarios**: put the user in contexts with problems to overcome.
-
-**Key idea is to avoid designing for yourself only, or designing and forcing generic users to fit the design.**
-
-1. Stay in context: How will a team member use it during typical Team PSD day?
-2. Reflect real behaviors: What does a Team PSD member have to do?
-3. Has an end goal: What does a Team PSD member want to achieve?
-4. Addresses a pain point: What is the hardest/most frustrating aspect of the situation/context?
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/persona_example.png">](#DontLink)
-
-### 4. **Prototype** - inexpensive, scaled down version with the **key features** to investigate the problem and solution. **Goal is to identify the best possible solution**.
-- Solutions are investigated, accepted, improved, re-examined, rejected based on user-experiences.
-- Should give much better sense sense of constraints and how users would behave, think, and feels when interaction with it.
-
-### 5. **Test** - test your prototype with the personas in question.
-- Does the prototype address the personas needs and pain points?
