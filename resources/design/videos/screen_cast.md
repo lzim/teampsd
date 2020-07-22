@@ -58,13 +58,17 @@ The Game DVR feature can capture any application’s window.
 
 **VA or Non-VA: Record screen using PowerPoint**
 
-Powerpoint can has a built-in ability to screencastcapture any application’s window. 
+![](https://user-images.githubusercontent.com/59668647/88177837-5526b600-cbde-11ea-9711-260c8ddd7337.png)
 
-Follow the guide [here](https://support.microsoft.com/en-us/office/record-your-screen-in-powerpoint-0b4c3f65-534c-4cf1-9c59-402b6e9d79d0#OfficeVersion=Newer_versions).
+Powerpoint can has a built-in ability to screencast your desktop and input the video onto a slide in blank powerpoint presentation. 
 
-1. Follow steps 1-6 under the header: Record from your computer screen and embed the recording in PowerPoint.
-2. VA User: Your PowerPoint Version on your VA machine will be able to screencast with the instructions in the guide above.
-3. Non-VA User: Be sure to check your PowerPoint versions as this only works in *PowerPoint for Microsoft 365, PowerPoint 2019, PowerPoint 2016, PowerPoint 2013.*
+You can save the video file separately afterwards.
+
+Follow the guide [**here**](https://support.microsoft.com/en-us/office/record-your-screen-in-powerpoint-0b4c3f65-534c-4cf1-9c59-402b6e9d79d0#OfficeVersion=Newer_versions).
+
+1. Follow **steps 1-6** under the header: **Record from your computer screen and embed the recording in PowerPoint.**
+2. **VA Machine User**: Your PowerPoint Version on your VA machine will be able to screencast with the instructions in the guide above.
+3. **Non-VA Machine User**: Be sure to check your PowerPoint versions as this only works in *PowerPoint for Microsoft 365, PowerPoint 2019, PowerPoint 2016, PowerPoint 2013.*
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
