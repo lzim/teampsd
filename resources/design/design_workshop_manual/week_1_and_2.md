@@ -10,6 +10,23 @@ output:
 ---
 # Team PSD 2.0 Monthly Process
 
+As Team PSD continues to grow, our workflow alongside team values in order to better support the needs of our team, just like how we developed 
+[_Modeling to Learn_](https://mtl.how) to scale nationally in the Veterans Health Administration.
+
+The **participatory learning** principles we scaled in _Modeling to Learn_ are:
+
+- equitable access to resources
+- mutual learning
+- shared decision-making
+
+**Team PSD 2.0** is about becoming more scalable due to continuous integration, deployment and documention.
+
+- We aim for a completely free, accessible, transparent and reproducible workflow (aka **“open science”**).
+- **Our mission** to improve how healthcare quality improvement decisions are made enlists diverse team members and partners.
+- We want to **empower** effective contributions from all potential stakeholders.
+
+The Team PSD 2.0 Monthly Process is based on the design thinking principles of **user experience**, which attemps to account for a **person's needs**, **pain points**, **goals**, and **emotional experience** when using a **product/service** and/or going through a **process** and **system**.
+
 **Team PSD 2.0 Process for monthly sprints/epics:**
 
 **Week 1:** Gather user-centered hypotheses
@@ -19,8 +36,6 @@ output:
 **Week 3:** Review results of user persona testing of your MVP Prototype (with concurrent video and retrospective verbal)
 
 **Week 4:** Review user persona artifacts and second story perspectives mindfully and empathically to discover new understandings you might have missed or still need to learn
-
-Team PSD's monthly process is based on the design thinking principles of **user experience**, which attemps to account for a **person's needs**, **pain points**, **goals**, and **emotional experience** when using a **product/service** and/or going through a **process** and **system**.
 
 Our monthly **process for each monthly sprint/epic** is based on the **process for design thinking**:
 
