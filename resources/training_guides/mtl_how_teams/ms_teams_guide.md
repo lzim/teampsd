@@ -39,11 +39,11 @@ This guide will help you learn the basic user interface functions of Microsoft T
 To switch out of an organization:
 
 1. Click on the **organization you are currently in**, located next your profile picture & name.
-![image](https://user-images.githubusercontent.com/59668647/88048075-81bbce80-cb07-11ea-80af-a9f94bd6a63a.png)
+![](https://user-images.githubusercontent.com/59668647/88048075-81bbce80-cb07-11ea-80af-a9f94bd6a63a.png)
 
 
 2. To switch out of the organization, click on the **organization you want to switch into**.
-![image](https://user-images.githubusercontent.com/59668647/88027821-ab1b3100-caec-11ea-95f0-7105e57fd497.png)
+![](https://user-images.githubusercontent.com/59668647/88027821-ab1b3100-caec-11ea-95f0-7105e57fd497.png)
 
 
 ### Channel Meetings
@@ -51,29 +51,29 @@ To know where a meeting call is being held in a channel:
 
 1. Look to see the **purple video icon** next to a **channel's name**.
 
-![image](https://user-images.githubusercontent.com/59668647/88048114-94ce9e80-cb07-11ea-92f6-df64f512c1b1.png)
+![](https://user-images.githubusercontent.com/59668647/88048114-94ce9e80-cb07-11ea-92f6-df64f512c1b1.png)
 
 
 ### Edit Message/Reply
 To edit a message:
 
 1. Drag your cursor over to an existing comment and **click on the 3 dots** next to the 6 "react" emojis.
-![image](https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png)
+![](https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png)
 
 
 2. Select the **pencil icon Edit button**.
 
-![image](https://user-images.githubusercontent.com/59668647/88048218-ccd5e180-cb07-11ea-984e-d4e46fa329b9.png)
+![](https://user-images.githubusercontent.com/59668647/88048218-ccd5e180-cb07-11ea-984e-d4e46fa329b9.png)
 
 3. After finishing your edit, select the **check mark button** to publish or the **"x button"** to exit out of the draft.
-![image](https://user-images.githubusercontent.com/59668647/88048270-e0814800-cb07-11ea-9c0e-51baf0b3c383.png)
+![](https://user-images.githubusercontent.com/59668647/88048270-e0814800-cb07-11ea-9c0e-51baf0b3c383.png)
 
 
 ### Markdown
 Teams is Markdown friendly!
 
 1. Try using **basic markdown** such as bolding or italicizing text in a comment/reply.
-![image](https://user-images.githubusercontent.com/59668647/88048320-fa228f80-cb07-11ea-940e-e11212b8b93e.png)
+![](https://user-images.githubusercontent.com/59668647/88048320-fa228f80-cb07-11ea-940e-e11212b8b93e.png)
 
 
 ### Meeting Call in Context
@@ -81,28 +81,28 @@ Tp start a meeting call within the same conversation thread to keep context:
 
 1. In the conversation thread, click on the **reply button**.
 
-![image](https://user-images.githubusercontent.com/59668647/88048378-10305000-cb08-11ea-921d-b31fb86e5b7b.png)
+![](https://user-images.githubusercontent.com/59668647/88048378-10305000-cb08-11ea-921d-b31fb86e5b7b.png)
 
 
 2. Click on the **video icon button** to begin a call.
 
-![image](https://user-images.githubusercontent.com/59668647/88048451-33f39600-cb08-11ea-8082-dddbf10ac0c4.png)
+![](https://user-images.githubusercontent.com/59668647/88048451-33f39600-cb08-11ea-8082-dddbf10ac0c4.png)
 
 
 ### "React" to a Comment
 To "React" to a comment or reply to acknowledge it:
 
 1. Drag your cursor over to an existing comment and **select 1 of the 6 emojis** to "react" to it.
-![image](https://user-images.githubusercontent.com/59668647/88048496-4a015680-cb08-11ea-9105-2cda75a780b6.png)
+![](https://user-images.githubusercontent.com/59668647/88048496-4a015680-cb08-11ea-9105-2cda75a780b6.png)
 
 
 ### Link a Comment/Discussion/File
 To link to a specific thread or comment or file:
 
 1. Drag your cursor over to an existing comment and **click on the 3 dots** next to the 6 "react" emojis.
-![image](https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png)
+![](https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png)
 
 
 2. Click on **hyperlink icon copy link button** to copy the link to the location of that thread/comment/file. 
-![image](https://user-images.githubusercontent.com/59668647/88048555-61d8da80-cb08-11ea-86be-d4cc0ca2d411.png)
+![](https://user-images.githubusercontent.com/59668647/88048555-61d8da80-cb08-11ea-86be-d4cc0ca2d411.png)
 
