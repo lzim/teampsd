@@ -13,7 +13,9 @@ that can help you even better mindfully and empathize with users, ultimately to 
 - What could we have missed or ignored from the user?
 - What worked well in the month and what did not?
 
-**Second Story Perspective Questions to reflect on from the month:**
+### Reflect Second Stories
+
+**Use these set of question to help think through Second Story Perspective Questions to reflect on the design process from the month:**
 
 1. Do you see any places where moving forward independently could have been more aligned with the team or integrated better when you were done?
 2. Could a dependency or root assumption have been caught any sooner for the benefit of the team?
