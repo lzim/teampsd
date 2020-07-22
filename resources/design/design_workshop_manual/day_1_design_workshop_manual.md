@@ -50,7 +50,7 @@ b. **Ask**: How could this not be true?
 
 c. **Ask**: What if we could do this twice as well in half the time?
 
-Example of a User Persona:
+**Example of a User Persona:**
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/persona_example.png">](#DontLink)
 
