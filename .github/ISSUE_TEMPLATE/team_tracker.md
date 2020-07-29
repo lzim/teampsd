@@ -1,3 +1,12 @@
+---
+name: Team Tracker
+about: Create a new MTL team tracker card.
+title: 'Session #'
+label: ''
+assignee: ''
+
+---
+
 ## **Session 1 Checklist**
 
 - [ ] Teams best case scenario:

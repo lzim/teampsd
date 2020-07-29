@@ -1,3 +1,12 @@
+---
+name: Manuscript
+about: Create a new manuscript card.
+title: 'OSF Project name - OSf project link'
+label: 'co-i_manuscript'
+assignee: ''
+
+---
+
 ## **Manuscript Tracker Issue Template**
 
 _This checklist will ensure all manuscript components are completed as issues move through the manuscript_tracker._

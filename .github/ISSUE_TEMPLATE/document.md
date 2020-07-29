@@ -1,3 +1,12 @@
+---
+name: Document
+about: Create a new document card.
+title: ''
+label: ''
+assignee: ''
+
+---
+
 ## 1. Link to the document and add relevant team members to the card.
 - [ ] Add the link the current draft of the documentation for the issue:
 
