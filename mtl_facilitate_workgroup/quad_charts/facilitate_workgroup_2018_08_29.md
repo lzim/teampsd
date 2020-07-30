@@ -6,7 +6,7 @@ output: github_document = default
         powerpoint_presentation = default
         word_document = default
 ---
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/teampsd_logo/team_psd_logo_sm.png"
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/team_psd_logo_sm.png"
      height = "200" width = "600">
 
 ### R Markdown template for publishing workgroup quad_charts to GitHub. 
