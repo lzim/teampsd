@@ -1,4 +1,4 @@
-<img src = "https://github.com/lzim/teampsd/blob/sp_new_repo/resources/logos/team_psd_logo_sm.png"
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
 * Team PSD is using Markdown to format our participatory system dynamics resources for [_Modeling to Learn_](https://mtl.how).
