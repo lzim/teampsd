@@ -17,7 +17,9 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/team_psd_logo_sm.png"
      height = "200" width = "600">  
 
-# Add to the Team PSD 2.0 YouTube Video Library 
+# YouTube Video Library
+
+Add to the Team PSD 2.0 YouTube Video Library 
 
 Team PSD user persona video "cognitive think alouds" (CTAs) started with the Team PSD 2.0 Reboot in May 2020.
 - _Our Open Science Commitment_: Team PSD Participatory Learning, Design and Research _at Scale_
