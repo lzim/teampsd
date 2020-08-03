@@ -1,0 +1,3 @@
+# This file contains a list of folders and/or their subfolders that Markdownlint should avoid scanning through
+mtl_facilitate_workgroup
+ees_workgroup/master_brochures
