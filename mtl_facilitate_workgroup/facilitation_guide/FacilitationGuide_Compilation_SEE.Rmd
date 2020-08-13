@@ -1,0 +1,321 @@
+---
+title: 'Facilitation Guide'
+author: "Lindsey Zimmeran Ph.D"
+contributors: Dominique Malebranche, McKenzie Javorka, Alexandra Ballinger, Myra Altman, Swap Mushiana, Joyce Yang, Melissa London "
+date: "Spring, 2017"
+output:
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+# Session 1: Participatory
+
+## Complexity
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
+
+
+## Mental Model
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+
+## Circles
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg" width="720" height="450">
+
+
+## Elephant
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
+
+
+## Systems Story Video
+<a href="http://www.youtube.com/watch?v=rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="720" height="540">
+
+## Individuals' mental models are incomplete 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team-building_1016130_003F72.svg" width="600" height="450">
+
+
+## Mental Models are Interconnected
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="720" height="540">
+
+
+## Dialogue in a Modeling Process
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+
+## Make Dynamics Explicit
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_share_884712_003F72.svg" width="720" height="540">
+
+
+## Develop New Shared System Insights
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="720" height="540">
+
+
+## Shared Vision
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="365" height="305">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg" width="365" height="305">
+
+
+## Synthesis
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="720" height="540">
+
+```{r}
+
+```
+# Session 2: Systems
+
+## Complex
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
+
+
+## Interconnected 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg" width="720" height="540">
+     
+
+## Structure Determines Behavior 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_000000.svg" width="720" height="540">
+
+
+## Function of a System 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_roofless-car_564275_003F72.svg" 
+      width="720" height="540">
+
+## System Components 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-tire_811766_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-battery_811720_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-keys_811748_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_steering-wheel_167223_003F72.svg">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_roofless-car_564275_003F72.svg" width="240" height="180">
+
+## Interconnectedness and Multifinality
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="720" height="540">
+ 
+
+## Purpose of the Session: Eliciting Mental Models 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+      
+## Zooming in and out 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg" width="240" height="180"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg" width="240" height="180">
+
+
+## Developing a System Story 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_full-network_674171_003F72.svg" width="720" height="540">
+
+## Exercise- Graphs Over Time 
+
+Split into 6 groups, on the paper provided please draw a simple graph with time on the horizonal axis and level of the following variables on the verticle. 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg" width="240" height="180">
+
+* Group 1: Morale
+* Group 2: Turnover
+* Group 3: Providers Trained in EBPs
+* Group 4: Students in Clinic 
+* Group 5: Provider Availability to start EBPs
+* Group 6: No Shows 
+
+```{r}
+
+```
+
+# Session 3: Dynamics 
+
+## Quality Improvement Efforts Often Fail 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg width="720" height="540">
+```{r}
+
+```
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_000000.svg width="720" height="540">
+
+```{r}
+
+```
+
+## Success is Dependent on the System 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_full-network_674171_003F72.svg width="720" height="540">
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="365" height="305"><img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="365" height="305">
+
+## Measuring Performance
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg width="720" height="540">
+
+## Alternative Approach
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg width="720" height="540">
+
+## Zooming in and out 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg width="365" height="305">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg width="365" height="305">
+
+## Tradeoffs
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_settings_339117_003F72.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hospital_547435_0083BE.svg width="240" height="180">
+
+## Increasing general and specific capacity
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg width="720" height="540">
+
+## Understanding causal loops 
+
+```{r}
+
+```
+# Session 4: Dynamics (2)
+
+## Positive Feedback
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="720" height="540">
+
+## Negative Feedback
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="720" height="540">
+
+## Role of Delays - Time 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_redo_993290_003F72.svg width="720" height="540">
+
+## Traffic 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_traffic_924177_003F72.svg width="720" height="540"> 
+
+## Static Observation 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_interactive-bar-chart_151004_003F72.svg width="720" height="540">
+
+## Dynamic Observation
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg width="720" height="540">
+
+## Nonlinear System Behavior- Exponential Growth
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg width="720" height="540">
+
+## Nonlinear System Behavior- Steady State
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_88002_003F72.svg width="720" height="540">
+
+## System Behavior– Oscillation
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_sine-wave_385866_003F72.svg width="720" height="540">
+
+## Lesson Overview 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="720" height="540">
+
+## How nature gets its rhythms 
+<a href="http://www.youtube.com/watch?v=inVZoI1AkC8" target="_blank"><img src="https://img.youtube.com/vi/inVZoI1AkC8/0.jpg" alt="Feedback Loops" width="720" height="540">
+
+## Ratio Exercise 
+<img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="720" height="540">
+
+```{r}
+
+```
+# Session 5: Data - Operations 
+
+# Data Dialogue 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="720" height="540">
+
+     
+## Mental Model 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+## Dialogue 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" 
+      width="720" height="540">
+      
+## PSD Process 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+## Data Visualization
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="720" height="540">
+
+## Purpose of the Session: Become familiar with our data
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+      
+
+## Learning Loop Exercise
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg" width="720" height="540">
+
+http://www.bankrate.com/calculators/mortgages/mortgage-payment-calculator.aspx
+
+
+## Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="720" height="540">
+
+```{r}
+
+```
+
+# Session 6: Data 
+
+## Data Session: Making our data actionable to inform clinical decisions
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg width="720" height="540">
+
+
+## Mental models of data need to be made explicit
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="720" height="540">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="720" height="540">
+
+
+## Participatory System Dynamics Process - Learning to zoom in and out
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg width="365" height="305">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg width="365" height="305">
+
+
+## Visualize variables interacting dynamically over time and non-linearly
+Link to mortgage/savings calculator: http://www.bankrate.com/calculators/index-of-mortgage-calculators.aspx
+
+
+## Modeling to learn with local data
+<img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.41.jpg width="720" height="540">
+
+
+## Understanding system behavior as a function of its components
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-tire_811766_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-battery_811720_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-keys_811748_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_steering-wheel_167223_003F72.svg">
+
+
+## Limited EBP reach is a complex problem
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="720" height="540">
+
+
+## Putting it Together
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="600" height="450">
+
+## Synthesis
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="720" height="540">
+
+```{r}
+
+```
+# Session 7: Modeling 
+
+# Healthcare
+<img src= "https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_hospital_547435_0083BE.svg" width="720" height="540">
+
+## Traffic Jam 
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_traffic_924177_003F72.svg" width="720" height="540">
+     
+## Stock and Flow
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_washing_514155_003F72.svg" width="720" height="540">
+
+## Static Observation 
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" width="720" height="540">
+      
+## Dynamic Observation Over Time
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg" width="720" height="540">
+
+## Modeling to Learn
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="720" height="540">
+
+## Modeling to Learn
+<img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.22.JPG width="720" height="540">
+
+## Systems Theory + Local Data
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_slinky_48148_000000.svg" width="720" height="540">
+
+## Local Data
+<img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.36.jpg width="720" height="540">
+
+## System Behaviors
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_88002_003F72.svg width="360" height="270"><img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_88002_003F72.svg width="360" height="270">
+
+## Zooming in/out: System Behaviors
+<img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.41.jpg width="720" height="540">
+
+## Putting it Together
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="600" height="450">

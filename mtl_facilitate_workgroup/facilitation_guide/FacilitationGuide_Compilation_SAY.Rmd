@@ -1,0 +1,980 @@
+---
+title: 'Facilitation Guide'
+author: "Lindsey Zimmeran Ph.D"
+contributors: Dominique Malebranche, McKenzie Javorka, Alexandra Ballinger, Myra Altman, Swap Mushiana, Joyce Yang, Melissa London "
+date: "Spring, 2017"
+output:
+  github_document: default
+  html_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  pdf_document: default
+---
+
+
+# Session 1: Participatory
+
+### Key Ideas 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+* We each have individual incomplete mental models 
+* We need to learn from each other to have a more complete shared vision 
+* This mutual learning PSD process will help us coordinate and manage the complexity of the health care system
+* Without learning and coordination, we may have unintended policy resistance and ineffective strategies
+
+
+### Terms
+
+* Model to Learn: ________________________ EMPTY AS OF 8/16/17
+* Mental Model: images, assumptions and stories which we carry in our minds of ourselves, other people, institutions, and every aspect of the world (i.e., internal pictures of the world)
+* Shared Vision: building sense of commitment in a group by developing shared images of the future sought to create and principles guiding practices by which we hope to get there
+* Participatory: approach that seeks to involve key stakeholders, or those who are directly involved in/affected by the problem or system at hand
+
+
+### Learning Loop 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+* Circles exercise: Introduce modeling to learn, given that individual perspectives of the problem are incomplete
+* Elephant metaphor: Introduce shared vision for the project of using modeling
+
+* **Shared Vision Exercise**
+    + Facilitate stakeholders process of creating a vision and understanding of the modeling to learn project process and goals together
+    + Facilitate discussion to revise long-term project goals
+
+
+### Dialogue
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Discuss modeling to learn and shared vision to develop a co-created understanding of the problem together
+    
+    
+### Lesson Overview- "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+* In order to address needs for learning and coordination for limited EBP reach, a participatory approach is necessary to connect individuals, a PSD process elicits mental models and dialogue together makes them explicit
+
+* **Coming Up**
+    + We will discuss system structures and its influence on behavior
+    + We will explore system dynamics that will help with developing a model further in the PSD process
+
+
+## Complexity
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">
+
+* Have you ever struggled to deal with a problem that seemed very complex? Or, have you ever struggled to get on the same page about a problem with your colleagues?
+Examples?
+* We need models because systems, such as a clinic within a health care system, are complex. Today, we will talk about how eliciting our individual mental models about a system can help us get on the same page about a problem and deal with complex systems that none of us can fully grasp individually.
+* Through participatory processes, we can increase willingness to come together with a new, more complete, model for problem-solving
+
+
+## Mental Model
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">
+
+* We come into the room with individual mental models; for example, we each have our own model for how a process like patient intake in a clinic works.
+* It is necessary for us to reflect upon, and continually clarify and improve our models, given that our internal pictures of the world determine what we see (Senge, 1990).
+* Often our mental models are untested and unexamined and our core task is to help make them visible, bringing mental models to the surface to explore and talk about them with minimal defensiveness.
+
+
+## Learning Loop
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+* Circles Exercise
+
+## Teaching Story: Elephant
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="240" height="180">
+
+* To illustrate how our individual mental models do not tell the full story, I'll refer to the well-known parable of the Elephant and the Blind Men. In the story, a group of blind men hear that an unfamiliar animal called an elephant has been brought to town. To learn about what an elephant is, they each touch different parts of the animal. One man touches the trunk and says, "This animal is like a big snake." Another touches its ear, and thinks it reminds him of a fan. A third touches the tail and describes it as a rope. Another feels the elephant's tusk and says the elephant is hard and pointy, like a spear.
+
+* This story demonstrates how each of our individual mental models are incomplete, and only tell part of the story of what makes up a whole elephant, or phenomenon. In our participatory process, we realize that our individual perspectives are not everything- each is not complete, and one is not more "correct" than another.
+* The story of the elephant also demonstrates that the whole has properties that none of the parts have- an elephant is more than the sum of a tusk, a tail, an ear, and a trunk. In the next session, we will hear more about how systems are more than the sum of their parts.
+
+## Systems Story Video
+<a href="http://www.youtube.com/watch?v=rDxOyJxgJeA" target="_blank"><img src="https://img.youtube.com/vi/rDxOyJxgJeA/0.jpg" alt="A Systems Story" width="240" height="180">
+
+### (If time: play systems story video)
+* This video of A Systems Story provides another illustration of the parable of the Elephant, and also introduces us to some ideas about systems thinking and vocabulary, which will be covered more in the next session on Systems.
+
+## Individuals' mental models are incomplete
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team-building_1016130_003F72.svg" width="240" height="180">
+
+* The differences between mental models explain why two people can observe the same event and describe it differently; they are paying attention to different details
+* In essence, mental models shape how we act (Senge, 1990) and understand complex problems.
+
+
+## Mental Models are Interconnected
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hierarchy_884692_003F72.svg" width="240" height="180">
+
+The participatory process we are beginning today allows stakeholders who are interconnected...
+
+
+## Dialogue in a Modeling Process
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">
+
+To elicit our mental models of system problems and makes…
+
+
+## Make Dynamics Explicit
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_share_884712_003F72.svg" width="240" height="180">
+
+…our mental models explicit in an external model that allows for more complexity than each of us could individually hold in our heads, or understand.
+
+
+## Develop New Shared System Insights
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="240" height="180">
+
+* This mutual learning process allows stakeholders to see new possibilities, recognize differences in our mental models, and put together our individual "pieces of the puzzle" to create a model that reflects the complexity of real-life problems.
+* The PSDM process that we will participate in together over the next few months is a dynamic, ongoing process involving iterative learning. Through this process, we hope to facilitate empowerment, capacity-building and shared ownership of this work as we partner with our stakeholders.
+
+
+## Shared Vision Exercise
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">
+
+* Purpose: helping people see how their individual visions fit together with colleagues and fit into a shared vision for modeling to learn process
+* Goals: 
+    + Elicit individual’s model/vision of PSD process and find themes that align with one another
+    + Co-create vision for modeling to learn project (e.g., why PSD process, consistent with zooming in-part/zooming out-whole)
+* It is important to formally acknowledge everyone’s place in the room (i.e., mutual respect, invoke other’s potential by our willingness to see essence of others) (Senge, 1990).
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Discuss modeling to learn and shared vision to develop a co-created understanding of the problem together
+
+
+## Synthesis
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="240" height="180">
+
+* So to summarize, through the PSDM process, everyone’s contribution should be increasingly brought into the whole
+* Reflecting everyone’s aspirations, a creative synthesis can emerge, and we can create a formal, explicit model of a problem (such as reach of evidence based practices in a mental health clinic) that is more complete and complex than what each of us could individually understand.
+* This participatory process of creating a shared vision will continue throughout the PSD process
+
+
+
+## Lesson Complete
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.svg" width="240" height="180">
+
+* **Coming Up**
+    + We will discuss system structures and their influence on system behavior
+    + We will explore system dynamics that will help with developing a model further in the PSD process
+
+
+```{r}
+
+```
+# Session 2: Systems
+
+
+### Key Ideas 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+*	A system's structure determines it's behavior 
+* A system is a whole with properities that none of it's parts has 
+* System parts are defined by their relationship to the whole. It is not effective to focus on solving problems in isolation
+* Zooming out and in is the key skill of systems thinking 
+
+
+### Key Terms
+
+* System: "an interconnected set of elements, coherently organized in a way that achieves something"
+* System Behavior: Emerges from the dynamic interactions of system components.
+    + We define limited EBP reach as a system behavior  
+
+### Dialogue- Hexagon Icon
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Discuss slinky and Car parts, briefly describe how each relates to equifinality and multifinality
+
+### Learning Loop 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+* Reintroduce mental models from participatory session- in this exercise we will make mental models explicit 
+
+* **Graphs Over Time Exercise**
+    + Facilitate stakeholders choosing a variable of interest and diagramming its change over time
+    + Post graphs and facilitate discussion of how the various graphs are related, beginning to talk about them as a system  
+    
+### Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+* In order to change an undesirable system behavior (like limited EBP reach) we need to understand the system that produces it. We do this by zooming in to understand elements in detail and zooming out to contextualize them in the whole (iteratively). 
+
+* **Coming Up**
+    + We will make the dynamics between the system elements we modeled today more explicit
+    + We will explore feedback in-depth
+    + Stakeholders will explore their own data to see those feedback dynamics at work 
+
+## Complex
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">
+
+Introduce system thinking by discussing how the problem that we're attempting to address (in this case limited EBP reach) persists because it is complex- there isn't a linear cause and effect. It is the result of multiple interrlated variables with levels that change dynamiclly over time. 
+
+
+## Interconnected 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg" width="240" height="180">
+
+We define limited EBP reach as a system behavior, a product of the interaction of system components. Each part of the system is dependent for effect on other parts, no part works in isolation. The complexity and interconnectedness of the clinic system means we cannot possibly understand it intuitively. It is impossible to hold the rates, states and interactions of all of the relevant variables in our heads, especially as they change over time. one of the value adds of the PSDM approach is that we move to a model, an external representation of the system that can display complexity and interconnectedness of these variables in a coherant way.
+     
+
+## Structure Determines Behavior 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_003F72.svg" width="240" height="180">
+
+One of the teaching examples commonly used to illustrate systems thinking is the slinky. Hold a slinky from the top and bottom then release your bottom hand so it drops and bounces up and down until it is stil. Then ask the group: why did that happen to the slinky? Why did it bounce up and down? Some common answers might be- "because you released your bottom hand" or "because of gravity". If these answers are given point out that if you did the same thing with a notebook it wouldn't bounce back it would simply hit the ground. Then explain that the structure of the slinky, its coils, causes the physical behavior of it bouncing up and down. Similarly, the structure of the clinical setting (the way all interreltated components interact) produces the behavior of limited EBP reach.The system structure determines how it reacts to outside forces (like national change efforts), similarly to how the slinky structure determines how it reacts to gravity. Because the behavior we want to change is determined by the system structure, change efforts need to target that structure. We must understand the underlying structure in order to find points of levarage to target. In this session we hope to help frontline staff come to a more "systems" understanding of their setting.
+
+
+## Function of a System 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_roofless-car_564275_003F72.svg" 
+      width="240" height="180">
+
+A system is an "interconnected set of elements organized in a way that achieves something" (Meadows) in other words a system has functions that none of its parts has individually. For instance a car gets you from point A to B, its engine doesn't. You can write, your hand can't write. (Ackoff) Our healthcare system's function is to meet the need of the veteran, no individual part whether it be referral, scheduling, intake can meet the need alone. When a system is taken apart it loses its essential properties, one reason it is important to use systems thinking to understand the current implementation problem. 
+
+## System Components 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-tire_811766_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-battery_811720_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-keys_811748_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_steering-wheel_167223_003F72.svg">
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_roofless-car_564275_003F72.svg" width="240" height="180">
+
+Each part or component of a system is interrelated and dependent for effect on all other parts. No part functions independently, for instance a car's wheels don't function independently of the steering wheel and vice versa. Similarly all parts of our clinic system function in relation to the other parts for instance referral functions in relation to scheduling.
+
+Another application of the car analogy in our clinic setting is that the performance of the system depends on the fit of the parts to that system, not how well they act taken separately. If you rated every possible car engine for performance, decided the "best" engine was from a ferrari and then put it in your honda the car wouldn't run. Which engine is "best" is determined by its fit in the overall system. Similarly the "best" implementation strategy is the one that best fits a particular clinic. In fact if you took the "best" functioning of every individual part of every car and tried to assemble a "super-car" you wouldn't even end up with a functional vehicle. Often when considering "best practices" we neglect to consider that they were successful in a particular system, taken out of that system they might not function at all. 
+
+## Interconnectedness and Multifinality
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="240" height="180">
+
+Because all parts of our clinic system are interconnected and dependent on one another for effect, any implementation strategy we select will impact not only the outcome we are hoping to improve but other outcomes of interest as well. Our current objective is to improve EBP reach but we certainly do not want to do so at the expense of number of clients served, wait times, clients completing general psychotherapy etc. One advantage of our PSD approach that uses systems thinking is that we can predict how any potential strategy will impact **multiple** outcomes of interest. This way we can select a strategy that not only improves EBP reach but works towards achieving multiple other clinic goals as well.   
+
+## Purpose of the Session: Eliciting Mental Models 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">
+
+In today's session we will work toward eliciting the mental models that were discussed during the participatory session last time. The learning exercise I will introduce in a few moments will serve to help you think about variables in the clinic, such as drop-out as a result of interrelated clinic factors. This will hopefully get you thinking in systems and will illustrate the concepts we have discussed so far. 
+      
+## Zooming in and out 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg" width="240" height="180"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg" width="240" height="180">
+
+The key skill we hope to impart in this session is that of zooming in and out. Systems thinking assumes that in order to change an undesirable system behavior (like limited EBP reach) we need to understand the system that produces it. We do this by zooming in to understand elements in detail and zooming out to contextualize them in the whole. This skill in flexible thinking needs to be done iteratively over time to maintain a systems perspective on a dynamic and complex system. 
+
+## Developing a System Story 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_full-network_674171_003F72.svg" width="240" height="180">
+
+The following exercise will help you to elicit your mental model of how your clinic  functions and develop a greater system understanding of your setting. We will ask you to think about a single variable in the clinic and intuit which other interrelated variables influence where it stands currently and how it changes over time. For instance does season effect employee moral? How are they related? How would you predict moral is impacted by turnover?
+
+## Exercise- Graphs Over Time 
+
+Split into 6 groups, on the paper provided please draw a simple graph with time on the horizonal axis and level of the following variables on the verticle. 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg" width="240" height="180">
+
+* Group 1: Morale
+* Group 2: Turnover
+* Group 3: Providers Trained in EBPs
+* Group 4: Students in Clinic 
+* Group 5: Provider Availability to start EBPs
+* Group 6: No Shows 
+
+```{r}
+
+```
+
+# Session 3: Dynamics 
+
+### Key Ideas 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+* Employees are willing to perform and provide quality work, but their success is directly tied to and limited by the nature of the system they are working in. 
+* Quality improvement strategies and provider morale are closely linked. 
+* it is important to directly engage frontline staff in a co-learning process that understands tradeoffs in the system (e.g., outcomes and burnout) and maximizes the functioning of the whole system. 
+
+### Terms
+
+* Dynamic hypothesis  
+* Trade Off
+* General Quality Improvement Capacity
+* EBP Specific Capacity
+
+### Dialogue
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Explore the difference between being on a bowling team and in a band. 
+* Discuss Red Beads Exercise
+
+### Learning Loop (Practice/ Exercise)
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+* Initiating and elaborating a causal loop diagram. Developing a dynamic hypothesis for “limited EBP reach” 
+
+    
+## Lesson Overview "Putting it Together"		
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+* The greater the interdependence of the system, the greater the need for learning and coordination. In order to model to learn, we need participation and to elicit mental models and make them explicit 
+* The data used in this approach emerge out of the interactions of the whole system. Want stakeholders to see the whole system behavior and its parts in new ways. Want them to be able to zoom in and zoom out.
+
+* Coming Up
+
+
+
+### Narrative
+
+## Quality Improvement Efforts Often Fail 
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_remove-team_476525_003F72.svg width="240" height="180">
+
+“How many of you have ever felt frustrated that they system would not let you do your work? What agency did you feel like you had to change that? How many of you have had data or numbers used for performance improvement initiatives? How were the data used?"
+
+Often, previously used QI strategies and data may not feel valid or useful because they do not address the fundamental dynamics at play in the system. There can be significant side effects to selecting an ineffective QI strategy, including policy resistance, burnout, etc. Data can also be used to punish or reward, which can lead to policy resistance, and does not make sense if the data don't address the full dynamics of the system. Not only can QI be difficult because of the impact it has on individuals within the system, the system itself can also be resistant to change. In this approach, we view success as being directly tied to and limited by the system you are working in. Does anyone remember what we learned from the idea of the slinky? (Structure determines behavior).  
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_slinky_48148_003F72.svg width="240" height="180">
+
+
+## Success is Dependent on the System 
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_full-network_674171_003F72.svg width="240" height="180">
+
+Many quality improvement efforts that are selected fail because they lead to policy resistance, burnout, turnover, low morale, etc. These approaches are unsuccessful because they do not take into account the fundamental dynamics at play in the system. They fail to take into account the feedback in the system, in other words, what effect the effort will have on providers, and how that will then impact the success of the initiative. 
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="240" height="180">
+
+## Measuring Performance
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg width="240" height="180">
+
+When we talk about success in an initiative, it's important to also discuss how success is measured. How performance is measured can vary by the type of team you are on. For example, if we were part of a bowling team our performance is defined by our individual scores that get added to the team score. If we are part of a band, though, our performance is determined by how we play together. We want to think about our performance as if we were a band. Thinking about how a whole system functions together may be a very different approach than what has previously been done with performance measures, etc, when data can be used against providers. 
+ 
+## Alternative Approach
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_idea_884671_003F72.svg width="240" height="180">
+In this approach, we will take a totally different approach, with a focus on learning together and prioritizing the things that frontline staff care most about. 
+
+## Zooming in and out 
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg width="240" height="180"> 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg width="240" height="180">
+
+To do this, we will need to be able to look at data in a way that is not punishing. This is different than how data are often used. For example, we may think data looks very clear – think “bad numbers” v “good numbers” – but that may not be providing the information we think it is and we might miss important information if we just look at a snapshot of the data.  So we need to look at the whole system that you are working in - zooming in to look at specific pieces of the picture but also zooming out to make sure we zoom out to optimize parts in terms of the whole.
+
+## Tradeoffs
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_team_981174_003F72.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_settings_339117_003F72.svg width="240" height="180">
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_hospital_547435_0083BE.svg width="240" height="180">
+ 
+In order to understanding the effect of a change initative in the whole system functioning we need to understand tradeoffs. For example, the tradeoff between a quality improvement strategy selected and how this strategy impacts staff (which will of course then feedback and impact the success of the quality improvement strategy). Given the interdependencies in the system, processes should be optimized in a way that leads to the benefit of the whole system to meet the needs of the Veteran. 
+
+## Increasing general and specific capacity
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg width="240" height="180">
+Over the coming weeks, we are going to cover a lot of information that helps us do this. By using this approach, we hope to not only increase the capacity of staff to improve EBP reach, but generally to increase capacity to look at a whole system and make meaningful changes to the system. 
+
+To get started, we are going to start to learn about causal loops, using an example of the feedback between a quality improvement strategy and the effect it has on staff. 
+
+## Understanding causal loops
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+ 
+ ### Participatory System Dynamics Resources in R Markdown 
+This is an R Markdown presentation for the "Initiating and Elaborating a Causal Loop Diagram" learning loop exercise from the participatory learning session of the Team PSD Facilitation Guide. 
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. 
+We use R and R Markdown so that our materials are open source/free, transparent for collaboration, reproducible by others and can be used repeatedly over time for local sustainability or for adaptation to another local health care system.
+
+### Context
+This learning loop exercise is used at the beginning of the project in order to get an initial idea of central concepts and their relationships.  The aim of the participatory system dynamics modeling process is to construct a formal simulation model, therefore it is recommended to build a stock and flow model. 
+* When accumulations are important in the issue (e.g., patients flowing through a variety of states in the outpatient mental health system), a stock and flow model is recommended.
+
+### Purpose
+* Initiating mapping
+* Eliciting relations
+* Eliciting feedback loops
+
+### Primary Nature of the Group Task
+Convergent
+
+### Time
+Preparation time by facilitators: 20 minutes
+Stakeholder time required during session: 20 minutes, plus 20 minutes of debriefing
+
+### Matierals Needed
+* Three flip charts or wall space on which several flip charts are taped. *OR** Whiteboard, markers and flip chart. *AND/OR** A project and laptop with Vensim. For this last option, a second person will be necessary to draw the diagram that is elicited in Vensim.
+
+### Inputs
+A list of variables
+
+### Ouputs
+Deliverable:  A causal loop diagram which may be used as a *dynamic hypothesis* on the basis of which formal modeling will build iteratively.  
+* There is also an interim output, which is increased consensus regarding the *dynamic hypothesis* or a possible structural explanation for the observed system behavior (e.g., "limited reach of evidence-based practices")
+
+### Roles
+- Facilitator/modeler with experience in drawing causl loop diagrams, preferably with experience in building formal models as well- Stakeholders
+
+### Group Exercise: Eliciting a Causal Loop Diagram
+
+#### STEP ONE ####  
+The facilitator reminds the learners about the problem variable, preferably sketched as a reference mode of behavior.  Reminder the group of the list of variables elicited before.  Place the list of variables in such a way that it is visible to the group of participants.  Write the problem variable in the centre of the white board or black board.
+* Below are examples from the first session of local observational data.
+
+###### Slide with Local Data 
+```{r cars, echo = TRUE}summary(cars)```
+
+###### Plot of the Reference Mode for Local System from Local Data
+```{r pressure, echo=FALSE}plot(pressure)```
+###### Alternative plot of the Reference Mode for Local System from an Image
+[![](<img src="https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true)"      width="720" height="540">](https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true)
+* https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg* This image file is located on GitHub.  To help the R Markdown to find it, add '?raw=true/ to the end of the path:   https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true
+
+#### STEP TWO ##### 
+Build the model by following the three following activities:
+1. Ask participants which variable from the collected list is a caus for changes in the problem variable.  When someone makes a suggestion, include this in the drawing of the model in order to visualize what is meant.  Then check to see if everyon eagrees with the proposed relation.  If someone disagrees, ask for clarification and try to determine what the group thinks the relationship should be.  If a discussion goes on too long, you can choose to temporarily 'park' this item and continue with another part of the model.  Hopefully, there will not only be variables that have a direct relationship with the problem variable.  but you will also build a few logical chains of reasoning (via intermediate variables) into the model  In addition, check the polarity (positive or negative) of the relationship.
+2. After spending some time doing this, proceed to the consequences of changes in the problem variable.
+3. At the point where a feedback chain becomes closed, check with the entire group to see if the chain as a whole is correct. Check again to see if a loopo is positive or negative.  *The **Ratio Exercise** may be used to draw out loops.*
+
+#### STEP THREE ##### 
+IN the last part of the session, analyze the model by checking the feedback loops one more time.  Before you clsoe the group session, make sure you do the following.  If there is a list of parked issues, go through them.  State once more what has been done and what will happen with the products of the learning loop exercise in this this lesson and help the stakeholders to see how this fits within the larger participatory system dynamis modeling process.
+
+### Evaluation criteria:
+* Improvement in the quality of communication among stakeholders and within teams.* New insights and use of systems thinking* Consensus on the problem * Increasing commitment to the participatory system dynamics modeling effort
+
+### Attribution
+This is adapted from Scriptapedia 4.0.6 (2013).Original authors are Jac Vennix (1996) and Etienne Rouwette (2007)
+
+### Citations
+Andersen, D. F. & Richardson, G. P. (1997). Scripts for group model building. *System Dynamics Review, 13*(2), 107-129.
+Vennix, J.A.M. (1995). Building consensus in strategic decision making: insights from the process of group model building. *Group Decision and Negotiation, 4*, 335-355.
+Vennix, J.A.M. (1996). *Group model building: facilitating team learning using system dynamics.* Chichester: Wiley.
+Vennix, J.A.M., Akkermans, H.A., Rouwette, E.A.J.A. (1996). Group model building to facilitate organizational change: an exploratory study. *System Dynamics Review, 12*(1), 39-58.
+
+```{r}
+
+```
+# Session 4: Dynamics (2)
+
+### Dialogue
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+* Have you ever made a small change and it had a huge effect in your setting? Conversely, have you ever made a huge effort, only to have it make a small impact in your setting?
+* A focus of our discussion will be to understand how the concepts of feedback and nonlinearity to help cause varying outcomes when during change-efforts.
+* We want to increase our understanding of the dynamic relationships that exist within the systems, and learn about the structure in which we are embedded.
+
+### Key Ideas 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+* Systems are composed of a web of interrelated stocks, flows, and feedback processes that occur over time.
+* Systems are goal-seekg and tend to drift towards a state of “equillibrium” because of the dynamic relationships between positive and negative feedback loops (Gosh, 2017). 
+* Unexpected system behaviors occur frequently in systems. These unintended consequences are often the result of delays in feedback 
+nonlinear system behaviors. 
+* An enhanced understanding of the dynamics that exist system behaviors will empower stakeholders to make informed change decisions within their system.
+
+### Learning Loop 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+
+* **Ratio Exercise**
+    + Following our discussion about key conecpts of Dynamics, we will map variables proposed by stakeholders and their ratios in relation to one another. 
+    + Using the stock and flow diagram presented earlier, we will tell feedback stories that account for the ratio of the variables being mapped.
+
+### Reinforcing Feedback
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651874_003F72.svg width="240" height="180">
+
+A reinforcing loop is a process that feedbacks on itself over time, causing growth or decay. Using the two variables from our Graphs Over Time exercise: morale and productivity; in a clinic setting, if morale goes up, it would cause productivity to increase. As productivity increases, that would cause morale to further increase, causing growth. 
+Reinforcing loops can cause decay. For example, if morale is down, it causes productivity to decrease. A decrease in productivity would then feedback onto morale, causing morale to go down further.  
+
+### Blanacing Feedback
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651876_003F72.svg width="240" height="180">
+
+A balancing loop is process that drives behavior towards homeostasis or an equilibrium. Using two variables from our Graphs Over Time exercise: referrals and provider availability; In a clinic setting, if the rate of referrals increases, then provider availability to see patients would decrease. As the availability of providers to see patients decreases, the rate of referrals would also decrease. Over time, the rate of referrals would slow down and balance out as the system accommodates for the constraints on provider availability.  
+
+### Role of Delays  
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_redo_993290_003F72.svg width="240" height="180">
+
+Each feedback process has a delay, and they occur throughout the system. For example, there is a delay of information in the clinic between the rate of referrals and provider availability to see patients. As providers reach their capacity to see patients, they inform frontline staff to slow the rate of referrals to the clinic, when the front line staff get the message they reduce the number of patients they refer.
+Where do you envision a delay occurring in the example between referral rates and provider availability? There is a delay of information when the providers inform the frontline staff to slow the rate of referrals. There is also a time delay from when the frontline staff receive the message to slow the rate of referral and act on that information. As you can imagine, the amount of delay may vary tremendously. 
+
+
+### Traffic 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_traffic_924177_003F72.svg width="240" height="180"> 
+
+I would venture to guess that we all have sat in traffic during rush hour, or when there is an accident on the freeway. Regardless of how fast you want to get to your destination, there is a feedback process that is slowing you down on the freeway. The freeway is near capacity, and the speed at which cars can get on is slowed. A future event that is seemingly ahead of us is impacting us in the present moment. Similarly, in the clinic, as the capacity for the clinic to see patients fills up, it feedbacks and slows the rate at which patients are referred to treatment. 
+There is also a delay that occurs during traffic hour that will continue to slow your rate after the accident is cleared. Suppose the accident that is slowing traffic down is several miles ahead of you. After the accident has been cleared and all lanes are open, for an amount of time you rate will remain slowed. 
+Later on, we will use the model to quantify delays or the aforementioned "specific amount of time" to help stakeholders make informed decisions about their clinic.
+
+
+### Static Observation 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_interactive-bar-chart_151004_003F72.svg width="240" height="180">
+
+Static observations provide limited information for stakeholders about the manner in which variables interact, change, and evolve over time within the system. A quarterly reports of clinic performance is an example of static observations. While these snapshots of the clinic may provide some information, they do not tell the whole story. 
+
+### Dynamic Observation
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg width="240" height="180">
+
+Dynamic observation yield information about system behavior overt time. It provides valuable information about the system’s past, present, and future behavior. Using dynamic observations, stakeholders are able to identify leverage points within the system and make informed decisions about change-efforts. 
+
+### Nonlinear System Behavior- Exponential Growth
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_87995_003F72.svg width="240" height="180">
+
+A nonlinear relationship can be defined as an interaction where the input is disproportional to the output. Using the variables of morale and productivity, this image represents exponential growth of productivity in a clinic. The reinforcing loop between morale and productivity forces a sudden and rapid growth in a system. Thinking back to the first question about small changes having big impacts; it may be difficult to pinpoint or measure what exactly created such growth within a system. Using a model, we can identify which variables will cause growth or change that stakeholders desire. 
+
+
+### Nonlinear System Behavior- Steady State
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_graph_88002_003F72.svg width="240" height="180">
+
+As balancing loops interact with reinforcing loops, the system moves towards a steady state or an equilibrium. Using the variables of referral rate and provider availability, this image can represent a steady state of rate of referrals in the clinic. The balancing loop between the rate of referrals and provider availability forces a state of equilibrium over time. As mentioned earlier, stakeholders may have varying perspectives about what is driving system behavior. The PSD process uses the model to elicit and makes explicit stakeholders' mental models about system behavior.
+
+### System Behavior– Oscillation
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_sine-wave_385866_003F72.svg width="240" height="180">
+
+As we mentioned earlier, delays exist throughout a system and account for oscillations. Referring back to the rate of referrals and provider availability, the information delay between frontline staff and providers is common example of system oscillation. For example, providers reach capacity and tell frontline staff to slow the rate of referrals, then frontline staff act and the rate of referrals is decreased. Then the providers work through their patient panels, as the rate of referrals may remained unchanged. Once providers have more time, they tell frontline staff that they are able to see more patients, and the rate is increased. As we mentioned earlier, there are several time and information delays that occur during the interaction. As those delays are combined they create oscillations over time. 
+Have you ever experienced a similar clinic behavior of high and low volume of patients? What have you done to fix the problem?   Stakeholders often undershoot or overshoot when attempting to adjust behaviors to correct system oscillations. Often times, stakeholders focus on the wrong variable, do not account for delays, or unable to see the feedback processes that are impacting system behavior. In efforts to fix oscillations, stakeholders ultimately making matters worse. With the use of the model, stakeholders can learn about the dynamics that are causing system oscillation, reach consensus about how to fix the problem, and run simulations before enacting a costly change effort.  
+
+### Lesson Overview 
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+* The hallmark for dynamics are the feedback loops that occur throughout a system. 
+* Each feedback loop has a unique delay that impacts system behavior. 
+* Nonlinear system behavior occur when inputs are not proportional to outputs causing exponential growth or decay. 
+
+### Feedback Loops: How nature gets its rhythms
+
+<a href="http://www.youtube.com/watch?v=inVZoI1AkC8" target="_blank"><img src="https://img.youtube.com/vi/inVZoI1AkC8/0.jpg" alt="Feedback Loops" width="240" height="180">
+
+
+The video does an excellent job of depicting positive and negative feedback loops, the concept of nonlinearity, oscillations, and equilibrium. Depending on the system, the feedback loop interactions develop and change over time, as in each habitat. The video uses the terms positive and negative to describe feedback loops. The terms positive is synonymous with reinforcing, and negative is synonymous with balancing.
+
+Do you have any questions or comments about the video or anything we have covered so far?
+
+
+### Ratio Exercise 
+<img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg width="240" height="180">
+
+### Participatory System Dynamics Resources in R Markdown 
+
+This is an R Markdown presentation for the "Ratio Exercise" learning loop exercise from the participatory learning session of the Team PSD Facilitation Guide. 
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. 
+We use R and R Markdown so that our materials are open source/free, transparent for collaboration, reproducible by others and can be used repeatedly over time for local sustainability or for adaptation to another local health care system.
+
+### Context
+
+This exercise is introduced after Graphs Over Team has introduced system behaviors and after stakeholders have begun to develop some consensus regarding their dynamic hypotheses.
+
+### Purpose
+
+* Elicit feedback loops (especially minor loops), variables within a causal chain, and initiate the more formal model that will be further developed in later learning sessions.
+
+* Increase stakeholders' capacity for 'feedback thinking'
+
+### Primary Nature of the Group Task
+
+Convergent
+
+### Time
+
+Preparation time by facilitators: 30 minutes
+
+Stakeholder time required during session: 10 minutes, plus 30 minutes of debriefing
+
+### Materials Needed
+
+1. Large erasable white surface (cling sheet or white board)
+2. White board markers
+3. Recorder will want to capture image in Vensim sketch or with a camera (or both)
+4. Modeler or "reflector" may redraw some of the mapped feedback loops
+
+### Inputs
+
+This script can be used when the learners have defined pairs of stock variables whose ratio (or difference) makes sense to the team (e.g., patient panel size, staff turnover rate, etc.)
+
+### Outputs
+
+* Feedback loops are identfied
+* Mapping of feedback effects
+
+### Roles
+
+- Facilitator with modest experience in participatory system dynamics; should be able to lead the group in mapping feedback effects (identify the stock variables from the prior learning sessions to set up the "Ratio Exercise" in this session).
+- Skilled modelers are needed in the "modeler feedback" follow up where the feedback loops elicited by the group are integrate into more complicated "cleaned up" feedback diagrams.
+- Recorder who can capture hand drawn feedback loops or those drawn in Vensim
+
+## Group Exercise: Ratio Exercise
+
+#### STEP ONE 
+####  The facilitator picks out a pair of stocks to work with first.  
+
+* Below are examples from the first session of local observational data that could represent these stocks.
+
+###### Slide with Local Data 
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+###### Plot of the Reference Mode for Local System from Local Data
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+###### Alternative plot of the Reference Mode for Local System from an Image
+
+[![](<img src="https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true)"
+      width="720" height="540">](https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true)
+
+* https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg
+* This image file is located on GitHub.  To help the R Markdown to find it, add '?raw=true/ to the end of the path:   https://github.com/alballinger/Facilitation-Guide-1-Images/blob/master/psd_facilitation_s1.16.jpg?raw=true
+
+#### STEP TWO 
+##### The facilitator asks the learners to name the ratio or difference (e.g., patient panel size; staff turnover rate).  The facilitator adds the ratio or difference variable using the language provided by the team.  
+
+* Different teams use different terminology for similar concepts. 
+* Some teams use differences and some use ratios (e.g., "no show rate" vs. "# of intakes")
+
+#### STEP THREE 
+##### The facilitator maps the ratio (or difference variable) with the incoming arrows marked with "+" or "-" as is causally appropriate.
+
+
+#### STEP FOUR
+##### The facilitator asks the question, "What would happen if this ratio were to go to zero or gen unusually small" or "what would happen if this ratio where to become very large- how would the system react?"
+
+* The stakeholders then start to tell feedback stories about how the system reacts when this key ratio (or difference) gets out of whack.  When loops are completed, the facilitator traces them out for the group adding appropriate "+" or "-," telling the stories of the loops.  *These loops are almost always balancing loops.*
+
+#### STEP FIVE
+##### Steps 2 through 4 are repeated with another set of ratios.
+
+### Evaluation criteria:
+
+* This script will usually fill a white board with lots of feedback loops very quickly.
+* Participants will "get the hang" of what feedback loops are, how they work, and will start to look for them.
+* A very good map will have feedback paths that connect to other important stocks in the system (other than simple first order loops).
+
+### Attribution
+This is adapted from Scriptapedia 4.0.6 (2013).
+Original authors are David F. Andersen and George P. Richardson.
+
+### Notes
+This script will further develop 'off-line.' Working iteratively with VHA mental health stakeholders, Team PSD has worked to identify a clear set of stocks and flows, and patient flow 'aging chains' that undergird the dynamics of the outpatient mental health system.  
+
+* Given there is already a 'seed' stock and flow diagram that can be worked with in future sessions, the goal is to help the stakeholders to see how service loads (i.e., Veterans' needs or patient 'demand' for services) can be linked to mental health resource stocks (e.g., providers, scheduling hours, etc.) so that the pairings make sense.
+
+<img src=https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.svg width="240" height="180">
+
+* **Coming Up**
+    + We will view clinic data to explore how stakeholders can address issues that are unique to that setting. 
+    + We will introduce the model to help stakeholders learn about thier clinic, experiment with possible changes, and run simulations to test out hypotheses. 
+    + Stakeholders will use thier understanding of feedback, delays, and nonlinearities when examining thier own data within the model. 
+
+
+```{r}
+
+```
+# Session 5: Data - Operations 
+
+If you show up to work in your clinic on Monday and first thing in the morning huddle or team meeting, you hear the words: "leadership wants us to start using data early and often to measure progress in our clinic", how does that make you feel?
+
+For many of us, this might elicit emotions of worry and anxiety, perhaps apprehension or fear, maybe even frustration and irritation. This is likely all with good reason, based on our previous experiences with how data has been used in a sense against us as performance measures, but with punitive consequences if we don't meet a particular, potentially arbitrary, benchmark artificially designated by people who are not involved in day to day operations and realities of our particular clinics. 
+
+At VA, we have an incredible amount of data being collected and stored in real time, on a moment-to-moment basis. For example, any time CPRS or any part of the electronic medical record is used to look up a provider's open grid, schedule a patient, either check the pt in or mark them as no shows for a therapy appointment, create an encounter and write a note for session 6 of their evidence-based trauma focused treatment, etc., all of that data is collected. 
+
+So, what about another way to think about, relate to, and use this wealth of data that I'm referring to? Specifically, what would it be like if frontline staff were able to use data for purposes that you decide on as a team and not from a leadership mandate; use data in a way that helps your day to day operations? 
+
+This session will explore what that might look like.
+
+## Purpose of the Session: Become familiar with our data 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">      
+
+## Data Dialogue 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="240" height="180">      
+
+Collaboratively learn about interactive data exploration, seeing and visualizing data, and dialoguing about data within the team.
+
+## Mental Model 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">      
+
+People may have mental models that data is difficult to understand or work with. Or even worse, people may have experiences when data was used by leadership or administrators to “punish” staff based on them not meeting artificially set goals that are not feasible within system structure. We want to work together to make these mental models that each person has explicit, lay them out on the table so we have a sense of what we're all collectively working with, and where each person is coming from.
+
+
+## Dialogue 
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" 
+      width="240" height="180">      
+
+A key word here is Dialogue; a mutual exchange of communication in order to discuss the mental models and approach a problem by sitting shoulder-to-shoulder with your team members, examining a problem that is here on the table, rather than sitting across from each other with the problem resting in between team members. 
+
+## PSD Process 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">      
+
+We will familiarize ourselves with clinic and patient data that is available, understand the dynamic relationships contributing to EBP reach, and grow increasingly comfortable with using the data to engage in the participatory system dynamics process. We want to think about the problem of mental health service delays and how that contributes to limited reach of evidence-based mental health care. We want each of us as stakeholders to feel familiar and empowered to use the data to make optimized quality improvement decisions. 
+
+
+## Data Visualization
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg" width="240" height="180">      
+
+Describe, examine, and interact with key clinic and patient variables, such as some of the ones I mentioned earlier, as well as variables for your clinic, like how many screening appointments are conducted each day, clinic appointment capacity, average wait times to first therapy appoitnment, average time to complete an evidence-based treatment, etc. 
+
+
+## Learning Loop Exercise
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg" width="240" height="180">      
+
+credit score simulator: https://www.creditkarma.com/tools/credit-score-simulator
+
+An example of visualizing data that many of us may relate to is looking at a credit score simulator: https://www.creditkarma.com/tools/credit-score-simulator
+Here, we see that we can ask the question, “What Might Happen If I …” For example … Get a new loan check out what happens to your score?  Or, “Close my oldest card check out what happens with the score. In the same way that we want to develop familiarity with these 5 variables for a credit score, we will understand the different variables that are collected e.g., clinic variables: clinic scheduling, including availability, scheduled appointments, completed appointments, no-shows, and missed opportunities; patient variables: progress in initiating and completing evidence-based psychotherapy and pharmacotherapy for PTSD, Depression, AUD, and OUD, in order to examine how they contribute to EBP reach.
+
+Based on this example, can a few participants share some questions you think might be pertinent to your clinic operations that you don't currently have the answer to, but can imagine that accessing the data might be able to help you answer?
+
+What are some variables that you would like to visualize?
+
+[A later session will help us to think about how these variables don't exist in isolation or in static points of time, but rather are dynamic across time, and also are interrelated as each affects the other, to function in a system like the cogs and wheels in a watch. This later session will help us learn how to visualize these variables in a working model that captures the system at work.]
+
+## Lesson Overview "Putting it Together"
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="240" height="180">
+
+Data does not have to be scary. How we use the data, who gets to use it, and what questions we try to answer with the data can completely change how we feel and relate to data. I hope we can see that there are different ways to use data early and often that will help us as frontline staff to make decisions in day to day clinic operations that will improve patient care and our experience of the workplace.
+
+
+```{r}
+
+```
+
+# Session 6: Data 
+
+## Data Session: Making our data actionable to inform clinical decisions
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg width="240" height="180">      
+
+So you show up to work at your clinic and during the morning huddle or team meeting, you hear "Leadership is planning to evaluate us on _______ in order to measure progress in our clinic". This is probably somewhat familiar; what are some measures you've been told that you'll be evaluated on before? [E.g., # of patients seen each quarter? # of successful discharges?]
+
+Another experience you might be familiar with is spending a lot of time entering data into CPRS, other EHR/EMR, for research or for performance evaluation, etc. It's also likely that you're inputting a lot of data, but potentially not getting to use it yourself. The data isn't getting analyzed and communicated back to you, for frontline staff or the clinic to use in daily decision making to actually help you make decisions and affect patient care.
+
+This means that for many of us, thinking about "data" might elicit emotions of frustration and irritation with the time sink, or perhaps even worry or anxiety about performance measures. This is likely all with good reason, based on our previous experiences with how data has been used in a sense against us with punitive consequences if we don't meet a particular, potentially arbitrary, benchmark artificially designated by people who are not involved in day to day operations and realities of our particular clinics.
+At VA, we have an incredible amount of data being collected and stored in real time, on a moment-to-moment basis. For example, any time CPRS or any part of the electronic medical record is used to look up a provider's open grid, schedule a patient, either check the pt in or mark them as no shows for a therapy appointment, create an encounter and write a note for session 6 of their evidence-based trauma focused treatment, etc., all of that data is collected.
+
+So, what about another way to think about, relate to, and use this wealth of data that I'm referring to? Specifically, what would it be like if frontline staff were able to use data for purposes that you decide on as a team and not from a leadership mandate; use data in a way that helps your day to day operations?
+This session will explore what that might look like.
+
+
+
+
+## Mental models of data need to be made explicit
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_psychology_576012_003F72.svg" width="240" height="180">      
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_elephant_287094_003F72.svg" width="240" height="180">      
+
+As you learned about in a previous session on dynamics, we each have our own mental model of what's going on. For example the parable about several blind people encountering an elephant for the first time, and describing it based on the part they're touching. One woman might describe it as a creature that's sharp and hard because she's feeling the tusks. Another man might describe it as thin and floppy because he's feeling the ears. We see from this that people's mental models are not inaccurate; they are however incomplete.
+
+Similarly, people may have mental models that data is difficult to understand or work with. Or perhaps, people may have experiences when data was used to inform performance measures that may have been experienced as punitive due to not meeting artificially set goals that are not feasible within system structure. We want to work together to make these mental models that each person has explicit, lay them out on the table so we have a sense of what we're all collectively working with, and where each person is coming from. We want to move from independent mental models to a shared vision of what's going on, that's going to be much more complete.
+
+
+
+
+## Participatory System Dynamics Process - Learning to zoom in and out
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_collapse_926266_000000%20(1).svg width="240" height="180">      
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_view_926267_000000.svg width="240" height="180">    
+
+
+We will familiarize ourselves with clinic and patient data that is available, understand the dynamic relationships contributing to EBP reach, and grow increasingly comfortable with using the data to engage in the participatory system dynamics process. We want to think about the problem of mental health service delays and how that contributes to limited reach of evidence-based mental health care. We want each of us as stakeholders to feel familiar and empowered to use the data to make optimized quality improvement decisions. We also sharpen our skills of zooming in and out, like the elephant example, to be able to see each individual part in detail, while also examining how it fits within the larger structure, or the whole.
+
+Another example that was presented in a previous session about the PSD process and this framework of understanding, is the following sports analogy. Think about being on a swim team: you practice together and go through workouts together; however your performance on meet day is typically your own swim time within each heat, how you contribute to the team is specifically how fast you swim. Each person or each relay's individual swim time is what counts. Contrast this with being on a soccer team, where each individual's performance is going to be evaluated in the dynamic context of what else is going on in the soccer field at that time. Your position is relative to everything else that's going on, and the collaboration, cooperation, movement, within the on-going game. So, you may be zooming in on your own individual footwork, while having to zoom out and see where all the other players are on the field, where the ball is in relation to your goal and the opponents' goal.
+
+
+
+
+## Visualize variables interacting dynamically over time and non-linearly
+Link to mortgage/savings calculator: http://www.bankrate.com/calculators/index-of-mortgage-calculators.aspx
+
+An example that might help us think about this process of visualizing variables working together non-linearly, is thinking about a mortgage/savings calculator.
+
+Here, we see that we can ask the question, “What Might Happen If I …” For example … set my initial down payment as X dollars? What happens if I increase from a 15 year to a 30 year mortgage? How does this affect how much money I have when I retire if I want to retire at 65 versus 70?
+
+
+## Modeling to learn with local data
+<img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.41.jpg width="240" height="180">      
+
+
+In the same way that we use this calculator to visualize the non-linear interaction and results from these different variables such as time, interest, principal, etc., we also want to understand the variables within our own clinics.
+
+We want to look at these clinic and patient variables such as screening appointments are conducted each day, clinic appointment capacity, time delays to first therapy appointment, rates of drop out, average time to complete an evidence-based treatment, etc. and how they dynamically interact in order to zoom in and zoom out to examine the emerging system behavior of limited EBP reach.
+
+Again, non-linearity is an important component to keep in mind.  Think about an experience where you spent a great deal of effort trying to make a change in your clinic, maybe including a staff overhaul, restructuring, reorganization, etc., only to have it lead to very small outcomes.  Without thinking about the problem as a system behavior, resulting from all the dynamic interactions of these variables over time, it is hard to anticipate and conceptualize where to insert the change efforts and what the resulting outcomes might be.
+
+Based on this example, can a few participants share some questions you think might be pertinent to your clinic operations that you don't currently have the answer to, but can imagine that accessing the data might be able to help you answer?
+
+What are some variables that you would like to visualize?
+
+We also want to make sure that we clarify that the variables that we're looking at, that we are vetting together, are variables that we collectively think are appropriate to read into a model to represent your clinic's operations. We want to address quality and validity issues; as you toggle through these data and visualize these variables, do they look correct? Do they look like they actually come out of your clinic?
+
+
+
+
+
+## Understanding system behavior as a function of its components
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-tire_811766_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-battery_811720_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_car-keys_811748_003F72.svg"> <img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_steering-wheel_167223_003F72.svg">
+
+
+
+
+
+How we use the data, who gets to use it, and what questions we try to answer with the data can completely change how we feel and relate to data.
+
+If you think about the example of a car which was presented in a previous session, the purpose of a car is to get you from Point A to Point B. It's useful to look in depth at the car to see the different parts like the exceptional power steering or the goodyear tires, or the top of the line V12 5 liter engine. However, what makes a good car is not just getting "the best" of each of these individual parts; what makes a car good is how well they work together, in relation to each other. Again, it's a system.
+
+So we want to keep in mind that what we're NOT trying to do is model what Team A is doing well in Clinic A and take those strategies and go straight to try to implement them on Team B in Clinic B. Instead, we use our zoom in and out skills to use local data to understand how specifics work in the larger context.
+
+
+## Limited EBP reach is a complex problem
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_teamwork_749610_003F72.svg" width="240" height="180">      
+
+The emerging system behavior of limited EBP reach is a complex problem.
+
+We can see the utility of using data early and often in a way that will help us as frontline staff to make decisions in day to day clinic operations that will improve patient care and our experience of the workplace.
+
+
+
+## Putting it Together
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="240" height="180">  
+
+3 Principles of PSD: 1. Transparent not opaque - check the data that is going into the model; 2. Local vs. scaling - local data and model, scaling the process; 3. Iterative process - continuous checking, opportunities for feedback and pivoting, adjusting as needed as we model to learn together
+
+
+## Synthesis
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="240" height="180">      
+
+
+```{r}
+
+```
+# Session 7: Modeling 
+
+
+### Key Ideas 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_star_778913_003F72.svg">
+
+
+- Model simulations provide a means to make mental models
+more explicit and test assumptions, particularly surrounding implementation plans.
+- Assist stakeholders in evaluating implementation plans by
+using model simulation to visualize dynamic relationships.
+- Increase stakeholder EBP-specific capacity by
+understanding the impact of system factors, such as intake referral rate, on the level of state measures, such as amount of patients pending intake scheduling.
+
+
+### Definitions 
+
+- Static observation/Stock
+- Dynamic observation
+- Flows
+- Feedback
+
+
+### Dialogue- Hexagon 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_feedback_750723_003F72.svg">
+
+- What thoughts do providers have on variables in the model?
+- What are some hypotheses about what is driving the rates of those variables?
+- Discuss major stocks, feedback loops, and dynamics
+
+### Learning Loop 
+
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+ 
+- Group Model Building exercise: split up into groups and discuss 1) major stocks, 2) hypotheses about what is driving those stocks
+
+
+
+### Lesson Overview 
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg>
+
+- The main role of simulation is to test hypotheses about the relationship between the system structure and system behavior using local data and local expertise.
+
+
+
+## Healthcare
+
+<img src= "https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_hospital_547435_0083BE.svg" width="240" height="180">      
+
+- “Have you ever made a big change in your clinic and it did nothing?” 
+- If you understand linearity as the inputs and outputs being disproportionate, sometimes people work very hard and spend lots of time and lots of effort on something that’s kind of like a try it and see if it works, trial and error implementation plan and it turns out, lots of resources down the road, no impact. 
+- On the other hand, a small pat on the back may not be giving you a nonlinear improvement, but maybe for you it’s a very reinforcing thing. 
+- We talked previously about general quality improvement capacity and now we’re moving into how using these processes of general learning and coordination or general quality improvement capacities, how might you use the model to understand more EBP specific capacities that are local to each setting, each clinic in our healthcare system.
+
+## Traffic Jam 
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_traffic_924177_003F72.svg" width="240" height="180">      
+
+-  The traffic jam example used previously typically resonates with people in terms of referrals because in the same way you can’t just change the number of people leaving work and getting onto the highway at the same time and filling the capacity of the highway, you can’t just wave a magic wand and change the number of patients in your clinic’s care.
+- You can start to see that the interdependence between the people who refer to you, or whether or not the patients need gets met or needs to be referred elsewhere is not only an interdependence in the sense of human relations, but a time dependent relationship, and that there is delays there.
+- That’s where this continuous time model, or a stock and flow model in system dynamics, becomes so valuable.
+
+   
+## Stock and Flow
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_washing_514155_003F72.svg" width="240" height="180">      
+
+-	Stocks are the stakes or levels of variables. If you think about this, this is like if you did wave your magic wand and you suddenly froze the clinic, where would the patients  be, where would providers be.
+-	In our system many managers have those levels, mean patients who get x y or z. what they don’t have is in their local setting what is driving those levels. 
+-	And, given the nonlinear relations we’re talking about and the multifinality concerns you heard previously about systems, it would be helpful to actually test out hypotheses with those levels and see what the effects of different efforts would be. In essence, trying to improve our primary implementation goal without ruining any other primary factors in the clinic that are QI goals.
+-	So this metaphor is frequently used, a tub or a sink, displaying the basic principle of a differential equation. You can know exactly mathematically when the sink will be filled, or when the highway from earlier will slow. Its when the rate of inflow exceeds the water being drained or cars getting off the highway, given the carrying capacity of the sink or road. 
+
+## Static Observation 
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_bar-chart-decline_869492_003F72.svg" width="240" height="180">      
+
+- So with a static observation, if this were our EBP reach variable and we were thinking about clinic A B and C, and you were just looking at quarterly performance measures like we do in the VA, you might think, I definitely want to be clinic A (highest bar on the graph). 
+
+## Dynamic Observation Over Time
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_line-chart_544281_003F72.svg" width="240" height="180">      
+
+- But really what ends up happening is maybe clinic A is the upper line at quarter 1, quarter 2 they look bad, and quarter 3 they go back up.
+- And if you start looking at things dynamically, the question starts to become, particularly in clinics that have a lot of instability, what is causing all of this ongoing variability, and what can we do to actually try to better maximize and utilize our resources rather than having such inconsistencies.
+
+## Modeling to Learn
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_communication_884666_003F72.svg" width="240" height="180">      
+
+-	And so in order to move to doing something like that, we’ve talked a lot about  moving from this qualitative to quantitate model and trying to generalize nationally the modeling PROCESS- not the model itself-. 
+-	We want to engage all the stakeholders, elicit their mental models, make them explicit in a formal algebraic and differential equation model.
+
+## System Behavior -
+<img src=https://cdn.rawgit.com/alballinger/Facilitation-Guide-1-Images/master/psd_facilitation_s1.22.JPG width="720" height="540">
+
+-  The first step is model specification, determining what variables and relationships appear most important.
+- We use administrative data that everyone has, and common procedural technology. 
+-  We run various scenarios that staff have always wanted to test but weren’t sure if they could get their colleagues on board to try. By doing this, we are going from individual mental models to a shared model that’s actually formally testable and has the psychological safety to be wrong, to try things virtually without expending a bunch of resources and without running the risk that you’ve got dozens of providers and thousands of patients impacted.
+- And then after you’ve enacted the plan that you’ve identified through simulation you can use the model as a monitoring or evaluation tool.  
+
+## Local Data
+
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_slinky_48148_003F72.svg" width="240" height="180">  
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_settings_339117_003F72.svg" wwidth="240" height="180">      
+
+- But let’s think back to the slinky metaphor. Why did that slinky bounce up and down? (The structure of the slinky, its coils, causes the physical behavior of it bouncing up and down). The structure determines the behavior with the slinky, and with the clinical setting. National change efforts targeted at limited EBP reach are not accounting for local system structure. We have to understand the local structure to understand the behavior of limited EBP reach. The question of "why would that work here" can only be understood by using our local data and focusing on local systems. Remember that without system dynamics we tend to operate under the equifinality assumption that diverse initial conditions and organizational pathways may result in the same outcome.
+
+## Feedback
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_feedback_651873_003F72.svg" width="240" height="180">      
+ - In coming to a “systems” understanding of the clinical setting, we must remember to identify major feedback loops as well as major stocks in the system.
+ - Point to graphs over time exercise and the understanding of what feedback loops appear important for their system.  
+
+
+
+## Synthesis
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_alliance_640897_003F72.svg" width="240" height="180">      
+
+- As we get more specific, we conduct model reviews and clean up the model
+- During the review, we pay specific attention to variables and linkages that needed changes or were questionable. Every one of our parameters can be played with with very simple changes to the script. That way, people can see real time the answers to their questions about what would happen if we changed x, y, or z. 
+- There may be several model reviewing sessions prior to moving on
+- Throughout this process, particularly as we simplify the model, we make sure we are using a system dynamics approach 
+
+
+## Learning Loop Exercise : Modeling to Learn
+<img src="https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_synchronize_778914_003F72.svg">
+<img src="https://cdn.rawgit.com/lzim/teampsd/hexagon_icons/np_idea_884671_003F72.svg" width="240" height="180">      
+
+- Group model building exercise
+- At this point, we would like participants to engage in a model building exercise. 
+- People should break up into groups and come up with at least 5 hypotheses about what is driving their clinic measures. 
+
+## Lesson Overview/Debrief
+
+<img src=https://cdn.rawgit.com/LZIM/teampsd/hexagon_icons/np_molecule_784555_003F72.svg width="240" height="180">      
+ - Review with participants the hypotheses they came up with
+ - What mental models were made explicit? Were there differences in mental models? Did people come to
+a consensus? What feedback loops were identified? What questions remain?
+-	Recall that the main role of simulation is to test hypotheses about the relationship between the system structure and system behavior using local data and local expertise. We
+will continue to conduct modeling sessions to simplify and test the model.
