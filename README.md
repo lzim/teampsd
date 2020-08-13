@@ -3,8 +3,8 @@
 
 ## lzim/teampsd repository
 lzim/teampsd is the main TeamPSD repository for general TeamPSD resources and workflow management including:
-1. TeamPSD Bookdown (link?)
-2. 4 kanban trackers for 
+1. TeamPSD Bookdown Manual
+2. 4 kanban trackers for overall workflow management
     - [mtl.how/bugs](https://mtl.how/issues)
     - [mtl.how/features](https://mtl.how/features)
     - [mtl.how/manuscripts](https://mtl.how/manuscripts)
@@ -23,14 +23,14 @@ TeamPSD uses branches to collaborate on work without impacting our production en
 For details on what branches are and how they are used please read the GitHub documentation here: [About Branches](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches).
 
 
-### master :
+### master:
 The master branch contains the production ready content on the repository and is always stable and ready for use.
 
 Contributions are added to the master branch after moving through the [feature](#feature) and [qa](#qa) branches; following the TeamPSD development cycle outlined [here](link-to-teampsd-manual-dev-test-prod-cycle).
 
 
 ### gh-pages:
-The gh-pages branch contains the markdown files that are being compiled in the TeamPSD Manual available at [mtl.how/Manual](mtl.how/manual). Treated as a production branch like master moving through the same [feature](#feature) and [qa](#qa) development cycle.
+The gh-pages branch contains the markdown files that are being compiled in the TeamPSD Manual available at [mtl.how/manual](mtl.how/manual). Treated as a production branch like master moving through the same [feature](#feature) and [qa](#qa) development cycle.
 
 These files are treated as chapters in the manual and are kept separate from the other files in the Team PSD repository.
 
