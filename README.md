@@ -3,19 +3,29 @@
 
 ## lzim/teampsd repository
 lzim/teampsd is the main TeamPSD repository for general TeamPSD resources and workflow management including:
-1. TeamPSD Bookdown Manual
+1. [TeamPSD Bookdown Manual](mtl.how/manual).
 2. 4 kanban trackers for overall workflow management
     - [mtl.how/bugs](https://mtl.how/issues)
     - [mtl.how/features](https://mtl.how/features)
     - [mtl.how/manuscripts](https://mtl.how/manuscripts)
     - [mtl.how/documents](httsp://mtl.how/documents)
     
-    
-    
-    Posting our work on GitHub enables transparency, reproducibility and team collaboration.
+## TeamPSD repositories
+TeamPSD manages 7 repositories across GitHub. Posting our work on GitHub enables transparency, reproducibility and team collaboration.
+1. lzim/teampsd at [mtl.how/teampsd](https://mtl.how/teampsd): You are here! Public repository for maintaining resources and project management trackers for all TeamPSD members.
 
-* Team PSD is using Markdown to format our participatory system dynamics resources for [_Modeling to Learn_](https://mtl.how).
-* 
+2. lzim/mtl at [mtl.how](https://mtl.how): Public repository containing all work related to the *Modeling to Learn* national quality improvement initiative including model files, learner See guides, facilitator Say guides, and cheatsheets for each of the 12 sessions of the program.
+
+3. teampsd/sim at [insert link](): Public repository for managing simulation models and 
+
+4. lzim/research at [mtl.how/research](https://mtl.how/research): Private repository for TeamPSD research code.
+
+5. lzim/mtl_team_tracker at [mtl.how/team_tracker](https://mtl.how/team_tracker): Private repository for *Modeling to Learn* facilitators to access all resources needed for facilitation in one place as well as track team specific progress and information.
+
+6. ecmo/teampsd/research at [insert link](): Private repository in the VA GitHub Enterprise for the TeamPSD research pipeline.
+
+7. ecmo/teampsd/operations at [insert link](): Private repository in the VA GitHub Enterprise for the TeamPSD operations pipeline.
+    
 
 ## Branches
 TeamPSD uses branches to collaborate on work without impacting our production environment otherwise known as the master branch.
