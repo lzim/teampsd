@@ -3,12 +3,12 @@
 
 ## lzim/teampsd repository
 lzim/teampsd is the main TeamPSD repository for general TeamPSD resources and workflow management including:
-1. [TeamPSD Bookdown Manual](mtl.how/manual).
+1. [TeamPSD Bookdown Manual](mtl.how/manual)
 2. 4 kanban trackers for overall workflow management
     - [mtl.how/bugs](https://mtl.how/issues)
     - [mtl.how/features](https://mtl.how/features)
     - [mtl.how/manuscripts](https://mtl.how/manuscripts)
-    - [mtl.how/documents](httsp://mtl.how/documents)
+    - [mtl.how/documents](https://mtl.how/documents)
     
 ## TeamPSD repositories
 TeamPSD manages 7 repositories across GitHub. Posting our work on GitHub enables transparency, reproducibility and team collaboration.
