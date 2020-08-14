@@ -1,0 +1,13 @@
+bookdown::gitbook:
+  lib_dir: assets
+  split_by: chapter+number
+  config:
+    toolbar:
+      position: static
+    download: [epub, docx]
+    edit: https://github.com/lijenn/testing/edit/gh-pages/%s
+    sharing:
+      github: yes
+
+bookdown::word_document2:
+    toc: true
