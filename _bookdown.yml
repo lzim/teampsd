@@ -1,0 +1,6 @@
+book_filename: "Team_PSD_Bookdown"
+language:
+  ui:
+    chapter_name: "Chapter "
+new_session: yes
+rmd_files: ["index.Rmd"]
