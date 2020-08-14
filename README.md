@@ -10,6 +10,14 @@ lzim/teampsd is the main TeamPSD repository for general TeamPSD resources and wo
     - [mtl.how/manuscripts](https://mtl.how/manuscripts)
     - [mtl.how/documents](https://mtl.how/documents)
     
+### Files and folders in the master
+- [.github](https://github.com/lzim/teampsd/tree/master/.github): contains templates for creating a new card in one of the 4 kanban trackers and yaml files for deploying GitHub actions
+- [ees_workgroup](https://github.com/lzim/teampsd/tree/master/ees_workgroup): contains brochures and post tests for ees accrediation. Everything in this folder will either be archived or moved to the *MTL* manual on the lzim/mtl repository.
+- [mtl_facilitate_workgroup](https://github.com/lzim/teampsd/tree/master/mtl_facilitate_workgroup): contains guides and checklists related to *MTL* facilitation. Everything in this folder will either be archived or moved to the *MTL* manual on the lzim/mtl repository.
+- [qual_workgroup](https://github.com/lzim/teampsd/tree/master/qual_workgroup): contains information on how to use R and RQDA for qualitative coding and RQDA projects. Everything in this folder with either be archived or moved to the TeamPSD manual.
+- [resources](https://github.com/lzim/teampsd/tree/master/resources): contains how to guides, cheatsheets, icons, etc. Everything in this folder will be integrated into either the *MTL* manual or TeamPSD manual.
+- [vignettes](https://github.com/lzim/teampsd/tree/master/vignettes) contains information on how to use a package
+    
 ## TeamPSD repositories
 TeamPSD manages 7 repositories across GitHub. Posting our work on GitHub enables transparency, reproducibility and team collaboration.
 1. lzim/teampsd at [mtl.how/teampsd](https://mtl.how/teampsd): You are here! Public repository for maintaining resources and project management trackers for all TeamPSD members.
