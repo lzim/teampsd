@@ -27,8 +27,7 @@ For details on what branches are and how they are used please read the GitHub do
   - Details and requirements for moving into and through the qa branch are outlined [here](link-to-teampsd-manual-dev-test-prod-cycle).
 
     
-## TeamPSD repositories
-TeamPSD manages 7 repositories across GitHub. Posting our work on GitHub enables transparency, reproducibility and team collaboration.
+# TeamPSD repositories
 1. lzim/teampsd at [mtl.how/teampsd](https://mtl.how/teampsd): You are here! Public repository for maintaining resources and project management trackers for all TeamPSD members.
 
 2. lzim/mtl at [mtl.how](https://mtl.how): Public repository containing all work related to the *Modeling to Learn* national quality improvement initiative including model files, learner See guides, facilitator Say guides, and cheatsheets for each of the 12 sessions of the program.
