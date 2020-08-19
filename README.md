@@ -38,9 +38,9 @@ For details on what branches are and how they are used please read the GitHub do
 
 5. lzim/mtl_team_tracker at [mtl.how/team_tracker](https://mtl.how/team_tracker): Private repository for *Modeling to Learn* facilitators to access all resources needed for facilitation in one place as well as track team specific progress and information.
 
-6. ecmo/teampsd/research at [insert link](): Private repository in the VA GitHub Enterprise for the TeamPSD research pipeline.
+6. epmo/mtl_research at [https://github.ec.va.gov/EPMO/mtl_research](https://github.ec.va.gov/EPMO/mtl_research): Private repository in the VA GitHub Enterprise for the TeamPSD research pipeline.
 
-7. ecmo/teampsd/operations at [insert link](): Private repository in the VA GitHub Enterprise for the TeamPSD operations pipeline.
+7. epmo/mtl_operations at [https://github.ec.va.gov/EPMO/mtl_operations](https://github.ec.va.gov/EPMO/mtl_operations): Private repository in the VA GitHub Enterprise for the TeamPSD operations pipeline.
     
 
 
