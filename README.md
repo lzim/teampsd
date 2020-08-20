@@ -25,7 +25,7 @@ Following are the types of branches used in the lzim/teampsd repository:
   - Feature branches should have names that describe the contribution being made.
   - Details on creating a feature branch and moving through the development cycle are outlined [here](link-to-teampsd-manual-dev-test-prod-cycle).
 
-**4. qa**: Before a feature can be merged into master, it must go through review in the qa, or quality assurance, branch. This branch is used for testing contributions to make sure they integrate properly and meet the Team PSD standards.
+**4. qa branch**: Before a feature can be merged into master, it must go through review in the qa, or quality assurance, branch. This branch is used for testing contributions to make sure they integrate properly and meet the Team PSD standards.
   - Details and requirements for moving into and through the qa branch are outlined [here](link-to-teampsd-manual-dev-test-prod-cycle).
 
     
