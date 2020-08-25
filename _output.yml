@@ -5,7 +5,7 @@ bookdown::gitbook:
     toolbar:
       position: static
     download: [epub, docx]
-    edit: https://github.com/lijenn/testing/edit/gh-pages/%s
+    edit: https://github.com/lzim/teampsd/edit/gh-pages/%s
     sharing:
       github: yes
 
