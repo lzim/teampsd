@@ -16,7 +16,7 @@ Following are the types of branches used in the lzim/teampsd repository:
   - [resources](https://github.com/lzim/teampsd/tree/master/resources): Contains how-to guides, cheatsheets, icons, etc. Everything in this folder will be integrated into either the *MTL* manual or TeamPSD manual.
   - [vignettes](https://github.com/lzim/teampsd/tree/master/vignettes): Contains any documentation and guides related to or using software packages.
         
-**2. gh-pages branch**: The gh-pages branch contains the markdown files that are being compiled in the TeamPSD Manual available at [mtl.how/manual](mtl.how/manual). It is treated as a production branch (like master), moving through the same feature and qa development cycle.
+**2. gh-pages branch**: The gh-pages branch contains the markdown files that are being compiled in the TeamPSD Manual available at [mtl.how/teampsd_manual](https://mtl.how/teampsd_manual). It is treated as a production branch (like master), moving through the same feature and qa development cycle.
   - All files in this branch are in markdown format and are treated as chapters in the manual.
   - These files are separate from the other files in the TeamPSD repository.
 
