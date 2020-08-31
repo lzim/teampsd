@@ -1,17 +1,3 @@
----
-title: "VA REDCap "
-author: "Team PSD"
-date: "SP 2020_03_16"
-output: 
-  github_document: default
-  html_document: default
-  pdf_document: default
-  word_document: default
-  ioslides_presentation: default
-  slidy_presentation: default
-  powerpoint_presentation: default
----
-
 # VA REDCap
 
 ## External links needed:
