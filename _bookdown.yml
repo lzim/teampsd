@@ -3,4 +3,4 @@ language:
   ui:
     chapter_name: "Chapter "
 new_session: yes
-rmd_files: ["index.Rmd", "how_to_use_manual.md", "chapter_2_manifesto.md", "week_1_and_2.md", "week_3.md", "screen_cast.md", "youtube_guide.md", "week_4.md", "ms_teams_guide.md", "osf_guide.md", "github_draft.md", "chapter_6_zenhub_guide.md", "github_draft_2.md", "chapter_7_glossary.md"]
+rmd_files: ["index.Rmd", "how_to_use_manual.md", "chapter_2_manifesto.md", "week_1_and_2.md", "week_3.md", "screen_cast.md", "youtube_guide.md", "week_4.md", "ms_teams_guide.md", "osf_guide.md", "lucidcharts.md", "github_draft.md", "chapter_6_zenhub_guide.md", "github_draft_2.md", "chapter_7_glossary.md"]
