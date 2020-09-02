@@ -21,12 +21,13 @@ This guide will help you learn the basic user interface functions of Microsoft T
 ## Click Map
 
 ### Switch Organizations/Add VA Account
-![](https://user-images.githubusercontent.com/59668647/89901022-5887de80-db99-11ea-8ccc-4e5983b0b988.png)
+![](https://user-images.githubusercontent.com/59668647/92035623-d320c580-ed23-11ea-9284-f45210820aa8.png)
 
 ### Create a meeting
+![](https://user-images.githubusercontent.com/59668647/92035627-d451f280-ed23-11ea-9e8e-19aef113e55f.png)
 
 ### Participate in a Meeting
-![](https://user-images.githubusercontent.com/59668647/92025238-15daa180-ed14-11ea-846a-881e2ae7b15d.png)
+![](https://user-images.githubusercontent.com/59668647/92035629-d5831f80-ed23-11ea-94c1-f9afd68b721a.png)
 
 ## Additional Tips/Functions
 
