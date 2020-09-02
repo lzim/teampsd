@@ -34,9 +34,11 @@ This guide will help you learn the basic user interface functions of Microsoft T
 ### VA Teams WebApp Browser:
 
 Click on the Teams WebApp shortcut on your CITRIX remote log-in desktop to access the browser version as CITRIX does not have the desktop version installed.
+
 ![](https://user-images.githubusercontent.com/59668647/92024796-7fa67b80-ed13-11ea-9a4f-28c79e05e539.png)
 
 If you do not see the WebApp shortcut, open Google Chrome and type in **teams.microsoft.com** to access it manually.
+
 ![](https://user-images.githubusercontent.com/59668647/92025008-c7c59e00-ed13-11ea-8441-64ac492c17f1.png)
 
 
