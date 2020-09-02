@@ -20,14 +20,14 @@ This guide will help you learn the basic user interface functions of Microsoft T
 
 ## Click Map
 
-### Switch Organizations/Add VA Account
+### Switch Orgs./Add VA Account
 ![](https://user-images.githubusercontent.com/59668647/92035623-d320c580-ed23-11ea-9284-f45210820aa8.png)
 
-### Create a meeting
-![](https://user-images.githubusercontent.com/59668647/92035629-d5831f80-ed23-11ea-94c1-f9afd68b721a.png)
+### Create a VA Teams meeting 
+![](https://user-images.githubusercontent.com/59668647/92043522-0a49a380-ed31-11ea-9989-4591c7a0349c.png)
 
 ### Participate in a Meeting
-![](https://user-images.githubusercontent.com/59668647/92035627-d451f280-ed23-11ea-9e8e-19aef113e55f.png)
+![](https://user-images.githubusercontent.com/59668647/92043518-087fe000-ed31-11ea-8da6-cf08838cf6e6.png)
 
 ## Additional Tips/Functions
 
@@ -42,6 +42,7 @@ If you do not see the WebApp shortcut, open Google Chrome and type in **teams.mi
 ![](https://user-images.githubusercontent.com/59668647/92042262-b0e07500-ed2e-11ea-8de0-04742fd721e6.png)
 
 ### Switch Organizations
+
 To switch out of an organization on the VA Teams WebApp Brower:
 
 1. Click on the **organization you are currently in**, located next your profile picture & name.
