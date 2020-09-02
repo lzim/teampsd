@@ -1,6 +1,7 @@
 # MS Teams
-TeamPSD and the VA are both using Microsoft Teams as their main communication and scheduling platform.
-Team PSD has a non-VA organization and a VA organization at the moment.
+TeamPSD and the VA are both using [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app) as their main communication platform.
+
+TeamPSD is currently using the **Free Version of Microsoft Teams** so the entire team can get used to it as the VA begins to roll it out system-wide between mid-July to early August.  
 
 ## Quick Start Guide
 To review the basics of Microsoft Teams, check out their [Quick Start Guide](https://www.chorus.co/media/2989/quickstart-guide-to-teams-chorus.pdf).
@@ -18,27 +19,11 @@ This guide will help you learn the basic user interface functions of Microsoft T
 - Add/Share/Work with Files
 - and more!
 
-## Click Map
+## Flow Map
 
-### Switch Organizations/Add VA Account
-![](https://user-images.githubusercontent.com/59668647/92035623-d320c580-ed23-11ea-9284-f45210820aa8.png)
-
-### Create a meeting
-![](https://user-images.githubusercontent.com/59668647/92035627-d451f280-ed23-11ea-9e8e-19aef113e55f.png)
-
-### Participate in a Meeting
-![](https://user-images.githubusercontent.com/59668647/92035629-d5831f80-ed23-11ea-94c1-f9afd68b721a.png)
+![](https://user-images.githubusercontent.com/59668647/89901022-5887de80-db99-11ea-8ccc-4e5983b0b988.png)
 
 ## Additional Tips/Functions
-
-### VA Teams WebApp Browser:
-
-Click on the Teams WebApp shortcut on your CITRIX remote log-in desktop to access the browser version as CITRIX does not have the desktop version installed.
-![](https://user-images.githubusercontent.com/59668647/92024796-7fa67b80-ed13-11ea-9a4f-28c79e05e539.png)
-
-If you do not see the WebApp shortcut, open Google Chrome and type in **teams.microsoft.com** to access it manually.
-![](https://user-images.githubusercontent.com/59668647/92025008-c7c59e00-ed13-11ea-8441-64ac492c17f1.png)
-
 
 ### Switch Organizations
 To switch out of an organization on the VA Teams WebApp Brower:
