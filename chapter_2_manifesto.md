@@ -242,6 +242,8 @@ vapor | *description to come*
 
 ## Project Trackers
 
+Team PSD uses the following 4 project trackers on GitHub to track incoming **bugs**, develop new **features**, create/update **documentation**, and ensure the progression of submitting **manuscripts**, all from a glance by looking at each of their respective trackers as a dashboard to see the status, progression, and completion of open issues. 
+
 ### bug_tracker
 The [bug_tracker](https://mtl.how/bugs) is divided into 6 columns described below.  The purpose of the issue_tracker is to provide triage and track the disposition of issues that require action by one or more workgroups. Issues labeled as “bugs” will be tracked here.
 
