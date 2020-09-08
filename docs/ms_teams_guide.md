@@ -20,7 +20,7 @@ This guide will help you learn the basic user interface functions of Microsoft T
 ## Click Map
 
 ### Switch Orgs/Add VA Account
-![](https://user-images.githubusercontent.com/59668647/92035623-d320c580-ed23-11ea-9284-f45210820aa8.png)
+![](https://user-images.githubusercontent.com/59668647/92526208-f17e3980-f1d9-11ea-9d76-3b01196bf516.png)
 
 ### Create a VA Teams meeting 
 ![](https://user-images.githubusercontent.com/59668647/92523376-1cb25a00-f1d5-11ea-87c6-866b51e56307.png)
