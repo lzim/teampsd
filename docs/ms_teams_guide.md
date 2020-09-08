@@ -1,15 +1,14 @@
 # MS Teams
 TeamPSD and the VA are both using Microsoft Teams as their main communication and scheduling platform.
-Team PSD has a non-VA organization and a VA organization at the moment.
 
 ## Quick Start Guide
 To review the basics of Microsoft Teams, check out their [Quick Start Guide](https://www.chorus.co/media/2989/quickstart-guide-to-teams-chorus.pdf).
 
-This guide will help you learn the basic user interface functions of Microsoft Teams (**Free version or VA**) such as: 
+This guide will help you learn the basic user interface functions of Microsoft Teams such as: 
 
 - Signing In
 - Manage your profile settings
-- Choose/browse channels
+- Create & choose/browse channels
 - Start a meeting or call
 - Start a new conversation thread
 - Reply within a message/conversation thread
@@ -20,14 +19,17 @@ This guide will help you learn the basic user interface functions of Microsoft T
 
 ## Click Map
 
-### Switch Orgs./Add VA Account
+### Switch Orgs/Add VA Account
 ![](https://user-images.githubusercontent.com/59668647/92035623-d320c580-ed23-11ea-9284-f45210820aa8.png)
 
 ### Create a VA Teams meeting 
-![](https://user-images.githubusercontent.com/59668647/92043522-0a49a380-ed31-11ea-9989-4591c7a0349c.png)
+![](https://user-images.githubusercontent.com/59668647/92523376-1cb25a00-f1d5-11ea-87c6-866b51e56307.png)
 
 ### Participate in a Meeting
-![](https://user-images.githubusercontent.com/59668647/92043518-087fe000-ed31-11ea-8da6-cf08838cf6e6.png)
+
+Note: VA Citrix Users do not have access for computer audio or webcam, but can join by calling in from their cell phone. 
+
+![](https://user-images.githubusercontent.com/59668647/92523392-220fa480-f1d5-11ea-84fd-c984dc4794e5.png)
 
 ## Additional Tips/Functions
 
