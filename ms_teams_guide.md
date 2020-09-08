@@ -27,7 +27,7 @@ This guide will help you learn the basic user interface functions of Microsoft T
 
 ### Participate in a Meeting
 
-Note: VA Citrix Users do not have access for computer audio or webcam, but can join by calling in from their cell phone or join the meeting from outside the VA with the meeting link.
+***Note: VA Citrix Users do not have access for computer audio or webcam, but can join by calling in from their cell phone or join the meeting from outside the VA with the meeting link.***
 
 ![](https://user-images.githubusercontent.com/59668647/92523392-220fa480-f1d5-11ea-84fd-c984dc4794e5.png)
 
