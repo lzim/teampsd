@@ -20,16 +20,16 @@ This guide will help you learn the basic user interface functions of Microsoft T
 ## Click Map
 
 ### Switch Orgs/Add VA Account
-![](https://user-images.githubusercontent.com/59668647/92526208-f17e3980-f1d9-11ea-9d76-3b01196bf516.png)
+![](https://user-images.githubusercontent.com/59668647/93370549-d5941c80-f805-11ea-9650-33e937892d35.png)
 
 ### Create a VA Teams meeting 
-![](https://user-images.githubusercontent.com/59668647/92523376-1cb25a00-f1d5-11ea-87c6-866b51e56307.png)
+![](https://user-images.githubusercontent.com/59668647/93370342-85b55580-f805-11ea-9bff-3fc3593a38d0.png)
 
 ### Participate in a Meeting
 
 ***Note: VA Citrix Users do not have access for computer audio or webcam, but can join by calling in from their cell phone or join the meeting from outside the VA with the meeting link.***
 
-![](https://user-images.githubusercontent.com/59668647/92523392-220fa480-f1d5-11ea-84fd-c984dc4794e5.png)
+![](https://user-images.githubusercontent.com/59668647/93370779-36235980-f806-11ea-8a97-c31ec896ac2e.png)
 
 ## Additional Tips/Functions
 
