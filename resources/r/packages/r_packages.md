@@ -1,11 +1,11 @@
 |Package installed|Package missing|Missing Package notes                   |Missing Package Download Site                                 |
 |-----------------|---------------|----------------------------------------|--------------------------------------------------------------|
-|abc              |processx       |contains an .exe file, permission denied|https://cran.r-project.org/web/packages/processx/index.html   |
+|abc              |processx       |                                        |https://cran.r-project.org/web/packages/processx/index.html   |
 |abc.data         |callr          |requires processx                       |https://cran.r-project.org/web/packages/callr/index.html      |
 |abind            |reprex         |requires processx and callr             |https://cran.r-project.org/web/packages/reprex/index.html     |
 |acepack          |rvest          |unable to overwrite previous install    |https://cran.r-project.org/web/packages/rvest/index.html      |
 |acs              |tidyverse      |requires all packages listed above      |https://cran.r-project.org/web/packages/tidyverse/index.html  |
-|assertthat       |rgdal          |contains .MID file, permission denied   |https://cran.r-project.org/web/packages/rgdal/index.html      |
+|assertthat       |rgdal          |                                        |https://cran.r-project.org/web/packages/rgdal/index.html      |
 |backports        |tigris         |requires rgdal                          |https://cran.r-project.org/web/packages/tigris/index.html     |
 |base64enc        |choroplethr    |requires rgdal and tigris               |https://cran.r-project.org/web/packages/choroplethr/index.html|
 |BH               |               |                                        |                                                              |
