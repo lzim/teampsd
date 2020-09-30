@@ -131,7 +131,23 @@ This policy details the governing principles, definitions, responsibilities and 
 
 * Proxy - An individual who is a member that supports a specific workgroup and can participate in the absence of the Workgroup Lead to represent the interests of a workgroup.  A Proxy has the decision-making authority of the Workgroup Lead they represent. The Workgroup Lead must still provide detailed and concise documentation of questions and scope on bugs and features related to their workgroup in the Workgroup Leads meeting agenda.
 
-### Workgroups
+### Workgroup/Schedule
+
+Team PSD is now on flex schedule with **8 hours of individual flex time & focus blocks for each workgroup**.
+
+The schedule depicts a standard **Team PSD Tour of Duty from 8AM-4PM Pacific Mon-Thurs**. It is designed to increase individual flex time and increase individual focus time, while decreasing "set switching" among workflows. 
+   - Each user workgroup meeting is depicted by a box.
+   - Time to prepare for the user workgroup meeting or follow-up after the meeting is depicted by color.
+ 
+Depicted is **16 scheduled hours** of user workgroup meetings per week (40% of a 40 hour week). And, no less than 8 hours of individual focus time (either through a "4 10s" or a "5 8s" schedule.
+ 
+**Percent of the 32 hours focused on each of these major Workflows:**
+   - **31.25% Cross-Cutting** (Workgroup Leads, Support Workgroups, HQ)= **10 hours/week**
+   - **25% + Flex up to 50% for Research** (Manuscripts, Co-I, Qual, Quant) = **8 hours/week**
+   - **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
+   - **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
+
+![](https://user-images.githubusercontent.com/59668647/94718051-fed4a280-0305-11eb-966d-2ad95422c2d2.png)
 
 The table below describes all of the TeamPSD workgroups including their Workgroup Lead, Meeting Time, and Role. For each meeting, it is the responsibility of the Workgroup Lead or HQ point person to:
 
@@ -142,7 +158,6 @@ The table below describes all of the TeamPSD workgroups including their Workgrou
 3. Clean up meeting notes for clarity
 
 4. Send the follow-up email 
-
 
 |Workgroup (Workgroup Lead) (Meeting Time)|Role|
 |------------------------------------------|-----|
