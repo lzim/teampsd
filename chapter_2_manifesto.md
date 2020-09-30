@@ -143,21 +143,18 @@ The table below describes all of the TeamPSD workgroups including their Workgrou
 
 4. Send the follow-up email 
 
-4. Publish the meeting to Basecamp
-
-5. Save Lucid audio in the TeamPSD folder: Meeting Agendas & Recordings (and backup and save any mtl.how/live recordings as relevant)
 
 |Workgroup (Workgroup Lead) (Meeting Time)|Role|
 |------------------------------------------|-----|
-|Facilitate/EES (Jane as Workgroup) (Tues 8:15-9:45a Pacific)|Provides MTL program resources such as learner SEE and facilitator SAY scripts, checklists, guides, EES (Employee Education Services) brochures, and post-tests; and co-facilitates the MTL program. *Jenn is the HQ point person for this workgroup.|
+|Facilitate/EES (Jane as Workgroup lead/Jenn as HQ Point Person) (Tues 8:15-9:45a Pacific)|Provides MTL program resources such as learner SEE and facilitator SAY scripts, checklists, guides, EES (Employee Education Services) brochures, and post-tests; and co-facilitates the MTL program.|
 |Headquarters (Lindsey/Stacey/Jenn/Anthony as Quant Point Person) (Daily Check-In 12:30-1:00pm Pacific,Thurs 1:00-2:00pm Pacific,4th Friday 12:30-4:00pm Pacific)| Manages oversight of all workgroups, identifying interdependencies and parallel workstreams. Provides guidance on prioritization. |
 |Manuscripts, Publications, and Conferences (Lindsey & Stacey) (Mon 12:30-1:30p Pacific & Wed 11:00a-12:00p Pacific)| Develops and maintains manuscripts, publication schedule, authorship agreement, and conference materials|
 |Modeling (James & Tom)|Builds models of systems that support clinician experimentation.|
 |Qualitative (David) (Wed 8:00a-9:00a Pacific) |Codes team qhfd inputs for qualitative analysis and development of future fidelity materials. *Jessilyn is the HQ point person for this workgroup.|
 |Quantitative (Anthony) (Wed/Thurs 11:00a-12:00p Pacific)| Provides data and analysis of data that supports other workgroups and research. |
-|Simulation User Interface (James)(8:30-9:30a Pacific)|Provides an accessible, web-based user interface for practitioners to experiment using simulation.|
+|Simulation User Interface (James)(Thurs 8:30-9:30a Pacific)|Provides an accessible, web-based user interface for practitioners to experiment using simulation.|
 |Workgroup Leads & Support Workgroups (Stacey/Anthony/Jenn/James) (Mon 8:00a-10:00a Pacific | Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |
-|VAPOR (Jennifer) (4th Tues 2:00-3:00p Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives|
+|VAPOR (Jenn) (4th Tues 2:00-3:00p Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives|
 
 
 ### GitHub Labels Table
@@ -166,8 +163,8 @@ Labels shall be assigned a color, expressed in lowercase and use an underscore i
 Label|Purpose
 -----|-------
 document|expresses a dependency for at least 1 of 5 levels (describe, detail, document, disseminate, depend) of documentation to be tracked on the document_tracker. The point person for each level of documentation will be responsible for checking the issue & feature tracker for dependencies (describe: Jane & Debbie; detail: Tom & Lindsey; document: Stacey & HQ; disseminate: Lindsey, Anthony; depend: Lindsey, Jane, & Jessilyn)
-facilitate|alert all of the facilitate workgroup to an issue that may affect facilitation (Lindsey, Jane, Debbie, Tom, David, Claire, Gayle, John, Matt, Jay, Theresa, Marcia)
-hq|alert to HQ workgroup (Lindsey, Stacey, Jennifer) to track
+facilitate|alert all of the facilitate workgroup to an issue that may affect facilitation (Jane, Debbie, Jenn, Lindsey, Stacey)
+hq|alert to HQ workgroup (Lindsey, Stacey, Jennifer, Anthony as Quant representative) to track
 manuscript|expresses a dependency on manuscripts to be tracked on the manuscript_tracker
 model|alert to Tom & James of a dependency on the model workgroup
 pi|alert to PI/Lindsey that an action or decision is necessary
