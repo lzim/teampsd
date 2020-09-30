@@ -108,6 +108,25 @@ To start a meeting call within the same conversation thread to keep context:
 
 ![](https://user-images.githubusercontent.com/59668647/88048451-33f39600-cb08-11ea-8082-dddbf10ac0c4.png)
 
+### Record a Meeting
+To record a meeting or call:
+
+1. Within the meeting/call, click on the **3 dots [...]** in the middle navigation bar and select **"Start recording".**
+![](https://user-images.githubusercontent.com/59668647/94718500-aa7df280-0306-11eb-9b97-9dbda5179f0d.png)
+
+2. The following will occur to indicate that you are recording:
+   - A **disclaimer will pop-up** at the top of the meeting for everyone.
+   - A **red circle** will appear next to the meeting timer in the navigation bar.
+![](https://user-images.githubusercontent.com/59668647/94718591-c97c8480-0306-11eb-82e7-e0d6b666ba72.png)
+
+3. When you are done with the meeting/call, click on the **3 dots [...]** in the middle navigation bar and select **"Stop recording".**
+![](https://user-images.githubusercontent.com/59668647/94718760-09436c00-0307-11eb-8c47-6add60624f8f.png)
+
+4. The recording will need time to upload and render (e.g 50 min recording took about 2-3 min). Once finished, the **video will automatically populate** in the meeting's **Chat thread**.
+
+![](https://user-images.githubusercontent.com/59668647/94719168-abfbea80-0307-11eb-8199-26767066f213.png)
+![](https://user-images.githubusercontent.com/59668647/94719339-e8c7e180-0307-11eb-8cff-292fee0d789b.png)
+
 
 ### Share Dual Screens
 To share multiple browser windows or screens:
