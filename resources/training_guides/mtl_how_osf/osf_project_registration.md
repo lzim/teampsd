@@ -43,7 +43,7 @@ output:
 - Registrations cannot be deleted and are irreversible
 -	Withdrawing a registration will leave the metadata (title, contributors, DOI, etc) 
 -	All submitted registrations will be in a "pending" state until all admins approve the registration (email sent with links) or 48 hours pass (whichever comes first)
--	OSF’s auto-save feature does not always work (See ['Edit a Draft Registration'](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_osf/osf_project_registration.md#5-edit-a-draft-registration)
+-	OSF’s auto-save feature does not always work (See ['Edit a Draft Registration'](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_osf/osf_project_registration.md#5-edit-a-draft-registration))
 
 ## Creating a Registration
 ### [(2) Register Your Project](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
