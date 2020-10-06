@@ -43,7 +43,7 @@ output:
 - Registrations cannot be deleted and are irreversible
 -	Withdrawing a registration will leave the metadata (title, contributors, DOI, etc) 
 -	All submitted registrations will be in a "pending" state until all admins approve the registration (email sent with links) or 48 hours pass (whichever comes first)
--	OSF’s auto-save feature does not always work (See ['Edit a Draft Registration'](https://github.com/lzim/teampsd/blob/osf_project_registration_jl_01_28_2020/resources/training_guides/mtl_how_osf/osf_project_registration.md#edit-a-draft-registration-httpshelposfiohcen-usarticles360019930933-edit-a-draft-registration))
+-	OSF’s auto-save feature does not always work (See ['Edit a Draft Registration'](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_osf/osf_project_registration.md#5-edit-a-draft-registration)
 
 ## Creating a Registration
 ### [(2) Register Your Project](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
@@ -91,5 +91,5 @@ output:
 
 ## Quick Checklist:
 #### Common Mistakes:
-- [Choosing the wrong registration form](https://github.com/lzim/teampsd/blob/osf_project_registration_jl_01_28_2020/resources/training_guides/mtl_how_osf/osf_project_registration.md#prior-to-registering-a-project)
-- [Relying on OSF's Auto-Save funtion](https://github.com/lzim/teampsd/blob/osf_project_registration_jl_01_28_2020/resources/training_guides/mtl_how_osf/osf_project_registration.md#5-edit-a-draft-registration)
+- [Choosing the wrong registration form](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_osf/osf_project_registration.md#prior-to-registering-a-project)
+- [Relying on OSF's Auto-Save funtion](https://github.com/lzim/teampsd/blob/master/resources/training_guides/mtl_how_osf/osf_project_registration.md#5-edit-a-draft-registration)
