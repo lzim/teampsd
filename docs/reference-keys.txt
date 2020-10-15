@@ -119,7 +119,7 @@ use-github-branches
 submit-a-feature
 create-a-feature-branch
 edit-a-feature-branch
-test-a-feature-branch
+push-a-feature-branch
 run-quality-assurance
 orientation-map
 edit-a-quality-assurance-branch
