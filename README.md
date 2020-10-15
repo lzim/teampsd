@@ -43,5 +43,3 @@ Following are the types of branches used in the lzim/teampsd repository:
     
 
 
-
-
