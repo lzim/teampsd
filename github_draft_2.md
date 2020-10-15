@@ -28,6 +28,8 @@ Cheatsheet will go here.
 
 ![](https://user-images.githubusercontent.com/30132017/96189366-30985c80-0ef5-11eb-9053-22a43cae8103.png)
 
+![](https://app.lucidchart.com/invitations/accept/1b9df299-b33f-4509-be32-9603ec343a3c)
+
 GitHub branches are used to provide continuous integration of multiple versions of a repository.  Branches also control versions of a file and trigger automatic review and quality control actions to ensure files meet team standards.  See [Working with Branches](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-branches#working-with-branches) for more information.
 
 ### Submit a Feature
