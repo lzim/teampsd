@@ -41,4 +41,3 @@ Following are the types of branches used in the lzim/teampsd repository:
 | epmo/mtl_research | [https://github.ec.va.gov/EPMO/mtl_research](https://github.ec.va.gov/EPMO/mtl_research) | Private repository in the VA GitHub Enterprise account for the TeamPSD research pipeline. |
 | epmo/mtl_operations | [https://github.ec.va.gov/EPMO/mtl_operations](https://github.ec.va.gov/EPMO/mtl_operations) | Private repository in the VA GitHub Enterprise account for the TeamPSD operations pipeline. |
     
-
