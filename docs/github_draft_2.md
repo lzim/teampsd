@@ -82,7 +82,6 @@ GitHub branches are used to provide continuous integration of multiple versions 
 3.  The user checks for errors in this tab, and corrects any findings.  
 4.  The user can re-run the quality checks from the actions tab by clicking the "Rerun jobs" button on right hand side of screen (see figure above). 
 
-#### Orientation Map 
 #### Edit a Quality Assurance Branch
 #### Test a Quality Assurance Branch
 #### Merge a Quality Assurance Branch

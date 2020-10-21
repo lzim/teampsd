@@ -121,7 +121,6 @@ create-a-feature-branch
 edit-a-feature-branch
 push-a-feature-branch
 run-quality-assurance
-orientation-map
 edit-a-quality-assurance-branch
 test-a-quality-assurance-branch
 merge-a-quality-assurance-branch
