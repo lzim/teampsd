@@ -1,6 +1,7 @@
 on:
   push:
-     branches: [gh-pages]
+     branches:
+       - 'gh-pages'
 
   
 name: renderbook
