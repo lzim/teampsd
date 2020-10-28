@@ -1,0 +1,83 @@
+# This is a basic workflow to help you get started with Actions
+
+name: FindReplace
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: #[ master ]
+      - "[fF][nN][rR]-*"
+    #paths-ignore:
+    #- '**.yml' 
+    #paths:
+    #- '**.md'
+  #pull_request:
+    #branches: #[ master ]
+      #- "[fF][nN][rR]-*"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  FindReplace:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: "0"
+    
+    - name: '' #get changed files
+      id: getfile
+      run: |
+        echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | xargs)"
+    
+    - name: '' #get changed files
+      id: getDirName
+      run: |
+        echo "::set-output name=dirs::$(dirname ${{ steps.getfile.outputs.files }})"
+    
+    #- name: echo output
+      #run: |
+        #echo ${{ steps.getfile.outputs.files }}
+        #echo ${{ steps.getDirName.outputs.dirs }}
+        
+    - name: Find and Replace
+      id: fn
+      uses: shitiomatic/str-replace@master
+      with:
+        find: "Session 1"
+        replace: "Session X"
+        
+        # search returns only committed file by user 
+        #include: ${{ steps.getfile.outputs.files }} 
+        
+        # only searching such directory's files and subdirectory's files which is committed by the user
+        #include: ${{ steps.getDirName.outputs.dirs }} 
+       
+        # always searching directory or file by its name which is available with double quotes i.e "test", "test/xyx.txt", "xyx.txt"
+        #include: ""
+        
+        
+   
+    - name: Modified Files
+      run: echo ${{ steps.fn.outputs.modifiedFiles }}
+          
+    - name: Check outputs and modified files
+      if: ${{ steps.fn.outputs.modifiedFiles > 0 }} 
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "Find and Replace Commit"
+        git push   
+             
+           
+        
+            
+          
+          
