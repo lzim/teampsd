@@ -116,7 +116,7 @@ Below is an explanation on how to configure the find and replace function.
 To support the publication of a bookdown manual, a special branch is required named "gh-pages" branch.  This branch contains the markdown files that are editable and are automatically compiled by an bookdown publication action, when a feature branch is merged with the gh-pages branch. Follow the steps below to edit a bookdown manual.
 
 1.  Navigate to the "gh-pages" branch.
-2.  In the "Find or create a branch" field, enter a feature branch using the following convention: feature-update_gh-pages_chapter_section . This will clue reviewers that the action will merge with gh-pages after QA.
+2.  In the "Find or create a branch" field, enter a feature branch using the following convention: feature-gh-pages_chapter_section . This will clue reviewers that the action will merge with gh-pages after QA.
 3.  Navigate to the "feature_update_gh-pages" branch and open the desired file to edit.
 4.  Edit the file.
 5.  Commit the file to the same branch.
