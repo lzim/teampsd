@@ -1,0 +1,33 @@
+{
+  "default": true,
+  "MD004": { "style": "consistent" },
+  
+  "MD007": { "indent": 2 },
+  "MD009": { "br_spaces": 2 },
+  "MD011": { "code_blocks": true },
+  "MD018": { "maximum": 1 },
+  "MD022": { "lines_above": 1 },
+  "MD024": { "siblings_only": true },
+  "MD025": { "level": 1 },
+  "MD026": { "level": ".,;:!?。，；：！？" },
+  "MD029": { "style": "one_or_ordered" },
+  "MD030": { "ul_single": 1 },
+  "MD035": { "style": "consistent" },
+  "MD036": { "punctuation": ".,;:!?。，；：！？" },
+  "list-indent":true,
+  "no-missing-space-atx":true,
+  "no-multiple-space-atx":true,
+  "no-missing-space-closed-atx":true,
+  "no-multiple-space-closed-atx":true,
+  "heading-start-left":true,
+  "no-multiple-space-blockquote":true,
+  "blanks-around-lists":true,
+  "no-blanks-blockquote":true,
+  "no-bare-urls":true,
+  "no-space-in-emphasis":true,
+  "no-space-in-links":true,
+  "no-empty-links":true,
+  "no-alt-text":true
+  
+ 
+}
