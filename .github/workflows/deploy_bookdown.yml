@@ -1,7 +1,7 @@
 on:
   push:
-     paths-ignore:
-       - 'docs/**'
+     branches:
+       - gh-pages
 
 name: renderbook
 
