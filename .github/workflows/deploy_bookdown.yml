@@ -52,9 +52,11 @@ jobs:
           FOLDER: docs
           TARGET_FOLDER: docs # The folder the action should deploy.
           CLEAN: true
-  run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add .
-        git commit -m "Bookdown commit"
-        git push   
+      
+      - name: Check outputs and modified files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Book Down Commit"
+          git push 
