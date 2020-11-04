@@ -24,7 +24,7 @@
 <meta name="author" content="Team PSD" />
 
 
-<meta name="date" content="2020-10-21" />
+<meta name="date" content="2020-11-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -189,6 +189,7 @@
 <li class="chapter" data-level="9.5" data-path="9-github-zenhub.html"><a href="9-github-zenhub.html#use-github-branches"><i class="fa fa-check"></i><b>9.5</b> Use GitHub Branches</a><ul>
 <li class="chapter" data-level="9.5.1" data-path="9-github-zenhub.html"><a href="9-github-zenhub.html#submit-a-feature"><i class="fa fa-check"></i><b>9.5.1</b> Submit a Feature</a></li>
 <li class="chapter" data-level="9.5.2" data-path="9-github-zenhub.html"><a href="9-github-zenhub.html#run-quality-assurance"><i class="fa fa-check"></i><b>9.5.2</b> Run Quality Assurance</a></li>
+<li class="chapter" data-level="9.5.3" data-path="9-github-zenhub.html"><a href="9-github-zenhub.html#use-a-find-and-replace-branch"><i class="fa fa-check"></i><b>9.5.3</b> Use a “Find and Replace” Branch</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="10-glossary.html"><a href="10-glossary.html"><i class="fa fa-check"></i><b>10</b> Glossary</a><ul>
@@ -493,14 +494,55 @@ This repository holds the backend code that needs to stay internal for our grant
 </li>
 <li>The user can re-run the quality checks from the actions tab by clicking the “Rerun jobs” button on right hand side of screen (see figure above).</li>
 </ol>
-<div id="edit-a-quality-assurance-branch" class="section level4">
-<h4><span class="header-section-number">9.5.2.1</span> Edit a Quality Assurance Branch</h4>
 </div>
-<div id="test-a-quality-assurance-branch" class="section level4">
-<h4><span class="header-section-number">9.5.2.2</span> Test a Quality Assurance Branch</h4>
+<div id="use-a-find-and-replace-branch" class="section level3">
+<h3><span class="header-section-number">9.5.3</span> Use a “Find and Replace” Branch</h3>
+<p>GitHub FNR feature branch is a specialty branch that is used to find desired words or short strings and replace them automatically throughout documents in the repository. The FNR action can be limited to a file, a director or the whole repository by modifying instructions in the FindReplace.yml file found in the .github/workflows directory.</p>
+<div id="configure-the-findreplace.yml-action-file" class="section level4">
+<h4><span class="header-section-number">9.5.3.1</span> Configure the FindReplace.yml Action File</h4>
+<p>Below is an explanation on how to configure the find and replace function.</p>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/97484653-40149e00-1916-11eb-879f-2d9154c46cc8.png" alt="" />
+<p class="caption">image</p>
 </div>
-<div id="merge-a-quality-assurance-branch" class="section level4">
-<h4><span class="header-section-number">9.5.2.3</span> Merge a Quality Assurance Branch</h4>
+<ol style="list-style-type: decimal">
+<li>Select the FindReplace.yml file and place in “edit” mode.</li>
+<li>Update line 53 with the desired word, acronmn or string within in the quotation marks.<br />
+<strong>PRO TIP:</strong> Do not leave extra spaces before or after words, unless you want the search to include the space immedately before or after a search string. For example, the search term “Session 1” will find “Session 1”, “Session 10” and all instances where the number “1” is found, even if it is in the number “10.” To limit the search, place a space immediately after the “1” like this “Session 1” and that will limit the search to “1” only.<br />
+</li>
+<li>Update line 54 with the replacement term in quotation marks.</li>
+<li>To limit a search to an updated file or directory, remove the appropriate hash mark (#) from the line of code that provides the needed search constraint.</li>
+<li>Navigate to the upper left of the window and select the green “Start commit” button. Select the “Commit directly to Master branch” radio button and click the green “Commit changes” button.</li>
+</ol>
+</div>
+<div id="create-a-find-and-replace-fnr-branch" class="section level4">
+<h4><span class="header-section-number">9.5.3.2</span> Create a “Find and Replace” (FNR) Branch</h4>
+<ol style="list-style-type: decimal">
+<li>Navigate to the code tab.</li>
+<li>Click on the branch button and expose the branch dropdown menu.</li>
+<li>In the “Find or create branch” field, enter the name of your find and replace branch using this convention: fnr-findterm_replaceterm. For example, if “session 1” was the find term, and “Session X” was the replace term, it should read “fnr-session_1_session_x.”</li>
+<li>Press enter and navigate to the “Actions” tab. Here the action will report how many terms were found and replaced (see images below). For a line-by-line review of changes, open a pull request.</li>
+</ol>
+<p><strong>Open action tab and review action status</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97486613-ea8dc080-1918-11eb-9df4-33f726d358ae.png" alt="image" /></p>
+<p><strong>Open pull request comparing FNR branch to master</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97486927-61c35480-1919-11eb-9bae-915b5d086e55.png" alt="image" /></p>
+<p><strong>Compare changes</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97487072-99ca9780-1919-11eb-8ef6-41ecd1eda678.png" alt="image" /></p>
+</div>
+<div id="update-a-bookdown-file-using-the-gh-pages-branch." class="section level4">
+<h4><span class="header-section-number">9.5.3.3</span> Update a Bookdown File Using the “gh-pages” Branch.</h4>
+<p>To support the publication of a bookdown manual, a special branch is required named “gh-pages” branch. This branch contains the markdown files that are editable and are automatically compiled by an bookdown publication action, when a feature branch is merged with the gh-pages branch. Follow the steps below to edit a bookdown manual.</p>
+<ol style="list-style-type: decimal">
+<li>Navigate to the “gh-pages” branch.</li>
+<li>In the “Find or create a branch” field, enter a feature branch using the following convention: feature-gh-pages_chapter_section . This will clue reviewers that the action will merge with gh-pages after QA.</li>
+<li>Navigate to the “feature_update_gh-pages” branch and open the desired file to edit.</li>
+<li>Edit the file.</li>
+<li>Commit the file to the same branch.</li>
+<li>Open a pull request to merge with the QA branch. This will trigger the spell checker, link checker and markdown style checkers and signal reviewers that a check is needed.</li>
+<li>Navigate to the Actions tab to resolve any issues found by the linters.</li>
+<li>After QA review, the QA branch will merge changes with the gh-pages branch. This change will trigger the bookdown publishing action to publish the updated manual.</li>
+</ol>
 
 </div>
 </div>

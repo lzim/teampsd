@@ -121,9 +121,10 @@ create-a-feature-branch
 edit-a-feature-branch
 push-a-feature-branch
 run-quality-assurance
-edit-a-quality-assurance-branch
-test-a-quality-assurance-branch
-merge-a-quality-assurance-branch
+use-a-find-and-replace-branch
+configure-the-findreplace.yml-action-file
+create-a-find-and-replace-fnr-branch
+update-a-bookdown-file-using-the-gh-pages-branch.
 glossary
 terms
 acronyms

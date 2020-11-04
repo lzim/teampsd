@@ -82,6 +82,65 @@ GitHub branches are used to provide continuous integration of multiple versions 
 3.  The user checks for errors in this tab, and corrects any findings.  
 4.  The user can re-run the quality checks from the actions tab by clicking the "Rerun jobs" button on right hand side of screen (see figure above). 
 
-#### Edit a Quality Assurance Branch
-#### Test a Quality Assurance Branch
-#### Merge a Quality Assurance Branch
+### Use a "Find and Replace" Branch
+GitHub FNR feature branch is a specialty branch that is used to find desired words or short strings and replace them automatically throughout documents in the repository.  The FNR action can be limited to a file, a director or the whole repository by modifying instructions in the FindReplace.yml file found in the .github/workflows directory. 
+
+#### Configure the FindReplace.yml Action File
+Below is an explanation on how to configure the find and replace function.
+
+![image](https://user-images.githubusercontent.com/30132017/97484653-40149e00-1916-11eb-879f-2d9154c46cc8.png)
+
+1.  Select the FindReplace.yml file and place in "edit" mode.
+2.  Update line 53 with the desired word, acronmn or string within in the quotation marks.  
+**PRO TIP:** Do not leave extra spaces before or after words, unless you want the search to include the space immedately before or after a search string. For example, the search term "Session 1" will find "Session 1", "Session 10" and all instances where the number "1" is found, even if it is in the number "10."  To limit the search, place a space immediately after the "1" like this "Session 1 " and that will limit the search to "1" only.   
+3.  Update line 54 with the replacement term in quotation marks.
+4.  To limit a search to an updated file or directory, remove the appropriate hash mark (#) from the line of code that provides the needed search constraint.
+5.  Navigate to the upper left of the window and select the green "Start commit" button. Select the "Commit directly to Master branch" radio button and click the green "Commit changes" button.
+
+#### Create a "Find and Replace" (FNR) Branch
+1. Navigate to the code tab.
+2. Click on the branch button and expose the branch dropdown menu.
+3. In the "Find or create branch" field, enter the name of your find and replace branch using this convention:  fnr-findterm_replaceterm.  For example, if "session 1" was the find term, and "Session X " was the replace term, it should read "fnr-session_1_session_x."
+4. Press enter and navigate to the "Actions" tab.  Here the action will report how many terms were found and replaced (see images below). For a line-by-line review of changes, open a pull request.
+
+**Open action tab and review action status**
+![image](https://user-images.githubusercontent.com/30132017/97486613-ea8dc080-1918-11eb-9df4-33f726d358ae.png)
+
+**Open pull request comparing FNR branch to master**
+![image](https://user-images.githubusercontent.com/30132017/97486927-61c35480-1919-11eb-9bae-915b5d086e55.png)
+
+**Compare changes**
+![image](https://user-images.githubusercontent.com/30132017/97487072-99ca9780-1919-11eb-8ef6-41ecd1eda678.png)
+
+#### Update a Bookdown File Using the "gh-pages" Branch.
+To support the publication of a bookdown manual, a special branch is required named "gh-pages" branch.  This branch contains the markdown files that are editable and are automatically compiled by an bookdown publication action, when a feature branch is merged with the gh-pages branch. Follow the steps below to edit a bookdown manual.
+
+1.  Navigate to the "gh-pages" branch.
+2.  In the "Find or create a branch" field, enter a feature branch using the following convention: feature-gh-pages_chapter_section . This will clue reviewers that the action will merge with gh-pages after QA.
+3.  Navigate to the "feature_update_gh-pages" branch and open the desired file to edit.
+4.  Edit the file.
+5.  Commit the file to the same branch.
+6.  Open a pull request to merge with the QA branch.  This will trigger the spell checker, link checker and markdown style checkers and signal reviewers that a check is needed.
+7.  Navigate to the Actions tab to resolve any issues found by the linters.
+8.  After QA review, the QA branch will merge changes with the gh-pages branch.  This change will trigger the bookdown publishing action to publish the updated manual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
