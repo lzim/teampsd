@@ -122,7 +122,7 @@ To support the publication of a bookdown manual, a special branch is required na
 5.  Commit the file to the same branch.
 6.  Open a pull request to merge with the gh-pages branch.  This will trigger the spell checker, link checker and markdown style checkers and signal reviewers that a check is needed.
 7.  Navigate to the Actions tab to resolve any issues found by the linters.
-8.  After review, the reviewer will push the "feature-gh-pages*" branch into the gh-pages branch.  This will trigger the bookdown publishing action to publish the updated manual.
+8.  After review, the reviewer will merge the branches.  This will trigger the bookdown publishing action to publish the updated manual.
 
 
 
