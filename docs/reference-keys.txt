@@ -85,7 +85,6 @@ pop-up-chat
 open-science-framework
 cheatsheet
 lucidcharts
-dev-testing
 create-a-flow-map
 post-on-github
 github-zenhub
