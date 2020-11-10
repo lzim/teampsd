@@ -1,0 +1,131 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@jamesmrollins 
+lzim
+/
+teampsd 
+6
+722
+Code
+Issues
+204
+Pull requests
+2
+ZenHub
+Actions
+Projects
+7
+Wiki
+Security
+Insights
+teampsd
+/
+.github
+/
+workflows
+/
+cspell.json
+ 
+
+Spaces
+
+4
+
+No wrap
+1
+// cSpell Settings
+2
+{
+3
+    // Version of the setting file.  Always 0.1
+4
+    "version": "0.1",
+5
+    // language - current active spelling language
+6
+    "language": "en",
+7
+    // words - list of words to be always considered correct
+8
+    "words": [
+9
+        "mkdirp",
+10
+        "tsmerge",
+11
+        "githubusercontent",
+12
+        "streetsidesoftware",
+13
+        "vsmarketplacebadge",
+14
+        "visualstudio",
+15
+        "MTL",
+16
+        "mtl",
+17
+        "Forio",
+18
+        "AGG",
+19
+        "mdl",
+20
+        "PSY",
+21
+        "Vensim"
+22
+    ],
+23
+    // flagWords - list of words to be always considered incorrect
+24
+    // This is useful for offensive words and common spelling errors.
+25
+    // For example "hte" should be "the"
+26
+    "flagWords": [
+27
+        
+28
+    ],
+29
+    "minWordLength": "2",
+30
+    "dictionaries": ["customd"],
+31
+    "dictionaryDefinitions": [
+32
+    { "name": "customd", "path": "./cspellcdict.txt"}
+33
+    ],
+34
+}
+35
+​
+@jamesmrollins
+Commit changes
+Commit summary
+Update cspell.json
+Optional extended description
+Add an optional extended description…
+ Commit directly to the master branch.
+ Create a new branch for this commit and start a pull request. Learn more about pull requests.
+ 
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
