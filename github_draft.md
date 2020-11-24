@@ -13,7 +13,7 @@ This repository contains TeamPSD resources and track the work that the team uses
 2. [lzim/mtl](https://mtl.how/) (Public)
 This repository supports *Modeling to Learn* and contain the content in describe_learners, detail facilitators, and SIM/Model Code.
 3. lzim/sim (Public)
-This repository supports the *Modeling to Learn* Simulation User Interface plaform, Forio Epicenter, & and model files from Vensim DSS. 
+This repository supports the *Modeling to Learn* Simulation User Interface platform, Forio Epicenter, & and model files from Vensim DSS. 
 4. lzim/research (Private)
 This repository holds the analysis for the (R01, IIR, R21) and disseminate science.
 5. [lzim/mtl_team_tracker](https://mtl.how/mtl_team_tracker) (Private)
