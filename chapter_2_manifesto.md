@@ -43,13 +43,28 @@ Any time saved is team time.
 ### Communication
 Use effective communication (across all types of communication including emails, GitHub, Lucid, etc.).  	
 
-- Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you. 
-- Use clear and concise language, with formatting (bold, underline, bullets, etc) to emphasize the main decisions or issues making sure to include the "Who" "What" and "When".
-- Always include the full context and details necessary to make an informed decision (and make sure you are up to speed on the context and details before responding). 
-- Use complete sentences as much as possible and write in the active voice for clarity
-- Often the team looks back to previous records of meetings, GitHub discussions, etc. to remember and track decisions that were already made or if they missed the meetings where an issue may have been discussed. As such, we always need to keep the most accurate record possible to reduce rework and provide clarity.
-- Use emojis or humor (as appropriate) to help maintain a positive and collegial vibe. Turn on your webcam as much as possible for the face-to-face interaction.
-
+**Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you.** 
+  - Keep it short - use an active voice.
+  - Use common words - avoid acronyms and technical jargon.
+  - Use bold or italics to emphasize main points.
+  - Use bullet statements to structure ideas.
+  
+  **Include the full context and details necessary to make an informed decision.**
+  - List the "Bottom-Line-Up-Front" - what do you want?
+  - State known facts bearing on the problem - what is important for people to know?
+  - List assumptions - what gaps have you identified?
+  - Describe solution alternatives and make recommendations where possible. 
+  - Make specific "asks" to individuals using the "@" function in discussion threads _and_ indicate when you need a response.
+  
+  **Maintain a complete record.**
+  - Use previous records of Teams meetings and GitHub discussions to track decisions and stay informed.
+  - Maintain conversation records in discussion threads for discussions had outside of established meetings.
+  
+  **Stay positive**
+  - Use emojis.
+  - Use appropriate humor. 
+  - Use your webcam whenever possible. 
+  
 ### Active Listening
 We use active listening skills to ensure understanding and accurate tracking.	
 
