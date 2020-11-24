@@ -244,7 +244,7 @@ vapor | *description to come*
 
 **Team PSD integrates Scrum** principles because:
 
-- We need to be able keep work produced by our t**ransdisciplinary research team** on the same page with our **cross-functional team**.
+- We need to be able keep work produced by our **transdisciplinary research team** on the same page with our **cross-functional team**.
 - Therefore, we use **sprints** (epics/milestones)so that the **team priorities** can be aligned/re-aligned efficiently.
 - We also use **workgroup leads** (scrum masters), **workgroups** (owners) and **workgroup** meetings to benefit from the efficiency of **divvying up/delegating**, while also identifying **dependencies** and remove **blocks**.
 - We use **GitHub/ZenHub** and **daily huddles** to assign, scope, prioritize, manage and review our capacity, requirements, estimates - this includes **Project Kanbans, Issue Cards, Pipelines & Reporting**.
@@ -302,7 +302,7 @@ Each column also has a “meta” card which is used to indicate interdependenci
 1. describe_learners – Documentation dependencies relevant to learners, including SEE guides
 1. detail_facilitators - Documentation dependencies relevant to facilitators, including SAY guides & one-pagers
 1. document_team - Documentation dependencies relevant to TeamPSD, including cheatsheets
-1. dissemintate_scientists_va - Documentation dependencies relevant to co-investigators & larger scientific audience, including progress reports, code, grants, etc.
+1. disseminate_scientists_va - Documentation dependencies relevant to co-investigators & larger scientific audience, including progress reports, code, grants, etc.
 1. depend_products - Documentation dependencies relevant to other MTL products, including videos
 
 ### manuscript_tracker
