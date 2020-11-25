@@ -23,7 +23,7 @@ Cheatsheet will go here
 
 ### Use Markdown Files
 
-#### Add a Markfown File
+#### Add a Markdown File
 
 #### Go to a Markdown File
 
@@ -41,9 +41,9 @@ GitHub branches are used to provide continuous integration of multiple versions 
 
 - No direct-to-master branch commits are allowed.
 - A feature branch will merge with the Quality Assurance (QA) branch before being pushed to Master.
-- The QA branch is a protected branch that requires mandatory reviews before changes can be merged with Master. 
-- In extremis and with approval, a feature branch may be directly pushed to the Master branch in circumstances where the QA branch is tied up with another feature branch. 
-   
+- The QA branch is a protected branch that requires mandatory reviews before changes can be merged with Master.
+- In extremis and with approval, a feature branch may be directly pushed to the Master branch in circumstances where the QA branch is tied up with another feature branch.
+
 #### Create a Feature Branch
 
 ![fig1_create_branch](https://user-images.githubusercontent.com/30132017/96189916-38a4cc00-0ef6-11eb-8c0a-a185af535367.png)
@@ -67,15 +67,14 @@ GitHub branches are used to provide continuous integration of multiple versions 
 
 ![fig2_new_pull_req](https://user-images.githubusercontent.com/30132017/96190320-e2845880-0ef6-11eb-9b8c-ce576d517e62.png)
 
-1. To push an updated file or files from a feature branch to the QA branch, the user must open a Pull Request.  Note:  Opening a pull request can be done when a file is committed to a branch using the commit dialogue, or the user can navigate to the “Pull requests” tab.
+1. To push an updated file or files from a feature branch to the QA branch, the user must open a Pull Request.  Note: Opening a pull request can be done when a file is committed to a branch using the commit dialogue, or the user can navigate to the “Pull requests” tab.
 2. Navigate to the “Pull requests” tab.
 3. Click the green “New pull request” button on the right-hand side of the page.
-
-![fig3_compare_changes](https://user-images.githubusercontent.com/30132017/96190324-e4e6b280-0ef6-11eb-80c1-111fd7b5f226.png)
-
-4. Review the “Comparing changes” dialogue very carefully.
+4. Review the “Comparing changes” dialogue very carefully (see image below).
 5. Ensure the base branch indicates “QA.”  If it does not, click on the button and select correct branch.
 6. Ensure the pushed branch is the desired feature branch.
+
+![fig3_compare_changes](https://user-images.githubusercontent.com/30132017/96190324-e4e6b280-0ef6-11eb-80c1-111fd7b5f226.png)
 
 ### Run Quality Assurance
 
@@ -97,8 +96,8 @@ Below is an explanation on how to configure the find and replace function.
 ![Configure the FindReplace.yml Action File](https://user-images.githubusercontent.com/30132017/97484653-40149e00-1916-11eb-879f-2d9154c46cc8.png)
 
 1. Select the FindReplace.yml file and place in "edit" mode.
-2. Update line 53 with the desired word, acronmn or string within in the quotation marks.
-**PRO TIP:** Do not leave extra spaces before or after words, unless you want the search to include the space immedately before or after a search string. For example, the search term "Session 1" will find "Session 1", "Session 10" and all instances where the number "1" is found, even if it is in the number "10."  To limit the search, place a space immediately after the "1" like this "Session 1 " and that will limit the search to "1" only.
+2. Update line 53 with the desired word, acronym or string within in the quotation marks.
+**PRO TIP:** Do not leave extra spaces before or after words, unless you want the search to include the space immediately before or after a search string. For example, the search term "Session 1" will find "Session 1", "Session 10" and all instances where the number "1" is found, even if it is in the number "10."  To limit the search, place a space immediately after the "1" like this "Session 1 " and that will limit the search to "1" only.
 3. Update line 54 with the replacement term in quotation marks.
 4. To limit a search to an updated file or directory, remove the appropriate hash mark (#) from the line of code that provides the needed search constraint.
 5. Navigate to the upper left of the window and select the green "Start commit" button. Select the "Commit directly to Master branch" radio button and click the green "Commit changes" button.
@@ -123,11 +122,11 @@ Below is an explanation on how to configure the find and replace function.
 
 To support the publication of a bookdown manual, a special branch is required named "gh-pages" branch.  This branch contains the markdown files that are editable and are automatically compiled by an bookdown publication action, when a feature branch is merged with the gh-pages branch. Follow the steps below to edit a bookdown manual.
 
-1.  Navigate to the "gh-pages" branch.
-2.  In the "Find or create a branch" field, enter a feature branch using the following convention: feature-gh-pages_chapter_action. For example, an update to chapter 9 might look like this, "feature-gh-pages-ch9_update" This will clue reviewers that the action will merge with gh-pages after review.
-3.  Navigate to the "feature-gh-pages_*"
-4.  Edit the desired file.
-5.  Commit the file to the same branch.
-6.  Open a pull request to merge with the gh-pages branch.  This will trigger the spell checker, link checker and markdown style checkers and signal reviewers that a check is needed.
-7.  Navigate to the Actions tab to resolve any issues found by the linters.
-8.  After review, the reviewer will merge the branches.  This will trigger the bookdown publishing action to publish the updated manual.
+1. Navigate to the "gh-pages" branch.
+2. In the "Find or create a branch" field, enter a feature branch using the following convention: feature-gh-pages_chapter_action. For example, an update to chapter 9 might look like this, "feature-gh-pages-ch9_update" This will clue reviewers that the action will merge with gh-pages after review.
+3. Navigate to the "feature-gh-pages_*"
+4. Edit the desired file.
+5. Commit the file to the same branch.
+6. Open a pull request to merge with the gh-pages branch.  This will trigger the spell checker, link checker and markdown style checkers and signal reviewers that a check is needed.
+7. Navigate to the Actions tab to resolve any issues found by the linters.
+8. After review, the reviewer will merge the branches.  This will trigger the bookdown publishing action to publish the updated manual.
