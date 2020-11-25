@@ -8,7 +8,7 @@ site: bookdown::bookdown_site
 description: This is the Team PSD one stop shop.
 ---
 
-# Team PSD Manual
+## Team PSD Manual
 
 Welcome to Team PSD's manual for all things related to resources and guides!
 
