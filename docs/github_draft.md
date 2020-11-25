@@ -12,9 +12,9 @@ TeamPSD's main platform for project tracking is GitHub + the extension of [ZenHu
 This repository contains TeamPSD resources and track the work that the team uses internally (i.e. Bookdown, document_team, depend_products, etc.)
 2. [lzim/mtl](https://mtl.how/) (Public)
 This repository supports *Modeling to Learn* and contain the content in describe_learners, detail facilitators, and SIM/Model Code.
-3. lzim/sim (Public)
+3. lzim/sim TBP (Public)
 This repository supports the *Modeling to Learn* Simulation User Interface plaform, Forio Epicenter, & and model files from Vensim DSS. 
-4. [lzim/research](https://github.com/lzim/mtl_code) (Private)
+4. lzim/research (Private)
 This repository holds the analysis for the (R01, IIR, R21) and disseminate science.
 5. [lzim/mtl_team_tracker](https://mtl.how/mtl_team_tracker) (Private)
 This repository is used by VA Clinicians and *Modeling to Learn* Co-facilitators to track team progression.
