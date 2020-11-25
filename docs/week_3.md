@@ -12,9 +12,7 @@ These 2 Think Aloud protocols allows us to leverage both the pros and cons of a 
 - the Concurrent provides an undisturbed recording of the user going through the MVP.
 - the Retrospective allows the users to verbalize their thoughts, emotions, and feelings about the MVP.
 
-*Week 3 follows the **3rd and 4th phases of the process for design thinking** which involves the ability to **ideate** MVPs
-based on the needs and assumptions of the users and get user feedback on a **prototype** MVP that will solve 80% of the user's 
-pain points and needs with only 20% effort.*
+*Week 3 follows the **3rd and 4th phases of the process for design thinking** which involves the ability to **ideate** MVPs based on the needs and assumptions of the users and get user feedback on a **prototype** MVP that will solve 80% of the user's pain points and needs with only 20% effort.*
 
 **Ideate** - Expand the problem space by identifying and testing out elements that would circumvent problems.
 
