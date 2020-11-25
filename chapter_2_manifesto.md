@@ -4,7 +4,7 @@
 
 ![ ](https://user-images.githubusercontent.com/59668647/89570075-7f7d9380-d7da-11ea-95b2-0e1422c1bd75.png)
 
-Meet the members and partners of Team Participatory Systems Dynamics at (mtl.how/team)[https://github.com/lzim/mtl].
+Meet the members and partners of Team Participatory Systems Dynamics at [mtl.how/team] (https://mtl.how/team).
 
 ## Scientific Values
 
@@ -161,6 +161,7 @@ This policy details the governing principles, definitions, responsibilities and 
 Team PSD is now on flex schedule with **8 hours of individual flex time & focus blocks for each workgroup**.
 
 The schedule depicts a standard **Team PSD Tour of Duty from 8AM-4PM Pacific Mon-Thurs**. It is designed to increase individual flex time and increase individual focus time, while decreasing "set switching" among workflows.
+
 - Each user workgroup meeting is depicted by a box.
 - Time to prepare for the user workgroup meeting or follow-up after the meeting is depicted by color.
 
