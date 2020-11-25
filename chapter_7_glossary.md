@@ -1,4 +1,4 @@
-# Glossary 
+# Glossary
 
 Links are in progress of being collated and added!
 
@@ -127,7 +127,7 @@ Links are in progress of being collated and added!
 
 **User-Centered Hypotheses**: Gathered in Week 1 of the Team PSD 2.0 Process, these are the pain point and needs of a user that is struggling in either a task or parts of the workflow within Team PSD’s Operations, Research, and/or Modeling to Learn pipeline. The pain points and needs should be turned into hypotheses that can be tested and reiterated throughout the Team PSD 2.0 Monthly Process cycle to address and resolve the pain points and needs of a user/user group.
 
-**Values**: Virtues that govern the team’s principles. Values can be in conflict with Principles, especially when it comes to applying Values in any given action. 
+**Values**: Virtues that govern the team’s principles. Values can be in conflict with Principles, especially when it comes to applying Values in any given action.
 
 **YAML Ain't Markup Language (YAML or YML)**: Data serialization language that is used to set configurations for other applications to read and have information about the document/script. YAML will be used by the team to setup App configurations and in our documentation to enable transfers between other documents. GitHub Action workflow files use .YML files.
 
@@ -176,7 +176,7 @@ Links are in progress of being collated and added!
 **IACUC**: Institutional Animal Care and Use Committee  
 **INAPS**: International Association of Peer Supporters  
 **IOP**: Intensive Outpatient Program  
-**IPA**: Intergovernmental Personnel Act    
+**IPA**: Intergovernmental Personnel Act
 **IRB**: Institutional Review Board
 **JPA**: Joint Personnel Agreement  
 **LD**: Livermore Division  
@@ -207,7 +207,7 @@ Links are in progress of being collated and added!
 **PHI**: Protected Health Information  
 **PI**: Prinicipal Investigator  
 **PSA**: Personal Services Agreement  
-**PSD**: Participatory System Dynamics   
+**PSD**: Participatory System Dynamics
 **QI**: Quality Improvement
 **QIIC**: Quality Improvement Implementation Consultant
 **R&DC**:  Research and Development Committee  
@@ -224,7 +224,7 @@ Links are in progress of being collated and added!
 **SU**: Stanford University  
 **SUD**: Substance Use Disorder  
 **UI**: User Interface  
-**VA**: Veterans Affairs    
+**VA**: Veterans Affairs
 **VAPAHCS**: Veterans Affairs Palo Alto Health Care System
 **VAPOR**: Veterans Advisory Partnership for Operations and Research  
 **VERC**: Veterans Engineering Resource Center  
