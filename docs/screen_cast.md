@@ -1,5 +1,3 @@
-![Team PSD logo image](https://user-images.githubusercontent.com/30132017/100282529-a1815a00-2f20-11eb-9cd3-862b3c380faa.png)
-
 # Create Screencast Video
 
 ## Instructions
