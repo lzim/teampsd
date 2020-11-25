@@ -21,9 +21,9 @@ This guide will help you learn the basic user interface functions of Microsoft T
 
 ## Click Map
 
-### Switch Orgs/Add VA Account
+### Switch Organizations/Add VA Account
 
-![switch orgs or add VA account image](https://user-images.githubusercontent.com/59668647/93370549-d5941c80-f805-11ea-9650-33e937892d35.png)
+![switch organizations or add VA account image](https://user-images.githubusercontent.com/59668647/93370549-d5941c80-f805-11ea-9650-33e937892d35.png)
 
 ### Create a VA Teams meeting
 
@@ -49,7 +49,7 @@ If you do not see the WebApp shortcut, open Google Chrome and type in **teams.mi
 
 ### Switch Organizations
 
-To switch out of an organization on the VA Teams WebApp Brower:
+To switch out of an organization on the VA Teams WebApp on your browser:
 
 Click on the **organization you are currently in**, located next your profile picture & name.
 ![click on organization drop down image](https://user-images.githubusercontent.com/59668647/88048075-81bbce80-cb07-11ea-80af-a9f94bd6a63a.png)
@@ -98,7 +98,7 @@ Teams is Markdown friendly!
 
 Try using **basic markdown** such as bolding or italicizing text in a comment/reply.
 
-![bold sentance example image](https://user-images.githubusercontent.com/59668647/88048320-fa228f80-cb07-11ea-940e-e11212b8b93e.png)
+![bold sentence example image](https://user-images.githubusercontent.com/59668647/88048320-fa228f80-cb07-11ea-940e-e11212b8b93e.png)
 
 ### Start a Call in a Thread
 
@@ -145,7 +145,7 @@ Click on the **screen share button** that appears when you hover over your meeti
 
 ![screen share button image](https://user-images.githubusercontent.com/59668647/89902987-f8df0280-db9b-11ea-80de-d959acf7ec54.png)
 
-Select the **square underneath Desktop** to share your entire laptop's Desktop screen. 
+Select the **square underneath Desktop** to share your entire laptop's Desktop screen.
 
 Note: Be wary of any open tabs or browsers you may have open that may contain PHI or personal information that you do not want to share.
 
@@ -169,7 +169,7 @@ End screen sharing by going back to the meeting and clicking on the screen shari
 
 ### Disappeared Meeting
 
-To find a meeting call's screen once you've clicked out of the meeting to look elsewhere on Temas (i.e you needed to respond to a ping, when to look for a link in a discussion thread, etc.):
+To find a meeting call's screen once you've clicked out of the meeting to look elsewhere on Teams (i.e you needed to respond to a ping, when to look for a link in a discussion thread, etc.):
 
 Minimize the Teams browser completely by clicking on the middle (-) button at the top header of the browser:
 
@@ -181,7 +181,7 @@ Go to a new browser or your desktop and the meeting call should appear in the bo
 
 Alternative (only applicable to Channel Meetings, not Private 1:1 meetings):
 
-If you remember which Channel the meeting call was in, you can click back into the meeting by 'Joining' in again, this will not show you joining twice as you are just re-joining. 
+If you remember which Channel the meeting call was in, you can click back into the meeting by 'Joining' in again, this will not show you joining twice as you are just re-joining.
 
 ### "React" to a Comment
 
@@ -201,14 +201,14 @@ Drag your cursor over to an existing comment and **click on the 3 dots** next to
 
 Click on **hyperlink icon copy link button** to copy the link to the location of that thread/comment/file.
 
-![](https://user-images.githubusercontent.com/59668647/88048555-61d8da80-cb08-11ea-86be-d4cc0ca2d411.png)
+![hyperlink icon copy link button image](https://user-images.githubusercontent.com/59668647/88048555-61d8da80-cb08-11ea-86be-d4cc0ca2d411.png)
 
 ### Pop up Chat
 
-1. Hover over a meeting chat in the Chat tab and click on the 3 dots that appear.
+Hover over a meeting chat in the Chat tab and click on the 3 dots that appear.
 
 ![chat left navigation button image](https://user-images.githubusercontent.com/59668647/89903979-36905b00-db9d-11ea-95cf-67bd8c0ffe26.png)
 
-2. Click 'Pop out Chat" for the chat to display and external new window.
+Click 'Pop out Chat" for the chat to display and external new window.
 
 ![chat pop up image](https://user-images.githubusercontent.com/59668647/89904058-545dc000-db9d-11ea-8990-8b032b3151aa.png)
