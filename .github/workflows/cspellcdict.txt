@@ -1,6 +1,9 @@
 andon
 aways
 cheatsheets
+cheatsheet
+Cheatsheets
+Cheatsheet
 disseminate
 ees
 EES
@@ -18,6 +21,10 @@ matierals
 muda
 NCPTSD
 osf
+FNR
+fnr
+findterm
+replaceterm
 OSF
 PII
 qhfd
@@ -62,6 +69,7 @@ acid
 acknowledge
 acquire
 across
+acronym
 act
 action
 active
