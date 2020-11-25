@@ -21,7 +21,7 @@ Meet the members and partners of Team Participatory Systems Dynamics at (mtl.how
 
 We value an open-source, transparent & reproducible workflow.
 
-- Most of our work is public-facing with the exception of any items that include Protected Health Information (PHI) or Personally Identifiable Information (PII). All of our  public materials are free to download and use. We want our insights and resources to benefit the larger community. 
+- Most of our work is public-facing with the exception of any items that include Protected Health Information (PHI) or Personally Identifiable Information (PII). All of our public materials are free to download and use. We want our insights and resources to benefit the larger community.
 - We use R, a free open-source coding language and a specific file naming convention to ensure all of our matierals are machine & human readable (all lower case, no spaces, with dates as yyyy_mm_dd i.e. teampsd_guiding_principles_2020_01_01).
 - Use email for any private discussions. Host any private files in password-protected locations or in folders behind the VA firewall. When in doubt, ask an HQ member or err on the side of caution.
 - Make sure your work and accompanying documentation allows other team members or scientists in the field to reproduce and understand your work without further questions.
@@ -47,37 +47,42 @@ Any time saved is team time.
 
 Use effective communication (across all types of communication including emails, GitHub, Lucid, etc.).
 
-**Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you.**
+1. Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you
+
 - Keep it short - use an active voice.
 - Use common words - avoid acronyms and technical jargon.
 - Use bold or italics to emphasize main points.
 - Use bullet statements to structure ideas.
 
-**Include the full context and details necessary to make an informed decision.**
+2. Include the full context and details necessary to make an informed decision
+
 - List the "Bottom-Line-Up-Front" - what do you want?
 - State known facts bearing on the problem - what is important for people to know?
 - List assumptions - what gaps have you identified?
 - Describe solution alternatives and make recommendations where possible. 
 - Make specific "asks" to individuals using the "@" function in discussion threads _and_ indicate when you need a response.
 
-**Maintain a complete record.**
+3. Maintain a complete record
+
 - Use previous records of Teams meetings and GitHub discussions to track decisions and stay informed.
 - Maintain conversation records in discussion threads for discussions had outside of established meetings.
+- Follow up - an action passed is not an action complete.
 
-**Stay positive**
+4. Stay positive
+
 - Use emojis.
 - Use appropriate humor. 
 - Use your webcam whenever possible. 
   
-### Active Listening
+#### Active Listening
 
-We use active listening skills to ensure understanding and accurate tracking.	
-
+We use active listening skills to ensure understanding and accurate tracking.
 - We work daily with team members and partners that are experts in their respective fields, and it is easy to lose track of a complex discussion.
 - We've found that reflecting-back requests and decisions in your own words has been the best method to reduce miscommunication and to keep track of all of our decisions or issues accurately. If you ever need help while scribing, always "tap" someone else on the team for assistance.
 - Ask for clarification and slow down if necessary.	
 
 #### Active listening is a stance.
+
 Taking the stance that misunderstanding is the norm and using skills appropriate to that reality.
 
 1. General skills: Reflecting content for efficiency and interpersonal rapport (i.e., avoiding rework and frustration)
