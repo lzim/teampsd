@@ -2,7 +2,7 @@
 
 ## Click Table of Contents
 
-The Team PSD Manual's table of contents is clickable and seperates into 3 headers styles:
+The Team PSD Manual's table of contents is clickable and separates into 3 header styles:
 
 - Main Chapter
 - Subchapter
