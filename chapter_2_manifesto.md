@@ -47,41 +47,42 @@ Any time saved is team time.
 
 Use effective communication (across all types of communication including emails, GitHub, Lucid, etc.).
 
-1. Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you
+Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you
 
 - Keep it short - use an active voice.
 - Use common words - avoid acronyms and technical jargon.
 - Use bold or italics to emphasize main points.
 - Use bullet statements to structure ideas.
 
-2. Include the full context and details necessary to make an informed decision
+Include the full context and details necessary to make an informed decision
 
 - List the "Bottom-Line-Up-Front" - what do you want?
 - State known facts bearing on the problem - what is important for people to know?
 - List assumptions - what gaps have you identified?
-- Describe solution alternatives and make recommendations where possible. 
+- Describe solution alternatives and make recommendations where possible.
 - Make specific "asks" to individuals using the "@" function in discussion threads _and_ indicate when you need a response.
 
-3. Maintain a complete record
+Maintain a complete record
 
 - Use previous records of Teams meetings and GitHub discussions to track decisions and stay informed.
 - Maintain conversation records in discussion threads for discussions had outside of established meetings.
 - Follow up - an action passed is not an action complete.
 
-4. Stay positive
+Stay positive
 
 - Use emojis.
 - Use appropriate humor. 
-- Use your webcam whenever possible. 
-  
+- Use your webcam whenever possible.
+
 #### Active Listening
 
 We use active listening skills to ensure understanding and accurate tracking.
+
 - We work daily with team members and partners that are experts in their respective fields, and it is easy to lose track of a complex discussion.
 - We've found that reflecting-back requests and decisions in your own words has been the best method to reduce miscommunication and to keep track of all of our decisions or issues accurately. If you ever need help while scribing, always "tap" someone else on the team for assistance.
 - Ask for clarification and slow down if necessary.	
 
-#### Active listening is a stance.
+#### Active listening is a stance
 
 Taking the stance that misunderstanding is the norm and using skills appropriate to that reality.
 
@@ -96,7 +97,7 @@ Taking the stance that misunderstanding is the norm and using skills appropriate
 - Listen for the main points.
 - This is a key skill to keep up with complex ideas in the moment (You don't want to get bogged down on point 1 and miss point 2).
 
-3. Reflection of feeling - listen for the feeling words and reflect them exactly. 
+3. Reflection of feeling - listen for the feeling words and reflect them exactly.
 
 - Using the exact feeling word you heard is the safest way to ensure the person feels heard. 
 - Don't reflect "frustration" when someone is expressing "disappointment" or "stress."
@@ -120,7 +121,7 @@ Taking the stance that misunderstanding is the norm and using skills appropriate
 - Before you even get to agreement/disagreement, make sure you have a shared understanding first.
 - KEY IDEA: Really attend to make sure you understand. Do NOT think about your response when you should be listening.
 
-#### Things to look out for when listening:
+#### Things to look out for when listening
 
 Know thyself:
 You are the only one who knows whether it's time to multi-task, focus, scribe/document as a form of listening, or whether typing would be a distraction.
@@ -143,16 +144,16 @@ This policy details the governing principles, definitions, responsibilities and 
 
 ### Responsibilities
 
-* Principal Investigator - Provides overall direction and guidance to Workgroup Leads.  Coordinates research activities and prioritizes activities within the MTL program with the HQ workgroup
-* Co-facilitators - Gathers field information and provides feedback to Workgroup Leads regarding the performance of a product in the teaching/learning environment. Facilitate Modeling to Learn 12 Session Program with identified clinics for the R01 and IIR grants.
-* Co-investigators - Oversees the science and research dependencies across the project. 
-* Workgroup Leads - Oversees the production and maintenance of their products in terms of quality, cost and delivery, responding to the needs of the projects as defined by co-investigators and co-facilitators
+- Principal Investigator - Provides overall direction and guidance to Workgroup Leads.  Coordinates research activities and prioritizes activities within the MTL program with the HQ workgroup
+- Co-facilitators - Gathers field information and provides feedback to Workgroup Leads regarding the performance of a product in the teaching/learning environment. Facilitate Modeling to Learn 12 Session Program with identified clinics for the R01 and IIR grants.
+- Co-investigators - Oversees the science and research dependencies across the project. 
+- Workgroup Leads - Oversees the production and maintenance of their products in terms of quality, cost and delivery, responding to the needs of the projects as defined by co-investigators and co-facilitators
 
-     1. Checks the bug_tracker, feature_tracker, document_tracker, and manuscript_tracker (as related to the workgroups) daily to identify & assign interdependencies from the labels list used as a dependency check
-     2. Ensures that all cards are updated in the issue_tracker, feature_tracker, document_tracker, and manuscript_tracker (as relevant to the workgroup) in include a due date once they have been triaged with HQ & other workgroup leads.
-     3. Trains respective workgroups in changes to policy & procedures for Kanban workflow.
-    4. Estimates the time required to fulfill completion of bugs (issues) & features.
-    5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see below) in their stead, should they not be able to attend.
+  1. Checks the bug_tracker, feature_tracker, document_tracker, and manuscript_tracker (as related to the workgroups) daily to identify & assign interdependencies from the labels list used as a dependency check
+  2. Ensures that all cards are updated in the issue_tracker, feature_tracker, document_tracker, and manuscript_tracker (as relevant to the workgroup) in include a due date once they have been triaged with HQ & other workgroup leads.
+  3. Trains respective workgroups in changes to policy & procedures for Kanban workflow.
+  4. Estimates the time required to fulfill completion of bugs (issues) & features.
+  5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see below) in their stead, should they not be able to attend.
 
 * Proxy - An individual who is a member that supports a specific workgroup and can participate in the absence of the Workgroup Lead to represent the interests of a workgroup.  A Proxy has the decision-making authority of the Workgroup Lead they represent. The Workgroup Lead must still provide detailed and concise documentation of questions and scope on bugs and features related to their workgroup in the Workgroup Leads meeting agenda.
 
@@ -163,7 +164,7 @@ Team PSD is now on flex schedule with **8 hours of individual flex time & focus 
 The schedule depicts a standard **Team PSD Tour of Duty from 8AM-4PM Pacific Mon-Thurs**. It is designed to increase individual flex time and increase individual focus time, while decreasing "set switching" among workflows. 
    - Each user workgroup meeting is depicted by a box.
    - Time to prepare for the user workgroup meeting or follow-up after the meeting is depicted by color.
- 
+   
 Depicted is **16 scheduled hours** of user workgroup meetings per week (40% of a 40 hour week). And, no less than 8 hours of individual focus time (either through a "4 10s" or a "5 8s" schedule.
  
 **Percent of the 32 hours focused on each of these major Workflows:**
@@ -196,8 +197,8 @@ The table below describes all of the TeamPSD workgroups including their Workgrou
 |Workgroup Leads & Support Workgroups (Stacey/Anthony/Jenn/James) (Mon 8:00a-10:00a Pacific | Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |
 |VAPOR (Jenn) (4th Tues 2:00-3:00p Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives|
 
-
 ### GitHub Labels Table
+
 Labels shall be assigned a color, expressed in lowercase and use an underscore in lieu of a space. Below is the list of labels and their purpose:
 
 Label|Purpose
@@ -269,11 +270,14 @@ vapor | *description to come*
 
 ### Continuous Collaboration
 
-**Continuous Collaborative Iteration Cycles (e.g., “DevOps”)**
+1. Continuous Collaborative Iteration Cycles (e.g., “DevOps”)
 
 - Standard Operations > Workgroup Meetings > Monthly Priorities > Requirements gathering standardization for features
 - Tools for team members to understand cross-functional “stakes” efficiently 
-- “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._ **We need the code level next...because...**
+- “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._ 
+
+2. We need the code level next...because...
+
 - Ideally...**testing,** **deploying** and **documenting** would be increasingly automated.
 - REALLY need continuous documentation and training.
 
@@ -282,6 +286,7 @@ vapor | *description to come*
 Team PSD uses the following 4 project trackers on GitHub to track incoming **bugs**, develop new **features**, create/update **documentation**, and ensure the progression of submitting **manuscripts**, all from a glance by looking at each of their respective trackers as a dashboard to see the status, progression, and completion of open issues. 
 
 ### bug_tracker
+
 The [bug_tracker](https://mtl.how/bugs) is divided into 6 columns described below.  The purpose of the issue_tracker is to provide triage and track the disposition of issues that require action by one or more workgroups. Issues labeled as “bugs” will be tracked here.
 
 1. needs_triage - This column is the main intake for all issues assigned to the issue_tracker. All issues requiring a disposition will land here. When an issue lands in this section, any team lead may review it and alert other leads as to the action required.
@@ -305,6 +310,7 @@ The [feature_tracker](https://mtl.how/features) is divided into 9 columns descri
 1. future_release – This column contains unresolved feature ideas that would be great to include in a future MTL release, but currently is not a pressing need. 
 
 ### document_tracker
+
 The [document_tracker](https://mtl.how/documents) is divided into 5 columns described below.  The purpose of the document_tracker is to track documentation dependencies at 5 levels for each of the 12 sessions of Modeling to Learn. There will be a card for each session of the 12 sessions in each of the 5 Kanban columns which will be closed & reopened as interdependencies get identified.
 
 Each column also has a “meta” card which is used to indicate interdependencies that are relevant to all/most of the 12 sessions as well as policy & workflow decisions specific to that documentation column.
@@ -316,6 +322,7 @@ Each column also has a “meta” card which is used to indicate interdependenci
 1. depend_products - Documentation dependencies relevant to other MTL products, including videos
 
 ### manuscript_tracker
+
 The [manuscript_tracker](https://mtl.how/manuscripts) is divided into 10 columns described below. The purpose of the manuscript_tracker is to track progress of manuscripts through 10 major stages until ready for publication.
 
 DO NOT post any direct manuscript content to GitHub; all drafts and related materials will be posted on the relevant OSF project. There will be a card per manuscript that moves through the tracker.
