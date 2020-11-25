@@ -40,7 +40,7 @@ The Game DVR feature can capture any application’s window.
 
 **Reminder:** _Protect your privacy_ and only include information that is relevant for Team PSD prototyping.
 
-### VA or Non-VA: Record screen using PowerPoint
+#### VA or Non-VA: Record screen using PowerPoint
 
 ![powerpoint icon](https://user-images.githubusercontent.com/59668647/88177837-5526b600-cbde-11ea-9711-260c8ddd7337.png)
 
