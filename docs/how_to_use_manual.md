@@ -24,11 +24,11 @@ Note: Subheaders are nested within subchapters and not directly seen unless the 
 
 Unclicked subchapter (this is by default):
 
-![](https://user-images.githubusercontent.com/59668647/89900713-f333ed80-db98-11ea-9745-0a8328609a34.png)
+![unclicked subchapter image](https://user-images.githubusercontent.com/59668647/89900713-f333ed80-db98-11ea-9745-0a8328609a34.png)
 
 Clicked subchapter that reveals subheaders:
 
-![](https://user-images.githubusercontent.com/59668647/89900739-fc24bf00-db98-11ea-8f9e-5a8261f2db1b.png)
+![clicked subchapter image](https://user-images.githubusercontent.com/59668647/89900739-fc24bf00-db98-11ea-8f9e-5a8261f2db1b.png)
 
 ## Ctrl+F Key Terms
 
@@ -38,23 +38,20 @@ Use your **laptop's keyboard** to Ctrl+F or Cmd+F to **search within chapters** 
 
 To use the **built-in** Ctrl-F function:
 
-1. Click on the **magnifying glass icon** in the header at the top of the manual.
+Click on the **magnifying glass icon** in the header at the top of the manual.
 
-![](https://user-images.githubusercontent.com/59668647/89899074-946d7480-db96-11ea-8f57-cc04c0057cdb.png)
+![magnifying glass icon image](https://user-images.githubusercontent.com/59668647/89899074-946d7480-db96-11ea-8f57-cc04c0057cdb.png)
 
-2. Type in the **search box** the key term(s) you are searching **throughout the entire manual**.
+Type in the **search box** the key term(s) you are searching **throughout the entire manual**.
 
-![](https://user-images.githubusercontent.com/59668647/89900231-4eb1ab80-db98-11ea-9540-f574ff01c8ec.png)
+![search box image](https://user-images.githubusercontent.com/59668647/89900231-4eb1ab80-db98-11ea-9540-f574ff01c8ec.png)
 
-3. The chapters where the key term was found in will appear in the Table of Contents. 
+The chapters where the key term was found in will appear in the Table of Contents.
+
+![search instances image](https://user-images.githubusercontent.com/59668647/89904640-085f4b00-db9e-11ea-8606-5b88e44519b7.png)
 
 - To look through all of the instances, click the Enter button on your keyboard:
-
-![](https://user-images.githubusercontent.com/59668647/89904640-085f4b00-db9e-11ea-8606-5b88e44519b7.png)
-
 - To look within a chapter from the Table of Contents, click on the chapter you want to search in and click Enter to look through the instances in that chapter:
-   - Clicked on the Glossary chapter for example
+- Clicked on the Glossary chapter for example
 
-![](https://user-images.githubusercontent.com/59668647/89900499-acde8e80-db98-11ea-8d39-6765219fd552.png)
-
-
+![glossary chapter example image](https://user-images.githubusercontent.com/59668647/89900499-acde8e80-db98-11ea-8d39-6765219fd552.png)
