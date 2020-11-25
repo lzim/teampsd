@@ -404,6 +404,7 @@ by
 cabin
 cabinet
 cable
+CAG
 cake
 calculate
 call
@@ -495,6 +496,7 @@ circle
 circumstance
 cite
 citizen
+Citrix
 city
 civil
 civilian
@@ -2540,6 +2542,8 @@ speak
 speaker
 special
 specialist
+Speciality
+speciality
 species
 specific
 specifically
