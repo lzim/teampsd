@@ -15,21 +15,21 @@ We will wait for these flow maps until Branching MVP is tested:
 Previous Issue Card Flow Map:
 ![Issue Card Flow Map](https://user-images.githubusercontent.com/59668647/88049640-5ab2cc00-cb0a-11ea-89a0-a09d13d4761d.png)
 
-## Use Markdown
+# Use Markdown
 
-### Write Markdown
+## Write Markdown
 
 Cheatsheet will go here
 
-### Use Markdown Files
+## Use Markdown Files
 
-#### Add a Markdown File
+### Add a Markdown File
 
-#### Go to a Markdown File
+### Go to a Markdown File
 
-#### Edit a Markdown File
+### Edit a Markdown File
 
-## Use GitHub Branches
+# Use GitHub Branches
 
 ![Use GitHub Branches Workflow](https://user-images.githubusercontent.com/30132017/96189366-30985c80-0ef5-11eb-9053-22a43cae8103.png)
 
@@ -37,14 +37,14 @@ Cheatsheet will go here
 
 GitHub branches are used to provide continuous integration of multiple versions of a repository.  Branches also control versions of a file and trigger automatic review and quality control actions to ensure files meet team standards.  See [Working with Branches](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-branches#working-with-branches) for more information.
 
-### Submit a Feature
+## Submit a Feature
 
 - No direct-to-master branch commits are allowed.
 - A feature branch will merge with the Quality Assurance (QA) branch before being pushed to Master.
 - The QA branch is a protected branch that requires mandatory reviews before changes can be merged with Master.
 - In extremis and with approval, a feature branch may be directly pushed to the Master branch in circumstances where the QA branch is tied up with another feature branch.
 
-#### Create a Feature Branch
+### Create a Feature Branch
 
 ![fig1_create_branch](https://user-images.githubusercontent.com/30132017/96189916-38a4cc00-0ef6-11eb-8c0a-a185af535367.png)
 
@@ -53,7 +53,7 @@ GitHub branches are used to provide continuous integration of multiple versions 
 3. In the “Find or create a branch . . . “ field, enter the name of your branch using this format:  “feature-my_new_branch”  The word “feature” will trigger automatic workflows when you commit the branch. Use lowercase letters and an underscore “_” between words. After the word “feature” provide up to a 4-word short description of what the feature addresses.
 4. When the “Commit” button is clicked, the word “feature” will trigger automatic quality control actions.  The results of these actions can be reviewed in the actions tab of GitHub.
 
-#### Edit a Feature Branch
+### Edit a Feature Branch
 
 1. To edit a feature branch, navigate to the “<> Code” tab and click the button named “master” in the upper left of the directory.
 2. A dropdown will appear with a listing of all branches in the repository.
@@ -63,7 +63,7 @@ GitHub branches are used to provide continuous integration of multiple versions 
 6. When edit is complete, commit the file back to this feature branch.
 7. The commit will trigger quality control actions that can be reviewed in the actions tab.
 
-#### Push a Feature Branch
+### Push a Feature Branch
 
 ![fig2_new_pull_req](https://user-images.githubusercontent.com/30132017/96190320-e2845880-0ef6-11eb-9b8c-ce576d517e62.png)
 
@@ -76,7 +76,7 @@ GitHub branches are used to provide continuous integration of multiple versions 
 
 ![fig3_compare_changes](https://user-images.githubusercontent.com/30132017/96190324-e4e6b280-0ef6-11eb-80c1-111fd7b5f226.png)
 
-### Run Quality Assurance
+## Run Quality Assurance
 
 ![fig4_rerun_quality assurance](https://user-images.githubusercontent.com/30132017/96191290-9f2ae980-0ef8-11eb-89e7-02866b24d303.png)
 
@@ -85,11 +85,11 @@ GitHub branches are used to provide continuous integration of multiple versions 
 3. The user checks for errors in this tab, and corrects any findings.
 4. The user can re-run the quality checks from the actions tab by clicking the "Rerun jobs" button on right hand side of screen (see figure above).
 
-### Use a "Find and Replace" Branch
+## Use a "Find and Replace" Branch
 
 GitHub FNR feature branch is a specialty branch that is used to find desired words or short strings and replace them automatically throughout documents in the repository.  The FNR action can be limited to a file, a director or the whole repository by modifying instructions in the FindReplace.yml file found in the .github/workflows directory.
 
-#### Configure the FindReplace.yml Action File
+### Configure the FindReplace.yml Action File
 
 Below is an explanation on how to configure the find and replace function.
 
@@ -102,7 +102,7 @@ Below is an explanation on how to configure the find and replace function.
 4. To limit a search to an updated file or directory, remove the appropriate hash mark (#) from the line of code that provides the needed search constraint.
 5. Navigate to the upper left of the window and select the green "Start commit" button. Select the "Commit directly to Master branch" radio button and click the green "Commit changes" button.
 
-#### Create a "Find and Replace" (FNR) Branch
+### Create a "Find and Replace" (FNR) Branch
 
 1. Navigate to the code tab.
 2. Click on the branch button and expose the branch dropdown menu.
@@ -118,7 +118,7 @@ Below is an explanation on how to configure the find and replace function.
 **Compare changes**
 ![compare changes image](https://user-images.githubusercontent.com/30132017/97487072-99ca9780-1919-11eb-8ef6-41ecd1eda678.png)
 
-#### Update a Bookdown File Using the "gh-pages" Branch
+## Update a Bookdown File Using the "gh-pages" Branch
 
 To support the publication of a bookdown manual, a special branch is required named "gh-pages" branch.  This branch contains the markdown files that are editable and are automatically compiled by an bookdown publication action, when a feature branch is merged with the gh-pages branch. Follow the steps below to edit a bookdown manual.
 
