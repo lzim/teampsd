@@ -2,30 +2,32 @@
 
 ## Team PSD
 
-![](https://user-images.githubusercontent.com/59668647/89570075-7f7d9380-d7da-11ea-95b2-0e1422c1bd75.png)
+![ ](https://user-images.githubusercontent.com/59668647/89570075-7f7d9380-d7da-11ea-95b2-0e1422c1bd75.png)
 
-Meet the members and partners of Team Participatory Systems Dynamics at (mtl.how/team)[https://mtl.how/team].
+Meet the members and partners of Team Participatory Systems Dynamics at (mtl.how/team)[https://github.com/lzim/mtl].
 
-## Scientific Values 
+## Scientific Values
 
 **Team PSD Scientific Values** guide additional **Participatory** and **Open Science** principles:
 
 - **Participatory Research** encourages us to **co-create our scientific research**. Therefore...
-- We **share decisions**, which requires a high level of **documentation.** 
+- We **share decisions**, which requires a high level of **documentation.**
 - We seek greater **equity** among partners in how collaborate, which requires **responsive pivots** with new stakeholder inputs.
 - We strive use **transparent** and **accessible** processes and platforms, and develop **transparent, accessible resources**.
 
 ## Guiding Principles
 
 ### Open-Source, Transparent, Reproducible
+
 We value an open-source, transparent & reproducible workflow.
 
-- Most of our work is public-facing with the exception of any items that include Protected Health Information (PHI) or Personally Identifiable Information (PII). All of our public materials are free to download and use. We want our insights and resources to benefit the larger community. 
+- Most of our work is public-facing with the exception of any items that include Protected Health Information (PHI) or Personally Identifiable Information (PII). All of our  public materials are free to download and use. We want our insights and resources to benefit the larger community. 
 - We use R, a free open-source coding language and a specific file naming convention to ensure all of our matierals are machine & human readable (all lower case, no spaces, with dates as yyyy_mm_dd i.e. teampsd_guiding_principles_2020_01_01).
 - Use email for any private discussions. Host any private files in password-protected locations or in folders behind the VA firewall. When in doubt, ask an HQ member or err on the side of caution.
 - Make sure your work and accompanying documentation allows other team members or scientists in the field to reproduce and understand your work without further questions.
 
 ### High Visibility
+
 Our work has high visibility.
 
 - Keep in mind we work under the federal government of the United States for the Veterans Health Administration (VHA), the largest integrated healthcare system in the country. Everything we produce is a reflection of the VHA.
@@ -33,6 +35,7 @@ Our work has high visibility.
 - With these partners, we work in a participatory learning manner and iterate based on feedback from the field to ensure our work is responsive to ongoing changes.
 
 ### Team Time
+
 Any time saved is team time.
 
 - Ask questions early and often to prevent escalating issues down the road. Refer to existing resources (cheatsheets, checklists, etc.) as well for clarification.
@@ -41,31 +44,33 @@ Any time saved is team time.
 - Manage workflow asynchronously (via GitHub) and only schedule meetings when absolutely necessary.
 
 ### Communication
-Use effective communication (across all types of communication including emails, GitHub, Lucid, etc.).  	
 
-**Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you.** 
-  - Keep it short - use an active voice.
-  - Use common words - avoid acronyms and technical jargon.
-  - Use bold or italics to emphasize main points.
-  - Use bullet statements to structure ideas.
-  
-  **Include the full context and details necessary to make an informed decision.**
-  - List the "Bottom-Line-Up-Front" - what do you want?
-  - State known facts bearing on the problem - what is important for people to know?
-  - List assumptions - what gaps have you identified?
-  - Describe solution alternatives and make recommendations where possible. 
-  - Make specific "asks" to individuals using the "@" function in discussion threads _and_ indicate when you need a response.
-  
-  **Maintain a complete record.**
-  - Use previous records of Teams meetings and GitHub discussions to track decisions and stay informed.
-  - Maintain conversation records in discussion threads for discussions had outside of established meetings.
-  
-  **Stay positive**
-  - Use emojis.
-  - Use appropriate humor. 
-  - Use your webcam whenever possible. 
+Use effective communication (across all types of communication including emails, GitHub, Lucid, etc.).
+
+**Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you.**
+- Keep it short - use an active voice.
+- Use common words - avoid acronyms and technical jargon.
+- Use bold or italics to emphasize main points.
+- Use bullet statements to structure ideas.
+
+**Include the full context and details necessary to make an informed decision.**
+- List the "Bottom-Line-Up-Front" - what do you want?
+- State known facts bearing on the problem - what is important for people to know?
+- List assumptions - what gaps have you identified?
+- Describe solution alternatives and make recommendations where possible. 
+- Make specific "asks" to individuals using the "@" function in discussion threads _and_ indicate when you need a response.
+
+**Maintain a complete record.**
+- Use previous records of Teams meetings and GitHub discussions to track decisions and stay informed.
+- Maintain conversation records in discussion threads for discussions had outside of established meetings.
+
+**Stay positive**
+- Use emojis.
+- Use appropriate humor. 
+- Use your webcam whenever possible. 
   
 ### Active Listening
+
 We use active listening skills to ensure understanding and accurate tracking.	
 
 - We work daily with team members and partners that are experts in their respective fields, and it is easy to lose track of a complex discussion.
