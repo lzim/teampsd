@@ -269,13 +269,11 @@ vapor | *description to come*
 ### Continuous Collaboration
 
 1. Continuous Collaborative Iteration Cycles (e.g., “DevOps”)
-
   - Standard Operations > Workgroup Meetings > Monthly Priorities > Requirements gathering standardization for features
   - Tools for team members to understand cross-functional “stakes” efficiently
   - “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._
 
 2. We need the code level next...because...
-
   - Ideally...**testing,** **deploying** and **documenting** would be increasingly automated.
   - REALLY need continuous documentation and training.
 
