@@ -4,6 +4,12 @@ cheatsheets
 cheatsheet
 Cheatsheets
 Cheatsheet
+subheaders
+subheader
+Subheaders
+Subheader
+Unclicked
+unclicked
 disseminate
 ees
 EES
@@ -2410,6 +2416,7 @@ sense
 sensitive
 sentence
 separate
+separates
 sequence
 series
 serious
