@@ -10,7 +10,7 @@ In week 4, your **prototype and MVPs should be able to be fully incorporated int
 - What could we have missed or ignored from the user?
 - What worked well in the month and what did not?
 
-### Reflect Second Stories
+## Reflect Second Stories
 
 **Use these set of question to help think through Second Story Perspective Questions to reflect on the design process from the month:**
 
