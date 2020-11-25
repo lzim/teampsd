@@ -71,7 +71,7 @@ Maintain a complete record
 Stay positive
 
 - Use emojis.
-- Use appropriate humor. 
+- Use appropriate humor.
 - Use your webcam whenever possible.
 
 #### Active Listening
@@ -80,7 +80,7 @@ We use active listening skills to ensure understanding and accurate tracking.
 
 - We work daily with team members and partners that are experts in their respective fields, and it is easy to lose track of a complex discussion.
 - We've found that reflecting-back requests and decisions in your own words has been the best method to reduce miscommunication and to keep track of all of our decisions or issues accurately. If you ever need help while scribing, always "tap" someone else on the team for assistance.
-- Ask for clarification and slow down if necessary.	
+- Ask for clarification and slow down if necessary.
 
 #### Active listening is a stance
 
@@ -99,7 +99,7 @@ Taking the stance that misunderstanding is the norm and using skills appropriate
 
 3. Reflection of feeling - listen for the feeling words and reflect them exactly.
 
-- Using the exact feeling word you heard is the safest way to ensure the person feels heard. 
+- Using the exact feeling word you heard is the safest way to ensure the person feels heard.
 - Don't reflect "frustration" when someone is expressing "disappointment" or "stress."
 - You can use these for non-verbals too.
 - If you hear a feeling, it's best to address it in your reflection.
@@ -126,7 +126,7 @@ Taking the stance that misunderstanding is the norm and using skills appropriate
 Know thyself:
 You are the only one who knows whether it's time to multi-task, focus, scribe/document as a form of listening, or whether typing would be a distraction.
 
-Repetition cycle: 
+Repetition cycle:
 If the speaker you're listening to keeps repeating something, your first move should be to assume that you're missing something and ask what it is.
 
 Your own feelings:
@@ -146,16 +146,15 @@ This policy details the governing principles, definitions, responsibilities and 
 
 - Principal Investigator - Provides overall direction and guidance to Workgroup Leads.  Coordinates research activities and prioritizes activities within the MTL program with the HQ workgroup
 - Co-facilitators - Gathers field information and provides feedback to Workgroup Leads regarding the performance of a product in the teaching/learning environment. Facilitate Modeling to Learn 12 Session Program with identified clinics for the R01 and IIR grants.
-- Co-investigators - Oversees the science and research dependencies across the project. 
-- Workgroup Leads - Oversees the production and maintenance of their products in terms of quality, cost and delivery, responding to the needs of the projects as defined by co-investigators and co-facilitators
+- Co-investigators - Oversees the science and research dependencies across the project.
+- Workgroup Leads - Oversees the production and maintenance of their products in terms of quality, cost and delivery, responding to the needs of the projects as defined by co-investigators and co-facilitators.
+- HQ Proxy - An individual who is a member that supports a specific workgroup and can participate in the absence of the Workgroup Lead to represent the interests of a workgroup.  A Proxy has the decision-making authority of the Workgroup Lead they represent. The Workgroup Lead must still provide detailed and concise documentation of questions and scope on bugs and features related to their workgroup in the Workgroup Leads meeting agenda.
 
   1. Checks the bug_tracker, feature_tracker, document_tracker, and manuscript_tracker (as related to the workgroups) daily to identify & assign interdependencies from the labels list used as a dependency check
   2. Ensures that all cards are updated in the issue_tracker, feature_tracker, document_tracker, and manuscript_tracker (as relevant to the workgroup) in include a due date once they have been triaged with HQ & other workgroup leads.
   3. Trains respective workgroups in changes to policy & procedures for Kanban workflow.
   4. Estimates the time required to fulfill completion of bugs (issues) & features.
-  5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see below) in their stead, should they not be able to attend.
-
-* Proxy - An individual who is a member that supports a specific workgroup and can participate in the absence of the Workgroup Lead to represent the interests of a workgroup.  A Proxy has the decision-making authority of the Workgroup Lead they represent. The Workgroup Lead must still provide detailed and concise documentation of questions and scope on bugs and features related to their workgroup in the Workgroup Leads meeting agenda.
+  5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see above) in their stead, should they not be able to attend.
 
 ### Workgroup/Schedule
 
@@ -166,24 +165,22 @@ The schedule depicts a standard **Team PSD Tour of Duty from 8AM-4PM Pacific Mon
    - Time to prepare for the user workgroup meeting or follow-up after the meeting is depicted by color.
    
 Depicted is **16 scheduled hours** of user workgroup meetings per week (40% of a 40 hour week). And, no less than 8 hours of individual focus time (either through a "4 10s" or a "5 8s" schedule.
- 
-**Percent of the 32 hours focused on each of these major Workflows:**
+
+Percent of the 32 hours focused on each of these major Workflows:
+
    - **31.25% Cross-Cutting** (Workgroup Leads, Support Workgroups, HQ)= **10 hours/week**
    - **25% + Flex up to 50% for Research** (Manuscripts, Co-I, Qual, Quant) = **8 hours/week**
    - **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
    - **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
 
-![](https://user-images.githubusercontent.com/59668647/94718051-fed4a280-0305-11eb-966d-2ad95422c2d2.png)
+![ ](https://user-images.githubusercontent.com/59668647/94718051-fed4a280-0305-11eb-966d-2ad95422c2d2.png)
 
 The table below describes all of the TeamPSD workgroups including their Workgroup Lead, Meeting Time, and Role. For each meeting, it is the responsibility of the Workgroup Lead or HQ point person to:
 
-1. Set the agenda
-
-2. Check RSVP’s for attendees 
-
-3. Clean up meeting notes for clarity
-
-4. Send the follow-up email 
+1. Set the agenda.
+2. Check RSVP’s for attendees.
+3. Clean up meeting notes for clarity.
+4. Send the follow-up email.
 
 |Workgroup (Workgroup Lead) (Meeting Time)|Role|
 |------------------------------------------|-----|
@@ -224,7 +221,7 @@ vapor | *description to come*
 
 **Team PSD integrates Waterfall** principles because:
 
-- We are a **research team** that cannot deviate in quality, scope, timeline or cost from our thoroughly developed and vetted **research plan**
+- We are a **research team** that cannot deviate in quality, scope, timeline or cost from our thoroughly developed and vetted **research plan.**
 - Therefore, there are several **well-defined scientific requirements** where change cannot occur - unless the PI and co-I senior scientists advise an operational definition or implementation detail is within the scope of the federally funded and registered, scientifically peer-reviewed, and VA ORD and Stanford IRB reviewed procedures.
 
 ### Agile
@@ -337,4 +334,3 @@ DO NOT post any direct manuscript content to GitHub; all drafts and related mate
 1. 08_resubmit – Manuscript is resubmitted to relevant journals
 1. 09_accept – Manuscript is accepted for publishing by journals
 1. 10_publish_publicize – Manuscript is published!
-
