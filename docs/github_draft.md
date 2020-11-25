@@ -18,5 +18,5 @@ TeamPSD's main platform for project tracking is GitHub + the extension of [ZenHu
 
 ### VA Enterprise Repositories
 
-6. "va/mtl" (operations pipeline) This repository stores the operations code used to support *Modeling to Learn* teams.
-7. "va/research" (research pipeline) This repository holds the backend code that needs to stay internal for our grants.
+1. "va/mtl" (operations pipeline) This repository stores the operations code used to support *Modeling to Learn* teams.
+2. "va/research" (research pipeline) This repository holds the backend code that needs to stay internal for our grants.
