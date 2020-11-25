@@ -6,7 +6,7 @@
 
 ### 1. Create a Google Account
 
-If you don’t already have a gmail/Google account, [**select this link** ](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp&nogm=true)to create a Google account.
+If you don’t already have a gmail/Google account, [**select this link**](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp&nogm=true)to create a Google account.
 
 - A Gmail account is not required to sign up.
 - This email is only used to login and will not be public.
@@ -41,7 +41,7 @@ If you don’t already have a gmail/Google account, [**select this link** ](http
 
 ![confirmation image](https://user-images.githubusercontent.com/59668647/88176081-9d90a480-cbdb-11ea-8776-c992a9aee1e9.png)
 
-- **Select** the new email. 
+- **Select** the new email.
 - **You are now a manager** Congratulations!
 
 ### 4. Upload User Persona Video
