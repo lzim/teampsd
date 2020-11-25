@@ -1496,6 +1496,8 @@ jury
 just
 justice
 justify
+kanbans
+Kanbans
 keep
 key
 kick
