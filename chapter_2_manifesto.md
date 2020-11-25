@@ -150,11 +150,11 @@ This policy details the governing principles, definitions, responsibilities and 
 - Workgroup Leads - Oversees the production and maintenance of their products in terms of quality, cost and delivery, responding to the needs of the projects as defined by co-investigators and co-facilitators.
 - HQ Proxy - An individual who is a member that supports a specific workgroup and can participate in the absence of the Workgroup Lead to represent the interests of a workgroup.  A Proxy has the decision-making authority of the Workgroup Lead they represent. The Workgroup Lead must still provide detailed and concise documentation of questions and scope on bugs and features related to their workgroup in the Workgroup Leads meeting agenda.
 
-  1. Checks the bug_tracker, feature_tracker, document_tracker, and manuscript_tracker (as related to the workgroups) daily to identify & assign interdependencies from the labels list used as a dependency check
-  2. Ensures that all cards are updated in the issue_tracker, feature_tracker, document_tracker, and manuscript_tracker (as relevant to the workgroup) in include a due date once they have been triaged with HQ & other workgroup leads.
-  3. Trains respective workgroups in changes to policy & procedures for Kanban workflow.
-  4. Estimates the time required to fulfill completion of bugs (issues) & features.
-  5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see above) in their stead, should they not be able to attend.
+1. Checks the bug_tracker, feature_tracker, document_tracker, and manuscript_tracker (as related to the workgroups) daily to identify & assign interdependencies from the labels list used as a dependency check
+2. Ensures that all cards are updated in the issue_tracker, feature_tracker, document_tracker, and manuscript_tracker (as relevant to the workgroup) in include a due date once they have been triaged with HQ & other workgroup leads.
+3. Trains respective workgroups in changes to policy & procedures for Kanban workflow.
+4. Estimates the time required to fulfill completion of bugs (issues) & features.
+5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see above) in their stead, should they not be able to attend.
 
 ### Workgroup/Schedule
 
@@ -268,14 +268,16 @@ vapor | *description to come*
 
 ### Continuous Collaboration
 
-1. Continuous Collaborative Iteration Cycles (e.g., “DevOps”)
-  - Standard Operations > Workgroup Meetings > Monthly Priorities > Requirements gathering standardization for features
-  - Tools for team members to understand cross-functional “stakes” efficiently
-  - “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._
+Continuous Collaborative Iteration Cycles (e.g., “DevOps”)
 
-2. We need the code level next...because...
-  - Ideally...**testing,** **deploying** and **documenting** would be increasingly automated.
-  - REALLY need continuous documentation and training.
+- Standard Operations > Workgroup Meetings > Monthly Priorities > Requirements gathering standardization for features
+- Tools for team members to understand cross-functional “stakes” efficiently
+- “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._
+
+We need the code level next...because...
+
+- Ideally...**testing,** **deploying** and **documenting** would be increasingly automated.
+- REALLY need continuous documentation and training.
 
 ## Project Trackers
 
