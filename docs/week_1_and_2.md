@@ -9,13 +9,13 @@ The **participatory learning** principles we scaled in _Modeling to Learn_ are:
 - mutual learning
 - shared decision-making
 
-**Team PSD 2.0** is about becoming more scalable due to continuous integration, deployment and documention.
+**Team PSD 2.0** is about becoming more scalable due to continuous integration, deployment and documentation.
 
 - We aim for a completely free, accessible, transparent and reproducible workflow (aka **“open science”**).
 - **Our mission** to improve how healthcare quality improvement decisions are made enlists diverse team members and partners.
 - We want to **empower** effective contributions from all potential stakeholders.
 
-The Team PSD 2.0 Monthly Process is based on the design thinking principles of **user experience**, which attemps to account for a **person's needs**, **pain points**, **goals**, and **emotional experience** when using a **product/service** and/or going through a **process** and **system**.
+The Team PSD 2.0 Monthly Process is based on the design thinking principles of **user experience**, which attempts to account for a **person's needs**, **pain points**, **goals**, and **emotional experience** when using a **product/service** and/or going through a **process** and **system**.
 
 **Team PSD 2.0 Process for monthly sprints/epics:**
 
@@ -29,7 +29,7 @@ The Team PSD 2.0 Monthly Process is based on the design thinking principles of *
 
 Our monthly **process for each monthly sprint/epic** is based on the **process for design thinking**:
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/design_thinking.jpg">
+![design thinking image](https://user-images.githubusercontent.com/30132017/100285988-cf699d00-2f26-11eb-9143-d36922ec6525.png)
 
 ## Week 1: Gather User Hypotheses
 
@@ -54,7 +54,7 @@ Hypotheses should consist of the user's needs, pain points, and consider the bac
 
 **Example of a User Persona:**
 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/design/design_workshop_manual/persona_example.png">
+![persona example image](https://user-images.githubusercontent.com/30132017/100286138-19eb1980-2f27-11eb-9b08-5a7b01c725b6.png)
 
 ## Week 2: Clarify User Assumptions w/ MVP test
 
@@ -70,7 +70,7 @@ Assumptions the designer has based on week 1 hypotheses should clarified to **de
 
 [Example POV: Busy, nationally distributed, cross-functional team of scientists has many partners, is about to hire more people, leads a national participatory system dynamics simulation learning program in, and is gaining increasing national and international interest in partnership HMW...]
 
-**A problem statement: Focuses on**
+**A problem statement:** Focuses on
 
 - **Specific peopleʼs needs** (not the technology or specs),
 - **Value and insights for the project** (not the technical requirements), yet it is...
@@ -81,7 +81,7 @@ Assumptions the designer has based on week 1 hypotheses should clarified to **de
 - Asking **"Why?"** Explores to understand **root causes** (abstract, more common across people)
 - ...then **“How might we?”** to get to a **specific** problem/challenge we can solve (concrete)
 
-**Part I - The HMW Brainstorm...HMW**
+**Part I** - The HMW Brainstorm...HMW
 
 - use the efficiency of GitHub [good]
 - remove the [bad] steep learning curve
@@ -94,7 +94,7 @@ Assumptions the designer has based on week 1 hypotheses should clarified to **de
 - get it up and running now [shift a status quo]
 - divvy up chunks for each workgroup [break up POV]
 
-**Part II**
+**Part II**- Why?
 
 “**Why** do we need to integrate our manuals, workflows and processes on GitHub to achieve Team PSD values? (if start with Why, phrase as a need and make it meaningful.”
 
