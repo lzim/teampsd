@@ -1275,6 +1275,8 @@ gun
 guy
 habit
 habitat
+had
+hadn't
 hair
 half
 hall
@@ -1970,6 +1972,7 @@ peak
 peer
 penalty
 people
+people's
 pepper
 per
 perceive
