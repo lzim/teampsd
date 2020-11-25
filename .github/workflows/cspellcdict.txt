@@ -1634,6 +1634,8 @@ lunch
 lung
 lzim
 machine
+mac
+Mac
 mad
 magazine
 mail
@@ -2068,6 +2070,8 @@ pour
 poverty
 powder
 power
+powerpoint
+PowerPoint
 powerful
 practical
 practice
