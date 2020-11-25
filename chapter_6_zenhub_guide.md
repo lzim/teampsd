@@ -5,6 +5,7 @@
 Team PSD uses the GitHub Google Chrome extension, [ZenHub](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US), for agile project management.
 
 We use ZenHub to:
+
 - see all of our Team PSD's workflow at a glance.
 - organize and prioritize existing issues and features.
 - track dependencies across workgroups.
@@ -14,7 +15,7 @@ We use ZenHub to:
 
 ![ ](https://user-images.githubusercontent.com/59668647/89149906-62af3a80-d512-11ea-8e64-fb2720f778e5.jpg)
 
-Click [here](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US) for the ZenHub Google Chrome extension. 
+Click [here](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US) for the ZenHub Google Chrome extension.
 
 ![ ](https://user-images.githubusercontent.com/59668647/89149907-6347d100-d512-11ea-8770-76dacdfdf80e.jpg)
 ![ ](https://user-images.githubusercontent.com/59668647/89149908-6347d100-d512-11ea-8874-4da8688a2f33.jpg)
