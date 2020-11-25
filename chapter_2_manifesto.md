@@ -160,18 +160,18 @@ This policy details the governing principles, definitions, responsibilities and 
 
 Team PSD is now on flex schedule with **8 hours of individual flex time & focus blocks for each workgroup**.
 
-The schedule depicts a standard **Team PSD Tour of Duty from 8AM-4PM Pacific Mon-Thurs**. It is designed to increase individual flex time and increase individual focus time, while decreasing "set switching" among workflows. 
-   - Each user workgroup meeting is depicted by a box.
-   - Time to prepare for the user workgroup meeting or follow-up after the meeting is depicted by color.
-   
+The schedule depicts a standard **Team PSD Tour of Duty from 8AM-4PM Pacific Mon-Thurs**. It is designed to increase individual flex time and increase individual focus time, while decreasing "set switching" among workflows.
+- Each user workgroup meeting is depicted by a box.
+- Time to prepare for the user workgroup meeting or follow-up after the meeting is depicted by color.
+
 Depicted is **16 scheduled hours** of user workgroup meetings per week (40% of a 40 hour week). And, no less than 8 hours of individual focus time (either through a "4 10s" or a "5 8s" schedule.
 
 Percent of the 32 hours focused on each of these major Workflows:
 
-   - **31.25% Cross-Cutting** (Workgroup Leads, Support Workgroups, HQ)= **10 hours/week**
-   - **25% + Flex up to 50% for Research** (Manuscripts, Co-I, Qual, Quant) = **8 hours/week**
-   - **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
-   - **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
+- **31.25% Cross-Cutting** (Workgroup Leads, Support Workgroups, HQ)= **10 hours/week**
+- **25% + Flex up to 50% for Research** (Manuscripts, Co-I, Qual, Quant) = **8 hours/week**
+- **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
+- **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
 
 ![ ](https://user-images.githubusercontent.com/59668647/94718051-fed4a280-0305-11eb-966d-2ad95422c2d2.png)
 
@@ -229,7 +229,7 @@ vapor | *description to come*
 **Team PSD integrates Agile** principles because:
 
 - Our research team’s method is a an implementation of **participatory system dynamics** in a national production environment.
-- These methods **historically have iterated in-person** locally. 
+- These methods **historically have iterated in-person** locally.
 - Our innovation is local priorities, local data and local insights at national scale, made possible using **online platforms** and **virtual processes**.
 
 **Team PSD integrates Waterfall and Agile** principles because:
@@ -242,10 +242,10 @@ vapor | *description to come*
 
 **Team PSD integrates Lean** principles because:
 
-- Team PSD **_processes_** are assessed for continuous improvement (kaizen/muda elimination)
-- Team PSD **_communication_** is designed to reduce rework (muda/waste)
-- Team PSD encourages **_minimum viable products_** to find and synthesize team and partner expertise (just-in-time) 
-- Team PSD **_platforms_** are designed to increase visual production controls (kanban/signboard; andon alerts)
+- Team PSD **_processes_** are assessed for continuous improvement (kaizen/muda elimination).
+- Team PSD **_communication_** is designed to reduce rework (muda/waste).
+- Team PSD encourages **_minimum viable products_** to find and synthesize team and partner expertise (just-in-time).
+- Team PSD **_platforms_** are designed to increase visual production controls (kanban/signboard; andon alerts).
 - Note: VA uses Lean as a primary approach to healthcare quality improvement.
 
 ### Scrum
@@ -270,8 +270,8 @@ vapor | *description to come*
 1. Continuous Collaborative Iteration Cycles (e.g., “DevOps”)
 
 - Standard Operations > Workgroup Meetings > Monthly Priorities > Requirements gathering standardization for features
-- Tools for team members to understand cross-functional “stakes” efficiently 
-- “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._ 
+- Tools for team members to understand cross-functional “stakes” efficiently
+- “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._
 
 2. We need the code level next...because...
 
@@ -280,7 +280,7 @@ vapor | *description to come*
 
 ## Project Trackers
 
-Team PSD uses the following 4 project trackers on GitHub to track incoming **bugs**, develop new **features**, create/update **documentation**, and ensure the progression of submitting **manuscripts**, all from a glance by looking at each of their respective trackers as a dashboard to see the status, progression, and completion of open issues. 
+Team PSD uses the following 4 project trackers on GitHub to track incoming **bugs**, develop new **features**, create/update **documentation**, and ensure the progression of submitting **manuscripts**, all from a glance by looking at each of their respective trackers as a dashboard to see the status, progression, and completion of open issues.
 
 ### bug_tracker
 
@@ -295,16 +295,17 @@ The [bug_tracker](https://mtl.how/bugs) is divided into 6 columns described belo
 1. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
 
 ### feature_tracker
+
 The [feature_tracker](https://mtl.how/features) is divided into 9 columns described below.  The purpose of the feature_tracker is to report and maintain information regarding the analysis of dependencies and work-content, and track the progress of issues that require development. Issues labeled as “features” will be tracked here.
 
-1. work_breakdown - Validated feature requirements that have received a disposition are listed here.  Issues in this column are analyzed by Workgroup Leads for dependencies, effort content and milestones they may support (see Appendix 1 - issue_template). Issues will progress from this section to either the operations_to_do (ranked) or the research_to_do (ranked) sections.  
-1. operations_to_do (ranked) - Features that require research, design and development of products in one or more workgroups are listed here in order of priority by due date indicated in the title.  Issues here may be reprioritized at any time. 
+1. work_breakdown - Validated feature requirements that have received a disposition are listed here.  Issues in this column are analyzed by Workgroup Leads for dependencies, effort content and milestones they may support (see Appendix 1 - issue_template). Issues will progress from this section to either the operations_to_do (ranked) or the research_to_do (ranked) sections.
+1. operations_to_do (ranked) - Features that require research, design and development of products in one or more workgroups are listed here in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
 1. research_to_do (ranked) - Features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements are listed there in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
-1. under_development - Operations or research features under development are listed here. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups. 
+1. under_development - Operations or research features under development are listed here. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups.
 1. functional_testing - Features that are currently being tested for basic functionality (i.e. does it work?) are listed here. Some issues may skip this step and go directly from “under_development” to “done.”
 1. done - This column contains completed issues.  Responsible Workgroup Leads shall communicate completion of the action to the originator in the issue thread.  The originator shall review the action, indicate their satisfaction/dissatisfaction.  Once the originator is satisfied, the originator should close the issue and it will automatically go in the closed column.
 1. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
-1. future_release – This column contains unresolved feature ideas that would be great to include in a future MTL release, but currently is not a pressing need. 
+1. future_release – This column contains unresolved feature ideas that would be great to include in a future MTL release, but currently is not a pressing need.
 
 ### document_tracker
 
