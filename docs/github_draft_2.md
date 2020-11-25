@@ -15,21 +15,21 @@ We will wait for these flow maps until Branching MVP is tested:
 Previous Issue Card Flow Map:
 ![Issue Card Flow Map](https://user-images.githubusercontent.com/59668647/88049640-5ab2cc00-cb0a-11ea-89a0-a09d13d4761d.png)
 
-# Use Markdown
+## Use Markdown
 
-## Write Markdown
+### Write Markdown
 
 Cheatsheet will go here
 
-## Use Markdown Files
+### Use Markdown Files
 
-### Add a Markdown File
+#### Add a Markdown File
 
-### Go to a Markdown File
+#### Go to a Markdown File
 
-### Edit a Markdown File
+#### Edit a Markdown File
 
-# Use GitHub Branches
+## Use GitHub Branches
 
 ![Use GitHub Branches Workflow](https://user-images.githubusercontent.com/30132017/96189366-30985c80-0ef5-11eb-9053-22a43cae8103.png)
 
