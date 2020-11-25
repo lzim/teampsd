@@ -11,20 +11,20 @@ Make **user-persona Concurrent Think Aloud videos** testing Team PSD prototypes 
 To scale Team PSD processes, we evaluate the **usability** and **user experience** of Team PSD prototypes.
 
 - **Passive Screen Video Observation**
-    - Usability (quantitative MVP tests)
-    - This test is the **concurrent** think aloud protocol to detect problems with MVP assumptions.
-    - Prototype developers gain re-susable insights into the users (through the library).
-    - Users don't have to think about producing these scalable artifacts (just upload).
-    - These files are named with this convention "date_skill_training_user" e.g., "2020_05_13_git_ch1_busy_pi"
+  - Usability (quantitative MVP tests)
+  - This test is the **concurrent** think aloud protocol to detect problems with MVP assumptions.
+  - Prototype developers gain re-usable insights into the users (through the library).
+  - Users don't have to think about producing these scalable artifacts (just upload).
+  - These files are named with this convention "date_skill_training_user" e.g., "2020_05_13_git_ch1_busy_pi"
 - **Verbalization**
-    - User-experience (qualitative MVP tests)
-    - This test is the **retrospective** think aloud protocol to detect problems with MVP assumptions.
+  - User-experience (qualitative MVP tests)
+  - This test is the **retrospective** think aloud protocol to detect problems with MVP assumptions.
 - **Learning task performance.**
-    - We need **distributed Team PSD users** to _learn at scale._
-    - All prototypes are teaching our learners a skill they need to contribute to the team.
-    - As we upskill, we continuously integrate prototypes, which scales learning _and_ improvement across Team PSD.
+  - We need **distributed Team PSD users** to _learn at scale._
+  - All prototypes are teaching our learners a skill they need to contribute to the team.
+  - As we upskill, we continuously integrate prototypes, which scales learning _and_ improvement across Team PSD.
 
-## Record Screen (No Audio) 
+## Record Screen (No Audio)
 
 ### PC User (VA or Non-VA)
 
@@ -58,17 +58,16 @@ Follow the guide [**here**](https://support.microsoft.com/en-us/office/record-yo
 
 ### Mac User (Usually Non-VA)
 
-#### Record any window on your Mac.
+#### Record any window on your Mac
 
-1. **Press Shift-Command-5**. The _Onscreen Controls_ will appear.
+![mac window image](https://user-images.githubusercontent.com/59668647/88048975-1d9a0a00-cb09-11ea-8e4b-549d3e397cb9.png)
+
+1. **Press Shift-Command-5**. The _Onscreen Controls_ will appear (see above).
 2. Once the _Onscreen Controls_ appear, click on one of the buttons with the record circle in the bottom right (4th icon from the left - **Record Entire Screen** or 5th icon from the left - **Record Selected Portion**).
 3. **Click the down arrow** under _Options_, located next to the record button.
 4. Under _Microphone_, **select none** to turn off audio recording.
 5. Under _Options_ in the _Onscreen Controls,_ **adjust the recording window,** setup a _Timer_, and where to _Save To_ your recording.
-
-![mac window image](https://user-images.githubusercontent.com/59668647/88048975-1d9a0a00-cb09-11ea-8e4b-549d3e397cb9.png)
-
-6. In the _Menu Bar_, **click the Stop Recording button** or **press Command-Control-Esc (Escape)** to stop recording.
+6. In the _Menu Bar_, **click the Stop Recording button** or **press Command-Control-Esc (Escape)** to stop recording (see below).
 
 ![stop screen recording image](https://user-images.githubusercontent.com/59668647/88048985-22f75480-cb09-11ea-9d7a-c04d989f1dcc.png)
 
