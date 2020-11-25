@@ -153,7 +153,7 @@ Note: Be wary of any open tabs or browsers you may have open that may contain PH
 
 You will notice a subtle red border outlining your entire desktop screen. The red border is only visible to you and not anyone else, hence not pictured here.
 
-TIP: Queue up the window you want to share in advance. I had already quequed up my Google Chrome Browser in the background, which is now being shared as the default of entire desktop screen.
+TIP: Queue up the window you want to share in advance. I had already queued up my Google Chrome Browser in the background, which is now being shared as the default of entire desktop screen.
 
 ![browser image of queued page image](https://user-images.githubusercontent.com/59668647/89903438-7c98ef00-db9c-11ea-97f0-1958311c870f.png)
 
