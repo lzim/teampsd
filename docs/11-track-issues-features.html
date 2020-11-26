@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 6 MS Teams | Team PSD Manual</title>
+  <title>Chapter 11 Track Issues &amp; Features | Team PSD Manual</title>
   <meta name="description" content="This is the Team PSD one stop shop." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 6 MS Teams | Team PSD Manual" />
+  <meta property="og:title" content="Chapter 11 Track Issues &amp; Features | Team PSD Manual" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 6 MS Teams | Team PSD Manual" />
+  <meta name="twitter:title" content="Chapter 11 Track Issues &amp; Features | Team PSD Manual" />
   
   <meta name="twitter:description" content="This is the Team PSD one stop shop." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="5-va-citrix.html"/>
-<link rel="next" href="7-open-science-framework.html"/>
+<link rel="prev" href="10-manage-with-zenhub.html"/>
+<link rel="next" href="12-glossary.html"/>
 <script src="assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -219,200 +219,164 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="ms-teams" class="section level1">
-<h1><span class="header-section-number">Chapter 6</span> MS Teams</h1>
-<p>TeamPSD and the VA are both using Microsoft Teams as their main communication and scheduling platform.</p>
-<div id="quick-start-guide" class="section level2">
-<h2><span class="header-section-number">6.1</span> Quick Start Guide</h2>
-<p>To review the basics of Microsoft Teams, check out their <a href="https://www.chorus.co/media/2989/quickstart-guide-to-teams-chorus.pdf">Quick Start Guide</a>.</p>
-<p>This guide will help you learn the basic user interface functions of Microsoft Teams such as:</p>
+<div id="track-issues-features" class="section level1">
+<h1><span class="header-section-number">Chapter 11</span> Track Issues &amp; Features</h1>
+<div id="create-issuefeature-cards-click-maps-in-progress" class="section level2">
+<h2><span class="header-section-number">11.1</span> Create Issue/Feature cards [click maps in progress]</h2>
+<p>Click map would explain process <a href="https://github.com/lzim/teampsd/issues/new/choose">here</a></p>
+</div>
+<div id="maintaining-cards-flow-map-in-progress" class="section level2">
+<h2><span class="header-section-number">11.2</span> Maintaining Cards [flow map in progress]</h2>
+<p>Flow map to maintain your issue/features cards as they get worked on.</p>
+<p>We will wait for these flow maps until Branching MVP is tested:
+[Track a bug] might change
+[Track a feature] might change.</p>
+<p>Previous Issue Card Flow Map:
+<img src="https://user-images.githubusercontent.com/59668647/88049640-5ab2cc00-cb0a-11ea-89a0-a09d13d4761d.png" alt="Issue Card Flow Map" /></p>
+</div>
+<div id="use-markdown" class="section level2">
+<h2><span class="header-section-number">11.3</span> Use Markdown</h2>
+<div id="write-markdown" class="section level3">
+<h3><span class="header-section-number">11.3.1</span> Write Markdown</h3>
+<p>Cheatsheet will go here</p>
+</div>
+<div id="use-markdown-files" class="section level3">
+<h3><span class="header-section-number">11.3.2</span> Use Markdown Files</h3>
+<div id="add-a-markdown-file" class="section level4">
+<h4><span class="header-section-number">11.3.2.1</span> Add a Markdown File</h4>
+</div>
+<div id="go-to-a-markdown-file" class="section level4">
+<h4><span class="header-section-number">11.3.2.2</span> Go to a Markdown File</h4>
+</div>
+<div id="edit-a-markdown-file" class="section level4">
+<h4><span class="header-section-number">11.3.2.3</span> Edit a Markdown File</h4>
+</div>
+</div>
+</div>
+<div id="use-github-branches" class="section level2">
+<h2><span class="header-section-number">11.4</span> Use GitHub Branches</h2>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96189366-30985c80-0ef5-11eb-9053-22a43cae8103.png" alt="" />
+<p class="caption">Use GitHub Branches Workflow</p>
+</div>
+<p><img src="https://app.lucidchart.com/invitations/accept/1b9df299-b33f-4509-be32-9603ec343a3c" /></p>
+<p>GitHub branches are used to provide continuous integration of multiple versions of a repository. Branches also control versions of a file and trigger automatic review and quality control actions to ensure files meet team standards. See <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-branches#working-with-branches">Working with Branches</a> for more information.</p>
+</div>
+<div id="submit-a-feature" class="section level2">
+<h2><span class="header-section-number">11.5</span> Submit a Feature</h2>
 <ul>
-<li>Signing In</li>
-<li>Manage your profile settings</li>
-<li>Create &amp; choose/browse channels</li>
-<li>Start a meeting or call</li>
-<li>Start a new conversation thread</li>
-<li>Reply within a message/conversation thread</li>
-<li>@ Mention someone</li>
-<li>Start a 1:1 or small group chat</li>
-<li>Add/Share/Work with Files</li>
-<li>and more!</li>
+<li>No direct-to-master branch commits are allowed.</li>
+<li>A feature branch will merge with the Quality Assurance (QA) branch before being pushed to Master.</li>
+<li>The QA branch is a protected branch that requires mandatory reviews before changes can be merged with Master.</li>
+<li>In extremis and with approval, a feature branch may be directly pushed to the Master branch in circumstances where the QA branch is tied up with another feature branch.</li>
 </ul>
+<div id="create-a-feature-branch" class="section level3">
+<h3><span class="header-section-number">11.5.1</span> Create a Feature Branch</h3>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96189916-38a4cc00-0ef6-11eb-8c0a-a185af535367.png" alt="" />
+<p class="caption">fig1_create_branch</p>
 </div>
-<div id="click-map" class="section level2">
-<h2><span class="header-section-number">6.2</span> Click Map</h2>
-<div id="switch-orgsadd-va-account" class="section level3">
-<h3><span class="header-section-number">6.2.1</span> Switch Orgs/Add VA Account</h3>
-<p><img src="https://user-images.githubusercontent.com/59668647/93370549-d5941c80-f805-11ea-9650-33e937892d35.png" /></p>
-</div>
-<div id="create-a-va-teams-meeting" class="section level3">
-<h3><span class="header-section-number">6.2.2</span> Create a VA Teams meeting</h3>
-<p><img src="https://user-images.githubusercontent.com/59668647/93370342-85b55580-f805-11ea-9bff-3fc3593a38d0.png" /></p>
-</div>
-<div id="participate-in-a-meeting" class="section level3">
-<h3><span class="header-section-number">6.2.3</span> Participate in a Meeting</h3>
-<p><strong><em>Note: VA Citrix Users do not have access for computer audio or webcam, but can join by calling in from their cell phone or join the meeting from outside the VA with the meeting link.</em></strong></p>
-<p><img src="https://user-images.githubusercontent.com/59668647/93370779-36235980-f806-11ea-8a97-c31ec896ac2e.png" /></p>
-</div>
-</div>
-<div id="additional-tipsfunctions" class="section level2">
-<h2><span class="header-section-number">6.3</span> Additional Tips/Functions</h2>
-<div id="va-teams-webapp-browser" class="section level3">
-<h3><span class="header-section-number">6.3.1</span> VA Teams WebApp Browser:</h3>
-<p>Click on the Teams WebApp shortcut on your CITRIX remote log-in desktop to access the browser version as CITRIX does not have the desktop version installed.</p>
-<p><img src="https://user-images.githubusercontent.com/59668647/92042198-8b536b80-ed2e-11ea-84fd-3497586a03b1.png" /></p>
-<p>If you do not see the WebApp shortcut, open Google Chrome and type in <strong>teams.microsoft.com</strong> to access it manually.</p>
-<p><img src="https://user-images.githubusercontent.com/59668647/92042262-b0e07500-ed2e-11ea-8de0-04742fd721e6.png" /></p>
-</div>
-<div id="switch-organizations" class="section level3">
-<h3><span class="header-section-number">6.3.2</span> Switch Organizations</h3>
-<p>To switch out of an organization on the VA Teams WebApp Brower:</p>
 <ol style="list-style-type: decimal">
-<li><p>Click on the <strong>organization you are currently in</strong>, located next your profile picture &amp; name.
-<img src="https://user-images.githubusercontent.com/59668647/88048075-81bbce80-cb07-11ea-80af-a9f94bd6a63a.png" /></p></li>
-<li><p>To switch out of the organization, click on the <strong>organization you want to switch into</strong>.
-<img src="https://user-images.githubusercontent.com/59668647/88027821-ab1b3100-caec-11ea-95f0-7105e57fd497.png" /></p></li>
-</ol>
-<p>To switch out of an organization on the Non-VA Teams Desktop:</p>
-<ol style="list-style-type: decimal">
-<li><p>You must sign out and re-login into the Desktop App by going to your Profile and signing out:
-<img src="https://user-images.githubusercontent.com/59668647/89906340-1c0bb100-dba0-11ea-9ded-705163c7524d.png" /></p></li>
-<li><p>You will be given the option of choosing an organization to sign into, click on the drop down to select an option.
-<img src="https://user-images.githubusercontent.com/59668647/89906494-52493080-dba0-11ea-98eb-2337a0aded84.png" /></p></li>
-<li><p>Click ‘continue’ and Teams will switch you into the chosen organization:
-<img src="https://user-images.githubusercontent.com/59668647/89906664-845a9280-dba0-11ea-9dbb-06c0de261fd4.png" /></p></li>
+<li>With the “&lt;&gt; Code” tab selected, click the button named “master” in the upper left of the directory.</li>
+<li>A dropdown will appear with a listing of all branches currently active in the repository. A check indicates the branch that is active.</li>
+<li>In the “Find or create a branch . . . “ field, enter the name of your branch using this format: “feature-my_new_branch” The word “feature” will trigger automatic workflows when you commit the branch. Use lowercase letters and an underscore “_” between words. After the word “feature” provide up to a 4-word short description of what the feature addresses.</li>
+<li>When the “Commit” button is clicked, the word “feature” will trigger automatic quality control actions. The results of these actions can be reviewed in the actions tab of GitHub.</li>
 </ol>
 </div>
-<div id="meet-in-a-channel" class="section level3">
-<h3><span class="header-section-number">6.3.3</span> Meet in a Channel</h3>
-<p>To know where a meeting call is being held in a channel:</p>
+<div id="edit-a-feature-branch" class="section level3">
+<h3><span class="header-section-number">11.5.2</span> Edit a Feature Branch</h3>
 <ol style="list-style-type: decimal">
-<li>Look to see the <strong>purple video icon</strong> next to a <strong>channel’s name</strong>.</li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/88048114-94ce9e80-cb07-11ea-92f6-df64f512c1b1.png" /></p>
-</div>
-<div id="edit-messagereply" class="section level3">
-<h3><span class="header-section-number">6.3.4</span> Edit Message/Reply</h3>
-<p>To edit a message:</p>
-<ol style="list-style-type: decimal">
-<li><p>Drag your cursor over to an existing comment and <strong>click on the 3 dots</strong> next to the 6 “react” emojis.
-<img src="https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png" /></p></li>
-<li><p>Select the <strong>pencil icon Edit button</strong>.</p></li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/88048218-ccd5e180-cb07-11ea-984e-d4e46fa329b9.png" /></p>
-<ol start="3" style="list-style-type: decimal">
-<li>After finishing your edit, select the <strong>check mark button</strong> to publish or the <strong>“x button”</strong> to exit out of the draft.
-<img src="https://user-images.githubusercontent.com/59668647/88048270-e0814800-cb07-11ea-9c0e-51baf0b3c383.png" /></li>
+<li>To edit a feature branch, navigate to the “&lt;&gt; Code” tab and click the button named “master” in the upper left of the directory.</li>
+<li>A dropdown will appear with a listing of all branches in the repository.</li>
+<li>Click on the desired feature branch in the list.</li>
+<li>Navigate to the target file from the directory.</li>
+<li>Edit the target file within this branch.</li>
+<li>When edit is complete, commit the file back to this feature branch.</li>
+<li>The commit will trigger quality control actions that can be reviewed in the actions tab.</li>
 </ol>
 </div>
-<div id="type-in-markdown" class="section level3">
-<h3><span class="header-section-number">6.3.5</span> Type in Markdown</h3>
-<p>Teams is Markdown friendly!</p>
+<div id="push-a-feature-branch" class="section level3">
+<h3><span class="header-section-number">11.5.3</span> Push a Feature Branch</h3>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96190320-e2845880-0ef6-11eb-9b8c-ce576d517e62.png" alt="" />
+<p class="caption">fig2_new_pull_req</p>
+</div>
 <ol style="list-style-type: decimal">
-<li>Try using <strong>basic markdown</strong> such as bolding or italicizing text in a comment/reply.
-<img src="https://user-images.githubusercontent.com/59668647/88048320-fa228f80-cb07-11ea-940e-e11212b8b93e.png" /></li>
+<li>To push an updated file or files from a feature branch to the QA branch, the user must open a Pull Request. Note: Opening a pull request can be done when a file is committed to a branch using the commit dialogue, or the user can navigate to the “Pull requests” tab.</li>
+<li>Navigate to the “Pull requests” tab.</li>
+<li>Click the green “New pull request” button on the right-hand side of the page.</li>
+<li>Review the “Comparing changes” dialogue very carefully (see image below).</li>
+<li>Ensure the base branch indicates “QA.” If it does not, click on the button and select correct branch.</li>
+<li>Ensure the pushed branch is the desired feature branch.</li>
+</ol>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96190324-e4e6b280-0ef6-11eb-80c1-111fd7b5f226.png" alt="" />
+<p class="caption">fig3_compare_changes</p>
+</div>
+</div>
+</div>
+<div id="run-quality-assurance" class="section level2">
+<h2><span class="header-section-number">11.6</span> Run Quality Assurance</h2>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96191290-9f2ae980-0ef8-11eb-89e7-02866b24d303.png" alt="" />
+<p class="caption">fig4_rerun_quality assurance</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>The QA branch is a protected branch, which means it cannot complete the merge unless all conflicts and errors are cleared and the assigned reviewers have signed off on the changes.</li>
+<li>When a feature branch is pushed to the QA branch, quality assurance actions will automatically run and list out any findings under the Actions tab.</li>
+<li>The user checks for errors in this tab, and corrects any findings.</li>
+<li>The user can re-run the quality checks from the actions tab by clicking the “Rerun jobs” button on right hand side of screen (see figure above).</li>
 </ol>
 </div>
-<div id="start-a-call-in-a-thread" class="section level3">
-<h3><span class="header-section-number">6.3.6</span> Start a Call in a Thread</h3>
-<p>To start a meeting call within the same conversation thread to keep context:</p>
-<ol style="list-style-type: decimal">
-<li>In the conversation thread, click on the <strong>reply button</strong>.</li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/88048378-10305000-cb08-11ea-921d-b31fb86e5b7b.png" /></p>
-<ol start="2" style="list-style-type: decimal">
-<li>Click on the <strong>video icon button</strong> to begin a call.</li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/88048451-33f39600-cb08-11ea-8082-dddbf10ac0c4.png" /></p>
+<div id="use-a-find-and-replace-branch" class="section level2">
+<h2><span class="header-section-number">11.7</span> Use a “Find and Replace” Branch</h2>
+<p>GitHub FNR feature branch is a specialty branch that is used to find desired words or short strings and replace them automatically throughout documents in the repository. The FNR action can be limited to a file, a director or the whole repository by modifying instructions in the FindReplace.yml file found in the .github/workflows directory.</p>
+<div id="configure-the-findreplace.yml-action-file" class="section level3">
+<h3><span class="header-section-number">11.7.1</span> Configure the FindReplace.yml Action File</h3>
+<p>Below is an explanation on how to configure the find and replace function.</p>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/97484653-40149e00-1916-11eb-879f-2d9154c46cc8.png" alt="" />
+<p class="caption">Configure the FindReplace.yml Action File</p>
 </div>
-<div id="record-a-meeting" class="section level3">
-<h3><span class="header-section-number">6.3.7</span> Record a Meeting</h3>
-<p>To record a meeting or call:</p>
 <ol style="list-style-type: decimal">
-<li><p>Within the meeting/call, click on the <strong>3 dots […]</strong> in the middle navigation bar and select <strong>“Start recording”.</strong>
-<img src="https://user-images.githubusercontent.com/59668647/94718500-aa7df280-0306-11eb-9b97-9dbda5179f0d.png" /></p></li>
-<li><p>The following will occur to indicate that you are recording:</p>
-<ul>
-<li>A <strong>disclaimer will pop-up</strong> at the top of the meeting for everyone.</li>
-<li>A <strong>red circle</strong> will appear next to the meeting timer in the navigation bar.
-<img src="https://user-images.githubusercontent.com/59668647/94718591-c97c8480-0306-11eb-82e7-e0d6b666ba72.png" /></li>
-</ul></li>
-<li><p>When you are done with the meeting/call, click on the <strong>3 dots […]</strong> in the middle navigation bar and select <strong>“Stop recording”.</strong>
-<img src="https://user-images.githubusercontent.com/59668647/94718760-09436c00-0307-11eb-8c47-6add60624f8f.png" /></p></li>
-<li><p>The recording will need time to upload and render (e.g 50 min recording took about 2-3 min). Once finished, the <strong>video will automatically populate</strong> in the meeting’s <strong>Chat thread</strong>.</p></li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/94719168-abfbea80-0307-11eb-8199-26767066f213.png" />
-<img src="https://user-images.githubusercontent.com/59668647/94719339-e8c7e180-0307-11eb-8cff-292fee0d789b.png" /></p>
-</div>
-<div id="share-dual-screens" class="section level3">
-<h3><span class="header-section-number">6.3.8</span> Share Dual Screens</h3>
-<p>To share multiple browser windows or screens:</p>
-<ol style="list-style-type: decimal">
-<li><p>Click on the <strong>screen share button</strong> that appears when you hover over your meeting call screen:
-<img src="https://user-images.githubusercontent.com/59668647/89902987-f8df0280-db9b-11ea-80de-d959acf7ec54.png" /></p></li>
-<li><p>Select the <strong>square underneath Desktop</strong> to share your entire laptop’s Desktop screen.</p></li>
-</ol>
-<p>Note: Be wary of any open tabs or browsers you may have open that may contain PHI or personal information that you do not want to share.
-<img src="https://user-images.githubusercontent.com/59668647/89903248-4b202380-db9c-11ea-8072-e0a5c698fc90.png" /></p>
-<ol start="3" style="list-style-type: decimal">
-<li>You will notice a subtle red border outlining your entire desktop screen.
-The red border is only visible to you and not anyone else, hence not pictured here.</li>
-</ol>
-<p>TIP: Queue up the window you want to share in advance.
-I had already quequed up my Google Chrome Browser in the background, which is now being shared as the default of entire desktop screen.</p>
-<p><img src="https://user-images.githubusercontent.com/59668647/89903438-7c98ef00-db9c-11ea-97f0-1958311c870f.png" /></p>
-<ol start="4" style="list-style-type: decimal">
-<li>Drag in other window/browsers within the red border to show dual screens.</li>
-</ol>
-<p>Here I am showing Google Chrome and Teams:
-<img src="https://user-images.githubusercontent.com/59668647/89903549-a225f880-db9c-11ea-9ceb-cd620b54a5f5.png" /></p>
-<ol start="5" style="list-style-type: decimal">
-<li>End screen sharing by going back to the meeting and clicking on the screen sharing button.</li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/89903641-bff35d80-db9c-11ea-97b0-8f64fe0f96a0.png" /></p>
-</div>
-<div id="disappeared-meeting" class="section level3">
-<h3><span class="header-section-number">6.3.9</span> Disappeared Meeting</h3>
-<p>To find a meeting call’s screen once you’ve clicked out of the meeting to look elsewhere on Temas (i.e you needed to respond to a ping, when to look for a link in a discussion thread, etc.):</p>
-<ol style="list-style-type: decimal">
-<li>Minimize the Teams browser completely by clicking on the middle (-) button at the top header of the browser:</li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/89908115-5d04c500-dba2-11ea-9760-4f4ccb648232.png" /></p>
-<ol start="2" style="list-style-type: decimal">
-<li>Go to a new browser or your desktop and the meeting call should appear in the bottom right hand corner:</li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/89908479-c5ec3d00-dba2-11ea-80d7-fcf6537c7691.png" /></p>
-<p>Alternative (only applicable to Channel Meetings, not Private 1:1 meetings):</p>
-<p>If you remember which Channel the meeting call was in, you can click back into the meeting by ‘Joining’ in again, this will not show you joining twice as you are just re-joining.</p>
-</div>
-<div id="react-to-a-comment" class="section level3">
-<h3><span class="header-section-number">6.3.10</span> “React” to a Comment</h3>
-<p>To “React” to a comment or reply to acknowledge it:</p>
-<ol style="list-style-type: decimal">
-<li>Drag your cursor over to an existing comment and <strong>select 1 of the 6 emojis</strong> to “react” to it.
-<img src="https://user-images.githubusercontent.com/59668647/88048496-4a015680-cb08-11ea-9105-2cda75a780b6.png" /></li>
+<li>Select the FindReplace.yml file and place in “edit” mode.</li>
+<li>Update line 53 with the desired word, acronym or string within in the quotation marks.
+<strong>PRO TIP:</strong> Do not leave extra spaces before or after words, unless you want the search to include the space immediately before or after a search string. For example, the search term “Session 1” will find “Session 1”, “Session 10” and all instances where the number “1” is found, even if it is in the number “10.” To limit the search, place a space immediately after the “1” like this “Session 1” and that will limit the search to “1” only.</li>
+<li>Update line 54 with the replacement term in quotation marks.</li>
+<li>To limit a search to an updated file or directory, remove the appropriate hash mark (#) from the line of code that provides the needed search constraint.</li>
+<li>Navigate to the upper left of the window and select the green “Start commit” button. Select the “Commit directly to Master branch” radio button and click the green “Commit changes” button.</li>
 </ol>
 </div>
-<div id="link-a-commentdiscussionfile" class="section level3">
-<h3><span class="header-section-number">6.3.11</span> Link a Comment/Discussion/File</h3>
-<p>To link to a specific thread or comment or file:</p>
+<div id="create-a-find-and-replace-fnr-branch" class="section level3">
+<h3><span class="header-section-number">11.7.2</span> Create a “Find and Replace” (FNR) Branch</h3>
 <ol style="list-style-type: decimal">
-<li><p>Drag your cursor over to an existing comment and <strong>click on the 3 dots</strong> next to the 6 “react” emojis.
-<img src="https://user-images.githubusercontent.com/59668647/88048159-ad3eb900-cb07-11ea-9909-bdee742f6e72.png" /></p></li>
-<li><p>Click on <strong>hyperlink icon copy link button</strong> to copy the link to the location of that thread/comment/file.</p></li>
+<li>Navigate to the code tab.</li>
+<li>Click on the branch button and expose the branch dropdown menu.</li>
+<li>In the “Find or create branch” field, enter the name of your find and replace branch using this convention: fnr-findterm_replaceterm. For example, if “session 1” was the find term, and “Session X” was the replace term, it should read “fnr-session_1_session_x.”</li>
+<li>Press enter and navigate to the “Actions” tab. Here the action will report how many terms were found and replaced (see images below). For a line-by-line review of changes, open a pull request.</li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/59668647/88048555-61d8da80-cb08-11ea-86be-d4cc0ca2d411.png" /></p>
+<p><strong>Open action tab and review action status</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97486613-ea8dc080-1918-11eb-9df4-33f726d358ae.png" alt="Open action tab and review action status image" /></p>
+<p><strong>Open pull request comparing FNR branch to master</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97486927-61c35480-1919-11eb-9bae-915b5d086e55.png" alt="open pull request comparing FNR branch to master image" /></p>
+<p><strong>Compare changes</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97487072-99ca9780-1919-11eb-8ef6-41ecd1eda678.png" alt="compare changes image" /></p>
 </div>
-<div id="pop-up-chat" class="section level3">
-<h3><span class="header-section-number">6.3.12</span> Pop up Chat</h3>
+</div>
+<div id="update-a-bookdown-file-using-the-gh-pages-branch" class="section level2">
+<h2><span class="header-section-number">11.8</span> Update a Bookdown File Using the “gh-pages” Branch</h2>
+<p>To support the publication of a bookdown manual, a special branch is required named “gh-pages” branch. This branch contains the markdown files that are editable and are automatically compiled by an bookdown publication action, when a feature branch is merged with the gh-pages branch. Follow the steps below to edit a bookdown manual.</p>
 <ol style="list-style-type: decimal">
-<li><p>Hover over a meeting chat in the Chat tab and click on the 3 dots that appear.
-<img src="https://user-images.githubusercontent.com/59668647/89903979-36905b00-db9d-11ea-95cf-67bd8c0ffe26.png" /></p></li>
-<li><p>Click ’Pop out Chat" for the chat to display and external new window.
-<img src="https://user-images.githubusercontent.com/59668647/89904058-545dc000-db9d-11ea-8990-8b032b3151aa.png" /></p></li>
+<li>Navigate to the “gh-pages” branch.</li>
+<li>In the “Find or create a branch” field, enter a feature branch using the following convention: feature-gh-pages_chapter_action. For example, an update to chapter 9 might look like this, “feature-gh-pages-ch9_update” This will clue reviewers that the action will merge with gh-pages after review.</li>
+<li>Navigate to the "feature-gh-pages_*"</li>
+<li>Edit the desired file.</li>
+<li>Commit the file to the same branch.</li>
+<li>Open a pull request to merge with the gh-pages branch. This will trigger the spell checker, link checker and markdown style checkers and signal reviewers that a check is needed.</li>
+<li>Navigate to the Actions tab to resolve any issues found by the linters.</li>
+<li>After review, the reviewer will merge the branches. This will trigger the bookdown publishing action to publish the updated manual.</li>
 </ol>
 
-</div>
 </div>
 </div>
             </section>
@@ -420,8 +384,8 @@ I had already quequed up my Google Chrome Browser in the background, which is no
           </div>
         </div>
       </div>
-<a href="5-va-citrix.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="7-open-science-framework.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="10-manage-with-zenhub.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="12-glossary.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="assets/gitbook-2.6.7/js/app.min.js"></script>
@@ -452,7 +416,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/lzim/teampsd/edit/gh-pages/ms_teams_guide.md",
+"link": "https://github.com/lzim/teampsd/edit/gh-pages/github_draft_2.md",
 "text": "Edit"
 },
 "history": {

@@ -1,14 +1,14 @@
 ---
 title: "Team PSD Manual"
 author: "Team PSD"
-date: "2020-11-10"
+date: "2020-11-26"
 link-citations: yes
 preview: yes
 site: bookdown::bookdown_site
 description: This is the Team PSD one stop shop.
 ---
 
-## Team PSD Manual
+# Team PSD Manual
 
 Welcome to Team PSD's manual for all things related to resources and guides!
 

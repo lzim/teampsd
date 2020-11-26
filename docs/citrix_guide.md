@@ -27,4 +27,4 @@ Once you have gotten access through the CAG URL, navigate to the Desktops tab to
 The **V21-Speciality Desktop tends to be ***faster*** and more ***up to date***** than the 1VA-General Desktop.
 
 **Tip: Click on star icon in by the V21-Speciality Desktop icon.**
-This will make the desktop appear on your Home page tab so you don't have to navigate to the Desktop tab every time you sign into Citrix.
+This will make the desktop appear on your Home page tab so you don't have to navigate to the Desktop tab everytime you sign into Citrix.

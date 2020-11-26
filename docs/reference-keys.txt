@@ -14,7 +14,7 @@ high-visibility
 team-time
 communication
 active-listening
-active-listening-is-a-stance.
+active-listening-is-a-stance
 things-to-look-out-for-when-listening
 policy
 scope
@@ -112,7 +112,7 @@ maintaining-cards-flow-map-in-progress
 use-markdown
 write-markdown
 use-markdown-files
-add-a-markfown-file
+add-a-markdown-file
 go-to-a-markdown-file
 edit-a-markdown-file
 use-github-branches
@@ -124,7 +124,7 @@ run-quality-assurance
 use-a-find-and-replace-branch
 configure-the-findreplace.yml-action-file
 create-a-find-and-replace-fnr-branch
-update-a-bookdown-file-using-the-gh-pages-branch.
+update-a-bookdown-file-using-the-gh-pages-branch
 glossary
 terms
 acronyms
