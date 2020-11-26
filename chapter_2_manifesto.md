@@ -2,30 +2,32 @@
 
 ## Team PSD
 
-![](https://user-images.githubusercontent.com/59668647/89570075-7f7d9380-d7da-11ea-95b2-0e1422c1bd75.png)
+![ ](https://user-images.githubusercontent.com/59668647/89570075-7f7d9380-d7da-11ea-95b2-0e1422c1bd75.png)
 
-Meet the members and partners of Team Participatory Systems Dynamics at (mtl.how/team)[https://mtl.how/team].
+Meet the members and partners of Team Participatory Systems Dynamics at [mtl.how/team](https://mtl.how/team).
 
-## Scientific Values 
+## Scientific Values
 
 **Team PSD Scientific Values** guide additional **Participatory** and **Open Science** principles:
 
 - **Participatory Research** encourages us to **co-create our scientific research**. Therefore...
-- We **share decisions**, which requires a high level of **documentation.** 
+- We **share decisions**, which requires a high level of **documentation.**
 - We seek greater **equity** among partners in how collaborate, which requires **responsive pivots** with new stakeholder inputs.
 - We strive use **transparent** and **accessible** processes and platforms, and develop **transparent, accessible resources**.
 
 ## Guiding Principles
 
 ### Open-Source, Transparent, Reproducible
+
 We value an open-source, transparent & reproducible workflow.
 
-- Most of our work is public-facing with the exception of any items that include Protected Health Information (PHI) or Personally Identifiable Information (PII). All of our public materials are free to download and use. We want our insights and resources to benefit the larger community. 
+- Most of our work is public-facing with the exception of any items that include Protected Health Information (PHI) or Personally Identifiable Information (PII). All of our public materials are free to download and use. We want our insights and resources to benefit the larger community.
 - We use R, a free open-source coding language and a specific file naming convention to ensure all of our matierals are machine & human readable (all lower case, no spaces, with dates as yyyy_mm_dd i.e. teampsd_guiding_principles_2020_01_01).
 - Use email for any private discussions. Host any private files in password-protected locations or in folders behind the VA firewall. When in doubt, ask an HQ member or err on the side of caution.
 - Make sure your work and accompanying documentation allows other team members or scientists in the field to reproduce and understand your work without further questions.
 
 ### High Visibility
+
 Our work has high visibility.
 
 - Keep in mind we work under the federal government of the United States for the Veterans Health Administration (VHA), the largest integrated healthcare system in the country. Everything we produce is a reflection of the VHA.
@@ -33,6 +35,7 @@ Our work has high visibility.
 - With these partners, we work in a participatory learning manner and iterate based on feedback from the field to ensure our work is responsive to ongoing changes.
 
 ### Team Time
+
 Any time saved is team time.
 
 - Ask questions early and often to prevent escalating issues down the road. Refer to existing resources (cheatsheets, checklists, etc.) as well for clarification.
@@ -41,66 +44,89 @@ Any time saved is team time.
 - Manage workflow asynchronously (via GitHub) and only schedule meetings when absolutely necessary.
 
 ### Communication
-Use effective communication (across all types of communication including emails, GitHub, Lucid, etc.).  	
 
-- Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you. 
-- Use clear and concise language, with formatting (bold, underline, bullets, etc) to emphasize the main decisions or issues making sure to include the "Who" "What" and "When".
-- Always include the full context and details necessary to make an informed decision (and make sure you are up to speed on the context and details before responding). 
-- Use complete sentences as much as possible and write in the active voice for clarity
-- Often the team looks back to previous records of meetings, GitHub discussions, etc. to remember and track decisions that were already made or if they missed the meetings where an issue may have been discussed. As such, we always need to keep the most accurate record possible to reduce rework and provide clarity.
-- Use emojis or humor (as appropriate) to help maintain a positive and collegial vibe. Turn on your webcam as much as possible for the face-to-face interaction.
+Use effective communication (across all types of communication including emails, GitHub, Lucid, etc.).
 
-### Active Listening
-We use active listening skills to ensure understanding and accurate tracking.	
+Assume everyone you’re communicating with is smarter than you and cares more than you and is busier than you
+
+- Keep it short - use an active voice.
+- Use common words - avoid acronyms and technical jargon.
+- Use bold or italics to emphasize main points.
+- Use bullet statements to structure ideas.
+
+Include the full context and details necessary to make an informed decision
+
+- List the "Bottom-Line-Up-Front" - what do you want?
+- State known facts bearing on the problem - what is important for people to know?
+- List assumptions - what gaps have you identified?
+- Describe solution alternatives and make recommendations where possible.
+- Make specific "asks" to individuals using the "@" function in discussion threads _and_ indicate when you need a response.
+
+Maintain a complete record
+
+- Use previous records of Teams meetings and GitHub discussions to track decisions and stay informed.
+- Maintain conversation records in discussion threads for discussions had outside of established meetings.
+- Follow up - an action passed is not an action complete.
+
+Stay positive
+
+- Use emojis.
+- Use appropriate humor.
+- Use your webcam whenever possible.
+
+#### Active Listening
+
+We use active listening skills to ensure understanding and accurate tracking.
 
 - We work daily with team members and partners that are experts in their respective fields, and it is easy to lose track of a complex discussion.
 - We've found that reflecting-back requests and decisions in your own words has been the best method to reduce miscommunication and to keep track of all of our decisions or issues accurately. If you ever need help while scribing, always "tap" someone else on the team for assistance.
-- Ask for clarification and slow down if necessary.	
+- Ask for clarification and slow down if necessary.
 
-#### Active listening is a stance.
+#### Active listening is a stance
+
 Taking the stance that misunderstanding is the norm and using skills appropriate to that reality.
 
-1. General skills: Reflecting content for efficiency and interpersonal rapport (i.e., avoiding rework and frustration)
+General skills: Reflecting content for efficiency and interpersonal rapport (i.e., avoiding rework and frustration)
 
 - "When in doubt, check it out" - It's the listener's job to help the speaker understand what they are getting or what they missed.
 - Let the speaker know when you're falling behind. Stop them before the conversation exceeds your understanding.
 - Use the same precise language/vocabulary, esp. Team PSD or _MTL_ terms with specific meanings.
 
-2. "Chunking" components of what someone said (e.g., listen for the "and" when someone is speaking)
+"Chunking" components of what someone said (e.g., listen for the "and" when someone is speaking)
 
 - Listen for the main points.
 - This is a key skill to keep up with complex ideas in the moment (You don't want to get bogged down on point 1 and miss point 2).
 
-3. Reflection of feeling - listen for the feeling words and reflect them exactly. 
+Reflection of feeling - listen for the feeling words and reflect them exactly.
 
-- Using the exact feeling word you heard is the safest way to ensure the person feels heard. 
+- Using the exact feeling word you heard is the safest way to ensure the person feels heard.
 - Don't reflect "frustration" when someone is expressing "disappointment" or "stress."
 - You can use these for non-verbals too.
 - If you hear a feeling, it's best to address it in your reflection.
 
-4. Synthesize two person's ideas - or just two ideas (or more)
+Synthesize two person's ideas - or just two ideas (or more)
 
 - e.g. "on the one hand, I hear Anthony saying..." and "on the other hand, I hear Stacey saying..."
 - Synthesis brings the ideas together. It is not just active listening both ideas as separate ideas.
 
-5. Summarize - used when it's time to wrap up, and move on, and a lot of ideas have been said.
+Summarize - used when it's time to wrap up, and move on, and a lot of ideas have been said.
 
 - This is not the time to bring up new points. If you do have something to add, say it first.
 - It's best to end with a summary of the key points of consensus and the key take aways of what to do next.
 
-6. After you reflect, add to what the person is saying (a key to improv is "yes, and..." - don't reject ideas, just try to understand first and then build on the ideas).
+After you reflect, add to what the person is saying (a key to improv is "yes, and..." - don't reject ideas, just try to understand first and then build on the ideas).
 
 - Forward momentum comes from making sure you understand the person and add your own contribution.
 - Listening is about being present to understand; you do not have to agree with what a person is saying.
 - Before you even get to agreement/disagreement, make sure you have a shared understanding first.
 - KEY IDEA: Really attend to make sure you understand. Do NOT think about your response when you should be listening.
 
-#### Things to look out for when listening:
+#### Things to look out for when listening
 
 Know thyself:
 You are the only one who knows whether it's time to multi-task, focus, scribe/document as a form of listening, or whether typing would be a distraction.
 
-Repetition cycle: 
+Repetition cycle:
 If the speaker you're listening to keeps repeating something, your first move should be to assume that you're missing something and ask what it is.
 
 Your own feelings:
@@ -118,46 +144,44 @@ This policy details the governing principles, definitions, responsibilities and 
 
 ### Responsibilities
 
-* Principal Investigator - Provides overall direction and guidance to Workgroup Leads.  Coordinates research activities and prioritizes activities within the MTL program with the HQ workgroup
-* Co-facilitators - Gathers field information and provides feedback to Workgroup Leads regarding the performance of a product in the teaching/learning environment. Facilitate Modeling to Learn 12 Session Program with identified clinics for the R01 and IIR grants.
-* Co-investigators - Oversees the science and research dependencies across the project. 
-* Workgroup Leads - Oversees the production and maintenance of their products in terms of quality, cost and delivery, responding to the needs of the projects as defined by co-investigators and co-facilitators
+- Principal Investigator - Provides overall direction and guidance to Workgroup Leads.  Coordinates research activities and prioritizes activities within the MTL program with the HQ workgroup
+- Co-facilitators - Gathers field information and provides feedback to Workgroup Leads regarding the performance of a product in the teaching/learning environment. Facilitate Modeling to Learn 12 Session Program with identified clinics for the R01 and IIR grants.
+- Co-investigators - Oversees the science and research dependencies across the project.
+- Workgroup Leads - Oversees the production and maintenance of their products in terms of quality, cost and delivery, responding to the needs of the projects as defined by co-investigators and co-facilitators.
+- HQ Proxy - An individual who is a member that supports a specific workgroup and can participate in the absence of the Workgroup Lead to represent the interests of a workgroup.  A Proxy has the decision-making authority of the Workgroup Lead they represent. The Workgroup Lead must still provide detailed and concise documentation of questions and scope on bugs and features related to their workgroup in the Workgroup Leads meeting agenda.
 
-     1. Checks the bug_tracker, feature_tracker, document_tracker, and manuscript_tracker (as related to the workgroups) daily to identify & assign interdependencies from the labels list used as a dependency check
-     2. Ensures that all cards are updated in the issue_tracker, feature_tracker, document_tracker, and manuscript_tracker (as relevant to the workgroup) in include a due date once they have been triaged with HQ & other workgroup leads.
-     3. Trains respective workgroups in changes to policy & procedures for Kanban workflow.
-    4. Estimates the time required to fulfill completion of bugs (issues) & features.
-    5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see below) in their stead, should they not be able to attend.
-
-* Proxy - An individual who is a member that supports a specific workgroup and can participate in the absence of the Workgroup Lead to represent the interests of a workgroup.  A Proxy has the decision-making authority of the Workgroup Lead they represent. The Workgroup Lead must still provide detailed and concise documentation of questions and scope on bugs and features related to their workgroup in the Workgroup Leads meeting agenda.
+1. Checks the bug_tracker, feature_tracker, document_tracker, and manuscript_tracker (as related to the workgroups) daily to identify & assign interdependencies from the labels list used as a dependency check
+2. Ensures that all cards are updated in the issue_tracker, feature_tracker, document_tracker, and manuscript_tracker (as relevant to the workgroup) in include a due date once they have been triaged with HQ & other workgroup leads.
+3. Trains respective workgroups in changes to policy & procedures for Kanban workflow.
+4. Estimates the time required to fulfill completion of bugs (issues) & features.
+5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see above) in their stead, should they not be able to attend.
 
 ### Workgroup/Schedule
 
 Team PSD is now on flex schedule with **8 hours of individual flex time & focus blocks for each workgroup**.
 
-The schedule depicts a standard **Team PSD Tour of Duty from 8AM-4PM Pacific Mon-Thurs**. It is designed to increase individual flex time and increase individual focus time, while decreasing "set switching" among workflows. 
-   - Each user workgroup meeting is depicted by a box.
-   - Time to prepare for the user workgroup meeting or follow-up after the meeting is depicted by color.
- 
-Depicted is **16 scheduled hours** of user workgroup meetings per week (40% of a 40 hour week). And, no less than 8 hours of individual focus time (either through a "4 10s" or a "5 8s" schedule.
- 
-**Percent of the 32 hours focused on each of these major Workflows:**
-   - **31.25% Cross-Cutting** (Workgroup Leads, Support Workgroups, HQ)= **10 hours/week**
-   - **25% + Flex up to 50% for Research** (Manuscripts, Co-I, Qual, Quant) = **8 hours/week**
-   - **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
-   - **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
+The schedule depicts a standard **Team PSD Tour of Duty from 8AM-4PM Pacific Mon-Thurs**. It is designed to increase individual flex time and increase individual focus time, while decreasing "set switching" among workflows.
 
-![](https://user-images.githubusercontent.com/59668647/94718051-fed4a280-0305-11eb-966d-2ad95422c2d2.png)
+- Each user workgroup meeting is depicted by a box.
+- Time to prepare for the user workgroup meeting or follow-up after the meeting is depicted by color.
+
+Depicted is **16 scheduled hours** of user workgroup meetings per week (40% of a 40 hour week). And, no less than 8 hours of individual focus time (either through a "4 10s" or a "5 8s" schedule.
+
+Percent of the 32 hours focused on each of these major Workflows:
+
+- **31.25% Cross-Cutting** (Workgroup Leads, Support Workgroups, HQ)= **10 hours/week**
+- **25% + Flex up to 50% for Research** (Manuscripts, Co-I, Qual, Quant) = **8 hours/week**
+- **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
+- **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
+
+![ ](https://user-images.githubusercontent.com/59668647/94718051-fed4a280-0305-11eb-966d-2ad95422c2d2.png)
 
 The table below describes all of the TeamPSD workgroups including their Workgroup Lead, Meeting Time, and Role. For each meeting, it is the responsibility of the Workgroup Lead or HQ point person to:
 
-1. Set the agenda
-
-2. Check RSVP’s for attendees 
-
-3. Clean up meeting notes for clarity
-
-4. Send the follow-up email 
+1. Set the agenda.
+2. Check RSVP’s for attendees.
+3. Clean up meeting notes for clarity.
+4. Send the follow-up email.
 
 |Workgroup (Workgroup Lead) (Meeting Time)|Role|
 |------------------------------------------|-----|
@@ -171,8 +195,8 @@ The table below describes all of the TeamPSD workgroups including their Workgrou
 |Workgroup Leads & Support Workgroups (Stacey/Anthony/Jenn/James) (Mon 8:00a-10:00a Pacific | Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |
 |VAPOR (Jenn) (4th Tues 2:00-3:00p Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives|
 
-
 ### GitHub Labels Table
+
 Labels shall be assigned a color, expressed in lowercase and use an underscore in lieu of a space. Below is the list of labels and their purpose:
 
 Label|Purpose
@@ -198,7 +222,7 @@ vapor | *description to come*
 
 **Team PSD integrates Waterfall** principles because:
 
-- We are a **research team** that cannot deviate in quality, scope, timeline or cost from our thoroughly developed and vetted **research plan**
+- We are a **research team** that cannot deviate in quality, scope, timeline or cost from our thoroughly developed and vetted **research plan.**
 - Therefore, there are several **well-defined scientific requirements** where change cannot occur - unless the PI and co-I senior scientists advise an operational definition or implementation detail is within the scope of the federally funded and registered, scientifically peer-reviewed, and VA ORD and Stanford IRB reviewed procedures.
 
 ### Agile
@@ -206,7 +230,7 @@ vapor | *description to come*
 **Team PSD integrates Agile** principles because:
 
 - Our research team’s method is a an implementation of **participatory system dynamics** in a national production environment.
-- These methods **historically have iterated in-person** locally. 
+- These methods **historically have iterated in-person** locally.
 - Our innovation is local priorities, local data and local insights at national scale, made possible using **online platforms** and **virtual processes**.
 
 **Team PSD integrates Waterfall and Agile** principles because:
@@ -219,17 +243,17 @@ vapor | *description to come*
 
 **Team PSD integrates Lean** principles because:
 
-- Team PSD **_processes_** are assessed for continuous improvement (kaizen/muda elimination)
-- Team PSD **_communication_** is designed to reduce rework (muda/waste)
-- Team PSD encourages **_minimum viable products_** to find and synthesize team and partner expertise (just-in-time) 
-- Team PSD **_platforms_** are designed to increase visual production controls (kanban/signboard; andon alerts)
+- Team PSD **_processes_** are assessed for continuous improvement (kaizen/muda elimination).
+- Team PSD **_communication_** is designed to reduce rework (muda/waste).
+- Team PSD encourages **_minimum viable products_** to find and synthesize team and partner expertise (just-in-time).
+- Team PSD **_platforms_** are designed to increase visual production controls (kanban/signboard; andon alerts).
 - Note: VA uses Lean as a primary approach to healthcare quality improvement.
 
 ### Scrum
 
 **Team PSD integrates Scrum** principles because:
 
-- We need to be able keep work produced by our t**ransdisciplinary research team** on the same page with our **cross-functional team**.
+- We need to be able keep work produced by our **transdisciplinary research team** on the same page with our **cross-functional team**.
 - Therefore, we use **sprints** (epics/milestones)so that the **team priorities** can be aligned/re-aligned efficiently.
 - We also use **workgroup leads** (scrum masters), **workgroups** (owners) and **workgroup** meetings to benefit from the efficiency of **divvying up/delegating**, while also identifying **dependencies** and remove **blocks**.
 - We use **GitHub/ZenHub** and **daily huddles** to assign, scope, prioritize, manage and review our capacity, requirements, estimates - this includes **Project Kanbans, Issue Cards, Pipelines & Reporting**.
@@ -244,19 +268,23 @@ vapor | *description to come*
 
 ### Continuous Collaboration
 
-**Continuous Collaborative Iteration Cycles (e.g., “DevOps”)**
+Continuous Collaborative Iteration Cycles (e.g., “DevOps”)
 
 - Standard Operations > Workgroup Meetings > Monthly Priorities > Requirements gathering standardization for features
-- Tools for team members to understand cross-functional “stakes” efficiently 
-- “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._ **We need the code level next...because...**
+- Tools for team members to understand cross-functional “stakes” efficiently
+- “Continuous integration” to avoid “merge conflicts” - _Quotes are meant to clarify that we have this problem at a communication and conceptual level, not just a code level._
+
+We need the code level next...because...
+
 - Ideally...**testing,** **deploying** and **documenting** would be increasingly automated.
 - REALLY need continuous documentation and training.
 
 ## Project Trackers
 
-Team PSD uses the following 4 project trackers on GitHub to track incoming **bugs**, develop new **features**, create/update **documentation**, and ensure the progression of submitting **manuscripts**, all from a glance by looking at each of their respective trackers as a dashboard to see the status, progression, and completion of open issues. 
+Team PSD uses the following 4 project trackers on GitHub to track incoming **bugs**, develop new **features**, create/update **documentation**, and ensure the progression of submitting **manuscripts**, all from a glance by looking at each of their respective trackers as a dashboard to see the status, progression, and completion of open issues.
 
 ### bug_tracker
+
 The [bug_tracker](https://mtl.how/bugs) is divided into 6 columns described below.  The purpose of the issue_tracker is to provide triage and track the disposition of issues that require action by one or more workgroups. Issues labeled as “bugs” will be tracked here.
 
 1. needs_triage - This column is the main intake for all issues assigned to the issue_tracker. All issues requiring a disposition will land here. When an issue lands in this section, any team lead may review it and alert other leads as to the action required.
@@ -268,18 +296,20 @@ The [bug_tracker](https://mtl.how/bugs) is divided into 6 columns described belo
 1. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
 
 ### feature_tracker
+
 The [feature_tracker](https://mtl.how/features) is divided into 9 columns described below.  The purpose of the feature_tracker is to report and maintain information regarding the analysis of dependencies and work-content, and track the progress of issues that require development. Issues labeled as “features” will be tracked here.
 
-1. work_breakdown - Validated feature requirements that have received a disposition are listed here.  Issues in this column are analyzed by Workgroup Leads for dependencies, effort content and milestones they may support (see Appendix 1 - issue_template). Issues will progress from this section to either the operations_to_do (ranked) or the research_to_do (ranked) sections.  
-1. operations_to_do (ranked) - Features that require research, design and development of products in one or more workgroups are listed here in order of priority by due date indicated in the title.  Issues here may be reprioritized at any time. 
+1. work_breakdown - Validated feature requirements that have received a disposition are listed here.  Issues in this column are analyzed by Workgroup Leads for dependencies, effort content and milestones they may support (see Appendix 1 - issue_template). Issues will progress from this section to either the operations_to_do (ranked) or the research_to_do (ranked) sections.
+1. operations_to_do (ranked) - Features that require research, design and development of products in one or more workgroups are listed here in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
 1. research_to_do (ranked) - Features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements are listed there in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
-1. under_development - Operations or research features under development are listed here. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups. 
+1. under_development - Operations or research features under development are listed here. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups.
 1. functional_testing - Features that are currently being tested for basic functionality (i.e. does it work?) are listed here. Some issues may skip this step and go directly from “under_development” to “done.”
 1. done - This column contains completed issues.  Responsible Workgroup Leads shall communicate completion of the action to the originator in the issue thread.  The originator shall review the action, indicate their satisfaction/dissatisfaction.  Once the originator is satisfied, the originator should close the issue and it will automatically go in the closed column.
 1. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
-1. future_release – This column contains unresolved feature ideas that would be great to include in a future MTL release, but currently is not a pressing need. 
+1. future_release – This column contains unresolved feature ideas that would be great to include in a future MTL release, but currently is not a pressing need.
 
 ### document_tracker
+
 The [document_tracker](https://mtl.how/documents) is divided into 5 columns described below.  The purpose of the document_tracker is to track documentation dependencies at 5 levels for each of the 12 sessions of Modeling to Learn. There will be a card for each session of the 12 sessions in each of the 5 Kanban columns which will be closed & reopened as interdependencies get identified.
 
 Each column also has a “meta” card which is used to indicate interdependencies that are relevant to all/most of the 12 sessions as well as policy & workflow decisions specific to that documentation column.
@@ -287,10 +317,11 @@ Each column also has a “meta” card which is used to indicate interdependenci
 1. describe_learners – Documentation dependencies relevant to learners, including SEE guides
 1. detail_facilitators - Documentation dependencies relevant to facilitators, including SAY guides & one-pagers
 1. document_team - Documentation dependencies relevant to TeamPSD, including cheatsheets
-1. dissemintate_scientists_va - Documentation dependencies relevant to co-investigators & larger scientific audience, including progress reports, code, grants, etc.
+1. disseminate_scientists_va - Documentation dependencies relevant to co-investigators & larger scientific audience, including progress reports, code, grants, etc.
 1. depend_products - Documentation dependencies relevant to other MTL products, including videos
 
 ### manuscript_tracker
+
 The [manuscript_tracker](https://mtl.how/manuscripts) is divided into 10 columns described below. The purpose of the manuscript_tracker is to track progress of manuscripts through 10 major stages until ready for publication.
 
 DO NOT post any direct manuscript content to GitHub; all drafts and related materials will be posted on the relevant OSF project. There will be a card per manuscript that moves through the tracker.
@@ -305,4 +336,3 @@ DO NOT post any direct manuscript content to GitHub; all drafts and related mate
 1. 08_resubmit – Manuscript is resubmitted to relevant journals
 1. 09_accept – Manuscript is accepted for publishing by journals
 1. 10_publish_publicize – Manuscript is published!
-
