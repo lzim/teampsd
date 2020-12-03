@@ -5,6 +5,8 @@ date: "2020 May 21"
 output: .md
 ---
 
+THIS IS A TEST FILE l l l l l
+
 This vignette describes the steps necessary to edit/add rules to  the `.markdownlint.yml` file in the root of the repository.
 
 For a video, click [here](https://youtu.be/dhrLOyaFDSg).
