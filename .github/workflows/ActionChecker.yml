@@ -10,8 +10,8 @@ on:
       - "[Ff]eature-*" 
     paths:
     - '**.md'
-  #pull_request:
-    #branches: [ gh-pages ]
+  pull_request:
+    branches: [ QA ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -29,9 +29,26 @@ jobs:
         fetch-depth: "0"
     
     - name: '' #get changed files
+      id: getfileCount
+      run: |
+        echo "::set-output name=filesCount::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md'| wc -l)"
+    
+    - name: '' #get changed files
       id: getfile
       run: |
-        echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | xargs)"
+        echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md' | xargs)"
+        
+    - name: '' #get changed fileName
+      if: ${{ steps.getfileCount.outputs.filesCount  == 1}}
+      id: getfileName
+      run: |
+        echo "::set-output name=fileName::$(basename -a ${{ steps.getfile.outputs.files }})"
+    
+    - name: '' #get changed fileName Only
+      if: ${{ steps.getfileCount.outputs.filesCount  == 1}}
+      id: getfileNameOnly
+      run: |
+        echo "::set-output name=fileNameOnly::$(echo ${{ steps.getfileName.outputs.fileName }} | cut -f 1 -d '.')"
     
     - name: '' #get changed files
       id: getDirName
@@ -41,8 +58,11 @@ jobs:
     #- name: echo output
       #run: |
         #echo ${{ steps.getfile.outputs.files }}
+        #echo ${{ steps.getfileName.outputs.fileName }}
+        #echo ${{ steps.getfileNameOnly.outputs.fileNameOnly }}
         #echo ${{ steps.getDirName.outputs.dirs }}
     
+   
     - name: Spell Checker
       if: always()  
       uses: zwaldowski/cspell-action@1.0.0
@@ -75,9 +95,10 @@ jobs:
         search_paths: ${{ steps.getDirName.outputs.dirs }} # optional
         # Verbose mode for markdown-link-check
         #verbose: # optional
-                
-    - name: Markdown Linter
-      if: always()  
+
+#This portion of code will execute if a single markdown file within a folder is changed.  If no markdown file is changed, or more than one file is changed, then the entire directory will be checked.
+    - name: Markdown Linter for Changed File Scan 
+      if: ${{ always() && steps.getfileCount.outputs.filesCount == 1}}   
       uses: ruzickap/action-my-markdown-linter@v0.0.1
       with:
         # markdownlint config file
@@ -87,7 +108,23 @@ jobs:
         # Exclude files or directories
         #exclude: # optional
         # Command line parameters for fd command. "exclude" and "search_paths" parameters are ignored if this is set
-        #fd_cmd_params: # optional
+        fd_cmd_params: "-0 --extension md ${{ steps.getfileNameOnly.outputs.fileNameOnly }} --type f --hidden --no-ignore --full-path ${{ steps.getDirName.outputs.dirs }}" # optional
+        # Set paths which should be recursively scanned for markdown files (*.md) and linted. By default all "*.md" files are checked
+        #search_paths: ${{ steps.getDirName.outputs.dirs }} # optional
+    
+#This portion of code will execute if no markdown files, or more than one markdown file is changed and will check the entire directory.
+    - name: Markdown Linter for Directory Level Scan
+      if: ${{ always() && steps.getfileCount.outputs.filesCount != 1}}   
+      uses: ruzickap/action-my-markdown-linter@v0.0.1
+      with:
+        # markdownlint config file
+        config_file: .github/workflows/markdownlint.json # optional
+        # Debug mode
+        #debug: # optional
+        # Exclude files or directories
+        #exclude: # optional
+        # Command line parameters for fd command. "exclude" and "search_paths" parameters are ignored if this is set
+        #fd_cmd_params: "-0 --extension md ${{ steps.getfileNameOnly.outputs.fileNameOnly }} --type f --hidden --no-ignore --full-path ${{ steps.getDirName.outputs.dirs }}" # optional
         # Set paths which should be recursively scanned for markdown files (*.md) and linted. By default all "*.md" files are checked
         search_paths: ${{ steps.getDirName.outputs.dirs }} # optional
    
@@ -99,7 +136,7 @@ jobs:
         # Branch name to pull from, default is triggered branch
         #source_branch: 'Feature' # optional
         # Branch name to sync to in this repo, default is master
-        destination_branch: 'gh-pages' # optional, default is master
+        destination_branch: 'QA' # optional, default is master
         # Pull request title
         #pr_title: # optional
         # Pull request body
