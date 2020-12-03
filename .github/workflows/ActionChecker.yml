@@ -97,7 +97,7 @@ jobs:
         #verbose: # optional
                 
     - name: Markdown Linter for Changed File 
-      if: always() && ${{ steps.getfileCount.outputs.filesCount  == 1}}   
+      if: always() #&& ${{ steps.getfileCount.outputs.filesCount  == 1}}   
       uses: ruzickap/action-my-markdown-linter@v0.0.1
       with:
         # markdownlint config file
