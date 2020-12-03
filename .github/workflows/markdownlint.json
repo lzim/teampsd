@@ -27,6 +27,5 @@
   "no-space-in-emphasis":true,
   "no-space-in-links":true,
   "no-empty-links":true,
-  "no-alt-text":true
-
+  "no-alt-text":true 
 }
