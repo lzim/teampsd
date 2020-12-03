@@ -95,9 +95,10 @@ jobs:
         search_paths: ${{ steps.getDirName.outputs.dirs }} # optional
         # Verbose mode for markdown-link-check
         #verbose: # optional
-                
-    - name: Markdown Linter for Changed File 
-      if: always() && ${{ steps.getfileCount.outputs.filesCount  == 1}}   
+
+#This portion of code will execute if a single markdown file within a folder is changed.  If no markdown file is changed, or more than one file is changed, then the entire directory will be checked.
+    - name: Markdown Linter for Changed File Scan 
+      if: ${{ always() && steps.getfileCount.outputs.filesCount == 1}}   
       uses: ruzickap/action-my-markdown-linter@v0.0.1
       with:
         # markdownlint config file
@@ -111,8 +112,9 @@ jobs:
         # Set paths which should be recursively scanned for markdown files (*.md) and linted. By default all "*.md" files are checked
         #search_paths: ${{ steps.getDirName.outputs.dirs }} # optional
     
+#This portion of code will execute if no markdown files, or more than one markdown file is changed and will check the entire directory.
     - name: Markdown Linter for Directory Level Scan
-      if: always() && ${{ steps.getfileCount.outputs.filesCount != 1}}   
+      if: ${{ always() && steps.getfileCount.outputs.filesCount != 1}}   
       uses: ruzickap/action-my-markdown-linter@v0.0.1
       with:
         # markdownlint config file
