@@ -1,10 +1,10 @@
 {
   "default": true,
   "MD004": { "style": "consistent" },
-  
   "MD007": { "indent": 2 },
   "MD009": { "br_spaces": 2 },
   "MD011": { "code_blocks": true },
+  "MD013": { "line_length": 500 }, "line-length": false,
   "MD018": { "maximum": 1 },
   "MD022": { "lines_above": 1 },
   "MD024": { "siblings_only": true },
@@ -27,7 +27,5 @@
   "no-space-in-emphasis":true,
   "no-space-in-links":true,
   "no-empty-links":true,
-  "no-alt-text":true
-  
- 
+  "no-alt-text":true 
 }
