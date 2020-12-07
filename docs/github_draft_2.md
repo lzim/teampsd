@@ -146,4 +146,3 @@ If an individual desires to update a model, the action will automatically conver
 7. When completed with testing, open a pull request to merge Test with Master branch.
 8. When review completed, merge the Test branch to Master branch.
 9. When Test is pushed to Master, the action will convert the .mdl file to binary (.vmf) and deploy to Forio Epicenter VA Sim UI PROD project. The action will also execute the SD-DOC program and create an SD-DOC .html file and deploy to the lzim/mtl/blue/mtl2.0_model folder.
-
