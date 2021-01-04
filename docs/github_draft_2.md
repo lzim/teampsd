@@ -130,22 +130,3 @@ To support the publication of a bookdown manual, a special branch is required na
 6. Open a pull request to merge with the gh-pages branch.  This will trigger the spell checker, link checker and markdown style checkers and signal reviewers that a check is needed.
 7. Navigate to the Actions tab to resolve any issues found by the linters.
 8. After review, the reviewer will merge the branches.  This will trigger the bookdown publishing action to publish the updated manual.
-
-## Update a Model File Using the Dev, Test and Master Branches
-
-_Please note:  Vensim cannot run in actions associated with web-based GitHub. All edits and file conversions must be run on a client machine with associated license. Batch files can be run to save time, but these outputs must be produced on a licensed client and pushed to origin via a client git such as GitHub desktop._
-
-If a user desires to update a model, they must push the update in three versions, .mdl (Vensim readable format), .vmfx (Vensim binary) and .xmile (SD standard) to the DEV branch (see figure below). The push will trigger an action that will deploy the model files to their respective locations. As the model moves through development and test, the associated model files will deploy incrementally to associated Epicenter projects (i.e., Dev branch merges with the Test branch, files deploy to Epicenter test project; when the Test branch merges with Master branch, files deploy to Epicenter PROD projects). Upon merge with the Test or Master branch, the action will create a standardized .html System Dynamics Document file and deploy the file to the lzim/mtl/blue/mtl2.0_models folder.
-
-![model update branch process image](https://user-images.githubusercontent.com/30132017/102918811-7f55fb80-443c-11eb-8ff6-82a90c90f887.png)
-
-1. Navigate to the lzim/mtl Dev branch.  Ensure the branch is up-to-date with the Master branch.  If not, merge Master to Dev to bring it up to date.
-2. From the Dev branch, update the desired .mdl model file. This can be done on a client by modifying the cloned file on a client using a licensed copy of Vensim (recommend Vensim version 8.4).
-3. When development is complete, save .mdl, .vmfx and .xmile versions of the file.
-4. Push modified files to origin and note changes in comments field.
-5. When development activities are concluded, open a pull request to merge Dev with Test. Fix any errors and merge the two branches.
-6. Upon merge to Test, the files will be deployed to the Forio Epicenter VA Sim UI Test Slow project.
-7. Conduct user acceptance testing.
-8. When user acceptance testing is completed, open a pull request to merge Test with Master branch.
-9. When reviewer have signed off, merge the Test branch to Master branch.
-10. When Test is merged with Master, the action will deploy .vmfx file to Forio Epicenter VA Sim UI PROD project. The action will also execute the SD-DOC program and create an SD-DOC .html file and deploy to the lzim/mtl/blue/mtl2.0_model folder.
