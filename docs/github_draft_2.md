@@ -145,7 +145,7 @@ If a user desires to update a model, they must push the update in three versions
 4. Push modified files to origin and note changes in comments field.
 5. When development activities are concluded, open a pull request to merge Dev with Test. Fix any errors and merge the two branches.
 6. Upon merge to Test, the files will be deployed to the Forio Epicenter VA Sim UI Test Slow project.
-7. Conduct user acceptance testing.
+7. Conduct user-acceptance testing.
 8. When user acceptance testing is completed, open a pull request to merge Test with Master branch.
 9. When reviewer have signed off, merge the Test branch to Master branch.
 10. When Test is merged with Master, the action will deploy .vmfx file to Forio Epicenter VA Sim UI PROD project. The action will also execute the SD-DOC program and create an SD-DOC .html file and deploy to the lzim/mtl/blue/mtl2.0_model folder.
