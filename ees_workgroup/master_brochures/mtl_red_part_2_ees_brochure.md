@@ -52,11 +52,11 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the parameters that are calculated by the *MTL* Data User Interface for Care Coordination, Medication Management, Psychotherapy, Aggregate Mix of Services and Measurement Based Stepped Care and Suicide Prevention.
+1. Describe your team trends over the last two years based on the estimates in the team data table.
 
-2.	Test your expectations against calculated overall team statistics for CC, MM, PSY, AGG, and SP.
+2. Test your understanding of how the team data are estimated by reviewing descriptions and definitions.
 
-3.	Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
+3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
 ## Pre-Test: No
 
