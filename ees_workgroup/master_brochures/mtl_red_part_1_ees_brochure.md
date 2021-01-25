@@ -11,8 +11,8 @@ output:
 ---
 
 <!-- MTL Logo, HTML img tag -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_testdontguess_sm.png?raw=true"
+     height = "130" width = "500">](#DontLink) 
 
 ## Title: *Modeling to Learn Red, Part 1*
 
