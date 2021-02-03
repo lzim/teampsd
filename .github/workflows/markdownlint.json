@@ -27,6 +27,6 @@
   "no-space-in-links":true,
   "no-empty-links":true,
   "no-alt-text":true,
-  "no-duplicate-heading":false.
+  "no-duplicate-heading":false,
   "no-trailing-punctuation":false"
 }
