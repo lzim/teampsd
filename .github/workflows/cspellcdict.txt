@@ -3155,3 +3155,8 @@ youtube
 YouTube
 gmail
 Gmail
+vmf
+mdl
+html
+vmfx
+xmile

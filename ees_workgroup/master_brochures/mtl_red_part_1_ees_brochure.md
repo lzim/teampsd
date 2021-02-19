@@ -11,8 +11,8 @@ output:
 ---
 
 <!-- MTL Logo, HTML img tag -->
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_testdontguess_sm.png?raw=true"
+     height = "130" width = "500">](#DontLink) 
 
 ## Title: *Modeling to Learn Red, Part 1*
 
@@ -52,11 +52,11 @@ Multidisciplinary staff teams in VAHS outpatient mental health clinics:
 
 ## Objectives: 
 
-1.	Describe the criteria determined to build your team in the *MTL* Data User Interface.
+1. Describe the decisions your team made in producing your team data table.
 
-2.	Test your expectations about team historical trends against actual results in the "data", "viz" and "count" tabs.
+2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
 
-3.	Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
+3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 ## Pre-Test: No
 

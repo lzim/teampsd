@@ -13,8 +13,8 @@ output:
 # *Modeling to Learn* how to how to compare alternatives.
 <!-- MTL Logo, HTML img tag -->
 ## Session 10: Post-test Questions	
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "130" width = "500">  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_testdontguess_sm.png?raw=true"
+     height = "130" width = "500">](#DontLink) 
 
 **1. You have logged in to mtl.how/sim and want to pull up a prior experiment. You should…:**  
 
