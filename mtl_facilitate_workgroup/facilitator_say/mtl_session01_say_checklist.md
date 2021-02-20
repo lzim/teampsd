@@ -39,19 +39,25 @@ output:
 
 ## Start in-session exercise. Provide clarity on what we are trying to accomplish together with “Modeling to Learn” and the importance of creating a team learning goal.
 **Goal:**  to move from “my vision” to “our vision” using shared decision-making. Together, the clinic team lead and facilitation team will explore “What’s can be done better?” in a way that reflects common team aspirations. 
-[ ] Setting ground rules for learning sessions
+
+- [ ] Setting ground rules for learning sessions
 -	Write down characteristics of good learning experience
 -	Facilitate discussion on characteristics that were written down
-[ ] Best Case Scenario
+
+- [ ] Best Case Scenario
 -	Picture Veteran mental health care in this team as you experience it now. Consider interactions and communications within the team, in and out of team meetings. Think of the information and data you use to coordinate care plans, and the feelings you associate with it.
 -	Next, picture the team learning over the next 6 months in a *best case* scenario where the team is functioning in an ideal way – this is your *dream team* situation.
-[ ] Personal Vision
+
+- [ ] Personal Vision
 -	Personal vision for the team.
 -	Consider: team member relations, team planning and decision-making, use of VA data to inform team care.
-[ ] Review in Team
+
+- [ ] Review in Team
 -	Facilitate discussion of individual personal visions for the team.
 -	Identify any themes and those visions the team would most like to address.
-[ ] Putting It Together
+
+
+- [ ] Putting It Together
 + Putting it all together, overall *Modeling to Learn* objectives include activities and competencies that:  
   a. Are meaningful for you and align your learning goals with your team.  
   b. Develop systems thinking skills and help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.  
@@ -59,7 +65,8 @@ output:
   d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
-[ ] Select the Team Vision
+
+- [ ] Select the Team Vision
 
 ### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
 
