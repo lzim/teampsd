@@ -129,14 +129,14 @@ jobs:
         search_paths: ${{ steps.getDirName.outputs.dirs }} # optional
    
           
-    - name: GitHub Pull Request Action
-      if: always()  
-      uses: repo-sync/pull-request@v2.3
-      with:
+     #- name: GitHub Pull Request Action #Disable
+      #if: always()  #Disable
+      #uses: repo-sync/pull-request@v2.3 #Disable
+      #with: #Disable
         # Branch name to pull from, default is triggered branch
         #source_branch: 'Feature' # optional
         # Branch name to sync to in this repo, default is master
-        destination_branch: 'QA' # optional, default is master
+        #destination_branch: 'QA' # optional, default is master #Disable
         # Pull request title
         #pr_title: # optional
         # Pull request body
@@ -144,7 +144,7 @@ jobs:
         # Pull request template
         #pr_template: # optional
         # Pull request reviewers, comma-separated list (no spaces)
-        pr_reviewer: 'lijenn,branscombj,dlkibbe,jamesmrollins' # optional
+        #pr_reviewer: 'lijenn,branscombj,dlkibbe,jamesmrollins' # optional #Disable
         # Pull request assignees, comma-separated list (no spaces)
         #pr_assignee: # optional
         # Pull request labels, comma-separated list (no spaces)
@@ -156,4 +156,4 @@ jobs:
         # Create PR even if no changes
         #pr_allow_empty: # optional
         # GitHub token secret
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        #github_token: ${{ secrets.GITHUB_TOKEN }} #Disable

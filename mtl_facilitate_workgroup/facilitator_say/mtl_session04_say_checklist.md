@@ -1,8 +1,7 @@
 ---
 title: "MTL Session 04 - Facilitator Checklist"
 author: "Team PSD"
-date: "AP February 5, 2020 | DK March 6 2020
-
+date: "AP February 5, 2020 | DK March 6 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
