@@ -26,7 +26,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of ___________; selected our Team Lead __________; and set a standing team meeting time at __________. We logged in to mtl.how/data to look at the splash page.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_ relevant to our Team Vision. |  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of ___________; selected our Team Lead __________; and set a standing team meeting time at __________. We logged in to mtl.how/data to look at the Facility file.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_ relevant to our Team Vision. |  
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -67,16 +67,17 @@ output:
 - [ ] On the next page, select your team's facility **______________**.  
     - A web version of Excel will open on your screen, showing charts from your facility's data.  
 
-### 2. This splashpage is designed so see trends for the last two years relevant to your team vision of **__________________________**.  Let's explore the information available in the BISL sharepoint splash page:  
+### 2. The Facility file is designed so see trends for the last two years relevant to your team vision of **__________________________**.  Let's explore the information available in the BISL sharepoint Facility file:  
 - [ ] Review two sets scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls within the graphs on the page.
-- [ ] Have Team Lead review three types of View options on the upper right menu. __________________ 
+- [ ] Have Team Lead review three types of View options on the upper right menu.
+
 View | Displays 
 -- | --
 Count | Count tables that match the viz graphs
 Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
-#### There are four main data sets in the splash page:
+#### There are four main data sets in the Facility file:
 [Facilitator – review rankings of the highest priority data categories to emphasize for this team.]
 
 Rank | Data | Displays 
@@ -132,6 +133,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 -	**Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
 
 ### 6. Click to view the "viz" tabs, which show team trends.  
+
     [ ] Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
     [ ] **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
@@ -146,10 +148,11 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.  
+
     [ ]  Patients with restricted access to their information have asterisks (****) in Column F & G.  
     [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
-    [ ] Providers can filter to find specific patients, or produce reports.  
-  
+    [ ] Providers can filter to find specific patients, or produce reports.
+    
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
 
 
