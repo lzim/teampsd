@@ -251,7 +251,7 @@ vapor | *description to come*
 
 #### Andon Alerts
 
-- Team PSD uses **_Andon Principles_** to manage bug reports and triage **as soon as possible.**
+- Team PSD uses **_Andon Principles_** to manage bug reports and triage the issue **as soon as possible.**
 - Team PSD follows three core ideas when addressing an andon.
   - **Scope** - Analyze the impact of the issue and determine who the critical users are that need to be informed.
   - **Alert** - As soon as scoping is complete inform the impacted users of the issue and how to track it's resolution. Providing work arounds if needed.
