@@ -249,6 +249,14 @@ vapor | *description to come*
 - Team PSD **_platforms_** are designed to increase visual production controls (kanban/signboard; andon alerts).
 - Note: VA uses Lean as a primary approach to healthcare quality improvement.
 
+#### Andon Alerts
+
+- Team PSD uses **_Andon Principles_** to manage bug reports and triage **as soon as possible.**
+- Team PSD follows three core ideas when addressing an andon.
+  - **Scope** - Analyze the impact of the issue and determine who the critical users are that need to be informed.
+  - **Alert** - As soon as scoping is complete inform the impacted users of the issue and how to track it's resolution. Providing work arounds if needed.
+  - **Communicate** - Until the issue is resolved maintain open lines of communication and provide consistent status updates.
+
 ### Scrum
 
 **Team PSD integrates Scrum** principles because:
