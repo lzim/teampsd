@@ -15,8 +15,8 @@ output:
 
 
 <!-- MTL Logo, HTML img tag -->
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/red_sessions/mtl_red_session1_data_ui.png"
-     height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md)
+[<img src = "https://github.com/lzim/teampsd/blob/pre_post_mtl_red_link_fix/resources/title_slides_weeks/mtl_how_week1.png?raw=true"
+     height = "175" width = "320">](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md)
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/edwards_vapor.jpg" height="250" width="420">](https://youtu.be/uaXbTnE8Vts)    
 
 # This week we're modeling to learn how to get a team data table.
