@@ -7,8 +7,9 @@ NOTE: Skip step 5. For step 6, just create a regular pull request process for no
 
 # How to Contribute:
 
-## 1.	Create a new branch from the GH-Pages Branch.
-![image](https://user-images.githubusercontent.com/59668647/109523939-c677f280-7a64-11eb-9dc6-e8d0acdca5b9.png)
+## 1.	Create a Feature branch from the GH-Pages Branch.
+Start by creating a feature branch with the beginning of the branch name with "feature-".
+![image](https://user-images.githubusercontent.com/59668647/108416486-9702f380-71e3-11eb-8b1f-9a56e6221e4d.png)
 
 
 ## 2.	Create a new markdown file into the branch.
@@ -50,16 +51,9 @@ Example:
 
 This is a great way to check the formatting and output of your markdown file in the actual Manual before you hand off the review for QA Test.
 
-## (SKIP FOR NOW) 5.	Check your file against the GH Actions by making a pull request to the QA branch.
+## 5.	Check your file against the GH Actions by making a pull request to the GH-Pages master branch.
 - Assign QA Test reviewers and check for a red X by each GH Action and read the output of where errors occurred.
-- Once the reviewers have given feedback, merge the Feature branch into the QA branch.
+- Once the reviewers have given feedback, merge the Feature branch into the GH-Pages branch.
 
-## (Just create a regular pull request process for now (i.e Create a pull requeust using the branch your created in the GH-Pages branch and assign it to merge into the GH-Pages branch, TBD for QA branch at the moment) 
-## 6.	Assign QA Prod from QA branch
-- Make the changes/feedback you received from both the GH Actions and reviewers from the Feature branch. 
-- Once you are done, you are now in QA Prod.
-    - Create a pull request from the QA branch to the Master branch and assign QA Prod reviewers for a final review.
-- If there is still feedback to incorporate make the final changes and ensure your QA Prod reviewer checks off the changes before pushing the edits to the Master branch.
-
-## 7.	Publish your Chapter to aaster GH-pages branch.
-Merge the QA branch into GH-pages's master branch.
+## 6.	Publish your Chapter to master GH-pages branch.
+Merge the Feature branch into GH-pages's master branch and double check that your chapter was published at https://mtl.how/teampsd_manual
