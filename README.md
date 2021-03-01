@@ -48,7 +48,7 @@ Example:
 - Add your markdown file name in the order of which the file should appear in the manual in line 6 within the brackets.
     - Make sure to include quotations around the file name and a comma, if needed.
  
-![image](https://user-images.githubusercontent.com/59668647/109501279-3e85ee80-7a4c-11eb-9c38-6cb3c8983919.png)
+![image](https://user-images.githubusercontent.com/59668647/109550554-4e212980-7a84-11eb-8923-ce123e12bab8.png)
 
 This is a great way to check the formatting and output of your markdown file in the actual Manual before you hand off the review for QA Test.
 
