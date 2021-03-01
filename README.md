@@ -50,10 +50,11 @@ Example:
 
 This is a great way to check the formatting and output of your markdown file in the actual Manual before you hand off the review for QA Test.
 
-## 5.	Check your file against the GH Actions by making a pull request to the QA branch.
+## (SKIP FOR NOW) 5.	Check your file against the GH Actions by making a pull request to the QA branch.
 - Assign QA Test reviewers and check for a red X by each GH Action and read the output of where errors occurred.
 - Once the reviewers have given feedback, merge the Feature branch into the QA branch.
 
+## (Just create a regular pull request process for now (i.e Create a pull requeust using the branch your created in the GH-Pages branch and assign it to merge into the GH-Pages branch, TBD for QA branch at the moment) 
 ## 6.	Assign QA Prod from QA branch
 - Make the changes/feedback you received from both the GH Actions and reviewers from the Feature branch. 
 - Once you are done, you are now in QA Prod.
