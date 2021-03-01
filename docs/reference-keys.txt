@@ -26,6 +26,7 @@ project-management-flowmap-needed
 waterfall
 agile
 lean
+andon-alerts
 scrum
 team-pain-points
 continuous-collaboration
