@@ -51,6 +51,10 @@ This is a great way to check the formatting and output of your markdown file in 
 ## 5.	Check your file against the GH Actions by making a pull request to the GH-Pages master branch.
 - Assign QA Test reviewers and check for a red X by each GH Action and read the output of where errors occurred.
    - Click on "Details" in the ActionChecker Action to be navigated to the Spell, Link, and Linter checkers.
+![image](https://user-images.githubusercontent.com/59668647/109557953-a3156d80-7a8d-11eb-992a-fb4fdc489334.png)
+
+![image](https://user-images.githubusercontent.com/59668647/109558194-f25b9e00-7a8d-11eb-80e4-91d4766314be.png)
+
 - Once edits based on failed checks and feedback from reviewers have been implemented, merge the Feature branch into the GH-Pages branch.
 
 ## 6.	Publish your Chapter to master GH-pages branch.
