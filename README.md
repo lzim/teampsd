@@ -50,7 +50,8 @@ This is a great way to check the formatting and output of your markdown file in 
 
 ## 5.	Check your file against the GH Actions by making a pull request to the GH-Pages master branch.
 - Assign QA Test reviewers and check for a red X by each GH Action and read the output of where errors occurred.
-- Once the reviewers have given feedback, merge the Feature branch into the GH-Pages branch.
+   - Click on "Details" in the ActionChecker Action to be navigated to the Spell, Link, and Linter checkers.
+- Once edits based on failed checks and feedback from reviewers have been implemented, merge the Feature branch into the GH-Pages branch.
 
 ## 6.	Publish your Chapter to master GH-pages branch.
 Merge the Feature branch into GH-pages's master branch and double check that your chapter was published at https://mtl.how/teampsd_manual
