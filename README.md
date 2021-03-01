@@ -8,8 +8,9 @@ NOTE: Skip step 5. For step 6, just create a regular pull request process for no
 # How to Contribute:
 
 ## 1.	Create a Feature branch from the GH-Pages Branch.
-Start by creating a feature branch with the beginning of the branch name with "feature-".
-![image](https://user-images.githubusercontent.com/59668647/108416486-9702f380-71e3-11eb-8b1f-9a56e6221e4d.png)
+Start by creating a feature branch with the beginning of the branch name with "feature-gh-pages".
+![image](https://user-images.githubusercontent.com/59668647/109549842-59278a00-7a83-11eb-98ea-7618f2cf1f58.png)
+
 
 
 ## 2.	Create a new markdown file into the branch.
