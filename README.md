@@ -7,7 +7,7 @@ The rendered manual can be found [here](https://lzim.github.io/teampsd) or at ht
 
 ## 1.	Create a Feature branch from the GH-Pages Branch.
 - Start by creating a feature branch with the beginning of the branch named "feature-gh-pages".
-   - Example:  feature-gh-pages_ch_11_edits
+   - Example:  feature-gh-pages_chapter_11
 ![image](https://user-images.githubusercontent.com/59668647/109549842-59278a00-7a83-11eb-98ea-7618f2cf1f58.png)
 
 ## 2.	Create a new markdown file into the branch.
