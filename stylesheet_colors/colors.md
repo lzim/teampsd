@@ -13,8 +13,9 @@ VA Bright red | #C4262E| R = 198, G = 38, B = 46 | DS 77-1 C; C = 10, M = 100, Y
 7.	VA Green - #598527; RGB 89, 133, 39
 
 8.	VA Vibrant Green - #78BE20, RGB 120, 190, 32
-9.	VA Vibrant Light Blue (312PC) - #00A9CE; RGB 0, 169, 206 
-10.	VA Vibrant Purple (2725PC) - #685BC7 ; RGB 104, 91, 199
-11.	VA Gray (7544PC) - #768692;  118, 134, 146
+9.	VA Vibrant Light Blue - #00A9CE; RGB 0, 169, 206 
+10.	VA Vibrant Purple - #685BC7 ; RGB 104, 91, 199
+11.	VA Gray - #768692;  118, 134, 146
+12.	VA Orange - #FF5A00; 255, 90, 0
 
 
