@@ -32,5 +32,5 @@ Here are your _Modeling to Learn_ Co-Facilitators. Learn more about who we are a
 <!-- Do/Done Tables -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) **Do** |
 | --- |
-|**Before Our Next Team Meeting on Wednesday 3/24 from 9-10am Pacific**|
+|**Before Our Next Team Meeting (add date/time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Review the HF, Diag, Enc and SP tabs to find a patient (zoom in) and find a team trend (zoom out) at [mtl.how/data](https://mtl.how/data).**  |
