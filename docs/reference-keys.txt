@@ -128,6 +128,10 @@ create-a-find-and-replace-fnr-branch
 update-a-bookdown-file-using-the-gh-pages-branch
 update-a-model-file-using-the-dev-test-and-master-branches
 contribute-to-an-r-notebook
+reviewing-pull-requests
+starting-a-review
+marking-a-file-as-viewed
+submitting-your-review
 glossary
 terms
 acronyms

@@ -197,6 +197,11 @@
 <li class="chapter" data-level="11.8" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#update-a-bookdown-file-using-the-gh-pages-branch"><i class="fa fa-check"></i><b>11.8</b> Update a Bookdown File Using the “gh-pages” Branch</a></li>
 <li class="chapter" data-level="11.9" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#update-a-model-file-using-the-dev-test-and-master-branches"><i class="fa fa-check"></i><b>11.9</b> Update a Model File Using the Dev, Test and Master Branches</a></li>
 <li class="chapter" data-level="11.10" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#contribute-to-an-r-notebook"><i class="fa fa-check"></i><b>11.10</b> Contribute to an R Notebook</a></li>
+<li class="chapter" data-level="11.11" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#reviewing-pull-requests"><i class="fa fa-check"></i><b>11.11</b> Reviewing pull requests</a><ul>
+<li class="chapter" data-level="11.11.1" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#starting-a-review"><i class="fa fa-check"></i><b>11.11.1</b> Starting a review</a></li>
+<li class="chapter" data-level="11.11.2" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#marking-a-file-as-viewed"><i class="fa fa-check"></i><b>11.11.2</b> Marking a file as viewed</a></li>
+<li class="chapter" data-level="11.11.3" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#submitting-your-review"><i class="fa fa-check"></i><b>11.11.3</b> Submitting your review</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="12-glossary.html"><a href="12-glossary.html"><i class="fa fa-check"></i><b>12</b> Glossary</a><ul>
 <li class="chapter" data-level="12.1" data-path="12-glossary.html"><a href="12-glossary.html#terms"><i class="fa fa-check"></i><b>12.1</b> Terms</a></li>
@@ -436,7 +441,44 @@
 <p class="caption">github_desktop_create_pull_request.gif</p>
 </div>
 <p><strong>Step 7:</strong> Follow the steps outlined in <a href="11-track-issues-features.html#submit-a-feature">Submit a Feature</a> to submit your changes for review</p>
+</div>
+<div id="reviewing-pull-requests" class="section level2">
+<h2><span class="header-section-number">11.11</span> Reviewing pull requests</h2>
+<p>While reviewing the files in a pull request, you can leave individual comments on specific changes. After you finish reviewing each file, you can mark the file as viewed. This collapses the file, helping you identify the files you still need to review. A progress bar in the pull request header shows the number of files you’ve viewed. After reviewing the files you want, you will approve the pull request or request additional changes by submitting your review with a summary comment.</p>
+<div id="starting-a-review" class="section level3">
+<h3><span class="header-section-number">11.11.1</span> Starting a review</h3>
+<ol start="5" style="list-style-type: decimal">
+<li>Click <strong>Start a review</strong>. If you have already started a review, you can click <strong>Add review comment</strong>.
+<img src="https://github.com/github/docs/blob/main/assets/images/help/pull_requests/start-a-review-button.png?raw=true" alt="Start a review button" /></li>
+</ol>
+<p>Before you submit your review, your line comments are <em>pending</em> and only visible to you. You can edit pending comments anytime before you submit your review. To cancel a pending review, including all of its pending comments, scroll down to the end of the timeline on the Conversation tab, then click <strong>Cancel review</strong>.</p>
+<div class="figure">
+<img src="https://github.com/github/docs/blob/main/assets/images/help/pull_requests/cancel-review-button.png?raw=true" alt="" />
+<p class="caption">Cancel review button</p>
+</div>
+</div>
+<div id="marking-a-file-as-viewed" class="section level3">
+<h3><span class="header-section-number">11.11.2</span> Marking a file as viewed</h3>
+<p>After you finish reviewing a file, you can mark the file as viewed, and the file will collapse. If the file changes after you view the file, it will be unmarked as viewed.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>On the right of the header of the file you’ve finished reviewing, select <strong>Viewed</strong>.
+<img src="https://github.com/github/docs/blob/main/assets/images/help/pull_requests/viewed-checkbox.png?raw=true" alt="Viewed checkbox" /></li>
+</ol>
+</div>
+<div id="submitting-your-review" class="section level3">
+<h3><span class="header-section-number">11.11.3</span> Submitting your review</h3>
+<p>After you’ve finished reviewing all the files you want in the pull request, submit your review.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Select the type of review you’d like to leave:
+<img src="https://github.com/github/docs/blob/main/assets/images/help/pull_requests/pull-request-review-statuses.png?raw=true" alt="Radio buttons with review options" />
+<ul>
+<li>Select <strong>Comment</strong> to leave general feedback without explicitly approving the changes or requesting additional changes.</li>
+<li>Select <strong>Approve</strong> to submit your feedback and approve merging the changes proposed in the pull request.</li>
+<li>Select <strong>Request changes</strong> to submit feedback that must be addressed before the pull request can be merged.</li>
+</ul></li>
+</ol>
 
+</div>
 </div>
 </div>
             </section>
