@@ -200,7 +200,7 @@ While reviewing the files in a pull request, you can leave individual comments o
 
 ### Starting a review
 
-5. Click **Start a review**. If you have already started a review, you can click **Add review comment**.
+5. Click **Start a review**. If you have already started a review, you can simply click **Add review comment**.
   ![Start a review button](https://github.com/github/docs/blob/main/assets/images/help/pull_requests/start-a-review-button.png?raw=true)
   
   
