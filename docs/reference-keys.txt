@@ -127,6 +127,7 @@ configure-the-findreplace.yml-action-file
 create-a-find-and-replace-fnr-branch
 update-a-bookdown-file-using-the-gh-pages-branch
 update-a-model-file-using-the-dev-test-and-master-branches
+contribute-to-an-r-notebook
 glossary
 terms
 acronyms

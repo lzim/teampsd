@@ -24,7 +24,7 @@
 <meta name="author" content="Team PSD" />
 
 
-<meta name="date" content="2021-03-15" />
+<meta name="date" content="2021-03-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -196,6 +196,7 @@
 </ul></li>
 <li class="chapter" data-level="11.8" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#update-a-bookdown-file-using-the-gh-pages-branch"><i class="fa fa-check"></i><b>11.8</b> Update a Bookdown File Using the “gh-pages” Branch</a></li>
 <li class="chapter" data-level="11.9" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#update-a-model-file-using-the-dev-test-and-master-branches"><i class="fa fa-check"></i><b>11.9</b> Update a Model File Using the Dev, Test and Master Branches</a></li>
+<li class="chapter" data-level="11.10" data-path="11-track-issues-features.html"><a href="11-track-issues-features.html#contribute-to-an-r-notebook"><i class="fa fa-check"></i><b>11.10</b> Contribute to an R Notebook</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="12-glossary.html"><a href="12-glossary.html"><i class="fa fa-check"></i><b>12</b> Glossary</a><ul>
 <li class="chapter" data-level="12.1" data-path="12-glossary.html"><a href="12-glossary.html#terms"><i class="fa fa-check"></i><b>12.1</b> Terms</a></li>
@@ -396,6 +397,45 @@
 <li>When reviewer have signed off, merge the Test branch to Master branch.</li>
 <li>When Test is merged with Master, the action will deploy .vmfx file to Forio Epicenter VA Sim UI PROD project. The action will also execute the SD-DOC program and create an SD-DOC .html file and deploy to the lzim/mtl/blue/mtl2.0_model folder.</li>
 </ol>
+</div>
+<div id="contribute-to-an-r-notebook" class="section level2">
+<h2><span class="header-section-number">11.10</span> Contribute to an R Notebook</h2>
+<p>Figure 1: Workflow for Quant group rnotebook contribution</p>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/60201706/111335906-fe209600-8631-11eb-820e-bf9f400f75f0.png" alt="" />
+<p class="caption">quant_wg_qa_workflow.png</p>
+</div>
+<p><strong>Step 1:</strong> Under <code>Current Repository</code> select research. click current branch then select <code>New Branch</code></p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_select_repo.gif?raw=true" alt="" />
+<p class="caption">github_desktop_select_repo.gif</p>
+</div>
+<p><strong>Step 2:</strong> Title your branch appropriately. Preceed your branch name with grant name (e.g r21_load_r_libraries) and select <code>Master</code> as the base branch.</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/quant_workflow_title_branch.gif?raw=true" alt="" />
+<p class="caption">quant_workflow_title_branch.gif</p>
+</div>
+<p><strong>Step 3:</strong> On the menu bar, click on the <code>Repository</code> and select <code>Show in Finder</code> (Mac) or <code>Show in Folder</code> (PC) click on the project folder and then R project file.</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_show_in_folder.gif?raw=true" alt="" />
+<p class="caption">github_desktop_show_in_folder.gif</p>
+</div>
+<p><strong>Step 4:</strong> To edit/add an existing code chunk, navigate to the chunk and make appropriated edits (<em>Remember to include documentation</em>).</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_edit_code_chunk.gif?raw=true" alt="" />
+<p class="caption">github_edit_code_chunk.gif</p>
+</div>
+<p><strong>Step 5:</strong> Save your work and go back to Github Desktop. Click <code>fetch origin</code> and commit your changes. Remember to add a title and decription of your commit. A good commit title would include name of code chunk edited/added, section title of the notebook or task name (e.g edit titles, added references,… ).</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_commit_changes.gif?raw=true" alt="" />
+<p class="caption">github_desktop_commit_changes.gif</p>
+</div>
+<p><strong>Step 6:</strong> Click <code>Push to Origin</code> then <code>Create Pull Request</code>. This will send you back to Github.</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_create_pull_request.gif?raw=true" alt="" />
+<p class="caption">github_desktop_create_pull_request.gif</p>
+</div>
+<p><strong>Step 7:</strong> Follow the steps outlined in <a href="11-track-issues-features.html#submit-a-feature">Submit a Feature</a> to submit your changes for review</p>
 
 </div>
 </div>
