@@ -150,3 +150,45 @@ If a user desires to update a model, they must push the update in three versions
 9. When reviewer have signed off, merge the Test branch to Master branch.
 10. When Test is merged with Master, the action will deploy .vmfx file to Forio Epicenter VA Sim UI PROD project. The action will also execute the SD-DOC program and create an SD-DOC .html file and deploy to the lzim/mtl/blue/mtl2.0_model folder.
 
+## Contribute to an R Notebook
+
+Figure 1: Workflow for Quant group rnotebook contribution 
+
+![quant_wg_qa_workflow.png](https://user-images.githubusercontent.com/60201706/111335906-fe209600-8631-11eb-820e-bf9f400f75f0.png)
+
+
+**Step 1:** Under `Current Repository` select research.  click current branch then select `New Branch`
+
+
+![github_desktop_select_repo.gif](https://user-images.githubusercontent.com/60201706/111336071-23ad9f80-8632-11eb-9312-f276e7efda0d.png)
+
+
+**Step 2:** Title your branch appropriately. Preceed your branch name with grant name (e.g r21_load_r_libraries) and select `Master` as the base branch.
+
+![quant_workflow_title_branch.gif](https://user-images.githubusercontent.com/60201706/111336162-37590600-8632-11eb-980d-802cd2cc9f1f.png)
+
+![](quant_workflow_title_branch.gif)
+**Step 3:** On the menu bar, click on the `Repository` and select `Show in Finder` (Mac) or `Show in Folder` (PC) click on the project folder and then R project file.
+
+![github_desktop_show_in_folder.gif](https://user-images.githubusercontent.com/60201706/111336212-417b0480-8632-11eb-9817-8e815d6ef184.png)
+
+
+**Step 4:** To edit/add an existing code chunk, navigate to the chunk and make appropriated edits (*Remember to include documentation*).
+
+![github_edit_code_chunk.gif](https://user-images.githubusercontent.com/60201706/111336232-46d84f00-8632-11eb-9ee9-dbc45bfd4d9b.png)
+
+
+**Step 5:** Save your work and go back to Github Desktop. Click `fetch origin` and commit your changes. Remember to add a title and decription of your commit. A good commit title would include name of code chunk edited/added, section title of the notebook or task name (e.g edit titles, added references,... ).
+
+
+![github_desktop_commit_changes.gif](https://user-images.githubusercontent.com/60201706/111336253-4b9d0300-8632-11eb-9dc3-deb9e6f15ec2.png)
+
+
+
+
+**Step 6:** Click `Push to Origin` then `Create Pull Request`. This will send you back to Github.
+
+![github_desktop_create_pull_request.gif](https://user-images.githubusercontent.com/60201706/111336186-3c1dba00-8632-11eb-8dce-2a89f2f3ab7d.png)
+
+
+**Step 7:** Follow the steps outlined in [](#push-a-feature-branch) to submit your changes for review
