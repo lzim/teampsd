@@ -192,3 +192,35 @@ Figure 1: Workflow for Quant group rnotebook contribution
 
 
 **Step 7:** Follow the steps outlined in [Submit a Feature](#submit-a-feature) to submit your changes for review
+
+## Reviewing pull requests
+
+While reviewing the files in a pull request, you can leave individual comments on specific changes. After you finish reviewing each file, you can mark the file as viewed. This collapses the file, helping you identify the files you still need to review. A progress bar in the pull request header shows the number of files you've viewed. After reviewing the files you want, you will approve the pull request or request additional changes by submitting your review with a summary comment.
+
+
+### Starting a review
+
+5. Click **Start a review**. If you have already started a review, you can click **Add review comment**.
+  ![Start a review button](https://github.com/github/docs/tree/main/assets/images/help/pull_requests/start-a-review-button.png?raw=true)
+
+Before you submit your review, your line comments are _pending_ and only visible to you. You can edit pending comments anytime before you submit your review. To cancel a pending review, including all of its pending comments, scroll down to the end of the timeline on the Conversation tab, then click **Cancel review**.
+
+![Cancel review button](https://github.com/github/docs/tree/main/assets/images/help/pull_requests/cancel-review-button.png?raw=true)
+
+### Marking a file as viewed
+
+After you finish reviewing a file, you can mark the file as viewed, and the file will collapse. If the file changes after you view the file, it will be unmarked as viewed.
+
+2. On the right of the header of the file you've finished reviewing, select **Viewed**.
+  ![Viewed checkbox](https://github.com/github/docs/tree/main/assets/images/help/pull_requests/viewed-checkbox.png?raw=true)
+
+### Submitting your review
+
+After you've finished reviewing all the files you want in the pull request, submit your review.
+
+4. Select the type of review you'd like to leave:
+  ![Radio buttons with review options](https://github.com/github/docs/tree/main/assets/images/help/pull_requests/pull-request-review-statuses.png?raw=true)
+    - Select **Comment** to leave general feedback without explicitly approving the changes or requesting additional changes.
+    - Select **Approve** to submit your feedback and approve merging the changes proposed in the pull request.
+    - Select **Request changes** to submit feedback that must be addressed before the pull request can be merged.
+
