@@ -4,6 +4,10 @@
 
 Click map would explain process [here](https://github.com/lzim/teampsd/issues/new/choose)
 
+## Quality Control Review Cycle
+
+![quality control review cycle](https://user-images.githubusercontent.com/30132017/112055204-c8891a80-8b13-11eb-9a89-29d47aff1b65.png)
+
 ## Maintaining Cards [flow map in progress]
 
 Flow map to maintain your issue/features cards as they get worked on.
@@ -163,7 +167,7 @@ Figure 1: Workflow for Quant group rnotebook contribution
 ![github_desktop_select_repo.gif](https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_select_repo.gif?raw=true)
 
 
-**Step 2:** Title your branch appropriately. Preceed your branch name with grant name (e.g r21_load_r_libraries) and select `Master` as the base branch.
+**Step 2:** Title your branch appropriately. Precede your branch name with grant name (e.g r21_load_r_libraries) and select `Master` as the base branch.
 
 ![quant_workflow_title_branch.gif](https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/quant_workflow_title_branch.gif?raw=true)
 
@@ -178,7 +182,7 @@ Figure 1: Workflow for Quant group rnotebook contribution
 ![github_edit_code_chunk.gif](https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_edit_code_chunk.gif?raw=true)
 
 
-**Step 5:** Save your work and go back to Github Desktop. Click `fetch origin` and commit your changes. Remember to add a title and decription of your commit. A good commit title would include name of code chunk edited/added, section title of the notebook or task name (e.g edit titles, added references,... ).
+**Step 5:** Save your work and go back to Github Desktop. Click `fetch origin` and commit your changes. Remember to add a title and description of your commit. A good commit title would include name of code chunk edited/added, section title of the notebook or task name (e.g edit titles, added references,... ).
 
 
 ![github_desktop_commit_changes.gif](https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_commit_changes.gif?raw=true)
