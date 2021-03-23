@@ -28,7 +28,7 @@ Submit fidelity ratings for the session at [mtl.how/fidelity](https://mtl.how/fi
 
 3. Create issue cards at [mtl.how/issues](https:/mtl.how/issues) to alert co-facilitators of issues they may encounter and to signal support groups of issues to resolve.
 
-4. Add team details on what was covered during the session following the team_tracker checklist on each team card at [mtl.how/team_tracker](https://mtl.how/team_tracker).
+4. Add team details on what was covered during the session in your co-facilitator chat in teams.
 
 5. Team Emails: 1) Done, 2) Do, 3) Decided  
 
