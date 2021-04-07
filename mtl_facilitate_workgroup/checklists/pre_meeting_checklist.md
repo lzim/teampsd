@@ -19,7 +19,7 @@ output:
 
 ## Decide who will be the pre/post prep co-facilitator, who will be the live lead facilitator.
 
-## The week of the meeting 
+## The week before of the meeting 
 ### Pre/Post Co-facilitator 
 1. Send the pre-session team email.
 
