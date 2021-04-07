@@ -6,7 +6,7 @@ Click map would explain process [here](https://github.com/lzim/teampsd/issues/ne
 
 ## Quality Control Review Cycle
 
-![quality control review cycle](https://user-images.githubusercontent.com/30132017/112055204-c8891a80-8b13-11eb-9a89-29d47aff1b65.png)
+![quality control image](https://user-images.githubusercontent.com/30132017/113896305-ab448500-977e-11eb-916f-3bdb3cc567e0.png)
 
 ## Maintaining Cards [flow map in progress]
 
