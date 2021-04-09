@@ -1,5 +1,5 @@
 ---
-title: "Modeling to Learn Facilitate Pre-Meeting Checklist"
+title: "Modeling to Learn Facilitate Pre-Session Checklist"
 author: "Team PSD"
 date: "edited by SP, 2019/09/26"; "JB 2021/04/09"
 output: 
@@ -15,7 +15,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
      height = "150" width = "250">  
 
-# MTL Facilitate Pre-Meeting Checklist
+# MTL Facilitate Pre-Session Checklist
 
 ## 1. Decide who will be the Prep Lead and who will be the Live Lead.
  
