@@ -185,10 +185,10 @@ The table below describes all of the TeamPSD workgroups including their Workgrou
 
 |Workgroup|Workgroup Lead|Meeting Time|Role|VA Teams Meeting Series Owner|
 |---|---|---|---|---|
-|Facilitate/EES|Jane as Workgroup lead/Jenn as HQ Point Person|Tues 8:00-10:00a Pacific|Provides MTL program resources such as learner SEE and facilitator SAY scripts, checklists, guides, EES (Employee Education Services) brochures, and post-tests; and co-facilitates the MTL program.| Jenn|
-|Headquarters (Lindsey/Stacey/Jenn/Anthony as Quant Point Person) (Daily Check-In 12:30-1:00pm Pacific,Thurs 1:00-2:00pm Pacific,4th Friday 12:30-4:00pm Pacific)| Manages oversight of all workgroups, identifying interdependencies and parallel workstreams. Provides guidance on prioritization. | Jenn|
-|Manuscripts, Publications, and Conferences (Lindsey & Stacey) (Mon 12:30-1:30p Pacific & Wed 11:00a-12:00p Pacific)| Develops and maintains manuscripts, publication schedule, authorship agreement, and conference materials|Stacey|
-|Modeling (James & Tom)|Builds models of systems that support clinician experimentation.|
+|Facilitate/EES|Jane as Workgroup lead/Jenn as HQ Point Person|Tues 8:00-10:00am Pacific|Provides MTL program resources such as learner SEE and facilitator SAY scripts, checklists, guides, EES (Employee Education Services) brochures, and post-tests; and co-facilitates the MTL program.| Jenn|
+|Headquarters|Lindsey/Stacey/Jenn|Thurs 12:30-2:30pm Pacific| Manages oversight of all workgroups, identifying interdependencies and parallel workstreams. Provides guidance on prioritization. |Jenn|
+|Manuscripts, Publications, and Conferences|Lindsey/David N./Stacey|Mon 12:30-1:30pm|Develops and maintains manuscripts, publication schedule, authorship agreement, and conference materials|Stacey|
+|Modeling|James & Tom|as needed|Builds models of systems that support clinician experimentation.|
 |Qualitative (David) (Wed 8:00a-9:00a Pacific) |Codes team qhfd inputs for qualitative analysis and development of future fidelity materials. *Stacey is the HQ point person for this workgroup* |Jenn|
 |Quantitative Research/Co-I (David N.) (Wed 11:00a-12:00p Pacific)| Provides data and analysis of data that supports other workgroups and research. |David N.|
 |Quantitative Operations (TBD) (Thurs 11:00a-12:00p Pacific)| Provides data and analysis of data that supports other workgroups and research. |Ash|
