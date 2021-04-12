@@ -4,7 +4,7 @@
 
 Click map would explain process [here](https://github.com/lzim/teampsd/issues/new/choose)
 
-## Quality Control Review Cycle
+## Quality Assurance Review Cycle
 
 ![quality control diagram](https://user-images.githubusercontent.com/30132017/113900611-db8e2280-9782-11eb-9d2b-c005684a474b.png)
 
