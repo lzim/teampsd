@@ -183,17 +183,22 @@ The table below describes all of the TeamPSD workgroups including their Workgrou
 3. Clean up meeting notes for clarity.
 4. Send the follow-up email.
 
-|Workgroup (Workgroup Lead) (Meeting Time)|Role|
-|------------------------------------------|-----|
-|Facilitate/EES (Jane as Workgroup lead/Jenn as HQ Point Person) (Tues 8:15-9:45a Pacific)|Provides MTL program resources such as learner SEE and facilitator SAY scripts, checklists, guides, EES (Employee Education Services) brochures, and post-tests; and co-facilitates the MTL program.|
-|Headquarters (Lindsey/Stacey/Jenn/Anthony as Quant Point Person) (Daily Check-In 12:30-1:00pm Pacific,Thurs 1:00-2:00pm Pacific,4th Friday 12:30-4:00pm Pacific)| Manages oversight of all workgroups, identifying interdependencies and parallel workstreams. Provides guidance on prioritization. |
-|Manuscripts, Publications, and Conferences (Lindsey & Stacey) (Mon 12:30-1:30p Pacific & Wed 11:00a-12:00p Pacific)| Develops and maintains manuscripts, publication schedule, authorship agreement, and conference materials|
-|Modeling (James & Tom)|Builds models of systems that support clinician experimentation.|
+|Workgroup (Workgroup Lead) (Meeting Time)|Role|Unique Meetings|
+|------------------------------------------|-----|-------------|
+|Facilitate/EES (Jane as Workgroup lead/Jenn as HQ Point Person) (Tues 8:15-9:45a Pacific)|Provides MTL program resources such as learner SEE and facilitator SAY scripts, checklists, guides, EES (Employee Education Services) brochures, and post-tests; and co-facilitates the MTL program.| |
+|Headquarters (Lindsey/Stacey/Jenn/Anthony as Quant Point Person) (Daily Check-In 12:30-1:00pm Pacific,Thurs 1:00-2:00pm Pacific,4th Friday 12:30-4:00pm Pacific)| Manages oversight of all workgroups, identifying interdependencies and parallel workstreams. Provides guidance on prioritization. | |
+|Manuscripts, Publications, and Conferences (Lindsey & Stacey) (Mon 12:30-1:30p Pacific & Wed 11:00a-12:00p Pacific)| Develops and maintains manuscripts, publication schedule, authorship agreement, and conference materials| |
+|Modeling (James & Tom)|Builds models of systems that support clinician experimentation.| |
 |Qualitative (David) (Wed 8:00a-9:00a Pacific) |Codes team qhfd inputs for qualitative analysis and development of future fidelity materials. *Jessilyn is the HQ point person for this workgroup.|
-|Quantitative (Anthony) (Wed/Thurs 11:00a-12:00p Pacific)| Provides data and analysis of data that supports other workgroups and research. |
-|Simulation User Interface (James)(Thurs 8:30-9:30a Pacific)|Provides an accessible, web-based user interface for practitioners to experiment using simulation.|
-|Workgroup Leads & Support Workgroups (Stacey/Anthony/Jenn/James) (Mon 8:00a-10:00a Pacific | Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |
-|VAPOR (Jenn) (4th Tues 2:00-3:00p Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives|
+|Quantitative (David) (Wed 11:00a-12:00p Pacific)| Provides data and analysis of data that supports other workgroups and research. | Second Wednesday w/ Co-Investigators |
+|Quantitative (Ash) (Thurs 11:00a-12:00p Pacific)| Provides data and analysis of data that supports other workgroups and research. | Third Thursday w/ Libby (Health Economist) |
+|Simulation User Interface (James)(Thurs 8:30-9:30a Pacific)|Provides an accessible, web-based user interface for practitioners to experiment using simulation.| |
+|Workgroup Leads & Support Workgroups (Stacey/Anthony/Jenn/James) (Mon 8:00a-10:00a Pacific | Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. | |
+|VAPOR (Jenn) (4th Tues 2:00-3:00p Pacific)| Provides Veteran perspective and guidance on Modeling to Learn initiatives| |
+|CRM Meeting (Liberty IT Solutions) (Wed 12:30pm Pacific)| Planning out the development of the CRM||
+|Sharepoint 365 Migration (Ash) (2nd Tuesday of the Month)| Planning out the migration for Sharepoint 365 and Power BI Development || 
+
+
 
 ### GitHub Labels Table
 
