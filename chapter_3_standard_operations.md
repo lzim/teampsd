@@ -190,12 +190,14 @@ The table below describes all of the TeamPSD workgroups including their Workgrou
 |Manuscripts, Publications, and Conferences|Lindsey, David & Stacey|Mon 12:30-1:30pm Pacific|Develops and maintains manuscripts, publication schedule, authorship agreement, and conference materials|Stacey|
 |Modeling|James & Tom|as needed|Builds models of systems that support clinician experimentation.|
 |Qualitative|David N.|Wed 8:00a-9:00am Pacific|Codes team qhfd inputs for qualitative analysis and development of future fidelity materials. *Stacey is the HQ point person for this workgroup* |Jenn|
-|Quantitative Research (*Co-I second Wednesdays*)|David N.|Wed 11:00am-12:00pm Pacific| Provides data and analysis of data that supports other workgroups and research. |David N.|
 |Quantitative Operations|TBD|Thurs 11:00am-12:00pm Pacific| Provides data and analysis of data that supports other workgroups and research. |Ash|
+|Quantitative Research (*Co-I second Wednesdays*)|David N.|Wed 11:00am-12:00pm Pacific| Provides data and analysis of data that supports other workgroups and research. |David N.|
 |Simulation User Interface|James|Wed 3:30-4:30pm Pacific|Provides an accessible, web-based user interface for practitioners to experiment using simulation.| James|
 |Support Workgroups|Lindsey, Stacey, Jenn & James|Wed 2:00-3:00pm Pacific| Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |Stacey|
 |Workgroup Leads & Support Workgroups|Lindsey, Stacey, Jenn & James|Mon 8:00-10:00am Pacific| Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |Jenn|
 |VAPOR|Jenn|4th Tues 2:00-3:00pm Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives| Jenn|
+CRM Meeting (Liberty IT Solutions) (Wed 12:30pm Pacific)	Planning out the development of the CRM	
+Sharepoint 365 Migration (Ash) (2nd Tuesday of the Month)	Planning out the migration for Sharepoint 365 and Power BI Development
 
 ### GitHub Labels Table
 
