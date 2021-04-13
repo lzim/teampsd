@@ -49,18 +49,17 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 
 ### 1. The Big Picture (5 minutes)  
 
-A. Those were our learning objectives for today. Overall, *Modeling to Learn* drives toward activities and competencies that:  
-  * Are meaningful for you and align your learning goals with your team.  
-  * Develop systems thinking skills that help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.  
-  * Make VA data, initiatives and standards transparent to you.  
-  * Empower you to realize ongoing improvements in team quality of care and team quality of work life.  
+A. Overall, *Modeling to Learn* drives toward activities and competencies that are meaningful for you and align with your team's learning goal. *MTL*:
+  * Helps you develop your systems thinking skills - to better see how different factors and processes in your team fit together, and to understand causes that are hard to see without data and modeling resources.  
+  * Makes VA data, initiatives and standards transparent to you; and uses your hyper-local data to let you test decisions you want to consider "in silico" - so you don't have to "experiment" in the real world.
+  * Empowers you to realize ongoing improvements in team quality of care and team quality of work life. It is not about us telling your team what to do; it is up to your team based on your shared vision, your priorities and needs, and your current reality.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-B. This graphic tells a high-level story about how we're going to do this in *Modeling to learn*:
-  * First, we're going to say From where we are today, let's get a clear picture of *What Is* in our team by looking back at team-specific data from the past two years. 
-  * Then, using simulation models calibrated specifically to our team, let's test our ideas about new decisions we could make in our team and how they would likely change things over the next two years.
-  * The decisions we will be focusing on are *ones that are within your power to make as front-line staff*. You may also get information about limits to the improvement that is possible with the resources and decisions in your control, which could be evidence that could help inform others' decisions.
+B. This graphic illustrates how *Modeling to learn* uses participatory learning from simulation to help the team get more Veterans to the right care at the right time to meet their needs. 
+  * We use the *MTL* data user interface (UI) to look back at team trends over the past two years and see *what is* in our team now.
+  * Then we use the *MTL* simulation UI to look at team trends 2 years into the future and answer *what if* questions about different decisions the team could make. 
+  * The decisions we will be focusing on throughout *Modeling to LeaRN* are *ones that are within your power to make as front-line staff*. You may also get information about limits to the improvement that is possible with the resources and decisions in your control, which could provide evidence to inform others' decisions.
 
 C. Today what we want to do is develop a Team vision for learning in *Modeling to Learn* over the next 6 months.
   * We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with *Modeling to Learn*. This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
