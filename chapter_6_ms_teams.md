@@ -20,16 +20,20 @@ This guide will help you learn the basic user interface functions of Microsoft T
 ## Click Map
 
 ### Switch Orgs/Add VA Account
-![](https://user-images.githubusercontent.com/59668647/93370549-d5941c80-f805-11ea-9650-33e937892d35.png)
+![](https://user-images.githubusercontent.com/31089501/114929461-ad46bd80-9de8-11eb-9dfc-00fb93721af8.png)
 
-### Create a VA Teams meeting 
-![](https://user-images.githubusercontent.com/59668647/93370342-85b55580-f805-11ea-9bff-3fc3593a38d0.png)
+### Create a VA Teams meeting from your Personal Email Account
+![](https://user-images.githubusercontent.com/31089501/114929611-e2531000-9de8-11eb-9197-7f89f04fc6c3.png)
+
+### Create a VA Teams meeting from the shared MTL Help or MTL Info Email Accounts
+This is a work-around solution for creating meetings that ensures a meeting series comes from the MTL Help or MTL Info shared inboxes, but also includes 
+![](https://user-images.githubusercontent.com/31089501/114929136-432e1880-9de8-11eb-91d0-7e3f96f16ef3.png)
 
 ### Participate in a Meeting
 
-***Note: VA Citrix Users do not have access for computer audio or webcam, but can join by calling in from their cell phone or join the meeting from outside the VA with the meeting link.***
+***Note: VA Citrix Users do not have access for computer audio or webcam from the Teams WebApp, but can join by calling in from their cell phone or join the meeting from outside the VA with the meeting link.***
 
-![](https://user-images.githubusercontent.com/59668647/93370779-36235980-f806-11ea-8a97-c31ec896ac2e.png)
+![](https://user-images.githubusercontent.com/31089501/114929725-06165600-9de9-11eb-8d51-181a904efe4d.png)
 
 ## Additional Tips/Functions
 
