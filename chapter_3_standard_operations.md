@@ -156,6 +156,25 @@ This policy details the governing principles, definitions, responsibilities and 
 4. Estimates the time required to fulfill completion of bugs (issues) & features.
 5. Attends weekly Monday 8am PST / 11am EST Workgroup Leads meeting or alerts the HQ Proxy (see above) in their stead, should they not be able to attend.
 
+### Redundancy Success Mode
+
+Failure mode:
+
+Email and person are in an individual member's email, where no one else can run it down.
+
+Success mode:
+
+- Information is in the manual.
+- Everyone is trained.
+- Shared resource, where others can track and run things down (Email, Team PSD folder, manual, LucidChart, ZenHub/GitHub).
+- Engineering - Redundancy
+
+Solves scaling problems.
+
+Platforms not people.
+Network effects.
+"Hub & Spoke" failure mode.
+
 ### Workgroup/Schedule
 
 Team PSD is now on flex schedule with **8 hours of individual flex time & focus blocks for each workgroup**.
@@ -174,7 +193,7 @@ Percent of the 32 hours focused on each of these major Workflows:
 - **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
 - **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
 
-![](https://user-images.githubusercontent.com/59668647/113205394-16dc9e80-9223-11eb-894d-25c2f92496ff.png)
+![](https://user-images.githubusercontent.com/59668647/115253079-e466e880-a0e0-11eb-9d66-44044e9716d1.png)
 
 The table below describes all of the TeamPSD workgroups including their Workgroup Lead, Meeting Time, and Role. For each meeting, it is the responsibility of the Workgroup Lead or HQ point person to:
 
