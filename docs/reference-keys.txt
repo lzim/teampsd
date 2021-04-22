@@ -67,7 +67,7 @@ mac-users
 remote-desktops
 ms-teams
 quick-start-guide
-click-map
+flow-map
 switch-orgsadd-va-account
 create-a-va-teams-meeting-from-your-personal-email-account
 create-a-va-teams-meeting-from-the-shared-mtl-help-or-mtl-info-email-accounts

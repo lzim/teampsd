@@ -193,29 +193,29 @@ Percent of the 32 hours focused on each of these major Workflows:
 - **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
 - **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
 
-![](https://user-images.githubusercontent.com/59668647/115253079-e466e880-a0e0-11eb-9d66-44044e9716d1.png)
+![](![](https://user-images.githubusercontent.com/31089501/115673275-4dc54200-a301-11eb-887c-8e41d75f695d.png)
+)
 
 The table below describes all of the TeamPSD workgroups including their Workgroup Lead, Meeting Time, and Role. For each meeting, it is the responsibility of the Workgroup Lead or HQ point person to:
 
 1. Set the agenda.
 2. Check RSVP’s for attendees.
-3. Clean up meeting notes for clarity.
-4. Send the follow-up email.
+3. Facilitate and drive the meeting.
 
-|Workgroup|Workgroup Lead|Meeting Time|Role|VA Teams Meeting Series Owner|
+|Workgroup|Workgroup Lead|Meeting Time|Role|Meeting Series Calendar|
 |---|---|---|---|---|
-|Facilitate/EES|Jane as Workgroup lead/Jenn as HQ Point Person|Tues 8:00-10:00am Pacific|Provides MTL program resources such as learner SEE and facilitator SAY scripts, checklists, guides, EES (Employee Education Services) brochures, and post-tests; and co-facilitates the MTL program.| Jenn|
-|Headquarters|Lindsey, Stacey & Jenn|Thurs 12:30-2:30pm Pacific| Manages oversight of all workgroups, identifying interdependencies and parallel workstreams. Provides guidance on prioritization. |Jenn|
-|Manuscripts, Publications, and Conferences|Lindsey, David & Stacey|Mon 12:30-1:30pm Pacific|Develops and maintains manuscripts, publication schedule, authorship agreement, and conference materials|Stacey|
+|Facilitate/EES|Jenn|Tues 8:00-10:00am Pacific|Co-planning (1st & 3rd) and group supervision (2nd & 4th) for running *MTL* quality improvement initiative|*MTL* Help|
+|Headquarters|Lindsey, Stacey & Jenn|Thurs 12:30-2:30pm Pacific| Manages oversight of all workgroups, identifying interdependencies and parallel workstreams. Provides guidance on prioritization. |*MTL* Info|
+|Manuscripts, Publications, and Conferences|Lindsey, David & Stacey|Mon 12:30-1:30pm Pacific|Develops and maintains manuscripts, publication schedule, authorship agreement, and conference materials|*MTL* Info|
 |Modeling|James & Tom|as needed|Builds models of systems that support clinician experimentation.|
-|OIT/CRM|Liberty IT Solutions|12:30-1:30pm Pacific|Planning out the development of the CRM.|
-|Qualitative|David N.|Wed 8:00a-9:00am Pacific|Codes team qhfd inputs for qualitative analysis and development of future fidelity materials. *Stacey is the HQ point person for this workgroup* |Jenn|
-|Quantitative Operations(*2nd Thurs SharePoint 365 Migration; 3rd Thurs Budget Impact)|Ash|Thurs 11:00am-12:00pm Pacific| Provides data and analysis of data that supports other workgroups and research. |Ash|
-|Quantitative Research (*2nd Wed Co-I)|David N.|Wed 11:00am-12:00pm Pacific| Provides data and analysis of data that supports other workgroups and research. |David N.|
-|Simulation User Interface|James|Wed 3:30-4:30pm Pacific|Provides an accessible, web-based user interface for practitioners to experiment using simulation.| James|
-|Support Workgroups|Lindsey, Stacey, Jenn & James|Wed 2:00-3:00pm Pacific| Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |Stacey|
-|Workgroup Leads & Support Workgroups|Lindsey, Stacey, Jenn & James|Mon 8:00-10:00am Pacific| Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |Jenn|
-|VAPOR|Jenn|4th Tues 2:00-3:00pm Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives.| Jenn|
+|OIT/CRM|Liberty IT Solutions|12:30-1:30pm Pacific|Planning out the development of the CRM.|*MTL* Help|
+|Qualitative|Lindsey & Stacey|Wed 8:00a-9:00am Pacific|Codes team qhfd inputs for qualitative analysis and development of future fidelity materials. |*MTL* Info|
+|Quantitative Operations(*2nd Thurs SharePoint 365 Migration; 3rd Thurs Budget Impact)|Ash|Thurs 11:00am-12:00pm Pacific| Provides data and analysis of data that supports other workgroups and research. |*MTL* Help|
+|Quantitative Research (*2nd Wed Co-I)|David N.|Wed 11:00am-12:00pm Pacific| Provides data and analysis of data that supports other workgroups and research. |*MTL* Info|
+|Simulation User Interface|James|Wed 3:30-4:30pm Pacific|Provides an accessible, web-based user interface for practitioners to experiment using simulation.|*MTL* Help|
+|Support Workgroups|Jenn, James, & Ash|Wed 2:00-3:00pm Pacific| Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |*MTL* Help|
+|Workgroup Leads|Lindsey, Stacey, Jenn & James|Mon 8:00-10:00am Pacific| Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |*MTL* Info|
+|VAPOR|Jenn|4th Tues 2:00-3:00pm Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives.|*MTL* Info|
 
 
 ### GitHub Labels Table
