@@ -20,6 +20,7 @@ policy
 scope
 purpose
 responsibilities
+redundancy-success-mode
 workgroupschedule
 github-labels-table
 project-management-flowmap-needed
@@ -68,7 +69,8 @@ ms-teams
 quick-start-guide
 click-map
 switch-orgsadd-va-account
-create-a-va-teams-meeting
+create-a-va-teams-meeting-from-your-personal-email-account
+create-a-va-teams-meeting-from-the-shared-mtl-help-or-mtl-info-email-accounts
 participate-in-a-meeting
 additional-tipsfunctions
 va-teams-webapp-browser
@@ -109,7 +111,7 @@ view-reports
 test-first-epic-go_live
 track-issues-features
 create-issuefeature-cards-click-maps-in-progress
-quality-control-review-cycle
+quality-assurance-review-cycle
 maintaining-cards-flow-map-in-progress
 use-markdown
 write-markdown
