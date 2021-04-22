@@ -17,7 +17,7 @@ This guide will help you learn the basic user interface functions of Microsoft T
 - Add/Share/Work with Files
 - and more!
 
-## Click Map
+## Flow Map
 
 ### Switch Orgs/Add VA Account
 ![](https://user-images.githubusercontent.com/31089501/114929461-ad46bd80-9de8-11eb-9dfc-00fb93721af8.png)
