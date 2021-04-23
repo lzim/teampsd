@@ -318,26 +318,31 @@ Team PSD uses the following 4 project trackers on GitHub to track incoming **bug
 
 The [bug_tracker](https://mtl.how/bugs) is divided into 6 columns described below.  The purpose of the issue_tracker is to provide triage and track the disposition of issues that require action by one or more workgroups. Issues labeled as “bugs” will be tracked here.
 
-1. needs_triage - This column is the main intake for all issues assigned to the issue_tracker. All issues requiring a disposition will land here. When an issue lands in this section, any team lead may review it and alert other leads as to the action required.
+Bug Tracker Values:
 
-1. validated_actions (ranked) - This column contains all issues that have received a “bug” disposition by a Workgroup Lead(s) and has been provided sufficient details to fix the problem.  This is a rank-ordered list based on due dates indicated in the title.  The rank-order of this section can be changed at any time. If an issue is determined to be a “feature,” it will be placed in the feature_kanban (see feature_kanban below).
-1. under_development - Bugs that are currently under development are listed in this column. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups.
-1. testing - Bugs that are currently being tested are listed in this column.  Some issues may skip this step and go directly from under_development to done.
-1. done - This column contains completed issues.  Responsible Workgroup Leads shall communicate completion of the action to the originator in the issue thread.  The originator shall review the action, indicate their satisfaction/dissatisfaction.  Once the originator is satisfied, the originator should close the issue and it will automatically go in the closed column.
-1. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
+- Reviewed daily morning & afternoon for empatheic team practice (Empathic concern for our VA partners: patients, providers, policymakers).
+- User empathy - We want to solve user pain points.
+- Participatory - so being responsive to our users/partners is foundation to our team.
+
+1. needs_triage - This column is the main intake for all issues assigned to the issue_tracker. All issues requiring a disposition will land here. When an issue lands in this section, any team lead may review it and alert other leads as to the action required.
+2. validated_actions (ranked) - This column contains all issues that have received a “bug” disposition by a Workgroup Lead(s) and has been provided sufficient details to fix the problem.  This is a rank-ordered list based on due dates indicated in the title.  The rank-order of this section can be changed at any time. If an issue is determined to be a “feature,” it will be placed in the feature_kanban (see feature_kanban below).
+3. under_development - Bugs that are currently under development are listed in this column. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups.
+4. testing - Bugs that are currently being tested are listed in this column.  Some issues may skip this step and go directly from under_development to done.
+5. done - This column contains completed issues.  Responsible Workgroup Leads shall communicate completion of the action to the originator in the issue thread.  The originator shall review the action, indicate their satisfaction/dissatisfaction.  Once the originator is satisfied, the originator should close the issue and it will automatically go in the closed column.
+6. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
 
 ### feature_tracker
 
 The [feature_tracker](https://mtl.how/features) is divided into 9 columns described below.  The purpose of the feature_tracker is to report and maintain information regarding the analysis of dependencies and work-content, and track the progress of issues that require development. Issues labeled as “features” will be tracked here.
 
 1. work_breakdown - Validated feature requirements that have received a disposition are listed here.  Issues in this column are analyzed by Workgroup Leads for dependencies, effort content and milestones they may support (see Appendix 1 - issue_template). Issues will progress from this section to either the operations_to_do (ranked) or the research_to_do (ranked) sections.
-1. operations_to_do (ranked) - Features that require research, design and development of products in one or more workgroups are listed here in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
-1. research_to_do (ranked) - Features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements are listed there in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
-1. under_development - Operations or research features under development are listed here. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups.
-1. functional_testing - Features that are currently being tested for basic functionality (i.e. does it work?) are listed here. Some issues may skip this step and go directly from “under_development” to “done.”
-1. done - This column contains completed issues.  Responsible Workgroup Leads shall communicate completion of the action to the originator in the issue thread.  The originator shall review the action, indicate their satisfaction/dissatisfaction.  Once the originator is satisfied, the originator should close the issue and it will automatically go in the closed column.
-1. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
-1. future_release – This column contains unresolved feature ideas that would be great to include in a future MTL release, but currently is not a pressing need.
+2. operations_to_do (ranked) - Features that require research, design and development of products in one or more workgroups are listed here in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
+3. research_to_do (ranked) - Features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements are listed there in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
+4. under_development - Operations or research features under development are listed here. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups.
+5. functional_testing - Features that are currently being tested for basic functionality (i.e. does it work?) are listed here. Some issues may skip this step and go directly from “under_development” to “done.”
+6. done - This column contains completed issues.  Responsible Workgroup Leads shall communicate completion of the action to the originator in the issue thread.  The originator shall review the action, indicate their satisfaction/dissatisfaction.  Once the originator is satisfied, the originator should close the issue and it will automatically go in the closed column.
+7. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
+8. future_release – This column contains unresolved feature ideas that would be great to include in a future MTL release, but currently is not a pressing need.
 
 ### document_tracker
 
@@ -346,10 +351,10 @@ The [document_tracker](https://mtl.how/documents) is divided into 5 columns desc
 Each column also has a “meta” card which is used to indicate interdependencies that are relevant to all/most of the 12 sessions as well as policy & workflow decisions specific to that documentation column.
 
 1. describe_learners – Documentation dependencies relevant to learners, including SEE guides
-1. detail_facilitators - Documentation dependencies relevant to facilitators, including SAY guides & one-pagers
-1. document_team - Documentation dependencies relevant to TeamPSD, including cheatsheets
-1. disseminate_scientists_va - Documentation dependencies relevant to co-investigators & larger scientific audience, including progress reports, code, grants, etc.
-1. depend_products - Documentation dependencies relevant to other MTL products, including videos
+2. detail_facilitators - Documentation dependencies relevant to facilitators, including SAY guides & one-pagers
+3. document_team - Documentation dependencies relevant to TeamPSD, including cheatsheets
+4. disseminate_scientists_va - Documentation dependencies relevant to co-investigators & larger scientific audience, including progress reports, code, grants, etc.
+5. depend_products - Documentation dependencies relevant to other MTL products, including videos
 
 ### manuscript_tracker
 
@@ -358,12 +363,12 @@ The [manuscript_tracker](https://mtl.how/manuscripts) is divided into 10 columns
 DO NOT post any direct manuscript content to GitHub; all drafts and related materials will be posted on the relevant OSF project. There will be a card per manuscript that moves through the tracker.
 
 1. 01_osf_project – OSF project is created for this manuscript with all relevant materials posted, Zotero & GitHub integrations approved, cheatsheets linked, and relevant people added
-1. 02_authorship – Initial authorship weights and task division are identified
-1. 03_write_analyze – Manuscript is written and materials for analysis are produced.
-1. 04_edit – Manuscript goes under rounds of editing and revision between writing team.
-1. 05_approve_letter – Team working on manuscript gives final approval and drafts letter to editor
-1. 06_submit_under_review – Manuscript is submitted to relevant journals and is undergoing review
-1. 07_revise_and_respond – Manuscript feedback is received from journals and team working on manuscript revises it accordingly
-1. 08_resubmit – Manuscript is resubmitted to relevant journals
-1. 09_accept – Manuscript is accepted for publishing by journals
-1. 10_publish_publicize – Manuscript is published!
+2. 02_authorship – Initial authorship weights and task division are identified
+3. 03_write_analyze – Manuscript is written and materials for analysis are produced.
+4. 04_edit – Manuscript goes under rounds of editing and revision between writing team.
+5. 05_approve_letter – Team working on manuscript gives final approval and drafts letter to editor
+6. 06_submit_under_review – Manuscript is submitted to relevant journals and is undergoing review
+7. 07_revise_and_respond – Manuscript feedback is received from journals and team working on manuscript revises it accordingly
+8. 08_resubmit – Manuscript is resubmitted to relevant journals
+9. 09_accept – Manuscript is accepted for publishing by journals
+10. 10_publish_publicize – Manuscript is published!
