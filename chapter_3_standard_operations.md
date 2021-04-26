@@ -372,3 +372,24 @@ DO NOT post any direct manuscript content to GitHub; all drafts and related mate
 8. 08_resubmit – Manuscript is resubmitted to relevant journals
 9. 09_accept – Manuscript is accepted for publishing by journals
 10. 10_publish_publicize – Manuscript is published!
+
+## Quality Assurance Process
+![](https://user-images.githubusercontent.com/30132017/113900611-db8e2280-9782-11eb-9d2b-c005684a474b.png)
+
+### DEV - Dev is responsible for completing user-hypothesis testing, thinking through the requirements and impact, and deciding (or providing recommendations) on if/how we should take the first step.
+
+### TEST - Test is responsible for seamless integration by making sure the resource and all of its potential impacts are thought through and updated in a manner consistent to existing workflows, workgroups, language, facilitation principles, etc. The test person should be identified by role and expertise in workgroup.
+
+### PROD - Prod is responsible for the final check and polish before official release to all users.
+
+The Dev person will manage and create a series of three cards. At each step, the QA assignee will sign off on the GH issue card before handing it off to the next step.
+- Dev
+  - Same as original issue card that that dev person will update with understanding of key requirements, wireframes, etc.
+  - Includes checklist from master document card of all the existing features + newest feature/bug fix that the dev person will test
+- Test
+  - Dev will include checklists from master document card of all existing + new features/fixes that need to be tested, as well as any testing scripts as needed
+  - Test will document all dependency checks thought through and updated to ensure seamless integration.
+- Prod 
+  - Dev will include any testing scripts for new feature/fix.
+  - Test will include brief overview of checks & updates completed to ensure seamless integration.
+
