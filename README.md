@@ -1,9 +1,9 @@
-# GH-Pages Branch
+# gh-pages branch
 
 This branch contains documents and resources for the Team PSD Manual.  
 The rendered manual can be found [here](https://lzim.github.io/teampsd) or at https://mtl.how/teampsd_manual.
 
-# How to Contribute:
+# How to Contribute to the TeamPSD Manual:
 
 ## 1.	Create a Feature branch from the GH-Pages Branch.
 - Start by creating a feature branch with the beginning of the branch named "feature-gh-pages".
