@@ -1,10 +1,17 @@
 team-psd-manual
-use-this-manual
+use-and-contribute-to-this-manual
 click-table-of-contents
 main-chapter
 subchapter
 subheader
 ctrlf-key-terms
+contribute-to-manual-using-github
+create-a-feature-branch-from-the-gh-pages-branch.
+create-a-new-markdown-file-into-the-branch.
+editformat-your-markdown-file.
+add-markdown-file-name-in-the-_bookdown.yml-file.
+check-your-file-against-the-gh-actions-by-making-a-pull-request-to-the-gh-pages-master-branch.
+publish-your-chapter-to-master-gh-pages-branch.
 standard-operations
 team-psd
 scientific-values
@@ -36,6 +43,10 @@ bug_tracker
 feature_tracker
 document_tracker
 manuscript_tracker
+quality-assurance-process
+dev---dev-is-responsible-for-completing-user-hypothesis-testing-thinking-through-the-requirements-and-impact-and-deciding-or-providing-recommendations-on-ifhow-we-should-take-the-first-step.
+test---test-is-responsible-for-seamless-integration-by-making-sure-the-resource-and-all-of-its-potential-impacts-are-thought-through-and-updated-in-a-manner-consistent-to-existing-workflows-workgroups-language-facilitation-principles-etc.-the-test-person-should-be-identified-by-role-and-expertise-in-workgroup.
+prod---prod-is-responsible-for-the-final-check-and-polish-before-official-release-to-all-users.
 team-psd-2.0-monthly-process
 week-1-gather-user-hypotheses
 week-2-clarify-user-assumptions-w-mvp-test
@@ -111,7 +122,6 @@ view-reports
 test-first-epic-go_live
 track-issues-features
 create-issuefeature-cards-click-maps-in-progress
-quality-assurance-review-cycle
 maintaining-cards-flow-map-in-progress
 use-markdown
 write-markdown
