@@ -4,10 +4,6 @@
 
 Click map would explain process [here](https://github.com/lzim/teampsd/issues/new/choose)
 
-## Quality Assurance Review Cycle
-
-![quality control diagram](https://user-images.githubusercontent.com/30132017/113900611-db8e2280-9782-11eb-9d2b-c005684a474b.png)
-
 ## Maintaining Cards [flow map in progress]
 
 Flow map to maintain your issue/features cards as they get worked on.
