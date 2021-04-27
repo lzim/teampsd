@@ -106,9 +106,9 @@ Do: We will produce team data for the _MTL_ simulation user-interface (sim UI).
 
  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We produced team data for the _MTL_ simulation user-interface (sim UI).  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data table. Complete the mtl.how/menu (behind VA firewall) to prioritize your needs. Responses are confidential.  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data table. Complete the mtl.how/menu to prioritize your needs. Responses are confidential.  
 ### DO demo
 -	Encourage team members to look around in the team data table before next time. 
--	Ask team members to fill out form at mtl.how/menu. It will take about 12 minutes. Responses will be aggregated and discussed in session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
+-	Ask team members to fill out form at mtl.how/menu. It will take about 5 minutes. Responses will be aggregated and discussed in session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
 
 ## Until next time, thank you for *Modeling to Learn*!
