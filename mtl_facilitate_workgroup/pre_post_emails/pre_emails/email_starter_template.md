@@ -1,7 +1,7 @@
 ---
-title: "MTL Blue Session 1 Pre Email"
+title: "Pre email Starter Template"
 author: "Team PSD"
-date: "September 2018 | RH March 16 2020 | RH March 17 2020 | RH April 6 2020"
+date: "JL Aprl 2021"
 output: 
   github_document: default
   html_document: default
