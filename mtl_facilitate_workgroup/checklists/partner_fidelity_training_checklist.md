@@ -131,5 +131,5 @@ _Participatory Learning Emphasized:_
 ## C. Post-Session Debriefing checklist item 8 - Track Issues
 ### 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
 
-- [ ] ![submit a bug](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=issue.md&title=Due+%2B+%22Bug%22+or+%22Task%22%3A+Short+description+%28ex.+8%2F12+Bug+AGG%3A+Missing+feedback+loop%29)
-- [ ] ![submit a feature](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=feature.md&title=NEXT+VERIFY+DATE%3A+feature_req+definition)
+- [ ] [submit a bug](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=issue.md&title=Due+%2B+%22Bug%22+or+%22Task%22%3A+Short+description+%28ex.+8%2F12+Bug+AGG%3A+Missing+feedback+loop%29)
+- [ ] [submit a feature](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=feature.md&title=NEXT+VERIFY+DATE%3A+feature_req+definition)
