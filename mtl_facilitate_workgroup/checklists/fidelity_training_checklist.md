@@ -63,9 +63,9 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 4. Synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions. _______________________________________
 
 
-#### BUILD & APPLY (s5-8) Intersession Checklist Priorities
+#### BUILD & APPLY (s5-10) Intersession Checklist Priorities
 
-1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
+1. Specific values from the team data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
 2. Complexity reveal (causal loop) most relevant to the team's highest priority need is: _______________________________________
 
@@ -127,18 +127,6 @@ _Participatory Learning Emphasized:_
 #### Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d.  
 _Participatory Learning + Systems Thinking Emphasized:_
 
-##### MODULE Which module are you working with? 
-- [ ] ___ CC _______________________________________
-
-- [ ] ___ MM _______________________________________
-
-- [ ] ___ PSY _______________________________________
-
-- [ ] ___ AGG _______________________________________
-
-- [ ] ___ SP _______________________________________
-
-
 ##### SEE guide 
 
 - [ ] ___ session 5 _______________________________________
@@ -149,10 +137,6 @@ _Participatory Learning + Systems Thinking Emphasized:_
 
 - [ ] ___ session 8 _______________________________________
 
-
-#### Sessions 9 & 10 - _**APPLY** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. 
-_Systems Thinking emphasized._
-
 ##### MODULE Which module are you working with? 
 - [ ] ___ CC _______________________________________
 
@@ -165,11 +149,26 @@ _Systems Thinking emphasized._
 - [ ] ___ SP _______________________________________
 
 
+#### Sessions 9 & 10 - _**APPLY** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. 
+_Systems Thinking emphasized._
+
 ##### SEE guide
 
 - [ ] ___ session 9 _______________________________________
 
 - [ ] ___ session 10 _______________________________________
+
+
+##### MODULE Which module are you working with? 
+- [ ] ___ CC _______________________________________
+
+- [ ] ___ MM _______________________________________
+
+- [ ] ___ PSY _______________________________________
+
+- [ ] ___ AGG _______________________________________
+
+- [ ] ___ SP _______________________________________
 
 
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
