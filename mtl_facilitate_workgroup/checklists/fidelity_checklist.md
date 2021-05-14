@@ -43,10 +43,12 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 3. Even though we did not have total agreement, we did reach a kind of consensus that our (this) team all accepts.
 - [ ] 4. We are supporting shared team decision-making in this project.
 
-**Sessions 9-12- Rate the following 2 items.** 
-- [ ] 1. We recognized local challenges for our (this) team and came up with good solutions.
-- [ ] 2. We developed strategies that are likely to work for our (this) team.
-
+**Sessions 9-12 - Rate the following 5 items.** 
+- [ ] 1. We helped the team consider the problem at hand as in terms of interconnection (Complex).
+- [ ] 2. We helped the team look beyond a specific variable/output to determine the dynamic cause of the problem (Feedback).
+- [ ] 3. We helped the team to consider how feedback produces important trends over time (System Behavior).
+- [ ] 4. We helped the team to consider that a decision can have a different pattern of effects over time, depending on the state of the system (Time). 
+- [ ] 5. We are supporting shared team decision-making in this project.
 
 ## B. Intersession checklist prioritizing Post-session Checklist items 6, 7 & 9 (short-form)
 
