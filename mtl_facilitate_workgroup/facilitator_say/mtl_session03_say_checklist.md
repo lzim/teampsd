@@ -47,12 +47,12 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 ### 1. Navigate to the data UI at mtl.how/data. 
 - [ ] Data UI on VA's secure SharePoint site; works on any browser.
 - [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
-- [ ] Scroll down to see your team folders: data_ui and team_data_sim_ui. Click on the "data_ui" folder and open the Excel file.  
+- [ ] Scroll down to see your team folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file.  
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table for sim UI**
 
 ### 2. Clicking the "Get Team Data Table for Sim UI" button produces a table of descriptive team data.
-#### IMPORTANT: You already have a fresh Team Data Table for Sim UI file to work with in your team_data_sim_ui folder. 
+#### IMPORTANT: You already have a fresh Team Data Table for Sim UI file to work with in your team_data_table folder. 
 - [ ] Takes time to generate a team data table for all modules using your team's data; depending team size
 - [ ] Data in this file are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. 
 - [ ] There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
