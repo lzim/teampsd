@@ -43,7 +43,7 @@ output:
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
 ## Participatory Learning from Simulation
-- [ ] Graphic: how **MTL** can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
+- [ ] Graphic: how *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
 - [ ] We use the data user interface (UI) to:
 	- look back at team trends over the past two years.
 	- review the last two years of data to see *what is* in our team now.
@@ -58,7 +58,7 @@ output:
 
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
-### 1. On any browser, navigate to mtl.how/data.*  
+### 1. On any browser, navigate to mtl.how/data.*
 - [ ] Explain the Business Intelligence Service Line (or BISL) -- VA’s corporate data warehouse site.
 	- You must have your PIV engaged to access the site.
 - *Reminder:* BISL site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
