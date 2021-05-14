@@ -32,7 +32,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives for Session 2
-1. Describe the decisions your team made in producing your team data table.
+1. Describe the decisions your team made in producing your team data.
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
@@ -48,7 +48,7 @@ output:
 	- look back at team trends over the past two years.
 	- review the last two years of data to see *what is* in our team now.
 		* Backward looking data review is limited for guiding effective change.
-* Reviewing trends: may like or not like the trends; may not know what is causing those 	trends; may be afraid that the next change we might make will undo it. 
+* Reviewing trends: may like or not like the trends; may not know what is causing those trends; may be afraid that the next change we might make will undo it. 
 - [ ] Review use of sim UI – to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
@@ -58,24 +58,26 @@ output:
 
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
-### 1. Use Internet Explorer to navigate to mtl.how/data.*  
+### 1. On any browser, navigate to mtl.how/data.*  
 - [ ] Explain the Business Intelligence Service Line (or BISL) -- VA’s corporate data warehouse site.
-	- log in with VA email and PIV passcode.
+	- You must have your PIV engaged to access the site.
 - *Reminder:* BISL site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - [ ] Select your VISN **______________**. 
 - [ ] On the next page, select your team's facility **______________**.  
-    - A web version of Excel will open on your screen, showing charts from your facility's data.  
+    - To open the file, do not click directly on the file name.
+    - Instead, click on the 3 dots "..." next to the file, click "Edit", and click "Open in Excel".
+    - By having the file open on your desktop, you will have smoother and better experience with the Facility as it is a large file.
+    - Note: It may take some time to open and close the file since it contains 2 years worth of the facility's data.
 
 ### 2. The Facility file is designed so see trends for the last two years relevant to your team vision of **__________________________**.  Let's explore the information available in the BISL sharepoint Facility file:  
-- [ ] Review two sets scroll bars on the right. The outer one allows the user to scroll up and down the page, where the inner scroll bar scrolls within the graphs on the page.
-- [ ] Have Team Lead review three types of View options on the upper right menu.
+- [ ] Have Team Lead review the three types of View options in the bottom tabs.
 
 View | Displays 
 -- | --
-Count | Count tables that match the viz graphs
+Count (in the Viz tab)| Count tables that match the viz graphs
 Data | Sortable report of de-identified individual patient data
-Viz | Visualization of trends over time.
+Viz | Visualization of trends over time
 
 #### There are four main data sets in the Facility file:
 [Facilitator – review rankings of the highest priority data categories to emphasize for this team.]
