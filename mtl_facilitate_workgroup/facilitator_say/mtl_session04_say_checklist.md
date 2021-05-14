@@ -37,8 +37,11 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:25 – Complete *MTL* Menu**  
 
 ### 1. Complete the *MTL Menu*.  
-- [ ] If you have not already done so, navigate to mtl.how/menu and complete the form  
-- [ ] Everyone on the team has completed the MTL Menu. Tabulated results shown on screen. A summary of the results will be included the follow-up email to this session.  
+- [ ] If you have not already done so, navigate to mtl.how/menu and complete the form. It will take about 5 minutes.
+    - Please use Chrome or Edge for the best experience.
+    - Your username is your VA email.
+- [ ] Once everyone on the team has completed the MTL Menu, we will show the tabulated results shown on screen. *[Facilitator shows Menu results]*
+    - A summary of the results will be included the follow-up email to this session.  
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:25-00:40 – Review *MTL* Menu Results**  
 
@@ -47,14 +50,16 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 
 ### 3. Look for areas of consensus among the team.  
 - [ ] What does the team agree about?  Where are there areas of high consensus?   
-- [ ] Decide which Menu results reinforce consensus, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3  
+- [ ] Decide which Menu results reinforce consensus, based on relevance to the team's priority needs and ability to assist us with our differential. 
+    - Should be related to charts shown in Session 3  
   
 ### 4. Discuss items in which team members varied a lot in their rankings.  
-- [ ] Decide which Menu results to show to discuss divergence. Should be related to charts shown in Session 3.  
+- [ ] Decide which Menu results to show to discuss divergence. 
+    - Should be related to charts shown in Session 3.  
 - [ ] Where does the team have more variable or divergent perspectives?  
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:40-00:50 – Identify team priority and *MTL* Module**
-### 5. Focus on the high priority needs to select a module for sessions 5-10 of Modeling to Learn
+### 5. Focus on the high priority needs to select a module for sessions 5-10 of *Modeling to Learn*
 - [ ] What is the highest priority need for your team now?
 - [ ] Discuss which _Modeling to Learn_ module best addresses the team need. *[Recap the highest priority need, recommended module, and why.]*  
 - [ ] Give overview of  5 _MTL_ modules available for teams to focus on in sessions 5 through 10:  
@@ -77,5 +82,7 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 - [ ]  All _MTL_ resources can be accessed from your home base at mtl.how  
 - [ ] The sim UI does not work on the Internet Explorer, please use any of the other available browsers such as Edge, Chrome, FireFox, or Safari via desktop or mobile.
 - [ ] The sim UI is designed for use with a variety of devices. The view adjusts for different sizes and aspect ratios so you may notice some slight variations in how it looks, but the basic functionality is the same on all of them.  
-- [ ] To log in to the sim UI, you will need your VA username and password. Once you enter your credentials, you'll be asked to select a World, and you'll see 2 options in the drop-down menu: a team world and an individual world. We'll describe these more next time. For now you should choose the one that ends with "ind" for individual. Click Log In, and check out the *MTL* sim UI landing page. 
+- [ ] To log in to the sim UI, you will need your username which is your VA email and the password which we will send in the follow-up email. 
+- [ ] Once you enter your credentials, you'll be asked to select a World, and you'll see 2 options in the drop-down menu: a team world and an individual world. We'll describe these more next time. For now you should choose the one that ends with "ind" for individual. 
+- [ ] Click Log In, and check out the *MTL* sim UI landing page. 
 ## Until next time, thank you for *Modeling to Learn*!
