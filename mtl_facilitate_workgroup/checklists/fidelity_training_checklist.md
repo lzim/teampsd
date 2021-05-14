@@ -36,13 +36,13 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 4. We facilitated greater understanding and local team control over use of VHA data.
 - [ ] 5. Our (this) team has a clear and shared understanding of the problems we are trying to address.
 
-**Sessions 5-9 - Rate the following 4 items.** 
+**Sessions 5-8 - Rate the following 4 items.** 
 - [ ] 1. This project emphasizes what is important to our (this) team.
 - [ ] 2. We sought to support our existing capacities to best use local team resources and make local decisions.
 - [ ] 3. Even though we did not have total agreement, we did reach a kind of consensus that our (this) team all accepts.
 - [ ] 4. We are supporting shared team decision-making in this project.
 
-**Sessions 10-12- Rate the following 2 items.** 
+**Sessions 9-12- Rate the following 2 items.** 
 - [ ] 1. We recognized local challenges for our (this) team and came up with good solutions.
 - [ ] 2. We developed strategies that are likely to work for our (this) team.
 
@@ -116,7 +116,7 @@ _Participatory Learning Emphasized:_
 
 ##### mtl.how/data  
 
-- [ ] ___ splash page _______________________________________
+- [ ] ___ facility data _______________________________________
 
 - [ ] ___ data UI _______________________________________
 
@@ -125,6 +125,7 @@ _Participatory Learning Emphasized:_
 _Participatory Learning + Systems Thinking Emphasized:_
 
 ##### MODULE Which module are you working with? 
+- [ ] ___ CC _______________________________________
 
 - [ ] ___ MM _______________________________________
 
@@ -150,6 +151,7 @@ _Participatory Learning + Systems Thinking Emphasized:_
 _Systems Thinking emphasized._
 
 ##### MODULE Which module are you working with? 
+- [ ] ___ CC _______________________________________
 
 - [ ] ___ MM _______________________________________
 
@@ -173,7 +175,7 @@ _Systems Thinking emphasized._
 - [ ] Team Vision _______________________________________
 - [ ] Team Lead _______________________________________
 - [ ] Standing team meeting time _______________________________________
-- [ ] Logged in to mtl.how/data to look at the splash page _______________________________________
+- [ ] Logged in to mtl.how/data to look at the facility data _______________________________________
 
  #### s2
 - [ ] Selected the clinics that make up our team for the Team Data _______________________________________
@@ -181,7 +183,7 @@ _Systems Thinking emphasized._
 - [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data. _______________________________________ 
 
 #### s3
-- [ ] Produced Team Data for the sim UI. _______________________________________
+- [ ] Produced team data table for the sim UI. _______________________________________
 - [ ] Prioritized data for review in the team data table. _______________________________________
 
 #### s4
@@ -190,8 +192,8 @@ _Systems Thinking emphasized._
 - [ ] Checked to make sure we could log in to the sim UI at mtl.how/sim. _______________________________________
 
 #### s5
-- [ ] Logged in and uploaded our team data to the sim UI _______________________________________
-- [ ] Reviewed our team data in the Experiments Tile. _______________________________________
+- [ ] Logged in and uploaded our team data table to the sim UI _______________________________________
+- [ ] Reviewed our team data in the Experiments Section. _______________________________________
 - [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. _______________________________________
 
 #### s6
@@ -222,8 +224,4 @@ _Systems Thinking emphasized._
 ## C. Post-Session Debriefing checklist item 8 - Track Issues
 ### 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
 
-- [ ] data: https://github.com/lzim/teampsd/blob/master/issue_templates/data-bug-report.md
-
-- [ ] sim: https://github.com/lzim/teampsd/blob/master/issue_templates/sim-bug-report.md
-
-- [ ] guide : https://github.com/lzim/teampsd/blob/master/issue_templates/guide-bug-report.md
+- [ ] [bug report template at mtl.how/issues](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=issue.md&title=Due+%2B+%22Bug%22+or+%22Task%22%3A+Short+description+%28ex.+8%2F12+Bug+AGG%3A+Missing+feedback+loop%29)
