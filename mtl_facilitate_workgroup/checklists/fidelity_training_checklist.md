@@ -1,18 +1,19 @@
 ## _MTL_ F2F Fidelity TRAINING  (short-form)
 
-Date: _______________________________________
+### Track the below session details and Section A at mtl.how/fidelity
 
 Team: _______________________________________
 
-Co-facilitators: _______________________________________
-
 Session: _______________________________________
 
-Module: _______________________________________
+Date: _______________________________________
+
+Live Lead: _______________________________________
+
+Co-facilitator: _______________________________________
 
 Rater: _______________________________________
 
-Role: _______________________________________ (facilitator or fidelity rater)
 
 ## A. Post-Session Debriefing checklist items 1 & 3:
 
@@ -55,14 +56,14 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 1. Specific themes the team brought up when visioning during session 1. _______________________________________
 
-2. Specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
+2. Specific values in the team data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
 
 3. Prioritized data-related frequently asked questions (FAQs) related  to the team's highest priority need: _______________________________________
 
 4. Synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions. _______________________________________
 
 
-#### BUILD & APPLY (s5-10) Intersession Checklist Priorities
+#### BUILD & APPLY (s5-8) Intersession Checklist Priorities
 
 1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
@@ -77,28 +78,28 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 #### Cheatsheet needs/questions 
 
-- [ ] ___ meta _______________________________________
+- [ ] ___ mtl.how/teams cheatsheet _______________________________________
 
-- [ ] ___ live _______________________________________
+- [ ] ___ mtl.how/data cheatsheet _______________________________________
 
-- [ ] ___ data _______________________________________
+- [ ] ___ mtl.how/data facilitator one pager _______________________________________
 
-- [ ] ___ sim _______________________________________
+- [ ] ___ mtl.how/sim cheatsheet _______________________________________
 
-- [ ] ___ facilitate _______________________________________
+- [ ] ___ mtl.how/sim facilitator one pager _______________________________________
 
-- [ ] ___ github _______________________________________
+- [ ] ___ facilitate cheatsheet _______________________________________
 
 
 #### Checklists needs/questions 
 
+- [ ] ___ fidelity _______________________________________
+ 
+- [ ] ___ fidelity (partner, build, apply) _______________________________________
+
 - [ ] ___ pre-session _______________________________________
 
-- [ ] ___ inter-session _______________________________________
-
 - [ ] ___ post-session _______________________________________
-
-- [ ] ___ fidelity _______________________________________
 
 
 #### Sessions 1-4 -_**PARTNER** to identify and validate the team's highest priority learning need now. 
@@ -119,6 +120,8 @@ _Participatory Learning Emphasized:_
 - [ ] ___ facility data _______________________________________
 
 - [ ] ___ data UI _______________________________________
+
+- [ ] ___ team data table _______________________________________
 
 
 #### Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d.  
@@ -178,9 +181,9 @@ _Systems Thinking emphasized._
 - [ ] Logged in to mtl.how/data to look at the facility data _______________________________________
 
  #### s2
-- [ ] Selected the clinics that make up our team for the Team Data _______________________________________
-- [ ] Reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
-- [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data. _______________________________________ 
+- [ ] Selected the clinics that make up our team for the data UI _______________________________________
+- [ ] Reviewed the HF, Diag, Enc and SP tabs in data UI to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
+- [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data table. _______________________________________ 
 
 #### s3
 - [ ] Produced team data table for the sim UI. _______________________________________
@@ -197,7 +200,7 @@ _Systems Thinking emphasized._
 - [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. _______________________________________
 
 #### s6
-- [ ] Logged in and reviewed the systems story in the main sim tile. _______________________________________
+- [ ] Logged in and reviewed the systems story in the main sim section. _______________________________________
 - [ ] Entered question text. _______________________________________
 - [ ] Logged into our individual world and entered question and hypothesis text. _______________________________________
 
@@ -208,12 +211,12 @@ _Systems Thinking emphasized._
 
 #### s8
 - [ ] Team Lead ran Experiment 1. _______________________________________
-- [ ] Team reviewed Expanded Outputs tile to compare the basecase and experiment 1. _______________________________________
+- [ ] Team reviewed Expanded Outputs section to compare the basecase and experiment 1. _______________________________________
 - [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
 
 #### s9
 - [ ] Team Lead Ran Experiment 2. _______________________________________
-- [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs tile. _______________________________________
+- [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs section. _______________________________________
 - [ ] "D" Decision text was to run a 3rd experiment on your own in your individual world. _______________________________________
 
 #### s10
