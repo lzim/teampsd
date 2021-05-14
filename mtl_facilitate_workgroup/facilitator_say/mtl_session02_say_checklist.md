@@ -58,7 +58,7 @@ output:
 
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
-### 1. On any browser, navigate to mtl.how/data.*
+### 1. On any browser, navigate to mtl.how/data.
 - [ ] Explain the Business Intelligence Service Line (or BISL) -- VA’s corporate data warehouse site.
 	- You must have your PIV engaged to access the site.
 - *Reminder:* BISL site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
