@@ -1,18 +1,18 @@
-## _MTL_ F2F Fidelity TRAINING  (short-form)
+## _MTL_ Apply Fidelity Checklist Sessions 9-12 (short-form)
 
-Date: _______________________________________
+### Track the below session details and Section A at mtl.how/fidelity
 
 Team: _______________________________________
 
-Co-facilitators: _______________________________________
-
 Session: _______________________________________
 
-Module: _______________________________________
+Date: _______________________________________
+
+Live Lead: _______________________________________
+
+Co-facilitator: _______________________________________
 
 Rater: _______________________________________
-
-Role: _______________________________________ (facilitator or fidelity rater)
 
 ## A. Post-Session Debriefing checklist items 1 & 3:
 
@@ -57,7 +57,7 @@ _CONSIDER THESE QUESTIONS_
 
 **Decisions: _______________________________________** 
 
-1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
+1. Specific values from the team data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
 2. Complexity reveal (causal loop) most relevant to the team's highest priority need is: _______________________________________
 
@@ -85,44 +85,33 @@ Time | **Short   _and_   long term.**      Better understanding of change over  
 
 #### Cheatsheet needs/questions 
 
-- [ ] ___ meta _______________________________________
+- [ ] ___ mtl.how/teams cheatsheet _______________________________________
 
-- [ ] ___ live _______________________________________
+- [ ] ___ mtl.how/data cheatsheet _______________________________________
 
-- [ ] ___ data _______________________________________
+- [ ] ___ mtl.how/data facilitator one pager _______________________________________
 
-- [ ] ___ sim _______________________________________
+- [ ] ___ mtl.how/sim cheatsheet _______________________________________
 
-- [ ] ___ facilitate _______________________________________
+- [ ] ___ mtl.how/sim facilitator one pager _______________________________________
 
-- [ ] ___ github _______________________________________
+- [ ] ___ facilitate cheatsheet _______________________________________
 
 
 #### Checklists needs/questions 
 
-- [ ] ___ pre-session _______________________________________
+- [ ] ___ fidelity _______________________________________
+ 
+- [ ] ___ fidelity (partner, build, apply) _______________________________________
 
-- [ ] ___ inter-session _______________________________________
+- [ ] ___ pre-session _______________________________________
 
 - [ ] ___ post-session _______________________________________
 
-- [ ] ___ fidelity _______________________________________
 
 
 #### Sessions 9-12 - _**APPLY** capacity for participatory learning from simulation using team q/h/f/d.  
 _Participatory Learning + Systems Thinking Emphasized:_
-
-##### MODULE Which module are you working with? 
-- [ ] ___ CC ______________________________________
-
-- [ ] ___ MM _______________________________________
-
-- [ ] ___ PSY _______________________________________
-
-- [ ] ___ AGG _______________________________________
-
-- [ ] ___ SP _______________________________________
-
 
 ##### SEE guide 
 
@@ -146,34 +135,33 @@ _Participatory Learning + Systems Thinking Emphasized:_
 - [ ] ___ session 12 _______________________________________
 
 
+##### MODULE Which module are you working with? 
+- [ ] ___ CC ______________________________________
+
+- [ ] ___ MM _______________________________________
+
+- [ ] ___ PSY _______________________________________
+
+- [ ] ___ AGG _______________________________________
+
+- [ ] ___ SP _______________________________________
+
+
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
 
-#### s5
-- [ ] Logged in and uploaded our team data to the sim UI _______________________________________
-- [ ] Reviewed our team data in the Experiments Tile. _______________________________________
-- [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. _______________________________________
+#### s9
+- [ ] Team Lead Ran Experiment 2. _______________________________________
+- [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs section. _______________________________________
+- [ ] "D" Decision text was to run a 3rd experiment on your own in your individual world. _______________________________________
 
-#### s6
-- [ ] Logged in and reviewed the systems story in the main sim tile. _______________________________________
-- [ ] Entered question text. _______________________________________
-- [ ] Logged into our individual world and entered question and hypothesis text. _______________________________________
-
-#### s7
-- [ ] Entered question, hypothesis, finding and decisions for base case. _______________________________________
-- [ ] Logged into mtl.how/sim and explored the expanded outputs dashboard for the basecase. _______________________________________
-- [ ] Used the worksheet to prepare for experiment 1. _______________________________________
-
-#### s8
-- [ ] Team Lead ran Experiment 1. _______________________________________
-- [ ] Team reviewed Expanded Outputs tile to compare the basecase and experiment 1. _______________________________________
-- [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
+#### s10
+- [ ] A team member ran experiment 3 during the team meeting. _______________________________________
+- [ ] We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking. _______________________________________
+- [ ] Reviewed and compared the base case, exp 1, exp 2 and exp 3 to think about possible decisions/changes the team could make in their clinical care. _______________________________________
 
 
 ## C. Post-Session Debriefing checklist item 8 - Track Issues
 ### 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
 
-- [ ] data: https://github.com/lzim/teampsd/blob/master/issue_templates/data-bug-report.md
-
-- [ ] sim: https://github.com/lzim/teampsd/blob/master/issue_templates/sim-bug-report.md
-
-- [ ] guide : https://github.com/lzim/teampsd/blob/master/issue_templates/guide-bug-report.md
+- [ ] [submit a bug](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=issue.md&title=Due+%2B+%22Bug%22+or+%22Task%22%3A+Short+description+%28ex.+8%2F12+Bug+AGG%3A+Missing+feedback+loop%29)
+- [ ] [submit a feature](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=feature.md&title=NEXT+VERIFY+DATE%3A+feature_req+definition)

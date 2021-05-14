@@ -1,18 +1,19 @@
-## _MTL_ F2F Fidelity TRAINING  (short-form)
+## _MTL_ Build Fidelity Checklist Sessions 5-8  (short-form)
 
-Date: _______________________________________
+### Track the below session details and Section A at mtl.how/fidelity
 
 Team: _______________________________________
 
-Co-facilitators: _______________________________________
-
 Session: _______________________________________
 
-Module: _______________________________________
+Date: _______________________________________
+
+Live Lead: _______________________________________
+
+Co-facilitator: _______________________________________
 
 Rater: _______________________________________
 
-Role: _______________________________________ (facilitator or fidelity rater)
 
 ## A. Post-Session Debriefing checklist items 1 & 3:
 
@@ -75,44 +76,32 @@ _CONSIDER THESE QUESTIONS_
 
 #### Cheatsheet needs/questions 
 
-- [ ] ___ meta _______________________________________
+- [ ] ___ mtl.how/teams cheatsheet _______________________________________
 
-- [ ] ___ live _______________________________________
+- [ ] ___ mtl.how/data cheatsheet _______________________________________
 
-- [ ] ___ data _______________________________________
+- [ ] ___ mtl.how/data facilitator one pager _______________________________________
 
-- [ ] ___ sim _______________________________________
+- [ ] ___ mtl.how/sim cheatsheet _______________________________________
 
-- [ ] ___ facilitate _______________________________________
+- [ ] ___ mtl.how/sim facilitator one pager _______________________________________
 
-- [ ] ___ github _______________________________________
+- [ ] ___ facilitate cheatsheet _______________________________________
 
 
 #### Checklists needs/questions 
 
+- [ ] ___ fidelity _______________________________________
+ 
+- [ ] ___ fidelity (partner, build, apply) _______________________________________
+
 - [ ] ___ pre-session _______________________________________
 
-- [ ] ___ inter-session _______________________________________
-
 - [ ] ___ post-session _______________________________________
-
-- [ ] ___ fidelity _______________________________________
 
 
 #### Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d.  
 _Participatory Learning + Systems Thinking Emphasized:_
-
-##### MODULE Which module are you working with? 
-- [ ] ___ CC ______________________________________
-
-- [ ] ___ MM _______________________________________
-
-- [ ] ___ PSY _______________________________________
-
-- [ ] ___ AGG _______________________________________
-
-- [ ] ___ SP _______________________________________
-
 
 ##### SEE guide 
 
@@ -136,15 +125,27 @@ _Participatory Learning + Systems Thinking Emphasized:_
 - [ ] ___ session 8 _______________________________________
 
 
+##### MODULE Which module are you working with? 
+- [ ] ___ CC ______________________________________
+
+- [ ] ___ MM _______________________________________
+
+- [ ] ___ PSY _______________________________________
+
+- [ ] ___ AGG _______________________________________
+
+- [ ] ___ SP _______________________________________
+
+
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
 
 #### s5
-- [ ] Logged in and uploaded our team data to the sim UI _______________________________________
-- [ ] Reviewed our team data in the Experiments Tile. _______________________________________
+- [ ] Logged in and uploaded our team data table to the sim UI _______________________________________
+- [ ] Reviewed our team data in the Experiments Section. _______________________________________
 - [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. _______________________________________
 
 #### s6
-- [ ] Logged in and reviewed the systems story in the main sim tile. _______________________________________
+- [ ] Logged in and reviewed the systems story in the main sim section. _______________________________________
 - [ ] Entered question text. _______________________________________
 - [ ] Logged into our individual world and entered question and hypothesis text. _______________________________________
 
@@ -155,15 +156,12 @@ _Participatory Learning + Systems Thinking Emphasized:_
 
 #### s8
 - [ ] Team Lead ran Experiment 1. _______________________________________
-- [ ] Team reviewed Expanded Outputs tile to compare the basecase and experiment 1. _______________________________________
+- [ ] Team reviewed Expanded Outputs section to compare the basecase and experiment 1. _______________________________________
 - [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
 
 
 ## C. Post-Session Debriefing checklist item 8 - Track Issues
 ### 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
 
-- [ ] data: https://github.com/lzim/teampsd/blob/master/issue_templates/data-bug-report.md
-
-- [ ] sim: https://github.com/lzim/teampsd/blob/master/issue_templates/sim-bug-report.md
-
-- [ ] guide : https://github.com/lzim/teampsd/blob/master/issue_templates/guide-bug-report.md
+- [ ] [submit a bug](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=issue.md&title=Due+%2B+%22Bug%22+or+%22Task%22%3A+Short+description+%28ex.+8%2F12+Bug+AGG%3A+Missing+feedback+loop%29)
+- [ ] [submit a feature](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=feature.md&title=NEXT+VERIFY+DATE%3A+feature_req+definition)
