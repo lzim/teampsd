@@ -1,18 +1,19 @@
-## _MTL_ F2F Fidelity TRAINING  (short-form)
+## _MTL_ Fidelity Checklist  (short-form)
 
-Date: _______________________________________
+### Track the below session details and Section A at mtl.how/fidelity
 
 Team: _______________________________________
 
-Co-facilitators: _______________________________________
-
 Session: _______________________________________
 
-Module: _______________________________________
+Date: _______________________________________
+
+Live Lead: _______________________________________
+
+Co-facilitator: _______________________________________
 
 Rater: _______________________________________
 
-Role: _______________________________________ (facilitator or fidelity rater)
 
 ## A. Post-Session Debriefing checklist items 1 & 3:
 
@@ -36,16 +37,18 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 4. We facilitated greater understanding and local team control over use of VHA data.
 - [ ] 5. Our (this) team has a clear and shared understanding of the problems we are trying to address.
 
-**Sessions 5-9 - Rate the following 4 items.** 
+**Sessions 5-8 - Rate the following 4 items.** 
 - [ ] 1. This project emphasizes what is important to our (this) team.
 - [ ] 2. We sought to support our existing capacities to best use local team resources and make local decisions.
 - [ ] 3. Even though we did not have total agreement, we did reach a kind of consensus that our (this) team all accepts.
 - [ ] 4. We are supporting shared team decision-making in this project.
 
-**Sessions 10-12- Rate the following 2 items.** 
-- [ ] 1. We recognized local challenges for our (this) team and came up with good solutions.
-- [ ] 2. We developed strategies that are likely to work for our (this) team.
-
+**Sessions 9-12 - Rate the following 5 items.** 
+- [ ] 1. We helped the team consider the problem at hand as in terms of interconnection (Complex).
+- [ ] 2. We helped the team look beyond a specific variable/output to determine the dynamic cause of the problem (Feedback).
+- [ ] 3. We helped the team to consider how feedback produces important trends over time (System Behavior).
+- [ ] 4. We helped the team to consider that a decision can have a different pattern of effects over time, depending on the state of the system (Time). 
+- [ ] 5. We are supporting shared team decision-making in this project.
 
 ## B. Intersession checklist prioritizing Post-session Checklist items 6, 7 & 9 (short-form)
 
@@ -55,7 +58,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 1. Specific themes the team brought up when visioning during session 1. _______________________________________
 
-2. Specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
+2. Specific values in the team data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
 
 3. Prioritized data-related frequently asked questions (FAQs) related  to the team's highest priority need: _______________________________________
 
@@ -64,7 +67,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 #### BUILD & APPLY (s5-10) Intersession Checklist Priorities
 
-1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
+1. Specific values from the team data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
 2. Complexity reveal (causal loop) most relevant to the team's highest priority need is: _______________________________________
 
@@ -77,28 +80,28 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 
 #### Cheatsheet needs/questions 
 
-- [ ] ___ meta _______________________________________
+- [ ] ___ mtl.how/teams cheatsheet _______________________________________
 
-- [ ] ___ live _______________________________________
+- [ ] ___ mtl.how/data cheatsheet _______________________________________
 
-- [ ] ___ data _______________________________________
+- [ ] ___ mtl.how/data facilitator one pager _______________________________________
 
-- [ ] ___ sim _______________________________________
+- [ ] ___ mtl.how/sim cheatsheet _______________________________________
 
-- [ ] ___ facilitate _______________________________________
+- [ ] ___ mtl.how/sim facilitator one pager _______________________________________
 
-- [ ] ___ github _______________________________________
+- [ ] ___ facilitate cheatsheet _______________________________________
 
 
 #### Checklists needs/questions 
 
+- [ ] ___ fidelity _______________________________________
+ 
+- [ ] ___ fidelity (partner, build, apply) _______________________________________
+
 - [ ] ___ pre-session _______________________________________
 
-- [ ] ___ inter-session _______________________________________
-
 - [ ] ___ post-session _______________________________________
-
-- [ ] ___ fidelity _______________________________________
 
 
 #### Sessions 1-4 -_**PARTNER** to identify and validate the team's highest priority learning need now. 
@@ -116,24 +119,15 @@ _Participatory Learning Emphasized:_
 
 ##### mtl.how/data  
 
-- [ ] ___ splash page _______________________________________
+- [ ] ___ facility data _______________________________________
 
 - [ ] ___ data UI _______________________________________
+
+- [ ] ___ team data table _______________________________________
 
 
 #### Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d.  
 _Participatory Learning + Systems Thinking Emphasized:_
-
-##### MODULE Which module are you working with? 
-
-- [ ] ___ MM _______________________________________
-
-- [ ] ___ PSY _______________________________________
-
-- [ ] ___ AGG _______________________________________
-
-- [ ] ___ SP _______________________________________
-
 
 ##### SEE guide 
 
@@ -145,11 +139,8 @@ _Participatory Learning + Systems Thinking Emphasized:_
 
 - [ ] ___ session 8 _______________________________________
 
-
-#### Sessions 9 & 10 - _**APPLY** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. 
-_Systems Thinking emphasized._
-
 ##### MODULE Which module are you working with? 
+- [ ] ___ CC _______________________________________
 
 - [ ] ___ MM _______________________________________
 
@@ -160,11 +151,26 @@ _Systems Thinking emphasized._
 - [ ] ___ SP _______________________________________
 
 
+#### Sessions 9 & 10 - _**APPLY** C.F.B.T. systems thinking and plan for future team learning needs. Ideally, the team has been practicing new decisions, may may also now be ready to implement a shared change in the real world. 
+_Systems Thinking emphasized._
+
 ##### SEE guide
 
 - [ ] ___ session 9 _______________________________________
 
 - [ ] ___ session 10 _______________________________________
+
+
+##### MODULE Which module are you working with? 
+- [ ] ___ CC _______________________________________
+
+- [ ] ___ MM _______________________________________
+
+- [ ] ___ PSY _______________________________________
+
+- [ ] ___ AGG _______________________________________
+
+- [ ] ___ SP _______________________________________
 
 
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
@@ -173,15 +179,15 @@ _Systems Thinking emphasized._
 - [ ] Team Vision _______________________________________
 - [ ] Team Lead _______________________________________
 - [ ] Standing team meeting time _______________________________________
-- [ ] Logged in to mtl.how/data to look at the splash page _______________________________________
+- [ ] Logged in to mtl.how/data to look at the facility data _______________________________________
 
  #### s2
-- [ ] Selected the clinics that make up our team for the Team Data _______________________________________
-- [ ] Reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
-- [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data. _______________________________________ 
+- [ ] Selected the clinics that make up our team for the data UI _______________________________________
+- [ ] Reviewed the HF, Diag, Enc and SP tabs in data UI to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
+- [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data table. _______________________________________ 
 
 #### s3
-- [ ] Produced Team Data for the sim UI. _______________________________________
+- [ ] Produced team data table for the sim UI. _______________________________________
 - [ ] Prioritized data for review in the team data table. _______________________________________
 
 #### s4
@@ -190,12 +196,12 @@ _Systems Thinking emphasized._
 - [ ] Checked to make sure we could log in to the sim UI at mtl.how/sim. _______________________________________
 
 #### s5
-- [ ] Logged in and uploaded our team data to the sim UI _______________________________________
-- [ ] Reviewed our team data in the Experiments Tile. _______________________________________
+- [ ] Logged in and uploaded our team data table to the sim UI _______________________________________
+- [ ] Reviewed our team data in the Experiments Section. _______________________________________
 - [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. _______________________________________
 
 #### s6
-- [ ] Logged in and reviewed the systems story in the main sim tile. _______________________________________
+- [ ] Logged in and reviewed the systems story in the main sim section. _______________________________________
 - [ ] Entered question text. _______________________________________
 - [ ] Logged into our individual world and entered question and hypothesis text. _______________________________________
 
@@ -206,12 +212,12 @@ _Systems Thinking emphasized._
 
 #### s8
 - [ ] Team Lead ran Experiment 1. _______________________________________
-- [ ] Team reviewed Expanded Outputs tile to compare the basecase and experiment 1. _______________________________________
+- [ ] Team reviewed Expanded Outputs section to compare the basecase and experiment 1. _______________________________________
 - [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
 
 #### s9
 - [ ] Team Lead Ran Experiment 2. _______________________________________
-- [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs tile. _______________________________________
+- [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs section. _______________________________________
 - [ ] "D" Decision text was to run a 3rd experiment on your own in your individual world. _______________________________________
 
 #### s10
@@ -222,8 +228,5 @@ _Systems Thinking emphasized._
 ## C. Post-Session Debriefing checklist item 8 - Track Issues
 ### 8. Things that Team PSD should know - problems with UI, data, guides use the GitHub issue templates.
 
-- [ ] data: https://github.com/lzim/teampsd/blob/master/issue_templates/data-bug-report.md
-
-- [ ] sim: https://github.com/lzim/teampsd/blob/master/issue_templates/sim-bug-report.md
-
-- [ ] guide : https://github.com/lzim/teampsd/blob/master/issue_templates/guide-bug-report.md
+- [ ] [submit a bug](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=issue.md&title=Due+%2B+%22Bug%22+or+%22Task%22%3A+Short+description+%28ex.+8%2F12+Bug+AGG%3A+Missing+feedback+loop%29)
+- [ ] [submit a feature](https://github.com/lzim/teampsd/issues/new?assignees=&labels=&template=feature.md&title=NEXT+VERIFY+DATE%3A+feature_req+definition)

@@ -1,7 +1,7 @@
 ---
 title: "Modeling to Learn Facilitate Pre-checklist"
 author: "Team PSD"
-date: "edited by SP, 2019/09/26"
+date: "edited by SP, 2021/05/13"
 output: 
   github_document: default
   html_document: default
@@ -12,10 +12,10 @@ output:
   powerpoint_presentation: default
 ---
 
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_facilitate_sq_sm.png"
      height = "150" width = "250">  
 
-# MTL Facilitate Pre-checklist
+# MTL Facilitate Pre-Session Checklist
 
 ## Decide who will be the pre/post prep co-facilitator, who will be the live lead facilitator.
 
