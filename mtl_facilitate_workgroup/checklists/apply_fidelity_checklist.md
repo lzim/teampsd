@@ -1,18 +1,18 @@
-## _MTL_ F2F Fidelity TRAINING  (short-form)
+## _MTL_ Apply Fidelity Checklist Sessions 9-12 (short-form)
 
-Date: _______________________________________
+### Track the below session details and Section A at mtl.how/fidelity
 
 Team: _______________________________________
 
-Co-facilitators: _______________________________________
-
 Session: _______________________________________
 
-Module: _______________________________________
+Date: _______________________________________
+
+Live Lead: _______________________________________
+
+Co-facilitator: _______________________________________
 
 Rater: _______________________________________
-
-Role: _______________________________________ (facilitator or fidelity rater)
 
 ## A. Post-Session Debriefing checklist items 1 & 3:
 
@@ -57,7 +57,7 @@ _CONSIDER THESE QUESTIONS_
 
 **Decisions: _______________________________________** 
 
-1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
+1. Specific values from the team data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
 
 2. Complexity reveal (causal loop) most relevant to the team's highest priority need is: _______________________________________
 
@@ -85,44 +85,33 @@ Time | **Short   _and_   long term.**      Better understanding of change over  
 
 #### Cheatsheet needs/questions 
 
-- [ ] ___ meta _______________________________________
+- [ ] ___ mtl.how/teams cheatsheet _______________________________________
 
-- [ ] ___ live _______________________________________
+- [ ] ___ mtl.how/data cheatsheet _______________________________________
 
-- [ ] ___ data _______________________________________
+- [ ] ___ mtl.how/data facilitator one pager _______________________________________
 
-- [ ] ___ sim _______________________________________
+- [ ] ___ mtl.how/sim cheatsheet _______________________________________
 
-- [ ] ___ facilitate _______________________________________
+- [ ] ___ mtl.how/sim facilitator one pager _______________________________________
 
-- [ ] ___ github _______________________________________
+- [ ] ___ facilitate cheatsheet _______________________________________
 
 
 #### Checklists needs/questions 
 
-- [ ] ___ pre-session _______________________________________
+- [ ] ___ fidelity _______________________________________
+ 
+- [ ] ___ fidelity (partner, build, apply) _______________________________________
 
-- [ ] ___ inter-session _______________________________________
+- [ ] ___ pre-session _______________________________________
 
 - [ ] ___ post-session _______________________________________
 
-- [ ] ___ fidelity _______________________________________
 
 
 #### Sessions 9-12 - _**APPLY** capacity for participatory learning from simulation using team q/h/f/d.  
 _Participatory Learning + Systems Thinking Emphasized:_
-
-##### MODULE Which module are you working with? 
-- [ ] ___ CC ______________________________________
-
-- [ ] ___ MM _______________________________________
-
-- [ ] ___ PSY _______________________________________
-
-- [ ] ___ AGG _______________________________________
-
-- [ ] ___ SP _______________________________________
-
 
 ##### SEE guide 
 
@@ -144,6 +133,18 @@ _Participatory Learning + Systems Thinking Emphasized:_
 - [ ] ___ session 11 _______________________________________
 
 - [ ] ___ session 12 _______________________________________
+
+
+##### MODULE Which module are you working with? 
+- [ ] ___ CC ______________________________________
+
+- [ ] ___ MM _______________________________________
+
+- [ ] ___ PSY _______________________________________
+
+- [ ] ___ AGG _______________________________________
+
+- [ ] ___ SP _______________________________________
 
 
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
