@@ -1,18 +1,20 @@
 ## _MTL_ F2F Fidelity Training Sessions 1-4  (short-form)
 
-Date: _______________________________________
+
+### Track the below session details and Section A at mtl.how/fidelity
 
 Team: _______________________________________
 
-Co-facilitators: _______________________________________
-
 Session: _______________________________________
 
-Module: _______________________________________
+Date: _______________________________________
+
+Live Lead: _______________________________________
+
+Co-facilitator: _______________________________________
 
 Rater: _______________________________________
 
-Role: _______________________________________ (facilitator or fidelity rater)
 
 ## A. Post-Session Debriefing checklist items 1 & 3:
 
@@ -51,7 +53,7 @@ My GOAL for this session is to document the following themes and differential qu
 
 1. Specific themes the team brought up when visioning during session 1. _______________________________________
 
-2. Specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
+2. Specific values in the team data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
 
 3. Prioritized data-related frequently asked questions (FAQs) related  to the team's highest priority need: _______________________________________
 
@@ -62,28 +64,28 @@ My GOAL for this session is to document the following themes and differential qu
 
 #### Cheatsheet needs/questions 
 
-- [ ] ___ meta _______________________________________
+- [ ] ___ mtl.how/teams cheatsheet _______________________________________
 
-- [ ] ___ live _______________________________________
+- [ ] ___ mtl.how/data cheatsheet _______________________________________
 
-- [ ] ___ data _______________________________________
+- [ ] ___ mtl.how/data facilitator one pager _______________________________________
 
-- [ ] ___ sim _______________________________________
+- [ ] ___ mtl.how/sim cheatsheet _______________________________________
 
-- [ ] ___ facilitate _______________________________________
+- [ ] ___ mtl.how/sim facilitator one pager _______________________________________
 
-- [ ] ___ github _______________________________________
+- [ ] ___ facilitate cheatsheet _______________________________________
 
 
 #### Checklists needs/questions 
 
+- [ ] ___ fidelity _______________________________________
+ 
+- [ ] ___ fidelity (partner, build, apply) _______________________________________
+
 - [ ] ___ pre-session _______________________________________
 
-- [ ] ___ inter-session _______________________________________
-
 - [ ] ___ post-session _______________________________________
-
-- [ ] ___ fidelity _______________________________________
 
 
 #### Sessions 1-4 -_**PARTNER** to identify and validate the team's highest priority learning need now. 
@@ -99,12 +101,15 @@ _Participatory Learning Emphasized:_
 
 - [ ] ___ session 4 _______________________________________
 
+
 ##### mtl.how/data  
 
-- [ ] ___ splash page _______________________________________
+- [ ] ___ facility data _______________________________________
 
 - [ ] ___ data UI _______________________________________
 
+- [ ] ___ team data table _______________________________________
+- [ ] 
 
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
 
@@ -112,15 +117,15 @@ _Participatory Learning Emphasized:_
 - [ ] Team Vision _______________________________________
 - [ ] Team Lead _______________________________________
 - [ ] Standing team meeting time _______________________________________
-- [ ] Logged in to mtl.how/data to look at the splash page _______________________________________
+- [ ] Logged in to mtl.how/data to look at the facility data _______________________________________
 
  #### s2
-- [ ] Selected the clinics that make up our team for the Team Data _______________________________________
-- [ ] Reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
-- [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data. _______________________________________ 
+- [ ] Selected the clinics that make up our team for the data UI _______________________________________
+- [ ] Reviewed the HF, Diag, Enc and SP tabs in data UI to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
+- [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data table. _______________________________________ 
 
 #### s3
-- [ ] Produced Team Data for the sim UI. _______________________________________
+- [ ] Produced team data table for the sim UI. _______________________________________
 - [ ] Prioritized data for review in the team data table. _______________________________________
 
 #### s4
