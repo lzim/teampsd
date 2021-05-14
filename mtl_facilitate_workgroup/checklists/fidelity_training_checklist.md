@@ -1,4 +1,4 @@
-## _MTL_ F2F Fidelity TRAINING  (short-form)
+## _MTL_ Fidelity Checklist  (short-form)
 
 ### Track the below session details and Section A at mtl.how/fidelity
 
