@@ -149,25 +149,15 @@ _Participatory Learning + Systems Thinking Emphasized:_
 
 ### 9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.
 
-#### s5
-- [ ] Logged in and uploaded our team data to the sim UI _______________________________________
-- [ ] Reviewed our team data in the Experiments Tile. _______________________________________
-- [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. _______________________________________
+#### s9
+- [ ] Team Lead Ran Experiment 2. _______________________________________
+- [ ] Team compared bc, exp 1, and exp 3 using the Control Panel of the Expanded Outputs section. _______________________________________
+- [ ] "D" Decision text was to run a 3rd experiment on your own in your individual world. _______________________________________
 
-#### s6
-- [ ] Logged in and reviewed the systems story in the main sim tile. _______________________________________
-- [ ] Entered question text. _______________________________________
-- [ ] Logged into our individual world and entered question and hypothesis text. _______________________________________
-
-#### s7
-- [ ] Entered question, hypothesis, finding and decisions for base case. _______________________________________
-- [ ] Logged into mtl.how/sim and explored the expanded outputs dashboard for the basecase. _______________________________________
-- [ ] Used the worksheet to prepare for experiment 1. _______________________________________
-
-#### s8
-- [ ] Team Lead ran Experiment 1. _______________________________________
-- [ ] Team reviewed Expanded Outputs tile to compare the basecase and experiment 1. _______________________________________
-- [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
+#### s10
+- [ ] A team member ran experiment 3 during the team meeting. _______________________________________
+- [ ] We discussed the base case, exp 1, exp 2 and exp 3 using systems thinking. _______________________________________
+- [ ] Reviewed and compared the base case, exp 1, exp 2 and exp 3 to think about possible decisions/changes the team could make in their clinical care. _______________________________________
 
 
 ## C. Post-Session Debriefing checklist item 8 - Track Issues
