@@ -49,7 +49,7 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 - [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
 - [ ] Scroll down to see your team folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file.  
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table for sim UI**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table"**
 
 ### 2. Clicking the "Get Team Data Table for Sim UI" button produces a table of descriptive team data.
 #### IMPORTANT: You already have a fresh Team Data Table for Sim UI file to work with in your team_data_table folder. 
