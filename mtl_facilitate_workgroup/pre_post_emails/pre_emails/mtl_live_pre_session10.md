@@ -35,5 +35,3 @@ output:
 | --- |
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Run a third experiment on our own in our individual world.**  |
-|**For Our Next Team Meeting**|
-|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
