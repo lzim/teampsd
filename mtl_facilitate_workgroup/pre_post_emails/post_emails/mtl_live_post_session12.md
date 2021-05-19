@@ -27,6 +27,8 @@ output:
 |**At Our Last Team Meeting**|
 | **We completed _Modeling to Learn_!** 
 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/tms_logo.jpg?raw=true" height = "75" width = "75">](https://www.tms.va.gov/SecureAuth35/) Attendees have all been confirmed by TMS to receive CMEs/CEUs for _Modeling to Learn_ Session 12: Team Plan. 
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://mtl.how) **Do** |
 | --- |
 |**Going Forward**

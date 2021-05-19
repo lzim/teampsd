@@ -28,6 +28,8 @@ output:
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Discussed team learning and prioritized ways to implement it in our clinical care.**| 
 
 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/tms_logo.jpg?raw=true" height = "75" width = "75">](https://www.tms.va.gov/SecureAuth35/) Attendees have all been confirmed by TMS to receive CMEs/CEUs for _Modeling to Learn_ Session 11: Team Decisions.
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session12/s12_learner/mtl_session12_see.md)  **Do** |
 | --- |
 |**Before Our Next Team Meeting on (Include Date and Time here)**| 

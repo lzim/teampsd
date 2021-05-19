@@ -32,6 +32,8 @@ output:
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/> **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/> **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?* |
 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/tms_logo.jpg?raw=true" height = "75" width = "75">](https://www.tms.va.gov/SecureAuth35/) Attendees have all been confirmed by TMS to receive CMEs/CEUs for _Modeling to Learn_ Session 9: Compare Alternatives. 
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session10/s10_learner/mtl_session10_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting on (Include Date and Time here)**|
