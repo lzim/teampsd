@@ -32,3 +32,4 @@ Here are your _Modeling to Learn_ Co-Facilitators.Learn more about who we are an
 | --- |
 |**Before Our Next Team Meeting: (date/time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to the _MTL_ simulation user interface (sim UI) at [mtl.how/sim](https://mtl.how/sim). Note: The sim UI will not work on Internet Explorer. Use Chrome or any other browser for the best experience.**  |
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/tms_logo.jpg?raw=true" height = "75" width = "75">](https://www.tms.va.gov/SecureAuth35/) Attendees have all been confirmed by TMS to receive CMEs/CEUs for _Modeling to Learn_ Session 4: Team Needs. 
