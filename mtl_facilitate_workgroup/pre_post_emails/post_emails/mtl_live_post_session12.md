@@ -15,6 +15,8 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s12_team_plan_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session12/s12_learner/mtl_session12_see.md) 
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/barlow_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk24)   
+
 
 
 # We decided on a booster or follow-up assistance plan.
