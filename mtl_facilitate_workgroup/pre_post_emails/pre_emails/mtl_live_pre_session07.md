@@ -16,6 +16,8 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s07_base_case_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session07/s07_learner/mtl_session07_see.md) 
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/ontiveros_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk13)   
+
 
 # This week we're modeling to learn how to evaluate our Base Case of no new decisions. 
 
@@ -34,8 +36,5 @@ output:
 | --- |
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to our individual world at https://mtl.how/sim. Use the question we entered during the session and add our own hypothesis about the Base Case run in the Text section.**  |
-|**For Our Next Team Meeting**|
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to https://mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
-
 
 
