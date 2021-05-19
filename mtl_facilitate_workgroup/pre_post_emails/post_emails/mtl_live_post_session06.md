@@ -16,6 +16,8 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session06/s06_learner/mtl_session06_see.md) 
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/barlow_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk12)   
+
 
 # We decided to log in to our individual world at [mtl.how/sim](https://mtl.how/sim) and enter question and hypothesis text.
 
