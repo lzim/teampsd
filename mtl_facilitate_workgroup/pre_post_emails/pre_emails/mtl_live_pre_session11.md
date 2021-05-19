@@ -16,6 +16,8 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s11_team_decisions_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session11/s11_learner/mtl_session11_see.md) 
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/kramer_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk21)   
+
 
 # This week we're modeling to learn how to make team decisions.
 
@@ -34,6 +36,5 @@ output:
 | --- |
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Review and compare bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care.**  |
-|**For Our Next Team Meeting**|
-|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
+
 
