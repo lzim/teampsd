@@ -16,6 +16,8 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s08_dynamic_hypothesis_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session08/s08_learner/mtl_session08_see.md) 
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/kramer_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk15)   
+
 
 # This week we're modeling to learn how to test a dynamic hypothesis.
 
