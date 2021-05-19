@@ -16,6 +16,7 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s05_teamworld_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session05/s05_learner/mtl_session05_see.md) 
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/thompson_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk09)   
 
 
 # This week we're modeling to learn how to log in to our team world in the sim UI.
@@ -30,7 +31,6 @@ output:
 | --- |
 |**Before Our Next Team Meeting on (Include Date and Time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to the _MTL_ sim UI at https://mtl.how/sim. Note: Use all lowercase for login info. Use Chrome for the best experience.** |
-|**For Our Next Team Meeting**|
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_live_sm.png" height = "45" width = "75">](http://mtl.how/live) **1. Log in to https://mtl.how/live** and **2. Call in to VANTS:** 1-800-767-1750, Code 27379 |
+
 
 
