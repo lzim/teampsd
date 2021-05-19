@@ -16,6 +16,8 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s09_compare_alternatives_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session09/s09_learner/mtl_session09_see.md) 
+     [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/ontiveros_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk18)   
+
 
 # We decided to run a third experiment on our own in our individual world. 
 
