@@ -16,7 +16,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/raw/master/resources/title_slides/mtl_s01_teamvision_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session01/s01_learner/mtl_session01_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/thompson_vapor.jpg?raw=true" height="250" width="420">](https://mtl.how/vapor_wk01)    
-# Team Vision: Add vision here
+
 # This week we're modeling to learn how to align our team vision.
 <!-- Do/Done Tables -->
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session01/s01_learner/mtl_session01_see.md) **Do** |
