@@ -17,7 +17,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s10_systems_thinking_title.png" height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session10/s10_learner/mtl_session10_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/ontiveros_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk20)   
 
-
+# Team Vision: Add vision here.
 # We decided to compare bc, exp 1, exp 2 and exp 3 and think about possible decisions or changes the team could make in clinical care.
 
 <!-- Do/Done Tables -->
