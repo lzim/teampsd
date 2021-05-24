@@ -18,6 +18,7 @@ output:
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session04/s04_learner/mtl_session04_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/barlow_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk08)   
 
+# Team Vision: Add vision here.
 # We decided our _MTL_ module.
 
 <!-- Do/Done Tables -->
