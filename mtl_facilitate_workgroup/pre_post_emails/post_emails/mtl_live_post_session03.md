@@ -16,8 +16,9 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s03_teamdata_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) 
-[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/edwards_vapor.jpg" height="250" width="420">](https://youtu.be/uaXbTnE8Vts)   
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/edwards_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk06)   
 
+# Team Vision: Add vision here.
 # We decided to find something in the team data table and complete mtl.how/menu.
 
 <!-- Do/Done Tables -->
