@@ -17,8 +17,7 @@ output:
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session12/s12_learner/mtl_session12_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/barlow_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk24)   
 
-
-
+# Team Vision: Add vision here.
 # We decided on a booster or follow-up assistance plan.
 
 <!-- Do/Done Tables -->
