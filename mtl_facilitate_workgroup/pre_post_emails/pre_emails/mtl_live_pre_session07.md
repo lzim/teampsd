@@ -18,7 +18,7 @@ output:
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session07/s07_learner/mtl_session07_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/ontiveros_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk13)   
 
-
+# Team Vision: Add vision here
 # This week we're modeling to learn how to evaluate our Base Case of no new decisions. 
 
 <!-- Do/Done Tables -->
@@ -36,5 +36,7 @@ output:
 | --- |
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to our individual world at https://mtl.how/sim. Use the question we entered during the session and add our own hypothesis about the Base Case run in the Text section.**  |
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) **1. Join the Microsoft Teams meeting invitation from Outlook** and **2. Call in, if needed.**|
+
 
 
