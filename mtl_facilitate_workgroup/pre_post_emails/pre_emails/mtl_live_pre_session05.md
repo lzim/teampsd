@@ -18,7 +18,7 @@ output:
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session05/s05_learner/mtl_session05_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/thompson_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk09)   
 
-
+# Team Vision: Add vision here
 # This week we're modeling to learn how to log in to our team world in the sim UI.
 
 <!-- Do/Done Tables -->
@@ -31,6 +31,7 @@ output:
 | --- |
 |**Before Our Next Team Meeting on (Include Date and Time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Log in to the _MTL_ sim UI at https://mtl.how/sim. Note: Use all lowercase for login info. Use Chrome for the best experience.** |
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) **1. Join the Microsoft Teams meeting invitation from Outlook** and **2. Call in, if needed.**|
 
 
 
