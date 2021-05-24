@@ -18,7 +18,7 @@ output:
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session11/s11_learner/mtl_session11_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/edwards_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk22)   
 
-     
+# Team Vision: Add vision here.     
 # We decided to make the following changes.
 
 <!-- Do/Done Tables -->
