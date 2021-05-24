@@ -16,9 +16,9 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session01/s01_learner/mtl_session01_see.md)
-[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/thompson_vapor.jpg" height="250" width="420">](https://youtu.be/uaXbTnE8Vts)   
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/edwards_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk02)   
 
-# We decided on our team vision.
+# We decided on our team vision: Add vision here.
 
 <!-- Do/Done Tables -->
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md) **Do** |
