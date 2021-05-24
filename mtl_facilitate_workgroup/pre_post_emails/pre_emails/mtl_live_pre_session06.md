@@ -18,6 +18,7 @@ output:
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session06/s06_learner/mtl_session06_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/thompson_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk11)   
 
+# Team Vision: Add vision here
 # This week we're modeling to learn how to tell a systems story.
 
 <!-- Do/Done Tables -->
@@ -31,5 +32,6 @@ output:
 | --- |
 |**Before Our Next Team Meeting**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Check the "i" information available in the sim UI Model Diagram at mtl.how/sim.** |
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) **1. Join the Microsoft Teams meeting invitation from Outlook** and **2. Call in, if needed.**|
 
 
