@@ -18,7 +18,7 @@ output:
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session07/s07_learner/mtl_session07_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/barlow_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk14)   
 
-
+# Team Vision: Add vision here.
 # We decided to review team data, bc and team needs (mtl.how/menu results) to select the "what if" experiment for next time.
 
 <!-- Do/Done Tables -->
