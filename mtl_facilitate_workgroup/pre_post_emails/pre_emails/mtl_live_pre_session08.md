@@ -24,7 +24,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/done.png" height = "65" width = "65">](https://github.com/lzim/mtl/blob/master/blue/session07/s07_learner/mtl_session07_see.md) **Done** | 
 | --- |
-|**At Our Last Team Meeting: Add date here**|
+|**At Our Last Team Meeting: Add date/time here**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "45" width = "75">](http://mtl.how/sim) **Entered our Question, Hypothesis, Findings and Decisions for the Base Case run.** |
 **Base Case Run**  |
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/> **Our Question.** *Briefly describe what your team wants to learn from this experiment.* |
