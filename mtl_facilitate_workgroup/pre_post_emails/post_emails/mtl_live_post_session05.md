@@ -19,7 +19,7 @@ output:
      height = "175" width = "420">](https://github.com/lzim/mtl/blob/master/blue/session05/s05_learner/mtl_session05_see.md) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/ontiveros_vapor.jpg" height="250" width="420">](https://mtl.how/vapor_wk10)   
 
-
+# Team Vision: Add vision here.
 # We decided to review the "i" information at [mtl.how/sim](https://mtl.how/sim).
 
 <!-- Do/Done Tables -->
