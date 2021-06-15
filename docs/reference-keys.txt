@@ -43,6 +43,10 @@ bug_tracker
 feature_tracker
 document_tracker
 manuscript_tracker
+shared-outlook-inboxes
+mtl-help
+mtl-info
+how-to-get-access
 quality-assurance-process
 dev---dev-is-responsible-for-completing-user-hypothesis-testing-thinking-through-the-requirements-and-impact-and-deciding-or-providing-recommendations-on-ifhow-we-should-take-the-first-step.
 test---test-is-responsible-for-seamless-integration-by-making-sure-the-resource-and-all-of-its-potential-impacts-are-thought-through-and-updated-in-a-manner-consistent-to-existing-workflows-workgroups-language-facilitation-principles-etc.-the-test-person-should-be-identified-by-role-and-expertise-in-workgroup.
