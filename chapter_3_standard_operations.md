@@ -373,6 +373,19 @@ DO NOT post any direct manuscript content to GitHub; all drafts and related mate
 9. 09_accept – Manuscript is accepted for publishing by journals
 10. 10_publish_publicize – Manuscript is published!
 
+## Shared Outlook Inboxes
+
+### MTL Help
+mtl.help@va.gov email and calendar is used for any TeamPSD operations workflows, including communication with the clinic teams using the *Modeling to Learn* quality improvement program.
+
+### MTL Info
+mtl.info@va.gov email and calendar is used for any TeamPSD research workflows.
+
+### How to Get Access
+If you are unable to currently access either of the two inboxes:
+1. Create an IT ticket at yourit.va.gov requesting access to the respective inbox.
+2. Email your ticket number and request to Frank Behrens (search in VA GAL), who will pick up the ticket from the queue and complete it. (***Note: this cannot typically be completed by your local IT, and must be assigned to Frank).
+
 ## Quality Assurance Process
 ![](https://user-images.githubusercontent.com/30132017/113900611-db8e2280-9782-11eb-9d2b-c005684a474b.png)
 
