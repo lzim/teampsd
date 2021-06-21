@@ -382,8 +382,11 @@ mtl.help@va.gov email and calendar is used for any TeamPSD operations workflows,
 mtl.info@va.gov email and calendar is used for any TeamPSD research workflows.
 
 ### How to Get Access
+
 If you are unable to currently access either of the two inboxes:
+
 1. Create an IT ticket at yourit.va.gov requesting access to the respective inbox.
+
 2. Email your ticket number and request to Frank Behrens (search in VA GAL), who will pick up the ticket from the queue and complete it. (***Note: this cannot typically be completed by your local IT, and must be assigned to Frank).
 
 ## Quality Assurance Process

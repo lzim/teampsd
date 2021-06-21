@@ -103,6 +103,7 @@ pop-up-chat
 open-science-framework
 cheatsheet
 lucidcharts
+organizational-account-setup-sharing-permissions
 create-a-flow-map
 post-on-github
 github-zenhub
