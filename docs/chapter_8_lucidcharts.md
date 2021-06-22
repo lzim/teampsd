@@ -32,6 +32,42 @@
     
     ![](https://user-images.githubusercontent.com/31089501/122831834-4e496d00-d29f-11eb-8b48-59f5a7f42531.png)
 
+## Organizational Account Admin
+
+Once a team member sends you their email address, a Team Admin or Account Owner needs to add them to the organizational account.  
+
+1. On the top right hand corner, click on your photo. Then, click on "Account Settings."
+  
+   ![](https://user-images.githubusercontent.com/31089501/122849510-82815580-d2c0-11eb-8ec0-edec4f9a52a9.png)
+
+2. You will be taken to your Account page. Click on "Admin."
+
+   ![](https://user-images.githubusercontent.com/31089501/122849703-dee47500-d2c0-11eb-97d1-ca0ecb7fbf62.png)
+
+3. Click on "Users."
+
+   ![](https://user-images.githubusercontent.com/31089501/122849871-2e2aa580-d2c1-11eb-9f31-81d19f78d4f9.png)
+
+4. On the top right hand corner, click on "Add Users" > "Add a Single User."
+
+   ![](https://user-images.githubusercontent.com/31089501/122850045-6f22ba00-d2c1-11eb-8346-0983c693bc42.png)
+
+5. Add the email address and "Invite to Team." This will send an invitation to their email with instructions for setting up an account.
+   
+   ![](https://user-images.githubusercontent.com/31089501/122850230-b8730980-d2c1-11eb-9045-20fd2fccddcd.png)
+   
+6. Once they accept the invite and setup their account, you will see their name in the list of users. Click on a user's name and a pop-up will appear on the right hand side. Click on "Edit" next to "Roles" (go to #7) or "Teams & Groups" (go to #8).
+
+   ![](https://user-images.githubusercontent.com/31089501/122850812-b9586b00-d2c2-11eb-891d-9c71e14c42a5.png)
+
+7. Check the boxes next to "Billing Admin Privileges" or "Team Admin Privileges" as needed. Then, click "Confirm." For regular users, no action is needed here.
+
+   ![](https://user-images.githubusercontent.com/31089501/122851002-10f6d680-d2c3-11eb-9cbf-326f7be6c609.png)
+
+8. Hover over a permissions group and click on the plus sign to add it to the right hand "Selected Groups" column. Then, click "Confirm."
+
+   ![](https://user-images.githubusercontent.com/31089501/122851370-b447eb80-d2c3-11eb-9ab2-0123e604b3ae.png)
+
 
 ## Create a Flow Map
 
