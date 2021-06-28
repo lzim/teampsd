@@ -217,6 +217,23 @@ The table below describes all of the TeamPSD workgroups including their Workgrou
 |Workgroup Leads|Lindsey, Stacey, Jenn & James|Mon 8:00-10:00am Pacific| Triage all issues that have entered into the issue-tracker triage section and identify workgroup milestones and action items for the month. Rearrange deadlines and interdependent timelines in response to emerging issues. |*MTL* Info|
 |VAPOR|Jenn|4th Tues 2:00-3:00pm Pacific| Provides Veteran perspective and guidance on Modeling to Learn initiatives.|*MTL* Info|
 
+### Request Time Off
+
+**1. Submit your official request through VATAS or ADP.**
+Submit your leave in the VATAS or ADP system.
+ 
+**2. Document approval with an email chain approving leave (whether VA or PAVIR).**
+Please submit an email to me (VA employees cc Randy and Karen) about the leave you would like to take and I will approve it.
+ 
+**3. Prepare monthly epics with leave in mind.**
+We do prefer to have a plan for coverage across the team, and plan our sprints accordingly. 
+ 
+**4. Add to mtl.info and mtl.help calendars.**
+Please add your OOO to shared calendars.
+ 
+**5. Use an OOO automatic email whenever you're OOO during standard VA Tour Pacific Time (Mon-Fri 8AM-4:30PM).**
+This helps VA partners to see that you're out across VA/Microsoft platforms.
+
 
 ### GitHub Labels Table
 
