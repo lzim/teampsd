@@ -41,6 +41,8 @@ team-pain-points
 continuous-collaboration
 project-trackers
 bug_tracker
+types-of-bugs
+bug-tracker-values
 feature_tracker
 document_tracker
 manuscript_tracker
