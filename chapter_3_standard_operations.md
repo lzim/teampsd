@@ -333,9 +333,22 @@ Team PSD uses the following 4 project trackers on GitHub to track incoming **bug
 
 ### bug_tracker
 
-The [bug_tracker](https://mtl.how/bugs) is divided into 6 columns described below.  The purpose of the issue_tracker is to provide triage and track the disposition of issues that require action by one or more workgroups. Issues labeled as “bugs” will be tracked here.
+The [bug_tracker](https://mtl.how/bugs) is divided into 6 columns described below.  The purpose of the bug_tracker is to provide triage and track the disposition of issues that require action by one or more workgroups. Issues labeled as “bugs” will be tracked here.
 
-Bug Tracker Values:
+#### Types of Bugs
+
+3 kinds of "Bugs" - Bugs are rapport-builders and need to be handled in relationship w/our partners.
+
+1. "Bug" - something not working as intended.
+2. "Andon" - "Stop the Line" - the problem could lead to a reduction in the quality of MTL
+
+Scope - Impact by time
+Alert - Impacted partners
+Communicate - until resolved.
+
+3. "Problem" - Needs a development plan because the bug keeps popping up.
+
+#### Bug Tracker Values:
 
 - Reviewed daily morning & afternoon for empatheic team practice (Empathic concern for our VA partners: patients, providers, policymakers).
 - User empathy - We want to solve user pain points.
