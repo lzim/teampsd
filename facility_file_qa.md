@@ -33,6 +33,7 @@ See TeamPSD > quant_workgroup > splash_pages > Splashpage_monthly_update_readme
       Test the dropdowns:
       - [ ] divisionname
       - [ ] locationname
+      - [ ] Row Labels
 
 #### Graph
   - [ ] Displays visit count trend lines of 4 primary diagnoses of interest: PTSD, Depression, AUD, & OUD
@@ -50,16 +51,18 @@ See TeamPSD > quant_workgroup > splash_pages > Splashpage_monthly_update_readme
 - [ ] No SSN
 
 #### Table
-  - [ ] Displays encounter counts of 8 encounter types: Adjunct, Care or support, Evaluation, Family Therapy, Med Mgmt, Psychotherapy 60-minute, Psychotherapy with Med Mgmt, & Telephone
+  - [ ] Displays encounter counts of 10 encounter types: Addiction, Adjunct, Care or support, Evaluation, Family Therapy, Group Therapy, Med Mgmt, Psychotherapy 60-minute, Psychotherapy with Med Mgmt, & Telephone
   - [ ] Grab 5 data points and cross-reference on graph to make sure table <> graph rendering is working
   
       Test the dropdowns:
       - [ ] divisionname
       - [ ] locationname
       - [ ] VVC
+      - [ ] Row Labels
+      - [ ] Column Labels
 
 #### Graph
-  - [ ] Displays encounter count trend lines of 8 encounter types: Adjunct, Care or support, Evaluation, Family Therapy, Med Mgmt, Psychotherapy 60-minute, Psychotherapy with Med Mgmt, & Telephone
+  - [ ] Displays encounter count trend lines of 10 encounter types: Addiction, Adjunct, Care or support, Evaluation, Family Therapy, Group Therapy, Med Mgmt, Psychotherapy 60-minute, Psychotherapy with Med Mgmt, & Telephone
   
       Test the buttons:
        - [ ] divisionname
@@ -74,6 +77,27 @@ See TeamPSD > quant_workgroup > splash_pages > Splashpage_monthly_update_readme
 - [ ] Propagation spans two years on the table and graph through the previous month.
 - [ ] "Reset Pivot Chart" button exists above the graph and resets the data when clicked after filtering in the table and graph in the following steps.
 - [ ] No SSN
+
+
+#### Table
+  - [ ] Displays encounter counts of 10 encounter types: MH ACT Templates (Accept & Commitment), MH CBT-D Templates (Cog Behavioral), MH CPT Templates (Cognitive Processing), MH IBCT Templates, MH IPT for Depression, MH PEI Templates, PB PharmD MH Depression Med, REACH Vet, VA-Suicide Protective Factors [C], VA-Suicide Risk Assessment [C], VA-Suicide Risk Evaluation Type [C], VA-Suicide Risk Factors [C], & VA-Suicide Safety Plan
+  - [ ] Grab 5 data points and cross-reference on graph to make sure table <> graph rendering is working
+  
+      Test the dropdowns:
+      - [ ] divisionname
+      - [ ] locationname
+      - [ ] Row Labels
+      - [ ] Column Labels
+
+#### Graph
+  - [ ] Displays encounter count trend lines of 10 encounter types: Addiction, Adjunct, Care or support, Evaluation, Family Therapy, Group Therapy, Med Mgmt, Psychotherapy 60-minute, Psychotherapy with Med Mgmt, & Telephone
+  
+      Test the buttons:
+       - [ ] divisionname
+       - [ ] locationname
+       - [ ] visitdatetime(Year)
+       - [ ] visitdatetime(Month)
+       - [ ] healthfactorcategory
 
 
 ### vizMeas
