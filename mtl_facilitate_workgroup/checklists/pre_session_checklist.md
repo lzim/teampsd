@@ -20,7 +20,7 @@ output:
 ## Decide who will be the pre/post prep co-facilitator, who will be the live lead facilitator.
 
 ## The week before of the meeting 
-### Pre/Post Emails to be sent by Jenn
+### Send Pre Email
 1. Send the pre-session team email.
 
 ## Day of session Prep Checklist (30 minutes)  
