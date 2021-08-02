@@ -1,0 +1,35 @@
+﻿Repo,Issue Title,Assignee,labels,Estimate,Started New Issues,Moved To Closed,Completion Time (Days)
+teampsd,#2113 - wk1 jul_epic: Data UI - Update file path to propagate on SharePoint Online Cloud,,,5,7/7/2021,7/19/2021,12
+teampsd,#2116 - wk1 jul_epic BUG: Facility File - Reset Pivot Chart Button crashes Excel ,,,,7/7/2021,7/19/2021,12
+teampsd,#2050 - wk4 jun_epic task: SharePoint online path correction/testing in Data UI & Facility files,,,8,6/10/2021,7/19/2021,39
+teampsd,"#2087 - wk5 jun_epic Blank cells in SPParms should be NA""""",,,8,6/28/2021,7/19/2021,21
+teampsd,#1918 - wk5 june_epic task: story_5 - redirect/correct Links,,,2,4/22/2021,7/19/2021,88
+teampsd,#2085 - wk5 jun_epic dataUI v22 zeroes in SP,,,8,6/28/2021,7/19/2021,21
+teampsd,#2122 - wk2 jul_epic: Updated MTL NIH Blue & Red and VA Blue Team Checklists with Deadlines,,,,7/14/2021,7/19/2021,5
+teampsd,#2105 - SIM UI Feature - Easily copy or transfer QHFD from Team World to the Facilitator Individual and Shared Worlds,,,,7/1/2021,7/20/2021,19
+mtl,#247 - wk4 jun_epic improve survey measures,,,5,6/23/2021,7/20/2021,27
+teampsd,#2137 - BUG Cannot create folder on SharePoint Online,,,,7/20/2021,7/20/2021,1
+teampsd,#2127 - ASAP BUG/PROBLEM VBA Missing Project Issue,,,,7/16/2021,7/20/2021,4
+teampsd,#2126 - ASAP Bug/Problem Facility File - Showing incorrect clinics within facility.xlxb file,,,,7/16/2021,7/21/2021,5
+teampsd,"#2086 - wk5 jun_epic: Data UI - Naming process for previous Create Team Data Table""""",,,8,6/28/2021,7/22/2021,24
+teampsd,#2049 - wk1 jul_epic: Update old data ui files on SharePoint Online for compliancy,,,3,6/10/2021,7/22/2021,42
+teampsd,#2114 - wk2 jul_epic: Test Data UI - Reset Pivot Chart in HF tab & Update file path to propagate on SharePoint Online Cloud,,,5,7/7/2021,7/22/2021,15
+teampsd,#2051 - wk5 jun_epic task: SharePoint online pre & post cutover,,,8,6/10/2021,7/22/2021,42
+teampsd,#2088 - wk5 jun_epic; wk1 jul_epic Migrate to SharePoint Online,,,8,6/28/2021,7/22/2021,24
+teampsd,#2091 - wk5 jun_epic Propagate Facility files for the entire country through June 2021,,,5,6/28/2021,7/22/2021,24
+teampsd,#2094 - wk4 jun_epic propagate master dataUI files through june 2021,,,5,6/28/2021,7/22/2021,24
+teampsd,#2095 - wk1 jul_epic QA for June dataUI propagation ,,,2,6/28/2021,7/22/2021,24
+teampsd,#2133 - New Bug from Community,,,,7/20/2021,7/23/2021,3
+teampsd,#2098 - wk5 jun_epic: PROD QA - For Bug #2089 Encounters in Facility File,,,,6/29/2021,7/26/2021,27
+teampsd,#2089 - wk5 jun_epic Resolve missing encounters data in Facility file,,,8,6/28/2021,7/26/2021,28
+teampsd,"#2123 - wk3 jul_epic: BUG Sim Menu - TT Report 2, Last page (text, logos, graphs) is stretched",,,5,7/15/2021,7/27/2021,12
+teampsd,#2147 - wkk jul_epic: SIM UI BUG - Learner in Team and Ind World unable to login,,,2,7/27/2021,7/27/2021,1
+research,#205 - wk4 jul_epic story_1: Review any remaining feedback from  authorshipAPP QA test,,,5,7/1/2021,7/28/2021,27
+teampsd,#2129 - BUG Sim UI - Sankey Alternatives Display issue,,,,7/16/2021,7/28/2021,12
+teampsd,"#2128 - ASAP BUG Sim UI: Failed"" when joining Ind_world for team Errors w/Loading Data & Reporting a Bug through Sim UI""",,,3,7/16/2021,7/28/2021,12
+teampsd,#2118 - wk2 jul_epic BUG?: Sim UI - Lag in radio buttons in Display Patient Services ,,,,7/9/2021,7/28/2021,19
+teampsd,#2008 - wk4 jul_epic Assign DART permissions for David N. on IIR,,,1,5/20/2021,7/28/2021,69
+teampsd,#2048 - wk4 june_epic: Add updated Say Checklists onto MTL.how,,,2,6/10/2021,7/29/2021,49
+research,#213 - wk1 Aug_epic story3: Testing integration of Github enterprise into our current research workflow,,,2,7/29/2021,7/29/2021,1
+teampsd,#2139 - wk4 jul_epic story 13: Review splashSourceIncreametalUpdate.sql code (facility file),,,5,7/22/2021,7/29/2021,7
+research,#210 - jul_epic :TMS training (Jun - July 2021),,,4,7/19/2021,8/1/2021,13
