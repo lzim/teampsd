@@ -19,4 +19,9 @@ assignee: 'hsynder2'
 
 << Paste screenshots here>>
 
-5. **Projects:** Assign to the bug_tracker on the right-hand side. 
+**Please assign the following clicks on the right-hand side:**
+
+5. **Assignee:** Assign to hsnyder2.
+6. **Labels:** Assign to d365.
+7. **Projects:** Assign to the bug_tracker on the right-hand side. 
+8. **Milestone:** Assign to aug_2021.
