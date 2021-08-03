@@ -2,8 +2,9 @@
 name: CRM UAT Feedback
 about: Report testing feedback for Dynamics CRM.
 title: 'Short description of bug here (ex. Dashboard: Step 4 - Wrong list displayed in the MTL Teams widget for my personal View of teams.)'
-label: 'd365'
-assignee: 'hsynder2'
+label: [d365]
+assignees: 
+  - hsynder2
 
 ---
 
