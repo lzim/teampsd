@@ -1,5 +1,5 @@
 ---
-name: CRM UAT Testing Feedback
+name: crm_uat_feedback
 about: Report testing feedback for Dynamics CRM.
 title: 'Short description of bug here (ex. Dashboard: Step 4 - Wrong list displayed in the MTL Teams widget for my personal View of teams.)'
 label: 'd365'
@@ -9,7 +9,7 @@ assignee: 'hsynder2'
 
 **Add a detailed description:** 
  
-1.. **Who is reporting the bug:** Your name here. 
+1.. **Who encountered the bug:** If you are reporting for someone else, make sure to put the name of the person who found the bug. 
 
 2. **Date/Time of the bug:** The Date and Time of the bug.
 
