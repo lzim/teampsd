@@ -10,13 +10,15 @@ assignees:
 
 **Add a detailed description:** 
  
-1.. **Who encountered the bug:** If you are reporting for someone else, make sure to put the name of the person who found the bug. 
+1. **Who encountered the bug:** If you are reporting for someone else, make sure to put the name of the person who found the bug. 
 
-2. **Date/Time of the bug:** The Date and Time of the bug.
+2. **Which instance are you testing in?:** Are you in QA or Production?
+
+3. **Date/Time of the bug:** The Date and Time of the bug.
 
 3. **Role:** Are you an admin or a facilitator?
 
-4. **Detailed description of the bug:** Insert a description of the bug, add screesnhots, and steps to reproduce. If following steps on the UAT script/guide, note which specific step.
+4. **Detailed description of the bug:** Insert a description of the bug, add screenshots, and steps to reproduce. If following steps on the UAT script/guide, note which specific step.
 
 << Paste screenshots here>>
 
