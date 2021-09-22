@@ -6,32 +6,42 @@ We use several platforms to ensure co-authors can easily track the progress of a
 
 ## Access the Authorship APP
 
-1. ![](mtl.how/authorship) – We use the Authorship App to ensure a fair & transparent process for assigning authorship order. The app tracks what work has already been done, who has made intellectual contributions & in what subcategories, and how to divvy up the remaining work.
-2. You will receive from TeamPSD Shiny Server, giving you access to the authorship app. If you do not have this email, please email ![](mtl.info@va.gov) and request access.
+1. ![mtl.how/authorship](mtl.how/authorship) We use the Authorship App to ensure a fair & transparent process for assigning authorship order. The app tracks what work has already been done, who has made intellectual contributions & in what subcategories, and how to divvy up the remaining work.
+2. You will receive an email from the TeamPSD Shiny Server, giving you access to the authorship app. If you do not have this email, please email ![mtl.info@va.gov](mtl.info@va.gov) and request access.
 3. Once you get the email granting access, click on the link within the email. This will take you to the page below. Click on “Login”.
 4. This will open up the Login/Sign Up pop-up below. You can either use an existing Google/GitHub account to login or sign up for an account.
-5. d.	In the future, you can go directly to the ![](mtl.how/authorship_app) and login from there. Once your computer starts to cache your login info, you may be able to skip the login step altogether.
+5. In the future, you can go directly to the ![mtl.how/authorship_app](mtl.how/authorship_app) and login from there. Once your computer starts to cache your login info, you may be able to skip the login step altogether.
 
+    ![login popup example](https://github.com/lzim/teampsd/blob/feature-gh-pages-instructions_to_authors/images/ch7_s2_login1.png (Click the login button.))
+    
+    ![register popup example](https://github.com/lzim/teampsd/blob/feature-gh-pages-instructions_to_authors/images/ch7_s2_login2.png (Register if you don't have an account))
 
-
-
-### Track Completion and Contributions 
+## Track Completion and Contributions 
 
 1. Co-authors can use the app asynchronously to provide:
 2. How much prior work (or intellectual contributions) for a manuscript have already been completed: What percentage of the manuscript is based on work previously done vs. writing and analyzing that is still left to be done?
-3. Prior work contributions made by each co-author: What intellectual contributions have you made to the topic of this manuscript and which TeamPSD workgroups do those contributions fall under? Who are the other co-authors that worked on those contributions with you? 
+3. Prior work contributions made by each co-author: 
+    - What intellectual contributions have you made to the topic of this manuscript and which TeamPSD workgroups do those contributions fall under? 
+    - Who are the other co-authors that worked on those contributions with you? 
 
-### Add Co-authors
+    ![work effort estimate page](https://github.com/lzim/teampsd/blob/feature-gh-pages-instructions_to_authors/images/ch7_s3_work_effort.png (Work effort estimate page))
+
+## Add Co-authors
 
 1. With the co-authors on your manuscript decide and add to the app:
 2. Based on the prior work weights averaged across all the co-authors provided input, how will we divvy up the remaining writing, editing, and analysis?
 
+    ![add co-authors page](https://github.com/lzim/teampsd/blob/feature-gh-pages-instructions_to_authors/images/ch7_s4_co_authors.png (Add co-authors on this page))
 
-### View Progress
+## View Progress
 
 As you fill out the weights for a manuscript, a series of pie charts will show the division of contributions for that manuscript to help you work already assigned, authorship order, and work to be assigned. 
 
-## Use Open Science framework (see below)
+![total effort pie chart](https://github.com/lzim/teampsd/blob/feature-gh-pages-instructions_to_authors/images/ch7_s5_view_progress1.png (Total effort pie chart))
+![author prior work effort pie chart](https://github.com/lzim/teampsd/blob/feature-gh-pages-instructions_to_authors/images/ch7_s5_view_progress2.png (Prior effort pie chart))
+![author total weighted effort pie chart](https://github.com/lzim/teampsd/blob/feature-gh-pages-instructions_to_authors/images/ch7_s5_view_progress3.png (Total weighted effort))
+
+# Use Open Science framework (see below)
 
 **We use the Open Science Framework to co-write the manuscripts asynchronously with built-in version control for tracking changes.**
 
