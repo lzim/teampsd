@@ -403,6 +403,28 @@ DO NOT post any direct manuscript content to GitHub; all drafts and related mate
 9. 09_accept – Manuscript is accepted for publishing by journals
 10. 10_publish_publicize – Manuscript is published!
 
+### research_bug_tracker
+
+The [research_bug_tracker] (https://github.com/lzim/research/projects/1) is divided into 6 columns described below, similar to the bug_tracker. The purpose of the research_bug_tracker is to track bugs related to Team PSD research. 
+
+1. needs_triage - This column is the main intake for all issues assigned to the research_bug_tracker. All issues requiring a disposition will land here. When an issue lands in this section, any team lead may review it and alert other leads as to the action required.
+2. validated_actions (ranked) - This column contains all issues that have received a “bug” disposition by a Workgroup Lead(s) and has been provided sufficient details to fix the problem.  This is a rank-ordered list based on due dates indicated in the title.  The rank-order of this section can be changed at any time. 
+3. under_development - Bugs that are currently under development are listed in this column. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups.
+4. testing - Bugs that are currently being tested are listed in this column.  Some issues may skip this step and go directly from under_development to done.
+5. done - This column contains completed issues.  Responsible Workgroup Leads shall communicate completion of the action to the originator in the issue thread.  The originator shall review the action, indicate their satisfaction/dissatisfaction.  Once the originator is satisfied, the originator should close the issue and it will automatically go in the closed column.
+6. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
+
+### research_feature_tracker
+
+The [research_feature_tracker] (https://github.com/lzim/research/projects/2) is divided into 6 columns described below. The purpose of the research_feature_tracker is to track features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements.
+
+1. work_breakdown - Validated feature requirements that have received a disposition are listed here.  Issues in this column are analyzed by Workgroup Leads for dependencies, effort content and milestones they may support (see Appendix 1 - issue_template). 
+2. to_do (ranked) - Features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements are listed there in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
+3. under_development - features under development are listed here. This section may not be reprioritized, and contents are addressed first-in-first-out by respective workgroups.
+4. functional_testing - Features that are currently being tested for basic functionality (i.e. does it work?) are listed here. Some issues may skip this step and go directly from “under_development” to “done.”
+5. done - This column contains completed issues.  Responsible Workgroup Leads shall communicate completion of the action to the originator in the issue thread.  The originator shall review the action, indicate their satisfaction/dissatisfaction.  Once the originator is satisfied, the originator should close the issue and it will automatically go in the closed column.
+6. closed - This column contains issues closed by the originator from the done column. Any issue can be reopened as necessary.
+
 ## Shared Outlook Inboxes
 
 ### MTL Help
