@@ -415,7 +415,7 @@ The [research_bug_tracker](https://github.com/lzim/research/projects/1) is divid
 
 ### research_feature_tracker
 
-The [research_feature_tracker] (https://github.com/lzim/research/projects/2) is divided into 6 columns described below. The purpose of the research_feature_tracker is to track features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements.
+The [research_feature_tracker](https://github.com/lzim/research/projects/2) is divided into 6 columns described below. The purpose of the research_feature_tracker is to track features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements.
 
 1. work_breakdown - Validated feature requirements that have received a disposition are listed here.  Issues in this column are analyzed by Workgroup Leads for dependencies, effort content and milestones they may support (see Appendix 1 - issue_template). 
 2. to_do (ranked) - Features that support research, evaluation and documentation efforts directly related to supporting grants or higher-headquarters reporting requirements are listed there in order of priority by due date indicated in the title. Issues here may be reprioritized at any time.
