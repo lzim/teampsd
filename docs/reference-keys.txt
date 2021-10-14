@@ -46,6 +46,8 @@ bug-tracker-values
 feature_tracker
 document_tracker
 manuscript_tracker
+research_bug_tracker
+research_feature_tracker
 shared-outlook-inboxes
 mtl-help
 mtl-info
