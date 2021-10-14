@@ -193,8 +193,7 @@ Percent of the 32 hours focused on each of these major Workflows:
 - **21.8% MTL/Operations** (QIICs/Facilitate, Quant, Sim/Models) = **7 hours/week**
 - **20.3% Team PSD & NCPTSD Division Participation** (team_temp, team_time, All Hands NCPTSD Staff meeting) = **~6.5 hours/week**
 
-![](![](https://user-images.githubusercontent.com/31089501/115673275-4dc54200-a301-11eb-887c-8e41d75f695d.png)
-)
+![](https://user-images.githubusercontent.com/31089501/115673275-4dc54200-a301-11eb-887c-8e41d75f695d.png)
 
 The table below describes all of the TeamPSD workgroups including their Workgroup Lead, Meeting Time, and Role. For each meeting, it is the responsibility of the Workgroup Lead or HQ point person to:
 
@@ -405,7 +404,7 @@ DO NOT post any direct manuscript content to GitHub; all drafts and related mate
 
 ### research_bug_tracker
 
-The [research_bug_tracker] (https://github.com/lzim/research/projects/1) is divided into 6 columns described below, similar to the bug_tracker. The purpose of the research_bug_tracker is to track bugs related to Team PSD research. 
+The [research_bug_tracker](https://github.com/lzim/research/projects/1) is divided into 6 columns described below, similar to the bug_tracker. The purpose of the research_bug_tracker is to track bugs related to Team PSD research. 
 
 1. needs_triage - This column is the main intake for all issues assigned to the research_bug_tracker. All issues requiring a disposition will land here. When an issue lands in this section, any team lead may review it and alert other leads as to the action required.
 2. validated_actions (ranked) - This column contains all issues that have received a “bug” disposition by a Workgroup Lead(s) and has been provided sufficient details to fix the problem.  This is a rank-ordered list based on due dates indicated in the title.  The rank-order of this section can be changed at any time. 
