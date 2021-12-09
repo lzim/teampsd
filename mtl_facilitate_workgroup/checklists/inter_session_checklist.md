@@ -69,7 +69,7 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 | Before you begin, you need to |
 | -- |
 | 1. **Download or print** the SAY checklist to fill in blanks for your team's highest priority need. |
-| 2. **Review post-session checklist** notes **especially #6** from the prior session. |
+| 2. **Review post-session checklist** notes from the prior session. |
 | 3. **Review** the **_MTL_ Partner, Build, or Apply Fidelity Checklist** to ensure high fidelity ratings. |
 
 | To complete the intersession checklist, you need to |
