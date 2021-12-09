@@ -23,9 +23,7 @@ Submit fidelity ratings for the session at [mtl.how/fidelity](https://mtl.how/fi
 ## Facilitator Debriefing Checklist - 
 
 1. Attendance and engagement
-  - Jenn will post screenshots of the Teams attendee list and EES confirmation receipt of CEU approval
-  - Facilitators can also check the Facilitator Dashboard on mtl.how/sim facilitator_login from Session 05 and on 
-  
+ 
 2. Facilitator needs/questions (need for training, problems)  
 
 3. Create issue cards at [mtl.how/issues](https:/mtl.how/issues) to alert co-facilitators of issues they may encounter and to signal support groups of issues to resolve.
