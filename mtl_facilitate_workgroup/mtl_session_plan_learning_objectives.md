@@ -1,5 +1,4 @@
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_facilitate_sq_sm.png"
-     height = "150" width = "250">  
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/workgroups/team_psd_logo_facilitate.jpg?raw=true">  
 
 # *MTL* Blue 12-session Plan
 
