@@ -105,6 +105,14 @@ disappeared-meeting
 react-to-a-comment
 link-a-commentdiscussionfile
 pop-up-chat
+instructions-to-authors
+access-the-authorship-app
+track-completion-and-contributions
+add-co-authors
+view-progress
+use-open-science-framework-see-below
+use-lucid-charts-for-figures-and-tables
+use-the-manuscript-tracker-in-github
 open-science-framework
 cheatsheet
 lucidcharts
