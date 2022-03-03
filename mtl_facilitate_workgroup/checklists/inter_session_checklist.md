@@ -69,7 +69,7 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 | Before you begin, you need to |
 | -- |
 | 1. **Download or print** the SAY checklist to fill in blanks for your team's highest priority need. |
-| 2. **Review post-session checklist** notes **especially #6** from the prior session. |
+| 2. **Review post-session checklist** notes from the prior session. |
 | 3. **Review** the **_MTL_ Partner, Build, or Apply Fidelity Checklist** to ensure high fidelity ratings. |
 
 | To complete the intersession checklist, you need to |
@@ -100,7 +100,7 @@ s4 | Team Need | The team engages in a dialogue about the highest priority team 
 
 Time Stamp | Prioritize tailored team learning | Edit SAY checklist and practice
 -- | -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up the "throughline" between the team's learning vision, team data and team need question 6 from the Post-Session debrief.
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:10-00:15 | **Cue** up the "throughline" between the team's learning vision, team data and team need from the Post-Session debrief.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:15-00:20 | **Review** to identify the themes from the team vision that should be highlighted in the team data. | **1. In the SAY checklist, fill in the specific themes the team brought up when visioning during session 1.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:20-00:25 | **Plan** reflections for team responses to the prompt questions that relate to the team's vision. | **2. In the SAY checklist, fill in the specific values in the Team Data table (sessions 2 and 3) that reveal the team's highest priority need.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:25-00:35 | **Prioritize** the answers to FAQs most related to the team's need. | **3a. In the SAY checklist, fill in the prioritized frequently asked questions (FAQs) and practice relating them to the team's highest priority need.**
