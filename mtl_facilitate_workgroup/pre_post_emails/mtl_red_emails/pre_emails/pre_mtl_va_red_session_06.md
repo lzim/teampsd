@@ -5,7 +5,7 @@
 
 # This week we're...
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session06/s06_learner/mtl_session06_see.md) **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting (add date/time here)**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **1. Go to to [mtl.how/data](https://mtl.how/data) and find Team data UI and team_data folders.** [Click here for the MTL Red Resources.](https://github.com/lzim/mtl/blob/master/red/)|
