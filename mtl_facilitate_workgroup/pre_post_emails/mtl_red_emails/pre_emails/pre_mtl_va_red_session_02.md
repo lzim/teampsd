@@ -19,7 +19,7 @@ output:
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/barlow_vapor.jpg?raw=true" height="250" width="420">](https://mtl.how/vapor_wk03) 
 
 # Team Vision: [[TeamVision]]
-# This week we're...[[TeamDecision]]
+# This week we're modeling to learn from patient data and team trends.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md) **Do** |
 | --- |
