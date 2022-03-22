@@ -16,11 +16,12 @@ output:
 <!-- MTL Logo, HTML img tag -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides_weeks/mtl_how_week3.png?raw=true"
      height = "215" width = "400">](https://github.com/lzim/mtl/blob/master/red/part2/part2_learner/mtl_red_part_2_see.md) 
-[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/barlow_vapor.jpg?raw=true" height="250" width="420">](https://mtl.how/vapor_wk03)   
+[<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/barlow_vapor.jpg?raw=true" height="250" width="420">](https://mtl.how/vapor_wk03) 
 
-# This week we're...
+# Team Vision: [[TeamVision]]
+# This week we're...[[TeamDecision]]
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting (add date/time here)**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **1. Go to to [mtl.how/data](https://mtl.how/data) and find Team data UI and team_data folders.** [Click here for the MTL Red Resources.](https://github.com/lzim/mtl/blob/master/red/)|
