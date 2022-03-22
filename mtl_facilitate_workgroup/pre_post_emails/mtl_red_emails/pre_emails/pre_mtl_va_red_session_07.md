@@ -4,7 +4,7 @@
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/ontiveros_vapor.jpg?raw=true" height="250" width="420">](https://mtl.how/vapor_wk13)   
 
 # Team Vision: [[TeamVision]]
-# This week we're...[[TeamDecision]]
+# This week we're we're modeling to learn how to produce team data.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/red/part2/part2_learner/mtl_red_part_2_see.md) **Do** |
 | --- |
