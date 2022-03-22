@@ -6,7 +6,7 @@
 # Team Vision: [[TeamVision]]
 # This week we're...[[TeamDecision]]
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session05/s05_learner/mtl_session05_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting (add date/time here)**|
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "45" width = "75">](http://mtl.how/data) **Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out).**|
