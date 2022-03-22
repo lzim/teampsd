@@ -3,7 +3,7 @@
      height = "215" width = "400">](https://github.com/lzim/mtl/blob/master/red/) 
 [<img src="https://github.com/lzim/teampsd/blob/master/resources/vapor_team_youtube/edwards_vapor.jpg?raw=true" height="250" width="420">](https://mtl.how/vapor_wk06)   
 
-# Team Vision: [[Team Vision]]
+# Team Vision: [[TeamVision]]
 # We decided...[[TeamDecision]]
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](#DontLink) **Do** |
