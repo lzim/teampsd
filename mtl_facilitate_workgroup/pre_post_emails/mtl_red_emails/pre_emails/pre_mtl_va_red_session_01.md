@@ -21,7 +21,7 @@ output:
 
 # This week we're modeling to learn from patient data and team trends.
 <!-- Do/Done Tables -->
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/red/part2/part2_learner/mtl_red_part_2_see.md) **Do** |
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md) **Do** |
 | --- |
 |**Before Our Next Team Meeting (add date/time here)**|
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) **We went to [mtl.how/data](https://mtl.how/data) to look at the facility data.** [Click here for the MTL Red Part I guide.](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md)  |
