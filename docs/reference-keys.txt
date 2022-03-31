@@ -1,4 +1,5 @@
 team-psd-manual
+mtl-blue-vs.-red-map
 use-and-contribute-to-this-manual
 click-table-of-contents
 main-chapter
