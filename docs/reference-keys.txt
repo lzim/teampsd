@@ -1,5 +1,12 @@
 team-psd-manual
-mtl-blue-vs.-red-map
+table-of-contents
+partners---team-psdmtl
+user-roles---team-psdmtl-manualworkflow
+glossary
+acronym
+link
+metadata
+contribute-to-manual
 use-and-contribute-to-this-manual
 click-table-of-contents
 main-chapter
@@ -165,6 +172,6 @@ reviewing-pull-requests
 starting-a-review
 marking-a-file-as-viewed
 submitting-your-review
-glossary
+glossary-1
 terms
 acronyms
