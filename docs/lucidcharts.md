@@ -1,13 +1,82 @@
 # LucidCharts
 
+## Organizational Account Setup & Sharing Permissions
+
+1. Email Stacey Park or Jenn Li with your preferred email address to use with Lucid.
+
+2. Once they add you to the TeamPSD LucidChart Org Account, you will get an email invitation.
+
+3. Open the email invitation and follow the steps through to finish setting up your account & password.
+
+4. If you are creating a new document within an existing TeamPSD folder, then it will inherit the share permissions of that folder (i.e. for existing TeamPSD folders, the permissions should already be correct, and any new documents will inherit those share permissions).
+
+5. If you are creating a new document outside of an existing TeamPSD folder or creating a new folder, make sure to share it with the correct groups to ensure everyone can see it.
+
+    a. Hover over the document or folder and click "Share." 
+  
+    ![](https://user-images.githubusercontent.com/31089501/122831150-4b9a4800-d29e-11eb-8092-c20b2dabd6fc.png)
+  
+    b. In the dropdown with the person & penci icon, make sure the "Edit & Share" permissions are selected.
+    
+    ![](https://user-images.githubusercontent.com/31089501/122831229-6d93ca80-d29e-11eb-807e-4d5f47d695c4.png)
+    
+    c. Start typing the name of the group you want to share to:
+       - all_teampsd = all TeamPSD members & partners
+       - mtl_teampsd = core TeamPSD members that are active in workgroups
+       - mtl_hawaii = MTL Hawaii partners
+       - heal = team members who contributed to writing and developing the HEAL grant
+    
+    ![](https://user-images.githubusercontent.com/31089501/122831589-ec890300-d29e-11eb-9218-533c2f6bdcf5.png)
+    
+    d. Click on "Advanced." **Uncheck "Notfiy via Email."** Then, click "Share" and "Done."
+    
+    ![](https://user-images.githubusercontent.com/31089501/122831834-4e496d00-d29f-11eb-8b48-59f5a7f42531.png)
+
+## Organizational Account Admin
+
+Once a team member sends you their email address, a Team Admin or Account Owner needs to add them to the organizational account.  
+
+1. On the top right hand corner, click on your photo. Then, click on "Account Settings."
+  
+   ![](https://user-images.githubusercontent.com/31089501/122849510-82815580-d2c0-11eb-8ec0-edec4f9a52a9.png)
+
+2. You will be taken to your Account page. Click on "Admin."
+
+   ![](https://user-images.githubusercontent.com/31089501/122849703-dee47500-d2c0-11eb-97d1-ca0ecb7fbf62.png)
+
+3. Click on "Users."
+
+   ![](https://user-images.githubusercontent.com/31089501/122849871-2e2aa580-d2c1-11eb-9f31-81d19f78d4f9.png)
+
+4. On the top right hand corner, click on "Add Users" > "Add a Single User."
+
+   ![](https://user-images.githubusercontent.com/31089501/122850045-6f22ba00-d2c1-11eb-8346-0983c693bc42.png)
+
+5. Add the email address and "Invite to Team." This will send an invitation to their email with instructions for setting up an account.
+   
+   ![](https://user-images.githubusercontent.com/31089501/122850230-b8730980-d2c1-11eb-9045-20fd2fccddcd.png)
+   
+6. Once they accept the invite and setup their account, you will see their name in the list of users. Click on a user's name and a pop-up will appear on the right hand side. Click on "Edit" next to "Roles" (go to #7) or "Teams & Groups" (go to #8).
+
+   ![](https://user-images.githubusercontent.com/31089501/122850812-b9586b00-d2c2-11eb-891d-9c71e14c42a5.png)
+
+7. Check the boxes next to "Billing Admin Privileges" or "Team Admin Privileges" as needed. Then, click "Confirm." For regular users, no action is needed here.
+
+   ![](https://user-images.githubusercontent.com/31089501/122851002-10f6d680-d2c3-11eb-9cbf-326f7be6c609.png)
+
+8. Hover over a permissions group and click on the plus sign to add it to the right hand "Selected Groups" column. Then, click "Confirm."
+
+   ![](https://user-images.githubusercontent.com/31089501/122851370-b447eb80-d2c3-11eb-9ab2-0123e604b3ae.png)
+
+
 ## Create a Flow Map
 
-![Create a flow map image](https://user-images.githubusercontent.com/59668647/96020955-a2907900-0e03-11eb-9d36-9e113e6e02e5.png)
+![](https://user-images.githubusercontent.com/59668647/96020955-a2907900-0e03-11eb-9d36-9e113e6e02e5.png)
 
-![basic flow map image](https://user-images.githubusercontent.com/59668647/96020961-a45a3c80-0e03-11eb-955a-83c695b6b55a.png)
+![](https://user-images.githubusercontent.com/59668647/96020961-a45a3c80-0e03-11eb-955a-83c695b6b55a.png)
 
 ## Post on GitHub
 
 [Create a published link](https://lucidchart.zendesk.com/hc/en-us/articles/115005889683-Video-Publish-your-diagram-to-a-unique-URL) to your flow map and add the link to any **issue or pull request** to post a preview of your map.
 
-![post on github example image](https://user-images.githubusercontent.com/59668647/96021663-9b1d9f80-0e04-11eb-8a9a-df6df8bfdd8b.png)
+![](https://user-images.githubusercontent.com/59668647/96021663-9b1d9f80-0e04-11eb-8a9a-df6df8bfdd8b.png)

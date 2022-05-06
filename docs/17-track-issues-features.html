@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 17 Track Issues &amp; Features | Team PSD Manual</title>
+  <meta name="description" content="This is the Team PSD one stop shop." />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 17 Track Issues &amp; Features | Team PSD Manual" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is the Team PSD one stop shop." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 17 Track Issues &amp; Features | Team PSD Manual" />
+  
+  <meta name="twitter:description" content="This is the Team PSD one stop shop." />
+  
+
+<meta name="author" content="Team PSD" />
+
+
+<meta name="date" content="2022-05-06" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="16-manage-with-zenhub.html"/>
+<link rel="next" href="18-glossary-1.html"/>
+<script src="assets/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="assets/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="assets/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="assets/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Team PSD Manual</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#table-of-contents"><i class="fa fa-check"></i><b>1.1</b> Table of Contents</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#main-chapter"><i class="fa fa-check"></i><b>1.1.1</b> Main Chapter</a></li>
+<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#subchapter"><i class="fa fa-check"></i><b>1.1.2</b> Subchapter</a></li>
+<li class="chapter" data-level="1.1.3" data-path="index.html"><a href="index.html#subheader"><i class="fa fa-check"></i><b>1.1.3</b> Subheader</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#partners---team-psd"><i class="fa fa-check"></i><b>1.2</b> Partners - Team PSD</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#user-roles---team-psd-manualworkflow"><i class="fa fa-check"></i><b>1.3</b> User Roles - Team PSD (manual/workflow)</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#glossary"><i class="fa fa-check"></i><b>1.4</b> Glossary</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#acronym"><i class="fa fa-check"></i><b>1.5</b> Acronym</a></li>
+<li class="chapter" data-level="1.6" data-path="index.html"><a href="index.html#link"><i class="fa fa-check"></i><b>1.6</b> Link</a></li>
+<li class="chapter" data-level="1.7" data-path="index.html"><a href="index.html#metadata"><i class="fa fa-check"></i><b>1.7</b> Metadata</a></li>
+<li class="chapter" data-level="1.8" data-path="index.html"><a href="index.html#contribute-to-manual"><i class="fa fa-check"></i><b>1.8</b> Contribute to Manual</a></li>
+<li class="chapter" data-level="1.9" data-path="index.html"><a href="index.html#create-a-feature-branch-from-the-gh-pages-branch."><i class="fa fa-check"></i><b>1.9</b> Create a Feature branch from the GH-Pages Branch.</a></li>
+<li class="chapter" data-level="1.10" data-path="index.html"><a href="index.html#create-a-new-markdown-file-into-the-branch."><i class="fa fa-check"></i><b>1.10</b> Create a new markdown file into the branch.</a></li>
+<li class="chapter" data-level="1.11" data-path="index.html"><a href="index.html#editformat-your-markdown-file."><i class="fa fa-check"></i><b>1.11</b> Edit/format your markdown file.</a></li>
+<li class="chapter" data-level="1.12" data-path="index.html"><a href="index.html#add-markdown-file-name-in-the-_bookdown.yml-file."><i class="fa fa-check"></i><b>1.12</b> Add markdown file name in the "_bookdown.yml" file.</a></li>
+<li class="chapter" data-level="1.13" data-path="index.html"><a href="index.html#check-your-file-against-the-gh-actions-by-making-a-pull-request-to-the-gh-pages-master-branch."><i class="fa fa-check"></i><b>1.13</b> Check your file against the GH Actions by making a pull request to the GH-Pages master branch.</a></li>
+<li class="chapter" data-level="1.14" data-path="index.html"><a href="index.html#publish-your-chapter-to-master-gh-pages-branch."><i class="fa fa-check"></i><b>1.14</b> Publish your Chapter to master GH-pages branch.</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html"><i class="fa fa-check"></i><b>2</b> Use and Contribute to this Manual</a><ul>
+<li class="chapter" data-level="2.1" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#click-table-of-contents"><i class="fa fa-check"></i><b>2.1</b> Click Table of Contents</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#main-chapter-1"><i class="fa fa-check"></i><b>2.1.1</b> Main Chapter</a></li>
+<li class="chapter" data-level="2.1.2" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#subchapter-1"><i class="fa fa-check"></i><b>2.1.2</b> Subchapter</a></li>
+<li class="chapter" data-level="2.1.3" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#subheader-1"><i class="fa fa-check"></i><b>2.1.3</b> Subheader</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#ctrlf-key-terms"><i class="fa fa-check"></i><b>2.2</b> Ctrl+F Key Terms</a></li>
+<li class="chapter" data-level="2.3" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#contribute-to-manual-using-github"><i class="fa fa-check"></i><b>2.3</b> Contribute to Manual using GitHub</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#create-a-feature-branch-from-the-gh-pages-branch.-1"><i class="fa fa-check"></i><b>2.3.1</b> 1. Create a Feature branch from the GH-Pages Branch.</a></li>
+<li class="chapter" data-level="2.3.2" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#create-a-new-markdown-file-into-the-branch.-1"><i class="fa fa-check"></i><b>2.3.2</b> 2. Create a new markdown file into the branch.</a></li>
+<li class="chapter" data-level="2.3.3" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#editformat-your-markdown-file.-1"><i class="fa fa-check"></i><b>2.3.3</b> 3. Edit/format your markdown file.</a></li>
+<li class="chapter" data-level="2.3.4" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#add-markdown-file-name-in-the-_bookdown.yml-file.-1"><i class="fa fa-check"></i><b>2.3.4</b> 4. Add markdown file name in the "_bookdown.yml" file.</a></li>
+<li class="chapter" data-level="2.3.5" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#check-your-file-against-the-gh-actions-by-making-a-pull-request-to-the-gh-pages-master-branch.-1"><i class="fa fa-check"></i><b>2.3.5</b> 5. Check your file against the GH Actions by making a pull request to the GH-Pages master branch.</a></li>
+<li class="chapter" data-level="2.3.6" data-path="2-use-and-contribute-to-this-manual.html"><a href="2-use-and-contribute-to-this-manual.html#publish-your-chapter-to-master-gh-pages-branch.-1"><i class="fa fa-check"></i><b>2.3.6</b> 6. Publish your Chapter to master GH-pages branch.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-standard-operations.html"><a href="3-standard-operations.html"><i class="fa fa-check"></i><b>3</b> Standard Operations</a><ul>
+<li class="chapter" data-level="3.1" data-path="3-standard-operations.html"><a href="3-standard-operations.html#team-psd"><i class="fa fa-check"></i><b>3.1</b> Team PSD</a></li>
+<li class="chapter" data-level="3.2" data-path="3-standard-operations.html"><a href="3-standard-operations.html#scientific-values"><i class="fa fa-check"></i><b>3.2</b> Scientific Values</a></li>
+<li class="chapter" data-level="3.3" data-path="3-standard-operations.html"><a href="3-standard-operations.html#guiding-principles"><i class="fa fa-check"></i><b>3.3</b> Guiding Principles</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="3-standard-operations.html"><a href="3-standard-operations.html#open-source-transparent-reproducible"><i class="fa fa-check"></i><b>3.3.1</b> Open-Source, Transparent, Reproducible</a></li>
+<li class="chapter" data-level="3.3.2" data-path="3-standard-operations.html"><a href="3-standard-operations.html#high-visibility"><i class="fa fa-check"></i><b>3.3.2</b> High Visibility</a></li>
+<li class="chapter" data-level="3.3.3" data-path="3-standard-operations.html"><a href="3-standard-operations.html#team-time"><i class="fa fa-check"></i><b>3.3.3</b> Team Time</a></li>
+<li class="chapter" data-level="3.3.4" data-path="3-standard-operations.html"><a href="3-standard-operations.html#communication"><i class="fa fa-check"></i><b>3.3.4</b> Communication</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="3-standard-operations.html"><a href="3-standard-operations.html#policy"><i class="fa fa-check"></i><b>3.4</b> Policy</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="3-standard-operations.html"><a href="3-standard-operations.html#scope"><i class="fa fa-check"></i><b>3.4.1</b> Scope</a></li>
+<li class="chapter" data-level="3.4.2" data-path="3-standard-operations.html"><a href="3-standard-operations.html#purpose"><i class="fa fa-check"></i><b>3.4.2</b> Purpose</a></li>
+<li class="chapter" data-level="3.4.3" data-path="3-standard-operations.html"><a href="3-standard-operations.html#responsibilities"><i class="fa fa-check"></i><b>3.4.3</b> Responsibilities</a></li>
+<li class="chapter" data-level="3.4.4" data-path="3-standard-operations.html"><a href="3-standard-operations.html#redundancy-success-mode"><i class="fa fa-check"></i><b>3.4.4</b> Redundancy Success Mode</a></li>
+<li class="chapter" data-level="3.4.5" data-path="3-standard-operations.html"><a href="3-standard-operations.html#workgroupschedule"><i class="fa fa-check"></i><b>3.4.5</b> Workgroup/Schedule</a></li>
+<li class="chapter" data-level="3.4.6" data-path="3-standard-operations.html"><a href="3-standard-operations.html#request-time-off"><i class="fa fa-check"></i><b>3.4.6</b> Request Time Off</a></li>
+<li class="chapter" data-level="3.4.7" data-path="3-standard-operations.html"><a href="3-standard-operations.html#github-labels-table"><i class="fa fa-check"></i><b>3.4.7</b> GitHub Labels Table</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="3-standard-operations.html"><a href="3-standard-operations.html#project-management-flowmap-needed"><i class="fa fa-check"></i><b>3.5</b> Project Management [flowmap needed]</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="3-standard-operations.html"><a href="3-standard-operations.html#waterfall"><i class="fa fa-check"></i><b>3.5.1</b> Waterfall</a></li>
+<li class="chapter" data-level="3.5.2" data-path="3-standard-operations.html"><a href="3-standard-operations.html#agile"><i class="fa fa-check"></i><b>3.5.2</b> Agile</a></li>
+<li class="chapter" data-level="3.5.3" data-path="3-standard-operations.html"><a href="3-standard-operations.html#lean"><i class="fa fa-check"></i><b>3.5.3</b> Lean</a></li>
+<li class="chapter" data-level="3.5.4" data-path="3-standard-operations.html"><a href="3-standard-operations.html#scrum"><i class="fa fa-check"></i><b>3.5.4</b> Scrum</a></li>
+<li class="chapter" data-level="3.5.5" data-path="3-standard-operations.html"><a href="3-standard-operations.html#team-pain-points"><i class="fa fa-check"></i><b>3.5.5</b> Team Pain Points</a></li>
+<li class="chapter" data-level="3.5.6" data-path="3-standard-operations.html"><a href="3-standard-operations.html#continuous-collaboration"><i class="fa fa-check"></i><b>3.5.6</b> Continuous Collaboration</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="3-standard-operations.html"><a href="3-standard-operations.html#project-trackers"><i class="fa fa-check"></i><b>3.6</b> Project Trackers</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="3-standard-operations.html"><a href="3-standard-operations.html#bug_tracker"><i class="fa fa-check"></i><b>3.6.1</b> bug_tracker</a></li>
+<li class="chapter" data-level="3.6.2" data-path="3-standard-operations.html"><a href="3-standard-operations.html#feature_tracker"><i class="fa fa-check"></i><b>3.6.2</b> feature_tracker</a></li>
+<li class="chapter" data-level="3.6.3" data-path="3-standard-operations.html"><a href="3-standard-operations.html#document_tracker"><i class="fa fa-check"></i><b>3.6.3</b> document_tracker</a></li>
+<li class="chapter" data-level="3.6.4" data-path="3-standard-operations.html"><a href="3-standard-operations.html#manuscript_tracker"><i class="fa fa-check"></i><b>3.6.4</b> manuscript_tracker</a></li>
+<li class="chapter" data-level="3.6.5" data-path="3-standard-operations.html"><a href="3-standard-operations.html#research_bug_tracker"><i class="fa fa-check"></i><b>3.6.5</b> research_bug_tracker</a></li>
+<li class="chapter" data-level="3.6.6" data-path="3-standard-operations.html"><a href="3-standard-operations.html#research_feature_tracker"><i class="fa fa-check"></i><b>3.6.6</b> research_feature_tracker</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="3-standard-operations.html"><a href="3-standard-operations.html#shared-outlook-inboxes"><i class="fa fa-check"></i><b>3.7</b> Shared Outlook Inboxes</a><ul>
+<li class="chapter" data-level="3.7.1" data-path="3-standard-operations.html"><a href="3-standard-operations.html#mtl-help"><i class="fa fa-check"></i><b>3.7.1</b> MTL Help</a></li>
+<li class="chapter" data-level="3.7.2" data-path="3-standard-operations.html"><a href="3-standard-operations.html#mtl-info"><i class="fa fa-check"></i><b>3.7.2</b> MTL Info</a></li>
+<li class="chapter" data-level="3.7.3" data-path="3-standard-operations.html"><a href="3-standard-operations.html#how-to-get-access"><i class="fa fa-check"></i><b>3.7.3</b> How to Get Access</a></li>
+</ul></li>
+<li class="chapter" data-level="3.8" data-path="3-standard-operations.html"><a href="3-standard-operations.html#quality-assurance-process"><i class="fa fa-check"></i><b>3.8</b> Quality Assurance Process</a><ul>
+<li class="chapter" data-level="3.8.1" data-path="3-standard-operations.html"><a href="3-standard-operations.html#dev---dev-is-responsible-for-completing-user-hypothesis-testing-thinking-through-the-requirements-and-impact-and-deciding-or-providing-recommendations-on-ifhow-we-should-take-the-first-step."><i class="fa fa-check"></i><b>3.8.1</b> DEV - Dev is responsible for completing user-hypothesis testing, thinking through the requirements and impact, and deciding (or providing recommendations) on if/how we should take the first step.</a></li>
+<li class="chapter" data-level="3.8.2" data-path="3-standard-operations.html"><a href="3-standard-operations.html#test---test-is-responsible-for-seamless-integration-by-making-sure-the-resource-and-all-of-its-potential-impacts-are-thought-through-and-updated-in-a-manner-consistent-to-existing-workflows-workgroups-language-facilitation-principles-etc.-the-test-person-should-be-identified-by-role-and-expertise-in-workgroup."><i class="fa fa-check"></i><b>3.8.2</b> TEST - Test is responsible for seamless integration by making sure the resource and all of its potential impacts are thought through and updated in a manner consistent to existing workflows, workgroups, language, facilitation principles, etc. The test person should be identified by role and expertise in workgroup.</a></li>
+<li class="chapter" data-level="3.8.3" data-path="3-standard-operations.html"><a href="3-standard-operations.html#prod---prod-is-responsible-for-the-final-check-and-polish-before-official-release-to-all-users."><i class="fa fa-check"></i><b>3.8.3</b> PROD - Prod is responsible for the final check and polish before official release to all users.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html"><i class="fa fa-check"></i><b>4</b> Shared Workstreams Across Management Trio</a><ul>
+<li class="chapter" data-level="4.1" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#manage-team-psd-and-vha-worflows-via-teams-and-outlook"><i class="fa fa-check"></i><b>4.1</b> Manage Team PSD and VHA Worflows via Teams And Outlook</a></li>
+<li class="chapter" data-level="4.2" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#edit-a-guide-via-pull-request-and-plan-devtestprod-quality-assurance-sync"><i class="fa fa-check"></i><b>4.2</b> Edit a Guide via Pull Request and Plan DEV/TEST/PROD Quality Assurance Sync</a></li>
+<li class="chapter" data-level="4.3" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#improve-the-team-psd-manual"><i class="fa fa-check"></i><b>4.3</b> Improve the Team PSD Manual</a></li>
+<li class="chapter" data-level="4.4" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#manage-outlook-shared-calendars-meeting-series"><i class="fa fa-check"></i><b>4.4</b> Manage Outlook Shared Calendars &amp; Meeting Series</a></li>
+<li class="chapter" data-level="4.5" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#improve-the-mtl-3.0-manual"><i class="fa fa-check"></i><b>4.5</b> Improve the <em>MTL</em> 3.0 Manual</a></li>
+<li class="chapter" data-level="4.6" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#scope-workflow-dependencies-using-user-stores-and-githubzenhub"><i class="fa fa-check"></i><b>4.6</b> Scope Workflow Dependencies Using User Stores and GitHub/ZenHub</a></li>
+<li class="chapter" data-level="4.7" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#coordinate-train-workflow"><i class="fa fa-check"></i><b>4.7</b> Coordinate Train Workflow</a></li>
+<li class="chapter" data-level="4.8" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#on-board-new-team-member-to-va"><i class="fa fa-check"></i><b>4.8</b> On-board New Team Member to VA</a></li>
+<li class="chapter" data-level="4.9" data-path="4-shared-workstreams-across-management-trio.html"><a href="4-shared-workstreams-across-management-trio.html#hire-a-new-team-member-through-pavir"><i class="fa fa-check"></i><b>4.9</b> Hire a New Team Member through PAVIR</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-co-coordinated-workstreams-rd-and-dataopsdevops.html"><a href="5-co-coordinated-workstreams-rd-and-dataopsdevops.html"><i class="fa fa-check"></i><b>5</b> Co-coordinated Workstreams (R&amp;D and DataOps/DevOps)</a><ul>
+<li class="chapter" data-level="5.1" data-path="5-co-coordinated-workstreams-rd-and-dataopsdevops.html"><a href="5-co-coordinated-workstreams-rd-and-dataopsdevops.html#manage-research-repository-including-readme.md"><i class="fa fa-check"></i><b>5.1</b> Manage Research Repository Including Readme.md</a></li>
+<li class="chapter" data-level="5.2" data-path="5-co-coordinated-workstreams-rd-and-dataopsdevops.html"><a href="5-co-coordinated-workstreams-rd-and-dataopsdevops.html#request-new-research-data"><i class="fa fa-check"></i><b>5.2</b> Request New Research Data</a></li>
+<li class="chapter" data-level="5.3" data-path="5-co-coordinated-workstreams-rd-and-dataopsdevops.html"><a href="5-co-coordinated-workstreams-rd-and-dataopsdevops.html#submit-vaco-and-vapahcs-progress-report"><i class="fa fa-check"></i><b>5.3</b> Submit VACO and VAPAHCS Progress Report</a></li>
+<li class="chapter" data-level="5.4" data-path="5-co-coordinated-workstreams-rd-and-dataopsdevops.html"><a href="5-co-coordinated-workstreams-rd-and-dataopsdevops.html#contribute-to-a-team-psd-manuscript"><i class="fa fa-check"></i><b>5.4</b> Contribute to a Team PSD Manuscript</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html"><i class="fa fa-check"></i><b>6</b> Research and Development Workstreams</a><ul>
+<li class="chapter" data-level="6.1" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#manage-research-and-development-workstream"><i class="fa fa-check"></i><b>6.1</b> Manage Research and Development Workstream</a></li>
+<li class="chapter" data-level="6.2" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#achieve-research-value-stream-key-performance-indicators-kpi"><i class="fa fa-check"></i><b>6.2</b> Achieve Research Value Stream Key Performance Indicators (KPI)</a></li>
+<li class="chapter" data-level="6.3" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#maange-research-calendar-and-inbox-mtl.infova.gov"><i class="fa fa-check"></i><b>6.3</b> Maange Research Calendar and Inbox <span>mtl.info@va.gov</span></a></li>
+<li class="chapter" data-level="6.4" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#coordinate-manuscriptmonday"><i class="fa fa-check"></i><b>6.4</b> Coordinate #manuscriptmonday</a></li>
+<li class="chapter" data-level="6.5" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#coordinate-team_time"><i class="fa fa-check"></i><b>6.5</b> Coordinate team_time</a></li>
+<li class="chapter" data-level="6.6" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#send-provider-surveys"><i class="fa fa-check"></i><b>6.6</b> Send Provider Surveys</a></li>
+<li class="chapter" data-level="6.7" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#renew-or-modify-the-irb"><i class="fa fa-check"></i><b>6.7</b> Renew or Modify the IRB</a></li>
+<li class="chapter" data-level="6.8" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#submit-an-nih-grant-with-pavir"><i class="fa fa-check"></i><b>6.8</b> Submit an NIH Grant with PAVIR</a></li>
+<li class="chapter" data-level="6.9" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#submit-a-grant-to-the-va"><i class="fa fa-check"></i><b>6.9</b> Submit a Grant to the VA</a></li>
+<li class="chapter" data-level="6.10" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#manage-authorship-app."><i class="fa fa-check"></i><b>6.10</b> Manage Authorship App.</a></li>
+<li class="chapter" data-level="6.11" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#manage-manuscript-tracker"><i class="fa fa-check"></i><b>6.11</b> Manage Manuscript Tracker</a></li>
+<li class="chapter" data-level="6.12" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#submit-a-peer-reviewed-manuscipt"><i class="fa fa-check"></i><b>6.12</b> Submit a Peer-reviewed Manuscipt</a></li>
+<li class="chapter" data-level="6.13" data-path="6-research-and-development-workstreams.html"><a href="6-research-and-development-workstreams.html#send-standford-qi-course-evaluations"><i class="fa fa-check"></i><b>6.13</b> Send Standford QI Course Evaluations</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html"><i class="fa fa-check"></i><b>7</b> DataOps and DevOps Workstreams</a><ul>
+<li class="chapter" data-level="7.1" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#manage-dataops-and-devops-workstream-permissions"><i class="fa fa-check"></i><b>7.1</b> Manage DataOps and DevOps Workstream Permissions</a></li>
+<li class="chapter" data-level="7.2" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#achieve-development-value-stream-key-performance-indicators-kpi"><i class="fa fa-check"></i><b>7.2</b> Achieve Development Value Stream Key Performance Indicators (KPI)</a></li>
+<li class="chapter" data-level="7.3" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#manage-va-contracts"><i class="fa fa-check"></i><b>7.3</b> Manage VA Contracts</a></li>
+<li class="chapter" data-level="7.4" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#sync-bug-tracker-progress-to-squash-team-psd-and-research-bugs"><i class="fa fa-check"></i><b>7.4</b> Sync Bug Tracker Progress to Squash Team PSD and Research Bugs</a></li>
+<li class="chapter" data-level="7.5" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#sync-feature-tracker-progress-to-develop-team-psd-and-research-features"><i class="fa fa-check"></i><b>7.5</b> Sync Feature Tracker Progress to Develop Team PSD and Research Features</a></li>
+<li class="chapter" data-level="7.6" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#coordinate-a-code-review"><i class="fa fa-check"></i><b>7.6</b> Coordinate a Code Review</a></li>
+<li class="chapter" data-level="7.7" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#update-an-r-notebook"><i class="fa fa-check"></i><b>7.7</b> Update an R Notebook</a></li>
+<li class="chapter" data-level="7.8" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#improve-msd365-integration"><i class="fa fa-check"></i><b>7.8</b> Improve MSD365 Integration</a></li>
+<li class="chapter" data-level="7.9" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#refresh-data-for-r01-or-iir"><i class="fa fa-check"></i><b>7.9</b> Refresh Data for R01 or IIR</a></li>
+<li class="chapter" data-level="7.10" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#update-a-vensim-model"><i class="fa fa-check"></i><b>7.10</b> Update a Vensim Model</a></li>
+<li class="chapter" data-level="7.11" data-path="7-dataops-and-devops-workstreams.html"><a href="7-dataops-and-devops-workstreams.html#update-sim-ui-module-documentation"><i class="fa fa-check"></i><b>7.11</b> Update Sim UI Module Documentation</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html"><i class="fa fa-check"></i><b>8</b> PeopleOps Workstreams</a><ul>
+<li class="chapter" data-level="8.1" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#manage-peopleops-workstream-permissions"><i class="fa fa-check"></i><b>8.1</b> Manage PeopleOps Workstream Permissions</a></li>
+<li class="chapter" data-level="8.2" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#achieve-operations-value-stream-key-performance-indicators-kpi"><i class="fa fa-check"></i><b>8.2</b> Achieve Operations Value Stream Key Performance Indicators (KPI)</a></li>
+<li class="chapter" data-level="8.3" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#manage-operations-calendar-and-inbox"><i class="fa fa-check"></i><b>8.3</b> Manage Operations Calendar and Inbox</a></li>
+<li class="chapter" data-level="8.4" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#coordinate-vapor"><i class="fa fa-check"></i><b>8.4</b> Coordinate VAPOR</a></li>
+<li class="chapter" data-level="8.5" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#engage-a-new-mtl-co-planning-group"><i class="fa fa-check"></i><b>8.5</b> Engage a New <em>MTL</em> Co-planning Group</a></li>
+<li class="chapter" data-level="8.6" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#set-up-a-new-mtl-live-team"><i class="fa fa-check"></i><b>8.6</b> Set up a New <em>MTL</em> Live Team</a></li>
+<li class="chapter" data-level="8.7" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#facilitate-an-mtl-live-team"><i class="fa fa-check"></i><b>8.7</b> Facilitate an <em>MTL</em> Live Team</a></li>
+<li class="chapter" data-level="8.8" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#organize-the-mtl-facilitate-for-all"><i class="fa fa-check"></i><b>8.8</b> Organize the <em>MTL</em> Facilitate for All</a></li>
+<li class="chapter" data-level="8.9" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#purchase-through-reqlogic"><i class="fa fa-check"></i><b>8.9</b> Purchase through ReqLogic</a></li>
+<li class="chapter" data-level="8.10" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#coordinate-ees-workflow"><i class="fa fa-check"></i><b>8.10</b> Coordinate EES Workflow</a></li>
+<li class="chapter" data-level="8.11" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#coordinate-all-hands"><i class="fa fa-check"></i><b>8.11</b> Coordinate All Hands</a></li>
+<li class="chapter" data-level="8.12" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#coordinate-non-research-external-partners"><i class="fa fa-check"></i><b>8.12</b> Coordinate Non-research External Partners</a></li>
+<li class="chapter" data-level="8.13" data-path="8-peopleops-workstreams.html"><a href="8-peopleops-workstreams.html#orient-team-members-to-documentation-needs-using-the-document-archive"><i class="fa fa-check"></i><b>8.13</b> Orient Team Members to Documentation Needs Using The Document Archive</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="9-team-psd-2.0-monthly-process.html"><a href="9-team-psd-2.0-monthly-process.html"><i class="fa fa-check"></i><b>9</b> Team PSD 2.0 Monthly Process</a><ul>
+<li class="chapter" data-level="9.1" data-path="9-team-psd-2.0-monthly-process.html"><a href="9-team-psd-2.0-monthly-process.html#week-1-gather-user-hypotheses"><i class="fa fa-check"></i><b>9.1</b> Week 1: Gather User Hypotheses</a></li>
+<li class="chapter" data-level="9.2" data-path="9-team-psd-2.0-monthly-process.html"><a href="9-team-psd-2.0-monthly-process.html#week-2-clarify-user-assumptions-w-mvp-test"><i class="fa fa-check"></i><b>9.2</b> Week 2: Clarify User Assumptions w/ MVP test</a></li>
+<li class="chapter" data-level="9.3" data-path="9-team-psd-2.0-monthly-process.html"><a href="9-team-psd-2.0-monthly-process.html#week-3-review-user-results-of-mvp"><i class="fa fa-check"></i><b>9.3</b> Week 3: Review User Results of MVP</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="9-team-psd-2.0-monthly-process.html"><a href="9-team-psd-2.0-monthly-process.html#create-screencast-video"><i class="fa fa-check"></i><b>9.3.1</b> Create Screencast Video</a></li>
+<li class="chapter" data-level="9.3.2" data-path="9-team-psd-2.0-monthly-process.html"><a href="9-team-psd-2.0-monthly-process.html#upload-screencast-video"><i class="fa fa-check"></i><b>9.3.2</b> Upload Screencast Video</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="9-team-psd-2.0-monthly-process.html"><a href="9-team-psd-2.0-monthly-process.html#week-4-review-second-story-perspectives"><i class="fa fa-check"></i><b>9.4</b> Week 4: Review Second Story Perspectives</a><ul>
+<li class="chapter" data-level="9.4.1" data-path="9-team-psd-2.0-monthly-process.html"><a href="9-team-psd-2.0-monthly-process.html#reflect-second-stories"><i class="fa fa-check"></i><b>9.4.1</b> Reflect Second Stories</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="10-va-citrix.html"><a href="10-va-citrix.html"><i class="fa fa-check"></i><b>10</b> VA Citrix</a><ul>
+<li class="chapter" data-level="10.1" data-path="10-va-citrix.html"><a href="10-va-citrix.html#download-citrix"><i class="fa fa-check"></i><b>10.1</b> Download Citrix</a></li>
+<li class="chapter" data-level="10.2" data-path="10-va-citrix.html"><a href="10-va-citrix.html#access-remote-desktops"><i class="fa fa-check"></i><b>10.2</b> Access Remote Desktops</a><ul>
+<li class="chapter" data-level="10.2.1" data-path="10-va-citrix.html"><a href="10-va-citrix.html#window-users"><i class="fa fa-check"></i><b>10.2.1</b> Window Users</a></li>
+<li class="chapter" data-level="10.2.2" data-path="10-va-citrix.html"><a href="10-va-citrix.html#mac-users"><i class="fa fa-check"></i><b>10.2.2</b> Mac Users</a></li>
+<li class="chapter" data-level="10.2.3" data-path="10-va-citrix.html"><a href="10-va-citrix.html#remote-desktops"><i class="fa fa-check"></i><b>10.2.3</b> Remote Desktops</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="11-ms-teams.html"><a href="11-ms-teams.html"><i class="fa fa-check"></i><b>11</b> MS Teams</a><ul>
+<li class="chapter" data-level="11.1" data-path="11-ms-teams.html"><a href="11-ms-teams.html#quick-start-guide"><i class="fa fa-check"></i><b>11.1</b> Quick Start Guide</a></li>
+<li class="chapter" data-level="11.2" data-path="11-ms-teams.html"><a href="11-ms-teams.html#flow-map"><i class="fa fa-check"></i><b>11.2</b> Flow Map</a><ul>
+<li class="chapter" data-level="11.2.1" data-path="11-ms-teams.html"><a href="11-ms-teams.html#switch-orgsadd-va-account"><i class="fa fa-check"></i><b>11.2.1</b> Switch Orgs/Add VA Account</a></li>
+<li class="chapter" data-level="11.2.2" data-path="11-ms-teams.html"><a href="11-ms-teams.html#create-a-va-teams-meeting-from-your-personal-email-account"><i class="fa fa-check"></i><b>11.2.2</b> Create a VA Teams meeting from your Personal Email Account</a></li>
+<li class="chapter" data-level="11.2.3" data-path="11-ms-teams.html"><a href="11-ms-teams.html#create-a-va-teams-meeting-from-the-shared-mtl-help-or-mtl-info-email-accounts"><i class="fa fa-check"></i><b>11.2.3</b> Create a VA Teams meeting from the shared MTL Help or MTL Info Email Accounts</a></li>
+<li class="chapter" data-level="11.2.4" data-path="11-ms-teams.html"><a href="11-ms-teams.html#participate-in-a-meeting"><i class="fa fa-check"></i><b>11.2.4</b> Participate in a Meeting</a></li>
+</ul></li>
+<li class="chapter" data-level="11.3" data-path="11-ms-teams.html"><a href="11-ms-teams.html#additional-tipsfunctions"><i class="fa fa-check"></i><b>11.3</b> Additional Tips/Functions</a><ul>
+<li class="chapter" data-level="11.3.1" data-path="11-ms-teams.html"><a href="11-ms-teams.html#va-teams-webapp-browser"><i class="fa fa-check"></i><b>11.3.1</b> VA Teams WebApp Browser:</a></li>
+<li class="chapter" data-level="11.3.2" data-path="11-ms-teams.html"><a href="11-ms-teams.html#switch-organizations"><i class="fa fa-check"></i><b>11.3.2</b> Switch Organizations</a></li>
+<li class="chapter" data-level="11.3.3" data-path="11-ms-teams.html"><a href="11-ms-teams.html#meet-in-a-channel"><i class="fa fa-check"></i><b>11.3.3</b> Meet in a Channel</a></li>
+<li class="chapter" data-level="11.3.4" data-path="11-ms-teams.html"><a href="11-ms-teams.html#edit-messagereply"><i class="fa fa-check"></i><b>11.3.4</b> Edit Message/Reply</a></li>
+<li class="chapter" data-level="11.3.5" data-path="11-ms-teams.html"><a href="11-ms-teams.html#type-in-markdown"><i class="fa fa-check"></i><b>11.3.5</b> Type in Markdown</a></li>
+<li class="chapter" data-level="11.3.6" data-path="11-ms-teams.html"><a href="11-ms-teams.html#start-a-call-in-a-thread"><i class="fa fa-check"></i><b>11.3.6</b> Start a Call in a Thread</a></li>
+<li class="chapter" data-level="11.3.7" data-path="11-ms-teams.html"><a href="11-ms-teams.html#record-a-meeting"><i class="fa fa-check"></i><b>11.3.7</b> Record a Meeting</a></li>
+<li class="chapter" data-level="11.3.8" data-path="11-ms-teams.html"><a href="11-ms-teams.html#share-dual-screens"><i class="fa fa-check"></i><b>11.3.8</b> Share Dual Screens</a></li>
+<li class="chapter" data-level="11.3.9" data-path="11-ms-teams.html"><a href="11-ms-teams.html#disappeared-meeting"><i class="fa fa-check"></i><b>11.3.9</b> Disappeared Meeting</a></li>
+<li class="chapter" data-level="11.3.10" data-path="11-ms-teams.html"><a href="11-ms-teams.html#react-to-a-comment"><i class="fa fa-check"></i><b>11.3.10</b> “React” to a Comment</a></li>
+<li class="chapter" data-level="11.3.11" data-path="11-ms-teams.html"><a href="11-ms-teams.html#link-a-commentdiscussionfile"><i class="fa fa-check"></i><b>11.3.11</b> Link a Comment/Discussion/File</a></li>
+<li class="chapter" data-level="11.3.12" data-path="11-ms-teams.html"><a href="11-ms-teams.html#pop-up-chat"><i class="fa fa-check"></i><b>11.3.12</b> Pop up Chat</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="12-instructions-to-authors.html"><a href="12-instructions-to-authors.html"><i class="fa fa-check"></i><b>12</b> Instructions to Authors</a><ul>
+<li class="chapter" data-level="12.1" data-path="12-instructions-to-authors.html"><a href="12-instructions-to-authors.html#access-the-authorship-app"><i class="fa fa-check"></i><b>12.1</b> Access the Authorship APP</a></li>
+<li class="chapter" data-level="12.2" data-path="12-instructions-to-authors.html"><a href="12-instructions-to-authors.html#track-completion-and-contributions"><i class="fa fa-check"></i><b>12.2</b> Track Completion and Contributions</a></li>
+<li class="chapter" data-level="12.3" data-path="12-instructions-to-authors.html"><a href="12-instructions-to-authors.html#add-co-authors"><i class="fa fa-check"></i><b>12.3</b> Add Co-authors</a></li>
+<li class="chapter" data-level="12.4" data-path="12-instructions-to-authors.html"><a href="12-instructions-to-authors.html#view-progress"><i class="fa fa-check"></i><b>12.4</b> View Progress</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="13-use-open-science-framework-see-below.html"><a href="13-use-open-science-framework-see-below.html"><i class="fa fa-check"></i><b>13</b> Use Open Science framework (see below)</a><ul>
+<li class="chapter" data-level="13.1" data-path="13-use-open-science-framework-see-below.html"><a href="13-use-open-science-framework-see-below.html#use-lucid-charts-for-figures-and-tables"><i class="fa fa-check"></i><b>13.1</b> Use Lucid Charts for Figures and Tables</a></li>
+<li class="chapter" data-level="13.2" data-path="13-use-open-science-framework-see-below.html"><a href="13-use-open-science-framework-see-below.html#use-the-manuscript-tracker-in-github"><i class="fa fa-check"></i><b>13.2</b> Use the Manuscript Tracker in GitHub</a></li>
+<li class="chapter" data-level="13.3" data-path="13-use-open-science-framework-see-below.html"><a href="13-use-open-science-framework-see-below.html#open-science-framework"><i class="fa fa-check"></i><b>13.3</b> Open Science Framework</a></li>
+<li class="chapter" data-level="13.4" data-path="13-use-open-science-framework-see-below.html"><a href="13-use-open-science-framework-see-below.html#cheatsheet"><i class="fa fa-check"></i><b>13.4</b> Cheatsheet</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="14-lucidcharts.html"><a href="14-lucidcharts.html"><i class="fa fa-check"></i><b>14</b> LucidCharts</a><ul>
+<li class="chapter" data-level="14.1" data-path="14-lucidcharts.html"><a href="14-lucidcharts.html#organizational-account-setup-sharing-permissions"><i class="fa fa-check"></i><b>14.1</b> Organizational Account Setup &amp; Sharing Permissions</a></li>
+<li class="chapter" data-level="14.2" data-path="14-lucidcharts.html"><a href="14-lucidcharts.html#organizational-account-admin"><i class="fa fa-check"></i><b>14.2</b> Organizational Account Admin</a></li>
+<li class="chapter" data-level="14.3" data-path="14-lucidcharts.html"><a href="14-lucidcharts.html#create-a-flow-map"><i class="fa fa-check"></i><b>14.3</b> Create a Flow Map</a></li>
+<li class="chapter" data-level="14.4" data-path="14-lucidcharts.html"><a href="14-lucidcharts.html#post-on-github"><i class="fa fa-check"></i><b>14.4</b> Post on GitHub</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="15-github-zenhub.html"><a href="15-github-zenhub.html"><i class="fa fa-check"></i><b>15</b> GitHub + ZenHub</a><ul>
+<li class="chapter" data-level="15.1" data-path="15-github-zenhub.html"><a href="15-github-zenhub.html#github-repositories"><i class="fa fa-check"></i><b>15.1</b> GitHub Repositories</a><ul>
+<li class="chapter" data-level="15.1.1" data-path="15-github-zenhub.html"><a href="15-github-zenhub.html#workflow"><i class="fa fa-check"></i><b>15.1.1</b> Workflow</a></li>
+<li class="chapter" data-level="15.1.2" data-path="15-github-zenhub.html"><a href="15-github-zenhub.html#non-va-repositories"><i class="fa fa-check"></i><b>15.1.2</b> Non-VA Repositories</a></li>
+<li class="chapter" data-level="15.1.3" data-path="15-github-zenhub.html"><a href="15-github-zenhub.html#va-enterprise-repositories"><i class="fa fa-check"></i><b>15.1.3</b> VA Enterprise Repositories</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html"><i class="fa fa-check"></i><b>16</b> Manage with ZenHub</a><ul>
+<li class="chapter" data-level="16.1" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#enable-zenhub-within-github"><i class="fa fa-check"></i><b>16.1</b> Enable ZenHub within GitHub</a></li>
+<li class="chapter" data-level="16.2" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#view-roadmap-epics"><i class="fa fa-check"></i><b>16.2</b> View Roadmap + Epics</a></li>
+<li class="chapter" data-level="16.3" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#add-epics-to-issues"><i class="fa fa-check"></i><b>16.3</b> Add Epics to Issues</a></li>
+<li class="chapter" data-level="16.4" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#define-workspaces"><i class="fa fa-check"></i><b>16.4</b> Define Workspaces</a></li>
+<li class="chapter" data-level="16.5" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#add-dependencies"><i class="fa fa-check"></i><b>16.5</b> Add Dependencies</a></li>
+<li class="chapter" data-level="16.6" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#estimate-issues"><i class="fa fa-check"></i><b>16.6</b> Estimate Issues</a></li>
+<li class="chapter" data-level="16.7" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#clicks-for-issues"><i class="fa fa-check"></i><b>16.7</b> 9 Clicks for Issues</a></li>
+<li class="chapter" data-level="16.8" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#manage-workgroup-workflows"><i class="fa fa-check"></i><b>16.8</b> Manage Workgroup Workflows</a></li>
+<li class="chapter" data-level="16.9" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#filter-workspace"><i class="fa fa-check"></i><b>16.9</b> Filter Workspace</a></li>
+<li class="chapter" data-level="16.10" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#track-notifications"><i class="fa fa-check"></i><b>16.10</b> Track Notifications</a></li>
+<li class="chapter" data-level="16.11" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#create-manage-issues"><i class="fa fa-check"></i><b>16.11</b> Create &amp; Manage Issues</a></li>
+<li class="chapter" data-level="16.12" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#view-reports"><i class="fa fa-check"></i><b>16.12</b> View Reports</a></li>
+<li class="chapter" data-level="16.13" data-path="16-manage-with-zenhub.html"><a href="16-manage-with-zenhub.html#test-first-epic-go_live"><i class="fa fa-check"></i><b>16.13</b> Test First Epic (go_live)</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html"><i class="fa fa-check"></i><b>17</b> Track Issues &amp; Features</a><ul>
+<li class="chapter" data-level="17.1" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#create-issuefeature-cards-click-maps-in-progress"><i class="fa fa-check"></i><b>17.1</b> Create Issue/Feature cards [click maps in progress]</a></li>
+<li class="chapter" data-level="17.2" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#maintaining-cards-flow-map-in-progress"><i class="fa fa-check"></i><b>17.2</b> Maintaining Cards [flow map in progress]</a></li>
+<li class="chapter" data-level="17.3" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#use-markdown"><i class="fa fa-check"></i><b>17.3</b> Use Markdown</a><ul>
+<li class="chapter" data-level="17.3.1" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#write-markdown"><i class="fa fa-check"></i><b>17.3.1</b> Write Markdown</a></li>
+<li class="chapter" data-level="17.3.2" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#use-markdown-files"><i class="fa fa-check"></i><b>17.3.2</b> Use Markdown Files</a></li>
+</ul></li>
+<li class="chapter" data-level="17.4" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#use-github-branches"><i class="fa fa-check"></i><b>17.4</b> Use GitHub Branches</a></li>
+<li class="chapter" data-level="17.5" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#submit-a-feature"><i class="fa fa-check"></i><b>17.5</b> Submit a Feature</a><ul>
+<li class="chapter" data-level="17.5.1" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#create-a-feature-branch"><i class="fa fa-check"></i><b>17.5.1</b> Create a Feature Branch</a></li>
+<li class="chapter" data-level="17.5.2" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#edit-a-feature-branch"><i class="fa fa-check"></i><b>17.5.2</b> Edit a Feature Branch</a></li>
+<li class="chapter" data-level="17.5.3" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#push-a-feature-branch"><i class="fa fa-check"></i><b>17.5.3</b> Push a Feature Branch</a></li>
+</ul></li>
+<li class="chapter" data-level="17.6" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#run-quality-assurance"><i class="fa fa-check"></i><b>17.6</b> Run Quality Assurance</a></li>
+<li class="chapter" data-level="17.7" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#use-a-find-and-replace-branch"><i class="fa fa-check"></i><b>17.7</b> Use a “Find and Replace” Branch</a><ul>
+<li class="chapter" data-level="17.7.1" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#configure-the-findreplace.yml-action-file"><i class="fa fa-check"></i><b>17.7.1</b> Configure the FindReplace.yml Action File</a></li>
+<li class="chapter" data-level="17.7.2" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#create-a-find-and-replace-fnr-branch"><i class="fa fa-check"></i><b>17.7.2</b> Create a “Find and Replace” (FNR) Branch</a></li>
+</ul></li>
+<li class="chapter" data-level="17.8" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#update-a-bookdown-file-using-the-gh-pages-branch"><i class="fa fa-check"></i><b>17.8</b> Update a Bookdown File Using the “gh-pages” Branch</a></li>
+<li class="chapter" data-level="17.9" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#update-a-model-file-using-the-dev-test-and-master-branches"><i class="fa fa-check"></i><b>17.9</b> Update a Model File Using the Dev, Test and Master Branches</a></li>
+<li class="chapter" data-level="17.10" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#contribute-to-an-r-notebook"><i class="fa fa-check"></i><b>17.10</b> Contribute to an R Notebook</a></li>
+<li class="chapter" data-level="17.11" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#reviewing-pull-requests"><i class="fa fa-check"></i><b>17.11</b> Reviewing pull requests</a><ul>
+<li class="chapter" data-level="17.11.1" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#starting-a-review"><i class="fa fa-check"></i><b>17.11.1</b> Starting a review</a></li>
+<li class="chapter" data-level="17.11.2" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#marking-a-file-as-viewed"><i class="fa fa-check"></i><b>17.11.2</b> Marking a file as viewed</a></li>
+<li class="chapter" data-level="17.11.3" data-path="17-track-issues-features.html"><a href="17-track-issues-features.html#submitting-your-review"><i class="fa fa-check"></i><b>17.11.3</b> Submitting your review</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="18" data-path="18-glossary-1.html"><a href="18-glossary-1.html"><i class="fa fa-check"></i><b>18</b> Glossary</a><ul>
+<li class="chapter" data-level="18.1" data-path="18-glossary-1.html"><a href="18-glossary-1.html#terms"><i class="fa fa-check"></i><b>18.1</b> Terms</a></li>
+<li class="chapter" data-level="18.2" data-path="18-glossary-1.html"><a href="18-glossary-1.html#acronyms"><i class="fa fa-check"></i><b>18.2</b> Acronyms</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Team PSD Manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="track-issues-features" class="section level1 hasAnchor">
+<h1><span class="header-section-number">Chapter 17</span> Track Issues &amp; Features<a href="17-track-issues-features.html#track-issues-features" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="create-issuefeature-cards-click-maps-in-progress" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.1</span> Create Issue/Feature cards [click maps in progress]<a href="17-track-issues-features.html#create-issuefeature-cards-click-maps-in-progress" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Click map would explain process <a href="https://github.com/lzim/teampsd/issues/new/choose">here</a></p>
+</div>
+<div id="maintaining-cards-flow-map-in-progress" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.2</span> Maintaining Cards [flow map in progress]<a href="17-track-issues-features.html#maintaining-cards-flow-map-in-progress" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Flow map to maintain your issue/features cards as they get worked on.</p>
+<p>We will wait for these flow maps until Branching MVP is tested:
+[Track a bug] might change
+[Track a feature] might change.</p>
+<p>Previous Issue Card Flow Map:
+<img src="https://user-images.githubusercontent.com/59668647/88049640-5ab2cc00-cb0a-11ea-89a0-a09d13d4761d.png" alt="Issue Card Flow Map" /></p>
+</div>
+<div id="use-markdown" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.3</span> Use Markdown<a href="17-track-issues-features.html#use-markdown" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="write-markdown" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.3.1</span> Write Markdown<a href="17-track-issues-features.html#write-markdown" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Cheatsheet will go here</p>
+</div>
+<div id="use-markdown-files" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.3.2</span> Use Markdown Files<a href="17-track-issues-features.html#use-markdown-files" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="add-a-markdown-file" class="section level4 hasAnchor">
+<h4><span class="header-section-number">17.3.2.1</span> Add a Markdown File<a href="17-track-issues-features.html#add-a-markdown-file" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="go-to-a-markdown-file" class="section level4 hasAnchor">
+<h4><span class="header-section-number">17.3.2.2</span> Go to a Markdown File<a href="17-track-issues-features.html#go-to-a-markdown-file" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="edit-a-markdown-file" class="section level4 hasAnchor">
+<h4><span class="header-section-number">17.3.2.3</span> Edit a Markdown File<a href="17-track-issues-features.html#edit-a-markdown-file" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+</div>
+</div>
+<div id="use-github-branches" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.4</span> Use GitHub Branches<a href="17-track-issues-features.html#use-github-branches" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96189366-30985c80-0ef5-11eb-9053-22a43cae8103.png" alt="" />
+<p class="caption">Use GitHub Branches Workflow</p>
+</div>
+<p><img src="https://app.lucidchart.com/invitations/accept/1b9df299-b33f-4509-be32-9603ec343a3c" /></p>
+<p>GitHub branches are used to provide continuous integration of multiple versions of a repository. Branches also control versions of a file and trigger automatic review and quality control actions to ensure files meet team standards. See <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-branches#working-with-branches">Working with Branches</a> for more information.</p>
+</div>
+<div id="submit-a-feature" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.5</span> Submit a Feature<a href="17-track-issues-features.html#submit-a-feature" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>No direct-to-master branch commits are allowed.</li>
+<li>A feature branch will merge with the Quality Assurance (QA) branch before being pushed to Master.</li>
+<li>The QA branch is a protected branch that requires mandatory reviews before changes can be merged with Master.</li>
+<li>In extremis and with approval, a feature branch may be directly pushed to the Master branch in circumstances where the QA branch is tied up with another feature branch.</li>
+</ul>
+<div id="create-a-feature-branch" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.5.1</span> Create a Feature Branch<a href="17-track-issues-features.html#create-a-feature-branch" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96189916-38a4cc00-0ef6-11eb-8c0a-a185af535367.png" alt="" />
+<p class="caption">fig1_create_branch</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>With the “&lt;&gt; Code” tab selected, click the button named “master” in the upper left of the directory.</li>
+<li>A dropdown will appear with a listing of all branches currently active in the repository. A check indicates the branch that is active.</li>
+<li>In the “Find or create a branch . . . “ field, enter the name of your branch using this format: “feature-my_new_branch” The word “feature” will trigger automatic workflows when you commit the branch. Use lowercase letters and an underscore “_” between words. After the word “feature” provide up to a 4-word short description of what the feature addresses.</li>
+<li>When the “Commit” button is clicked, the word “feature” will trigger automatic quality control actions. The results of these actions can be reviewed in the actions tab of GitHub.</li>
+</ol>
+</div>
+<div id="edit-a-feature-branch" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.5.2</span> Edit a Feature Branch<a href="17-track-issues-features.html#edit-a-feature-branch" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>To edit a feature branch, navigate to the “&lt;&gt; Code” tab and click the button named “master” in the upper left of the directory.</li>
+<li>A dropdown will appear with a listing of all branches in the repository.</li>
+<li>Click on the desired feature branch in the list.</li>
+<li>Navigate to the target file from the directory.</li>
+<li>Edit the target file within this branch.</li>
+<li>When edit is complete, commit the file back to this feature branch.</li>
+<li>The commit will trigger quality control actions that can be reviewed in the actions tab.</li>
+</ol>
+</div>
+<div id="push-a-feature-branch" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.5.3</span> Push a Feature Branch<a href="17-track-issues-features.html#push-a-feature-branch" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96190320-e2845880-0ef6-11eb-9b8c-ce576d517e62.png" alt="" />
+<p class="caption">fig2_new_pull_req</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>To push an updated file or files from a feature branch to the QA branch, the user must open a Pull Request. Note: Opening a pull request can be done when a file is committed to a branch using the commit dialogue, or the user can navigate to the “Pull requests” tab.</li>
+<li>Navigate to the “Pull requests” tab.</li>
+<li>Click the green “New pull request” button on the right-hand side of the page.</li>
+<li>Review the “Comparing changes” dialogue very carefully (see image below).</li>
+<li>Ensure the base branch indicates “QA.” If it does not, click on the button and select correct branch.</li>
+<li>Ensure the pushed branch is the desired feature branch.</li>
+</ol>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96190324-e4e6b280-0ef6-11eb-80c1-111fd7b5f226.png" alt="" />
+<p class="caption">fig3_compare_changes</p>
+</div>
+</div>
+</div>
+<div id="run-quality-assurance" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.6</span> Run Quality Assurance<a href="17-track-issues-features.html#run-quality-assurance" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/96191290-9f2ae980-0ef8-11eb-89e7-02866b24d303.png" alt="" />
+<p class="caption">fig4_rerun_quality assurance</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>The QA branch is a protected branch, which means it cannot complete the merge unless all conflicts and errors are cleared and the assigned reviewers have signed off on the changes.</li>
+<li>When a feature branch is pushed to the QA branch, quality assurance actions will automatically run and list out any findings under the Actions tab.</li>
+<li>The user checks for errors in this tab, and corrects any findings.</li>
+<li>The user can re-run the quality checks from the actions tab by clicking the “Rerun jobs” button on right hand side of screen (see figure above).</li>
+</ol>
+</div>
+<div id="use-a-find-and-replace-branch" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.7</span> Use a “Find and Replace” Branch<a href="17-track-issues-features.html#use-a-find-and-replace-branch" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>GitHub FNR feature branch is a specialty branch that is used to find desired words or short strings and replace them automatically throughout documents in the repository. The FNR action can be limited to a file, a director or the whole repository by modifying instructions in the FindReplace.yml file found in the .github/workflows directory.</p>
+<div id="configure-the-findreplace.yml-action-file" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.7.1</span> Configure the FindReplace.yml Action File<a href="17-track-issues-features.html#configure-the-findreplace.yml-action-file" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Below is an explanation on how to configure the find and replace function.</p>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/97484653-40149e00-1916-11eb-879f-2d9154c46cc8.png" alt="" />
+<p class="caption">Configure the FindReplace.yml Action File</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>Select the FindReplace.yml file and place in “edit” mode.</li>
+<li>Update line 53 with the desired word, acronym or string within in the quotation marks.
+<strong>PRO TIP:</strong> Do not leave extra spaces before or after words, unless you want the search to include the space immediately before or after a search string. For example, the search term “Session 1” will find “Session 1”, “Session 10” and all instances where the number “1” is found, even if it is in the number “10.” To limit the search, place a space immediately after the “1” like this “Session 1” and that will limit the search to “1” only.</li>
+<li>Update line 54 with the replacement term in quotation marks.</li>
+<li>To limit a search to an updated file or directory, remove the appropriate hash mark (#) from the line of code that provides the needed search constraint.</li>
+<li>Navigate to the upper left of the window and select the green “Start commit” button. Select the “Commit directly to Master branch” radio button and click the green “Commit changes” button.</li>
+</ol>
+</div>
+<div id="create-a-find-and-replace-fnr-branch" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.7.2</span> Create a “Find and Replace” (FNR) Branch<a href="17-track-issues-features.html#create-a-find-and-replace-fnr-branch" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Navigate to the code tab.</li>
+<li>Click on the branch button and expose the branch dropdown menu.</li>
+<li>In the “Find or create branch” field, enter the name of your find and replace branch using this convention: fnr-findterm_replaceterm. For example, if “session 1” was the find term, and “Session X” was the replace term, it should read “fnr-session_1_session_x.”</li>
+<li>Press enter and navigate to the “Actions” tab. Here the action will report how many terms were found and replaced (see images below). For a line-by-line review of changes, open a pull request.</li>
+</ol>
+<p><strong>Open action tab and review action status</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97486613-ea8dc080-1918-11eb-9df4-33f726d358ae.png" alt="Open action tab and review action status image" /></p>
+<p><strong>Open pull request comparing FNR branch to master</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97486927-61c35480-1919-11eb-9bae-915b5d086e55.png" alt="open pull request comparing FNR branch to master image" /></p>
+<p><strong>Compare changes</strong>
+<img src="https://user-images.githubusercontent.com/30132017/97487072-99ca9780-1919-11eb-8ef6-41ecd1eda678.png" alt="compare changes image" /></p>
+</div>
+</div>
+<div id="update-a-bookdown-file-using-the-gh-pages-branch" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.8</span> Update a Bookdown File Using the “gh-pages” Branch<a href="17-track-issues-features.html#update-a-bookdown-file-using-the-gh-pages-branch" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>To support the publication of a bookdown manual, a special branch is required named “gh-pages” branch. This branch contains the markdown files that are editable and are automatically compiled by an bookdown publication action, when a feature branch is merged with the gh-pages branch. Follow the steps below to edit a bookdown manual.</p>
+<ol style="list-style-type: decimal">
+<li>Navigate to the “gh-pages” branch.</li>
+<li>In the “Find or create a branch” field, enter a feature branch using the following convention: feature-gh-pages_chapter_action. For example, an update to chapter 9 might look like this, “feature-gh-pages-ch9_update” This will clue reviewers that the action will merge with gh-pages after review.</li>
+<li>Navigate to the "feature-gh-pages_*"</li>
+<li>Edit the desired file.</li>
+<li>Commit the file to the same branch.</li>
+<li>Open a pull request to merge with the gh-pages branch. This will trigger the spell checker, link checker and markdown style checkers and signal reviewers that a check is needed.</li>
+<li>Navigate to the Actions tab to resolve any issues found by the linters.</li>
+<li>After review, the reviewer will merge the branches. This will trigger the bookdown publishing action to publish the updated manual.</li>
+</ol>
+</div>
+<div id="update-a-model-file-using-the-dev-test-and-master-branches" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.9</span> Update a Model File Using the Dev, Test and Master Branches<a href="17-track-issues-features.html#update-a-model-file-using-the-dev-test-and-master-branches" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Please note: Vensim cannot run in actions associated with web-based GitHub. All edits and file conversions must be run on a client machine with associated license. Batch files can be run to save time, but these outputs must be produced on a licensed client and pushed to origin via a client git such as GitHub desktop.</em></p>
+<p>If a user desires to update a model, they must push the update in three versions, .mdl (Vensim readable format), .vmfx (Vensim binary) and .xmile (SD standard) to the DEV branch (see figure below). The push will trigger an action that will deploy the model files to their respective locations. As the model moves through development and test, the associated model files will deploy incrementally to associated Epicenter projects (i.e., Dev branch merges with the Test branch, files deploy to Epicenter test project; when the Test branch merges with Master branch, files deploy to Epicenter PROD projects). Upon merge with the Test or Master branch, the action will create a standardized .html System Dynamics Document file and deploy the file to the lzim/mtl/blue/mtl2.0_models folder.</p>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/30132017/102918811-7f55fb80-443c-11eb-8ff6-82a90c90f887.png" alt="" />
+<p class="caption">model update branch process image</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>Navigate to the lzim/mtl Dev branch. Ensure the branch is up-to-date with the Master branch. If not, merge Master to Dev to bring it up to date.</li>
+<li>From the Dev branch, update the desired .mdl model file. This can be done on a client by modifying the cloned file on a client using a licensed copy of Vensim (recommend Vensim version 8.4).</li>
+<li>When development is complete, save .mdl, .vmfx and .xmile versions of the file.</li>
+<li>Push modified files to origin and note changes in comments field.</li>
+<li>When development activities are concluded, open a pull request to merge Dev with Test. Fix any errors and merge the two branches.</li>
+<li>Upon merge to Test, the files will be deployed to the Forio Epicenter VA Sim UI Test Slow project.</li>
+<li>Conduct user-acceptance testing.</li>
+<li>When user acceptance testing is completed, open a pull request to merge Test with Master branch.</li>
+<li>When reviewer have signed off, merge the Test branch to Master branch.</li>
+<li>When Test is merged with Master, the action will deploy .vmfx file to Forio Epicenter VA Sim UI PROD project. The action will also execute the SD-DOC program and create an SD-DOC .html file and deploy to the lzim/mtl/blue/mtl2.0_model folder.</li>
+</ol>
+</div>
+<div id="contribute-to-an-r-notebook" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.10</span> Contribute to an R Notebook<a href="17-track-issues-features.html#contribute-to-an-r-notebook" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Figure 1: Workflow for Quant group rnotebook contribution</p>
+<div class="figure">
+<img src="https://user-images.githubusercontent.com/60201706/111335906-fe209600-8631-11eb-820e-bf9f400f75f0.png" alt="" />
+<p class="caption">quant_wg_qa_workflow.png</p>
+</div>
+<p><strong>Step 1:</strong> Under <code>Current Repository</code> select research. click current branch then select <code>New Branch</code></p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_select_repo.gif?raw=true" alt="" />
+<p class="caption">github_desktop_select_repo.gif</p>
+</div>
+<p><strong>Step 2:</strong> Title your branch appropriately. Precede your branch name with grant name (e.g r21_load_r_libraries) and select <code>Master</code> as the base branch.</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/quant_workflow_title_branch.gif?raw=true" alt="" />
+<p class="caption">quant_workflow_title_branch.gif</p>
+</div>
+<p><strong>Step 3:</strong> On the menu bar, click on the <code>Repository</code> and select <code>Show in Finder</code> (Mac) or <code>Show in Folder</code> (PC) click on the project folder and then R project file.</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_show_in_folder.gif?raw=true" alt="" />
+<p class="caption">github_desktop_show_in_folder.gif</p>
+</div>
+<p><strong>Step 4:</strong> To edit/add an existing code chunk, navigate to the chunk and make appropriated edits (<em>Remember to include documentation</em>).</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_edit_code_chunk.gif?raw=true" alt="" />
+<p class="caption">github_edit_code_chunk.gif</p>
+</div>
+<p><strong>Step 5:</strong> Save your work and go back to Github Desktop. Click <code>fetch origin</code> and commit your changes. Remember to add a title and description of your commit. A good commit title would include name of code chunk edited/added, section title of the notebook or task name (e.g edit titles, added references,… ).</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_commit_changes.gif?raw=true" alt="" />
+<p class="caption">github_desktop_commit_changes.gif</p>
+</div>
+<p><strong>Step 6:</strong> Click <code>Push to Origin</code> then <code>Create Pull Request</code>. This will send you back to Github.</p>
+<div class="figure">
+<img src="https://github.com/lzim/teampsd/blob/master/resources/manual_gifs/github_desktop_create_pull_request.gif?raw=true" alt="" />
+<p class="caption">github_desktop_create_pull_request.gif</p>
+</div>
+<p><strong>Step 7:</strong> Follow the steps outlined in <a href="17-track-issues-features.html#submit-a-feature">Submit a Feature</a> to submit your changes for review</p>
+</div>
+<div id="reviewing-pull-requests" class="section level2 hasAnchor">
+<h2><span class="header-section-number">17.11</span> Reviewing pull requests<a href="17-track-issues-features.html#reviewing-pull-requests" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>While reviewing the files in a pull request, you can leave individual comments on specific changes. After you finish reviewing each file, you can mark the file as viewed. This collapses the file, helping you identify the files you still need to review. A progress bar in the pull request header shows the number of files you’ve viewed. After reviewing the files you want, you will approve the pull request or request additional changes by submitting your review with a summary comment.</p>
+<div id="starting-a-review" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.11.1</span> Starting a review<a href="17-track-issues-features.html#starting-a-review" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol start="5" style="list-style-type: decimal">
+<li>Click <strong>Start a review</strong>. If you have already started a review, you can simply click <strong>Add review comment</strong>.
+<img src="https://github.com/github/docs/blob/main/assets/images/help/pull_requests/start-a-review-button.png?raw=true" alt="Start a review button" /></li>
+</ol>
+<p>Before you submit your review, your line comments are <em>pending</em> and only visible to you. You can edit pending comments anytime before you submit your review. To cancel a pending review, including all of its pending comments, scroll down to the end of the timeline on the Conversation tab, then click <strong>Cancel review</strong>.</p>
+<div class="figure">
+<img src="https://github.com/github/docs/blob/main/assets/images/help/pull_requests/cancel-review-button.png?raw=true" alt="" />
+<p class="caption">Cancel review button</p>
+</div>
+</div>
+<div id="marking-a-file-as-viewed" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.11.2</span> Marking a file as viewed<a href="17-track-issues-features.html#marking-a-file-as-viewed" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>After you finish reviewing a file, you can mark the file as viewed, and the file will collapse. If the file changes after you view the file, it will be unmarked as viewed.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>On the right of the header of the file you’ve finished reviewing, select <strong>Viewed</strong>.
+<img src="https://github.com/github/docs/blob/main/assets/images/help/pull_requests/viewed-checkbox.png?raw=true" alt="Viewed checkbox" /></li>
+</ol>
+</div>
+<div id="submitting-your-review" class="section level3 hasAnchor">
+<h3><span class="header-section-number">17.11.3</span> Submitting your review<a href="17-track-issues-features.html#submitting-your-review" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>After you’ve finished reviewing all the files you want in the pull request, submit your review.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Select the type of review you’d like to leave:
+<img src="https://github.com/github/docs/blob/main/assets/images/help/pull_requests/pull-request-review-statuses.png?raw=true" alt="Radio buttons with review options" />
+<ul>
+<li>Select <strong>Comment</strong> to leave general feedback without explicitly approving the changes or requesting additional changes.</li>
+<li>Select <strong>Approve</strong> to submit your feedback and approve merging the changes proposed in the pull request.</li>
+<li>Select <strong>Request changes</strong> to submit feedback that must be addressed before the pull request can be merged.</li>
+</ul></li>
+</ol>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="16-manage-with-zenhub.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="18-glossary-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="assets/gitbook-2.6.7/js/app.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="assets/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/lzim/teampsd/edit/gh-pages/track_issues_and_features.md",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Team_PSD_Bookdown.epub", "Team_PSD_Bookdown.docx"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+},
+"toolbar": {
+"position": "static"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
