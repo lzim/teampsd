@@ -24,7 +24,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) **Done** |
 | --- |
 |**At Our Last Team Meeting (add date/time here)**|
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) **We went to [mtl.how/data](https://mtl.how/data) to look at the facility data.** [Click here for the MTL Red Part I guide.](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md)   |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) **We went to [mtl.how/data](https://mtl.how/data) to look at the data UI.** [Click here for the MTL Red Part I guide.](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md)   |
 
 <!-- Do/Done Tables -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "75" width = "75">](https://github.com/lzim/mtl/blob/master/blue/session03/s03_learner/mtl_session03_see.md) **Do** |
