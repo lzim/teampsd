@@ -127,9 +127,14 @@ This section explains how to:
 
 ---
 
-
+![open a pull request](https://github.com/lzim/teampsd/blob/gh-pages/images/open_pull_request.png)
 
 ---
+
+![clear_action_errors](https://github.com/lzim/teampsd/blob/gh-pages/images/clear_action_errors.png)
+
+---
+
 ### 6.	Publish your Chapter to master GH-pages branch.
 
 - Merge the Feature branch into GH-pages's master branch.
