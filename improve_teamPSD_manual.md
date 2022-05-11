@@ -69,15 +69,15 @@ This section explains how to:
 
 ---
 
-- **Add a link.** There are two components to a link, the discription and the uniform resource locator (URL).  It goes like this, description in in brackets [uniform resource locator] followed immediately by the URL in parenthesis (https://en.wikipedia.org/wiki/URL).  So all together [uniform resource locator](https://en.wikipedia.org/wiki/URL). 
+- **Add a link.** There are two components to a link, the description and the uniform resource locator (URL).  It goes like this, description in in brackets [uniform resource locator] followed immediately by the URL in parenthesis (https://en.wikipedia.org/wiki/URL).  So all together [uniform resource locator](https://en.wikipedia.org/wiki/URL). 
   - The description in brackets is a Section 508 Accessibility requirement, so visually impaired people can use a browser reader to interpret what is contained in the link.
   - The link can be placed anywhere in the document.  The term in the brackets will be the only visible element in the rendered document.
 
 - **Add a graphic.** Adding graphics are very similar to links because they both rely on a call to a URL.
-  - Create and upload a graphic the the gh-pages_images folder.  Team PSD uses the .png file format for still graphics, and .gif for screencasts. When naming the image, describe what is contained in all lower case, separated by an underscore (ex., upload_image.png).
-  - To render a graphic, preceed the link with an exclamation point "!". 
+  - Create and upload a graphic the the gh-pages_images folder.  Team PSD uses the .png file format for still graphics, and .gif for screen-casts. When naming the image, describe what is contained in all lower case, separated by an underscore (ex., upload_image.png).
+  - To render a graphic, place an exclamation point "!" before the link. 
   - Include a description of the graphic in the brackets as with a normal URL link. That way a visually impaired reader will know what the graphic is communicating.
-    
+
 ---
 
 ![upload an image](https://github.com/lzim/teampsd/blob/gh-pages/images/upload_image.png)
@@ -90,7 +90,7 @@ This section explains how to:
 
 ### 4. Update the "\_bookdown.yml" file to reflect proper chapter order.
 
-- **\bookdown.yml.** The "\_bookdown.yml" prints out the manual in the order of the the markdown files listed in line 6 ```rmd_files:```. As explained earlier, the headers of the markdown files listed tells the \_bookdown.yml file whether the markdown is a chapter or a subsection. **The order of the files in the \_bookdown.yml file will be numbered sequentially by the yaml program.** 
+- **\bookdown.yml.** The "\_bookdown.yml" prints out the manual in the order of the the markdown files listed in line 6. As explained earlier, the headers of the markdown files listed tells the \_bookdown.yml file whether the markdown is a chapter or a subsection. **The order of the files in the \_bookdown.yml file will be automatically numbered sequentially by the yaml program.** 
 
 ---
 
@@ -137,7 +137,7 @@ This section explains how to:
 
 ### 6.	Publish your Chapter to master GH-pages branch.
 
-- Merge the Feature branch into GH-pages's master branch.
+- Merge the Feature branch into gh-pages branch.
 - Check the actions and ensure the bookdown rendering did not encounter any problems.
 - Resolve any bookdown problems.
 - See the new work! Go to [Team PSD Manual](https://mtl.how/teampsd_manual)
