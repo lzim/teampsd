@@ -135,4 +135,4 @@ This section explains how to:
 - Merge the Feature branch into GH-pages's master branch.
 - Check the actions and ensure the bookdown rendering did not encounter any problems.
 - Resolve any bookdown problems.
-- See the new work! Go to [Team PSD Manual}(https://mtl.how/teampsd_manual)
+- See the new work! Go to [Team PSD Manual](https://mtl.how/teampsd_manual)
