@@ -77,6 +77,13 @@ shared-workstreams-across-management-trio
 manage-team-psd-and-vha-worflows-via-teams-and-outlook
 edit-a-guide-via-pull-request-and-plan-devtestprod-quality-assurance-sync
 improve-the-team-psd-manual
+contribute-to-the-manual-using-github
+create-a-feature-branch-from-the-gh-pages-branch.-2
+create-a-new-markdown-file-in-the-branch.
+find-and-edit-a-markdown-file.
+update-the-_bookdown.yml-file-to-reflect-proper-chapter-order.
+make-a-pull-request-to-the-gh-pages-branch.
+publish-your-chapter-to-master-gh-pages-branch.-2
 manage-outlook-shared-calendars-meeting-series
 improve-the-mtl-3.0-manual
 scope-workflow-dependencies-using-user-stores-and-githubzenhub
