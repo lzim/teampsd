@@ -6,5 +6,6 @@
 4. Complete VA or PAVIR orientation
 5. Schedule PIV Badge appointment
 6. Request GFE laptop
-7. Set up VA email 6. Track laptop, desktop & phone details
-8. Get access to Team PSD folder
+7. Set up VA email
+8. Track laptop, desktop & phone details
+9. Get access to Team PSD folder
