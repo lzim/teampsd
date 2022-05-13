@@ -1,8 +1,0 @@
-## Manage Operations Calendar and Inbox
-
-mtl.help@va.gov
-
-1. Check if you have access to the MTL Help Operations Calendar & Inbox at Team PSD Manual
-2. Review the Calendar by meeting series colors (green = coplan, purple = prep,  blue = MTL Blue, red = MTL Red)
-3. Review and bring up OOO's, calendar holds, missing invites/meetings
-4. Review the inbox and bring up unaddressed emails and questions 
