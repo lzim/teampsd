@@ -3,7 +3,7 @@
 1. Use ReadMe to track deadlines for all grants & reports 
 2. Develop user story maps to ensure progress on tests of specific aims in the months prior to reporting.
 3. Enrollment tables: coordinate w/PeopleOps Manager
-4.  Analyses for Tests of Specifci Aims - coordinate with Statistician
+4.  Analyses for Tests of Specific Aims - coordinate with Statistician
 5.  Put together first draft of report using last year's drafts
 6.  Coordinate with PI to get approval and submit
 
