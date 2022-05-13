@@ -16,7 +16,9 @@ This section explains how to:
 - Start by creating a feature branch with the beginning of the branch named "feature-gh-pages". **The "feature-gh-pages" must be written precisely - GitHub is triggering several automated functions using that naming.**
 
 ---
-![create branch-step 1](https://github.com/lzim/teampsd/blob/gh-pages/images/create_gh-pages_feature_branch_1.png)
+
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/create_gh-pages_feature_branch_1.png">](#Dontlink)
+
 ---
 
 - Branch naming convention:
@@ -25,7 +27,9 @@ This section explains how to:
   - If the chapter is being worked on by multiple contributors, or if the chapter is long, break down into multiple files that can be reconciled when compiling the publication. See the Compiling a Publication section below for more details.
 
 ---
-![create branch-step 2](https://github.com/lzim/teampsd/blob/gh-pages/images/create_gh-pages_feature_branch_2.png)
+
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/create_gh-pages_feature_branch_2.png">](#Dontlink)
+
 ---
 
 ### 2. Create a new markdown file in the branch.
@@ -35,7 +39,7 @@ This section explains how to:
 
 ---
 
-![create a markdown file](https://github.com/lzim/teampsd/blob/gh-pages/images/create_markdown_file.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/create_markdown_file.png">](#Dontlink)
 
 ---
 
@@ -45,7 +49,7 @@ This section explains how to:
 
 ---
 
-![find and edit a markdown file](https://github.com/lzim/teampsd/blob/gh-pages/images/edit_markdown_file.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/edit_markdown_file.png">](#Dontlink)
 
 ---
 
@@ -57,7 +61,7 @@ This section explains how to:
 
 ---
 
-![chapter heading structure](https://github.com/lzim/teampsd/blob/gh-pages/images/chapter_heading_structure.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/chapter_heading_structure.png">](#Dontlink)
 
 ---
 
@@ -65,7 +69,7 @@ This section explains how to:
 
 ---
 
-![markdown.org webpage](https://github.com/lzim/teampsd/blob/gh-pages/images/markdown_org_page.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/markdown_org_page.png">](#Dontlink)
 
 ---
 
@@ -75,16 +79,15 @@ This section explains how to:
 
 - **Add a graphic.** Adding graphics are very similar to links because they both rely on a call to a URL.
   - Create and upload a graphic the the gh-pages_images folder.  Team PSD uses the .png file format for still graphics, and .gif for screen-casts. When naming the image, describe what is contained in all lower case, separated by an underscore (ex., upload_image.png).
-  - To render a graphic, place an exclamation point "!" before the link. 
-  - Include a description of the graphic in the brackets as with a normal URL link. That way a visually impaired reader will know what the graphic is communicating.
+  - To render a graphic in bookdown, an html tag (img src = ) is needed before the link. See the graphic below to learn how to format a graphic link.  
 
 ---
 
-![upload an image](https://github.com/lzim/teampsd/blob/gh-pages/images/upload_image.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/upload_image.png">](#Dontlink)
 
 ---
 
-![make a graphic link](https://github.com/lzim/teampsd/blob/gh-pages/images/make_graphic_link.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/make_graphic_link.png">](#Dontlink)
 
 ---
 
@@ -94,8 +97,7 @@ This section explains how to:
 
 ---
 
-![add chapter to bookdown.yml file](https://github.com/lzim/teampsd/blob/gh-pages/images/add_chapter_to_bookdown_yml.png)
-
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/add_chapter_to_bookdown_yml.png">](#Dontlink)
 
 ---
 
@@ -105,7 +107,7 @@ This section explains how to:
  
  ---
  
-![chapter order in bookdown.yml file](https://github.com/lzim/teampsd/blob/gh-pages/images/chapter_order_bookdown.png) 
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/chapter_order_bookdown.png">](#Dontlink)
  
  ---
  
@@ -115,7 +117,7 @@ This section explains how to:
 
 ---
 
-![chapter subsection in bookdown.yml file](https://github.com/lzim/teampsd/blob/gh-pages/images/chapter_subsection_order_1.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/chapter_subsection_order_1.png">](#Dontlink)
 
 ---
 
@@ -127,11 +129,11 @@ This section explains how to:
 
 ---
 
-![open a pull request](https://github.com/lzim/teampsd/blob/gh-pages/images/open_pull_request.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/open_pull_request.png">](#Dontlink)
 
 ---
 
-![clear_action_errors](https://github.com/lzim/teampsd/blob/gh-pages/images/clear_action_errors.png)
+[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/clear_action_errors.png">](#Dontlink)
 
 ---
 
