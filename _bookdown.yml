@@ -71,7 +71,7 @@ rmd_files: ["index.Rmd",
 "11.0_ms_teams.md", 
 "12.0_open_science_framework.md", 
 "13.0_lucidcharts.md", 
-"15.0_github_plus_zenhub.md",
-"16.0_manage_with_zenhub.md", 
-"17.0_track_issues_and_features.md", 
-"18.0_glossary.md"]
+"14.0_github_plus_zenhub.md",
+"15.0_manage_with_zenhub.md", 
+"16.0_track_issues_and_features.md", 
+"17.0_glossary.md"]
