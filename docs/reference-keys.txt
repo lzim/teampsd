@@ -98,7 +98,7 @@ contribute-to-a-team-psd-manuscript
 research-and-development-workstreams
 manage-research-and-development-workstream
 achieve-research-value-stream-key-performance-indicators-kpi
-maange-research-calendar-and-inbox-mtl.infova.gov
+manage-research-calendar-and-inbox-mtl.infova.gov
 coordinate-manuscriptmonday
 coordinate-team_time
 send-provider-surveys
@@ -127,7 +127,7 @@ achieve-operations-value-stream-key-performance-indicators-kpi
 manage-operations-calendar-and-inbox
 coordinate-vapor
 engage-a-new-mtl-co-planning-group
-set-up-a-new-mtl-live-team
+set-up-a-new-mtl-live-team-without-research-evaluation
 facilitate-an-mtl-live-team
 organize-the-mtl-facilitate-for-all
 purchase-through-reqlogic
