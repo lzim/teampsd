@@ -1,0 +1,4 @@
+Meghana Nallajerla (she/her) is an Analyst and Technical Writer on Team PSD. 
+She graduated from the University of Pennsylvania with a B.A. in Psychology and Gender Studies. Prior to joining the team, Meghana was a Fulbright Research Grantee to Sri Lanka studying collective trauma, and a Clinical Research Coordinator in the STAR Lab at Stanford University with Dr. Tali Ball. 
+Meghana’s research interests include improving access and efficacy of mental healthcare for marginalized communities and trauma-related disorders. She 
+hopes to pursue graduate school to apply research toward social justice and make healing accessible for all people. Outside of the team, Meghana is a Community Organizer with multiple local and national collectives and enjoys NorCal beaches when they are not freezing. 

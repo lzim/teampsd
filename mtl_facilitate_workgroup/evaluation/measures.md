@@ -19,6 +19,11 @@ output:
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/illustrations/mtl_toc.png"
      height = "525" width = "700">
+![image](https://user-images.githubusercontent.com/7454688/159997982-dbc07db6-6283-40e1-b2c6-a4c3e3f433b1.png)
+![image](https://user-images.githubusercontent.com/7454688/159998128-cce4b96f-ece0-4cdb-9857-31c1580564b7.png)
+![image](https://user-images.githubusercontent.com/7454688/159998147-a974bed0-94d2-43f3-bf80-1c8a0b3f44fb.png)
+![image](https://user-images.githubusercontent.com/7454688/159998161-a6c2772d-006d-4e66-bf3c-677a2553ce4e.png)
+![image](https://user-images.githubusercontent.com/7454688/159998232-37e2b389-a615-4733-abbb-88c1b7030e7a.png)
 
 ## NIH R01 Measures (83 provider items)
 1.	**Acceptability of Intervention Measure (AIM)**
