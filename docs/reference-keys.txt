@@ -101,7 +101,7 @@ achieve-research-value-stream-key-performance-indicators-kpi
 manage-research-calendar-and-inbox-mtl.infova.gov
 coordinate-manuscriptmonday
 coordinate-team_time
-send-provider-surveys
+produce-patient-and-provider-enrollment-tables-for-progress-reports---r01-and-iir-aim-1-and-aim-2
 renew-or-modify-the-irb
 submit-an-nih-grant-with-pavir
 submit-a-grant-to-the-va
@@ -121,6 +121,7 @@ improve-msd365-integration
 refresh-data-for-r01-or-iir
 update-a-vensim-model
 update-sim-ui-module-documentation
+report-data-ui-and-power-bi-use-data-wexample
 peopleops-workstreams
 manage-peopleops-workstream-permissions
 achieve-operations-value-stream-key-performance-indicators-kpi
