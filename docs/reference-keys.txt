@@ -75,9 +75,8 @@ test---test-is-responsible-for-seamless-integration-by-making-sure-the-resource-
 prod---prod-is-responsible-for-the-final-check-and-polish-before-official-release-to-all-users.
 shared-workstreams-across-management-trio
 manage-team-psd-and-vha-worflows-via-teams-and-outlook
-edit-a-guide-via-pull-request-and-plan-devtestprod-quality-assurance-sync
+improve-the-modeling-to-learn-repo-via-a-pull-request-and-quality-assurance
 improve-the-team-psd-manual
-contribute-to-the-manual-using-github
 create-a-feature-branch-from-the-gh-pages-branch.-2
 create-a-new-markdown-file-in-the-branch.
 find-and-edit-a-markdown-file.
@@ -96,13 +95,14 @@ request-new-research-data
 submit-vaco-and-vapahcs-progress-report
 contribute-to-a-team-psd-manuscript
 research-and-development-workstreams
-manage-research-and-development-workstream
+manage-research-development-workstream-permissions
+part-1
 achieve-research-value-stream-key-performance-indicators-kpi
 manage-research-calendar-and-inbox-mtl.infova.gov
 coordinate-manuscriptmonday
 coordinate-team_time
 produce-patient-and-provider-enrollment-tables-for-progress-reports---r01-and-iir-aim-1-and-aim-2
-renew-or-modify-the-irb
+renew-or-modify-the-irb-with-stanford-eprotocol
 submit-an-nih-grant-with-pavir
 submit-a-grant-to-the-va
 manage-authorship-app.
@@ -129,7 +129,7 @@ manage-operations-calendar-and-inbox
 coordinate-vapor
 engage-a-new-mtl-co-planning-group
 set-up-a-new-mtl-live-team-without-research-evaluation
-facilitate-an-mtl-live-team
+facilitate-an-mtl-live-team-wresearch-evaluation-crm
 organize-the-mtl-facilitate-for-all
 purchase-through-reqlogic
 coordinate-ees-workflow
@@ -139,7 +139,7 @@ orient-team-members-to-documentation-needs-using-the-document-archive
 team-psd-2.0-monthly-process
 week-1-gather-user-hypotheses
 week-2-clarify-user-assumptions-w-mvp-test
-week-3-review-user-results-of-mvp
+test-a-new-modeling-to-learn-release
 create-screencast-video
 instructions
 context---why-this-is-critical-for-team-psd-2.0-to-scale
@@ -219,7 +219,8 @@ track-notifications
 create-manage-issues
 view-reports
 test-first-epic-go_live
-track-issues-features
+track-issues-bugs-features
+report-a-bug-via-github-to-improve-modeling-to-learn-resource
 create-issuefeature-cards-click-maps-in-progress
 maintaining-cards-flow-map-in-progress
 use-markdown
