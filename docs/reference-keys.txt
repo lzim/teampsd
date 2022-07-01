@@ -129,6 +129,7 @@ manage-operations-calendar-and-inbox
 coordinate-vapor
 engage-a-new-mtl-co-planning-group
 set-up-a-new-mtl-live-team-without-research-evaluation
+set-up-a-new-mtl-team-with-research-evaluation
 facilitate-an-mtl-live-team-wresearch-evaluation-crm
 organize-the-mtl-facilitate-for-all
 purchase-through-reqlogic
