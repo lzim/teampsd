@@ -28,6 +28,7 @@ create-a-new-markdown-file-into-the-branch.-1
 editformat-your-markdown-file.-1
 add-markdown-file-name-in-the-_bookdown.yml-file.-1
 check-your-file-against-the-gh-actions-by-making-a-pull-request-to-the-gh-pages-master-branch.-1
+editors
 publish-your-chapter-to-master-gh-pages-branch.-1
 standard-operations
 team-psd
