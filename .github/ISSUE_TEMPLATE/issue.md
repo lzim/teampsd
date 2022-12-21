@@ -14,13 +14,11 @@ assignee: ''
 2. Is this an invidivual or shared world? (Do not name specific world, keep de-identified)
 3. What is the name of the experiment? (Ok to name, not identifiable).
 
-**2. In order for Team PSD to track this issue you must assign (see illustration below) 
+**2. In order for Team PSD to track this issue you must assign
 - [ ] issues/bugs -  Select **bug_tracker** under project, on the right to initiate tracking a Bug.
 - [ ] features 
 - [ ] manuscript 
 
-[<img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/issue_card_project_selection.png">](#DontLink)
- 
 **3. Support Workflow:**  
 i. **Pipelines** - prioritize in priority pipeline  
 ii. **Assignee** - assign to a workflow user  
