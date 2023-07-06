@@ -1,3 +1,7 @@
+CRM
+OIT
+VATAS
+OOO
 andon
 aways
 cheatsheets
