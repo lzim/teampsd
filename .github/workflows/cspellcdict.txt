@@ -1,3 +1,5 @@
+CEU
+CEUs
 TMS
 HIPAA
 SharePoint
