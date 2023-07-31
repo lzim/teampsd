@@ -6,6 +6,7 @@ Zenhub
 sunsetted
 CITI
 Lucidchart
+Lucidcharts
 WOC
 uncheck
 ILEAD
