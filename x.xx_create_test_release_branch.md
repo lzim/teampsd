@@ -1,9 +1,7 @@
-# 17.3 Create a Test Release Branch for a lzim/teampsd New Version Release
+# Create a Test Release Branch for a lzim/teampsd New Version Release
 
-When _MTL_ goes from one version to a higher version, documentation, models and other materials contained in the lzim/teampsd repository must be tested. To prevent
-mixing up test version materials with materials in use, a test branch must be created.  The branch also moves current versions of materials to an archive folder and the
-new models must be moved into the next version folder. All of these actions are automated with the make_test_release_branch.yml action. The sections below explain
-how to set up the action yaml file.
+When _MTL_ goes from one version to a higher version, documentation, models and other materials contained in the lzim/teampsd repository must be tested. To prevent mixing up test version materials with materials in use, a test branch must be created.  The branch also moves current versions of materials to an archive folder and the
+new models must be moved into the next version folder. All of these actions are automated with the make_test_release_branch.yml action. The sections below explain how to set up the action yaml file.
 
 ## test_release_branch Creation Procedure
 
