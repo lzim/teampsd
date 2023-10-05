@@ -8,5 +8,5 @@
   - Lists of prepositions and abbreviations can be changed in the hirenp-waferwire/custom-markdown-action repository for authorized users.
 - **make_test_release_branch.yml** action creates a version test branch.
   - A version test branch is when there is a significant version change for the _mtl_ platform (example: from version 2.0 to version 3.0).
-  - It automatically creates a backup of the previous version of the see.md guides, creates a new model file folder and copies model files, and converts all the links in the documentation to a /test version link.  
-  - When merged back to the Main branch, the action will reverse the /test links back to production links. 
+  - It automatically creates a backup of the previous version of the see.md guides, creates a new model file folder and copies model files, and converts all the links in the documentation to a /test version link.
+  - When merged back to the Main branch, the action will reverse the /test links back to production links.

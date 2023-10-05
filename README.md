@@ -1,6 +1,6 @@
 # gh-pages branch
 
-This branch contains documents and resources for the Team PSD Manual.  
+This branch contains documents and resources for the Team PSD Manual.
 The rendered manual can be found [here](https://lzim.github.io/teampsd) or at https://mtl.how/teampsd_manual.
 
 # How to Contribute to the TeamPSD Manual:
@@ -59,4 +59,4 @@ This is a great way to check the formatting and output of your markdown file in 
 - Once edits based on failed checks and feedback from reviewers have been implemented, merge the Feature branch into the GH-Pages branch.
 
 ## 6.	Publish your Chapter to master GH-pages branch.
-Merge the Feature branch into GH-pages's master branch and double check that your chapter was published at https://mtl.how/teampsd_manual
+Merge the Feature branch into GH-pages' master branch and double check that your chapter was published at https://mtl.how/teampsd_manual
