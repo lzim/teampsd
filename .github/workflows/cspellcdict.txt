@@ -1855,6 +1855,8 @@ member
 membership
 memory
 mental
+mentee
+mentees
 mention
 menu
 mere
