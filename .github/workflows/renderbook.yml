@@ -5,6 +5,9 @@ on:
     
 name: renderbook
 
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+
 jobs:
   bookdown:
     name: Render-Book
@@ -14,11 +17,11 @@ jobs:
         with:
           ref: gh-pages
       - uses: r-lib/actions/setup-r@v2
-      - uses: r-lib/actions/setup-pandoc@v1
+      - uses: r-lib/actions/setup-pandoc@v2
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown","HelpersMG","readr"))'
         
-      - uses: r-lib/actions/setup-tinytex@v1
+      - uses: r-lib/actions/setup-tinytex@v2
       - name : install tinytex
         run: tlmgr --version
     
