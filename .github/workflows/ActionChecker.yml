@@ -24,7 +24,7 @@ jobs:
     steps:
     
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         fetch-depth: "0"
     
@@ -79,7 +79,7 @@ jobs:
       
     - name: Markdown Link Checker
       if: always()  
-      uses: ruzickap/action-my-markdown-link-checker@v1.0.0
+      uses: ruzickap/action-my-markdown-link-checker@v1.2.0
       with:
         # markdown-link-check config file
         #config_file: # optional
@@ -99,7 +99,7 @@ jobs:
 #This portion of code will execute if a single markdown file within a folder is changed.  If no markdown file is changed, or more than one file is changed, then the entire directory will be checked.
     - name: Markdown Linter for Changed File Scan 
       if: ${{ always() && steps.getfileCount.outputs.filesCount == 1}}   
-      uses: ruzickap/action-my-markdown-linter@v0.0.1
+      uses: ruzickap/action-my-markdown-linter@v1.1.0
       with:
         # markdownlint config file
         config_file: .github/workflows/markdownlint.json # optional
@@ -115,7 +115,7 @@ jobs:
 #This portion of code will execute if no markdown files, or more than one markdown file is changed and will check the entire directory.
     - name: Markdown Linter for Directory Level Scan
       if: ${{ always() && steps.getfileCount.outputs.filesCount != 1}}   
-      uses: ruzickap/action-my-markdown-linter@v0.0.1
+      uses: ruzickap/action-my-markdown-linter@v1.1.0
       with:
         # markdownlint config file
         config_file: .github/workflows/markdownlint.json # optional
@@ -131,7 +131,7 @@ jobs:
           
     - name: GitHub Pull Request Action
       if: always()  
-      uses: repo-sync/pull-request@v2.3
+      uses: repo-sync/pull-request@v2.12.1
       with:
         # Branch name to pull from, default is triggered branch
         #source_branch: 'Feature' # optional
