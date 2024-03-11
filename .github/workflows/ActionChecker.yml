@@ -11,7 +11,7 @@ on:
     paths:
     - '**.md'
   pull_request:
-    branches: [ QA ]
+    branches: [ gh-pages ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -131,7 +131,7 @@ jobs:
         # Branch name to pull from, default is triggered branch
         #source_branch: 'Feature' # optional
         # Branch name to sync to in this repo, default is master
-        destination_branch: 'QA' # optional, default is master
+        destination_branch: 'gh-pages' # optional, default is master
         # Pull request title
         #pr_title: # optional
         # Pull request body
@@ -139,7 +139,7 @@ jobs:
         # Pull request template
         #pr_template: # optional
         # Pull request reviewers, comma-separated list (no spaces)
-        pr_reviewer: 'lijenn,branscombj,dlkibbe,jamesmrollins' # optional
+        pr_reviewer: 'lijenn,jamesmrollins' # optional
         # Pull request assignees, comma-separated list (no spaces)
         #pr_assignee: # optional
         # Pull request labels, comma-separated list (no spaces)
