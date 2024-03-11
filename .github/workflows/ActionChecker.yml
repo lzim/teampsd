@@ -30,30 +30,25 @@ jobs:
     
     - name: '' #get changed files
       id: getfileCount
-      run: |
-        echo "::set-output name=filesCount::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md'| wc -l)"
+      run: echo "name=filesCount::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md'| wc -l)"  >> $GITHUB_STATE
     
     - name: '' #get changed files
       id: getfile
-      run: |
-        echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md' | xargs)"
+      run: echo "name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md' | xargs)"  >> $GITHUB_STATE
         
     - name: '' #get changed fileName
       if: ${{ steps.getfileCount.outputs.filesCount  == 1}}
       id: getfileName
-      run: |
-        echo "::set-output name=fileName::$(basename -a ${{ steps.getfile.outputs.files }})"
+      run: echo "::name=fileName::$(basename -a ${{ steps.getfile.outputs.files }})"  >> $GITHUB_STATE
     
     - name: '' #get changed fileName Only
       if: ${{ steps.getfileCount.outputs.filesCount  == 1}}
       id: getfileNameOnly
-      run: |
-        echo "::set-output name=fileNameOnly::$(echo ${{ steps.getfileName.outputs.fileName }} | cut -f 1 -d '.')"
+      run: echo "::name=fileNameOnly::$(echo ${{ steps.getfileName.outputs.fileName }} | cut -f 1 -d '.')"  >> $GITHUB_STATE
     
     - name: '' #get changed files
       id: getDirName
-      run: |
-        echo "::set-output name=dirs::$(dirname ${{ steps.getfile.outputs.files }})"
+      run: echo "::name=dirs::$(dirname ${{ steps.getfile.outputs.files }})"   >> $GITHUB_STATE
     
     #- name: echo output
       #run: |
@@ -65,7 +60,7 @@ jobs:
    
     - name: Spell Checker
       if: always()  
-      uses: zwaldowski/cspell-action@1.0.0
+      uses: streetsidesoftware/cspell-action@v6.0.0
       with:
         # Glob pattern of files to check
         paths: ${{ steps.getfile.outputs.files }}
