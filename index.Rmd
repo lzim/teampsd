@@ -2,7 +2,10 @@
 title: "Team PSD Manual"
 author: "Team PSD"
 date: "`r Sys.Date()`"
+link-citations: yes
+preview: yes
 site: bookdown::bookdown_site
+description: This is the Team PSD one stop shop.
 ---
 
 # Team PSD Manual
