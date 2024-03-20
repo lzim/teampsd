@@ -1,4 +1,5 @@
 team-psd-manual
+test-test
 table-of-contents
 main-chapter
 subchapter
