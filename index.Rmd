@@ -10,8 +10,6 @@ description: This is the Team PSD one stop shop.
 
 # Team PSD Manual
 
-## TEST TEST
-
 Welcome to Team PSD's manual for resources and guides!
 
 **Click within chapters and subsections** or use the **built-in search feature** to search throughout the manual for key terms.
