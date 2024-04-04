@@ -1,49 +1,53 @@
-## _Modeling to Learn 3.7_ Consults
+# _Modeling to Learn 3.7 Consults_
+<img src = "[https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png](https://github.com/lzim/teampsd/blob/mtl_consult_thumbnails/resources/logos/mtl_consult.png)"
+     height = "175" width = "300">
 
-**Script 01. How might _Modeling to Learn_ help?**
+## _Modeling to Learn 3.7_ Use Cases
 
-**Script 02. What gets in the way of meeting patients' needs?**
+**01. How might _Modeling to Learn_ help?**
 
-**Script 03. How can we get more patients better without more hours in the day?**
+**02. What gets in the way of meeting patients' needs?**
 
-**Script 04. How can a _Modeling to Learn_ consultation help?**
+**03. How can we get more patients better without more hours in the day?**
 
-**Script 05. Why is _Modeling to Learn_ useful when we have critical staffing and hiring needs?** 
+**04. How can a _Modeling to Learn_ consultation help?**
 
-**Script 06. How does _Modeling to Learn_ benefit Substance Use Disorder or SUD programs?**
+**05. Why is _Modeling to Learn_ useful when we have critical staffing and hiring needs?** 
 
-**Script 07. How does _Modeling to Learn_ benefit PTSD Clinical Teams or PCTs?**
+**06. How does _Modeling to Learn_ benefit Substance Use Disorder or SUD programs?**
 
-**Script 08. Can _Modeling to Learn_ benefit Behavioral Health Integration Program or BHIP teams?**
+**07. How does _Modeling to Learn_ benefit PTSD Clinical Teams or PCTs?**
 
-**Script 09. How does _Modeling to Learn_ support stepped care?**
+**08. Can _Modeling to Learn_ benefit Behavioral Health Integration Program or BHIP teams?**
 
-**Script 10. How does measurement based care detect patient improvement or risk?**
+**09. How does _Modeling to Learn_ support stepped care?**
 
-**Script 11. What key drivers of higher care quality improve recovery and prevent suicide?**
+**10. How does measurement based care detect patient improvement or risk?**
 
-**Script 12. How can we improve SAIL with _Modeling to Learn_?**
+**11. What key drivers of higher care quality improve recovery and prevent suicide?**
 
-**Script 13. Why is the _MTL Red_ Data User Interface useful?**
+**12. How can we improve SAIL with _Modeling to Learn_?**
 
-**Script 14. How do five key variables drive care quality?**
+**13. Why is the _MTL Red_ Data User Interface useful?**
 
-**Script 15. Why is the _MTL Blue_ Simulation User Interface useful?**
+**14. How do five key variables drive care quality?**
 
-**Script 16. Why is applied systems thinking more likely to help us avoid costly mistakes?**
+**15. Why is the _MTL Blue_ Simulation User Interface useful?**
 
-**Script 17. Why is _Modeling to Learn_ able to provide new insights?**
+**16. Why is applied systems thinking more likely to help us avoid costly mistakes?**
 
-**Script 18. Why does _Modeling to Learn_ emphasize flows through care over time?**
+**17. Why is _Modeling to Learn_ able to provide new insights?**
 
-**Script 19. How does _Modeling to Learn_ help improve medication management?**
+**18. Why does _Modeling to Learn_ emphasize flows through care over time?**
 
-**Script 20. How does _Modeling to Learn_ help improve psychotherapy?**
+**19. How does _Modeling to Learn_ help improve medication management?**
 
-**Script 21. If we keep making the same care decisions, will things get better or worse?**
+**20. How does _Modeling to Learn_ help improve psychotherapy?**
 
-**Script 22. How does our appointment backlog extend the weeks between visits?**
+**21. If we keep making the same care decisions, will things get better or worse?**
 
-**Script 23.  How can we better balance needs of new and existing patients?**
+**22. How does our appointment backlog extend the weeks between visits?**
 
-**Script 24. How can we leverage the feedback, rates, and volume of our local care system?**
+**23.  How can we better balance needs of new and existing patients?**
+
+**24. How can we leverage the feedback, rates, and volume of our local care system?**
