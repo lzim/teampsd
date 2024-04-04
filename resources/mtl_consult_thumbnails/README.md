@@ -1,6 +1,6 @@
 # _Modeling to Learn 3.7 Consults_
-<img src = "[https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png](https://github.com/lzim/teampsd/blob/mtl_consult_thumbnails/resources/logos/mtl_consult.png)"
-     height = "175" width = "300">
+
+![](https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_consult.png)  
 
 ## _Modeling to Learn 3.7_ Use Cases
 
