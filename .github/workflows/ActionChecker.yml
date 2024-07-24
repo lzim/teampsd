@@ -131,7 +131,7 @@ jobs:
         # Branch name to pull from, default is triggered branch
         #source_branch: 'Feature' # optional
         # Branch name to sync to in this repo, default is master
-        destination_branch: 'QA' # optional, default is master
+        destination_branch: 'gh-pages' # optional, default is master
         # Pull request title
         #pr_title: # optional
         # Pull request body
