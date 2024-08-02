@@ -206,7 +206,7 @@ pc-user-va-or-non-va
 non-va-windows-10-users-only-record-screen-using-game-dvr
 va-or-non-va-record-screen-using-powerpoint
 mac-user-usually-non-va
-record-any-window-on-your-mac.
+record-any-window-on-your-mac
 upload-screencast-video
 instructions-1
 create-a-google-account
