@@ -6,8 +6,8 @@ subheader
 partners---team-psd
 user-roles---team-psd-manualworkflow
 glossary
-acronym
-link
+acronyms
+links
 metadata
 contribute-to-manual
 create-a-feature-branch-from-the-gh-pages-branch.
@@ -306,4 +306,4 @@ marking-a-file-as-viewed
 submitting-your-review
 glossary-1
 terms
-acronyms
+acronyms-1

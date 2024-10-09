@@ -183,7 +183,7 @@ Clicked subchapter that reveals subheaders:
 
 **ZenHub Pipelines**: Pipelines are columns within the overall ZenHub Board to show where Issues belong in which pipeline, allowing for a clear and consistent flow of Issues across the Board. You can click on the light grey (i) icon within each pipeline to see the description.
 
-## Acronym
+## Acronyms
 
 **AAHRPP**: Association for the Accreditation of Human Research Protection Program  
 **ACCME**: Accreditation Council for Continuing Medical Education  
@@ -283,7 +283,56 @@ Clicked subchapter that reveals subheaders:
 **X Waiver**: Needed to prescribe buprenorphine; must complete training and still limits # of patients per physician that can receive bup
 test commit
 
-## Link
+## Links
+
+[](https://mtl.how/2025_roadmap)
+[](https://mtl.how/authorship)
+[](https://mtl.how/blue)
+[](https://mtl.how/bugs)
+[](https://mtl.how/camhd_par_cadence)
+[](https://mtl.how/community)
+[](https://mtl.how/consult)
+[](https://mtl.how/data)
+[](https://mtl.how/data_test)
+[](https://mtl.how/demo)
+[](https://mtl.how/demo_login)
+[](https://mtl.how/facilitate)
+[](https://mtl.how/facilitation)
+[](https://mtl.how/facilitation_manual)
+[](https://mtl.how/feedback1a)
+[](https://mtl.how/feedback1b)
+[](https://mtl.how/feedback2a)
+[](https://mtl.how/feedback2b)
+[](https://mtl.how/fidelity)
+[](https://mtl.how/github)
+[](https://mtl.how/intro)
+[](https://mtl.how/lucid)
+[](https://mtl.how/manual)
+[](https://mtl.how/manuscripts)
+[](https://mtl.how/measures)
+[](https://mtl.how/menu)
+[](https://mtl.how/osf)
+[](https://mtl.how/quick_overview)
+[](https://mtl.how/red)
+[](https://mtl.how/refs)
+[](https://mtl.how/register)
+[](https://mtl.how/sail)
+[](https://mtl.how/sim)
+[](https://mtl.how/sim_dev)
+[](https://mtl.how/sim_test)
+[](https://mtl.how/sketches_of_recovery)
+[](https://mtl.how/team)
+[](https://mtl.how/teampsd)
+[](https://mtl.how/teampsd_dashboard)
+[](https://mtl.how/teampsd_manual)
+[](https://mtl.how/test)
+[](https://mtl.how/tms)
+[](https://mtl.how/use_case)
+[](https://mtl.how/video)
+[](https://mtl.how/videos)
+[](https://mtl.how/why_how)
+[](https://mtl.how/zenhub)
+[](https://mtl.how/zenhub_app)
 
 ## Metadata
 
