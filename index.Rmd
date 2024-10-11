@@ -326,7 +326,7 @@ test commit
 [https://mtl.how/teampsd_dashboard](https://mtl.how/teampsd_dashboard)
 [https://mtl.how/teampsd_manual](https://mtl.how/teampsd_manual)
 [https://mtl.how/test](https://mtl.how/test)
-[(https://mtl.how/tms](https://mtl.how/tms)
+[https://mtl.how/tms](https://mtl.how/tms)
 [https://mtl.how/use_case](https://mtl.how/use_case)
 [https://mtl.how/video](https://mtl.how/video)
 [https://mtl.how/videos](https://mtl.how/videos)
