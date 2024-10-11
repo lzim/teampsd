@@ -299,7 +299,7 @@ test commit
 [https://mtl.how/facilitate](https://mtl.how/facilitate)
 [https://mtl.how/facilitation](https://mtl.how/facilitation)
 [https://mtl.how/facilitation_manual](https://mtl.how/facilitation_manual)
-[(https://mtl.how/feedback1a](https://mtl.how/feedback1a)
+[https://mtl.how/feedback1a](https://mtl.how/feedback1a)
 [https://mtl.how/feedback1b](https://mtl.how/feedback1b)
 [https://mtl.how/feedback2a](https://mtl.how/feedback2a)
 [https://mtl.how/feedback2b](https://mtl.how/feedback2b)
