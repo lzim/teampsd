@@ -35,6 +35,7 @@ CME
 CPRS
 CRADA
 CRM
+cspellcdict
 Canadian
 Catholic
 Cheatsheet
