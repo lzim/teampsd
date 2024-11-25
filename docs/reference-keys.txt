@@ -25,7 +25,10 @@ create-a-pull-request
 check-the-file-against-github-actions
 linter-actions
 editors
+correct-a-misspelling-in-a-markdown-file
+update-cspellcdict.txt
 publish-to-the-master-gh-pages-branch
+delete-the-feature-branch
 standard-operations
 team-psd
 scientific-values
