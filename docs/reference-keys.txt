@@ -252,6 +252,7 @@ use-lucid-charts-for-figures-and-tables
 use-the-manuscript-tracker-in-github
 open-science-framework
 cheatsheet
+set-up-zotero
 lucidcharts-1
 organizational-account-setup-sharing-permissions
 organizational-account-admin
