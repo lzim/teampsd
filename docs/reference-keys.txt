@@ -48,6 +48,8 @@ redundancy-success-mode
 workflowschedule
 request-time-off
 github-labels-table
+team-psd-repo-labels
+research-repo-labels
 project-management-flowmap-needed
 waterfall
 agile
