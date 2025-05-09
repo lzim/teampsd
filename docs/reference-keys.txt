@@ -84,6 +84,7 @@ manage-teampsd_vha-workflows-via-teams-and-outlook
 edit-a-guide-via-pull-request-and-plan-devtestprod-quality-assurance-sync
 improve-the-team-psd-manual
 create-a-feature-branch-from-the-gh-pages-branch.
+section
 create-a-new-markdown-file-in-the-branch.
 find-and-edit-a-markdown-file.
 update-the-_bookdown.yml-file-to-reflect-proper-chapter-order.
@@ -209,12 +210,6 @@ mac-user-usually-non-va
 record-any-window-on-your-mac
 upload-screencast-video
 instructions-1
-create-a-google-account
-share-email-with-brand-account-manager
-manage-youtube-invitation
-upload-user-persona-video
-convention-for-video-details-during-upload
-speed-up-or-slow-down-youtube-viewing
 week-4-review-second-story-perspectives
 reflect-second-stories
 va-citrix
