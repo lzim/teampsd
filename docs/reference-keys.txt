@@ -84,7 +84,6 @@ manage-teampsd_vha-workflows-via-teams-and-outlook
 edit-a-guide-via-pull-request-and-plan-devtestprod-quality-assurance-sync
 improve-the-team-psd-manual
 create-a-feature-branch-from-the-gh-pages-branch.
-section
 create-a-new-markdown-file-in-the-branch.
 find-and-edit-a-markdown-file.
 update-the-_bookdown.yml-file-to-reflect-proper-chapter-order.
