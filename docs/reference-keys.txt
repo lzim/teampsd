@@ -96,6 +96,13 @@ coordinate-train-workflow
 onboard-new-team-member-to-va
 request-access-to-the-team-psd-folder
 map-a-network-drive-to-your-gfe-or-remote-desktop
+deliver-value-faster-by-managing-flow-and-limiting-work-in-progress
+avoid-the-resource-utilization-trap
+apply-work-in-progress-limits
+coordinate-team-focus
+reduce-batch-sizes
+implement-lean-portfolio-management
+understand-value-streams-and-guardrails
 onboard-a-team-member-through-pavir
 create-or-edit-github-issue-template
 export-lists-of-identifiable-mtl-team-data-for-research-analysis
