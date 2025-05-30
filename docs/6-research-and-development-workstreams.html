@@ -23,7 +23,7 @@
 <meta name="author" content="Team PSD" />
 
 
-<meta name="date" content="2025-04-30" />
+<meta name="date" content="2025-05-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -185,6 +185,7 @@
 <ul>
 <li class="chapter" data-level="4.10.1" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#request-access-to-the-team-psd-folder"><i class="fa fa-check"></i><b>4.10.1</b> Request Access to the Team PSD Folder</a></li>
 <li class="chapter" data-level="4.10.2" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#map-a-network-drive-to-your-gfe-or-remote-desktop"><i class="fa fa-check"></i><b>4.10.2</b> Map a Network Drive to Your GFE or Remote Desktop</a></li>
+<li class="chapter" data-level="4.10.3" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#deliver-value-faster-by-managing-flow-and-limiting-work-in-progress"><i class="fa fa-check"></i><b>4.10.3</b> Deliver Value Faster by Managing Flow and Limiting Work in Progress</a></li>
 </ul></li>
 <li class="chapter" data-level="4.11" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#onboard-a-team-member-through-pavir"><i class="fa fa-check"></i><b>4.11</b> Onboard a Team Member through PAVIR</a></li>
 <li class="chapter" data-level="4.12" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#create-or-edit-github-issue-template"><i class="fa fa-check"></i><b>4.12</b> Create or Edit GitHub Issue Template</a></li>
@@ -677,53 +678,65 @@
 - <strong>Workstream:</strong> R&amp;D
 - <strong>Workflow:</strong> quant_workflow, portfolio_workflow</p>
 <p><a href="https://teams.microsoft.com/l/message/19:d15133fbfb4d4c3a8c81701292b1890d@thread.skype/1691705545095?tenantId=e95f1b23-abaf-45ee-821d-b7ab251ab3bf&amp;groupId=1db500d5-0d01-4254-af42-ad3f78bafacd&amp;parentMessageId=1691705545095&amp;teamName=teampsd_vha&amp;channelName=training_workflow&amp;createdTime=1691705545095&amp;allowXTenantAccess=false">Teams Channel Link</a></p>
-<p><strong>Note: for this example, we are showing how to get to IIR 6 month provider survey.</strong>
-1. Navigate to <a href="https://varedcap.rcp.vaec.va.gov/redcap/">VA REDCap</a>.
-2. From the top navigation bar, select My Projects.
-3. Select [Final] Modeling to Learn Follow-up (IIR 6 month 2b).
-4. Click on Data Exports, Reports and Stats on the left-hand navigation bar.
-5. Select My Reports &amp; Exports tab.
-6. Click on + Create New Report button.
-7. Create a standard name for your report using the MTL Teams name.
-- release
-- version (red/blue)
-- PROD or TEST
-- sta3n facility
-- alexandria_pct
-8. Scroll down to Step 2 and click the + Quick Add button.
-9. Scroll down to Follow-up Participatory Measure Partnership and click on Select All.</p>
-<p>**Note: VA IIR Aim 2 Mediatory is Participatory Learning (NIH R01 Aim 2 Mediator will have the systems thinking items).
-- A total of 93 files selected for the VA IIR Aim 2 Mediator at 6 months.
-- See also <a href="https://mtl.how/measures">https://mtl.how/measures</a>.
-10. Click Select All under all + Quick Add options.
-11. Click the Close button.
-12. Scroll down to click on Step 3 to review a specific site to track engagement and see how many people completed this survey for a specific site.
-13. Scroll down and click the Save Report button.
-14. Receive the confirmation that the site level report was created. Click on Return to My Reports &amp; Exports.
-15. Review the total sites listed and View Report button.
-16. You’ll see the number of results returned, the number of records queried, and feedback.
-17. Click back on the My Reports &amp; Exports tab to produce the Provider Enrollment Table.
-18. Click the + Create New Report button to create the provider enrollment report, which will track enrollment for all sites moving forward.
-19. Fill in the Name of Report: field.
-20. Scroll down to Step 2 and click the + Quick Add button.
-21. Scroll down to the Demographics section, choose Select All, and click Close button.
-22. Scroll all the way to the bottom and click Save Report button. A pop-up will appear saying your report has been saved.
-23. Click the View report button. You will see the Provider Enrollment Table.
-24. There is a PHS standard format for enrollment tables.
-25. Navigate to the enrollment_tables folder in the appropriate folder within Team PSD &gt; Grants.</p>
-<p><strong>Note:</strong> This information is reported to:
-- NIH &amp; VA
-- Progress Reports eRA Commons or DSMB
-- Any IRB Modifications also need to report enrollment</p>
-<p><strong>Patient Enrollment</strong>
-1. MS Teams.
-2. Outlook <a href="mailto:mtl.info@va.gov" class="email">mtl.info@va.gov</a>.
-3. CRM - Task list.
-4. VA REDCap - setting the team up in Provider Survey.
-5. Track the dates for this team for analyses.</p>
-<p><strong>Patient Enrollment</strong>
-1. wk3_oct_epic story12: Prep Human Subjects Enrollment tables for R01 grant, <a href="https://github.com/lzim/research/issues/249">#249</a>
-2. wk4 Oct_epic story 11: R01 human subjects enrollment table QA prod card, <a href="https://github.com/lzim/research/issues/278">#278</a></p>
+<p><strong>Note: for this example, we are showing how to get to IIR 6 month provider survey.</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Navigate to <a href="https://varedcap.rcp.vaec.va.gov/redcap/">VA REDCap</a>.</p></li>
+<li><p>From the top navigation bar, select My Projects.</p></li>
+<li><p>Select [Final] Modeling to Learn Follow-up (IIR 6 month 2b).</p></li>
+<li><p>Click on Data Exports, Reports and Stats on the left-hand navigation bar.</p></li>
+<li><p>Select My Reports &amp; Exports tab.</p></li>
+<li><p>Click on + Create New Report button.</p></li>
+<li><p>Create a standard name for your report using the MTL Teams name.</p>
+<ul>
+<li>release</li>
+<li>version (red/blue)</li>
+<li>PROD or TEST</li>
+<li>sta3n facility</li>
+<li>alexandria_pct</li>
+</ul></li>
+<li><p>Scroll down to Step 2 and click the + Quick Add button.</p></li>
+<li><p>Scroll down to Follow-up Participatory Measure Partnership and click on Select All.</p>
+<p><strong>Note:</strong> VA IIR Aim 2 Mediatory is Participatory Learning (NIH R01 Aim 2 Mediator will have the systems thinking items).</p>
+<ul>
+<li>A total of 93 files selected for the VA IIR Aim 2 Mediator at 6 months.</li>
+<li>See also <a href="https://mtl.how/measures">https://mtl.how/measures</a>.</li>
+</ul></li>
+<li><p>Click Select All under all + Quick Add options.</p></li>
+<li><p>Click the Close button.</p></li>
+<li><p>Scroll down to click on Step 3 to review a specific site to track engagement and see how many people completed this survey for a specific site.</p></li>
+<li><p>Scroll down and click the Save Report button.</p></li>
+<li><p>Receive the confirmation that the site level report was created. Click on Return to My Reports &amp; Exports.</p></li>
+<li><p>Review the total sites listed and View Report button.</p></li>
+<li><p>You’ll see the number of results returned, the number of records queried, and feedback.</p></li>
+<li><p>Click back on the My Reports &amp; Exports tab to produce the Provider Enrollment Table.</p></li>
+<li><p>Click the + Create New Report button to create the provider enrollment report, which will track enrollment for all sites moving forward.</p></li>
+<li><p>Fill in the Name of Report: field.</p></li>
+<li><p>Scroll down to Step 2 and click the + Quick Add button.</p></li>
+<li><p>Scroll down to the Demographics section, choose Select All, and click Close button.</p></li>
+<li><p>Scroll all the way to the bottom and click Save Report button. A pop-up will appear saying your report has been saved.</p></li>
+<li><p>Click the View report button. You will see the Provider Enrollment Table.</p></li>
+<li><p>There is a PHS standard format for enrollment tables.</p></li>
+<li><p>Navigate to the enrollment_tables folder in the appropriate folder within Team PSD &gt; Grants.</p></li>
+</ol>
+<p><strong>Note:</strong> This information is reported to:</p>
+<ul>
+<li>NIH &amp; VA</li>
+<li>Progress Reports eRA Commons or DSMB</li>
+<li>Any IRB Modifications also need to report enrollment</li>
+</ul>
+<p><strong>Patient Enrollment</strong></p>
+<ol style="list-style-type: decimal">
+<li>MS Teams.</li>
+<li>Outlook <a href="mailto:mtl.info@va.gov" class="email">mtl.info@va.gov</a>.</li>
+<li>CRM - Task list.</li>
+<li>VA REDCap - setting the team up in Provider Survey.</li>
+<li>Track the dates for this team for analyses.</li>
+</ol>
+<p><strong>Patient Enrollment</strong></p>
+<ol style="list-style-type: decimal">
+<li>wk3_oct_epic story12: Prep Human Subjects Enrollment tables for R01 grant, <a href="https://github.com/lzim/research/issues/249">#249</a></li>
+<li>wk4 Oct_epic story 11: R01 human subjects enrollment table QA prod card, <a href="https://github.com/lzim/research/issues/278">#278</a></li>
+</ol>
 
 </div>
 </div>

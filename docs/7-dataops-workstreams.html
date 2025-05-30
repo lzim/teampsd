@@ -23,7 +23,7 @@
 <meta name="author" content="Team PSD" />
 
 
-<meta name="date" content="2025-04-30" />
+<meta name="date" content="2025-05-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -185,6 +185,7 @@
 <ul>
 <li class="chapter" data-level="4.10.1" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#request-access-to-the-team-psd-folder"><i class="fa fa-check"></i><b>4.10.1</b> Request Access to the Team PSD Folder</a></li>
 <li class="chapter" data-level="4.10.2" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#map-a-network-drive-to-your-gfe-or-remote-desktop"><i class="fa fa-check"></i><b>4.10.2</b> Map a Network Drive to Your GFE or Remote Desktop</a></li>
+<li class="chapter" data-level="4.10.3" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#deliver-value-faster-by-managing-flow-and-limiting-work-in-progress"><i class="fa fa-check"></i><b>4.10.3</b> Deliver Value Faster by Managing Flow and Limiting Work in Progress</a></li>
 </ul></li>
 <li class="chapter" data-level="4.11" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#onboard-a-team-member-through-pavir"><i class="fa fa-check"></i><b>4.11</b> Onboard a Team Member through PAVIR</a></li>
 <li class="chapter" data-level="4.12" data-path="4-shared-workstreams.html"><a href="4-shared-workstreams.html#create-or-edit-github-issue-template"><i class="fa fa-check"></i><b>4.12</b> Create or Edit GitHub Issue Template</a></li>
@@ -593,17 +594,21 @@
 <li><strong>Reference:</strong> <a href="mtl.how/research_features">mtl.how/research_features</a></li>
 </ul>
 <p><a href="https://teams.microsoft.com/l/message/19:d15133fbfb4d4c3a8c81701292b1890d@thread.skype/1655500567625?tenantId=e95f1b23-abaf-45ee-821d-b7ab251ab3bf&amp;groupId=1db500d5-0d01-4254-af42-ad3f78bafacd&amp;parentMessageId=1655500567625&amp;teamName=teampsd_vha&amp;channelName=training_workflow&amp;createdTime=1655500567625&amp;allowXTenantAccess=false">Teams Channel Link</a></p>
-<p><strong>Request a New Feature</strong>
-1. Navigate to one of the two feature trackers:
-- Research: <a href="https://mtl.how/research_features" class="uri">https://mtl.how/research_features</a>
-- Development or Operations: <a href="https://mtl.how/features" class="uri">https://mtl.how/features</a>
-2. All feature requests begin in the needs_triage.
-3. Click on Issues at the top navigation bar.
-4. Click on the green New Issue button.
-5. Select Feature. This GitHub issue template shows what kind of information is needed for a Feature.
-6. Delete that information and replace it with the information for your Feature.
-7. On the right panel, click Projects, then select research_feature_tracker or feature_tracker.
-8. When done, click the green Submit new issue icon. Workstream and Workflow Leads will scope the requirements for the new Feature.</p>
+<p><strong>Request a New Feature</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Navigate to one of the two feature trackers:</p>
+<ul>
+<li>Research: <a href="https://mtl.how/research_features" class="uri">https://mtl.how/research_features</a></li>
+<li>Development or Operations: <a href="https://mtl.how/features" class="uri">https://mtl.how/features</a></li>
+</ul></li>
+<li><p>All feature requests begin in the needs_triage.</p></li>
+<li><p>Click on Issues at the top navigation bar.</p></li>
+<li><p>Click on the green New Issue button.</p></li>
+<li><p>Select Feature. This GitHub issue template shows what kind of information is needed for a Feature.</p></li>
+<li><p>Delete that information and replace it with the information for your Feature.</p></li>
+<li><p>On the right panel, click Projects, then select research_feature_tracker or feature_tracker.</p></li>
+<li><p>When done, click the green Submit new issue icon. Workstream and Workflow Leads will scope the requirements for the new Feature.</p></li>
+</ol>
 
 </div>
 <div id="coordinate-a-code-review" class="section level2 hasAnchor" number="7.7">
@@ -763,15 +768,15 @@ new models must be moved into the next version folder. All of these actions are 
 <ol style="list-style-type: decimal">
 <li>Navigate to gh-pages branch</li>
 </ol>
-<p><img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/nav_gh-pages.png?raw=true"></p>
+<p><img alt="Image depicting how to navigate to the gh-pages branch." src="https://raw.githubusercontent.com/lzim/teampsd/gh-pages/images/nav_gh-pages.png"></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Navigate to the .github/workflows folder</li>
 </ol>
-<p><img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/nav_github_workflows.png?raw=true"></p>
+<p><img alt="Image depicting how to navigate to the .github/workflows folder." src="https://raw.githubusercontent.com/lzim/teampsd/gh-pages/images/nav_github_workflows.png"></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Open make_test_release_branch.yml file.</li>
 </ol>
-<p><img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/open_make_test_release_branch_yaml.png?raw=true"></p>
+<p><img alt="Image depicting navigation to the make_test_release_branch.yml file." src="https://raw.githubusercontent.com/lzim/teampsd/gh-pages/images/open_make_test_release_branch_yaml.png"></p>
 <ol start="4" style="list-style-type: decimal">
 <li>Make the modifications shown below.</li>
 </ol>
@@ -781,12 +786,12 @@ new models must be moved into the next version folder. All of these actions are 
 <li>Enter the name of the new release. This will tell the action what to name the new release folder for all the training materials.</li>
 <li>The FindReplace string will find all instances of the words or strings after “find” and replace with the word or string immediately following “replace.” This string is unlimited and can find as many characters, words or strings as desired.</li>
 </ul>
-<p><img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/make_test_release_branch.png?raw=true"></p>
+<p><img alt="Image depicting modifications to make to the make_test_release_branch.yml file." src="https://raw.githubusercontent.com/lzim/teampsd/gh-pages/images/make_test_release_branch.png"></p>
 <ol start="5" style="list-style-type: decimal">
 <li>When the test_version_release.yml file instructions are updated, commit the changes.</li>
 <li>Navigate back to the branch navigation button.</li>
 </ol>
-<p><img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/nav_find_create_branch.png?raw=true"></p>
+<p><img alt="Image depicting where to access the branch navigation button." src="https://raw.githubusercontent.com/lzim/teampsd/gh-pages/images/nav_find_create_branch.png"></p>
 <ol start="7" style="list-style-type: decimal">
 <li>Type in the new version test release branch name and press enter. The action should fire when the new branch is created. This can be monitored by clicking on the Actions tab.</li>
 </ol>
@@ -795,7 +800,7 @@ new models must be moved into the next version folder. All of these actions are 
 <li>the “test_version” in the name will trigger the action.</li>
 <li>“x_x” indicates the current release and the future release.</li>
 </ul>
-<p><img src = "https://github.com/lzim/teampsd/blob/gh-pages/images/enter_test_version_release_branch_name.png?raw=true"></p>
+<p><img alt="Image depicting how to create a new version test release branch." src="https://raw.githubusercontent.com/lzim/teampsd/gh-pages/images/enter_test_version_release_branch_name.png"></p>
 
 </div>
 </div>
