@@ -157,6 +157,7 @@ manage-va-contracts
 sync-bug-tracker-progress-to-squash-team-psd-and-research-bugs
 sync-feature-tracker-progress-to-develop-team-psd-and-research-features
 coordinate-a-code-review
+how-to-access-r-notebooks
 update-an-r-notebook
 improve-msd365-crm-integration-see-d365-label
 refresh-data-for-r01-or-iir
